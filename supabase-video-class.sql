@@ -94,36 +94,70 @@ create table if not exists public.video_class_rollouts (
 create table if not exists public.video_class_courses (
   code text primary key check (code ~ '^[a-z0-9]+(?:-[a-z0-9]+)*$' and length(code) <= 64),
   title text not null check (length(trim(title)) between 1 and 160),
+  description text not null default '',
   sort_order integer not null default 0,
   published boolean not null default true,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
 
+alter table public.video_class_courses
+  add column if not exists description text not null default '';
+
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint constraint_record
+    where constraint_record.conrelid = 'public.video_class_courses'::regclass
+      and constraint_record.conname = 'video_class_courses_description_check'
+  ) then
+    alter table public.video_class_courses
+      add constraint video_class_courses_description_check
+      check (length(description) <= 500);
+  end if;
+end;
+$$;
+
 create index if not exists video_class_courses_sort_idx
   on public.video_class_courses (sort_order, code);
 
 -- Stable course codes are API identifiers. Titles may be refined without
 -- invalidating entitlements, lesson foreign keys, or saved learning state.
-insert into public.video_class_courses (code, title, sort_order, published)
+insert into public.video_class_courses (code, title, description, sort_order, published)
 values
-  ('dse', 'DSE 中學文憑試', 10, true),
-  ('ielts', 'IELTS 國際英文課程', 20, true),
-  ('toefl', 'TOEFL 託福', 30, true),
-  ('toeic', 'TOEIC 多益', 40, true),
-  ('pte', 'Pearson Test of English (PTE)', 50, true),
-  ('igcse', 'IGCSE', 60, true),
-  ('sat', 'SAT', 70, true),
-  ('ib', 'IB 課程', 80, true)
+  ('dse', 'DSE 中學文憑試', '', 10, true),
+  ('ielts', 'IELTS 國際英文課程', '', 20, true),
+  ('toefl', 'TOEFL 託福', '', 30, true),
+  ('toeic', 'TOEIC 多益', '', 40, true),
+  ('pte', 'Pearson Test of English (PTE)', '', 50, true),
+  ('igcse', 'IGCSE', '', 60, true),
+  ('sat', 'SAT', '', 70, true),
+  ('ib', 'IB 課程', '', 80, true),
+  ('grammar', 'Grammar', '英文語法課程', 90, true)
 on conflict (code) do update
 set title = excluded.title,
+    description = case
+      when length(excluded.description) > 0 then excluded.description
+      else public.video_class_courses.description
+    end,
     sort_order = excluded.sort_order,
     updated_at = case
       when public.video_class_courses.title is distinct from excluded.title
+        or (
+          length(excluded.description) > 0
+          and public.video_class_courses.description is distinct from excluded.description
+        )
         or public.video_class_courses.sort_order is distinct from excluded.sort_order
       then now()
       else public.video_class_courses.updated_at
-    end;
+    end
+where public.video_class_courses.title is distinct from excluded.title
+   or public.video_class_courses.sort_order is distinct from excluded.sort_order
+   or (
+     length(excluded.description) > 0
+     and public.video_class_courses.description is distinct from excluded.description
+   );
 
 create table if not exists public.video_class_student_access (
   student_id uuid primary key references public.flashcard_students(id) on delete cascade,
@@ -223,6 +257,184 @@ create index if not exists video_class_lessons_created_by_idx
   on public.video_class_lessons (created_by)
   where created_by is not null;
 
+-- Progressive MP4 renditions remain private R2 object keys. Student-facing
+-- functions expose only the presentation metadata needed for a quality picker.
+create table if not exists public.video_class_lesson_renditions (
+  id uuid primary key default gen_random_uuid(),
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  quality_code text not null
+    check (quality_code in ('480p', '720p', '1080p', 'max')),
+  display_label text not null check (length(trim(display_label)) between 1 and 40),
+  height_pixels integer check (height_pixels is null or height_pixels between 1 and 16384),
+  object_key text not null unique check (length(object_key) between 1 and 900),
+  content_type text not null default 'video/mp4'
+    check (content_type ~ '^video/[a-z0-9][a-z0-9.+-]*$'),
+  byte_length bigint check (byte_length is null or byte_length > 0),
+  sort_order integer not null default 0,
+  is_default boolean not null default false,
+  enabled boolean not null default true,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  created_by uuid references public.video_class_admin_accounts(id) on delete set null,
+  unique (lesson_id, quality_code)
+);
+
+create unique index if not exists video_class_renditions_one_default_idx
+  on public.video_class_lesson_renditions (lesson_id)
+  where enabled = true and is_default = true;
+create index if not exists video_class_renditions_lesson_enabled_idx
+  on public.video_class_lesson_renditions (lesson_id, sort_order, height_pixels, quality_code)
+  where enabled = true;
+create index if not exists video_class_renditions_created_by_idx
+  on public.video_class_lesson_renditions (created_by)
+  where created_by is not null;
+
+-- One protected card image per lesson keeps the authorization route keyed by
+-- lesson UUID and prevents public thumbnail URLs from bypassing entitlements.
+create table if not exists public.video_class_lesson_thumbnails (
+  lesson_id uuid primary key references public.video_class_lessons(id) on delete cascade,
+  object_key text not null unique check (length(object_key) between 1 and 900),
+  content_type text not null
+    check (content_type in ('image/jpeg', 'image/png', 'image/webp', 'image/avif')),
+  byte_length bigint check (byte_length is null or byte_length > 0),
+  enabled boolean not null default true,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  created_by uuid references public.video_class_admin_accounts(id) on delete set null
+);
+
+create index if not exists video_class_thumbnails_created_by_idx
+  on public.video_class_lesson_thumbnails (created_by)
+  where created_by is not null;
+
+create table if not exists public.video_class_tags (
+  id uuid primary key default gen_random_uuid(),
+  slug text not null unique
+    check (slug ~ '^[a-z0-9]+(?:-[a-z0-9]+)*$' and length(slug) <= 80),
+  label text not null check (length(trim(label)) between 1 and 80),
+  sort_order integer not null default 0,
+  published boolean not null default true,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  created_by uuid references public.video_class_admin_accounts(id) on delete set null
+);
+
+create index if not exists video_class_tags_published_sort_idx
+  on public.video_class_tags (sort_order, slug, id)
+  where published = true;
+create index if not exists video_class_tags_created_by_idx
+  on public.video_class_tags (created_by)
+  where created_by is not null;
+
+create table if not exists public.video_class_lesson_tags (
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  tag_id uuid not null references public.video_class_tags(id) on delete cascade,
+  created_at timestamptz not null default now(),
+  created_by uuid references public.video_class_admin_accounts(id) on delete set null,
+  primary key (lesson_id, tag_id)
+);
+
+create index if not exists video_class_lesson_tags_tag_idx
+  on public.video_class_lesson_tags (tag_id, lesson_id);
+create index if not exists video_class_lesson_tags_created_by_idx
+  on public.video_class_lesson_tags (created_by)
+  where created_by is not null;
+
+create table if not exists public.video_class_official_playlists (
+  id uuid primary key default gen_random_uuid(),
+  course_code text not null references public.video_class_courses(code)
+    on update cascade on delete restrict,
+  name text not null check (length(trim(name)) between 1 and 160),
+  description text not null default '' check (length(description) <= 1000),
+  sort_order integer not null default 0,
+  published boolean not null default false,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  created_by uuid references public.video_class_admin_accounts(id) on delete set null
+);
+
+create unique index if not exists video_class_official_playlists_course_name_idx
+  on public.video_class_official_playlists (course_code, lower(trim(name)));
+create index if not exists video_class_official_playlists_published_sort_idx
+  on public.video_class_official_playlists (course_code, sort_order, id)
+  where published = true;
+create index if not exists video_class_official_playlists_created_by_idx
+  on public.video_class_official_playlists (created_by)
+  where created_by is not null;
+
+create table if not exists public.video_class_official_playlist_items (
+  playlist_id uuid not null references public.video_class_official_playlists(id) on delete cascade,
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  sort_order integer not null default 0,
+  created_at timestamptz not null default now(),
+  created_by uuid references public.video_class_admin_accounts(id) on delete set null,
+  primary key (playlist_id, lesson_id)
+);
+
+create index if not exists video_class_official_items_lesson_idx
+  on public.video_class_official_playlist_items (lesson_id, playlist_id);
+create index if not exists video_class_official_items_order_idx
+  on public.video_class_official_playlist_items (playlist_id, sort_order, lesson_id);
+create index if not exists video_class_official_items_created_by_idx
+  on public.video_class_official_playlist_items (created_by)
+  where created_by is not null;
+
+create table if not exists public.video_class_student_playlists (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  name text not null check (length(trim(name)) between 1 and 80),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create unique index if not exists video_class_student_playlists_name_idx
+  on public.video_class_student_playlists (student_id, lower(trim(name)));
+create index if not exists video_class_student_playlists_student_updated_idx
+  on public.video_class_student_playlists (student_id, updated_at desc, id);
+
+create table if not exists public.video_class_student_playlist_items (
+  playlist_id uuid not null references public.video_class_student_playlists(id) on delete cascade,
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  created_at timestamptz not null default now(),
+  primary key (playlist_id, lesson_id)
+);
+
+create index if not exists video_class_student_playlist_items_lesson_idx
+  on public.video_class_student_playlist_items (lesson_id, playlist_id);
+
+create table if not exists public.video_class_student_clips (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  clip_number integer not null check (clip_number > 0),
+  position_seconds numeric(10,2) not null
+    check (position_seconds >= 0 and position_seconds <= 86400),
+  title text not null default '' check (length(title) <= 120),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique (student_id, lesson_id, clip_number)
+);
+
+create index if not exists video_class_student_clips_lesson_idx
+  on public.video_class_student_clips (lesson_id, created_at, id);
+create index if not exists video_class_student_clips_student_idx
+  on public.video_class_student_clips (student_id, lesson_id, clip_number);
+
+create table if not exists public.video_class_lesson_feedback (
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  lesson_id uuid not null references public.video_class_lessons(id) on delete cascade,
+  picture_quality smallint check (picture_quality is null or picture_quality between 1 and 5),
+  explanation_quality smallint check (explanation_quality is null or explanation_quality between 1 and 5),
+  audio_quality smallint check (audio_quality is null or audio_quality between 1 and 5),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  primary key (student_id, lesson_id),
+  check (picture_quality is not null or explanation_quality is not null or audio_quality is not null)
+);
+
+create index if not exists video_class_lesson_feedback_lesson_idx
+  on public.video_class_lesson_feedback (lesson_id, updated_at desc, student_id);
+
 create table if not exists public.video_class_student_courses (
   student_id uuid not null references public.flashcard_students(id) on delete cascade,
   course_code text not null references public.video_class_courses(code) on update cascade on delete cascade,
@@ -278,8 +490,12 @@ create table if not exists public.video_class_playback_sessions (
   expires_at timestamptz not null,
   revoked_at timestamptz,
   last_position_seconds numeric(10,2) not null default 0 check (last_position_seconds >= 0),
+  view_counted_at timestamptz,
   check (expires_at > created_at)
 );
+
+alter table public.video_class_playback_sessions
+  add column if not exists view_counted_at timestamptz;
 
 create index if not exists video_class_playbacks_student_active_idx
   on public.video_class_playback_sessions (student_id, created_at desc)
@@ -298,12 +514,37 @@ create table if not exists public.video_class_progress (
   position_seconds numeric(10,2) not null default 0 check (position_seconds >= 0),
   duration_seconds numeric(10,2) check (duration_seconds is null or duration_seconds > 0),
   completed_at timestamptz,
+  view_count bigint not null default 0,
+  first_viewed_at timestamptz,
+  last_viewed_at timestamptz,
   updated_at timestamptz not null default now(),
   primary key (student_id, lesson_id)
 );
 
+alter table public.video_class_progress
+  add column if not exists view_count bigint not null default 0,
+  add column if not exists first_viewed_at timestamptz,
+  add column if not exists last_viewed_at timestamptz;
+
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint constraint_record
+    where constraint_record.conrelid = 'public.video_class_progress'::regclass
+      and constraint_record.conname = 'video_class_progress_view_count_check'
+  ) then
+    alter table public.video_class_progress
+      add constraint video_class_progress_view_count_check check (view_count >= 0);
+  end if;
+end;
+$$;
+
 create index if not exists video_class_progress_lesson_idx
   on public.video_class_progress (lesson_id, updated_at desc);
+create index if not exists video_class_progress_lesson_views_idx
+  on public.video_class_progress (lesson_id, last_viewed_at desc, student_id)
+  where view_count > 0;
 
 create table if not exists public.video_class_admin_audit_events (
   id bigint generated always as identity primary key,
@@ -356,6 +597,16 @@ alter table public.video_class_courses enable row level security;
 alter table public.video_class_student_access enable row level security;
 alter table public.video_class_student_sessions enable row level security;
 alter table public.video_class_lessons enable row level security;
+alter table public.video_class_lesson_renditions enable row level security;
+alter table public.video_class_lesson_thumbnails enable row level security;
+alter table public.video_class_tags enable row level security;
+alter table public.video_class_lesson_tags enable row level security;
+alter table public.video_class_official_playlists enable row level security;
+alter table public.video_class_official_playlist_items enable row level security;
+alter table public.video_class_student_playlists enable row level security;
+alter table public.video_class_student_playlist_items enable row level security;
+alter table public.video_class_student_clips enable row level security;
+alter table public.video_class_lesson_feedback enable row level security;
 alter table public.video_class_student_courses enable row level security;
 alter table public.video_class_bookmarks enable row level security;
 alter table public.video_class_notes enable row level security;
@@ -372,6 +623,16 @@ revoke all on table public.video_class_courses from public, anon, authenticated;
 revoke all on table public.video_class_student_access from public, anon, authenticated;
 revoke all on table public.video_class_student_sessions from public, anon, authenticated;
 revoke all on table public.video_class_lessons from public, anon, authenticated;
+revoke all on table public.video_class_lesson_renditions from public, anon, authenticated;
+revoke all on table public.video_class_lesson_thumbnails from public, anon, authenticated;
+revoke all on table public.video_class_tags from public, anon, authenticated;
+revoke all on table public.video_class_lesson_tags from public, anon, authenticated;
+revoke all on table public.video_class_official_playlists from public, anon, authenticated;
+revoke all on table public.video_class_official_playlist_items from public, anon, authenticated;
+revoke all on table public.video_class_student_playlists from public, anon, authenticated;
+revoke all on table public.video_class_student_playlist_items from public, anon, authenticated;
+revoke all on table public.video_class_student_clips from public, anon, authenticated;
+revoke all on table public.video_class_lesson_feedback from public, anon, authenticated;
 revoke all on table public.video_class_student_courses from public, anon, authenticated;
 revoke all on table public.video_class_bookmarks from public, anon, authenticated;
 revoke all on table public.video_class_notes from public, anon, authenticated;
@@ -421,6 +682,143 @@ drop trigger if exists video_class_lessons_touch on public.video_class_lessons;
 create trigger video_class_lessons_touch
 before update on public.video_class_lessons
 for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_renditions_touch on public.video_class_lesson_renditions;
+create trigger video_class_renditions_touch
+before update on public.video_class_lesson_renditions
+for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_thumbnails_touch on public.video_class_lesson_thumbnails;
+create trigger video_class_thumbnails_touch
+before update on public.video_class_lesson_thumbnails
+for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_tags_touch on public.video_class_tags;
+create trigger video_class_tags_touch
+before update on public.video_class_tags
+for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_official_playlists_touch on public.video_class_official_playlists;
+create trigger video_class_official_playlists_touch
+before update on public.video_class_official_playlists
+for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_student_playlists_touch on public.video_class_student_playlists;
+create trigger video_class_student_playlists_touch
+before update on public.video_class_student_playlists
+for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_student_clips_touch on public.video_class_student_clips;
+create trigger video_class_student_clips_touch
+before update on public.video_class_student_clips
+for each row execute function public.video_class_touch_updated_at();
+
+drop trigger if exists video_class_lesson_feedback_touch on public.video_class_lesson_feedback;
+create trigger video_class_lesson_feedback_touch
+before update on public.video_class_lesson_feedback
+for each row execute function public.video_class_touch_updated_at();
+
+create or replace function public.video_class_touch_student_playlist_from_item()
+returns trigger
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_playlist_id uuid;
+begin
+  v_playlist_id := case when tg_op = 'DELETE' then old.playlist_id else new.playlist_id end;
+  update public.video_class_student_playlists playlist
+  set updated_at = now()
+  where playlist.id = v_playlist_id;
+  if tg_op = 'DELETE' then
+    return old;
+  end if;
+  return new;
+end;
+$$;
+
+revoke all on function public.video_class_touch_student_playlist_from_item()
+  from public, anon, authenticated;
+
+drop trigger if exists video_class_student_playlist_items_touch_parent
+  on public.video_class_student_playlist_items;
+create trigger video_class_student_playlist_items_touch_parent
+after insert or update on public.video_class_student_playlist_items
+for each row execute function public.video_class_touch_student_playlist_from_item();
+
+create or replace function public.video_class_touch_official_playlist_from_item()
+returns trigger
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_playlist_id uuid;
+begin
+  v_playlist_id := case when tg_op = 'DELETE' then old.playlist_id else new.playlist_id end;
+  update public.video_class_official_playlists playlist
+  set updated_at = now()
+  where playlist.id = v_playlist_id;
+  if tg_op = 'DELETE' then
+    return old;
+  end if;
+  return new;
+end;
+$$;
+
+revoke all on function public.video_class_touch_official_playlist_from_item()
+  from public, anon, authenticated;
+
+drop trigger if exists video_class_official_playlist_items_touch_parent
+  on public.video_class_official_playlist_items;
+create trigger video_class_official_playlist_items_touch_parent
+after insert or update on public.video_class_official_playlist_items
+for each row execute function public.video_class_touch_official_playlist_from_item();
+
+create or replace function public.video_class_validate_official_playlist_item()
+returns trigger
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_playlist_course text;
+  v_lesson_course text;
+begin
+  select playlist.course_code
+  into v_playlist_course
+  from public.video_class_official_playlists playlist
+  where playlist.id = new.playlist_id;
+  if not found then
+    raise exception 'Official playlist does not exist';
+  end if;
+
+  select lesson.course_code
+  into v_lesson_course
+  from public.video_class_lessons lesson
+  where lesson.id = new.lesson_id;
+  if not found then
+    raise exception 'Official playlist lesson does not exist';
+  end if;
+
+  if v_playlist_course is distinct from v_lesson_course then
+    raise exception 'Official playlist lessons must belong to the playlist course';
+  end if;
+
+  return new;
+end;
+$$;
+
+revoke all on function public.video_class_validate_official_playlist_item()
+  from public, anon, authenticated;
+
+drop trigger if exists video_class_official_playlist_items_validate_course
+  on public.video_class_official_playlist_items;
+create trigger video_class_official_playlist_items_validate_course
+before insert or update of playlist_id, lesson_id
+on public.video_class_official_playlist_items
+for each row execute function public.video_class_validate_official_playlist_item();
 
 create or replace function public.video_class_revoke_admin_sessions_on_password_change()
 returns trigger
@@ -650,6 +1048,80 @@ as $$
 $$;
 
 revoke all on function public._video_class_student_id(uuid) from public, anon, authenticated;
+
+create or replace function public._video_class_student_can_view_lesson(
+  p_student_id uuid,
+  p_lesson_id uuid
+)
+returns boolean
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select p_student_id is not null
+    and p_lesson_id is not null
+    and exists (
+      select 1
+      from public.video_class_lessons lesson
+      join public.video_class_courses course
+        on course.code = lesson.course_code
+       and course.published = true
+      join public.video_class_student_courses access
+        on access.student_id = p_student_id
+       and access.course_code = lesson.course_code
+       and access.enabled = true
+      where lesson.id = p_lesson_id
+        and lesson.published = true
+    );
+$$;
+
+revoke all on function public._video_class_student_can_view_lesson(uuid, uuid)
+  from public, anon, authenticated;
+
+create or replace function public._video_class_student_playlist_json(
+  p_student_id uuid,
+  p_playlist_id uuid
+)
+returns jsonb
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select jsonb_build_object(
+    'id', playlist.id,
+    'name', playlist.name,
+    'lesson_ids', coalesce(item_state.lesson_ids, '[]'::jsonb),
+    'lesson_count', coalesce(item_state.lesson_count, 0),
+    'created_at', playlist.created_at,
+    'updated_at', playlist.updated_at
+  )
+  from public.video_class_student_playlists playlist
+  left join lateral (
+    select
+      jsonb_agg(item.lesson_id order by lesson.sort_order, lesson.created_at, lesson.id) as lesson_ids,
+      count(*)::integer as lesson_count
+    from public.video_class_student_playlist_items item
+    join public.video_class_lessons lesson
+      on lesson.id = item.lesson_id
+     and lesson.published = true
+    join public.video_class_courses course
+      on course.code = lesson.course_code
+     and course.published = true
+    join public.video_class_student_courses access
+      on access.student_id = p_student_id
+     and access.course_code = lesson.course_code
+     and access.enabled = true
+    where item.playlist_id = playlist.id
+  ) item_state on true
+  where playlist.id = p_playlist_id
+    and playlist.student_id = p_student_id
+  limit 1;
+$$;
+
+revoke all on function public._video_class_student_playlist_json(uuid, uuid)
+  from public, anon, authenticated;
 
 create or replace function public._video_class_next_key()
 returns text
@@ -1842,6 +2314,832 @@ begin
 end;
 $$;
 
+create or replace function public.video_class_student_library(
+  p_service_secret text,
+  p_student_token uuid
+)
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+  v_library jsonb;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return null;
+  end if;
+
+  with entitled_lessons as materialized (
+    select
+      lesson.id,
+      lesson.slug,
+      lesson.title,
+      lesson.description,
+      lesson.course_code,
+      course.title as course_title,
+      course.sort_order as course_sort_order,
+      lesson.course_label,
+      lesson.duration_seconds,
+      lesson.sort_order,
+      lesson.created_at
+    from public.video_class_lessons lesson
+    join public.video_class_courses course
+      on course.code = lesson.course_code
+     and course.published = true
+    join public.video_class_student_courses access
+      on access.student_id = v_student_id
+     and access.course_code = lesson.course_code
+     and access.enabled = true
+    where lesson.published = true
+  )
+  select jsonb_build_object(
+    'lessons', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'lesson_id', lesson.id,
+          'slug', lesson.slug,
+          'title', lesson.title,
+          'description', lesson.description,
+          'course_code', lesson.course_code,
+          'course_title', lesson.course_title,
+          'course_sort_order', lesson.course_sort_order,
+          'course_label', lesson.course_label,
+          'duration_seconds', lesson.duration_seconds,
+          'sort_order', lesson.sort_order,
+          'resume_seconds', coalesce(progress.position_seconds, 0),
+          'completed_at', progress.completed_at,
+          'progress_updated_at', progress.updated_at,
+          'bookmarked', bookmark.student_id is not null,
+          'note', note.note,
+          'note_updated_at', note.updated_at,
+          'has_thumbnail', exists (
+            select 1
+            from public.video_class_lesson_thumbnails thumbnail
+            where thumbnail.lesson_id = lesson.id
+              and thumbnail.enabled = true
+          ),
+          'tags', coalesce((
+            select jsonb_agg(
+              jsonb_build_object('slug', tag.slug, 'label', tag.label)
+              order by tag.sort_order, tag.slug
+            )
+            from public.video_class_lesson_tags lesson_tag
+            join public.video_class_tags tag
+              on tag.id = lesson_tag.tag_id
+             and tag.published = true
+            where lesson_tag.lesson_id = lesson.id
+          ), '[]'::jsonb),
+          'official_playlist_names', coalesce((
+            select jsonb_agg(playlist.name order by playlist.sort_order, playlist.name)
+            from public.video_class_official_playlist_items item
+            join public.video_class_official_playlists playlist
+              on playlist.id = item.playlist_id
+             and playlist.published = true
+             and playlist.course_code = lesson.course_code
+            where item.lesson_id = lesson.id
+          ), '[]'::jsonb),
+          'playlist_ids', coalesce((
+            select jsonb_agg(item.playlist_id order by playlist.updated_at desc, playlist.id)
+            from public.video_class_student_playlist_items item
+            join public.video_class_student_playlists playlist
+              on playlist.id = item.playlist_id
+             and playlist.student_id = v_student_id
+            where item.lesson_id = lesson.id
+          ), '[]'::jsonb),
+          'clips', coalesce((
+            select jsonb_agg(
+              jsonb_build_object(
+                'id', clip.id,
+                'lesson_id', clip.lesson_id,
+                'title', clip.title,
+                'display_title', case
+                  when length(trim(clip.title)) > 0 then clip.title
+                  else 'Clip ' || clip.clip_number::text
+                end,
+                'position_seconds', clip.position_seconds,
+                'clip_number', clip.clip_number,
+                'created_at', clip.created_at,
+                'updated_at', clip.updated_at
+              )
+              order by clip.clip_number, clip.created_at, clip.id
+            )
+            from public.video_class_student_clips clip
+            where clip.student_id = v_student_id
+              and clip.lesson_id = lesson.id
+          ), '[]'::jsonb),
+          'renditions', coalesce((
+            select jsonb_agg(
+              jsonb_build_object(
+                'quality_code', rendition.quality_code,
+                'display_label', rendition.display_label,
+                'height_pixels', rendition.height_pixels,
+                'is_default', rendition.is_default
+              )
+              order by rendition.sort_order, rendition.height_pixels nulls last,
+                rendition.quality_code
+            )
+            from public.video_class_lesson_renditions rendition
+            where rendition.lesson_id = lesson.id
+              and rendition.enabled = true
+          ), '[]'::jsonb),
+          'view_count', coalesce(progress.view_count, 0),
+          'feedback', case
+            when feedback.student_id is null then null
+            else jsonb_build_object(
+              'lesson_id', feedback.lesson_id,
+              'picture_quality', feedback.picture_quality,
+              'explanation_quality', feedback.explanation_quality,
+              'audio_quality', feedback.audio_quality,
+              'feedback_updated_at', feedback.updated_at
+            )
+          end
+        )
+        order by lesson.course_sort_order, lesson.sort_order, lesson.created_at, lesson.id
+      )
+      from entitled_lessons lesson
+      left join public.video_class_progress progress
+        on progress.student_id = v_student_id
+       and progress.lesson_id = lesson.id
+      left join public.video_class_bookmarks bookmark
+        on bookmark.student_id = v_student_id
+       and bookmark.lesson_id = lesson.id
+      left join public.video_class_notes note
+        on note.student_id = v_student_id
+       and note.lesson_id = lesson.id
+      left join public.video_class_lesson_feedback feedback
+        on feedback.student_id = v_student_id
+       and feedback.lesson_id = lesson.id
+    ), '[]'::jsonb),
+    'playlists', coalesce((
+      select jsonb_agg(
+        public._video_class_student_playlist_json(v_student_id, playlist.id)
+        order by playlist.updated_at desc, playlist.created_at, playlist.id
+      )
+      from public.video_class_student_playlists playlist
+      where playlist.student_id = v_student_id
+    ), '[]'::jsonb),
+    'officialPlaylists', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'id', playlist.id,
+          'name', playlist.name,
+          'description', playlist.description,
+          'course_code', playlist.course_code,
+          'lesson_ids', coalesce((
+            select jsonb_agg(item.lesson_id order by item.sort_order, lesson.sort_order, lesson.id)
+            from public.video_class_official_playlist_items item
+            join entitled_lessons lesson on lesson.id = item.lesson_id
+            where item.playlist_id = playlist.id
+              and lesson.course_code = playlist.course_code
+          ), '[]'::jsonb)
+        )
+        order by playlist.sort_order, playlist.name, playlist.id
+      )
+      from public.video_class_official_playlists playlist
+      where playlist.published = true
+        and exists (
+          select 1
+          from public.video_class_official_playlist_items item
+          join entitled_lessons lesson on lesson.id = item.lesson_id
+          where item.playlist_id = playlist.id
+            and lesson.course_code = playlist.course_code
+        )
+    ), '[]'::jsonb)
+  )
+  into v_library;
+
+  return v_library;
+end;
+$$;
+
+create or replace function public.video_class_student_create_playlist(
+  p_service_secret text,
+  p_student_token uuid,
+  p_name text
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+  v_playlist_id uuid;
+  v_name text := trim(p_name);
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_name is null
+    or length(v_name) not between 1 and 80
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return null;
+  end if;
+
+  insert into public.video_class_student_playlists (student_id, name)
+  values (v_student_id, v_name)
+  returning id into v_playlist_id;
+
+  return public._video_class_student_playlist_json(v_student_id, v_playlist_id);
+exception
+  when unique_violation then
+    return null;
+end;
+$$;
+
+create or replace function public.video_class_student_rename_playlist(
+  p_service_secret text,
+  p_student_token uuid,
+  p_playlist_id uuid,
+  p_name text
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+  v_name text := trim(p_name);
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_playlist_id is null
+    or p_name is null
+    or length(v_name) not between 1 and 80
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return null;
+  end if;
+
+  update public.video_class_student_playlists playlist
+  set name = v_name,
+      updated_at = now()
+  where playlist.id = p_playlist_id
+    and playlist.student_id = v_student_id;
+
+  if not found then
+    return null;
+  end if;
+
+  return public._video_class_student_playlist_json(v_student_id, p_playlist_id);
+exception
+  when unique_violation then
+    return null;
+end;
+$$;
+
+create or replace function public.video_class_student_delete_playlist(
+  p_service_secret text,
+  p_student_token uuid,
+  p_playlist_id uuid
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_playlist_id is null
+  then
+    return false;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return false;
+  end if;
+
+  delete from public.video_class_student_playlists playlist
+  where playlist.id = p_playlist_id
+    and playlist.student_id = v_student_id;
+
+  return found;
+end;
+$$;
+
+create or replace function public.video_class_student_set_playlist_lesson(
+  p_service_secret text,
+  p_student_token uuid,
+  p_playlist_id uuid,
+  p_lesson_id uuid,
+  p_included boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_playlist_id is null
+    or p_lesson_id is null
+    or p_included is null
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return null;
+  end if;
+
+  perform 1
+  from public.video_class_student_playlists playlist
+  where playlist.id = p_playlist_id
+    and playlist.student_id = v_student_id
+  for update;
+  if not found then
+    return null;
+  end if;
+
+  if not public._video_class_student_can_view_lesson(v_student_id, p_lesson_id) then
+    return null;
+  end if;
+
+  if p_included then
+    insert into public.video_class_student_playlist_items (playlist_id, lesson_id)
+    values (p_playlist_id, p_lesson_id)
+    on conflict on constraint video_class_student_playlist_items_pkey do nothing;
+  else
+    delete from public.video_class_student_playlist_items item
+    where item.playlist_id = p_playlist_id
+      and item.lesson_id = p_lesson_id;
+    if found then
+      update public.video_class_student_playlists playlist
+      set updated_at = now()
+      where playlist.id = p_playlist_id
+        and playlist.student_id = v_student_id;
+    end if;
+  end if;
+
+  return public._video_class_student_playlist_json(v_student_id, p_playlist_id);
+end;
+$$;
+
+create or replace function public.video_class_student_create_clip(
+  p_service_secret text,
+  p_student_token uuid,
+  p_lesson_id uuid,
+  p_position_seconds numeric,
+  p_title text
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+  v_duration_seconds integer;
+  v_clip_number integer;
+  v_clip public.video_class_student_clips%rowtype;
+  v_title text := coalesce(trim(p_title), '');
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_lesson_id is null
+    or p_position_seconds is null
+    or p_position_seconds < 0
+    or p_position_seconds > 86400
+    or length(v_title) > 120
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return null;
+  end if;
+
+  -- The lesson lock serializes clip numbering for this lesson and also keeps
+  -- its duration stable while the timestamp is validated.
+  select lesson.duration_seconds
+  into v_duration_seconds
+  from public.video_class_lessons lesson
+  join public.video_class_courses course
+    on course.code = lesson.course_code
+   and course.published = true
+  join public.video_class_student_courses access
+    on access.student_id = v_student_id
+   and access.course_code = lesson.course_code
+   and access.enabled = true
+  where lesson.id = p_lesson_id
+    and lesson.published = true
+  for update of lesson;
+
+  if not found
+    or (v_duration_seconds is not null and p_position_seconds > v_duration_seconds)
+  then
+    return null;
+  end if;
+
+  select coalesce(max(clip.clip_number), 0) + 1
+  into v_clip_number
+  from public.video_class_student_clips clip
+  where clip.student_id = v_student_id
+    and clip.lesson_id = p_lesson_id;
+
+  insert into public.video_class_student_clips (
+    student_id, lesson_id, clip_number, position_seconds, title
+  )
+  values (
+    v_student_id, p_lesson_id, v_clip_number, p_position_seconds, v_title
+  )
+  returning * into v_clip;
+
+  return jsonb_build_object(
+    'id', v_clip.id,
+    'lesson_id', v_clip.lesson_id,
+    'title', v_clip.title,
+    'display_title', case
+      when length(trim(v_clip.title)) > 0 then v_clip.title
+      else 'Clip ' || v_clip.clip_number::text
+    end,
+    'position_seconds', v_clip.position_seconds,
+    'clip_number', v_clip.clip_number,
+    'created_at', v_clip.created_at,
+    'updated_at', v_clip.updated_at
+  );
+end;
+$$;
+
+create or replace function public.video_class_student_delete_clip(
+  p_service_secret text,
+  p_student_token uuid,
+  p_clip_id uuid
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_clip_id is null
+  then
+    return false;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return false;
+  end if;
+
+  delete from public.video_class_student_clips clip
+  where clip.id = p_clip_id
+    and clip.student_id = v_student_id;
+
+  return found;
+end;
+$$;
+
+create or replace function public.video_class_student_save_feedback(
+  p_service_secret text,
+  p_student_token uuid,
+  p_lesson_id uuid,
+  p_picture_quality smallint,
+  p_explanation_quality smallint,
+  p_audio_quality smallint
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+  v_feedback public.video_class_lesson_feedback%rowtype;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_lesson_id is null
+    or (p_picture_quality is null and p_explanation_quality is null and p_audio_quality is null)
+    or (p_picture_quality is not null and p_picture_quality not between 1 and 5)
+    or (p_explanation_quality is not null and p_explanation_quality not between 1 and 5)
+    or (p_audio_quality is not null and p_audio_quality not between 1 and 5)
+  then
+    return null;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null
+    or not public._video_class_student_can_view_lesson(v_student_id, p_lesson_id)
+  then
+    return null;
+  end if;
+
+  insert into public.video_class_lesson_feedback (
+    student_id, lesson_id, picture_quality, explanation_quality, audio_quality
+  )
+  values (
+    v_student_id, p_lesson_id, p_picture_quality, p_explanation_quality, p_audio_quality
+  )
+  on conflict on constraint video_class_lesson_feedback_pkey do update
+  set picture_quality = coalesce(
+        excluded.picture_quality,
+        public.video_class_lesson_feedback.picture_quality
+      ),
+      explanation_quality = coalesce(
+        excluded.explanation_quality,
+        public.video_class_lesson_feedback.explanation_quality
+      ),
+      audio_quality = coalesce(
+        excluded.audio_quality,
+        public.video_class_lesson_feedback.audio_quality
+      ),
+      updated_at = now()
+  returning * into v_feedback;
+
+  return jsonb_build_object(
+    'lesson_id', v_feedback.lesson_id,
+    'picture_quality', v_feedback.picture_quality,
+    'explanation_quality', v_feedback.explanation_quality,
+    'audio_quality', v_feedback.audio_quality,
+    'feedback_updated_at', v_feedback.updated_at
+  );
+end;
+$$;
+
+create or replace function public.video_class_admin_list_feedback(
+  p_service_secret text,
+  p_admin_token uuid
+)
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+declare
+  v_admin_id uuid;
+  v_result jsonb;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_admin_token is null
+  then
+    return null;
+  end if;
+
+  v_admin_id := public._video_class_admin_id(p_admin_token);
+  if v_admin_id is null then
+    return null;
+  end if;
+
+  select jsonb_build_object(
+    'feedback', coalesce((
+      select jsonb_agg(
+        jsonb_build_object(
+          'student_id', feedback.student_id,
+          'student_name', student.name,
+          'lesson_id', feedback.lesson_id,
+          'lesson_title', lesson.title,
+          'course_code', lesson.course_code,
+          'picture_quality', feedback.picture_quality,
+          'explanation_quality', feedback.explanation_quality,
+          'audio_quality', feedback.audio_quality,
+          'created_at', feedback.created_at,
+          'updated_at', feedback.updated_at,
+          'feedback_updated_at', feedback.updated_at
+        )
+        order by feedback.updated_at desc, feedback.student_id, feedback.lesson_id
+      )
+      from public.video_class_lesson_feedback feedback
+      join public.flashcard_students student on student.id = feedback.student_id
+      join public.video_class_lessons lesson on lesson.id = feedback.lesson_id
+    ), '[]'::jsonb),
+    'summary', (
+      select jsonb_build_object(
+        'response_count', count(*)::bigint,
+        'picture_response_count', count(feedback.picture_quality)::bigint,
+        'picture_average', round(avg(feedback.picture_quality)::numeric, 2),
+        'explanation_response_count', count(feedback.explanation_quality)::bigint,
+        'explanation_average', round(avg(feedback.explanation_quality)::numeric, 2),
+        'audio_response_count', count(feedback.audio_quality)::bigint,
+        'audio_average', round(avg(feedback.audio_quality)::numeric, 2)
+      )
+      from public.video_class_lesson_feedback feedback
+    )
+  )
+  into v_result;
+
+  return v_result;
+end;
+$$;
+
+create or replace function public.video_class_authorize_thumbnail(
+  p_service_secret text,
+  p_student_token uuid,
+  p_lesson_id uuid
+)
+returns table (
+  object_key text,
+  content_type text,
+  byte_length bigint
+)
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid;
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_student_token is null
+    or p_lesson_id is null
+  then
+    return;
+  end if;
+
+  v_student_id := public._video_class_student_id(p_student_token);
+  if v_student_id is null then
+    return;
+  end if;
+
+  return query
+  select thumbnail.object_key, thumbnail.content_type, thumbnail.byte_length
+  from public.video_class_lesson_thumbnails thumbnail
+  join public.video_class_lessons lesson
+    on lesson.id = thumbnail.lesson_id
+   and lesson.published = true
+  join public.video_class_courses course
+    on course.code = lesson.course_code
+   and course.published = true
+  join public.video_class_student_courses access
+    on access.student_id = v_student_id
+   and access.course_code = lesson.course_code
+   and access.enabled = true
+  where thumbnail.lesson_id = p_lesson_id
+    and thumbnail.enabled = true;
+end;
+$$;
+
+create or replace function public.video_class_playback_list_renditions(
+  p_service_secret text,
+  p_playback_id uuid
+)
+returns table (
+  quality_code text,
+  display_label text,
+  height_pixels integer,
+  is_default boolean
+)
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_playback_id is null
+  then
+    return;
+  end if;
+
+  return query
+  select
+    rendition.quality_code,
+    rendition.display_label,
+    rendition.height_pixels,
+    rendition.is_default
+  from public.video_class_playback_sessions playback
+  join public.video_class_student_sessions session
+    on session.token_hash = playback.student_session_hash
+   and session.student_id = playback.student_id
+   and session.expires_at > now()
+  join public.flashcard_students student
+    on student.id = playback.student_id
+   and student.deleted_at is null
+  join public.video_class_student_access access
+    on access.student_id = playback.student_id
+   and access.enabled = true
+   and access.video_key = playback.video_key_snapshot
+  join public.video_class_lessons lesson
+    on lesson.id = playback.lesson_id
+   and lesson.published = true
+  join public.video_class_courses course
+    on course.code = lesson.course_code
+   and course.published = true
+  join public.video_class_student_courses course_access
+    on course_access.student_id = playback.student_id
+   and course_access.course_code = lesson.course_code
+   and course_access.enabled = true
+  join public.video_class_lesson_renditions rendition
+    on rendition.lesson_id = lesson.id
+   and rendition.enabled = true
+  where playback.id = p_playback_id
+    and playback.revoked_at is null
+    and playback.expires_at > now()
+  order by rendition.sort_order, rendition.height_pixels nulls last,
+    rendition.quality_code;
+end;
+$$;
+
+create or replace function public.video_class_authorize_rendition(
+  p_service_secret text,
+  p_playback_id uuid,
+  p_student_id uuid,
+  p_lesson_slug text,
+  p_quality_code text,
+  p_user_agent_hash text,
+  p_network_hash text
+)
+returns table (
+  object_key text,
+  content_type text,
+  byte_length bigint,
+  lesson_id uuid,
+  expires_at timestamptz
+)
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+begin
+  if not public._video_class_worker_ok(p_service_secret)
+    or p_playback_id is null
+    or p_student_id is null
+    or p_lesson_slug !~ '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+    or p_quality_code not in ('480p', '720p', '1080p', 'max')
+    or p_user_agent_hash !~ '^[0-9a-f]{64}$'
+    or p_network_hash !~ '^[0-9a-f]{64}$'
+  then
+    return;
+  end if;
+
+  return query
+  select
+    rendition.object_key,
+    rendition.content_type,
+    rendition.byte_length,
+    lesson.id,
+    playback.expires_at
+  from public.video_class_playback_sessions playback
+  join public.video_class_student_sessions session
+    on session.token_hash = playback.student_session_hash
+   and session.student_id = playback.student_id
+   and session.expires_at > now()
+  join public.flashcard_students student
+    on student.id = playback.student_id
+   and student.deleted_at is null
+  join public.video_class_student_access access
+    on access.student_id = playback.student_id
+   and access.enabled = true
+   and access.video_key = playback.video_key_snapshot
+  join public.video_class_lessons lesson
+    on lesson.id = playback.lesson_id
+   and lesson.published = true
+  join public.video_class_courses course
+    on course.code = lesson.course_code
+   and course.published = true
+  join public.video_class_student_courses course_access
+    on course_access.student_id = playback.student_id
+   and course_access.course_code = lesson.course_code
+   and course_access.enabled = true
+  join public.video_class_lesson_renditions rendition
+    on rendition.lesson_id = lesson.id
+   and rendition.quality_code = p_quality_code
+   and rendition.enabled = true
+  where playback.id = p_playback_id
+    and playback.student_id = p_student_id
+    and lesson.slug = p_lesson_slug
+    and playback.user_agent_hash = p_user_agent_hash
+    and playback.network_hash = p_network_hash
+    and playback.revoked_at is null
+    and playback.expires_at > now();
+end;
+$$;
+
 drop function if exists public.video_class_create_playback(text, uuid, text, text, text);
 create or replace function public.video_class_create_playback(
   p_service_secret text,
@@ -2061,6 +3359,8 @@ declare
   v_student_id uuid;
   v_lesson_id uuid;
   v_completed_at timestamptz;
+  v_view_counted_at timestamptz;
+  v_should_count boolean;
 begin
   if not public._video_class_worker_ok(p_service_secret)
     or p_student_token is null
@@ -2076,11 +3376,12 @@ begin
     return false;
   end if;
 
-  select playback.student_id, playback.lesson_id
-  into v_student_id, v_lesson_id
+  select playback.student_id, playback.lesson_id, playback.view_counted_at
+  into v_student_id, v_lesson_id, v_view_counted_at
   from public.video_class_playback_sessions playback
   join public.video_class_student_sessions session
     on session.token_hash = playback.student_session_hash
+    and session.student_id = playback.student_id
   join public.flashcard_students student on student.id = playback.student_id
   join public.video_class_student_access access on access.student_id = playback.student_id
   join public.video_class_lessons lesson on lesson.id = playback.lesson_id
@@ -2099,7 +3400,8 @@ begin
     and access.enabled = true
     and lesson.published = true
     and access.video_key = playback.video_key_snapshot
-  limit 1;
+  limit 1
+  for update of playback;
 
   if not found then
     return false;
@@ -2110,11 +3412,12 @@ begin
     else null
   end;
 
-  update public.video_class_playback_sessions playback
-  set last_seen_at = now(),
-      last_position_seconds = p_position_seconds
-  where playback.id = p_playback_id;
+  v_should_count := p_position_seconds >= 3
+    or p_position_seconds / p_duration_seconds >= 0.10;
 
+  -- The progress row is created before its persistent view counter changes.
+  -- The locked playback row and view_counted_at marker make retries and racing
+  -- heartbeats contribute at most one view for this playback session.
   insert into public.video_class_progress (
     student_id, lesson_id, position_seconds, duration_seconds, completed_at, updated_at
   )
@@ -2126,6 +3429,24 @@ begin
       duration_seconds = excluded.duration_seconds,
       completed_at = coalesce(public.video_class_progress.completed_at, excluded.completed_at),
       updated_at = now();
+
+  if v_should_count and v_view_counted_at is null then
+    update public.video_class_progress progress
+    set view_count = progress.view_count + 1,
+        first_viewed_at = coalesce(progress.first_viewed_at, now()),
+        last_viewed_at = now()
+    where progress.student_id = v_student_id
+      and progress.lesson_id = v_lesson_id;
+  end if;
+
+  update public.video_class_playback_sessions playback
+  set last_seen_at = now(),
+      last_position_seconds = p_position_seconds,
+      view_counted_at = case
+        when v_should_count and playback.view_counted_at is null then now()
+        else playback.view_counted_at
+      end
+  where playback.id = p_playback_id;
 
   return true;
 end;
@@ -2193,6 +3514,134 @@ values (
 )
 on conflict (slug) do nothing;
 
+-- Every legacy lesson receives an enabled private-R2 "max" rendition. Future
+-- quality rows can be added without changing the original lesson object_key.
+insert into public.video_class_lesson_renditions (
+  lesson_id, quality_code, display_label, object_key, content_type,
+  sort_order, is_default, enabled
+)
+select
+  lesson.id,
+  'max',
+  '最高畫質',
+  lesson.object_key,
+  'video/mp4',
+  1000,
+  not exists (
+    select 1
+    from public.video_class_lesson_renditions existing_default
+    where existing_default.lesson_id = lesson.id
+      and existing_default.enabled = true
+      and existing_default.is_default = true
+  ),
+  true
+from public.video_class_lessons lesson
+on conflict do nothing;
+
+-- The pilot's verified private-R2 assets have stable keys and exact byte sizes.
+-- Clear any competing default first so the partial unique index remains valid.
+update public.video_class_lesson_renditions rendition
+set is_default = false
+from public.video_class_lessons lesson
+where lesson.slug = 'bourree'
+  and rendition.lesson_id = lesson.id
+  and rendition.quality_code <> 'max'
+  and rendition.is_default = true;
+
+insert into public.video_class_lesson_renditions as rendition (
+  lesson_id, quality_code, display_label, height_pixels, object_key,
+  content_type, byte_length, sort_order, is_default, enabled
+)
+select
+  lesson.id,
+  seed.quality_code,
+  seed.display_label,
+  seed.height_pixels,
+  seed.object_key,
+  'video/mp4',
+  seed.byte_length,
+  seed.sort_order,
+  seed.is_default,
+  true
+from public.video_class_lessons lesson
+cross join (
+  values
+    ('480p'::text, '480p'::text, 480, 'lessons/bourree/v1/480p.mp4'::text, 4690550::bigint, 10, false),
+    ('720p'::text, '720p'::text, 720, 'lessons/bourree/v1/720p.mp4'::text, 8736537::bigint, 20, false),
+    ('max'::text, '最高（720p）'::text, 720, 'lessons/bourree.mp4'::text, 11147309::bigint, 30, true)
+) as seed (
+  quality_code, display_label, height_pixels, object_key,
+  byte_length, sort_order, is_default
+)
+where lesson.slug = 'bourree'
+on conflict (lesson_id, quality_code) do update
+set display_label = excluded.display_label,
+    height_pixels = excluded.height_pixels,
+    object_key = excluded.object_key,
+    content_type = excluded.content_type,
+    byte_length = excluded.byte_length,
+    sort_order = excluded.sort_order,
+    is_default = excluded.is_default,
+    enabled = true,
+    updated_at = now()
+where rendition.display_label is distinct from excluded.display_label
+   or rendition.height_pixels is distinct from excluded.height_pixels
+   or rendition.object_key is distinct from excluded.object_key
+   or rendition.content_type is distinct from excluded.content_type
+   or rendition.byte_length is distinct from excluded.byte_length
+   or rendition.sort_order is distinct from excluded.sort_order
+   or rendition.is_default is distinct from excluded.is_default
+   or rendition.enabled is distinct from true;
+
+insert into public.video_class_lesson_thumbnails as thumbnail (
+  lesson_id, object_key, content_type, byte_length, enabled
+)
+select
+  lesson.id,
+  'lessons/bourree/v1/poster.jpg',
+  'image/jpeg',
+  24703,
+  true
+from public.video_class_lessons lesson
+where lesson.slug = 'bourree'
+on conflict (lesson_id) do update
+set object_key = excluded.object_key,
+    content_type = excluded.content_type,
+    byte_length = excluded.byte_length,
+    enabled = true,
+    updated_at = now()
+where thumbnail.object_key is distinct from excluded.object_key
+   or thumbnail.content_type is distinct from excluded.content_type
+   or thumbnail.byte_length is distinct from excluded.byte_length
+   or thumbnail.enabled is distinct from true;
+
+insert into public.video_class_tags (slug, label, sort_order, published)
+values
+  ('dse', 'DSE', 10, true),
+  ('preview', '試播', 20, true)
+on conflict (slug) do update
+set label = excluded.label,
+    sort_order = excluded.sort_order,
+    published = true,
+    updated_at = case
+      when public.video_class_tags.label is distinct from excluded.label
+        or public.video_class_tags.sort_order is distinct from excluded.sort_order
+        or public.video_class_tags.published is distinct from true
+      then now()
+      else public.video_class_tags.updated_at
+    end
+where public.video_class_tags.label is distinct from excluded.label
+   or public.video_class_tags.sort_order is distinct from excluded.sort_order
+   or public.video_class_tags.published is distinct from true;
+
+insert into public.video_class_lesson_tags (lesson_id, tag_id)
+select lesson.id, tag.id
+from public.video_class_lessons lesson
+cross join public.video_class_tags tag
+where lesson.slug = 'bourree'
+  and tag.slug in ('dse', 'preview')
+on conflict (lesson_id, tag_id) do nothing;
+
 revoke all on function public.video_class_student_login(text, text, text, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_student_exchange(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_student_me(text, uuid) from public, anon, authenticated;
@@ -2211,6 +3660,18 @@ revoke all on function public.video_class_student_list_courses(text, uuid) from 
 revoke all on function public.video_class_student_list_lessons(text, uuid) from public, anon, authenticated;
 revoke all on function public.video_class_student_toggle_bookmark(text, uuid, uuid, boolean) from public, anon, authenticated;
 revoke all on function public.video_class_student_save_note(text, uuid, uuid, text) from public, anon, authenticated;
+revoke all on function public.video_class_student_library(text, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_student_create_playlist(text, uuid, text) from public, anon, authenticated;
+revoke all on function public.video_class_student_rename_playlist(text, uuid, uuid, text) from public, anon, authenticated;
+revoke all on function public.video_class_student_delete_playlist(text, uuid, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_student_set_playlist_lesson(text, uuid, uuid, uuid, boolean) from public, anon, authenticated;
+revoke all on function public.video_class_student_create_clip(text, uuid, uuid, numeric, text) from public, anon, authenticated;
+revoke all on function public.video_class_student_delete_clip(text, uuid, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_student_save_feedback(text, uuid, uuid, smallint, smallint, smallint) from public, anon, authenticated;
+revoke all on function public.video_class_admin_list_feedback(text, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_authorize_thumbnail(text, uuid, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_playback_list_renditions(text, uuid) from public, anon, authenticated;
+revoke all on function public.video_class_authorize_rendition(text, uuid, uuid, text, text, text, text) from public, anon, authenticated;
 revoke all on function public.video_class_create_playback(text, uuid, text, text, text) from public, anon, authenticated;
 revoke all on function public.video_class_authorize_playback(text, uuid, uuid, text, text, text) from public, anon, authenticated;
 revoke all on function public.video_class_record_progress(text, uuid, uuid, numeric, numeric) from public, anon, authenticated;
@@ -2235,6 +3696,18 @@ grant execute on function public.video_class_student_list_courses(text, uuid) to
 grant execute on function public.video_class_student_list_lessons(text, uuid) to anon;
 grant execute on function public.video_class_student_toggle_bookmark(text, uuid, uuid, boolean) to anon;
 grant execute on function public.video_class_student_save_note(text, uuid, uuid, text) to anon;
+grant execute on function public.video_class_student_library(text, uuid) to anon;
+grant execute on function public.video_class_student_create_playlist(text, uuid, text) to anon;
+grant execute on function public.video_class_student_rename_playlist(text, uuid, uuid, text) to anon;
+grant execute on function public.video_class_student_delete_playlist(text, uuid, uuid) to anon;
+grant execute on function public.video_class_student_set_playlist_lesson(text, uuid, uuid, uuid, boolean) to anon;
+grant execute on function public.video_class_student_create_clip(text, uuid, uuid, numeric, text) to anon;
+grant execute on function public.video_class_student_delete_clip(text, uuid, uuid) to anon;
+grant execute on function public.video_class_student_save_feedback(text, uuid, uuid, smallint, smallint, smallint) to anon;
+grant execute on function public.video_class_admin_list_feedback(text, uuid) to anon;
+grant execute on function public.video_class_authorize_thumbnail(text, uuid, uuid) to anon;
+grant execute on function public.video_class_playback_list_renditions(text, uuid) to anon;
+grant execute on function public.video_class_authorize_rendition(text, uuid, uuid, text, text, text, text) to anon;
 grant execute on function public.video_class_create_playback(text, uuid, text, text, text) to anon;
 grant execute on function public.video_class_authorize_playback(text, uuid, uuid, text, text, text) to anon;
 grant execute on function public.video_class_record_progress(text, uuid, uuid, numeric, numeric) to anon;

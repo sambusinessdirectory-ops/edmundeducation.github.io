@@ -11,7 +11,10 @@ const TURNSTILE_TIMEOUT_MS = 8000;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SLUG_RE = /^[a-z0-9](?:[a-z0-9-]{0,78}[a-z0-9])?$/;
 const COURSE_CODE_RE = /^[a-z0-9](?:[a-z0-9-]{0,62}[a-z0-9])?$/;
+const QUALITY_CODE_RE = /^(?:480p|720p|1080p|max)$/;
 const HEARTBEAT_EVENTS = new Set(["play", "pause", "progress", "heartbeat", "seek", "ended", "close", "hidden", "pagehide"]);
+const MAX_PLAYLIST_NAME_LENGTH = 80;
+const MAX_CLIP_TITLE_LENGTH = 120;
 
 class HttpError extends Error {
   constructor(status, publicMessage, options = {}) {
@@ -101,6 +104,9 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/admin/courses" && request.method === "GET") {
     return adminListCourses(request, env);
   }
+  if (url.pathname === "/v1/admin/feedback" && request.method === "GET") {
+    return adminListFeedback(request, env);
+  }
 
   const studentKeyMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/key$/);
   if (studentKeyMatch && (request.method === "POST" || request.method === "DELETE")) {
@@ -134,6 +140,46 @@ async function route(request, env, ctx) {
     return listLessons(request, env);
   }
 
+  if (url.pathname === "/v1/playlists" && request.method === "POST") {
+    return createPlaylist(request, env);
+  }
+
+  const playlistLessonMatch = url.pathname.match(/^\/v1\/playlists\/([^/]+)\/lessons\/([^/]+)$/);
+  if (playlistLessonMatch && ["PUT", "DELETE"].includes(request.method)) {
+    return changePlaylistLesson(
+      request,
+      env,
+      decodePathSegment(playlistLessonMatch[1]),
+      decodePathSegment(playlistLessonMatch[2]),
+      request.method === "PUT"
+    );
+  }
+
+  const playlistMatch = url.pathname.match(/^\/v1\/playlists\/([^/]+)$/);
+  if (playlistMatch && ["PATCH", "DELETE"].includes(request.method)) {
+    return changePlaylist(request, env, decodePathSegment(playlistMatch[1]), request.method === "DELETE");
+  }
+
+  const lessonThumbnailMatch = url.pathname.match(/^\/v1\/lessons\/([^/]+)\/thumbnail$/);
+  if (lessonThumbnailMatch && request.method === "GET") {
+    return serveLessonThumbnail(request, env, decodePathSegment(lessonThumbnailMatch[1]));
+  }
+
+  const lessonClipMatch = url.pathname.match(/^\/v1\/lessons\/([^/]+)\/clips$/);
+  if (lessonClipMatch && request.method === "POST") {
+    return createLessonClip(request, env, decodePathSegment(lessonClipMatch[1]));
+  }
+
+  const clipMatch = url.pathname.match(/^\/v1\/clips\/([^/]+)$/);
+  if (clipMatch && request.method === "DELETE") {
+    return deleteLessonClip(request, env, decodePathSegment(clipMatch[1]));
+  }
+
+  const lessonFeedbackMatch = url.pathname.match(/^\/v1\/lessons\/([^/]+)\/feedback$/);
+  if (lessonFeedbackMatch && request.method === "PUT") {
+    return saveLessonFeedback(request, env, decodePathSegment(lessonFeedbackMatch[1]));
+  }
+
   const lessonBookmarkMatch = url.pathname.match(/^\/v1\/lessons\/([^/]+)\/bookmark$/);
   if (lessonBookmarkMatch && request.method === "PATCH") {
     return changeLessonBookmark(request, env, decodePathSegment(lessonBookmarkMatch[1]));
@@ -152,7 +198,14 @@ async function route(request, env, ctx) {
 
   const videoMatch = url.pathname.match(/^\/v1\/video\/([^/]+)$/);
   if (videoMatch && (request.method === "GET" || request.method === "HEAD")) {
-    return streamVideo(request, env, decodePathSegment(videoMatch[1]), url.searchParams.get("token") || "", ctx);
+    return streamVideo(
+      request,
+      env,
+      decodePathSegment(videoMatch[1]),
+      url.searchParams.get("token") || "",
+      url.searchParams.get("quality") || "max",
+      ctx
+    );
   }
 
   return json(request, env, { error: "Not found" }, 404);
@@ -365,6 +418,20 @@ async function adminListCourses(request, env) {
   return json(request, env, { courses: rows.map(mapCourse) }, 200);
 }
 
+async function adminListFeedback(request, env) {
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_list_feedback", {
+    p_admin_token: token
+  });
+  const value = Array.isArray(result) ? (firstRow(result) || {}) : (result || {});
+  const rows = Array.isArray(value.feedback) ? value.feedback : (Array.isArray(value.items) ? value.items : []);
+  return json(request, env, {
+    feedback: rows.map(mapFeedbackRecord),
+    summary: value.summary && typeof value.summary === "object" ? value.summary : {}
+  }, 200);
+}
+
 async function adminChangeStudentKey(request, env, studentId, clear) {
   if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
   const token = requireBearerToken(request);
@@ -480,17 +547,170 @@ async function listCourses(request, env) {
 async function listLessons(request, env) {
   const token = requireBearerToken(request);
   await assertStudentSession(env, token);
-  const [courseRows, lessonRows] = await Promise.all([
+  const [courseRows, libraryResult] = await Promise.all([
     serviceRpc(env, "video_class_student_list_courses", { p_student_token: token }),
-    serviceRpc(env, "video_class_student_list_lessons", { p_student_token: token })
+    serviceRpc(env, "video_class_student_library", { p_student_token: token })
   ]);
-  if (!Array.isArray(courseRows) || !Array.isArray(lessonRows)) {
+  const library = Array.isArray(libraryResult) ? (firstRow(libraryResult) || {}) : (libraryResult || {});
+  const lessonRows = Array.isArray(library.lessons) ? library.lessons : [];
+  if (!Array.isArray(courseRows) || !library || typeof library !== "object") {
     throw new HttpError(502, "Lesson library could not be loaded");
   }
   return json(request, env, {
     courses: courseRows.map(mapCourse),
-    lessons: lessonRows.map(mapLesson)
+    lessons: lessonRows.map(mapLesson),
+    playlists: (Array.isArray(library.playlists) ? library.playlists : []).map(mapStudentPlaylist),
+    officialPlaylists: (Array.isArray(library.officialPlaylists || library.official_playlists)
+      ? (library.officialPlaylists || library.official_playlists)
+      : []).map(mapOfficialPlaylist)
   }, 200);
+}
+
+async function createPlaylist(request, env) {
+  const body = await readJson(request, 4096);
+  const name = normalizePlaylistName(body.name ?? body.title);
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const result = await serviceRpc(env, "video_class_student_create_playlist", {
+    p_student_token: token,
+    p_name: name
+  });
+  const playlist = mapStudentPlaylist(firstRow(result));
+  if (!playlist.id) throw new HttpError(409, "A playlist with this name already exists");
+  return json(request, env, { playlist }, 201);
+}
+
+async function changePlaylist(request, env, playlistId, remove) {
+  if (!UUID_RE.test(playlistId)) throw new HttpError(400, "Invalid playlist ID");
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  if (remove) {
+    const deleted = await serviceRpc(env, "video_class_student_delete_playlist", {
+      p_student_token: token,
+      p_playlist_id: playlistId
+    });
+    if (deleted !== true) throw new HttpError(404, "Playlist was not found");
+    return new Response(null, { status: 204, headers: responseHeaders(request, env) });
+  }
+  const body = await readJson(request, 4096);
+  const name = normalizePlaylistName(body.name ?? body.title);
+  const result = await serviceRpc(env, "video_class_student_rename_playlist", {
+    p_student_token: token,
+    p_playlist_id: playlistId,
+    p_name: name
+  });
+  const playlist = mapStudentPlaylist(firstRow(result));
+  if (!playlist.id) throw new HttpError(404, "Playlist was not found");
+  return json(request, env, { playlist }, 200);
+}
+
+async function changePlaylistLesson(request, env, playlistId, lessonId, included) {
+  if (!UUID_RE.test(playlistId) || !UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid playlist or lesson ID");
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const result = await serviceRpc(env, "video_class_student_set_playlist_lesson", {
+    p_student_token: token,
+    p_playlist_id: playlistId,
+    p_lesson_id: lessonId,
+    p_included: included
+  });
+  const playlist = mapStudentPlaylist(firstRow(result));
+  if (!playlist.id) throw new HttpError(404, "Playlist or lesson was not found");
+  return json(request, env, { playlist }, 200);
+}
+
+async function createLessonClip(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  const body = await readJson(request, 4096);
+  const positionSeconds = Number(body.positionSeconds ?? body.position_seconds);
+  if (!Number.isFinite(positionSeconds) || positionSeconds < 0 || positionSeconds > 86400) {
+    throw new HttpError(400, "Invalid clip position");
+  }
+  const title = body.title == null ? "" : String(body.title).normalize("NFKC").trim();
+  if (title.length > MAX_CLIP_TITLE_LENGTH) throw new HttpError(400, "Clip title is too long");
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const result = await serviceRpc(env, "video_class_student_create_clip", {
+    p_student_token: token,
+    p_lesson_id: lessonId,
+    p_position_seconds: Math.round(positionSeconds * 10) / 10,
+    p_title: title
+  });
+  const clip = mapClip(firstRow(result));
+  if (!clip.id) throw new HttpError(403, "This lesson is not available for this account");
+  return json(request, env, { clip }, 201);
+}
+
+async function deleteLessonClip(request, env, clipId) {
+  if (!UUID_RE.test(clipId)) throw new HttpError(400, "Invalid clip ID");
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const deleted = await serviceRpc(env, "video_class_student_delete_clip", {
+    p_student_token: token,
+    p_clip_id: clipId
+  });
+  if (deleted !== true) throw new HttpError(404, "Clip was not found");
+  return new Response(null, { status: 204, headers: responseHeaders(request, env) });
+}
+
+async function saveLessonFeedback(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  const body = await readJson(request, 4096);
+  const picture = optionalRating(body.pictureQuality ?? body.picture_quality ?? body.videoQuality ?? body.video_quality);
+  const explanation = optionalRating(body.explanationQuality ?? body.explanation_quality ?? body.explanation);
+  const audio = optionalRating(body.audioQuality ?? body.audio_quality ?? body.soundQuality ?? body.sound_quality);
+  if ([picture, explanation, audio].every(value => value == null)) {
+    throw new HttpError(400, "Choose at least one rating");
+  }
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const result = await serviceRpc(env, "video_class_student_save_feedback", {
+    p_student_token: token,
+    p_lesson_id: lessonId,
+    p_picture_quality: picture,
+    p_explanation_quality: explanation,
+    p_audio_quality: audio
+  });
+  const feedback = mapLessonFeedback(firstRow(result));
+  if (!feedback.lessonId) throw new HttpError(403, "This lesson is not available for this account");
+  return json(request, env, { feedback }, 200);
+}
+
+async function serveLessonThumbnail(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(404, "Thumbnail not found");
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const rows = await serviceRpc(env, "video_class_authorize_thumbnail", {
+    p_student_token: token,
+    p_lesson_id: lessonId
+  });
+  const authorization = firstRow(rows);
+  if (!authorization || !env.VIDEO_CLASSES) throw new HttpError(404, "Thumbnail not found");
+  const objectKey = safeObjectKey(authorization.object_key);
+  const contentType = safeImageContentType(authorization.content_type);
+  if (!objectKey || !contentType) throw new HttpError(502, "Thumbnail metadata is invalid");
+  let object;
+  try {
+    object = await env.VIDEO_CLASSES.get(objectKey);
+  } catch {
+    throw new HttpError(503, "Thumbnail is temporarily unavailable");
+  }
+  if (!object?.body) throw new HttpError(404, "Thumbnail not found");
+  if (!Number.isSafeInteger(object.size) || object.size <= 0 || object.size > 10 * 1024 * 1024) {
+    throw new HttpError(503, "Thumbnail is temporarily unavailable");
+  }
+  const expectedBytes = nullablePositiveInteger(authorization.byte_length);
+  if (expectedBytes != null && expectedBytes !== object.size) {
+    throw new HttpError(503, "Thumbnail is temporarily unavailable");
+  }
+  const headers = responseHeaders(request, env);
+  headers.set("Content-Type", contentType);
+  headers.set("Content-Length", String(object.size));
+  headers.set("Content-Disposition", "inline");
+  headers.set("Cross-Origin-Resource-Policy", "cross-origin");
+  headers.set("X-Robots-Tag", "noindex, nofollow, noarchive");
+  if (object.httpEtag) headers.set("ETag", object.httpEtag);
+  return new Response(object.body, { status: 200, headers });
 }
 
 async function changeLessonBookmark(request, env, lessonId) {
@@ -599,7 +819,17 @@ async function grantPlayback(request, env, requestUrl) {
     iat: nowSeconds,
     exp: expiresSeconds
   }, env.VIDEO_CLASS_SIGNING_KEY);
-  const videoUrl = `${requestUrl.origin}/v1/video/${encodeURIComponent(slug)}?token=${encodeURIComponent(token)}`;
+  const renditionRows = await serviceRpc(env, "video_class_playback_list_renditions", {
+    p_playback_id: playbackId
+  });
+  const sources = (Array.isArray(renditionRows) ? renditionRows : [])
+    .map(row => mapPlaybackSource(row, requestUrl.origin, slug, token))
+    .filter(source => source.qualityCode);
+  if (!sources.length) throw new HttpError(503, "Video renditions are not configured");
+  const defaultSource = sources.find(source => source.isDefault)
+    || sources.find(source => source.qualityCode === "max")
+    || sources[sources.length - 1];
+  const videoUrl = defaultSource.url;
   const sessionCode = playbackId.replaceAll("-", "").slice(0, 8).toUpperCase();
   const watermarkEnabled = row.watermark_enabled !== false;
 
@@ -611,6 +841,8 @@ async function grantPlayback(request, env, requestUrl) {
     lessonSlug: slug,
     lessonTitle: String(row.title || ""),
     videoUrl,
+    sources,
+    defaultQuality: defaultSource.qualityCode,
     tokenExpiresAt: expiresAt,
     expiresAt,
     resumeAt: finiteNonNegative(row.resume_seconds, 0),
@@ -663,8 +895,8 @@ async function recordHeartbeat(request, env) {
   }, 200);
 }
 
-async function streamVideo(request, env, slug, token, ctx) {
-  if (!SLUG_RE.test(slug) || !token || token.length > 2048) {
+async function streamVideo(request, env, slug, token, qualityCode, ctx) {
+  if (!SLUG_RE.test(slug) || !QUALITY_CODE_RE.test(qualityCode) || !token || token.length > 2048) {
     throw new HttpError(404, "Video not found");
   }
   requireSigningKey(env);
@@ -676,10 +908,11 @@ async function streamVideo(request, env, slug, token, ctx) {
     throw new HttpError(401, "Playback link does not match this device or network");
   }
 
-  const rows = await serviceRpc(env, "video_class_authorize_playback", {
+  const rows = await serviceRpc(env, "video_class_authorize_rendition", {
     p_playback_id: claims.pid,
     p_student_id: claims.sub,
     p_lesson_slug: claims.slug,
+    p_quality_code: qualityCode,
     p_user_agent_hash: fingerprint.userAgentHash,
     p_network_hash: fingerprint.networkHash
   });
@@ -690,8 +923,8 @@ async function streamVideo(request, env, slug, token, ctx) {
   }
   if (!env.VIDEO_CLASSES) throw new HttpError(503, "Video storage is not configured");
 
-  const objectKey = String(authorization.object_key || "");
-  if (!objectKey || objectKey.length > 1024 || objectKey.includes("\0")) {
+  const objectKey = safeObjectKey(authorization.object_key);
+  if (!objectKey) {
     throw new HttpError(502, "Video metadata is invalid");
   }
 
@@ -1150,6 +1383,17 @@ function mapCourseAccess(row) {
 function mapLesson(row) {
   const courseCode = row.course_code || "";
   const courseTitle = row.course_title || "";
+  const tags = Array.isArray(row.tags) ? row.tags.map(mapTag).filter(tag => tag.label) : [];
+  const clips = Array.isArray(row.clips) ? row.clips.map(mapClip).filter(clip => clip.id) : [];
+  const renditions = Array.isArray(row.renditions)
+    ? row.renditions.map(mapRenditionMetadata).filter(rendition => rendition.qualityCode)
+    : [];
+  const playlistIds = Array.isArray(row.playlist_ids || row.playlistIds)
+    ? (row.playlist_ids || row.playlistIds).filter(value => UUID_RE.test(String(value))).map(String)
+    : [];
+  const officialPlaylistNames = Array.isArray(row.official_playlist_names || row.officialPlaylistNames)
+    ? (row.official_playlist_names || row.officialPlaylistNames).map(value => String(value).slice(0, 160))
+    : [];
   return {
     id: row.lesson_id || row.id || null,
     slug: row.slug || "",
@@ -1163,6 +1407,15 @@ function mapLesson(row) {
     position: Number.isFinite(Number(row.sort_order ?? row.position)) ? Number(row.sort_order ?? row.position) : 0,
     durationSeconds: nullablePositiveNumber(row.duration_seconds),
     thumbnailUrl: row.thumbnail_url || null,
+    hasThumbnail: row.has_thumbnail === true || row.hasThumbnail === true,
+    tags,
+    tagLabels: tags.map(tag => tag.label),
+    officialPlaylistNames,
+    playlistIds,
+    clips,
+    renditions,
+    viewCount: finiteNonNegative(row.view_count ?? row.viewCount, 0),
+    feedback: mapLessonFeedback(row.feedback && typeof row.feedback === "object" ? row.feedback : row),
     bookmarked: row.bookmarked === true,
     note: row.note == null ? "" : String(row.note),
     noteUpdatedAt: row.note_updated_at || null,
@@ -1171,6 +1424,102 @@ function mapLesson(row) {
       completed: Boolean(row.completed_at) || row.completed === true,
       updatedAt: row.progress_updated_at || row.completed_at || null
     }
+  };
+}
+
+function mapStudentPlaylist(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const lessonIds = Array.isArray(value.lesson_ids || value.lessonIds)
+    ? (value.lesson_ids || value.lessonIds).filter(id => UUID_RE.test(String(id))).map(String)
+    : [];
+  return {
+    id: UUID_RE.test(String(value.id || value.playlist_id || "")) ? String(value.id || value.playlist_id) : "",
+    name: String(value.name || value.title || "").slice(0, MAX_PLAYLIST_NAME_LENGTH),
+    lessonIds,
+    lessonCount: Number.isSafeInteger(Number(value.lesson_count ?? value.lessonCount))
+      ? Math.max(0, Number(value.lesson_count ?? value.lessonCount))
+      : lessonIds.length,
+    createdAt: value.created_at || value.createdAt || null,
+    updatedAt: value.updated_at || value.updatedAt || null
+  };
+}
+
+function mapOfficialPlaylist(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const lessonIds = Array.isArray(value.lesson_ids || value.lessonIds)
+    ? (value.lesson_ids || value.lessonIds).filter(id => UUID_RE.test(String(id))).map(String)
+    : [];
+  return {
+    id: UUID_RE.test(String(value.id || value.playlist_id || "")) ? String(value.id || value.playlist_id) : "",
+    name: String(value.name || value.title || "").slice(0, 160),
+    description: String(value.description || "").slice(0, 1000),
+    courseCode: String(value.course_code || value.courseCode || ""),
+    lessonIds
+  };
+}
+
+function mapTag(row) {
+  if (typeof row === "string") return { slug: "", label: row.slice(0, 80) };
+  const value = row && typeof row === "object" ? row : {};
+  return {
+    slug: SLUG_RE.test(String(value.slug || "")) ? String(value.slug) : "",
+    label: String(value.label || value.name || "").slice(0, 80)
+  };
+}
+
+function mapClip(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const id = String(value.id || value.clip_id || "");
+  return {
+    id: UUID_RE.test(id) ? id : "",
+    lessonId: String(value.lesson_id || value.lessonId || ""),
+    title: String(value.display_title || value.displayTitle || value.title || "").slice(0, 180),
+    positionSeconds: finiteNonNegative(value.position_seconds ?? value.positionSeconds, 0),
+    clipNumber: finiteNonNegative(value.clip_number ?? value.clipNumber, 0),
+    createdAt: value.created_at || value.createdAt || null
+  };
+}
+
+function mapRenditionMetadata(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const qualityCode = String(value.quality_code || value.qualityCode || "");
+  return {
+    qualityCode: QUALITY_CODE_RE.test(qualityCode) ? qualityCode : "",
+    label: String(value.display_label || value.label || qualityCode).slice(0, 40),
+    height: nullablePositiveInteger(value.height_pixels ?? value.height),
+    isDefault: value.is_default === true || value.isDefault === true
+  };
+}
+
+function mapLessonFeedback(row) {
+  const value = row && typeof row === "object" ? row : {};
+  return {
+    lessonId: String(value.lesson_id || value.lessonId || ""),
+    pictureQuality: nullableRating(value.picture_quality ?? value.pictureQuality),
+    explanationQuality: nullableRating(value.explanation_quality ?? value.explanationQuality),
+    audioQuality: nullableRating(value.audio_quality ?? value.audioQuality),
+    updatedAt: value.feedback_updated_at || value.updated_at || value.updatedAt || null
+  };
+}
+
+function mapFeedbackRecord(row) {
+  const value = row && typeof row === "object" ? row : {};
+  return {
+    studentId: String(value.student_id || value.studentId || ""),
+    studentName: String(value.student_name || value.studentName || ""),
+    lessonId: String(value.lesson_id || value.lessonId || ""),
+    lessonTitle: String(value.lesson_title || value.lessonTitle || ""),
+    courseCode: String(value.course_code || value.courseCode || ""),
+    ...mapLessonFeedback(value)
+  };
+}
+
+function mapPlaybackSource(row, origin, slug, token) {
+  const metadata = mapRenditionMetadata(row);
+  if (!metadata.qualityCode) return { qualityCode: "" };
+  return {
+    ...metadata,
+    url: `${origin}/v1/video/${encodeURIComponent(slug)}?token=${encodeURIComponent(token)}&quality=${encodeURIComponent(metadata.qualityCode)}`
   };
 }
 
@@ -1191,6 +1540,34 @@ function nullablePositiveInteger(value) {
   return Number.isSafeInteger(number) && number > 0 ? number : null;
 }
 
+function normalizePlaylistName(value) {
+  const name = String(value || "").normalize("NFKC").trim().replace(/\s+/g, " ");
+  if (!name || name.length > MAX_PLAYLIST_NAME_LENGTH) throw new HttpError(400, "Playlist name must be 1 to 80 characters");
+  return name;
+}
+
+function optionalRating(value) {
+  if (value == null || value === "") return null;
+  const number = Number(value);
+  if (!Number.isInteger(number) || number < 1 || number > 5) throw new HttpError(400, "Ratings must be whole numbers from 1 to 5");
+  return number;
+}
+
+function nullableRating(value) {
+  const number = Number(value);
+  return Number.isInteger(number) && number >= 1 && number <= 5 ? number : null;
+}
+
+function safeObjectKey(value) {
+  const key = String(value || "");
+  return key && key.length <= 1024 && !key.includes("\0") ? key : "";
+}
+
+function safeImageContentType(value) {
+  const contentType = String(value || "").toLowerCase();
+  return ["image/jpeg", "image/png", "image/webp", "image/avif"].includes(contentType) ? contentType : "";
+}
+
 function safeVideoContentType(value) {
   const contentType = String(value || "video/mp4").toLowerCase();
   return /^video\/[a-z0-9][a-z0-9.+-]*$/.test(contentType) ? contentType : "video/mp4";
@@ -1200,5 +1577,6 @@ export const __test = Object.freeze({
   coarseNetwork,
   expandIpv6,
   parseByteRange,
-  safeVideoContentType
+  safeVideoContentType,
+  safeImageContentType
 });

@@ -2,7 +2,7 @@
 <html lang="zh-Hant" class="frame-guard">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://edmund-video-class.edmundeducation.workers.dev https://challenges.cloudflare.com; media-src https://edmund-video-class.edmundeducation.workers.dev; frame-src https://challenges.cloudflare.com; worker-src 'self'; manifest-src 'self'; form-action 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://edmund-video-class.edmundeducation.workers.dev; font-src 'self'; connect-src 'self' https://edmund-video-class.edmundeducation.workers.dev https://challenges.cloudflare.com; media-src https://edmund-video-class.edmundeducation.workers.dev; frame-src https://challenges.cloudflare.com; worker-src 'self'; manifest-src 'self'; form-action 'self'">
   <title>Edmund Sir 錄影班學習平台 | EdmundEducation</title>
   <meta name="description" content="EdmundEducation 錄影班學生學習平台。">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -22,7 +22,7 @@
   <style>.frame-guard body{display:none!important}</style>
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="video-class.css?v=20260811-2">
+  <link rel="stylesheet" href="video-class.css?v=20260811-5">
   <script defer src="/pwa-register.js"></script>
 </head>
 
@@ -50,6 +50,7 @@
       <button type="button" data-student-route="courses" aria-current="page">課程總覽</button>
       <button type="button" data-student-route="library">課堂影片</button>
       <button type="button" data-student-route="bookmarks">我的書籤</button>
+      <button type="button" data-student-route="playlists">我的播放列表</button>
       <button type="button" data-student-route="notes">全部筆記</button>
     </nav>
   </header>
@@ -153,7 +154,7 @@
           <div>
             <p class="eyebrow">CHOOSE YOUR COURSE</p>
             <h1><span data-student-greeting>你好</span>，<br>先選擇你的課程。</h1>
-            <p>八類課程一覽；你可進入已獲授權的課程，並隨時從上方選單返回這裡。</p>
+            <p>九類課程一覽；你可進入已獲授權的課程，並隨時從上方選單返回這裡。</p>
           </div>
           <aside class="access-pass" aria-label="錄影班通行證">
             <span>VIDEO CLASS PASS</span>
@@ -174,13 +175,23 @@
             <button class="course-back-button" type="button" data-student-route="courses">← 返回課程總覽</button>
             <h1 data-selected-course-title>我的課堂</h1>
             <p data-selected-course-description>你的觀看進度會安全地自動儲存。</p>
+            <div class="lesson-search" role="search">
+              <label class="visually-hidden" for="lesson-library-search">搜尋這個課程的影片</label>
+              <span class="lesson-search__icon" aria-hidden="true">⌕</span>
+              <input id="lesson-library-search" type="search" data-lesson-search placeholder="搜尋影片標題、簡介、標籤或播放列表" autocomplete="off" aria-controls="lesson-library-list" aria-describedby="lesson-search-status">
+              <button type="button" data-clear-lesson-search aria-label="清除課堂搜尋" hidden>清除</button>
+            </div>
+            <p class="lesson-search__status" id="lesson-search-status" data-lesson-search-status role="status" aria-live="polite"></p>
           </div>
         </div>
 
         <div class="dashboard-toolbar">
           <div>
             <p class="section-kicker">COURSE LIBRARY</p>
-            <h2>課堂影片</h2>
+            <div class="library-title-line">
+              <h2>課堂影片</h2>
+              <p data-lesson-summary aria-live="polite">共 0 部影片 · 0 分鐘</p>
+            </div>
           </div>
           <button class="icon-button" type="button" data-refresh-lessons aria-label="重新載入課堂">
             <span aria-hidden="true">↻</span> 重新載入
@@ -190,7 +201,7 @@
         <div class="inline-state" data-lessons-state role="status" aria-live="polite">
           <span class="spinner" aria-hidden="true"></span><p>正在載入你的課堂⋯</p>
         </div>
-        <div class="lesson-grid" data-lesson-list hidden></div>
+        <div class="lesson-grid" id="lesson-library-list" data-lesson-list hidden></div>
 
         <section class="player-section" data-player-section hidden aria-labelledby="now-playing-title">
           <div class="player-heading">
@@ -199,7 +210,10 @@
               <h2 id="now-playing-title" data-player-title>課堂影片</h2>
               <p data-player-description></p>
             </div>
-            <button class="close-player" type="button" data-close-player aria-label="關閉影片">關閉 ×</button>
+            <div class="player-heading__actions">
+              <button class="close-player" type="button" data-close-player aria-label="關閉影片">關閉 ×</button>
+              <p class="player-view-count" data-player-view-count>觀看次數：—</p>
+            </div>
           </div>
 
           <div class="protected-player" data-player tabindex="0" aria-label="課堂影片播放器">
@@ -211,6 +225,22 @@
             <button class="centre-play" type="button" data-centre-play aria-label="播放影片" hidden>
               <span aria-hidden="true">▶</span>
             </button>
+
+            <aside class="clip-rail" data-clip-rail hidden>
+              <button class="clip-rail__toggle" type="button" data-clip-rail-toggle aria-expanded="false" aria-controls="player-clip-list">
+                <span aria-hidden="true">⌑</span>
+                <span>精彩片段</span>
+                <strong data-clip-count>0</strong>
+              </button>
+              <nav class="clip-rail__panel" data-clip-rail-panel id="player-clip-list" aria-label="精彩片段快速跳轉">
+                <div class="clip-rail__heading">
+                  <div><span>CLIPS</span><strong>精彩片段</strong></div>
+                  <button type="button" data-clip-rail-close aria-label="收合精彩片段">×</button>
+                </div>
+                <ol class="clip-rail__list" data-clip-list></ol>
+                <p class="clip-rail__empty" data-clips-empty>尚未建立精彩片段。</p>
+              </nav>
+            </aside>
 
             <div class="watermark-layer" data-watermark-layer aria-hidden="true">
               <span class="watermark-repeat" data-watermark-repeat></span>
@@ -224,20 +254,120 @@
               <img class="company-watermark company-watermark--bottom" data-company-watermark-bottom src="/assets/icons/edmundeducation-logo-512.png" alt="">
             </div>
 
+            <div class="player-ended-overlay" data-ended-overlay role="dialog" aria-modal="true" aria-labelledby="lesson-feedback-title" aria-describedby="rating-scale-help" hidden>
+              <div class="player-ended-overlay__content">
+                <button class="feedback-close-button" type="button" data-close-feedback aria-label="關閉影片評分">關閉 ×</button>
+                <button class="replay-button" type="button" data-replay-video><span aria-hidden="true">↻</span><span>重新播放</span></button>
+                <form class="lesson-feedback-form" data-feedback-form>
+                  <div class="lesson-feedback-form__heading">
+                    <p class="section-kicker">LESSON FEEDBACK</p>
+                    <h3 id="lesson-feedback-title">這堂課的體驗如何？</h3>
+                    <p id="rating-scale-help">每一項可獨立評分，1 分較低，5 分最佳；之後仍可更新。</p>
+                  </div>
+                  <fieldset data-feedback-field="videoQuality">
+                    <legend class="visually-hidden">影片畫質</legend>
+                    <div class="lesson-feedback-form__row">
+                      <span aria-hidden="true">影片畫質</span>
+                      <div class="rating-scale" aria-describedby="rating-scale-help">
+                        <label><input type="radio" name="video-quality-rating" value="1" data-feedback-rating="videoQuality"><span>1</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="2" data-feedback-rating="videoQuality"><span>2</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="3" data-feedback-rating="videoQuality"><span>3</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="4" data-feedback-rating="videoQuality"><span>4</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="5" data-feedback-rating="videoQuality"><span>5</span></label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <fieldset data-feedback-field="explanation">
+                    <legend class="visually-hidden">解釋內容</legend>
+                    <div class="lesson-feedback-form__row">
+                      <span aria-hidden="true">解釋內容</span>
+                      <div class="rating-scale" aria-describedby="rating-scale-help">
+                        <label><input type="radio" name="explanation-rating" value="1" data-feedback-rating="explanation"><span>1</span></label>
+                        <label><input type="radio" name="explanation-rating" value="2" data-feedback-rating="explanation"><span>2</span></label>
+                        <label><input type="radio" name="explanation-rating" value="3" data-feedback-rating="explanation"><span>3</span></label>
+                        <label><input type="radio" name="explanation-rating" value="4" data-feedback-rating="explanation"><span>4</span></label>
+                        <label><input type="radio" name="explanation-rating" value="5" data-feedback-rating="explanation"><span>5</span></label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <fieldset data-feedback-field="audioQuality">
+                    <legend class="visually-hidden">聲音品質</legend>
+                    <div class="lesson-feedback-form__row">
+                      <span aria-hidden="true">聲音品質</span>
+                      <div class="rating-scale" aria-describedby="rating-scale-help">
+                        <label><input type="radio" name="audio-quality-rating" value="1" data-feedback-rating="audioQuality"><span>1</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="2" data-feedback-rating="audioQuality"><span>2</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="3" data-feedback-rating="audioQuality"><span>3</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="4" data-feedback-rating="audioQuality"><span>4</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="5" data-feedback-rating="audioQuality"><span>5</span></label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <p class="lesson-feedback-form__status" data-feedback-status role="status" aria-live="polite"></p>
+                </form>
+              </div>
+            </div>
+
+            <form class="clip-editor" data-clip-editor role="dialog" aria-modal="true" aria-labelledby="clip-editor-title" hidden>
+              <div>
+                <p class="section-kicker">SAVE A CLIP</p>
+                <h3 id="clip-editor-title">建立精彩片段</h3>
+                <p>已選擇 <strong data-clip-selected-time>0:00</strong></p>
+              </div>
+              <label for="clip-title">精彩回顧標題（選填）</label>
+              <input id="clip-title" type="text" data-clip-title maxlength="80" placeholder="例如：重點文法解說" autocomplete="off">
+              <p class="clip-editor__status" data-clip-status role="status" aria-live="polite"></p>
+              <div class="clip-editor__actions">
+                <button type="button" data-cancel-clip>取消</button>
+                <button type="button" data-skip-clip-title>略過標題</button>
+                <button type="submit" data-save-clip>儲存片段</button>
+              </div>
+            </form>
+
             <div class="player-controls" data-player-controls hidden>
-              <button type="button" data-play-toggle aria-label="播放影片"><span aria-hidden="true">▶</span></button>
-              <span class="player-time" data-current-time>0:00</span>
-              <label class="seek-control">
-                <span class="visually-hidden">影片進度</span>
-                <input data-seek type="range" min="0" max="100" value="0" step="0.1" aria-label="影片進度">
-              </label>
-              <span class="player-time" data-duration>0:00</span>
-              <button type="button" data-mute-toggle aria-label="靜音"><span aria-hidden="true">聲音</span></button>
-              <label class="volume-control">
-                <span class="visually-hidden">音量</span>
-                <input data-volume type="range" min="0" max="1" value="1" step="0.05" aria-label="音量">
-              </label>
-              <button type="button" data-fullscreen aria-label="全螢幕播放"><span aria-hidden="true">⛶</span></button>
+              <div class="player-controls__timeline">
+                <span class="player-time" data-current-time>0:00</span>
+                <div class="seek-control">
+                  <label class="visually-hidden" for="video-seek">影片進度</label>
+                  <div class="seek-shell">
+                    <input id="video-seek" data-seek type="range" min="0" max="100" value="0" step="0.1" aria-label="影片進度">
+                    <div class="seek-markers" data-seek-markers></div>
+                  </div>
+                </div>
+                <span class="player-time" data-duration>0:00</span>
+              </div>
+              <div class="player-controls__actions">
+                <button type="button" data-play-toggle aria-label="播放影片"><span aria-hidden="true">▶</span></button>
+                <button type="button" data-pin-clip aria-label="在影片進度列選擇精彩片段位置" aria-pressed="false"><span aria-hidden="true">⌖</span><span class="control-label">片段</span></button>
+                <button type="button" data-open-feedback aria-label="為這堂影片評分"><span aria-hidden="true">☆</span><span class="control-label">評分</span></button>
+                <button type="button" data-mute-toggle aria-label="靜音"><span aria-hidden="true">聲音</span></button>
+                <label class="volume-control">
+                  <span class="visually-hidden">音量</span>
+                  <input data-volume type="range" min="0" max="1" value="1" step="0.05" aria-label="音量">
+                </label>
+                <label class="player-select-control">
+                  <span>播放速度</span>
+                  <select data-playback-speed aria-label="播放速度">
+                    <option value="0.25">0.25×</option>
+                    <option value="0.5">0.5×</option>
+                    <option value="0.75">0.75×</option>
+                    <option value="1" selected>1×</option>
+                    <option value="1.25">1.25×</option>
+                    <option value="1.5">1.5×</option>
+                    <option value="2">2×</option>
+                  </select>
+                </label>
+                <label class="player-select-control">
+                  <span>畫質</span>
+                  <select data-playback-quality aria-label="影片畫質" disabled>
+                    <option value="480p">480p</option>
+                    <option value="720p">720p</option>
+                    <option value="1080p">1080p</option>
+                    <option value="max" selected>Max（最高畫質）</option>
+                  </select>
+                </label>
+                <button type="button" data-fullscreen aria-label="全螢幕播放"><span aria-hidden="true">⛶</span></button>
+              </div>
             </div>
           </div>
 
@@ -245,7 +375,25 @@
             <span aria-hidden="true">◈</span>
             <p><strong>安全播放提示</strong>影片會顯示你的個人識別 Key、播放階段及時間。請勿錄影、分享或公開課堂內容。</p>
           </div>
-          <button class="note-launch-button" type="button" data-open-note>我的筆記</button>
+          <button class="note-launch-button" type="button" data-open-note data-note-toggle aria-expanded="false" aria-controls="lesson-note-panel">
+            <span>我的筆記</span><span aria-hidden="true" data-note-toggle-icon>＋</span>
+          </button>
+          <section class="note-editor" id="lesson-note-panel" data-note-panel aria-labelledby="lesson-note-heading" hidden>
+            <form data-note-form>
+              <div class="note-editor__heading">
+                <div><p class="section-kicker">MY NOTES</p><h2 id="lesson-note-heading">我的筆記</h2><span data-note-lesson-title></span></div>
+                <button class="note-editor__collapse" type="button" data-note-collapse aria-label="收合我的筆記">收合 ↑</button>
+              </div>
+              <label for="lesson-note">這堂課的筆記</label>
+              <textarea id="lesson-note" data-note-content rows="10" maxlength="5000" placeholder="在這裡寫下重點、例句或要溫習的內容⋯"></textarea>
+              <small class="note-character-count" data-note-count>0 / 5,000</small>
+              <p class="form-status" data-note-status role="status" aria-live="polite"></p>
+              <div class="note-editor__actions">
+                <button class="quiet-button" type="button" data-note-collapse>稍後再寫</button>
+                <button class="primary-button primary-button--compact" type="submit" data-save-note>儲存筆記</button>
+              </div>
+            </form>
+          </section>
           <p class="player-error" data-player-error role="alert" hidden></p>
         </section>
       </section>
@@ -258,6 +406,27 @@
         <div class="lesson-grid" data-bookmark-list hidden></div>
       </section>
 
+      <section class="student-page playlists-page" data-student-page="playlists" hidden>
+        <div class="student-page-heading playlists-page-heading">
+          <div><p class="eyebrow">MY PLAYLISTS</p><h1>我的播放列表</h1><p>建立自己的溫習次序，集中重看同一主題的課堂。</p></div>
+          <button class="primary-button primary-button--compact" type="button" data-create-playlist>＋ 建立播放列表</button>
+        </div>
+        <div class="playlist-workspace">
+          <aside class="playlist-sidebar" aria-label="我的播放列表">
+            <div class="inline-state" data-playlists-state role="status" aria-live="polite"><p>正在載入播放列表⋯</p></div>
+            <div class="playlist-list" data-playlist-list hidden></div>
+          </aside>
+          <section class="playlist-detail" data-playlist-detail aria-labelledby="selected-playlist-title" hidden>
+            <div class="playlist-detail__heading">
+            <div><p class="section-kicker">SELECTED PLAYLIST</p><h2 id="selected-playlist-title" data-playlist-title>播放列表</h2><p data-playlist-description></p></div>
+              <button class="quiet-button" type="button" data-delete-playlist>刪除清單</button>
+            </div>
+            <div class="inline-state" data-playlist-lessons-state role="status" aria-live="polite"></div>
+            <div class="lesson-grid" data-playlist-lesson-list hidden></div>
+          </section>
+        </div>
+      </section>
+
       <section class="student-page notes-page" data-student-page="notes" hidden>
         <div class="student-page-heading notes-page-heading">
           <div><p class="eyebrow">MY NOTES</p><h1>全部筆記</h1><p>整理所有課堂筆記，或列印並儲存為 PDF。</p></div>
@@ -267,19 +436,25 @@
         <div class="notes-list" data-notes-list hidden></div>
       </section>
 
-      <dialog class="note-dialog" data-note-dialog aria-labelledby="note-dialog-title">
-        <form method="dialog" data-note-form>
-          <div class="note-dialog__heading">
-            <div><p class="section-kicker">MY NOTES</p><h2 id="note-dialog-title">我的筆記</h2><span data-note-lesson-title></span></div>
-            <button class="dialog-close" type="button" data-close-note aria-label="關閉筆記">×</button>
+      <dialog class="playlist-dialog" data-playlist-dialog aria-labelledby="playlist-dialog-title">
+        <form data-playlist-chooser-form>
+          <div class="playlist-dialog__heading">
+            <div><p class="section-kicker">ADD TO PLAYLIST</p><h2 id="playlist-dialog-title">加入播放列表</h2><span data-playlist-lesson-title></span></div>
+            <button class="dialog-close" type="button" data-close-playlist-dialog aria-label="關閉播放列表選擇器">×</button>
           </div>
-          <label for="lesson-note">這堂課的筆記</label>
-          <textarea id="lesson-note" data-note-content rows="10" maxlength="5000" placeholder="在這裡寫下重點、例句或要溫習的內容⋯"></textarea>
-          <small class="note-character-count" data-note-count>0 / 5,000</small>
-          <p class="form-status" data-note-status role="status" aria-live="polite"></p>
-          <div class="note-dialog__actions">
-            <button class="quiet-button" type="button" data-close-note>取消</button>
-            <button class="primary-button primary-button--compact" type="submit" data-save-note>儲存筆記</button>
+          <fieldset>
+            <legend>選擇已有播放列表</legend>
+            <div class="playlist-dialog__options" data-playlist-options></div>
+            <p class="playlist-dialog__empty" data-playlist-options-empty hidden>你尚未建立播放列表。</p>
+          </fieldset>
+          <div class="playlist-dialog__create">
+            <label for="new-playlist-name">或建立新播放列表</label>
+            <div><input id="new-playlist-name" type="text" data-new-playlist-name maxlength="80" placeholder="播放列表名稱" autocomplete="off"><button type="button" data-create-playlist-inline>建立</button></div>
+          </div>
+          <p class="form-status" data-playlist-status role="status" aria-live="polite"></p>
+          <div class="playlist-dialog__actions">
+            <button class="quiet-button" type="button" data-close-playlist-dialog>取消</button>
+            <button class="primary-button primary-button--compact" type="submit" data-save-playlist-selection>儲存選擇</button>
           </div>
         </form>
       </dialog>
@@ -300,6 +475,7 @@
       <nav class="admin-tabs" aria-label="管理面板">
         <button type="button" data-admin-panel-tab="students" aria-current="page">學生及 Key 設定</button>
         <button type="button" data-admin-panel-tab="entitlements">學生課程權限</button>
+        <button type="button" data-admin-panel-tab="feedback">影片評分</button>
       </nav>
 
       <div data-admin-panel="students">
@@ -372,6 +548,30 @@
           <button class="primary-button primary-button--compact" type="submit" data-save-entitlements>儲存課程權限</button>
         </form>
       </section>
+
+      <section class="feedback-panel" data-admin-panel="feedback" hidden>
+        <div class="feedback-panel__heading">
+          <div><p class="section-kicker">LESSON FEEDBACK</p><h2>學生影片評分</h2><p>查看每位學生對影片畫質、解釋內容及聲音品質的評分。</p></div>
+          <button class="icon-button" type="button" data-refresh-feedback><span aria-hidden="true">↻</span>重新整理</button>
+        </div>
+        <div class="feedback-controls">
+          <label class="student-search">
+            <span class="visually-hidden">搜尋影片評分</span>
+            <span aria-hidden="true">⌕</span>
+            <input type="search" data-feedback-search placeholder="搜尋學生或影片名稱" autocomplete="off">
+          </label>
+          <label class="key-filter"><span>課程</span><select data-feedback-course-filter><option value="all">所有課程</option></select></label>
+        </div>
+        <div class="inline-state" data-feedback-state role="status" aria-live="polite"><p>正在載入影片評分⋯</p></div>
+        <div class="student-table-shell feedback-table-shell" data-feedback-table role="region" aria-label="學生影片評分，可左右捲動" tabindex="0" hidden>
+          <table>
+            <caption class="visually-hidden">學生影片評分</caption>
+            <thead><tr><th scope="col">學生</th><th scope="col">課堂影片</th><th scope="col">影片畫質</th><th scope="col">解釋內容</th><th scope="col">聲音品質</th><th scope="col">更新時間</th></tr></thead>
+            <tbody data-feedback-rows></tbody>
+          </table>
+        </div>
+        <p class="result-count" data-feedback-result-count hidden></p>
+      </section>
     </section>
   </main>
 
@@ -380,6 +580,6 @@
 
   <script defer src="video-class-config.js?v=20260811-2"></script>
   <script defer src="shared-system-nav.js?v=20260810-5"></script>
-  <script defer src="video-class.js?v=20260811-4"></script>
+  <script defer src="video-class.js?v=20260811-5"></script>
 </body>
 </html>

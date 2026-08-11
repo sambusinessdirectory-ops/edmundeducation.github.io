@@ -462,7 +462,7 @@ test("video keys are manually controlled after a one-time current-student backfi
   assert.match(portalHtml, /新學生不會自動獲發 Video Class Key/);
 });
 
-test("the canonical eight-course catalogue and DSE pilot mapping stay stable", () => {
+test("the canonical nine-course catalogue and DSE pilot mapping stay stable", () => {
   const expectedCourses = [
     ["dse", "DSE 中學文憑試", 10],
     ["ielts", "IELTS 國際英文課程", 20],
@@ -471,7 +471,8 @@ test("the canonical eight-course catalogue and DSE pilot mapping stay stable", (
     ["pte", "Pearson Test of English (PTE)", 50],
     ["igcse", "IGCSE", 60],
     ["sat", "SAT", 70],
-    ["ib", "IB 課程", 80]
+    ["ib", "IB 課程", 80],
+    ["grammar", "Grammar", 90]
   ];
 
   const courseTable = sqlTableBlock("video_class_courses");
@@ -481,10 +482,10 @@ test("the canonical eight-course catalogue and DSE pilot mapping stay stable", (
   assert.match(courseTable, /published\s+boolean\s+not\s+null/i);
 
   const courseSeed = sql.match(
-    /insert\s+into\s+public\.video_class_courses\s*\(code,\s*title,\s*sort_order,\s*published\)\s*values([\s\S]*?)on\s+conflict\s*\(code\)/i
+    /insert\s+into\s+public\.video_class_courses\s*\(code,\s*title,\s*description,\s*sort_order,\s*published\)\s*values([\s\S]*?)on\s+conflict\s*\(code\)/i
   )?.[1] || "";
   const seededCourses = Array.from(
-    courseSeed.matchAll(/\(\s*'([^']+)',\s*'([^']+)',\s*(\d+),\s*true\s*\)/g),
+    courseSeed.matchAll(/\(\s*'([^']+)',\s*'([^']+)',\s*'[^']*',\s*(\d+),\s*true\s*\)/g),
     match => [match[1], match[2], Number(match[3])]
   );
   assert.deepEqual(seededCourses, expectedCourses, "database catalogue order/title/code is an API contract");
@@ -551,7 +552,7 @@ test("course entitlements are per student and required for listing, playback, an
   assert.match(listLessons, /access\.enabled\s*=\s*true/i);
   assert.match(
     workerSource,
-    /async\s+function\s+listLessons[\s\S]*?Promise\.all\(\[[\s\S]*?video_class_student_list_courses[\s\S]*?video_class_student_list_lessons[\s\S]*?courses:\s*courseRows\.map\(mapCourse\)[\s\S]*?lessons:\s*lessonRows\.map\(mapLesson\)/,
+    /async\s+function\s+listLessons[\s\S]*?Promise\.all\(\[[\s\S]*?video_class_student_list_courses[\s\S]*?video_class_student_library[\s\S]*?courses:\s*courseRows\.map\(mapCourse\)[\s\S]*?lessons:\s*lessonRows\.map\(mapLesson\)/,
     "the lesson response must preserve entitled courses that currently contain zero lessons"
   );
   assert.match(portalJs, /const\s+returnedCourses\s*=\s*Array\.isArray\(value\?\.courses\)/);
@@ -813,6 +814,10 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     bucket_name: "edmund-video-classes-private"
   }]);
   assert.match(sql, /'lessons\/bourree\.mp4'/);
+  assert.match(sql, /'lessons\/bourree\/v1\/480p\.mp4'[\s\S]{0,80}?4690550/i);
+  assert.match(sql, /'lessons\/bourree\/v1\/720p\.mp4'[\s\S]{0,80}?8736537/i);
+  assert.match(sql, /'lessons\/bourree\.mp4'[\s\S]{0,80}?11147309/i);
+  assert.match(sql, /'lessons\/bourree\/v1\/poster\.jpg'[\s\S]{0,80}?'image\/jpeg'[\s\S]{0,80}?24703/i);
   assert.match(sql, /'bourree',[\s\S]{0,400}?'lessons\/bourree\.mp4',[\s\S]{0,80}?true\s*\)/i);
   assert.match(workerSource, /env\.VIDEO_CLASSES\.head\(objectKey\)/);
   assert.match(workerSource, /env\.VIDEO_CLASSES\.get\(objectKey/);
@@ -827,6 +832,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_logout",
     "video_class_admin_list_students",
     "video_class_admin_list_courses",
+    "video_class_admin_list_feedback",
     "video_class_admin_issue_key",
     "video_class_admin_clear_key",
     "video_class_admin_set_enabled",
@@ -834,10 +840,20 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_set_watermark",
     "video_class_student_list_courses",
     "video_class_student_list_lessons",
+    "video_class_student_library",
     "video_class_student_toggle_bookmark",
     "video_class_student_save_note",
+    "video_class_student_create_playlist",
+    "video_class_student_rename_playlist",
+    "video_class_student_delete_playlist",
+    "video_class_student_set_playlist_lesson",
+    "video_class_student_create_clip",
+    "video_class_student_delete_clip",
+    "video_class_student_save_feedback",
     "video_class_create_playback",
-    "video_class_authorize_playback",
+    "video_class_playback_list_renditions",
+    "video_class_authorize_thumbnail",
+    "video_class_authorize_rendition",
     "video_class_record_progress"
   ]);
   const workerRpcs = sorted(new Set(
@@ -862,6 +878,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assertWorkerRoute("/v1/admin/session", "GET");
   assertWorkerRoute("/v1/admin/students", "GET");
   assertWorkerRoute("/v1/admin/courses", "GET");
+  assertWorkerRoute("/v1/admin/feedback", "GET");
   assertWorkerRoute("/v1/courses", "GET");
   assertWorkerRoute("/v1/lessons", "GET");
   assertWorkerRoute("/v1/playback/grant", "POST");
@@ -872,6 +889,10 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/watermark\$/);
   assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/bookmark\$/);
   assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/note\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/thumbnail\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/clips\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/lessons\\\/\(\[\^\/\]\+\)\\\/feedback\$/);
+  assert.match(workerSource, /\^\\\/v1\\\/playlists\\\/\(\[\^\/\]\+\)\\\/lessons\\\/\(\[\^\/\]\+\)\$/);
   assert.match(workerSource, /\^\\\/v1\\\/video\\\/\(\[\^\/\]\+\)\$/);
 
   for (const clientContract of [
@@ -883,14 +904,61 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     /apiRequest\("\/v1\/playback\/heartbeat"/,
     /apiRequest\("\/v1\/admin\/students"/,
     /apiRequest\("\/v1\/admin\/courses"/,
+    /apiRequest\("\/v1\/admin\/feedback"/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/key`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/access`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/courses\/\$\{encodeURIComponent\(course\.id\)\}`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/watermark`/,
     /`\/v1\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/bookmark`/,
     /`\/v1\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/note`/,
+    /`\/v1\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/clips`/,
+    /`\/v1\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/feedback`/,
     /`\$\{apiBase\}\/v1\/video\/\$\{encodeURIComponent\(lesson\.slug\s*\|\|\s*lesson\.id\)\}\?token=/
   ]) assert.match(portalJs, clientContract);
+});
+
+test("student media tools remain wired through private, per-student contracts", () => {
+  for (const table of [
+    "video_class_lesson_renditions",
+    "video_class_lesson_thumbnails",
+    "video_class_tags",
+    "video_class_student_playlists",
+    "video_class_student_clips",
+    "video_class_lesson_feedback"
+  ]) {
+    assert.ok(sqlTableBlock(table), `${table}: schema table`);
+    assert.match(sql, new RegExp(`alter\\s+table\\s+public\\.${table}\\s+enable\\s+row\\s+level\\s+security`, "i"), `${table}: RLS`);
+    assert.match(sql, new RegExp(`revoke\\s+all\\s+on\\s+table\\s+public\\.${table}`, "i"), `${table}: direct access revoked`);
+  }
+
+  assert.match(portalHtml, /data-lesson-search/);
+  assert.match(portalHtml, /data-lesson-summary/);
+  assert.match(portalHtml, /data-student-route="playlists">我的播放列表/);
+  assert.match(portalHtml, /data-note-panel/);
+  assert.doesNotMatch(portalHtml, /<dialog[^>]+data-note/i, "notes must expand below the player, not cover it");
+  assert.deepEqual(
+    Array.from(portalHtml.matchAll(/<option value="(0\.25|0\.5|0\.75|1|1\.25|1\.5|2)"[^>]*>/g), match => Number(match[1])),
+    [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2]
+  );
+  for (const quality of ["480p", "720p", "1080p", "max"]) assert.match(portalHtml, new RegExp(`<option value="${quality}"`));
+  assert.match(portalHtml, /data-pin-clip/);
+  assert.match(portalHtml, /data-clip-rail/);
+  assert.match(portalHtml, /data-feedback-rating="videoQuality"/);
+  assert.match(portalHtml, /data-feedback-rating="explanation"/);
+  assert.match(portalHtml, /data-feedback-rating="audioQuality"/);
+  assert.match(portalHtml, /data-ended-overlay[^>]*role="dialog"[^>]*aria-modal="true"/);
+  assert.match(portalCss, /\.watermark-repeat\s*\{[^}]*opacity:\s*0\.15/i);
+  assert.match(portalCss, /\.company-watermark\.is-visible\s*\{\s*opacity:\s*0\.3/i);
+  assert.match(portalCss, /\.seek-marker\s*\{[^}]*width:\s*44px[^}]*height:\s*44px/i);
+  assert.match(portalJs, /function\s+loadLessonThumbnails/);
+  assert.match(portalJs, /generation\s*!==\s*state\.lessonLoadGeneration/);
+  assert.match(portalJs, /URL\.createObjectURL\(blob\)/);
+  assert.match(portalJs, /function\s+renderClips/);
+  assert.match(portalJs, /`精彩回顧：\$\{clip\.title\}`/);
+  assert.match(portalJs, /function\s+saveLessonFeedback/);
+  assert.match(portalJs, /lesson\.viewCount\s*\+=\s*1/);
+  assert.match(portalJs, /if\s*\(!closeNoteDialog\(false,\s*\{\s*restoreFocus:\s*false\s*\}\)\)\s*return\s+false/);
+  assert.match(portalJs, /function\s+renderAdminFeedback/);
 });
 
 test("logout, session errors, and concurrent grants fail safely", () => {

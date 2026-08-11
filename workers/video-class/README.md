@@ -17,7 +17,8 @@ and coarse network.
   playback row, lesson, expiry, User-Agent fingerprint, and coarse IP prefix
   (`/24` for IPv4, `/48` for IPv6).
 - Every full, ranged, and HEAD video request calls
-  `video_class_authorize_playback` before R2 is read. Disabling a student,
+  `video_class_authorize_rendition` before R2 is read. Thumbnail requests use
+  their own live-entitlement RPC. Disabling a student,
   rotating/clearing a key, unpublishing a lesson, revoking a session, or expiry
   therefore takes effect even if an old signed URL still exists. Course access
   is also checked on listing, grant, media authorization, and progress writes.
@@ -82,8 +83,12 @@ Before deployment:
    parameterized command, not in a committed SQL file or shell history.
 3. Provision the Worker service-secret hash in
    `video_class_worker_secrets` using the exact value supplied to Wrangler.
-4. Create `edmund-video-classes-private`, copy the pilot to
-   `lessons/bourree.mp4`, and set its HTTP content type to `video/mp4`.
+4. Create `edmund-video-classes-private`; upload each original, encoded quality,
+   and poster to versioned keys. The Bourrée pilot uses
+   `lessons/bourree.mp4`, `lessons/bourree/v1/{480p,720p}.mp4`, and
+   `lessons/bourree/v1/poster.jpg`. Store the exact keys, byte sizes, content
+   types, and available heights in the protected metadata tables. Never create
+   a quality larger than the source.
 5. Create the Turnstile widget, set its public site key in the website, and put
    its secret into `VIDEO_CLASS_TURNSTILE_SECRET`.
 6. Run `npm ci`, `npm run check`, then `npm run deploy` using the committed lockfile.
@@ -108,22 +113,31 @@ All routes except health and preflight require the exact
 | `GET` | `/v1/admin/session` | Validate an administrator session |
 | `DELETE` | `/v1/admin/session` | Revoke an administrator session (`POST` fallback supported) |
 | `GET` | `/v1/admin/students` | Roster with UUID, key, enabled courses, watermark state, and timestamps |
-| `GET` | `/v1/admin/courses` | The complete eight-course administration catalogue |
+| `GET` | `/v1/admin/courses` | The complete nine-course administration catalogue |
+| `GET` | `/v1/admin/feedback` | Per-student lesson ratings for the administrator |
 | `POST` | `/v1/admin/students/:id/key` | Issue/retain a key; `{ "rotate": false }`, or rotate with `true` |
 | `DELETE` | `/v1/admin/students/:id/key` | Clear the key and entitlement |
 | `PATCH` | `/v1/admin/students/:id/access` | Enable/disable an issued key; `{ "enabled": true }` |
 | `PATCH` | `/v1/admin/students/:id/courses/:code` | Independently grant/revoke one course; `{ "enabled": true }` |
 | `PATCH` | `/v1/admin/students/:id/watermark` | Toggle that student's playback watermark; `{ "enabled": true }` |
 | `GET` | `/v1/courses` | Assigned courses, including courses that currently have no lessons |
-| `GET` | `/v1/lessons` | Assigned courses and entitled lessons with progress, bookmark, and note state |
+| `GET` | `/v1/lessons` | Entitled library with progress, thumbnails, tags, playlists, clips, ratings, and renditions |
+| `GET` | `/v1/lessons/:id/thumbnail` | Authorized private-R2 lesson poster |
 | `PATCH` | `/v1/lessons/:id/bookmark` | Set lesson bookmark state; `{ "bookmarked": true }` |
 | `PUT`, `PATCH`, `DELETE` | `/v1/lessons/:id/note` | Save up to 5,000 characters, or delete the per-lesson note |
+| `POST` | `/v1/playlists` | Create a personal playlist; `{ "name" }` |
+| `PATCH`, `DELETE` | `/v1/playlists/:id` | Rename or delete the owning student's playlist |
+| `PUT`, `DELETE` | `/v1/playlists/:id/lessons/:lessonId` | Add or remove an entitled lesson |
+| `POST` | `/v1/lessons/:id/clips` | Create a personal timestamp clip; `{ "positionSeconds", "title"? }` |
+| `DELETE` | `/v1/clips/:id` | Delete the owning student's clip |
+| `PUT` | `/v1/lessons/:id/feedback` | Replace the current 1–5 lesson ratings; omitted categories are `null` |
 | `POST` | `/v1/playback/grant` | Create playback from `{ "lessonId" }` or `{ "lessonSlug" }` |
 | `POST` | `/v1/playback/heartbeat` | Save position using playback ID, position, duration, and event |
-| `GET`, `HEAD` | `/v1/video/:slug?token=...` | Authorized R2 media, including single byte ranges |
+| `GET`, `HEAD` | `/v1/video/:slug?token=...&quality=720p` | Authorized rendition, including single byte ranges |
 
 The grant response exposes `playbackToken`, `playbackSessionId`, `videoUrl`,
-`expiresAt`, `resumeAt`, and watermark data. It deliberately omits the R2 key.
+safe rendition labels/URLs, `defaultQuality`, `expiresAt`, `resumeAt`, and
+watermark data. It deliberately omits every R2 key.
 
 Adaptive login errors use a structured `error` object. `challengeRequired`
 tells the browser to reveal Turnstile; `retryAfterSeconds` drives the cooldown
@@ -220,6 +234,19 @@ video_class_student_save_note(
   p_service_secret text, p_student_token uuid,
   p_lesson_id uuid, p_note text
 )
+
+video_class_student_library(p_service_secret text, p_student_token uuid)
+video_class_student_create_playlist(p_service_secret text, p_student_token uuid, p_name text)
+video_class_student_rename_playlist(p_service_secret text, p_student_token uuid, p_playlist_id uuid, p_name text)
+video_class_student_delete_playlist(p_service_secret text, p_student_token uuid, p_playlist_id uuid)
+video_class_student_set_playlist_lesson(p_service_secret text, p_student_token uuid, p_playlist_id uuid, p_lesson_id uuid, p_included boolean)
+video_class_student_create_clip(p_service_secret text, p_student_token uuid, p_lesson_id uuid, p_position_seconds numeric, p_title text)
+video_class_student_delete_clip(p_service_secret text, p_student_token uuid, p_clip_id uuid)
+video_class_student_save_feedback(p_service_secret text, p_student_token uuid, p_lesson_id uuid, p_picture_quality smallint, p_explanation_quality smallint, p_audio_quality smallint)
+video_class_admin_list_feedback(p_service_secret text, p_admin_token uuid)
+video_class_authorize_thumbnail(p_service_secret text, p_student_token uuid, p_lesson_id uuid)
+video_class_playback_list_renditions(p_service_secret text, p_playback_id uuid)
+video_class_authorize_rendition(p_service_secret text, p_playback_id uuid, p_student_id uuid, p_lesson_slug text, p_quality_code text, p_user_agent_hash text, p_network_hash text)
 
 video_class_create_playback(
   p_service_secret text, p_student_token uuid, p_lesson_slug text,

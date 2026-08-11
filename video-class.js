@@ -8,6 +8,8 @@
   const requestTimeoutMs = Number(configuration.requestTimeoutMs) || 20000;
   const heartbeatIntervalMs = Math.max(10000, Number(configuration.heartbeatIntervalMs) || 15000);
   const STUDENT_INACTIVITY_MS = 30 * 60 * 1000;
+  const PLAYBACK_RATES = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 2]);
+  const PLAYBACK_RATE_STORAGE_KEY = "edmund-video-class-playback-rate-v1";
   const COURSE_CATALOG = Object.freeze([
     { id: "dse", slug: "dse", title: "DSE 中學文憑試", description: "香港中學文憑試英文課程" },
     { id: "ielts", slug: "ielts", title: "IELTS 國際英文課程", description: "IELTS 應試技巧及英語能力訓練" },
@@ -16,7 +18,8 @@
     { id: "pte", slug: "pte", title: "Pearson Test of English (PTE)", description: "PTE Academic 電腦化英語考試課程" },
     { id: "igcse", slug: "igcse", title: "IGCSE", description: "IGCSE 英文課程及考試準備" },
     { id: "sat", slug: "sat", title: "SAT", description: "SAT Reading and Writing 應試課程" },
-    { id: "ib", slug: "ib", title: "IB 課程", description: "IB English 課程及評核準備" }
+    { id: "ib", slug: "ib", title: "IB 課程", description: "IB English 課程及評核準備" },
+    { id: "grammar", slug: "grammar", title: "Grammar", description: "英文語法課程" }
   ]);
   const STORAGE_KEYS = Object.freeze({
     student: "edmund-video-class-student-session-v1",
@@ -51,18 +54,40 @@
     selectedCourseDescription: document.querySelector("[data-selected-course-description]"),
     lessonsState: document.querySelector("[data-lessons-state]"),
     lessonList: document.querySelector("[data-lesson-list]"),
+    lessonSearch: document.querySelector("[data-lesson-search]"),
+    clearLessonSearch: document.querySelector("[data-clear-lesson-search]"),
+    lessonSearchStatus: document.querySelector("[data-lesson-search-status]"),
+    lessonSummary: document.querySelector("[data-lesson-summary]"),
     bookmarksState: document.querySelector("[data-bookmarks-state]"),
     bookmarkList: document.querySelector("[data-bookmark-list]"),
     notesState: document.querySelector("[data-notes-state]"),
     notesList: document.querySelector("[data-notes-list]"),
+    playlistsState: document.querySelector("[data-playlists-state]"),
+    playlistList: document.querySelector("[data-playlist-list]"),
+    playlistDetail: document.querySelector("[data-playlist-detail]"),
+    playlistTitle: document.querySelector("[data-playlist-title]"),
+    playlistDescription: document.querySelector("[data-playlist-description]"),
+    playlistLessonsState: document.querySelector("[data-playlist-lessons-state]"),
+    playlistLessonList: document.querySelector("[data-playlist-lesson-list]"),
+    createPlaylist: document.querySelector("[data-create-playlist]"),
+    deletePlaylist: document.querySelector("[data-delete-playlist]"),
+    playlistDialog: document.querySelector("[data-playlist-dialog]"),
+    playlistChooserForm: document.querySelector("[data-playlist-chooser-form]"),
+    playlistDialogLessonTitle: document.querySelector("[data-playlist-lesson-title]"),
+    playlistOptions: document.querySelector("[data-playlist-options]"),
+    playlistOptionsEmpty: document.querySelector("[data-playlist-options-empty]"),
+    newPlaylistName: document.querySelector("[data-new-playlist-name]"),
+    createPlaylistInline: document.querySelector("[data-create-playlist-inline]"),
+    playlistStatus: document.querySelector("[data-playlist-status]"),
     printNotes: document.querySelector("[data-print-notes]"),
-    noteDialog: document.querySelector("[data-note-dialog]"),
+    notePanel: document.querySelector("[data-note-panel]"),
     noteForm: document.querySelector("[data-note-form]"),
     noteLessonTitle: document.querySelector("[data-note-lesson-title]"),
     noteContent: document.querySelector("[data-note-content]"),
     noteCount: document.querySelector("[data-note-count]"),
     noteStatus: document.querySelector("[data-note-status]"),
     openNote: document.querySelector("[data-open-note]"),
+    noteToggleIcon: document.querySelector("[data-note-toggle-icon]"),
     refreshLessons: document.querySelector("[data-refresh-lessons]"),
     playerSection: document.querySelector("[data-player-section]"),
     player: document.querySelector("[data-player]"),
@@ -72,14 +97,36 @@
     playerPlaceholder: document.querySelector("[data-player-placeholder]"),
     playerControls: document.querySelector("[data-player-controls]"),
     centrePlay: document.querySelector("[data-centre-play]"),
+    endedOverlay: document.querySelector("[data-ended-overlay]"),
+    replayVideo: document.querySelector("[data-replay-video]"),
+    openFeedback: document.querySelector("[data-open-feedback]"),
+    closeFeedback: document.querySelector("[data-close-feedback]"),
+    feedbackForm: document.querySelector("[data-feedback-form]"),
+    feedbackRatings: Array.from(document.querySelectorAll("[data-feedback-rating]")),
+    feedbackStatus: document.querySelector("[data-feedback-status]"),
     playToggle: document.querySelector("[data-play-toggle]"),
     muteToggle: document.querySelector("[data-mute-toggle]"),
     seek: document.querySelector("[data-seek]"),
+    seekMarkers: document.querySelector("[data-seek-markers]"),
+    pinClip: document.querySelector("[data-pin-clip]"),
+    clipRail: document.querySelector("[data-clip-rail]"),
+    clipRailToggle: document.querySelector("[data-clip-rail-toggle]"),
+    clipRailPanel: document.querySelector("[data-clip-rail-panel]"),
+    clipList: document.querySelector("[data-clip-list]"),
+    clipCount: document.querySelector("[data-clip-count]"),
+    clipsEmpty: document.querySelector("[data-clips-empty]"),
+    clipEditor: document.querySelector("[data-clip-editor]"),
+    clipSelectedTime: document.querySelector("[data-clip-selected-time]"),
+    clipTitle: document.querySelector("[data-clip-title]"),
+    clipStatus: document.querySelector("[data-clip-status]"),
     volume: document.querySelector("[data-volume]"),
     currentTime: document.querySelector("[data-current-time]"),
     duration: document.querySelector("[data-duration]"),
     fullscreen: document.querySelector("[data-fullscreen]"),
+    playbackSpeed: document.querySelector("[data-playback-speed]"),
+    playbackQuality: document.querySelector("[data-playback-quality]"),
     closePlayer: document.querySelector("[data-close-player]"),
+    playerViewCount: document.querySelector("[data-player-view-count]"),
     playerError: document.querySelector("[data-player-error]"),
     watermarkMain: document.querySelector("[data-watermark-main]"),
     watermarkRepeats: Array.from(document.querySelectorAll("[data-watermark-repeat]")),
@@ -103,7 +150,14 @@
     entitlementsForm: document.querySelector("[data-entitlements-form]"),
     entitlementCourseList: document.querySelector("[data-entitlement-course-list]"),
     disableWatermarks: document.querySelector("[data-disable-watermarks]"),
-    entitlementsFormStatus: document.querySelector("[data-entitlements-form-status]")
+    entitlementsFormStatus: document.querySelector("[data-entitlements-form-status]"),
+    refreshFeedback: document.querySelector("[data-refresh-feedback]"),
+    feedbackSearch: document.querySelector("[data-feedback-search]"),
+    feedbackCourseFilter: document.querySelector("[data-feedback-course-filter]"),
+    adminFeedbackState: document.querySelector("[data-feedback-state]"),
+    adminFeedbackTable: document.querySelector("[data-feedback-table]"),
+    feedbackRows: document.querySelector("[data-feedback-rows]"),
+    feedbackResultCount: document.querySelector("[data-feedback-result-count]")
   };
 
   const state = {
@@ -114,12 +168,28 @@
     courses: COURSE_CATALOG.map(course => ({ ...course, entitled: false, lessonCount: 0 })),
     adminCourses: COURSE_CATALOG.map((course, index) => ({ ...course, order: index + 1 })),
     lessons: [],
+    playlists: [],
+    officialPlaylists: [],
     students: [],
+    adminFeedback: [],
     selectedCourseId: "",
+    selectedPlaylistId: "",
+    playlistLesson: null,
+    libraryQuery: "",
     noteLesson: null,
+    thumbnailUrls: new Map(),
+    lessonLoadGeneration: 0,
     selectedEntitlementStudentId: "",
     activeLesson: null,
     playback: null,
+    playbackRate: readPlaybackRate(),
+    qualitySwitch: null,
+    clipMode: false,
+    clipPosition: null,
+    clipWasPlaying: false,
+    feedbackSaveGeneration: 0,
+    feedbackWasPlaying: false,
+    feedbackReturnFocus: null,
     heartbeatTimer: 0,
     watermarkTimer: 0,
     watermarkClock: 0,
@@ -182,6 +252,19 @@
 
   function removeStorage(key) {
     try { window.sessionStorage.removeItem(key); } catch { /* Browser storage can be unavailable. */ }
+  }
+
+  function readPlaybackRate() {
+    try {
+      const rate = Number(window.localStorage.getItem(PLAYBACK_RATE_STORAGE_KEY));
+      return PLAYBACK_RATES.includes(rate) ? rate : 1;
+    } catch {
+      return 1;
+    }
+  }
+
+  function savePlaybackRate(rate) {
+    try { window.localStorage.setItem(PLAYBACK_RATE_STORAGE_KEY, String(rate)); } catch { /* Preference storage is optional. */ }
   }
 
   function getErrorMessage(payload, fallback) {
@@ -330,7 +413,13 @@
 
   function clearSession(role) {
     removeStorage(STORAGE_KEYS[role]);
-    if (role === "student") state.studentSession = null;
+    if (role === "student") {
+      revokeThumbnailUrls();
+      state.studentSession = null;
+      state.lessons = [];
+      state.playlists = [];
+      state.officialPlaylists = [];
+    }
     else state.adminSession = null;
     if (readStorage(STORAGE_KEYS.lastRole) === role) removeStorage(STORAGE_KEYS.lastRole);
   }
@@ -846,7 +935,7 @@
         elements.selectedCourseDescription.textContent = firstCourse.description;
       }
     }
-    if (name !== "library" && state.activeLesson) closePlayer({ saveProgress: true });
+    if (name !== "library" && state.activeLesson && !closePlayer({ saveProgress: true })) return;
     elements.studentPages.forEach(page => { page.hidden = page.dataset.studentPage !== name; });
     elements.studentRoutes.forEach(button => {
       if (button.dataset.studentRoute === name) button.setAttribute("aria-current", "page");
@@ -855,6 +944,7 @@
     if (name === "courses") renderCourses();
     if (name === "library") renderLessons();
     if (name === "bookmarks") renderBookmarks();
+    if (name === "playlists") renderPlaylists();
     if (name === "notes") renderNotes();
     window.scrollTo({ top: 0, behavior: "auto" });
   }
@@ -865,6 +955,7 @@
       if (button.dataset.adminPanelTab === name) button.setAttribute("aria-current", "page");
       else button.removeAttribute("aria-current");
     });
+    if (name === "feedback") void loadAdminFeedback();
   }
 
   async function logout({ automatic = false } = {}) {
@@ -874,7 +965,12 @@
     state.isLoggingOut = true;
     suspendStudentInactivity();
     elements.logout.disabled = true;
-    if (role === "student") closePlayer({ saveProgress: true });
+    if (role === "student" && !closePlayer({ saveProgress: true, confirmUnsavedNote: !automatic })) {
+      elements.logout.disabled = false;
+      state.isLoggingOut = false;
+      resetStudentInactivity();
+      return;
+    }
     try {
       await apiRequest(`/v1/${role}/session`, { method: "DELETE", token: session.token });
     } catch (error) {
@@ -900,7 +996,7 @@
   function handleExpiredSession(role) {
     if (state.role !== role) return;
     suspendStudentInactivity();
-    if (role === "student") closePlayer({ saveProgress: false });
+    if (role === "student") closePlayer({ saveProgress: false, confirmUnsavedNote: false });
     clearSession(role);
     clearHeaderIdentity();
     selectRoleTab(role);
@@ -949,6 +1045,13 @@
     const positionSeconds = Number(progress.positionSeconds || progress.position_seconds || lesson.positionSeconds || lesson.position_seconds || lesson.resumeAt || lesson.resume_at || 0);
     const completed = progress.completed === true || lesson.completed === true;
     const calculated = durationSeconds > 0 ? Math.min(100, Math.round((positionSeconds / durationSeconds) * 100)) : 0;
+    const rawTags = Array.isArray(lesson.tags) ? lesson.tags : (Array.isArray(lesson.tagLabels || lesson.tag_labels) ? (lesson.tagLabels || lesson.tag_labels) : []);
+    const tags = rawTags.map(tag => String(typeof tag === "object" ? (tag.label || tag.name || "") : tag).trim()).filter(Boolean);
+    const officialPlaylistNames = (Array.isArray(lesson.officialPlaylistNames || lesson.official_playlist_names) ? (lesson.officialPlaylistNames || lesson.official_playlist_names) : []).map(String);
+    const playlistIds = (Array.isArray(lesson.playlistIds || lesson.playlist_ids) ? (lesson.playlistIds || lesson.playlist_ids) : []).map(String);
+    const clips = (Array.isArray(lesson.clips) ? lesson.clips : []).map(normalizeClip).filter(clip => clip.id).sort((a, b) => a.positionSeconds - b.positionSeconds);
+    const renditions = (Array.isArray(lesson.renditions) ? lesson.renditions : []).map(normalizeRendition).filter(rendition => rendition.qualityCode);
+    const rawFeedback = lesson.feedback && typeof lesson.feedback === "object" ? lesson.feedback : lesson;
     return {
       id: String(lesson.id || lesson.lessonId || lesson.lesson_id || ""),
       slug: String(lesson.slug || lesson.videoSlug || lesson.video_slug || lesson.id || ""),
@@ -959,12 +1062,81 @@
       completed,
       progressPercent: completed ? 100 : calculated,
       posterUrl: safeMediaUrl(lesson.posterUrl || lesson.poster_url || lesson.thumbnailUrl || lesson.thumbnail_url || ""),
+      hasThumbnail: lesson.hasThumbnail === true || lesson.has_thumbnail === true,
       order: Number(lesson.order || lesson.position || index + 1),
       courseId: String(lesson.courseCode || lesson.course_code || lesson.courseId || lesson.course_id || course.code || course.id || "dse").toLowerCase(),
       courseTitle: String(lesson.courseTitle || lesson.course_title || course.title || ""),
       bookmarked: lesson.bookmarked === true || lesson.isBookmarked === true || lesson.is_bookmarked === true,
+      tags,
+      officialPlaylistNames,
+      playlistIds,
+      clips,
+      renditions,
+      viewCount: Math.max(0, Number(lesson.viewCount || lesson.view_count || 0)),
+      feedback: normalizeLessonFeedback(rawFeedback),
       note: String(noteValue || ""),
       noteUpdatedAt: String(lesson.noteUpdatedAt || lesson.note_updated_at || (typeof lesson.note === "object" ? (lesson.note.updatedAt || lesson.note.updated_at || "") : ""))
+    };
+  }
+
+  function normalizeClip(value) {
+    const clip = value && typeof value === "object" ? value : {};
+    return {
+      id: String(clip.id || clip.clipId || clip.clip_id || ""),
+      lessonId: String(clip.lessonId || clip.lesson_id || ""),
+      title: String(clip.title || clip.displayTitle || clip.display_title || ""),
+      positionSeconds: Math.max(0, Number(clip.positionSeconds || clip.position_seconds || 0)),
+      clipNumber: Math.max(0, Number(clip.clipNumber || clip.clip_number || 0)),
+      createdAt: String(clip.createdAt || clip.created_at || "")
+    };
+  }
+
+  function normalizeRendition(value) {
+    const rendition = value && typeof value === "object" ? value : {};
+    const qualityCode = String(rendition.qualityCode || rendition.quality_code || rendition.code || "");
+    return {
+      qualityCode: ["480p", "720p", "1080p", "max"].includes(qualityCode) ? qualityCode : "",
+      label: String(rendition.label || rendition.displayLabel || rendition.display_label || qualityCode),
+      height: Math.max(0, Number(rendition.height || rendition.heightPixels || rendition.height_pixels || 0)),
+      isDefault: rendition.isDefault === true || rendition.is_default === true,
+      url: safePlaybackUrl(rendition.url || "")
+    };
+  }
+
+  function normalizeLessonFeedback(value) {
+    const feedback = value && typeof value === "object" ? value : {};
+    const rating = input => {
+      const number = Number(input);
+      return Number.isInteger(number) && number >= 1 && number <= 5 ? number : null;
+    };
+    return {
+      pictureQuality: rating(feedback.pictureQuality ?? feedback.picture_quality ?? feedback.videoQuality ?? feedback.video_quality),
+      explanationQuality: rating(feedback.explanationQuality ?? feedback.explanation_quality ?? feedback.explanation),
+      audioQuality: rating(feedback.audioQuality ?? feedback.audio_quality ?? feedback.soundQuality ?? feedback.sound_quality),
+      updatedAt: String(feedback.updatedAt || feedback.updated_at || feedback.feedbackUpdatedAt || feedback.feedback_updated_at || "")
+    };
+  }
+
+  function normalizePlaylist(value) {
+    const playlist = value && typeof value === "object" ? value : {};
+    return {
+      id: String(playlist.id || playlist.playlistId || playlist.playlist_id || ""),
+      name: String(playlist.name || playlist.title || "未命名播放列表"),
+      lessonIds: (Array.isArray(playlist.lessonIds || playlist.lesson_ids) ? (playlist.lessonIds || playlist.lesson_ids) : []).map(String),
+      lessonCount: Math.max(0, Number(playlist.lessonCount || playlist.lesson_count || 0)),
+      createdAt: String(playlist.createdAt || playlist.created_at || ""),
+      updatedAt: String(playlist.updatedAt || playlist.updated_at || "")
+    };
+  }
+
+  function normalizeOfficialPlaylist(value) {
+    const playlist = value && typeof value === "object" ? value : {};
+    return {
+      id: String(playlist.id || playlist.playlistId || playlist.playlist_id || ""),
+      name: String(playlist.name || playlist.title || ""),
+      description: String(playlist.description || ""),
+      courseId: String(playlist.courseCode || playlist.course_code || ""),
+      lessonIds: (Array.isArray(playlist.lessonIds || playlist.lesson_ids) ? (playlist.lessonIds || playlist.lesson_ids) : []).map(String)
     };
   }
 
@@ -999,15 +1171,28 @@
 
   async function loadLessons() {
     if (!state.studentSession?.token) return;
+    const token = state.studentSession.token;
+    const generation = ++state.lessonLoadGeneration;
     elements.lessonList.hidden = true;
     elements.courseList.hidden = true;
     showInlineState(elements.lessonsState, "正在載入你的課堂⋯");
     showInlineState(elements.coursesState, "正在載入你的課程⋯");
     try {
-      const payload = await apiRequest("/v1/lessons", { token: state.studentSession.token });
+      const payload = await apiRequest("/v1/lessons", { token });
+      if (generation !== state.lessonLoadGeneration || token !== state.studentSession?.token) return;
       const value = unwrap(payload);
       const rows = Array.isArray(value) ? value : (value?.lessons || value?.items || []);
       state.lessons = rows.map(normalizeLesson).sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, "zh-Hant"));
+      state.playlists = (Array.isArray(value?.playlists) ? value.playlists : []).map(normalizePlaylist).filter(playlist => playlist.id);
+      state.officialPlaylists = (Array.isArray(value?.officialPlaylists || value?.official_playlists) ? (value.officialPlaylists || value.official_playlists) : []).map(normalizeOfficialPlaylist).filter(playlist => playlist.id);
+      state.playlists.forEach(playlist => playlist.lessonIds.forEach(lessonId => {
+        const lesson = state.lessons.find(item => item.id === lessonId);
+        if (lesson && !lesson.playlistIds.includes(playlist.id)) lesson.playlistIds.push(playlist.id);
+      }));
+      state.officialPlaylists.forEach(playlist => playlist.lessonIds.forEach(lessonId => {
+        const lesson = state.lessons.find(item => item.id === lessonId);
+        if (lesson && playlist.name && !lesson.officialPlaylistNames.includes(playlist.name)) lesson.officialPlaylistNames.push(playlist.name);
+      }));
       const returnedCourses = Array.isArray(value?.courses) ? value.courses.map(normalizeCourse) : [];
       const byId = new Map(returnedCourses.map(course => [course.id, course]));
       const profileCodes = new Set((state.studentSession.profile.courseCodes || []).map(code => String(code).toLowerCase()));
@@ -1025,13 +1210,58 @@
       renderCourses();
       renderLessons();
       renderBookmarks();
+      renderPlaylists();
       renderNotes();
+      void loadLessonThumbnails(token, generation);
     } catch (error) {
+      if (generation !== state.lessonLoadGeneration || token !== state.studentSession?.token) return;
       if (error.status === 401) return handleExpiredSession("student");
       elements.lessonList.hidden = true;
       showInlineState(elements.lessonsState, error.message, "error", loadLessons);
       showInlineState(elements.coursesState, error.message, "error", loadLessons);
     }
+  }
+
+  function revokeThumbnailUrls() {
+    state.lessons.forEach(lesson => {
+      if (state.thumbnailUrls.get(lesson.id) === lesson.posterUrl) lesson.posterUrl = "";
+    });
+    state.thumbnailUrls.forEach(url => {
+      try { URL.revokeObjectURL(url); } catch { /* Object URL may already be gone. */ }
+    });
+    state.thumbnailUrls.clear();
+  }
+
+  async function loadLessonThumbnails(token, generation) {
+    if (!token || token !== state.studentSession?.token || generation !== state.lessonLoadGeneration) return;
+    revokeThumbnailUrls();
+    const lessons = state.lessons.filter(lesson => lesson.hasThumbnail && lesson.id);
+    await Promise.all(lessons.map(async lesson => {
+      try {
+        const response = await fetch(`${apiBase}/v1/lessons/${encodeURIComponent(lesson.id)}/thumbnail`, {
+          headers: { Authorization: `Bearer ${token}`, Accept: "image/avif,image/webp,image/jpeg,image/png" },
+          cache: "no-store",
+          credentials: "omit",
+          referrerPolicy: "no-referrer"
+        });
+        if (!response.ok || token !== state.studentSession?.token || generation !== state.lessonLoadGeneration) return;
+        const contentType = String(response.headers.get("Content-Type") || "").toLowerCase();
+        if (!["image/jpeg", "image/png", "image/webp", "image/avif"].includes(contentType)) return;
+        const blob = await response.blob();
+        if (!blob.size || blob.size > 10 * 1024 * 1024 || token !== state.studentSession?.token || generation !== state.lessonLoadGeneration) return;
+        const objectUrl = URL.createObjectURL(blob);
+        if (generation !== state.lessonLoadGeneration || token !== state.studentSession?.token || !state.lessons.includes(lesson)) {
+          URL.revokeObjectURL(objectUrl);
+          return;
+        }
+        state.thumbnailUrls.set(lesson.id, objectUrl);
+        lesson.posterUrl = objectUrl;
+      } catch { /* A missing thumbnail must not block the lesson library. */ }
+    }));
+    if (token !== state.studentSession?.token || generation !== state.lessonLoadGeneration) return;
+    renderLessons();
+    renderBookmarks();
+    renderPlaylists();
   }
 
   function renderCourses() {
@@ -1066,6 +1296,9 @@
     const course = state.courses.find(item => item.id === courseId && item.entitled);
     if (!course) return;
     state.selectedCourseId = course.id;
+    state.libraryQuery = "";
+    if (elements.lessonSearch) elements.lessonSearch.value = "";
+    if (elements.clearLessonSearch) elements.clearLessonSearch.hidden = true;
     elements.selectedCourseTitle.textContent = course.title;
     elements.selectedCourseDescription.textContent = course.description;
     showStudentPage("library");
@@ -1073,10 +1306,27 @@
 
   function renderLessons() {
     elements.lessonList.replaceChildren();
-    const lessons = state.selectedCourseId ? state.lessons.filter(lesson => lesson.courseId === state.selectedCourseId) : [];
-    if (!lessons.length) {
+    const courseLessons = state.selectedCourseId ? state.lessons.filter(lesson => lesson.courseId === state.selectedCourseId) : [];
+    const knownSeconds = courseLessons.reduce((total, lesson) => total + Math.max(0, lesson.durationSeconds || 0), 0);
+    const missingDurations = courseLessons.filter(lesson => !lesson.durationSeconds).length;
+    if (elements.lessonSummary) {
+      const minuteText = knownSeconds ? `${Math.ceil(knownSeconds / 60)} 分鐘` : "暫未有時長資料";
+      elements.lessonSummary.textContent = `共 ${courseLessons.length} 部影片 · ${minuteText}${missingDurations ? `（${missingDurations} 部待補時長）` : ""}`;
+    }
+    const query = normalizeSearchText(state.libraryQuery);
+    const lessons = query ? courseLessons.filter(lesson => lessonSearchText(lesson).includes(query)) : courseLessons;
+    if (elements.lessonSearchStatus) {
+      elements.lessonSearchStatus.textContent = query ? `找到 ${lessons.length} / ${courseLessons.length} 部影片。` : "";
+    }
+    if (!courseLessons.length) {
       elements.lessonList.hidden = true;
       showInlineState(elements.lessonsState, state.selectedCourseId ? "這個課程目前未有已發布課堂。新課堂上架後會在這裡顯示。" : "請先從課程總覽選擇一個課程。", "empty");
+      return;
+    }
+
+    if (!lessons.length) {
+      elements.lessonList.hidden = true;
+      showInlineState(elements.lessonsState, "沒有符合搜尋條件的課堂影片。你可以搜尋標題、簡介、標籤或播放列表名稱。", "empty");
       return;
     }
 
@@ -1085,9 +1335,25 @@
     elements.lessonList.hidden = false;
   }
 
+  function normalizeSearchText(value) {
+    return String(value || "").normalize("NFKC").trim().toLocaleLowerCase("zh-Hant");
+  }
+
+  function lessonSearchText(lesson) {
+    const studentPlaylistNames = state.playlists.filter(playlist => lesson.playlistIds.includes(playlist.id)).map(playlist => playlist.name);
+    return normalizeSearchText([
+      lesson.title,
+      lesson.description,
+      ...lesson.tags,
+      ...lesson.officialPlaylistNames,
+      ...studentPlaylistNames
+    ].join(" "));
+  }
+
   function createLessonCard(lesson, index) {
     const article = document.createElement("article");
     article.className = "lesson-card";
+    article.dataset.lessonId = lesson.id;
 
     const art = document.createElement("div");
     art.className = "lesson-art";
@@ -1102,6 +1368,12 @@
     const number = document.createElement("span");
     number.className = "lesson-number";
     number.textContent = String(index + 1).padStart(2, "0");
+    number.hidden = Boolean(lesson.posterUrl);
+    const image = art.querySelector("img");
+    image?.addEventListener("error", () => {
+      image.remove();
+      number.hidden = false;
+    }, { once: true });
     const duration = document.createElement("span");
     duration.className = "lesson-duration";
     duration.textContent = lesson.durationSeconds ? formatDuration(lesson.durationSeconds) : "錄影課堂";
@@ -1115,6 +1387,23 @@
     title.textContent = lesson.title;
     const description = document.createElement("p");
     description.textContent = lesson.description || "按下方按鈕開始這一節課堂。";
+
+    const tags = document.createElement("ul");
+    tags.className = "lesson-tags";
+    tags.setAttribute("aria-label", "課堂標籤");
+    lesson.tags.forEach(tag => {
+      const item = document.createElement("li");
+      item.className = "lesson-tag";
+      item.textContent = tag;
+      tags.append(item);
+    });
+    const playlistNames = [
+      ...lesson.officialPlaylistNames,
+      ...state.playlists.filter(playlist => lesson.playlistIds.includes(playlist.id)).map(playlist => playlist.name)
+    ];
+    const playlistMeta = document.createElement("p");
+    playlistMeta.className = "lesson-playlist-names";
+    playlistMeta.textContent = playlistNames.length ? `播放列表：${playlistNames.join(" · ")}` : "";
 
     const progress = document.createElement("div");
     progress.className = "lesson-progress";
@@ -1145,8 +1434,18 @@
     bookmark.setAttribute("aria-label", `${lesson.bookmarked ? "移除" : "加入"}${lesson.title}書籤`);
     bookmark.textContent = lesson.bookmarked ? "★ 已收藏" : "☆ 加入書籤";
     bookmark.addEventListener("click", () => void toggleBookmark(lesson, bookmark));
-    actions.append(button, bookmark);
-    body.append(kicker, title, description, progress, actions);
+    const playlist = document.createElement("button");
+    playlist.type = "button";
+    playlist.className = "playlist-button";
+    playlist.dataset.playlistForLesson = lesson.id;
+    playlist.textContent = "＋ 加入播放列表";
+    playlist.setAttribute("aria-label", `把 ${lesson.title} 加入播放列表`);
+    playlist.addEventListener("click", () => openPlaylistDialog(lesson));
+    actions.append(button, bookmark, playlist);
+    body.append(kicker, title, description);
+    if (lesson.tags.length) body.append(tags);
+    if (playlistNames.length) body.append(playlistMeta);
+    body.append(progress, actions);
     article.append(art, body);
     return article;
   }
@@ -1197,27 +1496,222 @@
     elements.bookmarkList.hidden = false;
   }
 
+  function renderPlaylists() {
+    if (!elements.playlistList || !elements.playlistsState) return;
+    elements.playlistList.replaceChildren();
+    if (!state.playlists.length) {
+      elements.playlistList.hidden = true;
+      elements.playlistDetail.hidden = true;
+      showInlineState(elements.playlistsState, "你尚未建立播放列表。按「建立播放列表」開始整理自己的溫習次序。", "empty");
+      return;
+    }
+    if (!state.playlists.some(playlist => playlist.id === state.selectedPlaylistId)) state.selectedPlaylistId = state.playlists[0].id;
+    state.playlists.forEach(playlist => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.playlistId = playlist.id;
+      button.setAttribute("aria-current", playlist.id === state.selectedPlaylistId ? "page" : "false");
+      const name = document.createElement("span");
+      name.className = "playlist-list__name";
+      name.textContent = playlist.name;
+      const count = document.createElement("span");
+      count.className = "playlist-list__count";
+      count.textContent = `${playlist.lessonIds.length} 部`;
+      button.append(name, count);
+      button.addEventListener("click", () => {
+        state.selectedPlaylistId = playlist.id;
+        renderPlaylists();
+        elements.playlistList.querySelector(`[data-playlist-id="${playlist.id}"]`)?.focus({ preventScroll: true });
+      });
+      elements.playlistList.append(button);
+    });
+    elements.playlistsState.hidden = true;
+    elements.playlistList.hidden = false;
+
+    const selected = state.playlists.find(playlist => playlist.id === state.selectedPlaylistId);
+    if (!selected) {
+      elements.playlistDetail.hidden = true;
+      return;
+    }
+    elements.playlistTitle.textContent = selected.name;
+    elements.playlistDescription.textContent = `${selected.lessonIds.length} 部課堂影片`;
+    const lessons = selected.lessonIds.map(id => state.lessons.find(lesson => lesson.id === id)).filter(Boolean);
+    elements.playlistLessonList.replaceChildren();
+    if (!lessons.length) {
+      elements.playlistLessonList.hidden = true;
+      showInlineState(elements.playlistLessonsState, "這個播放列表目前未有影片。你可從課堂卡按「＋ 加入播放列表」加入。", "empty");
+    } else {
+      lessons.forEach((lesson, index) => elements.playlistLessonList.append(createLessonCard(lesson, index)));
+      elements.playlistLessonsState.hidden = true;
+      elements.playlistLessonList.hidden = false;
+    }
+    elements.playlistDetail.hidden = false;
+  }
+
+  function openPlaylistDialog(lesson = null) {
+    if (!elements.playlistDialog) return;
+    state.playlistLesson = lesson;
+    elements.playlistDialogLessonTitle.textContent = lesson ? lesson.title : "建立新的播放列表";
+    elements.playlistStatus.textContent = "";
+    elements.newPlaylistName.value = "";
+    renderPlaylistDialogOptions();
+    if (typeof elements.playlistDialog.showModal === "function") elements.playlistDialog.showModal();
+    else elements.playlistDialog.setAttribute("open", "");
+    window.setTimeout(() => {
+      const firstOption = elements.playlistOptions.querySelector("input");
+      (lesson && firstOption ? firstOption : elements.newPlaylistName)?.focus();
+    }, 0);
+  }
+
+  function closePlaylistDialog() {
+    state.playlistLesson = null;
+    if (typeof elements.playlistDialog?.close === "function") elements.playlistDialog.close();
+    else elements.playlistDialog?.removeAttribute("open");
+  }
+
+  function renderPlaylistDialogOptions() {
+    if (!elements.playlistOptions) return;
+    elements.playlistOptions.replaceChildren();
+    const selected = new Set(state.playlistLesson?.playlistIds || []);
+    state.playlists.forEach(playlist => {
+      const label = document.createElement("label");
+      label.className = "playlist-dialog__option";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = playlist.id;
+      input.checked = selected.has(playlist.id);
+      const text = document.createElement("span");
+      text.textContent = `${playlist.name}（${playlist.lessonIds.length} 部）`;
+      label.append(input, text);
+      elements.playlistOptions.append(label);
+    });
+    elements.playlistOptionsEmpty.hidden = state.playlists.length > 0;
+  }
+
+  async function createPlaylistFromInput() {
+    if (!state.studentSession?.token) return;
+    const name = elements.newPlaylistName.value.trim();
+    if (!name) {
+      elements.playlistStatus.textContent = "請輸入播放列表名稱。";
+      elements.playlistStatus.dataset.state = "error";
+      return;
+    }
+    elements.createPlaylistInline.disabled = true;
+    elements.playlistStatus.textContent = "正在建立播放列表⋯";
+    try {
+      const payload = await apiRequest("/v1/playlists", {
+        method: "POST",
+        token: state.studentSession.token,
+        body: { name }
+      });
+      const playlist = normalizePlaylist(unwrap(payload)?.playlist || unwrap(payload));
+      if (!playlist.id) throw new ApiError("未能建立播放列表。", 0, "INVALID_PLAYLIST");
+      state.playlists.push(playlist);
+      state.selectedPlaylistId = playlist.id;
+      elements.newPlaylistName.value = "";
+      renderPlaylists();
+      renderPlaylistDialogOptions();
+      const option = elements.playlistOptions.querySelector(`input[value="${playlist.id}"]`);
+      if (option && state.playlistLesson) option.checked = true;
+      elements.playlistStatus.textContent = `已建立「${playlist.name}」。`;
+      elements.playlistStatus.dataset.state = "success";
+      showToast("播放列表已建立。", "success");
+      if (!state.playlistLesson) closePlaylistDialog();
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      elements.playlistStatus.textContent = error.message;
+      elements.playlistStatus.dataset.state = "error";
+    } finally {
+      elements.createPlaylistInline.disabled = false;
+    }
+  }
+
+  async function savePlaylistSelection() {
+    const lesson = state.playlistLesson;
+    if (!lesson?.id || !state.studentSession?.token) return closePlaylistDialog();
+    const desired = new Set(Array.from(elements.playlistOptions.querySelectorAll("input:checked"), input => input.value));
+    const current = new Set(lesson.playlistIds);
+    const changes = state.playlists.filter(playlist => desired.has(playlist.id) !== current.has(playlist.id));
+    if (!changes.length) return closePlaylistDialog();
+    elements.playlistChooserForm.querySelectorAll("input, button").forEach(control => { control.disabled = true; });
+    elements.playlistStatus.textContent = "正在儲存播放列表⋯";
+    try {
+      await Promise.all(changes.map(playlist => apiRequest(`/v1/playlists/${encodeURIComponent(playlist.id)}/lessons/${encodeURIComponent(lesson.id)}`, {
+        method: desired.has(playlist.id) ? "PUT" : "DELETE",
+        token: state.studentSession.token
+      })));
+      lesson.playlistIds = Array.from(desired);
+      state.playlists.forEach(playlist => {
+        playlist.lessonIds = playlist.lessonIds.filter(id => id !== lesson.id);
+        if (desired.has(playlist.id)) playlist.lessonIds.push(lesson.id);
+      });
+      closePlaylistDialog();
+      renderLessons();
+      renderPlaylists();
+      elements.lessonList.querySelector(`[data-playlist-for-lesson="${lesson.id}"]`)?.focus({ preventScroll: true });
+      showToast("播放列表已更新。", "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      elements.playlistStatus.textContent = error.message;
+      elements.playlistStatus.dataset.state = "error";
+    } finally {
+      elements.playlistChooserForm.querySelectorAll("input, button").forEach(control => { control.disabled = false; });
+    }
+  }
+
+  async function deleteSelectedPlaylist() {
+    const playlist = state.playlists.find(item => item.id === state.selectedPlaylistId);
+    if (!playlist || !state.studentSession?.token) return;
+    if (!window.confirm(`確定刪除播放列表「${playlist.name}」？影片本身及觀看進度不會被刪除。`)) return;
+    elements.deletePlaylist.disabled = true;
+    try {
+      await apiRequest(`/v1/playlists/${encodeURIComponent(playlist.id)}`, {
+        method: "DELETE",
+        token: state.studentSession.token
+      });
+      state.playlists = state.playlists.filter(item => item.id !== playlist.id);
+      state.lessons.forEach(lesson => { lesson.playlistIds = lesson.playlistIds.filter(id => id !== playlist.id); });
+      state.selectedPlaylistId = state.playlists[0]?.id || "";
+      renderLessons();
+      renderPlaylists();
+      showToast("播放列表已刪除。", "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      showToast(error.message, "error");
+    } finally {
+      elements.deletePlaylist.disabled = false;
+    }
+  }
+
   function updateNoteCount() {
     if (!elements.noteCount || !elements.noteContent) return;
     elements.noteCount.textContent = `${elements.noteContent.value.length.toLocaleString("en-US")} / 5,000`;
   }
 
   function openNoteDialog(lesson) {
-    if (!lesson || !elements.noteDialog) return;
+    if (!lesson || !elements.notePanel) return;
     state.noteLesson = lesson;
     elements.noteLessonTitle.textContent = lesson.title;
     elements.noteContent.value = lesson.note || "";
     elements.noteStatus.textContent = "";
     updateNoteCount();
-    if (typeof elements.noteDialog.showModal === "function") elements.noteDialog.showModal();
-    else elements.noteDialog.setAttribute("open", "");
+    elements.notePanel.hidden = false;
+    elements.openNote?.setAttribute("aria-expanded", "true");
+    if (elements.noteToggleIcon) elements.noteToggleIcon.textContent = "−";
     window.setTimeout(() => elements.noteContent.focus(), 0);
   }
 
-  function closeNoteDialog() {
+  function closeNoteDialog(force = false, { restoreFocus = true } = {}) {
+    if (!force && state.noteLesson && elements.noteContent.value.trim() !== state.noteLesson.note.trim()) {
+      if (!window.confirm("這堂課的筆記尚未儲存，確定先收合嗎？")) return false;
+    }
+    const shouldRestoreFocus = restoreFocus && elements.notePanel?.contains(document.activeElement);
     state.noteLesson = null;
-    if (typeof elements.noteDialog?.close === "function") elements.noteDialog.close();
-    else elements.noteDialog?.removeAttribute("open");
+    if (elements.notePanel) elements.notePanel.hidden = true;
+    elements.openNote?.setAttribute("aria-expanded", "false");
+    if (elements.noteToggleIcon) elements.noteToggleIcon.textContent = "＋";
+    if (shouldRestoreFocus) elements.openNote?.focus({ preventScroll: true });
+    return true;
   }
 
   async function saveLessonNote() {
@@ -1240,7 +1734,8 @@
       lesson.note = String(returnedNote ?? text);
       lesson.noteUpdatedAt = String(value.updatedAt || value.updated_at || value.note?.updatedAt || value.note?.updated_at || new Date().toISOString());
       renderNotes();
-      closeNoteDialog();
+      closeNoteDialog(true, { restoreFocus: false });
+      elements.openNote?.focus({ preventScroll: true });
       showToast(text ? "筆記已儲存。" : "筆記已清除。", "success");
     } catch (error) {
       if (error.status === 401) return handleExpiredSession("student");
@@ -1288,7 +1783,10 @@
       const edit = document.createElement("button");
       edit.type = "button";
       edit.textContent = "編輯筆記";
-      edit.addEventListener("click", () => openNoteDialog(lesson));
+      edit.addEventListener("click", () => {
+        openLesson(lesson);
+        openNoteDialog(lesson);
+      });
       const watch = document.createElement("button");
       watch.type = "button";
       watch.textContent = "前往課堂 →";
@@ -1313,10 +1811,19 @@
     if (!videoUrl) throw new ApiError("安全播放連結無效，請重新載入課堂。", 0, "INVALID_PLAYBACK_URL");
     const watermark = grant.watermark && typeof grant.watermark === "object" ? grant.watermark : {};
     const watermarksDisabled = watermark.disabled === true || watermark.disableAll === true || watermark.disable_all === true || grant.disableAllWatermarks === true || grant.disable_all_watermarks === true || grant.watermarksDisabled === true || grant.watermarks_disabled === true || grant.trustedStudent === true || grant.trusted_student === true;
+    const sources = (Array.isArray(grant.sources) ? grant.sources : []).map(normalizeRendition).filter(source => source.qualityCode && source.url);
+    if (!sources.length) sources.push({ qualityCode: "max", label: "Max（最高畫質）", height: 0, isDefault: true, url: videoUrl });
+    const requestedDefault = String(grant.defaultQuality || grant.default_quality || "");
+    const defaultSource = sources.find(source => source.qualityCode === requestedDefault)
+      || sources.find(source => source.isDefault)
+      || sources.find(source => source.qualityCode === "max")
+      || sources[sources.length - 1];
     return {
       playbackToken,
       sessionId,
-      videoUrl,
+      videoUrl: defaultSource.url,
+      sources,
+      activeQuality: defaultSource.qualityCode,
       expiresAt: String(grant.expiresAt || grant.expires_at || ""),
       resumeAt: lesson.completed ? 0 : Number(grant.resumeAt || grant.resume_at || grant.positionSeconds || grant.position_seconds || lesson.positionSeconds || 0),
       videoKey: String(watermark.videoKey || watermark.video_key || grant.videoKey || grant.video_key || state.studentSession?.profile?.videoKey || "已驗證學生"),
@@ -1326,6 +1833,7 @@
   }
 
   function safePlaybackUrl(value) {
+    if (!value) return "";
     try {
       const parsed = new URL(String(value), apiBase);
       const apiOrigin = new URL(apiBase).origin;
@@ -1337,17 +1845,312 @@
     }
   }
 
+  function applyPlaybackRate(value) {
+    const rate = Number(value);
+    if (!PLAYBACK_RATES.includes(rate)) return;
+    state.playbackRate = rate;
+    elements.video.defaultPlaybackRate = rate;
+    elements.video.playbackRate = rate;
+    elements.video.preservesPitch = true;
+    if (elements.playbackSpeed) elements.playbackSpeed.value = String(rate);
+    savePlaybackRate(rate);
+  }
+
+  function configureQualitySelector() {
+    if (!elements.playbackQuality || !state.playback) return;
+    const sources = new Map(state.playback.sources.map(source => [source.qualityCode, source]));
+    const baseLabels = { "480p": "480p", "720p": "720p", "1080p": "1080p", max: "Max（最高畫質）" };
+    Array.from(elements.playbackQuality.options).forEach(option => {
+      const source = sources.get(option.value);
+      option.disabled = !source;
+      option.textContent = source
+        ? (option.value === "max" && source.height ? `Max（${source.height}p）` : (source.label || baseLabels[option.value]))
+        : `${baseLabels[option.value]}（不支援）`;
+    });
+    elements.playbackQuality.value = state.playback.activeQuality;
+    elements.playbackQuality.disabled = sources.size <= 1;
+    elements.playbackQuality.title = sources.has("1080p") ? "選擇影片畫質" : "原片最高為 720p，因此不會虛假放大至 1080p";
+  }
+
+  function switchPlaybackQuality(qualityCode) {
+    if (!state.playback || state.qualitySwitch) return;
+    const source = state.playback.sources.find(item => item.qualityCode === qualityCode);
+    if (!source || source.qualityCode === state.playback.activeQuality) return;
+    const duration = Number.isFinite(elements.video.duration) ? elements.video.duration : Infinity;
+    state.qualitySwitch = {
+      position: Math.min(Math.max(0, elements.video.currentTime || 0), duration),
+      wasPlaying: !elements.video.paused && !elements.video.ended,
+      volume: elements.video.volume,
+      muted: elements.video.muted,
+      rate: state.playbackRate
+    };
+    elements.video.pause();
+    state.playback.activeQuality = source.qualityCode;
+    state.playback.videoUrl = source.url;
+    elements.playbackQuality.value = source.qualityCode;
+    elements.playbackQuality.disabled = true;
+    elements.video.src = source.url;
+    elements.video.load();
+    showToast(`正在切換至 ${source.label || source.qualityCode}⋯`);
+  }
+
+  function setClipRailOpen(open, { restoreFocus = true } = {}) {
+    if (!elements.clipRail) return;
+    const shouldRestoreFocus = !open && restoreFocus && !elements.clipRail.hidden && elements.clipRailPanel?.contains(document.activeElement);
+    elements.clipRail.dataset.open = String(open);
+    elements.clipRailToggle?.setAttribute("aria-expanded", String(open));
+    if (shouldRestoreFocus) elements.clipRailToggle?.focus({ preventScroll: true });
+  }
+
+  function renderClips() {
+    if (!elements.clipList || !elements.seekMarkers) return;
+    const clips = (state.activeLesson?.clips || []).slice().sort((a, b) => a.positionSeconds - b.positionSeconds);
+    const duration = Number.isFinite(elements.video.duration) && elements.video.duration > 0
+      ? elements.video.duration
+      : Math.max(0, state.activeLesson?.durationSeconds || 0);
+    elements.clipList.replaceChildren();
+    elements.seekMarkers.replaceChildren();
+    elements.clipCount.textContent = String(clips.length);
+    elements.clipsEmpty.hidden = clips.length > 0;
+    elements.clipRail.hidden = clips.length === 0;
+    if (!clips.length) {
+      setClipRailOpen(false);
+      return;
+    }
+
+    clips.forEach((clip, index) => {
+      const label = clip.title ? `精彩回顧：${clip.title}` : `Clip ${clip.clipNumber || index + 1}`;
+      const item = document.createElement("li");
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "clip-item";
+      button.dataset.clipId = clip.id;
+      button.setAttribute("aria-label", `跳到 ${formatDuration(clip.positionSeconds)}：${label}`);
+      const title = document.createElement("span");
+      title.className = "clip-item__title";
+      title.textContent = label;
+      const time = document.createElement("span");
+      time.className = "clip-item__time";
+      time.textContent = formatDuration(clip.positionSeconds);
+      button.append(title, time);
+      button.addEventListener("click", () => seekToClip(clip));
+      item.append(button);
+      elements.clipList.append(item);
+
+      if (duration > 0) {
+        const marker = document.createElement("button");
+        marker.type = "button";
+        marker.className = "seek-marker";
+        marker.style.left = `${Math.min(100, Math.max(0, (clip.positionSeconds / duration) * 100))}%`;
+        marker.title = `${label} · ${formatDuration(clip.positionSeconds)}`;
+        marker.setAttribute("aria-label", `跳到 ${label}，${formatDuration(clip.positionSeconds)}`);
+        marker.addEventListener("click", event => {
+          event.stopPropagation();
+          seekToClip(clip);
+        });
+        elements.seekMarkers.append(marker);
+      }
+    });
+  }
+
+  function seekToClip(clip) {
+    if (!state.playback || !Number.isFinite(clip?.positionSeconds)) return;
+    elements.video.currentTime = Math.min(Math.max(0, clip.positionSeconds), elements.video.duration || clip.positionSeconds);
+    updatePlayerControls();
+    setClipRailOpen(false);
+    void elements.video.play().catch(() => showToast("已跳到精彩片段，按播放繼續。"));
+  }
+
+  function beginClipCreation() {
+    if (!state.playback || !state.activeLesson) return;
+    if (state.clipMode || !elements.clipEditor.hidden) {
+      cancelClipCreation({ resume: true });
+      return;
+    }
+    state.clipWasPlaying = !elements.video.paused && !elements.video.ended;
+    state.clipMode = true;
+    state.clipPosition = null;
+    elements.video.pause();
+    elements.pinClip.setAttribute("aria-pressed", "true");
+    elements.pinClip.setAttribute("aria-label", "取消選擇精彩片段位置");
+    showControlsTemporarily();
+    showToast("請拖動影片進度列；放開時便可儲存這個時間點。", "info");
+    elements.seek.focus({ preventScroll: true });
+  }
+
+  function openClipEditor(positionSeconds) {
+    if (!state.activeLesson || !state.studentSession?.token) return;
+    const maximum = Number.isFinite(elements.video.duration) ? elements.video.duration : 86400;
+    state.clipPosition = Math.min(Math.max(0, Number(positionSeconds) || 0), maximum);
+    state.clipMode = false;
+    elements.pinClip.setAttribute("aria-pressed", "false");
+    elements.pinClip.setAttribute("aria-label", "在影片進度列選擇精彩片段位置");
+    elements.clipSelectedTime.textContent = formatDuration(state.clipPosition);
+    elements.clipTitle.value = "";
+    elements.clipStatus.textContent = "";
+    elements.clipEditor.hidden = false;
+    syncPlayerOverlayState();
+    window.setTimeout(() => elements.clipTitle.focus(), 0);
+  }
+
+  function syncPlayerOverlayState() {
+    const controlsBlocked = !elements.endedOverlay.hidden || !elements.clipEditor.hidden;
+    elements.playerControls?.toggleAttribute("inert", controlsBlocked);
+  }
+
+  function cancelClipCreation({ resume = false, restoreFocus = true } = {}) {
+    const shouldResume = resume && state.clipWasPlaying && state.playback;
+    const editorWasOpen = elements.clipEditor && !elements.clipEditor.hidden;
+    state.clipMode = false;
+    state.clipPosition = null;
+    state.clipWasPlaying = false;
+    elements.pinClip?.setAttribute("aria-pressed", "false");
+    elements.pinClip?.setAttribute("aria-label", "在影片進度列選擇精彩片段位置");
+    if (elements.clipEditor) elements.clipEditor.hidden = true;
+    if (elements.clipStatus) elements.clipStatus.textContent = "";
+    syncPlayerOverlayState();
+    if (restoreFocus && editorWasOpen && state.playback) elements.pinClip?.focus({ preventScroll: true });
+    if (shouldResume) void elements.video.play().catch(() => {});
+  }
+
+  async function saveClip(title = "") {
+    const lesson = state.activeLesson;
+    if (!lesson?.id || !state.studentSession?.token || !Number.isFinite(state.clipPosition)) return;
+    const controls = elements.clipEditor.querySelectorAll("input, button");
+    controls.forEach(control => { control.disabled = true; });
+    elements.clipStatus.textContent = "正在儲存精彩片段⋯";
+    elements.clipStatus.dataset.state = "success";
+    try {
+      const payload = await apiRequest(`/v1/lessons/${encodeURIComponent(lesson.id)}/clips`, {
+        method: "POST",
+        token: state.studentSession.token,
+        body: { positionSeconds: state.clipPosition, title: String(title || "").trim() }
+      });
+      const clip = normalizeClip(unwrap(payload)?.clip || unwrap(payload));
+      if (!clip.id) throw new ApiError("未能儲存精彩片段。", 0, "INVALID_CLIP");
+      lesson.clips = [...lesson.clips.filter(item => item.id !== clip.id), clip].sort((a, b) => a.positionSeconds - b.positionSeconds);
+      renderClips();
+      cancelClipCreation({ resume: true });
+      showToast(`已儲存「${clip.title || `Clip ${clip.clipNumber || lesson.clips.length}`}」。`, "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("student");
+      elements.clipStatus.textContent = error.message;
+      elements.clipStatus.dataset.state = "error";
+    } finally {
+      controls.forEach(control => { control.disabled = false; });
+    }
+  }
+
+  function configureFeedbackForm(lesson) {
+    const feedback = lesson?.feedback || {};
+    const values = {
+      videoQuality: feedback.pictureQuality,
+      explanation: feedback.explanationQuality,
+      audioQuality: feedback.audioQuality
+    };
+    elements.feedbackRatings.forEach(input => {
+      input.checked = Number(input.value) === values[input.dataset.feedbackRating];
+      input.disabled = false;
+    });
+    elements.feedbackStatus.textContent = "";
+    elements.feedbackStatus.dataset.state = "";
+  }
+
+  function currentFeedbackValues() {
+    const selected = key => {
+      const input = elements.feedbackForm.querySelector(`[data-feedback-rating="${key}"]:checked`);
+      return input ? Number(input.value) : null;
+    };
+    return {
+      videoQuality: selected("videoQuality"),
+      explanation: selected("explanation"),
+      audioQuality: selected("audioQuality")
+    };
+  }
+
+  function showFeedbackOverlay({ pause = true } = {}) {
+    if (!state.activeLesson || !state.playback) return;
+    state.feedbackReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : elements.openFeedback;
+    state.feedbackWasPlaying = pause && !elements.video.paused && !elements.video.ended;
+    if (pause) elements.video.pause();
+    configureFeedbackForm(state.activeLesson);
+    elements.endedOverlay.hidden = false;
+    elements.player.dataset.ended = String(elements.video.ended);
+    elements.closeFeedback.hidden = elements.video.ended;
+    elements.centrePlay.hidden = true;
+    syncPlayerOverlayState();
+    window.setTimeout(() => elements.feedbackForm.querySelector("input:checked, input")?.focus({ preventScroll: true }), 0);
+  }
+
+  function closeFeedbackOverlay({ resume = true, restoreFocus = true } = {}) {
+    const shouldResume = resume && state.feedbackWasPlaying && state.playback;
+    const returnFocus = state.feedbackReturnFocus;
+    state.feedbackWasPlaying = false;
+    state.feedbackReturnFocus = null;
+    elements.endedOverlay.hidden = true;
+    elements.player.removeAttribute("data-ended");
+    syncPlayerOverlayState();
+    updatePlayButtons();
+    if (restoreFocus) {
+      const target = returnFocus?.isConnected && !returnFocus.closest("[hidden]") ? returnFocus : elements.playToggle;
+      target?.focus({ preventScroll: true });
+    }
+    if (shouldResume) void elements.video.play().catch(() => {});
+  }
+
+  async function saveLessonFeedback() {
+    const lesson = state.activeLesson;
+    if (!lesson?.id || !state.studentSession?.token) return;
+    const values = currentFeedbackValues();
+    if (Object.values(values).every(value => value == null)) return;
+    const activeRating = document.activeElement;
+    const generation = ++state.feedbackSaveGeneration;
+    elements.feedbackRatings.forEach(input => { input.disabled = true; });
+    elements.feedbackStatus.textContent = "正在儲存評分⋯";
+    elements.feedbackStatus.dataset.state = "";
+    try {
+      const payload = await apiRequest(`/v1/lessons/${encodeURIComponent(lesson.id)}/feedback`, {
+        method: "PUT",
+        token: state.studentSession.token,
+        body: values
+      });
+      if (generation !== state.feedbackSaveGeneration || state.activeLesson?.id !== lesson.id) return;
+      lesson.feedback = normalizeLessonFeedback(unwrap(payload)?.feedback || unwrap(payload));
+      configureFeedbackForm(lesson);
+      elements.feedbackStatus.textContent = "評分已儲存；你可隨時更改。";
+      elements.feedbackStatus.dataset.state = "success";
+    } catch (error) {
+      if (generation !== state.feedbackSaveGeneration) return;
+      if (error.status === 401) return handleExpiredSession("student");
+      elements.feedbackStatus.textContent = error.message;
+      elements.feedbackStatus.dataset.state = "error";
+    } finally {
+      if (generation === state.feedbackSaveGeneration) {
+        elements.feedbackRatings.forEach(input => { input.disabled = false; });
+        if (!elements.endedOverlay.hidden && activeRating instanceof HTMLElement && activeRating.isConnected) {
+          activeRating.focus({ preventScroll: true });
+        }
+      }
+    }
+  }
+
   async function startPlayback(lesson) {
     if (!state.studentSession?.token || !lesson?.id) return;
-    closePlayer({ saveProgress: true, hideSection: false });
+    if (!closePlayer({ saveProgress: true, hideSection: false })) return;
     state.activeLesson = lesson;
+    state.qualitySwitch = null;
     elements.playerTitle.textContent = lesson.title;
     elements.playerDescription.textContent = lesson.description || "";
+    elements.playerViewCount.textContent = `觀看次數：${lesson.viewCount.toLocaleString("zh-HK")}`;
     elements.playerSection.hidden = false;
     elements.playerError.hidden = true;
     elements.playerPlaceholder.hidden = false;
     elements.playerControls.hidden = true;
     elements.centrePlay.hidden = true;
+    elements.endedOverlay.hidden = true;
+    elements.player.removeAttribute("data-ended");
+    configureFeedbackForm(lesson);
+    renderClips();
     elements.playerSection.scrollIntoView({ behavior: "smooth", block: "start" });
 
     try {
@@ -1357,8 +2160,10 @@
         body: { lessonId: lesson.id }
       });
       if (state.activeLesson?.id !== lesson.id) return;
-      state.playback = extractPlaybackGrant(payload, lesson);
+      state.playback = { ...extractPlaybackGrant(payload, lesson), viewCountRecorded: false };
       configureWatermark();
+      configureQualitySelector();
+      applyPlaybackRate(state.playbackRate);
       elements.video.src = state.playback.videoUrl;
       elements.video.load();
     } catch (error) {
@@ -1456,6 +2261,10 @@
 
   async function sendHeartbeat(eventType = "heartbeat", keepalive = false) {
     if (!state.studentSession?.token || !state.activeLesson || !state.playback || state.heartbeatInFlight) return;
+    const lesson = state.activeLesson;
+    const playback = state.playback;
+    const positionSeconds = Number.isFinite(elements.video.currentTime) ? Math.round(elements.video.currentTime * 10) / 10 : 0;
+    const durationSeconds = Number.isFinite(elements.video.duration) ? Math.round(elements.video.duration * 10) / 10 : 0;
     state.heartbeatInFlight = true;
     try {
       await apiRequest("/v1/playback/heartbeat", {
@@ -1464,13 +2273,19 @@
         keepalive,
         timeoutMs: keepalive ? 4000 : requestTimeoutMs,
         body: {
-          lessonId: state.activeLesson.id,
-          playbackSessionId: state.playback.sessionId,
-          positionSeconds: Number.isFinite(elements.video.currentTime) ? Math.round(elements.video.currentTime * 10) / 10 : 0,
-          durationSeconds: Number.isFinite(elements.video.duration) ? Math.round(elements.video.duration * 10) / 10 : 0,
+          lessonId: lesson.id,
+          playbackSessionId: playback.sessionId,
+          positionSeconds,
+          durationSeconds,
           event: eventType
         }
       });
+      const qualifiesAsView = durationSeconds > 0 && (positionSeconds >= 3 || positionSeconds / durationSeconds >= 0.1);
+      if (qualifiesAsView && !playback.viewCountRecorded && state.playback === playback && state.activeLesson === lesson) {
+        playback.viewCountRecorded = true;
+        lesson.viewCount += 1;
+        elements.playerViewCount.textContent = `觀看次數：${lesson.viewCount.toLocaleString("zh-HK")}`;
+      }
     } catch (error) {
       if (error.status === 401) handleExpiredSession("student");
     } finally {
@@ -1478,13 +2293,32 @@
     }
   }
 
-  function closePlayer({ saveProgress = true, hideSection = true } = {}) {
+  function closePlayer({ saveProgress = true, hideSection = true, confirmUnsavedNote = true } = {}) {
+    if (confirmUnsavedNote) {
+      if (!closeNoteDialog(false, { restoreFocus: false })) return false;
+    } else {
+      closeNoteDialog(true, { restoreFocus: false });
+    }
     if (saveProgress && state.playback) void sendHeartbeat("close", true);
     window.clearInterval(state.heartbeatTimer);
     clearWatermarkTimers();
     window.clearTimeout(state.controlsTimer);
     state.heartbeatTimer = 0;
     state.controlsTimer = 0;
+    state.feedbackSaveGeneration += 1;
+    state.feedbackWasPlaying = false;
+    state.feedbackReturnFocus = null;
+    state.qualitySwitch = null;
+    cancelClipCreation({ restoreFocus: false });
+    setClipRailOpen(false, { restoreFocus: false });
+    elements.endedOverlay.hidden = true;
+    syncPlayerOverlayState();
+    elements.player.removeAttribute("data-ended");
+    elements.seekMarkers?.replaceChildren();
+    if (elements.playbackQuality) {
+      elements.playbackQuality.disabled = true;
+      elements.playbackQuality.value = "max";
+    }
     if (elements.video) {
       elements.video.pause();
       elements.video.removeAttribute("src");
@@ -1500,6 +2334,7 @@
       if (state.role === "student") void loadLessons();
     }
     resetStudentInactivity();
+    return true;
   }
 
   function updatePlayerControls() {
@@ -1511,13 +2346,19 @@
       elements.seek.max = String(duration || 100);
       elements.seek.value = String(duration ? Math.min(current, duration) : 0);
     }
+    const clips = state.activeLesson?.clips || [];
+    const visitedClips = clips.filter(clip => clip.positionSeconds <= current + 0.25);
+    const active = visitedClips[visitedClips.length - 1];
+    elements.clipList?.querySelectorAll("[data-clip-id]").forEach(button => {
+      button.setAttribute("aria-current", String(button.dataset.clipId === active?.id));
+    });
   }
 
   function updatePlayButtons() {
     const paused = elements.video.paused;
     elements.playToggle.querySelector("span").textContent = paused ? "▶" : "❚❚";
     elements.playToggle.setAttribute("aria-label", paused ? "播放影片" : "暫停影片");
-    elements.centrePlay.hidden = !paused || elements.playerPlaceholder.hidden === false;
+    elements.centrePlay.hidden = !paused || elements.playerPlaceholder.hidden === false || !elements.endedOverlay.hidden;
   }
 
   async function togglePlayback() {
@@ -1551,7 +2392,7 @@
   }
 
   function handlePlayerKeydown(event) {
-    if (!state.playback || ["INPUT", "BUTTON"].includes(event.target.tagName)) return;
+    if (!state.playback || ["INPUT", "BUTTON", "SELECT", "TEXTAREA"].includes(event.target.tagName)) return;
     const key = event.key.toLowerCase();
     if ([" ", "k"].includes(key)) {
       event.preventDefault();
@@ -1572,6 +2413,22 @@
     showControlsTemporarily();
   }
 
+  function trapOverlayFocus(event, container) {
+    if (event.key !== "Tab" || !container) return;
+    const focusable = Array.from(container.querySelectorAll("button:not([disabled]):not([hidden]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])"))
+      .filter(element => !element.closest("[hidden]"));
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
+
   function updateMuteControl() {
     const muted = elements.video.muted || elements.video.volume === 0;
     elements.muteToggle.querySelector("span").textContent = muted ? "靜音" : "聲音";
@@ -1584,16 +2441,32 @@
     elements.video.disableRemotePlayback = true;
     elements.video.addEventListener("loadedmetadata", () => {
       if (!state.playback) return;
-      const latestStart = Math.max(0, (elements.video.duration || 0) - 3);
-      const resumeAt = Math.min(Math.max(0, state.playback.resumeAt), latestStart);
-      if (resumeAt > 2) elements.video.currentTime = resumeAt;
+      const qualitySwitch = state.qualitySwitch;
+      const requestedPosition = qualitySwitch ? qualitySwitch.position : state.playback.resumeAt;
+      const maximumPosition = qualitySwitch
+        ? Math.max(0, elements.video.duration || 0)
+        : Math.max(0, (elements.video.duration || 0) - 3);
+      const resumeAt = Math.min(Math.max(0, requestedPosition), maximumPosition);
+      if ((qualitySwitch && resumeAt > 0) || (!qualitySwitch && resumeAt > 2)) elements.video.currentTime = resumeAt;
+      if (qualitySwitch) {
+        elements.video.volume = qualitySwitch.volume;
+        elements.video.muted = qualitySwitch.muted;
+        applyPlaybackRate(qualitySwitch.rate);
+        state.qualitySwitch = null;
+        configureQualitySelector();
+      } else {
+        state.playback.resumeAt = 0;
+        applyPlaybackRate(state.playbackRate);
+      }
       elements.playerPlaceholder.hidden = true;
       elements.playerControls.hidden = false;
       elements.centrePlay.hidden = false;
-      elements.player.focus({ preventScroll: true });
+      if (!qualitySwitch && elements.notePanel.hidden) elements.player.focus({ preventScroll: true });
       updatePlayerControls();
+      renderClips();
       updatePlayButtons();
       showControlsTemporarily();
+      if (qualitySwitch?.wasPlaying) void elements.video.play().catch(() => showToast("畫質已切換，請按播放繼續。"));
     });
     elements.video.addEventListener("timeupdate", updatePlayerControls);
     elements.video.addEventListener("durationchange", updatePlayerControls);
@@ -1616,6 +2489,7 @@
       window.clearInterval(state.heartbeatTimer);
       void sendHeartbeat("ended");
       resetStudentInactivity();
+      showFeedbackOverlay({ pause: false });
       showToast("課堂播放完畢，進度已儲存。", "success");
     });
     elements.video.addEventListener("volumechange", updateMuteControl);
@@ -1636,7 +2510,7 @@
     });
     elements.player.addEventListener("pointermove", showControlsTemporarily);
     elements.player.addEventListener("pointerleave", () => {
-      if (!elements.video.paused) elements.player.dataset.controlsHidden = "true";
+      if (!elements.video.paused && !elements.player.contains(document.activeElement)) elements.player.dataset.controlsHidden = "true";
     });
     elements.player.addEventListener("keydown", handlePlayerKeydown);
     elements.video.addEventListener("click", () => void togglePlayback());
@@ -1657,8 +2531,50 @@
       elements.video.currentTime = Number(elements.seek.value);
       state.seeking = false;
       updatePlayerControls();
+      if (state.clipMode) openClipEditor(Number(elements.seek.value));
     });
     elements.seek.addEventListener("pointerup", () => { state.seeking = false; });
+    elements.playbackSpeed?.addEventListener("change", () => applyPlaybackRate(elements.playbackSpeed.value));
+    elements.video.addEventListener("ratechange", () => {
+      if (PLAYBACK_RATES.includes(elements.video.playbackRate) && elements.playbackSpeed) elements.playbackSpeed.value = String(elements.video.playbackRate);
+    });
+    elements.playbackQuality?.addEventListener("change", () => switchPlaybackQuality(elements.playbackQuality.value));
+    elements.pinClip?.addEventListener("click", beginClipCreation);
+    elements.clipEditor?.addEventListener("submit", event => {
+      event.preventDefault();
+      void saveClip(elements.clipTitle.value);
+    });
+    document.querySelector("[data-skip-clip-title]")?.addEventListener("click", () => void saveClip(""));
+    document.querySelector("[data-cancel-clip]")?.addEventListener("click", () => cancelClipCreation({ resume: true }));
+    elements.clipRailToggle?.addEventListener("click", () => setClipRailOpen(elements.clipRailToggle.getAttribute("aria-expanded") !== "true"));
+    document.querySelector("[data-clip-rail-close]")?.addEventListener("click", () => setClipRailOpen(false));
+    elements.feedbackRatings.forEach(input => input.addEventListener("change", () => void saveLessonFeedback()));
+    elements.openFeedback?.addEventListener("click", () => showFeedbackOverlay({ pause: true }));
+    elements.closeFeedback?.addEventListener("click", () => closeFeedbackOverlay({ resume: true }));
+    elements.endedOverlay?.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeFeedbackOverlay({ resume: !elements.video.ended });
+        return;
+      }
+      trapOverlayFocus(event, elements.endedOverlay);
+    });
+    elements.clipEditor?.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        cancelClipCreation({ resume: true });
+        return;
+      }
+      trapOverlayFocus(event, elements.clipEditor);
+    });
+    elements.replayVideo?.addEventListener("click", () => {
+      closeFeedbackOverlay({ resume: false, restoreFocus: false });
+      elements.video.currentTime = 0;
+      void elements.video.play().then(() => elements.video.focus({ preventScroll: true })).catch(() => {
+        elements.playToggle.focus({ preventScroll: true });
+        showToast("請按播放開始重看。");
+      });
+    });
     elements.closePlayer.addEventListener("click", () => closePlayer({ saveProgress: true }));
   }
 
@@ -1984,6 +2900,116 @@
     }
   }
 
+  function normalizeAdminFeedback(value) {
+    const row = value && typeof value === "object" ? value : {};
+    const feedback = normalizeLessonFeedback(row);
+    return {
+      studentId: String(row.studentId || row.student_id || ""),
+      studentName: String(row.studentName || row.student_name || "未命名學生"),
+      lessonId: String(row.lessonId || row.lesson_id || ""),
+      lessonTitle: String(row.lessonTitle || row.lesson_title || "未命名課堂"),
+      courseCode: String(row.courseCode || row.course_code || "").toLowerCase(),
+      ...feedback
+    };
+  }
+
+  async function loadAdminFeedback() {
+    if (!state.adminSession?.token || !elements.adminFeedbackState) return;
+    elements.adminFeedbackTable.hidden = true;
+    elements.feedbackResultCount.hidden = true;
+    showInlineState(elements.adminFeedbackState, "正在載入影片評分⋯");
+    if (elements.refreshFeedback) elements.refreshFeedback.disabled = true;
+    try {
+      const payload = await apiRequest("/v1/admin/feedback", { token: state.adminSession.token });
+      const value = unwrap(payload);
+      const rows = Array.isArray(value) ? value : (value?.feedback || value?.items || []);
+      state.adminFeedback = rows.map(normalizeAdminFeedback).sort((a, b) => String(b.updatedAt).localeCompare(String(a.updatedAt)));
+      const selected = elements.feedbackCourseFilter.value || "all";
+      const codes = Array.from(new Set(state.adminFeedback.map(item => item.courseCode).filter(Boolean)));
+      elements.feedbackCourseFilter.replaceChildren(new Option("所有課程", "all"));
+      codes.forEach(code => {
+        const course = state.adminCourses.find(item => item.id === code) || COURSE_CATALOG.find(item => item.id === code);
+        elements.feedbackCourseFilter.append(new Option(course?.title || code.toUpperCase(), code));
+      });
+      if (selected === "all" || codes.includes(selected)) elements.feedbackCourseFilter.value = selected;
+      renderAdminFeedback();
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      showInlineState(elements.adminFeedbackState, error.message, "error", loadAdminFeedback);
+    } finally {
+      if (elements.refreshFeedback) elements.refreshFeedback.disabled = false;
+    }
+  }
+
+  function renderAdminFeedback() {
+    if (!elements.feedbackRows) return;
+    const query = normalizeSearchText(elements.feedbackSearch?.value || "");
+    const courseCode = String(elements.feedbackCourseFilter?.value || "all");
+    const rows = state.adminFeedback.filter(item => {
+      if (courseCode !== "all" && item.courseCode !== courseCode) return false;
+      if (query && !normalizeSearchText(`${item.studentName} ${item.studentId} ${item.lessonTitle}`).includes(query)) return false;
+      return true;
+    });
+    elements.feedbackRows.replaceChildren();
+    elements.adminFeedbackState.hidden = true;
+    elements.adminFeedbackTable.hidden = false;
+    elements.feedbackResultCount.hidden = false;
+    elements.feedbackResultCount.textContent = `顯示 ${rows.length} / ${state.adminFeedback.length} 份評分`;
+
+    if (!rows.length) {
+      const row = document.createElement("tr");
+      const cell = document.createElement("td");
+      cell.colSpan = 6;
+      cell.textContent = state.adminFeedback.length ? "沒有符合搜尋條件的評分。" : "學生尚未提交影片評分。";
+      cell.style.padding = "42px";
+      cell.style.textAlign = "center";
+      cell.style.color = "#85868d";
+      row.append(cell);
+      elements.feedbackRows.append(row);
+      return;
+    }
+
+    const scoreCell = value => {
+      const cell = document.createElement("td");
+      if (value == null) cell.textContent = "—";
+      else {
+        const score = document.createElement("span");
+        score.className = "feedback-score";
+        score.textContent = String(value);
+        score.setAttribute("aria-label", `${value} / 5`);
+        cell.append(score);
+      }
+      return cell;
+    };
+
+    rows.forEach(item => {
+      const row = document.createElement("tr");
+      const student = document.createElement("td");
+      const studentWrap = document.createElement("span");
+      studentWrap.className = "student-name";
+      const studentName = document.createElement("strong");
+      studentName.textContent = item.studentName;
+      const studentId = document.createElement("small");
+      studentId.textContent = item.studentId;
+      studentWrap.append(studentName, studentId);
+      student.append(studentWrap);
+      const lesson = document.createElement("td");
+      const lessonWrap = document.createElement("span");
+      lessonWrap.className = "student-name";
+      const lessonTitle = document.createElement("strong");
+      lessonTitle.textContent = item.lessonTitle;
+      const course = document.createElement("small");
+      course.textContent = state.adminCourses.find(value => value.id === item.courseCode)?.title || item.courseCode.toUpperCase();
+      lessonWrap.append(lessonTitle, course);
+      lesson.append(lessonWrap);
+      const updated = document.createElement("td");
+      const parsed = new Date(item.updatedAt);
+      updated.textContent = Number.isNaN(parsed.getTime()) ? "—" : parsed.toLocaleString("zh-HK", { dateStyle: "medium", timeStyle: "short" });
+      row.append(student, lesson, scoreCell(item.pictureQuality), scoreCell(item.explanationQuality), scoreCell(item.audioQuality), updated);
+      elements.feedbackRows.append(row);
+    });
+  }
+
   function bindLoginEvents() {
     elements.roleTabs.forEach((tab, index) => {
       tab.addEventListener("click", () => selectRoleTab(tab.dataset.roleTab));
@@ -2042,16 +3068,46 @@
     elements.studentSearch?.addEventListener("input", renderStudents);
     elements.keyFilter?.addEventListener("change", renderStudents);
     elements.studentRoutes.forEach(button => button.addEventListener("click", () => showStudentPage(button.dataset.studentRoute)));
-    elements.openNote?.addEventListener("click", () => openNoteDialog(state.activeLesson));
-    document.querySelectorAll("[data-close-note]").forEach(button => button.addEventListener("click", closeNoteDialog));
-    elements.noteDialog?.addEventListener("close", () => { state.noteLesson = null; });
+    elements.lessonSearch?.addEventListener("input", () => {
+      state.libraryQuery = elements.lessonSearch.value;
+      elements.clearLessonSearch.hidden = !state.libraryQuery;
+      renderLessons();
+    });
+    elements.clearLessonSearch?.addEventListener("click", () => {
+      state.libraryQuery = "";
+      elements.lessonSearch.value = "";
+      elements.clearLessonSearch.hidden = true;
+      renderLessons();
+      elements.lessonSearch.focus();
+    });
+    elements.openNote?.addEventListener("click", () => {
+      if (elements.notePanel.hidden) openNoteDialog(state.activeLesson);
+      else closeNoteDialog();
+    });
+    document.querySelectorAll("[data-note-collapse]").forEach(button => button.addEventListener("click", () => closeNoteDialog()));
     elements.noteContent?.addEventListener("input", updateNoteCount);
     elements.noteForm?.addEventListener("submit", event => {
       event.preventDefault();
       void saveLessonNote();
     });
     elements.printNotes?.addEventListener("click", () => window.print());
+    elements.createPlaylist?.addEventListener("click", () => openPlaylistDialog(null));
+    elements.createPlaylistInline?.addEventListener("click", () => void createPlaylistFromInput());
+    elements.playlistChooserForm?.addEventListener("submit", event => {
+      event.preventDefault();
+      if (state.playlistLesson) void savePlaylistSelection();
+      else void createPlaylistFromInput();
+    });
+    document.querySelectorAll("[data-close-playlist-dialog]").forEach(button => button.addEventListener("click", closePlaylistDialog));
+    elements.playlistDialog?.addEventListener("cancel", event => {
+      event.preventDefault();
+      closePlaylistDialog();
+    });
+    elements.deletePlaylist?.addEventListener("click", () => void deleteSelectedPlaylist());
     elements.adminPanelTabs.forEach(button => button.addEventListener("click", () => showAdminPanel(button.dataset.adminPanelTab)));
+    elements.refreshFeedback?.addEventListener("click", () => void loadAdminFeedback());
+    elements.feedbackSearch?.addEventListener("input", renderAdminFeedback);
+    elements.feedbackCourseFilter?.addEventListener("change", renderAdminFeedback);
     elements.entitlementStudent?.addEventListener("change", () => showEntitlementEditor(elements.entitlementStudent.value));
     elements.entitlementsForm?.addEventListener("submit", event => {
       event.preventDefault();
