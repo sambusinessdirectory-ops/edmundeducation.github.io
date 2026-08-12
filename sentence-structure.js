@@ -115,6 +115,7 @@ const state = {
   selectedTimeProgressDay: "",
   bookmarkSaveQueue: Promise.resolve(),
   bookmarkWriteRevision: 0,
+  attemptSaveQueue: Promise.resolve(),
   saveInFlight: false,
   exercisePersistTimer: null,
   toastTimer: null,
@@ -417,6 +418,10 @@ function clearSession() {
   state.selectedTimeProgressDay = "";
   state.bookmarkWriteRevision += 1;
   state.bookmarkSaveQueue = Promise.resolve();
+  // Keep already captured attempt writes alive. A logout or account switch
+  // must not discard an answer the student already submitted; each queued
+  // request carries the token and payload from the moment it was requested.
+  state.attemptSaveQueue = state.attemptSaveQueue.catch(() => undefined);
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
@@ -1777,36 +1782,50 @@ function serializeExerciseResult() {
   };
 }
 
-async function persistExercise() {
+function persistExercise() {
   if (!state.exercise || state.user?.role !== "student") return;
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   const attemptId = state.exercise.id;
+  const userId = String(state.user.id || "");
+  const authToken = String(state.authToken || "");
   pauseExerciseClock();
-  try {
-    const lesson = getLesson(state.exercise.lessonId);
-    const payload = {
-      lessonId: state.exercise.lessonId,
-      lessonVersion: state.exercise.lessonVersion,
-      status: state.exercise.completedAt ? "completed" : "in_progress",
-      roundNumber: state.exercise.round,
-      correctCount: state.exercise.correctIds.length,
-      totalCount: lesson?.questions?.length || 0,
-      durationMs: state.exercise.durationMs,
-      startedAt: state.exercise.startedAt,
-      completedAt: state.exercise.completedAt || null,
-      result: serializeExerciseResult()
-    };
-    const response = await apiJson(`/v1/attempts/${encodeURIComponent(state.exercise.id)}`, {
+  const lesson = getLesson(state.exercise.lessonId);
+  const payload = {
+    lessonId: state.exercise.lessonId,
+    lessonVersion: state.exercise.lessonVersion,
+    status: state.exercise.completedAt ? "completed" : "in_progress",
+    roundNumber: state.exercise.round,
+    correctCount: state.exercise.correctIds.length,
+    totalCount: lesson?.questions?.length || 0,
+    durationMs: state.exercise.durationMs,
+    startedAt: state.exercise.startedAt,
+    completedAt: state.exercise.completedAt || null,
+    result: serializeExerciseResult()
+  };
+  const write = async () => {
+    const response = await apiJson(`/v1/attempts/${encodeURIComponent(attemptId)}`, {
       method: "PUT",
       body: JSON.stringify(payload)
-    });
-    const saved = normalizeAttempt(response?.attempt || { id: state.exercise.id, ...payload });
+    }, true, authToken);
+    if (
+      String(state.user?.id || "") !== userId
+      || String(state.authToken || "") !== authToken
+    ) return response;
+    const saved = normalizeAttempt(response?.attempt || { id: attemptId, ...payload });
     const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
     if (index >= 0) state.attempts[index] = saved;
     else state.attempts.unshift(saved);
     state.dashboardLoaded = true;
-  } finally {
+    return response;
+  };
+  // Initial creation, answer submission, correction controls and card-display
+  // preferences can all request a save. Keep them in invocation order so an
+  // older snapshot can never arrive after newer progress and be rejected by
+  // the database's monotonic-progress guard.
+  const pending = state.attemptSaveQueue.then(write, write);
+  state.attemptSaveQueue = pending.catch(() => undefined);
+  return pending.finally(() => {
     if (
       state.exercise?.id === attemptId
       && !state.exercise.completedAt
@@ -1815,7 +1834,7 @@ async function persistExercise() {
     ) {
       startExerciseClock();
     }
-  }
+  });
 }
 
 function scheduleExercisePersistence() {
