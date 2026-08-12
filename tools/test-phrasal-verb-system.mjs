@@ -21,8 +21,9 @@ function functionSource(name, nextName) {
 }
 
 function runInSandbox(source, resultExpression, globals = {}) {
-  const context = { ...globals };
+  const context = { window: {}, ...globals };
   vm.createContext(context);
+  vm.runInContext(read("shared-answer-comparison.js"), context, { filename: "shared-answer-comparison.js" });
   vm.runInContext(`${source}\nresult = (${resultExpression});`, context, { filename: "phrasal-verb-system.test-fragment.js" });
   return context.result;
 }

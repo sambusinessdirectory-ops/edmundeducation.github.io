@@ -62,14 +62,89 @@ function escapeHtml(value) {
 }
 
 function normalizeAnswer(value) {
-  return String(value || "")
-    .normalize("NFKC")
-    .replace(/[\u2018\u2019\u201B\u2032\uFF07]/g, "'")
-    .replace(/[\u201C\u201D\u201F\u2033]/g, '"')
-    .replace(/\s+/g, " ")
-    .replace(/\s+([,.;:!?])/g, "$1")
-    .trim()
-    .toLocaleLowerCase("en");
+  return window.EdmundAnswerComparison.normalize(value);
+}
+
+function answerComparison(studentAnswer, expectedAnswers) {
+  return window.EdmundAnswerComparison.best(studentAnswer, expectedAnswers);
+}
+
+function dialogueParts(value, { allowMissingA = false } = {}) {
+  const text = String(value || "").normalize("NFKC").replace(/\r\n?/g, "\n");
+  // Source material uses both `A: ...\nB: ...` and `A: ... B: ...` layouts.
+  // Treat B as a speaker label only when it is followed by a colon, so an
+  // ordinary capital B inside A's words cannot split the dialogue.
+  const complete = text.match(/^\s*A\s*[:：]\s*([\s\S]*?)(?:\s*\n+\s*|\s+)B\s*[:：]\s*([\s\S]*?)\s*$/i);
+  if (complete) return { a: complete[1].trim(), b: complete[2].trim() };
+  if (allowMissingA) {
+    const bOnly = text.match(/^\s*B\s*[:：]\s*([\s\S]*?)\s*$/i);
+    if (bOnly) return { a: "", b: bOnly[1].trim() };
+  }
+  return null;
+}
+
+function dialogueQuestionParts(question) {
+  const prompt = dialogueParts(question?.promptEn);
+  const answer = dialogueParts(question?.answerEn);
+  return prompt && answer ? { prompt, answer } : null;
+}
+
+function storedDialogueValues(value) {
+  const parsed = dialogueParts(value, { allowMissingA: true });
+  if (parsed) return parsed;
+  const raw = String(value || "").trim();
+  if (!raw) return { a: "", b: "" };
+  const aOnly = raw.match(/^\s*A\s*[:：]\s*([\s\S]*?)\s*$/i);
+  if (aOnly) return { a: aOnly[1].trim(), b: "" };
+  // Before the dialogue UI was introduced, drafts were stored as one plain
+  // answer. For dialogue questions that legacy value represented B's reply.
+  return { a: "", b: raw };
+}
+
+function combinedDialogueValue(a, b) {
+  const first = String(a || "").trim();
+  const second = String(b || "").trim();
+  if (!first && !second) return "";
+  return `${first ? `A: ${first}\n` : ""}B: ${second}`;
+}
+
+function acceptedAnswersForQuestion(question) {
+  return [...new Set([question?.answerEn, ...(Array.isArray(question?.acceptedAnswers) ? question.acceptedAnswers : [])]
+    .filter((answer) => String(answer || "").trim()))];
+}
+
+function questionAnswerComparison(answer, question) {
+  const dialogue = dialogueQuestionParts(question);
+  if (!dialogue) return answerComparison(answer, acceptedAnswersForQuestion(question));
+  const submitted = storedDialogueValues(answer);
+  const expectedB = acceptedAnswersForQuestion(question)
+    .map((candidate) => dialogueParts(candidate))
+    .filter(Boolean)
+    .map((candidate) => candidate.b);
+  if (!submitted.b) {
+    const invalid = answerComparison("", expectedB);
+    return { ...invalid, correct: false, missingRequiredB: true };
+  }
+  return answerComparison(submitted.b, expectedB);
+}
+
+function answerIsPresent(answer, question) {
+  const dialogue = dialogueQuestionParts(question);
+  return dialogue ? Boolean(storedDialogueValues(answer).b) : Boolean(String(answer || "").trim());
+}
+
+function feedbackAnswerMarkup(question, answer) {
+  const comparison = questionAnswerComparison(answer, question);
+  const dialogue = dialogueQuestionParts(question);
+  const studentAnswer = dialogue ? storedDialogueValues(answer).b : answer;
+  return {
+    comparison,
+    html: window.EdmundAnswerComparison.expectedMarkup(
+      comparison.expectedAnswer || (dialogue ? dialogue.answer.b : question.answerEn),
+      studentAnswer,
+      escapeHtml
+    ).html
+  };
 }
 
 function getLesson(lessonId) {
@@ -960,9 +1035,11 @@ function answerHasCurrentFeedback(saved) {
 }
 
 function feedbackMarkup(correct, question, answer) {
+  const reviewed = feedbackAnswerMarkup(question, answer);
+  const answerLabel = dialogueQuestionParts(question) ? "參考 B 回應" : "參考答案";
   return `<div class="feedback-panel" data-state="${correct ? "correct" : "incorrect"}">${correct
-    ? `<h3>✓ 答案正確</h3><p>您已保留原句意思，並自然使用本課目標表達。</p>`
-    : `<h3>請再留意目標句式</h3><p>您的答案：${escapeHtml(answer || "（未輸入）")}</p><p class="answer-key">參考答案：${escapeHtml(question.answerEn)}</p><p>${escapeHtml(question.answerZh)}</p>`}</div>`;
+    ? `<h3>✓ 答案正確</h3><p>${reviewed.comparison.typoCount === 1 ? "句式正確；一個輕微拼寫已獲接納，請留意黃色部分。" : "您已保留原句意思，並自然使用本課目標表達。"}</p>${reviewed.comparison.typoCount === 1 ? `<p class="answer-key">${answerLabel}：${reviewed.html}</p>` : ""}`
+    : `<h3>請再留意目標句式</h3><p>您的答案：${escapeHtml(answer || "（未輸入）")}</p><p class="answer-key">${answerLabel}：${reviewed.html}</p><p>${escapeHtml(question.answerZh)}</p>`}</div>`;
 }
 
 function renderQuestionList({ preserveScroll = false } = {}) {
@@ -975,8 +1052,13 @@ function renderQuestionList({ preserveScroll = false } = {}) {
   elements.exerciseProgressLabel.textContent = `${complete} / ${lesson.questions.length} 已完成`;
   elements.questionList.innerHTML = lesson.questions.map((question, index) => {
     const saved = lessonState(lesson.id).answers[question.id] || {};
+    const dialogue = dialogueQuestionParts(question);
+    const dialogueValues = dialogue ? storedDialogueValues(saved.answer) : null;
     const feedback = answerHasCurrentFeedback(saved) ? feedbackMarkup(saved.correct, question, saved.checkedAnswer || saved.answer) : "";
-    return `<article class="question-card glass-panel${saved.correct ? " is-correct" : ""}" data-question-id="${escapeHtml(question.id)}"><div class="question-meta"><span class="question-number">QUESTION ${String(index + 1).padStart(2, "0")} / ${lesson.questions.length}</span>${index === 0 ? `<button class="star-button" type="button" data-question-lesson-bookmark aria-pressed="${state.bookmarks.has(lesson.id)}" aria-label="收藏本課題">${state.bookmarks.has(lesson.id) ? "★" : "☆"}</button>` : ""}</div><p class="prompt-en">${escapeHtml(question.promptEn)}</p><p class="prompt-zh">${escapeHtml(question.promptZh)}</p><label class="field"><span>您的改寫答案${saved.correct ? " · 已完成" : ""}</span><textarea class="answer-field" data-answer-field data-question-id="${escapeHtml(question.id)}" spellcheck="true" autocomplete="off" ${saved.correct ? "readonly" : ""} placeholder="輸入完整的改寫句子或對話…">${escapeHtml(saved.answer || "")}</textarea></label><div class="question-inline-actions"><button class="text-button" type="button" data-clear-answer="${escapeHtml(question.id)}" ${saved.correct ? "disabled" : ""}>清除答案</button></div>${feedback}</article>`;
+    const answerFields = dialogue
+      ? `<fieldset class="dialogue-answer-fields"><legend>您的改寫答案${saved.correct ? " · 已完成" : ""}</legend><label class="dialogue-answer-row"><strong>A:</strong><textarea class="answer-field" data-answer-field data-dialogue-speaker="a" data-question-id="${escapeHtml(question.id)}" spellcheck="true" autocomplete="off" ${saved.correct ? "readonly" : ""} placeholder="A 回應（可選填）">${escapeHtml(dialogueValues.a)}</textarea></label><label class="dialogue-answer-row"><strong>B:</strong><textarea class="answer-field" data-answer-field data-dialogue-speaker="b" data-question-id="${escapeHtml(question.id)}" spellcheck="true" autocomplete="off" ${saved.correct ? "readonly" : ""} placeholder="B 回應（必須填寫及評核）">${escapeHtml(dialogueValues.b)}</textarea></label><p class="dialogue-answer-note">B 為主要改寫答案；只填 B 亦可提交。只填 A 不會視為已作答。</p></fieldset>`
+      : `<label class="field"><span>您的改寫答案${saved.correct ? " · 已完成" : ""}</span><textarea class="answer-field" data-answer-field data-question-id="${escapeHtml(question.id)}" spellcheck="true" autocomplete="off" ${saved.correct ? "readonly" : ""} placeholder="輸入完整的改寫句子…">${escapeHtml(saved.answer || "")}</textarea></label>`;
+    return `<article class="question-card glass-panel${saved.correct ? " is-correct" : ""}" data-question-id="${escapeHtml(question.id)}"><div class="question-meta"><span class="question-number">QUESTION ${String(index + 1).padStart(2, "0")} / ${lesson.questions.length}</span>${index === 0 ? `<button class="star-button" type="button" data-question-lesson-bookmark aria-pressed="${state.bookmarks.has(lesson.id)}" aria-label="收藏本課題">${state.bookmarks.has(lesson.id) ? "★" : "☆"}</button>` : ""}</div><p class="prompt-en">${escapeHtml(question.promptEn)}</p><p class="prompt-zh">${escapeHtml(question.promptZh)}</p>${answerFields}<div class="question-inline-actions"><button class="text-button" type="button" data-clear-answer="${escapeHtml(question.id)}" ${saved.correct ? "disabled" : ""}>清除答案</button></div>${feedback}</article>`;
   }).join("");
   elements.exerciseDraftStatus.textContent = state.dirtyLessonIds.has(lesson.id) ? "有尚未同步的答案" : "答案已同步";
   if (scrollPosition !== null) requestAnimationFrame(() => window.scrollTo({ top: scrollPosition }));
@@ -988,9 +1070,17 @@ function updateDraftsFromFields() {
   const record = lessonState(lesson.id);
   let changes = 0;
   const now = new Date().toISOString();
-  for (const field of elements.questionList.querySelectorAll("[data-answer-field]")) {
-    const questionId = field.dataset.questionId;
-    const answer = String(field.value || "").slice(0, 6000);
+  for (const question of lesson.questions) {
+    const fields = [...elements.questionList.querySelectorAll(`[data-answer-field][data-question-id="${CSS.escape(question.id)}"]`)];
+    if (!fields.length) continue;
+    const dialogue = dialogueQuestionParts(question);
+    const answer = (dialogue
+      ? combinedDialogueValue(
+          fields.find((field) => field.dataset.dialogueSpeaker === "a")?.value,
+          fields.find((field) => field.dataset.dialogueSpeaker === "b")?.value
+        )
+      : String(fields[0].value || "")).slice(0, 6000);
+    const questionId = question.id;
     const existing = record.answers[questionId] || {};
     if (answer === String(existing.answer || "")) continue;
     record.answers[questionId] = {
@@ -1033,17 +1123,20 @@ async function submitAnswers({ all = false } = {}) {
   updateDraftsFromFields();
   const record = lessonState(lesson.id);
   if (all) {
-    const firstBlank = lesson.questions.find((question) => record.answers[question.id]?.correct !== true && !String(record.answers[question.id]?.answer || "").trim());
+    const firstBlank = lesson.questions.find((question) => record.answers[question.id]?.correct !== true && !answerIsPresent(record.answers[question.id]?.answer, question));
     if (firstBlank) {
-      elements.questionList.querySelector(`[data-answer-field][data-question-id="${CSS.escape(firstBlank.id)}"]`)?.focus();
-      showToast("提交全部答案前，請先完成所有未答題目。");
+      const selector = dialogueQuestionParts(firstBlank)
+        ? `[data-answer-field][data-question-id="${CSS.escape(firstBlank.id)}"][data-dialogue-speaker="b"]`
+        : `[data-answer-field][data-question-id="${CSS.escape(firstBlank.id)}"]`;
+      elements.questionList.querySelector(selector)?.focus();
+      showToast(dialogueQuestionParts(firstBlank) ? "提交全部答案前，請先填寫每題的 B 回應。" : "提交全部答案前，請先完成所有未答題目。");
       return;
     }
   }
   const now = new Date().toISOString();
   const targets = lesson.questions.filter((question) => {
     const saved = record.answers[question.id];
-    if (!String(saved?.answer || "").trim() || saved?.correct) return false;
+    if (!answerIsPresent(saved?.answer, question) || saved?.correct) return false;
     return !saved.attempts || normalizeAnswer(saved.answer) !== normalizeAnswer(saved.checkedAnswer);
   });
   if (!targets.length) {
@@ -1054,7 +1147,7 @@ async function submitAnswers({ all = false } = {}) {
   for (const question of targets) {
     const existing = record.answers[question.id];
     const answer = String(existing.answer || "").trim();
-    const correct = question.acceptedAnswers.some((expected) => normalizeAnswer(expected) === normalizeAnswer(answer));
+    const correct = questionAnswerComparison(answer, question).correct;
     record.answers[question.id] = {
       answer,
       checkedAnswer: answer,
@@ -1249,11 +1342,11 @@ document.addEventListener("click", (event) => {
   } else if (target.matches("[data-submit-all]")) {
     submitAnswers({ all: true });
   } else if (target.dataset.clearAnswer) {
-    const field = elements.questionList.querySelector(`[data-answer-field][data-question-id="${CSS.escape(target.dataset.clearAnswer)}"]`);
-    if (field) {
-      field.value = "";
+    const fields = [...elements.questionList.querySelectorAll(`[data-answer-field][data-question-id="${CSS.escape(target.dataset.clearAnswer)}"]`)];
+    if (fields.length) {
+      fields.forEach((field) => { field.value = ""; });
       updateDraftsFromFields();
-      field.focus();
+      (fields.find((field) => field.dataset.dialogueSpeaker === "b") || fields[0]).focus();
     }
   }
 });

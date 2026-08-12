@@ -1,4 +1,5 @@
 import { ACCEPTED_ANSWERS } from "./catalog.js";
+import { answersEquivalent, normalizeAnswerText } from "../../shared-answer-comparison.js";
 
 const SERVICE_NAME = "edmund-idiom-system";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -558,23 +559,15 @@ function validQuestionId(lessonId, questionId) {
 }
 
 function normalizeAnswer(value) {
-  const normalized = String(value || "")
-    .normalize("NFKC")
-    .replace(/[‘’]/g, "'")
-    .replace(/[“”]/g, "\"")
-    .replace(/\s+/g, " ")
-    .replace(/\s+([,.;:!?])/g, "$1")
-    .trim()
-    .replace(/[.!?]+$/g, "")
-    .toLocaleLowerCase();
-  return normalized.replace(/[a-z]+(?:'[a-z]+)*/g, token => SPELLING_EQUIVALENTS[token] || token);
+  return normalizeAnswerText(value, { canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token });
 }
 
 function answerMatchesCatalog(questionId, answer) {
   const accepted = ACCEPTED_ANSWERS[questionId];
   if (!Array.isArray(accepted) || !accepted.length) return false;
-  const normalized = normalizeAnswer(answer);
-  return accepted.some(candidate => normalized === normalizeAnswer(candidate));
+  return accepted.some(candidate => answersEquivalent(answer, candidate, {
+    canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token
+  }));
 }
 
 function normalizeIsoTimestamp(value, label, nullable = false) {

@@ -21,8 +21,9 @@ function functionSource(name, nextName) {
 }
 
 function runInSandbox(source, resultExpression, globals = {}) {
-  const context = { ...globals };
+  const context = { window: {}, ...globals };
   vm.createContext(context);
+  vm.runInContext(read("shared-answer-comparison.js"), context, { filename: "shared-answer-comparison.js" });
   vm.runInContext(`${source}\nresult = (${resultExpression});`, context, { filename: "proverb-system.test-fragment.js" });
   return context.result;
 }
@@ -58,7 +59,8 @@ test("portal exposes the complete eight-page Proverb flow and first-card bookmar
   assert.match(html, /QUESTIONS DONE/i);
   assert.match(html, /TIME SPENT/i);
   assert.match(html, /proverb-system-data\.js\?v=20260807-2/);
-  assert.match(html, /proverb-system\.js\?v=20260810-1/);
+  assert.match(html, /shared-answer-comparison\.js\?v=20260812-1/);
+  assert.match(html, /proverb-system\.js\?v=20260812-1/);
   assert.match(html, /proverb-system\.css/);
   assert.ok(choices.indexOf("data-open-bookmarks-card") < choices.indexOf("${cards}"));
   assert.match(app, /const LESSON_PAGES = 8/);

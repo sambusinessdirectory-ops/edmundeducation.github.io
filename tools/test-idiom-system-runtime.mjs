@@ -15,6 +15,7 @@ const [dataSource, frontendSource, html, css] = await Promise.all([
   read("idiom-system.html"),
   read("idiom-system.css")
 ]);
+const comparisonSource = await read("shared-answer-comparison.js");
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -337,6 +338,7 @@ function createFrontendHarness() {
     decodeURIComponent
   };
   vm.createContext(context);
+  vm.runInContext(comparisonSource, context, { filename: "shared-answer-comparison.js" });
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource, initialisation, "test harness could not locate the frontend bootstrap");

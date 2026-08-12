@@ -6,7 +6,13 @@ export const SCHEDULE_MESSAGE_MAX_LENGTH = 2000;
 export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
   Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks", color: "#e49a31" }),
-  Object.freeze({ type: "writing-submission", trigger: "Writing Submission", label: "Writing Submission", color: "#b75ac7" }),
+  Object.freeze({
+    type: "writing-submission",
+    trigger: "Submission Writing",
+    aliases: Object.freeze(["Writing Submission"]),
+    label: "Writing Submission",
+    color: "#b75ac7"
+  }),
   Object.freeze({ type: "idiom", trigger: "Idiom", label: "Idiom", color: "#e65b3d" }),
   Object.freeze({ type: "proverb", trigger: "Proverb", label: "Proverb", color: "#94613c" }),
   Object.freeze({ type: "phrasal-verb", trigger: "Phrasal Verbs", label: "Phrasal Verbs", color: "#31966a" }),
@@ -64,7 +70,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
-  "/writing-submission.html": Object.freeze([]),
+  "/writing-submission.html": Object.freeze(["exercise"]),
   "/idiom-system.html": Object.freeze(["lesson"]),
   "/proverb-system.html": Object.freeze(["lesson"]),
   "/phrasal-verb-system.html": Object.freeze(["lesson"]),
@@ -148,11 +154,21 @@ export function normalizeHomeworkHref(value) {
   if (!Object.hasOwn(EXPECTED_PARAMETERS_BY_PAGE, parsed.pathname)) return null;
   const expectedParameters = EXPECTED_PARAMETERS_BY_PAGE[parsed.pathname];
   const actualParameters = [...parsed.searchParams.keys()];
+  // Older Schedule entries linked to the Writing Submission landing page
+  // before exercise-specific assignments existed. Keep that exact, queryless
+  // route valid so stored markers continue to render, while all new deep links
+  // below remain restricted to one allow-listed `exercise` parameter.
+  if (parsed.pathname === "/writing-submission.html" && actualParameters.length === 0) {
+    return "writing-submission.html";
+  }
   if (actualParameters.length !== expectedParameters.length) return null;
   if (expectedParameters.some((key) => !parsed.searchParams.get(key))) return null;
   if (actualParameters.some((key) => !expectedParameters.includes(key))) return null;
   if (parsed.pathname === "/model-essay-downloads.html") {
     if (parsed.searchParams.get("catalog") !== "dse-writing-part-a") return null;
+  }
+  if (parsed.pathname === "/writing-submission.html") {
+    if (!/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(parsed.searchParams.get("exercise") || "")) return null;
   }
   if (parsed.pathname.startsWith("/common-expression-")) {
     if (!/^common-expression-\d+$/i.test(parsed.searchParams.get("lesson") || "")) return null;
@@ -217,16 +233,22 @@ export function homeworkAutocomplete(value, cursor = String(value || "").length)
   const before = text.slice(0, end);
   const candidates = [];
   HOMEWORK_RESOURCE_TYPES.forEach((definition, priority) => {
-    const trigger = definition.trigger;
-    for (let length = trigger.length; length >= 1; length -= 1) {
-      const typed = before.slice(-length);
-      const start = end - length;
-      if (!boundaryBefore(before, start) || typed.toLocaleLowerCase("en") !== trigger.slice(0, length).toLocaleLowerCase("en")) continue;
-      candidates.push({ ...definition, typed, remainder: trigger.slice(length), start, end, priority });
-      break;
-    }
+    const triggers = [definition.trigger, ...(Array.isArray(definition.aliases) ? definition.aliases : [])];
+    triggers.forEach((trigger, aliasPriority) => {
+      for (let length = trigger.length; length >= 1; length -= 1) {
+        const typed = before.slice(-length);
+        const start = end - length;
+        if (!boundaryBefore(before, start) || typed.toLocaleLowerCase("en") !== trigger.slice(0, length).toLocaleLowerCase("en")) continue;
+        candidates.push({ ...definition, trigger, typed, remainder: trigger.slice(length), start, end, priority, aliasPriority });
+        break;
+      }
+    });
   });
-  return candidates.sort((left, right) => right.typed.length - left.typed.length || left.priority - right.priority)[0] || null;
+  return candidates.sort((left, right) => (
+    right.typed.length - left.typed.length
+    || left.priority - right.priority
+    || left.aliasPriority - right.aliasPriority
+  ))[0] || null;
 }
 
 export function acceptHomeworkAutocomplete(value, selectionStart, selectionEnd, completion) {

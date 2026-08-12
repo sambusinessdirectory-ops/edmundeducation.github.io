@@ -81,7 +81,7 @@ assert.match(js, /hideEncouragement:\s*value\?\.hideEncouragement === true/);
 assert.match(js, /schedule_(?:student|admin)_get_encouragement/g);
 assert.match(js, /schedule_(?:student|admin)_save_encouragement/g);
 assert.match(js, /schedule_(?:student|admin)_use_previous_encouragement/g);
-assert.match(js, /const \[payload, encouragementPayload\][\s\S]*?Promise\.all/s);
+assert.match(js, /const \[payload, encouragementPayload, motivationPayload\][\s\S]*?Promise\.all/s);
 assert.match(js, /state\.encouragementRequestId === requestId[\s\S]*?state\.weekStart === requestedWeek/s);
 
 assert.match(sql, /create table if not exists public\.schedule_weekly_encouragements/);

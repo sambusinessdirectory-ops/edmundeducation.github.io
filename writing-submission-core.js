@@ -3,6 +3,53 @@ const COMMON_ABBREVIATIONS = new Set([
   "e.g", "i.e"
 ]);
 
+const WRITING_SUBMISSION_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu;
+const WRITING_EXERCISE_ID_RE = /^[a-z0-9][a-z0-9._~-]{0,239}$/iu;
+
+export function normalizeWritingSubmissionEntryLink(value) {
+  let parameters;
+  try {
+    parameters = value instanceof URLSearchParams
+      ? value
+      : new URLSearchParams(String(value || "").replace(/^\?/, ""));
+  } catch {
+    return null;
+  }
+
+  const entries = [...parameters.entries()];
+  if (entries.length !== 1 || !["submission", "exercise"].includes(entries[0][0])) return null;
+
+  const submissionId = String(parameters.get("submission") || "").trim();
+  if (submissionId && WRITING_SUBMISSION_UUID_RE.test(submissionId)) {
+    return Object.freeze({ type: "submission", submissionId: submissionId.toLowerCase() });
+  }
+
+  const exerciseId = String(parameters.get("exercise") || "").trim();
+  if (exerciseId && WRITING_EXERCISE_ID_RE.test(exerciseId)) {
+    return Object.freeze({ type: "exercise", exerciseId });
+  }
+
+  return null;
+}
+
+export function writingSubmissionArticlePath(submissionId) {
+  const normalized = String(submissionId || "").trim().toLowerCase();
+  if (!WRITING_SUBMISSION_UUID_RE.test(normalized)) return "";
+  return `writing-submission.html?submission=${encodeURIComponent(normalized)}`;
+}
+
+export function writingSubmissionNotificationMessage(submissionId, baseHref = "https://edmundeducation.com/") {
+  const path = writingSubmissionArticlePath(submissionId);
+  if (!path) return "";
+  let url;
+  try {
+    url = new URL(path, String(baseHref || "https://edmundeducation.com/")).href;
+  } catch {
+    return "";
+  }
+  return `Edmund 通知：\n您的作文已改好，請努力溫習！ 😬💪🏻\n${url}`;
+}
+
 export function countEnglishWords(value) {
   const text = String(value || "").trim();
   if (!text) return 0;

@@ -11,8 +11,11 @@ import {
   grammarOccurrenceIdentity,
   isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments,
+  normalizeWritingSubmissionEntryLink,
   normalizeVocabularyMatchText,
-  vocabularyEntryUsed
+  vocabularyEntryUsed,
+  writingSubmissionArticlePath,
+  writingSubmissionNotificationMessage
 } from "../writing-submission-core.js";
 
 const root = path.resolve(import.meta.dirname, "..");
@@ -40,6 +43,32 @@ const topicAccessMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-topic-access.sql"),
   "utf8"
 );
+const workerSource = fs.readFileSync(path.join(root, "workers/writing-submission/src/index.js"), "utf8");
+const enhancementMigration = fs.readFileSync(path.join(root, "supabase-writing-submission-enhancements.sql"), "utf8");
+
+test("article notifications use strict owner-scoped deep links", () => {
+  const id = "f55e7f9d-d49d-4d94-aad5-a84cb5574f59";
+  assert.equal(
+    writingSubmissionArticlePath(id),
+    `writing-submission.html?submission=${id}`
+  );
+  assert.equal(
+    writingSubmissionNotificationMessage(id),
+    `Edmund 通知：\n您的作文已改好，請努力溫習！ 😬💪🏻\nhttps://edmundeducation.com/writing-submission.html?submission=${id}`
+  );
+  assert.deepEqual(
+    normalizeWritingSubmissionEntryLink(`?submission=${id}`),
+    { type: "submission", submissionId: id }
+  );
+  assert.deepEqual(
+    normalizeWritingSubmissionEntryLink("?exercise=model-essay-2-ielts-advantage-disadvantage"),
+    { type: "exercise", exerciseId: "model-essay-2-ielts-advantage-disadvantage" }
+  );
+  assert.equal(normalizeWritingSubmissionEntryLink("?submission=bad"), null);
+  assert.equal(normalizeWritingSubmissionEntryLink("?exercise=good&student=someone"), null);
+  assert.match(workerSource, /writing_submission_get_v2[\s\S]*?p_student_id:\s*student\.id/);
+  assert.match(enhancementMigration, /where submission\.student_id = p_student_id[\s\S]*?and submission\.id = p_id[\s\S]*?and submission\.deleted_at is null/i);
+});
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
   assert.deepEqual(newlyCompletedWritingSegments("", "I am still writing"), []);
@@ -173,8 +202,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260812-feedback1/);
-  assert.match(html, /writing-submission\.js\?v=20260812-feedback-races2/);
+  assert.match(html, /writing-submission\.css\?v=20260812-submission-links1/);
+  assert.match(html, /writing-submission\.js\?v=20260812-submission-links1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -232,6 +261,11 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(script, /if \(!state\.grammarDetectionEnabled\) return cancelledRemoteGrammarResult\(\)/);
   assert.match(script, /startGrammarDetection\(\{ scanCurrentWriting \}\)/);
   assert.match(script, /homework-resource-catalog\.mjs/);
+  assert.match(script, /normalizeWritingSubmissionEntryLink\(window\.location\.search\)/);
+  assert.match(script, /openSubmissions\(\{ selectId: entryLink\.submissionId \}\)/);
+  assert.match(script, /canonicalWritingTopicResource\(`fill:\$\{entryLink\.exerciseId\}`\)/);
+  assert.match(script, /copyButton\.dataset\.copySubmissionNotice = submission\.id/);
+  assert.match(script, /copySubmissionNotification/);
   assert.match(script, /questionPrompt\.join\("\\n\\n"\)/);
   assert.match(script, /dataset\.selectWritingTopic/);
   assert.match(script, /submissionDurationSeconds:\s*state\.submissionDurationSeconds/);
@@ -244,6 +278,68 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(css, /\.submission-progress-grid/);
   assert.match(css, /\.grammar-toggle input:checked/);
   assert.match(css, /\.topic-picker-dialog/);
+});
+
+test("homework exercise links preserve an unrelated draft and resume the matching draft", () => {
+  const handler = script.match(
+    /async function openStudentEntryLink\(\) \{[\s\S]*?\n\}\n\nasync function openGrammarSourceSubmission/
+  )?.[0] || "";
+  const archive = script.match(
+    /async function archiveStoredDraftBeforeEntryLink\(draft\) \{[\s\S]*?\n\}/
+  )?.[0] || "";
+  assert.match(handler, /const storedDraft = readDraft\(\)/);
+  assert.match(handler, /storedDraft\?\.selectedTopicResource\?\.id === resource\.id/);
+  assert.match(handler, /await restoreDraft\(\)/);
+  assert.match(handler, /await archiveStoredDraftBeforeEntryLink\(storedDraft\)/);
+  assert.match(handler, /startNewDraft\(\{ preserveView: true \}\)/);
+  assert.match(handler, /selectWritingTopic\(resource\.id, \{ persist: true/);
+  assert.ok(
+    handler.indexOf("archiveStoredDraftBeforeEntryLink(storedDraft)")
+      < handler.indexOf("startNewDraft({ preserveView: true })"),
+    "the existing local draft must reach the server before the single local-draft key is replaced"
+  );
+  assert.match(archive, /apiJson\(`\/v1\/drafts\/\$\{encodeURIComponent\(draft\.documentId\)\}`/);
+  assert.match(archive, /method: "PUT"/);
+  assert.match(archive, /if \(!payload\.topic\.trim\(\) && !payload\.answer\.trim\(\)\) return false/);
+  assert.doesNotMatch(script, /preserveStoredDraft/);
+});
+
+test("owner article links preserve local work and isolate auxiliary panel failures", () => {
+  const handler = script.match(
+    /async function openStudentEntryLink\(\) \{[\s\S]*?\n\}\n\nasync function openGrammarSourceSubmission/
+  )?.[0] || "";
+  const articleBranch = handler.match(
+    /if \(entryLink\.type === "submission"\) \{[\s\S]*?\n  \}/
+  )?.[0] || "";
+  const submissionsView = script.match(
+    /async function openSubmissions\([^)]*\) \{[\s\S]*?\n\}/
+  )?.[0] || "";
+  const loginHandler = script.match(
+    /async function handleLogin\(event\) \{[\s\S]*?\n\}/
+  )?.[0] || "";
+
+  assert.match(articleBranch, /await restoreDraft\(\)/);
+  assert.ok(
+    articleBranch.indexOf("await restoreDraft()")
+      < articleBranch.indexOf("openSubmissions({ selectId: entryLink.submissionId })"),
+    "the single local draft must be restored before switching to an owner article link"
+  );
+  assert.match(articleBranch, /await openSubmission\(entryLink\.submissionId\)/);
+  assert.match(submissionsView, /const submissionsPromise = loadSubmissions\(\{ selectId \}\)/);
+  assert.match(submissionsView, /Promise\.allSettled\(\[loadWritingProgress\(\), loadDrafts\(\)\]\)/);
+  assert.match(submissionsView, /await submissionsPromise/);
+  assert.doesNotMatch(submissionsView, /Promise\.all\(/);
+  assert.match(loginHandler, /if \(!openedEntryLink\) showToast\(`您好，\$\{state\.user\.name\}！`/);
+});
+
+test("notification clipboard fallback always cleans up and reaches manual copy", () => {
+  const copyHelper = script.match(
+    /async function copyPlainText\(value\) \{[\s\S]*?\n\}/
+  )?.[0] || "";
+  assert.match(copyHelper, /let textarea = null/);
+  assert.match(copyHelper, /finally \{\s*textarea\?\.remove\(\)/);
+  assert.match(copyHelper, /try \{\s*window\.prompt\("請複製以下通知：", text\)/);
+  assert.match(copyHelper, /catch \{ \/\* A blocked prompt must not break the admin article view\. \*\//);
 });
 
 test("registered writing topics expose guarded Open Book references without fuzzy question matching", () => {
@@ -290,7 +386,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /dataset\.topicReferenceVocabulary/);
   assert.match(script, /dataset\.topicReferenceVocabularyScale/);
   assert.match(script, /dataset\.topicReferenceVocabularyUsageStatus/);
-  assert.match(script, /writing-submission-core\.js\?v=20260812-vocabulary-feedback1/);
+  assert.match(script, /writing-submission-core\.js\?v=20260812-submission-links1/);
   assert.doesNotMatch(script, /row\.setAttribute\("aria-label", used/);
   assert.match(script, /refreshVocabularyUsage\(content\)/);
   assert.match(script, /refreshVocabularyUsage\(\)/);

@@ -221,15 +221,24 @@ async function writingResources() {
   }));
 }
 
-function writingSubmissionResources() {
-  return [{
-    id: "writing-submission:portal",
-    type: "writing-submission",
-    ordinal: 1,
-    label: "Edmund Sir Writing 交文系統",
-    detail: "Writing Submission · 寫作交文",
-    url: "writing-submission.html"
-  }];
+function writingSubmissionResources(writingPracticeResources) {
+  return writingPracticeResources.map((resource) => {
+    const exerciseId = String(resource.id || "").replace(/^fill:/, "");
+    if (!exerciseId || resource.id !== `fill:${exerciseId}`) {
+      throw new Error(`Invalid Writing Practice resource id: ${resource.id || "missing"}`);
+    }
+    return {
+      id: `writing-submission:${exerciseId}`,
+      type: "writing-submission",
+      ordinal: resource.ordinal,
+      label: resource.label,
+      detail: compactText(`Writing Submission · ${resource.detail || "Writing Practice"}`, 180),
+      url: `writing-submission.html?exercise=${encodeURIComponent(exerciseId)}`,
+      sectionKey: resource.sectionKey,
+      questionPrompt: resource.questionPrompt,
+      questionImages: resource.questionImages
+    };
+  });
 }
 
 async function dseWritingPartADownloadResources() {
@@ -471,10 +480,11 @@ async function orderedLessonResources({ file, globalName, type, idPrefix, system
 }
 
 const allFiles = await readdir(root);
+const writingPracticeResources = await writingResources();
 const resources = [
   ...await flashcardResources(allFiles),
-  ...await writingResources(),
-  ...writingSubmissionResources(),
+  ...writingPracticeResources,
+  ...writingSubmissionResources(writingPracticeResources),
   ...await dseWritingPartADownloadResources(),
   ...await readingAnalysisResources(),
   ...await speakingResources(),

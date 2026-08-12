@@ -6,6 +6,8 @@ import path from "node:path";
 import test from "node:test";
 import vm from "node:vm";
 
+import { answersEquivalent as workerAnswersEquivalent } from "../workers/shared-answer-comparison.js";
+
 const root = path.resolve(import.meta.dirname, "..");
 const read = (file) => fs.readFileSync(path.join(root, file), "utf8");
 
@@ -181,11 +183,12 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /name=["']apple-mobile-web-app-capable["'] content=["']yes["']/,
       /href=["']\/pwa-ui\.css["']/,
       /src=["']\/pwa-register\.js["']/,
-      /common-expression-system\.css\?v=20260810-1/,
+      /common-expression-system\.css\?v=20260812-1/,
       /common-expression-system-config\.js\?v=20260809-1/,
       /common-expression-system-data\.js\?v=20260811-1/,
       /common-expression-system-imported-data\.js\?v=20260811-1/,
-      /common-expression-system\.js\?v=20260810-2/,
+      /shared-answer-comparison\.js\?v=20260812-1/,
+      /common-expression-system\.js\?v=20260812-1/,
       /shared-system-nav\.css\?v=20260810-3/,
       /shared-system-nav\.js\?v=20260812-1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
@@ -203,9 +206,11 @@ test("all six Common Expression portals carry their identity, shared navigation 
 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
-    const engineIndex = html.indexOf("common-expression-system.js?v=20260810-2");
+    const comparisonIndex = html.indexOf("shared-answer-comparison.js?v=20260812-1");
+    const engineIndex = html.indexOf("common-expression-system.js?v=20260812-1");
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
-    assert.ok(importedDataIndex < engineIndex, `${portal.file}: imported lessons must load before the module engine`);
+    assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
+    assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);
   }
 });
 
@@ -358,10 +363,110 @@ test("all Common Expression interfaces use the requested two-line title and one-
   assert.match(engine, /data-submit-all/);
   const submit = javascriptFunctionSource(engine, "submitAnswers");
   assert.match(submit, /targets/);
-  assert.match(submit, /acceptedAnswers/);
+  assert.match(submit, /questionAnswerComparison/);
   assert.match(submit, /persistLessonState\s*\(\s*lesson\.id/);
   assert.match(submit, /addLocalQuestionCompletion/);
   assert.match(javascriptFunctionSource(engine, "updateDraftsFromFields"), /checkedAnswer/, "edited drafts must not display feedback for an older answer");
+});
+
+test("dialogue exercises accept B alone in newline or same-line A/B layouts and never accept A alone", () => {
+  const engine = read("common-expression-system.js");
+  const context = { window: {} };
+  vm.createContext(context);
+  vm.runInContext(read("shared-answer-comparison.js"), context, { filename: "shared-answer-comparison.js" });
+  const helpers = [
+    "normalizeAnswer", "answerComparison", "dialogueParts", "dialogueQuestionParts",
+    "storedDialogueValues", "combinedDialogueValue", "acceptedAnswersForQuestion",
+    "questionAnswerComparison", "answerIsPresent"
+  ].map((name) => javascriptFunctionSource(engine, name)).join("\n");
+  vm.runInContext(helpers, context, { filename: "common-expression-dialogue-test.js" });
+
+  const newline = {
+    promptEn: "A: How are you?\nB: I'm very well.",
+    answerEn: "A: How are you?\nB: I'm glad to hear that.",
+    acceptedAnswers: ["A: How are you?\nB: I'm glad to hear that."]
+  };
+  const sameLine = {
+    promptEn: "A: How are you? B: I'm very well.",
+    answerEn: "A: How are you? B: I'm glad to hear that.",
+    acceptedAnswers: ["A: How are you? B: I'm glad to hear that."]
+  };
+  context.newline = newline;
+  context.sameLine = sameLine;
+  assert.equal(vm.runInContext("dialogueQuestionParts(newline).answer.b", context), "I'm glad to hear that.");
+  assert.equal(vm.runInContext("dialogueQuestionParts(sameLine).answer.b", context), "I'm glad to hear that.");
+  assert.equal(vm.runInContext("questionAnswerComparison(\"B: I'm glad to hear that!\", newline).correct", context), true);
+  assert.equal(vm.runInContext("questionAnswerComparison(\"A: Completely different.\\nB: I'm glad to hear that.\", newline).correct", context), true, "A is optional and is not graded");
+  assert.equal(vm.runInContext("questionAnswerComparison(\"A: How are you?\", newline).correct", context), false);
+  assert.equal(vm.runInContext("answerIsPresent(\"A: How are you?\", newline)", context), false);
+  assert.equal(vm.runInContext("answerIsPresent(\"B: I'm glad to hear that.\", newline)", context), true);
+  assert.equal(vm.runInContext("storedDialogueValues(\"I'm glad to hear that.\").b", context), "I'm glad to hear that.", "legacy one-field drafts are B's reply");
+  assert.equal(vm.runInContext("storedDialogueValues(\"A: How are you?\").a", context), "How are you?");
+  assert.equal(vm.runInContext("storedDialogueValues(\"A: How are you?\").b", context), "", "an explicit A-only draft must not be reclassified as B");
+  assert.equal(vm.runInContext("questionAnswerComparison(\"I'm glad to hear that.\", newline).correct", context), true, "legacy B-only drafts remain gradable after the two-row migration");
+});
+
+test("shared grading ignores punctuation, accepts one one-letter typo and highlights every word when there are two", () => {
+  const context = { window: {} };
+  vm.createContext(context);
+  vm.runInContext(read("shared-answer-comparison.js"), context, { filename: "shared-answer-comparison.js" });
+  const comparison = context.window.EdmundAnswerComparison;
+
+  assert.equal(comparison.compare("I'm glad to hear that!", "Im glad to hear that.").correct, true);
+  const oneTypo = comparison.compare("I'm glaad to hear that.", "I'm glad to hear that.");
+  assert.equal(oneTypo.correct, true);
+  assert.equal(oneTypo.typoCount, 1);
+  const oneMarkup = comparison.expectedMarkup("I'm glad to hear that.", "I'm glaad to hear that.", (value) => String(value));
+  assert.equal(oneMarkup.highlightedCount, 1);
+  assert.match(oneMarkup.html, /<mark class="missing-answer-highlight">glad<\/mark>/);
+
+  const twoTypos = comparison.compare("I'm glaad to har that.", "I'm glad to hear that.");
+  assert.equal(twoTypos.correct, false);
+  assert.equal(twoTypos.differences.length, 2);
+  const twoMarkup = comparison.expectedMarkup("I'm glad to hear that.", "I'm glaad to har that.", (value) => String(value));
+  assert.equal(twoMarkup.highlightedCount, 2);
+  assert.equal((twoMarkup.html.match(/<mark class="missing-answer-highlight">/g) || []).length, 2);
+  assert.match(twoMarkup.html, /<mark class="missing-answer-highlight">glad<\/mark>/);
+  assert.match(twoMarkup.html, /<mark class="missing-answer-highlight">hear<\/mark>/);
+
+  // The API workers use the ESM twin of the browser helper. These assertions
+  // keep server-side validation in lockstep with the visible feedback rules.
+  assert.equal(workerAnswersEquivalent("I'm glad to hear that!", "Im glad to hear that."), true);
+  assert.equal(workerAnswersEquivalent("I'm glaad to hear that.", "I'm glad to hear that."), true);
+  assert.equal(workerAnswersEquivalent("I'm glaad to har that.", "I'm glad to hear that."), false);
+
+  // Joiners are ignored inside a word, ordinary punctuation still preserves
+  // word boundaries, and numeric punctuation never becomes a one-digit typo.
+  assert.equal(comparison.compare("Please checkin now", "Please check-in now.").correct, true);
+  assert.equal(comparison.compare("A wellknown rule", "A well-known rule").correct, true);
+  assert.equal(comparison.compare("Hello,world", "Hello world").correct, true);
+  assert.equal(comparison.compare("It costs $10000", "It costs $10,000.").correct, true);
+  assert.equal(comparison.compare("It costs $1050", "It costs $10.50.").correct, false);
+  assert.equal(comparison.compare("The year was 2009", "The year was 2008").correct, false);
+  assert.equal(comparison.compare("Thi answer works", "The answer works").correct, true);
+  assert.equal(workerAnswersEquivalent("Please checkin now", "Please check-in now."), true);
+  assert.equal(workerAnswersEquivalent("A wellknown rule", "A well-known rule"), true);
+  assert.equal(workerAnswersEquivalent("Hello,world", "Hello world"), true);
+  assert.equal(workerAnswersEquivalent("It costs $10000", "It costs $10,000."), true);
+  assert.equal(workerAnswersEquivalent("It costs $1050", "It costs $10.50."), false);
+  assert.equal(workerAnswersEquivalent("The year was 2009", "The year was 2008"), false);
+  assert.equal(workerAnswersEquivalent("Thi answer works", "The answer works"), true);
+
+  // Short grammar words must never be waved through as a spelling typo.
+  assert.equal(comparison.compare("I work A school.", "I work I school.").correct, false);
+  assert.equal(comparison.compare("He is the room.", "He in the room.").correct, false);
+  assert.equal(comparison.compare("We ate ready.", "We are ready.").correct, false);
+  assert.equal(workerAnswersEquivalent("I work A school.", "I work I school."), false);
+  assert.equal(workerAnswersEquivalent("He is the room.", "He in the room."), false);
+  assert.equal(workerAnswersEquivalent("We ate ready.", "We are ready."), false);
+});
+
+test("all four sentence-conversion portals reveal the accepted answer variant selected by grading", () => {
+  for (const file of ["sentence-structure.js", "idiom-system.js", "proverb-system.js", "phrasal-verb-system.js"]) {
+    const reveal = javascriptFunctionSource(read(file), "suggestedAnswerHtml");
+    assert.match(reveal, /answerComparison\(studentAnswer, question\)\.expectedAnswer \|\| question\.answer/, `${file} must highlight against the accepted variant actually selected by grading`);
+    assert.match(reveal, /comparedAnswerHtml\(selectedAnswer, studentAnswer/, `${file} must render that selected variant`);
+  }
 });
 
 test("the Common Expression dashboard has persistent question and time charts plus a full-dashboard link", () => {
@@ -575,4 +680,11 @@ test("dirty local lesson states survive failures and retry on recovery, pagehide
   assert.match(engine, /visibilitychange[\s\S]{0,320}?document\.hidden[\s\S]{0,260}?retryDirtyLessonStates\(/);
   assert.match(engine, /data-dashboard-button|data-back-dashboard/);
   assert.match(engine, /(?:data-dashboard-button|data-back-dashboard)[\s\S]{0,500}?retryDirtyLessonStates\(/, "in-app navigation must trigger a best-effort retry");
+});
+
+test("completed Common Expression lesson cards use the established gold treatment", () => {
+  const engine = read("common-expression-system.js");
+  const css = read("common-expression-system.css");
+  assert.match(engine, /lesson-card\$\{complete \? " is-complete" : ""\}/);
+  assert.match(css, /\.lesson-card\.is-complete\s*\{[^}]*linear-gradient\(145deg,\s*#fff8d9,\s*#e5b94f 58%,\s*#c98c25\)/s);
 });

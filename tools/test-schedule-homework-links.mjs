@@ -40,7 +40,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3627, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3936, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -52,12 +52,30 @@ assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence str
 assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be indexed");
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
-assert.equal((byType["writing-submission"] || []).length, 1, "Writing Submission should be available as a homework type");
+assert.equal((byType["writing-submission"] || []).length, 310, "every Writing Practice exercise should have a Writing Submission assignment link");
 assert.equal((byType["reading-analysis"] || []).length, 157, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
+const writingPracticeAssignments = new Map((byType["writing-submission"] || []).map((resource) => [
+  resource.id.slice("writing-submission:".length),
+  resource
+]));
+for (const exercise of byType["fill-blanks"] || []) {
+  const exerciseId = exercise.id.slice("fill:".length);
+  const assignment = writingPracticeAssignments.get(exerciseId);
+  assert.ok(assignment, `Writing Submission assignment should exist for ${exerciseId}`);
+  assert.equal(assignment.label, exercise.label, `Writing Submission should preserve the exercise title: ${exerciseId}`);
+  assert.equal(assignment.sectionKey, exercise.sectionKey, `Writing Submission should preserve the exercise hierarchy: ${exerciseId}`);
+  assert.deepEqual(assignment.questionPrompt, exercise.questionPrompt, `Writing Submission should preserve the writing prompt: ${exerciseId}`);
+  assert.deepEqual(assignment.questionImages, exercise.questionImages, `Writing Submission should preserve prompt images: ${exerciseId}`);
+  assert.equal(
+    assignment.url,
+    `writing-submission.html?exercise=${encodeURIComponent(exerciseId)}`,
+    `Writing Submission should open the exact exercise: ${exerciseId}`
+  );
+}
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
@@ -65,7 +83,7 @@ assert.ok(ids.has("sentence:ss345"));
 assert.ok(ids.has("idiom:idiom-138"));
 assert.ok(ids.has("proverb:proverb-03"));
 assert.ok(ids.has("phrasal-verb:phrasal-verb-329"));
-assert.ok(ids.has("writing-submission:portal"));
+assert.ok(ids.has("writing-submission:model-essay-2-ielts-advantage-disadvantage"));
 assert.ok(ids.has("reading-analysis:mungo-man"));
 assert.ok(ids.has("reading-analysis:if-you-can-get-used-to-the-taste"));
 assert.ok(ids.has("reading-analysis:p1-082-graffiti"));
@@ -360,11 +378,11 @@ assert.equal(normalizeHomeworkResource({
   url: "idiom-system.html?lesson=idiom-01"
 })?.url, "idiom-system.html?lesson=idiom-01");
 assert.equal(normalizeHomeworkResource({
-  id: "writing-submission:portal",
+  id: "writing-submission:model-essay-2-ielts-advantage-disadvantage",
   type: "writing-submission",
-  label: "Writing Submission",
-  url: "writing-submission.html"
-})?.url, "writing-submission.html");
+  label: "Model Essay 2 - IELTS - Advantages / Disadvantages",
+  url: "writing-submission.html?exercise=model-essay-2-ielts-advantage-disadvantage"
+})?.url, "writing-submission.html?exercise=model-essay-2-ielts-advantage-disadvantage");
 assert.equal(normalizeHomeworkResource({
   id: "writing-submission:bad",
   type: "writing-submission",
@@ -433,6 +451,7 @@ assert.equal(homeworkAutocomplete("Review Id", 9).trigger, "Idiom");
 assert.equal(homeworkAutocomplete("Review Ph", 9).trigger, "Phrasal Verbs");
 assert.equal(homeworkAutocomplete("Review Pr", 9).trigger, "Proverb");
 assert.equal(homeworkAutocomplete("Choose Wr", 9).trigger, "Writing Submission");
+assert.equal(homeworkAutocomplete("Choose Su", 9).trigger, "Submission Writing");
 assert.equal(homeworkAutocomplete("Add An", 6).trigger, "Answer Analysis - IELTS Reading");
 assert.equal(homeworkAutocomplete("Add Co", 6).trigger, "Common Expression");
 assert.equal(homeworkAutocomplete("Add IELTS L", 11).trigger, "IELTS Listening");
@@ -468,9 +487,9 @@ assert.equal(
   "the auto-inserted title should include its exact Homework taxonomy type"
 );
 assert.equal(
-  homeworkResourceDisplayTitle({ type: "writing-submission", label: "Writing Submission" }),
-  "Writing Submission",
-  "a label already beginning with its type must not receive a duplicate prefix"
+  homeworkResourceDisplayTitle({ type: "writing-submission", label: "Model Essay 2" }),
+  "Writing Submission - Model Essay 2",
+  "Writing Submission choices should identify their assignment type"
 );
 assert.equal(
   homeworkResourceDisplayTitle({ type: "reading-analysis", label: "Answer Analysis - IELTS Reading - Mungo Man" }),
@@ -487,6 +506,30 @@ assert.equal(parsed.resources.length, 1);
 assert.equal(parsed.resources[0].url, "writing-practice.html?exercise=model-essay-2-ielts-advantage-disadvantage");
 assert.doesNotMatch(parsed.text, /@edmund-homework/);
 assert.equal(parseScheduleMessage("普通舊安排").text, "普通舊安排", "legacy messages must stay unchanged");
+const legacyWritingSubmission = {
+  id: "writing-submission:portal",
+  type: "writing-submission",
+  label: "Edmund Sir Writing 交文系統",
+  url: "writing-submission.html"
+};
+assert.equal(
+  normalizeHomeworkResource(legacyWritingSubmission)?.url,
+  "writing-submission.html",
+  "legacy queryless Writing Submission links must remain valid"
+);
+const legacyWritingSubmissionStored = serializeScheduleMessage("提交作文", [legacyWritingSubmission]);
+assert.equal(
+  parseScheduleMessage(legacyWritingSubmissionStored).resources[0]?.url,
+  "writing-submission.html",
+  "legacy Writing Submission markers must still round-trip as links"
+);
+for (const unsafeLegacyWritingUrl of [
+  "writing-submission.html?student=someone",
+  "writing-submission.html?exercise=valid&student=someone",
+  "writing-submission.html#draft"
+]) {
+  assert.equal(normalizeHomeworkResource({ ...legacyWritingSubmission, url: unsafeLegacyWritingUrl }), null);
+}
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "Mungo Man").items[0]?.id, "reading-analysis:mungo-man");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
@@ -623,8 +666,8 @@ assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260809-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260809-1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260812-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");

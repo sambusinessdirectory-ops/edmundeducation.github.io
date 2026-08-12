@@ -36,6 +36,7 @@ const [
   read("supabase-sentence-structure-lessons-276-345.sql"),
   read("tools/sentence-structure-import-manifest-275-343.json")
 ]);
+const comparisonSource = await read("shared-answer-comparison.js");
 const importManifest = JSON.parse(importManifestSource);
 
 const tests = [];
@@ -261,6 +262,7 @@ function createFrontendHarness() {
     decodeURIComponent
   };
   vm.createContext(context);
+  vm.runInContext(comparisonSource, context, { filename: "shared-answer-comparison.js" });
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource, initialisation, "test harness could not locate the frontend bootstrap");
@@ -1119,7 +1121,7 @@ test("frontend source keeps shared login, persistence, and click wiring intact",
 
 test("answer normalization and red target markup are safe and deterministic", () => {
   const { sut } = createFrontendHarness();
-  assert.equal(sut.normalizeAnswer("  “HELLO”  world ! "), '"hello" world');
+  assert.equal(sut.normalizeAnswer("  “HELLO”  world ! "), "hello world");
   assert.equal(sut.normalizeAnswer("I eat           apples."), "i eat apples");
   const studentVariant = sut.normalizeAnswer("Lily got up early to catch the first bus!");
   const modelVariant = sut.normalizeAnswer("lily got up early to catch the first bus.");

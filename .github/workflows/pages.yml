@@ -153,6 +153,7 @@ jobs:
       - name: Validate Schedule System and Mass Edit clipboard
         run: |
           node tools/test-schedule-clipboard.mjs
+          node tools/test-schedule-motivation.mjs
           node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-system.mjs
           node tools/test-schedule-worker.mjs

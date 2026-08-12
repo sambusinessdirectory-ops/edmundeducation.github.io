@@ -46,7 +46,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260809-1";
+} from "./schedule-homework-links.mjs?v=20260812-1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -58,9 +58,15 @@ import {
   planScheduleClipboardPaste,
   serializeScheduleClipboard
 } from "./schedule-clipboard.mjs?v=20260727-1";
+import {
+  MOTIVATION_SAVE_DELAY_MS,
+  motivationRatingsByDate,
+  normalizeMotivationRating
+} from "./schedule-motivation.mjs?v=20260812-1";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
+const MOTIVATION_PENDING_STORAGE_KEY = "edmund-schedule-motivation-pending-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const COUNTDOWN_COLLAPSED_KEY = "edmund-schedule-countdown-collapsed-v1";
 const SCHEDULE_CLIPBOARD_SESSION_KEY = "edmund-schedule-clipboard-v1";
@@ -73,7 +79,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260809-1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260812-1";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
 const STUDENT_AUDIT_PAGE_SIZE = 10;
 const STUDENT_ACCESS_SECTIONS = [
@@ -168,6 +174,7 @@ const elements = {
   changePassword: document.querySelector("[data-change-password]"),
   logout: document.querySelector("[data-logout]"),
   adminStudentsButton: document.querySelector("[data-admin-students]"),
+  adminMotivationResults: document.querySelector("[data-admin-motivation-results]"),
   loginForm: document.querySelector("[data-login-form]"),
   loginButton: document.querySelector("[data-login-button]"),
   loginStatus: document.querySelector("[data-login-status]"),
@@ -364,7 +371,12 @@ const state = {
   scheduleClipboardPayload: null,
   homeworkCompletion: null,
   homeworkPickerType: "",
-  homeworkPickerReplacement: null
+  homeworkPickerReplacement: null,
+  motivationSaveTimers: new Map(),
+  motivationPendingSaves: new Map(),
+  motivationSavePromises: new Set(),
+  motivationSaveChains: new Map(),
+  motivationSaveGenerations: new Map()
 };
 
 let homeworkResourceCatalog = null;
@@ -407,7 +419,8 @@ function emptyWeekPayload() {
       updatedAt: null,
       previousMessage: "",
       canUsePrevious: false
-    }
+    },
+    motivationRatings: {}
   };
 }
 
@@ -635,6 +648,9 @@ function showView(name) {
   elements.adminStudentsButton.hidden = !(
     state.currentUser?.role === "admin" && name === "calendar"
   );
+  if (elements.adminMotivationResults) {
+    elements.adminMotivationResults.hidden = state.currentUser?.role !== "admin";
+  }
   if (loggedIn) {
     elements.userPill.textContent = state.currentUser.role === "admin"
       ? `${state.currentUser.name} · 管理員`
@@ -1220,6 +1236,7 @@ function toggleMassEdit() {
 }
 
 function clearRenderedSchedule() {
+  cancelPendingMotivationSaves();
   state.weekRequestId += 1;
   state.displayPreferenceRequestId += 1;
   state.mutationInFlight = false;
@@ -2497,6 +2514,7 @@ async function logout() {
     return;
   }
   if (!guardMassEditNavigation()) return;
+  await flushPendingMotivationSaves();
   const user = state.currentUser;
   clearStoredScheduleClipboard();
   if (user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
@@ -2660,6 +2678,7 @@ async function loadAllStudentAccounts() {
 async function openAdminPanel() {
   if (state.currentUser?.role !== "admin") return;
   if (!guardMassEditNavigation()) return;
+  await flushPendingMotivationSaves();
   clearRenderedSchedule();
   state.selectedStudent = null;
   showView("admin");
@@ -3429,6 +3448,7 @@ async function openStudentSchedule(studentId) {
   const student = state.adminStudents.find((item) => item.id === studentId);
   if (!student || state.currentUser?.role !== "admin") return;
   if (!guardMassEditNavigation()) return;
+  await flushPendingMotivationSaves();
   clearRenderedSchedule();
   state.selectedStudent = { id: student.id, name: student.name };
   showView("calendar");
@@ -3443,8 +3463,10 @@ function activeStudent() {
 }
 
 async function loadWeek(focusTarget = null) {
+  await flushPendingMotivationSaves();
   const student = activeStudent();
   if (!student) return;
+  await safelyReplayStoredMotivationSaves(student);
   syncDisplayedWeekUrl();
   captureCountdownDrafts();
   resetSelectionMode();
@@ -3462,7 +3484,7 @@ async function loadWeek(focusTarget = null) {
   updateCalendarHeading();
 
   try {
-    const [payload, encouragementPayload] = state.currentUser.role === "admin"
+    const [payload, encouragementPayload, motivationPayload] = state.currentUser.role === "admin"
       ? await Promise.all([
           callRpc("schedule_admin_get_week", {
             p_admin_token: state.currentUser.adminToken,
@@ -3470,6 +3492,11 @@ async function loadWeek(focusTarget = null) {
             p_week_start: requestedWeek
           }),
           callRpc("schedule_admin_get_encouragement", {
+            p_admin_token: state.currentUser.adminToken,
+            p_student_id: student.id,
+            p_week_start: requestedWeek
+          }),
+          safelyLoadMotivationWeek("schedule_admin_get_motivation_week", {
             p_admin_token: state.currentUser.adminToken,
             p_student_id: student.id,
             p_week_start: requestedWeek
@@ -3481,6 +3508,10 @@ async function loadWeek(focusTarget = null) {
             p_week_start: requestedWeek
           }),
           callRpc("schedule_student_get_encouragement", {
+            p_token: state.currentUser.studentToken,
+            p_week_start: requestedWeek
+          }),
+          safelyLoadMotivationWeek("schedule_student_get_motivation_week", {
             p_token: state.currentUser.studentToken,
             p_week_start: requestedWeek
           })
@@ -3521,7 +3552,8 @@ async function loadWeek(focusTarget = null) {
         : emptyWeekPayload().metrics,
       countdownCapacity: Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || MIN_COUNTDOWNS)),
       countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : [],
-      encouragement: normalizeEncouragement(encouragementPayload)
+      encouragement: normalizeEncouragement(encouragementPayload),
+      motivationRatings: motivationRatingsByDate(motivationPayload)
     };
     if (state.massEditMode) {
       state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
@@ -3588,6 +3620,300 @@ function entryMap() {
   ]));
 }
 
+function motivationSaveKey(studentId, scheduleDate) {
+  return `${studentId || ""}:${scheduleDate}`;
+}
+
+function readStoredPendingMotivationSaves() {
+  try {
+    const rows = JSON.parse(localStorage.getItem(MOTIVATION_PENDING_STORAGE_KEY) || "[]");
+    if (!Array.isArray(rows)) return [];
+    return rows.filter((row) => (
+      UUID_RE.test(String(row?.studentId || ""))
+      && isDateInScheduleRange(String(row?.scheduleDate || ""))
+      && normalizeMotivationRating(row?.rating) !== null
+    )).map((row) => ({
+      studentId: String(row.studentId),
+      scheduleDate: String(row.scheduleDate),
+      rating: normalizeMotivationRating(row.rating),
+      queuedAt: Number(row.queuedAt) || Date.now()
+    }));
+  } catch {
+    return [];
+  }
+}
+
+function writeStoredPendingMotivationSaves(rows) {
+  try {
+    if (!rows.length) localStorage.removeItem(MOTIVATION_PENDING_STORAGE_KEY);
+    else localStorage.setItem(MOTIVATION_PENDING_STORAGE_KEY, JSON.stringify(rows));
+  } catch {
+    // The live two-second save still works when private browsing blocks localStorage.
+  }
+}
+
+function rememberPendingMotivationSave(studentId, scheduleDate, rating) {
+  const rows = readStoredPendingMotivationSaves().filter((row) => (
+    row.studentId !== studentId || row.scheduleDate !== scheduleDate
+  ));
+  rows.push({ studentId, scheduleDate, rating, queuedAt: Date.now() });
+  writeStoredPendingMotivationSaves(rows);
+}
+
+function forgetPendingMotivationSave(studentId, scheduleDate, savedRating) {
+  const rows = readStoredPendingMotivationSaves();
+  const remaining = rows.filter((row) => !(
+    row.studentId === studentId
+    && row.scheduleDate === scheduleDate
+    && row.rating === savedRating
+  ));
+  if (remaining.length !== rows.length) writeStoredPendingMotivationSaves(remaining);
+}
+
+async function replayStoredMotivationSaves(student) {
+  if (!student || !state.currentUser) return;
+  const queued = readStoredPendingMotivationSaves().filter((row) => row.studentId === student.id);
+  if (!queued.length) return;
+  const actor = state.currentUser.role === "admin"
+    ? { role: "admin", adminToken: state.currentUser.adminToken }
+    : { role: "student", studentToken: state.currentUser.studentToken };
+  await Promise.allSettled(queued.map(async (row) => {
+    if (actor.role === "admin") {
+      await callRpc("schedule_admin_save_motivation_rating", {
+        p_admin_token: actor.adminToken,
+        p_student_id: student.id,
+        p_schedule_date: row.scheduleDate,
+        p_rating: row.rating
+      });
+    } else {
+      await callRpc("schedule_student_save_motivation_rating", {
+        p_token: actor.studentToken,
+        p_schedule_date: row.scheduleDate,
+        p_rating: row.rating
+      });
+    }
+    forgetPendingMotivationSave(student.id, row.scheduleDate, row.rating);
+  }));
+}
+
+async function safelyReplayStoredMotivationSaves(student) {
+  try {
+    await replayStoredMotivationSaves(student);
+  } catch (error) {
+    // Motivation is supplementary. A transient retry failure must never stop
+    // the student's actual weekly schedule from opening.
+    console.warn("Stored motivation replay failed", error);
+  }
+}
+
+async function safelyLoadMotivationWeek(rpcName, args) {
+  try {
+    return await callRpc(rpcName, args);
+  } catch (error) {
+    // Keep the timetable available if this optional panel is temporarily down.
+    console.warn("Schedule motivation week load failed", error);
+    return [];
+  }
+}
+
+function motivationSaveContextIsCurrent(context) {
+  const student = activeStudent();
+  return Boolean(
+    context
+    && state.currentUser?.role === context.actor.role
+    && student?.id === context.studentId
+    && state.weekStart === context.weekStart
+  );
+}
+
+function cancelPendingMotivationSaves() {
+  state.motivationSaveTimers.forEach((timerId) => window.clearTimeout(timerId));
+  state.motivationSaveTimers.clear();
+  state.motivationPendingSaves.clear();
+  state.motivationSaveGenerations.clear();
+}
+
+function runDailyMotivationSave(context) {
+  window.clearTimeout(state.motivationSaveTimers.get(context.key));
+  state.motivationSaveTimers.delete(context.key);
+  state.motivationPendingSaves.delete(context.key);
+  // Serialize writes for one student/date. Without this chain, an older RPC
+  // could finish after a newer selection and overwrite the latest rating in
+  // Supabase even though the interface already showed the newer value.
+  const previous = state.motivationSaveChains.get(context.key) || Promise.resolve();
+  const promise = previous
+    .catch(() => undefined)
+    .then(() => saveDailyMotivationRating(context));
+  state.motivationSaveChains.set(context.key, promise);
+  state.motivationSavePromises.add(promise);
+  promise.finally(() => {
+    state.motivationSavePromises.delete(promise);
+    if (state.motivationSaveChains.get(context.key) === promise) {
+      state.motivationSaveChains.delete(context.key);
+    }
+  });
+  return promise;
+}
+
+async function flushPendingMotivationSaves() {
+  const pending = [...state.motivationPendingSaves.entries()];
+  pending.forEach(([key]) => {
+    window.clearTimeout(state.motivationSaveTimers.get(key));
+    state.motivationSaveTimers.delete(key);
+    state.motivationPendingSaves.delete(key);
+  });
+  const newlyStarted = pending.map(([, context]) => runDailyMotivationSave(context));
+  const inFlight = [...state.motivationSavePromises];
+  if (!newlyStarted.length && !inFlight.length) return;
+  await Promise.allSettled([...new Set([...newlyStarted, ...inFlight])]);
+}
+
+function motivationRecord(scheduleDate) {
+  return state.weekPayload.motivationRatings?.[scheduleDate] || null;
+}
+
+function motivationStatusElement(scheduleDate) {
+  return elements.weekGrid.querySelector(`[data-motivation-status="${scheduleDate}"]`);
+}
+
+function updateMotivationPanelSelection(scheduleDate, message = "") {
+  const selectedRating = normalizeMotivationRating(motivationRecord(scheduleDate)?.rating);
+  elements.weekGrid.querySelectorAll(`[data-motivation-date="${scheduleDate}"]`).forEach((button) => {
+    const selected = Number(button.dataset.motivationRating) === selectedRating;
+    button.setAttribute("aria-pressed", String(selected));
+  });
+  const status = motivationStatusElement(scheduleDate);
+  if (status) {
+    status.textContent = message || (selectedRating ? `已選擇 ${selectedRating}` : "尚未評分");
+    status.dataset.state = message.includes("未能") ? "error" : "";
+  }
+}
+
+function createDailyMotivationPanel(scheduleDate, dayIndex, active) {
+  const panel = document.createElement("section");
+  panel.className = "daily-motivation-rating";
+  panel.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}今天的動力指數`);
+
+  const title = document.createElement("p");
+  title.className = "daily-motivation-title";
+  title.textContent = "今天的動力指數";
+  panel.append(title);
+
+  if (!active) {
+    panel.classList.add("is-disabled");
+    const unavailable = document.createElement("p");
+    unavailable.className = "daily-motivation-status";
+    unavailable.textContent = "不適用";
+    panel.append(unavailable);
+    return panel;
+  }
+
+  const selectedRating = normalizeMotivationRating(motivationRecord(scheduleDate)?.rating);
+  const scale = document.createElement("div");
+  scale.className = "daily-motivation-scale";
+  scale.setAttribute("role", "group");
+  scale.setAttribute("aria-label", `${formatDayDate(scheduleDate)}動力指數；1 最低，5 最高`);
+  for (let rating = 1; rating <= 5; rating += 1) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "daily-motivation-circle";
+    button.dataset.motivationDate = scheduleDate;
+    button.dataset.motivationRating = String(rating);
+    button.textContent = String(rating);
+    button.setAttribute("aria-label", `動力指數 ${rating}`);
+    button.setAttribute("aria-pressed", String(selectedRating === rating));
+    scale.append(button);
+  }
+  panel.append(scale);
+
+  const status = document.createElement("p");
+  status.className = "daily-motivation-status";
+  status.dataset.motivationStatus = scheduleDate;
+  status.setAttribute("role", "status");
+  status.setAttribute("aria-live", "polite");
+  status.textContent = selectedRating ? `已選擇 ${selectedRating}` : "尚未評分";
+  panel.append(status);
+  return panel;
+}
+
+async function saveDailyMotivationRating(context) {
+  const { actor, studentId, scheduleDate, rating, key, generation } = context;
+  try {
+    const saved = actor.role === "admin"
+      ? await callRpc("schedule_admin_save_motivation_rating", {
+          p_admin_token: actor.adminToken,
+          p_student_id: studentId,
+          p_schedule_date: scheduleDate,
+          p_rating: rating
+        })
+      : await callRpc("schedule_student_save_motivation_rating", {
+          p_token: actor.studentToken,
+          p_schedule_date: scheduleDate,
+          p_rating: rating
+        });
+    if (state.motivationSaveGenerations.get(key) !== generation) return;
+    if (!motivationSaveContextIsCurrent(context)) return;
+    const normalized = normalizeMotivationRating(saved?.rating) ?? rating;
+    state.weekPayload.motivationRatings[scheduleDate] = {
+      rating: normalized,
+      persistedRating: normalized,
+      updatedAt: saved?.updatedAt || saved?.updated_at || new Date().toISOString()
+    };
+    forgetPendingMotivationSave(studentId, scheduleDate, rating);
+    updateMotivationPanelSelection(scheduleDate, "已自動儲存");
+  } catch (error) {
+    if (state.motivationSaveGenerations.get(key) !== generation) return;
+    if (!motivationSaveContextIsCurrent(context)) return;
+    const current = motivationRecord(scheduleDate);
+    const persistedRating = normalizeMotivationRating(current?.persistedRating);
+    if (persistedRating === null) delete state.weekPayload.motivationRatings[scheduleDate];
+    else state.weekPayload.motivationRatings[scheduleDate] = { ...current, rating: persistedRating };
+    updateMotivationPanelSelection(scheduleDate, "未能儲存，請再選一次");
+    console.warn("Schedule motivation save failed", error);
+  } finally {
+    if (state.motivationSaveGenerations.get(key) === generation) {
+      state.motivationSaveTimers.delete(key);
+      state.motivationSaveGenerations.delete(key);
+    }
+  }
+}
+
+function stageDailyMotivationRating(scheduleDate, rawRating) {
+  const rating = normalizeMotivationRating(rawRating);
+  const student = activeStudent();
+  if (!student || rating === null || !isDateInScheduleRange(scheduleDate) || !state.currentUser) return;
+
+  const previous = motivationRecord(scheduleDate);
+  state.weekPayload.motivationRatings[scheduleDate] = {
+    rating,
+    persistedRating: normalizeMotivationRating(previous?.persistedRating),
+    updatedAt: previous?.updatedAt || null
+  };
+  rememberPendingMotivationSave(student.id, scheduleDate, rating);
+  updateMotivationPanelSelection(scheduleDate, "將於 2 秒後自動儲存…");
+
+  const key = motivationSaveKey(student.id, scheduleDate);
+  window.clearTimeout(state.motivationSaveTimers.get(key));
+  const generation = (state.motivationSaveGenerations.get(key) || 0) + 1;
+  state.motivationSaveGenerations.set(key, generation);
+  const actor = state.currentUser.role === "admin"
+    ? { role: "admin", adminToken: state.currentUser.adminToken }
+    : { role: "student", studentToken: state.currentUser.studentToken };
+  const context = {
+    actor,
+    studentId: student.id,
+    scheduleDate,
+    weekStart: state.weekStart,
+    rating,
+    key,
+    generation
+  };
+  state.motivationPendingSaves.set(key, context);
+  state.motivationSaveTimers.set(key, window.setTimeout(() => {
+    runDailyMotivationSave(context);
+  }, MOTIVATION_SAVE_DELAY_MS));
+}
+
 function renderWeek() {
   updateCalendarHeading();
   const entries = entryMap();
@@ -3632,6 +3958,7 @@ function renderWeek() {
     dateLabel.textContent = active ? formatDayDate(date) : `${formatDayDate(date)} · 範圍外`;
     header.append(mascot, weekday, dateLabel);
 
+    const motivation = createDailyMotivationPanel(date, dayIndex, active);
     const slots = document.createElement("div");
     slots.className = "day-slots";
     if (active) {
@@ -3681,7 +4008,7 @@ function renderWeek() {
       slots.append(note);
     }
 
-    column.append(header, slots);
+    column.append(header, motivation, slots);
     if (active) {
       const spanDropZone = document.createElement("button");
       spanDropZone.type = "button";
@@ -4789,6 +5116,7 @@ async function changeWeek(amount) {
   const nextValue = toISODate(clamped);
   if (nextValue === state.weekStart) return;
   if (!prepareMassEditWeekNavigation()) return;
+  await flushPendingMotivationSaves();
   state.showUnusedTemporarily = false;
   state.weekStart = nextValue;
   await loadWeek();
@@ -5216,6 +5544,16 @@ window.addEventListener("pointerup", finishClipboardMarquee);
 window.addEventListener("pointercancel", finishClipboardMarquee);
 
 elements.weekGrid.addEventListener("click", (event) => {
+  const motivationButton = event.target.closest("[data-motivation-date][data-motivation-rating]");
+  if (motivationButton) {
+    if (!state.mutationInFlight) {
+      stageDailyMotivationRating(
+        motivationButton.dataset.motivationDate,
+        motivationButton.dataset.motivationRating
+      );
+    }
+    return;
+  }
   const homeworkLink = event.target.closest("a[data-homework-link-url]");
   if (homeworkLink) {
     const href = normalizeHomeworkHref(homeworkLink.getAttribute("href"));
@@ -5592,6 +5930,7 @@ elements.currentWeek.addEventListener("click", async () => {
   const current = defaultWeekStart();
   if (state.weekStart === current) return;
   if (!prepareMassEditWeekNavigation()) return;
+  await flushPendingMotivationSaves();
   state.showUnusedTemporarily = false;
   state.weekStart = current;
   await loadWeek();

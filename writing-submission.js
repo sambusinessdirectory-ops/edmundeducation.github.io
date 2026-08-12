@@ -8,8 +8,10 @@ import {
   insertedRange,
   isLiveCompletedWritingSegment,
   newlyCompletedWritingSegments,
-  vocabularyEntryUsed
-} from "./writing-submission-core.js?v=20260812-vocabulary-feedback1";
+  normalizeWritingSubmissionEntryLink,
+  vocabularyEntryUsed,
+  writingSubmissionNotificationMessage
+} from "./writing-submission-core.js?v=20260812-submission-links1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -52,7 +54,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
-const TOPIC_CATALOG_VERSION = "20260807-phrasal1";
+const TOPIC_CATALOG_VERSION = "20260812-submission-links1";
 const TOPIC_REFERENCE_VERSION = "20260811-2";
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
@@ -60,6 +62,7 @@ const ESL_RULESET_VERSION = "2.0.0";
 const VOCABULARY_TEXT_SCALE_VALUES = Object.freeze([0.5, 1, 2, 3, 4, 5, 7]);
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
+const entryLink = normalizeWritingSubmissionEntryLink(window.location.search);
 
 const elements = {
   views: [...document.querySelectorAll("[data-view]")],
@@ -228,7 +231,8 @@ const state = {
   adminFeedbackSuggestedFragments: [],
   adminExplanationReviews: [],
   adminExplanationReviewPage: 0,
-  adminExplanationReviewHasMore: false
+  adminExplanationReviewHasMore: false,
+  entryLinkHandled: false
 };
 
 function createElement(tag, className = "", text = "") {
@@ -267,6 +271,45 @@ function showToast(message, status = "success") {
   elements.toast.dataset.state = status;
   elements.toast.hidden = false;
   state.toastTimer = window.setTimeout(() => { elements.toast.hidden = true; }, 3400);
+}
+
+async function copyPlainText(value) {
+  const text = String(value || "");
+  if (!text) return false;
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch { /* Fall back to the temporary-textarea method below. */ }
+
+  let textarea = null;
+  try {
+    textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.append(textarea);
+    textarea.select();
+    if (document.execCommand("copy")) return true;
+  } catch { /* Continue to the visible manual-copy prompt. */ }
+  finally {
+    textarea?.remove();
+  }
+
+  try {
+    window.prompt("請複製以下通知：", text);
+  } catch { /* A blocked prompt must not break the admin article view. */ }
+  return false;
+}
+
+async function copySubmissionNotification(submissionId) {
+  const message = writingSubmissionNotificationMessage(
+    submissionId,
+    `${window.location.origin}/`
+  );
+  if (!message) throw new Error("文章連結無效，請重新載入後再試。");
+  const copied = await copyPlainText(message);
+  showToast(copied ? "作文已改好通知已複製。" : "通知已顯示，請手動複製。", copied ? "success" : "error");
 }
 
 function writingClockEligible(now = Date.now()) {
@@ -492,6 +535,7 @@ function clearSession() {
   state.adminExplanationReviews = [];
   state.adminExplanationReviewPage = 0;
   state.adminExplanationReviewHasMore = false;
+  state.entryLinkHandled = false;
   state.selectedTopicResource = null;
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
@@ -1138,7 +1182,7 @@ function closeWritingTopicPicker() {
   else elements.topicPicker.removeAttribute("open");
 }
 
-function selectWritingTopic(resourceId) {
+function selectWritingTopic(resourceId, { persist = true, close = true, toast = true } = {}) {
   const resource = canonicalWritingTopicResource(resourceId);
   if (!resource) return;
   const topic = resource.questionPrompt.length
@@ -1149,9 +1193,9 @@ function selectWritingTopic(resourceId) {
   renderSelectedTopicPreview();
   markWritingActivity();
   updateEditorMetrics();
-  persistDraft();
-  closeWritingTopicPicker();
-  showToast("已貼上寫作練習題目；您仍可自行修改。", "success");
+  if (persist) persistDraft();
+  if (close) closeWritingTopicPicker();
+  if (toast) showToast("已貼上寫作練習題目；您仍可自行修改。", "success");
 }
 
 function readDraft() {
@@ -2917,6 +2961,40 @@ function currentServerDraftPayload() {
   };
 }
 
+function storedDraftServerPayload(draft) {
+  const rawDurationSeconds = Number(draft?.durationSeconds || 0);
+  const durationSeconds = Number.isFinite(rawDurationSeconds)
+    ? Math.max(0, Math.min(31536000, Math.round(rawDurationSeconds)))
+    : 0;
+  return {
+    topic: String(draft?.topic || ""),
+    answer: String(draft?.answer || ""),
+    topicResource: canonicalWritingTopicResource(draft?.selectedTopicResource),
+    imageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(draft?.writingImageZoom))
+      ? Number(draft.writingImageZoom)
+      : 1,
+    countdown: normalizeWritingTimer(draft?.writingTimer),
+    stopwatch: normalizeWritingStopwatch(draft?.writingStopwatch),
+    durationSeconds
+  };
+}
+
+async function archiveStoredDraftBeforeEntryLink(draft) {
+  if (!UUID_RE.test(String(draft?.documentId || ""))) return false;
+  const payload = storedDraftServerPayload(draft);
+  if (!payload.topic.trim() && !payload.answer.trim()) return false;
+  const response = await apiJson(`/v1/drafts/${encodeURIComponent(draft.documentId)}`, {
+    method: "PUT",
+    body: JSON.stringify(payload)
+  });
+  const savedDraft = normalizeServerDraft(response?.draft || response);
+  if (!UUID_RE.test(savedDraft.id)) throw new Error("舊草稿未能安全儲存，已停止開啟新功課。");
+  const existingIndex = state.drafts.findIndex(item => item.id === savedDraft.id);
+  if (existingIndex >= 0) state.drafts[existingIndex] = savedDraft;
+  else state.drafts.unshift(savedDraft);
+  return true;
+}
+
 async function saveCurrentProgress() {
   if (state.user?.role !== "student" || !UUID_RE.test(state.documentId)) return;
   const payload = currentServerDraftPayload();
@@ -3055,7 +3133,14 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   if (submission.occurrenceCount) meta.append(createElement("span", "", `${submission.occurrenceCount} 個文法偵測結果`));
   if (admin && submission.deletedAt) meta.append(createElement("span", "deleted-submission-badge", "學生已從個人文章列表刪除"));
   header.append(meta);
-  if (!admin) {
+  if (admin && !submission.deletedAt) {
+    const actions = createElement("div", "submission-detail-actions");
+    const copyButton = createElement("button", "copy-submission-notice-button", "複製已改好通知");
+    copyButton.type = "button";
+    copyButton.dataset.copySubmissionNotice = submission.id;
+    actions.append(copyButton);
+    header.append(actions);
+  } else if (!admin) {
     const actions = createElement("div", "submission-detail-actions");
     const exportButton = createElement("button", "export-submission-button", "匯出這篇文章");
     exportButton.type = "button";
@@ -3429,9 +3514,68 @@ async function openSubmission(id) {
   }
 }
 
-async function openSubmissions() {
+async function openSubmissions({ selectId = "" } = {}) {
   showView("submissions");
-  await Promise.all([loadSubmissions(), loadWritingProgress(), loadDrafts()]);
+  const submissionsPromise = loadSubmissions({ selectId });
+  const auxiliaryResultsPromise = Promise.allSettled([loadWritingProgress(), loadDrafts()]);
+  await submissionsPromise;
+  const auxiliaryResults = await auxiliaryResultsPromise;
+  if (auxiliaryResults[0].status === "rejected") {
+    console.warn("Writing progress load failed", auxiliaryResults[0].reason);
+  }
+  if (auxiliaryResults[1].status === "rejected") {
+    console.warn("Writing draft list load failed", auxiliaryResults[1].reason);
+    elements.draftList.replaceChildren(emptyState("未完成草稿列表暫時未能載入；本機草稿仍然安全保留。"));
+  }
+}
+
+async function openStudentEntryLink() {
+  if (!entryLink || state.entryLinkHandled || state.user?.role !== "student") return false;
+  state.entryLinkHandled = true;
+  if (entryLink.type === "submission") {
+    await restoreDraft();
+    try {
+      await openSubmissions({ selectId: entryLink.submissionId });
+      showToast("已開啟老師批改完成的作文。", "success");
+    } catch (error) {
+      console.warn("Writing submission entry link failed", error);
+      state.entryLinkHandled = false;
+      showView("submissions");
+      elements.submissionList.replaceChildren(emptyState("文章列表暫時未能載入。"));
+      await openSubmission(entryLink.submissionId);
+      showToast(error.message || "文章列表暫時未能載入；正嘗試直接開啟指定作文。", "error");
+    }
+    return true;
+  }
+
+  try {
+    await loadWritingTopicCatalog();
+    const resource = canonicalWritingTopicResource(`fill:${entryLink.exerciseId}`);
+    if (!resource) throw new Error("這項寫作練習不存在，或您的帳戶尚未獲准使用。");
+    const storedDraft = readDraft();
+    if (storedDraft?.selectedTopicResource?.id === resource.id) {
+      await restoreDraft();
+      showView("workspace");
+      showToast("已繼續上次未完成的功課寫作。", "success");
+      return true;
+    }
+    const archivedPreviousDraft = await archiveStoredDraftBeforeEntryLink(storedDraft);
+    startNewDraft({ preserveView: true });
+    selectWritingTopic(resource.id, { persist: true, close: false, toast: false });
+    showView("workspace");
+    showToast(
+      archivedPreviousDraft
+        ? "舊草稿已儲存至「我的文章」；現已載入功課指定的寫作題目。"
+        : "已載入功課指定的寫作題目及溫習資源。",
+      "success"
+    );
+  } catch (error) {
+    state.entryLinkHandled = false;
+    await restoreDraft();
+    showView("workspace");
+    showToast(error.message || "暫時未能載入功課指定的寫作題目。", "error");
+  }
+  return true;
 }
 
 async function openGrammarSourceSubmission(id) {
@@ -4200,11 +4344,14 @@ async function handleLogin(event) {
       showToast("管理員登入成功。", "success");
     } else {
       await loadWritingPreferences();
-      await restoreDraft();
       elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
-      showView("workspace");
+      const openedEntryLink = await openStudentEntryLink();
+      if (!openedEntryLink) {
+        await restoreDraft();
+        showView("workspace");
+      }
       if (state.grammarDetectionEnabled) prepareGrammarChecker();
-      showToast(`您好，${state.user.name}！`, "success");
+      if (!openedEntryLink) showToast(`您好，${state.user.name}！`, "success");
     }
   } catch (error) {
     console.warn("Writing Submission login failed", error);
@@ -4356,6 +4503,8 @@ function bindEvents() {
     const saveFeedback = event.target.closest("[data-feedback-save]");
     if (saveFeedback) return saveAdminFeedback(saveFeedback.dataset.feedbackSave).catch(handleViewError);
     if (event.target.closest("[data-feedback-delete]")) return deleteAdminFeedback().catch(handleViewError);
+    const copyNotice = event.target.closest("[data-copy-submission-notice]");
+    if (copyNotice) return copySubmissionNotification(copyNotice.dataset.copySubmissionNotice).catch(handleViewError);
     const topicReferenceRetry = event.target.closest("[data-topic-reference-retry]");
     if (topicReferenceRetry) {
       const details = topicReferenceRetry.closest("[data-topic-reference-kind]");
@@ -4507,9 +4656,12 @@ async function initialise() {
     await openAdminDashboard();
   } else {
     await loadWritingPreferences();
-    await restoreDraft();
     elements.workspaceWelcome.textContent = `您好，${state.user.name}！先輸入寫作題目，再專心完成文章。`;
-    showView("workspace");
+    const openedEntryLink = await openStudentEntryLink();
+    if (!openedEntryLink) {
+      await restoreDraft();
+      showView("workspace");
+    }
     if (state.grammarDetectionEnabled) prepareGrammarChecker();
   }
 }

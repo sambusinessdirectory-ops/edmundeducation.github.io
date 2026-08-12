@@ -1811,69 +1811,9 @@ function answerWordSegments(value) {
 }
 
 function missingAnswerMarkup(answer, studentAnswer) {
-  const model = answerWordSegments(answer);
-  const student = answerWordSegments(studentAnswer);
-  const rows = model.words.length;
-  const columns = student.words.length;
-  const lengths = Array.from({ length: rows + 1 }, () => new Uint16Array(columns + 1));
-  for (let row = rows - 1; row >= 0; row -= 1) {
-    for (let column = columns - 1; column >= 0; column -= 1) {
-      lengths[row][column] = model.words[row].comparable === student.words[column].comparable
-        ? lengths[row + 1][column + 1] + 1
-        : Math.max(lengths[row + 1][column], lengths[row][column + 1]);
-    }
-  }
-  const matched = new Set();
-  const matchedStudent = new Set();
-  let row = 0;
-  let column = 0;
-  while (row < rows && column < columns) {
-    if (model.words[row].comparable === student.words[column].comparable) {
-      matched.add(row);
-      matchedStudent.add(column);
-      row += 1;
-      column += 1;
-    } else if (lengths[row + 1][column] >= lengths[row][column + 1]) {
-      row += 1;
-    } else {
-      column += 1;
-    }
-  }
-  const missing = model.words.map((_, index) => index).filter((index) => !matched.has(index));
-  const partialSuffixes = new Map();
-  for (const modelIndex of missing) {
-    const modelToken = model.words[modelIndex].comparable;
-    let best = null;
-    for (let studentIndex = 0; studentIndex < student.words.length; studentIndex += 1) {
-      if (matchedStudent.has(studentIndex)) continue;
-      const studentToken = student.words[studentIndex].comparable;
-      const suffixLength = modelToken.endsWith("s") && studentToken === modelToken.slice(0, -1)
-        ? 1
-        : modelToken.endsWith("es") && studentToken === modelToken.slice(0, -2)
-          ? 2
-          : 0;
-      if (!suffixLength) continue;
-      const distance = Math.abs(modelIndex - studentIndex);
-      if (!best || distance < best.distance) best = { studentIndex, suffixLength, distance };
-    }
-    if (best) {
-      matchedStudent.add(best.studentIndex);
-      partialSuffixes.set(modelIndex, best.suffixLength);
-    }
-  }
-  if (!missing.length) return { html: escapeHtml(model.text), missingCount: 0 };
-  let cursor = 0;
-  const html = model.words.map((word, index) => {
-    const prefix = escapeHtml(model.text.slice(cursor, word.start));
-    cursor = word.end;
-    const escaped = escapeHtml(word.text);
-    const suffixLength = partialSuffixes.get(index) || 0;
-    const marked = suffixLength
-      ? `${escapeHtml(word.text.slice(0, -suffixLength))}<mark class="missing-answer-highlight">${escapeHtml(word.text.slice(-suffixLength))}</mark>`
-      : `<mark class="missing-answer-highlight">${escaped}</mark>`;
-    return `${prefix}${matched.has(index) ? escaped : marked}`;
-  }).join("") + escapeHtml(model.text.slice(cursor));
-  return { html, missingCount: missing.length };
+  return window.EdmundAnswerComparison.expectedMarkup(answer, studentAnswer, escapeHtml, {
+    canonicalizeToken: canonicalSpellingToken
+  });
 }
 
 function comparedAnswerHtml(answer, studentAnswer, fallbackHighlight = "") {
@@ -1911,9 +1851,12 @@ function combinedAnswerPartValue(question, values) {
 function suggestedAnswerHtml(question, studentAnswer = null) {
   const parts = questionAnswerParts(question);
   if (!parts.length) {
+    const selectedAnswer = studentAnswer === null
+      ? question.answer
+      : answerComparison(studentAnswer, question).expectedAnswer || question.answer;
     const answerHtml = studentAnswer === null
-      ? highlightedAnswerHtml(question.answer, question.highlight)
-      : comparedAnswerHtml(question.answer, studentAnswer, question.highlight);
+      ? highlightedAnswerHtml(selectedAnswer, question.highlight)
+      : comparedAnswerHtml(selectedAnswer, studentAnswer, question.highlight);
     return `${question.answerZh ? `<p class="chinese-answer" lang="zh-Hant">${escapeHtml(question.answerZh)}</p>` : ""}<p class="english-answer" lang="en">${answerHtml}</p>`;
   }
   const studentParts = studentAnswer === null ? [] : storedAnswerPartValues(question, studentAnswer);
@@ -1961,7 +1904,7 @@ function questionHtml(question) {
         </label>
       `).join("")}</div>` : `<input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">`}
       ${wrong && !correct ? `<button class="clear-answer-button" type="button" data-clear-question-answer="${escapeHtml(question.id)}">清除答案，重新輸入</button>` : ""}
-      <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "答案未完全符合目標諺語；請再次修改後提交。" : "答案未完全符合目標諺語；請參考答案並修改。" : ""}</p>
+      <p class="question-feedback" aria-live="polite">${correct ? answerComparison(value, question).typoCount === 1 ? "✓ 答案正確；黃色標示一個可留意的拼寫。" : "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "答案未完全符合目標諺語；請再次修改後提交。" : "答案未完全符合目標諺語；請參考答案並修改。" : ""}</p>
       ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案（黃色為遺漏或需修改部分）</span>${suggestedAnswerHtml(question, value)}</div>` : ""}
     </div>
   </article>`;
@@ -2142,23 +2085,19 @@ function syncExerciseButtons() {
 }
 
 function normalizeAnswer(value) {
-  const normalized = String(value || "")
-    .normalize("NFKC")
-    .replace(/[‘’]/g, "'")
-    .replace(/[“”]/g, '"')
-    .replace(/\s+/g, " ")
-    .replace(/\s+([,.;:!?])/g, "$1")
-    .trim()
-    .replace(/[.!?]+$/g, "")
-    .toLocaleLowerCase();
-  return normalized.replace(/[a-z]+(?:'[a-z]+)*/g, (token) => canonicalSpellingToken(token));
+  return window.EdmundAnswerComparison.normalize(value, { canonicalizeToken: canonicalSpellingToken });
+}
+
+function answerComparison(studentAnswer, question) {
+  const accepted = [question?.answer, ...(Array.isArray(question?.acceptedAnswers) ? question.acceptedAnswers : [])]
+    .filter(Boolean);
+  return window.EdmundAnswerComparison.best(studentAnswer, accepted, {
+    canonicalizeToken: canonicalSpellingToken
+  });
 }
 
 function answersMatch(studentAnswer, question) {
-  const accepted = [question?.answer, ...(Array.isArray(question?.acceptedAnswers) ? question.acceptedAnswers : [])]
-    .filter(Boolean);
-  const normalizedStudentAnswer = normalizeAnswer(studentAnswer);
-  return accepted.some((answer) => normalizedStudentAnswer === normalizeAnswer(answer));
+  return answerComparison(studentAnswer, question).correct;
 }
 
 function serializeExerciseResult(exercise = state.exercise) {
