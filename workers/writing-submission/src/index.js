@@ -22,6 +22,8 @@ const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_GRAMMAR_CHECK_BODY_BYTES = 12 * 1024;
 const MAX_SUBMISSION_BODY_BYTES = 512 * 1024;
 const MAX_DRAFT_BODY_BYTES = 512 * 1024;
+const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
+const MAX_FEEDBACK_DELETE_BODY_BYTES = 1024;
 const MAX_ISSUE_BATCH_BODY_BYTES = 512 * 1024;
 const MAX_TOPIC_CHARACTERS = 4000;
 const MAX_TOPIC_BYTES = 16000;
@@ -32,6 +34,10 @@ const MAX_OCCURRENCES_PER_DOCUMENT_RESPONSE = 2000;
 const MAX_GRAMMAR_HISTORY_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_PAGE_SIZE = 100;
+const MAX_FEEDBACK_FRAGMENTS = 200;
+const MAX_FEEDBACK_HEADER_CHARACTERS = 20000;
+const MAX_FEEDBACK_FRAGMENT_CHARACTERS = 10000;
+const MAX_FEEDBACK_COMMENT_CHARACTERS = 20000;
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
@@ -164,6 +170,12 @@ async function route(request, env) {
   if (submissionMatch && request.method === "DELETE") {
     return deleteSubmission(request, env, submissionMatch[1]);
   }
+  const submissionFeedbackMatch = url.pathname.match(
+    /^\/v1\/submissions\/([0-9a-f-]{36})\/feedback$/i
+  );
+  if (submissionFeedbackMatch && request.method === "GET") {
+    return getSubmissionFeedback(request, env, submissionFeedbackMatch[1]);
+  }
 
   if (url.pathname === "/v1/grammar-occurrences/batch" && request.method === "POST") {
     return postOccurrenceBatch(request, env);
@@ -200,6 +212,18 @@ async function route(request, env) {
   const adminSubmissionMatch = url.pathname.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})$/i);
   if (adminSubmissionMatch && request.method === "GET") {
     return getAdminSubmission(request, env, adminSubmissionMatch[1]);
+  }
+  const adminSubmissionFeedbackMatch = url.pathname.match(
+    /^\/v1\/admin\/submissions\/([0-9a-f-]{36})\/feedback$/i
+  );
+  if (adminSubmissionFeedbackMatch && request.method === "GET") {
+    return getAdminSubmissionFeedback(request, env, adminSubmissionFeedbackMatch[1]);
+  }
+  if (adminSubmissionFeedbackMatch && request.method === "PUT") {
+    return putAdminSubmissionFeedback(request, env, adminSubmissionFeedbackMatch[1]);
+  }
+  if (adminSubmissionFeedbackMatch && request.method === "DELETE") {
+    return deleteAdminSubmissionFeedback(request, env, adminSubmissionFeedbackMatch[1]);
   }
 
   return json({ error: "Not found", code: "NOT_FOUND" }, 404, request, env);
@@ -443,7 +467,7 @@ async function supabaseFetch(env, path, options = {}, timeoutMs = 20000) {
   }
 }
 
-async function rpc(env, functionName, payload) {
+async function rpc(env, functionName, payload, knownUpstreamErrors = undefined) {
   let response;
   try {
     response = await supabaseFetch(
@@ -465,7 +489,20 @@ async function rpc(env, functionName, payload) {
   }
   if (!response.ok) {
     console.error("Supabase RPC rejected", functionName, response.status);
-    try { await response.arrayBuffer(); } catch { /* Discard upstream details. */ }
+    let upstreamCode = "";
+    try {
+      const upstreamError = await response.json();
+      upstreamCode = typeof upstreamError?.code === "string" ? upstreamError.code : "";
+    } catch { /* Discard malformed upstream details. */ }
+    const mapped = knownUpstreamErrors && Object.prototype.hasOwnProperty.call(
+      knownUpstreamErrors,
+      upstreamCode
+    )
+      ? knownUpstreamErrors[upstreamCode]
+      : null;
+    if (mapped) {
+      throw new HttpError(mapped.status, mapped.code, mapped.message);
+    }
     throw new HttpError(
       502,
       "SUPABASE_UNAVAILABLE",
@@ -1111,6 +1148,149 @@ function submissionResponse(row) {
   return response;
 }
 
+function feedbackResponse(row) {
+  const fragments = Array.isArray(row.fragments) ? row.fragments : [];
+  return {
+    id: String(row.id || ""),
+    submissionId: String(row.submission_id || ""),
+    overallComment: String(row.overall_comment || ""),
+    finalComment: String(row.final_comment || ""),
+    status: row.status === "published" ? "published" : "draft",
+    version: Number(row.version || 0),
+    publishedAt: row.published_at ? String(row.published_at) : null,
+    updatedAt: String(row.updated_at || ""),
+    fragments: fragments.map((fragment, index) => ({
+      id: fragment && fragment.id ? String(fragment.id) : null,
+      position: Number(fragment && fragment.position ? fragment.position : index + 1),
+      originalFragment: String(fragment?.originalFragment ?? fragment?.original_fragment ?? ""),
+      edmundComment: String(fragment?.edmundComment ?? fragment?.edmund_comment ?? "")
+    }))
+  };
+}
+
+function normalizeFeedbackText(value, label, maximumCharacters) {
+  if (typeof value !== "string") {
+    throw new HttpError(400, "INVALID_FEEDBACK", `${label} must be text`);
+  }
+  const normalized = value.replace(/\r\n?/g, "\n");
+  if (
+    normalized.length > maximumCharacters
+    || utf8Length(normalized) > maximumCharacters * 4
+    || TEXT_CONTROL_RE.test(normalized)
+  ) {
+    throw new HttpError(400, "INVALID_FEEDBACK", `${label} is invalid`);
+  }
+  return normalized;
+}
+
+function normalizeFeedbackPayload(payload) {
+  if (!hasExactKeys(payload, [
+    "overallComment",
+    "fragments",
+    "finalComment",
+    "status",
+    "expectedVersion",
+    "expectedFeedbackId"
+  ])) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
+  }
+  const expectedVersion = payload.expectedVersion;
+  if (!Number.isInteger(expectedVersion) || expectedVersion < 0 || expectedVersion > 2147483647) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "expectedVersion is invalid");
+  }
+  const expectedFeedbackId = payload.expectedFeedbackId;
+  if (
+    (expectedVersion === 0 && expectedFeedbackId !== null)
+    || (
+      expectedVersion > 0
+      && (typeof expectedFeedbackId !== "string" || !UUID_RE.test(expectedFeedbackId))
+    )
+  ) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "expectedFeedbackId is invalid");
+  }
+  const status = String(payload.status || "");
+  if (status !== "draft" && status !== "published") {
+    throw new HttpError(400, "INVALID_FEEDBACK", "Feedback status is invalid");
+  }
+  const overallComment = normalizeFeedbackText(
+    payload.overallComment,
+    "overallComment",
+    MAX_FEEDBACK_HEADER_CHARACTERS
+  );
+  const finalComment = normalizeFeedbackText(
+    payload.finalComment,
+    "finalComment",
+    MAX_FEEDBACK_HEADER_CHARACTERS
+  );
+  if (!Array.isArray(payload.fragments) || payload.fragments.length > MAX_FEEDBACK_FRAGMENTS) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "Feedback fragments are invalid");
+  }
+  const fragments = payload.fragments.map((fragment, index) => {
+    if (!hasExactKeys(fragment, ["originalFragment", "edmundComment"])) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `fragments[${index}] has an invalid shape`);
+    }
+    const originalFragment = normalizeFeedbackText(
+      fragment.originalFragment,
+      `fragments[${index}].originalFragment`,
+      MAX_FEEDBACK_FRAGMENT_CHARACTERS
+    );
+    const edmundComment = normalizeFeedbackText(
+      fragment.edmundComment,
+      `fragments[${index}].edmundComment`,
+      MAX_FEEDBACK_COMMENT_CHARACTERS
+    );
+    if (!originalFragment.trim() && !edmundComment.trim()) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `fragments[${index}] is empty`);
+    }
+    if (status === "published" && (!originalFragment.trim() || !edmundComment.trim())) {
+      throw new HttpError(
+        400,
+        "INVALID_FEEDBACK",
+        `fragments[${index}] must contain an original fragment and Edmund comment before publishing`
+      );
+    }
+    return { originalFragment, edmundComment };
+  });
+  if (!overallComment.trim() && !finalComment.trim() && fragments.length === 0) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");
+  }
+  if (
+    status === "published"
+    && (!overallComment.trim() || !finalComment.trim() || fragments.length === 0)
+  ) {
+    throw new HttpError(
+      400,
+      "INVALID_FEEDBACK",
+      "Published feedback needs an overall comment, at least one complete fragment, and a final comment"
+    );
+  }
+  return {
+    overallComment,
+    fragments,
+    finalComment,
+    status,
+    expectedVersion,
+    expectedFeedbackId: expectedFeedbackId === null ? null : expectedFeedbackId.toLowerCase()
+  };
+}
+
+function normalizeFeedbackDeletePayload(payload) {
+  if (!hasExactKeys(payload, ["expectedVersion", "expectedFeedbackId"])) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "Feedback deletion payload has an invalid shape");
+  }
+  const expectedVersion = payload.expectedVersion;
+  if (!Number.isInteger(expectedVersion) || expectedVersion < 1 || expectedVersion > 2147483647) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "expectedVersion is invalid");
+  }
+  if (typeof payload.expectedFeedbackId !== "string" || !UUID_RE.test(payload.expectedFeedbackId)) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "expectedFeedbackId is invalid");
+  }
+  return {
+    expectedVersion,
+    expectedFeedbackId: payload.expectedFeedbackId.toLowerCase()
+  };
+}
+
 function positiveIntegerParameter(value, fallback, minimum, maximum, label) {
   if (value === null || value === "") return fallback;
   if (!/^[0-9]+$/.test(value)) {
@@ -1319,6 +1499,19 @@ async function deleteSubmission(request, env, submissionId) {
       deletedAt: String(row.deleted_at || "")
     }
   }, 200, request, env);
+}
+
+async function getSubmissionFeedback(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_get", {
+    p_student_id: student.id,
+    p_submission_id: submissionId.toLowerCase()
+  }));
+  return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
 }
 
 async function getProgress(request, env) {
@@ -1806,4 +1999,85 @@ async function getAdminSubmission(request, env, submissionId) {
     submission: submissionResponse(row),
     grammarOccurrences: occurrenceRows.map(occurrenceResponse)
   }, 200, request, env);
+}
+
+async function getAdminSubmissionFeedback(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get", {
+    p_admin_token: admin.token,
+    p_submission_id: submissionId.toLowerCase()
+  }));
+  return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
+}
+
+async function putAdminSubmissionFeedback(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-admin-feedback:${admin.id}`,
+    "Feedback saving is temporarily unavailable",
+    "TOO_MANY_ADMIN_WRITES",
+    "Too many administrator updates; please wait and try again"
+  );
+  const payload = normalizeFeedbackPayload(
+    await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES)
+  );
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save", {
+    p_admin_token: admin.token,
+    p_submission_id: submissionId.toLowerCase(),
+    p_overall_comment: payload.overallComment,
+    p_fragments: payload.fragments,
+    p_final_comment: payload.finalComment,
+    p_status: payload.status,
+    p_expected_version: payload.expectedVersion,
+    p_expected_feedback_id: payload.expectedFeedbackId
+  }, {
+    P4090: {
+      status: 409,
+      code: "FEEDBACK_VERSION_CONFLICT",
+      message: "Feedback was changed in another session; reload it before saving again"
+    }
+  }));
+  if (!row) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  return json({ feedback: feedbackResponse(row) }, 200, request, env);
+}
+
+async function deleteAdminSubmissionFeedback(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) {
+    throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  }
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-admin-feedback:${admin.id}`,
+    "Feedback deletion is temporarily unavailable",
+    "TOO_MANY_ADMIN_WRITES",
+    "Too many administrator updates; please wait and try again"
+  );
+  const payload = normalizeFeedbackDeletePayload(
+    await readLimitedJson(request, MAX_FEEDBACK_DELETE_BODY_BYTES)
+  );
+  const deleted = Number(await rpc(env, "writing_submission_feedback_admin_delete", {
+    p_admin_token: admin.token,
+    p_submission_id: submissionId.toLowerCase(),
+    p_expected_version: payload.expectedVersion,
+    p_expected_feedback_id: payload.expectedFeedbackId
+  }, {
+    P4090: {
+      status: 409,
+      code: "FEEDBACK_VERSION_CONFLICT",
+      message: "Feedback was changed in another session; reload it before deleting"
+    }
+  }));
+  if (deleted !== 1) throw new HttpError(404, "FEEDBACK_NOT_FOUND", "Feedback not found");
+  return emptyResponse(204, request, env);
 }

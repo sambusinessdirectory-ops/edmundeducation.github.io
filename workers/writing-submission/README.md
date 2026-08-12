@@ -66,8 +66,10 @@ the service-role-only ACL.
 Apply the repository's shared Flashcard-account migrations first. Then run
 `../../supabase-writing-submission.sql` in a private Supabase SQL session.
 Apply `../../supabase-writing-submission-enhancements.sql` immediately after
-it, then apply `../../supabase-writing-submission-grammar-history.sql`. Apply
-`../../supabase-writing-grammar-corpus.sql` next, followed by the generated
+it, then apply `../../supabase-writing-submission-grammar-history.sql` and
+`../../supabase-writing-submission-drafts-admin.sql`. Apply
+`../../supabase-writing-submission-feedback.sql` next. Apply
+`../../supabase-writing-grammar-corpus.sql` after that, followed by the generated
 `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
 The migration creates:
@@ -82,6 +84,11 @@ The migration creates:
 - per-rule grammar-problem summaries and student-owned detail pages;
 - an administrator-only queue for generic explanations that need a specific
   teacher-authored rule; and
+- normalized, versioned teacher feedback with ordered original-fragment and
+  Edmund-comment pairs, draft/published states, and an immutable audit trail;
+- published-feedback visibility limited to the student who owns the active
+  submission, with all draft/edit/delete operations limited to the dedicated
+  Writing Submission administrator; and
 - service-role-only student and administrator RPCs.
 
 The separate corpus migration creates a normalized, versioned private archive
@@ -191,6 +198,8 @@ both receive the same generic `401` response.
 - `GET /v1/progress`
 - `GET /v1/submissions?page=1&pageSize=20`
 - `GET /v1/submissions/<submission-uuid>`
+- `GET /v1/submissions/<submission-uuid>/feedback` — returns the student's
+  published teacher feedback, or `{ "feedback": null }` before publication.
 - `DELETE /v1/submissions/<submission-uuid>` (student archive soft-delete)
 - `PUT /v1/submissions/<submission-uuid>` with:
 
@@ -208,6 +217,45 @@ submission is immutable. Retrying the identical UUID and content is safe;
 reusing it with changed content or duration is rejected. Student deletion only
 hides an article from the personal archive; the saved article, grammar history,
 and historical progress remain available to the administrator.
+
+### Teacher feedback
+
+- `GET /v1/admin/submissions/<submission-uuid>/feedback`
+- `PUT /v1/admin/submissions/<submission-uuid>/feedback`
+- `DELETE /v1/admin/submissions/<submission-uuid>/feedback` with the exact JSON
+  body `{ "expectedVersion": 2, "expectedFeedbackId": "<feedback-uuid>" }`
+
+The administrator may repeatedly save a draft or publish a complete review:
+
+```json
+{
+  "overallComment": "整體評語",
+  "fragments": [
+    {
+      "originalFragment": "The student's original sentence.",
+      "edmundComment": "Edmund 評語"
+    }
+  ],
+  "finalComment": "最後評語",
+  "status": "published",
+  "expectedVersion": 2,
+  "expectedFeedbackId": "77777777-7777-4777-8777-777777777777"
+}
+```
+
+Draft feedback may contain partially completed fragment pairs. Publishing
+requires a non-empty overall comment, at least one pair containing both the
+original fragment and Edmund comment, and a non-empty final comment. Each save
+replaces the ordered fragment set atomically and increments the feedback
+version. Deleting feedback removes its current contents while retaining an
+administrator audit event. Student APIs never expose drafts. A new feedback
+uses `expectedVersion: 0` and `expectedFeedbackId: null`; subsequent saves must
+send both the `version` and `id` returned by the latest GET or PUT response. A
+stale version or mismatched feedback identity is rejected with HTTP `409` and
+code `FEEDBACK_VERSION_CONFLICT`, so another administrator's changes cannot be
+silently overwritten—even if feedback was deleted and recreated at version 1.
+Deletion likewise requires the current positive version and exact feedback ID;
+a missing, invalid, or stale concurrency token cannot delete feedback.
 
 ### Advanced grammar checking
 

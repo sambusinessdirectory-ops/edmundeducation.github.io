@@ -12,6 +12,8 @@ const SUBMISSION_ID = "33333333-3333-4333-8333-333333333333";
 const OCCURRENCE_ID = "44444444-4444-4444-8444-444444444444";
 const ADMIN_TOKEN = "55555555-5555-4555-8555-555555555555";
 const ADMIN_ID = "66666666-6666-4666-8666-666666666666";
+const FEEDBACK_ID = "77777777-7777-4777-8777-777777777777";
+const RECREATED_FEEDBACK_ID = "99999999-9999-4999-8999-999999999999";
 const FINGERPRINT = "a".repeat(64);
 
 function limiter(success = true) {
@@ -95,6 +97,26 @@ function adminProfile() {
     name: "Writing Administrator",
     expires_at: "2026-08-01T00:00:00.000Z"
   }];
+}
+
+function storedFeedback(overrides = {}) {
+  return {
+    id: FEEDBACK_ID,
+    submission_id: SUBMISSION_ID,
+    overall_comment: "整體表達清楚。",
+    final_comment: "繼續留意句子連接。",
+    status: "published",
+    version: 2,
+    published_at: "2026-08-12T04:00:00.000Z",
+    updated_at: "2026-08-12T04:00:00.000Z",
+    fragments: [{
+      id: "88888888-8888-4888-8888-888888888888",
+      position: 1,
+      originalFragment: "Students learns quickly.",
+      edmundComment: "Students 是複數，動詞使用 learn。"
+    }],
+    ...overrides
+  };
 }
 
 function occurrence(overrides = {}) {
@@ -3491,6 +3513,382 @@ test("administrator list and detail routes use only the dedicated admin token", 
   assert.equal((await detailResponse.json()).submission.answer, "Full answer");
 });
 
+test("students can read only published feedback belonging to their submission", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_student_get") {
+      assert.deepEqual(rpc.body, {
+        p_student_id: STUDENT_ID,
+        p_submission_id: SUBMISSION_ID
+      });
+      return jsonResponse([storedFeedback()]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback`,
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  const feedback = (await response.json()).feedback;
+  assert.equal(feedback.id, FEEDBACK_ID);
+  assert.equal(feedback.submissionId, SUBMISSION_ID);
+  assert.equal(feedback.status, "published");
+  assert.equal(feedback.fragments[0].originalFragment, "Students learns quickly.");
+  assert.equal(feedback.fragments[0].edmundComment, "Students 是複數，動詞使用 learn。");
+});
+
+test("student feedback returns null while no published feedback exists", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_student_get") return jsonResponse([]);
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback`,
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { feedback: null });
+});
+
+test("administrator can load, save and delete structured teacher feedback", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  const calls = [];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    calls.push(rpc);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_get") {
+      return jsonResponse([storedFeedback({ status: "draft", published_at: null })]);
+    }
+    if (rpc.name === "writing_submission_feedback_admin_save") {
+      assert.equal(rpc.body.p_admin_token, ADMIN_TOKEN);
+      assert.equal(rpc.body.p_submission_id, SUBMISSION_ID);
+      assert.equal(rpc.body.p_status, "published");
+      assert.equal(rpc.body.p_expected_version, 2);
+      assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
+      assert.deepEqual(rpc.body.p_fragments, [{
+        originalFragment: "Students learns quickly.",
+        edmundComment: "Students 是複數，動詞使用 learn。"
+      }]);
+      return jsonResponse([storedFeedback({ version: 3 })]);
+    }
+    if (rpc.name === "writing_submission_feedback_admin_delete") {
+      assert.equal(rpc.body.p_expected_version, 3);
+      assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
+      return jsonResponse(1);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const headers = { Origin: ORIGIN, Authorization: `Bearer ${ADMIN_TOKEN}` };
+
+  const getResponse = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    { headers }
+  ), environment());
+  assert.equal(getResponse.status, 200);
+  assert.equal((await getResponse.json()).feedback.status, "draft");
+
+  const limiterBinding = limiter();
+  const putResponse = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: { ...headers, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        overallComment: "整體表達清楚。",
+        fragments: [{
+          originalFragment: "Students learns quickly.",
+          edmundComment: "Students 是複數，動詞使用 learn。"
+        }],
+        finalComment: "繼續留意句子連接。",
+        status: "published",
+        expectedVersion: 2,
+        expectedFeedbackId: FEEDBACK_ID
+      })
+    }
+  ), environment({ SUBMISSION_WRITE_RATE_LIMITER: limiterBinding }));
+  assert.equal(putResponse.status, 200);
+  assert.equal((await putResponse.json()).feedback.version, 3);
+
+  const deleteResponse = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "DELETE",
+      headers: { ...headers, "Content-Type": "application/json" },
+      body: JSON.stringify({ expectedVersion: 3, expectedFeedbackId: FEEDBACK_ID })
+    }
+  ), environment({ SUBMISSION_WRITE_RATE_LIMITER: limiterBinding }));
+  assert.equal(deleteResponse.status, 204);
+  assert.deepEqual(limiterBinding.calls, [
+    { key: `writing-submission-admin-feedback:${ADMIN_ID}` },
+    { key: `writing-submission-admin-feedback:${ADMIN_ID}` }
+  ]);
+  assert.equal(calls.filter(call => call.name === "writing_submission_feedback_admin_save").length, 1);
+});
+
+test("published feedback rejects incomplete fragment pairs before storage", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalled = false;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") saveCalled = true;
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "整體評語",
+        fragments: [{ originalFragment: "Original only", edmundComment: "" }],
+        finalComment: "最後評語",
+        status: "published",
+        expectedVersion: 0,
+        expectedFeedbackId: null
+      })
+    }
+  ), environment());
+  assert.equal(response.status, 400);
+  assert.equal((await response.json()).code, "INVALID_FEEDBACK");
+  assert.equal(saveCalled, false);
+});
+
+test("feedback saves require a valid version and matching feedback identity shape", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalled = false;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") saveCalled = true;
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  const validFeedbackWithoutVersion = {
+    overallComment: "整體評語",
+    fragments: [{ originalFragment: "Original", edmundComment: "Comment" }],
+    finalComment: "最後評語",
+    status: "draft"
+  };
+  for (const payload of [
+    validFeedbackWithoutVersion,
+    { ...validFeedbackWithoutVersion, expectedVersion: -1, expectedFeedbackId: null },
+    { ...validFeedbackWithoutVersion, expectedVersion: 1.5, expectedFeedbackId: FEEDBACK_ID },
+    { ...validFeedbackWithoutVersion, expectedVersion: 0, expectedFeedbackId: FEEDBACK_ID },
+    { ...validFeedbackWithoutVersion, expectedVersion: 1, expectedFeedbackId: null },
+    { ...validFeedbackWithoutVersion, expectedVersion: 1, expectedFeedbackId: "not-a-uuid" }
+  ]) {
+    const response = await worker.fetch(new Request(
+      `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+      { method: "PUT", headers, body: JSON.stringify(payload) }
+    ), environment());
+    assert.equal(response.status, 400);
+    assert.equal((await response.json()).code, "INVALID_FEEDBACK");
+  }
+  assert.equal(saveCalled, false);
+});
+
+test("stale administrator feedback saves return a specific 409 without exposing database details", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") {
+      assert.equal(rpc.body.p_expected_version, 2);
+      assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
+      return jsonResponse({
+        code: "P4090",
+        message: "private database detail must not be exposed"
+      }, 400);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "整體評語",
+        fragments: [{ originalFragment: "Original", edmundComment: "Comment" }],
+        finalComment: "最後評語",
+        status: "draft",
+        expectedVersion: 2,
+        expectedFeedbackId: FEEDBACK_ID
+      })
+    }
+  ), environment());
+  assert.equal(response.status, 409);
+  assert.deepEqual(await response.json(), {
+    error: "Feedback was changed in another session; reload it before saving again",
+    code: "FEEDBACK_VERSION_CONFLICT"
+  });
+});
+
+test("feedback deletion requires the current expected version and rejects stale deletes", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let deleteCalled = false;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_delete") {
+      deleteCalled = true;
+      assert.equal(rpc.body.p_expected_version, 2);
+      return jsonResponse({ code: "P4090", message: "private database detail" }, 400);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const route = `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`;
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+
+  for (const body of [
+    {},
+    { expectedVersion: 0, expectedFeedbackId: FEEDBACK_ID },
+    { expectedVersion: 1.5, expectedFeedbackId: FEEDBACK_ID },
+    { expectedVersion: 2, expectedFeedbackId: null },
+    { expectedVersion: 2, expectedFeedbackId: "not-a-uuid" }
+  ]) {
+    const response = await worker.fetch(new Request(route, {
+      method: "DELETE",
+      headers,
+      body: JSON.stringify(body)
+    }), environment());
+    assert.equal(response.status, 400);
+    assert.equal((await response.json()).code, "INVALID_FEEDBACK");
+  }
+  assert.equal(deleteCalled, false);
+
+  const staleResponse = await worker.fetch(new Request(route, {
+    method: "DELETE",
+    headers,
+    body: JSON.stringify({ expectedVersion: 2, expectedFeedbackId: FEEDBACK_ID })
+  }), environment());
+  assert.equal(staleResponse.status, 409);
+  assert.deepEqual(await staleResponse.json(), {
+    error: "Feedback was changed in another session; reload it before deleting",
+    code: "FEEDBACK_VERSION_CONFLICT"
+  });
+  assert.equal(deleteCalled, true);
+});
+
+test("deleted and recreated feedback rejects stale save and delete requests from the old identity", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let operation = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    operation += 1;
+    if (operation === 1 && rpc.name === "writing_submission_feedback_admin_delete") {
+      assert.equal(rpc.body.p_expected_version, 2);
+      assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
+      return jsonResponse(1);
+    }
+    if (operation === 2 && rpc.name === "writing_submission_feedback_admin_save") {
+      assert.equal(rpc.body.p_expected_version, 0);
+      assert.equal(rpc.body.p_expected_feedback_id, null);
+      return jsonResponse([storedFeedback({
+        id: RECREATED_FEEDBACK_ID,
+        version: 1,
+        status: "draft",
+        published_at: null
+      })]);
+    }
+    if (operation === 3 && rpc.name === "writing_submission_feedback_admin_save") {
+      // Version 1 exists again, but it belongs to the recreated feedback ID.
+      assert.equal(rpc.body.p_expected_version, 1);
+      assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
+      return jsonResponse({ code: "P4090", message: "feedback identity conflict" }, 400);
+    }
+    if (operation === 4 && rpc.name === "writing_submission_feedback_admin_delete") {
+      assert.equal(rpc.body.p_expected_version, 1);
+      assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
+      return jsonResponse({ code: "P4090", message: "feedback identity conflict" }, 400);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name} at operation ${operation}`);
+  };
+
+  const route = `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`;
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  const validDraft = {
+    overallComment: "整體評語",
+    fragments: [{ originalFragment: "Original", edmundComment: "Comment" }],
+    finalComment: "最後評語",
+    status: "draft"
+  };
+
+  const originalDelete = await worker.fetch(new Request(route, {
+    method: "DELETE",
+    headers,
+    body: JSON.stringify({ expectedVersion: 2, expectedFeedbackId: FEEDBACK_ID })
+  }), environment());
+  assert.equal(originalDelete.status, 204);
+
+  const recreate = await worker.fetch(new Request(route, {
+    method: "PUT",
+    headers,
+    body: JSON.stringify({ ...validDraft, expectedVersion: 0, expectedFeedbackId: null })
+  }), environment());
+  assert.equal(recreate.status, 200);
+  assert.equal((await recreate.json()).feedback.id, RECREATED_FEEDBACK_ID);
+
+  const staleSave = await worker.fetch(new Request(route, {
+    method: "PUT",
+    headers,
+    body: JSON.stringify({
+      ...validDraft,
+      expectedVersion: 1,
+      expectedFeedbackId: FEEDBACK_ID
+    })
+  }), environment());
+  assert.equal(staleSave.status, 409);
+  assert.equal((await staleSave.json()).code, "FEEDBACK_VERSION_CONFLICT");
+
+  const staleDelete = await worker.fetch(new Request(route, {
+    method: "DELETE",
+    headers,
+    body: JSON.stringify({ expectedVersion: 1, expectedFeedbackId: FEEDBACK_ID })
+  }), environment());
+  assert.equal(staleDelete.status, 409);
+  assert.equal((await staleDelete.json()).code, "FEEDBACK_VERSION_CONFLICT");
+  assert.equal(operation, 4);
+});
+
 test("the missing-explanation queue is available only through administrator authentication", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -3968,4 +4366,74 @@ test("the grammar-history migration preserves ownership, complete cards and an a
     /grant execute on function public\.writing_submission_admin_explanation_review_queue\(uuid, integer, integer\)[\s\S]*?to service_role;/
   );
   assert.doesNotMatch(migration, /grant execute[\s\S]*?to (?:anon|authenticated);/);
+});
+
+test("the feedback migration is normalized, private, ownership-scoped and auditable", t => {
+  const migrationUrl = new URL("../../../supabase-writing-submission-feedback.sql", import.meta.url);
+  if (!fs.existsSync(migrationUrl)) {
+    t.skip("the focused Worker staging fixture does not include the feedback migration");
+    return;
+  }
+  const migration = fs.readFileSync(migrationUrl, "utf8");
+  assert.match(migration, /^begin;/m);
+  assert.match(migration, /commit;\s*$/);
+  for (const table of [
+    "writing_submission_feedback",
+    "writing_submission_feedback_fragments",
+    "writing_submission_feedback_audit"
+  ]) {
+    assert.match(migration, new RegExp(`alter table public\\.${table} enable row level security;`));
+    assert.match(migration, new RegExp(`revoke all on table public\\.${table}`));
+  }
+  const studentGet = migration.match(
+    /create or replace function public\.writing_submission_feedback_student_get[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(studentGet, /feedback\.student_id = p_student_id/);
+  assert.match(studentGet, /feedback\.status = 'published'/);
+  assert.match(studentGet, /submission\.deleted_at is null/);
+  const adminSave = migration.match(
+    /create or replace function public\.writing_submission_feedback_admin_save[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(adminSave, /public\._writing_submission_admin_id\(p_admin_token\)/);
+  assert.match(adminSave, /writing_submission_feedback_fragments_valid/);
+  assert.match(adminSave, /p_expected_version integer/);
+  assert.match(adminSave, /p_expected_feedback_id uuid/);
+  assert.match(adminSave, /p_expected_version <> 0/);
+  assert.match(adminSave, /p_expected_version <> v_version/);
+  assert.match(adminSave, /p_expected_feedback_id is distinct from v_feedback_id/);
+  assert.match(adminSave, /errcode = 'P4090'/);
+  assert.match(
+    adminSave,
+    /on conflict on constraint writing_submission_feedback_submission_id_key do update/
+  );
+  assert.match(adminSave, /insert into public\.writing_submission_feedback_audit/);
+  const adminDelete = migration.match(
+    /create or replace function public\.writing_submission_feedback_admin_delete[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(adminDelete, /p_expected_version integer/);
+  assert.match(adminDelete, /p_expected_feedback_id uuid/);
+  assert.match(adminDelete, /for update/);
+  assert.match(adminDelete, /p_expected_version <> v_version/);
+  assert.match(adminDelete, /p_expected_feedback_id is distinct from v_feedback_id/);
+  assert.match(adminDelete, /errcode = 'P4090'/);
+  assert.match(
+    migration,
+    /drop function if exists public\.writing_submission_feedback_admin_delete\(uuid, uuid\);/
+  );
+  assert.match(
+    migration,
+    /drop function if exists public\.writing_submission_feedback_admin_delete\(uuid, uuid, integer\);/
+  );
+  assert.doesNotMatch(migration, /grant execute[\s\S]*?to (?:anon|authenticated);/);
+  for (const functionName of [
+    "writing_submission_feedback_student_get",
+    "writing_submission_feedback_admin_get",
+    "writing_submission_feedback_admin_save",
+    "writing_submission_feedback_admin_delete"
+  ]) {
+    assert.match(
+      migration,
+      new RegExp(`grant execute on function public\\.${functionName}\\([\\s\\S]*?to service_role;`)
+    );
+  }
 });

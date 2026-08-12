@@ -10,7 +10,9 @@ import {
   countEnglishWords,
   grammarOccurrenceIdentity,
   isLiveCompletedWritingSegment,
-  newlyCompletedWritingSegments
+  newlyCompletedWritingSegments,
+  normalizeVocabularyMatchText,
+  vocabularyEntryUsed
 } from "../writing-submission-core.js";
 
 const root = path.resolve(import.meta.dirname, "..");
@@ -88,6 +90,15 @@ test("word count handles repeated whitespace", () => {
   assert.equal(countEnglishWords(""), 0);
 });
 
+test("thematic vocabulary matching is exact, phrase-aware and apostrophe-safe", () => {
+  assert.equal(normalizeVocabularyMatchText("  Workers’ rights  "), "workers' rights");
+  assert.equal(vocabularyEntryUsed("We must protect WORKERS’   RIGHTS.", "workers' rights"), true);
+  assert.equal(vocabularyEntryUsed("Homework should be manageable.", "work"), false);
+  assert.equal(vocabularyEntryUsed("Customers need support.", "customer"), false);
+  assert.equal(vocabularyEntryUsed("A customer needs support.", "customer"), true);
+  assert.equal(vocabularyEntryUsed("", "customer"), false);
+});
+
 test("grammar occurrence identities dedupe a rescan but preserve two same-rule cards", () => {
   const base = {
     engineIdentity: "edmund-advanced-grammar@2",
@@ -162,8 +173,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260810-open-book1/);
-  assert.match(html, /writing-submission\.js\?v=20260811-references2/);
+  assert.match(html, /writing-submission\.css\?v=20260812-feedback1/);
+  assert.match(html, /writing-submission\.js\?v=20260812-feedback-races2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -276,6 +287,35 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /"中文翻譯"/);
   assert.match(script, /row\?\.english/);
   assert.match(script, /row\?\.chinese/);
+  assert.match(script, /dataset\.topicReferenceVocabulary/);
+  assert.match(script, /dataset\.topicReferenceVocabularyScale/);
+  assert.match(script, /dataset\.topicReferenceVocabularyUsageStatus/);
+  assert.match(script, /writing-submission-core\.js\?v=20260812-vocabulary-feedback1/);
+  assert.doesNotMatch(script, /row\.setAttribute\("aria-label", used/);
+  assert.match(script, /refreshVocabularyUsage\(content\)/);
+  assert.match(script, /refreshVocabularyUsage\(\)/);
+  assert.match(css, /\.topic-reference-table tbody tr\.is-used/);
+  assert.match(css, /--vocabulary-text-scale/);
+  assert.match(script, /function renderAdminFeedbackEditor/);
+  assert.match(script, /Math\.max\(20, Math\.ceil\(saved\.length \/ 10\) \* 10\)/);
+  assert.match(script, /appendFeedbackEditorRows\(list, initialCount, saved, state\.adminFeedbackSuggestedFragments\)/);
+  assert.match(script, /appendFeedbackEditorRows\(list, 10/);
+  assert.match(script, /fragment\.originalFragment\.trim\(\) \|\| fragment\.edmundComment\.trim\(\)/);
+  assert.match(script, /\[\^\.\!\?;。！？；\]\+/);
+  assert.match(script, /const expectedVersion = state\.selectedAdminFeedback\?\.version \|\| 0/);
+  assert.match(script, /const expectedFeedbackId = state\.selectedAdminFeedback\?\.id \|\| null/);
+  assert.match(script, /method: "DELETE",[\s\S]*?expectedFeedbackId,[\s\S]*?expectedVersion/);
+  assert.match(script, /original\.maxLength = 10000/);
+  assert.match(script, /comment\.maxLength = 20000/);
+  assert.match(script, /data-feedback-editor/);
+  assert.match(script, /\/v1\/admin\/submissions\/\$\{encodeURIComponent\(submissionId\)\}\/feedback/);
+  assert.match(script, /\/v1\/submissions\/\$\{encodeURIComponent\(submissionId\)\}\/feedback/);
+  assert.match(script, /state\.submissionRequestGeneration !== requestGeneration/);
+  assert.match(script, /state\.selectedSubmissionId !== requestedId/);
+  assert.match(script, /state\.adminSubmissionRequestGeneration !== requestGeneration/);
+  assert.match(script, /state\.selectedAdminSubmissionId !== requestedId/);
+  assert.match(css, /\.teacher-feedback-edit-pair/);
+  assert.match(css, /\.teacher-feedback-actions\s*\{[^}]*position:\s*sticky/s);
   assert.doesNotMatch(script, /fromWritingExerciseId\([^)]*topicInput/);
   assert.match(css, /\.topic-reference-details/);
   assert.match(css, /\.topic-reference-table-scroll[^}]*overflow-x:\s*auto/s);
@@ -285,6 +325,60 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(topicAccessMigration, /access_entry\.key <> '__adminMessage'[\s\S]*?jsonb_typeof\(access_entry\.value\) <> 'boolean'/i);
   assert.match(topicAccessMigration, /revoke all on function public\.writing_submission_student_profile\(uuid\)[\s\S]*?from public, anon, authenticated, service_role/i);
   assert.match(topicAccessMigration, /grant execute on function public\.writing_submission_student_profile\(uuid\) to service_role/i);
+});
+
+test("article and feedback navigation invalidates stale requests and clears sensitive detail", () => {
+  const clearSessionSource = script.match(/function clearSession\(\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(clearSessionSource, /state\.selectedSubmissionId = ""/);
+  assert.match(clearSessionSource, /state\.submissionRequestGeneration \+= 1/);
+  assert.match(clearSessionSource, /state\.selectedAdminSubmissionId = ""/);
+  assert.match(clearSessionSource, /state\.adminSubmissionRequestGeneration \+= 1/);
+  assert.match(clearSessionSource, /state\.selectedAdminFeedback = null/);
+  assert.match(clearSessionSource, /state\.adminFeedbackSuggestedFragments = \[\]/);
+  assert.match(clearSessionSource, /elements\.submissionDetail\.replaceChildren/);
+  assert.match(clearSessionSource, /elements\.adminDetail\.replaceChildren/);
+
+  const studentOpenSource = script.match(/async function openSubmission\(id\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(studentOpenSource, /const requestGeneration = state\.submissionRequestGeneration \+ 1;\s*state\.submissionRequestGeneration = requestGeneration/);
+  assert.equal((studentOpenSource.match(/state\.submissionRequestGeneration !== requestGeneration/g) || []).length, 2);
+  assert.match(studentOpenSource, /loadStudentFeedback\(submission\.id, elements\.submissionDetail, requestGeneration\)/);
+  const studentFeedbackSource = script.match(/async function loadStudentFeedback\(submissionId, container, requestGeneration\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.equal((studentFeedbackSource.match(/state\.submissionRequestGeneration !== requestGeneration/g) || []).length, 2);
+
+  const adminOpenSource = script.match(/async function openAdminSubmission\(id\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(adminOpenSource, /const requestGeneration = state\.adminSubmissionRequestGeneration \+ 1;\s*state\.adminSubmissionRequestGeneration = requestGeneration/);
+  assert.equal((adminOpenSource.match(/state\.adminSubmissionRequestGeneration !== requestGeneration/g) || []).length, 2);
+  assert.match(adminOpenSource, /loadAdminFeedback\(submission, elements\.adminDetail, requestGeneration\)/);
+  const adminFeedbackSource = script.match(/async function loadAdminFeedback\(submission, container, requestGeneration\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.equal((adminFeedbackSource.match(/state\.adminSubmissionRequestGeneration !== requestGeneration/g) || []).length, 2);
+
+  const currentEditorSource = script.match(/function isCurrentAdminFeedbackEditor\(submissionId, requestGeneration, editor\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(currentEditorSource, /state\.adminSubmissionRequestGeneration === requestGeneration/);
+  assert.match(currentEditorSource, /state\.selectedAdminSubmissionId === submissionId/);
+  assert.match(currentEditorSource, /editor\?\.isConnected/);
+  assert.match(currentEditorSource, /editor\.parentElement === elements\.adminDetail/);
+
+  const saveFeedbackSource = script.match(/async function saveAdminFeedback\(status\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(saveFeedbackSource, /const requestGeneration = state\.adminSubmissionRequestGeneration/);
+  assert.match(saveFeedbackSource, /if \(isCurrentAdminFeedbackEditor\(submissionId, requestGeneration, editor\)\) \{\s*await openAdminSubmission\(submissionId\)/);
+  assert.equal((saveFeedbackSource.match(/openAdminSubmission\(submissionId\)/g) || []).length, 1);
+  const saveNetworkCatchIndex = saveFeedbackSource.lastIndexOf("} catch (error)");
+  const staleSaveGuardIndex = saveFeedbackSource.indexOf(
+    "if (!isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor))",
+    saveNetworkCatchIndex
+  );
+  assert.ok(
+    staleSaveGuardIndex > saveNetworkCatchIndex
+      && staleSaveGuardIndex < saveFeedbackSource.indexOf("setStatus(", saveNetworkCatchIndex),
+    "stale feedback-save failures must not write into a detached editor"
+  );
+  const deleteFeedbackSource = script.match(/async function deleteAdminFeedback\(\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(deleteFeedbackSource, /const requestGeneration = state\.adminSubmissionRequestGeneration/);
+  assert.match(deleteFeedbackSource, /if \(isCurrentAdminFeedbackEditor\(submissionId, requestGeneration, editor\)\) \{\s*await openAdminSubmission\(submissionId\)/);
+  assert.equal((deleteFeedbackSource.match(/openAdminSubmission\(submissionId\)/g) || []).length, 1);
+
+  const deleteSubmissionSource = script.match(/async function deleteStudentSubmission\(id\) \{[\s\S]*?^\}/m)?.[0] || "";
+  assert.match(deleteSubmissionSource, /if \(state\.selectedSubmissionId === id\) \{[\s\S]*?state\.submissionRequestGeneration \+= 1/);
 });
 
 test("detailed grammar history and the admin explanation-review queue are private and linked", () => {

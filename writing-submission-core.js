@@ -9,6 +9,31 @@ export function countEnglishWords(value) {
   return text.split(/\s+/u).filter(Boolean).length;
 }
 
+export function normalizeVocabularyMatchText(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/[\u2018\u2019\u02bc]/gu, "'")
+    .replace(/[\u201c\u201d]/gu, '"')
+    .replace(/\u2026/gu, "...")
+    .toLocaleLowerCase("en-GB")
+    .replace(/\s+/gu, " ")
+    .trim();
+}
+
+function escapeVocabularyPattern(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
+}
+
+export function vocabularyEntryUsed(answerValue, entryValue) {
+  const answer = normalizeVocabularyMatchText(answerValue);
+  const entry = normalizeVocabularyMatchText(entryValue);
+  if (!answer || !entry) return false;
+  const pattern = escapeVocabularyPattern(entry).replace(/ /gu, "\\s+");
+  const leadingBoundary = /^[\p{L}\p{N}']/u.test(entry) ? "(?<![\\p{L}\\p{N}'])" : "";
+  const trailingBoundary = /[\p{L}\p{N}']$/u.test(entry) ? "(?![\\p{L}\\p{N}'])" : "";
+  return new RegExp(`${leadingBoundary}${pattern}${trailingBoundary}`, "u").test(answer);
+}
+
 export function isCompletedSentenceTerminator(textValue, index) {
   const text = String(textValue || "");
   const character = text[index];

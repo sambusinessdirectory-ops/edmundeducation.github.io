@@ -40,7 +40,9 @@
     { id: "english-humour-speaking", href: "english-humour-speaking.html", zh: "英文幽默會話系統", en: "English Humour / Speaking" },
     { id: "english-humour-writing", href: "english-humour-writing.html", zh: "英文幽默寫作系統", en: "English Humour / Speaking" },
     { id: "english-joke-collection", href: "english-joke-collection.html", zh: "英文笑話收集站", en: "English Joke / Collection" },
-    { id: "argument-learning", href: "argument-learning-system.html", zh: "論證 / 論據 / 論點 學習系統", en: "Argument learning" }
+    { id: "argument-learning", href: "argument-learning-system.html", zh: "論證 / 論據 / 論點 學習系統", en: "Argument learning" },
+    { id: "fragmented-reading", href: "fragmented-reading-system.html", zh: "閱讀理解 / 碎片訓練系統", en: "Fragmented Reading" },
+    { id: "precise-language", href: "precise-language-system.html", zh: "精準措詞系統", en: "Precise Language" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -79,6 +81,8 @@
     "english-humour-writing": "edmund-learning-portal-english-humour-writing-session-v1",
     "english-joke-collection": "edmund-learning-portal-english-joke-collection-session-v1",
     "argument-learning": "edmund-learning-portal-argument-learning-session-v1",
+    "fragmented-reading": "edmund-learning-portal-fragmented-reading-session-v1",
+    "precise-language": "edmund-learning-portal-precise-language-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -87,7 +91,8 @@
     "quotes", "grammar", "collocation", "irregular-verb", "thematic-vocabulary", "part-of-speech",
     "synonyms", "error-identifier", "learning-roadmap", "spelling", "reading-logic", "translation-skills",
     "business-school", "complex-questions", "leisurely-reading", "english-humour-speaking",
-    "english-humour-writing", "english-joke-collection", "argument-learning"
+    "english-humour-writing", "english-joke-collection", "argument-learning", "fragmented-reading",
+    "precise-language"
   ]);
 
   function storageJson(storage, key) {

@@ -74,6 +74,8 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   assert.equal(read(sessionStorage, "edmund-learning-portal-quotes-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-learning-portal-english-joke-collection-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-learning-portal-argument-learning-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-fragmented-reading-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-precise-language-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-schedule-session-v1").studentToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundModelEssayDownloadSession").sessionToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(sessionStorage.getItem("edmundFlashcardSession"), null);
@@ -205,7 +207,7 @@ test("all established student portals load the shared accessible switcher", () =
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
     assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js\?v=20260810-5/, `${file} must load the latest shared navigation release`);
+    assert.match(html, /shared-system-nav\.js\?v=20260812-1/, `${file} must load the latest shared navigation release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
@@ -260,7 +262,9 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "english-humour-speaking.html",
     "english-humour-writing.html",
     "english-joke-collection.html",
-    "argument-learning-system.html"
+    "argument-learning-system.html",
+    "fragmented-reading-system.html",
+    "precise-language-system.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");

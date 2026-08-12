@@ -7,8 +7,9 @@ import {
   grammarOccurrenceIdentity,
   insertedRange,
   isLiveCompletedWritingSegment,
-  newlyCompletedWritingSegments
-} from "./writing-submission-core.js?v=20260803-grammar-history1";
+  newlyCompletedWritingSegments,
+  vocabularyEntryUsed
+} from "./writing-submission-core.js?v=20260812-vocabulary-feedback1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -56,6 +57,7 @@ const TOPIC_REFERENCE_VERSION = "20260811-2";
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
+const VOCABULARY_TEXT_SCALE_VALUES = Object.freeze([0.5, 1, 2, 3, 4, 5, 7]);
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
 
@@ -214,12 +216,16 @@ const state = {
   exportInFlight: false,
   writingProgress: [],
   selectedSubmissionId: "",
+  submissionRequestGeneration: 0,
   grammarProblems: [],
   adminSubmissions: [],
   adminStudents: [],
   selectedAdminStudentId: "",
   adminGrammarProblems: [],
   selectedAdminSubmissionId: "",
+  adminSubmissionRequestGeneration: 0,
+  selectedAdminFeedback: null,
+  adminFeedbackSuggestedFragments: [],
   adminExplanationReviews: [],
   adminExplanationReviewPage: 0,
   adminExplanationReviewHasMore: false
@@ -472,11 +478,17 @@ function clearSession() {
   state.submissions = [];
   state.drafts = [];
   state.writingProgress = [];
+  state.selectedSubmissionId = "";
+  state.submissionRequestGeneration += 1;
   state.grammarProblems = [];
   state.adminSubmissions = [];
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   state.adminGrammarProblems = [];
+  state.selectedAdminSubmissionId = "";
+  state.adminSubmissionRequestGeneration += 1;
+  state.selectedAdminFeedback = null;
+  state.adminFeedbackSuggestedFragments = [];
   state.adminExplanationReviews = [];
   state.adminExplanationReviewPage = 0;
   state.adminExplanationReviewHasMore = false;
@@ -496,6 +508,8 @@ function clearSession() {
   syncWritingTimerUi();
   syncWritingStopwatchUi();
   syncSubmissionExportControls();
+  elements.submissionDetail.replaceChildren(emptyState("請先選擇一篇文章。"));
+  elements.adminDetail.replaceChildren(emptyState("請先選擇學生及文章。"));
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage may be unavailable. */ }
 }
 
@@ -880,10 +894,24 @@ function renderVocabularyReference(content, reference) {
   const vocabulary = Array.isArray(reference?.vocabulary) ? reference.vocabulary : [];
   if (!vocabulary.length) throw new Error("Thematic vocabulary reference is empty");
   const head = createElement("div", "topic-reference-vocabulary-head");
-  head.append(
-    createElement("strong", "", "Edmund 主題性生字 Thematic Vocabulary"),
-    createElement("span", "", `${vocabulary.length} 組`)
-  );
+  head.append(createElement("strong", "", "Edmund 主題性生字 Thematic Vocabulary"));
+  const controls = createElement("div", "topic-reference-vocabulary-controls");
+  controls.append(createElement("span", "", `${vocabulary.length} 組`));
+  const scaleLabel = createElement("label", "topic-reference-vocabulary-scale");
+  scaleLabel.append(createElement("span", "", "文字大小"));
+  const scale = document.createElement("select");
+  scale.dataset.topicReferenceVocabularyScale = "true";
+  scale.setAttribute("aria-label", "調整主題性生字表字體大小");
+  for (const value of VOCABULARY_TEXT_SCALE_VALUES) {
+    const option = document.createElement("option");
+    option.value = String(value);
+    option.textContent = `${value}×`;
+    option.selected = value === 1;
+    scale.append(option);
+  }
+  scaleLabel.append(scale);
+  controls.append(scaleLabel);
+  head.append(controls);
   const scroller = createElement("div", "topic-reference-table-scroll");
   const table = createElement("table", "topic-reference-table");
   const caption = createElement("caption", "sr-only", "Thematic Vocabulary English and Chinese glossary");
@@ -897,15 +925,29 @@ function renderVocabularyReference(content, reference) {
   const tableBody = document.createElement("tbody");
   for (const row of vocabulary) {
     const tableRow = document.createElement("tr");
-    tableRow.append(
-      createElement("td", "", row?.english || ""),
-      createElement("td", "", row?.chinese || "")
-    );
+    tableRow.dataset.topicReferenceVocabulary = String(row?.english || "");
+    const englishCell = createElement("td", "", row?.english || "");
+    const usageStatus = createElement("span", "sr-only", "，尚未在文章使用");
+    usageStatus.dataset.topicReferenceVocabularyUsageStatus = "true";
+    englishCell.append(usageStatus);
+    tableRow.append(englishCell, createElement("td", "", row?.chinese || ""));
     tableBody.append(tableRow);
   }
   table.append(caption, tableHead, tableBody);
   scroller.append(table);
   content.replaceChildren(head, scroller);
+  refreshVocabularyUsage(content);
+}
+
+function refreshVocabularyUsage(root = elements.topicReferenceArea) {
+  if (!root) return;
+  const answer = elements.writingInput?.value || "";
+  root.querySelectorAll("[data-topic-reference-vocabulary]").forEach((row) => {
+    const used = vocabularyEntryUsed(answer, row.dataset.topicReferenceVocabulary);
+    row.classList.toggle("is-used", used);
+    const status = row.querySelector("[data-topic-reference-vocabulary-usage-status]");
+    if (status) status.textContent = used ? "，已在文章使用" : "，尚未在文章使用";
+  });
 }
 
 async function loadTopicReferenceDetails(details, { retry = false } = {}) {
@@ -2475,6 +2517,7 @@ function handleWritingInput() {
   if (!state.grammarDetectionEnabled) {
     state.previousWriting = nextValue;
     updateEditorMetrics();
+    refreshVocabularyUsage();
     scheduleDraftSave();
     renderGrammarIssues();
     return;
@@ -2491,6 +2534,7 @@ function handleWritingInput() {
     : [];
   state.previousWriting = nextValue;
   updateEditorMetrics();
+  refreshVocabularyUsage();
   scheduleDraftSave();
   renderGrammarIssues();
   if (immediateSegments.length) {
@@ -2526,6 +2570,7 @@ function applyGrammarIssue(issueId) {
   elements.writingInput.value = next;
   state.previousWriting = next;
   updateEditorMetrics();
+  refreshVocabularyUsage();
   scheduleDraftSave();
   renderGrammarIssues();
   // The remote grammar checker returns one coherent correction batch. Let the student finish that
@@ -3025,6 +3070,327 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   container.replaceChildren(header, content);
 }
 
+function normalizeTeacherFeedback(value) {
+  if (!value || typeof value !== "object") return null;
+  const fragments = Array.isArray(value.fragments)
+    ? value.fragments.map((fragment, index) => ({
+      position: Math.max(1, Number(fragment?.position || index + 1)),
+      originalFragment: String(fragment?.originalFragment || fragment?.original_fragment || ""),
+      edmundComment: String(fragment?.edmundComment || fragment?.edmund_comment || "")
+    })).filter(fragment => fragment.originalFragment.trim() || fragment.edmundComment.trim())
+    : [];
+  return {
+    id: String(value.id || ""),
+    submissionId: String(value.submissionId || value.submission_id || ""),
+    overallComment: String(value.overallComment || value.overall_comment || ""),
+    finalComment: String(value.finalComment || value.final_comment || ""),
+    status: value.status === "published" ? "published" : "draft",
+    version: Math.max(1, Number(value.version || 1)),
+    publishedAt: String(value.publishedAt || value.published_at || ""),
+    updatedAt: String(value.updatedAt || value.updated_at || ""),
+    fragments
+  };
+}
+
+function submissionOriginalFragments(answerValue) {
+  const output = [];
+  for (const rawLine of String(answerValue || "").split(/\n+/u)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    const fragments = line.match(/[^.!?;。！？；]+(?:\.{1,3}|[!?;。！？；]+|$)/gu)
+      ?.map(fragment => fragment.trim())
+      .filter(Boolean) || [];
+    output.push(...(fragments.length ? fragments : [line]));
+  }
+  return output;
+}
+
+function feedbackTextSection(title, value, className = "") {
+  if (!String(value || "").trim()) return null;
+  const section = createElement("section", `teacher-feedback-text ${className}`.trim());
+  section.append(createElement("h3", "", title), createElement("div", "", value));
+  return section;
+}
+
+function renderStudentFeedback(feedback, container) {
+  if (!feedback || feedback.status !== "published") return;
+  const panel = createElement("section", "teacher-feedback-view");
+  const head = createElement("header", "teacher-feedback-view-head");
+  head.append(
+    createElement("div", "", "EDMUND SIR FEEDBACK"),
+    createElement("h2", "", "Edmund Sir 寫作評語")
+  );
+  if (feedback.updatedAt) head.append(createElement("time", "", `更新：${formatSubmissionDate(feedback.updatedAt)}`));
+  panel.append(head);
+  const overall = feedbackTextSection("整體評語", feedback.overallComment, "teacher-feedback-overall");
+  if (overall) panel.append(overall);
+  const fragments = createElement("div", "teacher-feedback-fragments");
+  feedback.fragments.forEach((fragment, index) => {
+    const pair = createElement("article", "teacher-feedback-read-pair");
+    const original = createElement("section", "teacher-feedback-original");
+    original.append(createElement("span", "", `原句 ${index + 1}`), createElement("p", "", fragment.originalFragment));
+    const comment = createElement("section", "teacher-feedback-comment");
+    comment.append(createElement("span", "", "Edmund 評語"), createElement("div", "", fragment.edmundComment));
+    pair.append(original, comment);
+    fragments.append(pair);
+  });
+  if (feedback.fragments.length) panel.append(fragments);
+  const finalComment = feedbackTextSection("最後評語", feedback.finalComment, "teacher-feedback-final");
+  if (finalComment) panel.append(finalComment);
+  container.append(panel);
+}
+
+function feedbackTextarea(label, value, datasetName) {
+  const wrapper = createElement("label", "teacher-feedback-field");
+  wrapper.append(createElement("span", "", label));
+  const textarea = document.createElement("textarea");
+  textarea.rows = 3;
+  textarea.maxLength = 20000;
+  textarea.value = value || "";
+  textarea.dataset[datasetName] = "true";
+  wrapper.append(textarea);
+  return wrapper;
+}
+
+function appendFeedbackEditorRows(list, count, values = [], suggestions = []) {
+  const start = list.querySelectorAll("[data-feedback-pair]").length;
+  for (let offset = 0; offset < count; offset += 1) {
+    const index = start + offset;
+    const value = values[index] || {};
+    const pair = createElement("article", "teacher-feedback-edit-pair");
+    pair.dataset.feedbackPair = "true";
+    const originalBand = createElement("section", "teacher-feedback-original");
+    const originalHead = createElement("div", "teacher-feedback-edit-head");
+    originalHead.append(createElement("strong", "", `原句 ${index + 1}`));
+    const clear = createElement("button", "teacher-feedback-clear", "清除此組");
+    clear.type = "button";
+    clear.dataset.feedbackClearPair = "true";
+    originalHead.append(clear);
+    const original = document.createElement("textarea");
+    original.rows = 2;
+    original.maxLength = 10000;
+    original.dataset.feedbackOriginal = "true";
+    original.value = value.originalFragment || suggestions[index] || "";
+    originalBand.append(originalHead, original);
+    const commentBand = createElement("section", "teacher-feedback-comment");
+    commentBand.append(createElement("strong", "", "Edmund 評語"));
+    const comment = document.createElement("textarea");
+    comment.rows = 5;
+    comment.maxLength = 20000;
+    comment.dataset.feedbackComment = "true";
+    comment.value = value.edmundComment || "";
+    commentBand.append(comment);
+    pair.append(originalBand, commentBand);
+    list.append(pair);
+    autosizeTextarea(original, 72);
+    autosizeTextarea(comment, 130);
+  }
+}
+
+function renderAdminFeedbackEditor(submission, feedback, container) {
+  state.selectedAdminFeedback = feedback;
+  state.adminFeedbackSuggestedFragments = submissionOriginalFragments(submission.answer);
+  const panel = createElement("section", "teacher-feedback-editor");
+  panel.dataset.feedbackEditor = submission.id;
+  const heading = createElement("header", "teacher-feedback-editor-head");
+  const copy = createElement("div");
+  copy.append(createElement("p", "eyebrow", "STRUCTURED WRITING FEEDBACK"), createElement("h2", "", "撰寫 Edmund 評語"));
+  const badge = createElement("span", "teacher-feedback-status", feedback?.status === "published" ? "已發送給學生" : feedback ? "評語草稿" : "尚未建立評語");
+  badge.dataset.feedbackStatus = "true";
+  heading.append(copy, badge);
+  panel.append(heading);
+  panel.append(feedbackTextarea("整體評語", feedback?.overallComment || "", "feedbackOverall"));
+  const fragmentHeading = createElement("div", "teacher-feedback-fragment-heading");
+  fragmentHeading.append(
+    createElement("div", "", "逐句／逐段評語"),
+    createElement("p", "", "每組先保留學生原句，再在下一格寫下 Edmund 評語；未填評語的預備原句不會送出。")
+  );
+  panel.append(fragmentHeading);
+  const list = createElement("div", "teacher-feedback-editor-list");
+  list.dataset.feedbackPairs = "true";
+  const saved = feedback?.fragments || [];
+  const initialCount = Math.max(20, Math.ceil(saved.length / 10) * 10);
+  appendFeedbackEditorRows(list, initialCount, saved, state.adminFeedbackSuggestedFragments);
+  panel.append(list);
+  const add = createElement("button", "secondary-button teacher-feedback-add", "＋ 增加 10 組");
+  add.type = "button";
+  add.dataset.feedbackAddTen = "true";
+  panel.append(add);
+  panel.append(feedbackTextarea("最後評語", feedback?.finalComment || "", "feedbackFinal"));
+  const status = createElement("p", "form-status teacher-feedback-save-status", "");
+  status.dataset.feedbackSaveStatus = "true";
+  status.setAttribute("role", "status");
+  const actions = createElement("div", "teacher-feedback-actions");
+  const saveDraft = createElement("button", "secondary-button", "儲存評語草稿");
+  saveDraft.type = "button";
+  saveDraft.dataset.feedbackSave = "draft";
+  const publish = createElement("button", "primary-button", feedback?.status === "published" ? "更新並發送給學生" : "發送給學生");
+  publish.type = "button";
+  publish.dataset.feedbackSave = "published";
+  const remove = createElement("button", "delete-submission-button teacher-feedback-delete", "刪除整份評語");
+  remove.type = "button";
+  remove.dataset.feedbackDelete = "true";
+  remove.hidden = !feedback;
+  actions.append(saveDraft, publish, remove);
+  panel.append(status, actions);
+  container.append(panel);
+}
+
+function readAdminFeedbackEditor(editor) {
+  const fragments = [];
+  for (const pair of editor.querySelectorAll("[data-feedback-pair]")) {
+    const originalFragment = pair.querySelector("[data-feedback-original]")?.value.trim() || "";
+    const edmundComment = pair.querySelector("[data-feedback-comment]")?.value.trim() || "";
+    if (!originalFragment && !edmundComment) continue;
+    fragments.push({ originalFragment, edmundComment });
+  }
+  const overallComment = editor.querySelector("[data-feedback-overall]")?.value.trim() || "";
+  const finalComment = editor.querySelector("[data-feedback-final]")?.value.trim() || "";
+  if (!overallComment && !finalComment && !fragments.length) throw new Error("請先填寫至少一項評語內容。");
+  return { overallComment, finalComment, fragments };
+}
+
+async function loadStudentFeedback(submissionId, container, requestGeneration) {
+  try {
+    const payload = await apiJson(`/v1/submissions/${encodeURIComponent(submissionId)}/feedback`);
+    if (
+      state.submissionRequestGeneration !== requestGeneration
+      || state.selectedSubmissionId !== submissionId
+      || container !== elements.submissionDetail
+    ) return;
+    const feedback = normalizeTeacherFeedback(payload?.feedback);
+    renderStudentFeedback(feedback, container);
+  } catch (error) {
+    console.warn("Student writing feedback could not be loaded", error);
+    if (
+      state.submissionRequestGeneration !== requestGeneration
+      || state.selectedSubmissionId !== submissionId
+      || container !== elements.submissionDetail
+    ) return;
+    const note = createElement("p", "form-status teacher-feedback-unavailable", "Edmund 評語暫時未能載入；您的文章內容並未受影響。");
+    note.dataset.tone = "error";
+    container.append(note);
+  }
+}
+
+async function loadAdminFeedback(submission, container, requestGeneration) {
+  try {
+    const payload = await apiJson(`/v1/admin/submissions/${encodeURIComponent(submission.id)}/feedback`);
+    const feedback = normalizeTeacherFeedback(payload?.feedback);
+    if (
+      state.adminSubmissionRequestGeneration !== requestGeneration
+      || state.selectedAdminSubmissionId !== submission.id
+      || container !== elements.adminDetail
+    ) return;
+    renderAdminFeedbackEditor(submission, feedback, container);
+  } catch (error) {
+    console.warn("Admin writing feedback could not be loaded", error);
+    if (
+      state.adminSubmissionRequestGeneration !== requestGeneration
+      || state.selectedAdminSubmissionId !== submission.id
+      || container !== elements.adminDetail
+    ) return;
+    const note = createElement("p", "form-status teacher-feedback-unavailable", "評語服務暫時未能載入。為免覆蓋既有評語，現時不會開啟編輯器，請稍後重試。");
+    note.dataset.tone = "error";
+    container.append(note);
+  }
+}
+
+function isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor) {
+  return state.adminSubmissionRequestGeneration === requestGeneration
+    && state.selectedAdminSubmissionId === submissionId
+    && editor?.isConnected
+    && editor.parentElement === elements.adminDetail;
+}
+
+async function saveAdminFeedback(status) {
+  const submissionId = state.selectedAdminSubmissionId;
+  const editor = elements.adminDetail.querySelector(`[data-feedback-editor="${submissionId}"]`);
+  if (!editor || !UUID_RE.test(submissionId)) return;
+  const requestGeneration = state.adminSubmissionRequestGeneration;
+  const expectedFeedbackId = state.selectedAdminFeedback?.id || null;
+  const expectedVersion = state.selectedAdminFeedback?.version || 0;
+  const statusNode = editor.querySelector("[data-feedback-save-status]");
+  let payload;
+  try {
+    payload = readAdminFeedbackEditor(editor);
+    if (
+      status === "published"
+      && payload.fragments.some(fragment => !fragment.originalFragment || !fragment.edmundComment)
+    ) {
+      throw new Error("發送前，每一組評語都必須同時填寫原句及 Edmund 評語。未完成的組別可先儲存為草稿。");
+    }
+  } catch (error) {
+    setStatus(statusNode, error.message, "error");
+    return;
+  }
+  editor.querySelectorAll("[data-feedback-save], [data-feedback-delete]").forEach(button => { button.disabled = true; });
+  setStatus(statusNode, status === "published" ? "正在發送評語給學生……" : "正在儲存評語草稿……");
+  try {
+    const response = await apiJson(`/v1/admin/submissions/${encodeURIComponent(submissionId)}/feedback`, {
+      method: "PUT",
+      body: JSON.stringify({
+        ...payload,
+        status,
+        expectedFeedbackId,
+        expectedVersion
+      })
+    });
+    if (!normalizeTeacherFeedback(response?.feedback)) throw new Error("評語服務回應無效。");
+    showToast(status === "published" ? "評語已發送給學生。" : "評語草稿已儲存。", "success");
+    if (isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
+      await openAdminSubmission(submissionId);
+    }
+  } catch (error) {
+    if (!isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
+      showToast(
+        error?.code === "FEEDBACK_VERSION_CONFLICT"
+          ? "先前開啟的評語已在另一個視窗更新，請重新載入後再編輯。"
+          : error?.message || "先前開啟的評語暫時未能儲存。",
+        "error"
+      );
+      return;
+    }
+    setStatus(
+      statusNode,
+      error?.code === "FEEDBACK_VERSION_CONFLICT"
+        ? "評語已在另一個視窗更新，請重新載入後再編輯。"
+        : error?.message || "暫時未能儲存評語。",
+      "error"
+    );
+    editor.querySelectorAll("[data-feedback-save], [data-feedback-delete]").forEach(button => { button.disabled = false; });
+  }
+}
+
+async function deleteAdminFeedback() {
+  const submissionId = state.selectedAdminSubmissionId;
+  const editor = elements.adminDetail.querySelector(`[data-feedback-editor="${submissionId}"]`);
+  if (!editor || !UUID_RE.test(submissionId) || !window.confirm("確定要刪除這篇文章的整份評語嗎？學生將不能再看到，刪除後不能復原。")) return;
+  const requestGeneration = state.adminSubmissionRequestGeneration;
+  const expectedFeedbackId = state.selectedAdminFeedback?.id || null;
+  const expectedVersion = state.selectedAdminFeedback?.version || 0;
+  try {
+    await apiJson(`/v1/admin/submissions/${encodeURIComponent(submissionId)}/feedback`, {
+      method: "DELETE",
+      body: JSON.stringify({
+        expectedFeedbackId,
+        expectedVersion
+      })
+    });
+    showToast("整份評語已刪除。", "success");
+    if (isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
+      await openAdminSubmission(submissionId);
+    }
+  } catch (error) {
+    showToast(
+      error?.code === "FEEDBACK_VERSION_CONFLICT"
+        ? "評語已在另一個視窗更新，請重新載入後再刪除。"
+        : error?.message || "暫時未能刪除評語。",
+      "error"
+    );
+  }
+}
+
 async function loadSubmissions({ selectId = "" } = {}) {
   elements.submissionList.replaceChildren(loadingState("正在載入文章…"));
   state.submissions = await fetchAllSubmissionPages("/v1/submissions");
@@ -3038,15 +3404,27 @@ async function loadSubmissions({ selectId = "" } = {}) {
 
 async function openSubmission(id) {
   if (!UUID_RE.test(String(id || ""))) return;
-  state.selectedSubmissionId = String(id);
+  const requestedId = String(id);
+  const requestGeneration = state.submissionRequestGeneration + 1;
+  state.submissionRequestGeneration = requestGeneration;
+  state.selectedSubmissionId = requestedId;
   renderSubmissionList();
   elements.submissionDetail.replaceChildren(loadingState("正在載入文章內容…"));
   try {
-    const payload = await apiJson(`/v1/submissions/${encodeURIComponent(id)}`);
+    const payload = await apiJson(`/v1/submissions/${encodeURIComponent(requestedId)}`);
+    if (
+      state.submissionRequestGeneration !== requestGeneration
+      || state.selectedSubmissionId !== requestedId
+    ) return;
     const submission = normalizeSubmission(payload?.submission || payload);
     if (Array.isArray(payload?.grammarOccurrences)) submission.occurrenceCount = payload.grammarOccurrences.length;
     renderSubmissionDetail(submission);
+    await loadStudentFeedback(submission.id, elements.submissionDetail, requestGeneration);
   } catch (error) {
+    if (
+      state.submissionRequestGeneration !== requestGeneration
+      || state.selectedSubmissionId !== requestedId
+    ) return;
     elements.submissionDetail.replaceChildren(emptyState(error.message || "未能載入文章。"));
   }
 }
@@ -3070,8 +3448,11 @@ async function deleteStudentSubmission(id) {
   try {
     await apiJson(`/v1/submissions/${encodeURIComponent(id)}`, { method: "DELETE" });
     state.selectedExportSubmissionIds.delete(id);
-    state.selectedSubmissionId = "";
-    elements.submissionDetail.replaceChildren(emptyState("文章已從您的個人列表刪除；管理員仍可查看保存記錄。"));
+    if (state.selectedSubmissionId === id) {
+      state.selectedSubmissionId = "";
+      state.submissionRequestGeneration += 1;
+      elements.submissionDetail.replaceChildren(emptyState("文章已從您的個人列表刪除；管理員仍可查看保存記錄。"));
+    }
     await Promise.all([loadSubmissions(), loadWritingProgress()]);
     showToast("文章已從您的個人列表刪除。", "success");
   } catch (error) {
@@ -3512,15 +3893,29 @@ function renderAdminSubmissions() {
 
 async function openAdminSubmission(id) {
   if (!UUID_RE.test(String(id || ""))) return;
-  state.selectedAdminSubmissionId = String(id);
+  const requestedId = String(id);
+  const requestGeneration = state.adminSubmissionRequestGeneration + 1;
+  state.adminSubmissionRequestGeneration = requestGeneration;
+  state.selectedAdminSubmissionId = requestedId;
+  state.selectedAdminFeedback = null;
+  state.adminFeedbackSuggestedFragments = [];
   renderAdminSubmissions();
   elements.adminDetail.replaceChildren(loadingState("正在載入學生文章…"));
   try {
-    const payload = await apiJson(`/v1/admin/submissions/${encodeURIComponent(id)}`);
+    const payload = await apiJson(`/v1/admin/submissions/${encodeURIComponent(requestedId)}`);
+    if (
+      state.adminSubmissionRequestGeneration !== requestGeneration
+      || state.selectedAdminSubmissionId !== requestedId
+    ) return;
     const submission = normalizeSubmission(payload?.submission || payload);
     if (Array.isArray(payload?.grammarOccurrences)) submission.occurrenceCount = payload.grammarOccurrences.length;
     renderSubmissionDetail(submission, elements.adminDetail, true);
+    await loadAdminFeedback(submission, elements.adminDetail, requestGeneration);
   } catch (error) {
+    if (
+      state.adminSubmissionRequestGeneration !== requestGeneration
+      || state.selectedAdminSubmissionId !== requestedId
+    ) return;
     elements.adminDetail.replaceChildren(emptyState(error.message || "未能載入學生文章。"));
   }
 }
@@ -3630,6 +4025,9 @@ async function selectAdminStudent(id) {
   if (!UUID_RE.test(String(id || ""))) return;
   state.selectedAdminStudentId = String(id);
   state.selectedAdminSubmissionId = "";
+  state.adminSubmissionRequestGeneration += 1;
+  state.selectedAdminFeedback = null;
+  state.adminFeedbackSuggestedFragments = [];
   renderAdminStudents();
   elements.adminList.replaceChildren(loadingState("正在載入學生文章……"));
   elements.adminGrammarList.replaceChildren(loadingState("正在載入文法問題……"));
@@ -3940,6 +4338,24 @@ function bindEvents() {
     }
   }, true);
   document.addEventListener("click", (event) => {
+    const addFeedbackRows = event.target.closest("[data-feedback-add-ten]");
+    if (addFeedbackRows) {
+      const list = addFeedbackRows.closest("[data-feedback-editor]")?.querySelector("[data-feedback-pairs]");
+      if (list) appendFeedbackEditorRows(list, 10, [], state.adminFeedbackSuggestedFragments);
+      return;
+    }
+    const clearFeedbackPair = event.target.closest("[data-feedback-clear-pair]");
+    if (clearFeedbackPair) {
+      const pair = clearFeedbackPair.closest("[data-feedback-pair]");
+      pair?.querySelectorAll("textarea").forEach(textarea => {
+        textarea.value = "";
+        autosizeTextarea(textarea, textarea.hasAttribute("data-feedback-comment") ? 130 : 72);
+      });
+      return;
+    }
+    const saveFeedback = event.target.closest("[data-feedback-save]");
+    if (saveFeedback) return saveAdminFeedback(saveFeedback.dataset.feedbackSave).catch(handleViewError);
+    if (event.target.closest("[data-feedback-delete]")) return deleteAdminFeedback().catch(handleViewError);
     const topicReferenceRetry = event.target.closest("[data-topic-reference-retry]");
     if (topicReferenceRetry) {
       const details = topicReferenceRetry.closest("[data-topic-reference-kind]");
@@ -4003,6 +4419,14 @@ function bindEvents() {
     }
   });
   document.addEventListener("change", (event) => {
+    const vocabularyScale = event.target.closest("[data-topic-reference-vocabulary-scale]");
+    if (vocabularyScale) {
+      const value = Number(vocabularyScale.value);
+      if (!VOCABULARY_TEXT_SCALE_VALUES.includes(value)) return;
+      const content = vocabularyScale.closest("[data-topic-reference-content]");
+      content?.style.setProperty("--vocabulary-text-scale", String(value));
+      return;
+    }
     const translationToggle = event.target.closest("[data-topic-reference-translation-toggle]");
     if (translationToggle) {
       const content = translationToggle.closest("[data-topic-reference-content]");
@@ -4018,6 +4442,10 @@ function bindEvents() {
     state.writingImageZoom = value;
     renderSelectedTopicPreview();
     scheduleDraftSave();
+  });
+  document.addEventListener("input", (event) => {
+    const feedbackTextarea = event.target.closest("[data-feedback-editor] textarea");
+    if (feedbackTextarea) autosizeTextarea(feedbackTextarea, feedbackTextarea.hasAttribute("data-feedback-comment") ? 130 : 72);
   });
   window.addEventListener("pagehide", () => {
     accrueWritingTime();
