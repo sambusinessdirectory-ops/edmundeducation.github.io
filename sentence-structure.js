@@ -125,6 +125,11 @@ const state = {
 };
 
 let lessonSearchIndexCache = null;
+let exerciseClockWasRunningBeforeIdleBreak = false;
+
+function idleBreakIsPaused() {
+  return window.EdmundIdleBreak?.isPaused?.() === true;
+}
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -265,12 +270,14 @@ function pauseExerciseClock() {
 }
 
 function startExerciseClock() {
-  if (!state.exercise || state.exercise.completedAt || state.exerciseClockStartedAt) return;
+  if (!state.exercise || state.exercise.completedAt || state.exerciseClockStartedAt || idleBreakIsPaused()) return;
   state.exerciseClockStartedAt = performance.now();
 }
 
 function currentExerciseDuration() {
-  const active = state.exerciseClockStartedAt ? performance.now() - state.exerciseClockStartedAt : 0;
+  const active = state.exerciseClockStartedAt && !idleBreakIsPaused()
+    ? performance.now() - state.exerciseClockStartedAt
+    : 0;
   return Math.max(0, Math.round(Number(state.exercise?.durationMs || 0) + active));
 }
 
@@ -2384,6 +2391,24 @@ function bindEvents() {
     }
   });
   elements.adminSearch?.addEventListener("input", renderAdminStudents);
+  document.addEventListener("edmund:idle-break-start", () => {
+    exerciseClockWasRunningBeforeIdleBreak = Boolean(state.exerciseClockStartedAt) || (state.currentView === "lesson" && state.lessonPage === 4 && state.exercise && !state.exercise.completedAt);
+    pauseExerciseClock();
+  });
+  document.addEventListener("edmund:idle-break-resume", () => {
+    const shouldResume = exerciseClockWasRunningBeforeIdleBreak;
+    exerciseClockWasRunningBeforeIdleBreak = false;
+    if (
+      shouldResume
+      && state.currentView === "lesson"
+      && state.lessonPage === 4
+      && !state.exercise?.completedAt
+    ) startExerciseClock();
+  });
+  document.addEventListener("edmund:idle-break-logout", () => {
+    exerciseClockWasRunningBeforeIdleBreak = false;
+    pauseExerciseClock();
+  });
   window.addEventListener("pagehide", pauseExerciseClock);
 }
 

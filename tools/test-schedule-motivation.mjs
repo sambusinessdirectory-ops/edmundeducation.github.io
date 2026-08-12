@@ -41,10 +41,18 @@ assert.ok(csv.startsWith("\uFEFF"));
 assert.match(csv, /"'=CMD\(\)"/);
 
 assert.match(html, /data-admin-motivation-results[^>]*hidden>動力指數結果/);
+assert.match(html, /data-toggle-motivation[^>]*hidden>隱藏動力指數/);
 assert.match(html, /\.daily-motivation-scale\s*\{[^}]*grid-template-columns:\s*repeat\(6,\s*1fr\)/s);
 assert.match(html, /\.daily-motivation-circle:nth-child\(4\)\s*\{\s*grid-column:\s*2 \/ span 2/);
 assert.match(html, /\.daily-motivation-circle:hover,[\s\S]*linear-gradient\(135deg,\s*#dbeafe,\s*#d1fae5\)/);
 assert.match(js, /createDailyMotivationPanel\(date, dayIndex, active\)/);
+assert.match(js, /MOTIVATION_HIDDEN_STORAGE_PREFIX/);
+assert.match(js, /motivationHiddenStorageKey\(studentId\)/);
+assert.match(js, /state\.currentUser\?\.role === "student" \? String\(student\?\.id \|\| ""\) : ""/);
+assert.match(js, /localStorage\.getItem\(motivationHiddenStorageKey\(owner\)\)/);
+assert.match(js, /localStorage\.setItem\(motivationHiddenStorageKey\(studentId\), String\(Boolean\(hidden\)\)\)/);
+assert.match(js, /panel\.hidden = state\.currentUser\?\.role === "student" && state\.hideMotivation/);
+assert.match(js, /elements\.toggleMotivation\.addEventListener\("click", toggleMotivationVisibility\)/);
 assert.match(js, /column\.append\(header, motivation, slots\)/);
 assert.match(js, /schedule_student_get_motivation_week/);
 assert.match(js, /schedule_admin_get_motivation_week/);

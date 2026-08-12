@@ -174,9 +174,13 @@ test("all six Common Expression portals carry their identity, shared navigation 
     assert.match(html, new RegExp(`data-edmund-system-switcher[^>]+data-system=["']${portal.navId}["']`), `${portal.file}: shared-nav id`);
     assert.match(html, new RegExp(`<title>[^<]*${portal.zh}[^<]*${portal.en}[^<]*EdmundEducation[^<]*<\\/title>`), `${portal.file}: title`);
     assert.match(html, new RegExp(`rel=["']canonical["'] href=["']https:\\/\\/edmundeducation\\.com\\/${portal.file}["']`), `${portal.file}: canonical URL`);
+    assert.match(
+      html,
+      new RegExp(`rel=["']manifest["'] href=["']\\/pwa-manifests\\/${portal.navId}\\.webmanifest["']`),
+      `${portal.file}: system-specific manifest`
+    );
 
     for (const contract of [
-      /rel=["']manifest["'] href=["']\/manifest\.webmanifest["']/,
       /rel=["']icon["'] href=["']\/favicon\.ico["'] sizes=["']any["']/,
       /rel=["']apple-touch-icon["'] sizes=["']180x180["'] href=["']\/apple-touch-icon\.png["']/,
       /name=["']mobile-web-app-capable["'] content=["']yes["']/,

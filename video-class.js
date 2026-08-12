@@ -344,6 +344,7 @@
     feedbackWasPlaying: false,
     feedbackReturnFocus: null,
     heartbeatTimer: 0,
+    idleBreakVideoWasPlaying: false,
     watermarkTimer: 0,
     watermarkClock: 0,
     companyWatermarkTimer: 0,
@@ -3294,10 +3295,12 @@
 
   function beginHeartbeat() {
     window.clearInterval(state.heartbeatTimer);
+    if (window.EdmundIdleBreak?.isPaused?.()) return;
     state.heartbeatTimer = window.setInterval(() => sendHeartbeat("heartbeat"), heartbeatIntervalMs);
   }
 
   async function sendHeartbeat(eventType = "heartbeat", keepalive = false) {
+    if (window.EdmundIdleBreak?.isPaused?.() && !["pause", "close", "pagehide", "hidden"].includes(eventType)) return;
     if (!state.studentSession?.token || !state.activeLesson || !state.playback || state.heartbeatInFlight) return;
     const lesson = state.activeLesson;
     const playback = state.playback;
@@ -5455,6 +5458,33 @@
 
   function bindPortalEvents() {
     elements.logout?.addEventListener("click", () => void logout());
+    document.addEventListener("edmund:idle-break-start", () => {
+      state.idleBreakVideoWasPlaying = Boolean(
+        state.playback
+        && elements.video
+        && !elements.video.paused
+        && !elements.video.ended
+      );
+      window.clearInterval(state.heartbeatTimer);
+      state.heartbeatTimer = 0;
+      if (state.idleBreakVideoWasPlaying) {
+        elements.video.pause();
+        void sendHeartbeat("pause");
+      }
+    });
+    document.addEventListener("edmund:idle-break-resume", () => {
+      const shouldResume = state.idleBreakVideoWasPlaying;
+      state.idleBreakVideoWasPlaying = false;
+      if (shouldResume && state.playback && elements.video && !elements.video.ended) {
+        void elements.video.play().catch(() => showToast("休息提示已關閉，請按播放繼續。"));
+      }
+    });
+    document.addEventListener("edmund:idle-break-logout", () => {
+      state.idleBreakVideoWasPlaying = false;
+      window.clearInterval(state.heartbeatTimer);
+      state.heartbeatTimer = 0;
+      if (state.playback) void sendHeartbeat("pause", true);
+    });
     elements.refreshLessons?.addEventListener("click", () => void loadLessons());
     elements.refreshStudents?.addEventListener("click", () => void loadStudents());
     elements.studentSearch?.addEventListener("input", renderStudents);

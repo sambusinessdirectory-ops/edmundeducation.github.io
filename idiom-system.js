@@ -126,6 +126,11 @@ const state = {
 };
 
 let lessonSearchIndexCache = null;
+let exerciseClockWasRunningBeforeIdleBreak = false;
+
+function idleBreakIsPaused() {
+  return window.EdmundIdleBreak?.isPaused?.() === true;
+}
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -272,12 +277,14 @@ function pauseExerciseClock({ persist = false, keepalive = false } = {}) {
 }
 
 function startExerciseClock() {
-  if (!state.exercise || state.exercise.completedAt || state.exerciseClockStartedAt) return;
+  if (!state.exercise || state.exercise.completedAt || state.exerciseClockStartedAt || idleBreakIsPaused()) return;
   state.exerciseClockStartedAt = performance.now();
 }
 
 function currentExerciseDuration() {
-  const active = state.exerciseClockStartedAt ? performance.now() - state.exerciseClockStartedAt : 0;
+  const active = state.exerciseClockStartedAt && !idleBreakIsPaused()
+    ? performance.now() - state.exerciseClockStartedAt
+    : 0;
   return Math.max(0, Math.round(Number(state.exercise?.durationMs || 0) + active));
 }
 
@@ -2626,6 +2633,29 @@ function bindEvents() {
     }
   });
   elements.adminSearch?.addEventListener("input", renderAdminStudents);
+  document.addEventListener("edmund:idle-break-start", () => {
+    exerciseClockWasRunningBeforeIdleBreak = Boolean(state.exerciseClockStartedAt) || Boolean(
+      state.currentView === "lesson"
+      && state.lessonPage === EXERCISE_PAGE
+      && state.exercise
+      && !state.exercise.completedAt
+    );
+    pauseExerciseClock({ persist: true });
+  });
+  document.addEventListener("edmund:idle-break-resume", () => {
+    const shouldResume = exerciseClockWasRunningBeforeIdleBreak;
+    exerciseClockWasRunningBeforeIdleBreak = false;
+    if (
+      shouldResume
+      && state.currentView === "lesson"
+      && state.lessonPage === EXERCISE_PAGE
+      && !state.exercise?.completedAt
+    ) startExerciseClock();
+  });
+  document.addEventListener("edmund:idle-break-logout", () => {
+    exerciseClockWasRunningBeforeIdleBreak = false;
+    pauseExerciseClock();
+  });
   window.addEventListener("pagehide", () => pauseExerciseClock({ persist: true, keepalive: true }));
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") pauseExerciseClock({ persist: true });

@@ -155,6 +155,7 @@ jobs:
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-motivation.mjs
           node tools/test-schedule-quote-encouragement.mjs
+          node tools/test-schedule-announcement-edit.mjs
           node tools/test-schedule-system.mjs
           node tools/test-schedule-worker.mjs
           node tools/test-parent-communication-system.mjs
@@ -177,10 +178,13 @@ jobs:
 
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
         run: |
+          node tools/generate-system-pwa-manifests.mjs --check
+          node tools/test-system-pwa-experience.mjs
           node tools/test-shared-system-nav.mjs
           node tools/test-learning-portal-scaffolds.mjs
           node --test tools/test-apostrophe-normalizer.mjs
           node tools/test-pwa-and-brand-metadata.mjs
+          node tools/test-idle-break-timer-integrations.mjs
 
       - name: Validate Video Class portal, permissions, and protected range delivery
         run: |

@@ -438,7 +438,11 @@ button { color: inherit; }
 .grammar-panel-heading h2 { margin: 0; font-size: clamp(25px, 3vw, 35px); }
 .section-heading-actions,
 .grammar-panel-controls { display: flex; align-items: center; gap: 10px; }
+.topic-picker-actions { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
 .topic-picker-button { color: #fff; background: var(--midnight); }
+.random-topic-button { border: 1px solid rgba(232,123,44,.32); color: #7f3c0c; background: #fff0d7; box-shadow: none; }
+.random-topic-button:hover,
+.random-topic-button:focus-visible { border-color: var(--orange); background: #ffe1b2; }
 .draft-state,
 .issue-count,
 .count-badge {
@@ -886,6 +890,18 @@ button { color: inherit; }
 .topic-picker-result-preview p { margin: 0; color: #4f4c62; font-size: 13px; line-height: 1.55; }
 .topic-picker-result-images { display: flex; gap: 8px; overflow-x: auto; }
 .topic-picker-result-images img { width: min(240px, 58vw); max-height: 180px; border: 1px solid rgba(39,39,87,.13); border-radius: 12px; object-fit: contain; background: #fff; }
+.random-topic-dialog { width: min(760px, calc(100% - 28px)); }
+.random-topic-shell { display: grid; gap: 18px; }
+.random-topic-shell .topic-picker-note { margin: 0; }
+.random-topic-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+.random-topic-choices button { min-height: 132px; border: 1px solid rgba(39,39,87,.14); border-radius: 18px; padding: 18px; display: grid; align-content: center; gap: 7px; color: var(--ink); background: #fffdf9; text-align: left; cursor: pointer; }
+.random-topic-choices button:hover,
+.random-topic-choices button:focus-visible { border-color: var(--orange); background: #fff5e6; box-shadow: 0 10px 28px rgba(39,39,87,.08); transform: translateY(-1px); }
+.random-topic-choices button:disabled { opacity: .5; cursor: not-allowed; box-shadow: none; transform: none; }
+.random-topic-choices strong { font-size: 20px; }
+.random-topic-choices span { color: var(--ink-soft); font-size: 12px; line-height: 1.45; }
+.random-topic-choices em { color: var(--orange-deep); font: 800 11px/1.35 ui-sans-serif,system-ui,sans-serif; font-style: normal; }
+.random-topic-status { min-height: 20px; margin: 0; }
 
 .empty-state { margin: 0; padding: 28px 12px; color: var(--ink-soft); text-align: center; }
 .loading-state { padding: 28px 12px; display: grid; place-items: center; gap: 10px; color: var(--ink-soft); }
@@ -944,6 +960,7 @@ button { color: inherit; }
   .admin-review-panel { padding: 20px 16px; }
   .submission-progress-dashboard { padding: 20px 16px; }
   .section-heading-actions { align-items: flex-end; flex-direction: column-reverse; }
+  .topic-picker-actions { justify-content: flex-end; }
   .editor-heading { align-items: flex-start; }
   .editor-heading-tools { align-items: flex-end; flex-direction: column-reverse; }
   .writing-stopwatch { width: 100%; min-width: 0; flex-wrap: wrap; }
@@ -960,6 +977,8 @@ button { color: inherit; }
   .grammar-panel-controls { align-items: flex-end; flex-direction: column; }
   .topic-picker-result { grid-template-columns: 1fr; }
   .topic-picker-result em { grid-row: auto; grid-column: 1; }
+  .random-topic-choices { grid-template-columns: 1fr; }
+  .random-topic-choices button { min-height: 110px; }
   .topic-reference-summary { grid-template-columns: 1fr auto; }
   .topic-reference-book { grid-column: 1 / -1; justify-self: start; }
   .topic-reference-content { padding: 13px; }

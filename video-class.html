@@ -13,7 +13,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/video-class.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -23,6 +23,7 @@
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="video-class.css?v=20260811-8">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
   <script defer src="/pwa-register.js"></script>
 </head>
 
@@ -33,9 +34,9 @@
   </div>
 
   <header class="portal-header">
-    <a class="portal-brand" href="index.html" aria-label="EdmundEducation 主頁">
-      <img src="Font Transparent.png" alt="EdmundEducation">
-    </a>
+    <div class="edmund-system-switcher" data-edmund-system-switcher data-system="video-class">
+      <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Video Class</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+    </div>
     <div class="portal-header__title">
       <span>VIDEO CLASS</span>
       <strong>錄影班學習平台</strong>

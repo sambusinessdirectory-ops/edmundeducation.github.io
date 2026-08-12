@@ -49,6 +49,11 @@ import {
   normalizeWritingTopicAccess,
   writingTopicAccessAllows
 } from "./writing-submission-topic-access.js?v=20260810-topic-access1";
+import {
+  unbiasedRandomIndex,
+  WRITING_RANDOM_TOPIC_CATEGORIES,
+  writingRandomTopicCandidates
+} from "./writing-submission-random-topic.js?v=20260813-1";
 
 const CONFIG = window.EDMUND_WRITING_SUBMISSION_CONFIG || {};
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
@@ -85,6 +90,11 @@ const elements = {
   harperStatus: document.querySelector("[data-harper-status]"),
   writingForm: document.querySelector("[data-writing-form]"),
   topicInput: document.querySelector("[data-topic-input]"),
+  randomTopicOpen: document.querySelector("[data-random-topic-open]"),
+  randomTopicDialog: document.querySelector("[data-random-topic-dialog]"),
+  randomTopicClose: document.querySelector("[data-random-topic-close]"),
+  randomTopicStatus: document.querySelector("[data-random-topic-status]"),
+  randomTopicChoices: [...document.querySelectorAll("[data-random-topic-category]")],
   topicPickerOpen: document.querySelector("[data-topic-picker-open]"),
   topicPicker: document.querySelector("[data-topic-picker]"),
   topicPickerClose: document.querySelector("[data-topic-picker-close]"),
@@ -205,10 +215,13 @@ const state = {
   writingImageZoom: 1,
   writingTimerPanelOpen: false,
   writingTimerClock: null,
+  idleBreakTimerWasRunning: false,
+  idleBreakStopwatchWasRunning: false,
   timerAutoSubmitLock: false,
   submissionPromise: null,
   topicCatalog: [],
   topicCatalogPromise: null,
+  randomTopicGeneration: 0,
   topicReferenceCatalog: null,
   topicReferencePromise: null,
   topicReferenceImportAttempt: 0,
@@ -314,28 +327,37 @@ async function copySubmissionNotification(submissionId) {
   showToast(copied ? "作文已改好通知已複製。" : "通知已顯示，請手動複製。", copied ? "success" : "error");
 }
 
-function writingClockEligible(now = Date.now()) {
+function idleBreakIsPaused() {
+  return window.EdmundIdleBreak?.isPaused?.() === true;
+}
+
+function writingClockEligible(now = Date.now(), { ignoreIdleBreak = false } = {}) {
   return Boolean(
     state.user?.role === "student"
     && state.currentView === "workspace"
     && document.visibilityState !== "hidden"
     && state.documentId
+    && (ignoreIdleBreak || !idleBreakIsPaused())
     && now - state.lastWritingActivityAt <= WRITING_IDLE_LIMIT_MS
   );
 }
 
-function accrueWritingTime(now = Date.now()) {
+function accrueWritingTime(now = Date.now(), { ignoreIdleBreak = false } = {}) {
   if (!state.writingClockLastAt) {
     state.writingClockLastAt = now;
     return;
   }
   const elapsedMs = Math.max(0, Math.min(15000, now - state.writingClockLastAt));
-  if (writingClockEligible(now)) state.draftDurationSeconds += elapsedMs / 1000;
+  if (writingClockEligible(now, { ignoreIdleBreak })) state.draftDurationSeconds += elapsedMs / 1000;
   state.writingClockLastAt = now;
 }
 
 function markWritingActivity() {
   const now = Date.now();
+  if (idleBreakIsPaused()) {
+    state.writingClockLastAt = now;
+    return;
+  }
   accrueWritingTime(now);
   state.lastWritingActivityAt = now;
   state.writingClockLastAt = now;
@@ -540,6 +562,7 @@ function clearSession() {
   state.adminExplanationReviewHasMore = false;
   state.entryLinkHandled = false;
   state.selectedTopicResource = null;
+  state.randomTopicGeneration += 1;
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
   state.writingImageZoom = 1;
@@ -558,6 +581,8 @@ function clearSession() {
   elements.submissionDetail.replaceChildren(emptyState("請先選擇一篇文章。"));
   elements.adminDetail.replaceChildren(emptyState("請先選擇學生及文章。"));
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage may be unavailable. */ }
+  closeWritingTopicPicker();
+  closeRandomWritingTopicPicker();
 }
 
 async function studentLogin(username, password) {
@@ -1189,6 +1214,104 @@ function closeWritingTopicPicker() {
   else elements.topicPicker.removeAttribute("open");
 }
 
+function randomTopicCategory(categoryId) {
+  return WRITING_RANDOM_TOPIC_CATEGORIES.find((category) => category.id === categoryId) || null;
+}
+
+function accessibleRandomWritingTopics(categoryId) {
+  return writingRandomTopicCandidates(
+    state.topicCatalog,
+    categoryId,
+    (resource) => Boolean(canonicalWritingTopicResource(resource.id))
+  );
+}
+
+function refreshRandomTopicChoices({ loading = false } = {}) {
+  let availableCategories = 0;
+  for (const button of elements.randomTopicChoices) {
+    const category = randomTopicCategory(button.dataset.randomTopicCategory);
+    const count = button.querySelector("[data-random-topic-count]");
+    const candidates = category && !loading ? accessibleRandomWritingTopics(category.id) : [];
+    button.disabled = loading || !category || candidates.length === 0;
+    if (count) count.textContent = loading
+      ? "正在檢查權限…"
+      : candidates.length
+        ? `${candidates.length} 題已開放`
+        : "此類別尚未開放";
+    if (candidates.length) availableCategories += 1;
+  }
+  return availableCategories;
+}
+
+function randomTopicDialogOpen() {
+  return Boolean(elements.randomTopicDialog?.open || elements.randomTopicDialog?.hasAttribute("open"));
+}
+
+async function openRandomWritingTopicPicker() {
+  if (!elements.randomTopicDialog) return;
+  const generation = state.randomTopicGeneration + 1;
+  state.randomTopicGeneration = generation;
+  refreshRandomTopicChoices({ loading: true });
+  setStatus(elements.randomTopicStatus, "正在核對可用題目…");
+  if (typeof elements.randomTopicDialog.showModal === "function") elements.randomTopicDialog.showModal();
+  else elements.randomTopicDialog.setAttribute("open", "");
+
+  if (state.user?.role !== "student" || !state.studentAccessReady) {
+    setStatus(elements.randomTopicStatus, "暫時未能核對你的題目權限，請重新登入後再試。", "error");
+    return;
+  }
+  try {
+    await loadWritingTopicCatalog();
+    if (generation !== state.randomTopicGeneration || !randomTopicDialogOpen()) return;
+    const availableCategories = refreshRandomTopicChoices();
+    setStatus(
+      elements.randomTopicStatus,
+      availableCategories ? "請選擇一個類別。" : "你的帳戶目前沒有已開放的隨機題目。",
+      availableCategories ? "" : "error"
+    );
+    elements.randomTopicChoices.find((button) => !button.disabled)?.focus();
+  } catch (error) {
+    console.warn("Random writing topic catalog failed", error);
+    if (generation !== state.randomTopicGeneration || !randomTopicDialogOpen()) return;
+    refreshRandomTopicChoices({ loading: true });
+    setStatus(elements.randomTopicStatus, "暫時未能載入寫作題目，請稍後再試。", "error");
+  }
+}
+
+function closeRandomWritingTopicPicker() {
+  state.randomTopicGeneration += 1;
+  if (!elements.randomTopicDialog) return;
+  if (typeof elements.randomTopicDialog.close === "function" && elements.randomTopicDialog.open) {
+    elements.randomTopicDialog.close();
+  } else {
+    elements.randomTopicDialog.removeAttribute("open");
+  }
+}
+
+async function assignRandomWritingTopic(categoryId) {
+  const category = randomTopicCategory(String(categoryId || ""));
+  if (!category || !randomTopicDialogOpen()) return;
+  const generation = state.randomTopicGeneration;
+  refreshRandomTopicChoices({ loading: true });
+  setStatus(elements.randomTopicStatus, `正在從 ${category.label} 派送題目…`);
+  try {
+    await loadWritingTopicCatalog();
+    if (generation !== state.randomTopicGeneration || !randomTopicDialogOpen()) return;
+    const candidates = accessibleRandomWritingTopics(category.id);
+    if (!candidates.length) throw new Error("這個類別目前沒有你可使用的題目。");
+    const selected = candidates[unbiasedRandomIndex(candidates.length)];
+    const canonical = canonicalWritingTopicResource(selected?.id);
+    if (!canonical) throw new Error("這條題目的權限已更新，請重新選擇類別。");
+    selectWritingTopic(canonical.id, { persist: true, close: false, toast: false });
+    closeRandomWritingTopicPicker();
+    showToast(`已從 ${category.label} 隨機派送一條題目；你仍可自行修改。`, "success");
+  } catch (error) {
+    if (generation !== state.randomTopicGeneration || !randomTopicDialogOpen()) return;
+    refreshRandomTopicChoices();
+    setStatus(elements.randomTopicStatus, error.message || "暫時未能派送題目，請稍後再試。", "error");
+  }
+}
+
 function selectWritingTopic(resourceId, { persist = true, close = true, toast = true } = {}) {
   const resource = canonicalWritingTopicResource(resourceId);
   if (!resource) return;
@@ -1403,6 +1526,7 @@ function handleWritingTimerExpiry() {
 }
 
 function tickWritingTimer() {
+  if (idleBreakIsPaused()) return;
   if (state.writingTimer.status === "running") {
     const remaining = writingTimerRemaining(state.writingTimer);
     if (remaining <= 0) {
@@ -1414,6 +1538,46 @@ function tickWritingTimer() {
     }
   }
   tickWritingStopwatch();
+}
+
+function pauseWritingTimersForIdleBreak(event) {
+  const pausedAt = Number(event.detail?.pausedAt) || Date.now();
+  accrueWritingTime(pausedAt, { ignoreIdleBreak: true });
+  state.idleBreakTimerWasRunning = state.writingTimer.status === "running";
+  state.idleBreakStopwatchWasRunning = state.writingStopwatch.status === "running";
+  if (state.idleBreakTimerWasRunning) state.writingTimer = pauseWritingTimer(state.writingTimer, pausedAt);
+  if (state.idleBreakStopwatchWasRunning) {
+    state.writingStopwatch = pauseWritingStopwatch(state.writingStopwatch, pausedAt);
+  }
+  state.writingClockLastAt = pausedAt;
+  persistDraft();
+  syncWritingTimerUi();
+  syncWritingStopwatchUi();
+}
+
+function resumeWritingTimersAfterIdleBreak(event) {
+  const resumedAt = Number(event.detail?.resumedAt) || Date.now();
+  const resumeTimer = state.idleBreakTimerWasRunning;
+  const resumeStopwatch = state.idleBreakStopwatchWasRunning;
+  state.idleBreakTimerWasRunning = false;
+  state.idleBreakStopwatchWasRunning = false;
+  if (resumeTimer && state.writingTimer.status === "paused") {
+    state.writingTimer = resumeWritingTimer(state.writingTimer, resumedAt);
+  }
+  if (resumeStopwatch && state.writingStopwatch.status === "paused") {
+    state.writingStopwatch = startWritingStopwatch(state.writingStopwatch, resumedAt);
+  }
+  state.lastWritingActivityAt = resumedAt;
+  state.writingClockLastAt = resumedAt;
+  persistDraft();
+  syncWritingTimerUi();
+  syncWritingStopwatchUi();
+}
+
+function keepWritingTimersPausedForIdleLogout() {
+  state.idleBreakTimerWasRunning = false;
+  state.idleBreakStopwatchWasRunning = false;
+  persistDraft();
 }
 
 function syncWritingStopwatchUi() {
@@ -4642,6 +4806,9 @@ function bindEvents() {
   elements.writingStopwatchPause.addEventListener("click", handleWritingStopwatchPause);
   elements.writingStopwatchReset.addEventListener("click", handleWritingStopwatchReset);
   elements.saveProgress.addEventListener("click", () => saveCurrentProgress());
+  document.addEventListener("edmund:idle-break-start", pauseWritingTimersForIdleBreak);
+  document.addEventListener("edmund:idle-break-resume", resumeWritingTimersAfterIdleBreak);
+  document.addEventListener("edmund:idle-break-logout", keepWritingTimersPausedForIdleLogout);
   elements.exportSelectAll.addEventListener("change", () => {
     state.selectedExportSubmissionIds.clear();
     if (elements.exportSelectAll.checked) {
@@ -4671,6 +4838,15 @@ function bindEvents() {
     markWritingActivity();
     updateEditorMetrics();
     scheduleDraftSave();
+  });
+  elements.randomTopicOpen?.addEventListener("click", () => openRandomWritingTopicPicker());
+  elements.randomTopicClose?.addEventListener("click", closeRandomWritingTopicPicker);
+  elements.randomTopicDialog?.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeRandomWritingTopicPicker();
+  });
+  elements.randomTopicDialog?.addEventListener("click", (event) => {
+    if (event.target === elements.randomTopicDialog) closeRandomWritingTopicPicker();
   });
   elements.topicPickerOpen.addEventListener("click", () => openWritingTopicPicker());
   elements.topicPickerClose.addEventListener("click", closeWritingTopicPicker);
@@ -4770,6 +4946,8 @@ function bindEvents() {
     if (exportSubmission) return exportStudentSubmissions([exportSubmission.dataset.exportSubmission]);
     const writingTopic = event.target.closest("[data-select-writing-topic]");
     if (writingTopic) return selectWritingTopic(writingTopic.dataset.selectWritingTopic);
+    const randomTopic = event.target.closest("[data-random-topic-category]");
+    if (randomTopic) return assignRandomWritingTopic(randomTopic.dataset.randomTopicCategory).catch(handleViewError);
     if (event.target.closest("[data-remove-topic-preview]")) {
       state.selectedTopicResource = null;
       renderSelectedTopicPreview();

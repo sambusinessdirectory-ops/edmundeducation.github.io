@@ -518,6 +518,17 @@ assert.deepEqual(
   ],
   "Homework tags must keep the requested labels and exact colours"
 );
+assert.deepEqual(
+  HOMEWORK_ENTRY_TAGS.map(({ key, textColor }) => [key, textColor]),
+  [
+    ["reluctant", "#ffffff"],
+    ["favourite", "#25182b"],
+    ["teacher-added", "#ffffff"],
+    ["well-done", "#25182b"],
+    ["break-15", "#25182b"]
+  ],
+  "dark tag colours must use accessible white label text"
+);
 const taggedStored = serializeScheduleMessage("Tagged homework", [selected], [
   "老師新加",
   "Well done!",
@@ -527,6 +538,11 @@ const taggedStored = serializeScheduleMessage("Tagged homework", [selected], [
 const taggedParsed = parseScheduleMessage(taggedStored);
 assert.equal(taggedParsed.text, "Tagged homework");
 assert.deepEqual(taggedParsed.tags.map(tag => tag.label), ["老師新加", "Well done!"], "known tags should round-trip uniquely");
+assert.deepEqual(
+  parseScheduleMessage(serializeScheduleMessage("", [], ["well-done", "teacher-added"])).tags.map(({ key }) => key),
+  ["well-done", "teacher-added"],
+  "tag-only slots must round-trip in the order selected"
+);
 assert.equal(taggedParsed.resources[0]?.id, selected.id, "tag markers must not disrupt homework resources");
 assert.deepEqual(
   parseScheduleMessage("Legacy text\n[[@edmund-homework-tag:v1:unknown]]").tags,
@@ -692,7 +708,18 @@ const [scheduleHtml, scheduleJs, flashcards, writing, speaking, sentence, idiom,
 assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
+assert.ok(
+  scheduleHtml.indexOf("data-entry-tags") < scheduleHtml.indexOf('id="schedule-message"'),
+  "multi-select homework tags must be available before a new slot has content"
+);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.has-entry-tag-wraps::after\s*\{[\s\S]*?--entry-tag-wrap-5/s);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources, selectedTags\)/);
+assert.match(scheduleJs, /input\.type = "checkbox"/);
+assert.match(scheduleJs, /state\.editing\.tags\.push\(input\.value\)/, "new tag selections must preserve click order");
+assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only slot must be savable before content is added");
+assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
+assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
+assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260812-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-2/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

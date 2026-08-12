@@ -18,6 +18,14 @@ import {
   writingSubmissionNotificationMessage,
   writingTopicResourceForTransport
 } from "../writing-submission-core.js";
+import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
+import {
+  unbiasedRandomIndex,
+  WRITING_RANDOM_TOPIC_CATEGORIES,
+  writingRandomTopicCandidates,
+  writingRandomTopicCategory
+} from "../writing-submission-random-topic.js";
+import { writingTopicAccessAllows } from "../writing-submission-topic-access.js";
 
 const root = path.resolve(import.meta.dirname, "..");
 const html = fs.readFileSync(path.join(root, "writing-submission.html"), "utf8");
@@ -181,6 +189,120 @@ test("portal exposes the requested stage-one writing, archive and grammar-log in
   assert.match(html, /data-writing-average-chart/);
 });
 
+test("random question delivery exposes exactly four permission-gated canonical categories", () => {
+  const writingCatalog = HOMEWORK_RESOURCE_CATALOG.filter((resource) => resource?.type === "fill-blanks");
+  const counts = Object.fromEntries(WRITING_RANDOM_TOPIC_CATEGORIES.map((category) => [
+    category.id,
+    writingCatalog.filter((resource) => writingRandomTopicCategory(resource) === category.id).length
+  ]));
+  assert.deepEqual(counts, {
+    "dse-part-a": 15,
+    "dse-part-b": 3,
+    "ielts-task-1": 60,
+    "ielts-task-2": 228
+  });
+
+  const dseCatalog = writingCatalog.filter((resource) => resource.sectionKey === "dse-writing");
+  assert.equal(dseCatalog.length, 18);
+  for (const resource of dseCatalog) {
+    const expectedCategory = resource.detail.includes("· Part B ·") ? "dse-part-b" : "dse-part-a";
+    assert.equal(
+      writingRandomTopicCategory(resource),
+      expectedCategory,
+      `${resource.id} must agree with its canonical DSE Part metadata`
+    );
+  }
+  assert.equal(
+    writingRandomTopicCategory(writingCatalog.find((resource) => resource.id === "fill:dse-writing-2012-part-a")),
+    "dse-part-a",
+    "a terminal -part-a identifier must be classified"
+  );
+  assert.equal(
+    writingRandomTopicCategory(writingCatalog.find((resource) => resource.id === "fill:dse-writing-2022-part-b-q3")),
+    "dse-part-b",
+    "a Part B identifier with a question suffix must be classified"
+  );
+  assert.equal(
+    Object.values(counts).reduce((total, count) => total + count, 0),
+    writingCatalog.length - 4,
+    "unrelated government-writing questions must not enter one of the four requested categories"
+  );
+
+  const dseBlocked = writingRandomTopicCandidates(
+    writingCatalog,
+    "dse-part-a",
+    (resource) => writingTopicAccessAllows(
+      resource,
+      { "dse-writing": false, "ielts-writing": true },
+      true
+    )
+  );
+  const ieltsAllowed = writingRandomTopicCandidates(
+    writingCatalog,
+    "ielts-task-1",
+    (resource) => writingTopicAccessAllows(
+      resource,
+      { "dse-writing": false, "ielts-writing": true },
+      true
+    )
+  );
+  assert.equal(dseBlocked.length, 0);
+  assert.equal(ieltsAllowed.length, counts["ielts-task-1"]);
+  assert.equal(writingRandomTopicCandidates(writingCatalog, "unknown", () => true).length, 0);
+
+  assert.ok(
+    html.indexOf("data-random-topic-open") < html.indexOf("data-topic-picker-open"),
+    "the random delivery button must sit immediately before the manual topic picker"
+  );
+  assert.match(html, /data-random-topic-open>隨機派送問題<\/button>/);
+  assert.equal((html.match(/data-random-topic-category=/g) || []).length, 4);
+  for (const category of WRITING_RANDOM_TOPIC_CATEGORIES) {
+    assert.match(html, new RegExp(`data-random-topic-category="${category.id}"`));
+  }
+  assert.match(html, /data-random-topic-status role="status" aria-live="polite"/);
+  assert.match(script, /writing-submission-random-topic\.js\?v=20260813-1/);
+  assert.match(script, /writingRandomTopicCandidates\([\s\S]*?canonicalWritingTopicResource\(resource\.id\)/);
+  assert.match(script, /selectWritingTopic\(canonical\.id, \{ persist: true, close: false, toast: false \}\)/);
+  assert.match(css, /\.random-topic-choices/);
+});
+
+test("random question indexes use rejection sampling without modulo bias", () => {
+  const cryptoValues = [0xffffffff, 17];
+  let cryptoCalls = 0;
+  const cryptoSource = {
+    getRandomValues(target) {
+      target[0] = cryptoValues[cryptoCalls];
+      cryptoCalls += 1;
+      return target;
+    }
+  };
+  assert.equal(unbiasedRandomIndex(10, { cryptoSource, randomSource: () => 0 }), 7);
+  assert.equal(cryptoCalls, 2, "a value in the incomplete modulo bucket must be rejected");
+
+  const range = 0x20000000000000;
+  const fallbackValues = [(range - 1) / range, 17 / range];
+  let fallbackCalls = 0;
+  assert.equal(unbiasedRandomIndex(10, {
+    cryptoSource: null,
+    randomSource() {
+      const value = fallbackValues[fallbackCalls];
+      fallbackCalls += 1;
+      return value;
+    }
+  }), 7);
+  assert.equal(fallbackCalls, 2, "the non-cryptographic fallback must also reject its incomplete bucket");
+
+  assert.equal(unbiasedRandomIndex(10, {
+    cryptoSource: {
+      getRandomValues() { throw new Error("Web Crypto unavailable"); }
+    },
+    randomSource: () => 17 / range
+  }), 7, "a Web Crypto failure must use the unbiased fallback instead of blocking assignment");
+
+  assert.throws(() => unbiasedRandomIndex(0), RangeError);
+  assert.throws(() => unbiasedRandomIndex(0x100000001), RangeError);
+});
+
 test("grammar history and article archives follow the deployed API contract", () => {
   assert.match(script, /payload\?\.grammarProblems/);
   assert.match(script, /payload\?\.grammarOccurrences/);
@@ -211,8 +333,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260812-feedback2/);
-  assert.match(html, /writing-submission\.js\?v=20260812-feedback3/);
+  assert.match(html, /writing-submission\.css\?v=20260813-random-topic1/);
+  assert.match(html, /writing-submission\.js\?v=20260813-random-topic1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);

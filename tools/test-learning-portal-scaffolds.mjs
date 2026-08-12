@@ -86,7 +86,7 @@ for (const portal of portals) {
   assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${portal.id}"`));
   assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   assert.match(html, new RegExp(`<link rel="canonical" href="https://edmundeducation\\.com/${portal.href}">`));
-  for (const asset of ["/manifest.webmanifest", "/pwa-ui.css", "/pwa-register.js", "learning-portal-scaffold.css", "learning-portal-config.js", "shared-system-nav.js", "learning-portal-scaffold.js"]) {
+  for (const asset of [`/pwa-manifests/${portal.id}.webmanifest`, "/pwa-ui.css", "/pwa-register.js", "learning-portal-scaffold.css", "learning-portal-config.js", "shared-system-nav.js", "learning-portal-scaffold.js"]) {
     assert.ok(html.includes(asset), `${portal.href} should load ${asset}`);
   }
 }

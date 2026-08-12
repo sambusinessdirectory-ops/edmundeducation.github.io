@@ -58,6 +58,7 @@ assert.match(html, /\.daily-quote-text\s*\{[^}]*text-align:\s*left/s);
 assert.match(html, /\.daily-quote-language\[lang="en"\] \.daily-quote-text\s*\{[^}]*font-size:\s*clamp\(24px,[^}]*31px\)/s);
 assert.match(html, /\.daily-quote-language\[lang="zh-Hant"\] \.daily-quote-text\s*\{[^}]*font-size:\s*clamp\(17px,[^}]*21px\)/s);
 assert.match(html, /\.daily-quote-attribution\s*\{[^}]*text-align:\s*right/s);
+assert.match(html, /\.daily-quote-attribution\s*\{[^}]*white-space:\s*pre-line/s);
 assert.match(html, /\.weekly-reflection-panels\s*\{[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)[^}]*align-items:\s*start[^}]*width:\s*min\(100%,\s*1280px\)/s);
 assert.match(html, /\.daily-quote-panel,\s*\.weekly-encouragement-panel\s*\{[^}]*background:\s*#4a5568/s);
 assert.match(html, /\.daily-quote-text\s*\{[^}]*color:\s*#ffc04c/s);
@@ -75,6 +76,9 @@ assert.match(js, /import \{ quoteForHongKongDay \} from "\.\/schedule-quotes\.mj
 assert.match(js, /function nextHongKongMidnightTimestamp\(/);
 assert.match(js, /Date\.UTC\(year, month - 1, day \+ 1\) - \(8 \* 60 \* 60 \* 1000\)/);
 assert.match(js, /const dayKey = hongKongDayKey\(\)/);
+assert.match(js, /function quoteAttributionWithTitleBreak\(/);
+assert.match(js, /attribution\.search\(\/\[,，\]\//);
+assert.match(js, /`\$\{prefix\} \$\{author\}\$\{separator\}\\n\$\{title\}`/);
 assert.match(js, /scheduleDailyQuoteRefresh\(\)/);
 assert.match(js, /hideDailyQuote:\s*value\?\.hideDailyQuote === true/);
 assert.match(js, /hideEncouragement:\s*value\?\.hideEncouragement === true/);

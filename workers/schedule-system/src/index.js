@@ -293,6 +293,74 @@ async function createAdminAnnouncement(request, env) {
 async function updateAdminAnnouncement(request, env, id) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
+  const contentType = String(request.headers.get("Content-Type") || "").toLowerCase();
+  if (contentType.startsWith("multipart/form-data")) {
+    let form;
+    try {
+      const bytes = await readLimitedBytes(request, 5_300_000);
+      form = await new Request("https://worker.invalid/form", {
+        method: "POST",
+        headers: { "Content-Type": request.headers.get("Content-Type") || "" },
+        body: bytes
+      }).formData();
+    } catch (error) {
+      return json({
+        error: error?.message === "BODY_TOO_LARGE"
+          ? "Announcement request is too large"
+          : "Invalid announcement update"
+      }, error?.message === "BODY_TOO_LARGE" ? 413 : 400, request, env);
+    }
+
+    const message = String(form.get("message") || "").replace(/\r\n?/g, "\n");
+    const isActiveValue = String(form.get("isActive") || "");
+    const imageAction = String(form.get("imageAction") || "");
+    const expectedVersionValue = String(form.get("expectedVersion") || "");
+    const expectedVersion = /^[1-9]\d{0,9}$/.test(expectedVersionValue)
+      ? Number(expectedVersionValue)
+      : 0;
+    const image = form.get("image");
+    const hasImage = image instanceof File && image.size > 0;
+    if (
+      !message.trim()
+      || message.length > 4000
+      || /[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/.test(message)
+      || !["true", "false"].includes(isActiveValue)
+      || !["keep", "replace", "remove"].includes(imageAction)
+      || expectedVersion < 1
+      || expectedVersion >= 2147483647
+      || (imageAction === "replace") !== hasImage
+    ) return json({ error: "Invalid announcement update" }, 400, request, env);
+
+    let imageBytes = null;
+    let verifiedImageType = null;
+    if (hasImage) {
+      imageBytes = new Uint8Array(await image.arrayBuffer());
+      verifiedImageType = imageContentTypeFromBytes(imageBytes);
+      if (
+        image.size > 5 * 1024 * 1024
+        || !verifiedImageType
+        || verifiedImageType !== image.type.toLowerCase()
+      ) return json({ error: "Announcement image is invalid" }, 400, request, env);
+    }
+
+    const rows = await rpc(env, "schedule_announcement_admin_update", {
+      p_admin_token: admin.token,
+      p_id: id.toLowerCase(),
+      p_expected_version: expectedVersion,
+      p_message: message,
+      p_image_action: imageAction,
+      p_image_content: imageAction === "replace" ? bytesToBase64(imageBytes) : null,
+      p_image_content_type: verifiedImageType,
+      p_is_active: isActiveValue === "true"
+    });
+    const row = Array.isArray(rows) ? rows[0] : null;
+    if (row) return json({ announcement: announcementResponse(row, { admin: true }) }, 200, request, env);
+    const stillAuthenticated = await authenticateAdmin(request, env);
+    return stillAuthenticated
+      ? json({ error: "Announcement changed elsewhere; reload and try again" }, 409, request, env)
+      : json({ error: "Administrator session expired" }, 401, request, env);
+  }
+
   let payload;
   try { payload = await readLimitedJson(request, 2048); } catch { return json({ error: "Invalid announcement update" }, 400, request, env); }
   if (!Number.isInteger(payload?.expectedVersion) || typeof payload?.isActive !== "boolean") {

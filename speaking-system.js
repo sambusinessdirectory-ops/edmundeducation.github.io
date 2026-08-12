@@ -177,6 +177,10 @@
     examSaving: false,
     examSkipSaving: false,
     examRatingSaving: false,
+    idleBreakExamPausedAt: 0,
+    idleBreakExamTimerWasRunning: false,
+    idleBreakPrepTimerWasRunning: false,
+    idleBreakRecordingWasRunning: false,
     examAttempts: [],
     examAttemptsById: new Map(),
     attempts: [],
@@ -759,6 +763,10 @@
     state.durationProgressRange = "month";
     state.durationProgressShowCumulative = false;
     state.durationProgressSelectedDay = "";
+    state.idleBreakExamPausedAt = 0;
+    state.idleBreakExamTimerWasRunning = false;
+    state.idleBreakPrepTimerWasRunning = false;
+    state.idleBreakRecordingWasRunning = false;
     state.examAttempts = [];
     state.examAttemptsById.clear();
     state.access = {};
@@ -1875,8 +1883,10 @@
     const startedAt = Date.parse(String(session?.startedAt || ""));
     if (!Number.isFinite(startedAt)) return 0;
     const completedAt = Date.parse(String(session?.completedAt || ""));
-    const endpoint = Number.isFinite(completedAt) ? completedAt : Number(now);
-    return Math.max(0, endpoint - startedAt);
+    const endpoint = Number.isFinite(completedAt)
+      ? completedAt
+      : state.idleBreakExamPausedAt || Number(now);
+    return Math.max(0, endpoint - startedAt - Math.max(0, Number(session?.idleBreakDurationMs || 0)));
   }
 
   function formatStopwatchDuration(milliseconds) {
@@ -1903,6 +1913,7 @@
       state.route.view === "exam-practice"
       && state.examSession
       && !state.examSession.completedAt
+      && !window.EdmundIdleBreak?.isPaused?.()
     ) {
       state.examElapsedTimer = window.setInterval(updateExamElapsedClock, 1000);
     }
@@ -2087,6 +2098,7 @@
         selectedNervousness: null,
         nervousness: null,
         completed: false,
+        idleBreakDurationMs: 0,
         startedAt: String(created.persisted?.startedAt || new Date().toISOString())
       };
       state.examFlowGeneration += 1;
@@ -2888,7 +2900,7 @@
 
   function startExamPart2Timer(item) {
     clearExamPhaseTimer();
-    if (!item || item.prepBypassed || item.prepPhase === "ready") return;
+    if (!item || item.prepBypassed || item.prepPhase === "ready" || window.EdmundIdleBreak?.isPaused?.()) return;
     const key = examItemKey(item);
     const update = () => {
       if (state.route.view !== "exam-practice" || examItemKey() !== key) {
@@ -5074,6 +5086,7 @@
 
   function scheduleRecordingTimers() {
     clearRecordingTimer();
+    if (window.EdmundIdleBreak?.isPaused?.()) return;
     const recorder = state.mediaRecorder;
     const generation = state.recordingGeneration;
     const remaining = Math.max(0, activeRecordingLimitSeconds() * 1000 - activeRecordingDuration());
@@ -5137,6 +5150,7 @@
 
   function updateRecordingClock() {
     if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state)) return;
+    window.EdmundIdleBreak?.markActivity?.();
     const elapsed = activeRecordingDuration();
     const maxSeconds = activeRecordingLimitSeconds();
     const clock = document.querySelector("[data-recording-clock]");
@@ -6535,6 +6549,64 @@
     dom.loginForm?.addEventListener("submit", event => {
       event.preventDefault();
       handleLogin(event.currentTarget);
+    });
+
+    document.addEventListener("edmund:idle-break-start", event => {
+      const pausedAt = Number(event.detail?.pausedAt) || Date.now();
+      state.idleBreakExamPausedAt = pausedAt;
+      state.idleBreakExamTimerWasRunning = Boolean(state.examElapsedTimer);
+      state.idleBreakPrepTimerWasRunning = Boolean(state.examPhaseTimer);
+      const item = currentExamItem();
+      if (state.idleBreakPrepTimerWasRunning && item?.part === 2 && item.prepPhase !== "ready") {
+        clearExamPhaseTimer();
+      }
+      clearExamElapsedTimer();
+      state.idleBreakRecordingWasRunning = state.mediaRecorder?.state === "recording";
+      if (state.idleBreakRecordingWasRunning) {
+        if (state.recordingPauseSupported) pauseRecording({ background: true });
+        else finishRecording();
+      }
+      updateExamElapsedClock();
+    });
+
+    document.addEventListener("edmund:idle-break-resume", event => {
+      const pausedAt = state.idleBreakExamPausedAt || Number(event.detail?.pausedAt) || Date.now();
+      const resumedAt = Number(event.detail?.resumedAt) || Date.now();
+      const pauseDuration = Math.max(0, resumedAt - pausedAt);
+      const session = state.examSession;
+      if (session && pauseDuration) {
+        session.idleBreakDurationMs = Math.max(0, Number(session.idleBreakDurationMs || 0)) + pauseDuration;
+        const item = currentExamItem();
+        if (item && state.idleBreakPrepTimerWasRunning && item.prepPhase !== "ready") {
+          if (Number.isFinite(Number(item.settleEndsAt))) item.settleEndsAt += pauseDuration;
+          if (Number.isFinite(Number(item.prepEndsAt))) item.prepEndsAt += pauseDuration;
+        }
+      }
+      state.idleBreakExamPausedAt = 0;
+      const resumeExamClock = state.idleBreakExamTimerWasRunning;
+      const resumePrepClock = state.idleBreakPrepTimerWasRunning;
+      const resumeRecordingAfterBreak = state.idleBreakRecordingWasRunning;
+      state.idleBreakExamTimerWasRunning = false;
+      state.idleBreakPrepTimerWasRunning = false;
+      state.idleBreakRecordingWasRunning = false;
+      if (resumeExamClock) syncExamElapsedTimer();
+      const currentItem = currentExamItem();
+      if (resumePrepClock && currentItem?.part === 2 && currentItem.prepPhase !== "ready") {
+        startExamPart2Timer(currentItem);
+      }
+      if (resumeRecordingAfterBreak && state.mediaRecorder?.state === "paused" && state.recordingBackgroundPaused) {
+        resumeRecording();
+      }
+    });
+
+    document.addEventListener("edmund:idle-break-logout", () => {
+      state.idleBreakExamPausedAt = 0;
+      state.idleBreakExamTimerWasRunning = false;
+      state.idleBreakPrepTimerWasRunning = false;
+      state.idleBreakRecordingWasRunning = false;
+      clearExamPhaseTimer();
+      clearExamElapsedTimer();
+      if (["recording", "paused"].includes(state.mediaRecorder?.state)) finishRecording();
     });
 
     document.addEventListener("click", event => {

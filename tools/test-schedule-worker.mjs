@@ -181,6 +181,124 @@ try {
   globalThis.fetch = realFetch;
 }
 
+const announcementUpdateBodies = [];
+globalThis.fetch = async (url, options) => {
+  const rpcName = decodeURIComponent(new URL(String(url)).pathname.split("/").at(-1));
+  const body = JSON.parse(options.body);
+  if (rpcName === "schedule_announcement_admin_auth") {
+    return new Response(JSON.stringify([{ admin_id: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa" }]), {
+      status: 200,
+      headers: { "Content-Type": "application/json" }
+    });
+  }
+  if (rpcName === "schedule_announcement_admin_update") {
+    announcementUpdateBodies.push(body);
+    return new Response(JSON.stringify([{
+      id: body.p_id,
+      message: body.p_message,
+      has_image: body.p_image_action !== "remove",
+      is_active: body.p_is_active,
+      updated_at: "2026-08-12T06:30:00.000Z",
+      version: body.p_expected_version + 1
+    }]), { status: 200, headers: { "Content-Type": "application/json" } });
+  }
+  throw new Error(`Unexpected RPC ${rpcName}`);
+};
+try {
+  for (const imageAction of ["keep", "replace", "remove"]) {
+    const form = new FormData();
+    form.set("expectedVersion", "4");
+    form.set("message", `Edited ${imageAction}`);
+    form.set("isActive", "false");
+    form.set("imageAction", imageAction);
+    if (imageAction === "replace") {
+      const pngBytes = Uint8Array.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 0x00]);
+      form.set("image", new File([pngBytes], "replacement.png", { type: "image/png" }));
+    }
+    const response = await worker.fetch(new Request(
+      "https://worker.example/v1/admin/announcements/bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+      {
+        method: "PATCH",
+        headers: { Origin: origin, Authorization: "Bearer 11111111-1111-4111-8111-111111111111" },
+        body: form
+      }
+    ), baseEnv);
+    assert.equal(response.status, 200, `${imageAction} announcement edit should succeed`);
+  }
+  assert.deepEqual(announcementUpdateBodies.map((body) => body.p_image_action), ["keep", "replace", "remove"]);
+  assert.equal(announcementUpdateBodies[0].p_image_content, null, "keep must not resend stored image bytes");
+  assert.equal(announcementUpdateBodies[1].p_image_content_type, "image/png");
+  assert.equal(announcementUpdateBodies[1].p_image_content, "iVBORw0KGgoA");
+  assert.equal(announcementUpdateBodies[2].p_image_content, null, "remove must not send replacement bytes");
+  assert.equal(announcementUpdateBodies[2].p_expected_version, 4, "edits must preserve optimistic version checks");
+} finally {
+  globalThis.fetch = realFetch;
+}
+
+globalThis.fetch = async (url, options) => {
+  const rpcName = decodeURIComponent(new URL(String(url)).pathname.split("/").at(-1));
+  if (rpcName === "schedule_announcement_admin_auth") {
+    return new Response(JSON.stringify([{ admin_id: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa" }]), {
+      status: 200,
+      headers: { "Content-Type": "application/json" }
+    });
+  }
+  if (rpcName === "schedule_announcement_admin_update") {
+    return new Response("[]", { status: 200, headers: { "Content-Type": "application/json" } });
+  }
+  throw new Error(`Unexpected RPC ${rpcName}`);
+};
+try {
+  const form = new FormData();
+  form.set("expectedVersion", "3");
+  form.set("message", "Stale edit");
+  form.set("isActive", "true");
+  form.set("imageAction", "keep");
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/admin/announcements/bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    {
+      method: "PATCH",
+      headers: { Origin: origin, Authorization: "Bearer 11111111-1111-4111-8111-111111111111" },
+      body: form
+    }
+  ), baseEnv);
+  assert.equal(response.status, 409, "stale announcement edits must not overwrite a newer version");
+} finally {
+  globalThis.fetch = realFetch;
+}
+
+let missingReplacementUpdateCalled = false;
+globalThis.fetch = async (url, options) => {
+  const rpcName = decodeURIComponent(new URL(String(url)).pathname.split("/").at(-1));
+  if (rpcName === "schedule_announcement_admin_auth") {
+    return new Response(JSON.stringify([{ admin_id: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa" }]), {
+      status: 200,
+      headers: { "Content-Type": "application/json" }
+    });
+  }
+  if (rpcName === "schedule_announcement_admin_update") missingReplacementUpdateCalled = true;
+  throw new Error(`Unexpected RPC ${rpcName}`);
+};
+try {
+  const form = new FormData();
+  form.set("expectedVersion", "4");
+  form.set("message", "Missing replacement image");
+  form.set("isActive", "true");
+  form.set("imageAction", "replace");
+  const response = await worker.fetch(new Request(
+    "https://worker.example/v1/admin/announcements/bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    {
+      method: "PATCH",
+      headers: { Origin: origin, Authorization: "Bearer 11111111-1111-4111-8111-111111111111" },
+      body: form
+    }
+  ), baseEnv);
+  assert.equal(response.status, 400);
+  assert.equal(missingReplacementUpdateCalled, false, "replace without a verified image must stop before storage");
+} finally {
+  globalThis.fetch = realFetch;
+}
+
 globalThis.fetch = async (url, options) => {
   const rpcName = decodeURIComponent(new URL(String(url)).pathname.split("/").at(-1));
   const body = JSON.parse(options.body);

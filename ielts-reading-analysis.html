@@ -17,7 +17,7 @@
   <meta property="og:title" content="IELTS 閱讀理解 - 解卷分析">
   <meta property="og:description" content="以答案證據、定位、同義改寫及中伏位拆解 IELTS Reading。">
   <meta property="og:url" content="https://edmundeducation.com/ielts-reading-analysis.html">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/ielts-reading-analysis.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -26,19 +26,16 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="ielts-reading-analysis.css?v=20260808-5">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
 </head>
 
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
   <header class="reading-toolbar" data-toolbar>
     <div class="toolbar-main">
-      <a class="toolbar-brand" href="ielts-reading-analysis.html" aria-label="IELTS 閱讀理解解卷分析首頁">
-        <img src="/assets/icons/edmundeducation-logo-512.png" alt="">
-        <span>
-          <strong>EdmundEducation</strong>
-          <small>IELTS Reading Analysis</small>
-        </span>
-      </a>
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-reading-analysis">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>IELTS Reading Analysis</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+      </div>
 
       <nav class="toolbar-actions" aria-label="頁面導覽">
         <a href="exam-resources.html">離開</a>
@@ -159,6 +156,7 @@
   <script src="ielts-reading-analysis-index.js?v=20260808-5"></script>
   <script src="ielts-reading-analysis-availability.js?v=20260808-5"></script>
   <script src="ielts-reading-analysis-content.js?v=20260808-5"></script>
+  <script src="shared-system-nav.js?v=20260812-1"></script>
   <script type="module" src="ielts-reading-analysis.js?v=20260808-5"></script>
 </body>
 </html>

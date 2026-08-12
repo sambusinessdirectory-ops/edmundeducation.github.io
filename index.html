@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#20283d">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-title" content="港大 Edmund Sir 英文補習">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="https://edmundeducation.com/">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -19,6 +19,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/site-announcements.css?v=20260812-1">
+  <link rel="stylesheet" href="/homepage-system-directory.css?v=20260813-1">
   <script defer src="/pwa-register.js"></script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EdmundEducation">
@@ -82,7 +83,7 @@
 
     :root {
       --video-opacity: 0.342;
-      --video-cover: rgba(245,245,247,0.50);
+      --video-cover: rgba(245,245,247,0.40);
     }
 
     html {
@@ -503,6 +504,13 @@
       --category-gradient-hover: linear-gradient(135deg, #1b503e 0%, #55aa61 52%, #c5b75d 100%);
       --category-key-lip: #557c42;
       --category-key-shadow: rgba(35,95,75,0.24);
+    }
+
+    .system-switch-card {
+      --category-gradient: linear-gradient(135deg, #173b78 0%, #4f68b4 52%, #9b69b5 100%);
+      --category-gradient-hover: linear-gradient(135deg, #112f63 0%, #435aa2 52%, #8c59a8 100%);
+      --category-key-lip: #2f397e;
+      --category-key-shadow: rgba(35,50,121,0.30);
     }
 
     .resources-card {
@@ -2694,6 +2702,10 @@
           <span class="category-name">Edmund<br>英文筆記售賣</span>
         </a>
 
+        <button class="category system-switch-card" type="button" data-open-system-directory aria-haspopup="dialog" aria-controls="system-directory-dialog">
+          <span class="category-name">學習系統<br>快速切換</span>
+        </button>
+
         <span class="category-row-break" aria-hidden="true"></span>
 
         <a class="category resources-card" href="resources.html">
@@ -3457,7 +3469,8 @@
     let videosAreEnabled = false;
     let backgroundVideoLoadToken = 0;
     const MAX_BACKGROUND_VIDEO_OPACITY = 0.432;
-    const MIN_BACKGROUND_VIDEO_COVER_ALPHA = 0.38;
+    const VIDEO_COVER_REDUCTION_FACTOR = 0.8;
+    const MIN_BACKGROUND_VIDEO_COVER_ALPHA = 0.30;
 
     function shouldUseLightweightVideoMode() {
       const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
@@ -3488,9 +3501,10 @@
     function normaliseVideoCover(cover) {
       const match = String(cover || "").match(/^rgba\(\s*245\s*,\s*245\s*,\s*247\s*,\s*([\d.]+)\s*\)$/i);
       const suppliedAlpha = match ? Number(match[1]) : 0.5;
+      const reducedAlpha = (Number.isFinite(suppliedAlpha) ? suppliedAlpha : 0.5) * VIDEO_COVER_REDUCTION_FACTOR;
       const safeAlpha = Math.max(
         MIN_BACKGROUND_VIDEO_COVER_ALPHA,
-        Math.min(1, Number.isFinite(suppliedAlpha) ? suppliedAlpha : 0.5)
+        Math.min(0.8, reducedAlpha)
       );
       return `rgba(245,245,247,${safeAlpha.toFixed(2)})`;
     }
@@ -3638,6 +3652,18 @@
     setupCustomCursor();
     scheduleInitialBackgroundVideo();
   </script>
+  <dialog class="system-directory-dialog" id="system-directory-dialog" data-system-directory-dialog aria-labelledby="system-directory-title" aria-describedby="system-directory-description">
+    <section class="system-directory-dialog__card">
+      <header class="system-directory-dialog__heading">
+        <div><p>EDMUND LEARNING SYSTEMS</p><h2 id="system-directory-title">學習系統快速切換</h2><span id="system-directory-description">選擇你想開啟的學習、練習或進度系統。</span></div>
+        <button class="system-directory-dialog__close" type="button" data-close-system-directory aria-label="關閉學習系統列表">×</button>
+      </header>
+      <label class="system-directory-dialog__search"><span>搜尋系統</span><input type="search" data-system-directory-search autocomplete="off" placeholder="輸入中文或英文名稱"></label>
+      <nav class="system-directory-dialog__list" data-system-directory-list aria-label="所有 EdmundEducation 學習系統"></nav>
+    </section>
+  </dialog>
+  <script src="shared-system-nav.js?v=20260813-1"></script>
+  <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="site-announcements.js?v=20260812-1"></script>
 </body>

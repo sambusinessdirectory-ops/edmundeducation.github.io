@@ -47,6 +47,7 @@ const [
   accountManagementSql,
   moreThanHalfMigrationSql,
   announcementMigrationSql,
+  announcementEditMigrationSql,
   announcementScript,
   announcementCss,
   databaseSmokeTest,
@@ -61,6 +62,7 @@ const [
   read("supabase-schedule-account-management.sql"),
   read("supabase-schedule-more-than-half-completed.sql"),
   read("supabase-schedule-announcements.sql"),
+  read("supabase-schedule-announcement-edit.sql"),
   read("site-announcements.js"),
   read("site-announcements.css"),
   read("tools/test-schedule-batch-database.sql"),
@@ -71,9 +73,13 @@ assert.match(homepage, /site-announcements\.css\?v=/);
 assert.match(homepage, /site-announcements\.js\?v=/);
 assert.match(scheduleHtml, /announcement-admin-panel/);
 assert.match(scheduleHtml, /data-announcement-message/);
+assert.match(scheduleHtml, /data-announcement-image-action/);
+assert.match(scheduleHtml, /data-announcement-cancel-edit/);
 assert.match(scheduleHtml, /data-entry-tags/);
 assert.match(scheduleJs, /HOMEWORK_ENTRY_TAGS/);
 assert.match(scheduleJs, /announcementApi/);
+assert.match(scheduleJs, /function beginAnnouncementEdit\(/);
+assert.match(scheduleJs, /body\.set\("imageAction", imageAction\)/);
 assert.match(scheduleJs, /Authorization:\s*`Bearer \$\{state\.currentUser\.adminToken\}`/);
 assert.match(announcementScript, /STORAGE_KEY/);
 assert.match(announcementScript, /localStorage\.setItem/);
@@ -87,7 +93,15 @@ assert.match(announcementMigrationSql, /schedule_announcement_public_list/);
 assert.match(announcementMigrationSql, /schedule_announcement_admin_auth/);
 assert.match(announcementMigrationSql, /schedule_announcement_admin_delete/);
 assert.doesNotMatch(announcementMigrationSql, /grant (?:select|insert|update|delete) on table/i);
+assert.match(announcementEditMigrationSql, /create or replace function public\.schedule_announcement_admin_update/);
+assert.match(announcementEditMigrationSql, /security definer\s+set search_path = ''/i);
+assert.match(announcementEditMigrationSql, /announcement\.version = p_expected_version/);
+assert.match(announcementEditMigrationSql, /p_image_action in \('keep', 'remove'\)/);
+assert.match(announcementEditMigrationSql, /revoke all on function public\.schedule_announcement_admin_update\([\s\S]*?from public, anon, authenticated, service_role/i);
+assert.match(announcementEditMigrationSql, /grant execute on function public\.schedule_announcement_admin_update\([\s\S]*?to anon/i);
+assert.doesNotMatch(announcementEditMigrationSql, /grant (?:select|insert|update|delete|all) on table/i);
 assert.match(worker, /imageContentTypeFromBytes/);
+assert.match(worker, /schedule_announcement_admin_update/);
 assert.match(worker, /headers\.set\("Cache-Control", "no-store"\)/);
 
 assert.equal(SCHEDULE_MIN_DATE, "2026-01-01");

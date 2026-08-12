@@ -52,6 +52,12 @@ const state = {
   toastTimer: 0
 };
 
+let lessonClockWasRunningBeforeIdleBreak = false;
+
+function idleBreakIsPaused() {
+  return window.EdmundIdleBreak?.isPaused?.() === true;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -284,7 +290,7 @@ function isLessonComplete(lesson) {
 
 function currentDurationMs(lessonId = state.lessonId) {
   const stored = lessonState(lessonId).durationMs;
-  if (!state.lessonClockStartedAt || state.lessonId !== lessonId) return stored;
+  if (!state.lessonClockStartedAt || state.lessonId !== lessonId || idleBreakIsPaused()) return stored;
   return stored + Math.max(0, Math.round(performance.now() - state.lessonClockStartedAt));
 }
 
@@ -345,7 +351,7 @@ function captureClockElapsed({ restart = false } = {}) {
     addLocalTimeActivity(state.lessonId, elapsed);
     markLessonDirty(state.lessonId);
   }
-  state.lessonClockStartedAt = restart ? performance.now() : 0;
+  state.lessonClockStartedAt = restart && !idleBreakIsPaused() ? performance.now() : 0;
 }
 
 function pauseClock() {
@@ -353,7 +359,7 @@ function pauseClock() {
 }
 
 function startClock() {
-  if (state.lessonId && !state.lessonClockStartedAt) state.lessonClockStartedAt = performance.now();
+  if (state.lessonId && !state.lessonClockStartedAt && !idleBreakIsPaused()) state.lessonClockStartedAt = performance.now();
 }
 
 function renderAppShell() {
@@ -1366,6 +1372,22 @@ document.addEventListener("keydown", (event) => {
 });
 
 elements.loginForm.addEventListener("submit", handleLogin);
+document.addEventListener("edmund:idle-break-start", () => {
+  lessonClockWasRunningBeforeIdleBreak = Boolean(state.lessonClockStartedAt) || state.currentView === "exercise";
+  if (state.currentView === "exercise") updateDraftsFromFields();
+  pauseClock();
+  writeLocalSnapshot();
+});
+document.addEventListener("edmund:idle-break-resume", () => {
+  const shouldResume = lessonClockWasRunningBeforeIdleBreak;
+  lessonClockWasRunningBeforeIdleBreak = false;
+  if (shouldResume && state.currentView === "exercise" && state.user && state.token) startClock();
+});
+document.addEventListener("edmund:idle-break-logout", () => {
+  lessonClockWasRunningBeforeIdleBreak = false;
+  pauseClock();
+  writeLocalSnapshot();
+});
 window.addEventListener("pagehide", () => {
   if (state.currentView === "exercise") updateDraftsFromFields();
   pauseClock();

@@ -6,11 +6,11 @@ export const MAX_HOMEWORK_RESOURCES = 12;
 export const SCHEDULE_MESSAGE_MAX_LENGTH = 2000;
 
 export const HOMEWORK_ENTRY_TAGS = Object.freeze([
-  Object.freeze({ key: "reluctant", label: "唔想做...", color: "#ab12e6" }),
-  Object.freeze({ key: "favourite", label: "我最喜愛功課", color: "#ff3473" }),
-  Object.freeze({ key: "teacher-added", label: "老師新加", color: "#920909" }),
-  Object.freeze({ key: "well-done", label: "Well done!", color: "#ffd591" }),
-  Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80" })
+  Object.freeze({ key: "reluctant", label: "唔想做...", color: "#ab12e6", textColor: "#ffffff" }),
+  Object.freeze({ key: "favourite", label: "我最喜愛功課", color: "#ff3473", textColor: "#25182b" }),
+  Object.freeze({ key: "teacher-added", label: "老師新加", color: "#920909", textColor: "#ffffff" }),
+  Object.freeze({ key: "well-done", label: "Well done!", color: "#ffd591", textColor: "#25182b" }),
+  Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80", textColor: "#25182b" })
 ]);
 
 const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.key, tag]));

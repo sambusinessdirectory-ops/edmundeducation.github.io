@@ -12,7 +12,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-writing-submission.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self' blob:; base-uri 'self'; form-action 'self'">
   <title>Edmund Sir Writing 交文系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/writing-submission.html">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/writing-submission.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260812-feedback2">
+  <link rel="stylesheet" href="writing-submission.css?v=20260813-random-topic1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
 </head>
 <body>
@@ -122,7 +122,10 @@
               <h2>寫作題目</h2>
             </div>
             <div class="section-heading-actions">
-              <button class="small-button topic-picker-button" type="button" data-topic-picker-open>選擇練習題目</button>
+              <div class="topic-picker-actions">
+                <button class="small-button random-topic-button" type="button" data-random-topic-open>隨機派送問題</button>
+                <button class="small-button topic-picker-button" type="button" data-topic-picker-open>選擇寫作練習題目</button>
+              </div>
               <span class="draft-state" data-draft-state>尚未提交</span>
             </div>
           </div>
@@ -378,6 +381,23 @@
     </div>
   </dialog>
 
+  <dialog class="topic-picker-dialog random-topic-dialog" data-random-topic-dialog aria-labelledby="random-topic-title">
+    <div class="topic-picker-shell random-topic-shell">
+      <header class="topic-picker-head">
+        <div><p class="eyebrow">RANDOM WRITING QUESTION</p><h2 id="random-topic-title">隨機派送問題</h2></div>
+        <button class="dialog-close" type="button" data-random-topic-close aria-label="關閉隨機題目選擇器">×</button>
+      </header>
+      <p class="topic-picker-note">選擇一個類別，系統只會從你已獲開放的 Writing Practice 題目中隨機派送一題。</p>
+      <div class="random-topic-choices" role="group" aria-label="選擇隨機題目類別">
+        <button type="button" data-random-topic-category="dse-part-a"><strong>DSE Part A</strong><span>香港中學文憑試短文寫作</span><em data-random-topic-count>正在檢查權限…</em></button>
+        <button type="button" data-random-topic-category="dse-part-b"><strong>DSE Part B</strong><span>香港中學文憑試長文寫作</span><em data-random-topic-count>正在檢查權限…</em></button>
+        <button type="button" data-random-topic-category="ielts-task-1"><strong>IELTS Task 1</strong><span>圖表、流程及地圖寫作</span><em data-random-topic-count>正在檢查權限…</em></button>
+        <button type="button" data-random-topic-category="ielts-task-2"><strong>IELTS Task 2</strong><span>議論文及問題分析寫作</span><em data-random-topic-count>正在檢查權限…</em></button>
+      </div>
+      <p class="form-status random-topic-status" data-random-topic-status role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
   <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
@@ -385,6 +405,6 @@
   <script src="writing-submission-config.js"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260812-1"></script>
-  <script type="module" src="writing-submission.js?v=20260812-feedback3"></script>
+  <script type="module" src="writing-submission.js?v=20260813-random-topic1"></script>
 </body>
 </html>

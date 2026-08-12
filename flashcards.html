@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/flashcards.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -185320,7 +185320,15 @@ window.EDMUND_FLASHCARD_SEED = {
     let deckReversalEnabled = localStorage.getItem("edmund-deck-reversal-enabled") === "true";
     let countdownTimerId = 0;
     let countdownReviewTimerId = 0;
+    let countdownRemainingSeconds = 0;
+    let countdownReviewRemainingSeconds = 0;
+    let flashcardIdlePausedAt = 0;
+    let flashcardTimersBeforeIdleBreak = null;
     const ADMIN_ATTEMPTS_PAGE_SIZE = 8;
+
+    function idleBreakIsPaused() {
+      return window.EdmundIdleBreak?.isPaused?.() === true;
+    }
 
     function escapeHtml(value) {
       return String(value)
@@ -190720,7 +190728,8 @@ window.EDMUND_FLASHCARD_SEED = {
     function sessionElapsedMs() {
       if (!studySession) return 0;
       if (studySession.completed && studySession.elapsedMs) return Number(studySession.elapsedMs || 0);
-      return Math.max(0, Date.now() - Number(studySession.startedAt || Date.now()));
+      const endpoint = flashcardIdlePausedAt || Date.now();
+      return Math.max(0, endpoint - Number(studySession.startedAt || endpoint));
     }
 
     function updateSessionTimer() {
@@ -190731,7 +190740,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function startStudyTimer() {
       window.clearInterval(studyTimerId);
       updateSessionTimer();
-      if (!studySession || studySession.completed) return;
+      if (!studySession || studySession.completed || idleBreakIsPaused()) return;
       studyTimerId = window.setInterval(updateSessionTimer, 1000);
     }
 
@@ -190741,11 +190750,15 @@ window.EDMUND_FLASHCARD_SEED = {
       updateSessionTimer();
     }
 
-    function stopCountdownTimers() {
+    function stopCountdownTimers({ preserveRemaining = false } = {}) {
       window.clearInterval(countdownTimerId);
       window.clearInterval(countdownReviewTimerId);
       countdownTimerId = 0;
       countdownReviewTimerId = 0;
+      if (!preserveRemaining) {
+        countdownRemainingSeconds = 0;
+        countdownReviewRemainingSeconds = 0;
+      }
     }
 
     function updateCountdownClock(value, muted = false) {
@@ -190809,19 +190822,22 @@ window.EDMUND_FLASHCARD_SEED = {
       renderTimerModeControl();
     }
 
-    function startCardCountdownIfNeeded() {
-      stopCountdownTimers();
+    function startCardCountdownIfNeeded({ resume = false } = {}) {
+      stopCountdownTimers({ preserveRemaining: resume });
       const seconds = Number(studySession?.timerSeconds || 0);
-      if (!seconds || !currentCard() || studySession.flipped) {
+      if (!seconds || !currentCard() || studySession.flipped || idleBreakIsPaused()) {
         hideCountdownClock();
         return;
       }
-      let remaining = seconds;
-      updateCountdownClock(remaining);
+      countdownRemainingSeconds = resume && countdownRemainingSeconds > 0
+        ? countdownRemainingSeconds
+        : seconds;
+      updateCountdownClock(countdownRemainingSeconds);
       countdownTimerId = window.setInterval(() => {
-        remaining -= 1;
-        updateCountdownClock(remaining);
-        if (remaining <= 0) autoCountdownRed();
+        if (idleBreakIsPaused()) return;
+        countdownRemainingSeconds -= 1;
+        updateCountdownClock(countdownRemainingSeconds);
+        if (countdownRemainingSeconds <= 0) autoCountdownRed();
       }, 1000);
     }
 
@@ -190840,14 +190856,18 @@ window.EDMUND_FLASHCARD_SEED = {
       scheduleCurrentFrontCardScroll();
     }
 
-    function startAnswerCheckCountdown() {
-      stopCountdownTimers();
-      let remaining = 5;
-      updateCountdownClock(remaining, true);
+    function startAnswerCheckCountdown({ resume = false } = {}) {
+      stopCountdownTimers({ preserveRemaining: resume });
+      if (idleBreakIsPaused()) return;
+      countdownReviewRemainingSeconds = resume && countdownReviewRemainingSeconds > 0
+        ? countdownReviewRemainingSeconds
+        : 5;
+      updateCountdownClock(countdownReviewRemainingSeconds, true);
       countdownReviewTimerId = window.setInterval(() => {
-        remaining -= 1;
-        updateCountdownClock(remaining, true);
-        if (remaining <= 0) advanceAfterCountdownReview();
+        if (idleBreakIsPaused()) return;
+        countdownReviewRemainingSeconds -= 1;
+        updateCountdownClock(countdownReviewRemainingSeconds, true);
+        if (countdownReviewRemainingSeconds <= 0) advanceAfterCountdownReview();
       }, 1000);
     }
 
@@ -193289,6 +193309,42 @@ window.EDMUND_FLASHCARD_SEED = {
         if (["input", "textarea", "button", "select"].includes(tagName)) return;
         event.preventDefault();
         flipCurrentCard();
+      });
+
+      document.addEventListener("edmund:idle-break-start", event => {
+        const pausedAt = Number(event.detail?.pausedAt) || Date.now();
+        flashcardTimersBeforeIdleBreak = {
+          study: Boolean(studyTimerId),
+          card: Boolean(countdownTimerId),
+          review: Boolean(countdownReviewTimerId)
+        };
+        flashcardIdlePausedAt = pausedAt;
+        if (isSessionInProgress()) saveCurrentProgress();
+        stopStudyTimer();
+        stopCountdownTimers({ preserveRemaining: true });
+      });
+
+      document.addEventListener("edmund:idle-break-resume", event => {
+        const pausedAt = flashcardIdlePausedAt || Number(event.detail?.pausedAt) || Date.now();
+        const resumedAt = Number(event.detail?.resumedAt) || Date.now();
+        const timers = flashcardTimersBeforeIdleBreak;
+        if (studySession && resumedAt > pausedAt) {
+          studySession.startedAt = Number(studySession.startedAt || pausedAt) + (resumedAt - pausedAt);
+        }
+        flashcardIdlePausedAt = 0;
+        flashcardTimersBeforeIdleBreak = null;
+        if (!timers || currentView !== "deck-view" || !isSessionInProgress()) return;
+        if (timers.study) startStudyTimer();
+        if (timers.card) startCardCountdownIfNeeded({ resume: true });
+        else if (timers.review) startAnswerCheckCountdown({ resume: true });
+      });
+
+      document.addEventListener("edmund:idle-break-logout", () => {
+        if (isSessionInProgress()) saveCurrentProgress();
+        flashcardIdlePausedAt = 0;
+        flashcardTimersBeforeIdleBreak = null;
+        stopStudyTimer();
+        stopCountdownTimers();
       });
 
       window.addEventListener("beforeunload", event => {
