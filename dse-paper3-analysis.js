@@ -470,7 +470,7 @@ async function handleLogin(event) {
     if (!await loginStudent(username, password)) throw new Error("用戶名稱或密碼不正確。");
     elements.loginForm.reset();
     setLoginStatus();
-    setConnection("Supabase 已連接", "online");
+    setConnection("已安全連接", "online");
     showView("library");
     resetToYears({ announce: false });
     showToast(`您好，${state.user.name}！`);
@@ -584,7 +584,7 @@ async function initialise() {
   setConnection("正在核對登入", "checking");
   try {
     if (await restoreStudent()) {
-      setConnection("Supabase 已連接", "online");
+      setConnection("已安全連接", "online");
       showView("library");
       resetToYears({ announce: false });
       return;

@@ -650,7 +650,7 @@
   }
 
   async function ensureSupabaseSession() {
-    if (!supabaseClient) throw new Error("Supabase client is unavailable.");
+    if (!supabaseClient) throw new Error("資料服務暫時未能使用。");
     const current = await supabaseClient.auth.getSession();
     if (current.error) throw current.error;
     if (current.data?.session?.user?.id) return current.data.session;
@@ -661,7 +661,7 @@
   }
 
   async function callRpc(name, args) {
-    if (!supabaseClient) throw new Error("Supabase client is unavailable.");
+    if (!supabaseClient) throw new Error("資料服務暫時未能使用。");
     const { data, error } = await supabaseClient.rpc(name, args);
     if (error) throw error;
     return data;
@@ -1566,7 +1566,7 @@
       await ensureSupabaseSession();
       setConnection("帳戶已連線", "live");
     } catch (error) {
-      console.warn("Supabase connection failed:", error);
+      console.warn("Data connection failed:", error);
       setConnection("帳戶服務離線", "offline");
     }
     await checkDownloadApi();

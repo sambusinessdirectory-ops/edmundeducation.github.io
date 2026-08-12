@@ -489,7 +489,7 @@
   function initialiseSupabaseClient() {
     if (state.supabase) return state.supabase;
     if (!window.supabase?.createClient || !SUPABASE_CONFIG.url || !SUPABASE_CONFIG.anonKey) {
-      throw new Error("Supabase 設定未能載入，請稍後再試。");
+      throw new Error("登入服務設定未能載入，請稍後再試。");
     }
     let authStorage;
     try { authStorage = window.sessionStorage; } catch { authStorage = undefined; }
@@ -514,7 +514,7 @@
       if (signInResult.error) throw signInResult.error;
       session = signInResult.data?.session || null;
     }
-    if (!session?.user?.id) throw new Error("Supabase anonymous session is unavailable.");
+    if (!session?.user?.id) throw new Error("登入服務暫時未能建立安全工作階段。");
     state.supabaseReady = true;
     return client;
   }
@@ -694,7 +694,7 @@
       saveSession();
       form.reset();
       showPortal();
-      setConnection(isAdmin ? "Admin 已連接" : "Supabase 已連接", "live");
+      setConnection(isAdmin ? "Admin 已連接" : "已安全連接", "live");
       navigate({ view: isAdmin ? "admin" : "exams" }, { reset: true });
       if (!isAdmin) openRequestedHomeworkExercise();
     } catch (error) {
@@ -7109,7 +7109,7 @@
         if (state.user.role === "student") await loadBookmarks({ quiet: true });
         if (!state.user) return;
         showPortal();
-        setConnection(state.user.role === "admin" ? "Admin 已連接" : "Supabase 已連接", "live");
+        setConnection(state.user.role === "admin" ? "Admin 已連接" : "已安全連接", "live");
         navigate({ view: state.user.role === "admin" ? "admin" : "exams" }, { reset: true, skipGuard: true });
         if (state.user.role === "student") openRequestedHomeworkExercise();
       } catch (error) {
@@ -7122,10 +7122,10 @@
 
     try {
       await ensureSupabaseSession();
-      if (!state.user) setConnection("Supabase 已準備", "live");
+      if (!state.user) setConnection("登入服務已準備", "live");
     } catch (error) {
-      console.warn("Supabase startup failed:", error);
-      if (!state.user) setConnection("Supabase 連接失敗", "error");
+      console.warn("Account service startup failed:", error);
+      if (!state.user) setConnection("登入服務連接失敗", "error");
     }
   }
 

@@ -1,0 +1,32 @@
+.site-announcement-dialog {
+  width: min(620px, calc(100% - 28px));
+  max-height: min(760px, calc(100dvh - 28px));
+  border: 0;
+  border-radius: 24px;
+  padding: 0;
+  color: #20283d;
+  background: #fff;
+  box-shadow: 0 28px 90px rgba(19, 30, 57, .34);
+  cursor: auto;
+}
+
+.site-announcement-dialog::backdrop {
+  background: rgba(19, 30, 57, .64);
+  backdrop-filter: blur(8px);
+}
+
+.site-announcement-card { display: grid; }
+.site-announcement-image { width: 100%; max-height: 330px; object-fit: contain; background: #edf6ff; }
+.site-announcement-copy { padding: clamp(24px, 5vw, 38px); }
+.site-announcement-kicker { margin: 0 0 10px; color: #1f71b8; font: 900 11px/1.2 ui-sans-serif, system-ui, sans-serif; letter-spacing: .16em; }
+.site-announcement-copy h2 { margin: 0 0 16px; font-size: clamp(25px, 5vw, 36px); }
+.site-announcement-message { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: clamp(16px, 2.8vw, 19px); line-height: 1.75; }
+.site-announcement-page { margin: 20px 0 0; color: #667085; font: 800 12px/1.3 ui-sans-serif, system-ui, sans-serif; }
+.site-announcement-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
+.site-announcement-actions button { min-height: 48px; border: 0; border-radius: 999px; padding: 10px 16px; cursor: pointer !important; font: 900 14px/1.25 ui-sans-serif, system-ui, sans-serif; }
+.site-announcement-contact { color: #fff; background: #237bc1; }
+.site-announcement-dismiss { color: #334155; background: #eef2f6; }
+
+@media (max-width: 520px) {
+  .site-announcement-actions { grid-template-columns: 1fr; }
+}

@@ -10,8 +10,9 @@ import {
   newlyCompletedWritingSegments,
   normalizeWritingSubmissionEntryLink,
   vocabularyEntryUsed,
-  writingSubmissionNotificationMessage
-} from "./writing-submission-core.js?v=20260812-submission-links1";
+  writingSubmissionNotificationMessage,
+  writingTopicResourceForTransport
+} from "./writing-submission-core.js?v=20260812-topic-transport1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -219,6 +220,7 @@ const state = {
   exportInFlight: false,
   writingProgress: [],
   selectedSubmissionId: "",
+  selectedStudentFeedback: null,
   submissionRequestGeneration: 0,
   grammarProblems: [],
   adminSubmissions: [],
@@ -522,6 +524,7 @@ function clearSession() {
   state.drafts = [];
   state.writingProgress = [];
   state.selectedSubmissionId = "";
+  state.selectedStudentFeedback = null;
   state.submissionRequestGeneration += 1;
   state.grammarProblems = [];
   state.adminSubmissions = [];
@@ -740,6 +743,10 @@ function canonicalWritingTopicResource(resource = state.selectedTopicResource) {
     state.studentAccess,
     state.studentAccessReady
   );
+}
+
+function canonicalWritingTopicResourceForTransport(resource = state.selectedTopicResource) {
+  return writingTopicResourceForTransport(canonicalWritingTopicResource(resource));
 }
 
 async function resolvePersistedWritingTopicResource(resource) {
@@ -2644,7 +2651,10 @@ function normalizeSubmission(value) {
     durationSeconds: Number(value?.durationSeconds ?? value?.duration_seconds ?? 0),
     submittedAt: String(value?.submittedAt || value?.submitted_at || value?.createdAt || value?.created_at || ""),
     occurrenceCount: Number(value?.occurrenceCount ?? value?.occurrence_count ?? 0),
-    deletedAt: value?.deletedAt || value?.deleted_at ? String(value.deletedAt || value.deleted_at) : ""
+    deletedAt: value?.deletedAt || value?.deleted_at ? String(value.deletedAt || value.deleted_at) : "",
+    topicResource: normalizeWritingTopicResource(value?.topicResource || value?.topic_resource),
+    hasPublishedFeedback: value?.hasPublishedFeedback === true || value?.has_published_feedback === true,
+    feedbackUnread: value?.feedbackUnread === true || value?.feedback_unread === true
   };
 }
 
@@ -2907,6 +2917,8 @@ function renderSubmissionList() {
   const fragment = document.createDocumentFragment();
   for (const submission of state.submissions) {
     const row = createElement("article", "submission-list-item");
+    if (submission.hasPublishedFeedback) row.classList.add("has-feedback");
+    if (submission.feedbackUnread) row.classList.add("has-unread-feedback");
     if (state.selectedSubmissionId === submission.id) row.classList.add("is-current");
     const selection = createElement("label", "submission-export-checkbox");
     const checkbox = document.createElement("input");
@@ -2919,9 +2931,17 @@ function renderSubmissionList() {
     button.type = "button";
     button.dataset.submissionId = submission.id;
     button.setAttribute("aria-current", String(state.selectedSubmissionId === submission.id));
+    const titleRow = createElement("span", "submission-row-title");
+    titleRow.append(createElement("strong", "", submission.topic));
+    if (submission.feedbackUnread) {
+      const bell = createElement("span", "submission-feedback-bell");
+      bell.setAttribute("aria-label", "1 則未讀 Edmund 評語");
+      bell.append(createElement("span", "submission-feedback-bell-icon", "🔔"), createElement("b", "", "1"));
+      titleRow.append(bell);
+    }
     button.append(
-      createElement("strong", "", submission.topic),
-      createElement("span", "", `${formatSubmissionDate(submission.submittedAt)} · ${submission.wordCount} words · ${formatCompactDuration(submission.durationSeconds)}`)
+      titleRow,
+      createElement("span", "submission-row-meta", `${formatSubmissionDate(submission.submittedAt)} · ${submission.wordCount} words · ${formatCompactDuration(submission.durationSeconds)}`)
     );
     row.append(selection, button);
     fragment.append(row);
@@ -2953,7 +2973,7 @@ function currentServerDraftPayload() {
   return {
     topic: elements.topicInput.value,
     answer: elements.writingInput.value,
-    topicResource: canonicalWritingTopicResource(state.selectedTopicResource),
+    topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
     imageZoom: state.writingImageZoom,
     countdown: normalizeWritingTimer(state.writingTimer),
     stopwatch: normalizeWritingStopwatch(state.writingStopwatch),
@@ -2969,7 +2989,7 @@ function storedDraftServerPayload(draft) {
   return {
     topic: String(draft?.topic || ""),
     answer: String(draft?.answer || ""),
-    topicResource: canonicalWritingTopicResource(draft?.selectedTopicResource),
+    topicResource: canonicalWritingTopicResourceForTransport(draft?.selectedTopicResource),
     imageZoom: [0.5, 1, 2, 3, 4, 5, 7].includes(Number(draft?.writingImageZoom))
       ? Number(draft.writingImageZoom)
       : 1,
@@ -3169,10 +3189,15 @@ function normalizeTeacherFeedback(value) {
     submissionId: String(value.submissionId || value.submission_id || ""),
     overallComment: String(value.overallComment || value.overall_comment || ""),
     finalComment: String(value.finalComment || value.final_comment || ""),
+    improvedVersion: String(value.improvedVersion || value.improved_version || ""),
     status: value.status === "published" ? "published" : "draft",
     version: Math.max(1, Number(value.version || 1)),
     publishedAt: String(value.publishedAt || value.published_at || ""),
     updatedAt: String(value.updatedAt || value.updated_at || ""),
+    transcriptionImproved: String(value.transcriptionImproved || value.transcription_improved || ""),
+    transcriptionModel: String(value.transcriptionModel || value.transcription_model || ""),
+    transcriptionVersion: Math.max(0, Number(value.transcriptionVersion ?? value.transcription_version ?? 0)),
+    topicResource: normalizeWritingTopicResource(value.topicResource || value.topic_resource),
     fragments
   };
 }
@@ -3197,8 +3222,120 @@ function feedbackTextSection(title, value, className = "") {
   return section;
 }
 
+function feedbackModelEssayDetails(feedback) {
+  const resource = normalizeWritingTopicResource(feedback?.topicResource);
+  if (!resource || !writingExerciseIdFromTopicResource(resource)) return null;
+  const details = createElement("details", "topic-reference-details teacher-feedback-model-reference");
+  details.dataset.feedbackModelReference = feedback.submissionId;
+  details.dataset.feedbackReferenceExercise = writingExerciseIdFromTopicResource(resource);
+  const summary = createElement("summary", "topic-reference-summary");
+  summary.append(
+    createElement("span", "topic-reference-book", "Open Book"),
+    createElement("strong", "", "展開參考 Edmund 範文 Model Essay"),
+    createElement("span", "topic-reference-chevron", "+")
+  );
+  const content = createElement("div", "topic-reference-content");
+  content.dataset.topicReferenceContent = "feedback-model-essay";
+  content.setAttribute("aria-live", "polite");
+  details.append(summary, content);
+  return details;
+}
+
+function renderStudentTranscriptions(feedback) {
+  const section = createElement("section", "teacher-feedback-transcriptions");
+  section.dataset.feedbackTranscriptions = feedback.submissionId;
+  const heading = createElement("div", "teacher-feedback-transcription-head");
+  heading.append(
+    createElement("h3", "", "謄文練習"),
+    createElement("p", "", "兩個謄文區會獨立儲存在你的帳戶；按下儲存後才會更新。")
+  );
+  section.append(heading);
+
+  const improvedField = createElement("label", "teacher-feedback-transcription-field");
+  improvedField.append(createElement("span", "", "謄文區 - 1 Edmund 改良版"));
+  const improvedCopy = document.createElement("textarea");
+  improvedCopy.rows = 10;
+  improvedCopy.maxLength = 100000;
+  improvedCopy.value = feedback.transcriptionImproved;
+  improvedCopy.dataset.transcriptionImproved = "true";
+  improvedField.append(improvedCopy);
+  section.append(improvedField);
+
+  const modelReference = feedbackModelEssayDetails(feedback);
+  if (modelReference) section.append(modelReference);
+  else section.append(createElement("p", "teacher-feedback-model-unavailable", "這篇文章沒有連結的 Edmund 範文。"));
+
+  const modelField = createElement("label", "teacher-feedback-transcription-field");
+  modelField.append(createElement("span", "", "謄文區 - 範文"));
+  const modelCopy = document.createElement("textarea");
+  modelCopy.rows = 10;
+  modelCopy.maxLength = 100000;
+  modelCopy.value = feedback.transcriptionModel;
+  modelCopy.dataset.transcriptionModel = "true";
+  modelField.append(modelCopy);
+  section.append(modelField);
+
+  const footer = createElement("div", "teacher-feedback-transcription-actions");
+  const status = createElement("p", "form-status", "");
+  status.dataset.transcriptionStatus = "true";
+  status.setAttribute("role", "status");
+  const save = createElement("button", "primary-button", "儲存謄文內容");
+  save.type = "button";
+  save.dataset.transcriptionSave = feedback.submissionId;
+  footer.append(status, save);
+  section.append(footer);
+  return section;
+}
+
+async function loadFeedbackModelEssayDetails(details, { retry = false } = {}) {
+  if (!details?.open || details.dataset.feedbackReferenceLoaded === "true" && !retry) return;
+  const feedback = state.selectedStudentFeedback;
+  const submissionId = String(details.dataset.feedbackModelReference || "");
+  if (
+    !feedback
+    || feedback.submissionId !== submissionId
+    || state.selectedSubmissionId !== submissionId
+  ) return;
+  const content = details.querySelector("[data-topic-reference-content]");
+  if (!content) return;
+  content.replaceChildren(loadingState("正在載入 Edmund 範文……"));
+  try {
+    await loadWritingTopicCatalog();
+    const route = selectedTopicReferenceRoute(feedback.topicResource);
+    if (!route || route.exerciseId !== details.dataset.feedbackReferenceExercise) {
+      throw new Error("Model essay is unavailable for this submission");
+    }
+    const catalog = await loadTopicReferenceCatalog({ retry });
+    if (
+      !details.isConnected
+      || state.selectedStudentFeedback !== feedback
+      || state.selectedSubmissionId !== submissionId
+    ) return;
+    const reference = catalog[route.exerciseId];
+    if (
+      !reference
+      || reference.exerciseId !== route.exerciseId
+      || reference.essayKey !== route.essayKey
+      || reference.writingHref !== route.writingHref
+    ) throw new Error(`Writing reference is missing for ${route.exerciseId}`);
+    renderModelEssayReference(content, reference);
+    details.dataset.feedbackReferenceLoaded = "true";
+  } catch (error) {
+    console.warn("Writing feedback model essay reference failed", error);
+    details.dataset.feedbackReferenceLoaded = "false";
+    const fallback = createElement("div", "topic-reference-error");
+    fallback.append(createElement("p", "", "暫時未能載入範文；你的謄文內容不受影響。"));
+    const retryButton = createElement("button", "small-button topic-reference-retry", "重新載入");
+    retryButton.type = "button";
+    retryButton.dataset.feedbackReferenceRetry = "true";
+    fallback.append(retryButton);
+    if (details.isConnected) content.replaceChildren(fallback);
+  }
+}
+
 function renderStudentFeedback(feedback, container) {
   if (!feedback || feedback.status !== "published") return;
+  state.selectedStudentFeedback = feedback;
   const panel = createElement("section", "teacher-feedback-view");
   const head = createElement("header", "teacher-feedback-view-head");
   head.append(
@@ -3222,15 +3359,18 @@ function renderStudentFeedback(feedback, container) {
   if (feedback.fragments.length) panel.append(fragments);
   const finalComment = feedbackTextSection("最後評語", feedback.finalComment, "teacher-feedback-final");
   if (finalComment) panel.append(finalComment);
+  const improvedVersion = feedbackTextSection("保留原意改良版", feedback.improvedVersion, "teacher-feedback-improved");
+  if (improvedVersion) panel.append(improvedVersion);
+  panel.append(renderStudentTranscriptions(feedback));
   container.append(panel);
 }
 
-function feedbackTextarea(label, value, datasetName) {
+function feedbackTextarea(label, value, datasetName, { rows = 3, maxLength = 20000 } = {}) {
   const wrapper = createElement("label", "teacher-feedback-field");
   wrapper.append(createElement("span", "", label));
   const textarea = document.createElement("textarea");
-  textarea.rows = 3;
-  textarea.maxLength = 20000;
+  textarea.rows = rows;
+  textarea.maxLength = maxLength;
   textarea.value = value || "";
   textarea.dataset[datasetName] = "true";
   wrapper.append(textarea);
@@ -3241,7 +3381,8 @@ function appendFeedbackEditorRows(list, count, values = [], suggestions = []) {
   const start = list.querySelectorAll("[data-feedback-pair]").length;
   for (let offset = 0; offset < count; offset += 1) {
     const index = start + offset;
-    const value = values[index] || {};
+    const savedValue = values[index];
+    const value = savedValue || {};
     const pair = createElement("article", "teacher-feedback-edit-pair");
     pair.dataset.feedbackPair = "true";
     const originalBand = createElement("section", "teacher-feedback-original");
@@ -3256,6 +3397,10 @@ function appendFeedbackEditorRows(list, count, values = [], suggestions = []) {
     original.maxLength = 10000;
     original.dataset.feedbackOriginal = "true";
     original.value = value.originalFragment || suggestions[index] || "";
+    if (!savedValue && suggestions[index]) {
+      pair.dataset.feedbackPrefilledOnly = "true";
+      original.addEventListener("input", () => { delete pair.dataset.feedbackPrefilledOnly; }, { once: true });
+    }
     originalBand.append(originalHead, original);
     const commentBand = createElement("section", "teacher-feedback-comment");
     commentBand.append(createElement("strong", "", "Edmund 評語"));
@@ -3302,6 +3447,12 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   add.dataset.feedbackAddTen = "true";
   panel.append(add);
   panel.append(feedbackTextarea("最後評語", feedback?.finalComment || "", "feedbackFinal"));
+  panel.append(feedbackTextarea(
+    "保留原意改良版",
+    feedback?.improvedVersion || "",
+    "feedbackImproved",
+    { rows: 12, maxLength: 100000 }
+  ));
   const status = createElement("p", "form-status teacher-feedback-save-status", "");
   status.dataset.feedbackSaveStatus = "true";
   status.setAttribute("role", "status");
@@ -3326,13 +3477,59 @@ function readAdminFeedbackEditor(editor) {
   for (const pair of editor.querySelectorAll("[data-feedback-pair]")) {
     const originalFragment = pair.querySelector("[data-feedback-original]")?.value.trim() || "";
     const edmundComment = pair.querySelector("[data-feedback-comment]")?.value.trim() || "";
+    if (pair.dataset.feedbackPrefilledOnly === "true" && !edmundComment) continue;
     if (!originalFragment && !edmundComment) continue;
     fragments.push({ originalFragment, edmundComment });
   }
   const overallComment = editor.querySelector("[data-feedback-overall]")?.value.trim() || "";
   const finalComment = editor.querySelector("[data-feedback-final]")?.value.trim() || "";
-  if (!overallComment && !finalComment && !fragments.length) throw new Error("請先填寫至少一項評語內容。");
-  return { overallComment, finalComment, fragments };
+  const improvedVersion = editor.querySelector("[data-feedback-improved]")?.value.trim() || "";
+  if (!overallComment && !finalComment && !improvedVersion && !fragments.length) {
+    throw new Error("請先填寫至少一項評語內容。");
+  }
+  return { overallComment, finalComment, improvedVersion, fragments };
+}
+
+async function saveStudentTranscriptions(submissionId) {
+  if (!UUID_RE.test(String(submissionId || "")) || state.user?.role !== "student") return;
+  const feedback = state.selectedStudentFeedback;
+  const section = elements.submissionDetail.querySelector(`[data-feedback-transcriptions="${submissionId}"]`);
+  if (!feedback || feedback.submissionId !== submissionId || !section) return;
+  const save = section.querySelector("[data-transcription-save]");
+  const status = section.querySelector("[data-transcription-status]");
+  const improvedVersionCopy = section.querySelector("[data-transcription-improved]")?.value || "";
+  const modelEssayCopy = section.querySelector("[data-transcription-model]")?.value || "";
+  if (save) save.disabled = true;
+  setStatus(status, "正在儲存謄文內容……");
+  try {
+    const payload = await apiJson(`/v1/submissions/${encodeURIComponent(submissionId)}/transcriptions`, {
+      method: "PUT",
+      body: JSON.stringify({
+        improvedVersionCopy,
+        modelEssayCopy,
+        expectedVersion: feedback.transcriptionVersion
+      })
+    });
+    if (state.selectedStudentFeedback !== feedback || state.selectedSubmissionId !== submissionId) return;
+    const saved = payload?.transcriptions;
+    const version = Number(saved?.version || 0);
+    if (!Number.isSafeInteger(version) || version < 1) throw new Error("謄文服務回應無效。");
+    feedback.transcriptionImproved = String(saved.improvedVersionCopy || "");
+    feedback.transcriptionModel = String(saved.modelEssayCopy || "");
+    feedback.transcriptionVersion = version;
+    setStatus(status, "謄文內容已儲存。", "success");
+    showToast("謄文內容已儲存。", "success");
+  } catch (error) {
+    setStatus(
+      status,
+      error?.code === "TRANSCRIPTION_VERSION_CONFLICT"
+        ? "內容已在另一個視窗更新；請重新開啟文章後再儲存。"
+        : error?.message || "暫時未能儲存謄文內容。",
+      "error"
+    );
+  } finally {
+    if (save?.isConnected) save.disabled = false;
+  }
 }
 
 async function loadStudentFeedback(submissionId, container, requestGeneration) {
@@ -3345,6 +3542,17 @@ async function loadStudentFeedback(submissionId, container, requestGeneration) {
     ) return;
     const feedback = normalizeTeacherFeedback(payload?.feedback);
     renderStudentFeedback(feedback, container);
+    if (feedback?.status === "published") {
+      const index = state.submissions.findIndex(item => item.id === submissionId);
+      if (index >= 0) {
+        state.submissions[index] = {
+          ...state.submissions[index],
+          hasPublishedFeedback: true,
+          feedbackUnread: false
+        };
+        renderSubmissionList();
+      }
+    }
   } catch (error) {
     console.warn("Student writing feedback could not be loaded", error);
     if (
@@ -3421,7 +3629,16 @@ async function saveAdminFeedback(status) {
         expectedVersion
       })
     });
-    if (!normalizeTeacherFeedback(response?.feedback)) throw new Error("評語服務回應無效。");
+    const savedFeedback = normalizeTeacherFeedback(response?.feedback);
+    if (!savedFeedback) throw new Error("評語服務回應無效。");
+    const submissionIndex = state.adminSubmissions.findIndex(item => item.id === submissionId);
+    if (submissionIndex >= 0) {
+      state.adminSubmissions[submissionIndex] = {
+        ...state.adminSubmissions[submissionIndex],
+        hasPublishedFeedback: savedFeedback.status === "published"
+      };
+      renderAdminSubmissions();
+    }
     showToast(status === "published" ? "評語已發送給學生。" : "評語草稿已儲存。", "success");
     if (isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
       await openAdminSubmission(submissionId);
@@ -3462,6 +3679,14 @@ async function deleteAdminFeedback() {
         expectedVersion
       })
     });
+    const submissionIndex = state.adminSubmissions.findIndex(item => item.id === submissionId);
+    if (submissionIndex >= 0) {
+      state.adminSubmissions[submissionIndex] = {
+        ...state.adminSubmissions[submissionIndex],
+        hasPublishedFeedback: false
+      };
+      renderAdminSubmissions();
+    }
     showToast("整份評語已刪除。", "success");
     if (isCurrentAdminFeedbackEditor(submissionId, requestGeneration, editor)) {
       await openAdminSubmission(submissionId);
@@ -3493,6 +3718,7 @@ async function openSubmission(id) {
   const requestGeneration = state.submissionRequestGeneration + 1;
   state.submissionRequestGeneration = requestGeneration;
   state.selectedSubmissionId = requestedId;
+  state.selectedStudentFeedback = null;
   renderSubmissionList();
   elements.submissionDetail.replaceChildren(loadingState("正在載入文章內容…"));
   try {
@@ -3641,7 +3867,8 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
       body: JSON.stringify({
         topic,
         answer,
-        durationSeconds: submittedDurationSeconds
+        durationSeconds: submittedDurationSeconds,
+        topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource)
       })
     });
     const saved = normalizeSubmission(payload?.submission || payload);
@@ -4022,7 +4249,10 @@ function renderAdminSubmissions() {
   }
   const fragment = document.createDocumentFragment();
   for (const submission of submissions) {
-    const button = createElement("button", "submission-row");
+    const button = createElement(
+      "button",
+      `submission-row${submission.hasPublishedFeedback ? " has-feedback" : ""}`
+    );
     button.type = "button";
     button.dataset.adminSubmissionId = submission.id;
     button.setAttribute("aria-current", String(state.selectedAdminSubmissionId === submission.id));
@@ -4457,6 +4687,13 @@ function bindEvents() {
     renderAdminSubmissions();
   });
   document.addEventListener("toggle", (event) => {
+    const feedbackModelReference = event.target.closest?.("[data-feedback-model-reference]");
+    if (feedbackModelReference?.open) {
+      loadFeedbackModelEssayDetails(feedbackModelReference).catch((error) => {
+        console.warn("Writing feedback model essay toggle failed", error);
+      });
+      return;
+    }
     const topicReference = event.target.closest?.("[data-topic-reference-kind]");
     if (topicReference?.open) {
       loadTopicReferenceDetails(topicReference).catch((error) => {
@@ -4485,6 +4722,16 @@ function bindEvents() {
     }
   }, true);
   document.addEventListener("click", (event) => {
+    const transcriptionSave = event.target.closest("[data-transcription-save]");
+    if (transcriptionSave) {
+      return saveStudentTranscriptions(transcriptionSave.dataset.transcriptionSave).catch(handleViewError);
+    }
+    const feedbackReferenceRetry = event.target.closest("[data-feedback-reference-retry]");
+    if (feedbackReferenceRetry) {
+      const details = feedbackReferenceRetry.closest("[data-feedback-model-reference]");
+      if (details) loadFeedbackModelEssayDetails(details, { retry: true }).catch(handleViewError);
+      return;
+    }
     const addFeedbackRows = event.target.closest("[data-feedback-add-ten]");
     if (addFeedbackRows) {
       const list = addFeedbackRows.closest("[data-feedback-editor]")?.querySelector("[data-feedback-pairs]");

@@ -1,7 +1,19 @@
 const MARKER_PREFIX = "[[@edmund-homework:v1:";
 const MARKER_PATTERN = /^\[\[@edmund-homework:v1:([A-Za-z0-9_-]+)\]\]$/gm;
+const TAG_MARKER_PREFIX = "[[@edmund-homework-tag:v1:";
+const TAG_MARKER_PATTERN = /^\[\[@edmund-homework-tag:v1:([a-z0-9-]+)\]\]$/gm;
 export const MAX_HOMEWORK_RESOURCES = 12;
 export const SCHEDULE_MESSAGE_MAX_LENGTH = 2000;
+
+export const HOMEWORK_ENTRY_TAGS = Object.freeze([
+  Object.freeze({ key: "reluctant", label: "唔想做...", color: "#ab12e6" }),
+  Object.freeze({ key: "favourite", label: "我最喜愛功課", color: "#ff3473" }),
+  Object.freeze({ key: "teacher-added", label: "老師新加", color: "#920909" }),
+  Object.freeze({ key: "well-done", label: "Well done!", color: "#ffd591" }),
+  Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80" })
+]);
+
+const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.key, tag]));
 
 export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
@@ -187,7 +199,9 @@ export function normalizeHomeworkHref(value) {
 function cleanVisibleMessage(value) {
   const resources = [];
   const seen = new Set();
-  const text = String(value || "").replace(MARKER_PATTERN, (marker, payload) => {
+  const tags = [];
+  const seenTags = new Set();
+  const withoutResources = String(value || "").replace(MARKER_PATTERN, (marker, payload) => {
     try {
       const resource = normalizeHomeworkResource(JSON.parse(decodeBase64Url(payload)));
       if (!resource || seen.has(resource.id)) return marker;
@@ -198,9 +212,17 @@ function cleanVisibleMessage(value) {
       return marker;
     }
   });
+  const text = withoutResources.replace(TAG_MARKER_PATTERN, (marker, key) => {
+    const tag = HOMEWORK_ENTRY_TAG_BY_KEY.get(String(key || ""));
+    if (!tag || seenTags.has(tag.key)) return marker;
+    seenTags.add(tag.key);
+    tags.push(tag);
+    return "";
+  });
   return {
     text: text.replace(/\n{3,}/g, "\n\n").trim(),
-    resources
+    resources,
+    tags
   };
 }
 
@@ -208,7 +230,7 @@ export function parseScheduleMessage(value) {
   return cleanVisibleMessage(value);
 }
 
-export function serializeScheduleMessage(text, resources = []) {
+export function serializeScheduleMessage(text, resources = [], tags = []) {
   const clean = cleanVisibleMessage(text).text;
   const normalized = [];
   const seen = new Set();
@@ -220,7 +242,18 @@ export function serializeScheduleMessage(text, resources = []) {
     if (normalized.length >= MAX_HOMEWORK_RESOURCES) break;
   }
   const markers = normalized.map((resource) => `${MARKER_PREFIX}${encodeBase64Url(JSON.stringify(resource))}]]`);
-  return [clean, ...markers].filter(Boolean).join("\n\n");
+  const normalizedTags = [];
+  const seenTags = new Set();
+  for (const rawTag of Array.isArray(tags) ? tags : []) {
+    const key = typeof rawTag === "string" ? rawTag : String(rawTag?.key || "");
+    const tag = HOMEWORK_ENTRY_TAG_BY_KEY.get(key)
+      || HOMEWORK_ENTRY_TAGS.find((candidate) => candidate.label === key);
+    if (!tag || seenTags.has(tag.key)) continue;
+    seenTags.add(tag.key);
+    normalizedTags.push(tag);
+  }
+  const tagMarkers = normalizedTags.map((tag) => `${TAG_MARKER_PREFIX}${tag.key}]]`);
+  return [clean, ...markers, ...tagMarkers].filter(Boolean).join("\n\n");
 }
 
 function boundaryBefore(value, index) {

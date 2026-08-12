@@ -188,7 +188,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-data\.js\?v=20260811-1/,
       /common-expression-system-imported-data\.js\?v=20260811-1/,
       /shared-answer-comparison\.js\?v=20260812-1/,
-      /common-expression-system\.js\?v=20260812-1/,
+      /common-expression-system\.js\?v=20260812-2/,
       /shared-system-nav\.css\?v=20260810-3/,
       /shared-system-nav\.js\?v=20260812-1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
@@ -207,7 +207,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
     const comparisonIndex = html.indexOf("shared-answer-comparison.js?v=20260812-1");
-    const engineIndex = html.indexOf("common-expression-system.js?v=20260812-1");
+    const engineIndex = html.indexOf("common-expression-system.js?v=20260812-2");
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
     assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);

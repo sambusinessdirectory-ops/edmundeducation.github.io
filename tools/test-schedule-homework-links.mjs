@@ -8,6 +8,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import vm from "node:vm";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
 import {
+  HOMEWORK_ENTRY_TAGS,
   MAX_HOMEWORK_RESOURCES,
   SCHEDULE_MESSAGE_MAX_LENGTH,
   acceptHomeworkAutocomplete,
@@ -506,6 +507,32 @@ assert.equal(parsed.resources.length, 1);
 assert.equal(parsed.resources[0].url, "writing-practice.html?exercise=model-essay-2-ielts-advantage-disadvantage");
 assert.doesNotMatch(parsed.text, /@edmund-homework/);
 assert.equal(parseScheduleMessage("普通舊安排").text, "普通舊安排", "legacy messages must stay unchanged");
+assert.deepEqual(
+  HOMEWORK_ENTRY_TAGS.map(({ label, color }) => [label, color]),
+  [
+    ["唔想做...", "#ab12e6"],
+    ["我最喜愛功課", "#ff3473"],
+    ["老師新加", "#920909"],
+    ["Well done!", "#ffd591"],
+    ["每15分鐘休息一次", "#a1ff80"]
+  ],
+  "Homework tags must keep the requested labels and exact colours"
+);
+const taggedStored = serializeScheduleMessage("Tagged homework", [selected], [
+  "老師新加",
+  "Well done!",
+  "not-a-real-tag",
+  "老師新加"
+]);
+const taggedParsed = parseScheduleMessage(taggedStored);
+assert.equal(taggedParsed.text, "Tagged homework");
+assert.deepEqual(taggedParsed.tags.map(tag => tag.label), ["老師新加", "Well done!"], "known tags should round-trip uniquely");
+assert.equal(taggedParsed.resources[0]?.id, selected.id, "tag markers must not disrupt homework resources");
+assert.deepEqual(
+  parseScheduleMessage("Legacy text\n[[@edmund-homework-tag:v1:unknown]]").tags,
+  [],
+  "unknown stored tag markers must not become trusted tags"
+);
 const legacyWritingSubmission = {
   id: "writing-submission:portal",
   type: "writing-submission",
@@ -665,9 +692,9 @@ const [scheduleHtml, scheduleJs, flashcards, writing, speaking, sentence, idiom,
 assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
-assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
+assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources, selectedTags\)/);
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260812-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-2/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");

@@ -537,12 +537,12 @@ async function rpc(env, functionName, payload) {
     );
   } catch (error) {
     console.error("Supabase RPC transport failed", functionName, safeErrorMessage(error));
-    throw new HttpError(502, "SUPABASE_UNAVAILABLE", "Speaking data service is temporarily unavailable");
+    throw new HttpError(502, "DATA_SERVICE_UNAVAILABLE", "Speaking data service is temporarily unavailable");
   }
   if (!response.ok) {
     console.error("Supabase RPC rejected", functionName, response.status);
     await discardResponse(response);
-    throw new HttpError(502, "SUPABASE_UNAVAILABLE", "Speaking data service is temporarily unavailable");
+    throw new HttpError(502, "DATA_SERVICE_UNAVAILABLE", "Speaking data service is temporarily unavailable");
   }
   try {
     return await response.json();

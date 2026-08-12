@@ -1498,8 +1498,8 @@
 
       <section class="admin-panel" id="create" data-admin-panel hidden>
         <h2 data-admin-title>新增每日英文通訊</h2>
-        <p class="admin-note">登入後可以新增通訊。圖片會壓縮後儲存在 Supabase，最新一篇會顯示在首頁大橫幅。</p>
-        <p class="admin-note" data-sync-status>正在連接 Supabase...</p>
+        <p class="admin-note">登入後可以新增通訊。圖片會壓縮後安全儲存，最新一篇會顯示在首頁大橫幅。</p>
+        <p class="admin-note" data-sync-status>正在連接資料服務...</p>
 
         <form class="post-form" data-post-form>
           <div class="field">
@@ -1739,7 +1739,7 @@
 
     async function supabaseRequest(path, options = {}) {
       if (!hasSupabaseConfig()) {
-        throw new Error("Supabase anon key is missing.");
+        throw new Error("資料服務設定不完整。");
       }
 
       const response = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
@@ -1768,7 +1768,7 @@
     async function loadStoredPosts() {
       if (!hasSupabaseConfig()) {
         cachedPosts = getLocalPosts();
-        setSyncStatus("Supabase public anon key is not set yet. Posts are still local until supabase-config.js is filled in.", true);
+        setSyncStatus("網上同步尚未設定；文章目前只儲存在這部裝置。", true);
         return cachedPosts;
       }
 
@@ -1786,10 +1786,10 @@
           postMap.set(post.id, post);
         });
         cachedPosts = sortPosts(Array.from(postMap.values()));
-        setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+        setSyncStatus("已安全連接；新文章會在不同裝置同步。");
       } catch (error) {
         cachedPosts = getLocalPosts();
-        setSyncStatus(`Supabase could not load posts: ${error.message}`, true);
+        setSyncStatus(`未能載入網上文章：${error.message}`, true);
       }
 
       return cachedPosts;
@@ -1814,7 +1814,7 @@
       if (!hasSupabaseConfig()) {
         cachedPosts = [post, ...cachedPosts];
         saveLocalPosts(cachedPosts);
-        setSyncStatus("Saved in this browser only because the Supabase anon key is not set.", true);
+        setSyncStatus("網上同步尚未設定；文章只儲存在這個瀏覽器。", true);
         return post;
       }
 
@@ -1828,7 +1828,7 @@
       });
       const savedPost = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : post;
       cachedPosts = [savedPost, ...cachedPosts.filter(item => item.id !== savedPost.id)];
-      setSyncStatus("Saved to Supabase.");
+      setSyncStatus("文章已安全儲存。");
       return savedPost;
     }
 
@@ -1839,7 +1839,7 @@
           ...cachedPosts.filter(item => item.id !== post.id)
         ]);
         saveLocalPosts(cachedPosts);
-        setSyncStatus("Updated in this browser only because Supabase is not configured.", true);
+        setSyncStatus("網上同步尚未設定；修訂只儲存在這個瀏覽器。", true);
         return post;
       }
 
@@ -1852,14 +1852,14 @@
         body: JSON.stringify(rowFromPost(post))
       });
       if (Array.isArray(rows) && rows.length === 0) {
-        throw new Error("No Supabase row was updated. Please run the update policy SQL, then try again.");
+        throw new Error("資料服務沒有確認修訂，請檢查管理權限後再試。");
       }
       const savedPost = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : post;
       cachedPosts = sortPosts([
         savedPost,
         ...cachedPosts.filter(item => item.id !== savedPost.id)
       ]);
-      setSyncStatus("Updated in Supabase.");
+      setSyncStatus("文章已安全更新。");
       return savedPost;
     }
 
@@ -1867,7 +1867,7 @@
       if (!hasSupabaseConfig()) {
         cachedPosts = cachedPosts.filter(post => post.id !== id);
         saveLocalPosts(cachedPosts);
-        setSyncStatus("Deleted from this browser only because Supabase is not configured.", true);
+        setSyncStatus("網上同步尚未設定；文章只從這個瀏覽器刪除。", true);
         return;
       }
 
@@ -1875,7 +1875,7 @@
         method: "DELETE"
       });
       cachedPosts = cachedPosts.filter(post => post.id !== id);
-      setSyncStatus("Deleted from Supabase.");
+      setSyncStatus("文章已安全刪除。");
     }
 
     function heroImageValue(src) {
@@ -2085,14 +2085,14 @@
     async function showPostById(id) {
       let post = allPostsForDisplay().find(item => item.id === id);
       if (!post && hasSupabaseConfig() && id !== defaultPost.id) {
-        setSyncStatus("Loading this post from Supabase...");
+        setSyncStatus("正在載入文章...");
         post = await loadStoredPostById(id);
-        setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+        setSyncStatus("已安全連接；新文章會在不同裝置同步。");
       }
       if (post && !post.isFullPost && post.id !== defaultPost.id) {
-        setSyncStatus("Loading this post from Supabase...");
+        setSyncStatus("正在載入文章...");
         post = await loadStoredPostById(post.id);
-        setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+        setSyncStatus("已安全連接；新文章會在不同裝置同步。");
       }
       if (post) renderPost(post);
       return post;
@@ -2224,8 +2224,8 @@
         renderSavedPosts();
         renderPostsGrid();
       } catch (error) {
-        alert(`Could not delete this post from Supabase: ${error.message}`);
-        setSyncStatus(`Supabase delete failed: ${error.message}`, true);
+        alert(`未能刪除文章：${error.message}`);
+        setSyncStatus(`刪除失敗：${error.message}`, true);
       }
     }
 
@@ -2430,8 +2430,8 @@
             ? await updateStoredPost(post)
             : await createStoredPost(post);
         } catch (error) {
-          alert(`Could not ${isEditing ? "update" : "save"} this post in Supabase: ${error.message}`);
-          setSyncStatus(`Supabase ${isEditing ? "update" : "save"} failed: ${error.message}`, true);
+          alert(`未能${isEditing ? "更新" : "儲存"}文章：${error.message}`);
+          setSyncStatus(`${isEditing ? "更新" : "儲存"}失敗：${error.message}`, true);
           if (submitButton) {
             submitButton.disabled = false;
             submitButton.textContent = originalSubmitText;
@@ -2504,7 +2504,7 @@
         try {
           await showPostById(id);
         } catch (error) {
-          setSyncStatus(`Supabase could not load this post: ${error.message}`, true);
+          setSyncStatus(`未能載入文章：${error.message}`, true);
         }
         closeModal();
       });
@@ -2584,7 +2584,7 @@
           document.querySelector("#newsletter-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
         } catch (error) {
           renderPostSearchResults([], input.value.trim(), "error");
-          setSyncStatus(`Supabase could not load this post: ${error.message}`, true);
+          setSyncStatus(`未能載入文章：${error.message}`, true);
         }
       });
     }

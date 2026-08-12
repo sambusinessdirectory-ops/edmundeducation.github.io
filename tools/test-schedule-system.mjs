@@ -46,6 +46,9 @@ const [
   massEditSql,
   accountManagementSql,
   moreThanHalfMigrationSql,
+  announcementMigrationSql,
+  announcementScript,
+  announcementCss,
   databaseSmokeTest,
   worker
 ] = await Promise.all([
@@ -57,9 +60,35 @@ const [
   read("supabase-schedule-mass-edit.sql"),
   read("supabase-schedule-account-management.sql"),
   read("supabase-schedule-more-than-half-completed.sql"),
+  read("supabase-schedule-announcements.sql"),
+  read("site-announcements.js"),
+  read("site-announcements.css"),
   read("tools/test-schedule-batch-database.sql"),
   read("workers/schedule-system/src/index.js")
 ]);
+
+assert.match(homepage, /site-announcements\.css\?v=/);
+assert.match(homepage, /site-announcements\.js\?v=/);
+assert.match(scheduleHtml, /announcement-admin-panel/);
+assert.match(scheduleHtml, /data-announcement-message/);
+assert.match(scheduleHtml, /data-entry-tags/);
+assert.match(scheduleJs, /HOMEWORK_ENTRY_TAGS/);
+assert.match(scheduleJs, /announcementApi/);
+assert.match(scheduleJs, /Authorization:\s*`Bearer \$\{state\.currentUser\.adminToken\}`/);
+assert.match(announcementScript, /STORAGE_KEY/);
+assert.match(announcementScript, /localStorage\.setItem/);
+assert.doesNotMatch(announcementScript, /method:\s*["'](?:POST|PATCH|PUT|DELETE)/i);
+assert.match(announcementScript, /聯絡 Edmund 以知道更多/);
+assert.match(announcementScript, /知道了/);
+assert.match(announcementCss, /\.site-announcement-contact[^}]*color:\s*#fff[^}]*background:\s*#[0-9a-f]{6}/is);
+assert.match(announcementMigrationSql, /alter table public\.schedule_announcements enable row level security/i);
+assert.match(announcementMigrationSql, /revoke all on table public\.schedule_announcements/i);
+assert.match(announcementMigrationSql, /schedule_announcement_public_list/);
+assert.match(announcementMigrationSql, /schedule_announcement_admin_auth/);
+assert.match(announcementMigrationSql, /schedule_announcement_admin_delete/);
+assert.doesNotMatch(announcementMigrationSql, /grant (?:select|insert|update|delete) on table/i);
+assert.match(worker, /imageContentTypeFromBytes/);
+assert.match(worker, /headers\.set\("Cache-Control", "no-store"\)/);
 
 assert.equal(SCHEDULE_MIN_DATE, "2026-01-01");
 assert.equal(SCHEDULE_MAX_DATE, "2050-12-31");
@@ -360,7 +389,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260812-1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260812-2/);
 assert.match(scheduleHtml, /data-copy-week-link/);
 assert.match(scheduleHtml, /\[data-student-list\]\s*\{[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
 assert.match(scheduleHtml, /@media\s*\(max-width:\s*980px\)[\s\S]*?\[data-student-list\]\s*\{[^}]*repeat\(2,/s);
@@ -520,7 +549,7 @@ assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260812-1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = import\(HOMEWORK_CATALOG_URL\)/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-1/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-2/);
 assert.match(scheduleJs, /schedule-mass-edit\.mjs\?v=20260803-1/);
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
 assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);

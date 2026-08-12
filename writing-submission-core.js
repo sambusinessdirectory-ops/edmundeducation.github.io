@@ -50,6 +50,26 @@ export function writingSubmissionNotificationMessage(submissionId, baseHref = "h
   return `Edmund 通知：\n您的作文已改好，請努力溫習！ 😬💪🏻\n${url}`;
 }
 
+export function writingTopicResourceForTransport(resource) {
+  if (!resource || typeof resource !== "object" || Array.isArray(resource)) return null;
+  return {
+    id: String(resource.id || ""),
+    type: String(resource.type || ""),
+    label: String(resource.label || ""),
+    detail: String(resource.detail || ""),
+    sectionKey: String(resource.sectionKey || ""),
+    questionPrompt: Array.isArray(resource.questionPrompt)
+      ? resource.questionPrompt.map(value => String(value || ""))
+      : [],
+    questionImages: Array.isArray(resource.questionImages)
+      ? resource.questionImages.map(image => ({
+          src: String(image?.src || ""),
+          alt: String(image?.alt || "")
+        }))
+      : []
+  };
+}
+
 export function countEnglishWords(value) {
   const text = String(value || "").trim();
   if (!text) return 0;

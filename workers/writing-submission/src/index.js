@@ -12,6 +12,7 @@ import {
   GRAMMAR_CORPUS_VERSION,
   lookupApprovedExactCorrection
 } from "./grammar-corpus.js";
+import { WRITING_SUBMISSION_TOPIC_CATALOG } from "./topic-catalog.js";
 
 const SERVICE_NAME = "edmund-writing-submission";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -41,6 +42,9 @@ const MAX_FEEDBACK_COMMENT_CHARACTERS = 20000;
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
+const CANONICAL_WRITING_TOPICS = new Map(
+  WRITING_SUBMISSION_TOPIC_CATALOG.map((topic) => [topic.id, topic])
+);
 
 export default {
   async fetch(request, env) {
@@ -86,7 +90,7 @@ async function route(request, env) {
       {
         ok: configured,
         service: SERVICE_NAME,
-        storage: "supabase-private",
+        storage: "private-data-service",
         limits: {
           maxTopicCharacters: MAX_TOPIC_CHARACTERS,
           maxAnswerCharacters: MAX_ANSWER_CHARACTERS,
@@ -175,6 +179,12 @@ async function route(request, env) {
   );
   if (submissionFeedbackMatch && request.method === "GET") {
     return getSubmissionFeedback(request, env, submissionFeedbackMatch[1]);
+  }
+  const submissionTranscriptionMatch = url.pathname.match(
+    /^\/v1\/submissions\/([0-9a-f-]{36})\/transcriptions$/i
+  );
+  if (submissionTranscriptionMatch && request.method === "PUT") {
+    return putSubmissionTranscriptions(request, env, submissionTranscriptionMatch[1]);
   }
 
   if (url.pathname === "/v1/grammar-occurrences/batch" && request.method === "POST") {
@@ -483,7 +493,7 @@ async function rpc(env, functionName, payload, knownUpstreamErrors = undefined) 
     console.error("Supabase RPC transport failed", functionName, safeErrorMessage(error));
     throw new HttpError(
       502,
-      "SUPABASE_UNAVAILABLE",
+      "DATA_SERVICE_UNAVAILABLE",
       "Writing Submission data service is temporarily unavailable"
     );
   }
@@ -505,7 +515,7 @@ async function rpc(env, functionName, payload, knownUpstreamErrors = undefined) 
     }
     throw new HttpError(
       502,
-      "SUPABASE_UNAVAILABLE",
+      "DATA_SERVICE_UNAVAILABLE",
       "Writing Submission data service is temporarily unavailable"
     );
   }
@@ -864,7 +874,7 @@ function wordCount(value) {
 
 function normalizeSubmissionPayload(payload) {
   if (
-    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds"]))
+    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds", "topicResource"]))
     || !Object.prototype.hasOwnProperty.call(payload, "topic")
     || !Object.prototype.hasOwnProperty.call(payload, "answer")
   ) {
@@ -894,7 +904,15 @@ function normalizeSubmissionPayload(payload) {
   ) {
     throw new HttpError(400, "INVALID_SUBMISSION", "durationSeconds is invalid");
   }
-  return { topic, answer, wordCount: words, durationSeconds };
+  return {
+    topic,
+    answer,
+    wordCount: words,
+    durationSeconds,
+    topicResource: payload.topicResource === undefined || payload.topicResource === null
+      ? null
+      : normalizeDraftTopicResource(payload.topicResource)
+  };
 }
 
 function normalizeOptionalWritingText(value, label, maxCharacters, maxBytes) {
@@ -1002,7 +1020,24 @@ function normalizeDraftTopicResource(value) {
       )
     };
   });
-  return { id, type, label, detail, sectionKey, questionPrompt, questionImages };
+  const normalized = { id, type, label, detail, sectionKey, questionPrompt, questionImages };
+  const canonical = CANONICAL_WRITING_TOPICS.get(id);
+  if (!canonical || JSON.stringify(normalized) !== JSON.stringify(canonical)) {
+    throw new HttpError(400, "INVALID_DRAFT", "topicResource is not a canonical Writing Practice topic");
+  }
+  return canonical;
+}
+
+function authorizeTopicResource(resource, student) {
+  if (resource === null) return null;
+  if (
+    !student?.access
+    || !resource.sectionKey
+    || student.access[resource.sectionKey] === false
+  ) {
+    throw new HttpError(403, "TOPIC_ACCESS_DENIED", "This Writing Practice topic is not available to this account");
+  }
+  return resource;
 }
 
 function normalizeDraftCountdown(value) {
@@ -1145,6 +1180,17 @@ function submissionResponse(row) {
   if (Object.prototype.hasOwnProperty.call(row, "deleted_at")) {
     response.deletedAt = row.deleted_at ? String(row.deleted_at) : null;
   }
+  if (Object.prototype.hasOwnProperty.call(row, "topic_resource")) {
+    response.topicResource = row.topic_resource && typeof row.topic_resource === "object"
+      ? row.topic_resource
+      : null;
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "has_published_feedback")) {
+    response.hasPublishedFeedback = row.has_published_feedback === true;
+  }
+  if (Object.prototype.hasOwnProperty.call(row, "feedback_unread")) {
+    response.feedbackUnread = row.feedback_unread === true;
+  }
   return response;
 }
 
@@ -1155,6 +1201,7 @@ function feedbackResponse(row) {
     submissionId: String(row.submission_id || ""),
     overallComment: String(row.overall_comment || ""),
     finalComment: String(row.final_comment || ""),
+    improvedVersion: String(row.improved_version || ""),
     status: row.status === "published" ? "published" : "draft",
     version: Number(row.version || 0),
     publishedAt: row.published_at ? String(row.published_at) : null,
@@ -1164,7 +1211,11 @@ function feedbackResponse(row) {
       position: Number(fragment && fragment.position ? fragment.position : index + 1),
       originalFragment: String(fragment?.originalFragment ?? fragment?.original_fragment ?? ""),
       edmundComment: String(fragment?.edmundComment ?? fragment?.edmund_comment ?? "")
-    }))
+    })),
+    transcriptionImproved: String(row.transcription_improved || ""),
+    transcriptionModel: String(row.transcription_model || ""),
+    transcriptionVersion: Math.max(0, Number(row.transcription_version || 0)),
+    topicResource: row.topic_resource && typeof row.topic_resource === "object" ? row.topic_resource : null
   };
 }
 
@@ -1184,14 +1235,17 @@ function normalizeFeedbackText(value, label, maximumCharacters) {
 }
 
 function normalizeFeedbackPayload(payload) {
-  if (!hasExactKeys(payload, [
+  if (!hasOnlyKeys(payload, new Set([
     "overallComment",
     "fragments",
     "finalComment",
+    "improvedVersion",
     "status",
     "expectedVersion",
     "expectedFeedbackId"
-  ])) {
+  ])) || ![
+    "overallComment", "fragments", "finalComment", "status", "expectedVersion", "expectedFeedbackId"
+  ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
   }
   const expectedVersion = payload.expectedVersion;
@@ -1222,6 +1276,11 @@ function normalizeFeedbackPayload(payload) {
     "finalComment",
     MAX_FEEDBACK_HEADER_CHARACTERS
   );
+  const improvedVersion = normalizeFeedbackText(
+    payload.improvedVersion === undefined ? "" : payload.improvedVersion,
+    "improvedVersion",
+    100000
+  );
   if (!Array.isArray(payload.fragments) || payload.fragments.length > MAX_FEEDBACK_FRAGMENTS) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback fragments are invalid");
   }
@@ -1251,23 +1310,14 @@ function normalizeFeedbackPayload(payload) {
     }
     return { originalFragment, edmundComment };
   });
-  if (!overallComment.trim() && !finalComment.trim() && fragments.length === 0) {
+  if (!overallComment.trim() && !finalComment.trim() && !improvedVersion.trim() && fragments.length === 0) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");
-  }
-  if (
-    status === "published"
-    && (!overallComment.trim() || !finalComment.trim() || fragments.length === 0)
-  ) {
-    throw new HttpError(
-      400,
-      "INVALID_FEEDBACK",
-      "Published feedback needs an overall comment, at least one complete fragment, and a final comment"
-    );
   }
   return {
     overallComment,
     fragments,
     finalComment,
+    improvedVersion,
     status,
     expectedVersion,
     expectedFeedbackId: expectedFeedbackId === null ? null : expectedFeedbackId.toLowerCase()
@@ -1323,7 +1373,7 @@ async function listSubmissions(request, env, url) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const { page, pageSize, offset } = pageParameters(url, MAX_PAGE_SIZE);
-  const rows = await rpc(env, "writing_submission_list_v2", {
+  const rows = await rpc(env, "writing_submission_list_v3", {
     p_student_id: student.id,
     p_limit: pageSize + 1,
     p_offset: offset
@@ -1385,6 +1435,7 @@ async function putDraft(request, env, draftId) {
     "Too many draft updates; please wait and try again"
   );
   const payload = normalizeDraftPayload(await readLimitedJson(request, MAX_DRAFT_BODY_BYTES));
+  payload.topicResource = authorizeTopicResource(payload.topicResource, student);
   const row = singleRow(await rpc(env, "writing_submission_save_draft", {
     p_id: draftId.toLowerCase(),
     p_student_id: student.id,
@@ -1426,7 +1477,7 @@ async function getSubmission(request, env, submissionId) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const normalizedId = submissionId.toLowerCase();
-  const row = singleRow(await rpc(env, "writing_submission_get_v2", {
+  const row = singleRow(await rpc(env, "writing_submission_get_v3", {
     p_student_id: student.id,
     p_id: normalizedId
   }));
@@ -1461,13 +1512,15 @@ async function putSubmission(request, env, submissionId) {
   const payload = normalizeSubmissionPayload(
     await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_submit_v3", {
+  payload.topicResource = authorizeTopicResource(payload.topicResource, student);
+  const row = singleRow(await rpc(env, "writing_submission_submit_v4", {
     p_id: submissionId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
     p_answer: payload.answer,
     p_word_count: payload.wordCount,
-    p_duration_seconds: payload.durationSeconds
+    p_duration_seconds: payload.durationSeconds,
+    p_topic_resource: payload.topicResource
   }));
   if (!row) {
     throw new HttpError(409, "SUBMISSION_LIMIT_REACHED", "Submission could not be saved");
@@ -1507,11 +1560,62 @@ async function getSubmissionFeedback(request, env, submissionId) {
   }
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_student_get", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open", {
     p_student_id: student.id,
     p_submission_id: submissionId.toLowerCase()
   }));
   return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
+}
+
+function normalizeTranscriptionPayload(payload) {
+  if (!hasExactKeys(payload, ["improvedVersionCopy", "modelEssayCopy", "expectedVersion"])) {
+    throw new HttpError(400, "INVALID_TRANSCRIPTION", "Transcription payload has an invalid shape");
+  }
+  const expectedVersion = Number(payload.expectedVersion);
+  if (!Number.isSafeInteger(expectedVersion) || expectedVersion < 0 || expectedVersion > 2147483647) {
+    throw new HttpError(400, "INVALID_TRANSCRIPTION", "expectedVersion is invalid");
+  }
+  return {
+    improvedVersionCopy: normalizeFeedbackText(payload.improvedVersionCopy, "improvedVersionCopy", 100000),
+    modelEssayCopy: normalizeFeedbackText(payload.modelEssayCopy, "modelEssayCopy", 100000),
+    expectedVersion
+  };
+}
+
+async function putSubmissionTranscriptions(request, env, submissionId) {
+  if (!UUID_RE.test(submissionId)) throw new HttpError(404, "SUBMISSION_NOT_FOUND", "Submission not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-transcription:${student.id}`,
+    "Transcription saving is temporarily unavailable",
+    "TOO_MANY_SUBMISSION_WRITES",
+    "Too many transcription updates; please wait and try again"
+  );
+  const payload = normalizeTranscriptionPayload(await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES * 2));
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_save_transcriptions", {
+    p_student_id: student.id,
+    p_submission_id: submissionId.toLowerCase(),
+    p_improved_version_copy: payload.improvedVersionCopy,
+    p_model_essay_copy: payload.modelEssayCopy,
+    p_expected_version: payload.expectedVersion
+  }, {
+    P4090: {
+      status: 409,
+      code: "TRANSCRIPTION_VERSION_CONFLICT",
+      message: "Transcriptions were changed in another session; reload before saving again"
+    }
+  }));
+  if (!row) throw new HttpError(404, "FEEDBACK_NOT_FOUND", "Published feedback not found");
+  return json({
+    transcriptions: {
+      improvedVersionCopy: String(row.improved_version_copy || ""),
+      modelEssayCopy: String(row.model_essay_copy || ""),
+      version: Number(row.version || 0),
+      updatedAt: String(row.updated_at || "")
+    }
+  }, 200, request, env);
 }
 
 async function getProgress(request, env) {
@@ -1936,7 +2040,7 @@ async function listAdminSubmissions(request, env, url) {
   if (studentId !== null && !UUID_RE.test(studentId)) {
     throw new HttpError(400, "INVALID_STUDENT", "studentId is invalid");
   }
-  const rows = await rpc(env, "writing_submission_admin_list_submissions_v2", {
+  const rows = await rpc(env, "writing_submission_admin_list_submissions_v3", {
     p_admin_token: admin.token,
     p_student_id: studentId,
     p_limit: pageSize + 1,
@@ -2007,7 +2111,7 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
   }
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v2", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2036,6 +2140,7 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     p_overall_comment: payload.overallComment,
     p_fragments: payload.fragments,
     p_final_comment: payload.finalComment,
+    p_improved_version: payload.improvedVersion,
     p_status: payload.status,
     p_expected_version: payload.expectedVersion,
     p_expected_feedback_id: payload.expectedFeedbackId

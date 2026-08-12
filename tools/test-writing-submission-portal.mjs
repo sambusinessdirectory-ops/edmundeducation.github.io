@@ -15,7 +15,8 @@ import {
   normalizeVocabularyMatchText,
   vocabularyEntryUsed,
   writingSubmissionArticlePath,
-  writingSubmissionNotificationMessage
+  writingSubmissionNotificationMessage,
+  writingTopicResourceForTransport
 } from "../writing-submission-core.js";
 
 const root = path.resolve(import.meta.dirname, "..");
@@ -45,6 +46,14 @@ const topicAccessMigration = fs.readFileSync(
 );
 const workerSource = fs.readFileSync(path.join(root, "workers/writing-submission/src/index.js"), "utf8");
 const enhancementMigration = fs.readFileSync(path.join(root, "supabase-writing-submission-enhancements.sql"), "utf8");
+const feedbackRevisionMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-feedback-revision.sql"),
+  "utf8"
+);
+const workerTopicCatalog = fs.readFileSync(
+  path.join(root, "workers/writing-submission/src/topic-catalog.js"),
+  "utf8"
+);
 
 test("article notifications use strict owner-scoped deep links", () => {
   const id = "f55e7f9d-d49d-4d94-aad5-a84cb5574f59";
@@ -66,7 +75,7 @@ test("article notifications use strict owner-scoped deep links", () => {
   );
   assert.equal(normalizeWritingSubmissionEntryLink("?submission=bad"), null);
   assert.equal(normalizeWritingSubmissionEntryLink("?exercise=good&student=someone"), null);
-  assert.match(workerSource, /writing_submission_get_v2[\s\S]*?p_student_id:\s*student\.id/);
+  assert.match(workerSource, /writing_submission_get_v3[\s\S]*?p_student_id:\s*student\.id/);
   assert.match(enhancementMigration, /where submission\.student_id = p_student_id[\s\S]*?and submission\.id = p_id[\s\S]*?and submission\.deleted_at is null/i);
 });
 
@@ -202,8 +211,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260812-submission-links1/);
-  assert.match(html, /writing-submission\.js\?v=20260812-submission-links1/);
+  assert.match(html, /writing-submission\.css\?v=20260812-feedback2/);
+  assert.match(html, /writing-submission\.js\?v=20260812-feedback3/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -280,6 +289,36 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(css, /\.topic-picker-dialog/);
 });
 
+test("Writing Practice topics strip display-only fields from draft and submission transport", () => {
+  const transported = writingTopicResourceForTransport({
+    id: "fill:dse-writing-2025-part-a",
+    type: "fill-blanks",
+    label: "DSE Writing 2025 Part A",
+    detail: "Writing Practice",
+    url: "writing-practice.html?exercise=dse-writing-2025-part-a",
+    sectionKey: "dse-writing",
+    questionPrompt: ["Write your answer."],
+    questionImages: [{ src: "assets/question.png", alt: "Question" }],
+    modelEssay: "Display-only reference content"
+  });
+  assert.deepEqual(transported, {
+    id: "fill:dse-writing-2025-part-a",
+    type: "fill-blanks",
+    label: "DSE Writing 2025 Part A",
+    detail: "Writing Practice",
+    sectionKey: "dse-writing",
+    questionPrompt: ["Write your answer."],
+    questionImages: [{ src: "assets/question.png", alt: "Question" }]
+  });
+  assert.equal(Object.hasOwn(transported, "url"), false);
+  assert.equal(Object.hasOwn(transported, "modelEssay"), false);
+  assert.equal(
+    (script.match(/topicResource:\s*canonicalWritingTopicResourceForTransport\(/g) || []).length,
+    3,
+    "current drafts, archived drafts, and final submissions must all use the strict transport shape"
+  );
+});
+
 test("homework exercise links preserve an unrelated draft and resume the matching draft", () => {
   const handler = script.match(
     /async function openStudentEntryLink\(\) \{[\s\S]*?\n\}\n\nasync function openGrammarSourceSubmission/
@@ -354,7 +393,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /canonicalAccessibleWritingTopic\(/);
   assert.match(script, /await loadWritingTopicCatalog\(\)/);
   assert.match(script, /await restoreDraft\(\)/);
-  assert.match(script, /topicResource:\s*canonicalWritingTopicResource\(state\.selectedTopicResource\)/);
+  assert.match(script, /topicResource:\s*canonicalWritingTopicResourceForTransport\(state\.selectedTopicResource\)/);
   assert.doesNotMatch(script, /state\.studentAccess\?\.\[resource\.sectionKey\]\s*!==\s*false/);
   assert.doesNotMatch(script, /state\.studentAccess\s*=\s*saved\.access/);
   assert.match(script, /id\.startsWith\("fill:"\) \? id\.slice\(5\) : ""/);
@@ -380,13 +419,15 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /dataset\.topicReferenceRetry/);
   assert.match(script, /暫時未能載入參考內容/);
   assert.match(script, /dataset\.topicReferenceTranslationToggle/);
+  assert.match(script, /pair\.dataset\.feedbackPrefilledOnly = "true"/);
+  assert.match(script, /pair\.dataset\.feedbackPrefilledOnly === "true" && !edmundComment/);
   assert.match(script, /"中文翻譯"/);
   assert.match(script, /row\?\.english/);
   assert.match(script, /row\?\.chinese/);
   assert.match(script, /dataset\.topicReferenceVocabulary/);
   assert.match(script, /dataset\.topicReferenceVocabularyScale/);
   assert.match(script, /dataset\.topicReferenceVocabularyUsageStatus/);
-  assert.match(script, /writing-submission-core\.js\?v=20260812-submission-links1/);
+  assert.match(script, /writing-submission-core\.js\?v=20260812-topic-transport1/);
   assert.doesNotMatch(script, /row\.setAttribute\("aria-label", used/);
   assert.match(script, /refreshVocabularyUsage\(content\)/);
   assert.match(script, /refreshVocabularyUsage\(\)/);
@@ -426,6 +467,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
 test("article and feedback navigation invalidates stale requests and clears sensitive detail", () => {
   const clearSessionSource = script.match(/function clearSession\(\) \{[\s\S]*?^\}/m)?.[0] || "";
   assert.match(clearSessionSource, /state\.selectedSubmissionId = ""/);
+  assert.match(clearSessionSource, /state\.selectedStudentFeedback = null/);
   assert.match(clearSessionSource, /state\.submissionRequestGeneration \+= 1/);
   assert.match(clearSessionSource, /state\.selectedAdminSubmissionId = ""/);
   assert.match(clearSessionSource, /state\.adminSubmissionRequestGeneration \+= 1/);
@@ -475,6 +517,59 @@ test("article and feedback navigation invalidates stale requests and clears sens
 
   const deleteSubmissionSource = script.match(/async function deleteStudentSubmission\(id\) \{[\s\S]*?^\}/m)?.[0] || "";
   assert.match(deleteSubmissionSource, /if \(state\.selectedSubmissionId === id\) \{[\s\S]*?state\.submissionRequestGeneration \+= 1/);
+});
+
+test("published feedback is optional by section, unread-aware, and supports saved transcription", () => {
+  assert.match(script, /hasPublishedFeedback/);
+  assert.match(script, /feedbackUnread/);
+  assert.match(script, /row\.classList\.add\("has-feedback"\)/);
+  assert.match(script, /submission-feedback-bell/);
+  assert.match(script, /`submission-row\$\{submission\.hasPublishedFeedback \? " has-feedback" : ""\}`/);
+  assert.match(script, /保留原意改良版/);
+  assert.match(script, /謄文區 - 1 Edmund 改良版/);
+  assert.match(script, /謄文區 - 範文/);
+  assert.match(script, /\/transcriptions/);
+  assert.match(script, /expectedVersion:\s*feedback\.transcriptionVersion/);
+  assert.match(script, /loadFeedbackModelEssayDetails/);
+  assert.match(script, /dataset\.topicReferenceTranslationToggle/);
+  assert.match(css, /\.submission-list-item\.has-feedback/);
+  assert.match(css, /\.submission-feedback-bell/);
+  assert.match(css, /\.teacher-feedback-transcriptions/);
+  assert.match(workerSource, /writing_submission_feedback_student_open/);
+  assert.match(workerSource, /writing_submission_feedback_student_save_transcriptions/);
+  assert.match(workerSource, /writing_submission_feedback_admin_get_v2/);
+  assert.match(workerSource, /p_improved_version:\s*payload\.improvedVersion/);
+  assert.match(workerSource, /if \(!overallComment\.trim\(\) && !finalComment\.trim\(\) && !improvedVersion\.trim\(\) && fragments\.length === 0\)/);
+  assert.match(feedbackRevisionMigration, /add column if not exists improved_version text/);
+  assert.match(feedbackRevisionMigration, /add column if not exists student_read_at timestamptz/);
+  assert.match(feedbackRevisionMigration, /writing_submission_feedback_unread_idx/);
+  assert.match(feedbackRevisionMigration, /writing_submission_feedback_student_open/);
+  assert.match(feedbackRevisionMigration, /writing_submission_feedback_student_save_transcriptions/);
+  assert.match(feedbackRevisionMigration, /writing_submission_admin_list_submissions_v3/);
+  assert.match(feedbackRevisionMigration, /alter table public\.writing_submission_feedback_transcriptions enable row level security/i);
+  assert.doesNotMatch(feedbackRevisionMigration, /grant (?:select|insert|update|delete) on table/i);
+});
+
+test("submission topic linkage is canonicalized and authorized by the Worker", () => {
+  assert.match(workerSource, /WRITING_SUBMISSION_TOPIC_CATALOG/);
+  assert.match(workerSource, /CANONICAL_WRITING_TOPICS/);
+  assert.match(workerSource, /JSON\.stringify\(normalized\) !== JSON\.stringify\(canonical\)/);
+  assert.match(workerSource, /authorizeTopicResource\(payload\.topicResource, student\)/);
+  assert.match(workerSource, /student\.access\[resource\.sectionKey\] === false/);
+  assert.match(workerTopicCatalog, /Generated by tools\/generate-writing-submission-worker-topic-catalog\.mjs/);
+  assert.match(workerTopicCatalog, /"id": "fill:dse-writing-2025-part-a"/);
+  assert.doesNotMatch(workerTopicCatalog, /"paragraphs"\s*:|"chinese"\s*:|"modelEssay"\s*:/i);
+  assert.match(feedbackRevisionMigration, /add column if not exists topic_resource jsonb/);
+  assert.match(feedbackRevisionMigration, /writing_submission_submit_v4/);
+  assert.match(feedbackRevisionMigration, /writing_submission_get_v3/);
+  assert.match(feedbackRevisionMigration, /writing_submission_list_v3/);
+  assert.match(feedbackRevisionMigration, /topic_resource ->> 'type' is not distinct from 'fill-blanks'/);
+  assert.match(feedbackRevisionMigration, /coalesce\(p_topic_resource ->> 'id', ''\) !~ '\^fill:/);
+  const submitV4 = feedbackRevisionMigration.match(
+    /create or replace function public\.writing_submission_submit_v4[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(submitV4, /from public\.writing_submission_submit_v3\(/);
+  assert.doesNotMatch(submitV4, /pg_advisory_xact_lock/);
 });
 
 test("detailed grammar history and the admin explanation-review queue are private and linked", () => {

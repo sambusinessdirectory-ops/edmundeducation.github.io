@@ -3834,7 +3834,7 @@
           <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
           <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
           <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
-          <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
+          <span class="sync-pill warning" data-sync-status>正在安全連接</span>
           <button class="pill-button hidden" type="button" data-back>Back</button>
           <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
         </div>
@@ -185532,7 +185532,7 @@ window.EDMUND_FLASHCARD_SEED = {
       return {
         id: student.id || "",
         name: String(student.name || "").trim(),
-        password: String(student.password || "Stored securely in Supabase"),
+        password: String(student.password || "Stored securely online"),
         createdAt: student.createdAt || Date.now(),
         sortOrder: Number.isFinite(Number(student.sortOrder)) ? Number(student.sortOrder) : Number.MAX_SAFE_INTEGER,
         access: { ...defaultAccess(), ...(student.access || {}) }
@@ -185694,7 +185694,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const context = options.context || captureSupabaseStateSaveContext();
       if (!context) return false;
       const stillActive = () => captureSupabaseStateSaveContext()?.owner === context.owner;
-      if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: saving", "warning");
+      if (!options.silent && stillActive()) updateSupabaseStatus("正在安全儲存", "warning");
 
       if (context.type === "admin") {
         try {
@@ -185707,11 +185707,11 @@ window.EDMUND_FLASHCARD_SEED = {
           });
           if (saved !== true) throw new Error("Admin state save returned false.");
           if (key === FAMILIARITY_KEY) clearSyncedPendingFamiliarity(value, context);
-          if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
+          if (!options.silent && stillActive()) updateSupabaseStatus("已安全連接", "live");
           return true;
         } catch (error) {
-          console.warn("Supabase admin flashcard save failed:", error);
-          if (stillActive()) updateSupabaseStatus("Supabase: admin state SQL needed", "error");
+          console.warn("Admin flashcard save failed:", error);
+          if (stillActive()) updateSupabaseStatus("管理資料服務需要更新", "error");
           return false;
         }
       }
@@ -185724,13 +185724,13 @@ window.EDMUND_FLASHCARD_SEED = {
         });
         if (error || data !== true) throw error || new Error("Student state save returned false.");
       } catch (error) {
-        console.warn("Supabase flashcard save failed:", error);
-        if (stillActive()) updateSupabaseStatus("Supabase: save failed", "error");
+        console.warn("Flashcard save failed:", error);
+        if (stillActive()) updateSupabaseStatus("同步儲存失敗", "error");
         return false;
       }
 
       if (key === FAMILIARITY_KEY) clearSyncedPendingFamiliarity(value, context);
-      if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
+      if (!options.silent && stillActive()) updateSupabaseStatus("已安全連接", "live");
       return true;
     }
 
@@ -185871,9 +185871,9 @@ window.EDMUND_FLASHCARD_SEED = {
       if (displayPreferenceOwner() !== owner) return;
 
       if (!saved) {
-        updateSupabaseStatus("Supabase: preference saved on this device", "warning");
+        updateSupabaseStatus("偏好設定已儲存在這部裝置", "warning");
       } else {
-        updateSupabaseStatus("Supabase: live", "live");
+        updateSupabaseStatus("已安全連接", "live");
       }
 
       displayPreferenceSaveInFlight = false;
@@ -185904,9 +185904,9 @@ window.EDMUND_FLASHCARD_SEED = {
       const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
       if (displayPreferenceOwner() !== owner) return;
       if (!saved) {
-        updateSupabaseStatus("Supabase: preference saved on this device", "warning");
+        updateSupabaseStatus("偏好設定已儲存在這部裝置", "warning");
       } else {
-        updateSupabaseStatus("Supabase: live", "live");
+        updateSupabaseStatus("已安全連接", "live");
       }
       displayPreferenceSaveInFlight = false;
       if (currentView === "dashboard") renderProgressDashboard();
@@ -185937,9 +185937,9 @@ window.EDMUND_FLASHCARD_SEED = {
       const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
       if (displayPreferenceOwner() !== owner) return;
       if (!saved) {
-        updateSupabaseStatus("Supabase: preference saved on this device", "warning");
+        updateSupabaseStatus("偏好設定已儲存在這部裝置", "warning");
       } else {
-        updateSupabaseStatus("Supabase: live", "live");
+        updateSupabaseStatus("已安全連接", "live");
       }
       displayPreferenceSaveInFlight = false;
       if (currentView === "options-view") renderOptionsContent();
@@ -185952,7 +185952,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function startSupabaseRealtime() {
-      updateSupabaseStatus("Supabase: live", "live");
+      updateSupabaseStatus("已安全連接", "live");
     }
 
     async function ensureSupabaseSession() {
@@ -185964,32 +185964,32 @@ window.EDMUND_FLASHCARD_SEED = {
         session = signInResult.data?.session || null;
       }
 
-      if (!session?.user?.id) throw new Error("No Supabase user session was created.");
+      if (!session?.user?.id) throw new Error("No secure user session was created.");
       supabaseState.userId = session.user.id;
     }
 
     async function initSupabaseState() {
       if (!supabaseClient) {
         studentSortMode = readLocalAdminStudentSortMode();
-        updateSupabaseStatus("Supabase: local backup", "warning");
+        updateSupabaseStatus("使用本機備份", "warning");
         refreshCurrentView();
         return;
       }
 
-      updateSupabaseStatus("Supabase: connecting", "warning");
+      updateSupabaseStatus("正在安全連接", "warning");
       try {
         await ensureSupabaseSession();
       } catch (error) {
-        console.warn("Supabase anonymous session failed:", error);
+        console.warn("Account session failed:", error);
         studentSortMode = readLocalAdminStudentSortMode();
-        updateSupabaseStatus("Supabase: enable Auth", "error");
+        updateSupabaseStatus("登入服務尚未啟用", "error");
         refreshCurrentView();
         return;
       }
 
       supabaseState.loaded = true;
       supabaseState.online = true;
-      updateSupabaseStatus("Supabase: live", "live");
+      updateSupabaseStatus("已安全連接", "live");
 
       if (currentUser?.role === "student" && currentUser.impersonatedByAdmin && adminPasswordForSession) {
         const stateLoaded = await loadStudentStateForAdmin(currentUser.name);
@@ -186011,7 +186011,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     async function callSupabaseRpc(name, args = {}) {
-      if (!supabaseClient) throw new Error("Supabase client is not available.");
+      if (!supabaseClient) throw new Error("Data service is not available.");
       await ensureSupabaseSession();
       supabaseState.loaded = true;
       supabaseState.online = true;
@@ -186115,8 +186115,8 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
         return studentsCache;
       } catch (error) {
-        console.warn("Could not load Supabase students:", error);
-        updateSupabaseStatus("Supabase: account SQL needed", "error");
+        console.warn("Could not load students:", error);
+        updateSupabaseStatus("帳戶資料服務需要更新", "error");
         studentsLoadedFromSupabase = false;
         studentSortMode = readLocalAdminStudentSortMode();
         return getStudents();
@@ -186150,9 +186150,9 @@ window.EDMUND_FLASHCARD_SEED = {
         startSupabaseRealtime();
         return true;
       } catch (error) {
-        console.warn("Could not load Supabase student state:", error);
+        console.warn("Could not load student state:", error);
         restorePendingFamiliarity();
-        updateSupabaseStatus("Supabase: account SQL needed", "error");
+        updateSupabaseStatus("帳戶資料服務需要更新", "error");
         return false;
       }
     }
@@ -186171,8 +186171,8 @@ window.EDMUND_FLASHCARD_SEED = {
         studentsLoadedFromSupabase = true;
         return true;
       } catch (error) {
-        console.warn("Could not save student access to Supabase:", error);
-        updateSupabaseStatus("Supabase: access save failed", "error");
+        console.warn("Could not save student access:", error);
+        updateSupabaseStatus("權限儲存失敗", "error");
         return false;
       }
     }
@@ -186214,7 +186214,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return true;
       } catch (error) {
         console.warn("Could not load selected student state:", error);
-        updateSupabaseStatus("Supabase: run state SQL", "warning");
+        updateSupabaseStatus("學習資料服務需要更新", "warning");
         return false;
       }
     }
@@ -187085,7 +187085,7 @@ window.EDMUND_FLASHCARD_SEED = {
               setSession({ name: ADMIN_NAME, role: "admin" });
               await loadStudentsFromSupabase();
               showAppPanel("admin-panel", false);
-              updateSupabaseStatus("Supabase: live", "live");
+              updateSupabaseStatus("已安全連接", "live");
               return true;
             }
           }
@@ -187109,14 +187109,14 @@ window.EDMUND_FLASHCARD_SEED = {
             const stateLoaded = await loadStudentStateFromSupabase();
             if (stateLoaded) {
               hydrateFlashcardDisplayPreferences();
-              updateSupabaseStatus("Supabase: live", "live");
+              updateSupabaseStatus("已安全連接", "live");
             }
             showAppPanel("dashboard", false);
             return true;
           }
         } catch (error) {
-          console.warn("Supabase login failed:", error);
-          updateSupabaseStatus("Supabase: account SQL needed", "error");
+          console.warn("Account login failed:", error);
+          updateSupabaseStatus("帳戶資料服務需要更新", "error");
         }
       }
 
@@ -188909,7 +188909,7 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       closeAdminSwitchModal();
       showAppPanel("dashboard", false);
-      if (stateLoaded) updateSupabaseStatus("Supabase: live", "live");
+      if (stateLoaded) updateSupabaseStatus("已安全連接", "live");
     }
 
     function returnToAdminAccount() {
@@ -188925,7 +188925,7 @@ window.EDMUND_FLASHCARD_SEED = {
       closeAdminSwitchModal();
       setSession(adminUser);
       showAppPanel("admin-panel", false);
-      updateSupabaseStatus("Supabase: live", "live");
+      updateSupabaseStatus("已安全連接", "live");
     }
 
     function renderStudents() {
@@ -188984,13 +188984,13 @@ window.EDMUND_FLASHCARD_SEED = {
             p_sort_mode: normalizedMode
           });
           if (normalizeStudentSortMode(savedMode) !== normalizedMode) {
-            throw new Error("Supabase did not confirm the student sort mode.");
+            throw new Error("The data service did not confirm the student sort mode.");
           }
           cacheLocalAdminStudentSortMode(normalizedMode);
         } catch (error) {
           console.warn("Could not save student sort mode:", error);
           studentSortMode = previousMode;
-          updateSupabaseStatus("Supabase: student sort SQL needed", "error");
+          updateSupabaseStatus("學生顯示服務需要更新", "error");
         }
       } else {
         cacheLocalAdminStudentSortMode(normalizedMode);
@@ -189022,13 +189022,13 @@ window.EDMUND_FLASHCARD_SEED = {
             p_admin_password: adminPasswordForSession,
             p_student_names: names
           });
-          if (saved !== true) throw new Error("Supabase did not confirm the custom student order.");
+          if (saved !== true) throw new Error("The data service did not confirm the custom student order.");
           cacheLocalAdminStudentSortMode("custom");
         } catch (error) {
           console.warn("Could not save custom student order:", error);
           studentsCache = previousStudents;
           studentSortMode = previousMode;
-          updateSupabaseStatus("Supabase: student order SQL needed", "error");
+          updateSupabaseStatus("學生排序服務需要更新", "error");
         }
       } else {
         saveStudents(orderedStudents(getStudents(), "custom"));
@@ -190037,7 +190037,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const decks = getStudentCustomDecks();
       showOptions(
         "自製 Flashcards",
-        "建立自己的卡組，並把新卡即時儲存到 Supabase。",
+        "建立自己的卡組，並把新卡即時安全同步至帳戶。",
         () => `
           <div class="custom-deck-manager">
             <form class="custom-deck-form" data-custom-deck-form>
@@ -192320,7 +192320,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const password = String(formData.get("studentPassword") || "").trim();
         if (!name || !password) return;
 
-        if (status) status.textContent = "Saving to Supabase...";
+        if (status) status.textContent = "正在安全儲存...";
         if (studentsLoadedFromSupabase) {
           try {
             await callSupabaseRpc("flashcard_admin_upsert_student", {
@@ -192332,9 +192332,9 @@ window.EDMUND_FLASHCARD_SEED = {
             });
             await loadStudentsFromSupabase();
           } catch (error) {
-            console.warn("Could not add Supabase student:", error);
-            if (status) status.textContent = "Could not save this student to Supabase. Please run the account SQL.";
-            updateSupabaseStatus("Supabase: account save failed", "error");
+            console.warn("Could not add student:", error);
+            if (status) status.textContent = "Could not save this student. Please update the account data service.";
+            updateSupabaseStatus("帳戶儲存失敗", "error");
             return;
           }
         } else {
@@ -192366,14 +192366,14 @@ window.EDMUND_FLASHCARD_SEED = {
               p_student_name: studentName,
               p_new_password: newPassword
             });
-            if (!changed) throw new Error("Supabase did not change the password.");
+            if (!changed) throw new Error("The data service did not change the password.");
             await loadPasswordLogsFromSupabase(studentName);
             passwordForm.reset();
             renderStudentProfile();
             return;
           } catch (error) {
-            console.warn("Could not change Supabase student password:", error);
-            updateSupabaseStatus("Supabase: password save failed", "error");
+            console.warn("Could not change student password:", error);
+            updateSupabaseStatus("密碼儲存失敗", "error");
             return;
           }
         }
@@ -192422,7 +192422,7 @@ window.EDMUND_FLASHCARD_SEED = {
           : addStudentCustomCard(deckId, payload);
         const status = cardForm.querySelector("[data-custom-card-status]");
         if (status) status.textContent = ok
-          ? editing ? "已儲存修訂，並正在同步到 Supabase。" : "已新增，並正在同步到 Supabase。"
+          ? editing ? "已儲存修訂，並正在安全同步。" : "已新增，並正在安全同步。"
           : "請先輸入正面內容。";
         if (ok) {
           if (editing) {
@@ -192440,7 +192440,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const formData = new FormData(noteForm);
         const status = noteForm.querySelector("[data-card-note-status]");
         const ok = saveCurrentCardNote(formData.get("cardNote"));
-        if (status) status.textContent = ok ? "已儲存，並正在同步到 Supabase。" : "暫時未有卡片可儲存備註。";
+        if (status) status.textContent = ok ? "已儲存，並正在安全同步。" : "暫時未有卡片可儲存備註。";
       });
 
       document.addEventListener("submit", async event => {
@@ -192872,7 +192872,7 @@ window.EDMUND_FLASHCARD_SEED = {
             await loadPasswordLogsFromSupabase(selectedStudentName);
           }
           renderStudentProfile();
-          updateSupabaseStatus("Supabase: live", "live");
+          updateSupabaseStatus("已安全連接", "live");
           return;
         }
 
@@ -193015,7 +193015,7 @@ window.EDMUND_FLASHCARD_SEED = {
         if (removeButton) {
           const name = removeButton.getAttribute("data-remove-student");
           if (!window.confirm(`確定要移除學生帳戶「${name}」嗎？`)) return;
-          if (!window.confirm(`第二次確認：這會刪除「${name}」的帳戶及 Supabase 內已同步的學習紀錄，以節省儲存空間。刪除後不能復原。確定繼續？`)) return;
+          if (!window.confirm(`第二次確認：這會刪除「${name}」的帳戶及網上已同步的學習紀錄，以節省儲存空間。刪除後不能復原。確定繼續？`)) return;
           if (studentsLoadedFromSupabase) {
             try {
               let deleted = false;
@@ -193035,13 +193035,13 @@ window.EDMUND_FLASHCARD_SEED = {
                   p_student_name: name
                 });
               }
-              if (deleted !== true) throw new Error("Supabase did not confirm delete.");
+              if (deleted !== true) throw new Error("The data service did not confirm deletion.");
               studentsCache = getStudents().filter(student => student.name !== name);
               await loadStudentsFromSupabase();
-              updateSupabaseStatus("Supabase: live", "live");
+              updateSupabaseStatus("已安全連接", "live");
             } catch (error) {
-              console.warn("Could not remove Supabase student:", error);
-              updateSupabaseStatus("Supabase: remove failed", "error");
+              console.warn("Could not remove student:", error);
+              updateSupabaseStatus("移除失敗", "error");
               return;
             }
           } else {
