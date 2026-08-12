@@ -54,6 +54,7 @@ const htmlPages = [
   "reading-logic-system.html",
   "recorded.html",
   "resources.html",
+  "schedule-motivation-admin.html",
   "schedule-system.html",
   "sentence-structure.html",
   "speaking-system.html",
