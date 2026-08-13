@@ -1,7 +1,7 @@
 {
   "id": "/apps/schedule",
-  "name": "功課及溫習安排｜EdmundEducation",
-  "short_name": "功課溫習安排",
+  "name": "Edmund 每週功課安排系統",
+  "short_name": "Edmund 每週功課安排系統",
   "description": "功課及溫習安排（Study Schedule）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
@@ -18,25 +18,25 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/assets/icons/icon-192x192.png",
+      "src": "/assets/icons/apps/schedule/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "src": "/assets/icons/apps/schedule/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-maskable-192x192.png",
+      "src": "/assets/icons/apps/schedule/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icons/icon-maskable-512x512.png",
+      "src": "/assets/icons/apps/schedule/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

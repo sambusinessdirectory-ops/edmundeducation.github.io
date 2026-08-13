@@ -1,7 +1,7 @@
 {
   "id": "/apps/phrasal-verbs",
-  "name": "Phrasal Verb 動詞片語｜EdmundEducation",
-  "short_name": "動詞片語",
+  "name": "動詞片語系統",
+  "short_name": "動詞片語系統",
   "description": "Phrasal Verb 動詞片語（學習系統）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
@@ -18,25 +18,25 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/assets/icons/icon-192x192.png",
+      "src": "/assets/icons/apps/phrasal-verbs/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "src": "/assets/icons/apps/phrasal-verbs/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-maskable-192x192.png",
+      "src": "/assets/icons/apps/phrasal-verbs/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icons/icon-maskable-512x512.png",
+      "src": "/assets/icons/apps/phrasal-verbs/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

@@ -1,7 +1,7 @@
 {
   "id": "/apps/speaking",
-  "name": "Speaking 說話練習｜EdmundEducation",
-  "short_name": "Speaking 練習",
+  "name": "Edmund 英語說話",
+  "short_name": "Edmund 英語說話",
   "description": "Speaking 說話練習（Speaking System）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
@@ -18,25 +18,25 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/assets/icons/icon-192x192.png",
+      "src": "/assets/icons/apps/speaking/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "src": "/assets/icons/apps/speaking/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-maskable-192x192.png",
+      "src": "/assets/icons/apps/speaking/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icons/icon-maskable-512x512.png",
+      "src": "/assets/icons/apps/speaking/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

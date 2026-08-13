@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import assert from "node:assert/strict";
-import { readFile, readdir } from "node:fs/promises";
+import { readFile, readdir, stat } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
@@ -9,6 +9,22 @@ const nav = await read("shared-system-nav.js");
 const systems = Array.from(nav.matchAll(/\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)" \}/g),
   ([, id, href, zh, en]) => ({ id, href, zh, en }));
 assert.equal(systems.length, 43, "all 43 genuine learning/account systems must remain catalogued");
+
+const customApps = Object.freeze({
+  schedule: { name: "Edmund 每週功課安排系統", page: "schedule-system.html" },
+  progress: { name: "Edmund 英文發展進度表", page: "student-progress.html" },
+  "parent-communication": { name: "Edmund 家長溝通", page: "parent-communication.html" },
+  listening: { name: "Edmund 英語聆聽", page: "listening-system.html" },
+  speaking: { name: "Edmund 英語說話", page: "speaking-system.html" },
+  "phrasal-verbs": { name: "動詞片語系統", page: "phrasal-verb-system.html" },
+  proverbs: { name: "Edmund 諺語系統", page: "proverb-system.html" },
+  idioms: { name: "Edmund 英文成語", page: "idiom-system.html" }
+});
+
+function pngSize(buffer) {
+  assert.equal(buffer.toString("ascii", 1, 4), "PNG");
+  return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+}
 
 const manifests = [];
 for (const system of systems) {
@@ -18,14 +34,37 @@ for (const system of systems) {
   assert.equal(manifest.start_url, `/${system.href}?source=pwa`);
   assert.equal(manifest.scope, "/");
   assert.equal(manifest.display, "standalone");
-  assert.ok(manifest.name.includes(system.zh));
+  assert.equal(manifest.name, customApps[system.id]?.name || `${system.zh}｜EdmundEducation`);
   assert.ok(manifest.short_name);
-  assert.ok(manifest.icons.some(({ src }) => src === "/assets/icons/edmundeducation-logo-512.png"));
+  if (customApps[system.id]) {
+    assert.equal(manifest.short_name, customApps[system.id].name);
+    for (const icon of manifest.icons) {
+      assert.match(icon.src, new RegExp(`^/assets/icons/apps/${system.id}/`));
+      const path = icon.src.slice(1);
+      await stat(new URL(path, root));
+      const expectedSize = Number(icon.sizes.split("x")[0]);
+      assert.deepEqual(pngSize(await readFile(new URL(path, root))), { width: expectedSize, height: expectedSize });
+    }
+  } else {
+    assert.ok(manifest.icons.some(({ src }) => src === "/assets/icons/edmundeducation-logo-512.png"));
+  }
   const html = await read(system.href);
   if (!["schedule-system.html", "writing-submission.html"].includes(system.href)) {
     assert.match(html, new RegExp(`rel="manifest" href="/pwa-manifests/${system.id}\\.webmanifest"`));
   }
 }
+
+for (const [id, app] of Object.entries(customApps)) {
+  const html = await read(app.page);
+  assert.match(html, new RegExp(`name="apple-mobile-web-app-title" content="${app.name}"`));
+  for (const size of [152, 167, 180]) {
+    const iconPath = `/assets/icons/apps/${id}/apple-touch-icon-${size}.png`;
+    assert.match(html, new RegExp(`rel="apple-touch-icon" sizes="${size}x${size}" href="${iconPath.replaceAll("/", "\\/")}"`));
+    assert.deepEqual(pngSize(await readFile(new URL(iconPath.slice(1), root))), { width: size, height: size });
+  }
+}
+assert.equal(manifests.find(({ id }) => id === "/apps/parent-communication").theme_color, "#72598f");
+assert.equal(manifests.find(({ id }) => id === "/apps/parent-communication").background_color, "#f3edfb");
 assert.equal(new Set(manifests.map(({ id }) => id)).size, systems.length, "manifest ids must be unique");
 assert.equal(new Set(manifests.map(({ start_url }) => start_url)).size, systems.length, "launch URLs must be unique");
 assert.equal(new Set(manifests.map(({ short_name }) => short_name)).size, systems.length, "installed labels must be distinct");
@@ -69,5 +108,22 @@ assert.match(home, /homepage-system-directory\.js/);
 assert.match(await read("homepage-system-directory.js"), /window\.EdmundSystemNav\?\.systems/);
 assert.equal(JSON.parse(await read("manifest.webmanifest")).name, "港大 Edmund Sir 英文補習");
 assert.match(home, /apple-mobile-web-app-title" content="港大 Edmund Sir 英文補習"/);
+
+const progressHtml = await read("student-progress.html");
+const parentHtml = await read("parent-communication.html");
+const listeningHtml = await read("listening-system.html");
+const progressCss = await read("student-progress.css");
+const listeningCss = await read("listening-system.css");
+assert.match(progressHtml, /class="hero-dashboard-illustration"[^>]*dashboard-system\.webp/);
+assert.match(parentHtml, /class="hero-dashboard-illustration"[^>]*dashboard-system\.webp/);
+assert.match(parentHtml, /name="theme-color" content="#72598f"/);
+assert.match(progressCss, /body\[data-progress-portal="parent"\][\s\S]*#72598f/);
+assert.match(progressCss, /\.hero-chart\s*\{[\s\S]*height:\s*138px/);
+assert.match(progressCss, /\.hero-dashboard-illustration\s*\{/);
+assert.match(listeningHtml, /class="listening-hero-illustration"[^>]*listening-system\.webp/);
+assert.match(listeningCss, /\.listening-hero-illustration\s*\{/);
+for (const asset of ["assets/portal-illustrations/dashboard-system.webp", "assets/portal-illustrations/listening-system.webp"]) {
+  assert.ok((await stat(new URL(asset, root))).size > 10_000, `${asset} must be a real optimized illustration`);
+}
 
 console.log("System PWA, homepage directory, mobile-login and idle-break checks passed.");

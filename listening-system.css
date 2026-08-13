@@ -37,11 +37,24 @@ button { cursor: pointer; }
 .eyebrow { margin: 0; color: #df6f2a; font: 900 .78rem/1.2 system-ui, sans-serif; letter-spacing: .22em; text-transform: uppercase; }
 .login-hero .eyebrow { color: #9fe8dd; }
 .student-label { font-weight: 900; letter-spacing: .08em; }
-.sound-wave { position: relative; z-index: 1; min-width: 150px; height: 138px; display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0; writing-mode: horizontal-tb; }
+.sound-wave { position: relative; z-index: 1; min-width: 150px; height: 138px; align-self: start; display: flex; align-items: center; justify-content: center; gap: 10px; margin: clamp(64px, 8vw, 110px) 0 0; writing-mode: horizontal-tb; }
 .sound-wave i { width: 12px; height: 35%; border-radius: 999px; background: #fff; opacity: .75; animation: sound-pulse 1.4s ease-in-out infinite alternate; }
 .sound-wave i:nth-child(2), .sound-wave i:nth-child(6) { height: 68%; animation-delay: .2s; }
 .sound-wave i:nth-child(3), .sound-wave i:nth-child(5) { height: 100%; animation-delay: .4s; }
 .sound-wave i:nth-child(4) { height: 52%; animation-delay: .6s; }
+.listening-hero-illustration {
+  position: absolute;
+  z-index: 1;
+  right: clamp(22px, 3.5vw, 52px);
+  bottom: clamp(18px, 2.5vw, 36px);
+  width: min(35%, 390px);
+  max-height: 46%;
+  object-fit: contain;
+  object-position: right bottom;
+  filter: drop-shadow(0 20px 28px rgba(5, 30, 44, .24));
+  pointer-events: none;
+  user-select: none;
+}
 @keyframes sound-pulse { to { transform: scaleY(.45); opacity: .45; } }
 .login-panel { align-self: stretch; display: flex; flex-direction: column; justify-content: center; }
 .login-panel h2 { margin: 10px 0 12px; font-size: clamp(2rem, 4vw, 3.8rem); }
@@ -110,9 +123,11 @@ audio { width: 100%; min-height: 54px; }
   .header-actions { justify-content: stretch; }
   .header-actions > * { flex: 1 1 auto; text-align: center; }
   .login-hero, .login-panel, .dashboard-hero, .section-heading { padding: 26px 20px; }
-  .login-hero { min-height: 430px; grid-template-columns: 1fr; align-content: center; gap: 22px; }
-  .login-hero h1 { max-width: none; font-size: clamp(2.7rem, 15vw, 4.6rem); }
-  .sound-wave { min-width: 0; width: min(270px, 100%); height: 86px; justify-content: flex-start; }
+  .login-hero { min-height: 460px; grid-template-columns: 1fr; align-content: center; gap: 22px; }
+  .login-hero h1 { max-width: none; font-size: clamp(2.35rem, 12vw, 3.2rem); }
+  .sound-wave { position: absolute; left: 20px; bottom: 24px; min-width: 0; width: 94px; height: 76px; gap: 5px; margin: 0; justify-content: flex-start; }
+  .sound-wave i { width: 8px; }
+  .listening-hero-illustration { right: 18px; bottom: 16px; width: min(220px, 52%); max-height: 160px; }
   .practice-grid { grid-template-columns: 1fr; }
   .speed-row { grid-template-columns: 1fr; }
   .heading-actions, .heading-actions > * { width: 100%; }

@@ -5,8 +5,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "student-progress.html",
     "zh": "全面英文能力發展進度表",
     "en": "Student Progress",
-    "name": "全面英文能力發展進度表｜EdmundEducation",
-    "shortName": "英文進度",
+    "name": "Edmund 英文發展進度表",
+    "shortName": "Edmund 英文發展進度表",
     "manifest": "/pwa-manifests/progress.webmanifest"
   },
   {
@@ -41,8 +41,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "speaking-system.html",
     "zh": "Speaking 說話練習",
     "en": "Speaking System",
-    "name": "Speaking 說話練習｜EdmundEducation",
-    "shortName": "Speaking 練習",
+    "name": "Edmund 英語說話",
+    "shortName": "Edmund 英語說話",
     "manifest": "/pwa-manifests/speaking.webmanifest"
   },
   {
@@ -50,8 +50,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "listening-system.html",
     "zh": "英語聆聽系統",
     "en": "Listening System",
-    "name": "英語聆聽系統｜EdmundEducation",
-    "shortName": "聆聽練習",
+    "name": "Edmund 英語聆聽",
+    "shortName": "Edmund 英語聆聽",
     "manifest": "/pwa-manifests/listening.webmanifest"
   },
   {
@@ -68,8 +68,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "idiom-system.html",
     "zh": "英文慣用語",
     "en": "Idiom Learning",
-    "name": "英文慣用語｜EdmundEducation",
-    "shortName": "英文慣用語",
+    "name": "Edmund 英文成語",
+    "shortName": "Edmund 英文成語",
     "manifest": "/pwa-manifests/idioms.webmanifest"
   },
   {
@@ -77,8 +77,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "proverb-system.html",
     "zh": "(學生使用) 諺語",
     "en": "學生使用系統",
-    "name": "(學生使用) 諺語｜EdmundEducation",
-    "shortName": "英文諺語",
+    "name": "Edmund 諺語系統",
+    "shortName": "Edmund 諺語系統",
     "manifest": "/pwa-manifests/proverbs.webmanifest"
   },
   {
@@ -86,8 +86,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "phrasal-verb-system.html",
     "zh": "Phrasal Verb 動詞片語",
     "en": "學習系統",
-    "name": "Phrasal Verb 動詞片語｜EdmundEducation",
-    "shortName": "動詞片語",
+    "name": "動詞片語系統",
+    "shortName": "動詞片語系統",
     "manifest": "/pwa-manifests/phrasal-verbs.webmanifest"
   },
   {
@@ -113,8 +113,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "schedule-system.html",
     "zh": "功課及溫習安排",
     "en": "Study Schedule",
-    "name": "功課及溫習安排｜EdmundEducation",
-    "shortName": "功課溫習安排",
+    "name": "Edmund 每週功課安排系統",
+    "shortName": "Edmund 每週功課安排系統",
     "manifest": "/pwa-manifests/schedule.webmanifest"
   },
   {
@@ -140,8 +140,8 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "href": "parent-communication.html",
     "zh": "家長溝通系統",
     "en": "Parent Communication",
-    "name": "家長溝通系統｜EdmundEducation",
-    "shortName": "家長溝通",
+    "name": "Edmund 家長溝通",
+    "shortName": "Edmund 家長溝通",
     "manifest": "/pwa-manifests/parent-communication.webmanifest"
   },
   {

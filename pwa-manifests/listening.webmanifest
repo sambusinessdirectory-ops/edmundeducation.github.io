@@ -1,7 +1,7 @@
 {
   "id": "/apps/listening",
-  "name": "英語聆聽系統｜EdmundEducation",
-  "short_name": "聆聽練習",
+  "name": "Edmund 英語聆聽",
+  "short_name": "Edmund 英語聆聽",
   "description": "英語聆聽系統（Listening System）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
@@ -18,25 +18,25 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/assets/icons/icon-192x192.png",
+      "src": "/assets/icons/apps/listening/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "src": "/assets/icons/apps/listening/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-maskable-192x192.png",
+      "src": "/assets/icons/apps/listening/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icons/icon-maskable-512x512.png",
+      "src": "/assets/icons/apps/listening/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

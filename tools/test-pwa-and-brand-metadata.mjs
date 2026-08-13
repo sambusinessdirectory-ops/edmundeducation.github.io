@@ -6,6 +6,16 @@ import { readFile, readdir, stat } from "node:fs/promises";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 const pathFromWebUrl = (value) => decodeURIComponent(value.split("?")[0].replace(/^\//, ""));
+const customAppleIconApps = Object.freeze({
+  "schedule-system.html": "schedule",
+  "student-progress.html": "progress",
+  "parent-communication.html": "parent-communication",
+  "listening-system.html": "listening",
+  "speaking-system.html": "speaking",
+  "phrasal-verb-system.html": "phrasal-verbs",
+  "proverb-system.html": "proverbs",
+  "idiom-system.html": "idioms"
+});
 
 const htmlPages = [
   "about.html",
@@ -87,13 +97,19 @@ test("every public page carries the complete mobile PWA identity", async () => {
     const html = await read(page);
     const head = html.match(/<head>([\s\S]*?)<\/head>/i)?.[1] || "";
     assert.ok(head, `${page}: missing head`);
+    const appIconId = customAppleIconApps[page];
+    const appleIcons = appIconId
+      ? [180, 167, 152].map((size) => `rel="apple-touch-icon" sizes="${size}x${size}" href="/assets/icons/apps/${appIconId}/apple-touch-icon-${size}.png"`)
+      : [
+          'rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"',
+          'rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png"',
+          'rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png"'
+        ];
     for (const snippet of [
       'rel="manifest" href="/',
       'rel="icon" href="/favicon.ico" sizes="any"',
       'sizes="48x48" href="/assets/icons/favicon-48x48.png"',
-      'rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"',
-      'rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png"',
-      'rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png"',
+      ...appleIcons,
       'name="mobile-web-app-capable" content="yes"',
       'name="apple-mobile-web-app-capable" content="yes"',
       'name="apple-mobile-web-app-title" content="',
