@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { spawnSync } from "node:child_process";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [recordedHtml, portalHtml, portalJs, portalCss, frameGuardJs, portalConfig, sql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
+const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
   read("recorded.html"),
   read("video-class.html"),
   read("video-class.js"),
+  read("video-class-zip.js"),
   read("video-class.css"),
   read("video-class-frame-guard.js"),
   read("video-class-config.js"),
@@ -25,6 +29,8 @@ const workerPackage = JSON.parse(workerPackageSource);
 const workerLock = JSON.parse(workerLockSource);
 const workerModule = await import(new URL("workers/video-class/src/index.js", root));
 const { __test, default: worker } = workerModule;
+await import(new URL("video-class-zip.js", root));
+const zipTools = globalThis.VideoClassZip;
 
 const tests = [];
 const test = (name, run) => tests.push({ name, run });
@@ -546,23 +552,23 @@ test("course entitlements are per student and required for listing, playback, an
   assert.match(listCourses, /course\.published\s*=\s*true/i);
 
   const listLessons = sqlFunctionBlock("video_class_student_list_lessons");
-  assert.match(listLessons, /join\s+public\.video_class_student_courses\s+access/i);
-  assert.match(listLessons, /access\.student_id\s*=\s*v_student_id/i);
-  assert.match(listLessons, /access\.course_code\s*=\s*lesson\.course_code/i);
-  assert.match(listLessons, /access\.enabled\s*=\s*true/i);
+  assert.match(listLessons, /public\._video_class_student_can_view_lesson\(v_student_id,\s*lesson\.id\)/i);
+  const canViewLesson = sqlFunctionBlock("_video_class_student_can_view_lesson");
+  assert.match(canViewLesson, /join\s+public\.video_class_lesson_courses\s+lesson_course/i);
+  assert.match(canViewLesson, /join\s+public\.video_class_student_courses\s+access/i);
+  assert.match(canViewLesson, /access\.student_id\s*=\s*p_student_id/i);
+  assert.match(canViewLesson, /access\.course_code\s*=\s*lesson_course\.course_code/i);
+  assert.match(canViewLesson, /access\.enabled\s*=\s*true/i);
   assert.match(
     workerSource,
-    /async\s+function\s+listLessons[\s\S]*?Promise\.all\(\[[\s\S]*?video_class_student_list_courses[\s\S]*?video_class_student_library[\s\S]*?courses:\s*courseRows\.map\(mapCourse\)[\s\S]*?lessons:\s*lessonRows\.map\(mapLesson\)/,
+    /async\s+function\s+listLessons[\s\S]*?Promise\.all\(\[[\s\S]*?video_class_student_list_courses[\s\S]*?video_class_student_library_page[\s\S]*?courses:\s*courseRows\.map\(mapCourse\)[\s\S]*?lessons:\s*lessonRows\.map\(mapLesson\)/,
     "the lesson response must preserve entitled courses that currently contain zero lessons"
   );
   assert.match(portalJs, /const\s+returnedCourses\s*=\s*Array\.isArray\(value\?\.courses\)/);
 
   for (const name of ["video_class_create_playback", "video_class_authorize_playback", "video_class_record_progress"]) {
     const block = sqlFunctionBlock(name);
-    assert.match(block, /join\s+public\.video_class_student_courses\s+course_access/i, `${name}: course entitlement join`);
-    assert.match(block, /course_access\.student_id\s*=/i, `${name}: student ownership`);
-    assert.match(block, /course_access\.course_code\s*=\s*lesson\.course_code/i, `${name}: lesson/course mapping`);
-    assert.match(block, /course_access\.enabled\s*=\s*true/i, `${name}: live enablement`);
+    assert.match(block, /public\._video_class_student_can_view_lesson\(/i, `${name}: centralized live entitlement check`);
   }
   assert.match(
     sqlFunctionBlock("video_class_record_progress"),
@@ -572,7 +578,7 @@ test("course entitlements are per student and required for listing, playback, an
   const courseRevocation = sqlFunctionBlock("video_class_revoke_playbacks_on_course_change");
   assert.match(courseRevocation, /update\s+public\.video_class_playback_sessions\s+playback\s+set\s+revoked_at/i);
   assert.match(courseRevocation, /playback\.student_id\s*=\s*v_student_id/i);
-  assert.match(courseRevocation, /lesson\.course_code\s*=\s*v_course_code/i);
+  assert.match(courseRevocation, /lesson_course\.course_code\s*=\s*v_course_code/i);
   assert.match(
     sql,
     /create\s+trigger\s+video_class_course_access_revoke_playbacks\s+after\s+update\s+of\s+student_id,\s*course_code,\s*enabled\s+or\s+delete\s+on\s+public\.video_class_student_courses/i
@@ -592,7 +598,7 @@ test("bookmarks and notes are isolated by student, entitlement checked, and safe
   const bookmark = sqlFunctionBlock("video_class_student_toggle_bookmark");
   assert.doesNotMatch(bookmark, /p_student_id\s+uuid/i, "the browser cannot select another student");
   assert.match(bookmark, /v_student_id\s*:=\s*public\._video_class_student_id\(p_student_token\)/i);
-  assert.match(bookmark, /join\s+public\.video_class_student_courses\s+access[\s\S]*?access\.student_id\s*=\s*v_student_id[\s\S]*?access\.enabled\s*=\s*true/i);
+  assert.match(bookmark, /not\s+public\._video_class_student_can_view_lesson\(v_student_id,\s*p_lesson_id\)/i);
   assert.match(bookmark, /insert\s+into\s+public\.video_class_bookmarks\s*\(student_id,\s*lesson_id\)\s*values\s*\(v_student_id,\s*p_lesson_id\)/i);
   assert.match(bookmark, /on\s+conflict\s+on\s+constraint\s+video_class_bookmarks_pkey\s+do\s+nothing/i);
   assert.match(bookmark, /delete\s+from\s+public\.video_class_bookmarks\s+bookmark\s+where\s+bookmark\.student_id\s*=\s*v_student_id\s+and\s+bookmark\.lesson_id\s*=\s*p_lesson_id/i);
@@ -601,7 +607,7 @@ test("bookmarks and notes are isolated by student, entitlement checked, and safe
   assert.doesNotMatch(note, /p_student_id\s+uuid/i, "the browser cannot select another student's note row");
   assert.match(note, /v_student_id\s*:=\s*public\._video_class_student_id\(p_student_token\)/i);
   assert.match(note, /length\(p_note\)\s*>\s*5000/i);
-  assert.match(note, /join\s+public\.video_class_student_courses\s+access[\s\S]*?access\.student_id\s*=\s*v_student_id[\s\S]*?access\.enabled\s*=\s*true/i);
+  assert.match(note, /not\s+public\._video_class_student_can_view_lesson\(v_student_id,\s*p_lesson_id\)/i);
   assert.match(note, /delete\s+from\s+public\.video_class_notes\s+saved_note\s+where\s+saved_note\.student_id\s*=\s*v_student_id\s+and\s+saved_note\.lesson_id\s*=\s*p_lesson_id/i);
   assert.match(note, /on\s+conflict\s+on\s+constraint\s+video_class_notes_pkey\s+do\s+update/i);
 
@@ -832,8 +838,16 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_logout",
     "video_class_admin_list_students",
     "video_class_admin_list_courses",
-    "video_class_admin_list_lessons",
-    "video_class_admin_list_feedback",
+    "video_class_admin_list_lessons_page",
+    "video_class_admin_set_lesson_courses",
+    "video_class_admin_list_official_playlists_page",
+    "video_class_admin_save_official_playlist",
+    "video_class_admin_add_attachment",
+    "video_class_admin_set_attachment_private",
+    "video_class_admin_prepare_delete_attachment",
+    "video_class_admin_finish_delete_attachment",
+    "video_class_admin_change_feedback",
+    "video_class_admin_list_feedback_page",
     "video_class_admin_match_r2_objects",
     "video_class_admin_publish_r2_object",
     "video_class_admin_issue_key",
@@ -844,7 +858,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_set_lesson_private",
     "video_class_student_list_courses",
     "video_class_student_list_lessons",
-    "video_class_student_library",
+    "video_class_student_library_page",
     "video_class_student_analytics",
     "video_class_student_toggle_bookmark",
     "video_class_student_save_note",
@@ -858,6 +872,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_create_playback",
     "video_class_playback_list_renditions",
     "video_class_authorize_thumbnail",
+    "video_class_authorize_attachment",
     "video_class_authorize_rendition",
     "video_class_record_progress"
   ]);
@@ -908,12 +923,12 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     /apiRequest\(`\/v1\/\$\{role\}\/login`/,
     /apiRequest\("\/v1\/student\/exchange"/,
     /apiRequest\(`\/v1\/\$\{role\}\/session`/,
-    /apiRequest\("\/v1\/lessons"/,
+    /apiRequest\(`\/v1\/lessons\?\$\{parameters\}`/,
     /apiRequest\("\/v1\/playback\/grant"/,
     /apiRequest\("\/v1\/playback\/heartbeat"/,
     /apiRequest\("\/v1\/admin\/students"/,
     /apiRequest\("\/v1\/admin\/courses"/,
-    /apiRequest\("\/v1\/admin\/feedback"/,
+    /apiRequest\(`\/v1\/admin\/feedback\?\$\{parameters\}`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/key`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/access`/,
     /`\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/courses\/\$\{encodeURIComponent\(course\.id\)\}`/,
@@ -1118,7 +1133,7 @@ test("YouTube-style seeking, sequence navigation, and student analytics remain a
   assert.match(portalJs, /seekBy\(side\s*===\s*"backward"\s*\?\s*-5\s*:\s*5\)/);
   assert.match(portalJs, /event\.key\s*!==\s*"ArrowLeft"[\s\S]{0,80}?event\.key\s*!==\s*"ArrowRight"/);
   assert.match(portalJs, /seekBy\(event\.key\s*===\s*"ArrowLeft"\s*\?\s*-5\s*:\s*5\)/);
-  assert.match(portalJs, /playbackSequenceType\s*=\s*"playlist"/);
+  assert.match(portalJs, /playbackSequenceType\s*=\s*context\?\.type\s*===\s*"official"\s*\?\s*"official"\s*:\s*"playlist"/);
   assert.match(portalJs, /playbackSequenceType\s*=\s*"course"/);
   assert.match(portalJs, /navigatePlaybackSequence\(-1\)/);
   assert.match(portalJs, /navigatePlaybackSequence\(1\)/);
@@ -1325,7 +1340,11 @@ test("admin exports complete feedback and activates students through random serv
   assert.match(portalJs, /item\.audioQuality\s*\?\?\s*""/);
   assert.match(portalJs, /type:\s*"text\/csv;charset=utf-8"/);
   assert.match(portalJs, /videoKey:\s*String\(row\.videoKey\s*\|\|\s*row\.video_key/);
-  assert.match(sqlFunctionBlock("video_class_admin_list_feedback"), /'video_key',\s*student_access\.video_key/i);
+  const feedbackPage = sqlFunctionBlock("video_class_admin_list_feedback_page");
+  assert.match(feedbackPage, /'video_key',\s*student_access\.video_key/i);
+  assert.match(feedbackPage, /p_limit\s+integer\s+default\s+100/i);
+  assert.match(feedbackPage, /limit\s+p_limit\s*\+\s*1/i);
+  assert.match(portalJs, /fetchAllAdminFeedback[\s\S]*?while\s*\(cursor\)/);
 
   assert.match(portalHtml, /data-admin-panel-tab="lessons"/);
   assert.match(portalHtml, /data-admin-panel-tab="add-student"/);
@@ -1356,6 +1375,89 @@ test("portal clickjacking guard, CSP, and Worker deployment are reproducible", (
   assert.equal(workerLock.packages[""].devDependencies.wrangler, workerPackage.devDependencies.wrangler);
   assert.equal(workerLock.packages["node_modules/wrangler"].version, workerPackage.devDependencies.wrangler);
   assert.doesNotMatch(workerPackageSource + workerLockSource, /wrangler@latest|"wrangler"\s*:\s*"[~^]/);
+});
+
+test("library expansion pages, attachments, ratings, and local ZIP backup stay bounded and private", async () => {
+  const lessonCourses = sqlTableBlock("video_class_lesson_courses");
+  const playlistCourses = sqlTableBlock("video_class_official_playlist_courses");
+  const attachments = sqlTableBlock("video_class_lesson_attachments");
+  assert.match(lessonCourses, /primary\s+key\s*\(lesson_id,\s*course_code\)/i);
+  assert.match(playlistCourses, /primary\s+key\s*\(playlist_id,\s*course_code\)/i);
+  assert.match(attachments, /content_type\s+text\s+not\s+null[\s\S]*?content_type\s*=\s*'application\/pdf'/i);
+  assert.match(sql, /video_class_attachments_lesson_order_idx[\s\S]{0,180}?\(lesson_id,\s*sort_order,\s*created_at,\s*id\)/i);
+
+  const libraryPage = sqlFunctionBlock("video_class_student_library_page");
+  assert.match(libraryPage, /p_limit\s+integer\s+default\s+60/i);
+  assert.match(libraryPage, /p_after_cursor\s+text\s+default\s+null/i);
+  assert.match(libraryPage, /limit\s+p_limit\s*\+\s*1/i);
+  assert.match(libraryPage, /v_view\s*=\s*'official'[\s\S]*?select\s+item\.sort_order[\s\S]*?video_class_official_playlist_items[\s\S]*?v_view\s*=\s*'playlist'/i);
+  assert.match(libraryPage, /video_class_student_playlist_items\s+current_item[\s\S]*?preceding\.created_at[\s\S]*?current_item\.created_at/i);
+  assert.match(libraryPage, /lesson\.page_sort_order[\s\S]*?>\s*\(v_after_sort,\s*v_after_created,\s*v_after_id\)/i);
+  assert.match(libraryPage, /page\.page_sort_order::text[\s\S]*?extract\(epoch\s+from\s+page\.created_at\)/i);
+  assert.match(libraryPage, /'lesson_ids',\s*'\[\]'::jsonb/i, "initial playlist metadata must not inline every lesson ID");
+  assert.match(libraryPage, /limit\s+100[\s\S]*?'officialPlaylists'[\s\S]*?limit\s+500/i);
+  assert.match(libraryPage, /v_view\s+not\s+in\s*\('library',\s*'bookmarks',\s*'notes',\s*'playlist',\s*'official'\)/i);
+  assert.match(libraryPage, /public\._video_class_student_can_view_lesson\(v_student_id,\s*lesson\.id\)/i);
+  assert.doesNotMatch(libraryPage, /'object_key'\s*,/i, "student catalogue must not disclose private object keys");
+  assert.match(workerSource, /p_after_cursor:\s*cursor/);
+  assert.match(portalJs, /data-student-lessons-load-more|studentLessonsLoadMore/);
+  assert.match(portalJs, /loadStudentCollection\("bookmarks"\)/);
+  assert.match(portalJs, /loadStudentCollection\("notes"\)/);
+  assert.match(portalJs, /order:\s*Number\(lesson\.order\s*\?\?\s*lesson\.position\s*\?\?/);
+
+  assert.match(portalHtml, /data-open-attachments[\s\S]{0,300}?可下載筆記/);
+  assert.match(portalHtml, /本影片沒有可下載筆記/);
+  assert.match(portalCss, /\.attachment-launch-button[\s\S]{0,260}?background:\s*#eaf7ff/i);
+  assert.match(workerSource, /decoder\.decode\(signature\)\s*!==\s*"%PDF-"/);
+  assert.match(workerSource, /video_class_authorize_attachment[\s\S]{0,220}?p_lesson_id:\s*lessonId[\s\S]{0,120}?p_attachment_id:\s*attachmentId/);
+  assert.match(sqlFunctionBlock("video_class_authorize_attachment"), /attachment\.lesson_id\s*=\s*p_lesson_id[\s\S]*?attachment\.is_private\s*=\s*false/i);
+  assert.match(workerSource, /Content-Disposition[\s\S]{0,180}?contentDispositionAttachment/);
+  assert.match(workerSource, /X-Content-Type-Options[\s\S]{0,60}?nosniff/);
+  assert.match(workerSource, /catch\s*\(error\)\s*\{[\s\S]{0,160}?requireVideoBucket\(env\)\.delete\(objectKey\)/);
+
+  assert.match(portalHtml, /data-feedback-edit-dialog/);
+  assert.match(portalHtml, /data-delete-feedback/);
+  assert.match(workerSource, /adminFeedbackMatch[\s\S]{0,300}?\["PATCH",\s*"DELETE"\]/);
+  assert.match(sqlFunctionBlock("video_class_admin_change_feedback"), /delete\s+from\s+public\.video_class_lesson_feedback/i);
+  assert.match(sql, /'edit_lesson_feedback',\s*'delete_lesson_feedback'/i);
+  assert.match(sql, /video_class_lesson_feedback_admin_page_idx[\s\S]{0,180}?updated_at\s+desc,\s*student_id,\s*lesson_id/i);
+  assert.match(portalHtml, /data-feedback-load-more/);
+
+  const saveOfficialPlaylist = sqlFunctionBlock("video_class_admin_save_official_playlist");
+  assert.match(
+    saveOfficialPlaylist,
+    /from\s+public\.video_class_lessons\s+lesson[\s\S]*?lesson\.id\s*=\s*any\(v_lessons\)[\s\S]*?for\s+share;[\s\S]*?if\s+exists\s*\([\s\S]*?video_class_lesson_courses\s+membership/i,
+    "series saves must lock lessons before validating course compatibility"
+  );
+
+  assertWorkerRoute("/v1/admin/r2/objects/download", "POST");
+  assert.doesNotMatch(workerSource, /createZipArchiveStream|crc32Update/, "large ZIP CPU work belongs on the administrator's device");
+  assert.match(portalHtml, /video-class-zip\.js/);
+  assert.match(portalZipJs, /async\s+function\s+writeArchive/);
+
+  const sourceFiles = [
+    { key: "private/a.mp4", name: "a.mp4", size: 5, uploaded: "2026-08-12T00:00:00Z", bytes: new TextEncoder().encode("alpha") },
+    { key: "private/b.mp4", name: "b.mp4", size: 4, uploaded: "2026-08-12T00:00:00Z", bytes: new TextEncoder().encode("beta") }
+  ];
+  const { readable, completion } = await zipTools.createArchiveStream(
+    sourceFiles,
+    entry => new ReadableStream({ start(controller) { controller.enqueue(entry.bytes); controller.close(); } })
+  );
+  const archive = new Uint8Array(await new Response(readable).arrayBuffer());
+  await completion;
+  const directory = await mkdtemp(join(tmpdir(), "video-class-zip-"));
+  const archivePath = join(directory, "backup.zip");
+  try {
+    await writeFile(archivePath, archive);
+    const checked = spawnSync("unzip", ["-t", archivePath], { encoding: "utf8" });
+    assert.equal(checked.status, 0, checked.stderr || checked.stdout);
+    const listed = spawnSync("unzip", ["-Z1", archivePath], { encoding: "utf8" });
+    assert.equal(listed.status, 0, listed.stderr);
+    assert.match(listed.stdout, /00001-a\.mp4/);
+    assert.match(listed.stdout, /00002-b\.mp4/);
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
 });
 
 test("administrator UI exposes UUID/key controls and playback grants expire within two hours", () => {

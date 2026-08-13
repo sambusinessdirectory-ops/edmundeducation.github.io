@@ -52,6 +52,12 @@ const state = {
   toastTimer: 0
 };
 
+let lessonClockWasRunningBeforeIdleBreak = false;
+
+function idleBreakIsPaused() {
+  return window.EdmundIdleBreak?.isPaused?.() === true;
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -284,7 +290,7 @@ function isLessonComplete(lesson) {
 
 function currentDurationMs(lessonId = state.lessonId) {
   const stored = lessonState(lessonId).durationMs;
-  if (!state.lessonClockStartedAt || state.lessonId !== lessonId) return stored;
+  if (!state.lessonClockStartedAt || state.lessonId !== lessonId || idleBreakIsPaused()) return stored;
   return stored + Math.max(0, Math.round(performance.now() - state.lessonClockStartedAt));
 }
 
@@ -345,7 +351,7 @@ function captureClockElapsed({ restart = false } = {}) {
     addLocalTimeActivity(state.lessonId, elapsed);
     markLessonDirty(state.lessonId);
   }
-  state.lessonClockStartedAt = restart ? performance.now() : 0;
+  state.lessonClockStartedAt = restart && !idleBreakIsPaused() ? performance.now() : 0;
 }
 
 function pauseClock() {
@@ -353,7 +359,7 @@ function pauseClock() {
 }
 
 function startClock() {
-  if (state.lessonId && !state.lessonClockStartedAt) state.lessonClockStartedAt = performance.now();
+  if (state.lessonId && !state.lessonClockStartedAt && !idleBreakIsPaused()) state.lessonClockStartedAt = performance.now();
 }
 
 function renderAppShell() {
@@ -737,7 +743,7 @@ async function handleLogin(event) {
     if (!await studentLogin(username, password)) throw new Error("用戶名稱或密碼不正確。");
     elements.loginForm.reset();
     setFormStatus("");
-    setConnection("Supabase 已連接", "online");
+    setConnection("已安全連接", "online");
     if (!openRequestedLesson()) openDashboard();
     showToast(`您好，${state.user.name}！`);
   } catch (error) {
@@ -757,7 +763,7 @@ async function restoreSession() {
   try {
     await loadSnapshot(String(candidate.token));
     window.EdmundSystemNav?.rememberStudentSession({ token: state.token, id: state.user.id, name: state.user.name, role: "student" });
-    setConnection("Supabase 已連接", "online");
+    setConnection("已安全連接", "online");
     if (!openRequestedLesson()) openDashboard();
     return true;
   } catch (error) {
@@ -934,7 +940,7 @@ function renderDashboard() {
   elements.timeTotal.textContent = formatDuration(duration);
   renderProgressDashboard();
   if (!SYSTEM.lessons.length) {
-    elements.lessonGrid.innerHTML = `<article class="empty-library"><div class="empty-library-inner"><span class="empty-library-mark" aria-hidden="true">✦</span><p class="eyebrow">REVIEWED CONTENT LIBRARY</p><h2>${escapeHtml(SYSTEM.titleZh)}課題庫骨架已完成</h2><p>目前尚未加入課題。新教材完成內容整理及審核後，會使用同一個學習、書簽及 Supabase 進度架構在此顯示。</p></div></article>`;
+    elements.lessonGrid.innerHTML = `<article class="empty-library"><div class="empty-library-inner"><span class="empty-library-mark" aria-hidden="true">✦</span><p class="eyebrow">REVIEWED CONTENT LIBRARY</p><h2>${escapeHtml(SYSTEM.titleZh)}課題庫骨架已完成</h2><p>目前尚未加入課題。新教材完成內容整理及審核後，會使用同一個學習、書簽及雲端進度架構在此顯示。</p></div></article>`;
     return;
   }
   elements.lessonGrid.innerHTML = SYSTEM.lessons.map((lesson) => {
@@ -1109,7 +1115,7 @@ async function saveDrafts() {
   captureClockElapsed({ restart: true });
   try {
     await persistLessonState(lesson.id);
-    elements.exerciseDraftStatus.textContent = "草稿已同步至 Supabase";
+    elements.exerciseDraftStatus.textContent = "草稿已同步";
     showToast("草稿及練習時間已儲存。");
   } catch (error) {
     console.warn("Common Expression draft save failed", error);
@@ -1201,7 +1207,7 @@ function persistLessonState(lessonId) {
       const current = state.states.get(lessonId);
       state.states.set(lessonId, mergeLessonStates(normalized, current));
     }
-    setConnection(state.dirtyLessonIds.size ? "等待同步" : "Supabase 已連接", state.dirtyLessonIds.size ? "checking" : "online");
+    setConnection(state.dirtyLessonIds.size ? "等待同步" : "已安全連接", state.dirtyLessonIds.size ? "checking" : "online");
     writeLocalSnapshot();
     return payload;
   }, (error) => {
@@ -1366,6 +1372,22 @@ document.addEventListener("keydown", (event) => {
 });
 
 elements.loginForm.addEventListener("submit", handleLogin);
+document.addEventListener("edmund:idle-break-start", () => {
+  lessonClockWasRunningBeforeIdleBreak = Boolean(state.lessonClockStartedAt) || state.currentView === "exercise";
+  if (state.currentView === "exercise") updateDraftsFromFields();
+  pauseClock();
+  writeLocalSnapshot();
+});
+document.addEventListener("edmund:idle-break-resume", () => {
+  const shouldResume = lessonClockWasRunningBeforeIdleBreak;
+  lessonClockWasRunningBeforeIdleBreak = false;
+  if (shouldResume && state.currentView === "exercise" && state.user && state.token) startClock();
+});
+document.addEventListener("edmund:idle-break-logout", () => {
+  lessonClockWasRunningBeforeIdleBreak = false;
+  pauseClock();
+  writeLocalSnapshot();
+});
 window.addEventListener("pagehide", () => {
   if (state.currentView === "exercise") updateDraftsFromFields();
   pauseClock();
@@ -1390,7 +1412,7 @@ async function initialise() {
     await ensureSupabaseSession();
     setConnection("已連線", "online");
   } catch (error) {
-    console.warn("Common Expression Supabase initialization failed", error);
+    console.warn("Common Expression data initialization failed", error);
     setConnection("連線失敗", "error");
   }
   if (!await restoreSession()) showView("login", { scroll: false });

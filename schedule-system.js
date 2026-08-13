@@ -33,6 +33,7 @@ import {
   scheduleWeekStartFromUrl
 } from "./schedule-share.mjs?v=20260810-1";
 import {
+  HOMEWORK_ENTRY_TAGS,
   HOMEWORK_RESOURCE_TYPES,
   MAX_HOMEWORK_RESOURCES,
   SCHEDULE_MESSAGE_MAX_LENGTH,
@@ -46,7 +47,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260812-1";
+} from "./schedule-homework-links.mjs?v=20260812-2";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -67,6 +68,7 @@ import {
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
 const MOTIVATION_PENDING_STORAGE_KEY = "edmund-schedule-motivation-pending-v1";
+const MOTIVATION_HIDDEN_STORAGE_PREFIX = "edmund-schedule-motivation-hidden-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const COUNTDOWN_COLLAPSED_KEY = "edmund-schedule-countdown-collapsed-v1";
 const SCHEDULE_CLIPBOARD_SESSION_KEY = "edmund-schedule-clipboard-v1";
@@ -175,6 +177,17 @@ const elements = {
   logout: document.querySelector("[data-logout]"),
   adminStudentsButton: document.querySelector("[data-admin-students]"),
   adminMotivationResults: document.querySelector("[data-admin-motivation-results]"),
+  announcementForm: document.querySelector("[data-announcement-form]"),
+  announcementMessage: document.querySelector("[data-announcement-message]"),
+  announcementImage: document.querySelector("[data-announcement-image]"),
+  announcementImageActionField: document.querySelector("[data-announcement-image-action-field]"),
+  announcementImageAction: document.querySelector("[data-announcement-image-action]"),
+  announcementActive: document.querySelector("[data-announcement-active]"),
+  announcementActiveLabel: document.querySelector("[data-announcement-active-label]"),
+  announcementSubmit: document.querySelector("[data-announcement-submit]"),
+  announcementCancelEdit: document.querySelector("[data-announcement-cancel-edit]"),
+  announcementList: document.querySelector("[data-announcement-list]"),
+  announcementStatus: document.querySelector("[data-announcement-status]"),
   loginForm: document.querySelector("[data-login-form]"),
   loginButton: document.querySelector("[data-login-button]"),
   loginStatus: document.querySelector("[data-login-status]"),
@@ -224,6 +237,7 @@ const elements = {
   toggleTable: document.querySelector("[data-toggle-table]"),
   toggleUnused: document.querySelector("[data-toggle-unused]"),
   toggleMascots: document.querySelector("[data-toggle-mascots]"),
+  toggleMotivation: document.querySelector("[data-toggle-motivation]"),
   toggleDailyQuote: document.querySelector("[data-toggle-daily-quote]"),
   toggleEncouragement: document.querySelector("[data-toggle-encouragement]"),
   dailyQuote: document.querySelector("[data-daily-quote]"),
@@ -287,6 +301,7 @@ const elements = {
   homeworkPickerResults: document.querySelector("[data-homework-picker-results]"),
   homeworkPickerClose: document.querySelector("[data-close-homework-picker]"),
   homeworkAttachments: document.querySelector("[data-homework-attachments]"),
+  entryTags: document.querySelector("[data-entry-tags]"),
   entryEstimatedMinutes: document.querySelector("#schedule-estimated-minutes"),
   entryHint: document.querySelector("[data-entry-hint]"),
   entryStatus: document.querySelector("[data-entry-status]"),
@@ -339,6 +354,8 @@ const state = {
   tableHidden: readDisplayPreference(TABLE_HIDDEN_KEY),
   hideUnused: false,
   hideMascots: false,
+  hideMotivation: false,
+  motivationVisibilityOwner: "",
   hideDailyQuote: false,
   hideEncouragement: false,
   encouragementBusy: false,
@@ -376,7 +393,11 @@ const state = {
   motivationPendingSaves: new Map(),
   motivationSavePromises: new Set(),
   motivationSaveChains: new Map(),
-  motivationSaveGenerations: new Map()
+  motivationSaveGenerations: new Map(),
+  announcements: [],
+  editingAnnouncementId: null,
+  editingAnnouncementVersion: null,
+  announcementMutationInFlight: false
 };
 
 let homeworkResourceCatalog = null;
@@ -424,6 +445,24 @@ function emptyWeekPayload() {
   };
 }
 
+function renderEntryTagOptions() {
+  if (!elements.entryTags) return;
+  const fragment = document.createDocumentFragment();
+  for (const tag of HOMEWORK_ENTRY_TAGS) {
+    const label = document.createElement("label");
+    label.className = "entry-tag-option";
+    label.style.setProperty("--entry-tag-colour", tag.color);
+    label.style.setProperty("--entry-tag-text", tag.textColor);
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = tag.key;
+    input.dataset.homeworkTag = "true";
+    label.append(input, document.createTextNode(tag.label));
+    fragment.append(label);
+  }
+  elements.entryTags.replaceChildren(fragment);
+}
+
 function readDisplayPreference(key) {
   try {
     return localStorage.getItem(key) === "true";
@@ -437,6 +476,40 @@ function saveDisplayPreference(key, value) {
     localStorage.setItem(key, String(Boolean(value)));
   } catch {
     // Display preferences can remain in memory when storage is unavailable.
+  }
+}
+
+function motivationHiddenStorageKey(studentId) {
+  return `${MOTIVATION_HIDDEN_STORAGE_PREFIX}:${String(studentId || "").toLowerCase()}`;
+}
+
+function motivationVisibilityOwner(student) {
+  if (!student?.id || !state.currentUser?.role) return "";
+  return state.currentUser.role === "admin"
+    ? `admin:${student.id}`
+    : String(student.id);
+}
+
+function syncMotivationVisibilityPreference(student) {
+  const owner = motivationVisibilityOwner(student);
+  if (state.motivationVisibilityOwner === owner) return;
+  state.motivationVisibilityOwner = owner;
+  if (!owner) {
+    state.hideMotivation = false;
+    return;
+  }
+  try {
+    state.hideMotivation = localStorage.getItem(motivationHiddenStorageKey(owner)) === "true";
+  } catch {
+    state.hideMotivation = false;
+  }
+}
+
+function saveMotivationVisibilityPreference(owner, hidden) {
+  try {
+    localStorage.setItem(motivationHiddenStorageKey(owner), String(Boolean(hidden)));
+  } catch {
+    // This visual-only preference may remain in memory if device storage is unavailable.
   }
 }
 
@@ -678,15 +751,30 @@ function scheduleDailyQuoteRefresh() {
   dailyQuoteRefreshTimer = window.setTimeout(() => renderDailyQuote(), delay);
 }
 
+function quoteAttributionWithTitleBreak(prefix, rawAttribution) {
+  const attribution = String(rawAttribution || "").trim();
+  if (!attribution) return "";
+  const separatorIndex = attribution.search(/[,，]/);
+  if (separatorIndex < 0) return `${prefix} ${attribution}`;
+  const author = attribution.slice(0, separatorIndex).trim();
+  const separator = attribution[separatorIndex];
+  const title = attribution.slice(separatorIndex + 1).trim();
+  return title ? `${prefix} ${author}${separator}\n${title}` : `${prefix} ${author}`;
+}
+
 function renderDailyQuote() {
   if (!elements.dailyQuote) return;
   const dayKey = hongKongDayKey();
   const quote = quoteForHongKongDay(dayKey);
   elements.dailyQuote.dataset.quoteDay = dayKey;
   elements.quoteEnglish.textContent = quote?.englishQuote || "今日語錄暫時未能載入。";
-  elements.quoteEnglishAttribution.textContent = quote ? `— ${quote.englishAttribution}` : "";
+  elements.quoteEnglishAttribution.textContent = quote
+    ? quoteAttributionWithTitleBreak("—", quote.englishAttribution)
+    : "";
   elements.quoteChinese.textContent = quote?.chineseQuote || "";
-  elements.quoteChineseAttribution.textContent = quote ? `—— ${quote.chineseAttribution}` : "";
+  elements.quoteChineseAttribution.textContent = quote
+    ? quoteAttributionWithTitleBreak("——", quote.chineseAttribution)
+    : "";
   scheduleDailyQuoteRefresh();
 }
 
@@ -1243,6 +1331,8 @@ function clearRenderedSchedule() {
   state.weekPayload = emptyWeekPayload();
   state.hideUnused = false;
   state.hideMascots = false;
+  state.hideMotivation = false;
+  state.motivationVisibilityOwner = "";
   state.hideDailyQuote = false;
   state.hideEncouragement = false;
   state.encouragementBusy = false;
@@ -1255,6 +1345,8 @@ function clearRenderedSchedule() {
   state.countdownDrafts.clear();
   state.countdownCollapsedOwner = "";
   state.countdownCollapsedPositions.clear();
+  state.announcements = [];
+  resetAnnouncementForm();
   state.massEditMode = false;
   state.massEditOriginalEntries = [];
   state.massEditChanges.clear();
@@ -1300,6 +1392,7 @@ function clearRenderedSchedule() {
 
 function applyDisplayPreferences() {
   const hideUnusedNow = unusedSlotsAreHidden();
+  const canHideMotivation = Boolean(state.currentUser && activeStudent());
   elements.tableRegion.hidden = state.tableHidden;
   elements.toggleTable.textContent = state.tableHidden ? "顯示日程表" : "隱藏日程表";
   elements.toggleTable.setAttribute("aria-expanded", String(!state.tableHidden));
@@ -1308,6 +1401,13 @@ function applyDisplayPreferences() {
   elements.toggleMascots.textContent = state.hideMascots ? "顯示吉祥物" : "隱藏吉祥物";
   elements.toggleMascots.setAttribute("aria-pressed", String(state.hideMascots));
   elements.weekGrid.classList.toggle("mascots-hidden", state.hideMascots);
+  elements.toggleMotivation.hidden = !canHideMotivation;
+  elements.toggleMotivation.disabled = state.mutationInFlight || !canHideMotivation;
+  elements.toggleMotivation.textContent = state.hideMotivation ? "顯示動力指數" : "隱藏動力指數";
+  elements.toggleMotivation.setAttribute("aria-pressed", String(state.hideMotivation));
+  elements.weekGrid.querySelectorAll(".daily-motivation-rating").forEach((panel) => {
+    panel.hidden = canHideMotivation && state.hideMotivation;
+  });
   elements.dailyQuote.hidden = state.hideDailyQuote;
   elements.toggleDailyQuote.textContent = state.hideDailyQuote ? "顯示名人語錄" : "隱藏名人語錄";
   elements.toggleDailyQuote.setAttribute("aria-pressed", String(state.hideDailyQuote));
@@ -1461,6 +1561,7 @@ function setMutationInFlight(busy) {
   state.mutationInFlight = Boolean(busy);
   elements.toggleUnused.disabled = busy;
   elements.toggleMascots.disabled = busy;
+  elements.toggleMotivation.disabled = busy || !state.currentUser || !activeStudent();
   elements.toggleDailyQuote.disabled = busy;
   elements.toggleEncouragement.disabled = busy;
   elements.toggleSelection.disabled = busy;
@@ -1472,6 +1573,18 @@ function toggleTableVisibility() {
   state.tableHidden = !state.tableHidden;
   saveDisplayPreference(TABLE_HIDDEN_KEY, state.tableHidden);
   applyDisplayPreferences();
+}
+
+function toggleMotivationVisibility() {
+  const student = activeStudent();
+  if (state.mutationInFlight || !state.currentUser || !student) return;
+  syncMotivationVisibilityPreference(student);
+  state.hideMotivation = !state.hideMotivation;
+  saveMotivationVisibilityPreference(motivationVisibilityOwner(student), state.hideMotivation);
+  applyDisplayPreferences();
+  showToast(state.hideMotivation
+    ? "已在這部裝置隱藏動力指數。"
+    : "已在這部裝置顯示動力指數。");
 }
 
 async function saveDisplayPreferences(patch) {
@@ -2399,6 +2512,267 @@ async function callRpc(name, args = {}) {
   return data;
 }
 
+async function announcementApi(path, options = {}) {
+  if (state.currentUser?.role !== "admin" || !state.currentUser.adminToken) {
+    throw new Error("管理員登入已失效，請重新登入。");
+  }
+  const baseUrl = String(scheduleSettings.workerBaseUrl || "").replace(/\/+$/, "");
+  if (!baseUrl.startsWith("https://")) throw new Error("公告服務暫時未能載入。");
+  const response = await fetch(`${baseUrl}${path}`, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${state.currentUser.adminToken}`,
+      ...(options.headers || {})
+    }
+  });
+  if (response.status === 204) return null;
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(payload.error || "公告服務暫時未能完成操作。");
+  return payload;
+}
+
+function announcementBeingEdited() {
+  return state.announcements.find((announcement) => announcement.id === state.editingAnnouncementId) || null;
+}
+
+function syncAnnouncementImageControls() {
+  const announcement = announcementBeingEdited();
+  const editing = Boolean(announcement);
+  elements.announcementImageActionField.hidden = !editing;
+  if (!editing) {
+    elements.announcementImage.disabled = state.announcementMutationInFlight;
+    elements.announcementImage.required = false;
+    return;
+  }
+  const keepOption = elements.announcementImageAction.querySelector('option[value="keep"]');
+  const removeOption = elements.announcementImageAction.querySelector('option[value="remove"]');
+  keepOption.textContent = announcement.hasImage ? "保留目前圖片" : "維持沒有圖片";
+  removeOption.disabled = !announcement.hasImage;
+  if (!announcement.hasImage && elements.announcementImageAction.value === "remove") {
+    elements.announcementImageAction.value = "keep";
+  }
+  const replacing = elements.announcementImageAction.value === "replace";
+  elements.announcementImage.disabled = state.announcementMutationInFlight || !replacing;
+  elements.announcementImage.required = replacing;
+  if (!replacing) elements.announcementImage.value = "";
+}
+
+function setAnnouncementMutationInFlight(busy) {
+  state.announcementMutationInFlight = Boolean(busy);
+  elements.announcementForm?.querySelectorAll("textarea, input, select, button").forEach((control) => {
+    control.disabled = state.announcementMutationInFlight;
+  });
+  elements.announcementList?.querySelectorAll("button").forEach((button) => {
+    button.disabled = state.announcementMutationInFlight;
+  });
+  syncAnnouncementImageControls();
+}
+
+function announcementEditHasUnsavedChanges() {
+  const announcement = announcementBeingEdited();
+  if (!announcement) return false;
+  return elements.announcementMessage.value.trim() !== announcement.message
+    || elements.announcementActive.checked !== announcement.isActive
+    || elements.announcementImageAction.value !== "keep"
+    || Boolean(elements.announcementImage.files?.length);
+}
+
+function resetAnnouncementForm() {
+  state.editingAnnouncementId = null;
+  state.editingAnnouncementVersion = null;
+  elements.announcementForm.reset();
+  elements.announcementActive.checked = true;
+  elements.announcementImageAction.value = "keep";
+  elements.announcementActiveLabel.textContent = "建立後立即顯示";
+  elements.announcementSubmit.textContent = "建立公告";
+  elements.announcementCancelEdit.hidden = true;
+  syncAnnouncementImageControls();
+}
+
+function beginAnnouncementEdit(id) {
+  if (state.announcementMutationInFlight) return;
+  const announcement = state.announcements.find((candidate) => candidate.id === id);
+  if (!announcement) {
+    setStatus(elements.announcementStatus, "公告已更新，請重新載入後再試。", "error");
+    return;
+  }
+  if (
+    state.editingAnnouncementId
+    && announcementEditHasUnsavedChanges()
+    && !window.confirm("目前的公告修改尚未儲存。確定要捨棄修改並重新載入所選公告嗎？")
+  ) return;
+  elements.announcementForm.reset();
+  state.editingAnnouncementId = announcement.id;
+  state.editingAnnouncementVersion = announcement.version;
+  elements.announcementMessage.value = announcement.message;
+  elements.announcementActive.checked = announcement.isActive;
+  elements.announcementImageAction.value = "keep";
+  elements.announcementActiveLabel.textContent = "修改後顯示此公告";
+  elements.announcementSubmit.textContent = "儲存修改";
+  elements.announcementCancelEdit.hidden = false;
+  syncAnnouncementImageControls();
+  setStatus(elements.announcementStatus, "正在修改公告；可保留、取代或移除現有圖片。");
+  elements.announcementForm.scrollIntoView({ behavior: "smooth", block: "center" });
+  window.setTimeout(() => elements.announcementMessage.focus(), 250);
+}
+
+function renderAnnouncements() {
+  if (!elements.announcementList) return;
+  elements.announcementList.replaceChildren();
+  if (!state.announcements.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "尚未建立全站公告。";
+    elements.announcementList.append(empty);
+    return;
+  }
+  for (const announcement of state.announcements) {
+    const row = document.createElement("article");
+    row.className = "announcement-admin-row";
+    const copy = document.createElement("div");
+    const status = document.createElement("span");
+    status.className = `announcement-admin-badge${announcement.isActive ? " is-active" : ""}`;
+    status.textContent = announcement.isActive ? "顯示中" : "已停用";
+    const message = document.createElement("p");
+    message.textContent = announcement.message;
+    const meta = document.createElement("small");
+    meta.textContent = `${formatAdminDateTime(announcement.updatedAt)}${announcement.hasImage ? " · 附有圖片" : ""}`;
+    copy.append(status, message, meta);
+    const actions = document.createElement("div");
+    actions.className = "announcement-admin-actions";
+    const edit = document.createElement("button");
+    edit.type = "button";
+    edit.className = "student-card-action";
+    edit.dataset.announcementEdit = announcement.id;
+    edit.textContent = "修改";
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "student-card-action";
+    toggle.dataset.announcementToggle = announcement.id;
+    toggle.dataset.announcementVersion = String(announcement.version);
+    toggle.dataset.announcementNextActive = String(!announcement.isActive);
+    toggle.textContent = announcement.isActive ? "停用" : "重新啟用";
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "student-card-action danger";
+    remove.dataset.announcementDelete = announcement.id;
+    remove.dataset.announcementVersion = String(announcement.version);
+    remove.textContent = "永久刪除";
+    actions.append(edit, toggle, remove);
+    [edit, toggle, remove].forEach((button) => {
+      button.disabled = state.announcementMutationInFlight;
+    });
+    row.append(copy, actions);
+    elements.announcementList.append(row);
+  }
+}
+
+async function loadAnnouncements() {
+  if (!elements.announcementList || state.currentUser?.role !== "admin") return;
+  setStatus(elements.announcementStatus, "正在載入全站公告…");
+  try {
+    const payload = await announcementApi("/v1/admin/announcements");
+    state.announcements = Array.isArray(payload?.announcements) ? payload.announcements : [];
+    renderAnnouncements();
+    setStatus(elements.announcementStatus, `共有 ${state.announcements.length} 則公告。`);
+  } catch (error) {
+    setStatus(elements.announcementStatus, error.message || "未能載入公告。", "error");
+  }
+}
+
+async function saveAnnouncement(event) {
+  event.preventDefault();
+  if (state.currentUser?.role !== "admin") return;
+  const message = elements.announcementMessage.value.trim();
+  const image = elements.announcementImage.files?.[0] || null;
+  const editing = announcementBeingEdited();
+  if (state.editingAnnouncementId && !editing) {
+    setStatus(elements.announcementStatus, "公告已在其他頁面移除；請重新載入後再試。", "error");
+    return;
+  }
+  const imageAction = editing ? elements.announcementImageAction.value : "replace";
+  if (!message) {
+    setStatus(elements.announcementStatus, "請先輸入公告內容。", "error");
+    return;
+  }
+  if (image && (!/^image\/(?:jpeg|png|webp|gif)$/i.test(image.type) || image.size > 5 * 1024 * 1024)) {
+    setStatus(elements.announcementStatus, "圖片只接受 JPG、PNG、WebP 或 GIF，大小不可超過 5 MB。", "error");
+    return;
+  }
+  if (editing && imageAction === "replace" && !image) {
+    setStatus(elements.announcementStatus, "請先選擇要取代現有圖片的新圖片。", "error");
+    return;
+  }
+  if (editing && !["keep", "replace", "remove"].includes(imageAction)) {
+    setStatus(elements.announcementStatus, "請選擇如何處理現有圖片。", "error");
+    return;
+  }
+  setAnnouncementMutationInFlight(true);
+  setStatus(elements.announcementStatus, editing ? "正在儲存公告修改…" : "正在建立公告…");
+  try {
+    const body = new FormData();
+    body.set("message", message);
+    body.set("isActive", String(elements.announcementActive.checked));
+    if (editing) {
+      body.set("expectedVersion", String(state.editingAnnouncementVersion));
+      body.set("imageAction", imageAction);
+      if (imageAction === "replace" && image) body.set("image", image, image.name);
+      await announcementApi(`/v1/admin/announcements/${encodeURIComponent(editing.id)}`, {
+        method: "PATCH",
+        body
+      });
+    } else {
+      if (image) body.set("image", image, image.name);
+      await announcementApi("/v1/admin/announcements", { method: "POST", body });
+    }
+    resetAnnouncementForm();
+    showToast(editing ? "全站公告修改已儲存。" : "全站公告已建立。", "success");
+    await loadAnnouncements();
+  } catch (error) {
+    setStatus(elements.announcementStatus, error.message || (editing ? "未能儲存公告修改。" : "未能建立公告。"), "error");
+  } finally {
+    setAnnouncementMutationInFlight(false);
+  }
+}
+
+async function toggleAnnouncement(id, version, isActive) {
+  if (state.announcementMutationInFlight) return;
+  setAnnouncementMutationInFlight(true);
+  try {
+    await announcementApi(`/v1/admin/announcements/${encodeURIComponent(id)}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expectedVersion: Number(version), isActive })
+    });
+    resetAnnouncementForm();
+    await loadAnnouncements();
+  } catch (error) {
+    setStatus(elements.announcementStatus, error.message || "未能更新公告。", "error");
+  } finally {
+    setAnnouncementMutationInFlight(false);
+  }
+}
+
+async function deleteAnnouncement(id, version) {
+  if (state.announcementMutationInFlight) return;
+  if (!window.confirm("確定要永久刪除這則全站公告嗎？此操作不可復原。")) return;
+  setAnnouncementMutationInFlight(true);
+  try {
+    await announcementApi(`/v1/admin/announcements/${encodeURIComponent(id)}`, {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ expectedVersion: Number(version), confirmation: "DELETE" })
+    });
+    resetAnnouncementForm();
+    showToast("公告已永久刪除。", "success");
+    await loadAnnouncements();
+  } catch (error) {
+    setStatus(elements.announcementStatus, error.message || "未能刪除公告。", "error");
+  } finally {
+    setAnnouncementMutationInFlight(false);
+  }
+}
+
 async function restoreSession() {
   const saved = readSession();
   if (!saved?.role) return false;
@@ -2538,7 +2912,7 @@ async function logout() {
   try {
     await supabaseClient?.auth.signOut();
   } catch (error) {
-    console.warn("Supabase sign out failed", error);
+    console.warn("Account sign out failed", error);
   } finally {
     supabaseAuthPromise = null;
   }
@@ -2682,6 +3056,7 @@ async function openAdminPanel() {
   clearRenderedSchedule();
   state.selectedStudent = null;
   showView("admin");
+  loadAnnouncements();
   setStatus(elements.adminStatus, "正在載入學生帳戶…");
   setStatus(elements.parentAdminStatus, "正在載入家長帳戶…");
   try {
@@ -3466,6 +3841,8 @@ async function loadWeek(focusTarget = null) {
   await flushPendingMotivationSaves();
   const student = activeStudent();
   if (!student) return;
+  syncMotivationVisibilityPreference(student);
+  applyDisplayPreferences();
   await safelyReplayStoredMotivationSaves(student);
   syncDisplayedWeekUrl();
   captureCountdownDrafts();
@@ -3792,6 +4169,7 @@ function updateMotivationPanelSelection(scheduleDate, message = "") {
 function createDailyMotivationPanel(scheduleDate, dayIndex, active) {
   const panel = document.createElement("section");
   panel.className = "daily-motivation-rating";
+  panel.hidden = state.hideMotivation;
   panel.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}今天的動力指數`);
 
   const title = document.createElement("p");
@@ -4048,7 +4426,7 @@ function renderWeek() {
 }
 
 function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = false) {
-  const parsedEntry = entry ? parseScheduleMessage(entry.message) : { text: "", resources: [] };
+  const parsedEntry = entry ? parseScheduleMessage(entry.message) : { text: "", resources: [], tags: [] };
   const cell = document.createElement("div");
   cell.className = "schedule-slot-cell";
   const button = document.createElement("button");
@@ -4058,7 +4436,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
   button.dataset.slotIndex = String(slotIndex);
   button.setAttribute(
     "aria-label",
-    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isMoreThanHalfCompleted ? "，已完成超過一半" : entry.isInProgress ? "，進行中" : ""}${entry.isPreviousIncomplete ? "，之前功課未完成" : ""}` : "，新增安排"}`
+    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${parsedEntry.text}${parsedEntry.tags.length ? `，標籤：${parsedEntry.tags.map((tag) => tag.label).join("、")}` : ""}${parsedEntry.resources.length ? `，附有 ${parsedEntry.resources.length} 個功課連結` : ""}${entry.isCompleted ? "，已完成" : entry.isMoreThanHalfCompleted ? "，已完成超過一半" : entry.isInProgress ? "，進行中" : ""}${entry.isPreviousIncomplete ? "，之前功課未完成" : ""}` : "，新增安排"}`
   );
 
   const topLine = document.createElement("span");
@@ -4097,6 +4475,12 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
 
   if (entry) {
     button.classList.add("has-entry");
+    if (parsedEntry.tags.length) {
+      button.classList.add("has-entry-tag-wraps");
+      parsedEntry.tags.slice(0, HOMEWORK_ENTRY_TAGS.length).forEach((tag, index) => {
+        button.style.setProperty(`--entry-tag-wrap-${index + 1}`, tag.color);
+      });
+    }
     button.dataset.entryId = entry.id;
     button.draggable = canMoveEntry(entry) || canDragMassEditGroup(entry);
     if (canMoveEntry(entry)) button.classList.add("can-touch-drag");
@@ -4154,9 +4538,22 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
     source.className = `entry-source ${entry.source === "admin" ? "admin" : "student"}`;
     source.textContent = entry.source === "admin" ? "老師安排" : "學生安排";
     const message = document.createElement("p");
-    message.className = "entry-message";
-    message.textContent = parsedEntry.text;
+    message.className = parsedEntry.text ? "entry-message" : "entry-message slot-placeholder";
+    message.textContent = parsedEntry.text || "尚未加入功課內容";
     button.append(source, message);
+    if (parsedEntry.tags.length) {
+      const tags = document.createElement("span");
+      tags.className = "entry-tag-list";
+      for (const tag of parsedEntry.tags) {
+        const badge = document.createElement("span");
+        badge.className = "entry-custom-tag";
+        badge.style.setProperty("--entry-tag-colour", tag.color);
+        badge.style.setProperty("--entry-tag-text", tag.textColor);
+        badge.textContent = tag.label;
+        tags.append(badge);
+      }
+      button.append(tags);
+    }
     if (entry.estimatedMinutes) {
       const time = document.createElement("span");
       time.className = "estimated-time";
@@ -4644,7 +5041,14 @@ function openEntryDialog(date, slotIndex) {
     ? massEditOriginalEntry(date, slotIndex, entry)
     : entry;
   const parsedEntry = parseScheduleMessage(entry?.message || "");
-  state.editing = { date, slotIndex: Number(slotIndex), entry, originalEntry, resources: [...parsedEntry.resources] };
+  state.editing = {
+    date,
+    slotIndex: Number(slotIndex),
+    entry,
+    originalEntry,
+    resources: [...parsedEntry.resources],
+    tags: parsedEntry.tags.map((tag) => tag.key)
+  };
   const protectedTeacherEntry = Boolean(
     entry?.source === "admin" && state.currentUser?.role === "student"
   );
@@ -4654,6 +5058,10 @@ function openEntryDialog(date, slotIndex) {
   elements.entryMessage.readOnly = protectedTeacherEntry;
   elements.entryEstimatedMinutes.value = entry?.estimatedMinutes || "";
   elements.entryEstimatedMinutes.readOnly = protectedTeacherEntry;
+  elements.entryTags.querySelectorAll("input[data-homework-tag]").forEach((input) => {
+    input.checked = state.editing.tags.includes(input.value);
+    input.disabled = protectedTeacherEntry;
+  });
   elements.entryHint.textContent = protectedTeacherEntry
     ? "老師安排只可由管理員修改或刪除；您仍可標記完成。"
     : state.massEditMode
@@ -4703,15 +5111,19 @@ async function saveEntry(event) {
     slotIndex: state.editing.slotIndex
   };
   const visibleMessage = elements.entryMessage.value.trim();
-  if (!visibleMessage) {
-    setStatus(elements.entryStatus, "請輸入功課或溫習內容。", "error");
+  const checkedTagKeys = new Set(
+    [...elements.entryTags.querySelectorAll("input[data-homework-tag]:checked")].map((input) => input.value)
+  );
+  const selectedTags = state.editing.tags.filter((tagKey) => checkedTagKeys.has(tagKey));
+  if (!visibleMessage && !selectedTags.length) {
+    setStatus(elements.entryStatus, "請輸入功課或溫習內容，或至少選擇一個功課標籤。", "error");
     return;
   }
   if ((state.editing.resources || []).length > MAX_HOMEWORK_RESOURCES) {
     setStatus(elements.entryStatus, `每格最多可加入 ${MAX_HOMEWORK_RESOURCES} 個功課連結；請先移除其他連結。`, "error");
     return;
   }
-  const message = serializeScheduleMessage(visibleMessage, state.editing.resources);
+  const message = serializeScheduleMessage(visibleMessage, state.editing.resources, selectedTags);
   if (message.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
     setStatus(elements.entryStatus, "功課內容連同連結不可超過 2,000 字元；請縮短文字或移除部分連結。", "error");
     return;
@@ -5940,6 +6352,7 @@ elements.exportPdf.addEventListener("click", exportPdf);
 elements.toggleTable.addEventListener("click", toggleTableVisibility);
 elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
 elements.toggleMascots.addEventListener("click", toggleMascots);
+elements.toggleMotivation.addEventListener("click", toggleMotivationVisibility);
 elements.toggleDailyQuote.addEventListener("click", toggleDailyQuoteVisibility);
 elements.toggleEncouragement.addEventListener("click", toggleEncouragementVisibility);
 elements.saveEncouragement.addEventListener("click", saveWeeklyEncouragement);
@@ -5970,6 +6383,36 @@ elements.countdownGrid?.addEventListener("click", (event) => {
   if (!card) return;
   if (event.target.closest("[data-save-countdown]")) saveCountdown(card);
   else if (event.target.closest("[data-delete-countdown]")) deleteCountdown(card);
+});
+elements.entryTags?.addEventListener("change", (event) => {
+  const input = event.target.closest("input[data-homework-tag]");
+  if (!input || !state.editing) return;
+  state.editing.tags = state.editing.tags.filter((tagKey) => tagKey !== input.value);
+  if (input.checked) state.editing.tags.push(input.value);
+});
+elements.announcementForm?.addEventListener("submit", saveAnnouncement);
+elements.announcementImageAction?.addEventListener("change", syncAnnouncementImageControls);
+elements.announcementCancelEdit?.addEventListener("click", () => {
+  resetAnnouncementForm();
+  setStatus(elements.announcementStatus, "已取消修改公告。");
+});
+elements.announcementList?.addEventListener("click", (event) => {
+  const edit = event.target.closest("[data-announcement-edit]");
+  if (edit) {
+    beginAnnouncementEdit(edit.dataset.announcementEdit);
+    return;
+  }
+  const toggle = event.target.closest("[data-announcement-toggle]");
+  if (toggle) {
+    toggleAnnouncement(
+      toggle.dataset.announcementToggle,
+      toggle.dataset.announcementVersion,
+      toggle.dataset.announcementNextActive === "true"
+    );
+    return;
+  }
+  const remove = event.target.closest("[data-announcement-delete]");
+  if (remove) deleteAnnouncement(remove.dataset.announcementDelete, remove.dataset.announcementVersion);
 });
 
 document.addEventListener("keydown", (event) => {
@@ -6027,6 +6470,7 @@ elements.entryDialog.addEventListener("close", () => {
 });
 
 async function initialize() {
+  renderEntryTagOptions();
   showView("login");
   setConnection("正在連接", "connecting");
   try {

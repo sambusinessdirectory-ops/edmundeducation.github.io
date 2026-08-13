@@ -168,7 +168,7 @@ assert.ok(
   "scripts load out of order",
 );
 assert.match(html, /<script type="module" src="ielts-reading-analysis\.js/);
-assert.match(html, /rel="manifest" href="\/manifest\.webmanifest"/);
+assert.match(html, /rel="manifest" href="\/pwa-manifests\/ielts-reading-analysis\.webmanifest"/);
 assert.match(html, /rel="canonical" href="https:\/\/edmundeducation\.com\/ielts-reading-analysis\.html"/);
 assert.match(html, /data-article-overview hidden/);
 assert.match(html, /data-overview-list/);

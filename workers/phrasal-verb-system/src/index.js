@@ -413,7 +413,7 @@ async function rpc(env, functionName, payload) {
     console.error("Supabase RPC transport failed", functionName, safeErrorMessage(error));
     throw new HttpError(
       502,
-      "SUPABASE_UNAVAILABLE",
+      "DATA_SERVICE_UNAVAILABLE",
       "Phrasal Verb System data service is temporarily unavailable"
     );
   }
@@ -422,7 +422,7 @@ async function rpc(env, functionName, payload) {
     try { await response.arrayBuffer(); } catch { /* Discard upstream details. */ }
     throw new HttpError(
       502,
-      "SUPABASE_UNAVAILABLE",
+      "DATA_SERVICE_UNAVAILABLE",
       "Phrasal Verb System data service is temporarily unavailable"
     );
   }

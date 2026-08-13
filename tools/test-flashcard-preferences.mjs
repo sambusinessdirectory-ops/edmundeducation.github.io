@@ -73,7 +73,7 @@ assert.match(
 assert.match(persistPreferences, /if \(!saved\) \{/);
 assert.match(persistPreferences, /cacheAccountDisplayPreferences\(nextPreferences\)/);
 assert.doesNotMatch(persistPreferences, /hideLockedSections = previousHidden/);
-assert.match(persistPreferences, /Supabase: preference saved on this device/);
+assert.match(persistPreferences, /偏好設定已儲存在這部裝置/);
 
 const normalLogin = sourceBetween("async function login(username, password)", "function getKnownDeckIds()");
 const loginLoad = normalLogin.indexOf("await loadStudentStateFromSupabase()");

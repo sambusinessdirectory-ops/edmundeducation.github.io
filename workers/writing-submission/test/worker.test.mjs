@@ -3,6 +3,7 @@ import fs from "node:fs";
 import test from "node:test";
 
 import worker from "../src/index.js";
+import { WRITING_SUBMISSION_TOPIC_CATALOG } from "../src/topic-catalog.js";
 
 const ORIGIN = "https://edmundeducation.github.io";
 const BAD_ORIGIN = "https://attacker.example";
@@ -15,6 +16,10 @@ const ADMIN_ID = "66666666-6666-4666-8666-666666666666";
 const FEEDBACK_ID = "77777777-7777-4777-8777-777777777777";
 const RECREATED_FEEDBACK_ID = "99999999-9999-4999-8999-999999999999";
 const FINGERPRINT = "a".repeat(64);
+const CANONICAL_DSE_TOPIC = WRITING_SUBMISSION_TOPIC_CATALOG.find(
+  topic => topic.id === "fill:dse-writing-2025-part-a"
+);
+assert.ok(CANONICAL_DSE_TOPIC);
 
 function limiter(success = true) {
   return {
@@ -2877,7 +2882,7 @@ test("a valid submission derives its owner and word count on the Worker", async 
       assert.equal(rpc.body.p_token, STUDENT_TOKEN);
       return jsonResponse(studentProfile());
     }
-    if (rpc.name === "writing_submission_submit_v3") {
+    if (rpc.name === "writing_submission_submit_v4") {
       submittedPayload = rpc.body;
       return jsonResponse([{
         id: rpc.body.p_id,
@@ -2925,7 +2930,7 @@ test("submission payloads cannot choose a student ID or add unknown fields", asy
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit_v3") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v4") submitCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
@@ -2957,7 +2962,7 @@ test("submission writes require JSON and are bounded before the storage RPC", as
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit_v3") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v4") submitCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
 
@@ -2970,6 +2975,68 @@ test("submission writes require JSON and are bounded before the storage RPC", as
     }
   ), environment());
   assert.equal(response.status, 415);
+  assert.equal(submitCalled, false);
+});
+
+test("submission topic resources must be canonical and available to the authenticated account", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let submitCalled = false;
+  let access = studentProfile()[0].access;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile({ access }));
+    if (rpc.name === "writing_submission_submit_v4") {
+      submitCalled = true;
+      assert.deepEqual(rpc.body.p_topic_resource, CANONICAL_DSE_TOPIC);
+      return jsonResponse([{
+        id: SUBMISSION_ID,
+        topic: "A prompt",
+        answer: "A complete answer.",
+        word_count: 3,
+        duration_seconds: 20,
+        submitted_at: "2026-08-12T00:00:00.000Z",
+        topic_resource: CANONICAL_DSE_TOPIC
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const request = (topicResource) => new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${STUDENT_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        topic: "A prompt",
+        answer: "A complete answer.",
+        durationSeconds: 20,
+        topicResource
+      })
+    }
+  );
+
+  const injected = await worker.fetch(request({
+    ...CANONICAL_DSE_TOPIC,
+    label: "Injected title",
+    modelEssay: "Client supplied answer must never be trusted"
+  }), environment());
+  assert.equal(injected.status, 400);
+  assert.equal((await injected.json()).code, "INVALID_DRAFT");
+
+  const accepted = await worker.fetch(request(CANONICAL_DSE_TOPIC), environment());
+  assert.equal(accepted.status, 200, await accepted.clone().text());
+  assert.deepEqual((await accepted.json()).submission.topicResource, CANONICAL_DSE_TOPIC);
+  assert.equal(submitCalled, true);
+
+  submitCalled = false;
+  access = { ...access, "dse-writing": false };
+  const denied = await worker.fetch(request(CANONICAL_DSE_TOPIC), environment());
+  assert.equal(denied.status, 403);
+  assert.equal((await denied.json()).code, "TOPIC_ACCESS_DENIED");
   assert.equal(submitCalled, false);
 });
 
@@ -2987,12 +3054,12 @@ test("student history is paginated and full detail includes grammar occurrences"
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_list_v2") {
+    if (rpc.name === "writing_submission_list_v3") {
       assert.equal(rpc.body.p_limit, 3);
       assert.equal(rpc.body.p_offset, 0);
       return jsonResponse(rows);
     }
-    if (rpc.name === "writing_submission_get_v2") {
+    if (rpc.name === "writing_submission_get_v3") {
       return jsonResponse([{
         id: SUBMISSION_ID,
         topic: "Prompt 1",
@@ -3457,7 +3524,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
         last_submission_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
-    if (rpc.name === "writing_submission_admin_list_submissions_v2") {
+    if (rpc.name === "writing_submission_admin_list_submissions_v3") {
       assert.equal(rpc.body.p_student_id, STUDENT_ID);
       return jsonResponse([{
         id: SUBMISSION_ID,
@@ -3467,6 +3534,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
         answer_preview: "Preview",
         word_count: 20,
         duration_seconds: 840,
+        has_published_feedback: true,
         deleted_at: "2026-08-02T00:00:00.000Z",
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
@@ -3504,6 +3572,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
   const listSubmission = (await listResponse.json()).submissions[0];
   assert.equal(listSubmission.studentName, "Test Student");
   assert.equal(listSubmission.deletedAt, "2026-08-02T00:00:00.000Z");
+  assert.equal(listSubmission.hasPublishedFeedback, true);
 
   const detailResponse = await worker.fetch(new Request(
     `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}`,
@@ -3519,7 +3588,7 @@ test("students can read only published feedback belonging to their submission", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_get") {
+    if (rpc.name === "writing_submission_feedback_student_open") {
       assert.deepEqual(rpc.body, {
         p_student_id: STUDENT_ID,
         p_submission_id: SUBMISSION_ID
@@ -3548,7 +3617,7 @@ test("student feedback returns null while no published feedback exists", async t
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_get") return jsonResponse([]);
+    if (rpc.name === "writing_submission_feedback_student_open") return jsonResponse([]);
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const response = await worker.fetch(new Request(
@@ -3559,6 +3628,147 @@ test("student feedback returns null while no published feedback exists", async t
   assert.deepEqual(await response.json(), { feedback: null });
 });
 
+test("student list exposes published and unread feedback state and opening marks it read", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  const calls = [];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    calls.push(rpc);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_list_v3") {
+      return jsonResponse([{
+        id: SUBMISSION_ID,
+        topic: "Prompt",
+        answer_preview: "Preview",
+        word_count: 5,
+        duration_seconds: 90,
+        submitted_at: "2026-08-12T01:00:00.000Z",
+        has_published_feedback: true,
+        feedback_unread: true
+      }]);
+    }
+    if (rpc.name === "writing_submission_feedback_student_open") {
+      return jsonResponse([storedFeedback({
+        improved_version: "A clearer retained-meaning version.",
+        transcription_improved: "My first transcription",
+        transcription_model: "My model transcription",
+        transcription_version: 3,
+        topic_resource: CANONICAL_DSE_TOPIC
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const headers = { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` };
+  const list = await worker.fetch(new Request("https://worker.example/v1/submissions", { headers }), environment());
+  assert.equal(list.status, 200);
+  const listItem = (await list.json()).submissions[0];
+  assert.equal(listItem.hasPublishedFeedback, true);
+  assert.equal(listItem.feedbackUnread, true);
+
+  const opened = await worker.fetch(new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback`,
+    { headers }
+  ), environment());
+  assert.equal(opened.status, 200);
+  const feedback = (await opened.json()).feedback;
+  assert.equal(feedback.improvedVersion, "A clearer retained-meaning version.");
+  assert.equal(feedback.transcriptionVersion, 3);
+  assert.equal(feedback.topicResource.id, CANONICAL_DSE_TOPIC.id);
+  assert.ok(calls.some(call => call.name === "writing_submission_feedback_student_open"
+    && call.body.p_student_id === STUDENT_ID));
+});
+
+test("student transcription save is owner-scoped and maps version conflicts", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let conflict = false;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_student_save_transcriptions") {
+      assert.equal(rpc.body.p_student_id, STUDENT_ID);
+      assert.equal(rpc.body.p_submission_id, SUBMISSION_ID);
+      assert.equal(rpc.body.p_expected_version, 3);
+      if (conflict) return jsonResponse({ code: "P4090" }, 400);
+      return jsonResponse([{
+        improved_version_copy: rpc.body.p_improved_version_copy,
+        model_essay_copy: rpc.body.p_model_essay_copy,
+        version: 4,
+        updated_at: "2026-08-12T05:00:00.000Z"
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const request = () => new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}/transcriptions`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${STUDENT_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        improvedVersionCopy: "Copied improved version",
+        modelEssayCopy: "Copied model essay",
+        expectedVersion: 3
+      })
+    }
+  );
+  const saved = await worker.fetch(request(), environment());
+  assert.equal(saved.status, 200);
+  assert.equal((await saved.json()).transcriptions.version, 4);
+  conflict = true;
+  const stale = await worker.fetch(request(), environment());
+  assert.equal(stale.status, 409);
+  assert.equal((await stale.json()).code, "TRANSCRIPTION_VERSION_CONFLICT");
+});
+
+test("published admin feedback allows optional headers and carries the improved version", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") {
+      assert.equal(rpc.body.p_overall_comment, "");
+      assert.equal(rpc.body.p_final_comment, "");
+      assert.equal(rpc.body.p_improved_version, "A polished passage.");
+      return jsonResponse([storedFeedback({
+        overall_comment: "",
+        final_comment: "",
+        improved_version: rpc.body.p_improved_version,
+        fragments: [],
+        version: 1
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "",
+        fragments: [],
+        finalComment: "",
+        improvedVersion: "A polished passage.",
+        status: "published",
+        expectedVersion: 0,
+        expectedFeedbackId: null
+      })
+    }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.equal((await response.json()).feedback.improvedVersion, "A polished passage.");
+});
+
 test("administrator can load, save and delete structured teacher feedback", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -3567,7 +3777,7 @@ test("administrator can load, save and delete structured teacher feedback", asyn
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_get") {
+    if (rpc.name === "writing_submission_feedback_admin_get_v2") {
       return jsonResponse([storedFeedback({ status: "draft", published_at: null })]);
     }
     if (rpc.name === "writing_submission_feedback_admin_save") {
@@ -3611,6 +3821,7 @@ test("administrator can load, save and delete structured teacher feedback", asyn
           edmundComment: "Students 是複數，動詞使用 learn。"
         }],
         finalComment: "繼續留意句子連接。",
+        improvedVersion: "Students learn quickly and explain their ideas clearly.",
         status: "published",
         expectedVersion: 2,
         expectedFeedbackId: FEEDBACK_ID
@@ -3659,6 +3870,7 @@ test("published feedback rejects incomplete fragment pairs before storage", asyn
         overallComment: "整體評語",
         fragments: [{ originalFragment: "Original only", edmundComment: "" }],
         finalComment: "最後評語",
+        improvedVersion: "",
         status: "published",
         expectedVersion: 0,
         expectedFeedbackId: null
@@ -3946,15 +4158,7 @@ test("student drafts round-trip only through their authenticated owner", async t
     answer: "The student is drafting an answer.",
     answer_preview: "The student is drafting an answer.",
     word_count: 7,
-    topic_resource: {
-      id: "writing-topic-1",
-      type: "fill-blanks",
-      label: "Picture writing",
-      detail: "Writing Practice",
-      sectionKey: "dse-writing",
-      questionPrompt: ["Describe the picture."],
-      questionImages: [{ src: "/assets/writing/prompt-1.png", alt: "Writing prompt" }]
-    },
+    topic_resource: CANONICAL_DSE_TOPIC,
     image_zoom_tenths: 30,
     countdown_state: {
       status: "paused",

@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <title>功課及溫習安排系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/schedule-system.html">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/schedule.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -426,6 +426,34 @@
     .account-create-form input[type="color"] { padding: 4px; cursor: pointer; }
     .account-create-form .primary-button { width: auto; min-height: 43px; padding: 10px 15px; }
     .account-security-note { margin: 12px 0 0; border-left: 4px solid #397d50; padding: 9px 11px; color: #315540; background: #edf8f0; font-size: 12px; line-height: 1.55; }
+    .announcement-admin-panel { margin-bottom: 22px; padding: 22px; }
+    .announcement-admin-panel h2 { margin: 0 0 6px; }
+    .announcement-admin-panel > p { margin: 0 0 16px; color: var(--muted); font-size: 13px; }
+    .announcement-admin-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(210px, .38fr); gap: 12px 18px; align-items: end; }
+    .announcement-admin-form label { display: grid; gap: 6px; color: #5f4b41; font-size: 12px; font-weight: 850; }
+    .announcement-admin-form textarea { min-height: 112px; resize: vertical; }
+    .announcement-admin-form select {
+      width: 100%;
+      min-height: 43px;
+      border: 1px solid rgba(80,53,39,.22);
+      border-radius: 12px;
+      padding: 10px 12px;
+      color: var(--ink);
+      background: #fff;
+      font: inherit;
+    }
+    .announcement-admin-form-side { display: grid; gap: 12px; }
+    .announcement-admin-form-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .announcement-admin-form-actions > button { flex: 1 1 130px; }
+    .announcement-active-option { display: flex !important; grid-template-columns: auto 1fr; align-items: center; }
+    .announcement-active-option input { width: 18px; height: 18px; accent-color: #397d50; }
+    .announcement-admin-list { display: grid; gap: 10px; margin-top: 15px; }
+    .announcement-admin-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; border: 1px solid var(--line); border-radius: 14px; padding: 14px; background: rgba(255,255,255,.78); }
+    .announcement-admin-row p { margin: 7px 0; white-space: pre-wrap; line-height: 1.55; }
+    .announcement-admin-row small { color: var(--muted); }
+    .announcement-admin-badge { display: inline-flex; border-radius: 999px; padding: 4px 8px; color: #8a3833; background: #fce8e6; font-size: 11px; font-weight: 900; }
+    .announcement-admin-badge.is-active { color: #23754b; background: #e8f7ee; }
+    .announcement-admin-actions { display: grid; align-content: center; gap: 7px; width: 112px; }
     .student-card { align-items: stretch; }
     .student-card-copy { align-self: start; min-width: 0; }
     .student-card-actions { display: grid; grid-template-columns: minmax(0, 1fr); align-items: stretch; gap: 6px; width: 100%; }
@@ -630,6 +658,7 @@
       font-style: italic;
       line-height: 1.35;
       text-align: right;
+      white-space: pre-line;
     }
 
     .weekly-encouragement-panel {
@@ -1048,6 +1077,22 @@
       background: linear-gradient(145deg, #fff, #f0f4ff);
     }
 
+    .schedule-slot.has-entry.has-entry-tag-wraps { position: relative; }
+    .schedule-slot.has-entry.has-entry-tag-wraps::after {
+      content: "";
+      position: absolute;
+      z-index: 7;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      box-shadow:
+        inset 0 0 0 2px var(--entry-tag-wrap-1, transparent),
+        inset 0 0 0 4px var(--entry-tag-wrap-2, transparent),
+        inset 0 0 0 6px var(--entry-tag-wrap-3, transparent),
+        inset 0 0 0 8px var(--entry-tag-wrap-4, transparent),
+        inset 0 0 0 10px var(--entry-tag-wrap-5, transparent);
+    }
+
     .schedule-slot.has-entry.is-admin-entry {
       border-color: rgba(155, 94, 49, .28);
       background: linear-gradient(145deg, #fffdf9, #f8e8d3);
@@ -1210,6 +1255,14 @@
       font-weight: 760;
       line-height: 1.38;
     }
+    .entry-tag-list { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .entry-custom-tag, .entry-tag-option { border-radius: 999px; color: var(--entry-tag-text, #25182b); background: var(--entry-tag-colour); font: 900 10px/1.2 ui-sans-serif,system-ui,sans-serif; }
+    .entry-custom-tag { padding: 5px 8px; }
+    .entry-tag-field { margin-bottom: 16px; }
+    .entry-tag-field > span { display: block; margin-bottom: 8px; font-size: 14px; font-weight: 850; }
+    .entry-tag-options { display: flex; flex-wrap: wrap; gap: 8px; }
+    .entry-tag-option { display: inline-flex; align-items: center; gap: 6px; padding: 8px 10px; cursor: pointer; }
+    .entry-tag-option input { width: 17px; height: 17px; accent-color: #272757; }
     .estimated-time { display: block; margin-top: 8px; color: #685248; font-size: 11px; font-weight: 850; }
 
     .capacity-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; padding: 2px 10px 12px; }
@@ -1469,6 +1522,8 @@
       .calendar-toolbar { grid-template-columns: 1fr; }
       .weekly-reflection-panels { grid-template-columns: 1fr; }
       .account-admin-layout { grid-template-columns: 1fr; }
+      .announcement-admin-form, .announcement-admin-row { grid-template-columns: 1fr; }
+      .announcement-admin-actions { display: flex; width: auto; }
       .account-create-form, .account-create-form.parent-form { grid-template-columns: 1fr; }
       .viewing-student, .toolbar-actions { text-align: center; justify-content: center; }
       .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1657,6 +1712,34 @@
           <p class="form-status" data-create-parent-status role="status" aria-live="polite"></p>
         </section>
       </div>
+      <section class="announcement-admin-panel glass-card" aria-labelledby="announcement-admin-heading">
+        <h2 id="announcement-admin-heading">全站公告</h2>
+        <p>公告會顯示在網站首頁；可同時啟用多則，訪客逐頁閱讀後才會關閉。</p>
+        <form class="announcement-admin-form" data-announcement-form>
+          <label>公告內容
+            <textarea data-announcement-message maxlength="4000" required placeholder="輸入要向所有訪客顯示的訊息…"></textarea>
+          </label>
+          <div class="announcement-admin-form-side">
+            <label data-announcement-image-action-field hidden>現有圖片
+              <select data-announcement-image-action>
+                <option value="keep">保留目前圖片</option>
+                <option value="replace">以新圖片取代</option>
+                <option value="remove">移除目前圖片</option>
+              </select>
+            </label>
+            <label data-announcement-image-field>附加圖片（選填；JPG、PNG、WebP 或 GIF，最多 5 MB）
+              <input data-announcement-image type="file" accept="image/jpeg,image/png,image/webp,image/gif">
+            </label>
+            <label class="announcement-active-option"><input data-announcement-active type="checkbox" checked> <span data-announcement-active-label>建立後立即顯示</span></label>
+            <div class="announcement-admin-form-actions">
+              <button class="primary-button" type="submit" data-announcement-submit>建立公告</button>
+              <button class="secondary-button" type="button" data-announcement-cancel-edit hidden>取消修改</button>
+            </div>
+          </div>
+        </form>
+        <p class="form-status" data-announcement-status role="status" aria-live="polite"></p>
+        <div class="announcement-admin-list" data-announcement-list><p class="empty-state">正在載入公告…</p></div>
+      </section>
       <div class="student-list-panel glass-card">
         <div class="student-admin-toolbar">
           <div class="parent-list-heading"><h2>學生帳戶</h2><span data-student-count></span></div>
@@ -1716,6 +1799,7 @@
           <button class="secondary-button" type="button" data-export-pdf aria-describedby="schedule-export-help">匯出 / 列印 PDF</button>
           <button class="subtle-toggle" type="button" data-toggle-unused aria-pressed="false">隱藏未使用格</button>
           <button class="subtle-toggle" type="button" data-toggle-mascots aria-controls="schedule-week-grid" aria-pressed="false">隱藏吉祥物</button>
+          <button class="subtle-toggle" type="button" data-toggle-motivation aria-controls="schedule-week-grid" aria-pressed="false" hidden>隱藏動力指數</button>
           <button class="subtle-toggle" type="button" data-toggle-daily-quote aria-controls="schedule-daily-quote" aria-pressed="false">隱藏名人語錄</button>
           <button class="subtle-toggle" type="button" data-toggle-encouragement aria-controls="schedule-weekly-encouragement" aria-pressed="false">隱藏打氣說話</button>
           <button class="subtle-toggle" type="button" data-toggle-table aria-controls="schedule-table-region" aria-expanded="true">隱藏日程表</button>
@@ -1864,6 +1948,11 @@
     <form class="dialog-card" data-entry-form method="dialog">
       <h2 id="entry-dialog-title" data-entry-title>新增安排</h2>
       <p class="dialog-meta" data-entry-meta></p>
+      <fieldset class="entry-tag-field">
+        <legend class="sr-only">功課標籤</legend>
+        <span>功課標籤（可多選）</span>
+        <div class="entry-tag-options" data-entry-tags></div>
+      </fieldset>
       <div class="field">
         <label for="schedule-message">功課或溫習內容</label>
         <textarea id="schedule-message" name="message" maxlength="2000" required placeholder="例如：完成 IELTS Writing Task 2 Opinion Essay；溫習第 3–5 課生字。"></textarea>
@@ -2028,6 +2117,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260812-1"></script>
-  <script type="module" src="schedule-system.js?v=20260812-1"></script>
+  <script type="module" src="schedule-system.js?v=20260813-1"></script>
 </body>
 </html>

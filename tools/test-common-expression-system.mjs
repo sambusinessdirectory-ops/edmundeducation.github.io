@@ -174,9 +174,13 @@ test("all six Common Expression portals carry their identity, shared navigation 
     assert.match(html, new RegExp(`data-edmund-system-switcher[^>]+data-system=["']${portal.navId}["']`), `${portal.file}: shared-nav id`);
     assert.match(html, new RegExp(`<title>[^<]*${portal.zh}[^<]*${portal.en}[^<]*EdmundEducation[^<]*<\\/title>`), `${portal.file}: title`);
     assert.match(html, new RegExp(`rel=["']canonical["'] href=["']https:\\/\\/edmundeducation\\.com\\/${portal.file}["']`), `${portal.file}: canonical URL`);
+    assert.match(
+      html,
+      new RegExp(`rel=["']manifest["'] href=["']\\/pwa-manifests\\/${portal.navId}\\.webmanifest["']`),
+      `${portal.file}: system-specific manifest`
+    );
 
     for (const contract of [
-      /rel=["']manifest["'] href=["']\/manifest\.webmanifest["']/,
       /rel=["']icon["'] href=["']\/favicon\.ico["'] sizes=["']any["']/,
       /rel=["']apple-touch-icon["'] sizes=["']180x180["'] href=["']\/apple-touch-icon\.png["']/,
       /name=["']mobile-web-app-capable["'] content=["']yes["']/,
@@ -188,7 +192,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-data\.js\?v=20260811-1/,
       /common-expression-system-imported-data\.js\?v=20260811-1/,
       /shared-answer-comparison\.js\?v=20260812-1/,
-      /common-expression-system\.js\?v=20260812-1/,
+      /common-expression-system\.js\?v=20260812-2/,
       /shared-system-nav\.css\?v=20260810-3/,
       /shared-system-nav\.js\?v=20260812-1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
@@ -207,7 +211,7 @@ test("all six Common Expression portals carry their identity, shared navigation 
     const baseDataIndex = html.indexOf("common-expression-system-data.js?v=20260811-1");
     const importedDataIndex = html.indexOf("common-expression-system-imported-data.js?v=20260811-1");
     const comparisonIndex = html.indexOf("shared-answer-comparison.js?v=20260812-1");
-    const engineIndex = html.indexOf("common-expression-system.js?v=20260812-1");
+    const engineIndex = html.indexOf("common-expression-system.js?v=20260812-2");
     assert.ok(baseDataIndex < importedDataIndex, `${portal.file}: base catalogue must load before imported lessons`);
     assert.ok(importedDataIndex < comparisonIndex, `${portal.file}: imported lessons must load before answer comparison`);
     assert.ok(comparisonIndex < engineIndex, `${portal.file}: answer comparison must load before the module engine`);

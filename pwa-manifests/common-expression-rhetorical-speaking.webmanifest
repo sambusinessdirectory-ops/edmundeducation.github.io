@@ -1,0 +1,45 @@
+{
+  "id": "/apps/common-expression-rhetorical-speaking",
+  "name": "Common Expression 常用語｜EdmundEducation",
+  "short_name": "修辭常用語會話",
+  "description": "Common Expression 常用語（修辭會話 Rhetorical Speaking）EdmundEducation 學習系統。",
+  "lang": "zh-Hant-HK",
+  "dir": "ltr",
+  "start_url": "/common-expression-rhetorical-speaking.html?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fb",
+  "theme_color": "#20283d",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

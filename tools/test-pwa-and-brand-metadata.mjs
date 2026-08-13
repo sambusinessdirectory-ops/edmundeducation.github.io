@@ -88,7 +88,7 @@ test("every public page carries the complete mobile PWA identity", async () => {
     const head = html.match(/<head>([\s\S]*?)<\/head>/i)?.[1] || "";
     assert.ok(head, `${page}: missing head`);
     for (const snippet of [
-      'rel="manifest" href="/manifest.webmanifest"',
+      'rel="manifest" href="/',
       'rel="icon" href="/favicon.ico" sizes="any"',
       'sizes="48x48" href="/assets/icons/favicon-48x48.png"',
       'rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"',
@@ -96,7 +96,7 @@ test("every public page carries the complete mobile PWA identity", async () => {
       'rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png"',
       'name="mobile-web-app-capable" content="yes"',
       'name="apple-mobile-web-app-capable" content="yes"',
-      'name="apple-mobile-web-app-title" content="EdmundEducation"',
+      'name="apple-mobile-web-app-title" content="',
       'name="apple-mobile-web-app-status-bar-style" content="default"',
       'href="/pwa-ui.css"',
       'src="/pwa-register.js"'
@@ -121,6 +121,8 @@ test("every public page carries the complete mobile PWA identity", async () => {
 test("the manifest is installable and has safe Android and Apple artwork", async () => {
   const manifest = JSON.parse(await read("manifest.webmanifest"));
   assert.equal(manifest.id, "/");
+  assert.equal(manifest.name, "港大 Edmund Sir 英文補習");
+  assert.equal(manifest.short_name, "港大 Edmund Sir 英文補習");
   assert.equal(manifest.scope, "/");
   assert.equal(manifest.start_url, "/?source=pwa");
   assert.equal(manifest.display, "standalone");

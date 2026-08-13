@@ -167,7 +167,7 @@ async function handleLogin(event) {
     if (!await login(username, password)) throw new Error("用戶名稱或密碼不正確。");
     elements.loginForm.reset();
     setLoginStatus();
-    setConnection("Supabase 已連接", "online");
+    setConnection("已安全連接", "online");
     openRequestedRoute();
     showToast(`您好，${state.user.name}！`);
   } catch (error) {
@@ -374,11 +374,11 @@ async function initialise() {
     await ensureSupabaseSession();
     setConnection("已連線", "online");
   } catch (error) {
-    console.warn("Listening Supabase initialization failed", error);
+    console.warn("Listening data initialization failed", error);
     setConnection("連線失敗", "error");
   }
   if (await restoreSession()) {
-    setConnection("Supabase 已連接", "online");
+    setConnection("已安全連接", "online");
     openRequestedRoute();
   } else {
     showView("login", { scroll: false });

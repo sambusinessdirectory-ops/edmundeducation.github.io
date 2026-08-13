@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/writing.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -3218,7 +3218,7 @@
           <button class="pill-button writing-header-bookmark hidden" type="button" data-toggle-current-writing-bookmark aria-pressed="false">
             <span data-writing-header-bookmark-icon aria-hidden="true">☆</span><span>書簽</span>
           </button>
-          <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
+          <span class="sync-pill warning" data-sync-status>正在安全連接</span>
           <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
         </div>
       </div>
@@ -5806,6 +5806,8 @@ Device: concession 讓步
     let writingAttemptLogOpen = false;
     let writingAttemptLogVisibleCount = WRITING_ATTEMPT_LOG_PAGE_SIZE;
     let practiceState = null;
+    let writingPracticeIdlePausedAt = 0;
+    let writingPracticeIdleRound = null;
     let writingBookmarks = [];
     let writingParagraphMastery = {};
     let writingPracticeResults = [];
@@ -6369,7 +6371,7 @@ Device: concession 讓步
         attemptStoreMigrated: true
       });
       if (!saved && accountKey === writingStateAccountKey()) {
-        updateSupabaseStatus("Supabase: device storage full; syncing online", "warning");
+        updateSupabaseStatus("裝置儲存空間已滿，正在網上同步", "warning");
       }
       return saved;
     }
@@ -6383,7 +6385,7 @@ Device: concession 讓步
           ? "pendingMastery"
           : "pendingProgressPreferences";
       if (!context || !supabaseClient) {
-        updateSupabaseStatus("Supabase: local backup", "warning");
+        updateSupabaseStatus("使用本機備份", "warning");
         return Promise.resolve(false);
       }
 
@@ -6399,12 +6401,12 @@ Device: concession 讓步
             ...localState,
             [pendingName]: stillCurrent ? false : localState[pendingName]
           });
-          if (context.accountKey === writingStateAccountKey()) updateSupabaseStatus("Supabase: live", "live");
+          if (context.accountKey === writingStateAccountKey()) updateSupabaseStatus("已安全連接", "live");
           return true;
         })
         .catch(error => {
           console.warn("Could not save writing student state:", error);
-          if (context.accountKey === writingStateAccountKey()) updateSupabaseStatus("Supabase: saved on this device", "warning");
+          if (context.accountKey === writingStateAccountKey()) updateSupabaseStatus("已儲存在這部裝置", "warning");
           return false;
         });
       return writingStateSaveChain;
@@ -6413,7 +6415,7 @@ Device: concession 讓步
     function queueWritingAttemptSync() {
       const context = writingStateContext();
       if (!context || !supabaseClient) {
-        updateSupabaseStatus("Supabase: attempts saved on this device", "warning");
+        updateSupabaseStatus("練習已儲存在這部裝置", "warning");
         return Promise.resolve(false);
       }
       const runtimeAttempts = context.accountKey === writingStateAccountKey()
@@ -6489,14 +6491,14 @@ Device: concession 讓步
           }
           if (context.accountKey === writingStateAccountKey()) {
             saveWritingAttemptRuntimeLocally(context.accountKey);
-            updateSupabaseStatus("Supabase: live", "live");
+            updateSupabaseStatus("已安全連接", "live");
           }
           return true;
         })
         .catch(error => {
           console.warn("Could not sync writing attempts:", error);
           if (context.accountKey === writingStateAccountKey()) {
-            updateSupabaseStatus("Supabase: attempts saved on this device", "warning");
+            updateSupabaseStatus("練習已儲存在這部裝置", "warning");
           }
           return false;
         });
@@ -6515,6 +6517,8 @@ Device: concession 讓步
     }
 
     function resetWritingPersonalState() {
+      writingPracticeIdlePausedAt = 0;
+      writingPracticeIdleRound = null;
       writingBookmarks = [];
       writingParagraphMastery = {};
       writingPracticeResults = [];
@@ -6570,7 +6574,7 @@ Device: concession 讓步
           legacyResults
         );
         if (writingAttemptOutbox.length > MAX_WRITING_ATTEMPT_OUTBOX) {
-          updateSupabaseStatus("Supabase: attempt migration reached the device queue limit", "warning");
+          updateSupabaseStatus("練習遷移已達裝置佇列上限", "warning");
         } else if (saveWritingAttemptRuntimeLocally(accountKey)) {
           clearLegacyWritingResultsForStudent(studentName);
         }
@@ -6627,7 +6631,7 @@ Device: concession 讓步
         }
       } catch (error) {
         console.warn("Could not load writing student state:", error);
-        updateSupabaseStatus("Supabase: using device backup", "warning");
+        updateSupabaseStatus("正使用裝置備份", "warning");
       }
 
       try {
@@ -6643,7 +6647,7 @@ Device: concession 讓步
         writingAttemptHistoryComplete = true;
       } catch (error) {
         console.warn("Could not load dedicated writing attempts:", error);
-        updateSupabaseStatus("Supabase: using cached attempt history", "warning");
+        updateSupabaseStatus("正使用暫存練習記錄", "warning");
         writingAttemptHistoryComplete = false;
       }
 
@@ -7770,6 +7774,7 @@ Device: concession 讓步
         mode: "",
         round: 1,
         roundStartedAt: 0,
+        idleBreakDurationMs: 0,
         sentenceKeys: null,
         targetBlankIds: null,
         answers: {},
@@ -7778,11 +7783,12 @@ Device: concession 讓步
       };
     }
 
-    function writingPracticeElapsedDuration(startedAt, finishedAt = Date.now()) {
+    function writingPracticeElapsedDuration(startedAt, finishedAt = Date.now(), idleBreakDurationMs = 0) {
       const start = Number(startedAt || 0);
       const end = Number(finishedAt || 0);
       if (!Number.isFinite(start) || !Number.isFinite(end) || start <= 0 || end <= start) return 0;
-      return Math.min(24 * 60 * 60 * 1000, Math.max(0, Math.round(end - start)));
+      const paused = Math.max(0, Number(idleBreakDurationMs || 0));
+      return Math.min(24 * 60 * 60 * 1000, Math.max(0, Math.round(end - start - paused)));
     }
 
     function currentInputAnswers() {
@@ -7826,13 +7832,13 @@ Device: concession 讓步
     }
 
     function warnWritingAttemptOutboxFull() {
-      updateSupabaseStatus("Supabase: please sync attempts before continuing", "error");
+      updateSupabaseStatus("請先同步練習再繼續", "error");
       queueWritingAttemptSync();
       window.alert("這部裝置仍有大量未同步的寫作紀錄。請保持網絡連線，待同步完成後再提交；您目前輸入的答案仍會保留。");
     }
 
     function warnWritingAttemptStorageUnavailable() {
-      updateSupabaseStatus("Supabase: device storage unavailable", "error");
+      updateSupabaseStatus("裝置儲存空間未能使用", "error");
       window.alert("這部裝置暫時沒有足夠儲存空間保存本次紀錄。請先釋放瀏覽器儲存空間，然後再提交；您目前輸入的答案仍會保留。");
     }
 
@@ -10465,6 +10471,7 @@ Device: concession 讓步
         difficultyKey: activeDifficultyKey,
         round: 1,
         roundStartedAt: Date.now(),
+        idleBreakDurationMs: 0,
         selectedParagraphs,
         sentenceKeys: null,
         targetBlankIds: null,
@@ -10553,7 +10560,14 @@ Device: concession 讓步
         mistakes,
         mistakeRate: targets.length ? Math.round((mistakes.length / targets.length) * 100) : 0,
         completed: mistakes.length === 0,
-        durationMs: writingPracticeElapsedDuration(practiceState.roundStartedAt, completedAt),
+        durationMs: writingPracticeElapsedDuration(
+          practiceState.roundStartedAt,
+          completedAt,
+          Number(practiceState.idleBreakDurationMs || 0)
+            + (writingPracticeIdlePausedAt && writingPracticeIdleRound === practiceState
+              ? Math.max(0, completedAt - writingPracticeIdlePausedAt)
+              : 0)
+        ),
         createdAt: completedAt
       };
 
@@ -10591,6 +10605,7 @@ Device: concession 讓步
         screen: "practice",
         round: practiceState.round + 1,
         roundStartedAt: Date.now(),
+        idleBreakDurationMs: 0,
         mode: "sentence",
         sentenceKeys,
         targetBlankIds,
@@ -10633,11 +10648,11 @@ Device: concession 讓步
         if (signInResult.error) throw signInResult.error;
         session = signInResult.data?.session || null;
       }
-      if (!session?.user?.id) throw new Error("No Supabase user session was created.");
+      if (!session?.user?.id) throw new Error("No secure user session was created.");
     }
 
     async function callSupabaseRpc(name, args = {}) {
-      if (!supabaseClient) throw new Error("Supabase client is not available.");
+      if (!supabaseClient) throw new Error("Data service is not available.");
       await ensureSupabaseSession();
       const { data, error } = await supabaseClient.rpc(name, args);
       if (error) throw error;
@@ -10656,20 +10671,20 @@ Device: concession 讓步
 
     async function initSupabaseState() {
       if (!supabaseClient) {
-        updateSupabaseStatus("Supabase: local backup", "warning");
+        updateSupabaseStatus("使用本機備份", "warning");
         return;
       }
 
-      updateSupabaseStatus("Supabase: connecting", "warning");
+      updateSupabaseStatus("正在安全連接", "warning");
       try {
         await ensureSupabaseSession();
-        updateSupabaseStatus("Supabase: live", "live");
+        updateSupabaseStatus("已安全連接", "live");
         if (currentUser?.role === "admin" && adminPasswordForSession) {
           await loadStudentsFromSupabase();
         }
       } catch (error) {
-        console.warn("Supabase anonymous session failed:", error);
-        updateSupabaseStatus("Supabase: enable Auth", "error");
+        console.warn("Account session failed:", error);
+        updateSupabaseStatus("登入服務尚未啟用", "error");
       }
     }
 
@@ -10686,8 +10701,8 @@ Device: concession 讓步
         renderStudentProfile();
         return studentsCache;
       } catch (error) {
-        console.warn("Could not load Supabase writing students:", error);
-        updateSupabaseStatus("Supabase: writing SQL needed", "error");
+        console.warn("Could not load writing students:", error);
+        updateSupabaseStatus("寫作資料服務需要更新", "error");
         studentsLoadedFromSupabase = false;
         return getStudents();
       }
@@ -11039,7 +11054,7 @@ Device: concession 讓步
               setSession({ name: ADMIN_NAME, role: "admin", access: defaultAccess(), createdAt: Date.now() });
               await loadStudentsFromSupabase();
               showAppPanel("admin-panel");
-              updateSupabaseStatus("Supabase: live", "live");
+              updateSupabaseStatus("已安全連接", "live");
               return true;
             }
           }
@@ -11063,12 +11078,12 @@ Device: concession 讓步
             await rememberUniversalStudentLogin(trimmedName, password);
             await loadWritingStudentState();
             showAppPanel("dashboard");
-            updateSupabaseStatus("Supabase: live", "live");
+            updateSupabaseStatus("已安全連接", "live");
             return true;
           }
         } catch (error) {
-          console.warn("Supabase writing login failed:", error);
-          updateSupabaseStatus("Supabase: writing SQL needed", "error");
+          console.warn("Writing login failed:", error);
+          updateSupabaseStatus("寫作資料服務需要更新", "error");
         }
       }
 
@@ -11711,11 +11726,11 @@ Device: concession 讓步
         const updated = Array.isArray(rows) && rows[0] ? studentFromSupabase(rows[0]) : student;
         studentsCache = getStudents().map(item => item.name === updated.name ? updated : item);
         studentsLoadedFromSupabase = true;
-        updateSupabaseStatus("Supabase: live", "live");
+        updateSupabaseStatus("已安全連接", "live");
         return true;
       } catch (error) {
         console.warn("Could not save writing student access:", error);
-        updateSupabaseStatus("Supabase: access save failed", "error");
+        updateSupabaseStatus("權限儲存失敗", "error");
         return false;
       }
     }
@@ -11853,7 +11868,7 @@ Device: concession 讓步
         const password = String(formData.get("studentPassword") || "").trim();
         if (!name || !password) return;
 
-        if (status) status.textContent = "Saving to Supabase...";
+        if (status) status.textContent = "正在安全儲存...";
         if (studentsLoadedFromSupabase) {
           try {
             await callSupabaseRpc("writing_admin_upsert_student", {
@@ -11866,8 +11881,8 @@ Device: concession 讓步
             await loadStudentsFromSupabase();
           } catch (error) {
             console.warn("Could not add writing student:", error);
-            if (status) status.textContent = "Could not save this student to Supabase. Please run the writing SQL.";
-            updateSupabaseStatus("Supabase: account save failed", "error");
+            if (status) status.textContent = "Could not save this student. Please update the writing data service.";
+            updateSupabaseStatus("帳戶儲存失敗", "error");
             return;
           }
         } else {
@@ -11899,14 +11914,14 @@ Device: concession 讓步
               p_student_name: studentName,
               p_new_password: newPassword
             });
-            if (!changed) throw new Error("Supabase did not change the password.");
+            if (!changed) throw new Error("The data service did not change the password.");
             await loadPasswordLogsFromSupabase(studentName);
             passwordForm.reset();
             renderStudentProfile();
             return;
           } catch (error) {
             console.warn("Could not change writing student password:", error);
-            updateSupabaseStatus("Supabase: password save failed", "error");
+            updateSupabaseStatus("密碼儲存失敗", "error");
             return;
           }
         }
@@ -12420,11 +12435,11 @@ Device: concession 讓步
                 p_admin_password: adminPasswordForSession,
                 p_student_name: name
               });
-              if (!deleted) throw new Error("Supabase did not delete the student.");
+              if (!deleted) throw new Error("The data service did not delete the student.");
               await loadStudentsFromSupabase();
             } catch (error) {
               console.warn("Could not remove writing student:", error);
-              updateSupabaseStatus("Supabase: delete failed", "error");
+              updateSupabaseStatus("刪除失敗", "error");
               return;
             }
           } else {
@@ -12488,6 +12503,41 @@ Device: concession 讓步
         event.preventDefault();
         if (activeEssayAudioContext === "listening") togglePracticeListeningPlayback();
         else playOrToggleEssayAudio();
+      });
+
+      document.addEventListener("edmund:idle-break-start", event => {
+        const roundIsRunning = Boolean(
+          practiceState
+          && practiceState.screen === "practice"
+          && Number(practiceState.roundStartedAt || 0) > 0
+          && !practiceState.submitted
+        );
+        writingPracticeIdlePausedAt = roundIsRunning
+          ? Number(event.detail?.pausedAt) || Date.now()
+          : 0;
+        writingPracticeIdleRound = roundIsRunning ? practiceState : null;
+      });
+
+      document.addEventListener("edmund:idle-break-resume", event => {
+        const pausedAt = writingPracticeIdlePausedAt || Number(event.detail?.pausedAt) || 0;
+        const resumedAt = Number(event.detail?.resumedAt) || Date.now();
+        if (
+          pausedAt
+          && writingPracticeIdleRound
+          && practiceState === writingPracticeIdleRound
+          && practiceState.screen === "practice"
+          && !practiceState.submitted
+        ) {
+          practiceState.idleBreakDurationMs = Math.max(0, Number(practiceState.idleBreakDurationMs || 0))
+            + Math.max(0, resumedAt - pausedAt);
+        }
+        writingPracticeIdlePausedAt = 0;
+        writingPracticeIdleRound = null;
+      });
+
+      document.addEventListener("edmund:idle-break-logout", () => {
+        writingPracticeIdlePausedAt = 0;
+        writingPracticeIdleRound = null;
       });
 
       window.addEventListener("pagehide", stopAudioForPageInterruption);

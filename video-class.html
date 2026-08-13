@@ -13,7 +13,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="manifest" href="/pwa-manifests/video-class.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -23,6 +23,7 @@
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="video-class.css?v=20260811-8">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
   <script defer src="/pwa-register.js"></script>
 </head>
 
@@ -33,9 +34,9 @@
   </div>
 
   <header class="portal-header">
-    <a class="portal-brand" href="index.html" aria-label="EdmundEducation 主頁">
-      <img src="Font Transparent.png" alt="EdmundEducation">
-    </a>
+    <div class="edmund-system-switcher" data-edmund-system-switcher data-system="video-class">
+      <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Video Class</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+    </div>
     <div class="portal-header__title">
       <span>VIDEO CLASS</span>
       <strong>錄影班學習平台</strong>
@@ -233,6 +234,7 @@
           <span class="spinner" aria-hidden="true"></span><p>正在載入你的課堂⋯</p>
         </div>
         <div class="lesson-grid" id="lesson-library-list" data-lesson-list hidden></div>
+        <button class="quiet-button student-lessons-load-more" type="button" data-student-lessons-load-more hidden>載入更多影片</button>
 
         <section class="player-section" data-player-section hidden aria-labelledby="now-playing-title">
           <div class="player-heading">
@@ -415,9 +417,14 @@
             <span aria-hidden="true">◈</span>
             <p><strong>安全播放提示</strong>影片會顯示你的個人識別 Key、播放階段及時間。請勿錄影、分享或公開課堂內容。</p>
           </div>
-          <button class="note-launch-button" type="button" data-open-note data-note-toggle aria-expanded="false" aria-controls="lesson-note-panel">
-            <span>我的筆記</span><span aria-hidden="true" data-note-toggle-icon>＋</span>
-          </button>
+          <div class="player-resource-buttons">
+            <button class="note-launch-button" type="button" data-open-note data-note-toggle aria-expanded="false" aria-controls="lesson-note-panel">
+              <span>我的筆記</span><span aria-hidden="true" data-note-toggle-icon>＋</span>
+            </button>
+            <button class="attachment-launch-button" type="button" data-open-attachments aria-expanded="false" aria-controls="lesson-attachments-panel">
+              <span>可下載筆記</span><span aria-hidden="true" data-attachment-toggle-icon>＋</span>
+            </button>
+          </div>
           <section class="note-editor" id="lesson-note-panel" data-note-panel aria-labelledby="lesson-note-heading" hidden>
             <form data-note-form>
               <div class="note-editor__heading">
@@ -433,6 +440,15 @@
                 <button class="primary-button primary-button--compact" type="submit" data-save-note>儲存筆記</button>
               </div>
             </form>
+          </section>
+          <section class="lesson-attachments" id="lesson-attachments-panel" data-attachment-panel aria-labelledby="lesson-attachments-heading" hidden>
+            <div class="lesson-attachments__heading">
+              <div><p class="section-kicker">DOWNLOADS</p><h2 id="lesson-attachments-heading">可下載筆記</h2></div>
+              <button type="button" data-close-attachments>收合 ↑</button>
+            </div>
+            <div class="lesson-attachments__list" data-attachment-list></div>
+            <p class="lesson-attachments__empty" data-attachments-empty>本影片沒有可下載筆記</p>
+            <p class="form-status" data-attachments-status role="status" aria-live="polite"></p>
           </section>
           <p class="player-error" data-player-error role="alert" hidden></p>
         </section>
@@ -581,7 +597,7 @@
         <button type="button" data-admin-panel-tab="entitlements">學生課程權限</button>
         <button type="button" data-admin-panel-tab="feedback">影片評分</button>
         <button type="button" data-admin-panel-tab="lessons">所有影片</button>
-        <button type="button" data-admin-panel-tab="r2">R2 影片庫</button>
+        <button type="button" data-admin-panel-tab="r2">私人影片庫</button>
         <button type="button" data-admin-panel-tab="add-student">新增學生</button>
       </nav>
 
@@ -674,11 +690,12 @@
         <div class="student-table-shell feedback-table-shell" data-feedback-table role="region" aria-label="學生影片評分，可左右捲動" tabindex="0" hidden>
           <table>
             <caption class="visually-hidden">學生影片評分</caption>
-            <thead><tr><th scope="col">學生</th><th scope="col">課堂影片</th><th scope="col">影片畫質</th><th scope="col">解釋內容</th><th scope="col">聲音品質</th><th scope="col">更新時間</th></tr></thead>
+            <thead><tr><th scope="col">學生</th><th scope="col">課堂影片</th><th scope="col">影片畫質</th><th scope="col">解釋內容</th><th scope="col">聲音品質</th><th scope="col">更新時間</th><th scope="col">操作</th></tr></thead>
             <tbody data-feedback-rows></tbody>
           </table>
         </div>
         <p class="result-count" data-feedback-result-count hidden></p>
+        <button class="quiet-button feedback-load-more" type="button" data-feedback-load-more hidden>載入更多評分</button>
       </section>
 
       <section class="admin-lessons-panel" data-admin-panel="lessons" hidden>
@@ -686,9 +703,14 @@
           <div>
             <p class="section-kicker">ALL VIDEO LESSONS</p>
             <h2>所有影片</h2>
-            <p>查看目前所有錄影課堂。把影片設為私人後，學生仍可看見課堂資料，但縮圖會變黑，影片亦不能播放；R2 內的檔案不會被刪除。</p>
+            <p>查看目前所有錄影課堂。把影片設為私人後，學生仍可看見課堂資料，但縮圖會變黑，影片亦不能播放；私人影片庫內的檔案不會被刪除。</p>
           </div>
-          <button class="icon-button" type="button" data-admin-lessons-refresh><span aria-hidden="true">↻</span>重新整理</button>
+          <div class="admin-section-heading__actions"><button class="icon-button" type="button" data-admin-create-series disabled>＋ 建立／加入系列</button><button class="icon-button" type="button" data-admin-lessons-refresh><span aria-hidden="true">↻</span>重新整理</button></div>
+        </div>
+        <div class="admin-lessons-controls">
+          <label class="student-search"><span class="visually-hidden">搜尋所有影片</span><span aria-hidden="true">⌕</span><input type="search" data-admin-lessons-search placeholder="搜尋影片標題或內容" autocomplete="off"></label>
+          <label class="admin-select-all"><input type="checkbox" data-admin-lessons-select-all> 選取目前已載入影片</label>
+          <strong data-admin-lessons-selected-count>已選 0 部</strong>
         </div>
         <div class="inline-state" data-admin-lessons-state role="status" aria-live="polite"><p>正在載入影片名單⋯</p></div>
         <div class="student-table-shell admin-lessons-table" data-admin-lessons-table role="region" aria-label="所有錄影班影片，可左右捲動" tabindex="0" hidden>
@@ -696,6 +718,7 @@
             <caption class="visually-hidden">所有錄影班影片及公開狀態</caption>
             <thead>
               <tr>
+                <th scope="col"><span class="visually-hidden">選取</span></th>
                 <th scope="col">縮圖</th>
                 <th scope="col">影片／課程</th>
                 <th scope="col">片長</th>
@@ -707,14 +730,48 @@
             <tbody data-admin-lessons-rows></tbody>
           </table>
         </div>
+        <button class="quiet-button admin-lessons-load-more" type="button" data-admin-lessons-load-more hidden>載入更多影片</button>
+
+        <dialog class="playlist-dialog admin-series-dialog" data-admin-series-dialog>
+          <form class="playlist-dialog__card" data-admin-series-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">OFFICIAL SERIES</p><h2>建立或更新官方系列</h2></div><button class="dialog-close" type="button" data-close-admin-series>×</button></div>
+            <label><span>系列</span><select data-admin-series-existing><option value="">建立新系列</option></select></label>
+            <label><span>系列名稱</span><input type="text" data-admin-series-name maxlength="160" required></label>
+            <label><span>簡介</span><textarea data-admin-series-description rows="3" maxlength="1000"></textarea></label>
+            <fieldset><legend>顯示於課程（可多選）</legend><div class="admin-course-checkboxes" data-admin-series-courses></div></fieldset>
+            <p data-admin-series-selection-summary></p>
+            <p class="form-status" data-admin-series-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-series>取消</button><button class="primary-button primary-button--compact" type="submit">儲存系列</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-course-dialog" data-admin-course-dialog>
+          <form class="playlist-dialog__card" data-admin-course-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">COURSE VISIBILITY</p><h2>影片課程分類</h2><span data-admin-course-lesson-title></span></div><button class="dialog-close" type="button" data-close-admin-course>×</button></div>
+            <div class="admin-course-checkboxes" data-admin-course-options></div>
+            <p class="form-status" data-admin-course-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-course>取消</button><button class="primary-button primary-button--compact" type="submit">儲存分類</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-attachment-dialog" data-admin-attachment-dialog>
+          <form class="playlist-dialog__card" data-admin-attachment-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">PDF NOTES</p><h2>上載課堂 PDF</h2><span data-admin-attachment-lesson-title></span></div><button class="dialog-close" type="button" data-close-admin-attachment>×</button></div>
+            <label><span>顯示名稱</span><input type="text" data-admin-attachment-name maxlength="180" required></label>
+            <label class="r2-file-picker"><span>選擇 PDF</span><input type="file" accept="application/pdf,.pdf" data-admin-attachment-file required></label>
+            <div class="r2-upload-progress" data-admin-attachment-progress hidden><div><span data-admin-attachment-progress-label>準備上載⋯</span><strong data-admin-attachment-progress-percent>0%</strong></div><progress max="100" value="0" data-admin-attachment-progress-bar>0%</progress></div>
+            <p class="form-status" data-admin-attachment-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-attachment>取消</button><button class="primary-button primary-button--compact" type="submit" data-admin-attachment-submit>上載並附加</button></div>
+          </form>
+        </dialog>
       </section>
 
       <section class="admin-r2-panel" data-admin-panel="r2" hidden>
         <div class="admin-section-heading">
           <div>
-            <p class="section-kicker">PRIVATE R2 VIDEO LIBRARY</p>
-            <h2>R2 影片庫及發佈</h2>
-            <p>查看私人 R2 Bucket 內的影片，或直接從此頁上載。上載完成後仍不會自動給學生觀看；請填寫課堂資料並按「發佈」。</p>
+            <p class="section-kicker">PRIVATE VIDEO LIBRARY</p>
+            <h2>私人影片庫及發佈</h2>
+            <p>查看私人影片庫內的影片，或直接從此頁上載。上載完成後仍不會自動給學生觀看；請填寫課堂資料並按「發佈」。</p>
           </div>
           <button class="icon-button" type="button" data-r2-refresh><span aria-hidden="true">↻</span>重新整理</button>
         </div>
@@ -722,7 +779,7 @@
         <form class="r2-upload-card" data-r2-upload-form>
           <div class="r2-upload-card__copy">
             <span class="r2-upload-card__icon" aria-hidden="true">↑</span>
-            <div><strong>上載新影片到私人 R2</strong><small>支援 MP4、MOV、M4V、WebM；大型影片會自動分段安全上載。</small></div>
+            <div><strong>上載新影片到私人影片庫</strong><small>支援 MP4、MOV、M4V、WebM；大型影片會自動分段安全上載。</small></div>
           </div>
           <label class="r2-file-picker">
             <span>選擇影片</span>
@@ -742,20 +799,27 @@
 
         <div class="r2-library-controls">
           <label class="student-search">
-            <span class="visually-hidden">搜尋 R2 影片</span>
+            <span class="visually-hidden">搜尋私人影片</span>
             <span aria-hidden="true">⌕</span>
-            <input type="search" data-r2-search placeholder="搜尋檔案名稱或 R2 路徑" autocomplete="off">
+            <input type="search" data-r2-search placeholder="搜尋檔案名稱或私人路徑" autocomplete="off">
           </label>
           <span class="r2-security-note"><span aria-hidden="true">◆</span> 所有檔案保持私人，只有管理員可看見路徑。</span>
         </div>
-        <div class="inline-state" data-r2-state role="status" aria-live="polite"><p>正在讀取 R2 影片庫⋯</p></div>
+        <div class="r2-backup-controls">
+          <label><input type="checkbox" data-r2-select-all> 選取目前已載入影片</label>
+          <strong data-r2-selected-count>已選 0 部</strong>
+          <button class="quiet-button" type="button" data-r2-backup-selected disabled>下載所選 ZIP</button>
+          <button class="primary-button primary-button--compact" type="button" data-r2-backup-all>下載全部影片 ZIP</button>
+          <p class="form-status" data-r2-backup-status role="status" aria-live="polite"></p>
+        </div>
+        <div class="inline-state" data-r2-state role="status" aria-live="polite"><p>正在讀取私人影片庫⋯</p></div>
         <div class="r2-object-list" data-r2-list role="list" hidden></div>
         <button class="quiet-button r2-load-more" type="button" data-r2-load-more hidden>載入更多影片</button>
 
         <dialog class="playlist-dialog r2-publish-dialog" data-r2-publish-dialog>
           <form class="playlist-dialog__card r2-publish-form" method="dialog" data-r2-publish-form>
             <div class="playlist-dialog__heading">
-              <div><p class="section-kicker">PUBLISH A LESSON</p><h2>發佈 R2 影片</h2></div>
+              <div><p class="section-kicker">PUBLISH A LESSON</p><h2>發佈私人影片</h2></div>
               <button class="dialog-close" type="button" data-close-r2-publish aria-label="關閉發佈視窗">×</button>
             </div>
             <p class="r2-publish-object" data-r2-publish-object></p>
@@ -775,12 +839,25 @@
         </dialog>
       </section>
 
+      <dialog class="playlist-dialog feedback-edit-dialog" data-feedback-edit-dialog>
+        <form class="playlist-dialog__card" data-feedback-edit-form>
+          <div class="playlist-dialog__heading"><div><p class="section-kicker">EDIT FEEDBACK</p><h2>編輯影片評分</h2><span data-feedback-edit-summary></span></div><button class="dialog-close" type="button" data-close-feedback-edit>×</button></div>
+          <div class="feedback-edit-fields">
+            <label><span>影片畫質</span><select data-feedback-edit-picture><option value="">留空</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+            <label><span>解釋內容</span><select data-feedback-edit-explanation><option value="">留空</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+            <label><span>聲音品質</span><select data-feedback-edit-audio><option value="">留空</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+          </div>
+          <p class="form-status" data-feedback-edit-status role="status" aria-live="polite"></p>
+          <div class="playlist-dialog__actions"><button class="danger-button" type="button" data-delete-feedback>永久刪除整份評分</button><button class="quiet-button" type="button" data-close-feedback-edit>取消</button><button class="primary-button primary-button--compact" type="submit">儲存修改</button></div>
+        </form>
+      </dialog>
+
       <section class="available-students-panel" data-admin-panel="add-student" hidden>
         <div class="admin-section-heading">
           <div>
             <p class="section-kicker">ACTIVATE A STUDENT</p>
             <h2>新增學生</h2>
-            <p>從現有 Supabase 學生名單選擇帳戶，產生隨機 Video Class Key 並啟用錄影班。完成後，學生會移到「學生及 Key 設定」。</p>
+            <p>從現有學生名單選擇帳戶，產生隨機 Video Class Key 並啟用錄影班。完成後，學生會移到「學生及 Key 設定」。</p>
           </div>
           <button class="icon-button" type="button" data-available-students-refresh><span aria-hidden="true">↻</span>重新整理</button>
         </div>
@@ -800,6 +877,7 @@
 
   <script defer src="video-class-config.js?v=20260811-2"></script>
   <script defer src="shared-system-nav.js?v=20260812-1"></script>
-  <script defer src="video-class.js?v=20260811-9"></script>
+  <script defer src="video-class-zip.js?v=20260812-1"></script>
+  <script defer src="video-class.js?v=20260812-2"></script>
 </body>
 </html>

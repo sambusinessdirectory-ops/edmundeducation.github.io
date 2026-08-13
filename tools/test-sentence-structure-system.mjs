@@ -288,7 +288,7 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   medianDuration, timedSentenceAttempts, buildSentenceTimeSeries, sentenceTimeProgressChartSvg,
   renderSentenceTimeDashboard, renderSentenceTimeDayPanel, formatDuration,
   renderAttemptHistory,
-  serializeExerciseResult, persistExercise
+  serializeExerciseResult, persistExercise, clearSession
 };
 `);
   vm.runInContext(instrumented, context, { filename: "sentence-structure.js" });
@@ -1384,6 +1384,155 @@ test("a failed attempt sync resumes the active exercise stopwatch", async () => 
     sut.state.exerciseClockStartedAt > 0,
     "the stopwatch must restart even when persistence rejects"
   );
+});
+
+test("attempt snapshots are serialized so older progress cannot overwrite a newer answer", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  const lesson = sut.getLesson("ss1");
+  const [question] = lesson.questions;
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "23444444-4444-4444-8444-444444444444",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+
+  let releaseFirst;
+  const firstBlocked = new Promise((resolve) => { releaseFirst = resolve; });
+  let calls = 0;
+  let inFlight = 0;
+  let maximumInFlight = 0;
+  harness.setApiHandler(async (url, options = {}) => {
+    const body = JSON.parse(options.body);
+    calls += 1;
+    inFlight += 1;
+    maximumInFlight = Math.max(maximumInFlight, inFlight);
+    if (calls === 1) await firstBlocked;
+    inFlight -= 1;
+    return jsonResponse({
+      attempt: { id: decodeURIComponent(new URL(url).pathname.split("/").at(-1)), ...body }
+    });
+  });
+
+  const initialSave = sut.persistExercise();
+  sut.state.exercise.correctIds.push(question.id);
+  sut.state.exercise.questionState[question.id] = {
+    status: "correct",
+    lastAnswer: question.answer,
+    reveal: true
+  };
+  const answerSave = sut.persistExercise();
+  await Promise.resolve();
+  await Promise.resolve();
+  assert.equal(calls, 1, "the newer snapshot must wait for the older request to settle");
+  assert.equal(maximumInFlight, 1);
+  releaseFirst();
+  await Promise.all([initialSave, answerSave]);
+  assert.equal(calls, 2);
+  assert.equal(maximumInFlight, 1, "attempt requests must never overlap within one session");
+  assert.equal(sut.state.attempts[0].correctCount, 1, "the newest snapshot must win");
+});
+
+test("a queued attempt keeps its captured token after logout without touching the next login", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  const lesson = sut.getLesson("ss1");
+  sut.state.user = { id: "student-1", name: "First Student", role: "student" };
+  sut.state.authToken = "first-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "23555555-5555-4555-8555-555555555555",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+
+  let releaseBlocker;
+  const blocker = new Promise((resolve) => { releaseBlocker = resolve; });
+  sut.state.attemptSaveQueue = blocker;
+  let capturedAuthorization = "";
+  harness.setApiHandler(async (_url, options = {}) => {
+    capturedAuthorization = new Headers(options.headers).get("Authorization") || "";
+    return jsonResponse({ error: "Expired first session", code: "STUDENT_AUTH_REQUIRED" }, 401);
+  });
+
+  const pending = sut.persistExercise();
+  sut.clearSession();
+  sut.state.user = { id: "student-2", name: "Second Student", role: "student" };
+  sut.state.authToken = "second-token";
+  releaseBlocker();
+  await assert.rejects(() => pending, /Expired first session/);
+  assert.equal(capturedAuthorization, "Bearer first-token", "the submitted answer must retain its original account token");
+  assert.equal(sut.state.user.id, "student-2", "a late 401 must not clear the newer login");
+  assert.equal(sut.state.authToken, "second-token");
+});
+
+test("logout preserves queued attempt order instead of bypassing an older student write", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  const lesson = sut.getLesson("ss1");
+  sut.state.user = { id: "student-1", name: "First Student", role: "student" };
+  sut.state.authToken = "first-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "23666666-6666-4666-8666-666666666666",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+
+  let releaseFirst;
+  const firstBlocked = new Promise((resolve) => { releaseFirst = resolve; });
+  const authorizationOrder = [];
+  let calls = 0;
+  harness.setApiHandler(async (url, options = {}) => {
+    const body = JSON.parse(options.body);
+    calls += 1;
+    authorizationOrder.push(new Headers(options.headers).get("Authorization"));
+    if (calls === 1) await firstBlocked;
+    return jsonResponse({
+      attempt: { id: decodeURIComponent(new URL(url).pathname.split("/").at(-1)), ...body }
+    });
+  });
+
+  const firstSave = sut.persistExercise();
+  sut.clearSession();
+  sut.state.user = { id: "student-2", name: "Second Student", role: "student" };
+  sut.state.authToken = "second-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "23777777-7777-4777-8777-777777777777",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+  const secondSave = sut.persistExercise();
+  await Promise.resolve();
+  await Promise.resolve();
+  assert.equal(calls, 1, "the second account must not bypass the captured write queue");
+  releaseFirst();
+  await Promise.all([firstSave, secondSave]);
+  assert.deepEqual(authorizationOrder, ["Bearer first-token", "Bearer second-token"]);
 });
 
 test("the final question keeps correction and next-round controls within reach", async () => {

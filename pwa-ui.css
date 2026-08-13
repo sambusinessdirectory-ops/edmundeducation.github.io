@@ -96,6 +96,53 @@ body {
   outline-offset: 3px;
 }
 
+.edmund-idle-break-dialog {
+  width: min(520px, calc(100vw - 28px));
+  max-height: calc(100dvh - 28px);
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  color: #172033;
+  background: #fff;
+  box-shadow: 0 28px 85px rgba(12, 33, 63, .34);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.edmund-idle-break-dialog::backdrop {
+  background: rgba(7, 18, 37, .62);
+  backdrop-filter: blur(6px);
+}
+
+.edmund-idle-break-dialog__card { padding: clamp(26px, 6vw, 44px); }
+.edmund-idle-break-dialog__eyebrow { margin: 0 0 8px; color: #2f6ec8; font-size: 11px; font-weight: 900; letter-spacing: .14em; }
+.edmund-idle-break-dialog h2 { margin: 0; font-size: clamp(27px, 6vw, 38px); line-height: 1.2; }
+.edmund-idle-break-dialog h2 + p { margin: 14px 0 0; color: #5b687c; font-size: 15px; line-height: 1.7; }
+.edmund-idle-break-dialog__actions { margin-top: 24px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+.edmund-idle-break-dialog__actions button { min-height: 46px; padding: 10px 17px; border: 1px solid #c9d4e7; border-radius: 999px; color: #24405f; background: #f5f8fd; font: inherit; font-size: 14px; font-weight: 800; cursor: pointer !important; }
+.edmund-idle-break-dialog__actions [data-idle-break-resume] { border-color: #195da5; color: #fff; background: #195da5; }
+
+@media (hover: none), (pointer: coarse), (max-width: 900px) {
+  form[data-edmund-mobile-login-enhanced="true"] [data-edmund-password-step="true"] {
+    overflow: hidden;
+    max-height: 0;
+    margin-block: 0 !important;
+    opacity: 0;
+    transform: translateY(-8px);
+    visibility: hidden;
+    pointer-events: none;
+    transition: max-height .32s ease, opacity .22s ease, transform .32s ease, visibility 0s linear .32s, margin .32s ease;
+  }
+
+  form[data-edmund-mobile-login-enhanced="true"][data-edmund-password-revealed="true"] [data-edmund-password-step="true"] {
+    max-height: 190px;
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    pointer-events: auto;
+    transition-delay: 0s;
+  }
+}
+
 @media (hover: none), (pointer: coarse) {
   html,
   body,
@@ -129,11 +176,15 @@ body {
     bottom: max(12px, calc(var(--pwa-safe-bottom) + 8px));
     width: auto;
   }
+
+  .edmund-idle-break-dialog__actions { flex-direction: column-reverse; }
+  .edmund-idle-break-dialog__actions button { width: 100%; }
 }
 
 @media print {
   .pwa-install-button,
-  .pwa-notice {
+  .pwa-notice,
+  .edmund-idle-break-dialog {
     display: none !important;
   }
 }
