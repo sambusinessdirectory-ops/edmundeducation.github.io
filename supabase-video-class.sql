@@ -726,6 +726,10 @@ create table if not exists public.video_class_library_settings (
   updated_by uuid references public.video_class_admin_accounts(id) on delete set null
 );
 
+create index if not exists video_class_library_settings_updated_by_idx
+  on public.video_class_library_settings (updated_by)
+  where updated_by is not null;
+
 insert into public.video_class_library_settings (singleton)
 values (true)
 on conflict (singleton) do nothing;
@@ -768,6 +772,8 @@ create index if not exists video_class_admin_preview_grants_lesson_idx
   on public.video_class_admin_preview_grants (lesson_id, expires_at desc);
 create index if not exists video_class_admin_preview_grants_admin_idx
   on public.video_class_admin_preview_grants (admin_id, expires_at desc);
+create index if not exists video_class_admin_preview_grants_session_idx
+  on public.video_class_admin_preview_grants (admin_session_hash, expires_at desc);
 
 create table if not exists public.video_class_bookmarks (
   student_id uuid not null references public.flashcard_students(id) on delete cascade,
