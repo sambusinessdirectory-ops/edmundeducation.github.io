@@ -3682,6 +3682,7 @@
     state.playbackRecovery.refreshing = true;
     state.playbackRecovery.attempts += 1;
     const generation = ++state.playbackRecovery.generation;
+    let replacementStarted = false;
     const pendingSeekPosition = state.playbackRecovery.pendingSeekPosition;
     const position = pendingSeekPosition !== null && Number.isFinite(Number(pendingSeekPosition))
       ? Math.max(0, Number(pendingSeekPosition))
@@ -3711,6 +3712,19 @@
       configureQualitySelector();
       elements.video.src = state.playback.videoUrl;
       elements.video.load();
+      replacementStarted = true;
+      // Keep the recovery guard active until the replacement source actually
+      // produces metadata. Some browsers deliver a queued error from the old
+      // source after src has been replaced; treating that stale event as a
+      // second failed recovery incorrectly exposes the manual error state.
+      window.clearTimeout(state.playbackRecovery.timer);
+      state.playbackRecovery.timer = window.setTimeout(() => {
+        if (generation !== state.playbackRecovery.generation || !state.playbackRecovery.refreshing) return;
+        state.playbackRecovery.refreshing = false;
+        if (elements.video.readyState < HTMLMediaElement.HAVE_METADATA) {
+          showPlayerError("影片連線未能自動恢復。請按下方按鈕重新取得安全播放連結。", { retryPlayback: true });
+        }
+      }, 15000);
       showToast(wasPlaying ? "安全播放連結已自動更新，正在繼續播放。" : "安全播放連結已自動更新。", "success");
       return true;
     } catch (error) {
@@ -3724,7 +3738,7 @@
         : "影片連線未能自動恢復。請按下方按鈕重新取得安全播放連結。", { retryPlayback: true });
       return false;
     } finally {
-      if (generation === state.playbackRecovery.generation) state.playbackRecovery.refreshing = false;
+      if (generation === state.playbackRecovery.generation && !replacementStarted) state.playbackRecovery.refreshing = false;
     }
   }
 
@@ -3945,6 +3959,9 @@
       }
       window.clearTimeout(state.playbackRecovery.timer);
       state.playbackRecovery.timer = 0;
+      state.playbackRecovery.refreshing = false;
+      elements.playerError.hidden = true;
+      elements.playerError.classList.remove("private-video-message");
       elements.playerPlaceholder.hidden = true;
       elements.playerControls.hidden = false;
       elements.player.dataset.playbackReady = "true";
