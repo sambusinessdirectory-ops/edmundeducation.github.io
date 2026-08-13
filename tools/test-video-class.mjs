@@ -9,7 +9,7 @@ import { spawnSync } from "node:child_process";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
+const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, paginationCursorFixSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
   read("recorded.html"),
   read("video-class.html"),
   read("video-class.js"),
@@ -18,6 +18,8 @@ const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs,
   read("video-class-frame-guard.js"),
   read("video-class-config.js"),
   read("supabase-video-class.sql"),
+  read("supabase-video-class-library-expansion.sql"),
+  read("supabase-video-class-pagination-cursor-fix.sql"),
   read("workers/video-class/src/index.js"),
   read("workers/video-class/wrangler.jsonc"),
   read("workers/video-class/package.json"),
@@ -37,14 +39,18 @@ const test = (name, run) => tests.push({ name, run });
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const sorted = (values) => [...values].sort();
 
-function sqlFunctionBlock(name) {
+function sqlFunctionBlockFrom(source, name) {
   const expression = new RegExp(
     `create\\s+or\\s+replace\\s+function\\s+public\\.${escapeRegExp(name)}\\s*\\([\\s\\S]*?\\n\\$\\$;`,
     "i"
   );
-  const block = sql.match(expression)?.[0] || "";
+  const block = source.match(expression)?.[0] || "";
   assert.ok(block, `missing SQL function ${name}`);
   return block;
+}
+
+function sqlFunctionBlock(name) {
+  return sqlFunctionBlockFrom(sql, name);
 }
 
 function sqlTableBlock(name) {
@@ -1168,6 +1174,24 @@ test("YouTube-style seeking, sequence navigation, and student analytics remain a
   assert.match(adminLessons, /'total_view_count'/i);
   assert.match(portalHtml, /<th\s+scope="col">總觀看次數<\/th>/);
   assert.match(portalJs, /totalViewCount:\s*Math\.max/);
+});
+
+test("UUID-keyset admin pagination selects the terminal row without unsupported UUID aggregates", () => {
+  for (const [label, source] of [
+    ["canonical", sql],
+    ["library expansion", libraryExpansionSql],
+    ["pagination cursor hotfix", paginationCursorFixSql]
+  ]) {
+    assert.doesNotMatch(source, /\bmax\s*\(\s*(?:page\.)?id\s*\)/i, `${label}: PostgreSQL has no max(uuid)`);
+    for (const functionName of ["video_class_admin_list_lessons_page", "video_class_admin_list_official_playlists_page"]) {
+      const block = sqlFunctionBlockFrom(source, functionName);
+      assert.match(
+        block,
+        /then\s*\(\s*select\s+page\.id::text\s+from\s+page\s+order\s+by\s+page\.id\s+desc\s+limit\s+1\s*\)/i,
+        `${label}/${functionName}: cursor must be the terminal UUID in page order`
+      );
+    }
+  }
 });
 
 test("private R2 inventory, multipart upload, and publishing stay admin-gated", () => {

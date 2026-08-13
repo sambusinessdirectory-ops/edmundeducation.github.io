@@ -2063,7 +2063,7 @@ begin
     ), '[]'::jsonb),
     'next_cursor', case
       when (select count(*) from candidates) > p_limit
-      then (select max(page.id)::text from page)
+      then (select page.id::text from page order by page.id desc limit 1)
       else null
     end,
     'truncated', (select count(*) from candidates) > p_limit
@@ -2201,7 +2201,7 @@ begin
         'updated_at', playlist.updated_at
       ) order by playlist.id) from page playlist
     ), '[]'::jsonb),
-    'next_cursor', case when (select count(*) from candidates) > p_limit then (select max(id)::text from page) else null end,
+    'next_cursor', case when (select count(*) from candidates) > p_limit then (select page.id::text from page order by page.id desc limit 1) else null end,
     'truncated', (select count(*) from candidates) > p_limit
   ) into v_result;
   return v_result;
