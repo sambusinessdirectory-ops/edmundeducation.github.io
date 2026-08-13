@@ -9,7 +9,7 @@ import { spawnSync } from "node:child_process";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, paginationCursorFixSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
+const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, adminLibraryControlSql, paginationCursorFixSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
   read("recorded.html"),
   read("video-class.html"),
   read("video-class.js"),
@@ -19,6 +19,7 @@ const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs,
   read("video-class-config.js"),
   read("supabase-video-class.sql"),
   read("supabase-video-class-library-expansion.sql"),
+  read("supabase-video-class-admin-library-control.sql"),
   read("supabase-video-class-pagination-cursor-fix.sql"),
   read("workers/video-class/src/index.js"),
   read("workers/video-class/wrangler.jsonc"),
@@ -587,7 +588,7 @@ test("course entitlements are per student and required for listing, playback, an
   assert.match(courseRevocation, /lesson_course\.course_code\s*=\s*v_course_code/i);
   assert.match(
     sql,
-    /create\s+trigger\s+video_class_course_access_revoke_playbacks\s+after\s+update\s+of\s+student_id,\s*course_code,\s*enabled\s+or\s+delete\s+on\s+public\.video_class_student_courses/i
+    /create\s+trigger\s+video_class_course_access_revoke_playbacks\s+after\s+update\s+of\s+student_id,\s*course_code,\s*enabled(?:,\s*official_playlist_mode)?\s+or\s+delete\s+on\s+public\.video_class_student_courses/i
   );
 });
 
@@ -848,6 +849,18 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_set_lesson_courses",
     "video_class_admin_list_official_playlists_page",
     "video_class_admin_save_official_playlist",
+    "video_class_admin_set_official_playlist_order",
+    "video_class_admin_update_lesson",
+    "video_class_admin_set_thumbnail",
+    "video_class_admin_authorize_thumbnail",
+    "video_class_admin_create_preview",
+    "video_class_admin_authorize_preview",
+    "video_class_admin_prepare_delete_lesson",
+    "video_class_admin_finish_delete_lesson",
+    "video_class_admin_list_student_series_access",
+    "video_class_admin_set_student_series_mode",
+    "video_class_admin_set_student_official_playlist_access",
+    "video_class_admin_replace_student_official_playlist_access",
     "video_class_admin_add_attachment",
     "video_class_admin_set_attachment_private",
     "video_class_admin_prepare_delete_attachment",
@@ -912,6 +925,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assertWorkerRoute("/v1/lessons", "GET");
   assertWorkerRoute("/v1/analytics", "GET");
   assertWorkerRoute("/v1/playback/grant", "POST");
+  assertWorkerRoute("/v1/playback/refresh", "POST");
   assertWorkerRoute("/v1/playback/heartbeat", "POST");
   assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/key\$/);
   assert.match(workerSource, /\^\\\/v1\\\/admin\\\/students\\\/\(\[\^\/\]\+\)\\\/access\$/);
@@ -1180,6 +1194,7 @@ test("UUID-keyset admin pagination selects the terminal row without unsupported 
   for (const [label, source] of [
     ["canonical", sql],
     ["library expansion", libraryExpansionSql],
+    ["admin library control", adminLibraryControlSql],
     ["pagination cursor hotfix", paginationCursorFixSql]
   ]) {
     assert.doesNotMatch(source, /\bmax\s*\(\s*(?:page\.)?id\s*\)/i, `${label}: PostgreSQL has no max(uuid)`);
@@ -1241,6 +1256,8 @@ test("admin R2 inventory and upload initialization work through authenticated Wo
     VIDEO_CLASS_SIGNING_KEY: "r2-test-signing-key-".padEnd(48, "k"),
     VIDEO_CLASSES: {
       head: async () => null,
+      get: async () => null,
+      delete: async () => {},
       resumeMultipartUpload: () => ({
         uploadPart: async () => ({ partNumber: 1, etag: "etag" }),
         complete: async () => ({}),
@@ -1508,6 +1525,58 @@ test("administrator UI exposes UUID/key controls and playback grants expire with
   assert.match(workerSource, /payload\.exp\s*-\s*payload\.iat\s*>\s*PLAYBACK_TOKEN_TTL_SECONDS\s*\+\s*60/);
   assert.match(workerSource, /tokenExpiresAt:\s*expiresAt/);
   assert.doesNotMatch(workerSource, /filtered\.slice\(/, "admin roster must not silently stop after 100 students");
+});
+
+test("admin lesson control, thumbnails, series access, and playback recovery remain end-to-end", () => {
+  for (const table of [
+    "video_class_student_official_playlists",
+    "video_class_library_settings",
+    "video_class_lesson_deletion_jobs",
+    "video_class_admin_preview_grants"
+  ]) {
+    assert.ok(sqlTableBlock(table), `${table} must exist in the canonical schema`);
+    assert.match(sql, new RegExp(`alter\\s+table\\s+public\\.${table}\\s+enable\\s+row\\s+level\\s+security`, "i"));
+    assert.match(sql, new RegExp(`revoke\\s+all\\s+on\\s+table\\s+public\\.${table}\\s+from\\s+public,\\s*anon,\\s*authenticated`, "i"));
+  }
+
+  const canViewSeries = sqlFunctionBlock("_video_class_student_can_view_official_playlist");
+  assert.match(canViewSeries, /official_playlist_mode\s*=\s*'all'/i);
+  assert.match(canViewSeries, /official_playlist_mode\s*=\s*'manual'[\s\S]*?video_class_student_official_playlists/i);
+  assert.match(canViewSeries, /course_access\.enabled\s*=\s*true/i);
+
+  const deletePrepare = sqlFunctionBlock("video_class_admin_prepare_delete_lesson");
+  for (const relation of [
+    "video_class_lesson_renditions",
+    "video_class_lesson_thumbnails",
+    "video_class_lesson_attachments"
+  ]) assert.match(deletePrepare, new RegExp(`public\\.${relation}`, "i"));
+  assert.match(deletePrepare, /array_agg\(distinct\s+objects\.object_key/i);
+  assert.match(deletePrepare, /set\s+published\s*=\s*false,\s*is_private\s*=\s*true/i);
+  assert.match(workerSource, /async\s+function\s+adminDeleteLesson[\s\S]*?deleteObject[\s\S]*?deleteR2ObjectsInBatches\(bucket,\s*objectKeys\)[\s\S]*?video_class_admin_finish_delete_lesson/i);
+  assert.match(workerSource, /async\s+function\s+deleteR2ObjectsInBatches[\s\S]*?bucket\.delete\(objectKeys\.slice\(offset,\s*offset\s*\+\s*1000\)\)/i);
+
+  assert.match(sqlFunctionBlock("video_class_admin_set_thumbnail"), /'image\/gif'/i);
+  assert.match(workerSource, /ADMIN_THUMBNAIL_MAX_BYTES\s*=\s*10\s*\*\s*1024\s*\*\s*1024/);
+  assert.match(workerSource, /adminLessonPreviewGrantMatch[\s\S]*?request\.method\s*===\s*"POST"/);
+  assert.match(workerSource, /adminLessonPreviewMatch[\s\S]*?\["GET",\s*"HEAD"\]/);
+  assert.match(sqlFunctionBlock("video_class_admin_authorize_preview"), /video_class_admin_sessions[\s\S]*?session\.expires_at\s*>\s*now\(\)/i);
+  assert.match(sqlFunctionBlock("video_class_admin_authorize_preview"), /preview\.expires_at\s*>\s*now\(\)/i);
+
+  assert.match(portalHtml, /data-admin-edit-thumbnail-file/);
+  assert.match(portalHtml, /image\/gif/);
+  assert.match(portalHtml, /data-theatre-mode/);
+  assert.match(portalJs, /inspectLocalVideoMedia[\s\S]*?canvas\.toBlob/);
+  assert.match(portalJs, /kind:\s*"thumbnail",\s*lessonId:\s*publishedLesson\.id/);
+  assert.match(portalJs, /\/v1\/admin\/lessons\/\$\{encodeURIComponent\(publishedLesson\.id\)\}\/thumbnail/);
+  assert.match(portalJs, /\/v1\/admin\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\/preview-grant/);
+  assert.match(portalJs, /\/v1\/admin\/lessons\/\$\{encodeURIComponent\(lesson\.id\)\}\?deleteObject=true/);
+  assert.match(portalJs, /apiRequest\("\/v1\/playback\/refresh"/);
+  assert.match(portalJs, /playbackRecovery\.attempts\s*>=\s*1/);
+  assert.match(portalJs, /setProperty\("--video-aspect"/);
+  assert.match(portalJs, /title:\s*"全部可觀看影片"[\s\S]*?officialPlaylists\.forEach/);
+  assert.match(portalJs, /series-mode-\$\{student\.id\}-\$\{course\.id\}/);
+  assert.match(portalJs, /return\s+\{\s*courseCode,\s*mode,\s*playlistIds\s*\}/);
+  assert.match(portalJs, /officialOrder\.mode\s*\|\|\s*officialOrder\.orderMode\s*\|\|\s*officialOrder\.order_mode/);
 });
 
 let failed = 0;

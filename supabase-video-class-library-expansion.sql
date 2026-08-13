@@ -2653,3 +2653,8 @@ grant execute on function public.video_class_record_progress(text, uuid, uuid, n
 notify pgrst, 'reload schema';
 
 commit;
+
+-- The post-expansion administrator/library controls live in
+-- supabase-video-class-admin-library-control.sql. Apply that migration next;
+-- keeping it separate makes its destructive-object workflow auditable and
+-- preserves this historical expansion migration for existing installations.

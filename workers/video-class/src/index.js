@@ -4,6 +4,7 @@ const decoder = new TextDecoder();
 const SERVICE_NAME = "edmund-video-class";
 const DEFAULT_ALLOWED_ORIGIN = "https://edmundeducation.com";
 const PLAYBACK_TOKEN_TTL_SECONDS = 2 * 60 * 60;
+const ADMIN_PREVIEW_TOKEN_TTL_SECONDS = 10 * 60;
 const MAX_JSON_BYTES = 16 * 1024;
 const ADMIN_UPLOAD_TOKEN_TTL_SECONDS = 6 * 24 * 60 * 60;
 const ADMIN_UPLOAD_PREFIX = "admin-uploads/videos/";
@@ -11,9 +12,12 @@ const ADMIN_UPLOAD_PART_BYTES = 10 * 1024 * 1024;
 const ADMIN_UPLOAD_MAX_BYTES = 50 * 1024 * 1024 * 1024;
 const ADMIN_ATTACHMENT_MAX_BYTES = 1024 * 1024 * 1024;
 const ADMIN_ATTACHMENT_PREFIX = "admin-uploads/lesson-files/";
+const ADMIN_THUMBNAIL_MAX_BYTES = 10 * 1024 * 1024;
+const ADMIN_THUMBNAIL_PREFIX = "admin-uploads/lesson-thumbnails/";
 const ADMIN_UPLOAD_MAX_PARTS = 10000;
 const ADMIN_UPLOAD_COMPLETE_MAX_JSON_BYTES = 2 * 1024 * 1024;
 const ADMIN_R2_LIST_MAX_ITEMS = 100;
+const VIDEO_DURATION_PROBE_BYTES = 8 * 1024 * 1024;
 const TURNSTILE_SITEVERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
 const TURNSTILE_TOKEN_MAX_LENGTH = 2048;
 const TURNSTILE_TIMEOUT_MS = 8000;
@@ -38,6 +42,7 @@ const IMAGE_UPLOAD_TYPES = Object.freeze({
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
   ".png": "image/png",
+  ".gif": "image/gif",
   ".webp": "image/webp",
   ".avif": "image/avif"
 });
@@ -154,6 +159,39 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/admin/official-playlists" && request.method === "POST") {
     return adminSaveOfficialPlaylist(request, env);
   }
+  if (url.pathname === "/v1/admin/official-playlists/order" && request.method === "PATCH") {
+    return adminSetOfficialPlaylistOrder(request, env);
+  }
+
+  const adminLessonMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)$/);
+  if (adminLessonMatch && ["PATCH", "DELETE"].includes(request.method)) {
+    return request.method === "PATCH"
+      ? adminUpdateLesson(request, env, decodePathSegment(adminLessonMatch[1]))
+      : adminDeleteLesson(request, env, decodePathSegment(adminLessonMatch[1]), url);
+  }
+
+  const adminLessonThumbnailMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)\/thumbnail$/);
+  if (adminLessonThumbnailMatch && ["GET", "PUT", "DELETE"].includes(request.method)) {
+    const lessonId = decodePathSegment(adminLessonThumbnailMatch[1]);
+    if (request.method === "GET") return serveAdminLessonThumbnail(request, env, lessonId);
+    return adminSetLessonThumbnail(request, env, lessonId, request.method === "DELETE");
+  }
+
+  const adminLessonPreviewGrantMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)\/preview-grant$/);
+  if (adminLessonPreviewGrantMatch && request.method === "POST") {
+    return adminGrantLessonPreview(request, env, decodePathSegment(adminLessonPreviewGrantMatch[1]), url);
+  }
+
+  const adminLessonPreviewMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)\/preview$/);
+  if (adminLessonPreviewMatch && ["GET", "HEAD"].includes(request.method)) {
+    return streamAdminLessonPreview(
+      request,
+      env,
+      decodePathSegment(adminLessonPreviewMatch[1]),
+      url.searchParams.get("token") || "",
+      ctx
+    );
+  }
 
   const adminLessonPrivacyMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)\/privacy$/);
   if (adminLessonPrivacyMatch && request.method === "PATCH") {
@@ -229,6 +267,26 @@ async function route(request, env, ctx) {
       decodePathSegment(studentCourseMatch[1]),
       decodePathSegment(studentCourseMatch[2])
     );
+  }
+
+  const studentOfficialPlaylistMatch = url.pathname.match(
+    /^\/v1\/admin\/students\/([^/]+)\/official-playlists\/([^/]+)$/
+  );
+  if (studentOfficialPlaylistMatch && request.method === "PATCH") {
+    return adminChangeStudentOfficialPlaylistAccess(
+      request,
+      env,
+      decodePathSegment(studentOfficialPlaylistMatch[1]),
+      decodePathSegment(studentOfficialPlaylistMatch[2])
+    );
+  }
+
+  const studentOfficialPlaylistsMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/official-playlists$/);
+  if (studentOfficialPlaylistsMatch && ["GET", "PUT"].includes(request.method)) {
+    const studentId = decodePathSegment(studentOfficialPlaylistsMatch[1]);
+    return request.method === "GET"
+      ? adminListStudentOfficialPlaylistAccess(request, env, studentId)
+      : adminSetStudentOfficialPlaylistAccessBulk(request, env, studentId);
   }
 
   const studentWatermarkMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/watermark$/);
@@ -307,6 +365,9 @@ async function route(request, env, ctx) {
   }
   if (url.pathname === "/v1/playback/grant" && request.method === "POST") {
     return grantPlayback(request, env, url);
+  }
+  if (url.pathname === "/v1/playback/refresh" && request.method === "POST") {
+    return grantPlayback(request, env, url, { refreshed: true });
   }
   if (url.pathname === "/v1/playback/heartbeat" && request.method === "POST") {
     return recordHeartbeat(request, env);
@@ -587,6 +648,223 @@ async function adminChangeLessonPrivacy(request, env, lessonId) {
   }, 200);
 }
 
+async function adminUpdateLesson(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  const body = await readJson(request, 64 * 1024);
+  const title = normalizeBoundedText(body.title, "Lesson title", 1, 160, true);
+  const description = normalizeBoundedText(body.description ?? "", "Lesson description", 0, 2000, false);
+  const courseCodes = normalizeCourseCodes(body.courseCodes ?? body.course_codes);
+  const tags = normalizePublishTags(body.tags);
+  const durationSeconds = requiredLessonDuration(body.durationSeconds ?? body.duration_seconds);
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_update_lesson", {
+    p_admin_token: token,
+    p_lesson_id: lessonId,
+    p_title: title,
+    p_description: description,
+    p_course_codes: courseCodes,
+    p_duration_seconds: durationSeconds,
+    p_tags: tags
+  });
+  const lesson = mapEditedAdminLesson(firstRow(result));
+  if (!lesson.id) throw new HttpError(404, "Lesson was not found");
+  return json(request, env, { lesson }, 200);
+}
+
+async function serveAdminLessonThumbnail(request, env, lessonId) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(404, "Thumbnail not found");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_authorize_thumbnail", {
+    p_admin_token: token,
+    p_lesson_id: lessonId
+  });
+  const thumbnail = firstRow(result);
+  const objectKey = safeObjectKey(thumbnail?.object_key);
+  const contentType = safeImageContentType(thumbnail?.content_type);
+  if (!objectKey || !contentType) throw new HttpError(404, "Thumbnail not found");
+  let object;
+  try { object = await requireVideoBucket(env).get(objectKey); }
+  catch { throw new HttpError(503, "Thumbnail is temporarily unavailable"); }
+  if (!object?.body || !Number.isSafeInteger(object.size) || object.size <= 0 || object.size > ADMIN_THUMBNAIL_MAX_BYTES) {
+    throw new HttpError(404, "Thumbnail not found");
+  }
+  const expectedBytes = nullablePositiveInteger(thumbnail.byte_length);
+  if (expectedBytes != null && expectedBytes !== object.size) {
+    throw new HttpError(503, "Thumbnail is temporarily unavailable");
+  }
+  const headers = responseHeaders(request, env);
+  headers.set("Content-Type", contentType);
+  headers.set("Content-Length", String(object.size));
+  headers.set("Content-Disposition", "inline");
+  headers.set("Cross-Origin-Resource-Policy", "cross-origin");
+  headers.set("X-Robots-Tag", "noindex, nofollow, noarchive");
+  if (object.httpEtag) headers.set("ETag", object.httpEtag);
+  return new Response(object.body, { status: 200, headers });
+}
+
+async function adminSetLessonThumbnail(request, env, lessonId, remove) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  let objectKey = null;
+  let metadata = null;
+  if (!remove) {
+    const body = await readJson(request, 8192);
+    objectKey = normalizePrivateObjectKey(body.objectKey ?? body.object_key);
+    if (!objectKey.startsWith(`${ADMIN_THUMBNAIL_PREFIX}${lessonId}/`) || !isImageObjectKey(objectKey)) {
+      throw new HttpError(400, "Invalid lesson thumbnail object");
+    }
+    metadata = await headImageObject(requireVideoBucket(env), objectKey);
+    if (metadata.size > ADMIN_THUMBNAIL_MAX_BYTES) throw new HttpError(413, "Thumbnail exceeds 10 MiB");
+  }
+  const result = await serviceRpc(env, "video_class_admin_set_thumbnail", {
+    p_admin_token: token,
+    p_lesson_id: lessonId,
+    p_object_key: objectKey,
+    p_content_type: metadata?.contentType || null,
+    p_byte_length: metadata?.size || null
+  });
+  const value = firstRow(result);
+  if (!value || !UUID_RE.test(String(value.lesson_id || ""))) throw new HttpError(404, "Lesson was not found");
+  const previousObjectKey = safeObjectKey(value.previous_object_key);
+  if (previousObjectKey && previousObjectKey !== objectKey) {
+    try { await requireVideoBucket(env).delete(previousObjectKey); }
+    catch { console.error(`${SERVICE_NAME}: replaced thumbnail cleanup failed`); }
+  }
+  return json(request, env, {
+    lesson: {
+      id: String(value.lesson_id),
+      hasThumbnail: !remove && Boolean(objectKey),
+      thumbnail: !remove && value.thumbnail && typeof value.thumbnail === "object" ? {
+        contentType: safeImageContentType(value.thumbnail.content_type) || metadata?.contentType || null,
+        byteLength: nullablePositiveInteger(value.thumbnail.byte_length) || metadata?.size || null,
+        enabled: value.thumbnail.enabled !== false,
+        updatedAt: value.thumbnail.updated_at || null
+      } : null,
+      thumbnailUpdatedAt: value.thumbnail?.updated_at || null
+    }
+  }, 200);
+}
+
+async function adminGrantLessonPreview(request, env, lessonId, requestUrl) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  requireSigningKey(env);
+  const adminToken = requireBearerToken(request);
+  const admin = await assertAdminSession(env, adminToken);
+  const fingerprint = await requestFingerprint(request, env);
+  const result = await serviceRpc(env, "video_class_admin_create_preview", {
+    p_admin_token: adminToken,
+    p_lesson_id: lessonId,
+    p_user_agent_hash: fingerprint.userAgentHash
+  });
+  const preview = firstRow(result);
+  if (!preview || String(preview.lesson_id || "") !== lessonId) throw new HttpError(404, "Lesson preview not found");
+  const previewId = String(preview.preview_id || "");
+  if (!UUID_RE.test(previewId)) throw new HttpError(502, "Lesson preview state is invalid");
+  const now = Math.floor(Date.now() / 1000);
+  const databaseExpiry = Math.floor(Date.parse(String(preview.expires_at || "")) / 1000);
+  if (!Number.isFinite(databaseExpiry)) throw new HttpError(502, "Lesson preview expiry is invalid");
+  const expires = Math.min(now + ADMIN_PREVIEW_TOKEN_TTL_SECONDS, databaseExpiry);
+  const token = await signAdminPreviewToken({
+    v: 1,
+    aud: "admin-video-preview",
+    sub: requireAdminId(admin),
+    pid: previewId,
+    lid: lessonId,
+    uah: fingerprint.userAgentHash,
+    iat: now,
+    exp: expires
+  }, env.VIDEO_CLASS_SIGNING_KEY);
+  return json(request, env, {
+    lessonId,
+    previewUrl: `${requestUrl.origin}/v1/admin/lessons/${encodeURIComponent(lessonId)}/preview?token=${encodeURIComponent(token)}`,
+    expiresAt: new Date(expires * 1000).toISOString()
+  }, 201);
+}
+
+async function streamAdminLessonPreview(request, env, lessonId, token, ctx) {
+  if (!UUID_RE.test(lessonId) || !token || token.length > 4096) throw new HttpError(404, "Lesson preview not found");
+  requireSigningKey(env);
+  const claims = await verifyAdminPreviewToken(token, env.VIDEO_CLASS_SIGNING_KEY);
+  if (!claims || claims.lid !== lessonId) {
+    throw new HttpError(401, "Lesson preview link is invalid or expired", { code: "ADMIN_PREVIEW_TOKEN_INVALID" });
+  }
+  const fingerprint = await requestFingerprint(request, env);
+  if (claims.uah !== fingerprint.userAgentHash) {
+    throw new HttpError(401, "Lesson preview link does not match this browser", { code: "ADMIN_PREVIEW_FINGERPRINT_CHANGED" });
+  }
+  const result = await serviceRpc(env, "video_class_admin_authorize_preview", {
+    p_preview_id: claims.pid,
+    p_admin_id: claims.sub,
+    p_lesson_id: lessonId,
+    p_user_agent_hash: fingerprint.userAgentHash
+  });
+  const preview = firstRow(result);
+  if (!preview || String(preview.lesson_id || "") !== lessonId) {
+    throw new HttpError(403, "Lesson preview access has expired", { code: "ADMIN_PREVIEW_ACCESS_REVOKED" });
+  }
+  const objectKey = safeObjectKey(preview.object_key);
+  if (!objectKey) throw new HttpError(502, "Lesson preview metadata is invalid");
+  const bucket = requireVideoBucket(env);
+  let head;
+  try { head = await bucket.head(objectKey); }
+  catch { throw new HttpError(503, "Lesson preview is temporarily unavailable"); }
+  if (!head) throw new HttpError(404, "Lesson preview not found");
+  const expectedBytes = nullablePositiveInteger(preview.byte_length);
+  if (expectedBytes != null && expectedBytes !== head.size) throw new HttpError(503, "Lesson preview is temporarily unavailable");
+  const rangeHeader = request.headers.get("Range");
+  const range = rangeHeader ? parseByteRange(rangeHeader, head.size) : null;
+  if (rangeHeader && !range) return rangeNotSatisfiable(request, env, head.size);
+  const headers = videoHeaders(request, env, head, preview, range);
+  if (request.method === "HEAD") return new Response(null, { status: range ? 206 : 200, headers });
+  let object;
+  try {
+    object = await bucket.get(objectKey, range ? { range: { offset: range.offset, length: range.length } } : undefined);
+  } catch {
+    throw new HttpError(503, "Lesson preview is temporarily unavailable");
+  }
+  if (!object?.body) throw new HttpError(503, "Lesson preview is temporarily unavailable");
+  if (ctx?.waitUntil) ctx.waitUntil(Promise.resolve());
+  return new Response(object.body, { status: range ? 206 : 200, headers });
+}
+
+async function adminDeleteLesson(request, env, lessonId, url) {
+  if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  if (String(url.searchParams.get("deleteObject") || "").toLowerCase() !== "true") {
+    throw new HttpError(400, "Permanent storage deletion must be explicitly confirmed");
+  }
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const preparedResult = await serviceRpc(env, "video_class_admin_prepare_delete_lesson", {
+    p_admin_token: token,
+    p_lesson_id: lessonId
+  });
+  const prepared = firstRow(preparedResult);
+  if (!prepared || !UUID_RE.test(String(prepared.lesson_id || ""))) throw new HttpError(404, "Lesson was not found");
+  const deletionJobId = String(prepared.delete_job_id || "");
+  if (!UUID_RE.test(deletionJobId)) throw new HttpError(502, "Lesson deletion state is invalid");
+  const rawKeys = Array.isArray(prepared.object_keys) ? prepared.object_keys : [];
+  const normalizedKeys = rawKeys.map(safeObjectKey);
+  const objectKeys = [...new Set(normalizedKeys.filter(Boolean))];
+  if (normalizedKeys.some(key => !key)) {
+    throw new HttpError(502, "Lesson storage deletion plan is invalid");
+  }
+  try {
+    const bucket = requireVideoBucket(env);
+    await deleteR2ObjectsInBatches(bucket, objectKeys);
+  } catch {
+    throw new HttpError(503, "Lesson files could not be permanently removed from private storage");
+  }
+  const deleted = await serviceRpc(env, "video_class_admin_finish_delete_lesson", {
+    p_admin_token: token,
+    p_delete_job_id: deletionJobId
+  });
+  if (deleted !== true) throw new HttpError(409, "Lesson changed while it was being removed; retry deletion");
+  return new Response(null, { status: 204, headers: responseHeaders(request, env) });
+}
+
 async function adminSetLessonCourses(request, env, lessonId) {
   if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
   const body = await readJson(request, 8192);
@@ -627,8 +905,10 @@ async function adminListOfficialPlaylists(request, env, url) {
   const value = Array.isArray(result) ? (firstRow(result) || {}) : (result || {});
   if (!Array.isArray(value.playlists)) throw new HttpError(502, "Series catalogue could not be loaded");
   const nextCursor = String(value.next_cursor || value.nextCursor || "");
+  const rawOrder = value.order && typeof value.order === "object" ? value.order : value;
   return json(request, env, {
     playlists: value.playlists.map(mapOfficialPlaylist),
+    order: mapOfficialPlaylistOrder(rawOrder),
     cursor: UUID_RE.test(nextCursor) ? nextCursor : null,
     truncated: value.truncated === true && UUID_RE.test(nextCursor)
   }, 200);
@@ -637,7 +917,7 @@ async function adminListOfficialPlaylists(request, env, url) {
 async function adminSaveOfficialPlaylist(request, env) {
   const token = requireBearerToken(request);
   await assertAdminSession(env, token);
-  const body = await readJson(request, 128 * 1024);
+  const body = await readJson(request, 512 * 1024);
   const playlistId = body.id == null || body.id === "" ? null : String(body.id);
   if (playlistId && !UUID_RE.test(playlistId)) throw new HttpError(400, "Invalid series ID");
   const name = normalizeBoundedText(body.name ?? body.title, "Series name", 1, 160, true);
@@ -657,6 +937,31 @@ async function adminSaveOfficialPlaylist(request, env) {
   const playlist = mapOfficialPlaylist(firstRow(result));
   if (!playlist.id) throw new HttpError(409, "Official series could not be saved");
   return json(request, env, { playlist }, playlistId ? 200 : 201);
+}
+
+async function adminSetOfficialPlaylistOrder(request, env) {
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const body = await readJson(request, 512 * 1024);
+  const mode = String(body.mode || "").trim().toLowerCase();
+  if (!["manual", "random"].includes(mode)) throw new HttpError(400, "Series order mode must be manual or random");
+  const playlistIds = normalizeUuidList(body.playlistIds ?? body.playlist_ids ?? [], 5000, "series");
+  const result = await serviceRpc(env, "video_class_admin_set_official_playlist_order", {
+    p_admin_token: token,
+    p_order_mode: mode,
+    p_ordered_playlist_ids: playlistIds
+  });
+  const value = firstRow(result);
+  if (!value) throw new HttpError(409, "Official series order could not be saved");
+  return json(request, env, {
+    order: {
+      mode: String(value.mode || value.order_mode || mode),
+      playlistIds: Array.isArray(value.playlist_ids || value.ordered_ids || value.ordered_playlist_ids)
+        ? (value.playlist_ids || value.ordered_ids || value.ordered_playlist_ids).map(String).filter(id => UUID_RE.test(id))
+        : playlistIds,
+      updatedAt: value.updated_at || null
+    }
+  }, 200);
 }
 
 async function adminCreateAttachment(request, env, lessonId) {
@@ -817,21 +1122,27 @@ async function adminCreateR2Upload(request, env) {
   const adminId = requireAdminId(admin);
   const body = await readJson(request, 8192);
   const uploadKind = String(body.kind || "video").trim().toLowerCase();
-  if (!["video", "attachment"].includes(uploadKind)) throw new HttpError(400, "Invalid upload kind");
-  const lessonId = uploadKind === "attachment" ? String(body.lessonId ?? body.lesson_id ?? "") : "";
-  if (uploadKind === "attachment" && !UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
+  if (!["video", "attachment", "thumbnail"].includes(uploadKind)) throw new HttpError(400, "Invalid upload kind");
+  const lessonId = uploadKind === "video" ? "" : String(body.lessonId ?? body.lesson_id ?? "");
+  if (uploadKind !== "video" && !UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
   const fileName = uploadKind === "attachment"
     ? normalizeAttachmentFileName(body.fileName ?? body.filename ?? body.name)
-    : normalizeUploadFileName(body.fileName ?? body.filename ?? body.name);
+    : (uploadKind === "thumbnail"
+      ? normalizeThumbnailFileName(body.fileName ?? body.filename ?? body.name)
+      : normalizeUploadFileName(body.fileName ?? body.filename ?? body.name));
   const sizeBytes = uploadKind === "attachment"
     ? normalizeAttachmentUploadSize(body.sizeBytes ?? body.size)
-    : normalizeUploadSize(body.sizeBytes ?? body.size);
+    : (uploadKind === "thumbnail"
+      ? normalizeThumbnailUploadSize(body.sizeBytes ?? body.size)
+      : normalizeUploadSize(body.sizeBytes ?? body.size));
   const durationSeconds = uploadKind === "video"
     ? optionalLessonDuration(body.durationSeconds ?? body.duration_seconds)
     : null;
   const contentType = uploadKind === "attachment"
     ? "application/pdf"
-    : videoContentTypeForKey(fileName, body.contentType ?? body.content_type, true);
+    : (uploadKind === "thumbnail"
+      ? imageContentTypeForKey(fileName, body.contentType ?? body.content_type, true)
+      : videoContentTypeForKey(fileName, body.contentType ?? body.content_type, true));
   const partSize = ADMIN_UPLOAD_PART_BYTES;
   const partCount = Math.ceil(sizeBytes / partSize);
   if (partCount < 1 || partCount > ADMIN_UPLOAD_MAX_PARTS) {
@@ -839,7 +1150,9 @@ async function adminCreateR2Upload(request, env) {
   }
   const key = uploadKind === "attachment"
     ? createAdminAttachmentUploadKey(lessonId, fileName)
-    : createAdminUploadKey(fileName);
+    : (uploadKind === "thumbnail"
+      ? createAdminThumbnailUploadKey(lessonId, fileName)
+      : createAdminUploadKey(fileName));
   const bucket = requireVideoBucket(env);
   let multipartUpload;
   try {
@@ -887,6 +1200,7 @@ async function adminCreateR2Upload(request, env) {
       partCount,
       maxParts: ADMIN_UPLOAD_MAX_PARTS,
       durationSeconds,
+      durationSource: durationSeconds == null && uploadKind === "video" ? "server-probe-at-publish" : "client-media-metadata",
       kind: uploadKind,
       lessonId: lessonId || null,
       expiresAt: new Date(expiresAtSeconds * 1000).toISOString()
@@ -981,8 +1295,13 @@ async function adminPublishR2Object(request, env) {
   const objectKey = normalizePrivateObjectKey(body.objectKey ?? body.object_key);
   const title = normalizeBoundedText(body.title, "Lesson title", 1, 160, true);
   const description = normalizeBoundedText(body.description ?? "", "Lesson description", 0, 2000, false);
-  const courseCode = String(body.courseCode ?? body.course_code ?? "").trim().toLowerCase();
-  if (!COURSE_CODE_RE.test(courseCode)) throw new HttpError(400, "Invalid course code");
+  const legacyCourseCode = String(body.courseCode ?? body.course_code ?? "").trim().toLowerCase();
+  const courseCodes = Array.isArray(body.courseCodes ?? body.course_codes)
+    ? normalizeCourseCodes(body.courseCodes ?? body.course_codes)
+    : normalizeCourseCodes([legacyCourseCode]);
+  const courseCode = legacyCourseCode && courseCodes.includes(legacyCourseCode)
+    ? legacyCourseCode
+    : courseCodes[0];
   const courseLabel = normalizeBoundedText(body.courseLabel ?? body.course_label ?? "錄影班", "Course label", 1, 120, true);
   const sortOrder = normalizeBoundedInteger(body.sortOrder ?? body.sort_order ?? 0, "Sort order", -1000000, 1000000);
   const tags = normalizePublishTags(body.tags);
@@ -1001,9 +1320,12 @@ async function adminPublishR2Object(request, env) {
     ...(thumbnailRequest ? [headImageObject(bucket, thumbnailRequest.objectKey)] : [])
   ]);
   const suppliedDuration = body.durationSeconds ?? body.duration_seconds;
-  const metadataDuration = suppliedDuration == null || suppliedDuration === ""
+  let metadataDuration = suppliedDuration == null || suppliedDuration === ""
     ? optionalLessonDuration(source.customMetadata?.durationSeconds)
     : null;
+  if (suppliedDuration == null || suppliedDuration === "") {
+    metadataDuration ||= await detectPrivateVideoDurationSeconds(bucket, objectKey, source);
+  }
   const durationSeconds = requiredLessonDuration(
     suppliedDuration == null || suppliedDuration === "" ? metadataDuration : suppliedDuration
   );
@@ -1034,6 +1356,7 @@ async function adminPublishR2Object(request, env) {
     p_title: title,
     p_description: description,
     p_course_code: courseCode,
+    p_course_codes: courseCodes,
     p_course_label: courseLabel,
     p_duration_seconds: durationSeconds,
     p_sort_order: sortOrder,
@@ -1169,6 +1492,91 @@ async function adminChangeStudentCourseAccess(request, env, studentId, courseCod
   return json(request, env, { courseAccess: mapCourseAccess(row) }, 200);
 }
 
+async function adminListStudentOfficialPlaylistAccess(request, env, studentId) {
+  if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_list_student_series_access", {
+    p_admin_token: token,
+    p_student_id: studentId
+  });
+  const value = Array.isArray(result) ? (firstRow(result) || {}) : (result || {});
+  if (!value || typeof value !== "object" || !Array.isArray(value.courses)) {
+    throw new HttpError(404, "Student was not found");
+  }
+  return json(request, env, {
+    studentId,
+    courses: Array.isArray(value.courses) ? value.courses.map(mapStudentSeriesCourse).filter(course => course.courseCode) : [],
+    playlists: flattenStudentSeriesPlaylists(value.courses),
+    updatedAt: value.updated_at || null
+  }, 200);
+}
+
+async function adminChangeStudentOfficialPlaylistAccess(request, env, studentId, playlistId) {
+  if (!UUID_RE.test(studentId) || !UUID_RE.test(playlistId)) throw new HttpError(400, "Invalid student or series ID");
+  const body = await readJson(request, 4096);
+  const courseCode = String(body.courseCode ?? body.course_code ?? "").trim().toLowerCase();
+  if (!COURSE_CODE_RE.test(courseCode)) throw new HttpError(400, "Invalid course code");
+  if (typeof body.enabled !== "boolean") throw new HttpError(400, "Enabled must be true or false");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_set_student_official_playlist_access", {
+    p_admin_token: token,
+    p_student_id: studentId,
+    p_course_code: courseCode,
+    p_playlist_id: playlistId,
+    p_enabled: body.enabled
+  });
+  const value = firstRow(result);
+  const selectedCourse = Array.isArray(value?.courses)
+    ? value.courses.find(course => String(course?.course_code || course?.courseCode || "") === courseCode)
+    : null;
+  const access = (Array.isArray(selectedCourse?.playlists) ? selectedCourse.playlists : [])
+    .map(mapOfficialPlaylistAccess)
+    .find(playlist => playlist.id === playlistId);
+  if (!access?.id) throw new HttpError(404, "Student or official series was not found");
+  return json(request, env, { studentId, playlist: access }, 200);
+}
+
+async function adminSetStudentOfficialPlaylistAccessBulk(request, env, studentId) {
+  if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
+  const body = await readJson(request, 128 * 1024);
+  const courseCode = String(body.courseCode ?? body.course_code ?? "").trim().toLowerCase();
+  if (!COURSE_CODE_RE.test(courseCode)) throw new HttpError(400, "Invalid course code");
+  const mode = String(body.mode || "").trim().toLowerCase();
+  if (!["all", "none", "manual"].includes(mode)) throw new HttpError(400, "Series access mode must be all, none, or manual");
+  const playlistIds = normalizeUuidList(body.playlistIds ?? body.playlist_ids ?? [], 500, "series");
+  if (mode !== "manual" && playlistIds.length) throw new HttpError(400, "Only manual access accepts a series selection");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = mode === "manual"
+    ? await serviceRpc(env, "video_class_admin_replace_student_official_playlist_access", {
+        p_admin_token: token,
+        p_student_id: studentId,
+        p_course_code: courseCode,
+        p_enabled_playlist_ids: playlistIds
+      })
+    : await serviceRpc(env, "video_class_admin_set_student_series_mode", {
+        p_admin_token: token,
+        p_student_id: studentId,
+        p_course_code: courseCode,
+        p_mode: mode
+      });
+  const value = firstRow(result);
+  if (!value) throw new HttpError(404, "Student or course was not found");
+  const selectedCourse = Array.isArray(value.courses)
+    ? value.courses.find(course => String(course?.course_code || course?.courseCode || "") === courseCode)
+    : null;
+  if (!selectedCourse) throw new HttpError(404, "Student or course was not found");
+  return json(request, env, {
+    studentId,
+    course: mapStudentSeriesCourse(selectedCourse),
+    playlists: Array.isArray(selectedCourse.playlists)
+      ? selectedCourse.playlists.map(mapOfficialPlaylistAccess).filter(playlist => playlist.id)
+      : []
+  }, 200);
+}
+
 async function adminChangeStudentWatermark(request, env, studentId) {
   if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
   const body = await readJson(request, 4096);
@@ -1254,6 +1662,11 @@ async function listLessons(request, env, url) {
   const nextCursorValue = String(library.next_cursor || library.nextCursor || "");
   const nextCursor = normalizeLessonCursor(nextCursorValue);
   if (nextCursorValue && !nextCursor) throw new HttpError(502, "Lesson library cursor is invalid");
+  const rawOfficialOrder = library.official_playlist_order && typeof library.official_playlist_order === "object"
+    ? library.official_playlist_order
+    : (library.officialPlaylistOrder && typeof library.officialPlaylistOrder === "object"
+      ? library.officialPlaylistOrder
+      : library);
   return json(request, env, {
     courses: courseRows.map(mapCourse),
     lessons: lessonRows.map(mapLesson),
@@ -1261,6 +1674,7 @@ async function listLessons(request, env, url) {
     officialPlaylists: (Array.isArray(library.officialPlaylists || library.official_playlists)
       ? (library.officialPlaylists || library.official_playlists)
       : []).map(mapOfficialPlaylist),
+    officialPlaylistOrder: mapOfficialPlaylistOrder(rawOfficialOrder),
     cursor: nextCursor,
     truncated: library.truncated === true && Boolean(nextCursor),
     totalCount: nullablePositiveInteger(library.total_count) || 0,
@@ -1516,13 +1930,14 @@ async function saveLessonNote(request, env, lessonId, remove) {
   }, 200);
 }
 
-async function grantPlayback(request, env, requestUrl) {
+async function grantPlayback(request, env, requestUrl, options = {}) {
   requireSigningKey(env);
   const body = await readJson(request, 4096);
   const studentToken = requireBearerToken(request);
   await assertStudentSession(env, studentToken);
   let lessonSlug = String(body.lessonSlug || body.slug || "").trim();
   const lessonId = String(body.lessonId || "").trim();
+  if (lessonId && !UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson");
   if (!lessonSlug && UUID_RE.test(lessonId)) {
     const lessons = await serviceRpc(env, "video_class_student_list_lessons", {
       p_student_token: studentToken
@@ -1562,6 +1977,10 @@ async function grantPlayback(request, env, requestUrl) {
   if (!UUID_RE.test(playbackId) || !UUID_RE.test(studentId) || !UUID_RE.test(returnedLessonId) || !SLUG_RE.test(slug)) {
     throw new HttpError(502, "Playback could not be prepared");
   }
+  if (lessonId && returnedLessonId !== lessonId) {
+    throw new HttpError(409, "The selected lesson changed; reload the lesson library");
+  }
+  if (slug !== lessonSlug) throw new HttpError(502, "Playback lesson identity is invalid");
 
   const token = await signPlaybackToken({
     v: 1,
@@ -1590,6 +2009,7 @@ async function grantPlayback(request, env, requestUrl) {
   const watermarkEnabled = row.watermark_enabled !== false;
 
   return json(request, env, {
+    refreshed: options.refreshed === true,
     playbackId,
     playbackSessionId: playbackId,
     playbackToken: token,
@@ -1657,11 +2077,13 @@ async function streamVideo(request, env, slug, token, qualityCode, ctx) {
   }
   requireSigningKey(env);
   const claims = await verifyPlaybackToken(token, env.VIDEO_CLASS_SIGNING_KEY);
-  if (!claims || claims.slug !== slug) throw new HttpError(401, "Playback link is invalid or expired");
+  if (!claims || claims.slug !== slug) {
+    throw new HttpError(401, "Playback link is invalid or expired", { code: "PLAYBACK_TOKEN_INVALID" });
+  }
 
   const fingerprint = await requestFingerprint(request, env);
   if (claims.uah !== fingerprint.userAgentHash || claims.neth !== fingerprint.networkHash) {
-    throw new HttpError(401, "Playback link does not match this device or network");
+    throw new HttpError(401, "Playback link does not match this device or network", { code: "PLAYBACK_FINGERPRINT_CHANGED" });
   }
 
   const rows = await serviceRpc(env, "video_class_authorize_rendition", {
@@ -1673,9 +2095,9 @@ async function streamVideo(request, env, slug, token, qualityCode, ctx) {
     p_network_hash: fingerprint.networkHash
   });
   const authorization = firstRow(rows);
-  if (!authorization) throw new HttpError(403, "Playback access has been revoked");
+  if (!authorization) throw new HttpError(403, "Playback access has been revoked", { code: "PLAYBACK_ACCESS_REVOKED" });
   if (String(authorization.lesson_id || "") !== claims.lid) {
-    throw new HttpError(403, "Playback access has been revoked");
+    throw new HttpError(403, "Playback access has been revoked", { code: "PLAYBACK_ACCESS_REVOKED" });
   }
   if (!env.VIDEO_CLASSES) throw new HttpError(503, "Video storage is not configured");
 
@@ -1851,6 +2273,36 @@ async function verifyPlaybackToken(value, secret) {
     if (payload.iat > now + 60 || payload.exp <= now || payload.exp - payload.iat > PLAYBACK_TOKEN_TTL_SECONDS + 60) return null;
     return payload;
   } catch (error) {
+    return null;
+  }
+}
+
+async function signAdminPreviewToken(payload, secret) {
+  const encodedPayload = base64UrlEncode(encoder.encode(JSON.stringify(payload)));
+  const signingInput = `ap1.${encodedPayload}`;
+  const key = await hmacKey(secret, ["sign"]);
+  const signature = await crypto.subtle.sign("HMAC", key, encoder.encode(signingInput));
+  return `${signingInput}.${base64UrlEncode(new Uint8Array(signature))}`;
+}
+
+async function verifyAdminPreviewToken(value, secret) {
+  const parts = String(value || "").split(".");
+  if (parts.length !== 3 || parts[0] !== "ap1") return null;
+  try {
+    const signingInput = `${parts[0]}.${parts[1]}`;
+    const key = await hmacKey(secret, ["verify"]);
+    const valid = await crypto.subtle.verify("HMAC", key, base64UrlDecode(parts[2]), encoder.encode(signingInput));
+    if (!valid) return null;
+    const payload = JSON.parse(decoder.decode(base64UrlDecode(parts[1])));
+    const now = Math.floor(Date.now() / 1000);
+    if (payload?.v !== 1 || payload?.aud !== "admin-video-preview") return null;
+    if (!UUID_RE.test(String(payload.sub || "")) || !UUID_RE.test(String(payload.pid || ""))
+      || !UUID_RE.test(String(payload.lid || "")) || typeof payload.uah !== "string") return null;
+    if (!Number.isInteger(payload.iat) || !Number.isInteger(payload.exp)
+      || payload.iat > now + 60 || payload.exp <= now
+      || payload.exp - payload.iat > ADMIN_PREVIEW_TOKEN_TTL_SECONDS + 60) return null;
+    return payload;
+  } catch {
     return null;
   }
 }
@@ -2109,6 +2561,7 @@ function mapRosterStudent(row) {
     enabled: row.access_enabled === true || row.enabled === true,
     watermarkEnabled: row.watermark_enabled !== false,
     courseCodes,
+    seriesAccess: normalizeStudentSeriesAccess(row.series_access ?? row.seriesAccess),
     keyCreatedAt: row.key_created_at || null,
     keyUpdatedAt: row.key_updated_at || row.updated_at || null,
     lastVideoLoginAt: row.last_video_login_at || null,
@@ -2138,10 +2591,17 @@ function mapCourseAccess(row) {
 
 function requireVideoBucket(env) {
   const bucket = env.VIDEO_CLASSES || env.VIDEO_BUCKET;
-  if (!bucket?.list || !bucket?.head || !bucket?.createMultipartUpload || !bucket?.resumeMultipartUpload) {
+  if (!bucket?.list || !bucket?.head || !bucket?.get || !bucket?.delete
+    || !bucket?.createMultipartUpload || !bucket?.resumeMultipartUpload) {
     throw new HttpError(503, "Private video storage is not configured");
   }
   return bucket;
+}
+
+async function deleteR2ObjectsInBatches(bucket, objectKeys) {
+  for (let offset = 0; offset < objectKeys.length; offset += 1000) {
+    await bucket.delete(objectKeys.slice(offset, offset + 1000));
+  }
 }
 
 function normalizeR2ListPrefix(value) {
@@ -2181,6 +2641,10 @@ function objectKeyExtension(value) {
 
 function isVideoObjectKey(value) {
   return Object.prototype.hasOwnProperty.call(VIDEO_UPLOAD_TYPES, objectKeyExtension(value));
+}
+
+function isImageObjectKey(value) {
+  return Object.prototype.hasOwnProperty.call(IMAGE_UPLOAD_TYPES, objectKeyExtension(value));
 }
 
 function normalizeR2HttpMetadata(value) {
@@ -2270,6 +2734,15 @@ function normalizeAttachmentFileName(value) {
   return fileName;
 }
 
+function normalizeThumbnailFileName(value) {
+  if (typeof value !== "string") throw new HttpError(400, "Thumbnail file name is required");
+  const fileName = value.normalize("NFKC").trim();
+  if (!fileName || fileName.length > 180 || /[\\/\u0000-\u001f\u007f]/.test(fileName) || !isImageObjectKey(fileName)) {
+    throw new HttpError(415, "Thumbnail must be JPEG, PNG, GIF, WebP, or AVIF");
+  }
+  return fileName;
+}
+
 function normalizeUploadSize(value) {
   const size = Number(value);
   if (!Number.isSafeInteger(size) || size < 1 || size > ADMIN_UPLOAD_MAX_BYTES) {
@@ -2282,6 +2755,14 @@ function normalizeAttachmentUploadSize(value) {
   const size = Number(value);
   if (!Number.isSafeInteger(size) || size < 1 || size > ADMIN_ATTACHMENT_MAX_BYTES) {
     throw new HttpError(400, "PDF size is invalid or exceeds 1 GiB");
+  }
+  return size;
+}
+
+function normalizeThumbnailUploadSize(value) {
+  const size = Number(value);
+  if (!Number.isSafeInteger(size) || size < 1 || size > ADMIN_THUMBNAIL_MAX_BYTES) {
+    throw new HttpError(400, "Thumbnail size is invalid or exceeds 10 MiB");
   }
   return size;
 }
@@ -2317,6 +2798,19 @@ function videoContentTypeForKey(key, declaredValue, strict) {
   return declared;
 }
 
+function imageContentTypeForKey(key, declaredValue, strict) {
+  const extension = objectKeyExtension(key);
+  const expected = IMAGE_UPLOAD_TYPES[extension];
+  if (!expected) throw new HttpError(415, "Thumbnail must be JPEG, PNG, GIF, WebP, or AVIF");
+  const declared = String(declaredValue || "").split(";", 1)[0].trim().toLowerCase();
+  if (!declared || declared === "application/octet-stream") return expected;
+  if (declared !== expected) {
+    if (!strict && /^image\/[a-z0-9][a-z0-9.+-]*$/.test(declared)) return declared;
+    throw new HttpError(415, "Thumbnail content type does not match its file extension");
+  }
+  return declared;
+}
+
 function createAdminUploadKey(fileName) {
   const extension = objectKeyExtension(fileName);
   const stem = fileName.slice(0, -extension.length).normalize("NFKD")
@@ -2342,6 +2836,19 @@ function createAdminAttachmentUploadKey(lessonId, fileName) {
   return `${ADMIN_ATTACHMENT_PREFIX}${lessonId}/${Date.now().toString(36)}-${random}-${stem}.pdf`;
 }
 
+function createAdminThumbnailUploadKey(lessonId, fileName) {
+  const extension = objectKeyExtension(fileName);
+  const stem = fileName.slice(0, -extension.length).normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^A-Za-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase()
+    .slice(0, 80) || "thumbnail";
+  const randomBytes = crypto.getRandomValues(new Uint8Array(12));
+  const random = [...randomBytes].map(byte => byte.toString(16).padStart(2, "0")).join("");
+  return `${ADMIN_THUMBNAIL_PREFIX}${lessonId}/${Date.now().toString(36)}-${random}-${stem}${extension}`;
+}
+
 async function signAdminUploadToken(payload, secret) {
   const encodedPayload = base64UrlEncode(encoder.encode(JSON.stringify(payload)));
   const signingInput = `u1.${encodedPayload}`;
@@ -2363,20 +2870,27 @@ async function verifyAdminUploadToken(value, secret) {
     if (payload?.v !== 1 || payload?.aud !== "admin-r2-upload" || !UUID_RE.test(String(payload.sub || ""))) return null;
     if (!ADMIN_UPLOAD_ID_RE.test(String(payload.uid || ""))) return null;
     const objectKey = normalizePrivateObjectKey(payload.key);
-    const kind = payload.kind === "attachment" ? "attachment" : "video";
-    const lessonId = kind === "attachment" ? String(payload.lessonId || "") : "";
+    const kind = ["attachment", "thumbnail"].includes(payload.kind) ? payload.kind : "video";
+    const lessonId = kind === "video" ? "" : String(payload.lessonId || "");
     if (kind === "attachment") {
       if (!UUID_RE.test(lessonId) || !objectKey.startsWith(`${ADMIN_ATTACHMENT_PREFIX}${lessonId}/`)
         || objectKeyExtension(objectKey) !== ".pdf") return null;
+    } else if (kind === "thumbnail") {
+      if (!UUID_RE.test(lessonId) || !objectKey.startsWith(`${ADMIN_THUMBNAIL_PREFIX}${lessonId}/`)
+        || !isImageObjectKey(objectKey)) return null;
     } else if (!objectKey.startsWith(ADMIN_UPLOAD_PREFIX) || !isVideoObjectKey(objectKey)) return null;
-    const maximumBytes = kind === "attachment" ? ADMIN_ATTACHMENT_MAX_BYTES : ADMIN_UPLOAD_MAX_BYTES;
+    const maximumBytes = kind === "attachment"
+      ? ADMIN_ATTACHMENT_MAX_BYTES
+      : (kind === "thumbnail" ? ADMIN_THUMBNAIL_MAX_BYTES : ADMIN_UPLOAD_MAX_BYTES);
     if (!Number.isSafeInteger(payload.size) || payload.size < 1 || payload.size > maximumBytes) return null;
     if (payload.partSize !== ADMIN_UPLOAD_PART_BYTES) return null;
     if (!Number.isInteger(payload.partCount) || payload.partCount !== Math.ceil(payload.size / payload.partSize)
       || payload.partCount < 1 || payload.partCount > ADMIN_UPLOAD_MAX_PARTS) return null;
     const contentType = kind === "attachment"
       ? (String(payload.contentType || "").toLowerCase() === "application/pdf" ? "application/pdf" : "")
-      : videoContentTypeForKey(objectKey, payload.contentType, true);
+      : (kind === "thumbnail"
+        ? imageContentTypeForKey(objectKey, payload.contentType, true)
+        : videoContentTypeForKey(objectKey, payload.contentType, true));
     if (!contentType) return null;
     if (!Number.isInteger(payload.iat) || !Number.isInteger(payload.exp)
       || payload.iat > now + 60 || payload.exp <= now
@@ -2530,12 +3044,82 @@ async function headImageObject(bucket, key) {
   const metadata = await headPrivateR2Object(bucket, key);
   const extension = objectKeyExtension(key);
   const expected = IMAGE_UPLOAD_TYPES[extension];
-  if (!expected) throw new HttpError(415, "Thumbnail must be JPEG, PNG, WebP, or AVIF");
+  if (!expected) throw new HttpError(415, "Thumbnail must be JPEG, PNG, GIF, WebP, or AVIF");
   const declared = String(metadata.object.httpMetadata?.contentType || "").split(";", 1)[0].trim().toLowerCase();
   if (declared && declared !== "application/octet-stream" && declared !== expected) {
     throw new HttpError(415, "Thumbnail content type does not match its file extension");
   }
   return { ...metadata, contentType: declared && declared !== "application/octet-stream" ? declared : expected };
+}
+
+async function detectPrivateVideoDurationSeconds(bucket, key, metadata) {
+  const extension = objectKeyExtension(key);
+  if (![".mp4", ".mov", ".m4v"].includes(extension)) return null;
+  const size = Number(metadata?.size);
+  if (!Number.isSafeInteger(size) || size < 24) return null;
+  const firstLength = Math.min(size, VIDEO_DURATION_PROBE_BYTES);
+  let firstBytes;
+  try {
+    const object = await bucket.get(key, { range: { offset: 0, length: firstLength } });
+    if (!object?.body) return null;
+    firstBytes = new Uint8Array(await new Response(object.body).arrayBuffer());
+  } catch {
+    return null;
+  }
+  const firstDuration = findIsoMediaDurationSeconds(firstBytes);
+  if (firstDuration != null || firstLength === size) return firstDuration;
+  const tailLength = Math.min(size - firstLength, VIDEO_DURATION_PROBE_BYTES);
+  if (tailLength <= 0) return null;
+  try {
+    const object = await bucket.get(key, { range: { offset: size - tailLength, length: tailLength } });
+    if (!object?.body) return null;
+    const tailBytes = new Uint8Array(await new Response(object.body).arrayBuffer());
+    return findIsoMediaDurationSeconds(tailBytes);
+  } catch {
+    return null;
+  }
+}
+
+function findIsoMediaDurationSeconds(bytes) {
+  if (!(bytes instanceof Uint8Array) || bytes.byteLength < 28) return null;
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  for (let typeOffset = 4; typeOffset + 24 <= bytes.byteLength; typeOffset += 1) {
+    if (bytes[typeOffset] !== 0x6d || bytes[typeOffset + 1] !== 0x76
+      || bytes[typeOffset + 2] !== 0x68 || bytes[typeOffset + 3] !== 0x64) continue;
+    const boxOffset = typeOffset - 4;
+    const boxSize32 = view.getUint32(boxOffset);
+    let contentOffset = typeOffset + 4;
+    let boxSize = boxSize32;
+    if (boxSize32 === 1) {
+      if (typeOffset + 12 > bytes.byteLength) continue;
+      const extended = view.getBigUint64(typeOffset + 4);
+      if (extended > BigInt(Number.MAX_SAFE_INTEGER)) continue;
+      boxSize = Number(extended);
+      contentOffset = typeOffset + 12;
+    }
+    if (boxSize < contentOffset - boxOffset + 20 || boxOffset + boxSize > bytes.byteLength) continue;
+    const version = view.getUint8(contentOffset);
+    let timescale;
+    let duration;
+    if (version === 0) {
+      if (contentOffset + 20 > bytes.byteLength) continue;
+      timescale = view.getUint32(contentOffset + 12);
+      duration = view.getUint32(contentOffset + 16);
+      if (duration === 0xffffffff) continue;
+    } else if (version === 1) {
+      if (contentOffset + 32 > bytes.byteLength) continue;
+      timescale = view.getUint32(contentOffset + 20);
+      const durationBig = view.getBigUint64(contentOffset + 24);
+      if (durationBig === 0xffffffffffffffffn || durationBig > BigInt(Number.MAX_SAFE_INTEGER)) continue;
+      duration = Number(durationBig);
+    } else {
+      continue;
+    }
+    if (!Number.isSafeInteger(timescale) || timescale <= 0 || !Number.isSafeInteger(duration) || duration <= 0) continue;
+    const seconds = Math.ceil(duration / timescale);
+    if (seconds >= 1 && seconds <= 86400) return seconds;
+  }
+  return null;
 }
 
 function normalizeLessonSlug(value) {
@@ -2611,6 +3195,13 @@ function mapAdminLesson(row) {
   const officialPlaylistIds = Array.isArray(value.official_playlist_ids || value.officialPlaylistIds)
     ? (value.official_playlist_ids || value.officialPlaylistIds).map(String).filter(id => UUID_RE.test(id))
     : [];
+  const thumbnail = value.thumbnail && typeof value.thumbnail === "object" ? value.thumbnail : {};
+  const thumbnailContentType = safeImageContentType(
+    thumbnail.content_type ?? thumbnail.contentType ?? value.thumbnail_content_type ?? value.thumbnailContentType
+  ) || null;
+  const thumbnailByteLength = nullablePositiveInteger(
+    thumbnail.byte_length ?? thumbnail.byteLength ?? value.thumbnail_byte_length ?? value.thumbnailByteLength
+  );
   return {
     id: UUID_RE.test(String(value.lesson_id || value.id || "")) ? String(value.lesson_id || value.id) : null,
     slug: String(value.slug || ""),
@@ -2630,6 +3221,15 @@ function mapAdminLesson(row) {
       ? Number(value.sort_order ?? value.sortOrder)
       : 0,
     hasThumbnail: value.has_thumbnail === true || value.hasThumbnail === true,
+    thumbnail: thumbnailContentType ? {
+      contentType: thumbnailContentType,
+      byteLength: thumbnailByteLength,
+      enabled: thumbnail.enabled !== false,
+      updatedAt: thumbnail.updated_at || thumbnail.updatedAt || null
+    } : null,
+    thumbnailContentType,
+    thumbnailByteLength,
+    deletionPending: value.deletion_pending === true || value.deletionPending === true,
     tags,
     tagLabels: tags.map(tag => tag.label),
     renditions,
@@ -2638,6 +3238,29 @@ function mapAdminLesson(row) {
     attachments,
     officialPlaylistIds,
     createdAt: value.created_at || value.createdAt || null,
+    updatedAt: value.updated_at || value.updatedAt || null
+  };
+}
+
+function mapEditedAdminLesson(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const id = String(value.lesson_id || value.id || "");
+  const courseCodes = Array.isArray(value.course_codes || value.courseCodes)
+    ? (value.course_codes || value.courseCodes).map(String).filter(code => COURSE_CODE_RE.test(code))
+    : [];
+  const tags = Array.isArray(value.tags) ? value.tags.map(mapTag).filter(tag => tag.label) : [];
+  const durationSeconds = nullablePositiveNumber(value.duration_seconds ?? value.durationSeconds);
+  return {
+    id: UUID_RE.test(id) ? id : null,
+    slug: String(value.slug || ""),
+    title: String(value.title || ""),
+    description: String(value.description || ""),
+    courseCode: String(value.course_code || value.courseCode || courseCodes[0] || ""),
+    courseCodes,
+    durationSeconds,
+    duration: durationSeconds,
+    tags,
+    tagLabels: tags.map(tag => tag.label),
     updatedAt: value.updated_at || value.updatedAt || null
   };
 }
@@ -2829,9 +3452,89 @@ function mapOfficialPlaylist(row) {
     lessonCount: Number.isSafeInteger(Number(value.lesson_count ?? value.lessonCount))
       ? Math.max(0, Number(value.lesson_count ?? value.lessonCount))
       : lessonIds.length,
+    sortOrder: Number.isFinite(Number(value.sort_order ?? value.sortOrder))
+      ? Number(value.sort_order ?? value.sortOrder)
+      : 0,
     published: value.published !== false,
     updatedAt: value.updated_at || value.updatedAt || null
   };
+}
+
+function mapOfficialPlaylistOrder(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const mode = String(value.mode || value.order_mode || value.official_playlist_order_mode || value.officialPlaylistOrderMode || "manual");
+  const rawIds = value.playlist_ids || value.playlistIds
+    || value.ordered_ids || value.orderedIds
+    || value.ordered_playlist_ids || value.orderedPlaylistIds
+    || value.official_playlist_order_ids || value.officialPlaylistOrderIds
+    || [];
+  return {
+    mode: ["manual", "random"].includes(mode) ? mode : "manual",
+    playlistIds: Array.isArray(rawIds) ? rawIds.map(String).filter(id => UUID_RE.test(id)) : [],
+    updatedAt: value.updated_at || value.updatedAt || value.order_updated_at || value.orderUpdatedAt || null
+  };
+}
+
+function mapOfficialPlaylistAccess(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const playlist = mapOfficialPlaylist(value);
+  return {
+    ...playlist,
+    enabled: value.enabled === true || value.has_access === true || value.hasAccess === true,
+    available: value.available !== false,
+    inherited: value.inherited === true,
+    accessMode: ["all", "none", "manual"].includes(String(value.access_mode || value.accessMode || ""))
+      ? String(value.access_mode || value.accessMode)
+      : "manual"
+  };
+}
+
+function mapStudentSeriesCourse(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const courseCode = String(value.course_code || value.courseCode || "");
+  const mode = String(value.mode || value.access_mode || value.accessMode || "manual");
+  const playlistIds = Array.isArray(value.playlist_ids || value.playlistIds)
+    ? (value.playlist_ids || value.playlistIds).map(String).filter(id => UUID_RE.test(id))
+    : [];
+  const playlists = Array.isArray(value.playlists)
+    ? value.playlists.map(mapOfficialPlaylistAccess).filter(playlist => playlist.id)
+    : [];
+  return {
+    courseCode: COURSE_CODE_RE.test(courseCode) ? courseCode : "",
+    courseTitle: String(value.course_title || value.courseTitle || "").slice(0, 160),
+    courseEnabled: value.course_enabled !== false && value.courseEnabled !== false,
+    mode: ["all", "none", "manual"].includes(mode) ? mode : "manual",
+    playlistIds: playlistIds.length ? playlistIds : playlists.filter(playlist => playlist.enabled).map(playlist => playlist.id),
+    playlists,
+    availableCount: finiteNonNegative(value.available_count ?? value.availableCount, playlists.length),
+    enabledCount: finiteNonNegative(value.enabled_count ?? value.enabledCount, playlists.filter(playlist => playlist.enabled).length),
+    updatedAt: value.updated_at || value.updatedAt || null
+  };
+}
+
+function flattenStudentSeriesPlaylists(courses) {
+  if (!Array.isArray(courses)) return [];
+  const byId = new Map();
+  for (const course of courses) {
+    for (const playlist of Array.isArray(course?.playlists) ? course.playlists : []) {
+      const mapped = mapOfficialPlaylistAccess(playlist);
+      if (!mapped.id) continue;
+      const existing = byId.get(mapped.id);
+      byId.set(mapped.id, existing ? { ...existing, enabled: existing.enabled || mapped.enabled } : mapped);
+    }
+  }
+  return [...byId.values()];
+}
+
+function normalizeStudentSeriesAccess(value) {
+  if (!value || typeof value !== "object") return { courses: [], playlists: [] };
+  const courses = Array.isArray(value.courses)
+    ? value.courses.map(mapStudentSeriesCourse).filter(course => course.courseCode)
+    : [];
+  const playlists = Array.isArray(value.playlists)
+    ? value.playlists.map(mapOfficialPlaylistAccess).filter(playlist => playlist.id)
+    : flattenStudentSeriesPlaylists(value.courses);
+  return { courses, playlists };
 }
 
 function mapTag(row) {
@@ -2947,7 +3650,7 @@ function safeObjectKey(value) {
 
 function safeImageContentType(value) {
   const contentType = String(value || "").toLowerCase();
-  return ["image/jpeg", "image/png", "image/webp", "image/avif"].includes(contentType) ? contentType : "";
+  return ["image/jpeg", "image/png", "image/gif", "image/webp", "image/avif"].includes(contentType) ? contentType : "";
 }
 
 function safeVideoContentType(value) {
@@ -3032,7 +3735,10 @@ function contentDispositionAttachment(fileName) {
 
 export const __test = Object.freeze({
   coarseNetwork,
+  deleteR2ObjectsInBatches,
   expandIpv6,
+  findIsoMediaDurationSeconds,
+  mapOfficialPlaylistOrder,
   parseByteRange,
   safeVideoContentType,
   safeImageContentType

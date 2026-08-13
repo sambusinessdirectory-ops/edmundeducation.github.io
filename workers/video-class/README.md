@@ -33,11 +33,14 @@ select and publish an existing object; it never returns a public R2 URL.
   the database, but the Worker returns HTTP `403` before creating playback and
   the database independently enforces the same restriction.
 - Browser uploads use authenticated R2 multipart operations under
-  `admin-uploads/videos/`. The Worker chooses an exact 10 MiB part size, signs
+  `admin-uploads/videos/`, `admin-uploads/lesson-files/`, and
+  `admin-uploads/lesson-thumbnails/`. The Worker chooses an exact 10 MiB part size, signs
   the upload ID/key/size/part count, checks the live admin session on every
   create, part, complete, and abort request, and streams each part without
-  buffering it. Incomplete uploads expire automatically in R2; this API never
-  deletes completed R2 objects.
+  buffering it. Incomplete uploads expire automatically in R2. Permanent lesson
+  deletion uses a persisted, retry-safe database job: the lesson is made
+  unavailable, the Worker deletes its deduplicated source, rendition,
+  thumbnail, and attachment keys, and only then cascades metadata.
 - Student and administrator logins have independent Cloudflare rate-limit
   bindings: 10 student requests and 5 administrator requests per public IP per
   minute. These limits count successful and unsuccessful requests.
@@ -127,18 +130,32 @@ All routes except health and preflight require the exact
 | `GET` | `/v1/admin/students` | Roster with UUID, key, enabled courses, watermark state, and timestamps |
 | `GET` | `/v1/admin/courses` | The complete nine-course administration catalogue |
 | `GET` | `/v1/admin/lessons` | Safe lesson inventory with course, duration, privacy, publication, tags, and rendition metadata; never R2 keys |
+| `PATCH` | `/v1/admin/lessons/:lessonId` | Replace editable metadata; `{ "title", "description", "courseCodes", "tags", "durationSeconds" }` |
+| `DELETE` | `/v1/admin/lessons/:lessonId?deleteObject=true` | Permanently delete all lesson R2 objects and cascade its metadata |
+| `GET` | `/v1/admin/lessons/:lessonId/thumbnail` | Authenticated administrator thumbnail preview; never returns its R2 key |
+| `PUT`, `DELETE` | `/v1/admin/lessons/:lessonId/thumbnail` | Assign `{ "objectKey" }` from the lesson thumbnail-upload prefix, or remove it |
+| `POST` | `/v1/admin/lessons/:lessonId/preview-grant` | Mint a 10-minute, opaque, UA-bound administrator preview URL |
+| `GET`, `HEAD` | `/v1/admin/lessons/:lessonId/preview?token=...` | Range-capable private source preview used to render a default first frame |
 | `PATCH` | `/v1/admin/lessons/:lessonId/privacy` | Mark or unmark a lesson as private; `{ "private": true }` |
+| `PUT` | `/v1/admin/lessons/:lessonId/courses` | Replace the lesson's multi-course assignment; `{ "courseCodes": [...] }` |
+| `POST` | `/v1/admin/lessons/:lessonId/attachments` | Attach a validated private PDF object to a lesson |
+| `PATCH` | `/v1/admin/attachments/:attachmentId/privacy` | Hide or publish one attached PDF |
+| `DELETE` | `/v1/admin/attachments/:attachmentId` | Permanently remove one attached PDF from R2 and metadata |
 | `GET` | `/v1/admin/r2/objects` | Admin-only private-R2 video inventory; supports `prefix`, `q`, `cursor`, and `limit` (1–100) |
 | `POST` | `/v1/admin/r2/uploads` | Initialize a private multipart upload; `{ "fileName", "sizeBytes", "contentType"?, "durationSeconds"? }` |
 | `PUT` | `/v1/admin/r2/uploads/:uploadId/parts/:partNumber` | Stream one exact-size binary part with bearer auth and `X-Video-Upload-Token` |
 | `POST` | `/v1/admin/r2/uploads/:uploadId/complete` | Complete with `{ "uploadToken"?, "parts": [{ "partNumber", "etag" }] }` (token header also accepted) |
 | `DELETE` | `/v1/admin/r2/uploads/:uploadId` | Abort an incomplete upload using bearer auth and `X-Video-Upload-Token` |
 | `POST` | `/v1/admin/r2/publish` | HEAD-validate selected private objects and publish safe lesson metadata through Supabase |
+| `POST` | `/v1/admin/r2/objects/download` | Stream one authenticated private video download for backup |
 | `GET` | `/v1/admin/feedback` | Per-student lesson ratings for the administrator |
+| `PATCH` | `/v1/admin/official-playlists/order` | Set `{ "mode": "manual"|"random", "playlistIds": [...] }` |
 | `POST` | `/v1/admin/students/:id/key` | Issue/retain a key; `{ "rotate": false }`, or rotate with `true` |
 | `DELETE` | `/v1/admin/students/:id/key` | Clear the key and entitlement |
 | `PATCH` | `/v1/admin/students/:id/access` | Enable/disable an issued key; `{ "enabled": true }` |
 | `PATCH` | `/v1/admin/students/:id/courses/:code` | Independently grant/revoke one course; `{ "enabled": true }` |
+| `GET`, `PUT` | `/v1/admin/students/:id/official-playlists` | Read series access, or set one course to `all`, `none`, or `manual` |
+| `PATCH` | `/v1/admin/students/:id/official-playlists/:playlistId` | Toggle one official series for one course; `{ "courseCode", "enabled": true }` |
 | `PATCH` | `/v1/admin/students/:id/watermark` | Toggle that student's playback watermark; `{ "enabled": true }` |
 | `GET` | `/v1/courses` | Assigned courses, including courses that currently have no lessons |
 | `GET` | `/v1/lessons` | Entitled library with progress, thumbnails, tags, playlists, clips, ratings, and renditions |
@@ -153,6 +170,7 @@ All routes except health and preflight require the exact
 | `DELETE` | `/v1/clips/:id` | Delete the owning student's clip |
 | `PUT` | `/v1/lessons/:id/feedback` | Replace the current 1–5 lesson ratings; omitted categories are `null` |
 | `POST` | `/v1/playback/grant` | Create playback from `{ "lessonId" }` or `{ "lessonSlug" }` |
+| `POST` | `/v1/playback/refresh` | Re-authorize the same grant request after a media 401/403 and return replacement sources |
 | `POST` | `/v1/playback/heartbeat` | Save position using playback ID, position, duration, and event |
 | `GET`, `HEAD` | `/v1/video/:slug?token=...&quality=720p` | Authorized rendition, including single byte ranges |
 
@@ -160,8 +178,12 @@ The grant response exposes `playbackToken`, `playbackSessionId`, `videoUrl`,
 safe rendition labels/URLs, `defaultQuality`, `expiresAt`, `resumeAt`, and
 watermark data. It deliberately omits every R2 key.
 
-The upload initializer accepts only MP4, MOV, M4V, or WebM names, a byte length
-up to 50 GiB, and an optional duration from 1 to 86,400 seconds. It returns
+The upload initializer accepts `kind: "video"`, `"attachment"`, or
+`"thumbnail"`. Videos are MP4, MOV, M4V, or WebM up to 50 GiB. Thumbnails are
+JPEG, PNG, GIF, WebP, or AVIF up to 10 MiB and require a `lessonId`. A video
+duration from 1 to 86,400 seconds can be supplied from browser media metadata.
+When absent at publish time, the Worker probes the first and tail MP4/MOV/M4V
+movie headers; WebM still requires browser metadata. It returns
 `{ upload: { uploadId, key, uploadToken, partSize, partCount, maxParts,
 durationSeconds, expiresAt } }`; it never returns a public URL. The browser must
 upload exactly `partSize` bytes for every non-final part and the exact remaining
@@ -174,7 +196,7 @@ Publishing accepts:
   "objectKey": "private/source.mp4",
   "title": "Lesson title",
   "description": "",
-  "courseCode": "dse",
+  "courseCodes": ["dse", "ielts"],
   "durationSeconds": 1800,
   "tags": ["Grammar"],
   "slug": "optional-slug",
@@ -189,8 +211,11 @@ Publishing accepts:
 
 `description`, `tags`, `slug`, `courseLabel`, `sortOrder`, `renditions`, and
 `thumbnail` are optional. A missing slug is derived deterministically, and a
-missing duration may use upload custom metadata. The Worker derives every byte
+missing duration uses upload custom metadata or MP4-family header probing. The Worker derives every byte
 length and content type from R2 HEAD metadata rather than trusting the browser.
+`courseCodes` accepts one or more course codes; the first code is retained as
+the lesson's primary compatibility course while the complete array controls
+multi-course visibility.
 
 Adaptive login errors use a structured `error` object. `challengeRequired`
 tells the browser to reveal Turnstile; `retryAfterSeconds` drives the cooldown
@@ -255,6 +280,39 @@ video_class_admin_set_lesson_private(
   p_lesson_id uuid, p_is_private boolean
 )
 
+video_class_admin_update_lesson(
+  p_service_secret text, p_admin_token uuid, p_lesson_id uuid,
+  p_title text, p_description text, p_course_codes text[],
+  p_tags jsonb, p_duration_seconds integer
+)
+
+video_class_admin_authorize_thumbnail(
+  p_service_secret text, p_admin_token uuid, p_lesson_id uuid
+)
+
+video_class_admin_set_thumbnail(
+  p_service_secret text, p_admin_token uuid, p_lesson_id uuid,
+  p_object_key text, p_content_type text, p_byte_length bigint
+)
+
+video_class_admin_prepare_delete_lesson(
+  p_service_secret text, p_admin_token uuid, p_lesson_id uuid
+)
+
+video_class_admin_finish_delete_lesson(
+  p_service_secret text, p_admin_token uuid, p_delete_job_id uuid
+)
+
+video_class_admin_create_preview(
+  p_service_secret text, p_admin_token uuid, p_lesson_id uuid,
+  p_user_agent_hash text
+)
+
+video_class_admin_authorize_preview(
+  p_service_secret text, p_preview_id uuid, p_admin_id uuid,
+  p_lesson_id uuid, p_user_agent_hash text
+)
+
 video_class_admin_match_r2_objects(
   p_service_secret text, p_admin_token uuid,
   p_object_keys text[]
@@ -265,7 +323,8 @@ video_class_admin_publish_r2_object(
   p_object_key text, p_slug text, p_title text, p_description text,
   p_course_code text, p_course_label text, p_duration_seconds integer,
   p_sort_order integer, p_content_type text, p_byte_length bigint,
-  p_tags jsonb, p_renditions jsonb, p_thumbnail jsonb
+  p_tags jsonb, p_renditions jsonb, p_thumbnail jsonb,
+  p_course_codes text[]
 )
 
 video_class_admin_issue_key(
@@ -286,6 +345,12 @@ video_class_admin_set_course_access(
   p_service_secret text, p_admin_token uuid,
   p_student_id uuid, p_course_code text, p_enabled boolean
 )
+
+video_class_admin_list_student_series_access(p_service_secret text, p_admin_token uuid, p_student_id uuid)
+video_class_admin_set_student_series_mode(p_service_secret text, p_admin_token uuid, p_student_id uuid, p_course_code text, p_mode text)
+video_class_admin_set_student_official_playlist_access(p_service_secret text, p_admin_token uuid, p_student_id uuid, p_course_code text, p_playlist_id uuid, p_enabled boolean)
+video_class_admin_replace_student_official_playlist_access(p_service_secret text, p_admin_token uuid, p_student_id uuid, p_course_code text, p_enabled_ids uuid[])
+video_class_admin_set_official_playlist_order(p_service_secret text, p_admin_token uuid, p_mode text, p_ordered_ids uuid[])
 
 video_class_admin_set_watermark(
   p_service_secret text, p_admin_token uuid,

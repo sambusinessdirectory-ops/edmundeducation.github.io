@@ -22,7 +22,7 @@
   <style>.frame-guard body{display:none!important}</style>
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="video-class.css?v=20260811-8">
+  <link rel="stylesheet" href="video-class.css?v=20260813-1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260810-3">
   <script defer src="/pwa-register.js"></script>
 </head>
@@ -407,6 +407,7 @@
                     <option value="max" selected>Max（最高畫質）</option>
                   </select>
                 </label>
+                <button type="button" data-theatre-mode aria-label="切換劇院模式" aria-pressed="false"><span aria-hidden="true">▭</span><span class="control-label">劇院</span></button>
                 <button type="button" data-fullscreen aria-label="全螢幕播放"><span aria-hidden="true">⛶</span></button>
               </div>
             </div>
@@ -649,14 +650,15 @@
 
       <section class="entitlements-panel" data-admin-panel="entitlements" hidden>
         <div class="entitlements-panel__heading">
-          <div><p class="section-kicker">COURSE ENTITLEMENTS</p><h2>每位學生課程權限</h2><p>選擇學生後，設定可觀看的課程及水印例外。</p></div>
+          <div><p class="section-kicker">COURSE &amp; SERIES ENTITLEMENTS</p><h2>每位學生課程權限</h2><p>展開學生姓名，設定可觀看課程、當下可用的官方系列及水印例外。</p></div>
         </div>
-        <label class="entitlement-student-picker">
+        <label class="entitlement-student-picker" hidden>
           <span>選擇學生</span>
           <select data-entitlement-student><option value="">請選擇學生</option></select>
         </label>
-        <div class="inline-state" data-entitlements-state role="status" aria-live="polite"><p>請先選擇一位學生。</p></div>
-        <form class="entitlements-form" data-entitlements-form hidden>
+        <div class="inline-state" data-entitlements-state role="status" aria-live="polite"><p>正在載入學生課程權限⋯</p></div>
+        <div class="entitlement-student-list" data-entitlement-student-list hidden></div>
+        <form class="entitlements-form" data-entitlements-form hidden aria-hidden="true">
           <fieldset>
             <legend>可觀看課程</legend>
             <div class="entitlement-course-list" data-entitlement-course-list></div>
@@ -705,7 +707,7 @@
             <h2>所有影片</h2>
             <p>查看目前所有錄影課堂。把影片設為私人後，學生仍可看見課堂資料，但縮圖會變黑，影片亦不能播放；私人影片庫內的檔案不會被刪除。</p>
           </div>
-          <div class="admin-section-heading__actions"><button class="icon-button" type="button" data-admin-create-series disabled>＋ 建立／加入系列</button><button class="icon-button" type="button" data-admin-lessons-refresh><span aria-hidden="true">↻</span>重新整理</button></div>
+          <div class="admin-section-heading__actions"><button class="icon-button" type="button" data-admin-series-order>↕ 系列排列</button><button class="icon-button" type="button" data-admin-create-series disabled>＋ 建立／加入系列</button><button class="icon-button" type="button" data-admin-lessons-refresh><span aria-hidden="true">↻</span>重新整理</button></div>
         </div>
         <div class="admin-lessons-controls">
           <label class="student-search"><span class="visually-hidden">搜尋所有影片</span><span aria-hidden="true">⌕</span><input type="search" data-admin-lessons-search placeholder="搜尋影片標題或內容" autocomplete="off"></label>
@@ -751,6 +753,38 @@
             <div class="admin-course-checkboxes" data-admin-course-options></div>
             <p class="form-status" data-admin-course-status role="status" aria-live="polite"></p>
             <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-course>取消</button><button class="primary-button primary-button--compact" type="submit">儲存分類</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-lesson-edit-dialog" data-admin-lesson-edit-dialog>
+          <form class="playlist-dialog__card" data-admin-lesson-edit-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">EDIT VIDEO LESSON</p><h2>修改影片資料</h2><span data-admin-edit-lesson-label></span></div><button class="dialog-close" type="button" data-close-admin-lesson-edit aria-label="關閉修改影片視窗">×</button></div>
+            <div class="admin-edit-layout">
+              <div class="admin-edit-thumbnail">
+                <div class="admin-edit-thumbnail__preview" data-admin-edit-thumbnail-preview><span>自動使用影片首格</span></div>
+                <label class="r2-file-picker"><span>自訂縮圖（選填）</span><input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/gif,.jpg,.jpeg,.png,.webp,.avif,.gif" data-admin-edit-thumbnail-file></label>
+                <small>支援 JPG、PNG、WebP、AVIF 及 GIF。留空會保留現有縮圖；沒有自訂縮圖時會使用影片首格。</small>
+              </div>
+              <div class="admin-edit-fields">
+                <label><span>影片標題</span><input type="text" maxlength="160" data-admin-edit-title required></label>
+                <label><span>影片描述</span><textarea maxlength="2000" rows="5" data-admin-edit-description></textarea></label>
+                <label><span>標籤</span><input type="text" maxlength="500" data-admin-edit-tags placeholder="以逗號分隔"></label>
+              </div>
+            </div>
+            <fieldset><legend>可顯示課程（可多選）</legend><div class="admin-course-checkboxes" data-admin-edit-courses></div></fieldset>
+            <div class="r2-upload-progress" data-admin-edit-progress hidden><div><span data-admin-edit-progress-label>準備上載縮圖⋯</span><strong data-admin-edit-progress-percent>0%</strong></div><progress max="100" value="0" data-admin-edit-progress-bar>0%</progress></div>
+            <p class="form-status" data-admin-edit-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions playlist-dialog__actions--split"><button class="danger-button" type="button" data-admin-delete-lesson>永久刪除影片及筆記</button><span></span><button class="quiet-button" type="button" data-close-admin-lesson-edit>取消</button><button class="primary-button primary-button--compact" type="submit" data-admin-edit-submit>儲存修改</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-series-order-dialog" data-admin-series-order-dialog>
+          <form class="playlist-dialog__card" data-admin-series-order-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">SERIES ORDER</p><h2>官方系列排列</h2><span>「隨機」會在每次載入時重新排列；「自訂」可用箭嘴調整次序。</span></div><button class="dialog-close" type="button" data-close-admin-series-order aria-label="關閉系列排列視窗">×</button></div>
+            <fieldset class="series-order-mode"><legend>課堂頁顯示方式</legend><label><input type="radio" name="series-order-mode" value="manual" data-series-order-mode checked> 自訂次序</label><label><input type="radio" name="series-order-mode" value="random" data-series-order-mode> 每次隨機</label></fieldset>
+            <ol class="series-order-list" data-series-order-list></ol>
+            <p class="form-status" data-series-order-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-series-order>取消</button><button class="primary-button primary-button--compact" type="submit">儲存排列</button></div>
           </form>
         </dialog>
 
@@ -825,11 +859,15 @@
             <p class="r2-publish-object" data-r2-publish-object></p>
             <div class="r2-publish-fields">
               <label><span>影片標題</span><input type="text" maxlength="200" data-r2-publish-title required></label>
-              <label><span>所屬課程</span><select data-r2-publish-course required><option value="">請選擇課程</option></select></label>
+              <label hidden><span>主要課程</span><select data-r2-publish-course><option value="">請選擇課程</option></select></label>
+              <fieldset class="r2-publish-fields__wide"><legend>所屬課程（可多選）</legend><div class="admin-course-checkboxes" data-r2-publish-courses></div></fieldset>
               <label class="r2-publish-fields__wide"><span>影片描述</span><textarea maxlength="2000" rows="4" data-r2-publish-description placeholder="向學生簡介課堂內容"></textarea></label>
-              <label><span>片長（秒）</span><input type="number" min="1" max="86400" step="1" inputmode="numeric" data-r2-publish-duration required></label>
+              <label><span>片長（自動讀取）</span><strong class="detected-duration" data-r2-publish-duration-display>—</strong><input type="number" min="1" max="86400" step="1" inputmode="numeric" data-r2-publish-duration hidden><small data-r2-publish-duration-help>上載影片後會自動讀取，毋須手動輸入。</small></label>
               <label><span>標籤</span><input type="text" maxlength="500" data-r2-publish-tags placeholder="例如：Writing, Paper 2, DSE"></label>
+              <label class="r2-publish-fields__wide r2-file-picker"><span>自訂縮圖（選填）</span><input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/gif,.jpg,.jpeg,.png,.webp,.avif,.gif" data-r2-publish-thumbnail><small>支援靜態圖片及 GIF；沒有上載時自動使用影片第一格。</small></label>
+              <div class="r2-publish-thumbnail-preview" data-r2-publish-thumbnail-preview hidden></div>
             </div>
+            <div class="r2-upload-progress" data-r2-publish-thumbnail-progress hidden><div><span data-r2-publish-thumbnail-progress-label>準備上載縮圖⋯</span><strong data-r2-publish-thumbnail-progress-percent>0%</strong></div><progress max="100" value="0" data-r2-publish-thumbnail-progress-bar>0%</progress></div>
             <p class="form-status" data-r2-publish-status role="status" aria-live="polite"></p>
             <div class="playlist-dialog__actions">
               <button class="quiet-button" type="button" data-close-r2-publish>取消</button>
@@ -878,6 +916,6 @@
   <script defer src="video-class-config.js?v=20260811-2"></script>
   <script defer src="shared-system-nav.js?v=20260812-1"></script>
   <script defer src="video-class-zip.js?v=20260812-1"></script>
-  <script defer src="video-class.js?v=20260812-2"></script>
+  <script defer src="video-class.js?v=20260813-1"></script>
 </body>
 </html>
