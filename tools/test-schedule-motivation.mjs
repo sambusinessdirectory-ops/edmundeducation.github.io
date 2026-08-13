@@ -48,10 +48,12 @@ assert.match(html, /\.daily-motivation-circle:hover,[\s\S]*linear-gradient\(135d
 assert.match(js, /createDailyMotivationPanel\(date, dayIndex, active\)/);
 assert.match(js, /MOTIVATION_HIDDEN_STORAGE_PREFIX/);
 assert.match(js, /motivationHiddenStorageKey\(studentId\)/);
-assert.match(js, /state\.currentUser\?\.role === "student" \? String\(student\?\.id \|\| ""\) : ""/);
+assert.match(js, /function motivationVisibilityOwner\(student\)/);
+assert.match(js, /state\.currentUser\.role === "admin"[\s\S]*`admin:\$\{student\.id\}`[\s\S]*String\(student\.id\)/);
 assert.match(js, /localStorage\.getItem\(motivationHiddenStorageKey\(owner\)\)/);
-assert.match(js, /localStorage\.setItem\(motivationHiddenStorageKey\(studentId\), String\(Boolean\(hidden\)\)\)/);
-assert.match(js, /panel\.hidden = state\.currentUser\?\.role === "student" && state\.hideMotivation/);
+assert.match(js, /localStorage\.setItem\(motivationHiddenStorageKey\(owner\), String\(Boolean\(hidden\)\)\)/);
+assert.match(js, /const canHideMotivation = Boolean\(state\.currentUser && activeStudent\(\)\)/);
+assert.match(js, /panel\.hidden = state\.hideMotivation/);
 assert.match(js, /elements\.toggleMotivation\.addEventListener\("click", toggleMotivationVisibility\)/);
 assert.match(js, /column\.append\(header, motivation, slots\)/);
 assert.match(js, /schedule_student_get_motivation_week/);

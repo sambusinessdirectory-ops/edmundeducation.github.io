@@ -483,8 +483,15 @@ function motivationHiddenStorageKey(studentId) {
   return `${MOTIVATION_HIDDEN_STORAGE_PREFIX}:${String(studentId || "").toLowerCase()}`;
 }
 
+function motivationVisibilityOwner(student) {
+  if (!student?.id || !state.currentUser?.role) return "";
+  return state.currentUser.role === "admin"
+    ? `admin:${student.id}`
+    : String(student.id);
+}
+
 function syncMotivationVisibilityPreference(student) {
-  const owner = state.currentUser?.role === "student" ? String(student?.id || "") : "";
+  const owner = motivationVisibilityOwner(student);
   if (state.motivationVisibilityOwner === owner) return;
   state.motivationVisibilityOwner = owner;
   if (!owner) {
@@ -498,9 +505,9 @@ function syncMotivationVisibilityPreference(student) {
   }
 }
 
-function saveMotivationVisibilityPreference(studentId, hidden) {
+function saveMotivationVisibilityPreference(owner, hidden) {
   try {
-    localStorage.setItem(motivationHiddenStorageKey(studentId), String(Boolean(hidden)));
+    localStorage.setItem(motivationHiddenStorageKey(owner), String(Boolean(hidden)));
   } catch {
     // This visual-only preference may remain in memory if device storage is unavailable.
   }
@@ -1385,7 +1392,7 @@ function clearRenderedSchedule() {
 
 function applyDisplayPreferences() {
   const hideUnusedNow = unusedSlotsAreHidden();
-  const canHideMotivation = state.currentUser?.role === "student" && Boolean(activeStudent());
+  const canHideMotivation = Boolean(state.currentUser && activeStudent());
   elements.tableRegion.hidden = state.tableHidden;
   elements.toggleTable.textContent = state.tableHidden ? "顯示日程表" : "隱藏日程表";
   elements.toggleTable.setAttribute("aria-expanded", String(!state.tableHidden));
@@ -1554,7 +1561,7 @@ function setMutationInFlight(busy) {
   state.mutationInFlight = Boolean(busy);
   elements.toggleUnused.disabled = busy;
   elements.toggleMascots.disabled = busy;
-  elements.toggleMotivation.disabled = busy || state.currentUser?.role !== "student";
+  elements.toggleMotivation.disabled = busy || !state.currentUser || !activeStudent();
   elements.toggleDailyQuote.disabled = busy;
   elements.toggleEncouragement.disabled = busy;
   elements.toggleSelection.disabled = busy;
@@ -1570,10 +1577,10 @@ function toggleTableVisibility() {
 
 function toggleMotivationVisibility() {
   const student = activeStudent();
-  if (state.mutationInFlight || state.currentUser?.role !== "student" || !student) return;
+  if (state.mutationInFlight || !state.currentUser || !student) return;
   syncMotivationVisibilityPreference(student);
   state.hideMotivation = !state.hideMotivation;
-  saveMotivationVisibilityPreference(student.id, state.hideMotivation);
+  saveMotivationVisibilityPreference(motivationVisibilityOwner(student), state.hideMotivation);
   applyDisplayPreferences();
   showToast(state.hideMotivation
     ? "已在這部裝置隱藏動力指數。"
@@ -4162,7 +4169,7 @@ function updateMotivationPanelSelection(scheduleDate, message = "") {
 function createDailyMotivationPanel(scheduleDate, dayIndex, active) {
   const panel = document.createElement("section");
   panel.className = "daily-motivation-rating";
-  panel.hidden = state.currentUser?.role === "student" && state.hideMotivation;
+  panel.hidden = state.hideMotivation;
   panel.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}今天的動力指數`);
 
   const title = document.createElement("p");
