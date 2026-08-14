@@ -49,6 +49,65 @@ function request(path, method, token, body) {
   });
 }
 
+function joinBytes(...parts) {
+  const bytes = new Uint8Array(parts.reduce((total, part) => total + part.byteLength, 0));
+  let offset = 0;
+  for (const part of parts) {
+    bytes.set(part, offset);
+    offset += part.byteLength;
+  }
+  return bytes;
+}
+
+function isoBox(type, ...payloadParts) {
+  const payload = joinBytes(...payloadParts);
+  const bytes = new Uint8Array(8 + payload.byteLength);
+  new DataView(bytes.buffer).setUint32(0, bytes.byteLength);
+  bytes.set(new TextEncoder().encode(type), 4);
+  bytes.set(payload, 8);
+  return bytes;
+}
+
+function isoVideo(codec, fastStart = true) {
+  const handlerPayload = new Uint8Array(12);
+  handlerPayload.set(new TextEncoder().encode("vide"), 8);
+  const sampleDescriptionHeader = new Uint8Array(8);
+  new DataView(sampleDescriptionHeader.buffer).setUint32(4, 1);
+  const sampleDescription = isoBox(
+    "stsd",
+    sampleDescriptionHeader,
+    isoBox(codec, new Uint8Array(78))
+  );
+  const movie = isoBox(
+    "moov",
+    isoBox("trak", isoBox(
+      "mdia",
+      isoBox("hdlr", handlerPayload),
+      isoBox("minf", isoBox("stbl", sampleDescription))
+    ))
+  );
+  const fileType = isoBox("ftyp", new TextEncoder().encode("isom"));
+  const mediaData = isoBox("mdat", new Uint8Array(32));
+  return fastStart ? joinBytes(fileType, movie, mediaData) : joinBytes(fileType, mediaData, movie);
+}
+
+function videoBucketObject(key, bytes) {
+  return makeBucket({
+    head: async candidate => candidate === key ? {
+      key,
+      size: bytes.byteLength,
+      httpMetadata: { contentType: "video/mp4" },
+      customMetadata: {}
+    } : null,
+    get: async (candidate, options = {}) => {
+      if (candidate !== key) return null;
+      const offset = Number(options.range?.offset ?? 0);
+      const length = Number(options.range?.length ?? bytes.byteLength - offset);
+      return { body: bytes.slice(offset, offset + length) };
+    }
+  });
+}
+
 async function withRpcStub(resolver, callback) {
   const originalFetch = globalThis.fetch;
   const calls = [];
@@ -71,14 +130,7 @@ async function withRpcStub(resolver, callback) {
 
 test("multi-course private-video publish forwards the complete course selection", async () => {
   const sourceKey = "admin-uploads/videos/writing-class.mp4";
-  const bucket = makeBucket({
-    head: async key => key === sourceKey ? {
-      key,
-      size: 12_345,
-      httpMetadata: { contentType: "video/mp4" },
-      customMetadata: {}
-    } : null
-  });
+  const bucket = videoBucketObject(sourceKey, isoVideo("avc1"));
 
   await withRpcStub((name, body) => {
     if (name === "video_class_admin_me") return [{ admin_id: ADMIN_ID }];
@@ -111,6 +163,52 @@ test("multi-course private-video publish forwards the complete course selection"
     assert.equal(publish.body.p_course_code, "dse");
     assert.deepEqual(publish.body.p_course_codes, ["dse", "ielts"]);
     assert.equal(publish.body.p_service_secret, "s".repeat(48));
+  });
+});
+
+test("private-video publish rejects both HEVC sample-entry variants with a stable error code", async () => {
+  const sourceKey = "admin-uploads/videos/hevc-class.mp4";
+  for (const codec of ["hvc1", "hev1"]) {
+    await withRpcStub((name) => {
+      if (name === "video_class_admin_me") return [{ admin_id: ADMIN_ID }];
+      throw new Error(`Unexpected RPC ${name}`);
+    }, async calls => {
+      const response = await worker.fetch(request("/v1/admin/r2/publish", "POST", ADMIN_TOKEN, {
+        objectKey: sourceKey,
+        title: "HEVC class",
+        description: "Must be converted",
+        courseCodes: ["ielts"],
+        durationSeconds: 90
+      }), makeEnv(videoBucketObject(sourceKey, isoVideo(codec))), {});
+
+      assert.equal(response.status, 415);
+      const body = await response.json();
+      assert.equal(body.error.code, "VIDEO_CODEC_HEVC_UNSUPPORTED");
+      assert.match(body.error.message, /H\.264/);
+      assert.equal(calls.some(call => call.name === "video_class_admin_publish_r2_object"), false);
+    });
+  }
+});
+
+test("private-video publish rejects MP4 metadata stored after media data", async () => {
+  const sourceKey = "admin-uploads/videos/not-fast-start.mp4";
+  await withRpcStub((name) => {
+    if (name === "video_class_admin_me") return [{ admin_id: ADMIN_ID }];
+    throw new Error(`Unexpected RPC ${name}`);
+  }, async calls => {
+    const response = await worker.fetch(request("/v1/admin/r2/publish", "POST", ADMIN_TOKEN, {
+      objectKey: sourceKey,
+      title: "Late metadata",
+      description: "Must be optimized",
+      courseCodes: ["ielts"],
+      durationSeconds: 90
+    }), makeEnv(videoBucketObject(sourceKey, isoVideo("avc1", false))), {});
+
+    assert.equal(response.status, 415);
+    const body = await response.json();
+    assert.equal(body.error.code, "VIDEO_NOT_FAST_START");
+    assert.match(body.error.message, /Fast Start/);
+    assert.equal(calls.some(call => call.name === "video_class_admin_publish_r2_object"), false);
   });
 });
 

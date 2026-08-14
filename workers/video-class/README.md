@@ -217,6 +217,15 @@ length and content type from R2 HEAD metadata rather than trusting the browser.
 the lesson's primary compatibility course while the complete array controls
 multi-course visibility.
 
+Before publication, every MP4/MOV/M4V source and alternate rendition is checked
+from private storage. Its `moov` metadata must precede `mdat` media data (Fast
+Start), and each video track must use H.264/AVC (`avc1` or `avc3`). HEVC/H.265
+(`hvc1` or `hev1`) returns `VIDEO_CODEC_HEVC_UNSUPPORTED`; late metadata returns
+`VIDEO_NOT_FAST_START`. Other unverified/unsupported ISO media returns a stable
+`VIDEO_CONTAINER_INVALID` or `VIDEO_CODEC_UNSUPPORTED` response and is not sent
+to the publication RPC. The uploaded private object is retained so it can be
+downloaded and converted rather than being deleted unexpectedly.
+
 Adaptive login errors use a structured `error` object. `challengeRequired`
 tells the browser to reveal Turnstile; `retryAfterSeconds` drives the cooldown
 countdown. Cooldowns return HTTP `429` and the same value in the standard

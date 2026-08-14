@@ -8,6 +8,8 @@
   const requestTimeoutMs = Number(configuration.requestTimeoutMs) || 20000;
   const heartbeatIntervalMs = Math.max(10000, Number(configuration.heartbeatIntervalMs) || 15000);
   const STUDENT_INACTIVITY_MS = 30 * 60 * 1000;
+  const SEEK_LOADING_NOTICE_MS = 20000;
+  const STALL_RECOVERY_DELAY_MS = 30000;
   const PLAYBACK_RATES = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 2]);
   const PLAYBACK_RATE_STORAGE_KEY = "edmund-video-class-playback-rate-v1";
   const COURSE_CATALOG = Object.freeze([
@@ -384,6 +386,8 @@
       generation: 0,
       attempts: 0,
       timer: 0,
+      seekTimer: 0,
+      stallTimer: 0,
       stableTimer: 0,
       refreshing: false,
       intendedPlaying: false,
@@ -3051,7 +3055,8 @@
     updatePlayerControls();
     void elements.video.play().catch(error => {
       if (error?.name === "NotAllowedError") showToast("已跳到精彩片段，按播放繼續。");
-      else void recoverPlaybackLink("clip-play-rejected");
+      else if (hasFatalMediaFailure()) void recoverPlaybackLink("clip-play-rejected");
+      else showToast("精彩片段仍在載入，請稍候。", "error");
     });
   }
 
@@ -3288,11 +3293,15 @@
     if (!closePlayer({ saveProgress: true, hideSection: false, preservePlaybackSequence: true })) return;
     state.activeLesson = lesson;
     window.clearTimeout(state.playbackRecovery.timer);
+    window.clearTimeout(state.playbackRecovery.seekTimer);
+    window.clearTimeout(state.playbackRecovery.stallTimer);
     window.clearTimeout(state.playbackRecovery.stableTimer);
     state.playbackRecovery = {
       generation: state.playbackRecovery.generation + 1,
       attempts: 0,
       timer: 0,
+      seekTimer: 0,
+      stallTimer: 0,
       stableTimer: 0,
       refreshing: false,
       intendedPlaying: false,
@@ -3514,9 +3523,13 @@
     clearWatermarkTimers();
     window.clearTimeout(state.controlsTimer);
     window.clearTimeout(state.playbackRecovery.timer);
+    window.clearTimeout(state.playbackRecovery.seekTimer);
+    window.clearTimeout(state.playbackRecovery.stallTimer);
     window.clearTimeout(state.playbackRecovery.stableTimer);
     state.playbackRecovery.generation += 1;
     state.playbackRecovery.timer = 0;
+    state.playbackRecovery.seekTimer = 0;
+    state.playbackRecovery.stallTimer = 0;
     state.playbackRecovery.stableTimer = 0;
     state.playbackRecovery.refreshing = false;
     state.playbackRecovery.attempts = 0;
@@ -3664,8 +3677,24 @@
         showToast("瀏覽器需要你按一下播放按鈕才能開始播放。", "error");
         return;
       }
-      await recoverPlaybackLink("play-rejected");
+      const recovered = await recoverPlaybackLink("play-rejected");
+      if (!recovered && !hasFatalMediaFailure()) showToast("影片仍在載入，請稍候再按播放。", "error");
     }
+  }
+
+  function hasFatalMediaFailure() {
+    return Boolean(elements.video.error)
+      || elements.video.networkState === HTMLMediaElement.NETWORK_NO_SOURCE;
+  }
+
+  function clearPlaybackSeekTimer() {
+    window.clearTimeout(state.playbackRecovery.seekTimer);
+    state.playbackRecovery.seekTimer = 0;
+  }
+
+  function clearPlaybackStallTimer() {
+    window.clearTimeout(state.playbackRecovery.stallTimer);
+    state.playbackRecovery.stallTimer = 0;
   }
 
   async function recoverPlaybackLink(reason = "media-error") {
@@ -3673,12 +3702,17 @@
     const token = state.studentSession?.token;
     if (!lesson?.id || !token) return false;
     if (state.playbackRecovery.refreshing) return false;
+    const isManualRetry = reason === "manual-retry";
+    const isVerifiedStall = reason === "stalled-timeout";
+    if (!isManualRetry && !isVerifiedStall && !hasFatalMediaFailure()) return false;
     if (state.playbackRecovery.attempts >= 1) {
       showPlayerError("影片連線未能自動恢復。請按下方按鈕重新取得安全播放連結。", { retryPlayback: true });
       return false;
     }
     window.clearTimeout(state.playbackRecovery.stableTimer);
     state.playbackRecovery.stableTimer = 0;
+    clearPlaybackSeekTimer();
+    clearPlaybackStallTimer();
     state.playbackRecovery.refreshing = true;
     state.playbackRecovery.attempts += 1;
     const generation = ++state.playbackRecovery.generation;
@@ -3784,19 +3818,23 @@
     const position = Math.max(0, Math.min(duration, Number(positionSeconds) || 0));
     state.playbackRecovery.pendingSeekPosition = position;
     const generation = state.playbackRecovery.generation;
-    window.clearTimeout(state.playbackRecovery.timer);
+    clearPlaybackSeekTimer();
+    clearPlaybackStallTimer();
     try { elements.video.currentTime = position; }
     catch {
-      void recoverPlaybackLink("seek-failed");
+      if (hasFatalMediaFailure()) void recoverPlaybackLink("seek-failed");
+      else showToast("影片正在準備跳轉，請稍候再試。", "error");
       return;
     }
-    state.playbackRecovery.timer = window.setTimeout(() => {
+    state.playbackRecovery.seekTimer = window.setTimeout(() => {
       if (!state.playback || state.playbackRecovery.generation !== generation) return;
       const current = Number.isFinite(elements.video.currentTime) ? elements.video.currentTime : 0;
-      if (Math.abs(current - position) > 2.5 && elements.video.readyState < HTMLMediaElement.HAVE_FUTURE_DATA) {
-        void recoverPlaybackLink("seek-timeout");
+      if (Math.abs(current - position) <= 2.5) return;
+      if (hasFatalMediaFailure()) void recoverPlaybackLink("seek-failed");
+      else if (elements.video.seeking || elements.video.readyState < HTMLMediaElement.HAVE_FUTURE_DATA) {
+        showToast("影片仍在載入跳轉位置，請稍候。", "error");
       }
-    }, 8000);
+    }, SEEK_LOADING_NOTICE_MS);
   }
 
   function handleMobileSeekPointer(event) {
@@ -3931,6 +3969,49 @@
     elements.volume.value = String(elements.video.muted ? 0 : elements.video.volume);
   }
 
+  function handlePlaybackProgress() {
+    updatePlayerControls();
+    clearPlaybackStallTimer();
+    const target = state.playbackRecovery.pendingSeekPosition;
+    const current = Number.isFinite(elements.video.currentTime) ? elements.video.currentTime : 0;
+    if (target !== null && Math.abs(current - Number(target)) <= 2.5) {
+      state.playbackRecovery.pendingSeekPosition = null;
+      clearPlaybackSeekTimer();
+    }
+  }
+
+  function schedulePlaybackStallRecovery() {
+    if (!state.playback
+      || elements.video.paused
+      || elements.video.ended
+      || elements.video.seeking
+      || state.seeking
+      || state.playbackRecovery.refreshing
+      || state.playbackRecovery.pendingSeekPosition !== null) return;
+    clearPlaybackStallTimer();
+    const generation = state.playbackRecovery.generation;
+    const playback = state.playback;
+    const source = elements.video.currentSrc || elements.video.src;
+    const position = Number.isFinite(elements.video.currentTime) ? elements.video.currentTime : 0;
+    state.playbackRecovery.stallTimer = window.setTimeout(() => {
+      state.playbackRecovery.stallTimer = 0;
+      if (!state.playback
+        || state.playback !== playback
+        || state.playbackRecovery.generation !== generation
+        || state.playbackRecovery.refreshing
+        || elements.video.paused
+        || elements.video.ended
+        || elements.video.seeking
+        || state.seeking
+        || state.playbackRecovery.pendingSeekPosition !== null
+        || (elements.video.currentSrc || elements.video.src) !== source) return;
+      const current = Number.isFinite(elements.video.currentTime) ? elements.video.currentTime : 0;
+      const hasNotAdvanced = Math.abs(current - position) < 0.5;
+      const lacksPlayableData = elements.video.readyState < HTMLMediaElement.HAVE_FUTURE_DATA;
+      if (hasNotAdvanced && lacksPlayableData) void recoverPlaybackLink("stalled-timeout");
+    }, STALL_RECOVERY_DELAY_MS);
+  }
+
   function bindPlayerEvents() {
     elements.video.disablePictureInPicture = true;
     elements.video.disableRemotePlayback = true;
@@ -3959,6 +4040,8 @@
       }
       window.clearTimeout(state.playbackRecovery.timer);
       state.playbackRecovery.timer = 0;
+      clearPlaybackSeekTimer();
+      clearPlaybackStallTimer();
       state.playbackRecovery.refreshing = false;
       elements.playerError.hidden = true;
       elements.playerError.classList.remove("private-video-message");
@@ -3980,10 +4063,11 @@
         });
       }
     });
-    elements.video.addEventListener("timeupdate", updatePlayerControls);
+    elements.video.addEventListener("timeupdate", handlePlaybackProgress);
     elements.video.addEventListener("playing", () => {
       window.clearTimeout(state.playbackRecovery.timer);
       state.playbackRecovery.timer = 0;
+      clearPlaybackStallTimer();
       state.playbackRecovery.intendedPlaying = true;
       schedulePlaybackRecoveryReset();
     });
@@ -3997,6 +4081,7 @@
       showControlsTemporarily();
     });
     elements.video.addEventListener("pause", () => {
+      clearPlaybackStallTimer();
       if (!state.playbackRecovery.refreshing && !state.qualitySwitch && !elements.video.error) {
         state.playbackRecovery.intendedPlaying = false;
       }
@@ -4007,6 +4092,8 @@
       resetStudentInactivity();
     });
     elements.video.addEventListener("ended", () => {
+      clearPlaybackSeekTimer();
+      clearPlaybackStallTimer();
       state.playbackRecovery.intendedPlaying = false;
       updatePlayButtons();
       window.clearInterval(state.heartbeatTimer);
@@ -4018,18 +4105,21 @@
     elements.video.addEventListener("volumechange", updateMuteControl);
     elements.video.addEventListener("error", () => {
       if (!state.playback) return;
+      clearPlaybackSeekTimer();
+      clearPlaybackStallTimer();
       void recoverPlaybackLink("media-error");
     });
-    elements.video.addEventListener("stalled", () => {
-      if (!state.playback || elements.video.paused || state.seeking) return;
-      window.clearTimeout(state.playbackRecovery.timer);
-      const generation = state.playbackRecovery.generation;
-      state.playbackRecovery.timer = window.setTimeout(() => {
-        if (state.playback && state.playbackRecovery.generation === generation && elements.video.readyState < HTMLMediaElement.HAVE_FUTURE_DATA) {
-          void recoverPlaybackLink("stalled");
-        }
-      }, 10000);
+    elements.video.addEventListener("seeking", clearPlaybackStallTimer);
+    elements.video.addEventListener("seeked", () => {
+      state.playbackRecovery.pendingSeekPosition = null;
+      clearPlaybackSeekTimer();
+      clearPlaybackStallTimer();
+      updatePlayerControls();
+      schedulePlaybackRecoveryReset();
     });
+    elements.video.addEventListener("canplay", clearPlaybackStallTimer);
+    elements.video.addEventListener("waiting", schedulePlaybackStallRecovery);
+    elements.video.addEventListener("stalled", schedulePlaybackStallRecovery);
     elements.video.addEventListener("contextmenu", event => {
       event.preventDefault();
       showToast("課堂影片只供平台內觀看。");

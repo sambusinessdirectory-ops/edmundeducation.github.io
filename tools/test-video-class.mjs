@@ -1190,6 +1190,16 @@ test("YouTube-style seeking, sequence navigation, and student analytics remain a
   assert.match(portalJs, /totalViewCount:\s*Math\.max/);
 });
 
+test("slow seeking cannot revoke a healthy playback link", () => {
+  assert.match(portalJs, /const\s+SEEK_LOADING_NOTICE_MS\s*=\s*20000/);
+  assert.match(portalJs, /const\s+STALL_RECOVERY_DELAY_MS\s*=\s*30000/);
+  assert.doesNotMatch(portalJs, /recoverPlaybackLink\("seek-timeout"\)/);
+  assert.match(portalJs, /function\s+seekToPosition[\s\S]*?clearPlaybackStallTimer\(\)[\s\S]*?hasFatalMediaFailure\(\)[\s\S]*?影片仍在載入跳轉位置/);
+  assert.match(portalJs, /function\s+schedulePlaybackStallRecovery[\s\S]*?elements\.video\.seeking[\s\S]*?pendingSeekPosition\s*!==\s*null[\s\S]*?hasNotAdvanced\s*&&\s*lacksPlayableData[\s\S]*?recoverPlaybackLink\("stalled-timeout"\)/);
+  assert.match(portalJs, /addEventListener\("seeked"[\s\S]*?clearPlaybackSeekTimer\(\)[\s\S]*?clearPlaybackStallTimer\(\)/);
+  assert.match(portalJs, /const\s+isVerifiedStall\s*=\s*reason\s*===\s*"stalled-timeout"[\s\S]*?!isManualRetry\s*&&\s*!isVerifiedStall\s*&&\s*!hasFatalMediaFailure\(\)/);
+});
+
 test("UUID-keyset admin pagination selects the terminal row without unsupported UUID aggregates", () => {
   for (const [label, source] of [
     ["canonical", sql],

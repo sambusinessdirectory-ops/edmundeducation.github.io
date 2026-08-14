@@ -18,6 +18,9 @@ const ADMIN_UPLOAD_MAX_PARTS = 10000;
 const ADMIN_UPLOAD_COMPLETE_MAX_JSON_BYTES = 2 * 1024 * 1024;
 const ADMIN_R2_LIST_MAX_ITEMS = 100;
 const VIDEO_DURATION_PROBE_BYTES = 8 * 1024 * 1024;
+const VIDEO_ISO_METADATA_MAX_BYTES = 32 * 1024 * 1024;
+const VIDEO_ISO_TOP_LEVEL_MAX_BOXES = 256;
+const VIDEO_ISO_CHILD_MAX_BOXES = 10000;
 const TURNSTILE_SITEVERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
 const TURNSTILE_TOKEN_MAX_LENGTH = 2048;
 const TURNSTILE_TIMEOUT_MS = 8000;
@@ -1319,11 +1322,19 @@ async function adminPublishR2Object(request, env) {
     ...renditionRequests.map(item => headVideoObject(bucket, item.objectKey)),
     ...(thumbnailRequest ? [headImageObject(bucket, thumbnailRequest.objectKey)] : [])
   ]);
+  const renditionObjects = relatedObjects.slice(0, renditionRequests.length);
+  const [sourceCompatibility] = await Promise.all([
+    assertPrivateVideoBrowserCompatible(bucket, objectKey, source),
+    ...renditionRequests.map((item, index) => (
+      assertPrivateVideoBrowserCompatible(bucket, item.objectKey, renditionObjects[index])
+    ))
+  ]);
   const suppliedDuration = body.durationSeconds ?? body.duration_seconds;
   let metadataDuration = suppliedDuration == null || suppliedDuration === ""
     ? optionalLessonDuration(source.customMetadata?.durationSeconds)
     : null;
   if (suppliedDuration == null || suppliedDuration === "") {
+    metadataDuration ||= sourceCompatibility?.durationSeconds;
     metadataDuration ||= await detectPrivateVideoDurationSeconds(bucket, objectKey, source);
   }
   const durationSeconds = requiredLessonDuration(
@@ -1332,7 +1343,6 @@ async function adminPublishR2Object(request, env) {
   const slug = body.slug == null || String(body.slug).trim() === ""
     ? await deriveLessonSlug(title, objectKey)
     : normalizeLessonSlug(body.slug);
-  const renditionObjects = relatedObjects.slice(0, renditionRequests.length);
   const thumbnailObject = thumbnailRequest ? relatedObjects[relatedObjects.length - 1] : null;
   const renditions = renditionRequests.map((item, index) => ({
     quality_code: item.qualityCode,
@@ -3052,6 +3062,206 @@ async function headImageObject(bucket, key) {
   return { ...metadata, contentType: declared && declared !== "application/octet-stream" ? declared : expected };
 }
 
+async function assertPrivateVideoBrowserCompatible(bucket, key, metadata) {
+  const extension = objectKeyExtension(key);
+  if (![".mp4", ".mov", ".m4v"].includes(extension)) return { durationSeconds: null, videoCodecs: [] };
+  const size = Number(metadata?.size);
+  if (!Number.isSafeInteger(size) || size < 24) {
+    throw new HttpError(415, "Video metadata could not be verified. Export as an H.264 MP4 with Fast Start and upload again.", {
+      code: "VIDEO_CONTAINER_INVALID"
+    });
+  }
+
+  let offset = 0;
+  let moovMetadata = null;
+  let foundMediaData = false;
+  for (let boxCount = 0; offset < size && boxCount < VIDEO_ISO_TOP_LEVEL_MAX_BOXES; boxCount += 1) {
+    const headerLength = Math.min(16, size - offset);
+    const headerBytes = await readPrivateVideoValidationRange(bucket, key, offset, headerLength);
+    const box = readIsoBoxHeader(headerBytes, 0, size - offset, true);
+    if (!box) {
+      throw new HttpError(415, "Video metadata could not be verified. Export as an H.264 MP4 with Fast Start and upload again.", {
+        code: "VIDEO_CONTAINER_INVALID"
+      });
+    }
+
+    if (box.type === "mdat" && !moovMetadata) {
+      throw new HttpError(415, "Video is not optimized for streaming because its metadata follows the picture data. Export as an H.264 MP4 with Fast Start and upload again.", {
+        code: "VIDEO_NOT_FAST_START"
+      });
+    }
+    if (box.type === "moov") {
+      if (moovMetadata || box.size > VIDEO_ISO_METADATA_MAX_BYTES) {
+        throw new HttpError(415, "Video metadata could not be safely verified. Export as an H.264 MP4 with Fast Start and upload again.", {
+          code: box.size > VIDEO_ISO_METADATA_MAX_BYTES ? "VIDEO_METADATA_TOO_LARGE" : "VIDEO_CONTAINER_INVALID"
+        });
+      }
+      const moovBytes = await readPrivateVideoValidationRange(bucket, key, offset, box.size);
+      moovMetadata = inspectIsoMovieMetadata(moovBytes);
+      if (!moovMetadata) {
+        throw new HttpError(415, "Video metadata could not be verified. Export as an H.264 MP4 with Fast Start and upload again.", {
+          code: "VIDEO_CONTAINER_INVALID"
+        });
+      }
+      if (moovMetadata.videoCodecs.some(codec => codec === "hvc1" || codec === "hev1")) {
+        throw new HttpError(415, "HEVC/H.265 video cannot be published for browser playback. Export as an H.264 (AVC) MP4 with Fast Start and upload again.", {
+          code: "VIDEO_CODEC_HEVC_UNSUPPORTED"
+        });
+      }
+      if (!moovMetadata.videoCodecs.length
+        || moovMetadata.videoCodecs.some(codec => codec !== "avc1" && codec !== "avc3")) {
+        throw new HttpError(415, "Video codec is not browser-safe. Export as an H.264 (AVC) MP4 with Fast Start and upload again.", {
+          code: "VIDEO_CODEC_UNSUPPORTED"
+        });
+      }
+    }
+    if (box.type === "mdat") {
+      foundMediaData = true;
+      break;
+    }
+    offset += box.size;
+  }
+
+  if (!moovMetadata || !foundMediaData) {
+    throw new HttpError(415, "Video metadata could not be verified. Export as an H.264 MP4 with Fast Start and upload again.", {
+      code: "VIDEO_CONTAINER_INVALID"
+    });
+  }
+  return moovMetadata;
+}
+
+async function readPrivateVideoValidationRange(bucket, key, offset, length) {
+  let object;
+  try {
+    object = await bucket.get(key, { range: { offset, length } });
+  } catch {
+    throw new HttpError(503, "Video compatibility check is temporarily unavailable", {
+      code: "VIDEO_VALIDATION_UNAVAILABLE"
+    });
+  }
+  if (!object?.body) {
+    throw new HttpError(503, "Video compatibility check is temporarily unavailable", {
+      code: "VIDEO_VALIDATION_UNAVAILABLE"
+    });
+  }
+  let bytes;
+  try {
+    bytes = new Uint8Array(await new Response(object.body).arrayBuffer());
+  } catch {
+    throw new HttpError(503, "Video compatibility check is temporarily unavailable", {
+      code: "VIDEO_VALIDATION_UNAVAILABLE"
+    });
+  }
+  if (bytes.byteLength !== length) {
+    throw new HttpError(503, "Video changed while its compatibility was being checked; please try publishing again", {
+      code: "VIDEO_VALIDATION_UNAVAILABLE"
+    });
+  }
+  return bytes;
+}
+
+function readIsoBoxHeader(bytes, offset, containerEnd, allowPayloadOutsideBytes = false) {
+  if (!(bytes instanceof Uint8Array) || !Number.isSafeInteger(offset) || !Number.isSafeInteger(containerEnd)
+    || offset < 0 || containerEnd < offset + 8 || offset + 8 > bytes.byteLength) return null;
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  const size32 = view.getUint32(offset);
+  const type = readIsoFourCc(bytes, offset + 4);
+  if (!type) return null;
+  let size = size32;
+  let headerSize = 8;
+  if (size32 === 1) {
+    if (offset + 16 > bytes.byteLength) return null;
+    const extendedSize = view.getBigUint64(offset + 8);
+    if (extendedSize > BigInt(Number.MAX_SAFE_INTEGER)) return null;
+    size = Number(extendedSize);
+    headerSize = 16;
+  } else if (size32 === 0) {
+    size = containerEnd - offset;
+  }
+  if (!Number.isSafeInteger(size) || size < headerSize || offset + size > containerEnd
+    || (!allowPayloadOutsideBytes && offset + size > bytes.byteLength)) return null;
+  return { type, size, headerSize, start: offset, contentStart: offset + headerSize, end: offset + size };
+}
+
+function readIsoFourCc(bytes, offset) {
+  if (offset < 0 || offset + 4 > bytes.byteLength) return "";
+  let value = "";
+  for (let index = 0; index < 4; index += 1) {
+    const byte = bytes[offset + index];
+    if (byte < 0x20 || byte > 0x7e) return "";
+    value += String.fromCharCode(byte);
+  }
+  return value;
+}
+
+function listIsoChildBoxes(bytes, start, end) {
+  if (!(bytes instanceof Uint8Array) || !Number.isSafeInteger(start) || !Number.isSafeInteger(end)
+    || start < 0 || end < start || end > bytes.byteLength) return null;
+  const boxes = [];
+  let offset = start;
+  while (offset < end && boxes.length < VIDEO_ISO_CHILD_MAX_BOXES) {
+    const box = readIsoBoxHeader(bytes, offset, end);
+    if (!box) return null;
+    boxes.push(box);
+    offset = box.end;
+  }
+  return offset === end ? boxes : null;
+}
+
+function inspectIsoMovieMetadata(bytes) {
+  if (!(bytes instanceof Uint8Array) || bytes.byteLength < 16) return null;
+  const movie = readIsoBoxHeader(bytes, 0, bytes.byteLength);
+  if (!movie || movie.type !== "moov" || movie.end !== bytes.byteLength) return null;
+  const movieChildren = listIsoChildBoxes(bytes, movie.contentStart, movie.end);
+  if (!movieChildren) return null;
+  const videoCodecs = [];
+  for (const track of movieChildren.filter(box => box.type === "trak")) {
+    const trackChildren = listIsoChildBoxes(bytes, track.contentStart, track.end);
+    if (!trackChildren) return null;
+    const media = trackChildren.find(box => box.type === "mdia");
+    if (!media) continue;
+    const mediaChildren = listIsoChildBoxes(bytes, media.contentStart, media.end);
+    if (!mediaChildren) return null;
+    const handler = mediaChildren.find(box => box.type === "hdlr");
+    if (!handler || handler.contentStart + 12 > handler.end) continue;
+    if (readIsoFourCc(bytes, handler.contentStart + 8) !== "vide") continue;
+    const mediaInfo = mediaChildren.find(box => box.type === "minf");
+    if (!mediaInfo) return null;
+    const mediaInfoChildren = listIsoChildBoxes(bytes, mediaInfo.contentStart, mediaInfo.end);
+    if (!mediaInfoChildren) return null;
+    const sampleTable = mediaInfoChildren.find(box => box.type === "stbl");
+    if (!sampleTable) return null;
+    const sampleTableChildren = listIsoChildBoxes(bytes, sampleTable.contentStart, sampleTable.end);
+    if (!sampleTableChildren) return null;
+    const sampleDescription = sampleTableChildren.find(box => box.type === "stsd");
+    if (!sampleDescription) return null;
+    const codecs = readIsoSampleDescriptionCodecs(bytes, sampleDescription);
+    if (!codecs?.length) return null;
+    videoCodecs.push(...codecs);
+  }
+  return {
+    durationSeconds: findIsoMediaDurationSeconds(bytes),
+    videoCodecs: [...new Set(videoCodecs)]
+  };
+}
+
+function readIsoSampleDescriptionCodecs(bytes, box) {
+  if (!box || box.contentStart + 8 > box.end) return null;
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  const entryCount = view.getUint32(box.contentStart + 4);
+  if (entryCount < 1 || entryCount > 1024) return null;
+  const codecs = [];
+  let offset = box.contentStart + 8;
+  for (let index = 0; index < entryCount; index += 1) {
+    const entry = readIsoBoxHeader(bytes, offset, box.end);
+    if (!entry) return null;
+    codecs.push(entry.type);
+    offset = entry.end;
+  }
+  if (offset !== box.end) return null;
+  return codecs;
+}
+
 async function detectPrivateVideoDurationSeconds(bucket, key, metadata) {
   const extension = objectKeyExtension(key);
   if (![".mp4", ".mov", ".m4v"].includes(extension)) return null;
@@ -3738,6 +3948,8 @@ export const __test = Object.freeze({
   deleteR2ObjectsInBatches,
   expandIpv6,
   findIsoMediaDurationSeconds,
+  inspectIsoMovieMetadata,
+  readIsoBoxHeader,
   mapOfficialPlaylistOrder,
   parseByteRange,
   safeVideoContentType,
