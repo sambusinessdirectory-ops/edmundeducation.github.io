@@ -62,6 +62,10 @@ const feedbackFragmentEnhancementMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-feedback-fragment-enhancements.sql"),
   "utf8"
 );
+const feedbackTools = fs.readFileSync(
+  path.join(root, "writing-submission-feedback-tools.mjs"),
+  "utf8"
+);
 const workerTopicCatalog = fs.readFileSync(
   path.join(root, "workers/writing-submission/src/topic-catalog.js"),
   "utf8"
@@ -177,7 +181,10 @@ test("grammar occurrence identities dedupe a rescan but preserve two same-rule c
 test("portal exposes the requested stage-one writing, archive and grammar-log interface", () => {
   assert.match(html, /data-system="writing-submission"/);
   assert.match(html, /<h2>寫作題目<\/h2>/);
-  assert.match(html, /<h2>文章內容<\/h2>/);
+  assert.match(
+    html,
+    /<h2[^>]*>\s*文章內容(?:\s*<[^>]*data-proofreading-label[^>]*>校對時間<\/[^>]+>)?\s*<\/h2>/
+  );
   assert.match(html, /我的文章/);
   assert.match(html, /我的文法問題記錄/);
   assert.match(html, /文法偵測只會在您輸入句號（\.）或分號（;）完成一句後開始/);
@@ -337,8 +344,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260814-feedback-rich1/);
-  assert.match(html, /writing-submission\.js\?v=20260814-feedback-rich1/);
+  assert.match(html, /writing-submission\.css\?v=20260814-feedback-learning1/);
+  assert.match(html, /writing-submission\.js\?v=20260814-feedback-learning1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -655,8 +662,12 @@ test("structured feedback supports suggested rewrites, safe formatting, row edit
   );
   assert.equal(
     (studentFeedbackSource.match(/appendFeedbackRichText\(/g) || []).length,
-    3,
-    "the student view must safely render original, comment and suggestion formatting"
+    2,
+    "the student view must safely render original and suggestion formatting"
+  );
+  assert.match(
+    studentFeedbackSource,
+    /appendStructuredFeedbackRichText\(commentText, fragment\.edmundComment, fragment\.commentFormatting\)/
   );
 
   // Removing a row removes the actual group; both removal and insertion then
@@ -691,8 +702,8 @@ test("structured feedback supports suggested rewrites, safe formatting, row edit
   assert.match(script, /data-feedback-font-larger/);
   assert.match(script, /data-feedback-font-scale/);
 
-  // Toolbar colors are allowlisted and keyboard bold works with both common
-  // platform modifiers while suppressing the browser's default action.
+  // Toolbar colors are allowlisted. Keyboard color commands are covered by the
+  // feedback-learning contract below; bold remains available from the toolbar.
   const highlightNamesMatch = script.match(
     /const FEEDBACK_HIGHLIGHT_COLORS = Object\.freeze\(\{([\s\S]*?)\}\)/
   );
@@ -704,10 +715,74 @@ test("structured feedback supports suggested rewrites, safe formatting, row edit
   for (const color of ["yellow", "orange", "blue", "green"]) {
     assert.match(css, new RegExp(`mark\\[data-highlight="${color}"\\]`));
   }
-  assert.match(richEditorSource, /\(event\.metaKey \|\| event\.ctrlKey\)/);
-  assert.match(richEditorSource, /event\.key\.toLowerCase\(\) === "b"/);
-  assert.match(richEditorSource, /event\.preventDefault\(\)/);
-  assert.match(richEditorSource, /document\.execCommand\("bold", false\)/);
+  assert.match(script, /if \(command === "bold"\) document\.execCommand\("bold", false\)/);
+});
+
+test("feedback learning tools, bookmarks and admin sorting are fully wired to the frontend", () => {
+  const richEditorSource = script.match(
+    /function createFeedbackRichEditor\([\s\S]*?\n\}/
+  )?.[0] || "";
+  const adminFeedbackReaderSource = script.match(
+    /function readAdminFeedbackEditor\(editor\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  assert.match(richEditorSource, /feedbackHighlightCommandFromEvent\(event\)/);
+  assert.match(richEditorSource, /applyFeedbackFormatting\(highlight\)/);
+  assert.match(richEditorSource, /event\.shiftKey\s*&&\s*event\.key === "Enter"/);
+  assert.match(richEditorSource, /document\.execCommand\("insertText", false, "\\n\\n"\)/);
+  assert.match(script, /parseNumberedFeedbackBlocks\(/);
+  assert.match(script, /sliceFeedbackFormattingRuns\(/);
+  assert.match(css, /\.feedback-numbered-card/);
+  assert.match(css, /\.feedback-number-badge/);
+
+  for (const [key, color] of Object.entries({ y: "yellow", o: "orange", b: "blue", g: "green" })) {
+    assert.match(feedbackTools, new RegExp(`${key}: "${color}"`));
+  }
+  assert.match(feedbackTools, /\(!event\.metaKey && !event\.ctrlKey\)/);
+
+  assert.match(html, /data-feedback-bookmarks-button[^>]*>我的評語書籤<\/button>/);
+  assert.match(html, /data-view="feedback-bookmarks"/);
+  assert.match(html, /data-feedback-bookmark-list/);
+  assert.match(script, /showView\("feedback-bookmarks"\)/);
+  assert.match(script, /\/v1\/feedback-bookmarks/);
+  assert.match(script, /data-feedback-bookmark/);
+  assert.match(script, /method:\s*"PUT"/);
+  assert.match(css, /\.feedback-bookmark-button\[aria-pressed="true"\]/);
+  assert.match(css, /\.feedback-bookmark-card/);
+
+  assert.match(script, /suggestion-copy/);
+  assert.match(script, /dataset\.suggestionCopyText/);
+  assert.match(script, /dataset\.suggestionCopySave/);
+  assert.match(script, /expectedVersion:\s*fragment\.suggestionCopyVersion/);
+  assert.match(script, /建議寫法 - 抄寫/);
+  assert.match(css, /\.teacher-feedback-suggestion-copy/);
+
+  assert.match(html, /data-admin-name-sort/);
+  assert.match(script, /state\.adminStudentSort === "desc" \? -1 : 1/);
+  assert.match(script, /localeCompare\([\s\S]*?\["zh-Hant", "en"\]/);
+  assert.match(script, /state\.adminStudentSort = state\.adminStudentSort === "asc" \? "desc" : "asc"/);
+  assert.match(script, /姓名 A → Z/);
+  assert.match(script, /姓名 Z → A/);
+
+  assert.match(adminFeedbackReaderSource, /const grammarPoints = normalizeGrammarFeedbackPoints\(/);
+  assert.match(adminFeedbackReaderSource, /const sentenceStructureMethods = normalizeSentenceStructureMethods\(/);
+  assert.match(script, /文法評語站/);
+  assert.match(script, /文法重點/);
+  assert.match(script, /句子結構提升區/);
+  assert.match(script, /句子結構方法/);
+  assert.match(adminFeedbackReaderSource, /return \{[\s\S]*?grammarPoints,[\s\S]*?sentenceStructureMethods,[\s\S]*?sentenceStructureLinks,/);
+
+  assert.match(adminFeedbackReaderSource, /const url = normalizeSentenceStructureDeepLink\(rawUrl\)/);
+  assert.match(feedbackTools, /url\.hostname !== "edmundeducation\.com"/);
+  assert.match(feedbackTools, /url\.pathname !== "\/sentence-structure\.html"/);
+  assert.match(feedbackTools, /parameters\.length !== 1/);
+  assert.match(feedbackTools, /SENTENCE_STRUCTURE_LESSON_RE\.test\(lesson\)/);
+
+  assert.match(
+    script,
+    /\/v1\/submissions\/\$\{[^}]+\}\/feedback\/fragments\/\$\{[^}]+\}\/suggestion-copy/
+  );
+  assert.match(script, /apiJson\(`\/v1\/feedback-bookmarks\?page=\$\{page\}&pageSize=100`\)/);
+  assert.match(script, /`\/v1\/feedback-bookmarks\/\$\{[^}]+\}`/);
 });
 
 test("article and feedback navigation invalidates stale requests and clears sensitive detail", () => {
@@ -781,11 +856,11 @@ test("published feedback is optional by section, unread-aware, and supports save
   assert.match(css, /\.submission-list-item\.has-feedback/);
   assert.match(css, /\.submission-feedback-bell/);
   assert.match(css, /\.teacher-feedback-transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_student_open/);
+  assert.match(workerSource, /writing_submission_feedback_student_open_v2/);
   assert.match(workerSource, /writing_submission_feedback_student_save_transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_admin_get_v2/);
+  assert.match(workerSource, /writing_submission_feedback_admin_get_v3/);
   assert.match(workerSource, /p_improved_version:\s*payload\.improvedVersion/);
-  assert.match(workerSource, /if \(!overallComment\.trim\(\) && !finalComment\.trim\(\) && !improvedVersion\.trim\(\) && fragments\.length === 0\)/);
+  assert.match(workerSource, /!overallComment\.trim\(\)[\s\S]*?!finalComment\.trim\(\)[\s\S]*?!improvedVersion\.trim\(\)[\s\S]*?fragments\.length === 0[\s\S]*?grammarPoints/);
   assert.match(feedbackRevisionMigration, /add column if not exists improved_version text/);
   assert.match(feedbackRevisionMigration, /add column if not exists student_read_at timestamptz/);
   assert.match(feedbackRevisionMigration, /writing_submission_feedback_unread_idx/);

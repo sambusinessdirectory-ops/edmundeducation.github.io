@@ -27,6 +27,23 @@ The migration is additive for saved reviews: existing two-field groups receive
 an empty suggested-writing field and empty formatting arrays. The Worker also
 accepts legacy two-field request objects during the transition.
 
+### Existing-installation feedback learning-tools upgrade (required)
+
+Apply `../../supabase-writing-submission-feedback-learning-tools.sql` after
+the fragment-enhancements migration and before deploying the matching Worker
+or browser assets. This unapplied repository migration adds private,
+student-owned suggestion copies and fragment bookmarks, administrator-authored
+grammar and sentence-structure sections, and versioned v2/v3 RPCs. The older
+feedback RPCs remain installed for rollout compatibility.
+
+The new administrator save RPC preserves existing fragment UUIDs. Whenever
+`expectedVersion` is positive, every fragment object must include `id`: return
+the UUID received from GET for a retained fragment and use `id: null` only for
+a genuinely new row. Omitting the key is rejected before storage so a legacy
+position-only update cannot silently move a student's copy or bookmark to
+unrelated feedback. Legacy fragment shapes remain accepted only while creating
+new feedback with `expectedVersion: 0`.
+
 ### Existing-installation topic-access upgrade (required)
 
 An existing Writing Submission installation must use the incremental
@@ -84,7 +101,8 @@ it, then apply `../../supabase-writing-submission-grammar-history.sql` and
 `../../supabase-writing-submission-drafts-admin.sql`. Apply
 `../../supabase-writing-submission-feedback.sql` next, followed by
 `../../supabase-writing-submission-feedback-revision.sql` and
-`../../supabase-writing-submission-feedback-fragment-enhancements.sql`. Apply
+`../../supabase-writing-submission-feedback-fragment-enhancements.sql`, then
+`../../supabase-writing-submission-feedback-learning-tools.sql`. Apply
 `../../supabase-writing-grammar-corpus.sql` after that, followed by the generated
 `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
@@ -103,6 +121,9 @@ The migration creates:
 - normalized, versioned teacher feedback with ordered original-fragment,
   Edmund-comment and suggested-writing groups, safe inline bold/highlight
   formatting, draft/published states, and an immutable audit trail;
+- private, versioned per-fragment suggestion-copy practice and bookmarks;
+- administrator-authored rich-text grammar points, sentence-structure methods,
+  and internal links into the Sentence Structure system;
 - published-feedback visibility limited to the student who owns the active
   submission, with all draft/edit/delete operations limited to the dedicated
   Writing Submission administrator; and
@@ -217,6 +238,11 @@ both receive the same generic `401` response.
 - `GET /v1/submissions/<submission-uuid>`
 - `GET /v1/submissions/<submission-uuid>/feedback` — returns the student's
   published teacher feedback, or `{ "feedback": null }` before publication.
+- `PUT /v1/submissions/<submission-uuid>/feedback/fragments/<fragment-uuid>/suggestion-copy`
+  with the exact body `{ "text": "Copied suggestion", "expectedVersion": 2 }`.
+- `GET /v1/feedback-bookmarks?page=1&pageSize=20`
+- `PUT /v1/feedback-bookmarks/<fragment-uuid>` with the exact body
+  `{ "bookmarked": true, "expectedVersion": 0 }`.
 - `DELETE /v1/submissions/<submission-uuid>` (student archive soft-delete)
 - `PUT /v1/submissions/<submission-uuid>` with:
 
@@ -235,6 +261,29 @@ reusing it with changed content or duration is rejected. Student deletion only
 hides an article from the personal archive; the saved article, grammar history,
 and historical progress remain available to the administrator.
 
+Suggestion-copy and bookmark requests derive the student owner exclusively
+from the bearer token. The database additionally verifies that the fragment
+belongs to that student's non-deleted submission and to published feedback;
+copying is available only when the fragment has non-empty suggested writing.
+Both mutations use optimistic versions. A missing row begins at version `0`;
+after each successful write, send the returned positive version. Stale writes
+return `409 SUGGESTION_COPY_VERSION_CONFLICT` or
+`409 BOOKMARK_VERSION_CONFLICT`. Bookmark rows retain an unbookmarked state
+instead of being deleted, preventing a stale `version: 0` request from
+recreating an older state.
+
+The feedback response returns these fields on every fragment:
+
+```json
+{
+  "suggestionCopyText": "",
+  "suggestionCopyVersion": 0,
+  "suggestionCopyUpdatedAt": null,
+  "bookmarked": false,
+  "bookmarkVersion": 0
+}
+```
+
 ### Teacher feedback
 
 - `GET /v1/admin/submissions/<submission-uuid>/feedback`
@@ -249,6 +298,7 @@ The administrator may repeatedly save a draft or publish a complete review:
   "overallComment": "整體評語",
   "fragments": [
     {
+      "id": "88888888-8888-4888-8888-888888888888",
       "originalFragment": "The student's original sentence.",
       "edmundComment": "Edmund 評語",
       "suggestedWriting": "A suggested revision.",
@@ -260,6 +310,24 @@ The administrator may repeatedly save a draft or publish a complete review:
     }
   ],
   "finalComment": "最後評語",
+  "improvedVersion": "A retained-meaning improved passage.",
+  "grammarPoints": [
+    {
+      "text": "Subject–verb agreement",
+      "formatting": [
+        { "start": 0, "end": 7, "bold": true, "highlight": "blue" }
+      ]
+    }
+  ],
+  "sentenceStructureMethods": [
+    { "text": "Begin with Although.", "formatting": [] }
+  ],
+  "sentenceStructureLinks": [
+    {
+      "label": "Although practice",
+      "url": "/sentence-structure.html?lesson=although"
+    }
+  ],
   "status": "published",
   "expectedVersion": 2,
   "expectedFeedbackId": "77777777-7777-4777-8777-777777777777"
@@ -272,8 +340,15 @@ suggested writing, overall comment, final comment and improved version remain
 optional. Formatting offsets use JavaScript UTF-16 string positions and may
 contain at most 500 exact runs per field. Supported highlights are `yellow`,
 `orange`, `blue`, `green`, or the empty string, and arbitrary HTML is never
-stored. Each save replaces the ordered fragment set atomically and increments
-the feedback version. Deleting feedback removes its current contents while retaining an
+stored. Grammar points and sentence-structure methods use the same exact
+`{ "text", "formatting" }` rich-text shape and allow at most 100 non-empty
+items each. Sentence Structure links use the exact `{ "label", "url" }`
+shape, allow at most 100 items, and accept only relative URLs whose path is
+`/sentence-structure.html`. The query must contain exactly one `lesson` value
+matching `[A-Za-z0-9][A-Za-z0-9_-]{0,79}`; hashes, extra/duplicate parameters,
+and external URLs are rejected, and accepted URLs are stored canonically. Each save updates the
+ordered fragment set atomically, retains supplied stable fragment IDs, and
+increments the feedback version. Deleting feedback removes its current contents while retaining an
 administrator audit event. Student APIs never expose drafts. A new feedback
 uses `expectedVersion: 0` and `expectedFeedbackId: null`; subsequent saves must
 send both the `version` and `id` returned by the latest GET or PUT response. A
@@ -458,6 +533,11 @@ or student session tokens.
 - Grammar batch: 1–50 unique occurrences
 - Grammar occurrences returned for one document: at most 2,000
 - Student/admin page size: at most 100
+- Feedback rich-text grammar points: at most 100 items, 20,000 characters each
+- Feedback sentence-structure methods: at most 100 items, 20,000 characters each
+- Sentence Structure links: at most 100 items; 200-character label and
+  2,048-character internal relative URL
+- Per-fragment suggestion copy: 20,000 characters / 80 KiB UTF-8
 
 If a production requirement exceeds a limit, update and review both the Worker
 and SQL checks together. Do not relax only one boundary.

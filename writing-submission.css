@@ -456,6 +456,8 @@ button { color: inherit; }
 }
 
 .writing-field { display: block; }
+.writing-field-title { margin: 0 0 9px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; color: var(--ink); font: 850 13px ui-sans-serif,system-ui,sans-serif; }
+.writing-field-title em { border-radius: 999px; padding: 6px 10px; color: #8e252d; background: #fcd9d9; font-size: 11px; font-style: normal; letter-spacing: .04em; }
 .writing-field textarea {
   width: 100%;
   border: 1px solid rgba(39,39,87,.16);
@@ -529,6 +531,9 @@ button { color: inherit; }
 .topic-reference-retry { border: 1px solid rgba(39,39,87,.14); color: #fff; background: var(--midnight); box-shadow: none; }
 .writing-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(310px, 390px); align-items: start; gap: 24px; }
 .writing-field-main textarea { min-height: 480px; overflow: hidden; font-size: clamp(17px, 1.45vw, 21px); line-height: 1.9; }
+.writing-field-main textarea { transition: background-color .25s ease, border-color .25s ease, box-shadow .25s ease; }
+.writing-field-main.is-proofreading textarea { border-color: rgba(180,58,64,.34); background: #fcd9d9; box-shadow: inset 0 0 0 1px rgba(180,58,64,.08), 0 0 0 5px rgba(180,58,64,.07); }
+.writing-editor-title em { margin-left: 9px; border-radius: 999px; padding: 5px 9px; color: #9f3038; background: #fcd9d9; vertical-align: middle; font: 850 11px ui-sans-serif,system-ui,sans-serif; font-style: normal; white-space: nowrap; }
 
 .editor-heading-tools { display: flex; align-items: center; gap: 14px; }
 .editor-metrics { display: flex; align-items: baseline; gap: 7px; font-family: ui-sans-serif, system-ui, sans-serif; }
@@ -791,7 +796,9 @@ button { color: inherit; }
 .teacher-feedback-read-pair,
 .teacher-feedback-edit-pair { border-top: 1px solid rgba(39,39,87,.13); }
 .teacher-feedback-original { padding: 17px 20px; background: #f2f1f4; }
+.teacher-feedback-original-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .teacher-feedback-original > span,
+.teacher-feedback-original-head > span,
 .teacher-feedback-comment > span,
 .teacher-feedback-suggestion > span,
 .teacher-feedback-comment > strong,
@@ -803,6 +810,21 @@ button { color: inherit; }
 .teacher-feedback-suggestion { border-top: 1px dashed rgba(34,113,76,.17); padding: 18px 20px 22px; background: #effaf3; }
 .teacher-feedback-suggestion > div { margin-top: 9px; color: #193f30; }
 .teacher-feedback-suggestion > div.is-empty { color: #718079; font-style: italic; }
+.feedback-bookmark-button { min-height: 32px; border: 1px solid rgba(48,71,148,.2); border-radius: 999px; padding: 6px 10px; color: #304794; background: #fff; cursor: pointer; font: 850 10px ui-sans-serif,system-ui,sans-serif; }
+.feedback-bookmark-button:hover,
+.feedback-bookmark-button:focus-visible { border-color: #304794; background: #edf2ff; }
+.feedback-bookmark-button[aria-pressed="true"] { border-color: #d58a21; color: #744309; background: #fff0c9; }
+.teacher-feedback-suggestion-copy { margin-top: 16px; border-top: 1px dashed rgba(34,113,76,.24); padding-top: 14px; display: grid; gap: 9px; }
+.teacher-feedback-suggestion-copy label { display: grid; gap: 8px; color: #205a42; font: 850 12px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-suggestion-copy textarea { width: 100%; min-height: 120px; border: 1px solid rgba(34,113,76,.24); border-radius: 13px; padding: 13px 14px; color: var(--ink); background: #fff; resize: vertical; font: calc(16px * var(--submission-text-scale))/1.75 Georgia,"Noto Serif TC Local",serif; }
+.teacher-feedback-suggestion-copy textarea:focus { outline: 0; border-color: #2d8c62; box-shadow: 0 0 0 4px rgba(45,140,98,.11); }
+.teacher-feedback-suggestion-copy-actions { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 14px; }
+.teacher-feedback-suggestion-copy-actions .form-status { flex: 1 1 220px; }
+.feedback-structured-flow { display: grid; gap: 12px; white-space: normal !important; }
+.feedback-structured-paragraph { margin: 0; white-space: pre-wrap; }
+.feedback-numbered-card { display: grid; grid-template-columns: auto minmax(0,1fr); align-items: start; gap: 11px; }
+.feedback-number-badge { width: 42px; height: 42px; border-radius: 11px; display: grid; place-items: center; color: #fff; background: #184d78; box-shadow: 0 4px 0 #ca741d; font: 900 16px ui-sans-serif,system-ui,sans-serif; }
+.feedback-numbered-body { min-height: 42px; border-left: 4px solid #dc7a18; border-radius: 0 13px 13px 0; padding: 10px 13px; color: #263957; background: #fff1d2; white-space: pre-wrap; }
 .teacher-feedback-rich-content mark,
 .teacher-feedback-rich-editor mark { border-radius: .2em; padding: .03em .08em; color: inherit; }
 .teacher-feedback-rich-content mark[data-highlight="yellow"],
@@ -839,6 +861,32 @@ button { color: inherit; }
 .teacher-feedback-highlight-button.is-blue { background: #cfe6ff; }
 .teacher-feedback-highlight-button.is-green { background: #d5f2d5; }
 .teacher-feedback-add { margin: 18px 20px; width: calc(100% - 40px); }
+.teacher-feedback-learning-editor { border-top: 1px solid rgba(39,39,87,.13); background: #eaf7ff; }
+.teacher-feedback-learning-editor.is-sentence-structure { background: #f1efff; }
+.teacher-feedback-learning-head { padding: 22px 20px 15px; }
+.teacher-feedback-learning-head h3 { margin: 0; color: #1b5f85; font-size: 24px; }
+.teacher-feedback-learning-editor.is-sentence-structure .teacher-feedback-learning-head h3 { color: #51449b; }
+.teacher-feedback-learning-head p { margin: 7px 0 0; color: #596d7d; font: 12px/1.6 ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-learning-list { padding: 0 20px; display: grid; gap: 12px; }
+.teacher-feedback-learning-row { border: 1px solid rgba(37,107,143,.18); border-radius: 15px; padding: 14px; background: rgba(255,255,255,.82); }
+.teacher-feedback-learning-row-head { margin-bottom: 9px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.teacher-feedback-learning-row-head strong { color: #1b5f85; font: 850 13px ui-sans-serif,system-ui,sans-serif; }
+.is-sentence-structure .teacher-feedback-learning-row-head strong { color: #51449b; }
+.teacher-feedback-learning-row .teacher-feedback-rich-editor { min-height: 110px; }
+.teacher-feedback-learning-editor .teacher-feedback-add { margin-top: 14px; }
+.teacher-feedback-links-editor { margin: 0 20px 22px; display: grid; gap: 8px; color: #51449b; font: 850 13px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-links-editor textarea { min-height: 110px; border: 1px solid rgba(81,68,155,.24); border-radius: 13px; padding: 13px 14px; color: var(--ink); background: #fff; resize: vertical; font: 13px/1.65 ui-monospace,SFMono-Regular,Menlo,monospace; }
+.teacher-feedback-learning-read { border-top: 1px solid rgba(39,39,87,.12); padding: 22px; background: #eaf7ff; }
+.teacher-feedback-learning-read.is-sentence-structure { background: #f1efff; }
+.teacher-feedback-learning-read h3 { margin: 0 0 15px; color: #1b5f85; font-size: calc(22px * var(--submission-text-scale)); }
+.teacher-feedback-learning-read.is-sentence-structure h3 { color: #51449b; }
+.teacher-feedback-learning-point-list { display: grid; gap: 13px; }
+.teacher-feedback-learning-point { border: 1px solid rgba(39,39,87,.12); border-radius: 15px; padding: 15px; background: rgba(255,255,255,.84); }
+.teacher-feedback-learning-point > strong { display: block; margin-bottom: 10px; color: #526779; font: 850 11px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-learning-links { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
+.teacher-feedback-learning-links a { border: 1px solid rgba(81,68,155,.22); border-radius: 999px; padding: 9px 12px; color: #51449b; background: #fff; text-decoration: none; font: 850 11px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-learning-links a:hover,
+.teacher-feedback-learning-links a:focus-visible { border-color: #51449b; background: #ebe8ff; }
 .teacher-feedback-save-status { margin: 0 20px 12px; }
 .teacher-feedback-actions { position: sticky; bottom: 0; z-index: 2; border-top: 1px solid rgba(39,39,87,.13); padding: 14px 20px; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 9px; background: rgba(255,253,249,.96); backdrop-filter: blur(12px); }
 .teacher-feedback-actions button { min-width: 150px; }
@@ -856,6 +904,22 @@ button { color: inherit; }
 .teacher-feedback-transcription-actions { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px 18px; }
 .teacher-feedback-transcription-actions .form-status { flex: 1 1 260px; margin: 0; }
 .teacher-feedback-transcription-actions .primary-button { min-width: 180px; }
+.feedback-bookmark-library { padding: 26px; color: var(--ink); background: rgba(251,247,239,.97); }
+.feedback-bookmark-list { display: grid; gap: 15px; }
+.feedback-bookmark-card { overflow: hidden; border: 1px solid rgba(39,39,87,.13); border-radius: 17px; background: #fffdf9; box-shadow: 0 10px 25px rgba(39,39,87,.06); }
+.feedback-bookmark-card-head { padding: 13px 15px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 14px; color: #fff; background: #304c75; }
+.feedback-bookmark-card-head strong { font-size: 15px; }
+.feedback-bookmark-card-head button { border: 1px solid rgba(255,255,255,.28); border-radius: 999px; padding: 7px 10px; color: #fff; background: rgba(255,255,255,.12); cursor: pointer; font: 800 10px ui-sans-serif,system-ui,sans-serif; }
+.feedback-bookmark-card-original,
+.feedback-bookmark-card-comment,
+.feedback-bookmark-card-suggestion { padding: 15px; }
+.feedback-bookmark-card-original { background: #f1f2f6; }
+.feedback-bookmark-card-comment { border-top: 1px solid rgba(39,39,87,.1); }
+.feedback-bookmark-card-suggestion { border-top: 1px dashed rgba(34,113,76,.18); background: #effaf3; }
+.feedback-bookmark-card section > strong { display: block; margin-bottom: 8px; color: #66637c; font: 850 10px ui-sans-serif,system-ui,sans-serif; }
+.feedback-bookmark-card section > div { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 15px; line-height: 1.7; }
+.feedback-bookmark-card-footer { border-top: 1px solid rgba(39,39,87,.09); padding: 11px 15px; display: flex; justify-content: flex-end; background: #faf8f4; }
+.feedback-bookmark-open { border: 0; border-radius: 999px; padding: 8px 11px; color: #304794; background: #edf1ff; cursor: pointer; font: 850 10px ui-sans-serif,system-ui,sans-serif; }
 .utility-empty { min-height: 410px; display: grid; place-items: center; align-content: center; text-align: center; color: var(--ink-soft); }
 .utility-empty span { color: var(--orange); font-size: 48px; }
 .utility-empty h2 { margin: 13px 0 3px; color: var(--ink); }
@@ -906,6 +970,8 @@ button { color: inherit; }
 
 .admin-search { min-width: min(100%, 330px); display: grid; gap: 7px; }
 .admin-search span { color: #f1c49b; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; font-weight: 800; }
+.admin-search-tools { min-width: min(100%, 360px); display: grid; gap: 10px; justify-items: stretch; }
+.admin-name-sort { justify-self: end; border: 1px solid rgba(255,255,255,.25); color: #fff; background: rgba(255,255,255,.1); box-shadow: none; }
 
 .topic-picker-dialog { width: min(920px, calc(100% - 28px)); max-height: min(820px, calc(100vh - 28px)); border: 0; border-radius: 25px; padding: 0; color: var(--ink); background: var(--paper); box-shadow: 0 30px 100px rgba(5,5,24,.55); }
 .topic-picker-dialog::backdrop { background: rgba(12,12,34,.72); backdrop-filter: blur(5px); }

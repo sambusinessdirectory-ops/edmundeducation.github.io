@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260814-feedback-rich1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260814-feedback-learning1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260814-1">
 </head>
 <body>
@@ -44,6 +44,7 @@
         <button class="header-button" type="button" data-workspace-button hidden>交文首頁</button>
         <button class="header-button" type="button" data-submissions-button hidden>我的文章</button>
         <button class="header-button" type="button" data-grammar-log-button hidden>文法問題記錄</button>
+        <button class="header-button" type="button" data-feedback-bookmarks-button hidden>我的評語書籤</button>
         <button class="header-button" type="button" data-admin-button hidden>學生文章</button>
         <button class="header-button" type="button" data-admin-review-button hidden>待補文法解釋</button>
         <button class="header-button" type="button" data-logout hidden>登出</button>
@@ -142,7 +143,7 @@
             <div class="section-heading editor-heading">
               <div>
                 <p class="eyebrow">WRITING AREA</p>
-                <h2>文章內容</h2>
+                <h2 class="writing-editor-title">文章內容 <em data-proofreading-label hidden>校對時間</em></h2>
               </div>
               <div class="editor-heading-tools">
                 <button class="writing-timer-toggle" type="button" data-writing-timer-toggle aria-expanded="false" aria-controls="writing-timer-panel">
@@ -316,6 +317,24 @@
       </section>
     </section>
 
+    <section class="view" data-view="feedback-bookmarks" hidden>
+      <section class="utility-hero glass-panel">
+        <div>
+          <p class="eyebrow">SAVED EDMUND FEEDBACK</p>
+          <h1>我的評語書籤</h1>
+          <p>把不同文章的重要原句與 Edmund 評語集中保存，方便日後重溫。</p>
+        </div>
+        <button class="small-button" type="button" data-refresh-feedback-bookmarks>重新整理</button>
+      </section>
+      <section class="feedback-bookmark-library glass-panel">
+        <div class="section-heading">
+          <div><p class="eyebrow">BOOKMARKED SENTENCES</p><h2>已收藏原句</h2></div>
+          <span class="count-badge" data-feedback-bookmark-count>0</span>
+        </div>
+        <div class="feedback-bookmark-list" data-feedback-bookmark-list></div>
+      </section>
+    </section>
+
     <section class="view" data-view="admin" hidden>
       <section class="utility-hero glass-panel">
         <div>
@@ -323,7 +342,10 @@
           <h1>學生文章</h1>
           <p>選擇學生後，查看其文章及已偵測的文法問題。</p>
         </div>
-        <label class="admin-search"><span>搜尋學生或題目</span><input type="search" data-admin-search placeholder="輸入學生名稱或題目"></label>
+        <div class="admin-search-tools">
+          <label class="admin-search"><span>搜尋學生或題目</span><input type="search" data-admin-search placeholder="輸入學生名稱或題目"></label>
+          <button class="small-button admin-name-sort" type="button" data-admin-name-sort aria-label="學生姓名目前由 A 至 Z 排列">姓名 A → Z</button>
+        </div>
       </section>
       <div class="admin-student-layout">
         <section class="admin-student-panel glass-panel">
@@ -405,6 +427,6 @@
   <script src="writing-submission-config.js"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260814-1"></script>
-  <script type="module" src="writing-submission.js?v=20260814-feedback-rich1"></script>
+  <script type="module" src="writing-submission.js?v=20260814-feedback-learning1"></script>
 </body>
 </html>

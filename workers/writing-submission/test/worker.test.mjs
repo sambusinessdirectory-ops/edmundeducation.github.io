@@ -14,6 +14,7 @@ const OCCURRENCE_ID = "44444444-4444-4444-8444-444444444444";
 const ADMIN_TOKEN = "55555555-5555-4555-8555-555555555555";
 const ADMIN_ID = "66666666-6666-4666-8666-666666666666";
 const FEEDBACK_ID = "77777777-7777-4777-8777-777777777777";
+const FRAGMENT_ID = "88888888-8888-4888-8888-888888888888";
 const RECREATED_FEEDBACK_ID = "99999999-9999-4999-8999-999999999999";
 const FINGERPRINT = "a".repeat(64);
 const CANONICAL_DSE_TOPIC = WRITING_SUBMISSION_TOPIC_CATALOG.find(
@@ -115,7 +116,7 @@ function storedFeedback(overrides = {}) {
     published_at: "2026-08-12T04:00:00.000Z",
     updated_at: "2026-08-12T04:00:00.000Z",
     fragments: [{
-      id: "88888888-8888-4888-8888-888888888888",
+      id: FRAGMENT_ID,
       position: 1,
       originalFragment: "Students learns quickly.",
       edmundComment: "Students 是複數，動詞使用 learn。",
@@ -3600,7 +3601,7 @@ test("students can read only published feedback belonging to their submission", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open") {
+    if (rpc.name === "writing_submission_feedback_student_open_v2") {
       assert.deepEqual(rpc.body, {
         p_student_id: STUDENT_ID,
         p_submission_id: SUBMISSION_ID
@@ -3641,7 +3642,7 @@ test("legacy stored feedback emits the complete enhanced fragment shape", async 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open") {
+    if (rpc.name === "writing_submission_feedback_student_open_v2") {
       return jsonResponse([storedFeedback({
         fragments: [{
           id: "88888888-8888-4888-8888-888888888888",
@@ -3668,7 +3669,12 @@ test("legacy stored feedback emits the complete enhanced fragment shape", async 
     suggestedWriting: "",
     originalFormatting: [],
     commentFormatting: [],
-    suggestionFormatting: []
+    suggestionFormatting: [],
+    suggestionCopyText: "",
+    suggestionCopyVersion: 0,
+    suggestionCopyUpdatedAt: null,
+    bookmarked: false,
+    bookmarkVersion: 0
   });
 });
 
@@ -3678,7 +3684,7 @@ test("student feedback returns null while no published feedback exists", async t
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open") return jsonResponse([]);
+    if (rpc.name === "writing_submission_feedback_student_open_v2") return jsonResponse([]);
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const response = await worker.fetch(new Request(
@@ -3709,7 +3715,7 @@ test("student list exposes published and unread feedback state and opening marks
         feedback_unread: true
       }]);
     }
-    if (rpc.name === "writing_submission_feedback_student_open") {
+    if (rpc.name === "writing_submission_feedback_student_open_v2") {
       return jsonResponse([storedFeedback({
         improved_version: "A clearer retained-meaning version.",
         transcription_improved: "My first transcription",
@@ -3736,7 +3742,7 @@ test("student list exposes published and unread feedback state and opening marks
   assert.equal(feedback.improvedVersion, "A clearer retained-meaning version.");
   assert.equal(feedback.transcriptionVersion, 3);
   assert.equal(feedback.topicResource.id, CANONICAL_DSE_TOPIC.id);
-  assert.ok(calls.some(call => call.name === "writing_submission_feedback_student_open"
+  assert.ok(calls.some(call => call.name === "writing_submission_feedback_student_open_v2"
     && call.body.p_student_id === STUDENT_ID));
 });
 
@@ -3792,7 +3798,7 @@ test("published admin feedback allows optional headers and carries the improved 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
       assert.equal(rpc.body.p_overall_comment, "");
       assert.equal(rpc.body.p_final_comment, "");
       assert.equal(rpc.body.p_improved_version, "A polished passage.");
@@ -3838,16 +3844,17 @@ test("administrator can load, save and delete structured teacher feedback", asyn
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_get_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_get_v3") {
       return jsonResponse([storedFeedback({ status: "draft", published_at: null })]);
     }
-    if (rpc.name === "writing_submission_feedback_admin_save") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
       assert.equal(rpc.body.p_admin_token, ADMIN_TOKEN);
       assert.equal(rpc.body.p_submission_id, SUBMISSION_ID);
       assert.equal(rpc.body.p_status, "published");
       assert.equal(rpc.body.p_expected_version, 2);
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       assert.deepEqual(rpc.body.p_fragments, [{
+        id: FRAGMENT_ID,
         originalFragment: "Students learns quickly.",
         edmundComment: "Students 是複數，動詞使用 learn。",
         suggestedWriting: "Students learn quickly.",
@@ -3890,6 +3897,7 @@ test("administrator can load, save and delete structured teacher feedback", asyn
       body: JSON.stringify({
         overallComment: "整體表達清楚。",
         fragments: [{
+          id: FRAGMENT_ID,
           originalFragment: "Students learns quickly.",
           edmundComment: "Students 是複數，動詞使用 learn。",
           suggestedWriting: "Students learn quickly.",
@@ -3929,7 +3937,7 @@ test("administrator can load, save and delete structured teacher feedback", asyn
     { key: `writing-submission-admin-feedback:${ADMIN_ID}` },
     { key: `writing-submission-admin-feedback:${ADMIN_ID}` }
   ]);
-  assert.equal(calls.filter(call => call.name === "writing_submission_feedback_admin_save").length, 1);
+  assert.equal(calls.filter(call => call.name === "writing_submission_feedback_admin_save_v2").length, 1);
 });
 
 test("legacy two-field feedback saves are normalized before storage", async t => {
@@ -3938,8 +3946,9 @@ test("legacy two-field feedback saves are normalized before storage", async t =>
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
       assert.deepEqual(rpc.body.p_fragments, [{
+        id: null,
         originalFragment: "Legacy original.",
         edmundComment: "Legacy comment.",
         suggestedWriting: "",
@@ -3987,7 +3996,12 @@ test("legacy two-field feedback saves are normalized before storage", async t =>
     suggestedWriting: "",
     originalFormatting: [],
     commentFormatting: [],
-    suggestionFormatting: []
+    suggestionFormatting: [],
+    suggestionCopyText: "",
+    suggestionCopyVersion: 0,
+    suggestionCopyUpdatedAt: null,
+    bookmarked: false,
+    bookmarkVersion: 0
   });
 });
 
@@ -3997,7 +4011,7 @@ test("published enhanced feedback does not require suggested writing", async t =
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
       assert.equal(rpc.body.p_status, "published");
       assert.equal(rpc.body.p_fragments[0].suggestedWriting, "");
       return jsonResponse([storedFeedback({
@@ -4047,7 +4061,7 @@ test("feedback formatting rejects invalid shapes, ranges, styles and oversized a
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") saveCalled = true;
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") saveCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const validFragment = {
@@ -4118,7 +4132,7 @@ test("published feedback rejects incomplete fragment pairs before storage", asyn
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") saveCalled = true;
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") saveCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const response = await worker.fetch(new Request(
@@ -4153,7 +4167,7 @@ test("feedback saves require a valid version and matching feedback identity shap
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") saveCalled = true;
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") saveCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const headers = {
@@ -4173,7 +4187,8 @@ test("feedback saves require a valid version and matching feedback identity shap
     { ...validFeedbackWithoutVersion, expectedVersion: 1.5, expectedFeedbackId: FEEDBACK_ID },
     { ...validFeedbackWithoutVersion, expectedVersion: 0, expectedFeedbackId: FEEDBACK_ID },
     { ...validFeedbackWithoutVersion, expectedVersion: 1, expectedFeedbackId: null },
-    { ...validFeedbackWithoutVersion, expectedVersion: 1, expectedFeedbackId: "not-a-uuid" }
+    { ...validFeedbackWithoutVersion, expectedVersion: 1, expectedFeedbackId: "not-a-uuid" },
+    { ...validFeedbackWithoutVersion, expectedVersion: 1, expectedFeedbackId: FEEDBACK_ID }
   ]) {
     const response = await worker.fetch(new Request(
       `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
@@ -4191,7 +4206,7 @@ test("stale administrator feedback saves return a specific 409 without exposing 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
       assert.equal(rpc.body.p_expected_version, 2);
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       return jsonResponse({
@@ -4212,7 +4227,8 @@ test("stale administrator feedback saves return a specific 409 without exposing 
       },
       body: JSON.stringify({
         overallComment: "整體評語",
-        fragments: [{ originalFragment: "Original", edmundComment: "Comment" }],
+        fragments: [{ id: FRAGMENT_ID, originalFragment: "Original", edmundComment: "Comment",
+          suggestedWriting: "", originalFormatting: [], commentFormatting: [], suggestionFormatting: [] }],
         finalComment: "最後評語",
         status: "draft",
         expectedVersion: 2,
@@ -4291,7 +4307,7 @@ test("deleted and recreated feedback rejects stale save and delete requests from
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       return jsonResponse(1);
     }
-    if (operation === 2 && rpc.name === "writing_submission_feedback_admin_save") {
+    if (operation === 2 && rpc.name === "writing_submission_feedback_admin_save_v2") {
       assert.equal(rpc.body.p_expected_version, 0);
       assert.equal(rpc.body.p_expected_feedback_id, null);
       return jsonResponse([storedFeedback({
@@ -4301,7 +4317,7 @@ test("deleted and recreated feedback rejects stale save and delete requests from
         published_at: null
       })]);
     }
-    if (operation === 3 && rpc.name === "writing_submission_feedback_admin_save") {
+    if (operation === 3 && rpc.name === "writing_submission_feedback_admin_save_v2") {
       // Version 1 exists again, but it belongs to the recreated feedback ID.
       assert.equal(rpc.body.p_expected_version, 1);
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
@@ -4323,7 +4339,15 @@ test("deleted and recreated feedback rejects stale save and delete requests from
   };
   const validDraft = {
     overallComment: "整體評語",
-    fragments: [{ originalFragment: "Original", edmundComment: "Comment" }],
+    fragments: [{
+      id: null,
+      originalFragment: "Original",
+      edmundComment: "Comment",
+      suggestedWriting: "",
+      originalFormatting: [],
+      commentFormatting: [],
+      suggestionFormatting: []
+    }],
     finalComment: "最後評語",
     status: "draft"
   };
@@ -4363,6 +4387,377 @@ test("deleted and recreated feedback rejects stale save and delete requests from
   assert.equal(staleDelete.status, 409);
   assert.equal((await staleDelete.json()).code, "FEEDBACK_VERSION_CONFLICT");
   assert.equal(operation, 4);
+});
+
+test("student feedback returns learning sections and owner-specific fragment state", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_student_open_v2") {
+      assert.deepEqual(rpc.body, {
+        p_student_id: STUDENT_ID,
+        p_submission_id: SUBMISSION_ID
+      });
+      return jsonResponse([storedFeedback({
+        grammar_points: [{
+          text: "Use a plural verb after Students.",
+          formatting: [{ start: 0, end: 3, bold: true, highlight: "blue" }]
+        }],
+        sentence_structure_methods: [{
+          text: "Use a concessive clause before the main point.",
+          formatting: []
+        }],
+        sentence_structure_links: [{
+          label: "Concessive clauses",
+          url: "/sentence-structure.html?lesson=concessive"
+        }],
+        fragments: [{
+          ...storedFeedback().fragments[0],
+          suggestionCopyText: "Students learn quickly.",
+          suggestionCopyVersion: 4,
+          suggestionCopyUpdatedAt: "2026-08-14T09:00:00.000Z",
+          bookmarked: true,
+          bookmarkVersion: 3
+        }]
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback`,
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  const feedback = (await response.json()).feedback;
+  assert.equal(feedback.grammarPoints[0].text, "Use a plural verb after Students.");
+  assert.equal(feedback.sentenceStructureMethods[0].text, "Use a concessive clause before the main point.");
+  assert.equal(feedback.sentenceStructureLinks[0].url, "/sentence-structure.html?lesson=concessive");
+  assert.deepEqual({
+    text: feedback.fragments[0].suggestionCopyText,
+    version: feedback.fragments[0].suggestionCopyVersion,
+    updatedAt: feedback.fragments[0].suggestionCopyUpdatedAt,
+    bookmarked: feedback.fragments[0].bookmarked,
+    bookmarkVersion: feedback.fragments[0].bookmarkVersion
+  }, {
+    text: "Students learn quickly.",
+    version: 4,
+    updatedAt: "2026-08-14T09:00:00.000Z",
+    bookmarked: true,
+    bookmarkVersion: 3
+  });
+});
+
+test("students save a bounded per-fragment suggestion copy with optimistic concurrency", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let conflict = false;
+  let saveCalls = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_student_save_fragment_copy_v2") {
+      saveCalls += 1;
+      assert.deepEqual(rpc.body, {
+        p_student_id: STUDENT_ID,
+        p_submission_id: SUBMISSION_ID,
+        p_fragment_id: FRAGMENT_ID,
+        p_copy_text: "My copied suggestion.\nSecond line.",
+        p_expected_version: 2
+      });
+      if (conflict) return jsonResponse({ code: "P4092" }, 400);
+      return jsonResponse([{
+        fragment_id: FRAGMENT_ID,
+        copy_text: rpc.body.p_copy_text,
+        version: 3,
+        updated_at: "2026-08-14T10:00:00.000Z"
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const limiterBinding = limiter();
+  const route = `https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback/fragments/${FRAGMENT_ID}/suggestion-copy`;
+  const request = body => new Request(route, {
+    method: "PUT",
+    headers: {
+      Origin: ORIGIN,
+      Authorization: `Bearer ${STUDENT_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(body)
+  });
+  const validBody = { text: "My copied suggestion.\r\nSecond line.", expectedVersion: 2 };
+
+  const saved = await worker.fetch(request(validBody), environment({
+    SUBMISSION_WRITE_RATE_LIMITER: limiterBinding
+  }));
+  assert.equal(saved.status, 200);
+  assert.deepEqual((await saved.json()).suggestionCopy, {
+    fragmentId: FRAGMENT_ID,
+    text: "My copied suggestion.\nSecond line.",
+    version: 3,
+    updatedAt: "2026-08-14T10:00:00.000Z"
+  });
+
+  conflict = true;
+  const stale = await worker.fetch(request(validBody), environment({
+    SUBMISSION_WRITE_RATE_LIMITER: limiterBinding
+  }));
+  assert.equal(stale.status, 409);
+  assert.equal((await stale.json()).code, "SUGGESTION_COPY_VERSION_CONFLICT");
+
+  const invalid = await worker.fetch(request({ ...validBody, studentId: STUDENT_ID }), environment({
+    SUBMISSION_WRITE_RATE_LIMITER: limiterBinding
+  }));
+  assert.equal(invalid.status, 400);
+  assert.equal((await invalid.json()).code, "INVALID_SUGGESTION_COPY");
+  assert.equal(saveCalls, 2, "invalid request shapes must not reach the write RPC");
+  assert.deepEqual(limiterBinding.calls, [
+    { key: `writing-submission-suggestion-copy:${STUDENT_ID}` },
+    { key: `writing-submission-suggestion-copy:${STUDENT_ID}` },
+    { key: `writing-submission-suggestion-copy:${STUDENT_ID}` }
+  ]);
+});
+
+test("student bookmark list and idempotent state updates stay owner-derived and versioned", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let conflict = false;
+  let writeCalls = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_bookmarks_list_v2") {
+      assert.deepEqual(rpc.body, { p_student_id: STUDENT_ID, p_limit: 3, p_offset: 0 });
+      return jsonResponse([{
+        fragment_id: FRAGMENT_ID,
+        feedback_id: FEEDBACK_ID,
+        submission_id: SUBMISSION_ID,
+        topic: "A school proposal",
+        position: 1,
+        original_fragment: "Students learns quickly.",
+        edmund_comment: "Use a plural verb.",
+        suggested_writing: "Students learn quickly.",
+        original_formatting: [],
+        comment_formatting: [],
+        suggestion_formatting: [],
+        version: 5,
+        updated_at: "2026-08-14T11:00:00.000Z",
+        published_at: "2026-08-14T08:00:00.000Z"
+      }]);
+    }
+    if (rpc.name === "writing_submission_feedback_bookmark_set_v2") {
+      writeCalls += 1;
+      assert.deepEqual(rpc.body, {
+        p_student_id: STUDENT_ID,
+        p_fragment_id: FRAGMENT_ID,
+        p_bookmarked: false,
+        p_expected_version: 5
+      });
+      if (conflict) return jsonResponse({ code: "P4093" }, 400);
+      return jsonResponse([{
+        fragment_id: FRAGMENT_ID,
+        bookmarked: false,
+        version: 6,
+        updated_at: "2026-08-14T11:05:00.000Z"
+      }]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const headers = { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` };
+  const list = await worker.fetch(new Request(
+    "https://worker.example/v1/feedback-bookmarks?page=1&pageSize=2",
+    { headers }
+  ), environment());
+  assert.equal(list.status, 200);
+  const listed = await list.json();
+  assert.equal(listed.bookmarks[0].fragmentId, FRAGMENT_ID);
+  assert.equal(listed.bookmarks[0].topic, "A school proposal");
+  assert.equal(listed.bookmarks[0].version, 5);
+  assert.equal(listed.hasMore, false);
+
+  const route = `https://worker.example/v1/feedback-bookmarks/${FRAGMENT_ID}`;
+  const request = body => new Request(route, {
+    method: "PUT",
+    headers: { ...headers, "Content-Type": "application/json" },
+    body: JSON.stringify(body)
+  });
+  const limiterBinding = limiter();
+  const saved = await worker.fetch(
+    request({ bookmarked: false, expectedVersion: 5 }),
+    environment({ SUBMISSION_WRITE_RATE_LIMITER: limiterBinding })
+  );
+  assert.equal(saved.status, 200);
+  assert.deepEqual((await saved.json()).bookmark, {
+    fragmentId: FRAGMENT_ID,
+    bookmarked: false,
+    version: 6,
+    updatedAt: "2026-08-14T11:05:00.000Z"
+  });
+
+  conflict = true;
+  const stale = await worker.fetch(
+    request({ bookmarked: false, expectedVersion: 5 }),
+    environment({ SUBMISSION_WRITE_RATE_LIMITER: limiterBinding })
+  );
+  assert.equal(stale.status, 409);
+  assert.equal((await stale.json()).code, "BOOKMARK_VERSION_CONFLICT");
+
+  const invalid = await worker.fetch(
+    request({ bookmarked: "false", expectedVersion: 5 }),
+    environment({ SUBMISSION_WRITE_RATE_LIMITER: limiterBinding })
+  );
+  assert.equal(invalid.status, 400);
+  assert.equal((await invalid.json()).code, "INVALID_BOOKMARK");
+  assert.equal(writeCalls, 2, "invalid bookmark input must not reach storage");
+});
+
+test("administrator learning tools use exact rich-text shapes and internal sentence links", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalls = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+      saveCalls += 1;
+      assert.equal(rpc.body.p_fragments[0].id, FRAGMENT_ID);
+      assert.deepEqual(rpc.body.p_grammar_points, [{
+        text: "Subject–verb agreement",
+        formatting: [{ start: 0, end: 7, bold: true, highlight: "blue" }]
+      }]);
+      assert.deepEqual(rpc.body.p_sentence_structure_methods, [{
+        text: "Begin with Although.",
+        formatting: []
+      }]);
+      assert.deepEqual(rpc.body.p_sentence_structure_links, [{
+        label: "Although practice",
+        url: "/sentence-structure.html?lesson=although"
+      }]);
+      return jsonResponse([storedFeedback({
+        version: 3,
+        grammar_points: rpc.body.p_grammar_points,
+        sentence_structure_methods: rpc.body.p_sentence_structure_methods,
+        sentence_structure_links: rpc.body.p_sentence_structure_links
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const route = `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`;
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  const { position: _position, ...adminFragment } = storedFeedback().fragments[0];
+  const payload = {
+    overallComment: "",
+    fragments: [{ ...adminFragment, id: FRAGMENT_ID }],
+    finalComment: "",
+    improvedVersion: "",
+    grammarPoints: [{
+      text: "Subject–verb agreement",
+      formatting: [{ start: 0, end: 7, bold: true, highlight: "blue" }]
+    }],
+    sentenceStructureMethods: [{ text: "Begin with Although.", formatting: [] }],
+    sentenceStructureLinks: [{
+      label: "Although practice",
+      url: "/sentence-structure.html?lesson=%61lthough"
+    }],
+    status: "published",
+    expectedVersion: 2,
+    expectedFeedbackId: FEEDBACK_ID
+  };
+  const response = await worker.fetch(new Request(route, {
+    method: "PUT",
+    headers,
+    body: JSON.stringify(payload)
+  }), environment());
+  assert.equal(response.status, 200);
+  const feedback = (await response.json()).feedback;
+  assert.equal(feedback.grammarPoints[0].text, "Subject–verb agreement");
+  assert.equal(feedback.sentenceStructureMethods[0].text, "Begin with Although.");
+  assert.equal(feedback.sentenceStructureLinks[0].label, "Although practice");
+
+  for (const invalidPayload of [
+    { ...payload, grammarPoints: [{ text: "", formatting: [] }] },
+    { ...payload, grammarPoints: [{ text: "Point", formatting: [], html: "<b>Point</b>" }] },
+    { ...payload, sentenceStructureMethods: [{ text: "Point", formatting: [{ start: 0, end: 99, bold: true, highlight: "green" }] }] },
+    { ...payload, sentenceStructureLinks: [{ label: "External", url: "https://attacker.example/" }] },
+    { ...payload, sentenceStructureLinks: [{ label: "Wrong system", url: "/writing-submission.html?lesson=one" }] },
+    { ...payload, sentenceStructureLinks: [{ label: "Hash", url: "/sentence-structure.html?lesson=one#two" }] },
+    { ...payload, sentenceStructureLinks: [{ label: "Extra", url: "/sentence-structure.html?lesson=one&mode=two" }] },
+    { ...payload, sentenceStructureLinks: [{ label: "Duplicate", url: "/sentence-structure.html?lesson=one&lesson=two" }] },
+    { ...payload, sentenceStructureLinks: [{ label: "Unsafe lesson", url: "/sentence-structure.html?lesson=../../admin" }] }
+  ]) {
+    const invalid = await worker.fetch(new Request(route, {
+      method: "PUT",
+      headers,
+      body: JSON.stringify(invalidPayload)
+    }), environment());
+    assert.equal(invalid.status, 400);
+    assert.equal((await invalid.json()).code, "INVALID_FEEDBACK");
+  }
+  assert.equal(saveCalls, 1, "invalid rich text and links must not reach storage");
+});
+
+test("rich-text formatting offsets use JavaScript UTF-16 positions after emoji", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalled = false;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+      saveCalled = true;
+      assert.deepEqual(rpc.body.p_grammar_points, [{
+        text: "😀A",
+        formatting: [{ start: 2, end: 3, bold: true, highlight: "yellow" }]
+      }]);
+      return jsonResponse([storedFeedback({
+        grammar_points: rpc.body.p_grammar_points,
+        sentence_structure_methods: [],
+        sentence_structure_links: [],
+        version: 3
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "",
+        fragments: [],
+        finalComment: "",
+        improvedVersion: "",
+        grammarPoints: [{
+          text: "😀A",
+          formatting: [{ start: 2, end: 3, bold: true, highlight: "yellow" }]
+        }],
+        sentenceStructureMethods: [],
+        sentenceStructureLinks: [],
+        status: "draft",
+        expectedVersion: 2,
+        expectedFeedbackId: FEEDBACK_ID
+      })
+    }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.equal(saveCalled, true, "UTF-16 run [2,3) must reach the storage RPC");
+  assert.deepEqual((await response.json()).feedback.grammarPoints[0], {
+    text: "😀A",
+    formatting: [{ start: 2, end: 3, bold: true, highlight: "yellow" }]
+  });
 });
 
 test("the missing-explanation queue is available only through administrator authentication", async t => {
@@ -4902,6 +5297,114 @@ test("the feedback migration is normalized, private, ownership-scoped and audita
     assert.match(
       migration,
       new RegExp(`grant execute on function public\\.${functionName}\\([\\s\\S]*?to service_role;`)
+    );
+  }
+});
+
+test("the feedback learning-tools migration is private, owner-scoped and concurrency-safe", t => {
+  const migrationUrl = new URL(
+    "../../../supabase-writing-submission-feedback-learning-tools.sql",
+    import.meta.url
+  );
+  if (!fs.existsSync(migrationUrl)) {
+    t.skip("the focused Worker staging fixture does not include the learning-tools migration");
+    return;
+  }
+  const migration = fs.readFileSync(migrationUrl, "utf8");
+  assert.match(migration, /^begin;/m);
+  assert.match(migration, /commit;\s*$/);
+  assert.match(migration, /add column if not exists grammar_points jsonb not null default '\[\]'::jsonb/);
+  assert.match(migration, /add column if not exists sentence_structure_methods jsonb not null default '\[\]'::jsonb/);
+  assert.match(migration, /add column if not exists sentence_structure_links jsonb not null default '\[\]'::jsonb/);
+
+  for (const table of [
+    "writing_submission_feedback_fragment_copies",
+    "writing_submission_feedback_fragment_bookmarks"
+  ]) {
+    assert.match(migration, new RegExp(`create table if not exists public\\.${table}`));
+    assert.match(migration, new RegExp(`alter table public\\.${table} enable row level security;`));
+    assert.match(
+      migration,
+      new RegExp(`revoke all on table public\\.${table}[\\s\\S]*?from public, anon, authenticated, service_role;`)
+    );
+  }
+  assert.match(
+    migration,
+    /unique \(feedback_id, position\) deferrable initially immediate/
+  );
+  assert.match(migration, /create or replace function public\._writing_submission_utf16_length/);
+  assert.match(
+    migration,
+    /_writing_submission_utf16_length\(coalesce\(v_item ->> 'text', ''\)\)/
+  );
+
+  const studentOpen = migration.match(
+    /create or replace function public\.writing_submission_feedback_student_open_v2[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(studentOpen, /feedback\.student_id = p_student_id/);
+  assert.match(studentOpen, /feedback\.status = 'published'/);
+  assert.match(studentOpen, /submission\.deleted_at is null/);
+  assert.match(studentOpen, /fragment_copy\.student_id = p_student_id/);
+  assert.match(studentOpen, /bookmark\.student_id = p_student_id/);
+
+  const copySave = migration.match(
+    /create or replace function public\.writing_submission_feedback_student_save_fragment_copy_v2[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(copySave, /feedback\.submission_id = p_submission_id/);
+  assert.match(copySave, /feedback\.student_id = p_student_id/);
+  assert.match(copySave, /feedback\.status = 'published'/);
+  assert.match(copySave, /char_length\(btrim\(fragment\.suggested_writing\)\) > 0/);
+  assert.match(copySave, /p_expected_version <> v_existing_version/);
+  assert.match(copySave, /errcode = 'P4092'/);
+
+  const bookmarkSet = migration.match(
+    /create or replace function public\.writing_submission_feedback_bookmark_set_v2[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(bookmarkSet, /feedback\.student_id = p_student_id/);
+  assert.match(bookmarkSet, /feedback\.status = 'published'/);
+  assert.match(bookmarkSet, /p_expected_version <> v_existing_version/);
+  assert.match(bookmarkSet, /errcode = 'P4093'/);
+
+  const bookmarkList = migration.match(
+    /create or replace function public\.writing_submission_feedback_bookmarks_list_v2[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(bookmarkList, /where bookmark\.student_id = p_student_id/);
+  assert.match(bookmarkList, /bookmark\.bookmarked = true/);
+  assert.match(bookmarkList, /feedback\.status = 'published'/);
+
+  const adminSaveV2 = migration.match(
+    /create or replace function public\.writing_submission_feedback_admin_save_v2[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(adminSaveV2, /public\._writing_submission_admin_id\(p_admin_token\)/);
+  assert.match(adminSaveV2, /p_expected_feedback_id is distinct from v_feedback_id/);
+  assert.match(adminSaveV2, /writing_submission_feedback_fragments_v2_valid/);
+  assert.match(adminSaveV2, /where fragment\.id = v_fragment_id/);
+  assert.match(adminSaveV2, /not \(fragment\.id = any\(v_keep_ids\)\)/);
+  assert.match(adminSaveV2, /submission\.deleted_at is null/);
+  assert.doesNotMatch(
+    adminSaveV2,
+    /fragment\.position = v_position/,
+    "new null-ID fragments must never inherit student state from a same-position row"
+  );
+  assert.match(adminSaveV2, /insert into public\.writing_submission_feedback_audit/);
+
+  assert.doesNotMatch(
+    migration,
+    /(?:drop|create or replace) function public\.writing_submission_feedback_(?:student_open|admin_get_v2|admin_save)\s*\(/i,
+    "compatibility RPCs must remain unchanged"
+  );
+  assert.doesNotMatch(migration, /grant execute[\s\S]*?to (?:anon|authenticated);/);
+  for (const signature of [
+    "writing_submission_feedback_student_open_v2\\(uuid, uuid\\)",
+    "writing_submission_feedback_admin_get_v3\\(uuid, uuid\\)",
+    "writing_submission_feedback_admin_save_v2\\(",
+    "writing_submission_feedback_student_save_fragment_copy_v2\\(",
+    "writing_submission_feedback_bookmark_set_v2\\(",
+    "writing_submission_feedback_bookmarks_list_v2\\("
+  ]) {
+    assert.match(
+      migration,
+      new RegExp(`grant execute on function public\\.${signature}[\\s\\S]*?to service_role;`)
     );
   }
 });

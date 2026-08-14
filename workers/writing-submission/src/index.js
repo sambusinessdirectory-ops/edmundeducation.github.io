@@ -25,6 +25,8 @@ const MAX_SUBMISSION_BODY_BYTES = 512 * 1024;
 const MAX_DRAFT_BODY_BYTES = 512 * 1024;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
 const MAX_FEEDBACK_DELETE_BODY_BYTES = 1024;
+const MAX_FRAGMENT_COPY_BODY_BYTES = 96 * 1024;
+const MAX_BOOKMARK_BODY_BYTES = 2048;
 const MAX_ISSUE_BATCH_BODY_BYTES = 512 * 1024;
 const MAX_TOPIC_CHARACTERS = 4000;
 const MAX_TOPIC_BYTES = 16000;
@@ -41,6 +43,10 @@ const MAX_FEEDBACK_FRAGMENT_CHARACTERS = 10000;
 const MAX_FEEDBACK_COMMENT_CHARACTERS = 20000;
 const MAX_FEEDBACK_SUGGESTION_CHARACTERS = 20000;
 const MAX_FEEDBACK_FORMATTING_RUNS = 500;
+const MAX_FEEDBACK_RICH_TEXT_ITEMS = 100;
+const MAX_SENTENCE_STRUCTURE_LINKS = 100;
+const MAX_SENTENCE_STRUCTURE_LINK_LABEL_CHARACTERS = 200;
+const MAX_SENTENCE_STRUCTURE_LINK_URL_CHARACTERS = 2048;
 const FEEDBACK_HIGHLIGHTS = new Set(["", "yellow", "orange", "blue", "green"]);
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
@@ -183,11 +189,26 @@ async function route(request, env) {
   if (submissionFeedbackMatch && request.method === "GET") {
     return getSubmissionFeedback(request, env, submissionFeedbackMatch[1]);
   }
+  const suggestionCopyMatch = url.pathname.match(
+    /^\/v1\/submissions\/([0-9a-f-]{36})\/feedback\/fragments\/([0-9a-f-]{36})\/suggestion-copy$/i
+  );
+  if (suggestionCopyMatch && request.method === "PUT") {
+    return putSuggestionCopy(request, env, suggestionCopyMatch[1], suggestionCopyMatch[2]);
+  }
   const submissionTranscriptionMatch = url.pathname.match(
     /^\/v1\/submissions\/([0-9a-f-]{36})\/transcriptions$/i
   );
   if (submissionTranscriptionMatch && request.method === "PUT") {
     return putSubmissionTranscriptions(request, env, submissionTranscriptionMatch[1]);
+  }
+  if (url.pathname === "/v1/feedback-bookmarks" && request.method === "GET") {
+    return listFeedbackBookmarks(request, env, url);
+  }
+  const feedbackBookmarkMatch = url.pathname.match(
+    /^\/v1\/feedback-bookmarks\/([0-9a-f-]{36})$/i
+  );
+  if (feedbackBookmarkMatch && request.method === "PUT") {
+    return putFeedbackBookmark(request, env, feedbackBookmarkMatch[1]);
   }
 
   if (url.pathname === "/v1/grammar-occurrences/batch" && request.method === "POST") {
@@ -1209,6 +1230,9 @@ function feedbackResponse(row) {
     version: Number(row.version || 0),
     publishedAt: row.published_at ? String(row.published_at) : null,
     updatedAt: String(row.updated_at || ""),
+    grammarPoints: feedbackRichTextResponse(row.grammar_points),
+    sentenceStructureMethods: feedbackRichTextResponse(row.sentence_structure_methods),
+    sentenceStructureLinks: sentenceStructureLinksResponse(row.sentence_structure_links),
     fragments: fragments.map((fragment, index) => {
       const originalFragment = String(
         fragment?.originalFragment ?? fragment?.original_fragment ?? ""
@@ -1236,7 +1260,20 @@ function feedbackResponse(row) {
         suggestionFormatting: feedbackFormattingResponse(
           fragment?.suggestionFormatting ?? fragment?.suggestion_formatting,
           suggestedWriting.length
-        )
+        ),
+        suggestionCopyText: String(
+          fragment?.suggestionCopyText ?? fragment?.suggestion_copy_text ?? ""
+        ),
+        suggestionCopyVersion: Math.max(0, Number(
+          fragment?.suggestionCopyVersion ?? fragment?.suggestion_copy_version ?? 0
+        )),
+        suggestionCopyUpdatedAt: (
+          fragment?.suggestionCopyUpdatedAt ?? fragment?.suggestion_copy_updated_at
+        ) ? String(fragment?.suggestionCopyUpdatedAt ?? fragment?.suggestion_copy_updated_at) : null,
+        bookmarked: (fragment?.bookmarked ?? false) === true,
+        bookmarkVersion: Math.max(0, Number(
+          fragment?.bookmarkVersion ?? fragment?.bookmark_version ?? 0
+        ))
       };
     }),
     transcriptionImproved: String(row.transcription_improved || ""),
@@ -1244,6 +1281,26 @@ function feedbackResponse(row) {
     transcriptionVersion: Math.max(0, Number(row.transcription_version || 0)),
     topicResource: row.topic_resource && typeof row.topic_resource === "object" ? row.topic_resource : null
   };
+}
+
+function feedbackRichTextResponse(value) {
+  if (!Array.isArray(value)) return [];
+  return value.slice(0, MAX_FEEDBACK_RICH_TEXT_ITEMS).flatMap((item) => {
+    if (!isPlainObject(item)) return [];
+    const text = String(item.text || "");
+    return [{
+      text,
+      formatting: feedbackFormattingResponse(item.formatting, text.length)
+    }];
+  });
+}
+
+function sentenceStructureLinksResponse(value) {
+  if (!Array.isArray(value)) return [];
+  return value.slice(0, MAX_SENTENCE_STRUCTURE_LINKS).flatMap((item) => {
+    if (!isPlainObject(item)) return [];
+    return [{ label: String(item.label || ""), url: String(item.url || "") }];
+  });
 }
 
 function validFeedbackFormattingRun(run, textLength) {
@@ -1303,8 +1360,96 @@ function normalizeFeedbackFormatting(value, label, textLength) {
   });
 }
 
+function normalizeFeedbackRichTextItems(value, label) {
+  if (!Array.isArray(value) || value.length > MAX_FEEDBACK_RICH_TEXT_ITEMS) {
+    throw new HttpError(400, "INVALID_FEEDBACK", `${label} must be a valid rich-text array`);
+  }
+  return value.map((item, index) => {
+    if (!hasExactKeys(item, ["text", "formatting"])) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] has an invalid shape`);
+    }
+    const text = normalizeFeedbackText(
+      item.text,
+      `${label}[${index}].text`,
+      MAX_FEEDBACK_COMMENT_CHARACTERS
+    );
+    if (!text.trim()) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}].text cannot be empty`);
+    }
+    return {
+      text,
+      formatting: normalizeFeedbackFormatting(
+        item.formatting,
+        `${label}[${index}].formatting`,
+        text.length
+      )
+    };
+  });
+}
+
+function normalizeSentenceStructureLinks(value) {
+  if (!Array.isArray(value) || value.length > MAX_SENTENCE_STRUCTURE_LINKS) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "sentenceStructureLinks must be a valid array");
+  }
+  return value.map((item, index) => {
+    if (!hasExactKeys(item, ["label", "url"])) {
+      throw new HttpError(
+        400,
+        "INVALID_FEEDBACK",
+        `sentenceStructureLinks[${index}] has an invalid shape`
+      );
+    }
+    const label = normalizeFeedbackText(
+      item.label,
+      `sentenceStructureLinks[${index}].label`,
+      MAX_SENTENCE_STRUCTURE_LINK_LABEL_CHARACTERS
+    );
+    const rawUrl = normalizeFeedbackText(
+      item.url,
+      `sentenceStructureLinks[${index}].url`,
+      MAX_SENTENCE_STRUCTURE_LINK_URL_CHARACTERS
+    );
+    if (!label.trim() || rawUrl.trim() !== rawUrl) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `sentenceStructureLinks[${index}] is invalid`);
+    }
+    let parsed;
+    try {
+      parsed = new URL(rawUrl, "https://writing-links.invalid");
+    } catch {
+      throw new HttpError(400, "INVALID_FEEDBACK", `sentenceStructureLinks[${index}].url is invalid`);
+    }
+    const parameters = [...parsed.searchParams.entries()];
+    const lesson = parameters.length === 1 && parameters[0][0] === "lesson"
+      ? parameters[0][1]
+      : "";
+    if (
+      !rawUrl.startsWith("/")
+      || rawUrl.startsWith("//")
+      || parsed.origin !== "https://writing-links.invalid"
+      || parsed.pathname !== "/sentence-structure.html"
+      || parsed.username
+      || parsed.password
+      || parsed.hash
+      || !/^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$/.test(lesson)
+    ) {
+      throw new HttpError(
+        400,
+        "INVALID_FEEDBACK",
+        `sentenceStructureLinks[${index}].url must target the sentence structure system`
+      );
+    }
+    return {
+      label,
+      url: `/sentence-structure.html?lesson=${encodeURIComponent(lesson)}`
+    };
+  });
+}
+
 function normalizeFeedbackPayload(payload) {
-  if (!hasOnlyKeys(payload, new Set([
+  if (!isPlainObject(payload)) {
+    throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
+  }
+  const baseKeys = new Set([
     "overallComment",
     "fragments",
     "finalComment",
@@ -1312,9 +1457,24 @@ function normalizeFeedbackPayload(payload) {
     "status",
     "expectedVersion",
     "expectedFeedbackId"
-  ])) || ![
+  ]);
+  const extendedKeys = new Set([
+    ...baseKeys,
+    "grammarPoints",
+    "sentenceStructureMethods",
+    "sentenceStructureLinks"
+  ]);
+  const hasExtendedFields = [
+    "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
+  ].some((key) => Object.prototype.hasOwnProperty.call(payload, key));
+  const allowedKeys = hasExtendedFields ? extendedKeys : baseKeys;
+  if (!hasOnlyKeys(payload, allowedKeys) || ![
     "overallComment", "fragments", "finalComment", "status", "expectedVersion", "expectedFeedbackId"
-  ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))) {
+  ].every((key) => Object.prototype.hasOwnProperty.call(payload, key)) || (
+    hasExtendedFields && ![
+      "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
+    ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+  )) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
   }
   const expectedVersion = payload.expectedVersion;
@@ -1363,8 +1523,28 @@ function normalizeFeedbackPayload(payload) {
       "commentFormatting",
       "suggestionFormatting"
     ]);
-    if (!legacyShape && !enhancedShape) {
+    const versionedShape = hasExactKeys(fragment, [
+      "id",
+      "originalFragment",
+      "edmundComment",
+      "suggestedWriting",
+      "originalFormatting",
+      "commentFormatting",
+      "suggestionFormatting"
+    ]);
+    if (!legacyShape && !enhancedShape && !versionedShape) {
       throw new HttpError(400, "INVALID_FEEDBACK", `fragments[${index}] has an invalid shape`);
+    }
+    if (expectedVersion > 0 && !versionedShape) {
+      throw new HttpError(
+        400,
+        "INVALID_FEEDBACK",
+        `fragments[${index}].id is required when updating feedback`
+      );
+    }
+    const fragmentId = versionedShape ? fragment.id : null;
+    if (fragmentId !== null && (typeof fragmentId !== "string" || !UUID_RE.test(fragmentId))) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `fragments[${index}].id is invalid`);
     }
     const originalFragment = normalizeFeedbackText(
       fragment.originalFragment,
@@ -1377,22 +1557,22 @@ function normalizeFeedbackPayload(payload) {
       MAX_FEEDBACK_COMMENT_CHARACTERS
     );
     const suggestedWriting = normalizeFeedbackText(
-      enhancedShape ? fragment.suggestedWriting : "",
+      enhancedShape || versionedShape ? fragment.suggestedWriting : "",
       `fragments[${index}].suggestedWriting`,
       MAX_FEEDBACK_SUGGESTION_CHARACTERS
     );
     const originalFormatting = normalizeFeedbackFormatting(
-      enhancedShape ? fragment.originalFormatting : [],
+      enhancedShape || versionedShape ? fragment.originalFormatting : [],
       `fragments[${index}].originalFormatting`,
       originalFragment.length
     );
     const commentFormatting = normalizeFeedbackFormatting(
-      enhancedShape ? fragment.commentFormatting : [],
+      enhancedShape || versionedShape ? fragment.commentFormatting : [],
       `fragments[${index}].commentFormatting`,
       edmundComment.length
     );
     const suggestionFormatting = normalizeFeedbackFormatting(
-      enhancedShape ? fragment.suggestionFormatting : [],
+      enhancedShape || versionedShape ? fragment.suggestionFormatting : [],
       `fragments[${index}].suggestionFormatting`,
       suggestedWriting.length
     );
@@ -1407,6 +1587,7 @@ function normalizeFeedbackPayload(payload) {
       );
     }
     return {
+      id: fragmentId === null ? null : fragmentId.toLowerCase(),
       originalFragment,
       edmundComment,
       suggestedWriting,
@@ -1415,7 +1596,24 @@ function normalizeFeedbackPayload(payload) {
       suggestionFormatting
     };
   });
-  if (!overallComment.trim() && !finalComment.trim() && !improvedVersion.trim() && fragments.length === 0) {
+  const grammarPoints = hasExtendedFields
+    ? normalizeFeedbackRichTextItems(payload.grammarPoints, "grammarPoints")
+    : null;
+  const sentenceStructureMethods = hasExtendedFields
+    ? normalizeFeedbackRichTextItems(payload.sentenceStructureMethods, "sentenceStructureMethods")
+    : null;
+  const sentenceStructureLinks = hasExtendedFields
+    ? normalizeSentenceStructureLinks(payload.sentenceStructureLinks)
+    : null;
+  if (
+    !overallComment.trim()
+    && !finalComment.trim()
+    && !improvedVersion.trim()
+    && fragments.length === 0
+    && (!grammarPoints || grammarPoints.length === 0)
+    && (!sentenceStructureMethods || sentenceStructureMethods.length === 0)
+    && (!sentenceStructureLinks || sentenceStructureLinks.length === 0)
+  ) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");
   }
   return {
@@ -1423,6 +1621,9 @@ function normalizeFeedbackPayload(payload) {
     fragments,
     finalComment,
     improvedVersion,
+    grammarPoints,
+    sentenceStructureMethods,
+    sentenceStructureLinks,
     status,
     expectedVersion,
     expectedFeedbackId: expectedFeedbackId === null ? null : expectedFeedbackId.toLowerCase()
@@ -1665,11 +1866,180 @@ async function getSubmissionFeedback(request, env, submissionId) {
   }
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v2", {
     p_student_id: student.id,
     p_submission_id: submissionId.toLowerCase()
   }));
   return json({ feedback: row ? feedbackResponse(row) : null }, 200, request, env);
+}
+
+function normalizeSuggestionCopyPayload(payload) {
+  if (!hasExactKeys(payload, ["text", "expectedVersion"])) {
+    throw new HttpError(400, "INVALID_SUGGESTION_COPY", "Suggestion-copy payload has an invalid shape");
+  }
+  if (typeof payload.text !== "string") {
+    throw new HttpError(400, "INVALID_SUGGESTION_COPY", "Suggestion copy must be text");
+  }
+  const text = payload.text.replace(/\r\n?/g, "\n");
+  if (
+    text.length > MAX_FEEDBACK_SUGGESTION_CHARACTERS
+    || utf8Length(text) > MAX_FEEDBACK_SUGGESTION_CHARACTERS * 4
+    || TEXT_CONTROL_RE.test(text)
+  ) {
+    throw new HttpError(400, "INVALID_SUGGESTION_COPY", "Suggestion copy is invalid");
+  }
+  const expectedVersion = payload.expectedVersion;
+  if (!Number.isInteger(expectedVersion) || expectedVersion < 0 || expectedVersion > 2147483647) {
+    throw new HttpError(400, "INVALID_SUGGESTION_COPY", "expectedVersion is invalid");
+  }
+  return { text, expectedVersion };
+}
+
+async function putSuggestionCopy(request, env, submissionId, fragmentId) {
+  if (!UUID_RE.test(submissionId) || !UUID_RE.test(fragmentId)) {
+    throw new HttpError(404, "FEEDBACK_FRAGMENT_NOT_FOUND", "Feedback fragment not found");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-suggestion-copy:${student.id}`,
+    "Suggestion-copy saving is temporarily unavailable",
+    "TOO_MANY_SUBMISSION_WRITES",
+    "Too many suggestion-copy updates; please wait and try again"
+  );
+  const payload = normalizeSuggestionCopyPayload(
+    await readLimitedJson(request, MAX_FRAGMENT_COPY_BODY_BYTES)
+  );
+  const normalizedFragmentId = fragmentId.toLowerCase();
+  const row = singleRow(await rpc(
+    env,
+    "writing_submission_feedback_student_save_fragment_copy_v2",
+    {
+      p_student_id: student.id,
+      p_submission_id: submissionId.toLowerCase(),
+      p_fragment_id: normalizedFragmentId,
+      p_copy_text: payload.text,
+      p_expected_version: payload.expectedVersion
+    },
+    {
+      P4092: {
+        status: 409,
+        code: "SUGGESTION_COPY_VERSION_CONFLICT",
+        message: "This suggestion copy changed in another session; reload before saving again"
+      }
+    }
+  ));
+  if (!row) throw new HttpError(404, "FEEDBACK_FRAGMENT_NOT_FOUND", "Feedback fragment not found");
+  return json({
+    suggestionCopy: {
+      fragmentId: String(row.fragment_id || normalizedFragmentId),
+      text: String(row.copy_text || ""),
+      version: Math.max(0, Number(row.version || 0)),
+      updatedAt: String(row.updated_at || "")
+    }
+  }, 200, request, env);
+}
+
+function normalizeFeedbackBookmarkPayload(payload) {
+  if (
+    !hasExactKeys(payload, ["bookmarked", "expectedVersion"])
+    || typeof payload.bookmarked !== "boolean"
+    || !Number.isInteger(payload.expectedVersion)
+    || payload.expectedVersion < 0
+    || payload.expectedVersion > 2147483647
+  ) {
+    throw new HttpError(400, "INVALID_BOOKMARK", "Bookmark payload has an invalid shape");
+  }
+  return { bookmarked: payload.bookmarked, expectedVersion: payload.expectedVersion };
+}
+
+function feedbackBookmarkResponse(row) {
+  const originalFragment = String(row.original_fragment || "");
+  const edmundComment = String(row.edmund_comment || "");
+  const suggestedWriting = String(row.suggested_writing || "");
+  return {
+    fragmentId: String(row.fragment_id || ""),
+    feedbackId: String(row.feedback_id || ""),
+    submissionId: String(row.submission_id || ""),
+    topic: String(row.topic || ""),
+    position: Math.max(1, Number(row.position || 1)),
+    originalFragment,
+    edmundComment,
+    suggestedWriting,
+    originalFormatting: feedbackFormattingResponse(row.original_formatting, originalFragment.length),
+    commentFormatting: feedbackFormattingResponse(row.comment_formatting, edmundComment.length),
+    suggestionFormatting: feedbackFormattingResponse(row.suggestion_formatting, suggestedWriting.length),
+    version: Math.max(1, Number(row.version || 1)),
+    updatedAt: String(row.updated_at || ""),
+    publishedAt: row.published_at ? String(row.published_at) : null
+  };
+}
+
+async function listFeedbackBookmarks(request, env, url) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const { page, pageSize, offset } = pageParameters(url, MAX_PAGE_SIZE);
+  const rows = await rpc(env, "writing_submission_feedback_bookmarks_list_v2", {
+    p_student_id: student.id,
+    p_limit: pageSize + 1,
+    p_offset: offset
+  });
+  if (!Array.isArray(rows)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Feedback bookmarks returned an invalid response");
+  }
+  const hasMore = rows.length > pageSize;
+  return json({
+    bookmarks: rows.slice(0, pageSize).map(feedbackBookmarkResponse),
+    page,
+    pageSize,
+    hasMore
+  }, 200, request, env);
+}
+
+async function putFeedbackBookmark(request, env, fragmentId) {
+  if (!UUID_RE.test(fragmentId)) {
+    throw new HttpError(404, "FEEDBACK_FRAGMENT_NOT_FOUND", "Feedback fragment not found");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-feedback-bookmark:${student.id}`,
+    "Bookmark saving is temporarily unavailable",
+    "TOO_MANY_SUBMISSION_WRITES",
+    "Too many bookmark updates; please wait and try again"
+  );
+  const payload = normalizeFeedbackBookmarkPayload(
+    await readLimitedJson(request, MAX_BOOKMARK_BODY_BYTES)
+  );
+  const normalizedFragmentId = fragmentId.toLowerCase();
+  const row = singleRow(await rpc(
+    env,
+    "writing_submission_feedback_bookmark_set_v2",
+    {
+      p_student_id: student.id,
+      p_fragment_id: normalizedFragmentId,
+      p_bookmarked: payload.bookmarked,
+      p_expected_version: payload.expectedVersion
+    },
+    {
+      P4093: {
+        status: 409,
+        code: "BOOKMARK_VERSION_CONFLICT",
+        message: "This bookmark changed in another session; reload before saving again"
+      }
+    }
+  ));
+  if (!row) throw new HttpError(404, "FEEDBACK_FRAGMENT_NOT_FOUND", "Feedback fragment not found");
+  return json({
+    bookmark: {
+      fragmentId: String(row.fragment_id || normalizedFragmentId),
+      bookmarked: row.bookmarked === true,
+      version: Math.max(1, Number(row.version || 1)),
+      updatedAt: String(row.updated_at || "")
+    }
+  }, 200, request, env);
 }
 
 function normalizeTranscriptionPayload(payload) {
@@ -2216,7 +2586,7 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
   }
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v2", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v3", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2239,13 +2609,16 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
   const payload = normalizeFeedbackPayload(
     await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v2", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase(),
     p_overall_comment: payload.overallComment,
     p_fragments: payload.fragments,
     p_final_comment: payload.finalComment,
     p_improved_version: payload.improvedVersion,
+    p_grammar_points: payload.grammarPoints,
+    p_sentence_structure_methods: payload.sentenceStructureMethods,
+    p_sentence_structure_links: payload.sentenceStructureLinks,
     p_status: payload.status,
     p_expected_version: payload.expectedVersion,
     p_expected_feedback_id: payload.expectedFeedbackId
