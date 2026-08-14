@@ -1262,8 +1262,24 @@
     .entry-tag-field { margin-bottom: 16px; }
     .entry-tag-field > span { display: block; margin-bottom: 8px; font-size: 14px; font-weight: 850; }
     .entry-tag-options { display: flex; flex-wrap: wrap; gap: 8px; }
-    .entry-tag-option { display: inline-flex; align-items: center; gap: 6px; padding: 8px 10px; cursor: pointer; }
+    .entry-tag-option {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 10px;
+      cursor: pointer;
+      transition: box-shadow .16s ease, filter .16s ease, transform .16s ease;
+    }
     .entry-tag-option input { width: 17px; height: 17px; accent-color: #272757; }
+    .entry-tag-option:hover { filter: brightness(1.035); }
+    .entry-tag-option:has(input:checked) {
+      box-shadow: 0 0 0 3px rgba(39, 39, 87, .82), 0 5px 12px rgba(39, 39, 87, .2);
+      transform: translateY(-1px);
+    }
+    .entry-tag-option:has(input:focus-visible) {
+      outline: 3px solid rgba(39, 39, 87, .5);
+      outline-offset: 3px;
+    }
     .estimated-time { display: block; margin-top: 8px; color: #685248; font-size: 11px; font-weight: 850; }
 
     .capacity-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; padding: 2px 10px 12px; }
@@ -2118,6 +2134,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260814-1"></script>
-  <script type="module" src="schedule-system.js?v=20260814-1"></script>
+  <script type="module" src="schedule-system.js?v=20260814-2"></script>
 </body>
 </html>

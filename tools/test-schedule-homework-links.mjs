@@ -758,9 +758,10 @@ try {
   await rm(tempDirectory, { recursive: true, force: true });
 }
 
-const [scheduleHtml, scheduleJs, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, workflow] = await Promise.all([
+const [scheduleHtml, scheduleJs, studentTagsSql, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, workflow] = await Promise.all([
   read("schedule-system.html"),
   read("schedule-system.js"),
+  read("supabase-schedule-student-entry-tags.sql"),
   read("flashcards.html"),
   read("writing-practice.html"),
   read("speaking-system.js"),
@@ -780,7 +781,16 @@ assert.ok(
 assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.has-entry-tag-wraps::after\s*\{[\s\S]*?--entry-tag-wrap-6/s);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources, selectedTags\)/);
 assert.match(scheduleJs, /input\.type = "checkbox"/);
+assert.match(scheduleJs, /input\.id = `schedule-homework-tag-\$\{tag\.key\}`/, "every tag checkbox needs an explicit unique id");
+assert.match(scheduleJs, /label\.htmlFor = input\.id/, "clicking the complete coloured tag must toggle its checkbox");
+assert.match(scheduleHtml, /\.entry-tag-option:has\(input:checked\)/, "selected tags need an unmistakable visual state");
 assert.match(scheduleJs, /state\.editing\.tags\.push\(input\.value\)/, "new tag selections must preserve click order");
+assert.match(scheduleJs, /input\.disabled = false/, "student tag controls on protected teacher homework must remain interactive");
+assert.match(scheduleJs, /function isStudentTagOnlyEntry\(/, "teacher content protection and student tag editing must be separate states");
+assert.match(scheduleJs, /callRpc\("schedule_student_set_entry_tags"/, "student tag-only edits must use the narrow database operation");
+assert.match(scheduleJs, /p_tag_keys: selectedTags/, "all selected tags must be persisted together in one request");
+assert.match(scheduleJs, /p_entry_id: state\.editing\.entry\.id/);
+assert.match(scheduleJs, /p_expected_updated_at: state\.editing\.entry\.updatedAt/);
 assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only slot must be savable before content is added");
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
@@ -800,6 +810,19 @@ assert.match(scheduleJs, /cell\.append\(links\)/, "calendar anchors must be sibl
 assert.doesNotMatch(scheduleJs, /button\.append\(links\)/, "interactive anchors must never be nested inside the slot button");
 assert.doesNotMatch(scheduleJs, /link\.setAttribute\("role", "link"\)/, "calendar links must not use a non-focusable span role");
 assert.doesNotMatch(scheduleJs, /window\.location\.assign\(href\)/, "native anchors must retain keyboard and modifier-click navigation semantics");
+assert.match(studentTagsSql, /create or replace function public\.schedule_student_set_entry_tags\(/);
+assert.match(studentTagsSql, /if \(select auth\.uid\(\)\) is null/, "the SECURITY DEFINER endpoint must require a signed-in caller");
+assert.match(studentTagsSql, /entry\.student_id = v_student_id/, "a student token must only reach its own entry");
+assert.match(studentTagsSql, /if v_entry\.source <> 'admin'/, "the narrow endpoint must not replace normal student-entry editing");
+assert.match(studentTagsSql, /public\._schedule_message_with_tags\(v_entry\.message, p_tag_keys\)/, "the database must preserve teacher content and construct trusted tag markers itself");
+assert.doesNotMatch(
+  studentTagsSql.match(/create or replace function public\.schedule_student_set_entry_tags\([\s\S]*?\)\nreturns jsonb/)?.[0] || "",
+  /p_message/,
+  "students must never be able to submit replacement teacher content through the tag endpoint"
+);
+assert.match(studentTagsSql, /p_expected_updated_at is null or v_entry\.updated_at <> p_expected_updated_at/);
+assert.match(studentTagsSql, /revoke all on function public\.schedule_student_set_entry_tags[\s\S]*?from public, anon, authenticated/);
+assert.match(studentTagsSql, /grant execute on function public\.schedule_student_set_entry_tags[\s\S]*?to authenticated/);
 assert.match(flashcards, /URLSearchParams\(window\.location\.search\)\.get\("deck"\)/);
 assert.match(writing, /URLSearchParams\(window\.location\.search\)\.get\("exercise"\)/);
 assert.match(speaking, /URLSearchParams\(window\.location\.search\)\.get\("exercise"\)/);

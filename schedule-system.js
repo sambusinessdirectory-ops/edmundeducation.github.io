@@ -455,12 +455,20 @@ function renderEntryTagOptions() {
     label.style.setProperty("--entry-tag-text", tag.textColor);
     const input = document.createElement("input");
     input.type = "checkbox";
+    input.id = `schedule-homework-tag-${tag.key}`;
     input.value = tag.key;
     input.dataset.homeworkTag = "true";
-    label.append(input, document.createTextNode(tag.label));
+    label.htmlFor = input.id;
+    const text = document.createElement("span");
+    text.textContent = tag.label;
+    label.append(input, text);
     fragment.append(label);
   }
   elements.entryTags.replaceChildren(fragment);
+}
+
+function isStudentTagOnlyEntry(entry = state.editing?.entry) {
+  return Boolean(entry?.source === "admin" && state.currentUser?.role === "student");
 }
 
 function readDisplayPreference(key) {
@@ -5053,9 +5061,7 @@ function openEntryDialog(date, slotIndex) {
     resources: [...parsedEntry.resources],
     tags: parsedEntry.tags.map((tag) => tag.key)
   };
-  const protectedTeacherEntry = Boolean(
-    entry?.source === "admin" && state.currentUser?.role === "student"
-  );
+  const protectedTeacherEntry = isStudentTagOnlyEntry(entry);
   elements.entryTitle.textContent = protectedTeacherEntry ? "老師安排" : entry ? "修改安排" : "新增安排";
   elements.entryMeta.textContent = `${WEEKDAY_LABELS[dayIndex] || "日期"} · ${formatDayDate(date)} · 第 ${slotIndex} 格`;
   elements.entryMessage.value = parsedEntry.text;
@@ -5064,16 +5070,20 @@ function openEntryDialog(date, slotIndex) {
   elements.entryEstimatedMinutes.readOnly = protectedTeacherEntry;
   elements.entryTags.querySelectorAll("input[data-homework-tag]").forEach((input) => {
     input.checked = state.editing.tags.includes(input.value);
-    input.disabled = protectedTeacherEntry;
+    input.disabled = false;
   });
   elements.entryHint.textContent = protectedTeacherEntry
-    ? "老師安排只可由管理員修改或刪除；您仍可標記完成。"
+    ? "老師安排的內容及連結受到保護；你仍可選擇多個標籤，然後按「儲存標籤」。"
     : state.massEditMode
       ? "按 Enter 暫存本格；完成所有修改後，再按「一次儲存全部」。"
       : "按 Enter 儲存；如要換行請按 Shift + Enter。";
   elements.deleteEntry.hidden = !entry || protectedTeacherEntry;
-  elements.saveEntry.hidden = protectedTeacherEntry;
-  elements.saveEntry.textContent = state.massEditMode ? "暫存本格" : "儲存";
+  elements.saveEntry.hidden = false;
+  elements.saveEntry.textContent = protectedTeacherEntry
+    ? "儲存標籤"
+    : state.massEditMode
+      ? "暫存本格"
+      : "儲存";
   elements.deleteEntry.textContent = state.massEditMode ? "加入待刪除" : "刪除";
   elements.toggleComplete.hidden = state.massEditMode || !entry;
   elements.toggleComplete.dataset.completed = String(Boolean(entry?.isCompleted));
@@ -5102,14 +5112,18 @@ function openEntryDialog(date, slotIndex) {
   renderHomeworkAttachments();
   elements.entryDialog.showModal();
   window.setTimeout(() => {
-    if (protectedTeacherEntry) elements.toggleComplete.focus();
+    if (protectedTeacherEntry) {
+      elements.entryTags.querySelector("input[data-homework-tag]")?.focus();
+    }
     else elements.entryMessage.focus();
   }, 40);
 }
 
 async function saveEntry(event) {
   event.preventDefault();
-  if (!state.editing || elements.entryMessage.readOnly) return;
+  if (!state.editing) return;
+  const tagOnlyTeacherEntry = isStudentTagOnlyEntry();
+  if (elements.entryMessage.readOnly && !tagOnlyTeacherEntry) return;
   const focusTarget = {
     date: state.editing.date,
     slotIndex: state.editing.slotIndex
@@ -5119,20 +5133,22 @@ async function saveEntry(event) {
     [...elements.entryTags.querySelectorAll("input[data-homework-tag]:checked")].map((input) => input.value)
   );
   const selectedTags = state.editing.tags.filter((tagKey) => checkedTagKeys.has(tagKey));
-  if (!visibleMessage && !selectedTags.length) {
+  if (!tagOnlyTeacherEntry && !visibleMessage && !selectedTags.length) {
     setStatus(elements.entryStatus, "請輸入功課或溫習內容，或至少選擇一個功課標籤。", "error");
     return;
   }
-  if ((state.editing.resources || []).length > MAX_HOMEWORK_RESOURCES) {
+  if (!tagOnlyTeacherEntry && (state.editing.resources || []).length > MAX_HOMEWORK_RESOURCES) {
     setStatus(elements.entryStatus, `每格最多可加入 ${MAX_HOMEWORK_RESOURCES} 個功課連結；請先移除其他連結。`, "error");
     return;
   }
-  const message = serializeScheduleMessage(visibleMessage, state.editing.resources, selectedTags);
-  if (message.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
+  const message = tagOnlyTeacherEntry
+    ? state.editing.entry.message
+    : serializeScheduleMessage(visibleMessage, state.editing.resources, selectedTags);
+  if (!tagOnlyTeacherEntry && message.length > SCHEDULE_MESSAGE_MAX_LENGTH) {
     setStatus(elements.entryStatus, "功課內容連同連結不可超過 2,000 字元；請縮短文字或移除部分連結。", "error");
     return;
   }
-  const estimatedMinutes = elements.entryEstimatedMinutes.value === ""
+  const estimatedMinutes = tagOnlyTeacherEntry || elements.entryEstimatedMinutes.value === ""
     ? null
     : Math.round(Number(elements.entryEstimatedMinutes.value));
   if (estimatedMinutes !== null && (!Number.isFinite(estimatedMinutes) || estimatedMinutes < 1 || estimatedMinutes > 10080)) {
@@ -5140,7 +5156,7 @@ async function saveEntry(event) {
     return;
   }
 
-  if (state.massEditMode) {
+  if (state.massEditMode && !tagOnlyTeacherEntry) {
     queueMassEditUpsert(message, estimatedMinutes);
     elements.entryDialog.close();
     showToast("本格已暫存；尚未上傳至雲端。");
@@ -5152,7 +5168,14 @@ async function saveEntry(event) {
   submit.disabled = true;
   setStatus(elements.entryStatus, "正在儲存…");
   try {
-    if (state.currentUser.role === "admin") {
+    if (tagOnlyTeacherEntry) {
+      await callRpc("schedule_student_set_entry_tags", {
+        p_token: state.currentUser.studentToken,
+        p_entry_id: state.editing.entry.id,
+        p_expected_updated_at: state.editing.entry.updatedAt,
+        p_tag_keys: selectedTags
+      });
+    } else if (state.currentUser.role === "admin") {
       await callRpc("schedule_admin_upsert_entry", {
         p_admin_token: state.currentUser.adminToken,
         p_student_id: activeStudent().id,
@@ -5173,7 +5196,7 @@ async function saveEntry(event) {
       });
     }
     elements.entryDialog.close();
-    showToast("安排已儲存至雲端。");
+    showToast(tagOnlyTeacherEntry ? "功課標籤已儲存。" : "安排已儲存至雲端。");
     await loadWeek(focusTarget);
   } catch (error) {
     console.warn("Schedule entry save failed", error);
