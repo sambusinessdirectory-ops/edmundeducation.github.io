@@ -62,6 +62,7 @@ import {
   parseNumberedFeedbackBlocks,
   sliceFeedbackFormattingRuns
 } from "./writing-submission-feedback-tools.mjs?v=20260814-1";
+import { filterHomeworkResources } from "./schedule-homework-links.mjs?v=20260814-2";
 import {
   createWritingProofreadingGate,
   formatWritingProofreading,
@@ -80,6 +81,7 @@ const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const TOPIC_CATALOG_VERSION = "20260812-submission-links1";
 const TOPIC_REFERENCE_VERSION = "20260811-2";
+const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
@@ -256,6 +258,8 @@ const state = {
   submissionPromise: null,
   topicCatalog: [],
   topicCatalogPromise: null,
+  homeworkResourceCatalog: null,
+  homeworkResourceCatalogPromise: null,
   randomTopicGeneration: 0,
   topicReferenceCatalog: null,
   topicReferencePromise: null,
@@ -1482,14 +1486,30 @@ async function loadTopicReferenceDetails(details, { retry = false } = {}) {
   }
 }
 
+async function loadHomeworkResourceCatalog() {
+  if (state.homeworkResourceCatalog) return state.homeworkResourceCatalog;
+  if (!state.homeworkResourceCatalogPromise) {
+    state.homeworkResourceCatalogPromise = import(`./homework-resource-catalog.mjs?v=${TOPIC_CATALOG_VERSION}`)
+      .then((module) => {
+        const catalog = Array.isArray(module.HOMEWORK_RESOURCE_CATALOG)
+          ? module.HOMEWORK_RESOURCE_CATALOG
+          : [];
+        state.homeworkResourceCatalog = catalog;
+        return catalog;
+      })
+      .catch((error) => {
+        state.homeworkResourceCatalogPromise = null;
+        throw error;
+      });
+  }
+  return state.homeworkResourceCatalogPromise;
+}
+
 async function loadWritingTopicCatalog() {
   if (state.topicCatalog.length) return state.topicCatalog;
   if (!state.topicCatalogPromise) {
-    state.topicCatalogPromise = import(`./homework-resource-catalog.mjs?v=${TOPIC_CATALOG_VERSION}`)
-      .then((module) => {
-        const source = Array.isArray(module.HOMEWORK_RESOURCE_CATALOG)
-          ? module.HOMEWORK_RESOURCE_CATALOG
-          : [];
+    state.topicCatalogPromise = loadHomeworkResourceCatalog()
+      .then((source) => {
         const catalog = source
           .filter(resource => resource?.type === "fill-blanks")
           .map(normalizeWritingTopicResource)
@@ -4304,6 +4324,197 @@ function appendFeedbackLearningRows(list, kind, count, values = []) {
   renumberFeedbackLearningRows(list, kind);
 }
 
+function feedbackSentencePickerLinks(picker) {
+  if (!picker) return [];
+  const links = [];
+  const seen = new Set();
+  for (const item of picker.querySelectorAll("[data-feedback-sentence-selected-item]")) {
+    const url = normalizeSentenceStructureDeepLink(item.dataset.feedbackSentenceUrl);
+    if (!url || seen.has(url)) continue;
+    const label = String(item.dataset.feedbackSentenceLabel || "").replace(/\s+/gu, " ").trim();
+    seen.add(url);
+    links.push({
+      label: label.slice(0, 200) || `句子結構練習 ${links.length + 1}`,
+      url
+    });
+  }
+  return links;
+}
+
+function normalizeFeedbackSentencePickerLinks(value) {
+  const links = [];
+  const seen = new Set();
+  for (const item of Array.isArray(value) ? value : []) {
+    const url = normalizeSentenceStructureDeepLink(item?.url);
+    if (!url || seen.has(url)) continue;
+    const label = String(item?.label || "").replace(/\s+/gu, " ").trim();
+    seen.add(url);
+    links.push({
+      label: label.slice(0, 200) || `句子結構練習 ${links.length + 1}`,
+      url
+    });
+  }
+  return links.slice(0, MAX_FEEDBACK_SENTENCE_LINKS);
+}
+
+function renderFeedbackSentencePickerSelected(picker, value) {
+  const list = picker?.querySelector("[data-feedback-sentence-selected]");
+  const label = picker?.querySelector("[data-feedback-sentence-selected-label]");
+  if (!list || !label) return;
+  const links = normalizeFeedbackSentencePickerLinks(value);
+  label.textContent = links.length
+    ? `已加入的句子結構練習（${links.length}）`
+    : "已加入的句子結構練習";
+  list.replaceChildren();
+  if (!links.length) {
+    list.append(createElement("p", "teacher-feedback-sentence-empty", "尚未選擇練習。可直接從下方清單加入。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  links.forEach((link) => {
+    const row = createElement("div", "teacher-feedback-sentence-chip");
+    row.dataset.feedbackSentenceSelectedItem = "true";
+    row.dataset.feedbackSentenceUrl = link.url;
+    row.dataset.feedbackSentenceLabel = link.label;
+    const anchor = createElement("a", "", `↗ ${link.label}`);
+    anchor.href = link.url;
+    anchor.target = "_blank";
+    anchor.rel = "noopener";
+    anchor.title = link.label;
+    const remove = createElement("button", "teacher-feedback-sentence-remove", "×");
+    remove.type = "button";
+    remove.dataset.feedbackSentenceRemove = "true";
+    remove.setAttribute("aria-label", `移除 ${link.label} 連結`);
+    row.append(anchor, remove);
+    fragment.append(row);
+  });
+  list.append(fragment);
+}
+
+function renderFeedbackSentencePickerResults(picker) {
+  if (!picker) return;
+  const results = picker.querySelector("[data-feedback-sentence-results]");
+  const count = picker.querySelector("[data-feedback-sentence-count]");
+  const search = picker.querySelector("[data-feedback-sentence-search]");
+  if (!results || !count || !search) return;
+  if (!state.homeworkResourceCatalog) {
+    count.textContent = "正在載入練習清單…";
+    results.replaceChildren(createElement(
+      "p",
+      "teacher-feedback-sentence-count",
+      "正在準備 345 項 Sentence Structure 練習。"
+    ));
+    return;
+  }
+  const result = filterHomeworkResources(
+    state.homeworkResourceCatalog,
+    "sentence-structure",
+    search.value,
+    60
+  );
+  count.textContent = result.total > result.items.length
+    ? `找到 ${result.total} 項；請輸入關鍵字縮窄結果（目前顯示首 ${result.items.length} 項）。`
+    : `找到 ${result.total} 項練習。`;
+  results.replaceChildren();
+  if (!result.items.length) {
+    results.append(createElement("p", "teacher-feedback-sentence-count", "找不到相符練習。"));
+    return;
+  }
+  const selectedUrls = new Set(feedbackSentencePickerLinks(picker).map(link => link.url));
+  const fragment = document.createDocumentFragment();
+  result.items.forEach((resource) => {
+    const button = createElement("button", "teacher-feedback-sentence-result");
+    button.type = "button";
+    button.dataset.feedbackSentenceResourceId = resource.id;
+    button.setAttribute("role", "option");
+    const url = normalizeSentenceStructureDeepLink(resource.url);
+    const selected = Boolean(url && selectedUrls.has(url));
+    button.disabled = selected;
+    button.setAttribute("aria-selected", selected ? "true" : "false");
+    if (selected) button.classList.add("is-selected");
+    button.append(
+      createElement("strong", "", resource.label),
+      createElement("small", "", resource.detail || "Sentence Structure 練習")
+    );
+    if (selected) button.append(createElement("span", "teacher-feedback-sentence-added", "已加入"));
+    fragment.append(button);
+  });
+  results.append(fragment);
+}
+
+async function initializeFeedbackSentencePicker(picker, { retry = false } = {}) {
+  if (!picker) return;
+  const count = picker.querySelector("[data-feedback-sentence-count]");
+  const results = picker.querySelector("[data-feedback-sentence-results]");
+  renderFeedbackSentencePickerResults(picker);
+  try {
+    if (retry) state.homeworkResourceCatalogPromise = null;
+    await loadHomeworkResourceCatalog();
+    if (picker.isConnected) renderFeedbackSentencePickerResults(picker);
+  } catch (error) {
+    console.warn("Sentence Structure catalogue failed to load", error);
+    if (!picker.isConnected || !count || !results) return;
+    count.textContent = "未能載入練習清單，請稍後再試。";
+    const retryButton = createElement("button", "secondary-button teacher-feedback-sentence-retry", "重新載入練習清單");
+    retryButton.type = "button";
+    retryButton.dataset.feedbackSentenceRetry = "true";
+    results.replaceChildren(retryButton);
+  }
+}
+
+function createFeedbackSentencePicker(links = []) {
+  const picker = createElement("section", "teacher-feedback-sentence-picker");
+  picker.dataset.feedbackSentencePicker = "true";
+  picker.setAttribute("aria-label", "選擇 Sentence Structure 練習");
+  const head = createElement("div", "teacher-feedback-sentence-picker-head");
+  head.append(createElement("strong", "", "選擇 Sentence Structure 練習"));
+  const search = document.createElement("input");
+  search.className = "teacher-feedback-sentence-search";
+  search.dataset.feedbackSentenceSearch = "true";
+  search.type = "search";
+  search.autocomplete = "off";
+  search.placeholder = "搜尋題目、年份或卡組…";
+  search.setAttribute("aria-label", "搜尋 Sentence Structure 練習");
+  const count = createElement("span", "teacher-feedback-sentence-count");
+  count.dataset.feedbackSentenceCount = "true";
+  count.setAttribute("role", "status");
+  count.setAttribute("aria-live", "polite");
+  const results = createElement("div", "teacher-feedback-sentence-results");
+  results.dataset.feedbackSentenceResults = "true";
+  results.setAttribute("role", "listbox");
+  const selectedLabel = createElement("span", "teacher-feedback-sentence-selected-label", "已加入的句子結構練習");
+  selectedLabel.dataset.feedbackSentenceSelectedLabel = "true";
+  const selected = createElement("div", "teacher-feedback-sentence-selected");
+  selected.dataset.feedbackSentenceSelected = "true";
+  selected.setAttribute("aria-label", "已加入的句子結構練習");
+  picker.append(head, selectedLabel, selected, search, count, results);
+  renderFeedbackSentencePickerSelected(picker, links);
+  queueMicrotask(() => initializeFeedbackSentencePicker(picker));
+  return picker;
+}
+
+function addFeedbackSentencePickerLink(picker, resourceId) {
+  if (!picker || !state.homeworkResourceCatalog) return;
+  const resource = state.homeworkResourceCatalog.find(item => (
+    item?.type === "sentence-structure" && item.id === resourceId
+  ));
+  const url = normalizeSentenceStructureDeepLink(resource?.url);
+  if (!url) return;
+  const links = feedbackSentencePickerLinks(picker);
+  if (links.some(link => link.url === url)) return;
+  if (links.length >= MAX_FEEDBACK_SENTENCE_LINKS) {
+    showToast(`每份評語最多可加入 ${MAX_FEEDBACK_SENTENCE_LINKS} 個句子結構練習。`, "error");
+    return;
+  }
+  links.push({
+    label: String(resource.label || "").replace(/\s+/gu, " ").trim().slice(0, 200) || `句子結構練習 ${links.length + 1}`,
+    url
+  });
+  renderFeedbackSentencePickerSelected(picker, links);
+  renderFeedbackSentencePickerResults(picker);
+  picker.querySelector("[data-feedback-sentence-search]")?.focus();
+}
+
 function renderFeedbackLearningEditor({ kind, title, description, values = [], links = [] }) {
   const grammar = kind === "grammar";
   const section = createElement(
@@ -4324,14 +4535,7 @@ function renderFeedbackLearningEditor({ kind, title, description, values = [], l
   add.dataset.feedbackLearningAddTen = kind;
   section.append(add);
   if (!grammar) {
-    const linkField = createElement("label", "teacher-feedback-links-editor");
-    linkField.append(createElement("span", "", "句子結構練習連結（每行一條；可用「顯示名稱 | 連結」）"));
-    const textarea = document.createElement("textarea");
-    textarea.dataset.feedbackSentenceLinks = "true";
-    textarea.placeholder = "進階倒裝句 | sentence-structure.html?lesson=lesson-id";
-    textarea.value = links.map(link => `${link.label || "句子結構練習"} | ${link.url}`).join("\n");
-    linkField.append(textarea);
-    section.append(linkField);
+    section.append(createFeedbackSentencePicker(links));
   }
   return section;
 }
@@ -4381,7 +4585,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   panel.append(renderFeedbackLearningEditor({
     kind: "sentence",
     title: "句子結構提升區",
-    description: "記錄進階改寫方法，並在最下方貼上句子結構系統的指定課堂連結。",
+    description: "記錄進階改寫方法，並直接從最下方的 345 項 Sentence Structure 練習清單選擇指定課堂連結。",
     values: feedback?.sentenceStructureMethods || [],
     links: feedback?.sentenceStructureLinks || []
   }));
@@ -4435,19 +4639,9 @@ function readAdminFeedbackEditor(editor) {
     [...editor.querySelectorAll('[data-feedback-learning-row="sentence"]')]
       .map(row => readFeedbackRichEditor(row.querySelector('[data-feedback-rich-editor="sentence-method"]')))
   );
-  const sentenceStructureLinks = String(editor.querySelector("[data-feedback-sentence-links]")?.value || "")
-    .split(/\r?\n/u)
-    .map((line, index) => {
-      const trimmed = line.trim();
-      if (!trimmed) return null;
-      const divider = trimmed.indexOf("|");
-      const label = divider >= 0 ? trimmed.slice(0, divider).trim() : `句子結構練習 ${index + 1}`;
-      const rawUrl = divider >= 0 ? trimmed.slice(divider + 1).trim() : trimmed;
-      const url = normalizeSentenceStructureDeepLink(rawUrl);
-      if (!url) throw new Error(`第 ${index + 1} 行不是有效的句子結構課堂連結。`);
-      return { label: label.slice(0, 200) || `句子結構練習 ${index + 1}`, url };
-    })
-    .filter(Boolean);
+  const sentenceStructureLinks = feedbackSentencePickerLinks(
+    editor.querySelector("[data-feedback-sentence-picker]")
+  );
   if (
     !overallComment && !finalComment && !improvedVersion && !fragments.length
     && !grammarPoints.length && !sentenceStructureMethods.length && !sentenceStructureLinks.length
@@ -6018,6 +6212,33 @@ function bindEvents() {
       if (list) appendFeedbackLearningRows(list, kind, 10);
       return;
     }
+    const sentenceResource = event.target.closest("[data-feedback-sentence-resource-id]");
+    if (sentenceResource) {
+      addFeedbackSentencePickerLink(
+        sentenceResource.closest("[data-feedback-sentence-picker]"),
+        sentenceResource.dataset.feedbackSentenceResourceId
+      );
+      return;
+    }
+    const removeSentenceLink = event.target.closest("[data-feedback-sentence-remove]");
+    if (removeSentenceLink) {
+      const picker = removeSentenceLink.closest("[data-feedback-sentence-picker]");
+      const item = removeSentenceLink.closest("[data-feedback-sentence-selected-item]");
+      item?.remove();
+      if (picker) {
+        renderFeedbackSentencePickerSelected(picker, feedbackSentencePickerLinks(picker));
+        renderFeedbackSentencePickerResults(picker);
+      }
+      return;
+    }
+    const retrySentencePicker = event.target.closest("[data-feedback-sentence-retry]");
+    if (retrySentencePicker) {
+      initializeFeedbackSentencePicker(
+        retrySentencePicker.closest("[data-feedback-sentence-picker]"),
+        { retry: true }
+      );
+      return;
+    }
     const removeLearningRow = event.target.closest("[data-feedback-learning-remove]");
     if (removeLearningRow) {
       const row = removeLearningRow.closest("[data-feedback-learning-row]");
@@ -6156,6 +6377,11 @@ function bindEvents() {
     scheduleDraftSave();
   });
   document.addEventListener("input", (event) => {
+    const sentenceSearch = event.target.closest("[data-feedback-sentence-search]");
+    if (sentenceSearch) {
+      renderFeedbackSentencePickerResults(sentenceSearch.closest("[data-feedback-sentence-picker]"));
+      return;
+    }
     const feedbackTextarea = event.target.closest("[data-feedback-editor] textarea");
     if (feedbackTextarea) autosizeTextarea(feedbackTextarea, feedbackTextarea.hasAttribute("data-feedback-comment") ? 130 : 72);
   });

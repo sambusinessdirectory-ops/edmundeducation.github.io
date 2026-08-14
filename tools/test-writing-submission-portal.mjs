@@ -19,6 +19,8 @@ import {
   writingTopicResourceForTransport
 } from "../writing-submission-core.js";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
+import { filterHomeworkResources } from "../schedule-homework-links.mjs";
+import { normalizeSentenceStructureDeepLink } from "../writing-submission-feedback-tools.mjs";
 import {
   unbiasedRandomIndex,
   WRITING_RANDOM_TOPIC_CATEGORIES,
@@ -344,8 +346,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260814-feedback-learning1/);
-  assert.match(html, /writing-submission\.js\?v=20260814-feedback-learning1/);
+  assert.match(html, /writing-submission\.css\?v=20260814-sentence-picker1/);
+  assert.match(html, /writing-submission\.js\?v=20260814-sentence-picker1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -771,7 +773,17 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   assert.match(script, /句子結構方法/);
   assert.match(adminFeedbackReaderSource, /return \{[\s\S]*?grammarPoints,[\s\S]*?sentenceStructureMethods,[\s\S]*?sentenceStructureLinks,/);
 
-  assert.match(adminFeedbackReaderSource, /const url = normalizeSentenceStructureDeepLink\(rawUrl\)/);
+  assert.match(adminFeedbackReaderSource, /feedbackSentencePickerLinks\(/);
+  assert.match(script, /function createFeedbackSentencePicker\(links = \[\]\)/);
+  assert.match(script, /選擇 Sentence Structure 練習/);
+  assert.match(script, /dataset\.feedbackSentenceSearch/);
+  assert.match(script, /dataset\.feedbackSentenceResourceId/);
+  assert.match(script, /dataset\.feedbackSentenceRemove/);
+  assert.match(script, /filterHomeworkResources\([\s\S]*?"sentence-structure"[\s\S]*?60/);
+  assert.doesNotMatch(script, /data\.feedbackSentenceLinks/);
+  assert.match(css, /\.teacher-feedback-sentence-picker/);
+  assert.match(css, /\.teacher-feedback-sentence-results/);
+  assert.match(css, /\.teacher-feedback-sentence-chip/);
   assert.match(feedbackTools, /url\.hostname !== "edmundeducation\.com"/);
   assert.match(feedbackTools, /url\.pathname !== "\/sentence-structure\.html"/);
   assert.match(feedbackTools, /parameters\.length !== 1/);
@@ -783,6 +795,30 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   );
   assert.match(script, /apiJson\(`\/v1\/feedback-bookmarks\?page=\$\{page\}&pageSize=100`\)/);
   assert.match(script, /`\/v1\/feedback-bookmarks\/\$\{[^}]+\}`/);
+});
+
+test("writing feedback permanently exposes the same searchable 345-lesson Sentence Structure catalogue", () => {
+  const resources = HOMEWORK_RESOURCE_CATALOG.filter(resource => resource.type === "sentence-structure");
+  assert.equal(resources.length, 345);
+  assert.ok(resources.every(resource => normalizeSentenceStructureDeepLink(resource.url) === `/${resource.url}`));
+
+  for (const query of ["5", "while", "雖然", "sentence:ss5"]) {
+    const result = filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "sentence-structure", query, 60);
+    assert.ok(result.total > 0, `expected Sentence Structure results for ${query}`);
+    assert.ok(result.items.length <= 60);
+  }
+
+  const pickerSource = script.match(
+    /function createFeedbackSentencePicker\(links = \[\]\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  assert.match(pickerSource, /dataset\.feedbackSentencePicker = "true"/);
+  assert.match(pickerSource, /dataset\.feedbackSentenceSearch = "true"/);
+  assert.match(pickerSource, /dataset\.feedbackSentenceResults = "true"/);
+  assert.match(pickerSource, /dataset\.feedbackSentenceSelected = "true"/);
+  assert.match(pickerSource, /queueMicrotask\(\(\) => initializeFeedbackSentencePicker\(picker\)\)/);
+  assert.doesNotMatch(pickerSource, /hidden|close/i);
+  assert.match(script, /seen\.has\(url\)/);
+  assert.match(script, /links\.length >= MAX_FEEDBACK_SENTENCE_LINKS/);
 });
 
 test("article and feedback navigation invalidates stale requests and clears sensitive detail", () => {
