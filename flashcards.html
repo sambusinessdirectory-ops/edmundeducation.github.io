@@ -184178,6 +184178,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const DISPLAY_PREFERENCES_LOCAL_PREFIX = "edmundFlashcardUiPreferences::account::";
     const ADMIN_STUDENT_SORT_LOCAL_PREFIX = "edmundFlashcardAdminStudentSort::account::";
     const FAMILIARITY_PENDING_LOCAL_PREFIX = "edmundFlashcardFamiliarityPending::account::";
+    const ATTEMPTS_BACKUP_LOCAL_PREFIX = "edmundFlashcardAttemptsBackup::account::";
     const BOOKMARK_DECK_ID = "__private-bookmarks__";
     const REBUILT_LISTENING_DECK_REVISION = "dse-listening-rebuild-20260712-v1";
     const REBUILT_WRITING_PART_A_2025_DECK_ID = "dse/writing/part-a/2025";
@@ -184212,11 +184213,14 @@ window.EDMUND_FLASHCARD_SEED = {
       : null;
     const remoteStore = {};
     const supabaseSaveTimers = new Map();
+    const pendingSupabaseStateSaves = new Map();
     const supabaseState = {
       loaded: false,
       online: false,
       userId: "",
-      channel: null
+      channel: null,
+      hydratingOwner: "",
+      hydratedOwner: ""
     };
 
     function deckDataRevision(deckId) {
@@ -185289,6 +185293,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let studentSortSaveInFlight = false;
     let adminPasswordForSession = "";
     let studentSessionToken = "";
+    let loginFailureMessage = "";
     let studentPasswordLogsCache = {};
     let activeSpeechAudio = null;
     let activeSpeechRequestId = 0;
@@ -185575,9 +185580,150 @@ window.EDMUND_FLASHCARD_SEED = {
       return `${String(user.id || "").trim()}::${String(user.name).trim().toLocaleLowerCase()}`;
     }
 
+    function attemptsBackupLocalKey(user = currentUser) {
+      const accountKey = flashcardStateAccountKey(user);
+      return accountKey ? `${ATTEMPTS_BACKUP_LOCAL_PREFIX}${encodeURIComponent(accountKey)}` : "";
+    }
+
+    function attemptsForBackup(value, user = currentUser) {
+      const studentName = String(user?.name || "").trim().toLocaleLowerCase();
+      if (!studentName || !Array.isArray(value)) return [];
+      return value.filter(attempt => {
+        if (!attempt || typeof attempt !== "object" || Array.isArray(attempt)) return false;
+        const attemptStudent = String(attempt.studentName || "").trim().toLocaleLowerCase();
+        return !attemptStudent || attemptStudent === studentName;
+      });
+    }
+
+    function flashcardAttemptIdentity(attempt = {}) {
+      const id = String(attempt.id || "").trim();
+      if (id) return `id:${id}`;
+      return [
+        "legacy",
+        String(attempt.studentName || "").trim().toLocaleLowerCase(),
+        String(attempt.startedAt || ""),
+        String(attempt.deckId || ""),
+        String(attempt.mode || "")
+      ].join("|");
+    }
+
+    function flashcardAttemptStrength(attempt = {}) {
+      const outcomes = Array.isArray(attempt.cardOutcomes) ? attempt.cardOutcomes.length : 0;
+      const answered = Math.max(
+        Number(attempt.answeredCount || 0),
+        Number(attempt.green || 0) + Number(attempt.red || 0),
+        outcomes
+      );
+      return [
+        attempt.completed || attempt.completedAt ? 1 : 0,
+        answered,
+        Math.max(
+          Number(attempt.updatedAt || 0),
+          Number(attempt.completedAt || 0),
+          Number(attempt.startedAt || 0)
+        ),
+        Number(attempt.durationMs || 0)
+      ];
+    }
+
+    function compareFlashcardAttemptStrength(left, right) {
+      const leftStrength = flashcardAttemptStrength(left);
+      const rightStrength = flashcardAttemptStrength(right);
+      for (let index = 0; index < leftStrength.length; index += 1) {
+        if (leftStrength[index] !== rightStrength[index]) {
+          return leftStrength[index] - rightStrength[index];
+        }
+      }
+      return 0;
+    }
+
+    function mergeFlashcardAttempts(existingValue, incomingValue) {
+      const order = [];
+      const attemptsById = new Map();
+      const addAttempt = attempt => {
+        if (!attempt || typeof attempt !== "object" || Array.isArray(attempt)) return;
+        const identity = flashcardAttemptIdentity(attempt);
+        if (!attemptsById.has(identity)) {
+          order.push(identity);
+          attemptsById.set(identity, attempt);
+          return;
+        }
+        const existing = attemptsById.get(identity);
+        const incomingWins = compareFlashcardAttemptStrength(existing, attempt) <= 0;
+        const winner = incomingWins ? attempt : existing;
+        const loser = incomingWins ? existing : attempt;
+        attemptsById.set(identity, { ...loser, ...winner });
+      };
+      (Array.isArray(existingValue) ? existingValue : []).forEach(addAttempt);
+      (Array.isArray(incomingValue) ? incomingValue : []).forEach(addAttempt);
+      return order.map(identity => attemptsById.get(identity));
+    }
+
+    function readAccountAttemptsBackup(user = currentUser) {
+      const key = attemptsBackupLocalKey(user);
+      if (!key) return [];
+      try {
+        return attemptsForBackup(JSON.parse(localStorage.getItem(key) || "[]"), user);
+      } catch {
+        return [];
+      }
+    }
+
+    function cacheAccountAttemptsBackup(value, user = currentUser) {
+      const key = attemptsBackupLocalKey(user);
+      if (!key) return [];
+      const merged = mergeFlashcardAttempts(
+        readAccountAttemptsBackup(user),
+        attemptsForBackup(value, user)
+      );
+      try {
+        localStorage.setItem(key, JSON.stringify(merged));
+      } catch {
+        // Supabase remains canonical when browser storage is unavailable.
+      }
+      return merged;
+    }
+
+    function preserveFlashcardAttemptsBackup(user = currentUser) {
+      if (user?.role !== "student") return [];
+      if (Object.prototype.hasOwnProperty.call(remoteStore, ATTEMPTS_KEY)) {
+        return cacheAccountAttemptsBackup(remoteStore[ATTEMPTS_KEY], user);
+      }
+      try {
+        return cacheAccountAttemptsBackup(
+          JSON.parse(localStorage.getItem(ATTEMPTS_KEY) || "[]"),
+          user
+        );
+      } catch {
+        return readAccountAttemptsBackup(user);
+      }
+    }
+
+    function restoreAccountAttemptsBackup(user = currentUser) {
+      const backup = readAccountAttemptsBackup(user);
+      if (!backup.length) return false;
+      remoteStore[ATTEMPTS_KEY] = backup;
+      cacheJsonLocally(ATTEMPTS_KEY, backup);
+      return true;
+    }
+
+    function removeAccountAttemptsBackup(user) {
+      const key = attemptsBackupLocalKey(user);
+      if (!key) return;
+      try {
+        localStorage.removeItem(key);
+      } catch {
+        // The deleted server account can no longer use this browser-only copy.
+      }
+    }
+
     function clearFlashcardSyncedStateCache() {
+      preserveFlashcardAttemptsBackup();
       supabaseSaveTimers.forEach(timer => window.clearTimeout(timer));
       supabaseSaveTimers.clear();
+      pendingSupabaseStateSaves.clear();
+      supabaseState.hydratingOwner = "";
+      supabaseState.hydratedOwner = "";
       SUPABASE_SYNC_KEYS.forEach(key => {
         delete remoteStore[key];
         try {
@@ -185656,6 +185802,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function writeJson(key, value) {
       remoteStore[key] = value;
       cacheJsonLocally(key, value);
+      if (key === ATTEMPTS_KEY) cacheAccountAttemptsBackup(value);
       queueSupabaseStateSave(key, value);
     }
 
@@ -185681,6 +185828,22 @@ window.EDMUND_FLASHCARD_SEED = {
       return null;
     }
 
+    function isSupabaseStateHydrated(context = captureSupabaseStateSaveContext()) {
+      return Boolean(context?.owner && supabaseState.hydratedOwner === context.owner);
+    }
+
+    function requireFlashcardStateReady(statusElement = null) {
+      const context = captureSupabaseStateSaveContext();
+      if (!context || isSupabaseStateHydrated(context)) return true;
+      const message = supabaseState.hydratingOwner === context.owner
+        ? "正在載入你的完整學習紀錄，請稍候再開始。"
+        : "未能安全載入學習紀錄，請重新登入後再試。";
+      if (statusElement) statusElement.textContent = message;
+      else window.alert(message);
+      updateSupabaseStatus(message, "warning");
+      return false;
+    }
+
     function supabaseStateSaveTimerKey(key, context) {
       return `${context?.owner || "no-account"}::${key}`;
     }
@@ -185688,20 +185851,36 @@ window.EDMUND_FLASHCARD_SEED = {
     function queueSupabaseStateSave(key, value) {
       if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !supabaseState.loaded) return;
       const context = captureSupabaseStateSaveContext();
-      if (!context) return;
+      if (!context || !isSupabaseStateHydrated(context)) return;
       const timerKey = supabaseStateSaveTimerKey(key, context);
       window.clearTimeout(supabaseSaveTimers.get(timerKey));
+      pendingSupabaseStateSaves.set(timerKey, { key, value, context });
       supabaseSaveTimers.set(timerKey, window.setTimeout(() => {
         supabaseSaveTimers.delete(timerKey);
-        saveSupabaseState(key, value, { context });
+        const pending = pendingSupabaseStateSaves.get(timerKey);
+        pendingSupabaseStateSaves.delete(timerKey);
+        if (pending) void saveSupabaseState(key, value, { context });
       }, 250));
+    }
+
+    async function flushSupabaseStateSaves() {
+      const pending = [...pendingSupabaseStateSaves.values()];
+      supabaseSaveTimers.forEach(timer => window.clearTimeout(timer));
+      supabaseSaveTimers.clear();
+      pendingSupabaseStateSaves.clear();
+      if (!pending.length) return true;
+      const results = await Promise.all(pending.map(item => (
+        saveSupabaseState(item.key, item.value, { context: item.context, silent: true })
+      )));
+      return results.every(Boolean);
     }
 
     async function saveSupabaseState(key, value, options = {}) {
       if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key)) return false;
       const context = options.context || captureSupabaseStateSaveContext();
-      if (!context) return false;
+      if (!context || !isSupabaseStateHydrated(context)) return false;
       const stillActive = () => captureSupabaseStateSaveContext()?.owner === context.owner;
+      if (!stillActive()) return false;
       if (!options.silent && stillActive()) updateSupabaseStatus("正在安全儲存", "warning");
 
       if (context.type === "admin") {
@@ -185819,6 +185998,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const timerKey = supabaseStateSaveTimerKey(DISPLAY_PREFERENCES_KEY, context);
       window.clearTimeout(supabaseSaveTimers.get(timerKey));
       supabaseSaveTimers.delete(timerKey);
+      pendingSupabaseStateSaves.delete(timerKey);
       delete remoteStore[DISPLAY_PREFERENCES_KEY];
       hideLockedSections = false;
       showCumulativeProgress = false;
@@ -185957,6 +186137,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!row?.key) return;
       remoteStore[row.key] = row.value;
       cacheJsonLocally(row.key, row.value);
+      if (row.key === ATTEMPTS_KEY) cacheAccountAttemptsBackup(row.value);
     }
 
     function startSupabaseRealtime() {
@@ -185981,7 +186162,7 @@ window.EDMUND_FLASHCARD_SEED = {
         studentSortMode = readLocalAdminStudentSortMode();
         updateSupabaseStatus("使用本機備份", "warning");
         refreshCurrentView();
-        return;
+        return true;
       }
 
       updateSupabaseStatus("正在安全連接", "warning");
@@ -185992,23 +186173,28 @@ window.EDMUND_FLASHCARD_SEED = {
         studentSortMode = readLocalAdminStudentSortMode();
         updateSupabaseStatus("登入服務尚未啟用", "error");
         refreshCurrentView();
-        return;
+        return false;
       }
 
       supabaseState.loaded = true;
       supabaseState.online = true;
-      updateSupabaseStatus("已安全連接", "live");
+      let stateReady = true;
+      updateSupabaseStatus(
+        currentUser?.role === "student" ? "正在載入完整學習紀錄" : "已安全連接",
+        currentUser?.role === "student" ? "warning" : "live"
+      );
 
       if (currentUser?.role === "student" && currentUser.impersonatedByAdmin && adminPasswordForSession) {
         const stateLoaded = await loadStudentStateForAdmin(currentUser.name);
         if (stateLoaded) {
           applyAdminStateToRemote(currentUser.name);
           hydrateFlashcardDisplayPreferences();
-        }
+        } else stateReady = false;
       } else if (currentUser?.role === "student" && currentUser.sessionToken) {
         studentSessionToken = currentUser.sessionToken;
         const stateLoaded = await loadStudentStateFromSupabase();
         if (stateLoaded) hydrateFlashcardDisplayPreferences();
+        else stateReady = false;
       }
 
       if (currentUser?.role === "admin" && adminPasswordForSession) {
@@ -186016,6 +186202,7 @@ window.EDMUND_FLASHCARD_SEED = {
       }
 
       refreshCurrentView();
+      return stateReady;
     }
 
     async function callSupabaseRpc(name, args = {}) {
@@ -186137,21 +186324,42 @@ window.EDMUND_FLASHCARD_SEED = {
 
     async function loadStudentStateFromSupabase() {
       if (!studentSessionToken) return false;
+      const requestContext = captureSupabaseStateSaveContext();
+      if (!requestContext || requestContext.type !== "student") return false;
+      const accountBackup = readAccountAttemptsBackup(currentUser);
+      supabaseState.hydratingOwner = requestContext.owner;
+      supabaseState.hydratedOwner = "";
       try {
         const rows = await callSupabaseRpc("flashcard_student_get_state", {
           p_token: studentSessionToken
         });
+        if (captureSupabaseStateSaveContext()?.owner !== requestContext.owner) return false;
         const remoteKeys = new Set();
+        let remoteAttempts = [];
         (rows || []).forEach(row => {
           remoteKeys.add(row.key);
-          applyRemoteStateRow(row);
+          if (row.key === ATTEMPTS_KEY) {
+            remoteAttempts = attemptsForBackup(row.value, currentUser);
+          } else {
+            applyRemoteStateRow(row);
+          }
         });
         SUPABASE_SYNC_KEYS.forEach(key => {
+          if (key === ATTEMPTS_KEY) return;
           if (remoteKeys.has(key)) return;
           const value = defaultRemoteValueForKey(key);
           remoteStore[key] = value;
           cacheJsonLocally(key, value);
         });
+        const mergedAttempts = mergeFlashcardAttempts(remoteAttempts, accountBackup);
+        remoteStore[ATTEMPTS_KEY] = mergedAttempts;
+        cacheJsonLocally(ATTEMPTS_KEY, mergedAttempts);
+        cacheAccountAttemptsBackup(mergedAttempts);
+        supabaseState.hydratedOwner = requestContext.owner;
+        supabaseState.hydratingOwner = "";
+        if (JSON.stringify(mergedAttempts) !== JSON.stringify(remoteAttempts)) {
+          void saveSupabaseState(ATTEMPTS_KEY, mergedAttempts, { silent: true });
+        }
         if (restorePendingFamiliarity()) {
           void saveSupabaseState(FAMILIARITY_KEY, readJson(FAMILIARITY_KEY, {}), { silent: true });
         }
@@ -186159,9 +186367,15 @@ window.EDMUND_FLASHCARD_SEED = {
         return true;
       } catch (error) {
         console.warn("Could not load student state:", error);
-        restorePendingFamiliarity();
-        updateSupabaseStatus("帳戶資料服務需要更新", "error");
+        if (captureSupabaseStateSaveContext()?.owner === requestContext.owner) {
+          restorePendingFamiliarity();
+          updateSupabaseStatus("帳戶資料服務需要更新", "error");
+        }
         return false;
+      } finally {
+        if (supabaseState.hydratingOwner === requestContext.owner) {
+          supabaseState.hydratingOwner = "";
+        }
       }
     }
 
@@ -186205,12 +186419,20 @@ window.EDMUND_FLASHCARD_SEED = {
 
     async function loadStudentStateForAdmin(studentName) {
       if (!studentName || !adminPasswordForSession) return false;
+      const requestContext = currentUser?.impersonatedByAdmin && currentUser.name === studentName
+        ? captureSupabaseStateSaveContext()
+        : null;
+      if (requestContext) {
+        supabaseState.hydratingOwner = requestContext.owner;
+        supabaseState.hydratedOwner = "";
+      }
       try {
         const rows = await callSupabaseRpc("flashcard_admin_get_student_state", {
           p_admin_name: ADMIN_NAME,
           p_admin_password: adminPasswordForSession,
           p_student_name: studentName
         });
+        if (requestContext && captureSupabaseStateSaveContext()?.owner !== requestContext.owner) return false;
         const state = {};
         SUPABASE_SYNC_KEYS.forEach(key => {
           state[key] = defaultRemoteValueForKey(key);
@@ -186224,17 +186446,34 @@ window.EDMUND_FLASHCARD_SEED = {
         console.warn("Could not load selected student state:", error);
         updateSupabaseStatus("學習資料服務需要更新", "warning");
         return false;
+      } finally {
+        if (requestContext && supabaseState.hydratingOwner === requestContext.owner) {
+          supabaseState.hydratingOwner = "";
+        }
       }
     }
 
     function applyAdminStateToRemote(studentName) {
       const state = adminStudentStateCache[studentName];
       if (!state) return;
+      const context = captureSupabaseStateSaveContext();
+      if (!context || context.type !== "admin" || currentUser?.name !== studentName) return;
+      const remoteAttempts = attemptsForBackup(state[ATTEMPTS_KEY], currentUser);
+      const mergedAttempts = mergeFlashcardAttempts(remoteAttempts, readAccountAttemptsBackup(currentUser));
       SUPABASE_SYNC_KEYS.forEach(key => {
-        const value = Object.prototype.hasOwnProperty.call(state, key) ? state[key] : defaultRemoteValueForKey(key);
+        const value = key === ATTEMPTS_KEY
+          ? mergedAttempts
+          : Object.prototype.hasOwnProperty.call(state, key) ? state[key] : defaultRemoteValueForKey(key);
         remoteStore[key] = value;
         cacheJsonLocally(key, value);
       });
+      state[ATTEMPTS_KEY] = mergedAttempts;
+      cacheAccountAttemptsBackup(mergedAttempts);
+      supabaseState.hydratedOwner = context.owner;
+      supabaseState.hydratingOwner = "";
+      if (JSON.stringify(mergedAttempts) !== JSON.stringify(remoteAttempts)) {
+        void saveSupabaseState(ATTEMPTS_KEY, mergedAttempts, { silent: true });
+      }
       if (restorePendingFamiliarity()) {
         void saveSupabaseState(FAMILIARITY_KEY, readJson(FAMILIARITY_KEY, {}), { silent: true });
       }
@@ -186501,6 +186740,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function purgeLocalStudentState(studentName) {
       const prefix = `${studentName || ""}::`;
+      const deletedStudent = getStudents().find(student => student.name === studentName);
 
       saveAttempts(getAttempts().filter(attempt => attempt.studentName !== studentName));
       saveResetLogs(getResetLogs().filter(log => log.studentName !== studentName));
@@ -186542,6 +186782,11 @@ window.EDMUND_FLASHCARD_SEED = {
       });
       cardStore[metaKey] = decks.filter(deck => deck.studentName !== studentName);
       saveCardStore(cardStore);
+      removeAccountAttemptsBackup({
+        role: "student",
+        id: deletedStudent?.id || "",
+        name: studentName
+      });
     }
 
     function parseCustomExamples(enText, zhText) {
@@ -186722,6 +186967,7 @@ window.EDMUND_FLASHCARD_SEED = {
       clearFlashcardSyncedStateCache();
       currentUser = user;
       if (currentUser?.role === "student") {
+        restoreAccountAttemptsBackup(currentUser);
         hydrateFlashcardDisplayPreferences({ localOnly: true });
       }
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
@@ -186753,25 +186999,29 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function restoreSession() {
-      resetFlashcardDisplayPreferences();
-      clearFlashcardSyncedStateCache();
+      let saved = null;
       try {
-        const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
-        if (saved && saved.name && saved.role) {
-          currentUser = saved;
-          if (saved.role === "admin") {
+        saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
+      } catch {
+        saved = null;
+      }
+      resetFlashcardDisplayPreferences();
+      if (saved?.role === "student" && saved.name) preserveFlashcardAttemptsBackup(saved);
+      clearFlashcardSyncedStateCache();
+      currentUser = null;
+      if (saved && saved.name && saved.role) {
+        currentUser = saved;
+        if (saved.role === "admin") {
+          adminPasswordForSession = sessionStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+        }
+        if (saved.role === "student") {
+          studentSessionToken = saved.sessionToken || "";
+          if (saved.impersonatedByAdmin) {
             adminPasswordForSession = sessionStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
           }
-          if (saved.role === "student") {
-            studentSessionToken = saved.sessionToken || "";
-            if (saved.impersonatedByAdmin) {
-              adminPasswordForSession = sessionStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
-            }
-            hydrateFlashcardDisplayPreferences({ localOnly: true });
-          }
+          restoreAccountAttemptsBackup(saved);
+          hydrateFlashcardDisplayPreferences({ localOnly: true });
         }
-      } catch {
-        currentUser = null;
       }
     }
 
@@ -187080,6 +187330,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     async function login(username, password) {
+      loginFailureMessage = "";
       const trimmedName = username.trim();
       if (supabaseClient) {
         try {
@@ -187118,12 +187369,17 @@ window.EDMUND_FLASHCARD_SEED = {
             if (stateLoaded) {
               hydrateFlashcardDisplayPreferences();
               updateSupabaseStatus("已安全連接", "live");
+              showAppPanel("dashboard", false);
+              return true;
             }
-            showAppPanel("dashboard", false);
-            return true;
+            loginFailureMessage = "登入成功，但暫時未能安全載入完整學習紀錄。請稍後再試。";
+            clearSession();
+            showLogin();
+            return false;
           }
         } catch (error) {
           console.warn("Account login failed:", error);
+          loginFailureMessage = "帳戶資料服務暫時未能安全載入，請稍後再試。";
           updateSupabaseStatus("帳戶資料服務需要更新", "error");
         }
       }
@@ -188098,6 +188354,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function startSearchCardSession(deckId, cardIndex) {
+      if (!requireFlashcardStateReady()) return;
       const sourceCards = getDeckCards(deckId);
       const sourceCard = sourceCards[Number(cardIndex)];
       if (!sourceCard || !deckIsSearchable(deckId)) return;
@@ -188259,6 +188516,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function startDashboardPracticeSession(filter = "attempted") {
+      if (!requireFlashcardStateReady()) return;
       const rows = dashboardPracticeRows(filter);
       if (!rows.length) {
         window.alert(filter === "green" ? "暫時未有綠勾卡片可重溫。" : "暫時未有已完成卡片可重溫。");
@@ -190914,6 +191172,8 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function logAttemptStart(mode, totalCards) {
       if (!currentUser?.name) return "";
+      const saveContext = captureSupabaseStateSaveContext();
+      if (saveContext && !isSupabaseStateHydrated(saveContext)) return "";
       const id = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
       const attempts = getAttempts();
       attempts.push({
@@ -191075,12 +191335,13 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function startDeckSession(mode, cardLimit = 0, rangeStart = 0, rangeEnd = 0, rangeLabel = "") {
+      const status = document.querySelector("[data-start-status]");
+      if (!requireFlashcardStateReady(status)) return;
       if (savedProgressForDeck(currentDeckId)) {
         clearSavedProgress(currentDeckId);
       }
 
       const cards = getDeckCards();
-      const status = document.querySelector("[data-start-status]");
       if (!cards.length) {
         if (status) status.textContent = "這個卡組尚未加入卡片，暫時不能開始。請返回並選擇顯示卡片數目大於 0 的卡組。";
         return;
@@ -191158,6 +191419,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function startRedCrossSession(startIndex = 0) {
+      if (!requireFlashcardStateReady()) return;
       const allCards = currentRedCrossCards();
       const offset = Math.max(0, Number(startIndex || 0));
       const cards = allCards.slice(offset);
@@ -191205,6 +191467,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function startSpacedRepetitionSession(days, filter = "all") {
+      if (!requireFlashcardStateReady()) return;
       const cards = spacedRepetitionCards(days, filter);
       if (!cards.length) {
         window.alert("暫時沒有符合這個間隔條件的卡片。");
@@ -191248,6 +191511,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function resumeDeckSession() {
+      if (!requireFlashcardStateReady()) return;
       const saved = savedProgressForDeck(currentDeckId);
       if (!saved) return;
       const cards = getDeckCards(currentDeckId);
@@ -192327,7 +192591,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const formData = new FormData(event.currentTarget);
         if (status) status.textContent = "Checking login...";
         const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
-        if (!ok && status) status.textContent = "Wrong user name or password.";
+        if (!ok && status) status.textContent = loginFailureMessage || "Wrong user name or password.";
         if (ok && status) status.textContent = "";
         if (ok) window.setTimeout(openRequestedFlashcardTarget, 0);
       });
@@ -193235,6 +193499,9 @@ window.EDMUND_FLASHCARD_SEED = {
 
         if (event.target.closest("[data-logout]")) {
           if (!confirmLeaveInProgress()) return;
+          const logoutButton = event.target.closest("[data-logout]");
+          if (logoutButton) logoutButton.disabled = true;
+          await flushSupabaseStateSaves();
           clearSession();
           studySession = null;
           stopStudyTimer();
@@ -193242,6 +193509,7 @@ window.EDMUND_FLASHCARD_SEED = {
           hideCountdownClock();
           closeAdminSwitchModal();
           showLogin();
+          if (logoutButton) logoutButton.disabled = false;
           return;
         }
 
@@ -193385,13 +193653,25 @@ window.EDMUND_FLASHCARD_SEED = {
       const shared = window.EdmundSystemNav?.getStudentSession?.();
       discardRestoredStudentForUniversalSession(shared);
       if (!currentUser) await restoreUniversalFlashcardSession(shared);
+      showLogin();
+      const loginControls = [...document.querySelectorAll("[data-login-form] input, [data-login-form] button")];
       if (currentUser) {
-        showAppPanel(isAdmin() ? "admin-panel" : "dashboard", false);
-      } else {
-        showLogin();
+        loginControls.forEach(control => { control.disabled = true; });
+        const status = document.querySelector("[data-login-status]");
+        if (status) status.textContent = "正在載入完整學習紀錄…";
       }
-      await initSupabaseState();
-      window.setTimeout(openRequestedFlashcardTarget, 0);
+      const stateReady = await initSupabaseState();
+      loginControls.forEach(control => { control.disabled = false; });
+      const context = captureSupabaseStateSaveContext();
+      if (currentUser && stateReady && (!context || isSupabaseStateHydrated(context))) {
+        const status = document.querySelector("[data-login-status]");
+        if (status) status.textContent = "";
+        showAppPanel(isAdmin() ? "admin-panel" : "dashboard", false);
+        window.setTimeout(openRequestedFlashcardTarget, 0);
+      } else if (currentUser) {
+        const status = document.querySelector("[data-login-status]");
+        if (status) status.textContent = "未能安全載入完整學習紀錄。請重新登入；系統不會以空白紀錄覆蓋原有資料。";
+      }
     }
 
     void initialiseFlashcardPortal();
