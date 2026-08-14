@@ -13,6 +13,20 @@ explicitly granted by `../../supabase-writing-submission.sql`.
 
 ## Secure bootstrap
 
+### Existing-installation feedback editor upgrade (required)
+
+For an existing installation that already includes
+`supabase-writing-submission-feedback-revision.sql`, deploy the enhanced
+feedback editor in this order:
+
+1. Apply `../../supabase-writing-submission-feedback-fragment-enhancements.sql`.
+2. Deploy the matching Writing Submission Worker.
+3. Publish the matching browser assets.
+
+The migration is additive for saved reviews: existing two-field groups receive
+an empty suggested-writing field and empty formatting arrays. The Worker also
+accepts legacy two-field request objects during the transition.
+
 ### Existing-installation topic-access upgrade (required)
 
 An existing Writing Submission installation must use the incremental
@@ -68,7 +82,9 @@ Apply the repository's shared Flashcard-account migrations first. Then run
 Apply `../../supabase-writing-submission-enhancements.sql` immediately after
 it, then apply `../../supabase-writing-submission-grammar-history.sql` and
 `../../supabase-writing-submission-drafts-admin.sql`. Apply
-`../../supabase-writing-submission-feedback.sql` next. Apply
+`../../supabase-writing-submission-feedback.sql` next, followed by
+`../../supabase-writing-submission-feedback-revision.sql` and
+`../../supabase-writing-submission-feedback-fragment-enhancements.sql`. Apply
 `../../supabase-writing-grammar-corpus.sql` after that, followed by the generated
 `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
@@ -84,8 +100,9 @@ The migration creates:
 - per-rule grammar-problem summaries and student-owned detail pages;
 - an administrator-only queue for generic explanations that need a specific
   teacher-authored rule; and
-- normalized, versioned teacher feedback with ordered original-fragment and
-  Edmund-comment pairs, draft/published states, and an immutable audit trail;
+- normalized, versioned teacher feedback with ordered original-fragment,
+  Edmund-comment and suggested-writing groups, safe inline bold/highlight
+  formatting, draft/published states, and an immutable audit trail;
 - published-feedback visibility limited to the student who owns the active
   submission, with all draft/edit/delete operations limited to the dedicated
   Writing Submission administrator; and
@@ -233,7 +250,13 @@ The administrator may repeatedly save a draft or publish a complete review:
   "fragments": [
     {
       "originalFragment": "The student's original sentence.",
-      "edmundComment": "Edmund 評語"
+      "edmundComment": "Edmund 評語",
+      "suggestedWriting": "A suggested revision.",
+      "originalFormatting": [
+        { "start": 0, "end": 3, "bold": true, "highlight": "yellow" }
+      ],
+      "commentFormatting": [],
+      "suggestionFormatting": []
     }
   ],
   "finalComment": "最後評語",
@@ -243,11 +266,14 @@ The administrator may repeatedly save a draft or publish a complete review:
 }
 ```
 
-Draft feedback may contain partially completed fragment pairs. Publishing
-requires a non-empty overall comment, at least one pair containing both the
-original fragment and Edmund comment, and a non-empty final comment. Each save
-replaces the ordered fragment set atomically and increments the feedback
-version. Deleting feedback removes its current contents while retaining an
+Draft feedback may contain partially completed groups. Publishing requires
+both the original fragment and Edmund comment in every included group;
+suggested writing, overall comment, final comment and improved version remain
+optional. Formatting offsets use JavaScript UTF-16 string positions and may
+contain at most 500 exact runs per field. Supported highlights are `yellow`,
+`orange`, `blue`, `green`, or the empty string, and arbitrary HTML is never
+stored. Each save replaces the ordered fragment set atomically and increments
+the feedback version. Deleting feedback removes its current contents while retaining an
 administrator audit event. Student APIs never expose drafts. A new feedback
 uses `expectedVersion: 0` and `expectedFeedbackId: null`; subsequent saves must
 send both the `version` and `id` returned by the latest GET or PUT response. A

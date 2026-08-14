@@ -750,19 +750,25 @@ button { color: inherit; }
 .submission-feedback-bell .submission-feedback-bell-icon { color: inherit; font-size: 15px; line-height: 1; }
 .submission-feedback-bell b { position: absolute; top: -5px; right: -4px; min-width: 17px; height: 17px; border: 2px solid #e8f8ed; border-radius: 999px; display: grid; place-items: center; padding: 0 3px; color: #fff; background: #d2264e; font: 850 9px/1 ui-sans-serif,system-ui,sans-serif; }
 
-.submission-detail { min-height: 480px; }
+.submission-detail { --submission-text-scale: 1; min-height: 480px; }
 .submission-detail-head { padding-bottom: 20px; border-bottom: 1px solid rgba(39,39,87,.12); }
 .submission-detail-head h2 { margin: 0 0 11px; font-size: clamp(20px, 2.1vw, 25px); line-height: 1.35; }
-.submission-detail-actions { margin-top: 15px; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 9px; }
+.submission-detail-actions { margin-top: 15px; display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 9px; }
+.feedback-font-scale-control { border: 1px solid rgba(39,39,87,.14); border-radius: 999px; padding: 4px; display: inline-flex; align-items: center; gap: 4px; background: #f7f9ff; box-shadow: 0 5px 14px rgba(39,39,87,.07); }
+.feedback-font-scale-button { min-width: 38px; height: 34px; border: 0; border-radius: 999px; color: #244783; background: #fff; cursor: pointer; font: 850 12px ui-sans-serif,system-ui,sans-serif; }
+.feedback-font-scale-button:hover { background: #eaf1ff; }
+.feedback-font-scale-button:disabled { opacity: .42; cursor: not-allowed; }
+.feedback-font-scale-select { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-soft); font: 750 10px ui-sans-serif,system-ui,sans-serif; }
+.feedback-font-scale-select select { min-width: 78px; border: 0; border-radius: 999px; padding: 8px 10px; color: var(--ink); background: #fff; cursor: pointer; font: 800 11px ui-sans-serif,system-ui,sans-serif; }
 .export-submission-button { border: 1px solid rgba(97,118,207,.3); border-radius: 999px; padding: 9px 14px; color: #304794; background: #eef2ff; cursor: pointer; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; font-weight: 800; }
 .copy-submission-notice-button { border: 1px solid rgba(214,130,31,.35); border-radius: 999px; padding: 9px 14px; color: #7a3d0c; background: #fff2cf; cursor: pointer; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; font-weight: 800; }
 .copy-submission-notice-button:hover { background: #ffe5a4; }
 .delete-submission-button { border: 1px solid rgba(201,75,82,.28); border-radius: 999px; padding: 9px 14px; color: #a3353c; background: #fff1f0; cursor: pointer; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; font-weight: 800; }
 .deleted-submission-badge { color: #9d333a !important; font-weight: 800; }
 .submission-meta { display: flex; flex-wrap: wrap; gap: 8px 16px; color: var(--ink-soft); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; }
-.submission-content { margin-top: 24px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 18px; line-height: 1.85; }
+.submission-content { margin-top: 24px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: calc(18px * var(--submission-text-scale)); line-height: 1.85; }
 .teacher-feedback-view,
-.teacher-feedback-editor { margin-top: 32px; border: 1px solid rgba(39,39,87,.15); border-radius: 20px; overflow: hidden; background: #fffdf9; box-shadow: 0 14px 34px rgba(39,39,87,.08); }
+.teacher-feedback-editor { margin-top: 32px; border: 1px solid rgba(39,39,87,.15); border-radius: 20px; overflow: clip; background: #fffdf9; box-shadow: 0 14px 34px rgba(39,39,87,.08); }
 .teacher-feedback-view-head,
 .teacher-feedback-editor-head { padding: 20px 22px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px 18px; color: #fff; background: var(--midnight); }
 .teacher-feedback-view-head > div:first-child,
@@ -772,9 +778,10 @@ button { color: inherit; }
 .teacher-feedback-view-head time { color: rgba(255,255,255,.68); font: 700 11px ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-status { border-radius: 999px; padding: 8px 11px; color: #fff; background: rgba(255,255,255,.15); font: 800 11px ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-text { padding: 22px; }
-.teacher-feedback-text h3 { margin: 0 0 10px; color: var(--orange-deep); font-size: 20px; }
+.teacher-feedback-text h3 { margin: 0 0 10px; color: var(--orange-deep); font-size: calc(20px * var(--submission-text-scale)); }
 .teacher-feedback-text div,
-.teacher-feedback-comment > div { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.75; }
+.teacher-feedback-comment > div,
+.teacher-feedback-suggestion > div { white-space: pre-wrap; overflow-wrap: anywhere; font-size: calc(16px * var(--submission-text-scale)); line-height: 1.75; }
 .teacher-feedback-overall { background: #fff5e7; }
 .teacher-feedback-final { border-top: 1px solid rgba(39,39,87,.12); background: #edf7f0; }
 .teacher-feedback-improved { border-top: 1px solid rgba(39,39,87,.12); background: #eef4ff; }
@@ -786,20 +793,51 @@ button { color: inherit; }
 .teacher-feedback-original { padding: 17px 20px; background: #f2f1f4; }
 .teacher-feedback-original > span,
 .teacher-feedback-comment > span,
+.teacher-feedback-suggestion > span,
 .teacher-feedback-comment > strong,
+.teacher-feedback-suggestion > strong,
 .teacher-feedback-edit-head strong { color: #676272; font: 850 11px ui-sans-serif,system-ui,sans-serif; letter-spacing: .03em; }
-.teacher-feedback-original p { margin: 9px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 17px; font-weight: 800; line-height: 1.6; }
+.teacher-feedback-original p { margin: 9px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: calc(17px * var(--submission-text-scale)); font-weight: 800; line-height: 1.6; }
 .teacher-feedback-comment { padding: 18px 20px 22px; background: #fff; }
 .teacher-feedback-comment > div { margin-top: 9px; }
+.teacher-feedback-suggestion { border-top: 1px dashed rgba(34,113,76,.17); padding: 18px 20px 22px; background: #effaf3; }
+.teacher-feedback-suggestion > div { margin-top: 9px; color: #193f30; }
+.teacher-feedback-suggestion > div.is-empty { color: #718079; font-style: italic; }
+.teacher-feedback-rich-content mark,
+.teacher-feedback-rich-editor mark { border-radius: .2em; padding: .03em .08em; color: inherit; }
+.teacher-feedback-rich-content mark[data-highlight="yellow"],
+.teacher-feedback-rich-editor mark[data-highlight="yellow"] { background: #fff1a8; }
+.teacher-feedback-rich-content mark[data-highlight="orange"],
+.teacher-feedback-rich-editor mark[data-highlight="orange"] { background: #ffd3a1; }
+.teacher-feedback-rich-content mark[data-highlight="blue"],
+.teacher-feedback-rich-editor mark[data-highlight="blue"] { background: #cfe6ff; }
+.teacher-feedback-rich-content mark[data-highlight="green"],
+.teacher-feedback-rich-editor mark[data-highlight="green"] { background: #d5f2d5; }
 .teacher-feedback-field { padding: 20px; display: grid; gap: 9px; background: #fffdf9; }
 .teacher-feedback-field > span,
 .teacher-feedback-fragment-heading > div { color: var(--ink); font-size: 20px; font-weight: 850; }
 .teacher-feedback-field textarea,
-.teacher-feedback-edit-pair textarea { width: 100%; border: 1px solid rgba(39,39,87,.16); border-radius: 12px; padding: 13px 14px; color: var(--ink); background: #fff; resize: none; font: 16px/1.7 Georgia,"Noto Serif TC Local",serif; }
+.teacher-feedback-edit-pair textarea { width: 100%; border: 1px solid rgba(39,39,87,.16); border-radius: 12px; padding: 13px 14px; color: var(--ink); background: #fff; resize: none; font: calc(16px * var(--submission-text-scale))/1.7 Georgia,"Noto Serif TC Local",serif; }
 .teacher-feedback-fragment-heading { border-top: 1px solid rgba(39,39,87,.11); padding: 20px; background: #fff7ea; }
 .teacher-feedback-fragment-heading p { margin: 6px 0 0; color: var(--ink-soft); font-size: 12px; line-height: 1.55; }
 .teacher-feedback-edit-head { margin-bottom: 9px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.teacher-feedback-row-actions { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 7px; }
 .teacher-feedback-clear { border: 1px solid rgba(158,60,66,.18); border-radius: 999px; padding: 6px 9px; color: #9e3c42; background: #fff4f3; cursor: pointer; font: 800 10px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-insert { border: 1px solid rgba(48,71,148,.2); border-radius: 999px; padding: 6px 9px; color: #304794; background: #f1f5ff; cursor: pointer; font: 800 10px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-rich-editor { width: 100%; min-height: 72px; border: 1px solid rgba(39,39,87,.16); border-radius: 12px; padding: 13px 14px; color: var(--ink); background: #fff; overflow-wrap: anywhere; white-space: pre-wrap; font: calc(16px * var(--submission-text-scale))/1.7 Georgia,"Noto Serif TC Local",serif; }
+.teacher-feedback-comment .teacher-feedback-rich-editor,
+.teacher-feedback-suggestion .teacher-feedback-rich-editor { min-height: 130px; margin-top: 9px; }
+.teacher-feedback-rich-editor:focus { outline: 0; border-color: #6176cf; box-shadow: 0 0 0 4px rgba(97,118,207,.12); }
+.teacher-feedback-rich-editor:empty::before { color: #9aa0ae; content: attr(data-placeholder); pointer-events: none; }
+.teacher-feedback-format-toolbar { position: sticky; top: var(--writing-feedback-sticky-top, 76px); z-index: 3; border-top: 1px solid rgba(39,39,87,.1); border-bottom: 1px solid rgba(39,39,87,.12); padding: 10px 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 7px; background: rgba(255,255,255,.96); backdrop-filter: blur(12px); }
+.teacher-feedback-format-label { margin-right: 3px; color: var(--ink-soft); font: 750 11px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-format-button,
+.teacher-feedback-highlight-button { min-height: 32px; border: 1px solid rgba(39,39,87,.15); border-radius: 9px; padding: 6px 10px; color: var(--ink); background: #fff; cursor: pointer; font: 800 11px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-format-bold { font: 900 17px Georgia,serif; }
+.teacher-feedback-highlight-button.is-yellow { background: #fff1a8; }
+.teacher-feedback-highlight-button.is-orange { background: #ffd3a1; }
+.teacher-feedback-highlight-button.is-blue { background: #cfe6ff; }
+.teacher-feedback-highlight-button.is-green { background: #d5f2d5; }
 .teacher-feedback-add { margin: 18px 20px; width: calc(100% - 40px); }
 .teacher-feedback-save-status { margin: 0 20px 12px; }
 .teacher-feedback-actions { position: sticky; bottom: 0; z-index: 2; border-top: 1px solid rgba(39,39,87,.13); padding: 14px 20px; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 9px; background: rgba(255,253,249,.96); backdrop-filter: blur(12px); }
@@ -811,7 +849,7 @@ button { color: inherit; }
 .teacher-feedback-transcription-head p { margin: 6px 0 0; color: var(--ink-soft); font: 12px/1.6 ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-transcription-field { display: grid; gap: 9px; }
 .teacher-feedback-transcription-field > span { color: #304794; font-size: 17px; font-weight: 850; }
-.teacher-feedback-transcription-field textarea { width: 100%; min-height: 220px; border: 1px solid rgba(48,71,148,.22); border-radius: 14px; padding: 15px; color: var(--ink); background: #fff; resize: vertical; font: 16px/1.8 Georgia,"Noto Serif TC Local",serif; }
+.teacher-feedback-transcription-field textarea { width: 100%; min-height: 220px; border: 1px solid rgba(48,71,148,.22); border-radius: 14px; padding: 15px; color: var(--ink); background: #fff; resize: vertical; font: calc(16px * var(--submission-text-scale))/1.8 Georgia,"Noto Serif TC Local",serif; }
 .teacher-feedback-transcription-field textarea:focus { outline: 0; border-color: #6176cf; box-shadow: 0 0 0 4px rgba(97,118,207,.12); }
 .teacher-feedback-model-reference { margin: 3px 0; background: #f5f8ff; }
 .teacher-feedback-model-unavailable { margin: 0; border: 1px dashed rgba(39,39,87,.15); border-radius: 13px; padding: 14px; color: var(--ink-soft); background: #fff; font: 12px/1.6 ui-sans-serif,system-ui,sans-serif; }
@@ -993,6 +1031,12 @@ button { color: inherit; }
   .admin-student-layout { grid-template-columns: 1fr; }
   .admin-student-layout > .submission-detail { grid-column: auto; }
   .submission-detail { min-height: 360px; }
+  .submission-detail-actions { align-items: stretch; }
+  .feedback-font-scale-control { width: 100%; justify-content: space-between; }
+  .feedback-font-scale-select { flex: 1; justify-content: center; }
+  .teacher-feedback-edit-head { align-items: flex-start; flex-direction: column; }
+  .teacher-feedback-row-actions { width: 100%; justify-content: flex-start; }
+  .teacher-feedback-format-toolbar { padding-inline: 12px; }
   .utility-empty { min-height: 300px; }
 }
 

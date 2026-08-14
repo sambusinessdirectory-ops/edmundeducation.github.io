@@ -39,6 +39,9 @@ const MAX_FEEDBACK_FRAGMENTS = 200;
 const MAX_FEEDBACK_HEADER_CHARACTERS = 20000;
 const MAX_FEEDBACK_FRAGMENT_CHARACTERS = 10000;
 const MAX_FEEDBACK_COMMENT_CHARACTERS = 20000;
+const MAX_FEEDBACK_SUGGESTION_CHARACTERS = 20000;
+const MAX_FEEDBACK_FORMATTING_RUNS = 500;
+const FEEDBACK_HIGHLIGHTS = new Set(["", "yellow", "orange", "blue", "green"]);
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
@@ -1206,17 +1209,66 @@ function feedbackResponse(row) {
     version: Number(row.version || 0),
     publishedAt: row.published_at ? String(row.published_at) : null,
     updatedAt: String(row.updated_at || ""),
-    fragments: fragments.map((fragment, index) => ({
-      id: fragment && fragment.id ? String(fragment.id) : null,
-      position: Number(fragment && fragment.position ? fragment.position : index + 1),
-      originalFragment: String(fragment?.originalFragment ?? fragment?.original_fragment ?? ""),
-      edmundComment: String(fragment?.edmundComment ?? fragment?.edmund_comment ?? "")
-    })),
+    fragments: fragments.map((fragment, index) => {
+      const originalFragment = String(
+        fragment?.originalFragment ?? fragment?.original_fragment ?? ""
+      );
+      const edmundComment = String(
+        fragment?.edmundComment ?? fragment?.edmund_comment ?? ""
+      );
+      const suggestedWriting = String(
+        fragment?.suggestedWriting ?? fragment?.suggested_writing ?? ""
+      );
+      return {
+        id: fragment && fragment.id ? String(fragment.id) : null,
+        position: Number(fragment && fragment.position ? fragment.position : index + 1),
+        originalFragment,
+        edmundComment,
+        suggestedWriting,
+        originalFormatting: feedbackFormattingResponse(
+          fragment?.originalFormatting ?? fragment?.original_formatting,
+          originalFragment.length
+        ),
+        commentFormatting: feedbackFormattingResponse(
+          fragment?.commentFormatting ?? fragment?.comment_formatting,
+          edmundComment.length
+        ),
+        suggestionFormatting: feedbackFormattingResponse(
+          fragment?.suggestionFormatting ?? fragment?.suggestion_formatting,
+          suggestedWriting.length
+        )
+      };
+    }),
     transcriptionImproved: String(row.transcription_improved || ""),
     transcriptionModel: String(row.transcription_model || ""),
     transcriptionVersion: Math.max(0, Number(row.transcription_version || 0)),
     topicResource: row.topic_resource && typeof row.topic_resource === "object" ? row.topic_resource : null
   };
+}
+
+function validFeedbackFormattingRun(run, textLength) {
+  return hasExactKeys(run, ["start", "end", "bold", "highlight"])
+    && Number.isInteger(run.start)
+    && Number.isInteger(run.end)
+    && run.start >= 0
+    && run.start < run.end
+    && run.end <= textLength
+    && typeof run.bold === "boolean"
+    && typeof run.highlight === "string"
+    && FEEDBACK_HIGHLIGHTS.has(run.highlight);
+}
+
+function feedbackFormattingResponse(value, textLength) {
+  if (!Array.isArray(value)) return [];
+  return value
+    .slice(0, MAX_FEEDBACK_FORMATTING_RUNS)
+    .filter(run => validFeedbackFormattingRun(run, textLength))
+    .map(run => ({
+      start: run.start,
+      end: run.end,
+      bold: run.bold,
+      highlight: run.highlight
+    }));
 }
 
 function normalizeFeedbackText(value, label, maximumCharacters) {
@@ -1232,6 +1284,23 @@ function normalizeFeedbackText(value, label, maximumCharacters) {
     throw new HttpError(400, "INVALID_FEEDBACK", `${label} is invalid`);
   }
   return normalized;
+}
+
+function normalizeFeedbackFormatting(value, label, textLength) {
+  if (!Array.isArray(value) || value.length > MAX_FEEDBACK_FORMATTING_RUNS) {
+    throw new HttpError(400, "INVALID_FEEDBACK", `${label} must be a valid formatting array`);
+  }
+  return value.map((run, index) => {
+    if (!validFeedbackFormattingRun(run, textLength)) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] is invalid`);
+    }
+    return {
+      start: run.start,
+      end: run.end,
+      bold: run.bold,
+      highlight: run.highlight
+    };
+  });
 }
 
 function normalizeFeedbackPayload(payload) {
@@ -1285,7 +1354,16 @@ function normalizeFeedbackPayload(payload) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback fragments are invalid");
   }
   const fragments = payload.fragments.map((fragment, index) => {
-    if (!hasExactKeys(fragment, ["originalFragment", "edmundComment"])) {
+    const legacyShape = hasExactKeys(fragment, ["originalFragment", "edmundComment"]);
+    const enhancedShape = hasExactKeys(fragment, [
+      "originalFragment",
+      "edmundComment",
+      "suggestedWriting",
+      "originalFormatting",
+      "commentFormatting",
+      "suggestionFormatting"
+    ]);
+    if (!legacyShape && !enhancedShape) {
       throw new HttpError(400, "INVALID_FEEDBACK", `fragments[${index}] has an invalid shape`);
     }
     const originalFragment = normalizeFeedbackText(
@@ -1298,7 +1376,27 @@ function normalizeFeedbackPayload(payload) {
       `fragments[${index}].edmundComment`,
       MAX_FEEDBACK_COMMENT_CHARACTERS
     );
-    if (!originalFragment.trim() && !edmundComment.trim()) {
+    const suggestedWriting = normalizeFeedbackText(
+      enhancedShape ? fragment.suggestedWriting : "",
+      `fragments[${index}].suggestedWriting`,
+      MAX_FEEDBACK_SUGGESTION_CHARACTERS
+    );
+    const originalFormatting = normalizeFeedbackFormatting(
+      enhancedShape ? fragment.originalFormatting : [],
+      `fragments[${index}].originalFormatting`,
+      originalFragment.length
+    );
+    const commentFormatting = normalizeFeedbackFormatting(
+      enhancedShape ? fragment.commentFormatting : [],
+      `fragments[${index}].commentFormatting`,
+      edmundComment.length
+    );
+    const suggestionFormatting = normalizeFeedbackFormatting(
+      enhancedShape ? fragment.suggestionFormatting : [],
+      `fragments[${index}].suggestionFormatting`,
+      suggestedWriting.length
+    );
+    if (!originalFragment.trim() && !edmundComment.trim() && !suggestedWriting.trim()) {
       throw new HttpError(400, "INVALID_FEEDBACK", `fragments[${index}] is empty`);
     }
     if (status === "published" && (!originalFragment.trim() || !edmundComment.trim())) {
@@ -1308,7 +1406,14 @@ function normalizeFeedbackPayload(payload) {
         `fragments[${index}] must contain an original fragment and Edmund comment before publishing`
       );
     }
-    return { originalFragment, edmundComment };
+    return {
+      originalFragment,
+      edmundComment,
+      suggestedWriting,
+      originalFormatting,
+      commentFormatting,
+      suggestionFormatting
+    };
   });
   if (!overallComment.trim() && !finalComment.trim() && !improvedVersion.trim() && fragments.length === 0) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");

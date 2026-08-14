@@ -118,7 +118,19 @@ function storedFeedback(overrides = {}) {
       id: "88888888-8888-4888-8888-888888888888",
       position: 1,
       originalFragment: "Students learns quickly.",
-      edmundComment: "Students 是複數，動詞使用 learn。"
+      edmundComment: "Students 是複數，動詞使用 learn。",
+      suggestedWriting: "Students learn quickly.",
+      originalFormatting: [
+        { start: 0, end: 8, bold: true, highlight: "" },
+        { start: 9, end: 15, bold: false, highlight: "yellow" }
+      ],
+      commentFormatting: [
+        { start: 0, end: 8, bold: true, highlight: "orange" },
+        { start: 9, end: 10, bold: false, highlight: "blue" }
+      ],
+      suggestionFormatting: [
+        { start: 0, end: 8, bold: true, highlight: "green" }
+      ]
     }],
     ...overrides
   };
@@ -3609,6 +3621,55 @@ test("students can read only published feedback belonging to their submission", 
   assert.equal(feedback.status, "published");
   assert.equal(feedback.fragments[0].originalFragment, "Students learns quickly.");
   assert.equal(feedback.fragments[0].edmundComment, "Students 是複數，動詞使用 learn。");
+  assert.equal(feedback.fragments[0].suggestedWriting, "Students learn quickly.");
+  assert.deepEqual(feedback.fragments[0].originalFormatting, [
+    { start: 0, end: 8, bold: true, highlight: "" },
+    { start: 9, end: 15, bold: false, highlight: "yellow" }
+  ]);
+  assert.deepEqual(feedback.fragments[0].commentFormatting, [
+    { start: 0, end: 8, bold: true, highlight: "orange" },
+    { start: 9, end: 10, bold: false, highlight: "blue" }
+  ]);
+  assert.deepEqual(feedback.fragments[0].suggestionFormatting, [
+    { start: 0, end: 8, bold: true, highlight: "green" }
+  ]);
+});
+
+test("legacy stored feedback emits the complete enhanced fragment shape", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_submission_feedback_student_open") {
+      return jsonResponse([storedFeedback({
+        fragments: [{
+          id: "88888888-8888-4888-8888-888888888888",
+          position: 1,
+          originalFragment: "Legacy original.",
+          edmundComment: "Legacy comment."
+        }]
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/submissions/${SUBMISSION_ID}/feedback`,
+    { headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}` } }
+  ), environment());
+  assert.equal(response.status, 200);
+  const [fragment] = (await response.json()).feedback.fragments;
+  assert.deepEqual(fragment, {
+    id: "88888888-8888-4888-8888-888888888888",
+    position: 1,
+    originalFragment: "Legacy original.",
+    edmundComment: "Legacy comment.",
+    suggestedWriting: "",
+    originalFormatting: [],
+    commentFormatting: [],
+    suggestionFormatting: []
+  });
 });
 
 test("student feedback returns null while no published feedback exists", async t => {
@@ -3788,7 +3849,19 @@ test("administrator can load, save and delete structured teacher feedback", asyn
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       assert.deepEqual(rpc.body.p_fragments, [{
         originalFragment: "Students learns quickly.",
-        edmundComment: "Students 是複數，動詞使用 learn。"
+        edmundComment: "Students 是複數，動詞使用 learn。",
+        suggestedWriting: "Students learn quickly.",
+        originalFormatting: [
+          { start: 0, end: 8, bold: true, highlight: "" },
+          { start: 9, end: 15, bold: false, highlight: "yellow" }
+        ],
+        commentFormatting: [
+          { start: 0, end: 8, bold: true, highlight: "orange" },
+          { start: 9, end: 10, bold: false, highlight: "blue" }
+        ],
+        suggestionFormatting: [
+          { start: 0, end: 8, bold: true, highlight: "green" }
+        ]
       }]);
       return jsonResponse([storedFeedback({ version: 3 })]);
     }
@@ -3818,7 +3891,19 @@ test("administrator can load, save and delete structured teacher feedback", asyn
         overallComment: "整體表達清楚。",
         fragments: [{
           originalFragment: "Students learns quickly.",
-          edmundComment: "Students 是複數，動詞使用 learn。"
+          edmundComment: "Students 是複數，動詞使用 learn。",
+          suggestedWriting: "Students learn quickly.",
+          originalFormatting: [
+            { start: 0, end: 8, bold: true, highlight: "" },
+            { start: 9, end: 15, bold: false, highlight: "yellow" }
+          ],
+          commentFormatting: [
+            { start: 0, end: 8, bold: true, highlight: "orange" },
+            { start: 9, end: 10, bold: false, highlight: "blue" }
+          ],
+          suggestionFormatting: [
+            { start: 0, end: 8, bold: true, highlight: "green" }
+          ]
         }],
         finalComment: "繼續留意句子連接。",
         improvedVersion: "Students learn quickly and explain their ideas clearly.",
@@ -3845,6 +3930,185 @@ test("administrator can load, save and delete structured teacher feedback", asyn
     { key: `writing-submission-admin-feedback:${ADMIN_ID}` }
   ]);
   assert.equal(calls.filter(call => call.name === "writing_submission_feedback_admin_save").length, 1);
+});
+
+test("legacy two-field feedback saves are normalized before storage", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") {
+      assert.deepEqual(rpc.body.p_fragments, [{
+        originalFragment: "Legacy original.",
+        edmundComment: "Legacy comment.",
+        suggestedWriting: "",
+        originalFormatting: [],
+        commentFormatting: [],
+        suggestionFormatting: []
+      }]);
+      return jsonResponse([storedFeedback({
+        fragments: rpc.body.p_fragments,
+        version: 1
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "",
+        fragments: [{
+          originalFragment: "Legacy original.",
+          edmundComment: "Legacy comment."
+        }],
+        finalComment: "",
+        improvedVersion: "",
+        status: "draft",
+        expectedVersion: 0,
+        expectedFeedbackId: null
+      })
+    }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.deepEqual((await response.json()).feedback.fragments[0], {
+    id: null,
+    position: 1,
+    originalFragment: "Legacy original.",
+    edmundComment: "Legacy comment.",
+    suggestedWriting: "",
+    originalFormatting: [],
+    commentFormatting: [],
+    suggestionFormatting: []
+  });
+});
+
+test("published enhanced feedback does not require suggested writing", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") {
+      assert.equal(rpc.body.p_status, "published");
+      assert.equal(rpc.body.p_fragments[0].suggestedWriting, "");
+      return jsonResponse([storedFeedback({
+        fragments: rpc.body.p_fragments,
+        status: "published",
+        version: 1
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "",
+        fragments: [{
+          originalFragment: "Original.",
+          edmundComment: "Comment.",
+          suggestedWriting: "",
+          originalFormatting: [],
+          commentFormatting: [],
+          suggestionFormatting: []
+        }],
+        finalComment: "",
+        improvedVersion: "",
+        status: "published",
+        expectedVersion: 0,
+        expectedFeedbackId: null
+      })
+    }
+  ), environment());
+  assert.equal(response.status, 200);
+  assert.equal((await response.json()).feedback.fragments[0].suggestedWriting, "");
+});
+
+test("feedback formatting rejects invalid shapes, ranges, styles and oversized arrays", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalled = false;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save") saveCalled = true;
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const validFragment = {
+    originalFragment: "Original.",
+    edmundComment: "Comment.",
+    suggestedWriting: "Suggestion.",
+    originalFormatting: [{ start: 0, end: 8, bold: true, highlight: "yellow" }],
+    commentFormatting: [],
+    suggestionFormatting: []
+  };
+  const invalidFragments = [
+    { ...validFragment, originalFormatting: "not-an-array" },
+    { ...validFragment, originalFormatting: [{ start: 0, end: 8, bold: true, highlight: "pink" }] },
+    { ...validFragment, originalFormatting: [{ start: 0.5, end: 8, bold: true, highlight: "blue" }] },
+    { ...validFragment, originalFormatting: [{ start: -1, end: 8, bold: true, highlight: "blue" }] },
+    { ...validFragment, originalFormatting: [{ start: 2, end: 2, bold: true, highlight: "blue" }] },
+    { ...validFragment, originalFormatting: [{ start: 0, end: 10, bold: true, highlight: "blue" }] },
+    { ...validFragment, originalFormatting: [{ start: 0, end: 8, bold: "yes", highlight: "blue" }] },
+    {
+      ...validFragment,
+      originalFormatting: [{ start: 0, end: 8, bold: true, highlight: "blue", extra: true }]
+    },
+    {
+      ...validFragment,
+      originalFormatting: Array.from(
+        { length: 501 },
+        () => ({ start: 0, end: 1, bold: false, highlight: "" })
+      )
+    },
+    {
+      ...validFragment,
+      suggestedWriting: "",
+      suggestionFormatting: [{ start: 0, end: 1, bold: true, highlight: "green" }]
+    }
+  ];
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  for (const fragment of invalidFragments) {
+    const response = await worker.fetch(new Request(
+      `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+      {
+        method: "PUT",
+        headers,
+        body: JSON.stringify({
+          overallComment: "",
+          fragments: [fragment],
+          finalComment: "",
+          improvedVersion: "",
+          status: "draft",
+          expectedVersion: 0,
+          expectedFeedbackId: null
+        })
+      }
+    ), environment());
+    assert.equal(response.status, 400);
+    assert.equal((await response.json()).code, "INVALID_FEEDBACK");
+  }
+  assert.equal(saveCalled, false);
 });
 
 test("published feedback rejects incomplete fragment pairs before storage", async t => {

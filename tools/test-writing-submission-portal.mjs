@@ -58,6 +58,10 @@ const feedbackRevisionMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-feedback-revision.sql"),
   "utf8"
 );
+const feedbackFragmentEnhancementMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-feedback-fragment-enhancements.sql"),
+  "utf8"
+);
 const workerTopicCatalog = fs.readFileSync(
   path.join(root, "workers/writing-submission/src/topic-catalog.js"),
   "utf8"
@@ -333,8 +337,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260813-random-topic1/);
-  assert.match(html, /writing-submission\.js\?v=20260813-random-topic1/);
+  assert.match(html, /writing-submission\.css\?v=20260814-feedback-rich1/);
+  assert.match(html, /writing-submission\.js\?v=20260814-feedback-rich1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -541,8 +545,6 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /dataset\.topicReferenceRetry/);
   assert.match(script, /暫時未能載入參考內容/);
   assert.match(script, /dataset\.topicReferenceTranslationToggle/);
-  assert.match(script, /pair\.dataset\.feedbackPrefilledOnly = "true"/);
-  assert.match(script, /pair\.dataset\.feedbackPrefilledOnly === "true" && !edmundComment/);
   assert.match(script, /"中文翻譯"/);
   assert.match(script, /row\?\.english/);
   assert.match(script, /row\?\.chinese/);
@@ -559,13 +561,17 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /Math\.max\(20, Math\.ceil\(saved\.length \/ 10\) \* 10\)/);
   assert.match(script, /appendFeedbackEditorRows\(list, initialCount, saved, state\.adminFeedbackSuggestedFragments\)/);
   assert.match(script, /appendFeedbackEditorRows\(list, 10/);
-  assert.match(script, /fragment\.originalFragment\.trim\(\) \|\| fragment\.edmundComment\.trim\(\)/);
+  assert.match(
+    script,
+    /fragment\.originalFragment\.trim\(\)\s*\|\| fragment\.edmundComment\.trim\(\)\s*\|\| fragment\.suggestedWriting\.trim\(\)/
+  );
   assert.match(script, /\[\^\.\!\?;。！？；\]\+/);
   assert.match(script, /const expectedVersion = state\.selectedAdminFeedback\?\.version \|\| 0/);
   assert.match(script, /const expectedFeedbackId = state\.selectedAdminFeedback\?\.id \|\| null/);
   assert.match(script, /method: "DELETE",[\s\S]*?expectedFeedbackId,[\s\S]*?expectedVersion/);
-  assert.match(script, /original\.maxLength = 10000/);
-  assert.match(script, /comment\.maxLength = 20000/);
+  assert.match(script, /label: `原句 \$\{index \+ 1\}`,[\s\S]*?maxLength: 10000/);
+  assert.match(script, /label: `Edmund 評語 \$\{index \+ 1\}`,[\s\S]*?maxLength: 20000/);
+  assert.match(script, /label: `建議寫法 \$\{index \+ 1\}`,[\s\S]*?maxLength: 20000/);
   assert.match(script, /data-feedback-editor/);
   assert.match(script, /\/v1\/admin\/submissions\/\$\{encodeURIComponent\(submissionId\)\}\/feedback/);
   assert.match(script, /\/v1\/submissions\/\$\{encodeURIComponent\(submissionId\)\}\/feedback/);
@@ -584,6 +590,124 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(topicAccessMigration, /access_entry\.key <> '__adminMessage'[\s\S]*?jsonb_typeof\(access_entry\.value\) <> 'boolean'/i);
   assert.match(topicAccessMigration, /revoke all on function public\.writing_submission_student_profile\(uuid\)[\s\S]*?from public, anon, authenticated, service_role/i);
   assert.match(topicAccessMigration, /grant execute on function public\.writing_submission_student_profile\(uuid\) to service_role/i);
+});
+
+test("structured feedback supports suggested rewrites, safe formatting, row editing and shared font scaling", () => {
+  const normalizeFeedbackSource = script.match(
+    /function normalizeTeacherFeedback\(value\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const richRendererSource = script.match(
+    /function appendFeedbackRichText\(container, textValue, formattingValue,[\s\S]*?^\}/m
+  )?.[0] || "";
+  const richEditorSource = script.match(
+    /function createFeedbackRichEditor\([^)]*\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const studentFeedbackSource = script.match(
+    /function renderStudentFeedback\(feedback, container\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const rowFactorySource = script.match(
+    /function createFeedbackEditorRow\([^)]*\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const renumberSource = script.match(
+    /function renumberFeedbackEditorRows\(list\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const editorReaderSource = script.match(
+    /function readAdminFeedbackEditor\(editor\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const renderDetailSource = script.match(
+    /function renderSubmissionDetail\(submission,[\s\S]*?^\}/m
+  )?.[0] || "";
+  const fontApplicationSource = script.match(
+    /function applyFeedbackFontScale\([^)]*\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+
+  // Every sentence-level group transports its suggested rewrite and a separate
+  // formatting run array for all three displayed bands.
+  for (const field of [
+    "suggestedWriting",
+    "originalFormatting",
+    "commentFormatting",
+    "suggestionFormatting"
+  ]) {
+    assert.match(normalizeFeedbackSource, new RegExp(`\\b${field}:`));
+    assert.match(editorReaderSource, new RegExp(`\\b${field}:`));
+    assert.match(workerSource, new RegExp(`\\b${field}\\b`));
+    assert.match(feedbackFragmentEnhancementMigration, new RegExp(`'${field}'`));
+  }
+  assert.match(rowFactorySource, /"建議寫法"/);
+  assert.match(studentFeedbackSource, /"建議寫法"/);
+  assert.match(studentFeedbackSource, /fragment\.suggestedWriting/);
+  assert.match(studentFeedbackSource, /fragment\.suggestionFormatting/);
+  assert.match(
+    editorReaderSource,
+    /pair\.dataset\.feedbackPrefilledOnly === "true" && !comment\.text && !suggestion\.text/
+  );
+
+  // Persisted content is rebuilt from text nodes plus the two allowed inline
+  // elements. It is never passed to an arbitrary-HTML parsing sink.
+  assert.match(richRendererSource, /document\.createTextNode/);
+  assert.match(richRendererSource, /document\.createElement\("strong"\)/);
+  assert.match(richRendererSource, /document\.createElement\("mark"\)/);
+  assert.match(richRendererSource, /mark\.dataset\.highlight = run\.highlight/);
+  assert.doesNotMatch(
+    richRendererSource,
+    /innerHTML|outerHTML|insertAdjacentHTML|DOMParser|createContextualFragment/
+  );
+  assert.equal(
+    (studentFeedbackSource.match(/appendFeedbackRichText\(/g) || []).length,
+    3,
+    "the student view must safely render original, comment and suggestion formatting"
+  );
+
+  // Removing a row removes the actual group; both removal and insertion then
+  // renumber visible labels and accessibility labels from current DOM order.
+  assert.match(script, /const removeFeedbackPair = event\.target\.closest\("\[data-feedback-remove-pair\]"\)/);
+  assert.match(script, /pair\?\.remove\(\);\s*if \(list\) renumberFeedbackEditorRows\(list\)/);
+  assert.match(renumberSource, /pair\.dataset\.feedbackPosition = String\(index \+ 1\)/);
+  assert.match(renumberSource, /label\.textContent = `原句 \$\{index \+ 1\}`/);
+  assert.match(renumberSource, /editor\.setAttribute\("aria-label", `\$\{names\[field\] \|\| "評語內容"\} \$\{index \+ 1\}`\)/);
+  assert.match(rowFactorySource, /dataset\.feedbackInsertAfter = "true"/);
+  assert.match(script, /const inserted = createFeedbackEditorRow\(\{ index: 0 \}\);\s*pair\.after\(inserted\);\s*renumberFeedbackEditorRows\(list\)/);
+  assert.match(script, /inserted\.querySelector\('\[data-feedback-rich-editor="original"\]'\)\?\.focus\(\)/);
+
+  // The font control exposes the exact requested sequence, is always attached
+  // before the student/admin detail branches, and updates both detail roots.
+  const fontScaleMatch = script.match(
+    /const FEEDBACK_FONT_SCALE_VALUES = Object\.freeze\(\[([^\]]+)\]\)/
+  );
+  assert.ok(fontScaleMatch, "feedback font-scale values must be declared");
+  assert.deepEqual(
+    fontScaleMatch[1].split(",").map(value => Number(value.trim())),
+    [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3]
+  );
+  assert.match(renderDetailSource, /actions\.append\(feedbackFontScaleControl\(\)\);\s*if \(admin/);
+  assert.match(renderDetailSource, /else if \(!admin\)/);
+  assert.match(
+    fontApplicationSource,
+    /document\.querySelectorAll\("\[data-submission-detail\], \[data-admin-detail\]"\)/
+  );
+  assert.match(fontApplicationSource, /--submission-text-scale/);
+  assert.match(script, /data-feedback-font-smaller/);
+  assert.match(script, /data-feedback-font-larger/);
+  assert.match(script, /data-feedback-font-scale/);
+
+  // Toolbar colors are allowlisted and keyboard bold works with both common
+  // platform modifiers while suppressing the browser's default action.
+  const highlightNamesMatch = script.match(
+    /const FEEDBACK_HIGHLIGHT_COLORS = Object\.freeze\(\{([\s\S]*?)\}\)/
+  );
+  assert.ok(highlightNamesMatch, "feedback highlight colors must be declared");
+  assert.deepEqual(
+    [...highlightNamesMatch[1].matchAll(/\b(yellow|orange|blue|green)\s*:/g)].map(match => match[1]),
+    ["yellow", "orange", "blue", "green"]
+  );
+  for (const color of ["yellow", "orange", "blue", "green"]) {
+    assert.match(css, new RegExp(`mark\\[data-highlight="${color}"\\]`));
+  }
+  assert.match(richEditorSource, /\(event\.metaKey \|\| event\.ctrlKey\)/);
+  assert.match(richEditorSource, /event\.key\.toLowerCase\(\) === "b"/);
+  assert.match(richEditorSource, /event\.preventDefault\(\)/);
+  assert.match(richEditorSource, /document\.execCommand\("bold", false\)/);
 });
 
 test("article and feedback navigation invalidates stale requests and clears sensitive detail", () => {

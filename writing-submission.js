@@ -66,6 +66,15 @@ const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
 const VOCABULARY_TEXT_SCALE_VALUES = Object.freeze([0.5, 1, 2, 3, 4, 5, 7]);
+const FEEDBACK_FONT_SCALE_VALUES = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3]);
+const FEEDBACK_FONT_SCALE_KEY = "edmund-writing-feedback-font-scale-v1";
+const FEEDBACK_HIGHLIGHT_COLORS = Object.freeze({
+  yellow: "#fff1a8",
+  orange: "#ffd3a1",
+  blue: "#cfe6ff",
+  green: "#d5f2d5"
+});
+const FEEDBACK_HIGHLIGHT_NAMES = Object.freeze(Object.keys(FEEDBACK_HIGHLIGHT_COLORS));
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
 const entryLink = normalizeWritingSubmissionEntryLink(window.location.search);
@@ -244,6 +253,10 @@ const state = {
   adminSubmissionRequestGeneration: 0,
   selectedAdminFeedback: null,
   adminFeedbackSuggestedFragments: [],
+  feedbackFontScale: 1,
+  feedbackFontScaleInitialized: false,
+  activeFeedbackRichEditor: null,
+  feedbackSelectionRange: null,
   adminExplanationReviews: [],
   adminExplanationReviewPage: 0,
   adminExplanationReviewHasMore: false,
@@ -255,6 +268,324 @@ function createElement(tag, className = "", text = "") {
   if (className) node.className = className;
   if (text !== "") node.textContent = String(text);
   return node;
+}
+
+function normalizeFeedbackFontScale(value) {
+  const numeric = Number(value);
+  return FEEDBACK_FONT_SCALE_VALUES.includes(numeric) ? numeric : 1;
+}
+
+function initializeFeedbackFontScale() {
+  if (state.feedbackFontScaleInitialized) return;
+  state.feedbackFontScaleInitialized = true;
+  try {
+    state.feedbackFontScale = normalizeFeedbackFontScale(window.localStorage.getItem(FEEDBACK_FONT_SCALE_KEY));
+  } catch {
+    state.feedbackFontScale = 1;
+  }
+}
+
+function applyFeedbackFontScale({ persist = false } = {}) {
+  initializeFeedbackFontScale();
+  const value = normalizeFeedbackFontScale(state.feedbackFontScale);
+  state.feedbackFontScale = value;
+  document.querySelectorAll("[data-submission-detail], [data-admin-detail]").forEach(container => {
+    container.style.setProperty("--submission-text-scale", String(value));
+  });
+  document.querySelectorAll("[data-feedback-font-scale]").forEach(select => {
+    select.value = String(value);
+  });
+  document.querySelectorAll("[data-feedback-font-smaller]").forEach(button => {
+    button.disabled = value === FEEDBACK_FONT_SCALE_VALUES[0];
+  });
+  document.querySelectorAll("[data-feedback-font-larger]").forEach(button => {
+    button.disabled = value === FEEDBACK_FONT_SCALE_VALUES[FEEDBACK_FONT_SCALE_VALUES.length - 1];
+  });
+  if (persist) {
+    try { window.localStorage.setItem(FEEDBACK_FONT_SCALE_KEY, String(value)); }
+    catch { /* Font scaling still works for the current page when storage is unavailable. */ }
+  }
+}
+
+function changeFeedbackFontScale(direction) {
+  initializeFeedbackFontScale();
+  const currentIndex = Math.max(0, FEEDBACK_FONT_SCALE_VALUES.indexOf(state.feedbackFontScale));
+  const nextIndex = Math.min(
+    FEEDBACK_FONT_SCALE_VALUES.length - 1,
+    Math.max(0, currentIndex + direction)
+  );
+  state.feedbackFontScale = FEEDBACK_FONT_SCALE_VALUES[nextIndex];
+  applyFeedbackFontScale({ persist: true });
+}
+
+function feedbackFontScaleControl() {
+  initializeFeedbackFontScale();
+  const control = createElement("div", "feedback-font-scale-control");
+  control.setAttribute("role", "group");
+  control.setAttribute("aria-label", "調整文章及評語字體大小");
+  const smaller = createElement("button", "feedback-font-scale-button", "A−");
+  smaller.type = "button";
+  smaller.dataset.feedbackFontSmaller = "true";
+  smaller.title = "縮小字體";
+  const label = createElement("label", "feedback-font-scale-select");
+  label.append(createElement("span", "", "字體大小"));
+  const select = document.createElement("select");
+  select.dataset.feedbackFontScale = "true";
+  select.setAttribute("aria-label", "文章及評語字體大小");
+  FEEDBACK_FONT_SCALE_VALUES.forEach(value => {
+    const option = document.createElement("option");
+    option.value = String(value);
+    option.textContent = `${Math.round(value * 100)}%`;
+    select.append(option);
+  });
+  select.value = String(state.feedbackFontScale);
+  label.append(select);
+  const larger = createElement("button", "feedback-font-scale-button", "A＋");
+  larger.type = "button";
+  larger.dataset.feedbackFontLarger = "true";
+  larger.title = "放大字體";
+  control.append(smaller, label, larger);
+  return control;
+}
+
+function initializeFeedbackStickyOffset() {
+  const header = document.querySelector(".edmund-system-header");
+  if (!header) return;
+  const sync = () => {
+    const height = Math.max(0, Math.ceil(header.getBoundingClientRect().height));
+    document.documentElement.style.setProperty("--writing-feedback-sticky-top", `${height}px`);
+  };
+  sync();
+  window.addEventListener("resize", sync, { passive: true });
+  if (typeof ResizeObserver === "function") new ResizeObserver(sync).observe(header);
+}
+
+function normalizeFeedbackFormattingRuns(value, textValue = "") {
+  const text = String(textValue || "");
+  if (!Array.isArray(value) || !text.length) return [];
+  const sorted = value.map(run => ({
+    start: Number(run?.start),
+    end: Number(run?.end),
+    bold: run?.bold === true,
+    highlight: FEEDBACK_HIGHLIGHT_NAMES.includes(String(run?.highlight || ""))
+      ? String(run.highlight)
+      : ""
+  })).filter(run => (
+    Number.isSafeInteger(run.start)
+    && Number.isSafeInteger(run.end)
+    && run.start >= 0
+    && run.end > run.start
+    && run.end <= text.length
+    && (run.bold || run.highlight)
+  )).sort((left, right) => left.start - right.start || left.end - right.end);
+  const output = [];
+  let cursor = 0;
+  for (const run of sorted) {
+    if (run.start < cursor) continue;
+    const previous = output[output.length - 1];
+    if (
+      previous
+      && previous.end === run.start
+      && previous.bold === run.bold
+      && previous.highlight === run.highlight
+    ) previous.end = run.end;
+    else output.push(run);
+    cursor = run.end;
+  }
+  return output.slice(0, 500);
+}
+
+function appendFeedbackRichText(container, textValue, formattingValue, { emptyText = "" } = {}) {
+  const text = String(textValue || "");
+  const runs = normalizeFeedbackFormattingRuns(formattingValue, text);
+  container.replaceChildren();
+  if (!text) {
+    if (emptyText) container.append(document.createTextNode(emptyText));
+    return;
+  }
+  let cursor = 0;
+  for (const run of runs) {
+    if (run.start > cursor) container.append(document.createTextNode(text.slice(cursor, run.start)));
+    let node = document.createTextNode(text.slice(run.start, run.end));
+    if (run.bold) {
+      const strong = document.createElement("strong");
+      strong.append(node);
+      node = strong;
+    }
+    if (run.highlight) {
+      const mark = document.createElement("mark");
+      mark.dataset.highlight = run.highlight;
+      mark.append(node);
+      node = mark;
+    }
+    container.append(node);
+    cursor = run.end;
+  }
+  if (cursor < text.length) container.append(document.createTextNode(text.slice(cursor)));
+}
+
+function feedbackHighlightName(element) {
+  const explicit = String(element?.dataset?.highlight || "");
+  if (FEEDBACK_HIGHLIGHT_NAMES.includes(explicit)) return explicit;
+  const color = String(element?.style?.backgroundColor || "").replace(/\s+/gu, "").toLowerCase();
+  const aliases = {
+    "rgb(255,241,168)": "yellow",
+    "#fff1a8": "yellow",
+    "rgb(255,211,161)": "orange",
+    "#ffd3a1": "orange",
+    "rgb(207,230,255)": "blue",
+    "#cfe6ff": "blue",
+    "rgb(213,242,213)": "green",
+    "#d5f2d5": "green"
+  };
+  return aliases[color] || "";
+}
+
+function readFeedbackRichEditor(editor) {
+  const runs = [];
+  let text = "";
+  const appendText = (value, style) => {
+    const normalized = String(value || "").replace(/\u00a0/gu, " ");
+    if (!normalized) return;
+    const start = text.length;
+    text += normalized;
+    const end = text.length;
+    if (style.bold || style.highlight) {
+      const previous = runs[runs.length - 1];
+      if (
+        previous
+        && previous.end === start
+        && previous.bold === style.bold
+        && previous.highlight === style.highlight
+      ) previous.end = end;
+      else runs.push({ start, end, bold: style.bold, highlight: style.highlight });
+    }
+  };
+  const appendBreak = () => {
+    if (text && !text.endsWith("\n")) appendText("\n", { bold: false, highlight: "" });
+  };
+  const visit = (node, inherited = { bold: false, highlight: "" }) => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      appendText(node.nodeValue, inherited);
+      return;
+    }
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+    const element = node;
+    const tag = element.tagName;
+    if (tag === "BR") {
+      appendBreak();
+      return;
+    }
+    const block = tag === "DIV" || tag === "P" || tag === "LI";
+    if (block) appendBreak();
+    const weight = String(element.style?.fontWeight || "");
+    const style = {
+      bold: inherited.bold || tag === "B" || tag === "STRONG" || weight === "bold" || Number(weight) >= 600,
+      highlight: feedbackHighlightName(element) || inherited.highlight
+    };
+    element.childNodes.forEach(child => visit(child, style));
+    if (block) appendBreak();
+  };
+  editor.childNodes.forEach(child => visit(child));
+  const trimmed = text.trim();
+  if (!trimmed) return { text: "", formatting: [] };
+  const startOffset = text.indexOf(trimmed);
+  const endOffset = startOffset + trimmed.length;
+  const adjusted = runs.map(run => ({
+    start: Math.max(run.start, startOffset) - startOffset,
+    end: Math.min(run.end, endOffset) - startOffset,
+    bold: run.bold,
+    highlight: run.highlight
+  })).filter(run => run.end > run.start);
+  const maxLength = Math.max(1, Number(editor.dataset.feedbackMaxLength || 20000));
+  if (trimmed.length > maxLength) {
+    throw new Error(`${editor.getAttribute("aria-label") || "評語內容"}不可超過 ${maxLength.toLocaleString()} 個字元。`);
+  }
+  return { text: trimmed, formatting: normalizeFeedbackFormattingRuns(adjusted, trimmed) };
+}
+
+function createFeedbackRichEditor({ label, value = "", formatting = [], maxLength = 20000, datasetName }) {
+  const editor = createElement("div", "teacher-feedback-rich-editor");
+  editor.contentEditable = "true";
+  editor.spellcheck = true;
+  editor.setAttribute("role", "textbox");
+  editor.setAttribute("aria-multiline", "true");
+  editor.setAttribute("aria-label", label);
+  editor.dataset.feedbackRichEditor = datasetName;
+  editor.dataset.feedbackMaxLength = String(maxLength);
+  editor.dataset.placeholder = `輸入${label}`;
+  appendFeedbackRichText(editor, value, formatting);
+  editor.addEventListener("focus", () => {
+    state.activeFeedbackRichEditor = editor;
+  });
+  editor.addEventListener("paste", event => {
+    event.preventDefault();
+    const text = event.clipboardData?.getData("text/plain") || "";
+    document.execCommand("insertText", false, text);
+  });
+  editor.addEventListener("drop", event => {
+    event.preventDefault();
+    const text = event.dataTransfer?.getData("text/plain") || "";
+    document.execCommand("insertText", false, text);
+  });
+  editor.addEventListener("keydown", event => {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "b") {
+      event.preventDefault();
+      state.activeFeedbackRichEditor = editor;
+      document.execCommand("bold", false);
+    }
+  });
+  return editor;
+}
+
+function feedbackFormattingToolbar() {
+  const toolbar = createElement("div", "teacher-feedback-format-toolbar");
+  toolbar.setAttribute("role", "toolbar");
+  toolbar.setAttribute("aria-label", "評語文字格式");
+  toolbar.append(createElement("span", "teacher-feedback-format-label", "選取文字後套用："));
+  const bold = createElement("button", "teacher-feedback-format-button teacher-feedback-format-bold", "B");
+  bold.type = "button";
+  bold.dataset.feedbackFormat = "bold";
+  bold.setAttribute("aria-label", "粗體（Command 或 Control + B）");
+  toolbar.append(bold);
+  FEEDBACK_HIGHLIGHT_NAMES.forEach(name => {
+    const labels = { yellow: "黃色", orange: "橙色", blue: "藍色", green: "綠色" };
+    const button = createElement("button", `teacher-feedback-highlight-button is-${name}`, labels[name]);
+    button.type = "button";
+    button.dataset.feedbackFormat = name;
+    button.setAttribute("aria-label", `${labels[name]}螢光筆`);
+    toolbar.append(button);
+  });
+  const clear = createElement("button", "teacher-feedback-format-button", "清除格式");
+  clear.type = "button";
+  clear.dataset.feedbackFormat = "clear";
+  toolbar.append(clear);
+  return toolbar;
+}
+
+function applyFeedbackFormatting(command) {
+  const editor = state.activeFeedbackRichEditor;
+  if (!editor?.isConnected) {
+    showToast("請先在原句、Edmund 評語或建議寫法中選取文字。", "error");
+    return;
+  }
+  editor.focus({ preventScroll: true });
+  const selection = window.getSelection();
+  if (state.feedbackSelectionRange && selection) {
+    selection.removeAllRanges();
+    selection.addRange(state.feedbackSelectionRange);
+  }
+  if (!selection?.rangeCount || selection.isCollapsed || !editor.contains(selection.anchorNode)) {
+    showToast("請先選取要設定格式的文字。", "error");
+    return;
+  }
+  if (command === "bold") document.execCommand("bold", false);
+  else if (command === "clear") document.execCommand("removeFormat", false);
+  else if (FEEDBACK_HIGHLIGHT_NAMES.includes(command)) {
+    document.execCommand("styleWithCSS", false, true);
+    document.execCommand("hiliteColor", false, FEEDBACK_HIGHLIGHT_COLORS[command]);
+  }
+  editor.dispatchEvent(new Event("input", { bubbles: true }));
 }
 
 function loadingState(label = "正在載入…") {
@@ -3317,15 +3648,14 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   if (submission.occurrenceCount) meta.append(createElement("span", "", `${submission.occurrenceCount} 個文法偵測結果`));
   if (admin && submission.deletedAt) meta.append(createElement("span", "deleted-submission-badge", "學生已從個人文章列表刪除"));
   header.append(meta);
+  const actions = createElement("div", "submission-detail-actions");
+  actions.append(feedbackFontScaleControl());
   if (admin && !submission.deletedAt) {
-    const actions = createElement("div", "submission-detail-actions");
     const copyButton = createElement("button", "copy-submission-notice-button", "複製已改好通知");
     copyButton.type = "button";
     copyButton.dataset.copySubmissionNotice = submission.id;
     actions.append(copyButton);
-    header.append(actions);
   } else if (!admin) {
-    const actions = createElement("div", "submission-detail-actions");
     const exportButton = createElement("button", "export-submission-button", "匯出這篇文章");
     exportButton.type = "button";
     exportButton.dataset.exportSubmission = submission.id;
@@ -3333,10 +3663,11 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
     remove.type = "button";
     remove.dataset.deleteSubmission = submission.id;
     actions.append(exportButton, remove);
-    header.append(actions);
   }
+  header.append(actions);
   const content = createElement("div", "submission-content", submission.answer || "（文章內容為空）");
   container.replaceChildren(header, content);
+  applyFeedbackFontScale();
 }
 
 function normalizeTeacherFeedback(value) {
@@ -3345,8 +3676,25 @@ function normalizeTeacherFeedback(value) {
     ? value.fragments.map((fragment, index) => ({
       position: Math.max(1, Number(fragment?.position || index + 1)),
       originalFragment: String(fragment?.originalFragment || fragment?.original_fragment || ""),
-      edmundComment: String(fragment?.edmundComment || fragment?.edmund_comment || "")
-    })).filter(fragment => fragment.originalFragment.trim() || fragment.edmundComment.trim())
+      edmundComment: String(fragment?.edmundComment || fragment?.edmund_comment || ""),
+      suggestedWriting: String(fragment?.suggestedWriting || fragment?.suggested_writing || ""),
+      originalFormatting: normalizeFeedbackFormattingRuns(
+        fragment?.originalFormatting || fragment?.original_formatting,
+        fragment?.originalFragment || fragment?.original_fragment
+      ),
+      commentFormatting: normalizeFeedbackFormattingRuns(
+        fragment?.commentFormatting || fragment?.comment_formatting,
+        fragment?.edmundComment || fragment?.edmund_comment
+      ),
+      suggestionFormatting: normalizeFeedbackFormattingRuns(
+        fragment?.suggestionFormatting || fragment?.suggestion_formatting,
+        fragment?.suggestedWriting || fragment?.suggested_writing
+      )
+    })).filter(fragment => (
+      fragment.originalFragment.trim()
+      || fragment.edmundComment.trim()
+      || fragment.suggestedWriting.trim()
+    ))
     : [];
   return {
     id: String(value.id || ""),
@@ -3514,10 +3862,24 @@ function renderStudentFeedback(feedback, container) {
   feedback.fragments.forEach((fragment, index) => {
     const pair = createElement("article", "teacher-feedback-read-pair");
     const original = createElement("section", "teacher-feedback-original");
-    original.append(createElement("span", "", `原句 ${index + 1}`), createElement("p", "", fragment.originalFragment));
+    const originalText = createElement("p", "teacher-feedback-rich-content");
+    appendFeedbackRichText(originalText, fragment.originalFragment, fragment.originalFormatting);
+    original.append(createElement("span", "", `原句 ${index + 1}`), originalText);
     const comment = createElement("section", "teacher-feedback-comment");
-    comment.append(createElement("span", "", "Edmund 評語"), createElement("div", "", fragment.edmundComment));
-    pair.append(original, comment);
+    const commentText = createElement("div", "teacher-feedback-rich-content");
+    appendFeedbackRichText(commentText, fragment.edmundComment, fragment.commentFormatting);
+    comment.append(createElement("span", "", "Edmund 評語"), commentText);
+    const suggestion = createElement("section", "teacher-feedback-suggestion");
+    const suggestionText = createElement("div", "teacher-feedback-rich-content");
+    appendFeedbackRichText(
+      suggestionText,
+      fragment.suggestedWriting,
+      fragment.suggestionFormatting,
+      { emptyText: "尚未提供建議寫法。" }
+    );
+    if (!fragment.suggestedWriting.trim()) suggestionText.classList.add("is-empty");
+    suggestion.append(createElement("span", "", "建議寫法"), suggestionText);
+    pair.append(original, comment, suggestion);
     fragments.append(pair);
   });
   if (feedback.fragments.length) panel.append(fragments);
@@ -3541,44 +3903,101 @@ function feedbackTextarea(label, value, datasetName, { rows = 3, maxLength = 200
   return wrapper;
 }
 
+function renumberFeedbackEditorRows(list) {
+  list.querySelectorAll("[data-feedback-pair]").forEach((pair, index) => {
+    pair.dataset.feedbackPosition = String(index + 1);
+    const label = pair.querySelector("[data-feedback-row-label]");
+    if (label) label.textContent = `原句 ${index + 1}`;
+    pair.querySelectorAll("[data-feedback-rich-editor]").forEach(editor => {
+      const field = editor.dataset.feedbackRichEditor;
+      const names = { original: "原句", comment: "Edmund 評語", suggestion: "建議寫法" };
+      editor.setAttribute("aria-label", `${names[field] || "評語內容"} ${index + 1}`);
+    });
+  });
+}
+
+function nextFeedbackSuggestionIndex(list) {
+  const indexes = [...list.querySelectorAll("[data-feedback-source-index]")]
+    .map(pair => Number(pair.dataset.feedbackSourceIndex))
+    .filter(Number.isSafeInteger);
+  return indexes.length ? Math.max(...indexes) + 1 : 0;
+}
+
+function createFeedbackEditorRow({ index, value = {}, suggestedOriginal = "", sourceIndex = null, prefilledOnly = false }) {
+  const pair = createElement("article", "teacher-feedback-edit-pair");
+  pair.dataset.feedbackPair = "true";
+  if (Number.isSafeInteger(sourceIndex)) pair.dataset.feedbackSourceIndex = String(sourceIndex);
+  if (prefilledOnly) pair.dataset.feedbackPrefilledOnly = "true";
+
+  const originalBand = createElement("section", "teacher-feedback-original");
+  const originalHead = createElement("div", "teacher-feedback-edit-head");
+  const rowLabel = createElement("strong", "", `原句 ${index + 1}`);
+  rowLabel.dataset.feedbackRowLabel = "true";
+  const rowActions = createElement("div", "teacher-feedback-row-actions");
+  const insert = createElement("button", "teacher-feedback-insert", "中間插入新一般句");
+  insert.type = "button";
+  insert.dataset.feedbackInsertAfter = "true";
+  const remove = createElement("button", "teacher-feedback-clear", "刪除此組");
+  remove.type = "button";
+  remove.dataset.feedbackRemovePair = "true";
+  rowActions.append(insert, remove);
+  originalHead.append(rowLabel, rowActions);
+  const original = createFeedbackRichEditor({
+    label: `原句 ${index + 1}`,
+    value: value.originalFragment || suggestedOriginal,
+    formatting: value.originalFormatting,
+    maxLength: 10000,
+    datasetName: "original"
+  });
+  if (prefilledOnly) {
+    original.addEventListener("input", () => { delete pair.dataset.feedbackPrefilledOnly; }, { once: true });
+  }
+  originalBand.append(originalHead, original);
+
+  const commentBand = createElement("section", "teacher-feedback-comment");
+  commentBand.append(createElement("strong", "", "Edmund 評語"));
+  const comment = createFeedbackRichEditor({
+    label: `Edmund 評語 ${index + 1}`,
+    value: value.edmundComment,
+    formatting: value.commentFormatting,
+    maxLength: 20000,
+    datasetName: "comment"
+  });
+  commentBand.append(comment);
+
+  const suggestionBand = createElement("section", "teacher-feedback-suggestion");
+  suggestionBand.append(createElement("strong", "", "建議寫法"));
+  const suggestion = createFeedbackRichEditor({
+    label: `建議寫法 ${index + 1}`,
+    value: value.suggestedWriting,
+    formatting: value.suggestionFormatting,
+    maxLength: 20000,
+    datasetName: "suggestion"
+  });
+  suggestionBand.append(suggestion);
+  pair.append(originalBand, commentBand, suggestionBand);
+  return pair;
+}
+
 function appendFeedbackEditorRows(list, count, values = [], suggestions = []) {
   const start = list.querySelectorAll("[data-feedback-pair]").length;
-  for (let offset = 0; offset < count; offset += 1) {
+  const available = Math.max(0, 200 - start);
+  const amount = Math.min(Math.max(0, Number(count) || 0), available);
+  const suggestionStart = nextFeedbackSuggestionIndex(list);
+  for (let offset = 0; offset < amount; offset += 1) {
     const index = start + offset;
+    const sourceIndex = suggestionStart + offset;
     const savedValue = values[index];
-    const value = savedValue || {};
-    const pair = createElement("article", "teacher-feedback-edit-pair");
-    pair.dataset.feedbackPair = "true";
-    const originalBand = createElement("section", "teacher-feedback-original");
-    const originalHead = createElement("div", "teacher-feedback-edit-head");
-    originalHead.append(createElement("strong", "", `原句 ${index + 1}`));
-    const clear = createElement("button", "teacher-feedback-clear", "清除此組");
-    clear.type = "button";
-    clear.dataset.feedbackClearPair = "true";
-    originalHead.append(clear);
-    const original = document.createElement("textarea");
-    original.rows = 2;
-    original.maxLength = 10000;
-    original.dataset.feedbackOriginal = "true";
-    original.value = value.originalFragment || suggestions[index] || "";
-    if (!savedValue && suggestions[index]) {
-      pair.dataset.feedbackPrefilledOnly = "true";
-      original.addEventListener("input", () => { delete pair.dataset.feedbackPrefilledOnly; }, { once: true });
-    }
-    originalBand.append(originalHead, original);
-    const commentBand = createElement("section", "teacher-feedback-comment");
-    commentBand.append(createElement("strong", "", "Edmund 評語"));
-    const comment = document.createElement("textarea");
-    comment.rows = 5;
-    comment.maxLength = 20000;
-    comment.dataset.feedbackComment = "true";
-    comment.value = value.edmundComment || "";
-    commentBand.append(comment);
-    pair.append(originalBand, commentBand);
-    list.append(pair);
-    autosizeTextarea(original, 72);
-    autosizeTextarea(comment, 130);
+    const suggestedOriginal = savedValue ? "" : suggestions[sourceIndex] || "";
+    list.append(createFeedbackEditorRow({
+      index,
+      value: savedValue || {},
+      suggestedOriginal,
+      sourceIndex,
+      prefilledOnly: !savedValue && Boolean(suggestedOriginal)
+    }));
   }
+  renumberFeedbackEditorRows(list);
 }
 
 function renderAdminFeedbackEditor(submission, feedback, container) {
@@ -3597,9 +4016,9 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   const fragmentHeading = createElement("div", "teacher-feedback-fragment-heading");
   fragmentHeading.append(
     createElement("div", "", "逐句／逐段評語"),
-    createElement("p", "", "每組先保留學生原句，再在下一格寫下 Edmund 評語；未填評語的預備原句不會送出。")
+    createElement("p", "", "每組依次顯示原句、Edmund 評語及建議寫法。可選取文字使用粗體或四色螢光筆；未填評語的預備原句不會送出。")
   );
-  panel.append(fragmentHeading);
+  panel.append(fragmentHeading, feedbackFormattingToolbar());
   const list = createElement("div", "teacher-feedback-editor-list");
   list.dataset.feedbackPairs = "true";
   const saved = feedback?.fragments || [];
@@ -3639,11 +4058,19 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
 function readAdminFeedbackEditor(editor) {
   const fragments = [];
   for (const pair of editor.querySelectorAll("[data-feedback-pair]")) {
-    const originalFragment = pair.querySelector("[data-feedback-original]")?.value.trim() || "";
-    const edmundComment = pair.querySelector("[data-feedback-comment]")?.value.trim() || "";
-    if (pair.dataset.feedbackPrefilledOnly === "true" && !edmundComment) continue;
-    if (!originalFragment && !edmundComment) continue;
-    fragments.push({ originalFragment, edmundComment });
+    const original = readFeedbackRichEditor(pair.querySelector('[data-feedback-rich-editor="original"]'));
+    const comment = readFeedbackRichEditor(pair.querySelector('[data-feedback-rich-editor="comment"]'));
+    const suggestion = readFeedbackRichEditor(pair.querySelector('[data-feedback-rich-editor="suggestion"]'));
+    if (pair.dataset.feedbackPrefilledOnly === "true" && !comment.text && !suggestion.text) continue;
+    if (!original.text && !comment.text && !suggestion.text) continue;
+    fragments.push({
+      originalFragment: original.text,
+      edmundComment: comment.text,
+      suggestedWriting: suggestion.text,
+      originalFormatting: original.formatting,
+      commentFormatting: comment.formatting,
+      suggestionFormatting: suggestion.formatting
+    });
   }
   const overallComment = editor.querySelector("[data-feedback-overall]")?.value.trim() || "";
   const finalComment = editor.querySelector("[data-feedback-final]")?.value.trim() || "";
@@ -4862,6 +5289,20 @@ function bindEvents() {
     renderAdminStudents();
     renderAdminSubmissions();
   });
+  document.addEventListener("selectionchange", () => {
+    const selection = window.getSelection();
+    if (!selection?.rangeCount || selection.isCollapsed) return;
+    const editor = selection.anchorNode?.parentElement?.closest?.("[data-feedback-rich-editor]")
+      || (selection.anchorNode?.nodeType === Node.ELEMENT_NODE
+        ? selection.anchorNode.closest?.("[data-feedback-rich-editor]")
+        : null);
+    if (!editor || !editor.contains(selection.focusNode)) return;
+    state.activeFeedbackRichEditor = editor;
+    state.feedbackSelectionRange = selection.getRangeAt(0).cloneRange();
+  });
+  document.addEventListener("pointerdown", (event) => {
+    if (event.target.closest?.("[data-feedback-format]")) event.preventDefault();
+  });
   document.addEventListener("toggle", (event) => {
     const feedbackModelReference = event.target.closest?.("[data-feedback-model-reference]");
     if (feedbackModelReference?.open) {
@@ -4898,6 +5339,21 @@ function bindEvents() {
     }
   }, true);
   document.addEventListener("click", (event) => {
+    const smallerFeedbackFont = event.target.closest("[data-feedback-font-smaller]");
+    if (smallerFeedbackFont) {
+      changeFeedbackFontScale(-1);
+      return;
+    }
+    const largerFeedbackFont = event.target.closest("[data-feedback-font-larger]");
+    if (largerFeedbackFont) {
+      changeFeedbackFontScale(1);
+      return;
+    }
+    const feedbackFormat = event.target.closest("[data-feedback-format]");
+    if (feedbackFormat) {
+      applyFeedbackFormatting(feedbackFormat.dataset.feedbackFormat);
+      return;
+    }
     const transcriptionSave = event.target.closest("[data-transcription-save]");
     if (transcriptionSave) {
       return saveStudentTranscriptions(transcriptionSave.dataset.transcriptionSave).catch(handleViewError);
@@ -4911,16 +5367,34 @@ function bindEvents() {
     const addFeedbackRows = event.target.closest("[data-feedback-add-ten]");
     if (addFeedbackRows) {
       const list = addFeedbackRows.closest("[data-feedback-editor]")?.querySelector("[data-feedback-pairs]");
-      if (list) appendFeedbackEditorRows(list, 10, [], state.adminFeedbackSuggestedFragments);
+      if (list) {
+        const before = list.querySelectorAll("[data-feedback-pair]").length;
+        appendFeedbackEditorRows(list, 10, [], state.adminFeedbackSuggestedFragments);
+        if (before >= 200) showToast("每份評語最多可建立 200 組。", "error");
+      }
       return;
     }
-    const clearFeedbackPair = event.target.closest("[data-feedback-clear-pair]");
-    if (clearFeedbackPair) {
-      const pair = clearFeedbackPair.closest("[data-feedback-pair]");
-      pair?.querySelectorAll("textarea").forEach(textarea => {
-        textarea.value = "";
-        autosizeTextarea(textarea, textarea.hasAttribute("data-feedback-comment") ? 130 : 72);
-      });
+    const insertFeedbackPair = event.target.closest("[data-feedback-insert-after]");
+    if (insertFeedbackPair) {
+      const pair = insertFeedbackPair.closest("[data-feedback-pair]");
+      const list = pair?.closest("[data-feedback-pairs]");
+      if (!pair || !list) return;
+      if (list.querySelectorAll("[data-feedback-pair]").length >= 200) {
+        showToast("每份評語最多可建立 200 組。", "error");
+        return;
+      }
+      const inserted = createFeedbackEditorRow({ index: 0 });
+      pair.after(inserted);
+      renumberFeedbackEditorRows(list);
+      inserted.querySelector('[data-feedback-rich-editor="original"]')?.focus();
+      return;
+    }
+    const removeFeedbackPair = event.target.closest("[data-feedback-remove-pair]");
+    if (removeFeedbackPair) {
+      const pair = removeFeedbackPair.closest("[data-feedback-pair]");
+      const list = pair?.closest("[data-feedback-pairs]");
+      pair?.remove();
+      if (list) renumberFeedbackEditorRows(list);
       return;
     }
     const saveFeedback = event.target.closest("[data-feedback-save]");
@@ -4993,6 +5467,13 @@ function bindEvents() {
     }
   });
   document.addEventListener("change", (event) => {
+    const feedbackScale = event.target.closest("[data-feedback-font-scale]");
+    if (feedbackScale) {
+      const value = normalizeFeedbackFontScale(feedbackScale.value);
+      state.feedbackFontScale = value;
+      applyFeedbackFontScale({ persist: true });
+      return;
+    }
     const vocabularyScale = event.target.closest("[data-topic-reference-vocabulary-scale]");
     if (vocabularyScale) {
       const value = Number(vocabularyScale.value);
@@ -5061,6 +5542,7 @@ async function checkHealth() {
 
 async function initialise() {
   bindEvents();
+  initializeFeedbackStickyOffset();
   startWritingClock();
   startWritingTimerClock();
   setWritingTimerInputs(40 * 60);
