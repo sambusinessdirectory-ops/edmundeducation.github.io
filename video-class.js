@@ -60,6 +60,9 @@
     lessonSearch: document.querySelector("[data-lesson-search]"),
     clearLessonSearch: document.querySelector("[data-clear-lesson-search]"),
     lessonSearchStatus: document.querySelector("[data-lesson-search-status]"),
+    lessonSearchResults: document.querySelector("[data-lesson-search-results]"),
+    lessonSearchResultsCount: document.querySelector("[data-lesson-search-results-count]"),
+    lessonSearchResultsList: document.querySelector("[data-lesson-search-results-list]"),
     lessonSummary: document.querySelector("[data-lesson-summary]"),
     bookmarksState: document.querySelector("[data-bookmarks-state]"),
     bookmarkList: document.querySelector("[data-bookmark-list]"),
@@ -178,6 +181,12 @@
     statTotal: document.querySelector("[data-stat-total]"),
     statKeyed: document.querySelector("[data-stat-keyed]"),
     statEnabled: document.querySelector("[data-stat-enabled]"),
+    adminProgressResetDialog: document.querySelector("[data-admin-progress-reset-dialog]"),
+    adminProgressResetStudent: document.querySelector("[data-admin-progress-reset-student]"),
+    adminProgressResetDate: document.querySelector("[data-admin-progress-reset-date]"),
+    adminProgressResetDateSubmit: document.querySelector("[data-admin-progress-reset-date-submit]"),
+    adminProgressResetAll: document.querySelector("[data-admin-progress-reset-all]"),
+    adminProgressResetStatus: document.querySelector("[data-admin-progress-reset-status]"),
     entitlementStudent: document.querySelector("[data-entitlement-student]"),
     entitlementStudentList: document.querySelector("[data-entitlement-student-list]"),
     entitlementsState: document.querySelector("[data-entitlements-state]"),
@@ -363,6 +372,10 @@
     playlistSelectedLessonIds: new Set(),
     playlistLesson: null,
     libraryQuery: "",
+    lessonSearchResults: [],
+    lessonSearchResultCount: 0,
+    lessonSearchLoading: false,
+    lessonSearchGeneration: 0,
     libraryRandomOrder: new Map(),
     noteLesson: null,
     thumbnailUrls: new Map(),
@@ -376,6 +389,7 @@
     lessonSearchTimer: 0,
     studentCollectionLoads: new Set(),
     selectedEntitlementStudentId: "",
+    adminProgressResetStudent: null,
     activeLesson: null,
     playbackSequenceLessonIds: [],
     playbackSequenceType: "course",
@@ -648,6 +662,7 @@
       state.officialPlaylists = [];
     }
     else {
+      closeAdminProgressResetDialog();
       state.adminR2Upload?.controller?.abort();
       window.clearTimeout(state.adminR2SearchTimer);
       state.adminR2SearchTimer = 0;
@@ -2042,8 +2057,13 @@
     if (!course) return;
     state.selectedCourseId = course.id;
     state.libraryQuery = "";
+    state.lessonSearchResults = [];
+    state.lessonSearchResultCount = 0;
+    state.lessonSearchLoading = false;
+    state.lessonSearchGeneration += 1;
     if (elements.lessonSearch) elements.lessonSearch.value = "";
     if (elements.clearLessonSearch) elements.clearLessonSearch.hidden = true;
+    renderLessonSearchResults();
     elements.selectedCourseTitle.textContent = course.title;
     elements.selectedCourseDescription.textContent = course.description;
     showStudentPage("library");
@@ -2063,22 +2083,15 @@
       const minuteText = totalSeconds ? `${Math.ceil(totalSeconds / 60)} 分鐘` : "暫未有時長資料";
       elements.lessonSummary.textContent = `共 ${totalCount} 部影片 · ${minuteText}${!pageMatchesView && missingDurations ? `（${missingDurations} 部待補時長）` : ""}`;
     }
-    const query = normalizeSearchText(state.libraryQuery);
-    const lessons = query ? courseLessons.filter(lesson => lessonSearchText(lesson).includes(query)) : courseLessons;
-    if (elements.lessonSearchStatus) {
-      elements.lessonSearchStatus.textContent = query
-        ? `找到 ${totalCount} 部影片；目前顯示 ${lessons.length} 部。`
-        : (state.studentLessonsTruncated ? `目前顯示 ${courseLessons.length} / ${totalCount} 部影片。` : "");
+    const lessons = courseLessons;
+    if (!state.libraryQuery && elements.lessonSearchStatus) {
+      elements.lessonSearchStatus.textContent = state.studentLessonsTruncated
+        ? `目前顯示 ${courseLessons.length} / ${totalCount} 部影片。`
+        : "";
     }
     if (!courseLessons.length) {
       elements.lessonList.hidden = true;
       showInlineState(elements.lessonsState, state.selectedCourseId ? "這個課程目前未有已發布課堂。新課堂上架後會在這裡顯示。" : "請先從課程總覽選擇一個課程。", "empty");
-      return;
-    }
-
-    if (!lessons.length) {
-      elements.lessonList.hidden = true;
-      showInlineState(elements.lessonsState, "沒有符合搜尋條件的課堂影片。你可以搜尋標題、簡介、標籤或播放列表名稱。", "empty");
       return;
     }
 
@@ -2134,7 +2147,7 @@
     const randomizedLessons = lessons.slice().sort((a, b) => (state.libraryRandomOrder.get(a.id) || 0) - (state.libraryRandomOrder.get(b.id) || 0));
     appendLibraryRow({
       title: "全部可觀看影片",
-      description: query ? "符合搜尋條件的影片（隨機排列）" : "所有可觀看影片（每次載入隨機排列）",
+      description: "所有可觀看影片（每次載入隨機排列）",
       rowLessons: randomizedLessons
     });
 
@@ -2147,7 +2160,6 @@
     officialPlaylists.forEach(playlist => {
       const ids = new Set(playlist.lessonIds);
       const rowLessons = lessons.filter(lesson => ids.has(lesson.id) || lesson.officialPlaylistNames.includes(playlist.name));
-      if (query && !normalizeSearchText(`${playlist.name} ${playlist.description}`).includes(query) && !rowLessons.length) return;
       appendLibraryRow({
         title: playlist.name,
         description: playlist.description || "Edmund 官方系列",
@@ -2157,6 +2169,7 @@
     });
     elements.lessonsState.hidden = true;
     elements.lessonList.hidden = false;
+    renderLessonSearchResults();
   }
 
   function normalizeSearchText(value) {
@@ -2172,6 +2185,176 @@
       ...lesson.officialPlaylistNames,
       ...studentPlaylistNames
     ].join(" "));
+  }
+
+  function appendHighlightedText(element, value, query) {
+    const source = String(value || "").normalize("NFKC");
+    const terms = Array.from(new Set(normalizeSearchText(query).split(/\s+/).filter(Boolean)))
+      .sort((a, b) => b.length - a.length);
+    if (!source || !terms.length) {
+      element.textContent = source;
+      return;
+    }
+    const normalizedSource = source.toLocaleLowerCase("zh-Hant");
+    let cursor = 0;
+    while (cursor < source.length) {
+      let matchIndex = -1;
+      let matchTerm = "";
+      for (const term of terms) {
+        const index = normalizedSource.indexOf(term, cursor);
+        if (index >= 0 && (matchIndex < 0 || index < matchIndex || (index === matchIndex && term.length > matchTerm.length))) {
+          matchIndex = index;
+          matchTerm = term;
+        }
+      }
+      if (matchIndex < 0) {
+        element.append(document.createTextNode(source.slice(cursor)));
+        break;
+      }
+      if (matchIndex > cursor) element.append(document.createTextNode(source.slice(cursor, matchIndex)));
+      const mark = document.createElement("mark");
+      mark.textContent = source.slice(matchIndex, matchIndex + matchTerm.length);
+      element.append(mark);
+      cursor = matchIndex + matchTerm.length;
+    }
+  }
+
+  function renderLessonSearchResults() {
+    if (!elements.lessonSearchResults || !elements.lessonSearchResultsList) return;
+    const query = normalizeSearchText(state.libraryQuery);
+    elements.lessonSearchResultsList.replaceChildren();
+    if (!query) {
+      elements.lessonSearchResults.hidden = true;
+      if (elements.lessonSearchStatus) elements.lessonSearchStatus.textContent = "";
+      return;
+    }
+
+    const results = state.lessonSearchResults.filter(lesson => lesson.courseCodes.includes(state.selectedCourseId));
+    const shownResults = results.slice(0, 20);
+    const total = Math.max(state.lessonSearchResultCount, results.length);
+    elements.lessonSearchResults.hidden = false;
+    if (elements.lessonSearchResultsCount) {
+      elements.lessonSearchResultsCount.textContent = state.lessonSearchLoading
+        ? "搜尋中⋯"
+        : `${total} 部影片`;
+    }
+    if (elements.lessonSearchStatus) {
+      elements.lessonSearchStatus.textContent = state.lessonSearchLoading
+        ? "正在搜尋影片標題、簡介、標籤及播放列表⋯"
+        : (total ? `找到 ${total} 部影片${total > shownResults.length ? `；先顯示 ${shownResults.length} 部。` : "。"}` : "沒有符合條件的影片。");
+    }
+
+    if (!shownResults.length) {
+      const empty = document.createElement("p");
+      empty.className = "lesson-search-results__empty";
+      empty.textContent = state.lessonSearchLoading ? "正在整理搜尋結果⋯" : "沒有符合條件的影片。請嘗試其他標題、標籤或播放列表名稱。";
+      elements.lessonSearchResultsList.append(empty);
+      return;
+    }
+
+    shownResults.forEach((lesson, index) => {
+      const article = document.createElement("article");
+      article.className = `lesson-search-result${lesson.isPrivate ? " is-private" : ""}`;
+      const button = document.createElement("button");
+      button.type = "button";
+      button.setAttribute("aria-label", `${lesson.isPrivate ? "查看私人影片" : "播放"}：${lesson.title}`);
+
+      const thumbnail = document.createElement("span");
+      thumbnail.className = "lesson-search-result__thumbnail";
+      const fallback = document.createElement("span");
+      fallback.textContent = lesson.isPrivate ? "私人" : String(index + 1).padStart(2, "0");
+      if (lesson.posterUrl && !lesson.isPrivate) {
+        const image = document.createElement("img");
+        image.src = lesson.posterUrl;
+        image.alt = "";
+        image.loading = "lazy";
+        image.referrerPolicy = "no-referrer";
+        fallback.hidden = true;
+        image.addEventListener("error", () => {
+          image.remove();
+          fallback.hidden = false;
+        }, { once: true });
+        thumbnail.append(image);
+      }
+      thumbnail.append(fallback);
+
+      const copy = document.createElement("span");
+      copy.className = "lesson-search-result__copy";
+      const title = document.createElement("strong");
+      appendHighlightedText(title, lesson.title, state.libraryQuery);
+      const description = document.createElement("span");
+      appendHighlightedText(description, lesson.description || "錄影課堂", state.libraryQuery);
+      const playlistNames = [
+        ...lesson.officialPlaylistNames,
+        ...state.playlists.filter(playlist => lesson.playlistIds.includes(playlist.id)).map(playlist => playlist.name)
+      ];
+      const matches = document.createElement("small");
+      appendHighlightedText(matches, [...lesson.tags, ...playlistNames].join(" · "), state.libraryQuery);
+      copy.append(title, description);
+      if (matches.textContent) copy.append(matches);
+
+      const action = document.createElement("span");
+      action.className = "lesson-search-result__action";
+      action.textContent = lesson.isPrivate ? "影片為私人" : lesson.progressPercent ? "繼續播放 →" : "開始播放 →";
+      button.append(thumbnail, copy, action);
+      button.addEventListener("click", () => void openLesson(lesson, { type: "course" }));
+      article.append(button);
+      elements.lessonSearchResultsList.append(article);
+    });
+  }
+
+  async function searchLessons(rawQuery) {
+    if (!state.studentSession?.token) return;
+    const query = String(rawQuery || "").normalize("NFKC").trim();
+    const normalizedQuery = normalizeSearchText(query);
+    const generation = ++state.lessonSearchGeneration;
+    if (!normalizedQuery) {
+      state.lessonSearchResults = [];
+      state.lessonSearchResultCount = 0;
+      state.lessonSearchLoading = false;
+      renderLessonSearchResults();
+      return;
+    }
+
+    const localResults = state.lessons.filter(lesson => lesson.courseCodes.includes(state.selectedCourseId)
+      && lessonSearchText(lesson).includes(normalizedQuery));
+    state.lessonSearchResults = localResults;
+    state.lessonSearchResultCount = localResults.length;
+    state.lessonSearchLoading = true;
+    renderLessonSearchResults();
+
+    const token = state.studentSession.token;
+    try {
+      const parameters = new URLSearchParams({ limit: "60", course: state.selectedCourseId, q: query });
+      const payload = await apiRequest(`/v1/lessons?${parameters}`, { token });
+      if (generation !== state.lessonSearchGeneration || token !== state.studentSession?.token) return;
+      const value = unwrap(payload) || {};
+      const rows = Array.isArray(value) ? value : (value.lessons || value.items || []);
+      const returned = rows.map(normalizeLesson);
+      const lessonById = new Map(state.lessons.map(lesson => [lesson.id, lesson]));
+      state.lessonSearchResults = returned.map(lesson => {
+        const existing = lessonById.get(lesson.id);
+        if (!existing) {
+          lessonById.set(lesson.id, lesson);
+          return lesson;
+        }
+        const posterUrl = existing.posterUrl;
+        Object.assign(existing, lesson);
+        if (posterUrl) existing.posterUrl = posterUrl;
+        return existing;
+      });
+      state.lessons = [...lessonById.values()].sort(compareLessons);
+      state.lessonSearchResultCount = Math.max(0, Number(value.totalCount ?? value.total_count) || returned.length);
+      state.lessonSearchLoading = false;
+      renderLessonSearchResults();
+      void loadLessonThumbnails(token, state.lessonLoadGeneration, { reset: false });
+    } catch (error) {
+      if (generation !== state.lessonSearchGeneration || token !== state.studentSession?.token) return;
+      if (error.status === 401) return handleExpiredSession("student");
+      state.lessonSearchLoading = false;
+      renderLessonSearchResults();
+      if (elements.lessonSearchStatus) elements.lessonSearchStatus.textContent = `${error.message} 已顯示目前已載入影片的搜尋結果。`;
+    }
   }
 
   function createLessonCard(lesson, index, { playlistSelection = false, playbackContext = null } = {}) {
@@ -4745,6 +4928,12 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
     actions.append(courses);
+    const resetProgress = document.createElement("button");
+    resetProgress.type = "button";
+    resetProgress.dataset.action = "reset-progress";
+    resetProgress.textContent = "重設學習記錄";
+    resetProgress.addEventListener("click", () => openAdminProgressResetDialog(student));
+    actions.append(resetProgress);
     if (student.videoKey) {
       const clear = document.createElement("button");
       clear.type = "button";
@@ -4757,6 +4946,86 @@
 
     row.append(nameCell, idCell, keyCell, accessCell, actionsCell);
     return row;
+  }
+
+  function hongKongCalendarDate() {
+    const parts = new Intl.DateTimeFormat("en", {
+      timeZone: "Asia/Hong_Kong",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }).formatToParts(new Date());
+    const byType = Object.fromEntries(parts.map(part => [part.type, part.value]));
+    return `${byType.year}-${byType.month}-${byType.day}`;
+  }
+
+  function openAdminProgressResetDialog(student) {
+    if (!student?.id || !elements.adminProgressResetDialog) return;
+    state.adminProgressResetStudent = student;
+    elements.adminProgressResetStudent.textContent = `${student.name} · ${student.id}`;
+    elements.adminProgressResetDate.value = hongKongCalendarDate();
+    elements.adminProgressResetStatus.textContent = "";
+    delete elements.adminProgressResetStatus.dataset.state;
+    setAdminProgressResetBusy(false);
+    elements.adminProgressResetDialog.showModal();
+    window.setTimeout(() => elements.adminProgressResetDate.focus(), 0);
+  }
+
+  function closeAdminProgressResetDialog() {
+    if (!elements.adminProgressResetDialog?.open) return;
+    elements.adminProgressResetDialog.close();
+    state.adminProgressResetStudent = null;
+  }
+
+  function setAdminProgressResetBusy(busy) {
+    if (elements.adminProgressResetDate) elements.adminProgressResetDate.disabled = busy;
+    if (elements.adminProgressResetDateSubmit) elements.adminProgressResetDateSubmit.disabled = busy;
+    if (elements.adminProgressResetAll) elements.adminProgressResetAll.disabled = busy;
+    elements.adminProgressResetDialog?.setAttribute("aria-busy", String(busy));
+  }
+
+  async function resetAdminStudentProgress(scope) {
+    const student = state.adminProgressResetStudent;
+    if (!student?.id || !state.adminSession?.token || !["all", "date"].includes(scope)) return;
+    const activityDate = scope === "date" ? String(elements.adminProgressResetDate?.value || "") : "";
+    if (scope === "date" && (!activityDate || !elements.adminProgressResetDate.checkValidity())) {
+      elements.adminProgressResetStatus.dataset.state = "error";
+      elements.adminProgressResetStatus.textContent = "請先選擇有效的香港日期。";
+      elements.adminProgressResetDate?.focus();
+      return;
+    }
+
+    const confirmation = scope === "all"
+      ? `確定把 ${student.name} 的錄影班學習記錄全部歸零嗎？此操作不能復原。`
+      : `確定清除 ${student.name} 在 ${activityDate}（香港日期）的觀看影片數及觀看時間嗎？`;
+    if (!window.confirm(confirmation)) return;
+
+    setAdminProgressResetBusy(true);
+    elements.adminProgressResetStatus.dataset.state = "success";
+    elements.adminProgressResetStatus.textContent = scope === "all" ? "正在把全部學習記錄歸零⋯" : `正在重設 ${activityDate} 的記錄⋯`;
+    try {
+      const payload = await apiRequest(`/v1/admin/students/${encodeURIComponent(student.id)}/progress/reset`, {
+        method: "POST",
+        token: state.adminSession.token,
+        body: scope === "all" ? { scope: "all" } : { scope: "date", activityDate }
+      });
+      const result = unwrap(payload)?.reset || unwrap(payload) || {};
+      const lessons = Math.max(0, Number(result.lessonsReset) || 0);
+      const seconds = Math.max(0, Number(result.watchedSecondsRemoved) || 0);
+      const time = seconds >= 60 ? `${Math.round(seconds / 6) / 10} 分鐘` : `${Math.round(seconds)} 秒`;
+      elements.adminProgressResetStatus.dataset.state = "success";
+      elements.adminProgressResetStatus.textContent = scope === "all"
+        ? `已全部歸零：清除 ${lessons} 部影片及 ${time} 的觀看記錄。`
+        : `已重設 ${activityDate}：清除 ${lessons} 部影片及 ${time} 的觀看記錄。`;
+      showToast(`${student.name} 的學習記錄已重設。`, "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      elements.adminProgressResetStatus.dataset.state = "error";
+      elements.adminProgressResetStatus.textContent = error.message;
+      showToast(error.message, "error");
+    } finally {
+      setAdminProgressResetBusy(false);
+    }
   }
 
   function setRowBusy(row, busy) {
@@ -6734,6 +7003,19 @@
     });
     elements.refreshLessons?.addEventListener("click", () => void loadLessons());
     elements.refreshStudents?.addEventListener("click", () => void loadStudents());
+    document.querySelectorAll("[data-close-admin-progress-reset]").forEach(button => {
+      button.addEventListener("click", closeAdminProgressResetDialog);
+    });
+    elements.adminProgressResetDateSubmit?.addEventListener("click", () => void resetAdminStudentProgress("date"));
+    elements.adminProgressResetAll?.addEventListener("click", () => void resetAdminStudentProgress("all"));
+    elements.adminProgressResetDialog?.querySelector("form")?.addEventListener("submit", event => {
+      event.preventDefault();
+      void resetAdminStudentProgress("date");
+    });
+    elements.adminProgressResetDialog?.addEventListener("cancel", event => {
+      event.preventDefault();
+      closeAdminProgressResetDialog();
+    });
     elements.studentSearch?.addEventListener("input", renderStudents);
     elements.keyFilter?.addEventListener("change", renderStudents);
     elements.studentRoutes.forEach(button => button.addEventListener("click", () => showStudentPage(button.dataset.studentRoute)));
@@ -6745,17 +7027,28 @@
     elements.lessonSearch?.addEventListener("input", () => {
       state.libraryQuery = elements.lessonSearch.value;
       elements.clearLessonSearch.hidden = !state.libraryQuery;
+      const normalizedQuery = normalizeSearchText(state.libraryQuery);
+      state.lessonSearchResults = normalizedQuery
+        ? state.lessons.filter(lesson => lesson.courseCodes.includes(state.selectedCourseId) && lessonSearchText(lesson).includes(normalizedQuery))
+        : [];
+      state.lessonSearchResultCount = state.lessonSearchResults.length;
+      state.lessonSearchLoading = Boolean(normalizedQuery);
+      renderLessonSearchResults();
       window.clearTimeout(state.lessonSearchTimer);
       state.lessonSearchTimer = window.setTimeout(() => {
-        void loadLessons({ courseCode: state.selectedCourseId, query: state.libraryQuery });
-      }, 320);
+        void searchLessons(state.libraryQuery);
+      }, 260);
     });
     elements.clearLessonSearch?.addEventListener("click", () => {
       window.clearTimeout(state.lessonSearchTimer);
+      state.lessonSearchGeneration += 1;
       state.libraryQuery = "";
+      state.lessonSearchResults = [];
+      state.lessonSearchResultCount = 0;
+      state.lessonSearchLoading = false;
       elements.lessonSearch.value = "";
       elements.clearLessonSearch.hidden = true;
-      void loadLessons({ courseCode: state.selectedCourseId, query: "" });
+      renderLessonSearchResults();
       elements.lessonSearch.focus();
     });
     elements.studentLessonsLoadMore?.addEventListener("click", () => void loadLessons({

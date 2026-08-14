@@ -7,6 +7,7 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
+const sharedNavRelease = "20260814-1";
 
 class MemoryStorage {
   constructor() { this.values = new Map(); }
@@ -209,11 +210,23 @@ test("all established student portals load the shared accessible switcher", () =
   };
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
-    assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js\?v=20260812-1/, `${file} must load the latest shared navigation release`);
+    assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavRelease}`));
+    assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`), `${file} must load the latest shared navigation release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
+});
+
+test("every system portal loads one consistent shared navigation CSS and JS release", () => {
+  const { api } = navigationRuntime();
+  for (const system of Array.from(api.systems)) {
+    const html = fs.readFileSync(path.join(root, system.href), "utf8");
+    assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation CSS ${sharedNavRelease}`);
+    assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation JS ${sharedNavRelease}`);
+    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260814-1)/, `${system.href} must not retain a stale shared navigation release`);
+  }
+  const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
+  assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`));
 });
 
 test("every portal can create the shared password control before login and reveal it after login", () => {
@@ -299,6 +312,40 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
   assert.doesNotMatch(cssSource, /\.edmund-system-switcher:(?:hover|focus-within)\s+\.edmund-system-switcher__menu/, "closed click and Escape state must not be overridden by CSS focus/hover selectors");
   assert.match(cssSource, /max-height:\s*min\(78vh,\s*690px\)/, "the nineteen-link menu must fit small screens");
   assert.match(cssSource, /overflow-y:\s*auto/, "the nineteen-link menu must scroll when needed");
+});
+
+test("compact quick switch supports searchable systems and a homework homebase shortcut", () => {
+  const { api } = navigationRuntime();
+  assert.deepEqual(Array.from(api.searchSystems("flash"), system => system.id), ["flashcards"]);
+  assert.deepEqual(Array.from(api.searchSystems("功課"), system => system.id), ["schedule"]);
+  assert.deepEqual(Array.from(api.searchSystems("parent communication"), system => system.id), ["parent-communication"]);
+  assert.equal(api.searchSystems("definitely missing").length, 0);
+  assert.match(scriptSource, /data-system-switcher-search/);
+  assert.match(scriptSource, /搜尋中文或英文名稱/);
+  assert.match(scriptSource, /filterSwitcherLinks/);
+  assert.match(scriptSource, /找到 \$\{matchCount\} 個系統/);
+  assert.match(scriptSource, /aria-label="快速返回 - 溫習營地"/);
+  assert.match(scriptSource, /href="schedule-system\.html"/);
+  assert.match(cssSource, /\.edmund-system-switcher__link\[hidden\]\s*\{\s*display:\s*none/);
+  assert.match(cssSource, /\.edmund-system-switcher__homebase/);
+});
+
+test("only homepage cards 11 through 30 receive their familiar quick-switch themes", () => {
+  const { api } = navigationRuntime();
+  const themedCards = Array.from(api.systems)
+    .filter(system => Number.isInteger(system.homepageCard))
+    .map(system => system.homepageCard)
+    .sort((left, right) => left - right);
+  assert.deepEqual(themedCards, Array.from({ length: 20 }, (_, index) => index + 11));
+  assert.equal(api.systems.find(system => system.id === "schedule")?.homepageCard, 11);
+  assert.equal(api.systems.find(system => system.id === "progress")?.homepageCard, 24);
+  assert.equal(api.systems.find(system => system.id === "common-expression-business-speaking")?.homepageCard, 30);
+  assert.equal(api.systems.find(system => system.id === "video-class")?.homepageCard, undefined);
+  for (let card = 11; card <= 30; card += 1) {
+    assert.match(cssSource, new RegExp(`data-homepage-card=["']${card}["']`), `homepage card ${card} must have a quick-switch theme`);
+  }
+  assert.match(scriptSource, /edmund-system-switcher__link--homepage/);
+  assert.match(scriptSource, /data-homepage-card/);
 });
 
 test("Writing Practice exchanges the shared token without handling a password again", () => {

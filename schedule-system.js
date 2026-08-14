@@ -47,7 +47,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260812-2";
+} from "./schedule-homework-links.mjs?v=20260814-1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -81,7 +81,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260812-1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260814-1";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
 const STUDENT_AUDIT_PAGE_SIZE = 10;
 const STUDENT_ACCESS_SECTIONS = [
@@ -566,14 +566,15 @@ function renderHomeworkPickerResults() {
     elements.homeworkPickerSearch.value,
     60
   );
+  const pickerNoun = homeworkTypeDefinition(type)?.pickerNoun || "練習";
   elements.homeworkPickerCount.textContent = result.total > result.items.length
     ? `找到 ${result.total} 項；請輸入關鍵字縮窄結果（目前顯示首 ${result.items.length} 項）。`
-    : `找到 ${result.total} 項練習。`;
+    : `找到 ${result.total} 項${pickerNoun}。`;
   elements.homeworkPickerResults.replaceChildren();
   if (!result.items.length) {
     const empty = document.createElement("p");
     empty.className = "homework-picker-count";
-    empty.textContent = "找不到相符練習。";
+    empty.textContent = `找不到相符${pickerNoun}。`;
     elements.homeworkPickerResults.append(empty);
     return;
   }
@@ -601,7 +602,7 @@ async function openHomeworkPicker(type, { focusSearch = false, replacement = nul
   state.homeworkPickerType = type;
   state.homeworkPickerReplacement = replacement;
   elements.homeworkPicker.hidden = false;
-  elements.homeworkPickerTitle.textContent = `選擇 ${definition.label} 練習`;
+  elements.homeworkPickerTitle.textContent = definition.pickerTitle || `選擇 ${definition.label} 練習`;
   if (changed) elements.homeworkPickerSearch.value = "";
   renderHomeworkPickerResults();
   if (focusSearch) window.setTimeout(() => elements.homeworkPickerSearch.focus(), 0);
@@ -633,7 +634,8 @@ function renderHomeworkAttachments() {
     row.className = "homework-attachment-chip";
     const link = document.createElement("a");
     link.href = resource.url;
-    link.textContent = `↗ ${resource.label}`;
+    const isDownload = resource.type === "download-material" || resource.type === "model-essay-download";
+    link.textContent = `${isDownload ? "↓" : "↗"} ${resource.label}`;
     link.title = resource.label;
     const remove = document.createElement("button");
     remove.type = "button";
@@ -4578,9 +4580,11 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
       link.href = resource.url;
       link.dataset.homeworkLinkUrl = resource.url;
       link.draggable = false;
-      link.title = `開啟 ${resource.label}`;
-      link.setAttribute("aria-label", `開啟功課：${resource.label}`);
-      link.textContent = `↗ ${resource.label}`;
+      const isDownload = resource.type === "download-material" || resource.type === "model-essay-download";
+      const linkAction = isDownload ? "下載教材" : "開啟功課";
+      link.title = `${linkAction}：${resource.label}`;
+      link.setAttribute("aria-label", `${linkAction}：${resource.label}`);
+      link.textContent = `${isDownload ? "↓" : "↗"} ${resource.label}`;
       links.append(link);
     });
     if (entry?.spanGroupId) button.classList.add("has-homework-links");

@@ -10,7 +10,8 @@ export const HOMEWORK_ENTRY_TAGS = Object.freeze([
   Object.freeze({ key: "favourite", label: "我最喜愛功課", color: "#ff3473", textColor: "#25182b" }),
   Object.freeze({ key: "teacher-added", label: "老師新加", color: "#920909", textColor: "#ffffff" }),
   Object.freeze({ key: "well-done", label: "Well done!", color: "#ffd591", textColor: "#25182b" }),
-  Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80", textColor: "#25182b" })
+  Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80", textColor: "#25182b" }),
+  Object.freeze({ key: "prepare-materials", label: "準備材料", color: "#32cd32", textColor: "#143714" })
 ]);
 
 const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.key, tag]));
@@ -32,6 +33,15 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" }),
   Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" }),
   Object.freeze({ type: "model-essay-download", trigger: "DSE Writing Part A Download", label: "DSE Writing Part A Download", color: "#d08b3e" }),
+  Object.freeze({
+    type: "download-material",
+    trigger: "Download materials",
+    aliases: Object.freeze(["Download material", "Downloads"]),
+    label: "Download materials",
+    pickerTitle: "選擇 Download materials 下載檔案",
+    pickerNoun: "下載檔案",
+    color: "#5b86d6"
+  }),
   Object.freeze({ type: "common-expression", trigger: "Common Expression", label: "Common Expression", color: "#7b65c8" }),
   Object.freeze({ type: "listening", trigger: "IELTS Listening", label: "IELTS Listening", color: "#218e9b" }),
   Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
@@ -49,6 +59,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   "sentence-structure": Object.freeze(["/sentence-structure.html"]),
   "reading-analysis": Object.freeze(["/ielts-reading-analysis.html"]),
   "model-essay-download": Object.freeze(["/model-essay-downloads.html"]),
+  "download-material": Object.freeze(["/model-essay-downloads.html"]),
   "common-expression": Object.freeze([
     "/common-expression-speaking.html",
     "/common-expression-written.html",
@@ -79,6 +90,17 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
     "/english-joke-collection.html"
   ])
 });
+const DOWNLOAD_CATALOG_KEYS = Object.freeze([
+  "dse-writing-part-a",
+  "task1",
+  "task2",
+  "speaking",
+  "reading-passage-1",
+  "reading-passage-2",
+  "reading-passage-3",
+  "listening"
+]);
+const DOWNLOAD_CATALOG_KEY_SET = new Set(DOWNLOAD_CATALOG_KEYS);
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
@@ -152,6 +174,10 @@ export function normalizeHomeworkResource(value) {
   if (!url) return null;
   const parsed = new URL(url, "https://edmundeducation.com/");
   if (!ALLOWED_PAGES_BY_TYPE[type]?.includes(parsed.pathname)) return null;
+  if (
+    type === "model-essay-download"
+    && parsed.searchParams.get("catalog") !== "dse-writing-part-a"
+  ) return null;
   return Object.freeze({ id, type, label, url });
 }
 
@@ -177,7 +203,8 @@ export function normalizeHomeworkHref(value) {
   if (expectedParameters.some((key) => !parsed.searchParams.get(key))) return null;
   if (actualParameters.some((key) => !expectedParameters.includes(key))) return null;
   if (parsed.pathname === "/model-essay-downloads.html") {
-    if (parsed.searchParams.get("catalog") !== "dse-writing-part-a") return null;
+    if (!DOWNLOAD_CATALOG_KEY_SET.has(parsed.searchParams.get("catalog") || "")) return null;
+    if (!/^[a-f0-9]{16}$/i.test(parsed.searchParams.get("item") || "")) return null;
   }
   if (parsed.pathname === "/writing-submission.html") {
     if (!/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(parsed.searchParams.get("exercise") || "")) return null;

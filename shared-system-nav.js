@@ -3,28 +3,28 @@
 
   const UNIVERSAL_SESSION_KEY = "edmund-universal-student-session-v1";
   const SYSTEMS = Object.freeze([
-    { id: "progress", href: "student-progress.html", zh: "全面英文能力發展進度表", en: "Student Progress" },
-    { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System" },
-    { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice" },
-    { id: "writing-submission", href: "writing-submission.html", zh: "Edmund Sir Writing 交文", en: "Writing Submission" },
-    { id: "speaking", href: "speaking-system.html", zh: "Speaking 說話練習", en: "Speaking System" },
-    { id: "listening", href: "listening-system.html", zh: "英語聆聽系統", en: "Listening System" },
-    { id: "sentence", href: "sentence-structure.html", zh: "句子結構", en: "Sentence Structure" },
-    { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning" },
-    { id: "proverbs", href: "proverb-system.html", zh: "(學生使用) 諺語", en: "學生使用系統" },
-    { id: "phrasal-verbs", href: "phrasal-verb-system.html", zh: "Phrasal Verb 動詞片語", en: "學習系統" },
-    { id: "dse-paper3-analysis", href: "dse-paper3-analysis.html", zh: "DSE 卷3 綜合能力分析", en: "Integrated Skills Analysis" },
+    { id: "progress", href: "student-progress.html", zh: "全面英文能力發展進度表", en: "Student Progress", homepageCard: 24 },
+    { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System", homepageCard: 14 },
+    { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice", homepageCard: 12 },
+    { id: "writing-submission", href: "writing-submission.html", zh: "Edmund Sir Writing 交文", en: "Writing Submission", homepageCard: 16 },
+    { id: "speaking", href: "speaking-system.html", zh: "Speaking 說話練習", en: "Speaking System", homepageCard: 17 },
+    { id: "listening", href: "listening-system.html", zh: "英語聆聽系統", en: "Listening System", homepageCard: 18 },
+    { id: "sentence", href: "sentence-structure.html", zh: "句子結構", en: "Sentence Structure", homepageCard: 19 },
+    { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning", homepageCard: 20 },
+    { id: "proverbs", href: "proverb-system.html", zh: "(學生使用) 諺語", en: "學生使用系統", homepageCard: 21 },
+    { id: "phrasal-verbs", href: "phrasal-verb-system.html", zh: "Phrasal Verb 動詞片語", en: "學習系統", homepageCard: 22 },
+    { id: "dse-paper3-analysis", href: "dse-paper3-analysis.html", zh: "DSE 卷3 綜合能力分析", en: "Integrated Skills Analysis", homepageCard: 23 },
     { id: "ielts-reading-analysis", href: "ielts-reading-analysis.html", zh: "IELTS 閱讀理解解卷分析", en: "IELTS Reading Analysis" },
-    { id: "schedule", href: "schedule-system.html", zh: "功課及溫習安排", en: "Study Schedule" },
-    { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads" },
+    { id: "schedule", href: "schedule-system.html", zh: "功課及溫習安排", en: "Study Schedule", homepageCard: 11 },
+    { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads", homepageCard: 13 },
     { id: "video-class", href: "video-class.html", zh: "錄影班學習平台", en: "Video Class" },
-    { id: "parent-communication", href: "parent-communication.html", zh: "家長溝通系統", en: "Parent Communication" },
-    { id: "common-expression-speaking", href: "common-expression-speaking.html", zh: "Common Expression 常用語", en: "會話 Speaking" },
-    { id: "common-expression-written", href: "common-expression-written.html", zh: "Common Expression 常用語", en: "專業寫作 Written" },
-    { id: "common-expression-rhetorical-speaking", href: "common-expression-rhetorical-speaking.html", zh: "Common Expression 常用語", en: "修辭會話 Rhetorical Speaking" },
-    { id: "common-expression-rhetorical-writing", href: "common-expression-rhetorical-writing.html", zh: "Common Expression 常用語", en: "修辭寫作 Rhetorical Writing" },
-    { id: "common-expression-professional-message", href: "common-expression-professional-message.html", zh: "Common Expression 常用語", en: "商業溝通 Professional Message" },
-    { id: "common-expression-business-speaking", href: "common-expression-business-speaking.html", zh: "Common Expression 常用語", en: "商務會話 Business Speaking" },
+    { id: "parent-communication", href: "parent-communication.html", zh: "家長溝通系統", en: "Parent Communication", homepageCard: 15 },
+    { id: "common-expression-speaking", href: "common-expression-speaking.html", zh: "Common Expression 常用語", en: "會話 Speaking", homepageCard: 25 },
+    { id: "common-expression-written", href: "common-expression-written.html", zh: "Common Expression 常用語", en: "專業寫作 Written", homepageCard: 26 },
+    { id: "common-expression-rhetorical-speaking", href: "common-expression-rhetorical-speaking.html", zh: "Common Expression 常用語", en: "修辭會話 Rhetorical Speaking", homepageCard: 27 },
+    { id: "common-expression-rhetorical-writing", href: "common-expression-rhetorical-writing.html", zh: "Common Expression 常用語", en: "修辭寫作 Rhetorical Writing", homepageCard: 28 },
+    { id: "common-expression-professional-message", href: "common-expression-professional-message.html", zh: "Common Expression 常用語", en: "商業溝通 Professional Message", homepageCard: 29 },
+    { id: "common-expression-business-speaking", href: "common-expression-business-speaking.html", zh: "Common Expression 常用語", en: "商務會話 Business Speaking", homepageCard: 30 },
     { id: "quotes", href: "quotes-system.html", zh: "名人英文語錄", en: "Quotes / 學習系統" },
     { id: "grammar", href: "grammar-system.html", zh: "英文語法學習", en: "Grammar" },
     { id: "collocation", href: "collocation-system.html", zh: "英文配詞", en: "Collocation / 學習系統" },
@@ -419,18 +419,63 @@
     return true;
   }
 
+  function normaliseSystemSearch(value) {
+    return String(value || "")
+      .normalize("NFKC")
+      .trim()
+      .toLocaleLowerCase("zh-Hant-HK");
+  }
+
+  function systemMatchesSearch(system, query) {
+    const key = normaliseSystemSearch(query);
+    if (!key) return true;
+    return normaliseSystemSearch(`${system.zh} ${system.en} ${system.id}`).includes(key);
+  }
+
+  function systemsMatching(query) {
+    return SYSTEMS.filter(system => systemMatchesSearch(system, query));
+  }
+
   function menuHtml(currentSystem) {
     const links = SYSTEMS.map(system => {
       const current = system.id === currentSystem;
-      return `<a class="edmund-system-switcher__link" href="${system.href}"${current ? ' aria-current="page"' : ""}>
+      const homepageClass = Number.isInteger(system.homepageCard) ? " edmund-system-switcher__link--homepage" : "";
+      const homepageAttribute = Number.isInteger(system.homepageCard) ? ` data-homepage-card="${system.homepageCard}"` : "";
+      return `<a class="edmund-system-switcher__link${homepageClass}"${homepageAttribute} data-system-id="${system.id}" href="${system.href}"${current ? ' aria-current="page"' : ""}>
         <strong>${system.zh}</strong><small>${system.en}</small>
       </a>`;
     }).join("");
     return `<nav class="edmund-system-switcher__menu" aria-label="EdmundEducation 系統快速切換">
       <div class="edmund-system-switcher__menu-heading"><strong>快速切換系統</strong><span>Quick switch</span></div>
+      <label class="edmund-system-switcher__search">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" data-system-switcher-search autocomplete="off" spellcheck="false" aria-label="搜尋學習系統" placeholder="搜尋中文或英文名稱">
+        <button type="button" data-system-switcher-search-clear aria-label="清除系統搜尋" hidden>×</button>
+      </label>
+      <p class="edmund-system-switcher__search-status" data-system-switcher-search-status role="status" aria-live="polite">共 ${SYSTEMS.length} 個系統</p>
       <div class="edmund-system-switcher__links">${links}</div>
+      <p class="edmund-system-switcher__empty" data-system-switcher-empty hidden>找不到相符的學習系統。</p>
       <a class="edmund-system-switcher__home" href="index.html">返回 EdmundEducation 首頁</a>
     </nav>`;
+  }
+
+  function filterSwitcherLinks(switcher, query) {
+    const key = normaliseSystemSearch(query);
+    const links = [...switcher.querySelectorAll(".edmund-system-switcher__link")];
+    let matchCount = 0;
+    links.forEach(link => {
+      const system = SYSTEMS.find(item => item.id === link.dataset.systemId);
+      const matched = Boolean(system && systemMatchesSearch(system, key));
+      link.hidden = !matched;
+      if (matched) matchCount += 1;
+    });
+    const status = switcher.querySelector("[data-system-switcher-search-status]");
+    if (status) status.textContent = key ? `找到 ${matchCount} 個系統` : `共 ${links.length} 個系統`;
+    const empty = switcher.querySelector("[data-system-switcher-empty]");
+    if (empty) empty.hidden = matchCount !== 0;
+    const clear = switcher.querySelector("[data-system-switcher-search-clear]");
+    if (clear) clear.hidden = !key;
+    return matchCount;
   }
 
   function closeSwitcher(switcher, returnFocus = false) {
@@ -468,7 +513,9 @@
     if (!trigger || !SYSTEMS.some(system => system.id === currentSystem)) return;
     const menuId = `edmund-system-menu-${index + 1}`;
     switcher.insertAdjacentHTML("beforeend", menuHtml(currentSystem));
+    switcher.insertAdjacentHTML("beforeend", `<a class="edmund-system-switcher__homebase" href="schedule-system.html" aria-label="快速返回 - 溫習營地"${currentSystem === "schedule" ? ' aria-current="page"' : ""}>快速返回 <span aria-hidden="true">-</span> 溫習營地</a>`);
     const menu = switcher.querySelector(".edmund-system-switcher__menu");
+    const homebase = switcher.querySelector(".edmund-system-switcher__homebase");
     menu.id = menuId;
     trigger.setAttribute("aria-controls", menuId);
     trigger.setAttribute("aria-haspopup", "true");
@@ -476,18 +523,31 @@
     switcher.dataset.open = "false";
     switcher.dataset.pinned = "false";
 
+    const search = switcher.querySelector("[data-system-switcher-search]");
+    const clearSearch = switcher.querySelector("[data-system-switcher-search-clear]");
+    search?.addEventListener("input", () => filterSwitcherLinks(switcher, search.value));
+    clearSearch?.addEventListener("click", () => {
+      search.value = "";
+      filterSwitcherLinks(switcher, "");
+      search.focus();
+    });
+
     trigger.addEventListener("click", () => {
       if (switcher.dataset.pinned === "true") closeSwitcher(switcher);
       else openSwitcher(switcher, { pinned: true });
     });
-    switcher.addEventListener("pointerenter", event => {
+    trigger.addEventListener("pointerenter", event => {
       if (event.pointerType === "mouse") openSwitcher(switcher);
+    });
+    homebase?.addEventListener("pointerenter", event => {
+      if (event.pointerType === "mouse" && switcher.dataset.pinned !== "true") closeSwitcher(switcher);
     });
     switcher.addEventListener("pointerleave", event => {
       if (event.pointerType === "mouse") scheduleClose(switcher);
     });
-    switcher.addEventListener("focusin", () => {
-      if (switcher.dataset.suppressFocusOpen !== "true") openSwitcher(switcher);
+    switcher.addEventListener("focusin", event => {
+      if (homebase?.contains(event.target) && switcher.dataset.pinned !== "true") closeSwitcher(switcher);
+      else if (switcher.dataset.suppressFocusOpen !== "true") openSwitcher(switcher);
     });
     switcher.addEventListener("focusout", () => scheduleClose(switcher));
     switcher.querySelectorAll("a[href]").forEach(link => {
@@ -662,6 +722,7 @@
     bridgeStudentSession,
     forgetStudentSession,
     getStudentSession: studentSessionCandidate,
+    searchSystems: systemsMatching,
     rememberStudentSession,
     systems: SYSTEMS
   });

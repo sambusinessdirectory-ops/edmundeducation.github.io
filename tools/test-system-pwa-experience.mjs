@@ -6,7 +6,7 @@ import { readFile, readdir, stat } from "node:fs/promises";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 const nav = await read("shared-system-nav.js");
-const systems = Array.from(nav.matchAll(/\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)" \}/g),
+const systems = Array.from(nav.matchAll(/\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)"(?:, homepageCard: \d+)? \}/g),
   ([, id, href, zh, en]) => ({ id, href, zh, en }));
 assert.equal(systems.length, 43, "all 43 genuine learning/account systems must remain catalogued");
 

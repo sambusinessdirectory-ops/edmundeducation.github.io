@@ -9,7 +9,7 @@ const check = args.has("--check");
 assert.ok([...args].every((arg) => arg === "--check"), "usage: generate-system-pwa-manifests.mjs [--check]");
 const protectedHtml = new Set(["schedule-system.html", "writing-submission.html"]);
 const navSource = await readFile(new URL("shared-system-nav.js", root), "utf8");
-const systemPattern = /\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)" \}/g;
+const systemPattern = /\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)"(?:, homepageCard: \d+)? \}/g;
 const systems = Array.from(navSource.matchAll(systemPattern), ([, id, href, zh, en]) => ({ id, href, zh, en }));
 
 assert.ok(systems.length >= 43, "shared system catalogue unexpectedly lost entries");

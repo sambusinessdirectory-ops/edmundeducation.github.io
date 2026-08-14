@@ -1377,6 +1377,6862 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "common-expression-speaking.html?lesson=common-expression-31"
   },
   {
+    "id": "download-material:dse-writing-part-a:f41ab18906505569",
+    "type": "download-material",
+    "ordinal": 2012,
+    "label": "DSE Writing Part A · 2012 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2012 DSE writing task 1 _ part A - 5** - Edmund.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=f41ab18906505569"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:8eddd8d7f975f841",
+    "type": "download-material",
+    "ordinal": 2013,
+    "label": "DSE Writing Part A · 2013 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2013 DSE writing task 1 _ part A - 5** - Edmund.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=8eddd8d7f975f841"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:f617af98c00d7578",
+    "type": "download-material",
+    "ordinal": 2014,
+    "label": "DSE Writing Part A · 2014 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2014 DSE writing task 1 _ part A - 5** - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=f617af98c00d7578"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:51559f786f8e4923",
+    "type": "download-material",
+    "ordinal": 2015,
+    "label": "DSE Writing Part A · 2015 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2015 DSE writing task 1 _ part A - 5** - Edmund.pdf · 13 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=51559f786f8e4923"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:027284efb702cac0",
+    "type": "download-material",
+    "ordinal": 2016,
+    "label": "DSE Writing Part A · 2016 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2016 DSE writing task 1 _ part A - 5** - Edmund.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=027284efb702cac0"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:986cc4d22ad545ce",
+    "type": "download-material",
+    "ordinal": 2017,
+    "label": "DSE Writing Part A · 2017 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2017 DSE writing task 1 _ part A - 5** - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=986cc4d22ad545ce"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:b73ab1847fe2c810",
+    "type": "download-material",
+    "ordinal": 2018,
+    "label": "DSE Writing Part A · 2018 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2018 DSE writing task 1 _ part A - 5** - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=b73ab1847fe2c810"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:dc70deee993659f7",
+    "type": "download-material",
+    "ordinal": 2019,
+    "label": "DSE Writing Part A · 2019 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2019 DSE writing task 1 _ part A - 5** - Edmund.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=dc70deee993659f7"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:50d3f40e74e4d265",
+    "type": "download-material",
+    "ordinal": 2020,
+    "label": "DSE Writing Part A · 2020 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2020 DSE writing task 1 _ part A - 5__ - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=50d3f40e74e4d265"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:10e564ac4c9b55c8",
+    "type": "download-material",
+    "ordinal": 2021,
+    "label": "DSE Writing Part A · 2021 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2021 DSE writing task 1 _ part A - 5** - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=10e564ac4c9b55c8"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:735242ce391aeb0d",
+    "type": "download-material",
+    "ordinal": 2022,
+    "label": "DSE Writing Part A · 2022 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2022 DSE writing task 1 _ part A - 5** - Edmund.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=735242ce391aeb0d"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:e25aa597442f72c1",
+    "type": "download-material",
+    "ordinal": 2023,
+    "label": "DSE Writing Part A · 2023 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2023 DSE writing task 1 _ part A - 5** - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=e25aa597442f72c1"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:8a65ea5c63e90d19",
+    "type": "download-material",
+    "ordinal": 2024,
+    "label": "DSE Writing Part A · 2024 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2024 DSE writing task 1 _ part A - 5** - Edmund.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=8a65ea5c63e90d19"
+  },
+  {
+    "id": "download-material:dse-writing-part-a:3db28a2e7b7457d4",
+    "type": "download-material",
+    "ordinal": 2025,
+    "label": "DSE Writing Part A · 2025 DSE Writing Part A - 5** Model Answer",
+    "detail": "DSE Writing Part A · Writing Part A · 2025 DSE writing task 1 _ part A - 5** - Edmund.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=3db28a2e7b7457d4"
+  },
+  {
+    "id": "download-material:listening:04c672d5277d8916",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Listening · Practice 1 · IELTS Listening Practice 1",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice 1.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=04c672d5277d8916"
+  },
+  {
+    "id": "download-material:listening:a74bafe5e99598e4",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Listening · Practice 2 · IELTS Listening Practice 2",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 2.pdf · 64 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=a74bafe5e99598e4"
+  },
+  {
+    "id": "download-material:listening:0753cca4b0d5591e",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Listening · Practice 3 · IELTS Listening Practice 3",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 3.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=0753cca4b0d5591e"
+  },
+  {
+    "id": "download-material:listening:5e0da58e58b97a12",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Listening · Practice 4 · IELTS Listening Practice 4",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 4.pdf · 69 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=5e0da58e58b97a12"
+  },
+  {
+    "id": "download-material:listening:b870061bfb0419e2",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Listening · Practice 5 · IELTS Listening Practice 5",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 5.pdf · 66 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=b870061bfb0419e2"
+  },
+  {
+    "id": "download-material:listening:478af7216415a228",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Listening · Practice 6 · IELTS Listening Practice 6",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 6.pdf · 71 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=478af7216415a228"
+  },
+  {
+    "id": "download-material:listening:0e764862a05bff60",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Listening · Practice 7 · IELTS Listening Practice 7",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 7.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=0e764862a05bff60"
+  },
+  {
+    "id": "download-material:listening:64e261eacb948df9",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Listening · Practice 8 · IELTS Listening Practice 8",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 8.pdf · 74 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=64e261eacb948df9"
+  },
+  {
+    "id": "download-material:listening:cb6fa199692f2785",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Listening · Practice 9 · IELTS Listening Practice 9",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 9.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=cb6fa199692f2785"
+  },
+  {
+    "id": "download-material:listening:6ba1a0bf7ecc7a66",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Listening · Practice 10 · IELTS Listening Practice 10",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 10.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=6ba1a0bf7ecc7a66"
+  },
+  {
+    "id": "download-material:listening:03a200dc6d113014",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Listening · Practice 11 · IELTS Listening Practice 11",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 11.pdf · 71 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=03a200dc6d113014"
+  },
+  {
+    "id": "download-material:listening:a953bceccfbce069",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Listening · Practice 12 · IELTS Listening Practice 12",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 12.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=a953bceccfbce069"
+  },
+  {
+    "id": "download-material:listening:40a8ee46213de5ca",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Listening · Practice 13 · IELTS Listening Practice 13",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 13.pdf · 74 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=40a8ee46213de5ca"
+  },
+  {
+    "id": "download-material:listening:3d9ee81274f04f64",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Listening · Practice 14 · IELTS Listening Practice 14",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 14.pdf · 65 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=3d9ee81274f04f64"
+  },
+  {
+    "id": "download-material:listening:381f02f7b5ea5ed2",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Listening · Practice 15 · IELTS Listening Practice 15",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 15.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=381f02f7b5ea5ed2"
+  },
+  {
+    "id": "download-material:listening:a3960718f85006a8",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Listening · Practice 16 · IELTS Listening Practice 16",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 16.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=a3960718f85006a8"
+  },
+  {
+    "id": "download-material:listening:dec5b359d7cd0d7b",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Listening · Practice 17 · IELTS Listening Practice 17",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 17.pdf · 69 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=dec5b359d7cd0d7b"
+  },
+  {
+    "id": "download-material:listening:ef57c3ee5fbf78dc",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Listening · Practice 18 · IELTS Listening Practice 18",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 18.pdf · 66 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=ef57c3ee5fbf78dc"
+  },
+  {
+    "id": "download-material:listening:d34431fc7b35e268",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Listening · Practice 19 · IELTS Listening Practice 19",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 19.pdf · 74 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=d34431fc7b35e268"
+  },
+  {
+    "id": "download-material:listening:a9e61edb48bd91f5",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Listening · Practice 20 · IELTS Listening Practice 20",
+    "detail": "IELTS Listening · IELTS Listening · IELTS Listening - Practice - 20.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=listening&item=a9e61edb48bd91f5"
+  },
+  {
+    "id": "download-material:reading-passage-1:28ee91d0ad89cfc0",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Reading · Passage 1 · Practice 1 · Italian Architect Palladio",
+    "detail": "IELTS Reading · Passage 1 · Practice 1 - IETLS 閱讀練習 - Passage 1.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=28ee91d0ad89cfc0"
+  },
+  {
+    "id": "download-material:reading-passage-1:af2be3d3674087e8",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Reading · Passage 1 · Practice 2 · Turtles",
+    "detail": "IELTS Reading · Passage 1 · Practice 2- IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=af2be3d3674087e8"
+  },
+  {
+    "id": "download-material:reading-passage-1:b6e33147f522a43b",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Reading · Passage 1 · Practice 3 · Plain English Campaign",
+    "detail": "IELTS Reading · Passage 1 · Practice 3- IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b6e33147f522a43b"
+  },
+  {
+    "id": "download-material:reading-passage-1:8dd8a1b206ed962e",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Reading · Passage 1 · Practice 4 · It’s Only a Cockroach",
+    "detail": "IELTS Reading · Passage 1 · Practice 4- IETLS 閱讀練習 - Passage 1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=8dd8a1b206ed962e"
+  },
+  {
+    "id": "download-material:reading-passage-1:64777090ccf5fda2",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Reading · Passage 1 · Practice 5 · Pine Trees",
+    "detail": "IELTS Reading · Passage 1 · Practice 5- IETLS 閱讀練習 - Passage 1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=64777090ccf5fda2"
+  },
+  {
+    "id": "download-material:reading-passage-1:21c6bc933e5a4c54",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Reading · Passage 1 · Practice 6 · Make That Wine!",
+    "detail": "IELTS Reading · Passage 1 · Practice 6- IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=21c6bc933e5a4c54"
+  },
+  {
+    "id": "download-material:reading-passage-1:fb1155538f598f48",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Reading · Passage 1 · Practice 7 · AUSTRALIA’S PLATYPUS",
+    "detail": "IELTS Reading · Passage 1 · Practice 7- IETLS 閱讀練習 - Passage 1.pdf · 140 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=fb1155538f598f48"
+  },
+  {
+    "id": "download-material:reading-passage-1:065eecc12e371034",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Reading · Passage 1 · Practice 8 · The Eisriesenwelt Ice Caves",
+    "detail": "IELTS Reading · Passage 1 · Practice 8- IETLS 閱讀練習 - Passage 1.pdf · 23 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=065eecc12e371034"
+  },
+  {
+    "id": "download-material:reading-passage-1:707a42db0ad02980",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Reading · Passage 1 · Practice 9 · FLIGHT OF THE HONEYBEE",
+    "detail": "IELTS Reading · Passage 1 · Practice 9 - IETLS 閱讀練習 - Passage 1.pdf · 16 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=707a42db0ad02980"
+  },
+  {
+    "id": "download-material:reading-passage-1:28176f3fc5091959",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Reading · Passage 1 · Practice 10 · THE NATURE OF ADDICTION",
+    "detail": "IELTS Reading · Passage 1 · Practice 10 - IETLS 閱讀練習 - Passage 1.pdf · 17 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=28176f3fc5091959"
+  },
+  {
+    "id": "download-material:reading-passage-1:480bcda9fc9b9d0a",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Reading · Passage 1 · Practice 11 · THE LOCH NESS MONSTER",
+    "detail": "IELTS Reading · Passage 1 · Practice 11 - IETLS 閱讀練習 - Passage 1.pdf · 20 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=480bcda9fc9b9d0a"
+  },
+  {
+    "id": "download-material:reading-passage-1:89d42ff07115c83a",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Reading · Passage 1 · Practice 12 · MOUNT EVEREST AND HILLARY",
+    "detail": "IELTS Reading · Passage 1 · Practice 12 - IETLS 閱讀練習 - Passage 1.pdf · 18 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=89d42ff07115c83a"
+  },
+  {
+    "id": "download-material:reading-passage-1:ae8d60540b52bb4f",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Reading · Passage 1 · Practice 13 · HOT AIR BALLOONING",
+    "detail": "IELTS Reading · Passage 1 · Practice 13 - IETLS 閱讀練習 - Passage 1.pdf · 19 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ae8d60540b52bb4f"
+  },
+  {
+    "id": "download-material:reading-passage-1:7e0d3fbe247d2ac8",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Reading · Passage 1 · Practice 14 · MOBILE PHONES AND DRIVING",
+    "detail": "IELTS Reading · Passage 1 · Practice 14 - IETLS 閱讀練習 - Passage 1.pdf · 22 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=7e0d3fbe247d2ac8"
+  },
+  {
+    "id": "download-material:reading-passage-1:404bda59bc3895b3",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Reading · Passage 1 · Practice 15 · Depression",
+    "detail": "IELTS Reading · Passage 1 · Practice 15 - IETLS 閱讀練習 - Passage 1.pdf · 23 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=404bda59bc3895b3"
+  },
+  {
+    "id": "download-material:reading-passage-1:f4615d902947cc19",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Reading · Passage 1 · Practice 16 · REIKI",
+    "detail": "IELTS Reading · Passage 1 · Practice 16 - IETLS 閱讀練習 - Passage 1.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=f4615d902947cc19"
+  },
+  {
+    "id": "download-material:reading-passage-1:d1d5071ba3f84015",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Reading · Passage 1 · Practice 17 · Cleaner, Abundant Fuels Attracting Record Investment",
+    "detail": "IELTS Reading · Passage 1 · Practice 17 - IETLS 閱讀練習 - Passage 1.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d1d5071ba3f84015"
+  },
+  {
+    "id": "download-material:reading-passage-1:967363ba79742c56",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Reading · Passage 1 · Practice 18 · THE EVOLUTION OF LANGUAGE",
+    "detail": "IELTS Reading · Passage 1 · Practice 18 - IETLS 閱讀練習 - Passage 1.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=967363ba79742c56"
+  },
+  {
+    "id": "download-material:reading-passage-1:c8e8b5309be7e96c",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Reading · Passage 1 · Practice 19 · Animal Minds: Parrot Alex",
+    "detail": "IELTS Reading · Passage 1 · Practice 19 - IETLS 閱讀練習 - Passage 1.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c8e8b5309be7e96c"
+  },
+  {
+    "id": "download-material:reading-passage-1:5d98e1f91f8a7b71",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Reading · Passage 1 · Practice 20 · The psychology in Happiness",
+    "detail": "IELTS Reading · Passage 1 · Practice 20 - IETLS 閱讀練習 - Passage 1.pdf · 12 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=5d98e1f91f8a7b71"
+  },
+  {
+    "id": "download-material:reading-passage-1:8af66a26cf5a0427",
+    "type": "download-material",
+    "ordinal": 21,
+    "label": "IELTS Reading · Passage 1 · Practice 21 · Mammoth kill",
+    "detail": "IELTS Reading · Passage 1 · Practice 21 - IETLS 閱讀練習 - Passage 1.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=8af66a26cf5a0427"
+  },
+  {
+    "id": "download-material:reading-passage-1:a36a7d137fcb021b",
+    "type": "download-material",
+    "ordinal": 22,
+    "label": "IELTS Reading · Passage 1 · Practice 22 · Foot Pedal Irrigation",
+    "detail": "IELTS Reading · Passage 1 · Practice 22 - IETLS 閱讀練習 - Passage 1.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=a36a7d137fcb021b"
+  },
+  {
+    "id": "download-material:reading-passage-1:1b2342df2a8ad0b0",
+    "type": "download-material",
+    "ordinal": 23,
+    "label": "IELTS Reading · Passage 1 · Practice 23 · POLLUTING SOUNDS: IN SEARCH OF SILENCE",
+    "detail": "IELTS Reading · Passage 1 · Practice 23 - IETLS 閱讀練習 - Passage 1.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=1b2342df2a8ad0b0"
+  },
+  {
+    "id": "download-material:reading-passage-1:716ef20c4bd4403d",
+    "type": "download-material",
+    "ordinal": 24,
+    "label": "IELTS Reading · Passage 1 · Practice 24 · Synaesthesia",
+    "detail": "IELTS Reading · Passage 1 · Practice 24 - IETLS 閱讀練習 - Passage 1.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=716ef20c4bd4403d"
+  },
+  {
+    "id": "download-material:reading-passage-1:335fbe567fc3fe5c",
+    "type": "download-material",
+    "ordinal": 25,
+    "label": "IELTS Reading · Passage 1 · Practice 25 · The Invention of Television",
+    "detail": "IELTS Reading · Passage 1 · Practice 25 - IETLS 閱讀練習 - Passage 1.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=335fbe567fc3fe5c"
+  },
+  {
+    "id": "download-material:reading-passage-1:d7da393b0db9d63f",
+    "type": "download-material",
+    "ordinal": 26,
+    "label": "IELTS Reading · Passage 1 · Practice 26 · William Gilbert and Magnetism",
+    "detail": "IELTS Reading · Passage 1 · Practice 26 - IETLS 閱讀練習 - Passage 1.pdf · 15 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d7da393b0db9d63f"
+  },
+  {
+    "id": "download-material:reading-passage-1:1a5dc74840c05593",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Reading · Passage 1 · Practice 27 · How to Spot a Liar",
+    "detail": "IELTS Reading · Passage 1 · Practice 27 - IETLS 閱讀練習 - Passage 1.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=1a5dc74840c05593"
+  },
+  {
+    "id": "download-material:reading-passage-1:ee076d769edbe5cf",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Reading · Passage 1 · Practice 28 · Learning by Examples",
+    "detail": "IELTS Reading · Passage 1 · Practice 28 - IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ee076d769edbe5cf"
+  },
+  {
+    "id": "download-material:reading-passage-1:391d9e2ae788c1c8",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Reading · Passage 1 · Practice 29 · The Mozart Effect",
+    "detail": "IELTS Reading · Passage 1 · Practice 29 - IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=391d9e2ae788c1c8"
+  },
+  {
+    "id": "download-material:reading-passage-1:e5f4989ef61bfb97",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Reading · Passage 1 · Practice 30 · A Wonder Plant",
+    "detail": "IELTS Reading · Passage 1 · Practice 30 - IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e5f4989ef61bfb97"
+  },
+  {
+    "id": "download-material:reading-passage-1:27cd54cf27e8681c",
+    "type": "download-material",
+    "ordinal": 31,
+    "label": "IELTS Reading · Passage 1 · Practice 31 · The Sweet Scent of Success",
+    "detail": "IELTS Reading · Passage 1 · Practice 31 - IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=27cd54cf27e8681c"
+  },
+  {
+    "id": "download-material:reading-passage-1:14835fe69a1e4ec6",
+    "type": "download-material",
+    "ordinal": 32,
+    "label": "IELTS Reading · Passage 1 · Practice 32 · New Zealand Seaweed",
+    "detail": "IELTS Reading · Passage 1 · Practice 32 - IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=14835fe69a1e4ec6"
+  },
+  {
+    "id": "download-material:reading-passage-1:e810e4bddad81eb4",
+    "type": "download-material",
+    "ordinal": 34,
+    "label": "IELTS Reading · Passage 1 · Practice 34 · Going Bananas",
+    "detail": "IELTS Reading · Passage 1 · Practice 34 - IETLS 閱讀練習 - Passage 1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e810e4bddad81eb4"
+  },
+  {
+    "id": "download-material:reading-passage-1:722f62ab1e48e3ca",
+    "type": "download-material",
+    "ordinal": 35,
+    "label": "IELTS Reading · Passage 1 · Practice 35 · Dirty River But Clean Water",
+    "detail": "IELTS Reading · Passage 1 · Practice 35 - IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=722f62ab1e48e3ca"
+  },
+  {
+    "id": "download-material:reading-passage-1:e206fe672c49a95f",
+    "type": "download-material",
+    "ordinal": 36,
+    "label": "IELTS Reading · Passage 1 · Practice 36 · The Impact of the Potato",
+    "detail": "IELTS Reading · Passage 1 · Practice 36 - IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e206fe672c49a95f"
+  },
+  {
+    "id": "download-material:reading-passage-1:d72393dfafd93f93",
+    "type": "download-material",
+    "ordinal": 37,
+    "label": "IELTS Reading · Passage 1 · Practice 37 · Review of Research on the Effects of Food Promotion to Children",
+    "detail": "IELTS Reading · Passage 1 · Practice 37 - IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d72393dfafd93f93"
+  },
+  {
+    "id": "download-material:reading-passage-1:1bba78366502be55",
+    "type": "download-material",
+    "ordinal": 38,
+    "label": "IELTS Reading · Passage 1 · Practice 38 · The Forgotten Forest",
+    "detail": "IELTS Reading · Passage 1 · Practice 38 - IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=1bba78366502be55"
+  },
+  {
+    "id": "download-material:reading-passage-1:e5ab42ae1372e082",
+    "type": "download-material",
+    "ordinal": 39,
+    "label": "IELTS Reading · Passage 1 · Practice 39 · CLASSIFYING SOCIETIES",
+    "detail": "IELTS Reading · Passage 1 · Practice 39 - IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e5ab42ae1372e082"
+  },
+  {
+    "id": "download-material:reading-passage-1:a68e88f6f25e6b31",
+    "type": "download-material",
+    "ordinal": 40,
+    "label": "IELTS Reading · Passage 1 · Practice 40 · Otters",
+    "detail": "IELTS Reading · Passage 1 · Practice 40 - IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=a68e88f6f25e6b31"
+  },
+  {
+    "id": "download-material:reading-passage-1:593f3d8ce8b99b89",
+    "type": "download-material",
+    "ordinal": 41,
+    "label": "IELTS Reading · Passage 1 · Practice 41 · Morse Code",
+    "detail": "IELTS Reading · Passage 1 · Practice 41 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=593f3d8ce8b99b89"
+  },
+  {
+    "id": "download-material:reading-passage-1:bb28f0fbfdcc5ecd",
+    "type": "download-material",
+    "ordinal": 42,
+    "label": "IELTS Reading · Passage 1 · Practice 42 · Thomas Young The Last True Know-It-All",
+    "detail": "IELTS Reading · Passage 1 · Practice 42 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=bb28f0fbfdcc5ecd"
+  },
+  {
+    "id": "download-material:reading-passage-1:31df6e23cef26430",
+    "type": "download-material",
+    "ordinal": 43,
+    "label": "IELTS Reading · Passage 1 · Practice 43 · Ancient Chinese Chariots",
+    "detail": "IELTS Reading · Passage 1 · Practice 43 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=31df6e23cef26430"
+  },
+  {
+    "id": "download-material:reading-passage-1:7082bb7c1c0ec53b",
+    "type": "download-material",
+    "ordinal": 44,
+    "label": "IELTS Reading · Passage 1 · Practice 44 · Voyage of Going: Beyond the Blue Line",
+    "detail": "IELTS Reading · Passage 1 · Practice 44 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=7082bb7c1c0ec53b"
+  },
+  {
+    "id": "download-material:reading-passage-1:bb9ecb9364004ec8",
+    "type": "download-material",
+    "ordinal": 45,
+    "label": "IELTS Reading · Passage 1 · Practice 45 · T-Rex: Hunter or Scavenger?",
+    "detail": "IELTS Reading · Passage 1 · Practice 45 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=bb9ecb9364004ec8"
+  },
+  {
+    "id": "download-material:reading-passage-1:4ec877fb1de8fc73",
+    "type": "download-material",
+    "ordinal": 46,
+    "label": "IELTS Reading · Passage 1 · Practice 46 · Ants Could Teach Ants",
+    "detail": "IELTS Reading · Passage 1 · Practice 46 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=4ec877fb1de8fc73"
+  },
+  {
+    "id": "download-material:reading-passage-1:c1c6d1417bcb91ef",
+    "type": "download-material",
+    "ordinal": 47,
+    "label": "IELTS Reading · Passage 1 · Practice 47 · Computer Games for Preschoolers: Nintendo’s Research and Design Process",
+    "detail": "IELTS Reading · Passage 1 · Practice 47 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c1c6d1417bcb91ef"
+  },
+  {
+    "id": "download-material:reading-passage-1:912f6b5c7b181159",
+    "type": "download-material",
+    "ordinal": 48,
+    "label": "IELTS Reading · Passage 1 · Practice 48 · What Do Managers Really Do?",
+    "detail": "IELTS Reading · Passage 1 · Practice 48 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=912f6b5c7b181159"
+  },
+  {
+    "id": "download-material:reading-passage-1:9cfaf455ea4195f2",
+    "type": "download-material",
+    "ordinal": 49,
+    "label": "IELTS Reading · Passage 1 · Practice 49 · The Extraordinary Watkin Tench",
+    "detail": "IELTS Reading · Passage 1 · Practice 49 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=9cfaf455ea4195f2"
+  },
+  {
+    "id": "download-material:reading-passage-1:43e0d83b99fcfa32",
+    "type": "download-material",
+    "ordinal": 50,
+    "label": "IELTS Reading · Passage 1 · Practice 50 · Radiocarbon Dating – The Profile of Nancy Athfield",
+    "detail": "IELTS Reading · Passage 1 · Practice 50 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=43e0d83b99fcfa32"
+  },
+  {
+    "id": "download-material:reading-passage-1:6ddb7296836c5c9a",
+    "type": "download-material",
+    "ordinal": 51,
+    "label": "IELTS Reading · Passage 1 · Practice 51 · The “Extinct” Grass in Britain",
+    "detail": "IELTS Reading · Passage 1 · Practice 51 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=6ddb7296836c5c9a"
+  },
+  {
+    "id": "download-material:reading-passage-1:825d8c86a88c4042",
+    "type": "download-material",
+    "ordinal": 52,
+    "label": "IELTS Reading · Passage 1 · Practice 52 · The Connection Between Culture and Thought",
+    "detail": "IELTS Reading · Passage 1 · Practice 52 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=825d8c86a88c4042"
+  },
+  {
+    "id": "download-material:reading-passage-1:8a7c8fae5c4e976c",
+    "type": "download-material",
+    "ordinal": 53,
+    "label": "IELTS Reading · Passage 1 · Practice 53 · Happy",
+    "detail": "IELTS Reading · Passage 1 · Practice 53 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=8a7c8fae5c4e976c"
+  },
+  {
+    "id": "download-material:reading-passage-1:10cdbc9c93cfce1d",
+    "type": "download-material",
+    "ordinal": 54,
+    "label": "IELTS Reading · Passage 1 · Practice 54 · The Concept of Childhood in Western Countries",
+    "detail": "IELTS Reading · Passage 1 · Practice 54 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=10cdbc9c93cfce1d"
+  },
+  {
+    "id": "download-material:reading-passage-1:c40ac7180cef105c",
+    "type": "download-material",
+    "ordinal": 55,
+    "label": "IELTS Reading · Passage 1 · Practice 55 · The Innovation of Grocery Stores",
+    "detail": "IELTS Reading · Passage 1 · Practice 55 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c40ac7180cef105c"
+  },
+  {
+    "id": "download-material:reading-passage-1:52fdac2d72f529f5",
+    "type": "download-material",
+    "ordinal": 56,
+    "label": "IELTS Reading · Passage 1 · Practice 56 · Timekeeper: Invention of Marine Chronometer",
+    "detail": "IELTS Reading · Passage 1 · Practice 56 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=52fdac2d72f529f5"
+  },
+  {
+    "id": "download-material:reading-passage-1:54ae7d5e15bbae4d",
+    "type": "download-material",
+    "ordinal": 57,
+    "label": "IELTS Reading · Passage 1 · Practice 57 · Education Philosophy",
+    "detail": "IELTS Reading · Passage 1 · Practice 57 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=54ae7d5e15bbae4d"
+  },
+  {
+    "id": "download-material:reading-passage-1:2735eb55a2e70326",
+    "type": "download-material",
+    "ordinal": 58,
+    "label": "IELTS Reading · Passage 1 · Practice 58 · The Pearl",
+    "detail": "IELTS Reading · Passage 1 · Practice 58 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=2735eb55a2e70326"
+  },
+  {
+    "id": "download-material:reading-passage-1:c8ce2fc89445cd54",
+    "type": "download-material",
+    "ordinal": 59,
+    "label": "IELTS Reading · Passage 1 · Practice 59 · History of Refrigeration",
+    "detail": "IELTS Reading · Passage 1 · Practice 59 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c8ce2fc89445cd54"
+  },
+  {
+    "id": "download-material:reading-passage-1:18fc29c159e38cd4",
+    "type": "download-material",
+    "ordinal": 60,
+    "label": "IELTS Reading · Passage 1 · Practice 60 · FLIGHT OF THE HONEYBEE",
+    "detail": "IELTS Reading · Passage 1 · Practice 60 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=18fc29c159e38cd4"
+  },
+  {
+    "id": "download-material:reading-passage-1:d95566ab90a94fcb",
+    "type": "download-material",
+    "ordinal": 61,
+    "label": "IELTS Reading · Passage 1 · Practice 61 · THE NATURE OF ADDICTION",
+    "detail": "IELTS Reading · Passage 1 · Practice 61 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d95566ab90a94fcb"
+  },
+  {
+    "id": "download-material:reading-passage-1:2e589011153d2d22",
+    "type": "download-material",
+    "ordinal": 62,
+    "label": "IELTS Reading · Passage 1 · Practice 62 · LOOKING IN THE TELESCOPE",
+    "detail": "IELTS Reading · Passage 1 · Practice 62 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=2e589011153d2d22"
+  },
+  {
+    "id": "download-material:reading-passage-1:80a65e1ed4b91f51",
+    "type": "download-material",
+    "ordinal": 63,
+    "label": "IELTS Reading · Passage 1 · Practice 63 · THE LOCH NESS MONSTER",
+    "detail": "IELTS Reading · Passage 1 · Practice 63 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=80a65e1ed4b91f51"
+  },
+  {
+    "id": "download-material:reading-passage-1:0452eb9d33bee3c2",
+    "type": "download-material",
+    "ordinal": 64,
+    "label": "IELTS Reading · Passage 1 · Practice 64 · Money Transfers by Mobile",
+    "detail": "IELTS Reading · Passage 1 · Practice 64 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=0452eb9d33bee3c2"
+  },
+  {
+    "id": "download-material:reading-passage-1:96899a1d6a72ea86",
+    "type": "download-material",
+    "ordinal": 65,
+    "label": "IELTS Reading · Passage 1 · Practice 65 · Secret of Thailand’s Success?",
+    "detail": "IELTS Reading · Passage 1 · Practice 65 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=96899a1d6a72ea86"
+  },
+  {
+    "id": "download-material:reading-passage-1:a99cad39126f4a0c",
+    "type": "download-material",
+    "ordinal": 66,
+    "label": "IELTS Reading · Passage 1 · Practice 66 · Sleepy Students Perform Worse",
+    "detail": "IELTS Reading · Passage 1 · Practice 66 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=a99cad39126f4a0c"
+  },
+  {
+    "id": "download-material:reading-passage-1:ecd3888414beed79",
+    "type": "download-material",
+    "ordinal": 67,
+    "label": "IELTS Reading · Passage 1 · Practice 67 · Spot the Difference",
+    "detail": "IELTS Reading · Passage 1 · Practice 67 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ecd3888414beed79"
+  },
+  {
+    "id": "download-material:reading-passage-1:b7959198edfdc116",
+    "type": "download-material",
+    "ordinal": 68,
+    "label": "IELTS Reading · Passage 1 · Practice 68 · Daydreaming",
+    "detail": "IELTS Reading · Passage 1 · Practice 68 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b7959198edfdc116"
+  },
+  {
+    "id": "download-material:reading-passage-1:63e1085c1daadcb8",
+    "type": "download-material",
+    "ordinal": 69,
+    "label": "IELTS Reading · Passage 1 · Practice 69 · ALBERT EINSTEIN",
+    "detail": "IELTS Reading · Passage 1 · Practice 69 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=63e1085c1daadcb8"
+  },
+  {
+    "id": "download-material:reading-passage-1:6d167c9cdf4a306b",
+    "type": "download-material",
+    "ordinal": 70,
+    "label": "IELTS Reading · Passage 1 · Practice 70 · Prison: The Solution or the Problem?",
+    "detail": "IELTS Reading · Passage 1 · Practice 70 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=6d167c9cdf4a306b"
+  },
+  {
+    "id": "download-material:reading-passage-1:83974705dffe9109",
+    "type": "download-material",
+    "ordinal": 71,
+    "label": "IELTS Reading · Passage 1 · Practice 71 · 3D Printers",
+    "detail": "IELTS Reading · Passage 1 · Practice 71 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=83974705dffe9109"
+  },
+  {
+    "id": "download-material:reading-passage-1:e5d51048767a7216",
+    "type": "download-material",
+    "ordinal": 72,
+    "label": "IELTS Reading · Passage 1 · Practice 72 · Survivor from the sky",
+    "detail": "IELTS Reading · Passage 1 · Practice 72 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e5d51048767a7216"
+  },
+  {
+    "id": "download-material:reading-passage-1:913a1c997233f905",
+    "type": "download-material",
+    "ordinal": 73,
+    "label": "IELTS Reading · Passage 1 · Practice 73 · PLEASE HOLD THE LINE",
+    "detail": "IELTS Reading · Passage 1 · Practice 73 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=913a1c997233f905"
+  },
+  {
+    "id": "download-material:reading-passage-1:e631dd0fbb649bb0",
+    "type": "download-material",
+    "ordinal": 74,
+    "label": "IELTS Reading · Passage 1 · Practice 74 · Sleeping on the job",
+    "detail": "IELTS Reading · Passage 1 · Practice 74 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e631dd0fbb649bb0"
+  },
+  {
+    "id": "download-material:reading-passage-1:0444cc7ed6577043",
+    "type": "download-material",
+    "ordinal": 75,
+    "label": "IELTS Reading · Passage 1 · Practice 75 · Frogwatch",
+    "detail": "IELTS Reading · Passage 1 · Practice 75 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=0444cc7ed6577043"
+  },
+  {
+    "id": "download-material:reading-passage-1:8f2adb6e985df12c",
+    "type": "download-material",
+    "ordinal": 76,
+    "label": "IELTS Reading · Passage 1 · Practice 76 · Wolves, dogs and humans",
+    "detail": "IELTS Reading · Passage 1 · Practice 76 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=8f2adb6e985df12c"
+  },
+  {
+    "id": "download-material:reading-passage-1:9e50192b1c7ff0dd",
+    "type": "download-material",
+    "ordinal": 77,
+    "label": "IELTS Reading · Passage 1 · Practice 77 · Lake Vostok",
+    "detail": "IELTS Reading · Passage 1 · Practice 77 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=9e50192b1c7ff0dd"
+  },
+  {
+    "id": "download-material:reading-passage-1:611fb579b3080703",
+    "type": "download-material",
+    "ordinal": 78,
+    "label": "IELTS Reading · Passage 1 · Practice 78 · Hello Happiness!",
+    "detail": "IELTS Reading · Passage 1 · Practice 78 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=611fb579b3080703"
+  },
+  {
+    "id": "download-material:reading-passage-1:0f92098782a8074c",
+    "type": "download-material",
+    "ordinal": 79,
+    "label": "IELTS Reading · Passage 1 · Practice 79 · PROJECT: Reform Of The Prison System In The UK",
+    "detail": "IELTS Reading · Passage 1 · Practice 79 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=0f92098782a8074c"
+  },
+  {
+    "id": "download-material:reading-passage-1:b549f416f04b8bae",
+    "type": "download-material",
+    "ordinal": 80,
+    "label": "IELTS Reading · Passage 1 · Practice 80 · ALTERNATIVE ENERGY SOURCES",
+    "detail": "IELTS Reading · Passage 1 · Practice 80 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b549f416f04b8bae"
+  },
+  {
+    "id": "download-material:reading-passage-1:59503aaed902453a",
+    "type": "download-material",
+    "ordinal": 81,
+    "label": "IELTS Reading · Passage 1 · Practice 81 · CONTROLLING DEATHWATCH BEETLES",
+    "detail": "IELTS Reading · Passage 1 · Practice 81 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=59503aaed902453a"
+  },
+  {
+    "id": "download-material:reading-passage-1:cca41bf8561bae9d",
+    "type": "download-material",
+    "ordinal": 82,
+    "label": "IELTS Reading · Passage 1 · Practice 82 · GRAFFITI",
+    "detail": "IELTS Reading · Passage 1 · Practice 82 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=cca41bf8561bae9d"
+  },
+  {
+    "id": "download-material:reading-passage-1:9250b36cbf1e05fd",
+    "type": "download-material",
+    "ordinal": 83,
+    "label": "IELTS Reading · Passage 1 · Practice 83 · The Final Frontier for Tourism",
+    "detail": "IELTS Reading · Passage 1 · Practice 83 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=9250b36cbf1e05fd"
+  },
+  {
+    "id": "download-material:reading-passage-1:30c511ffd44e8af9",
+    "type": "download-material",
+    "ordinal": 84,
+    "label": "IELTS Reading · Passage 1 · Practice 84 · Taking us back to the Paradise City",
+    "detail": "IELTS Reading · Passage 1 · Practice 84 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=30c511ffd44e8af9"
+  },
+  {
+    "id": "download-material:reading-passage-1:b826bf6149c090c9",
+    "type": "download-material",
+    "ordinal": 85,
+    "label": "IELTS Reading · Passage 1 · Practice 85 · If at first you don’t succeed…",
+    "detail": "IELTS Reading · Passage 1 · Practice 85 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b826bf6149c090c9"
+  },
+  {
+    "id": "download-material:reading-passage-1:44e31f51adac5140",
+    "type": "download-material",
+    "ordinal": 86,
+    "label": "IELTS Reading · Passage 1 · Practice 86 · Could You Pass Me My Glasses, Please?",
+    "detail": "IELTS Reading · Passage 1 · Practice 86 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=44e31f51adac5140"
+  },
+  {
+    "id": "download-material:reading-passage-1:f3d009c1efcdbd50",
+    "type": "download-material",
+    "ordinal": 87,
+    "label": "IELTS Reading · Passage 1 · Practice 87 · The Spice of Life!",
+    "detail": "IELTS Reading · Passage 1 · Practice 87 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=f3d009c1efcdbd50"
+  },
+  {
+    "id": "download-material:reading-passage-1:587f93461b252d06",
+    "type": "download-material",
+    "ordinal": 88,
+    "label": "IELTS Reading · Passage 1 · Practice 88 · It’s Dynamite",
+    "detail": "IELTS Reading · Passage 1 · Practice 88 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=587f93461b252d06"
+  },
+  {
+    "id": "download-material:reading-passage-1:14af9574f690142c",
+    "type": "download-material",
+    "ordinal": 89,
+    "label": "IELTS Reading · Passage 1 · Practice 89 · The Search for Colour",
+    "detail": "IELTS Reading · Passage 1 · Practice 89 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=14af9574f690142c"
+  },
+  {
+    "id": "download-material:reading-passage-1:ada25964670cec91",
+    "type": "download-material",
+    "ordinal": 90,
+    "label": "IELTS Reading · Passage 1 · Practice 90 · The King of Fruits",
+    "detail": "IELTS Reading · Passage 1 · Practice 90 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ada25964670cec91"
+  },
+  {
+    "id": "download-material:reading-passage-1:d95a05e8194f7c92",
+    "type": "download-material",
+    "ordinal": 91,
+    "label": "IELTS Reading · Passage 1 · Practice 91 · An Essential Intermediary",
+    "detail": "IELTS Reading · Passage 1 · Practice 91 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d95a05e8194f7c92"
+  },
+  {
+    "id": "download-material:reading-passage-1:d9fa32cc6153061b",
+    "type": "download-material",
+    "ordinal": 92,
+    "label": "IELTS Reading · Passage 1 · Practice 92 · If You Can Get Used to the Taste",
+    "detail": "IELTS Reading · Passage 1 · Practice 92 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d9fa32cc6153061b"
+  },
+  {
+    "id": "download-material:reading-passage-1:61aed96343d83ed0",
+    "type": "download-material",
+    "ordinal": 93,
+    "label": "IELTS Reading · Passage 1 · Practice 93 · Family Names",
+    "detail": "IELTS Reading · Passage 1 · Practice 93 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=61aed96343d83ed0"
+  },
+  {
+    "id": "download-material:reading-passage-1:81d4d7d0b2a8d753",
+    "type": "download-material",
+    "ordinal": 94,
+    "label": "IELTS Reading · Passage 1 · Practice 94 · Fordlandia",
+    "detail": "IELTS Reading · Passage 1 · Practice 94 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=81d4d7d0b2a8d753"
+  },
+  {
+    "id": "download-material:reading-passage-1:18efc0153c71cdcf",
+    "type": "download-material",
+    "ordinal": 95,
+    "label": "IELTS Reading · Passage 1 · Practice 95 · Climate Change: Instant Expert",
+    "detail": "IELTS Reading · Passage 1 · Practice 95 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=18efc0153c71cdcf"
+  },
+  {
+    "id": "download-material:reading-passage-1:53c785fb71fb73b6",
+    "type": "download-material",
+    "ordinal": 96,
+    "label": "IELTS Reading · Passage 1 · Practice 96 · Coming of Age",
+    "detail": "IELTS Reading · Passage 1 · Practice 96 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=53c785fb71fb73b6"
+  },
+  {
+    "id": "download-material:reading-passage-1:47f69061b44d8d53",
+    "type": "download-material",
+    "ordinal": 97,
+    "label": "IELTS Reading · Passage 1 · Practice 97 · Fix it with Flavour",
+    "detail": "IELTS Reading · Passage 1 · Practice 97 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=47f69061b44d8d53"
+  },
+  {
+    "id": "download-material:reading-passage-1:a97408e10cdb13b9",
+    "type": "download-material",
+    "ordinal": 98,
+    "label": "IELTS Reading · Passage 1 · Practice 98 · From Hand to Mouth",
+    "detail": "IELTS Reading · Passage 1 · Practice 98 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=a97408e10cdb13b9"
+  },
+  {
+    "id": "download-material:reading-passage-1:409c3962df25a2ed",
+    "type": "download-material",
+    "ordinal": 99,
+    "label": "IELTS Reading · Passage 1 · Practice 99 · From SunnyD and Pizza to Bread and Water",
+    "detail": "IELTS Reading · Passage 1 · Practice 99 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=409c3962df25a2ed"
+  },
+  {
+    "id": "download-material:reading-passage-1:09a0072e2c271081",
+    "type": "download-material",
+    "ordinal": 100,
+    "label": "IELTS Reading · Passage 1 · Practice 100 · India’s Modern Women",
+    "detail": "IELTS Reading · Passage 1 · Practice 100 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=09a0072e2c271081"
+  },
+  {
+    "id": "download-material:reading-passage-1:b287704a91d534f0",
+    "type": "download-material",
+    "ordinal": 101,
+    "label": "IELTS Reading · Passage 1 · Practice 101 · These Invasive Species are Ruining the Retail Ecosystem",
+    "detail": "IELTS Reading · Passage 1 · Practice 101 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b287704a91d534f0"
+  },
+  {
+    "id": "download-material:reading-passage-1:e9365ed0f791ba99",
+    "type": "download-material",
+    "ordinal": 102,
+    "label": "IELTS Reading · Passage 1 · Practice 102 · In Praise of Amateurs",
+    "detail": "IELTS Reading · Passage 1 · Practice 102 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e9365ed0f791ba99"
+  },
+  {
+    "id": "download-material:reading-passage-1:10acc55746a64dd5",
+    "type": "download-material",
+    "ordinal": 103,
+    "label": "IELTS Reading · Passage 1 · Practice 103 · Tackling Obesity in the Western World",
+    "detail": "IELTS Reading · Passage 1 · Practice 103 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=10acc55746a64dd5"
+  },
+  {
+    "id": "download-material:reading-passage-1:98d1826a7e49b98c",
+    "type": "download-material",
+    "ordinal": 104,
+    "label": "IELTS Reading · Passage 1 · Practice 104 · Indoor Pollution",
+    "detail": "IELTS Reading · Passage 1 · Practice 104 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=98d1826a7e49b98c"
+  },
+  {
+    "id": "download-material:reading-passage-1:0e5cc70600ec7ab2",
+    "type": "download-material",
+    "ordinal": 105,
+    "label": "IELTS Reading · Passage 1 · Practice 105 · The Great Australian Fence",
+    "detail": "IELTS Reading · Passage 1 · Practice 105 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=0e5cc70600ec7ab2"
+  },
+  {
+    "id": "download-material:reading-passage-1:3149b0415db00e64",
+    "type": "download-material",
+    "ordinal": 106,
+    "label": "IELTS Reading · Passage 1 · Practice 106 · Twist in the Tale",
+    "detail": "IELTS Reading · Passage 1 · Practice 106 IETLS 閱讀練習 - Passage 1.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=3149b0415db00e64"
+  },
+  {
+    "id": "download-material:reading-passage-1:ebe36206c9ddf088",
+    "type": "download-material",
+    "ordinal": 107,
+    "label": "IELTS Reading · Passage 1 · Practice 107 · Snow-makers",
+    "detail": "IELTS Reading · Passage 1 · Practice 107 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ebe36206c9ddf088"
+  },
+  {
+    "id": "download-material:reading-passage-1:c33af83c14bb75ce",
+    "type": "download-material",
+    "ordinal": 108,
+    "label": "IELTS Reading · Passage 1 · Practice 108 · Why Risks Can Go Wrong",
+    "detail": "IELTS Reading · Passage 1 · Practice 108 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c33af83c14bb75ce"
+  },
+  {
+    "id": "download-material:reading-passage-1:207cd37051e0608c",
+    "type": "download-material",
+    "ordinal": 109,
+    "label": "IELTS Reading · Passage 1 · Practice 109 · A song on the brain",
+    "detail": "IELTS Reading · Passage 1 · Practice 109 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=207cd37051e0608c"
+  },
+  {
+    "id": "download-material:reading-passage-1:c1086911ff53705a",
+    "type": "download-material",
+    "ordinal": 110,
+    "label": "IELTS Reading · Passage 1 · Practice 110 · Green virtues of green sand",
+    "detail": "IELTS Reading · Passage 1 · Practice 110 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c1086911ff53705a"
+  },
+  {
+    "id": "download-material:reading-passage-1:7f1e2b810d2dea6e",
+    "type": "download-material",
+    "ordinal": 111,
+    "label": "IELTS Reading · Passage 1 · Practice 111 · Sustainable architecture – lessons from the ant",
+    "detail": "IELTS Reading · Passage 1 · Practice 111 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=7f1e2b810d2dea6e"
+  },
+  {
+    "id": "download-material:reading-passage-1:7a7f1668a0f1d6d8",
+    "type": "download-material",
+    "ordinal": 112,
+    "label": "IELTS Reading · Passage 1 · Practice 112 · Astronaut ice cream, anyone?",
+    "detail": "IELTS Reading · Passage 1 · Practice 112 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=7a7f1668a0f1d6d8"
+  },
+  {
+    "id": "download-material:reading-passage-1:da4bfb70e510e694",
+    "type": "download-material",
+    "ordinal": 113,
+    "label": "IELTS Reading · Passage 1 · Practice 113 · Reducing electricity consumption on the Isle of Eigg",
+    "detail": "IELTS Reading · Passage 1 · Practice 113 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=da4bfb70e510e694"
+  },
+  {
+    "id": "download-material:reading-passage-1:338eb73fb5422a5f",
+    "type": "download-material",
+    "ordinal": 114,
+    "label": "IELTS Reading · Passage 1 · Practice 114 · The Rufous Hare-Wallaby",
+    "detail": "IELTS Reading · Passage 1 · Practice 114 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=338eb73fb5422a5f"
+  },
+  {
+    "id": "download-material:reading-passage-1:9b935b5c5e90fb3f",
+    "type": "download-material",
+    "ordinal": 115,
+    "label": "IELTS Reading · Passage 1 · Practice 115 · Geoff Brash",
+    "detail": "IELTS Reading · Passage 1 · Practice 115 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=9b935b5c5e90fb3f"
+  },
+  {
+    "id": "download-material:reading-passage-1:4b0fd699b3473e95",
+    "type": "download-material",
+    "ordinal": 116,
+    "label": "IELTS Reading · Passage 1 · Practice 116 · The economic importance of coral reefs",
+    "detail": "IELTS Reading · Passage 1 · Practice 116 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=4b0fd699b3473e95"
+  },
+  {
+    "id": "download-material:reading-passage-1:76a672e840b4ef28",
+    "type": "download-material",
+    "ordinal": 117,
+    "label": "IELTS Reading · Passage 1 · Practice 117 · Trends in the Indian fashion and textile industries",
+    "detail": "IELTS Reading · Passage 1 · Practice 117 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=76a672e840b4ef28"
+  },
+  {
+    "id": "download-material:reading-passage-1:6a2c3ec1fcaeba2c",
+    "type": "download-material",
+    "ordinal": 118,
+    "label": "IELTS Reading · Passage 1 · Practice 118 · The construction of roads and bridges",
+    "detail": "IELTS Reading · Passage 1 · Practice 118 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=6a2c3ec1fcaeba2c"
+  },
+  {
+    "id": "download-material:reading-passage-1:fa2dde520998f71b",
+    "type": "download-material",
+    "ordinal": 119,
+    "label": "IELTS Reading · Passage 1 · Practice 119 · Biology of Bitterness",
+    "detail": "IELTS Reading · Passage 1 · Practice 119 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=fa2dde520998f71b"
+  },
+  {
+    "id": "download-material:reading-passage-1:45dd3bcd74ff8810",
+    "type": "download-material",
+    "ordinal": 120,
+    "label": "IELTS Reading · Passage 1 · Practice 120 · UNDOING OUR EMOTIONS",
+    "detail": "IELTS Reading · Passage 1 · Practice 120 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=45dd3bcd74ff8810"
+  },
+  {
+    "id": "download-material:reading-passage-1:3e7c260df1e0c1a5",
+    "type": "download-material",
+    "ordinal": 121,
+    "label": "IELTS Reading · Passage 1 · Practice 121 · REFLECTING ON THE MIRROR",
+    "detail": "IELTS Reading · Passage 1 · Practice 121 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=3e7c260df1e0c1a5"
+  },
+  {
+    "id": "download-material:reading-passage-1:63a173ebbfab2e88",
+    "type": "download-material",
+    "ordinal": 122,
+    "label": "IELTS Reading · Passage 1 · Practice 122 · THE ‘BEAUTIFUL’ GAME",
+    "detail": "IELTS Reading · Passage 1 · Practice 122 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=63a173ebbfab2e88"
+  },
+  {
+    "id": "download-material:reading-passage-1:dafe1bb124f95f9d",
+    "type": "download-material",
+    "ordinal": 123,
+    "label": "IELTS Reading · Passage 1 · Practice 123 · Traditional Farming System in Africa",
+    "detail": "IELTS Reading · Passage 1 · Practice 123 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=dafe1bb124f95f9d"
+  },
+  {
+    "id": "download-material:reading-passage-1:60c32dc592019649",
+    "type": "download-material",
+    "ordinal": 124,
+    "label": "IELTS Reading · Passage 1 · Practice 124 · Multitasking Debate",
+    "detail": "IELTS Reading · Passage 1 · Practice 124 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=60c32dc592019649"
+  },
+  {
+    "id": "download-material:reading-passage-1:e0b0c49ce4b4bb5b",
+    "type": "download-material",
+    "ordinal": 125,
+    "label": "IELTS Reading · Passage 1 · Practice 125 · The success of cellulose",
+    "detail": "IELTS Reading · Passage 1 · Practice 125 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e0b0c49ce4b4bb5b"
+  },
+  {
+    "id": "download-material:reading-passage-1:f06bf81d2ef016e1",
+    "type": "download-material",
+    "ordinal": 126,
+    "label": "IELTS Reading · Passage 1 · Practice 126 · Finches on Islands",
+    "detail": "IELTS Reading · Passage 1 · Practice 126 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=f06bf81d2ef016e1"
+  },
+  {
+    "id": "download-material:reading-passage-1:15fbaebd857a5776",
+    "type": "download-material",
+    "ordinal": 127,
+    "label": "IELTS Reading · Passage 1 · Practice 127 · Paul Nash",
+    "detail": "IELTS Reading · Passage 1 · Practice 127 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=15fbaebd857a5776"
+  },
+  {
+    "id": "download-material:reading-passage-1:fb05d6c223e0de35",
+    "type": "download-material",
+    "ordinal": 128,
+    "label": "IELTS Reading · Passage 1 · Practice 128 · Satellite Technology",
+    "detail": "IELTS Reading · Passage 1 · Practice 128 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=fb05d6c223e0de35"
+  },
+  {
+    "id": "download-material:reading-passage-1:3642f012256260ff",
+    "type": "download-material",
+    "ordinal": 129,
+    "label": "IELTS Reading · Passage 1 · Practice 129 · Environmentally-Friendly! Vehicles",
+    "detail": "IELTS Reading · Passage 1 · Practice 129 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=3642f012256260ff"
+  },
+  {
+    "id": "download-material:reading-passage-1:3bfbbbf0fa104c35",
+    "type": "download-material",
+    "ordinal": 130,
+    "label": "IELTS Reading · Passage 1 · Practice 130 · Exploring British Village",
+    "detail": "IELTS Reading · Passage 1 · Practice 130 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=3bfbbbf0fa104c35"
+  },
+  {
+    "id": "download-material:reading-passage-1:d40b273f5a0ab2b4",
+    "type": "download-material",
+    "ordinal": 131,
+    "label": "IELTS Reading · Passage 1 · Practice 131 · Light pollution",
+    "detail": "IELTS Reading · Passage 1 · Practice 131 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d40b273f5a0ab2b4"
+  },
+  {
+    "id": "download-material:reading-passage-1:385342c6ef9a1d8f",
+    "type": "download-material",
+    "ordinal": 132,
+    "label": "IELTS Reading · Passage 1 · Practice 132 · Father of modern management",
+    "detail": "IELTS Reading · Passage 1 · Practice 132 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=385342c6ef9a1d8f"
+  },
+  {
+    "id": "download-material:reading-passage-1:ded9c8ef4b4096b0",
+    "type": "download-material",
+    "ordinal": 133,
+    "label": "IELTS Reading · Passage 1 · Practice 133 · Radio Automation",
+    "detail": "IELTS Reading · Passage 1 · Practice 133 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ded9c8ef4b4096b0"
+  },
+  {
+    "id": "download-material:reading-passage-1:c9dcbbef4b8d3c40",
+    "type": "download-material",
+    "ordinal": 134,
+    "label": "IELTS Reading · Passage 1 · Practice 134 · Reclaiming the future of aral sea",
+    "detail": "IELTS Reading · Passage 1 · Practice 134 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c9dcbbef4b8d3c40"
+  },
+  {
+    "id": "download-material:reading-passage-1:51fa6ae8f467acee",
+    "type": "download-material",
+    "ordinal": 135,
+    "label": "IELTS Reading · Passage 1 · Practice 135 · The hidden lives of solitary bees",
+    "detail": "IELTS Reading · Passage 1 · Practice 135 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=51fa6ae8f467acee"
+  },
+  {
+    "id": "download-material:reading-passage-1:56415eb625b71572",
+    "type": "download-material",
+    "ordinal": 136,
+    "label": "IELTS Reading · Passage 1 · Practice 136 · Intelligence and Giftedness",
+    "detail": "IELTS Reading · Passage 1 · Practice 136 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=56415eb625b71572"
+  },
+  {
+    "id": "download-material:reading-passage-1:d81e05dbe60a296b",
+    "type": "download-material",
+    "ordinal": 137,
+    "label": "IELTS Reading · Passage 1 · Practice 137 · Agriculture and Tourism",
+    "detail": "IELTS Reading · Passage 1 · Practice 137 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=d81e05dbe60a296b"
+  },
+  {
+    "id": "download-material:reading-passage-1:1525994a2d7ae3d6",
+    "type": "download-material",
+    "ordinal": 138,
+    "label": "IELTS Reading · Passage 1 · Practice 138 · Volatility Kills",
+    "detail": "IELTS Reading · Passage 1 · Practice 138 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=1525994a2d7ae3d6"
+  },
+  {
+    "id": "download-material:reading-passage-1:450599f2f47b993e",
+    "type": "download-material",
+    "ordinal": 139,
+    "label": "IELTS Reading · Passage 1 · Practice 139 · Sand Dunes",
+    "detail": "IELTS Reading · Passage 1 · Practice 139 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=450599f2f47b993e"
+  },
+  {
+    "id": "download-material:reading-passage-1:fbfa21771dec880d",
+    "type": "download-material",
+    "ordinal": 140,
+    "label": "IELTS Reading · Passage 1 · Practice 140 · Internal and External Marketing",
+    "detail": "IELTS Reading · Passage 1 · Practice 140 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=fbfa21771dec880d"
+  },
+  {
+    "id": "download-material:reading-passage-1:a007bb9668e13b87",
+    "type": "download-material",
+    "ordinal": 141,
+    "label": "IELTS Reading · Passage 1 · Practice 141 · Design the mat and Foot health",
+    "detail": "IELTS Reading · Passage 1 · Practice 141 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=a007bb9668e13b87"
+  },
+  {
+    "id": "download-material:reading-passage-1:b2176b8cd2e4c6d1",
+    "type": "download-material",
+    "ordinal": 142,
+    "label": "IELTS Reading · Passage 1 · Practice 142 · Can Scientists tell us: What happiness is?",
+    "detail": "IELTS Reading · Passage 1 · Practice 142 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b2176b8cd2e4c6d1"
+  },
+  {
+    "id": "download-material:reading-passage-1:4b4df63f98ac244b",
+    "type": "download-material",
+    "ordinal": 143,
+    "label": "IELTS Reading · Passage 1 · Practice 143 · Ambergris",
+    "detail": "IELTS Reading · Passage 1 · Practice 143 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=4b4df63f98ac244b"
+  },
+  {
+    "id": "download-material:reading-passage-1:b50b4bb1227093aa",
+    "type": "download-material",
+    "ordinal": 144,
+    "label": "IELTS Reading · Passage 1 · Practice 144 · The Exploration of Mars",
+    "detail": "IELTS Reading · Passage 1 · Practice 144 IETLS 閱讀練習 - Passage 1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b50b4bb1227093aa"
+  },
+  {
+    "id": "download-material:reading-passage-1:c4d7f36d4b96152b",
+    "type": "download-material",
+    "ordinal": 145,
+    "label": "IELTS Reading · Passage 1 · Practice 145 · Plant Scents",
+    "detail": "IELTS Reading · Passage 1 · Practice 145 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=c4d7f36d4b96152b"
+  },
+  {
+    "id": "download-material:reading-passage-1:f62a6c1071ae7d36",
+    "type": "download-material",
+    "ordinal": 146,
+    "label": "IELTS Reading · Passage 1 · Practice 146 · Bird Migration",
+    "detail": "IELTS Reading · Passage 1 · Practice 146 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=f62a6c1071ae7d36"
+  },
+  {
+    "id": "download-material:reading-passage-1:665eb469bb33df52",
+    "type": "download-material",
+    "ordinal": 147,
+    "label": "IELTS Reading · Passage 1 · Practice 147 · Mental Gymnastics",
+    "detail": "IELTS Reading · Passage 1 · Practice 147 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=665eb469bb33df52"
+  },
+  {
+    "id": "download-material:reading-passage-1:741a338a75061f68",
+    "type": "download-material",
+    "ordinal": 148,
+    "label": "IELTS Reading · Passage 1 · Practice 148 · Copy your neighbor",
+    "detail": "IELTS Reading · Passage 1 · Practice 148 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=741a338a75061f68"
+  },
+  {
+    "id": "download-material:reading-passage-1:6068751d5e96b324",
+    "type": "download-material",
+    "ordinal": 149,
+    "label": "IELTS Reading · Passage 1 · Practice 149 · Density and Crowding",
+    "detail": "IELTS Reading · Passage 1 · Practice 149 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=6068751d5e96b324"
+  },
+  {
+    "id": "download-material:reading-passage-1:6c224d464221ab17",
+    "type": "download-material",
+    "ordinal": 150,
+    "label": "IELTS Reading · Passage 1 · Practice 150 · Fossil Files “The Paleobiology Database”",
+    "detail": "IELTS Reading · Passage 1 · Practice 150 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=6c224d464221ab17"
+  },
+  {
+    "id": "download-material:reading-passage-1:61584d68408c0670",
+    "type": "download-material",
+    "ordinal": 151,
+    "label": "IELTS Reading · Passage 1 · Practice 151 · The Secrets of Persuasion",
+    "detail": "IELTS Reading · Passage 1 · Practice 151 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=61584d68408c0670"
+  },
+  {
+    "id": "download-material:reading-passage-1:44e8c4c8a6547209",
+    "type": "download-material",
+    "ordinal": 152,
+    "label": "IELTS Reading · Passage 1 · Practice 152 · Smell and Memory: Smell like yesterday",
+    "detail": "IELTS Reading · Passage 1 · Practice 152 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=44e8c4c8a6547209"
+  },
+  {
+    "id": "download-material:reading-passage-1:1d3b4fd346a168c4",
+    "type": "download-material",
+    "ordinal": 153,
+    "label": "IELTS Reading · Passage 1 · Practice 153 · The Beginning of Football",
+    "detail": "IELTS Reading · Passage 1 · Practice 153 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=1d3b4fd346a168c4"
+  },
+  {
+    "id": "download-material:reading-passage-1:e932eac9e49f25e8",
+    "type": "download-material",
+    "ordinal": 154,
+    "label": "IELTS Reading · Passage 1 · Practice 154 · World Ecotourism in the developing courtiers",
+    "detail": "IELTS Reading · Passage 1 · Practice 154 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e932eac9e49f25e8"
+  },
+  {
+    "id": "download-material:reading-passage-1:140626193580efcd",
+    "type": "download-material",
+    "ordinal": 155,
+    "label": "IELTS Reading · Passage 1 · Practice 155 · Consecutive and Simultaneous Translation",
+    "detail": "IELTS Reading · Passage 1 · Practice 155 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=140626193580efcd"
+  },
+  {
+    "id": "download-material:reading-passage-1:8990bac5184f0294",
+    "type": "download-material",
+    "ordinal": 156,
+    "label": "IELTS Reading · Passage 1 · Practice 156 · SOSUS: Listening to the Ocean",
+    "detail": "IELTS Reading · Passage 1 · Practice 156 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=8990bac5184f0294"
+  },
+  {
+    "id": "download-material:reading-passage-1:ba971e3e355b5cfc",
+    "type": "download-material",
+    "ordinal": 157,
+    "label": "IELTS Reading · Passage 1 · Practice 157 · The History Of Salt",
+    "detail": "IELTS Reading · Passage 1 · Practice 157 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=ba971e3e355b5cfc"
+  },
+  {
+    "id": "download-material:reading-passage-1:b4e353e032ec9de0",
+    "type": "download-material",
+    "ordinal": 158,
+    "label": "IELTS Reading · Passage 1 · Practice 158 · Facial Expression",
+    "detail": "IELTS Reading · Passage 1 · Practice 158 IETLS 閱讀練習 - Passage 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=b4e353e032ec9de0"
+  },
+  {
+    "id": "download-material:reading-passage-1:e2b904bfd6f8d16f",
+    "type": "download-material",
+    "ordinal": 159,
+    "label": "IELTS Reading · Passage 1 · Practice 159 · Grey Workers",
+    "detail": "IELTS Reading · Passage 1 · Practice 159 IETLS 閱讀練習 - Passage 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=e2b904bfd6f8d16f"
+  },
+  {
+    "id": "download-material:reading-passage-1:85ee22cf6ffffd1f",
+    "type": "download-material",
+    "ordinal": 160,
+    "label": "IELTS Reading · Passage 1 · Practice 160 · Malaria Combat in Italy",
+    "detail": "IELTS Reading · Passage 1 · Practice 160 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=85ee22cf6ffffd1f"
+  },
+  {
+    "id": "download-material:reading-passage-1:779ba4bc4b7d27c8",
+    "type": "download-material",
+    "ordinal": 161,
+    "label": "IELTS Reading · Passage 1 · Practice 161 · Mungo Man",
+    "detail": "IELTS Reading · Passage 1 · Practice 161 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=779ba4bc4b7d27c8"
+  },
+  {
+    "id": "download-material:reading-passage-1:00add888bc1b417f",
+    "type": "download-material",
+    "ordinal": 162,
+    "label": "IELTS Reading · Passage 1 · Practice 162 · The Power of Nothing",
+    "detail": "IELTS Reading · Passage 1 · Practice 162 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=00add888bc1b417f"
+  },
+  {
+    "id": "download-material:reading-passage-1:194ae90d96ccdcb7",
+    "type": "download-material",
+    "ordinal": 163,
+    "label": "IELTS Reading · Passage 1 · Practice 163 · Grimm’s Fairy Tales",
+    "detail": "IELTS Reading · Passage 1 · Practice 163 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=194ae90d96ccdcb7"
+  },
+  {
+    "id": "download-material:reading-passage-1:47a6f1106f712edc",
+    "type": "download-material",
+    "ordinal": 164,
+    "label": "IELTS Reading · Passage 1 · Practice 164 · Answers Underground",
+    "detail": "IELTS Reading · Passage 1 · Practice 164 IETLS 閱讀練習 - Passage 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-1&item=47a6f1106f712edc"
+  },
+  {
+    "id": "download-material:reading-passage-2:bf9f035c330c5d4d",
+    "type": "download-material",
+    "ordinal": 24,
+    "label": "IELTS Reading · Passage 2 · Practice 24 · Caveat Scriptor",
+    "detail": "IELTS Reading · Passage 2 · Practice 24 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=bf9f035c330c5d4d"
+  },
+  {
+    "id": "download-material:reading-passage-2:a2eee70abda5bb31",
+    "type": "download-material",
+    "ordinal": 25,
+    "label": "IELTS Reading · Passage 2 · Practice 25 · The 2003 Heatwave",
+    "detail": "IELTS Reading · Passage 2 · Practice 25 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=a2eee70abda5bb31"
+  },
+  {
+    "id": "download-material:reading-passage-2:051e1378528f298b",
+    "type": "download-material",
+    "ordinal": 26,
+    "label": "IELTS Reading · Passage 2 · Practice 26 · Being Left-handed in a Right-handed World",
+    "detail": "IELTS Reading · Passage 2 · Practice 26 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=051e1378528f298b"
+  },
+  {
+    "id": "download-material:reading-passage-2:bd3e9e508c1313c6",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Reading · Passage 2 · Practice 27 · A New Ice Age",
+    "detail": "IELTS Reading · Passage 2 · Practice 27 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=bd3e9e508c1313c6"
+  },
+  {
+    "id": "download-material:reading-passage-2:8dbc275f07f5a32c",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Reading · Passage 2 · Practice 28 · The Ant and the Mandarin",
+    "detail": "IELTS Reading · Passage 2 · Practice 28 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=8dbc275f07f5a32c"
+  },
+  {
+    "id": "download-material:reading-passage-2:6aba7056970ade2b",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Reading · Passage 2 · Practice 29 · Children’s Literature",
+    "detail": "IELTS Reading · Passage 2 · Practice 29 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6aba7056970ade2b"
+  },
+  {
+    "id": "download-material:reading-passage-2:1418f384dad3c681",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Reading · Passage 2 · Practice 30 · Mrs. Carlill and the Carbolic Smoke Ball",
+    "detail": "IELTS Reading · Passage 2 · Practice 30 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=1418f384dad3c681"
+  },
+  {
+    "id": "download-material:reading-passage-2:8c3b382a6a589b14",
+    "type": "download-material",
+    "ordinal": 31,
+    "label": "IELTS Reading · Passage 2 · Practice 31 · Eco-Resort Management Practices",
+    "detail": "IELTS Reading · Passage 2 · Practice 31 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=8c3b382a6a589b14"
+  },
+  {
+    "id": "download-material:reading-passage-2:ebbece45fa8eaf13",
+    "type": "download-material",
+    "ordinal": 32,
+    "label": "IELTS Reading · Passage 2 · Practice 32 · Optimism and Health",
+    "detail": "IELTS Reading · Passage 2 · Practice 32 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=ebbece45fa8eaf13"
+  },
+  {
+    "id": "download-material:reading-passage-2:6034adb29242088b",
+    "type": "download-material",
+    "ordinal": 33,
+    "label": "IELTS Reading · Passage 2 · Practice 33 · Coastal Archaeology of Britain",
+    "detail": "IELTS Reading · Passage 2 · Practice 33 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6034adb29242088b"
+  },
+  {
+    "id": "download-material:reading-passage-2:be3e251b55cc32a3",
+    "type": "download-material",
+    "ordinal": 34,
+    "label": "IELTS Reading · Passage 2 · Practice 34 · Activities for Children",
+    "detail": "IELTS Reading · Passage 2 · Practice 34 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=be3e251b55cc32a3"
+  },
+  {
+    "id": "download-material:reading-passage-2:b0b1734ba50080f6",
+    "type": "download-material",
+    "ordinal": 35,
+    "label": "IELTS Reading · Passage 2 · Practice 35 · Life-Casting and Art",
+    "detail": "IELTS Reading · Passage 2 · Practice 35 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b0b1734ba50080f6"
+  },
+  {
+    "id": "download-material:reading-passage-2:170d7be6a4052740",
+    "type": "download-material",
+    "ordinal": 36,
+    "label": "IELTS Reading · Passage 2 · Practice 36 · THE BRIDGE THAT SWAYED",
+    "detail": "IELTS Reading · Passage 2 · Practice 36 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=170d7be6a4052740"
+  },
+  {
+    "id": "download-material:reading-passage-2:2cbe7cbe56dd9d43",
+    "type": "download-material",
+    "ordinal": 37,
+    "label": "IELTS Reading · Passage 2 · Practice 37 · Storytelling: From Prehistoric Caves to Modern Cinemas",
+    "detail": "IELTS Reading · Passage 2 · Practice 37 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2cbe7cbe56dd9d43"
+  },
+  {
+    "id": "download-material:reading-passage-2:80531f2370e3c46c",
+    "type": "download-material",
+    "ordinal": 38,
+    "label": "IELTS Reading · Passage 2 · Practice 38 · Tasmanian Tiger",
+    "detail": "IELTS Reading · Passage 2 · Practice 38 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=80531f2370e3c46c"
+  },
+  {
+    "id": "download-material:reading-passage-2:4ca3e3ab9a31ab50",
+    "type": "download-material",
+    "ordinal": 39,
+    "label": "IELTS Reading · Passage 2 · Practice 39 · Wealth in A Cold Climate",
+    "detail": "IELTS Reading · Passage 2 · Practice 39 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=4ca3e3ab9a31ab50"
+  },
+  {
+    "id": "download-material:reading-passage-2:d53c0111cf9565c5",
+    "type": "download-material",
+    "ordinal": 40,
+    "label": "IELTS Reading · Passage 2 · Practice 40 · From A Novice to An Expert",
+    "detail": "IELTS Reading · Passage 2 · Practice 40 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d53c0111cf9565c5"
+  },
+  {
+    "id": "download-material:reading-passage-2:80eee2bce7b68f5e",
+    "type": "download-material",
+    "ordinal": 41,
+    "label": "IELTS Reading · Passage 2 · Practice 41 · Antarctica – in from the cold?",
+    "detail": "IELTS Reading · Passage 2 · Practice 41 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=80eee2bce7b68f5e"
+  },
+  {
+    "id": "download-material:reading-passage-2:ce95f08cb537a73d",
+    "type": "download-material",
+    "ordinal": 42,
+    "label": "IELTS Reading · Passage 2 · Practice 42 · Saving the British Bitterns",
+    "detail": "IELTS Reading · Passage 2 · Practice 42 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=ce95f08cb537a73d"
+  },
+  {
+    "id": "download-material:reading-passage-2:e9d865d3eda17f65",
+    "type": "download-material",
+    "ordinal": 43,
+    "label": "IELTS Reading · Passage 2 · Practice 43 · Corporate Social Responsibility",
+    "detail": "IELTS Reading · Passage 2 · Practice 43 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=e9d865d3eda17f65"
+  },
+  {
+    "id": "download-material:reading-passage-2:06bd5683a4a72451",
+    "type": "download-material",
+    "ordinal": 44,
+    "label": "IELTS Reading · Passage 2 · Practice 44 · Does An IQ Test Prove Creativity?",
+    "detail": "IELTS Reading · Passage 2 · Practice 44 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=06bd5683a4a72451"
+  },
+  {
+    "id": "download-material:reading-passage-2:eb85b64d54122782",
+    "type": "download-material",
+    "ordinal": 45,
+    "label": "IELTS Reading · Passage 2 · Practice 45 · Leaf-Cutting Ants and Fungus",
+    "detail": "IELTS Reading · Passage 2 · Practice 45 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=eb85b64d54122782"
+  },
+  {
+    "id": "download-material:reading-passage-2:bfd55d8e4561a342",
+    "type": "download-material",
+    "ordinal": 46,
+    "label": "IELTS Reading · Passage 2 · Practice 46 · The Development of Plastics",
+    "detail": "IELTS Reading · Passage 2 · Practice 46 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=bfd55d8e4561a342"
+  },
+  {
+    "id": "download-material:reading-passage-2:2699d095be4af90e",
+    "type": "download-material",
+    "ordinal": 47,
+    "label": "IELTS Reading · Passage 2 · Practice 47 · The History of the Pencil",
+    "detail": "IELTS Reading · Passage 2 · Practice 47 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2699d095be4af90e"
+  },
+  {
+    "id": "download-material:reading-passage-2:0dad90c60b3f138d",
+    "type": "download-material",
+    "ordinal": 48,
+    "label": "IELTS Reading · Passage 2 · Practice 48 · How Well Do We Concentrate?",
+    "detail": "IELTS Reading · Passage 2 · Practice 48 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0dad90c60b3f138d"
+  },
+  {
+    "id": "download-material:reading-passage-2:208027bfad9e6b2a",
+    "type": "download-material",
+    "ordinal": 50,
+    "label": "IELTS Reading · Passage 2 · Practice 50 · Stress of Workplace",
+    "detail": "IELTS Reading · Passage 2 · Practice 50 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=208027bfad9e6b2a"
+  },
+  {
+    "id": "download-material:reading-passage-2:a3d61963d6c7a50e",
+    "type": "download-material",
+    "ordinal": 51,
+    "label": "IELTS Reading · Passage 2 · Practice 51 · Keep the Water Away",
+    "detail": "IELTS Reading · Passage 2 · Practice 51 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=a3d61963d6c7a50e"
+  },
+  {
+    "id": "download-material:reading-passage-2:a2997232e7f43f92",
+    "type": "download-material",
+    "ordinal": 52,
+    "label": "IELTS Reading · Passage 2 · Practice 52 · Implication of False Belief Experiments",
+    "detail": "IELTS Reading · Passage 2 · Practice 52 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=a2997232e7f43f92"
+  },
+  {
+    "id": "download-material:reading-passage-2:43ecbc0e95349ed9",
+    "type": "download-material",
+    "ordinal": 53,
+    "label": "IELTS Reading · Passage 2 · Practice 53 · Bestcom—Considerate Computing",
+    "detail": "IELTS Reading · Passage 2 · Practice 53 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=43ecbc0e95349ed9"
+  },
+  {
+    "id": "download-material:reading-passage-2:0969ad5a98643763",
+    "type": "download-material",
+    "ordinal": 54,
+    "label": "IELTS Reading · Passage 2 · Practice 54 · The Study of Chimpanzee Culture",
+    "detail": "IELTS Reading · Passage 2 · Practice 54 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0969ad5a98643763"
+  },
+  {
+    "id": "download-material:reading-passage-2:c95236995edd2601",
+    "type": "download-material",
+    "ordinal": 56,
+    "label": "IELTS Reading · Passage 2 · Practice 56 · How are deserts formed?",
+    "detail": "IELTS Reading · Passage 2 · Practice 56 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c95236995edd2601"
+  },
+  {
+    "id": "download-material:reading-passage-2:6edf666c83e21386",
+    "type": "download-material",
+    "ordinal": 57,
+    "label": "IELTS Reading · Passage 2 · Practice 57 · The automobile’s history",
+    "detail": "IELTS Reading · Passage 2 · Practice 57 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6edf666c83e21386"
+  },
+  {
+    "id": "download-material:reading-passage-2:097df0f78c6001cd",
+    "type": "download-material",
+    "ordinal": 58,
+    "label": "IELTS Reading · Passage 2 · Practice 58 · Ancient People in Sahara",
+    "detail": "IELTS Reading · Passage 2 · Practice 58 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=097df0f78c6001cd"
+  },
+  {
+    "id": "download-material:reading-passage-2:ea2b6835f19e720e",
+    "type": "download-material",
+    "ordinal": 59,
+    "label": "IELTS Reading · Passage 2 · Practice 59 · The intense rate of change in the world",
+    "detail": "IELTS Reading · Passage 2 · Practice 59 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=ea2b6835f19e720e"
+  },
+  {
+    "id": "download-material:reading-passage-2:0b07cfe7b813d3cd",
+    "type": "download-material",
+    "ordinal": 60,
+    "label": "IELTS Reading · Passage 2 · Practice 60 · Park the Car Permanently",
+    "detail": "IELTS Reading · Passage 2 · Practice 60 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0b07cfe7b813d3cd"
+  },
+  {
+    "id": "download-material:reading-passage-2:adb5fd00ec8187cd",
+    "type": "download-material",
+    "ordinal": 61,
+    "label": "IELTS Reading · Passage 2 · Practice 61 · Patients Are a Virtue",
+    "detail": "IELTS Reading · Passage 2 · Practice 61 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=adb5fd00ec8187cd"
+  },
+  {
+    "id": "download-material:reading-passage-2:9a5ddab21571c08f",
+    "type": "download-material",
+    "ordinal": 62,
+    "label": "IELTS Reading · Passage 2 · Practice 62 · The Brains Business",
+    "detail": "IELTS Reading · Passage 2 · Practice 62 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=9a5ddab21571c08f"
+  },
+  {
+    "id": "download-material:reading-passage-2:8266a04a12bf3f84",
+    "type": "download-material",
+    "ordinal": 63,
+    "label": "IELTS Reading · Passage 2 · Practice 63 · The Fertility Bust",
+    "detail": "IELTS Reading · Passage 2 · Practice 63 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=8266a04a12bf3f84"
+  },
+  {
+    "id": "download-material:reading-passage-2:78769579a233b1f3",
+    "type": "download-material",
+    "ordinal": 64,
+    "label": "IELTS Reading · Passage 2 · Practice 64 · TRICKY SUMS AND PSYCHOLOGY",
+    "detail": "IELTS Reading · Passage 2 · Practice 64 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=78769579a233b1f3"
+  },
+  {
+    "id": "download-material:reading-passage-2:0bf6baf81a3ef8eb",
+    "type": "download-material",
+    "ordinal": 65,
+    "label": "IELTS Reading · Passage 2 · Practice 65 · DRINKING FILTERED WATER",
+    "detail": "IELTS Reading · Passage 2 · Practice 65 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0bf6baf81a3ef8eb"
+  },
+  {
+    "id": "download-material:reading-passage-2:a39cdb8fe895a68d",
+    "type": "download-material",
+    "ordinal": 66,
+    "label": "IELTS Reading · Passage 2 · Practice 66 · Salvador Dali",
+    "detail": "IELTS Reading · Passage 2 · Practice 66 - IETLS 閱讀練習 - Passage 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=a39cdb8fe895a68d"
+  },
+  {
+    "id": "download-material:reading-passage-2:07f5358e047dd48e",
+    "type": "download-material",
+    "ordinal": 67,
+    "label": "IELTS Reading · Passage 2 · Practice 67 · Physiology and Criminality",
+    "detail": "IELTS Reading · Passage 2 · Practice 67 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=07f5358e047dd48e"
+  },
+  {
+    "id": "download-material:reading-passage-2:f6448f1222dc2e0a",
+    "type": "download-material",
+    "ordinal": 68,
+    "label": "IELTS Reading · Passage 2 · Practice 68 · The Scarlet Pimpernel of the Vatican",
+    "detail": "IELTS Reading · Passage 2 · Practice 68 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=f6448f1222dc2e0a"
+  },
+  {
+    "id": "download-material:reading-passage-2:fa214ab8b68d3a47",
+    "type": "download-material",
+    "ordinal": 69,
+    "label": "IELTS Reading · Passage 2 · Practice 69 · The race to make spider silk",
+    "detail": "IELTS Reading · Passage 2 · Practice 69 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=fa214ab8b68d3a47"
+  },
+  {
+    "id": "download-material:reading-passage-2:d84719bebb14a6ac",
+    "type": "download-material",
+    "ordinal": 70,
+    "label": "IELTS Reading · Passage 2 · Practice 70 · Did tea and beer bring about industrialisation?",
+    "detail": "IELTS Reading · Passage 2 · Practice 70 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d84719bebb14a6ac"
+  },
+  {
+    "id": "download-material:reading-passage-2:d2b06e4b0c4f6562",
+    "type": "download-material",
+    "ordinal": 71,
+    "label": "IELTS Reading · Passage 2 · Practice 71 · Homeopathy",
+    "detail": "IELTS Reading · Passage 2 · Practice 71 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d2b06e4b0c4f6562"
+  },
+  {
+    "id": "download-material:reading-passage-2:becf11d84ae81eeb",
+    "type": "download-material",
+    "ordinal": 72,
+    "label": "IELTS Reading · Passage 2 · Practice 72 · Just relax …",
+    "detail": "IELTS Reading · Passage 2 · Practice 72 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=becf11d84ae81eeb"
+  },
+  {
+    "id": "download-material:reading-passage-2:ae85a7a7b55e82f4",
+    "type": "download-material",
+    "ordinal": 73,
+    "label": "IELTS Reading · Passage 2 · Practice 73 · Crop circles",
+    "detail": "IELTS Reading · Passage 2 · Practice 73 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=ae85a7a7b55e82f4"
+  },
+  {
+    "id": "download-material:reading-passage-2:36807262cbc38ead",
+    "type": "download-material",
+    "ordinal": 74,
+    "label": "IELTS Reading · Passage 2 · Practice 74 · The cells from hell",
+    "detail": "IELTS Reading · Passage 2 · Practice 74 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=36807262cbc38ead"
+  },
+  {
+    "id": "download-material:reading-passage-2:0df16d6978b9d38b",
+    "type": "download-material",
+    "ordinal": 75,
+    "label": "IELTS Reading · Passage 2 · Practice 75 · One Who Hopes",
+    "detail": "IELTS Reading · Passage 2 · Practice 75 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0df16d6978b9d38b"
+  },
+  {
+    "id": "download-material:reading-passage-2:fe0f3f007f3d9244",
+    "type": "download-material",
+    "ordinal": 76,
+    "label": "IELTS Reading · Passage 2 · Practice 76 · Special Olympics Conditions of Participation",
+    "detail": "IELTS Reading · Passage 2 · Practice 76 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=fe0f3f007f3d9244"
+  },
+  {
+    "id": "download-material:reading-passage-2:535e79066ad68fa4",
+    "type": "download-material",
+    "ordinal": 77,
+    "label": "IELTS Reading · Passage 2 · Practice 77 · Colour Blindness",
+    "detail": "IELTS Reading · Passage 2 · Practice 77 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=535e79066ad68fa4"
+  },
+  {
+    "id": "download-material:reading-passage-2:f2677d7d09171a66",
+    "type": "download-material",
+    "ordinal": 78,
+    "label": "IELTS Reading · Passage 2 · Practice 78 · Therapeutic Jurisprudence:An Overview",
+    "detail": "IELTS Reading · Passage 2 · Practice 78 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=f2677d7d09171a66"
+  },
+  {
+    "id": "download-material:reading-passage-2:3503aefaaa086c67",
+    "type": "download-material",
+    "ordinal": 79,
+    "label": "IELTS Reading · Passage 2 · Practice 79 · DISTANCE LEARNING",
+    "detail": "IELTS Reading · Passage 2 · Practice 79 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=3503aefaaa086c67"
+  },
+  {
+    "id": "download-material:reading-passage-2:b96e500fee7c37b1",
+    "type": "download-material",
+    "ordinal": 80,
+    "label": "IELTS Reading · Passage 2 · Practice 80 · Arctic Survivors",
+    "detail": "IELTS Reading · Passage 2 · Practice 80 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b96e500fee7c37b1"
+  },
+  {
+    "id": "download-material:reading-passage-2:0b57315e7d6dbf6c",
+    "type": "download-material",
+    "ordinal": 81,
+    "label": "IELTS Reading · Passage 2 · Practice 81 · Surfs Up",
+    "detail": "IELTS Reading · Passage 2 · Practice 81 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0b57315e7d6dbf6c"
+  },
+  {
+    "id": "download-material:reading-passage-2:882e45c1650a756b",
+    "type": "download-material",
+    "ordinal": 82,
+    "label": "IELTS Reading · Passage 2 · Practice 82 · UNCOVERING THE TRUTH ABOUT GERMANY’S AUTOBAHNS",
+    "detail": "IELTS Reading · Passage 2 · Practice 82 - IETLS 閱讀練習 - Passage 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=882e45c1650a756b"
+  },
+  {
+    "id": "download-material:reading-passage-2:338f8f066a198eb9",
+    "type": "download-material",
+    "ordinal": 83,
+    "label": "IELTS Reading · Passage 2 · Practice 83 · Subtitling: Some Strategies",
+    "detail": "IELTS Reading · Passage 2 · Practice 83 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=338f8f066a198eb9"
+  },
+  {
+    "id": "download-material:reading-passage-2:c5b3e814a6ced885",
+    "type": "download-material",
+    "ordinal": 84,
+    "label": "IELTS Reading · Passage 2 · Practice 84 · Unsung and Lowly Creatures",
+    "detail": "IELTS Reading · Passage 2 · Practice 84 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c5b3e814a6ced885"
+  },
+  {
+    "id": "download-material:reading-passage-2:c30efa9e738db3ca",
+    "type": "download-material",
+    "ordinal": 85,
+    "label": "IELTS Reading · Passage 2 · Practice 85 · Single-Gender Education: A Case Made?",
+    "detail": "IELTS Reading · Passage 2 · Practice 85 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c30efa9e738db3ca"
+  },
+  {
+    "id": "download-material:reading-passage-2:b253b50df33479c0",
+    "type": "download-material",
+    "ordinal": 86,
+    "label": "IELTS Reading · Passage 2 · Practice 86 · The Most Dangerous Insect in the World",
+    "detail": "IELTS Reading · Passage 2 · Practice 86 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b253b50df33479c0"
+  },
+  {
+    "id": "download-material:reading-passage-2:030813f30b2486d6",
+    "type": "download-material",
+    "ordinal": 87,
+    "label": "IELTS Reading · Passage 2 · Practice 87 · Esperanto",
+    "detail": "IELTS Reading · Passage 2 · Practice 87 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=030813f30b2486d6"
+  },
+  {
+    "id": "download-material:reading-passage-2:a846868b7d57d1d7",
+    "type": "download-material",
+    "ordinal": 88,
+    "label": "IELTS Reading · Passage 2 · Practice 88 · A Meat-Eater’s Counter",
+    "detail": "IELTS Reading · Passage 2 · Practice 88 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=a846868b7d57d1d7"
+  },
+  {
+    "id": "download-material:reading-passage-2:5464366a51bd7baf",
+    "type": "download-material",
+    "ordinal": 89,
+    "label": "IELTS Reading · Passage 2 · Practice 89 · AC or DC: The War of Currents",
+    "detail": "IELTS Reading · Passage 2 · Practice 89 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=5464366a51bd7baf"
+  },
+  {
+    "id": "download-material:reading-passage-2:59b2921c4d3a8778",
+    "type": "download-material",
+    "ordinal": 90,
+    "label": "IELTS Reading · Passage 2 · Practice 90 · Sampling Bias",
+    "detail": "IELTS Reading · Passage 2 · Practice 90 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=59b2921c4d3a8778"
+  },
+  {
+    "id": "download-material:reading-passage-2:b2cb4740ee88ba27",
+    "type": "download-material",
+    "ordinal": 91,
+    "label": "IELTS Reading · Passage 2 · Practice 91 · Shakespeare: The Authorship Question",
+    "detail": "IELTS Reading · Passage 2 · Practice 91 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b2cb4740ee88ba27"
+  },
+  {
+    "id": "download-material:reading-passage-2:698a129e07888ad6",
+    "type": "download-material",
+    "ordinal": 92,
+    "label": "IELTS Reading · Passage 2 · Practice 92 · Britain’s canals – the solution to overcrowded roads?",
+    "detail": "IELTS Reading · Passage 2 · Practice 92 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=698a129e07888ad6"
+  },
+  {
+    "id": "download-material:reading-passage-2:6dc364761f8addbf",
+    "type": "download-material",
+    "ordinal": 93,
+    "label": "IELTS Reading · Passage 2 · Practice 93 · British Universities Seek Quantity and Quality",
+    "detail": "IELTS Reading · Passage 2 · Practice 93 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6dc364761f8addbf"
+  },
+  {
+    "id": "download-material:reading-passage-2:cbb3dab639359d3e",
+    "type": "download-material",
+    "ordinal": 94,
+    "label": "IELTS Reading · Passage 2 · Practice 94 · Clicks, Bricks, and Bargains",
+    "detail": "IELTS Reading · Passage 2 · Practice 94 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=cbb3dab639359d3e"
+  },
+  {
+    "id": "download-material:reading-passage-2:214a5779e479df74",
+    "type": "download-material",
+    "ordinal": 95,
+    "label": "IELTS Reading · Passage 2 · Practice 95 · Looking for Life on the Ocean Wave",
+    "detail": "IELTS Reading · Passage 2 · Practice 95 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=214a5779e479df74"
+  },
+  {
+    "id": "download-material:reading-passage-2:7433c6da6d5bd625",
+    "type": "download-material",
+    "ordinal": 96,
+    "label": "IELTS Reading · Passage 2 · Practice 96 · No Growing Pains for Daniel Radcliffe",
+    "detail": "IELTS Reading · Passage 2 · Practice 96 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=7433c6da6d5bd625"
+  },
+  {
+    "id": "download-material:reading-passage-2:32eab0341ffa50e1",
+    "type": "download-material",
+    "ordinal": 97,
+    "label": "IELTS Reading · Passage 2 · Practice 97 · Childhood Obesity",
+    "detail": "IELTS Reading · Passage 2 · Practice 97 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=32eab0341ffa50e1"
+  },
+  {
+    "id": "download-material:reading-passage-2:9773b965754993bc",
+    "type": "download-material",
+    "ordinal": 98,
+    "label": "IELTS Reading · Passage 2 · Practice 98 · Fruit that Falls Far from the Tree",
+    "detail": "IELTS Reading · Passage 2 · Practice 98 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=9773b965754993bc"
+  },
+  {
+    "id": "download-material:reading-passage-2:b14497e735f3497e",
+    "type": "download-material",
+    "ordinal": 99,
+    "label": "IELTS Reading · Passage 2 · Practice 99 · READING THE SCREEN",
+    "detail": "IELTS Reading · Passage 2 · Practice 99 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b14497e735f3497e"
+  },
+  {
+    "id": "download-material:reading-passage-2:c75142fbd9147bdc",
+    "type": "download-material",
+    "ordinal": 100,
+    "label": "IELTS Reading · Passage 2 · Practice 100 · Wheel of Fortune",
+    "detail": "IELTS Reading · Passage 2 · Practice 100 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c75142fbd9147bdc"
+  },
+  {
+    "id": "download-material:reading-passage-2:345f5213e9591ad3",
+    "type": "download-material",
+    "ordinal": 101,
+    "label": "IELTS Reading · Passage 2 · Practice 101 · ROBOTS",
+    "detail": "IELTS Reading · Passage 2 · Practice 101 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=345f5213e9591ad3"
+  },
+  {
+    "id": "download-material:reading-passage-2:7fbfe78d09ea53c2",
+    "type": "download-material",
+    "ordinal": 102,
+    "label": "IELTS Reading · Passage 2 · Practice 102 · IT’S ECO-LOGICAL",
+    "detail": "IELTS Reading · Passage 2 · Practice 102 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=7fbfe78d09ea53c2"
+  },
+  {
+    "id": "download-material:reading-passage-2:61007dd32c9dc2d7",
+    "type": "download-material",
+    "ordinal": 103,
+    "label": "IELTS Reading · Passage 2 · Practice 103 · Fun for the Masses",
+    "detail": "IELTS Reading · Passage 2 · Practice 103 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=61007dd32c9dc2d7"
+  },
+  {
+    "id": "download-material:reading-passage-2:12f10e6f55587bcc",
+    "type": "download-material",
+    "ordinal": 104,
+    "label": "IELTS Reading · Passage 2 · Practice 104 · Why are so few tigers man-eaters?",
+    "detail": "IELTS Reading · Passage 2 · Practice 104 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=12f10e6f55587bcc"
+  },
+  {
+    "id": "download-material:reading-passage-2:02cba0798d571685",
+    "type": "download-material",
+    "ordinal": 105,
+    "label": "IELTS Reading · Passage 2 · Practice 105 · film",
+    "detail": "IELTS Reading · Passage 2 · Practice 105 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=02cba0798d571685"
+  },
+  {
+    "id": "download-material:reading-passage-2:1e6604d87325b895",
+    "type": "download-material",
+    "ordinal": 106,
+    "label": "IELTS Reading · Passage 2 · Practice 106 · Worldly Wealth",
+    "detail": "IELTS Reading · Passage 2 · Practice 106 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=1e6604d87325b895"
+  },
+  {
+    "id": "download-material:reading-passage-2:1b365f8ba0944fae",
+    "type": "download-material",
+    "ordinal": 107,
+    "label": "IELTS Reading · Passage 2 · Practice 107 · NATURAL CHOICE Coffee and chocolate",
+    "detail": "IELTS Reading · Passage 2 · Practice 107 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=1b365f8ba0944fae"
+  },
+  {
+    "id": "download-material:reading-passage-2:4c0f4a308a3e48bd",
+    "type": "download-material",
+    "ordinal": 108,
+    "label": "IELTS Reading · Passage 2 · Practice 108 · Inside the mind of the consumer",
+    "detail": "IELTS Reading · Passage 2 · Practice 108 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=4c0f4a308a3e48bd"
+  },
+  {
+    "id": "download-material:reading-passage-2:b7dd7fc1c83f44f3",
+    "type": "download-material",
+    "ordinal": 109,
+    "label": "IELTS Reading · Passage 2 · Practice 109 · THE WILD SIDE OF TOWN",
+    "detail": "IELTS Reading · Passage 2 · Practice 109 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b7dd7fc1c83f44f3"
+  },
+  {
+    "id": "download-material:reading-passage-2:2219f495464160d1",
+    "type": "download-material",
+    "ordinal": 110,
+    "label": "IELTS Reading · Passage 2 · Practice 110 · Change in business organisations",
+    "detail": "IELTS Reading · Passage 2 · Practice 110 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2219f495464160d1"
+  },
+  {
+    "id": "download-material:reading-passage-2:b183422fc9aa412b",
+    "type": "download-material",
+    "ordinal": 111,
+    "label": "IELTS Reading · Passage 2 · Practice 111 · An assessment of micro-wind turbines",
+    "detail": "IELTS Reading · Passage 2 · Practice 111 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b183422fc9aa412b"
+  },
+  {
+    "id": "download-material:reading-passage-2:6fc122ad25bad3e3",
+    "type": "download-material",
+    "ordinal": 112,
+    "label": "IELTS Reading · Passage 2 · Practice 112 · Measures to combat infectious disease in tsarist Russia",
+    "detail": "IELTS Reading · Passage 2 · Practice 112 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6fc122ad25bad3e3"
+  },
+  {
+    "id": "download-material:reading-passage-2:5d608646da965eb4",
+    "type": "download-material",
+    "ordinal": 113,
+    "label": "IELTS Reading · Passage 2 · Practice 113 · Early occupations around the river Thames",
+    "detail": "IELTS Reading · Passage 2 · Practice 113 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=5d608646da965eb4"
+  },
+  {
+    "id": "download-material:reading-passage-2:5d56700256bf9c5e",
+    "type": "download-material",
+    "ordinal": 114,
+    "label": "IELTS Reading · Passage 2 · Practice 114 · Acquiring the principles of mathematics and science",
+    "detail": "IELTS Reading · Passage 2 · Practice 114 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=5d56700256bf9c5e"
+  },
+  {
+    "id": "download-material:reading-passage-2:1a7b455cc5e14346",
+    "type": "download-material",
+    "ordinal": 115,
+    "label": "IELTS Reading · Passage 2 · Practice 115 · Sustainable Growth at Didcot: The Outline of a Report by South Oxfordshire District Council",
+    "detail": "IELTS Reading · Passage 2 · Practice 115 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=1a7b455cc5e14346"
+  },
+  {
+    "id": "download-material:reading-passage-2:a9800aea95f96e3d",
+    "type": "download-material",
+    "ordinal": 116,
+    "label": "IELTS Reading · Passage 2 · Practice 116 · Neanderthals and modern humans",
+    "detail": "IELTS Reading · Passage 2 · Practice 116 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=a9800aea95f96e3d"
+  },
+  {
+    "id": "download-material:reading-passage-2:c879b0a370cfebf1",
+    "type": "download-material",
+    "ordinal": 117,
+    "label": "IELTS Reading · Passage 2 · Practice 117 · The Dinosaurs Footprints and Extinction",
+    "detail": "IELTS Reading · Passage 2 · Practice 117 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c879b0a370cfebf1"
+  },
+  {
+    "id": "download-material:reading-passage-2:2b18a9f81bf0c0b9",
+    "type": "download-material",
+    "ordinal": 118,
+    "label": "IELTS Reading · Passage 2 · Practice 118 · EFFORT AND SCIENCE TO WIN",
+    "detail": "IELTS Reading · Passage 2 · Practice 118 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2b18a9f81bf0c0b9"
+  },
+  {
+    "id": "download-material:reading-passage-2:31fd8f85f6109f49",
+    "type": "download-material",
+    "ordinal": 119,
+    "label": "IELTS Reading · Passage 2 · Practice 119 · CAN WE BELIEVE OUR OWN EYES?",
+    "detail": "IELTS Reading · Passage 2 · Practice 119 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=31fd8f85f6109f49"
+  },
+  {
+    "id": "download-material:reading-passage-2:69b6fb0aa3ebedef",
+    "type": "download-material",
+    "ordinal": 120,
+    "label": "IELTS Reading · Passage 2 · Practice 120 · Psychology of new product adoption",
+    "detail": "IELTS Reading · Passage 2 · Practice 120 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=69b6fb0aa3ebedef"
+  },
+  {
+    "id": "download-material:reading-passage-2:9dbb8e2197694b8c",
+    "type": "download-material",
+    "ordinal": 121,
+    "label": "IELTS Reading · Passage 2 · Practice 121 · A decibel Hell (The Effects of Living in a Noisy World)",
+    "detail": "IELTS Reading · Passage 2 · Practice 121 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=9dbb8e2197694b8c"
+  },
+  {
+    "id": "download-material:reading-passage-2:63f701f0f97dcf8b",
+    "type": "download-material",
+    "ordinal": 122,
+    "label": "IELTS Reading · Passage 2 · Practice 122 · Life code: unlocked!",
+    "detail": "IELTS Reading · Passage 2 · Practice 122 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=63f701f0f97dcf8b"
+  },
+  {
+    "id": "download-material:reading-passage-2:3a56a47a5429eff8",
+    "type": "download-material",
+    "ordinal": 123,
+    "label": "IELTS Reading · Passage 2 · Practice 123 · Flight from reality",
+    "detail": "IELTS Reading · Passage 2 · Practice 123 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=3a56a47a5429eff8"
+  },
+  {
+    "id": "download-material:reading-passage-2:c2bc7c0fae57642a",
+    "type": "download-material",
+    "ordinal": 124,
+    "label": "IELTS Reading · Passage 2 · Practice 124 · Tool for ancient writing",
+    "detail": "IELTS Reading · Passage 2 · Practice 124 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c2bc7c0fae57642a"
+  },
+  {
+    "id": "download-material:reading-passage-2:6ec98d8be7c5291c",
+    "type": "download-material",
+    "ordinal": 125,
+    "label": "IELTS Reading · Passage 2 · Practice 125 · Koalas",
+    "detail": "IELTS Reading · Passage 2 · Practice 125 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6ec98d8be7c5291c"
+  },
+  {
+    "id": "download-material:reading-passage-2:7e4d804712e077ed",
+    "type": "download-material",
+    "ordinal": 126,
+    "label": "IELTS Reading · Passage 2 · Practice 126 · Hunting Perfume in Madagascar",
+    "detail": "IELTS Reading · Passage 2 · Practice 126 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=7e4d804712e077ed"
+  },
+  {
+    "id": "download-material:reading-passage-2:e98ee8497e62c564",
+    "type": "download-material",
+    "ordinal": 127,
+    "label": "IELTS Reading · Passage 2 · Practice 127 · New ways of teaching history",
+    "detail": "IELTS Reading · Passage 2 · Practice 127 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=e98ee8497e62c564"
+  },
+  {
+    "id": "download-material:reading-passage-2:366b164c87f0fb5f",
+    "type": "download-material",
+    "ordinal": 128,
+    "label": "IELTS Reading · Passage 2 · Practice 128 · Lighting up the lies",
+    "detail": "IELTS Reading · Passage 2 · Practice 128 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=366b164c87f0fb5f"
+  },
+  {
+    "id": "download-material:reading-passage-2:269d3fec495d3b49",
+    "type": "download-material",
+    "ordinal": 129,
+    "label": "IELTS Reading · Passage 2 · Practice 129 · New Agriculture in Oregon, US",
+    "detail": "IELTS Reading · Passage 2 · Practice 129 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=269d3fec495d3b49"
+  },
+  {
+    "id": "download-material:reading-passage-2:43a03cf9fa737a4c",
+    "type": "download-material",
+    "ordinal": 130,
+    "label": "IELTS Reading · Passage 2 · Practice 130 · The Cacao: A Sweet history",
+    "detail": "IELTS Reading · Passage 2 · Practice 130 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=43a03cf9fa737a4c"
+  },
+  {
+    "id": "download-material:reading-passage-2:533cb710e1c81b70",
+    "type": "download-material",
+    "ordinal": 131,
+    "label": "IELTS Reading · Passage 2 · Practice 131 · Conflicting climatic phenomena co-existing on the Mars",
+    "detail": "IELTS Reading · Passage 2 · Practice 131 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=533cb710e1c81b70"
+  },
+  {
+    "id": "download-material:reading-passage-2:6de42671cb011c0f",
+    "type": "download-material",
+    "ordinal": 132,
+    "label": "IELTS Reading · Passage 2 · Practice 132 · How war debris could cause cancer",
+    "detail": "IELTS Reading · Passage 2 · Practice 132 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6de42671cb011c0f"
+  },
+  {
+    "id": "download-material:reading-passage-2:6577c63bf9be72dd",
+    "type": "download-material",
+    "ordinal": 133,
+    "label": "IELTS Reading · Passage 2 · Practice 133 · Museum Blockbuster",
+    "detail": "IELTS Reading · Passage 2 · Practice 133 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=6577c63bf9be72dd"
+  },
+  {
+    "id": "download-material:reading-passage-2:5c995bd58f44319d",
+    "type": "download-material",
+    "ordinal": 134,
+    "label": "IELTS Reading · Passage 2 · Practice 134 · TV Addiction",
+    "detail": "IELTS Reading · Passage 2 · Practice 134 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=5c995bd58f44319d"
+  },
+  {
+    "id": "download-material:reading-passage-2:5bd1ab7624a117db",
+    "type": "download-material",
+    "ordinal": 135,
+    "label": "IELTS Reading · Passage 2 · Practice 135 · The sense of flavour",
+    "detail": "IELTS Reading · Passage 2 · Practice 135 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=5bd1ab7624a117db"
+  },
+  {
+    "id": "download-material:reading-passage-2:b892fd7fe78a43d8",
+    "type": "download-material",
+    "ordinal": 136,
+    "label": "IELTS Reading · Passage 2 · Practice 136 · Decision making and Happiness",
+    "detail": "IELTS Reading · Passage 2 · Practice 136 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=b892fd7fe78a43d8"
+  },
+  {
+    "id": "download-material:reading-passage-2:c08f944aaa8a6638",
+    "type": "download-material",
+    "ordinal": 137,
+    "label": "IELTS Reading · Passage 2 · Practice 137 · Paper or Computer?",
+    "detail": "IELTS Reading · Passage 2 · Practice 137 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c08f944aaa8a6638"
+  },
+  {
+    "id": "download-material:reading-passage-2:25b9e58f647293c5",
+    "type": "download-material",
+    "ordinal": 138,
+    "label": "IELTS Reading · Passage 2 · Practice 138 · Have teenagers always existed",
+    "detail": "IELTS Reading · Passage 2 · Practice 138 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=25b9e58f647293c5"
+  },
+  {
+    "id": "download-material:reading-passage-2:89b4888863258ea4",
+    "type": "download-material",
+    "ordinal": 139,
+    "label": "IELTS Reading · Passage 2 · Practice 139 · Brunel: ‘The Practical Prophet’",
+    "detail": "IELTS Reading · Passage 2 · Practice 139 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=89b4888863258ea4"
+  },
+  {
+    "id": "download-material:reading-passage-2:7f42b3b925219dc9",
+    "type": "download-material",
+    "ordinal": 140,
+    "label": "IELTS Reading · Passage 2 · Practice 140 · Tattoo on Tikopia",
+    "detail": "IELTS Reading · Passage 2 · Practice 140 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=7f42b3b925219dc9"
+  },
+  {
+    "id": "download-material:reading-passage-2:d187d607eeb3c02a",
+    "type": "download-material",
+    "ordinal": 141,
+    "label": "IELTS Reading · Passage 2 · Practice 141 · Language Strategy in Multinational Company",
+    "detail": "IELTS Reading · Passage 2 · Practice 141 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d187d607eeb3c02a"
+  },
+  {
+    "id": "download-material:reading-passage-2:d47568ad42feb125",
+    "type": "download-material",
+    "ordinal": 142,
+    "label": "IELTS Reading · Passage 2 · Practice 142 · Global warming: Prevent poles from melting",
+    "detail": "IELTS Reading · Passage 2 · Practice 142 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d47568ad42feb125"
+  },
+  {
+    "id": "download-material:reading-passage-2:2fc98f01eb0fa5fc",
+    "type": "download-material",
+    "ordinal": 143,
+    "label": "IELTS Reading · Passage 2 · Practice 143 · We have Star performers!",
+    "detail": "IELTS Reading · Passage 2 · Practice 143 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2fc98f01eb0fa5fc"
+  },
+  {
+    "id": "download-material:reading-passage-2:7a89d4b1955f2dcc",
+    "type": "download-material",
+    "ordinal": 144,
+    "label": "IELTS Reading · Passage 2 · Practice 144 · Twin Study: Two of a kind",
+    "detail": "IELTS Reading · Passage 2 · Practice 144 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=7a89d4b1955f2dcc"
+  },
+  {
+    "id": "download-material:reading-passage-2:114d6146dc235d2f",
+    "type": "download-material",
+    "ordinal": 145,
+    "label": "IELTS Reading · Passage 2 · Practice 145 · Food for thought",
+    "detail": "IELTS Reading · Passage 2 · Practice 145 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=114d6146dc235d2f"
+  },
+  {
+    "id": "download-material:reading-passage-2:d9366c1095ff5c51",
+    "type": "download-material",
+    "ordinal": 146,
+    "label": "IELTS Reading · Passage 2 · Practice 146 · When the Tulip Bubble Burst",
+    "detail": "IELTS Reading · Passage 2 · Practice 146 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d9366c1095ff5c51"
+  },
+  {
+    "id": "download-material:reading-passage-2:9b878133c6fe1168",
+    "type": "download-material",
+    "ordinal": 147,
+    "label": "IELTS Reading · Passage 2 · Practice 147 · Video Games’ Unexpected Benefit to Human Brain",
+    "detail": "IELTS Reading · Passage 2 · Practice 147 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=9b878133c6fe1168"
+  },
+  {
+    "id": "download-material:reading-passage-2:bc02dd3914bdbdcd",
+    "type": "download-material",
+    "ordinal": 148,
+    "label": "IELTS Reading · Passage 2 · Practice 148 · Longaeva: Ancient Bristlecone Pine",
+    "detail": "IELTS Reading · Passage 2 · Practice 148 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=bc02dd3914bdbdcd"
+  },
+  {
+    "id": "download-material:reading-passage-2:d1011046c440d317",
+    "type": "download-material",
+    "ordinal": 149,
+    "label": "IELTS Reading · Passage 2 · Practice 149 · Western Immigration of Canada",
+    "detail": "IELTS Reading · Passage 2 · Practice 149 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=d1011046c440d317"
+  },
+  {
+    "id": "download-material:reading-passage-2:dcf6a3bd31cc44d9",
+    "type": "download-material",
+    "ordinal": 150,
+    "label": "IELTS Reading · Passage 2 · Practice 150 · Computer Provides More Questions Than Answers",
+    "detail": "IELTS Reading · Passage 2 · Practice 150 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=dcf6a3bd31cc44d9"
+  },
+  {
+    "id": "download-material:reading-passage-2:8cfcbccd397dcdff",
+    "type": "download-material",
+    "ordinal": 151,
+    "label": "IELTS Reading · Passage 2 · Practice 151 · Health in the Wild",
+    "detail": "IELTS Reading · Passage 2 · Practice 151 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=8cfcbccd397dcdff"
+  },
+  {
+    "id": "download-material:reading-passage-2:9a3173d86dda98c4",
+    "type": "download-material",
+    "ordinal": 152,
+    "label": "IELTS Reading · Passage 2 · Practice 152 · Ancient Storytelling",
+    "detail": "IELTS Reading · Passage 2 · Practice 152 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=9a3173d86dda98c4"
+  },
+  {
+    "id": "download-material:reading-passage-2:c32b99ca33762506",
+    "type": "download-material",
+    "ordinal": 153,
+    "label": "IELTS Reading · Passage 2 · Practice 153 · British Architecture",
+    "detail": "IELTS Reading · Passage 2 · Practice 153 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c32b99ca33762506"
+  },
+  {
+    "id": "download-material:reading-passage-2:06180de02d98766a",
+    "type": "download-material",
+    "ordinal": 154,
+    "label": "IELTS Reading · Passage 2 · Practice 154 · Blue-footed Boobies",
+    "detail": "IELTS Reading · Passage 2 · Practice 154 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=06180de02d98766a"
+  },
+  {
+    "id": "download-material:reading-passage-2:397d8ef9c1dd3d92",
+    "type": "download-material",
+    "ordinal": 155,
+    "label": "IELTS Reading · Passage 2 · Practice 155 · Seed Hunting",
+    "detail": "IELTS Reading · Passage 2 · Practice 155 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=397d8ef9c1dd3d92"
+  },
+  {
+    "id": "download-material:reading-passage-2:46e48566acc82b22",
+    "type": "download-material",
+    "ordinal": 156,
+    "label": "IELTS Reading · Passage 2 · Practice 156 · Aqua Product: New zealand ‘s Algae Biodiesel",
+    "detail": "IELTS Reading · Passage 2 · Practice 156 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=46e48566acc82b22"
+  },
+  {
+    "id": "download-material:reading-passage-2:2f329182548cb230",
+    "type": "download-material",
+    "ordinal": 157,
+    "label": "IELTS Reading · Passage 2 · Practice 157 · Natural pesticide in India",
+    "detail": "IELTS Reading · Passage 2 · Practice 157 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2f329182548cb230"
+  },
+  {
+    "id": "download-material:reading-passage-2:2c8b0b3516a6976a",
+    "type": "download-material",
+    "ordinal": 158,
+    "label": "IELTS Reading · Passage 2 · Practice 158 · Travel Accounts",
+    "detail": "IELTS Reading · Passage 2 · Practice 158 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2c8b0b3516a6976a"
+  },
+  {
+    "id": "download-material:reading-passage-2:705ce118b4dbefbc",
+    "type": "download-material",
+    "ordinal": 159,
+    "label": "IELTS Reading · Passage 2 · Practice 159 · Development of Public management theory",
+    "detail": "IELTS Reading · Passage 2 · Practice 159 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=705ce118b4dbefbc"
+  },
+  {
+    "id": "download-material:reading-passage-2:eca12b1fd6cad22f",
+    "type": "download-material",
+    "ordinal": 160,
+    "label": "IELTS Reading · Passage 2 · Practice 160 · Coral reefs",
+    "detail": "IELTS Reading · Passage 2 · Practice 160 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=eca12b1fd6cad22f"
+  },
+  {
+    "id": "download-material:reading-passage-2:84ab17d2bb3ce9b0",
+    "type": "download-material",
+    "ordinal": 161,
+    "label": "IELTS Reading · Passage 2 · Practice 161 · Elnino and Seabirds",
+    "detail": "IELTS Reading · Passage 2 · Practice 161 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=84ab17d2bb3ce9b0"
+  },
+  {
+    "id": "download-material:reading-passage-2:46799cae29882816",
+    "type": "download-material",
+    "ordinal": 162,
+    "label": "IELTS Reading · Passage 2 · Practice 162 · IS AID HURTING AFRICA?",
+    "detail": "IELTS Reading · Passage 2 · Practice 162 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=46799cae29882816"
+  },
+  {
+    "id": "download-material:reading-passage-2:87f351e8c6e5312c",
+    "type": "download-material",
+    "ordinal": 163,
+    "label": "IELTS Reading · Passage 2 · Practice 163 · Crisis! freshwater",
+    "detail": "IELTS Reading · Passage 2 · Practice 163 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=87f351e8c6e5312c"
+  },
+  {
+    "id": "download-material:reading-passage-2:014f350896925ce0",
+    "type": "download-material",
+    "ordinal": 164,
+    "label": "IELTS Reading · Passage 2 · Practice 164 · Knowledge in medicine",
+    "detail": "IELTS Reading · Passage 2 · Practice 164 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=014f350896925ce0"
+  },
+  {
+    "id": "download-material:reading-passage-2:3345857fd425a368",
+    "type": "download-material",
+    "ordinal": 165,
+    "label": "IELTS Reading · Passage 2 · Practice 165 · Renewable Energy",
+    "detail": "IELTS Reading · Passage 2 · Practice 165 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=3345857fd425a368"
+  },
+  {
+    "id": "download-material:reading-passage-2:0071d0b505d20425",
+    "type": "download-material",
+    "ordinal": 166,
+    "label": "IELTS Reading · Passage 2 · Practice 166 · How Fair is Fair Trade?",
+    "detail": "IELTS Reading · Passage 2 · Practice 166 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=0071d0b505d20425"
+  },
+  {
+    "id": "download-material:reading-passage-2:4f15d70fe61a54fd",
+    "type": "download-material",
+    "ordinal": 167,
+    "label": "IELTS Reading · Passage 2 · Practice 167 · Warning: Mondays are bad for your heart",
+    "detail": "IELTS Reading · Passage 2 · Practice 167 - IETLS 閱讀練習 - Passage 2.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=4f15d70fe61a54fd"
+  },
+  {
+    "id": "download-material:reading-passage-2:e3befa5de0a93b38",
+    "type": "download-material",
+    "ordinal": 168,
+    "label": "IELTS Reading · Passage 2 · Practice 168 · Ensuring our future food supply",
+    "detail": "IELTS Reading · Passage 2 · Practice 168 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=e3befa5de0a93b38"
+  },
+  {
+    "id": "download-material:reading-passage-2:4d2e208522982a4f",
+    "type": "download-material",
+    "ordinal": 169,
+    "label": "IELTS Reading · Passage 2 · Practice 169 · Australian artist Margaret Preston",
+    "detail": "IELTS Reading · Passage 2 · Practice 169 - IETLS 閱讀練習 - Passage 2.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=4d2e208522982a4f"
+  },
+  {
+    "id": "download-material:reading-passage-2:7ff8d684259a0875",
+    "type": "download-material",
+    "ordinal": 170,
+    "label": "IELTS Reading · Passage 2 · Practice 170 · Australian parrots and their adaptation to habitat change",
+    "detail": "IELTS Reading · Passage 2 · Practice 170 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=7ff8d684259a0875"
+  },
+  {
+    "id": "download-material:reading-passage-2:2c3a105567f75646",
+    "type": "download-material",
+    "ordinal": 171,
+    "label": "IELTS Reading · Passage 2 · Practice 171 · Coffee then and now (History of coffee)",
+    "detail": "IELTS Reading · Passage 2 · Practice 171 - IETLS 閱讀練習 - Passage 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=2c3a105567f75646"
+  },
+  {
+    "id": "download-material:reading-passage-2:c2fb05f368b093dc",
+    "type": "download-material",
+    "ordinal": 172,
+    "label": "IELTS Reading · Passage 2 · Practice 172 · Chinstrap Penguin Population In The Last 50 Years",
+    "detail": "IELTS Reading · Passage 2 · Practice 172 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c2fb05f368b093dc"
+  },
+  {
+    "id": "download-material:reading-passage-2:608c8bd893a83587",
+    "type": "download-material",
+    "ordinal": 173,
+    "label": "IELTS Reading · Passage 2 · Practice 173 · Bovids",
+    "detail": "IELTS Reading · Passage 2 · Practice 173 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=608c8bd893a83587"
+  },
+  {
+    "id": "download-material:reading-passage-2:c27a57f33cc8075a",
+    "type": "download-material",
+    "ordinal": 174,
+    "label": "IELTS Reading · Passage 2 · Practice 174 · Developmental Tasks of Normal Adolescence",
+    "detail": "IELTS Reading · Passage 2 · Practice 174 - IETLS 閱讀練習 - Passage 2.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-2&item=c27a57f33cc8075a"
+  },
+  {
+    "id": "download-material:reading-passage-3:8b9ac05251e11ea5",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Reading · Passage 3 · Practice 2 · Are We Managing to Destroy Science?",
+    "detail": "IELTS Reading · Passage 3 · Practice 2 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8b9ac05251e11ea5"
+  },
+  {
+    "id": "download-material:reading-passage-3:7e0e3d10d4311814",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Reading · Passage 3 · Practice 3 · What’s in Blood?",
+    "detail": "IELTS Reading · Passage 3 · Practice 3 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7e0e3d10d4311814"
+  },
+  {
+    "id": "download-material:reading-passage-3:9c7a1a6b8afd1bab",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Reading · Passage 3 · Practice 4 · Criminal Rehabilitation: A Difficult Issue",
+    "detail": "IELTS Reading · Passage 3 · Practice 4 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9c7a1a6b8afd1bab"
+  },
+  {
+    "id": "download-material:reading-passage-3:8e380eacfc549932",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Reading · Passage 3 · Practice 5 · Destination Mars",
+    "detail": "IELTS Reading · Passage 3 · Practice 5 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8e380eacfc549932"
+  },
+  {
+    "id": "download-material:reading-passage-3:11f2b3b4328db59f",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Reading · Passage 3 · Practice 6 · THE SEARCH FOR FRESH WATER",
+    "detail": "IELTS Reading · Passage 3 · Practice 6 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=11f2b3b4328db59f"
+  },
+  {
+    "id": "download-material:reading-passage-3:8a327e04f647d62d",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Reading · Passage 3 · Practice 7 · The Australian Visa Application Process Explained",
+    "detail": "IELTS Reading · Passage 3 · Practice 7 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8a327e04f647d62d"
+  },
+  {
+    "id": "download-material:reading-passage-3:6c0570c8a5dc2aa9",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Reading · Passage 3 · Practice 8 · TEAM BUILDING",
+    "detail": "IELTS Reading · Passage 3 · Practice 8 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=6c0570c8a5dc2aa9"
+  },
+  {
+    "id": "download-material:reading-passage-3:7f18d2cec4ce5ea4",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Reading · Passage 3 · Practice 9 · PROBLEM SOLVING AND DECISION MAKING",
+    "detail": "IELTS Reading · Passage 3 · Practice 9 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7f18d2cec4ce5ea4"
+  },
+  {
+    "id": "download-material:reading-passage-3:8f4168aef7e4db3c",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Reading · Passage 3 · Practice 14 · CLINICAL TRIALS",
+    "detail": "IELTS Reading · Passage 3 · Practice 14 - IETLS 閱讀練習 - Passage 3.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8f4168aef7e4db3c"
+  },
+  {
+    "id": "download-material:reading-passage-3:9c494cae4afcbfab",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Reading · Passage 3 · Practice 15 · GENEALOGY",
+    "detail": "IELTS Reading · Passage 3 · Practice 15 - IETLS 閱讀練習 - Passage 3.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9c494cae4afcbfab"
+  },
+  {
+    "id": "download-material:reading-passage-3:9fdab6f81297799e",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Reading · Passage 3 · Practice 16 · A LIBRARY AT YOUR FINGERTIPS",
+    "detail": "IELTS Reading · Passage 3 · Practice 16 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9fdab6f81297799e"
+  },
+  {
+    "id": "download-material:reading-passage-3:d24907549667b41c",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Reading · Passage 3 · Practice 17 · PSYCHOMETRICS",
+    "detail": "IELTS Reading · Passage 3 · Practice 17 - IETLS 閱讀練習 - Passage 3.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=d24907549667b41c"
+  },
+  {
+    "id": "download-material:reading-passage-3:e118dabb3570f11e",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Reading · Passage 3 · Practice 19 · The Rainmaker design",
+    "detail": "IELTS Reading · Passage 3 · Practice 19 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e118dabb3570f11e"
+  },
+  {
+    "id": "download-material:reading-passage-3:dea0f19f5edfdf36",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Reading · Passage 3 · Practice 20 · Unexpected Benefits to Human Brain",
+    "detail": "IELTS Reading · Passage 3 · Practice 20 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=dea0f19f5edfdf36"
+  },
+  {
+    "id": "download-material:reading-passage-3:1c2d8adfa8060492",
+    "type": "download-material",
+    "ordinal": 22,
+    "label": "IELTS Reading · Passage 3 · Practice 22 · Communication in science",
+    "detail": "IELTS Reading · Passage 3 · Practice 22 - IETLS 閱讀練習 - Passage 3.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1c2d8adfa8060492"
+  },
+  {
+    "id": "download-material:reading-passage-3:cdea98641290fb34",
+    "type": "download-material",
+    "ordinal": 23,
+    "label": "IELTS Reading · Passage 3 · Practice 23 · A leap into history",
+    "detail": "IELTS Reading · Passage 3 · Practice 23 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=cdea98641290fb34"
+  },
+  {
+    "id": "download-material:reading-passage-3:fb999e79a5c76da9",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Reading · Passage 3 · Practice 27 · What is a dinosaur?",
+    "detail": "IELTS Reading · Passage 3 · Practice 27 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=fb999e79a5c76da9"
+  },
+  {
+    "id": "download-material:reading-passage-3:2b3966d3783d793c",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Reading · Passage 3 · Practice 28 · The Fruit Book",
+    "detail": "IELTS Reading · Passage 3 · Practice 28 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=2b3966d3783d793c"
+  },
+  {
+    "id": "download-material:reading-passage-3:8e2bca8914bf44d1",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Reading · Passage 3 · Practice 29 · Music: Language We All Speak",
+    "detail": "IELTS Reading · Passage 3 · Practice 29 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8e2bca8914bf44d1"
+  },
+  {
+    "id": "download-material:reading-passage-3:553205c667288625",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Reading · Passage 3 · Practice 30 · Talc Powder",
+    "detail": "IELTS Reading · Passage 3 · Practice 30 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=553205c667288625"
+  },
+  {
+    "id": "download-material:reading-passage-3:4800c02b5481e46e",
+    "type": "download-material",
+    "ordinal": 31,
+    "label": "IELTS Reading · Passage 3 · Practice 31 · Communicating Styles and Conflict",
+    "detail": "IELTS Reading · Passage 3 · Practice 31 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=4800c02b5481e46e"
+  },
+  {
+    "id": "download-material:reading-passage-3:faa6f0a981439e4f",
+    "type": "download-material",
+    "ordinal": 32,
+    "label": "IELTS Reading · Passage 3 · Practice 32 · The Columbian Exchange",
+    "detail": "IELTS Reading · Passage 3 · Practice 32 - IETLS 閱讀練習 - Passage 3.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=faa6f0a981439e4f"
+  },
+  {
+    "id": "download-material:reading-passage-3:bec31a06c0b0f04f",
+    "type": "download-material",
+    "ordinal": 33,
+    "label": "IELTS Reading · Passage 3 · Practice 33 · Travel Books",
+    "detail": "IELTS Reading · Passage 3 · Practice 33 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=bec31a06c0b0f04f"
+  },
+  {
+    "id": "download-material:reading-passage-3:4a3a1f3198524701",
+    "type": "download-material",
+    "ordinal": 34,
+    "label": "IELTS Reading · Passage 3 · Practice 34 · Mechanisms of Linguistic Change",
+    "detail": "IELTS Reading · Passage 3 · Practice 34 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=4a3a1f3198524701"
+  },
+  {
+    "id": "download-material:reading-passage-3:f62f1a0c9f08fa3f",
+    "type": "download-material",
+    "ordinal": 35,
+    "label": "IELTS Reading · Passage 3 · Practice 35 · Honey bees in trouble",
+    "detail": "IELTS Reading · Passage 3 · Practice 35 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=f62f1a0c9f08fa3f"
+  },
+  {
+    "id": "download-material:reading-passage-3:9db431fcf4787b4c",
+    "type": "download-material",
+    "ordinal": 36,
+    "label": "IELTS Reading · Passage 3 · Practice 36 · Internal Market: Selling the inside",
+    "detail": "IELTS Reading · Passage 3 · Practice 36 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9db431fcf4787b4c"
+  },
+  {
+    "id": "download-material:reading-passage-3:009427f6ad301958",
+    "type": "download-material",
+    "ordinal": 37,
+    "label": "IELTS Reading · Passage 3 · Practice 37 · Living Dunes",
+    "detail": "IELTS Reading · Passage 3 · Practice 37 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=009427f6ad301958"
+  },
+  {
+    "id": "download-material:reading-passage-3:bb017eca434b20fa",
+    "type": "download-material",
+    "ordinal": 38,
+    "label": "IELTS Reading · Passage 3 · Practice 38 · Accidental Scientists",
+    "detail": "IELTS Reading · Passage 3 · Practice 38 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=bb017eca434b20fa"
+  },
+  {
+    "id": "download-material:reading-passage-3:cecb6190019f68e2",
+    "type": "download-material",
+    "ordinal": 39,
+    "label": "IELTS Reading · Passage 3 · Practice 39 · Musical Maladies",
+    "detail": "IELTS Reading · Passage 3 · Practice 39 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=cecb6190019f68e2"
+  },
+  {
+    "id": "download-material:reading-passage-3:3a033f235ea6bf75",
+    "type": "download-material",
+    "ordinal": 40,
+    "label": "IELTS Reading · Passage 3 · Practice 40 · High speed photography",
+    "detail": "IELTS Reading · Passage 3 · Practice 40 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3a033f235ea6bf75"
+  },
+  {
+    "id": "download-material:reading-passage-3:8493050cf149aec3",
+    "type": "download-material",
+    "ordinal": 41,
+    "label": "IELTS Reading · Passage 3 · Practice 41 · Source of Knowledge",
+    "detail": "IELTS Reading · Passage 3 · Practice 41 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8493050cf149aec3"
+  },
+  {
+    "id": "download-material:reading-passage-3:3f7de741c748f644",
+    "type": "download-material",
+    "ordinal": 42,
+    "label": "IELTS Reading · Passage 3 · Practice 42 · E-training",
+    "detail": "IELTS Reading · Passage 3 · Practice 42 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3f7de741c748f644"
+  },
+  {
+    "id": "download-material:reading-passage-3:cbed2afcf84fccfb",
+    "type": "download-material",
+    "ordinal": 43,
+    "label": "IELTS Reading · Passage 3 · Practice 43 · The Significant Role of Mother Tongue in Education",
+    "detail": "IELTS Reading · Passage 3 · Practice 43 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=cbed2afcf84fccfb"
+  },
+  {
+    "id": "download-material:reading-passage-3:9c025b9de79772dc",
+    "type": "download-material",
+    "ordinal": 44,
+    "label": "IELTS Reading · Passage 3 · Practice 44 · Monkeys and Forests",
+    "detail": "IELTS Reading · Passage 3 · Practice 44 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9c025b9de79772dc"
+  },
+  {
+    "id": "download-material:reading-passage-3:66d0d697f1c2ff70",
+    "type": "download-material",
+    "ordinal": 45,
+    "label": "IELTS Reading · Passage 3 · Practice 45 · Stealth Forces in weight Loss",
+    "detail": "IELTS Reading · Passage 3 · Practice 45 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=66d0d697f1c2ff70"
+  },
+  {
+    "id": "download-material:reading-passage-3:69e9899d00abc5c2",
+    "type": "download-material",
+    "ordinal": 46,
+    "label": "IELTS Reading · Passage 3 · Practice 46 · Global Warming in New Zealand",
+    "detail": "IELTS Reading · Passage 3 · Practice 46 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=69e9899d00abc5c2"
+  },
+  {
+    "id": "download-material:reading-passage-3:5ca0504ea951386d",
+    "type": "download-material",
+    "ordinal": 47,
+    "label": "IELTS Reading · Passage 3 · Practice 47 · Motivating Drives",
+    "detail": "IELTS Reading · Passage 3 · Practice 47 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=5ca0504ea951386d"
+  },
+  {
+    "id": "download-material:reading-passage-3:b7ecff10925a38d1",
+    "type": "download-material",
+    "ordinal": 48,
+    "label": "IELTS Reading · Passage 3 · Practice 48 · Improving Patient Safety",
+    "detail": "IELTS Reading · Passage 3 · Practice 48 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b7ecff10925a38d1"
+  },
+  {
+    "id": "download-material:reading-passage-3:a7a9ecaf5fe9a09c",
+    "type": "download-material",
+    "ordinal": 49,
+    "label": "IELTS Reading · Passage 3 · Practice 49 · Theory or Practice? What Is the Point of Research Carried Out by Business Schools?",
+    "detail": "IELTS Reading · Passage 3 · Practice 49 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=a7a9ecaf5fe9a09c"
+  },
+  {
+    "id": "download-material:reading-passage-3:1a2a1e3b5ae03853",
+    "type": "download-material",
+    "ordinal": 50,
+    "label": "IELTS Reading · Passage 3 · Practice 50 · Robert Louis Stevenson",
+    "detail": "IELTS Reading · Passage 3 · Practice 50 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1a2a1e3b5ae03853"
+  },
+  {
+    "id": "download-material:reading-passage-3:e0f200fd8839bd3a",
+    "type": "download-material",
+    "ordinal": 51,
+    "label": "IELTS Reading · Passage 3 · Practice 51 · What Do Babies Know?",
+    "detail": "IELTS Reading · Passage 3 · Practice 51 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e0f200fd8839bd3a"
+  },
+  {
+    "id": "download-material:reading-passage-3:a908dab3fcda615f",
+    "type": "download-material",
+    "ordinal": 52,
+    "label": "IELTS Reading · Passage 3 · Practice 52 · What is Meaning",
+    "detail": "IELTS Reading · Passage 3 · Practice 52 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=a908dab3fcda615f"
+  },
+  {
+    "id": "download-material:reading-passage-3:6ec5c7e0bb4695fc",
+    "type": "download-material",
+    "ordinal": 53,
+    "label": "IELTS Reading · Passage 3 · Practice 53 · Can Hurricanes be Moderated or Diverted?",
+    "detail": "IELTS Reading · Passage 3 · Practice 53 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=6ec5c7e0bb4695fc"
+  },
+  {
+    "id": "download-material:reading-passage-3:92064d784f717da7",
+    "type": "download-material",
+    "ordinal": 54,
+    "label": "IELTS Reading · Passage 3 · Practice 54 · Quantitative Research in Education",
+    "detail": "IELTS Reading · Passage 3 · Practice 54 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=92064d784f717da7"
+  },
+  {
+    "id": "download-material:reading-passage-3:a4efee915bcf1126",
+    "type": "download-material",
+    "ordinal": 55,
+    "label": "IELTS Reading · Passage 3 · Practice 55 · Company Innovation",
+    "detail": "IELTS Reading · Passage 3 · Practice 55 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=a4efee915bcf1126"
+  },
+  {
+    "id": "download-material:reading-passage-3:f6dda4ccbcd930b3",
+    "type": "download-material",
+    "ordinal": 56,
+    "label": "IELTS Reading · Passage 3 · Practice 56 · The Olympic Torch",
+    "detail": "IELTS Reading · Passage 3 · Practice 56 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=f6dda4ccbcd930b3"
+  },
+  {
+    "id": "download-material:reading-passage-3:176da0912aea66f9",
+    "type": "download-material",
+    "ordinal": 57,
+    "label": "IELTS Reading · Passage 3 · Practice 57 · Elephant Communication",
+    "detail": "IELTS Reading · Passage 3 · Practice 57 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=176da0912aea66f9"
+  },
+  {
+    "id": "download-material:reading-passage-3:e2b247e92d4a4313",
+    "type": "download-material",
+    "ordinal": 58,
+    "label": "IELTS Reading · Passage 3 · Practice 58 · Texting the Television",
+    "detail": "IELTS Reading · Passage 3 · Practice 58 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e2b247e92d4a4313"
+  },
+  {
+    "id": "download-material:reading-passage-3:d12451782f95d44d",
+    "type": "download-material",
+    "ordinal": 59,
+    "label": "IELTS Reading · Passage 3 · Practice 59 · PREPARING FOR THE THREAT",
+    "detail": "IELTS Reading · Passage 3 · Practice 59 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=d12451782f95d44d"
+  },
+  {
+    "id": "download-material:reading-passage-3:7d150410f2b8e9f3",
+    "type": "download-material",
+    "ordinal": 60,
+    "label": "IELTS Reading · Passage 3 · Practice 60 · CO- EDUCATIONAL VERSUS SINGLE SEX CLASSROOMS",
+    "detail": "IELTS Reading · Passage 3 · Practice 60 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7d150410f2b8e9f3"
+  },
+  {
+    "id": "download-material:reading-passage-3:7c6fd550134cabdf",
+    "type": "download-material",
+    "ordinal": 61,
+    "label": "IELTS Reading · Passage 3 · Practice 61 · Constellation",
+    "detail": "IELTS Reading · Passage 3 · Practice 61 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7c6fd550134cabdf"
+  },
+  {
+    "id": "download-material:reading-passage-3:3efad9c96ad637da",
+    "type": "download-material",
+    "ordinal": 62,
+    "label": "IELTS Reading · Passage 3 · Practice 62 · The natural world",
+    "detail": "IELTS Reading · Passage 3 · Practice 62 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3efad9c96ad637da"
+  },
+  {
+    "id": "download-material:reading-passage-3:12e1eaf337b7f8ce",
+    "type": "download-material",
+    "ordinal": 63,
+    "label": "IELTS Reading · Passage 3 · Practice 63 · HAZARD MANAGEMENT",
+    "detail": "IELTS Reading · Passage 3 · Practice 63 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=12e1eaf337b7f8ce"
+  },
+  {
+    "id": "download-material:reading-passage-3:77fd6b36ccc9b252",
+    "type": "download-material",
+    "ordinal": 64,
+    "label": "IELTS Reading · Passage 3 · Practice 64 · Low-Cost Lamps Light Rural India",
+    "detail": "IELTS Reading · Passage 3 · Practice 64 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=77fd6b36ccc9b252"
+  },
+  {
+    "id": "download-material:reading-passage-3:4cc0f1dd3ced4794",
+    "type": "download-material",
+    "ordinal": 65,
+    "label": "IELTS Reading · Passage 3 · Practice 65 · Rise of the Robots",
+    "detail": "IELTS Reading · Passage 3 · Practice 65 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=4cc0f1dd3ced4794"
+  },
+  {
+    "id": "download-material:reading-passage-3:1f154cf550b7ec00",
+    "type": "download-material",
+    "ordinal": 66,
+    "label": "IELTS Reading · Passage 3 · Practice 66 · Sunday Is a Fun Day for Modern Brits",
+    "detail": "IELTS Reading · Passage 3 · Practice 66 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1f154cf550b7ec00"
+  },
+  {
+    "id": "download-material:reading-passage-3:f66319c0c8fdca6a",
+    "type": "download-material",
+    "ordinal": 67,
+    "label": "IELTS Reading · Passage 3 · Practice 67 · Teens Try to Change the World, One Purchase at a Time",
+    "detail": "IELTS Reading · Passage 3 · Practice 67 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=f66319c0c8fdca6a"
+  },
+  {
+    "id": "download-material:reading-passage-3:94e2b2c756bddadf",
+    "type": "download-material",
+    "ordinal": 68,
+    "label": "IELTS Reading · Passage 3 · Practice 68 · Care in the Community",
+    "detail": "IELTS Reading · Passage 3 · Practice 68 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=94e2b2c756bddadf"
+  },
+  {
+    "id": "download-material:reading-passage-3:ef53a891491cf2d8",
+    "type": "download-material",
+    "ordinal": 69,
+    "label": "IELTS Reading · Passage 3 · Practice 69 · SPEECH DYSFLUENCY AND POPULAR FILLERS",
+    "detail": "IELTS Reading · Passage 3 · Practice 69 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=ef53a891491cf2d8"
+  },
+  {
+    "id": "download-material:reading-passage-3:1d861bc38224d0f3",
+    "type": "download-material",
+    "ordinal": 70,
+    "label": "IELTS Reading · Passage 3 · Practice 70 · The Beginnings of Art Therapy",
+    "detail": "IELTS Reading · Passage 3 · Practice 70 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1d861bc38224d0f3"
+  },
+  {
+    "id": "download-material:reading-passage-3:48c884f31e272a7f",
+    "type": "download-material",
+    "ordinal": 71,
+    "label": "IELTS Reading · Passage 3 · Practice 71 · Jack the Ripper: A Bungled Investigation?",
+    "detail": "IELTS Reading · Passage 3 · Practice 71 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=48c884f31e272a7f"
+  },
+  {
+    "id": "download-material:reading-passage-3:a4f0bfe46c129464",
+    "type": "download-material",
+    "ordinal": 72,
+    "label": "IELTS Reading · Passage 3 · Practice 72 · Driverless cars",
+    "detail": "IELTS Reading · Passage 3 · Practice 72 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=a4f0bfe46c129464"
+  },
+  {
+    "id": "download-material:reading-passage-3:96374bf57fdb1d58",
+    "type": "download-material",
+    "ordinal": 73,
+    "label": "IELTS Reading · Passage 3 · Practice 73 · ALL YOU NEED TO KNOW ABOUT SNOW",
+    "detail": "IELTS Reading · Passage 3 · Practice 73 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=96374bf57fdb1d58"
+  },
+  {
+    "id": "download-material:reading-passage-3:5d517514a0d4ba45",
+    "type": "download-material",
+    "ordinal": 74,
+    "label": "IELTS Reading · Passage 3 · Practice 74 · Map wars",
+    "detail": "IELTS Reading · Passage 3 · Practice 74 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=5d517514a0d4ba45"
+  },
+  {
+    "id": "download-material:reading-passage-3:59cbda73bfd5c5a6",
+    "type": "download-material",
+    "ordinal": 75,
+    "label": "IELTS Reading · Passage 3 · Practice 75 · TEAM-BASED LEARNING",
+    "detail": "IELTS Reading · Passage 3 · Practice 75 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=59cbda73bfd5c5a6"
+  },
+  {
+    "id": "download-material:reading-passage-3:c3e6381713583e3e",
+    "type": "download-material",
+    "ordinal": 76,
+    "label": "IELTS Reading · Passage 3 · Practice 76 · The hemp revival",
+    "detail": "IELTS Reading · Passage 3 · Practice 76 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=c3e6381713583e3e"
+  },
+  {
+    "id": "download-material:reading-passage-3:65b8c1c3322acbc9",
+    "type": "download-material",
+    "ordinal": 77,
+    "label": "IELTS Reading · Passage 3 · Practice 77 · Kids and Sport",
+    "detail": "IELTS Reading · Passage 3 · Practice 77 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=65b8c1c3322acbc9"
+  },
+  {
+    "id": "download-material:reading-passage-3:651b1ebe0b200bc2",
+    "type": "download-material",
+    "ordinal": 78,
+    "label": "IELTS Reading · Passage 3 · Practice 78 · Are these two reporters on the same planet?",
+    "detail": "IELTS Reading · Passage 3 · Practice 78 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=651b1ebe0b200bc2"
+  },
+  {
+    "id": "download-material:reading-passage-3:27daecfba543cc3e",
+    "type": "download-material",
+    "ordinal": 79,
+    "label": "IELTS Reading · Passage 3 · Practice 79 · Mystery of the mummies",
+    "detail": "IELTS Reading · Passage 3 · Practice 79 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=27daecfba543cc3e"
+  },
+  {
+    "id": "download-material:reading-passage-3:54bd7fc558d9f78e",
+    "type": "download-material",
+    "ordinal": 80,
+    "label": "IELTS Reading · Passage 3 · Practice 80 · LONG-TERM FORECAST: HOT AND DRY",
+    "detail": "IELTS Reading · Passage 3 · Practice 80 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=54bd7fc558d9f78e"
+  },
+  {
+    "id": "download-material:reading-passage-3:1daeb0d745e30dc2",
+    "type": "download-material",
+    "ordinal": 81,
+    "label": "IELTS Reading · Passage 3 · Practice 81 · Migrants and Refugees: Racial Discrimination and Xenophobia",
+    "detail": "IELTS Reading · Passage 3 · Practice 81 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1daeb0d745e30dc2"
+  },
+  {
+    "id": "download-material:reading-passage-3:ba3d2d80b107b936",
+    "type": "download-material",
+    "ordinal": 82,
+    "label": "IELTS Reading · Passage 3 · Practice 82 · Population growth sentencing millions to hydrological poverty",
+    "detail": "IELTS Reading · Passage 3 · Practice 82 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=ba3d2d80b107b936"
+  },
+  {
+    "id": "download-material:reading-passage-3:ba487f0872adef19",
+    "type": "download-material",
+    "ordinal": 83,
+    "label": "IELTS Reading · Passage 3 · Practice 83 · SLEEP",
+    "detail": "IELTS Reading · Passage 3 · Practice 83 - IETLS 閱讀練習 - Passage 3.pdf · 1 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=ba487f0872adef19"
+  },
+  {
+    "id": "download-material:reading-passage-3:15a26a8ae3048e60",
+    "type": "download-material",
+    "ordinal": 84,
+    "label": "IELTS Reading · Passage 3 · Practice 84 · LATCHKEY CHILDREN",
+    "detail": "IELTS Reading · Passage 3 · Practice 84 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=15a26a8ae3048e60"
+  },
+  {
+    "id": "download-material:reading-passage-3:c7f478ba360151fb",
+    "type": "download-material",
+    "ordinal": 85,
+    "label": "IELTS Reading · Passage 3 · Practice 85 · Bismarck: A Master of Political and Diplomatic Juggling?",
+    "detail": "IELTS Reading · Passage 3 · Practice 85 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=c7f478ba360151fb"
+  },
+  {
+    "id": "download-material:reading-passage-3:46eb18a3308f0e6c",
+    "type": "download-material",
+    "ordinal": 86,
+    "label": "IELTS Reading · Passage 3 · Practice 86 · Making a sound Investment Decision",
+    "detail": "IELTS Reading · Passage 3 · Practice 86 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=46eb18a3308f0e6c"
+  },
+  {
+    "id": "download-material:reading-passage-3:5473002b54fc51b7",
+    "type": "download-material",
+    "ordinal": 87,
+    "label": "IELTS Reading · Passage 3 · Practice 87 · Austria: The burgeoning budget holiday attraction",
+    "detail": "IELTS Reading · Passage 3 · Practice 87 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=5473002b54fc51b7"
+  },
+  {
+    "id": "download-material:reading-passage-3:477c046fd373c07f",
+    "type": "download-material",
+    "ordinal": 88,
+    "label": "IELTS Reading · Passage 3 · Practice 88 · Continents Collide!",
+    "detail": "IELTS Reading · Passage 3 · Practice 88 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=477c046fd373c07f"
+  },
+  {
+    "id": "download-material:reading-passage-3:e22a7e72b4337460",
+    "type": "download-material",
+    "ordinal": 89,
+    "label": "IELTS Reading · Passage 3 · Practice 89 · Organisational Conflict and Change",
+    "detail": "IELTS Reading · Passage 3 · Practice 89 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e22a7e72b4337460"
+  },
+  {
+    "id": "download-material:reading-passage-3:78a31d062ecfd3c5",
+    "type": "download-material",
+    "ordinal": 90,
+    "label": "IELTS Reading · Passage 3 · Practice 90 · The Mother of All Languages",
+    "detail": "IELTS Reading · Passage 3 · Practice 90 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=78a31d062ecfd3c5"
+  },
+  {
+    "id": "download-material:reading-passage-3:fbfee27255ebfee3",
+    "type": "download-material",
+    "ordinal": 91,
+    "label": "IELTS Reading · Passage 3 · Practice 91 · Waterfalls",
+    "detail": "IELTS Reading · Passage 3 · Practice 91 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=fbfee27255ebfee3"
+  },
+  {
+    "id": "download-material:reading-passage-3:e3a9ca4f7cffa269",
+    "type": "download-material",
+    "ordinal": 92,
+    "label": "IELTS Reading · Passage 3 · Practice 92 · The Year Without a Summer",
+    "detail": "IELTS Reading · Passage 3 · Practice 92 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e3a9ca4f7cffa269"
+  },
+  {
+    "id": "download-material:reading-passage-3:6c5b9300cff78d40",
+    "type": "download-material",
+    "ordinal": 93,
+    "label": "IELTS Reading · Passage 3 · Practice 93 · Cubism",
+    "detail": "IELTS Reading · Passage 3 · Practice 93 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=6c5b9300cff78d40"
+  },
+  {
+    "id": "download-material:reading-passage-3:1131e13020ed4cb6",
+    "type": "download-material",
+    "ordinal": 94,
+    "label": "IELTS Reading · Passage 3 · Practice 94 · The International Space Station",
+    "detail": "IELTS Reading · Passage 3 · Practice 94 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1131e13020ed4cb6"
+  },
+  {
+    "id": "download-material:reading-passage-3:f5d4f26ab57aa76f",
+    "type": "download-material",
+    "ordinal": 95,
+    "label": "IELTS Reading · Passage 3 · Practice 95 · The Biggest Impact",
+    "detail": "IELTS Reading · Passage 3 · Practice 95 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=f5d4f26ab57aa76f"
+  },
+  {
+    "id": "download-material:reading-passage-3:dde3f2ed1f83ac50",
+    "type": "download-material",
+    "ordinal": 96,
+    "label": "IELTS Reading · Passage 3 · Practice 96 · The Immunisation Controversy",
+    "detail": "IELTS Reading · Passage 3 · Practice 96 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=dde3f2ed1f83ac50"
+  },
+  {
+    "id": "download-material:reading-passage-3:2e20288343d7bef9",
+    "type": "download-material",
+    "ordinal": 97,
+    "label": "IELTS Reading · Passage 3 · Practice 97 · Are You Being Served?",
+    "detail": "IELTS Reading · Passage 3 · Practice 97 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=2e20288343d7bef9"
+  },
+  {
+    "id": "download-material:reading-passage-3:67c567b479b29644",
+    "type": "download-material",
+    "ordinal": 98,
+    "label": "IELTS Reading · Passage 3 · Practice 98 · Are You Experienced?",
+    "detail": "IELTS Reading · Passage 3 · Practice 98 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=67c567b479b29644"
+  },
+  {
+    "id": "download-material:reading-passage-3:0c3d780ea29290fb",
+    "type": "download-material",
+    "ordinal": 99,
+    "label": "IELTS Reading · Passage 3 · Practice 99 · Can You Charm Your Way into Oxbridge?",
+    "detail": "IELTS Reading · Passage 3 · Practice 99 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=0c3d780ea29290fb"
+  },
+  {
+    "id": "download-material:reading-passage-3:3d5b832afc33274f",
+    "type": "download-material",
+    "ordinal": 100,
+    "label": "IELTS Reading · Passage 3 · Practice 100 · Do You Look Your Age?",
+    "detail": "IELTS Reading · Passage 3 · Practice 100 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3d5b832afc33274f"
+  },
+  {
+    "id": "download-material:reading-passage-3:771cd69fbef8b86f",
+    "type": "download-material",
+    "ordinal": 101,
+    "label": "IELTS Reading · Passage 3 · Practice 101 · The Fame Machine",
+    "detail": "IELTS Reading · Passage 3 · Practice 101 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=771cd69fbef8b86f"
+  },
+  {
+    "id": "download-material:reading-passage-3:198fd21b5c308766",
+    "type": "download-material",
+    "ordinal": 102,
+    "label": "IELTS Reading · Passage 3 · Practice 102 · Learning about the Past",
+    "detail": "IELTS Reading · Passage 3 · Practice 102 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=198fd21b5c308766"
+  },
+  {
+    "id": "download-material:reading-passage-3:61a16a39fc4c6967",
+    "type": "download-material",
+    "ordinal": 103,
+    "label": "IELTS Reading · Passage 3 · Practice 103 · Black Gold",
+    "detail": "IELTS Reading · Passage 3 · Practice 103 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=61a16a39fc4c6967"
+  },
+  {
+    "id": "download-material:reading-passage-3:281c5325c1a16bbc",
+    "type": "download-material",
+    "ordinal": 104,
+    "label": "IELTS Reading · Passage 3 · Practice 104 · The Revolutionary Bridges of Robert Maillart",
+    "detail": "IELTS Reading · Passage 3 · Practice 104 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=281c5325c1a16bbc"
+  },
+  {
+    "id": "download-material:reading-passage-3:887047dc302d1979",
+    "type": "download-material",
+    "ordinal": 105,
+    "label": "IELTS Reading · Passage 3 · Practice 105 · ‘talented’ or ‘gifted’?",
+    "detail": "IELTS Reading · Passage 3 · Practice 105 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=887047dc302d1979"
+  },
+  {
+    "id": "download-material:reading-passage-3:d7a7067ad495f154",
+    "type": "download-material",
+    "ordinal": 106,
+    "label": "IELTS Reading · Passage 3 · Practice 106 · SAVING LANGUAGE",
+    "detail": "IELTS Reading · Passage 3 · Practice 106 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=d7a7067ad495f154"
+  },
+  {
+    "id": "download-material:reading-passage-3:f1d4e5ec5b0cfbbd",
+    "type": "download-material",
+    "ordinal": 107,
+    "label": "IELTS Reading · Passage 3 · Practice 107 · Striking the right note",
+    "detail": "IELTS Reading · Passage 3 · Practice 107 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=f1d4e5ec5b0cfbbd"
+  },
+  {
+    "id": "download-material:reading-passage-3:1dd540b54819980f",
+    "type": "download-material",
+    "ordinal": 108,
+    "label": "IELTS Reading · Passage 3 · Practice 108 · THE ART OF HEALING",
+    "detail": "IELTS Reading · Passage 3 · Practice 108 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1dd540b54819980f"
+  },
+  {
+    "id": "download-material:reading-passage-3:4a65c3f8de82419a",
+    "type": "download-material",
+    "ordinal": 109,
+    "label": "IELTS Reading · Passage 3 · Practice 109 · Keep taking the tablets",
+    "detail": "IELTS Reading · Passage 3 · Practice 109 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=4a65c3f8de82419a"
+  },
+  {
+    "id": "download-material:reading-passage-3:57e213b4eb742db3",
+    "type": "download-material",
+    "ordinal": 110,
+    "label": "IELTS Reading · Passage 3 · Practice 110 · Quiet roads ahead",
+    "detail": "IELTS Reading · Passage 3 · Practice 110 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=57e213b4eb742db3"
+  },
+  {
+    "id": "download-material:reading-passage-3:e7708448bc0428c3",
+    "type": "download-material",
+    "ordinal": 111,
+    "label": "IELTS Reading · Passage 3 · Practice 111 · Space: The Final Archaeological Frontier",
+    "detail": "IELTS Reading · Passage 3 · Practice 111 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e7708448bc0428c3"
+  },
+  {
+    "id": "download-material:reading-passage-3:91a7822d3a5b883c",
+    "type": "download-material",
+    "ordinal": 112,
+    "label": "IELTS Reading · Passage 3 · Practice 112 · Painters of time",
+    "detail": "IELTS Reading · Passage 3 · Practice 112 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=91a7822d3a5b883c"
+  },
+  {
+    "id": "download-material:reading-passage-3:3c7fc5d1ccc638f7",
+    "type": "download-material",
+    "ordinal": 113,
+    "label": "IELTS Reading · Passage 3 · Practice 113 · The accidental rainforest",
+    "detail": "IELTS Reading · Passage 3 · Practice 113 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3c7fc5d1ccc638f7"
+  },
+  {
+    "id": "download-material:reading-passage-3:c981cf623ad546fd",
+    "type": "download-material",
+    "ordinal": 114,
+    "label": "IELTS Reading · Passage 3 · Practice 114 · Running on empty",
+    "detail": "IELTS Reading · Passage 3 · Practice 114 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=c981cf623ad546fd"
+  },
+  {
+    "id": "download-material:reading-passage-3:2d89d0e48bb7ad9e",
+    "type": "download-material",
+    "ordinal": 115,
+    "label": "IELTS Reading · Passage 3 · Practice 115 · The creation of lasting memories",
+    "detail": "IELTS Reading · Passage 3 · Practice 115 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=2d89d0e48bb7ad9e"
+  },
+  {
+    "id": "download-material:reading-passage-3:8a59557f96610828",
+    "type": "download-material",
+    "ordinal": 116,
+    "label": "IELTS Reading · Passage 3 · Practice 116 · Pottery production in ancient Akrotiri",
+    "detail": "IELTS Reading · Passage 3 · Practice 116 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8a59557f96610828"
+  },
+  {
+    "id": "download-material:reading-passage-3:b3ef2e0f2f9a5fda",
+    "type": "download-material",
+    "ordinal": 117,
+    "label": "IELTS Reading · Passage 3 · Practice 117 · Recovering a damaged reputation",
+    "detail": "IELTS Reading · Passage 3 · Practice 117 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b3ef2e0f2f9a5fda"
+  },
+  {
+    "id": "download-material:reading-passage-3:2134fbd3f2851835",
+    "type": "download-material",
+    "ordinal": 118,
+    "label": "IELTS Reading · Passage 3 · Practice 118 · Video game research",
+    "detail": "IELTS Reading · Passage 3 · Practice 118 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=2134fbd3f2851835"
+  },
+  {
+    "id": "download-material:reading-passage-3:8f46675744255e41",
+    "type": "download-material",
+    "ordinal": 119,
+    "label": "IELTS Reading · Passage 3 · Practice 119 · Learning lessons from the past",
+    "detail": "IELTS Reading · Passage 3 · Practice 119 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8f46675744255e41"
+  },
+  {
+    "id": "download-material:reading-passage-3:8ed3b939116b0dc9",
+    "type": "download-material",
+    "ordinal": 120,
+    "label": "IELTS Reading · Passage 3 · Practice 120 · Language diversity",
+    "detail": "IELTS Reading · Passage 3 · Practice 120 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8ed3b939116b0dc9"
+  },
+  {
+    "id": "download-material:reading-passage-3:663ba9ef9f094ae6",
+    "type": "download-material",
+    "ordinal": 121,
+    "label": "IELTS Reading · Passage 3 · Practice 121 · The Future of fish",
+    "detail": "IELTS Reading · Passage 3 · Practice 121 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=663ba9ef9f094ae6"
+  },
+  {
+    "id": "download-material:reading-passage-3:41eb175ede804fb5",
+    "type": "download-material",
+    "ordinal": 122,
+    "label": "IELTS Reading · Passage 3 · Practice 122 · Pronunciation and physiognomy",
+    "detail": "IELTS Reading · Passage 3 · Practice 122 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=41eb175ede804fb5"
+  },
+  {
+    "id": "download-material:reading-passage-3:305fcc2f618357de",
+    "type": "download-material",
+    "ordinal": 123,
+    "label": "IELTS Reading · Passage 3 · Practice 123 · FUELING THE FUTURE",
+    "detail": "IELTS Reading · Passage 3 · Practice 123 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=305fcc2f618357de"
+  },
+  {
+    "id": "download-material:reading-passage-3:01245b7b34573cca",
+    "type": "download-material",
+    "ordinal": 124,
+    "label": "IELTS Reading · Passage 3 · Practice 124 · GRAVITY",
+    "detail": "IELTS Reading · Passage 3 · Practice 124 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=01245b7b34573cca"
+  },
+  {
+    "id": "download-material:reading-passage-3:12292e081109f0df",
+    "type": "download-material",
+    "ordinal": 125,
+    "label": "IELTS Reading · Passage 3 · Practice 125 · Memory Decoding",
+    "detail": "IELTS Reading · Passage 3 · Practice 125 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=12292e081109f0df"
+  },
+  {
+    "id": "download-material:reading-passage-3:b912fe2653bde152",
+    "type": "download-material",
+    "ordinal": 126,
+    "label": "IELTS Reading · Passage 3 · Practice 126 · Is Graffiti Art or Crime",
+    "detail": "IELTS Reading · Passage 3 · Practice 126 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b912fe2653bde152"
+  },
+  {
+    "id": "download-material:reading-passage-3:1febe279078b57cd",
+    "type": "download-material",
+    "ordinal": 127,
+    "label": "IELTS Reading · Passage 3 · Practice 127 · THE MPEMBA EFFECT",
+    "detail": "IELTS Reading · Passage 3 · Practice 127 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=1febe279078b57cd"
+  },
+  {
+    "id": "download-material:reading-passage-3:9359e9ffc0f48da6",
+    "type": "download-material",
+    "ordinal": 128,
+    "label": "IELTS Reading · Passage 3 · Practice 128 · Human remain in Green Sahara",
+    "detail": "IELTS Reading · Passage 3 · Practice 128 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9359e9ffc0f48da6"
+  },
+  {
+    "id": "download-material:reading-passage-3:570fd7008084090e",
+    "type": "download-material",
+    "ordinal": 129,
+    "label": "IELTS Reading · Passage 3 · Practice 129 · The Bite That Heat",
+    "detail": "IELTS Reading · Passage 3 · Practice 129 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=570fd7008084090e"
+  },
+  {
+    "id": "download-material:reading-passage-3:78f5dca7955c83a5",
+    "type": "download-material",
+    "ordinal": 130,
+    "label": "IELTS Reading · Passage 3 · Practice 130 · Detection of a meteorite Lake",
+    "detail": "IELTS Reading · Passage 3 · Practice 130 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=78f5dca7955c83a5"
+  },
+  {
+    "id": "download-material:reading-passage-3:93efac27c95b5e65",
+    "type": "download-material",
+    "ordinal": 131,
+    "label": "IELTS Reading · Passage 3 · Practice 131 · Bondi Beach",
+    "detail": "IELTS Reading · Passage 3 · Practice 131 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=93efac27c95b5e65"
+  },
+  {
+    "id": "download-material:reading-passage-3:111b5e8574c533fc",
+    "type": "download-material",
+    "ordinal": 132,
+    "label": "IELTS Reading · Passage 3 · Practice 132 · How to handle the Sun",
+    "detail": "IELTS Reading · Passage 3 · Practice 132 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=111b5e8574c533fc"
+  },
+  {
+    "id": "download-material:reading-passage-3:7ea16dd9ee497145",
+    "type": "download-material",
+    "ordinal": 133,
+    "label": "IELTS Reading · Passage 3 · Practice 133 · Carbon Capture and Storage",
+    "detail": "IELTS Reading · Passage 3 · Practice 133 - IETLS 閱讀練習 - Passage 3.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7ea16dd9ee497145"
+  },
+  {
+    "id": "download-material:reading-passage-3:70c2ed4ab2b56999",
+    "type": "download-material",
+    "ordinal": 134,
+    "label": "IELTS Reading · Passage 3 · Practice 134 · Global Warming",
+    "detail": "IELTS Reading · Passage 3 · Practice 134 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=70c2ed4ab2b56999"
+  },
+  {
+    "id": "download-material:reading-passage-3:fc9d7f44bbc755ce",
+    "type": "download-material",
+    "ordinal": 135,
+    "label": "IELTS Reading · Passage 3 · Practice 135 · Extinct: the Giant Deer",
+    "detail": "IELTS Reading · Passage 3 · Practice 135 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=fc9d7f44bbc755ce"
+  },
+  {
+    "id": "download-material:reading-passage-3:9b13db4cfb921aa3",
+    "type": "download-material",
+    "ordinal": 136,
+    "label": "IELTS Reading · Passage 3 · Practice 136 · The Nagymaros Dam",
+    "detail": "IELTS Reading · Passage 3 · Practice 136 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=9b13db4cfb921aa3"
+  },
+  {
+    "id": "download-material:reading-passage-3:705cfc3c53c6a50a",
+    "type": "download-material",
+    "ordinal": 137,
+    "label": "IELTS Reading · Passage 3 · Practice 137 · The Discovery of Uranus",
+    "detail": "IELTS Reading · Passage 3 · Practice 137 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=705cfc3c53c6a50a"
+  },
+  {
+    "id": "download-material:reading-passage-3:deeff2765f4a0c1d",
+    "type": "download-material",
+    "ordinal": 138,
+    "label": "IELTS Reading · Passage 3 · Practice 138 · Beyond the blue line",
+    "detail": "IELTS Reading · Passage 3 · Practice 138 - IETLS 閱讀練習 - Passage 3.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=deeff2765f4a0c1d"
+  },
+  {
+    "id": "download-material:reading-passage-3:25ca26aaced6d0e3",
+    "type": "download-material",
+    "ordinal": 139,
+    "label": "IELTS Reading · Passage 3 · Practice 139 · The Dinosaurs Footprints and Extinction",
+    "detail": "IELTS Reading · Passage 3 · Practice 139 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=25ca26aaced6d0e3"
+  },
+  {
+    "id": "download-material:reading-passage-3:d34d89347b293f86",
+    "type": "download-material",
+    "ordinal": 140,
+    "label": "IELTS Reading · Passage 3 · Practice 140 · Digital diet",
+    "detail": "IELTS Reading · Passage 3 · Practice 140 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=d34d89347b293f86"
+  },
+  {
+    "id": "download-material:reading-passage-3:3ec758416741a51b",
+    "type": "download-material",
+    "ordinal": 141,
+    "label": "IELTS Reading · Passage 3 · Practice 141 · The history of the guitar",
+    "detail": "IELTS Reading · Passage 3 · Practice 141 - IETLS 閱讀練習 - Passage 3.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3ec758416741a51b"
+  },
+  {
+    "id": "download-material:reading-passage-3:d95e27f22899f808",
+    "type": "download-material",
+    "ordinal": 142,
+    "label": "IELTS Reading · Passage 3 · Practice 142 · The secret of the Yawn",
+    "detail": "IELTS Reading · Passage 3 · Practice 142 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=d95e27f22899f808"
+  },
+  {
+    "id": "download-material:reading-passage-3:b2f061c62f41c36c",
+    "type": "download-material",
+    "ordinal": 143,
+    "label": "IELTS Reading · Passage 3 · Practice 143 · Water Filter",
+    "detail": "IELTS Reading · Passage 3 · Practice 143 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b2f061c62f41c36c"
+  },
+  {
+    "id": "download-material:reading-passage-3:ac04521a8ce412a6",
+    "type": "download-material",
+    "ordinal": 144,
+    "label": "IELTS Reading · Passage 3 · Practice 144 · Movie of Metropolis",
+    "detail": "IELTS Reading · Passage 3 · Practice 144 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=ac04521a8ce412a6"
+  },
+  {
+    "id": "download-material:reading-passage-3:76d5da3225743161",
+    "type": "download-material",
+    "ordinal": 145,
+    "label": "IELTS Reading · Passage 3 · Practice 145 · Pollution! In the Bay",
+    "detail": "IELTS Reading · Passage 3 · Practice 145 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=76d5da3225743161"
+  },
+  {
+    "id": "download-material:reading-passage-3:e4fbc8d816533783",
+    "type": "download-material",
+    "ordinal": 146,
+    "label": "IELTS Reading · Passage 3 · Practice 146 · Finding our way",
+    "detail": "IELTS Reading · Passage 3 · Practice 146 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e4fbc8d816533783"
+  },
+  {
+    "id": "download-material:reading-passage-3:97da3196f31807cb",
+    "type": "download-material",
+    "ordinal": 147,
+    "label": "IELTS Reading · Passage 3 · Practice 147 · Rainwater Harvesting",
+    "detail": "IELTS Reading · Passage 3 · Practice 147 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=97da3196f31807cb"
+  },
+  {
+    "id": "download-material:reading-passage-3:686a4a8efd6a86b4",
+    "type": "download-material",
+    "ordinal": 148,
+    "label": "IELTS Reading · Passage 3 · Practice 148 · Compliance Or Noncompliance For Children",
+    "detail": "IELTS Reading · Passage 3 · Practice 148 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=686a4a8efd6a86b4"
+  },
+  {
+    "id": "download-material:reading-passage-3:85a3e80b7a784f83",
+    "type": "download-material",
+    "ordinal": 149,
+    "label": "IELTS Reading · Passage 3 · Practice 149 · Photovoltaics on the rooftop",
+    "detail": "IELTS Reading · Passage 3 · Practice 149 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=85a3e80b7a784f83"
+  },
+  {
+    "id": "download-material:reading-passage-3:b624853c7c72b259",
+    "type": "download-material",
+    "ordinal": 150,
+    "label": "IELTS Reading · Passage 3 · Practice 150 · The Persuaders",
+    "detail": "IELTS Reading · Passage 3 · Practice 150 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b624853c7c72b259"
+  },
+  {
+    "id": "download-material:reading-passage-3:bd08e24c46da4914",
+    "type": "download-material",
+    "ordinal": 151,
+    "label": "IELTS Reading · Passage 3 · Practice 151 · Origin of Species & Continent Formation",
+    "detail": "IELTS Reading · Passage 3 · Practice 151 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=bd08e24c46da4914"
+  },
+  {
+    "id": "download-material:reading-passage-3:c5e804fd549c83a7",
+    "type": "download-material",
+    "ordinal": 152,
+    "label": "IELTS Reading · Passage 3 · Practice 152 · Roller coaster",
+    "detail": "IELTS Reading · Passage 3 · Practice 152 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=c5e804fd549c83a7"
+  },
+  {
+    "id": "download-material:reading-passage-3:26ef26fe7f251fee",
+    "type": "download-material",
+    "ordinal": 153,
+    "label": "IELTS Reading · Passage 3 · Practice 153 · Inspired by Mimicking Mother Nature",
+    "detail": "IELTS Reading · Passage 3 · Practice 153 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=26ef26fe7f251fee"
+  },
+  {
+    "id": "download-material:reading-passage-3:7d0d1e8bd3269451",
+    "type": "download-material",
+    "ordinal": 154,
+    "label": "IELTS Reading · Passage 3 · Practice 154 · Memory and Age",
+    "detail": "IELTS Reading · Passage 3 · Practice 154 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7d0d1e8bd3269451"
+  },
+  {
+    "id": "download-material:reading-passage-3:8b4a84d62cdc2cb9",
+    "type": "download-material",
+    "ordinal": 155,
+    "label": "IELTS Reading · Passage 3 · Practice 155 · Soviet’s New Working Week",
+    "detail": "IELTS Reading · Passage 3 · Practice 155 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=8b4a84d62cdc2cb9"
+  },
+  {
+    "id": "download-material:reading-passage-3:b40aa36018203898",
+    "type": "download-material",
+    "ordinal": 156,
+    "label": "IELTS Reading · Passage 3 · Practice 156 · Art in Iron and Steel",
+    "detail": "IELTS Reading · Passage 3 · Practice 156 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b40aa36018203898"
+  },
+  {
+    "id": "download-material:reading-passage-3:517c1b8678cbb3eb",
+    "type": "download-material",
+    "ordinal": 157,
+    "label": "IELTS Reading · Passage 3 · Practice 157 · Mystery in Easter Island",
+    "detail": "IELTS Reading · Passage 3 · Practice 157 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=517c1b8678cbb3eb"
+  },
+  {
+    "id": "download-material:reading-passage-3:e06383667f7b4ad3",
+    "type": "download-material",
+    "ordinal": 158,
+    "label": "IELTS Reading · Passage 3 · Practice 158 · Save Endangered Language",
+    "detail": "IELTS Reading · Passage 3 · Practice 158 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e06383667f7b4ad3"
+  },
+  {
+    "id": "download-material:reading-passage-3:87eb0c601ea33f83",
+    "type": "download-material",
+    "ordinal": 159,
+    "label": "IELTS Reading · Passage 3 · Practice 159 · Designed to Last",
+    "detail": "IELTS Reading · Passage 3 · Practice 159 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=87eb0c601ea33f83"
+  },
+  {
+    "id": "download-material:reading-passage-3:7f55b2d4f790837d",
+    "type": "download-material",
+    "ordinal": 160,
+    "label": "IELTS Reading · Passage 3 · Practice 160 · Book review on Musicophilia",
+    "detail": "IELTS Reading · Passage 3 · Practice 160 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7f55b2d4f790837d"
+  },
+  {
+    "id": "download-material:reading-passage-3:7d93d4017f6769a2",
+    "type": "download-material",
+    "ordinal": 161,
+    "label": "IELTS Reading · Passage 3 · Practice 161 · What Are Dreams?",
+    "detail": "IELTS Reading · Passage 3 · Practice 161 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=7d93d4017f6769a2"
+  },
+  {
+    "id": "download-material:reading-passage-3:bfb889ad9e2ba334",
+    "type": "download-material",
+    "ordinal": 162,
+    "label": "IELTS Reading · Passage 3 · Practice 162 · Water Treatment 2: Reed Bed",
+    "detail": "IELTS Reading · Passage 3 · Practice 162 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=bfb889ad9e2ba334"
+  },
+  {
+    "id": "download-material:reading-passage-3:c6e053e3b87611b6",
+    "type": "download-material",
+    "ordinal": 163,
+    "label": "IELTS Reading · Passage 3 · Practice 163 · Tele-working",
+    "detail": "IELTS Reading · Passage 3 · Practice 163 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=c6e053e3b87611b6"
+  },
+  {
+    "id": "download-material:reading-passage-3:06039896ef868e3f",
+    "type": "download-material",
+    "ordinal": 164,
+    "label": "IELTS Reading · Passage 3 · Practice 164 · The Impact of Environment to Children",
+    "detail": "IELTS Reading · Passage 3 · Practice 164 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=06039896ef868e3f"
+  },
+  {
+    "id": "download-material:reading-passage-3:e629dc2b7ffb3eea",
+    "type": "download-material",
+    "ordinal": 165,
+    "label": "IELTS Reading · Passage 3 · Practice 165 · The return of monkey life",
+    "detail": "IELTS Reading · Passage 3 · Practice 165 - IETLS 閱讀練習 - Passage 3.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e629dc2b7ffb3eea"
+  },
+  {
+    "id": "download-material:reading-passage-3:699a61a3bd7daca0",
+    "type": "download-material",
+    "ordinal": 166,
+    "label": "IELTS Reading · Passage 3 · Practice 166 · Alfred Nobel: The man behind the Nobel Prize",
+    "detail": "IELTS Reading · Passage 3 · Practice 166 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=699a61a3bd7daca0"
+  },
+  {
+    "id": "download-material:reading-passage-3:620864ffc061e56f",
+    "type": "download-material",
+    "ordinal": 167,
+    "label": "IELTS Reading · Passage 3 · Practice 167 · The Flavour Industry",
+    "detail": "IELTS Reading · Passage 3 · Practice 167 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=620864ffc061e56f"
+  },
+  {
+    "id": "download-material:reading-passage-3:cbbb53b8f285a8f7",
+    "type": "download-material",
+    "ordinal": 168,
+    "label": "IELTS Reading · Passage 3 · Practice 168 · Growing up in New Zealand",
+    "detail": "IELTS Reading · Passage 3 · Practice 168 - IETLS 閱讀練習 - Passage 3.pdf · 4 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=cbbb53b8f285a8f7"
+  },
+  {
+    "id": "download-material:reading-passage-3:e261f375a9b61aaf",
+    "type": "download-material",
+    "ordinal": 169,
+    "label": "IELTS Reading · Passage 3 · Practice 169 · The fluoridation controversy",
+    "detail": "IELTS Reading · Passage 3 · Practice 169 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=e261f375a9b61aaf"
+  },
+  {
+    "id": "download-material:reading-passage-3:a552b93e4fcc7de1",
+    "type": "download-material",
+    "ordinal": 170,
+    "label": "IELTS Reading · Passage 3 · Practice 170 · Mind Music",
+    "detail": "IELTS Reading · Passage 3 · Practice 170 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=a552b93e4fcc7de1"
+  },
+  {
+    "id": "download-material:reading-passage-3:b08691d0c48e43b0",
+    "type": "download-material",
+    "ordinal": 171,
+    "label": "IELTS Reading · Passage 3 · Practice 171 · The importance of law",
+    "detail": "IELTS Reading · Passage 3 · Practice 171 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=b08691d0c48e43b0"
+  },
+  {
+    "id": "download-material:reading-passage-3:efe7e5dad563c65a",
+    "type": "download-material",
+    "ordinal": 172,
+    "label": "IELTS Reading · Passage 3 · Practice 172 · Why Do We Touch Strangers So Much? A History of the Handshake Offers Clues",
+    "detail": "IELTS Reading · Passage 3 · Practice 172 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=efe7e5dad563c65a"
+  },
+  {
+    "id": "download-material:reading-passage-3:0a40d2f1bb62a0bb",
+    "type": "download-material",
+    "ordinal": 173,
+    "label": "IELTS Reading · Passage 3 · Practice 173 · The value of research into mite harvestmen",
+    "detail": "IELTS Reading · Passage 3 · Practice 173 - IETLS 閱讀練習 - Passage 3.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=0a40d2f1bb62a0bb"
+  },
+  {
+    "id": "download-material:reading-passage-3:532c6719bac142c1",
+    "type": "download-material",
+    "ordinal": 174,
+    "label": "IELTS Reading · Passage 3 · Practice 174 · The Ecological Importance of Bees",
+    "detail": "IELTS Reading · Passage 3 · Practice 174 - IETLS 閱讀練習 - Passage 3.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=532c6719bac142c1"
+  },
+  {
+    "id": "download-material:reading-passage-3:3b108ef4eedc06e6",
+    "type": "download-material",
+    "ordinal": 175,
+    "label": "IELTS Reading · Passage 3 · Practice 175 · Science and the Stradivarius:Uncovering the secret of quality",
+    "detail": "IELTS Reading · Passage 3 · Practice 175 - IETLS 閱讀練習 - Passage 3.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=reading-passage-3&item=3b108ef4eedc06e6"
+  },
+  {
+    "id": "download-material:speaking:a25b61b73555c96a",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Speaking · Part 1 · Book 1 · Book 1 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 1 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 34 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=a25b61b73555c96a"
+  },
+  {
+    "id": "download-material:speaking:3f81c700de49b7be",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Speaking · Part 1 · Book 2 · Book 2 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 2 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 34 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=3f81c700de49b7be"
+  },
+  {
+    "id": "download-material:speaking:c77819065b015ca7",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Speaking · Part 1 · Book 3 · Book 3 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 3 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=c77819065b015ca7"
+  },
+  {
+    "id": "download-material:speaking:fefd5cc50e0715eb",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Speaking · Part 1 · Book 4 · Book 4 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 4 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 29 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=fefd5cc50e0715eb"
+  },
+  {
+    "id": "download-material:speaking:659c745dcdd8f504",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Speaking · Part 1 · Book 5 · Book 5 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 5 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 39 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=659c745dcdd8f504"
+  },
+  {
+    "id": "download-material:speaking:7551bfb3f8087685",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Speaking · Part 1 · Book 6 · Book 6 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 6 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=7551bfb3f8087685"
+  },
+  {
+    "id": "download-material:speaking:adfbd432e8c46d0f",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Speaking · Part 1 · Book 7 · Book 7 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 7 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 25 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=adfbd432e8c46d0f"
+  },
+  {
+    "id": "download-material:speaking:9813dbc9cfc274f2",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Speaking · Part 1 · Book 8 · Book 8 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 8 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=9813dbc9cfc274f2"
+  },
+  {
+    "id": "download-material:speaking:3f6b4842755d4242",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Speaking · Part 1 · Book 9 · Book 9 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 9 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 28 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=3f6b4842755d4242"
+  },
+  {
+    "id": "download-material:speaking:29510b00f87fa551",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Speaking · Part 1 · Book 10 · Book 10 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 10 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 30 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=29510b00f87fa551"
+  },
+  {
+    "id": "download-material:speaking:4ce8f5a84b949ba6",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Speaking · Part 1 · Book 11 · Book 11 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 11 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 29 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=4ce8f5a84b949ba6"
+  },
+  {
+    "id": "download-material:speaking:186f85abd2a2d6cd",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Speaking · Part 1 · Book 12 · Book 12 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 12 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 30 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=186f85abd2a2d6cd"
+  },
+  {
+    "id": "download-material:speaking:5bd875ac5bcdb1b8",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Speaking · Part 1 · Book 13 · Book 13 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 13 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=5bd875ac5bcdb1b8"
+  },
+  {
+    "id": "download-material:speaking:95b5b626fb46197e",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Speaking · Part 1 · Book 14 · Book 14 - IELTS Speaking Part 1 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 1 · Book 14 - IELTS Speaking Part 1 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=95b5b626fb46197e"
+  },
+  {
+    "id": "download-material:speaking:69c648e12e134194",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Speaking · Part 2 · Book 1 · Book 1 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 1 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 44 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=69c648e12e134194"
+  },
+  {
+    "id": "download-material:speaking:4c4980411020f42c",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Speaking · Part 2 · Book 2 · Book 2 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 2 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 47 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=4c4980411020f42c"
+  },
+  {
+    "id": "download-material:speaking:1b7a0e8f8e59a4a2",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Speaking · Part 2 · Book 3 · Book 3 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 3 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 39 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=1b7a0e8f8e59a4a2"
+  },
+  {
+    "id": "download-material:speaking:08f3da5afd8d54f6",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Speaking · Part 2 · Book 4 · Book 4 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 4 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 28 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=08f3da5afd8d54f6"
+  },
+  {
+    "id": "download-material:speaking:272d84d119f0908d",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Speaking · Part 2 · Book 5 · Book 5 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 5 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=272d84d119f0908d"
+  },
+  {
+    "id": "download-material:speaking:45cbd6e6c0d730d6",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Speaking · Part 2 · Book 6 · Book 6 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 6 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=45cbd6e6c0d730d6"
+  },
+  {
+    "id": "download-material:speaking:f0eb2e634e95188b",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Speaking · Part 2 · Book 7 · Book 7 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 7 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=f0eb2e634e95188b"
+  },
+  {
+    "id": "download-material:speaking:90531bc142cb94d9",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Speaking · Part 2 · Book 8 · Book 8 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 8 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 34 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=90531bc142cb94d9"
+  },
+  {
+    "id": "download-material:speaking:cab52e3dea3e18dc",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Speaking · Part 2 · Book 9 · Book 9 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 9 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=cab52e3dea3e18dc"
+  },
+  {
+    "id": "download-material:speaking:68b691fcec87af08",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Speaking · Part 2 · Book 10 · Book 10 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 10 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=68b691fcec87af08"
+  },
+  {
+    "id": "download-material:speaking:e9f3eddec2785b21",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Speaking · Part 2 · Book 11 · Book 11 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 11 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=e9f3eddec2785b21"
+  },
+  {
+    "id": "download-material:speaking:142634f91c46f1c6",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Speaking · Part 2 · Book 12 · Book 12 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 12 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=142634f91c46f1c6"
+  },
+  {
+    "id": "download-material:speaking:20b9a930923c70c7",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Speaking · Part 2 · Book 13 · Book 13 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 13 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 32 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=20b9a930923c70c7"
+  },
+  {
+    "id": "download-material:speaking:84307bc79f6fc9eb",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Speaking · Part 2 · Book 14 · Book 14 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 14 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 31 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=84307bc79f6fc9eb"
+  },
+  {
+    "id": "download-material:speaking:961a6b737da2e0c6",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Speaking · Part 2 · Book 15 · Book 15 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 15 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 28 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=961a6b737da2e0c6"
+  },
+  {
+    "id": "download-material:speaking:6b59a315113b1267",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Speaking · Part 2 · Book 16 · Book 16 - IELTS Speaking Part 2 - Band 9 Samples",
+    "detail": "IELTS Speaking · Part 2 · Book 16 - IELTS Speaking Part 2 - Band 9 Samples.pdf · 16 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=6b59a315113b1267"
+  },
+  {
+    "id": "download-material:speaking:bfd37b9273704de8",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Speaking · Part 3 · Book 1 · Book 1 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 1 - Band 9 IELTS Speaking - Part 3.pdf · 56 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=bfd37b9273704de8"
+  },
+  {
+    "id": "download-material:speaking:eeb36f8e1eeb22ed",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Speaking · Part 3 · Book 2 · Book 2 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 2 - Band 9 IELTS Speaking - Part 3.pdf · 100 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=eeb36f8e1eeb22ed"
+  },
+  {
+    "id": "download-material:speaking:df75d88e26e5d4fc",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Speaking · Part 3 · Book 3 · Book 3 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 3 - Band 9 IELTS Speaking - Part 3.pdf · 136 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=df75d88e26e5d4fc"
+  },
+  {
+    "id": "download-material:speaking:001755d76e224c93",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Speaking · Part 3 · Book 4 · Book 4 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 4 - Band 9 IELTS Speaking - Part 3.pdf · 52 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=001755d76e224c93"
+  },
+  {
+    "id": "download-material:speaking:a7a59c7b9d2076bf",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Speaking · Part 3 · Book 5 · Book 5 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 5 - Band 9 IELTS Speaking - Part 3.pdf · 89 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=a7a59c7b9d2076bf"
+  },
+  {
+    "id": "download-material:speaking:d3b2c56bd8ecf2a9",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Speaking · Part 3 · Book 6 · Book 6 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 6 - Band 9 IELTS Speaking - Part 3.pdf · 117 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=d3b2c56bd8ecf2a9"
+  },
+  {
+    "id": "download-material:speaking:7c178c51cf5916f4",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Speaking · Part 3 · Book 7 · Book 7 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 7 - Band 9 IELTS Speaking - Part 3.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=7c178c51cf5916f4"
+  },
+  {
+    "id": "download-material:speaking:eceec82e77bb67fc",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Speaking · Part 3 · Book 8 · Book 8 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 8 - Band 9 IELTS Speaking - Part 3.pdf · 83 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=eceec82e77bb67fc"
+  },
+  {
+    "id": "download-material:speaking:7a25595cab2e71f8",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Speaking · Part 3 · Book 9 · Book 9 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 9 - Band 9 IELTS Speaking - Part 3.pdf · 88 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=7a25595cab2e71f8"
+  },
+  {
+    "id": "download-material:speaking:a1e10f1cd4440e18",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Speaking · Part 3 · Book 10 · Book 10 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 10 - Band 9 IELTS Speaking - Part 3.pdf · 91 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=a1e10f1cd4440e18"
+  },
+  {
+    "id": "download-material:speaking:023943d87361e33e",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Speaking · Part 3 · Book 11 · Book 11 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 11 - Band 9 IELTS Speaking - Part 3.pdf · 85 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=023943d87361e33e"
+  },
+  {
+    "id": "download-material:speaking:64814accda3dd5bb",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Speaking · Part 3 · Book 12 · Book 12 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 12 - Band 9 IELTS Speaking - Part 3.pdf · 120 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=64814accda3dd5bb"
+  },
+  {
+    "id": "download-material:speaking:621e7efbaba64d47",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Speaking · Part 3 · Book 13 · Book 13 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 13 - Band 9 IELTS Speaking - Part 3.pdf · 63 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=621e7efbaba64d47"
+  },
+  {
+    "id": "download-material:speaking:39b58d71546ad159",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Speaking · Part 3 · Book 14 · Book 14 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 14 - Band 9 IELTS Speaking - Part 3.pdf · 76 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=39b58d71546ad159"
+  },
+  {
+    "id": "download-material:speaking:e8e8c9107b4e18c7",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Speaking · Part 3 · Book 15 · Book 15 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 15 - Band 9 IELTS Speaking - Part 3.pdf · 90 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=e8e8c9107b4e18c7"
+  },
+  {
+    "id": "download-material:speaking:ffddc96ce58a0283",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Speaking · Part 3 · Book 16 · Book 16 - Band 9 IELTS Speaking - Part 3",
+    "detail": "IELTS Speaking · Part 3 · Book 16 - Band 9 IELTS Speaking - Part 3.pdf · 139 pages",
+    "url": "model-essay-downloads.html?catalog=speaking&item=ffddc96ce58a0283"
+  },
+  {
+    "id": "download-material:task1:7dbef4734e78f596",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 1 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · (Without Analysis) Model Essay 1 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=7dbef4734e78f596"
+  },
+  {
+    "id": "download-material:task1:40ec3b6a034b8c04",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 2 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 2 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=40ec3b6a034b8c04"
+  },
+  {
+    "id": "download-material:task1:3108bf95448ae2ad",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 3 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 3 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=3108bf95448ae2ad"
+  },
+  {
+    "id": "download-material:task1:bcfe9325a5f36f01",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 3 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · (Without Analysis) Model Essay 3 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=bcfe9325a5f36f01"
+  },
+  {
+    "id": "download-material:task1:a10a09b940c33603",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 4 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 4 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=a10a09b940c33603"
+  },
+  {
+    "id": "download-material:task1:39da5bdbf015c7dd",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 4 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · (Without Analysis) Model Essay 4 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=39da5bdbf015c7dd"
+  },
+  {
+    "id": "download-material:task1:ff83651efd0fd852",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 5 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 5 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=ff83651efd0fd852"
+  },
+  {
+    "id": "download-material:task1:866105f2d4715054",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 5 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · (Without Analysis) Model Essay 5 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=866105f2d4715054"
+  },
+  {
+    "id": "download-material:task1:d56e3cd3ed9cdd23",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 6 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 6 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=d56e3cd3ed9cdd23"
+  },
+  {
+    "id": "download-material:task1:e3854966ae1d072a",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 6 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · (Without Analysis) Model Essay 6 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=e3854966ae1d072a"
+  },
+  {
+    "id": "download-material:task1:4c81d85f5a36830c",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 7 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 7 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=4c81d85f5a36830c"
+  },
+  {
+    "id": "download-material:task1:39115aaf73ff8d8a",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 7 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · (Without Analysis) Model Essay 7 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=39115aaf73ff8d8a"
+  },
+  {
+    "id": "download-material:task1:e9299213ce6318f9",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 8 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · (Without Analysis) Model Essay 8 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=e9299213ce6318f9"
+  },
+  {
+    "id": "download-material:task1:c9cd944fcfc6096e",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 8 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 8 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c9cd944fcfc6096e"
+  },
+  {
+    "id": "download-material:task1:dc813409446dae01",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 9 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · (Without Analysis) Model Essay 9 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=dc813409446dae01"
+  },
+  {
+    "id": "download-material:task1:be3ddbe818aa1f05",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 9 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 9 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=be3ddbe818aa1f05"
+  },
+  {
+    "id": "download-material:task1:c0c324128c1fec18",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 1 · (Without Analysis) Model Essay 10 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · (Without Analysis) Model Essay 10 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c0c324128c1fec18"
+  },
+  {
+    "id": "download-material:task1:3e1bb1553bc0ceaa",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · Model Essay 1 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 1 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 55 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=3e1bb1553bc0ceaa"
+  },
+  {
+    "id": "download-material:task1:71ff4d89a95b2c2e",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · Model Essay 1 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 1 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 59 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=71ff4d89a95b2c2e"
+  },
+  {
+    "id": "download-material:task1:836029302135df5d",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · Model Essay 1 - IELTS - Maps - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Maps · Model Essay 1 - IELTS - Maps - (Band 9 示範) - Task 1.pdf · 80 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=836029302135df5d"
+  },
+  {
+    "id": "download-material:task1:6bf5c5fdb0468950",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · Model Essay 1 - IELTS - Pie Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 1 - IELTS - Pie Charts - (Band 9 示範) - Task 1.pdf · 57 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=6bf5c5fdb0468950"
+  },
+  {
+    "id": "download-material:task1:a58f4ea2f3c38a35",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · Model Essay 1 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 1 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 49 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=a58f4ea2f3c38a35"
+  },
+  {
+    "id": "download-material:task1:ffaebea71b843f3e",
+    "type": "download-material",
+    "ordinal": 1,
+    "label": "IELTS Writing Task 1 · Model Essay 1 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 1 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 42 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=ffaebea71b843f3e"
+  },
+  {
+    "id": "download-material:task1:7899d6f0851ded49",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · Model Essay 2 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 2 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 78 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=7899d6f0851ded49"
+  },
+  {
+    "id": "download-material:task1:ddeacbeea2ad3507",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · Model Essay 2 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 2 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 84 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=ddeacbeea2ad3507"
+  },
+  {
+    "id": "download-material:task1:40fdd678b1a57189",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · Model Essay 2 - IELTS - MIXED Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · Model Essay 2 - IELTS - MIXED Charts - (Band 9 示範) - Task 1.pdf · 83 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=40fdd678b1a57189"
+  },
+  {
+    "id": "download-material:task1:6c91d2c332cf05ca",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · Model Essay 2 - IELTS - Pie Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 2 - IELTS - Pie Charts - (Band 9 示範) - Task 1.pdf · 67 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=6c91d2c332cf05ca"
+  },
+  {
+    "id": "download-material:task1:c24cc12a4be3cd1a",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · Model Essay 2 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 2 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 75 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c24cc12a4be3cd1a"
+  },
+  {
+    "id": "download-material:task1:ea373604c6f07516",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 1 · Model Essay 2 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 2 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=ea373604c6f07516"
+  },
+  {
+    "id": "download-material:task1:bd3ad3ecfa635bf1",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · Model Essay 3 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 3 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 41 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=bd3ad3ecfa635bf1"
+  },
+  {
+    "id": "download-material:task1:dedab8749d34fd07",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · Model Essay 3 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 3 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 75 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=dedab8749d34fd07"
+  },
+  {
+    "id": "download-material:task1:06348230da05d01a",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · Model Essay 3 - IELTS - Pie Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 3 - IELTS - Pie Charts - (Band 9 示範) - Task 1.pdf · 69 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=06348230da05d01a"
+  },
+  {
+    "id": "download-material:task1:45c2e94501a6cbd4",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · Model Essay 3 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 3 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 82 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=45c2e94501a6cbd4"
+  },
+  {
+    "id": "download-material:task1:bd0d06e426514583",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 1 · Model Essay 3 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 3 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=bd0d06e426514583"
+  },
+  {
+    "id": "download-material:task1:f8d29e1afe45b19b",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · Model Essay 4 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 4 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 78 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=f8d29e1afe45b19b"
+  },
+  {
+    "id": "download-material:task1:2dc8588aac78816a",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · Model Essay 4 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 4 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 74 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=2dc8588aac78816a"
+  },
+  {
+    "id": "download-material:task1:8ee4ea892b4e828f",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · Model Essay 4 - IELTS - Pie Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 4 - IELTS - Pie Charts - (Band 9 示範) - Task 1.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=8ee4ea892b4e828f"
+  },
+  {
+    "id": "download-material:task1:e8626be8edf835eb",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · Model Essay 4 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 4 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 67 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=e8626be8edf835eb"
+  },
+  {
+    "id": "download-material:task1:d2a89505a839effa",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 1 · Model Essay 4 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 4 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=d2a89505a839effa"
+  },
+  {
+    "id": "download-material:task1:3801b59b76e1a8d5",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · Model Essay 5 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 5 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 65 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=3801b59b76e1a8d5"
+  },
+  {
+    "id": "download-material:task1:00e065dff77dd954",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · Model Essay 5 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 5 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 99 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=00e065dff77dd954"
+  },
+  {
+    "id": "download-material:task1:7d251b9d56bc2df0",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · Model Essay 5 - IELTS - Pie Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 5 - IELTS - Pie Charts - (Band 9 示範) - Task 1.pdf · 66 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=7d251b9d56bc2df0"
+  },
+  {
+    "id": "download-material:task1:eff0b8b13304d597",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · Model Essay 5 - IELTS - Pie Charts - (Band 9 示範) - Task 1-1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 5 - IELTS - Pie Charts - (Band 9 示範) - Task 1-1.pdf · 66 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=eff0b8b13304d597"
+  },
+  {
+    "id": "download-material:task1:7a9d6e38e8228861",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · Model Essay 5 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 5 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 83 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=7a9d6e38e8228861"
+  },
+  {
+    "id": "download-material:task1:01a91d2f67a67c87",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 1 · Model Essay 5 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 5 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 5 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=01a91d2f67a67c87"
+  },
+  {
+    "id": "download-material:task1:6af607e7b296c366",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · Model Essay 6 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 6 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 74 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=6af607e7b296c366"
+  },
+  {
+    "id": "download-material:task1:6d64da0f980c5b62",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · Model Essay 6 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 6 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 76 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=6d64da0f980c5b62"
+  },
+  {
+    "id": "download-material:task1:8ddab76dbdc19c6a",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · Model Essay 6 - IELTS - Pie Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Pie Charts · Model Essay 6 - IELTS - Pie Charts - (Band 9 示範) - Task 1.pdf · 82 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=8ddab76dbdc19c6a"
+  },
+  {
+    "id": "download-material:task1:b47b5fd02c70d466",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · Model Essay 6 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 6 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 46 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=b47b5fd02c70d466"
+  },
+  {
+    "id": "download-material:task1:0f8dcef241e8cae4",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 1 · Model Essay 6 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 6 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=0f8dcef241e8cae4"
+  },
+  {
+    "id": "download-material:task1:042f69668f6be132",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 1 · Model Essay 7 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 7 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 72 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=042f69668f6be132"
+  },
+  {
+    "id": "download-material:task1:2109a35341a42774",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 1 · Model Essay 7 - IELTS - Line Graph - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Line Graph · Model Essay 7 - IELTS - Line Graph - (Band 9 示範) - Task 1.pdf · 70 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=2109a35341a42774"
+  },
+  {
+    "id": "download-material:task1:84919747d975fac1",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 1 · Model Essay 7 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 7 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 65 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=84919747d975fac1"
+  },
+  {
+    "id": "download-material:task1:e2a40d413d094fde",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 1 · Model Essay 7 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 7 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=e2a40d413d094fde"
+  },
+  {
+    "id": "download-material:task1:c35df0af4c4df77a",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 1 · Model Essay 8 - IELTS - Bar Charts - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Bar Charts · Model Essay 8 - IELTS - Bar Charts - (Band 9 示範) - Task 1.pdf · 62 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c35df0af4c4df77a"
+  },
+  {
+    "id": "download-material:task1:c29c72d8f4b8e5bb",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 1 · Model Essay 8 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 8 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 64 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c29c72d8f4b8e5bb"
+  },
+  {
+    "id": "download-material:task1:c51ce944f8dd9b04",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 1 · Model Essay 8 - IELTS - Process Diagram - (Band 9 示範) - Task 1-1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 8 - IELTS - Process Diagram - (Band 9 示範) - Task 1-1.pdf · 64 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c51ce944f8dd9b04"
+  },
+  {
+    "id": "download-material:task1:a3b81766de5a95fa",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 1 · Model Essay 8 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 8 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=a3b81766de5a95fa"
+  },
+  {
+    "id": "download-material:task1:560756f3f4040952",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 1 · Model Essay 9 - IELTS - Process Diagram - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Process Diagram · Model Essay 9 - IELTS - Process Diagram - (Band 9 示範) - Task 1.pdf · 93 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=560756f3f4040952"
+  },
+  {
+    "id": "download-material:task1:c5ad67a8217070c4",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 1 · Model Essay 9 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 9 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=c5ad67a8217070c4"
+  },
+  {
+    "id": "download-material:task1:df38acd2c6b584cf",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 1 · Model Essay 10 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 10 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=df38acd2c6b584cf"
+  },
+  {
+    "id": "download-material:task1:08046233beb2fdf9",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Writing Task 1 · Model Essay 11 - IELTS - Tables - (Band 9 示範) - Task 1",
+    "detail": "IELTS Writing Task 1 · Tables · Model Essay 11 - IELTS - Tables - (Band 9 示範) - Task 1.pdf · 6 pages",
+    "url": "model-essay-downloads.html?catalog=task1&item=08046233beb2fdf9"
+  },
+  {
+    "id": "download-material:task2:aefb44dffb23150b",
+    "type": "download-material",
+    "ordinal": 38,
+    "label": "IELTS Writing Task 2 · (Problem) Model Essay 38 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · (Problem) Model Essay 38 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=aefb44dffb23150b"
+  },
+  {
+    "id": "download-material:task2:2da61e9abc37d7d0",
+    "type": "download-material",
+    "ordinal": 102,
+    "label": "IELTS Writing Task 2 · (Problem) Model Essay 102 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · (Problem) Model Essay 102 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=2da61e9abc37d7d0"
+  },
+  {
+    "id": "download-material:task2:e4588b75807b9bfc",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 2 · Model Essay 2 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2-1",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 2 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2-1.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e4588b75807b9bfc"
+  },
+  {
+    "id": "download-material:task2:5e2e36e70ada5dc8",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 2 · Model Essay 2 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 2 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=5e2e36e70ada5dc8"
+  },
+  {
+    "id": "download-material:task2:de932ec3f1ad3318",
+    "type": "download-material",
+    "ordinal": 2,
+    "label": "IELTS Writing Task 2 · Model Essay 2 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 2 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=de932ec3f1ad3318"
+  },
+  {
+    "id": "download-material:task2:4cd138baef56aa46",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 2 · Model Essay 3 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2-1",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 3 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2-1.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4cd138baef56aa46"
+  },
+  {
+    "id": "download-material:task2:34de68f14891d3b0",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 2 · Model Essay 3 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 3 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=34de68f14891d3b0"
+  },
+  {
+    "id": "download-material:task2:3d9539752a2fb0b2",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 2 · Model Essay 3 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 3 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3d9539752a2fb0b2"
+  },
+  {
+    "id": "download-material:task2:9f2d7dfd05cd4ee1",
+    "type": "download-material",
+    "ordinal": 3,
+    "label": "IELTS Writing Task 2 · Model Essay 3 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 3 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 55 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9f2d7dfd05cd4ee1"
+  },
+  {
+    "id": "download-material:task2:56e672bf2144bd76",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 2 · Model Essay 4 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 4 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=56e672bf2144bd76"
+  },
+  {
+    "id": "download-material:task2:a75dfd0ec7f308b4",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 2 · Model Essay 4 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 4 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a75dfd0ec7f308b4"
+  },
+  {
+    "id": "download-material:task2:f64c9c593cab0bea",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 2 · Model Essay 4 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 4 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f64c9c593cab0bea"
+  },
+  {
+    "id": "download-material:task2:95a315e5e3a7a064",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 2 · Model Essay 4 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 4 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=95a315e5e3a7a064"
+  },
+  {
+    "id": "download-material:task2:cf31599d8227f1fc",
+    "type": "download-material",
+    "ordinal": 4,
+    "label": "IELTS Writing Task 2 · Model Essay 4 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 4 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=cf31599d8227f1fc"
+  },
+  {
+    "id": "download-material:task2:d36b674def95b851",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 2 · Model Essay 5 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 5 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d36b674def95b851"
+  },
+  {
+    "id": "download-material:task2:32f32ec5049e4b52",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 2 · Model Essay 5 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 5 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=32f32ec5049e4b52"
+  },
+  {
+    "id": "download-material:task2:8d5ca5374e5f95f4",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 2 · Model Essay 5 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 5 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=8d5ca5374e5f95f4"
+  },
+  {
+    "id": "download-material:task2:24ffaaab7a32386a",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 2 · Model Essay 5 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 5 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=24ffaaab7a32386a"
+  },
+  {
+    "id": "download-material:task2:91bb9ed37574382a",
+    "type": "download-material",
+    "ordinal": 5,
+    "label": "IELTS Writing Task 2 · Model Essay 5 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 5 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=91bb9ed37574382a"
+  },
+  {
+    "id": "download-material:task2:2f6f0d814baafbdf",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 2 · Model Essay 6 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 6 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=2f6f0d814baafbdf"
+  },
+  {
+    "id": "download-material:task2:75d7f8bb1c8f0df1",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 2 · Model Essay 6 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 6 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=75d7f8bb1c8f0df1"
+  },
+  {
+    "id": "download-material:task2:e086e22e58ae10e2",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 2 · Model Essay 6 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 6 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e086e22e58ae10e2"
+  },
+  {
+    "id": "download-material:task2:825d0dce3544bd2a",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 2 · Model Essay 6 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 6 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=825d0dce3544bd2a"
+  },
+  {
+    "id": "download-material:task2:039eceac2c68bbfe",
+    "type": "download-material",
+    "ordinal": 6,
+    "label": "IELTS Writing Task 2 · Model Essay 6 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 6 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=039eceac2c68bbfe"
+  },
+  {
+    "id": "download-material:task2:19884a9a468af453",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 2 · Model Essay 7 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 7 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=19884a9a468af453"
+  },
+  {
+    "id": "download-material:task2:1fe6efe4448b56cf",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 2 · Model Essay 7 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 7 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=1fe6efe4448b56cf"
+  },
+  {
+    "id": "download-material:task2:fb930f7cb6c8fb3b",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 2 · Model Essay 7 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 7 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=fb930f7cb6c8fb3b"
+  },
+  {
+    "id": "download-material:task2:e45bf440347b633f",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 2 · Model Essay 7 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 7 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e45bf440347b633f"
+  },
+  {
+    "id": "download-material:task2:dc0a4bbd467155ab",
+    "type": "download-material",
+    "ordinal": 7,
+    "label": "IELTS Writing Task 2 · Model Essay 7 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 7 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=dc0a4bbd467155ab"
+  },
+  {
+    "id": "download-material:task2:c636b1d395e50c55",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 2 · Model Essay 8 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 8 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c636b1d395e50c55"
+  },
+  {
+    "id": "download-material:task2:9eb4021ec51a89c3",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 2 · Model Essay 8 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 8 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9eb4021ec51a89c3"
+  },
+  {
+    "id": "download-material:task2:29fe109f4e9c0255",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 2 · Model Essay 8 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 8 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=29fe109f4e9c0255"
+  },
+  {
+    "id": "download-material:task2:e29f5d4f95140980",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 2 · Model Essay 8 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 8 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e29f5d4f95140980"
+  },
+  {
+    "id": "download-material:task2:17b75763f8467844",
+    "type": "download-material",
+    "ordinal": 8,
+    "label": "IELTS Writing Task 2 · Model Essay 8 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 8 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=17b75763f8467844"
+  },
+  {
+    "id": "download-material:task2:eddb5a7f137bae54",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 2 · Model Essay 9 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 9 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=eddb5a7f137bae54"
+  },
+  {
+    "id": "download-material:task2:b2287cd932159904",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 2 · Model Essay 9 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 9 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=b2287cd932159904"
+  },
+  {
+    "id": "download-material:task2:4cc2f8ac7e7a5615",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 2 · Model Essay 9 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 9 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4cc2f8ac7e7a5615"
+  },
+  {
+    "id": "download-material:task2:ffdd09b6f248f58f",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 2 · Model Essay 9 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 9 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ffdd09b6f248f58f"
+  },
+  {
+    "id": "download-material:task2:f9174ccfdbed0bbb",
+    "type": "download-material",
+    "ordinal": 9,
+    "label": "IELTS Writing Task 2 · Model Essay 9 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 9 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f9174ccfdbed0bbb"
+  },
+  {
+    "id": "download-material:task2:6560800c0e1aa065",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 2 · Model Essay 10 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 10 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6560800c0e1aa065"
+  },
+  {
+    "id": "download-material:task2:f6aed73a58a24abf",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 2 · Model Essay 10 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 10 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f6aed73a58a24abf"
+  },
+  {
+    "id": "download-material:task2:bdfdff243d9c09d0",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 2 · Model Essay 10 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 10 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=bdfdff243d9c09d0"
+  },
+  {
+    "id": "download-material:task2:86b2925a4eed4399",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 2 · Model Essay 10 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 10 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=86b2925a4eed4399"
+  },
+  {
+    "id": "download-material:task2:6625c99ab45a8144",
+    "type": "download-material",
+    "ordinal": 10,
+    "label": "IELTS Writing Task 2 · Model Essay 10 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 10 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6625c99ab45a8144"
+  },
+  {
+    "id": "download-material:task2:40ce99c58542565e",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Writing Task 2 · Model Essay 11 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 11 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=40ce99c58542565e"
+  },
+  {
+    "id": "download-material:task2:0786deaafa309c93",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Writing Task 2 · Model Essay 11 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 11 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0786deaafa309c93"
+  },
+  {
+    "id": "download-material:task2:3c1b2d74df0ab0a3",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Writing Task 2 · Model Essay 11 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 11 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3c1b2d74df0ab0a3"
+  },
+  {
+    "id": "download-material:task2:1920f2decc789841",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Writing Task 2 · Model Essay 11 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 11 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=1920f2decc789841"
+  },
+  {
+    "id": "download-material:task2:ada22fcbf3c50b4a",
+    "type": "download-material",
+    "ordinal": 11,
+    "label": "IELTS Writing Task 2 · Model Essay 11 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 11 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ada22fcbf3c50b4a"
+  },
+  {
+    "id": "download-material:task2:ad8d55a334528e95",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Writing Task 2 · Model Essay 12 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 12 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ad8d55a334528e95"
+  },
+  {
+    "id": "download-material:task2:36dab1c8684b3dd6",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Writing Task 2 · Model Essay 12 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 12 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=36dab1c8684b3dd6"
+  },
+  {
+    "id": "download-material:task2:30fc338ec4838888",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Writing Task 2 · Model Essay 12 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 12 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=30fc338ec4838888"
+  },
+  {
+    "id": "download-material:task2:643f85eed3b16868",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Writing Task 2 · Model Essay 12 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 12 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=643f85eed3b16868"
+  },
+  {
+    "id": "download-material:task2:6e91af76a6cbcccd",
+    "type": "download-material",
+    "ordinal": 12,
+    "label": "IELTS Writing Task 2 · Model Essay 12 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 12 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6e91af76a6cbcccd"
+  },
+  {
+    "id": "download-material:task2:3861938c8df138ef",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Writing Task 2 · Model Essay 13 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 13 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3861938c8df138ef"
+  },
+  {
+    "id": "download-material:task2:9b24ab1f282ce040",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Writing Task 2 · Model Essay 13 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 13 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9b24ab1f282ce040"
+  },
+  {
+    "id": "download-material:task2:21126bf47908d7ec",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Writing Task 2 · Model Essay 13 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 13 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=21126bf47908d7ec"
+  },
+  {
+    "id": "download-material:task2:d39bac7d4743e4a0",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Writing Task 2 · Model Essay 13 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 13 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d39bac7d4743e4a0"
+  },
+  {
+    "id": "download-material:task2:11c053331750e0f6",
+    "type": "download-material",
+    "ordinal": 13,
+    "label": "IELTS Writing Task 2 · Model Essay 13 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 13 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=11c053331750e0f6"
+  },
+  {
+    "id": "download-material:task2:c7c66459f58400d1",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Writing Task 2 · Model Essay 14 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 14 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c7c66459f58400d1"
+  },
+  {
+    "id": "download-material:task2:3e4257e516918367",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Writing Task 2 · Model Essay 14 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 14 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3e4257e516918367"
+  },
+  {
+    "id": "download-material:task2:a824c4a72a9b1e71",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Writing Task 2 · Model Essay 14 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 14 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a824c4a72a9b1e71"
+  },
+  {
+    "id": "download-material:task2:6f30b3ad6796d0f1",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Writing Task 2 · Model Essay 14 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 14 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6f30b3ad6796d0f1"
+  },
+  {
+    "id": "download-material:task2:60c1e5fa4503ac5f",
+    "type": "download-material",
+    "ordinal": 14,
+    "label": "IELTS Writing Task 2 · Model Essay 14 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 14 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 11 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=60c1e5fa4503ac5f"
+  },
+  {
+    "id": "download-material:task2:357b660b60f72cdf",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Writing Task 2 · Model Essay 15 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 15 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=357b660b60f72cdf"
+  },
+  {
+    "id": "download-material:task2:c7d759b66ca8d453",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Writing Task 2 · Model Essay 15 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 15 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c7d759b66ca8d453"
+  },
+  {
+    "id": "download-material:task2:37f7c283582f93f0",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Writing Task 2 · Model Essay 15 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 15 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=37f7c283582f93f0"
+  },
+  {
+    "id": "download-material:task2:db39de9429af1fec",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Writing Task 2 · Model Essay 15 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 15 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=db39de9429af1fec"
+  },
+  {
+    "id": "download-material:task2:b8e03f243c979c35",
+    "type": "download-material",
+    "ordinal": 15,
+    "label": "IELTS Writing Task 2 · Model Essay 15 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 15 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=b8e03f243c979c35"
+  },
+  {
+    "id": "download-material:task2:fa6d0f47b891aed9",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Writing Task 2 · Model Essay 16 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 16 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=fa6d0f47b891aed9"
+  },
+  {
+    "id": "download-material:task2:224151992c418c10",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Writing Task 2 · Model Essay 16 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 16 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=224151992c418c10"
+  },
+  {
+    "id": "download-material:task2:1b0017783dfc1c3f",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Writing Task 2 · Model Essay 16 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 16 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=1b0017783dfc1c3f"
+  },
+  {
+    "id": "download-material:task2:e23fac7b7ff17263",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Writing Task 2 · Model Essay 16 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 16 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e23fac7b7ff17263"
+  },
+  {
+    "id": "download-material:task2:a38bb960a9e743ed",
+    "type": "download-material",
+    "ordinal": 16,
+    "label": "IELTS Writing Task 2 · Model Essay 16 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 16 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a38bb960a9e743ed"
+  },
+  {
+    "id": "download-material:task2:4b89794062863084",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Writing Task 2 · Model Essay 17 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 17 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4b89794062863084"
+  },
+  {
+    "id": "download-material:task2:3873f89ba546397d",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Writing Task 2 · Model Essay 17 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 17 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3873f89ba546397d"
+  },
+  {
+    "id": "download-material:task2:55b9ad67ebb0c1c7",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Writing Task 2 · Model Essay 17 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 17 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=55b9ad67ebb0c1c7"
+  },
+  {
+    "id": "download-material:task2:a98721f09cc87fa0",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Writing Task 2 · Model Essay 17 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 17 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a98721f09cc87fa0"
+  },
+  {
+    "id": "download-material:task2:7184701fca25f101",
+    "type": "download-material",
+    "ordinal": 17,
+    "label": "IELTS Writing Task 2 · Model Essay 17 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 17 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=7184701fca25f101"
+  },
+  {
+    "id": "download-material:task2:7cba7d7c5709e237",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Writing Task 2 · Model Essay 18 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 18 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=7cba7d7c5709e237"
+  },
+  {
+    "id": "download-material:task2:46899101e256cd0c",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Writing Task 2 · Model Essay 18 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 18 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=46899101e256cd0c"
+  },
+  {
+    "id": "download-material:task2:f5e1a1f55f2f6338",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Writing Task 2 · Model Essay 18 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 18 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f5e1a1f55f2f6338"
+  },
+  {
+    "id": "download-material:task2:86518c7f01ac8fb2",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Writing Task 2 · Model Essay 18 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 18 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=86518c7f01ac8fb2"
+  },
+  {
+    "id": "download-material:task2:2d1abb34e60e9ab3",
+    "type": "download-material",
+    "ordinal": 18,
+    "label": "IELTS Writing Task 2 · Model Essay 18 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 18 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=2d1abb34e60e9ab3"
+  },
+  {
+    "id": "download-material:task2:5b3771f4138e0868",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Writing Task 2 · Model Essay 19 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 19 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=5b3771f4138e0868"
+  },
+  {
+    "id": "download-material:task2:0f2c8603809c10a3",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Writing Task 2 · Model Essay 19 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 19 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0f2c8603809c10a3"
+  },
+  {
+    "id": "download-material:task2:62be9087a94d0305",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Writing Task 2 · Model Essay 19 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 19 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=62be9087a94d0305"
+  },
+  {
+    "id": "download-material:task2:f3f3248d08928403",
+    "type": "download-material",
+    "ordinal": 19,
+    "label": "IELTS Writing Task 2 · Model Essay 19 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 19 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f3f3248d08928403"
+  },
+  {
+    "id": "download-material:task2:34c6bda7c4fccbcb",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Writing Task 2 · Model Essay 20 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 20 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=34c6bda7c4fccbcb"
+  },
+  {
+    "id": "download-material:task2:56ef936cc95e7042",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Writing Task 2 · Model Essay 20 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Cause and Solution · Model Essay 20 - IELTS - Cause _ Solution Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=56ef936cc95e7042"
+  },
+  {
+    "id": "download-material:task2:dd5a7ee33509d738",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Writing Task 2 · Model Essay 20 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 20 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=dd5a7ee33509d738"
+  },
+  {
+    "id": "download-material:task2:ca5f413873e3410c",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Writing Task 2 · Model Essay 20 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 20 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ca5f413873e3410c"
+  },
+  {
+    "id": "download-material:task2:308a746b353655ce",
+    "type": "download-material",
+    "ordinal": 20,
+    "label": "IELTS Writing Task 2 · Model Essay 20 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 20 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=308a746b353655ce"
+  },
+  {
+    "id": "download-material:task2:0d546aac4474e3b4",
+    "type": "download-material",
+    "ordinal": 21,
+    "label": "IELTS Writing Task 2 · Model Essay 21 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 21 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0d546aac4474e3b4"
+  },
+  {
+    "id": "download-material:task2:982f63fd69093a12",
+    "type": "download-material",
+    "ordinal": 21,
+    "label": "IELTS Writing Task 2 · Model Essay 21 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 21 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=982f63fd69093a12"
+  },
+  {
+    "id": "download-material:task2:28454e6ee822ba11",
+    "type": "download-material",
+    "ordinal": 21,
+    "label": "IELTS Writing Task 2 · Model Essay 21 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 21 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=28454e6ee822ba11"
+  },
+  {
+    "id": "download-material:task2:d49cb51779f95e9f",
+    "type": "download-material",
+    "ordinal": 21,
+    "label": "IELTS Writing Task 2 · Model Essay 21 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 21 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d49cb51779f95e9f"
+  },
+  {
+    "id": "download-material:task2:c33744cf6efa0e06",
+    "type": "download-material",
+    "ordinal": 22,
+    "label": "IELTS Writing Task 2 · Model Essay 22 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 22 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c33744cf6efa0e06"
+  },
+  {
+    "id": "download-material:task2:0bf352c95f2d9211",
+    "type": "download-material",
+    "ordinal": 22,
+    "label": "IELTS Writing Task 2 · Model Essay 22 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 22 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0bf352c95f2d9211"
+  },
+  {
+    "id": "download-material:task2:24ecce1f04b67783",
+    "type": "download-material",
+    "ordinal": 22,
+    "label": "IELTS Writing Task 2 · Model Essay 22 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 22 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=24ecce1f04b67783"
+  },
+  {
+    "id": "download-material:task2:3aa2010c9a9ac3b9",
+    "type": "download-material",
+    "ordinal": 22,
+    "label": "IELTS Writing Task 2 · Model Essay 22 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 22 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3aa2010c9a9ac3b9"
+  },
+  {
+    "id": "download-material:task2:fa2756f783a8fcc2",
+    "type": "download-material",
+    "ordinal": 23,
+    "label": "IELTS Writing Task 2 · Model Essay 23 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 23 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=fa2756f783a8fcc2"
+  },
+  {
+    "id": "download-material:task2:a22d3e7ebafc3fd2",
+    "type": "download-material",
+    "ordinal": 23,
+    "label": "IELTS Writing Task 2 · Model Essay 23 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 23 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a22d3e7ebafc3fd2"
+  },
+  {
+    "id": "download-material:task2:d2f50a12ab9bc746",
+    "type": "download-material",
+    "ordinal": 23,
+    "label": "IELTS Writing Task 2 · Model Essay 23 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 23 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d2f50a12ab9bc746"
+  },
+  {
+    "id": "download-material:task2:ac6bcc196aaf5968",
+    "type": "download-material",
+    "ordinal": 23,
+    "label": "IELTS Writing Task 2 · Model Essay 23 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 23 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ac6bcc196aaf5968"
+  },
+  {
+    "id": "download-material:task2:0d58b2f9e91878b4",
+    "type": "download-material",
+    "ordinal": 24,
+    "label": "IELTS Writing Task 2 · Model Essay 24 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 24 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0d58b2f9e91878b4"
+  },
+  {
+    "id": "download-material:task2:91e21c015233cb83",
+    "type": "download-material",
+    "ordinal": 24,
+    "label": "IELTS Writing Task 2 · Model Essay 24 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 24 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=91e21c015233cb83"
+  },
+  {
+    "id": "download-material:task2:5ffd77707ca96b73",
+    "type": "download-material",
+    "ordinal": 24,
+    "label": "IELTS Writing Task 2 · Model Essay 24 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 24 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=5ffd77707ca96b73"
+  },
+  {
+    "id": "download-material:task2:7e5b847979d54fa3",
+    "type": "download-material",
+    "ordinal": 24,
+    "label": "IELTS Writing Task 2 · Model Essay 24 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 24 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=7e5b847979d54fa3"
+  },
+  {
+    "id": "download-material:task2:b6ff86dcbee6f0b2",
+    "type": "download-material",
+    "ordinal": 25,
+    "label": "IELTS Writing Task 2 · Model Essay 25 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 25 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=b6ff86dcbee6f0b2"
+  },
+  {
+    "id": "download-material:task2:354cbb521dcaf82c",
+    "type": "download-material",
+    "ordinal": 25,
+    "label": "IELTS Writing Task 2 · Model Essay 25 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 25 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=354cbb521dcaf82c"
+  },
+  {
+    "id": "download-material:task2:98761b395e3814e9",
+    "type": "download-material",
+    "ordinal": 25,
+    "label": "IELTS Writing Task 2 · Model Essay 25 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 25 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=98761b395e3814e9"
+  },
+  {
+    "id": "download-material:task2:90e1617f836657c2",
+    "type": "download-material",
+    "ordinal": 25,
+    "label": "IELTS Writing Task 2 · Model Essay 25 - IELTS - Opinion - (Band 9 示範) - Task 2-1",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 25 - IELTS - Opinion - (Band 9 示範) - Task 2-1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=90e1617f836657c2"
+  },
+  {
+    "id": "download-material:task2:9321770e2781a012",
+    "type": "download-material",
+    "ordinal": 26,
+    "label": "IELTS Writing Task 2 · Model Essay 26 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 26 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9321770e2781a012"
+  },
+  {
+    "id": "download-material:task2:93ab816ad65b2417",
+    "type": "download-material",
+    "ordinal": 26,
+    "label": "IELTS Writing Task 2 · Model Essay 26 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 26 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=93ab816ad65b2417"
+  },
+  {
+    "id": "download-material:task2:2fa8acf3f65bd172",
+    "type": "download-material",
+    "ordinal": 26,
+    "label": "IELTS Writing Task 2 · Model Essay 26 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 26 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=2fa8acf3f65bd172"
+  },
+  {
+    "id": "download-material:task2:7376214f7bce3ad5",
+    "type": "download-material",
+    "ordinal": 26,
+    "label": "IELTS Writing Task 2 · Model Essay 26 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 26 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=7376214f7bce3ad5"
+  },
+  {
+    "id": "download-material:task2:2c5d524336901e31",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Writing Task 2 · Model Essay 27 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 27 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=2c5d524336901e31"
+  },
+  {
+    "id": "download-material:task2:23357760f88ae96b",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Writing Task 2 · Model Essay 27 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 27 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=23357760f88ae96b"
+  },
+  {
+    "id": "download-material:task2:42a9356caa5dc02f",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Writing Task 2 · Model Essay 27 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 27 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=42a9356caa5dc02f"
+  },
+  {
+    "id": "download-material:task2:6655266f09ac332c",
+    "type": "download-material",
+    "ordinal": 27,
+    "label": "IELTS Writing Task 2 · Model Essay 27 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 27 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6655266f09ac332c"
+  },
+  {
+    "id": "download-material:task2:438d4d5fb7c19b87",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Writing Task 2 · Model Essay 28 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 28 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=438d4d5fb7c19b87"
+  },
+  {
+    "id": "download-material:task2:06a2c33938348efe",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Writing Task 2 · Model Essay 28 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 28 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=06a2c33938348efe"
+  },
+  {
+    "id": "download-material:task2:47785ddbeb6156db",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Writing Task 2 · Model Essay 28 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 28 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=47785ddbeb6156db"
+  },
+  {
+    "id": "download-material:task2:1fba5328dc6ea84e",
+    "type": "download-material",
+    "ordinal": 28,
+    "label": "IELTS Writing Task 2 · Model Essay 28 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 28 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=1fba5328dc6ea84e"
+  },
+  {
+    "id": "download-material:task2:961f0ef6c0f7ad4f",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Writing Task 2 · Model Essay 29 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 29 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=961f0ef6c0f7ad4f"
+  },
+  {
+    "id": "download-material:task2:f21c338e69186c3a",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Writing Task 2 · Model Essay 29 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 29 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f21c338e69186c3a"
+  },
+  {
+    "id": "download-material:task2:9ab374598647984c",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Writing Task 2 · Model Essay 29 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 29 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9ab374598647984c"
+  },
+  {
+    "id": "download-material:task2:0a763886130c6c74",
+    "type": "download-material",
+    "ordinal": 29,
+    "label": "IELTS Writing Task 2 · Model Essay 29 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 29 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0a763886130c6c74"
+  },
+  {
+    "id": "download-material:task2:6dfdb659eaa9d6ab",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Writing Task 2 · Model Essay 30 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Advantage and Disadvantage · Model Essay 30 - IELTS - Advantage _ Disadvatange Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6dfdb659eaa9d6ab"
+  },
+  {
+    "id": "download-material:task2:b78bca400b5d6756",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Writing Task 2 · Model Essay 30 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 30 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=b78bca400b5d6756"
+  },
+  {
+    "id": "download-material:task2:6a70bbd97548ee51",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Writing Task 2 · Model Essay 30 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 30 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6a70bbd97548ee51"
+  },
+  {
+    "id": "download-material:task2:93cb9293ebf90f9a",
+    "type": "download-material",
+    "ordinal": 30,
+    "label": "IELTS Writing Task 2 · Model Essay 30 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 30 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=93cb9293ebf90f9a"
+  },
+  {
+    "id": "download-material:task2:5114ae3dce916e9e",
+    "type": "download-material",
+    "ordinal": 31,
+    "label": "IELTS Writing Task 2 · Model Essay 31 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 31 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=5114ae3dce916e9e"
+  },
+  {
+    "id": "download-material:task2:9f81dec754051d6d",
+    "type": "download-material",
+    "ordinal": 31,
+    "label": "IELTS Writing Task 2 · Model Essay 31 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 31 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9f81dec754051d6d"
+  },
+  {
+    "id": "download-material:task2:749628f5e53a2ca1",
+    "type": "download-material",
+    "ordinal": 31,
+    "label": "IELTS Writing Task 2 · Model Essay 31 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 31 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=749628f5e53a2ca1"
+  },
+  {
+    "id": "download-material:task2:4b9a7a5590f7e88d",
+    "type": "download-material",
+    "ordinal": 32,
+    "label": "IELTS Writing Task 2 · Model Essay 32 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 32 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4b9a7a5590f7e88d"
+  },
+  {
+    "id": "download-material:task2:fe2e67797acdfdf3",
+    "type": "download-material",
+    "ordinal": 32,
+    "label": "IELTS Writing Task 2 · Model Essay 32 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 32 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=fe2e67797acdfdf3"
+  },
+  {
+    "id": "download-material:task2:36c889dc8f3b9c98",
+    "type": "download-material",
+    "ordinal": 32,
+    "label": "IELTS Writing Task 2 · Model Essay 32 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 32 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=36c889dc8f3b9c98"
+  },
+  {
+    "id": "download-material:task2:ba5337273a2a35ef",
+    "type": "download-material",
+    "ordinal": 33,
+    "label": "IELTS Writing Task 2 · Model Essay 33 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 33 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ba5337273a2a35ef"
+  },
+  {
+    "id": "download-material:task2:60c52bce24af6090",
+    "type": "download-material",
+    "ordinal": 33,
+    "label": "IELTS Writing Task 2 · Model Essay 33 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 33 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=60c52bce24af6090"
+  },
+  {
+    "id": "download-material:task2:d40037f5c3aa4dff",
+    "type": "download-material",
+    "ordinal": 33,
+    "label": "IELTS Writing Task 2 · Model Essay 33 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 33 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d40037f5c3aa4dff"
+  },
+  {
+    "id": "download-material:task2:5ebc195c0b9e7808",
+    "type": "download-material",
+    "ordinal": 34,
+    "label": "IELTS Writing Task 2 · Model Essay 34 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 34 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=5ebc195c0b9e7808"
+  },
+  {
+    "id": "download-material:task2:dfe3f659978dbda1",
+    "type": "download-material",
+    "ordinal": 34,
+    "label": "IELTS Writing Task 2 · Model Essay 34 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 34 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=dfe3f659978dbda1"
+  },
+  {
+    "id": "download-material:task2:4fd347c3985da48b",
+    "type": "download-material",
+    "ordinal": 34,
+    "label": "IELTS Writing Task 2 · Model Essay 34 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 34 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4fd347c3985da48b"
+  },
+  {
+    "id": "download-material:task2:6273bdd770795d41",
+    "type": "download-material",
+    "ordinal": 35,
+    "label": "IELTS Writing Task 2 · Model Essay 35 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 35 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6273bdd770795d41"
+  },
+  {
+    "id": "download-material:task2:170282fb0c1a81d6",
+    "type": "download-material",
+    "ordinal": 35,
+    "label": "IELTS Writing Task 2 · Model Essay 35 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 35 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=170282fb0c1a81d6"
+  },
+  {
+    "id": "download-material:task2:e63702204c63aacc",
+    "type": "download-material",
+    "ordinal": 35,
+    "label": "IELTS Writing Task 2 · Model Essay 35 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 35 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e63702204c63aacc"
+  },
+  {
+    "id": "download-material:task2:48580f96a170873d",
+    "type": "download-material",
+    "ordinal": 36,
+    "label": "IELTS Writing Task 2 · Model Essay 36 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 36 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=48580f96a170873d"
+  },
+  {
+    "id": "download-material:task2:654faf6e05ff2fc0",
+    "type": "download-material",
+    "ordinal": 36,
+    "label": "IELTS Writing Task 2 · Model Essay 36 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 36 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=654faf6e05ff2fc0"
+  },
+  {
+    "id": "download-material:task2:07e5786627f95172",
+    "type": "download-material",
+    "ordinal": 36,
+    "label": "IELTS Writing Task 2 · Model Essay 36 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 36 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=07e5786627f95172"
+  },
+  {
+    "id": "download-material:task2:d658fc53b5c4d6ad",
+    "type": "download-material",
+    "ordinal": 37,
+    "label": "IELTS Writing Task 2 · Model Essay 37 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 37 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d658fc53b5c4d6ad"
+  },
+  {
+    "id": "download-material:task2:8d1d5d364fbdd80d",
+    "type": "download-material",
+    "ordinal": 37,
+    "label": "IELTS Writing Task 2 · Model Essay 37 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 37 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=8d1d5d364fbdd80d"
+  },
+  {
+    "id": "download-material:task2:d195048842965a58",
+    "type": "download-material",
+    "ordinal": 37,
+    "label": "IELTS Writing Task 2 · Model Essay 37 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 37 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d195048842965a58"
+  },
+  {
+    "id": "download-material:task2:ce576c3653a39c31",
+    "type": "download-material",
+    "ordinal": 38,
+    "label": "IELTS Writing Task 2 · Model Essay 38 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 38 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ce576c3653a39c31"
+  },
+  {
+    "id": "download-material:task2:9ea4bab631ac65c8",
+    "type": "download-material",
+    "ordinal": 38,
+    "label": "IELTS Writing Task 2 · Model Essay 38 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 38 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9ea4bab631ac65c8"
+  },
+  {
+    "id": "download-material:task2:150eca6a516f5fc6",
+    "type": "download-material",
+    "ordinal": 39,
+    "label": "IELTS Writing Task 2 · Model Essay 39 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 39 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=150eca6a516f5fc6"
+  },
+  {
+    "id": "download-material:task2:d3cde23ae239d838",
+    "type": "download-material",
+    "ordinal": 39,
+    "label": "IELTS Writing Task 2 · Model Essay 39 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 39 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d3cde23ae239d838"
+  },
+  {
+    "id": "download-material:task2:34557dfb204f5086",
+    "type": "download-material",
+    "ordinal": 39,
+    "label": "IELTS Writing Task 2 · Model Essay 39 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 39 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=34557dfb204f5086"
+  },
+  {
+    "id": "download-material:task2:249315fa6dfb9436",
+    "type": "download-material",
+    "ordinal": 40,
+    "label": "IELTS Writing Task 2 · Model Essay 40 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 40 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=249315fa6dfb9436"
+  },
+  {
+    "id": "download-material:task2:8c520210cb1dd985",
+    "type": "download-material",
+    "ordinal": 40,
+    "label": "IELTS Writing Task 2 · Model Essay 40 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 40 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=8c520210cb1dd985"
+  },
+  {
+    "id": "download-material:task2:44a948216534f2c7",
+    "type": "download-material",
+    "ordinal": 40,
+    "label": "IELTS Writing Task 2 · Model Essay 40 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 40 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=44a948216534f2c7"
+  },
+  {
+    "id": "download-material:task2:6a722b81ea80bdfe",
+    "type": "download-material",
+    "ordinal": 41,
+    "label": "IELTS Writing Task 2 · Model Essay 41 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 41 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6a722b81ea80bdfe"
+  },
+  {
+    "id": "download-material:task2:aad49be9b0451fa1",
+    "type": "download-material",
+    "ordinal": 41,
+    "label": "IELTS Writing Task 2 · Model Essay 41 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 41 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=aad49be9b0451fa1"
+  },
+  {
+    "id": "download-material:task2:05d02d44bf428990",
+    "type": "download-material",
+    "ordinal": 41,
+    "label": "IELTS Writing Task 2 · Model Essay 41 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 41 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=05d02d44bf428990"
+  },
+  {
+    "id": "download-material:task2:f439b291bf911e5c",
+    "type": "download-material",
+    "ordinal": 42,
+    "label": "IELTS Writing Task 2 · Model Essay 42 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 42 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f439b291bf911e5c"
+  },
+  {
+    "id": "download-material:task2:f37cbd9feef8c065",
+    "type": "download-material",
+    "ordinal": 42,
+    "label": "IELTS Writing Task 2 · Model Essay 42 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 42 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f37cbd9feef8c065"
+  },
+  {
+    "id": "download-material:task2:82064e299fac6ba0",
+    "type": "download-material",
+    "ordinal": 42,
+    "label": "IELTS Writing Task 2 · Model Essay 42 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 42 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=82064e299fac6ba0"
+  },
+  {
+    "id": "download-material:task2:0766a3ae9953ce25",
+    "type": "download-material",
+    "ordinal": 43,
+    "label": "IELTS Writing Task 2 · Model Essay 43 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 43 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0766a3ae9953ce25"
+  },
+  {
+    "id": "download-material:task2:958adca85ea23f83",
+    "type": "download-material",
+    "ordinal": 43,
+    "label": "IELTS Writing Task 2 · Model Essay 43 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Express Both Views + Your Opinion · Model Essay 43 - IELTS - Express Both Views Type - (Ban 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=958adca85ea23f83"
+  },
+  {
+    "id": "download-material:task2:c3ec10450cf9ee48",
+    "type": "download-material",
+    "ordinal": 43,
+    "label": "IELTS Writing Task 2 · Model Essay 43 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 43 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c3ec10450cf9ee48"
+  },
+  {
+    "id": "download-material:task2:772fae24259a03b8",
+    "type": "download-material",
+    "ordinal": 44,
+    "label": "IELTS Writing Task 2 · Model Essay 44 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 44 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=772fae24259a03b8"
+  },
+  {
+    "id": "download-material:task2:2900845656999e74",
+    "type": "download-material",
+    "ordinal": 44,
+    "label": "IELTS Writing Task 2 · Model Essay 44 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 44 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=2900845656999e74"
+  },
+  {
+    "id": "download-material:task2:5e46f469bcf466d2",
+    "type": "download-material",
+    "ordinal": 45,
+    "label": "IELTS Writing Task 2 · Model Essay 45 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 45 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=5e46f469bcf466d2"
+  },
+  {
+    "id": "download-material:task2:044d6073c4bafa93",
+    "type": "download-material",
+    "ordinal": 45,
+    "label": "IELTS Writing Task 2 · Model Essay 45 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 45 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=044d6073c4bafa93"
+  },
+  {
+    "id": "download-material:task2:3d521f842d017d6d",
+    "type": "download-material",
+    "ordinal": 46,
+    "label": "IELTS Writing Task 2 · Model Essay 46 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 46 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3d521f842d017d6d"
+  },
+  {
+    "id": "download-material:task2:63ba5e7bf34c265f",
+    "type": "download-material",
+    "ordinal": 46,
+    "label": "IELTS Writing Task 2 · Model Essay 46 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 46 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=63ba5e7bf34c265f"
+  },
+  {
+    "id": "download-material:task2:f10072daa5fa4957",
+    "type": "download-material",
+    "ordinal": 47,
+    "label": "IELTS Writing Task 2 · Model Essay 47 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 47 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f10072daa5fa4957"
+  },
+  {
+    "id": "download-material:task2:42297a6a4dabaec3",
+    "type": "download-material",
+    "ordinal": 47,
+    "label": "IELTS Writing Task 2 · Model Essay 47 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 47 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=42297a6a4dabaec3"
+  },
+  {
+    "id": "download-material:task2:36a96b458a7bf1e6",
+    "type": "download-material",
+    "ordinal": 48,
+    "label": "IELTS Writing Task 2 · Model Essay 48 - IELTS - Direct Question Type - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Direct Question · Model Essay 48 - IELTS - Direct Question Type - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=36a96b458a7bf1e6"
+  },
+  {
+    "id": "download-material:task2:f79e237366f78ef8",
+    "type": "download-material",
+    "ordinal": 48,
+    "label": "IELTS Writing Task 2 · Model Essay 48 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 48 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f79e237366f78ef8"
+  },
+  {
+    "id": "download-material:task2:c712d5cc4e034429",
+    "type": "download-material",
+    "ordinal": 49,
+    "label": "IELTS Writing Task 2 · Model Essay 49 - IELTS - Opinion - (Band 9 示範) - Task 2-1",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 49 - IELTS - Opinion - (Band 9 示範) - Task 2-1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c712d5cc4e034429"
+  },
+  {
+    "id": "download-material:task2:9e8cac37d0fd60d8",
+    "type": "download-material",
+    "ordinal": 50,
+    "label": "IELTS Writing Task 2 · Model Essay 50 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 50 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9e8cac37d0fd60d8"
+  },
+  {
+    "id": "download-material:task2:4306700ef5f9b773",
+    "type": "download-material",
+    "ordinal": 51,
+    "label": "IELTS Writing Task 2 · Model Essay 51 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 51 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4306700ef5f9b773"
+  },
+  {
+    "id": "download-material:task2:516dd3136254ca9c",
+    "type": "download-material",
+    "ordinal": 52,
+    "label": "IELTS Writing Task 2 · Model Essay 52 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 52 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=516dd3136254ca9c"
+  },
+  {
+    "id": "download-material:task2:1f91fcba417c6f5b",
+    "type": "download-material",
+    "ordinal": 53,
+    "label": "IELTS Writing Task 2 · Model Essay 53 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 53 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=1f91fcba417c6f5b"
+  },
+  {
+    "id": "download-material:task2:3629c1e4f652d95a",
+    "type": "download-material",
+    "ordinal": 54,
+    "label": "IELTS Writing Task 2 · Model Essay 54 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 54 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3629c1e4f652d95a"
+  },
+  {
+    "id": "download-material:task2:0e6076a1b334cc3d",
+    "type": "download-material",
+    "ordinal": 55,
+    "label": "IELTS Writing Task 2 · Model Essay 55 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 55 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=0e6076a1b334cc3d"
+  },
+  {
+    "id": "download-material:task2:894f2bc6b447939f",
+    "type": "download-material",
+    "ordinal": 56,
+    "label": "IELTS Writing Task 2 · Model Essay 56 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 56 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=894f2bc6b447939f"
+  },
+  {
+    "id": "download-material:task2:11c4b9a16aee243d",
+    "type": "download-material",
+    "ordinal": 57,
+    "label": "IELTS Writing Task 2 · Model Essay 57 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 57 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=11c4b9a16aee243d"
+  },
+  {
+    "id": "download-material:task2:f44deb9d316926df",
+    "type": "download-material",
+    "ordinal": 58,
+    "label": "IELTS Writing Task 2 · Model Essay 58 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 58 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f44deb9d316926df"
+  },
+  {
+    "id": "download-material:task2:01596f212fc1642f",
+    "type": "download-material",
+    "ordinal": 59,
+    "label": "IELTS Writing Task 2 · Model Essay 59 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 59 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=01596f212fc1642f"
+  },
+  {
+    "id": "download-material:task2:ef3a6fa1b8c9cc7d",
+    "type": "download-material",
+    "ordinal": 60,
+    "label": "IELTS Writing Task 2 · Model Essay 60 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 60 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=ef3a6fa1b8c9cc7d"
+  },
+  {
+    "id": "download-material:task2:c61e5b287d70a28c",
+    "type": "download-material",
+    "ordinal": 61,
+    "label": "IELTS Writing Task 2 · Model Essay 61 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 61 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c61e5b287d70a28c"
+  },
+  {
+    "id": "download-material:task2:3dc667de8d899ae3",
+    "type": "download-material",
+    "ordinal": 62,
+    "label": "IELTS Writing Task 2 · Model Essay 62 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 62 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3dc667de8d899ae3"
+  },
+  {
+    "id": "download-material:task2:6eebe2fa97cfdd2b",
+    "type": "download-material",
+    "ordinal": 63,
+    "label": "IELTS Writing Task 2 · Model Essay 63 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 63 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=6eebe2fa97cfdd2b"
+  },
+  {
+    "id": "download-material:task2:122a8bbba67c8497",
+    "type": "download-material",
+    "ordinal": 64,
+    "label": "IELTS Writing Task 2 · Model Essay 64 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 64 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=122a8bbba67c8497"
+  },
+  {
+    "id": "download-material:task2:9d7c3252591de70a",
+    "type": "download-material",
+    "ordinal": 65,
+    "label": "IELTS Writing Task 2 · Model Essay 65 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 65 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9d7c3252591de70a"
+  },
+  {
+    "id": "download-material:task2:3fa5c74bcee5da44",
+    "type": "download-material",
+    "ordinal": 66,
+    "label": "IELTS Writing Task 2 · Model Essay 66 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 66 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3fa5c74bcee5da44"
+  },
+  {
+    "id": "download-material:task2:123cbf58d2882f58",
+    "type": "download-material",
+    "ordinal": 67,
+    "label": "IELTS Writing Task 2 · Model Essay 67 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 67 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=123cbf58d2882f58"
+  },
+  {
+    "id": "download-material:task2:7d98b6afb2891404",
+    "type": "download-material",
+    "ordinal": 68,
+    "label": "IELTS Writing Task 2 · Model Essay 68 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 68 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=7d98b6afb2891404"
+  },
+  {
+    "id": "download-material:task2:e494b7c1706e431f",
+    "type": "download-material",
+    "ordinal": 69,
+    "label": "IELTS Writing Task 2 · Model Essay 69 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 69 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=e494b7c1706e431f"
+  },
+  {
+    "id": "download-material:task2:388b97b21759b3a0",
+    "type": "download-material",
+    "ordinal": 70,
+    "label": "IELTS Writing Task 2 · Model Essay 70 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 70 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=388b97b21759b3a0"
+  },
+  {
+    "id": "download-material:task2:eb2235626a3c7833",
+    "type": "download-material",
+    "ordinal": 71,
+    "label": "IELTS Writing Task 2 · Model Essay 71 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 71 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=eb2235626a3c7833"
+  },
+  {
+    "id": "download-material:task2:b1ec5cb4364df235",
+    "type": "download-material",
+    "ordinal": 72,
+    "label": "IELTS Writing Task 2 · Model Essay 72 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 72 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=b1ec5cb4364df235"
+  },
+  {
+    "id": "download-material:task2:d6c6c983000c4e32",
+    "type": "download-material",
+    "ordinal": 73,
+    "label": "IELTS Writing Task 2 · Model Essay 73 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 73 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d6c6c983000c4e32"
+  },
+  {
+    "id": "download-material:task2:a2aa2850c1181a5e",
+    "type": "download-material",
+    "ordinal": 74,
+    "label": "IELTS Writing Task 2 · Model Essay 74 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 74 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a2aa2850c1181a5e"
+  },
+  {
+    "id": "download-material:task2:435640e585706d2f",
+    "type": "download-material",
+    "ordinal": 75,
+    "label": "IELTS Writing Task 2 · Model Essay 75 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 75 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=435640e585706d2f"
+  },
+  {
+    "id": "download-material:task2:087d332c6784677e",
+    "type": "download-material",
+    "ordinal": 76,
+    "label": "IELTS Writing Task 2 · Model Essay 76 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 76 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=087d332c6784677e"
+  },
+  {
+    "id": "download-material:task2:f932fbfe9cd34600",
+    "type": "download-material",
+    "ordinal": 77,
+    "label": "IELTS Writing Task 2 · Model Essay 77 - IELTS - Opinion - (Band 9 示範) - Task 2-1",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 77 - IELTS - Opinion - (Band 9 示範) - Task 2-1.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f932fbfe9cd34600"
+  },
+  {
+    "id": "download-material:task2:f4296e6f8070550c",
+    "type": "download-material",
+    "ordinal": 78,
+    "label": "IELTS Writing Task 2 · Model Essay 78 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 78 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f4296e6f8070550c"
+  },
+  {
+    "id": "download-material:task2:68d78dc805441964",
+    "type": "download-material",
+    "ordinal": 79,
+    "label": "IELTS Writing Task 2 · Model Essay 79 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 79 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=68d78dc805441964"
+  },
+  {
+    "id": "download-material:task2:c5e80eb5dea5f39d",
+    "type": "download-material",
+    "ordinal": 80,
+    "label": "IELTS Writing Task 2 · Model Essay 80 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 80 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=c5e80eb5dea5f39d"
+  },
+  {
+    "id": "download-material:task2:addd729990b2be74",
+    "type": "download-material",
+    "ordinal": 81,
+    "label": "IELTS Writing Task 2 · Model Essay 81 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 81 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=addd729990b2be74"
+  },
+  {
+    "id": "download-material:task2:3a6704f74bf70bea",
+    "type": "download-material",
+    "ordinal": 82,
+    "label": "IELTS Writing Task 2 · Model Essay 82 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 82 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=3a6704f74bf70bea"
+  },
+  {
+    "id": "download-material:task2:9ecb3fcc6462eca0",
+    "type": "download-material",
+    "ordinal": 83,
+    "label": "IELTS Writing Task 2 · Model Essay 83 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 83 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=9ecb3fcc6462eca0"
+  },
+  {
+    "id": "download-material:task2:4570cedb12ba5bc1",
+    "type": "download-material",
+    "ordinal": 84,
+    "label": "IELTS Writing Task 2 · Model Essay 84 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 84 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=4570cedb12ba5bc1"
+  },
+  {
+    "id": "download-material:task2:41c4701b365b1b3b",
+    "type": "download-material",
+    "ordinal": 85,
+    "label": "IELTS Writing Task 2 · Model Essay 85 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 85 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=41c4701b365b1b3b"
+  },
+  {
+    "id": "download-material:task2:805fe967ed6bc642",
+    "type": "download-material",
+    "ordinal": 86,
+    "label": "IELTS Writing Task 2 · Model Essay 86 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 86 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=805fe967ed6bc642"
+  },
+  {
+    "id": "download-material:task2:a48b89b2c222e3fe",
+    "type": "download-material",
+    "ordinal": 87,
+    "label": "IELTS Writing Task 2 · Model Essay 87 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 87 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a48b89b2c222e3fe"
+  },
+  {
+    "id": "download-material:task2:da1f117d446a948e",
+    "type": "download-material",
+    "ordinal": 88,
+    "label": "IELTS Writing Task 2 · Model Essay 88 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 88 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=da1f117d446a948e"
+  },
+  {
+    "id": "download-material:task2:661664221e94391f",
+    "type": "download-material",
+    "ordinal": 89,
+    "label": "IELTS Writing Task 2 · Model Essay 89 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 89 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=661664221e94391f"
+  },
+  {
+    "id": "download-material:task2:1373dd8da8467d5c",
+    "type": "download-material",
+    "ordinal": 90,
+    "label": "IELTS Writing Task 2 · Model Essay 90 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 90 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=1373dd8da8467d5c"
+  },
+  {
+    "id": "download-material:task2:08f7a79b61252259",
+    "type": "download-material",
+    "ordinal": 91,
+    "label": "IELTS Writing Task 2 · Model Essay 91 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 91 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=08f7a79b61252259"
+  },
+  {
+    "id": "download-material:task2:a4688421c433f9e4",
+    "type": "download-material",
+    "ordinal": 92,
+    "label": "IELTS Writing Task 2 · Model Essay 92 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 92 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a4688421c433f9e4"
+  },
+  {
+    "id": "download-material:task2:608bb5fa516548e3",
+    "type": "download-material",
+    "ordinal": 93,
+    "label": "IELTS Writing Task 2 · Model Essay 93 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 93 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=608bb5fa516548e3"
+  },
+  {
+    "id": "download-material:task2:32412bc6cb6b8c11",
+    "type": "download-material",
+    "ordinal": 94,
+    "label": "IELTS Writing Task 2 · Model Essay 94 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 94 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=32412bc6cb6b8c11"
+  },
+  {
+    "id": "download-material:task2:f996bc07fa5329be",
+    "type": "download-material",
+    "ordinal": 95,
+    "label": "IELTS Writing Task 2 · Model Essay 95 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 95 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 7 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=f996bc07fa5329be"
+  },
+  {
+    "id": "download-material:task2:29b8f95e73dc1e59",
+    "type": "download-material",
+    "ordinal": 96,
+    "label": "IELTS Writing Task 2 · Model Essay 96 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 96 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=29b8f95e73dc1e59"
+  },
+  {
+    "id": "download-material:task2:bba1045754789eb0",
+    "type": "download-material",
+    "ordinal": 97,
+    "label": "IELTS Writing Task 2 · Model Essay 97 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 97 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=bba1045754789eb0"
+  },
+  {
+    "id": "download-material:task2:36878c675bd6de93",
+    "type": "download-material",
+    "ordinal": 98,
+    "label": "IELTS Writing Task 2 · Model Essay 98 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 98 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=36878c675bd6de93"
+  },
+  {
+    "id": "download-material:task2:bab8a77ee56317c4",
+    "type": "download-material",
+    "ordinal": 99,
+    "label": "IELTS Writing Task 2 · Model Essay 99 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 99 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=bab8a77ee56317c4"
+  },
+  {
+    "id": "download-material:task2:313b55e0e64b9ade",
+    "type": "download-material",
+    "ordinal": 100,
+    "label": "IELTS Writing Task 2 · Model Essay 100 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 100 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=313b55e0e64b9ade"
+  },
+  {
+    "id": "download-material:task2:a2f376164ce22cd1",
+    "type": "download-material",
+    "ordinal": 101,
+    "label": "IELTS Writing Task 2 · Model Essay 101 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 101 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=a2f376164ce22cd1"
+  },
+  {
+    "id": "download-material:task2:70ec2deb2014119e",
+    "type": "download-material",
+    "ordinal": 103,
+    "label": "IELTS Writing Task 2 · Model Essay 103 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 103 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=70ec2deb2014119e"
+  },
+  {
+    "id": "download-material:task2:7700174aee15a845",
+    "type": "download-material",
+    "ordinal": 104,
+    "label": "IELTS Writing Task 2 · Model Essay 104 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 104 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 10 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=7700174aee15a845"
+  },
+  {
+    "id": "download-material:task2:aea55c12baf9d335",
+    "type": "download-material",
+    "ordinal": 105,
+    "label": "IELTS Writing Task 2 · Model Essay 105 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 105 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 8 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=aea55c12baf9d335"
+  },
+  {
+    "id": "download-material:task2:d4a1d9e6b3df1648",
+    "type": "download-material",
+    "ordinal": 106,
+    "label": "IELTS Writing Task 2 · Model Essay 106 - IELTS - Opinion - (Band 9 示範) - Task 2",
+    "detail": "IELTS Writing Task 2 · Opinions · Model Essay 106 - IELTS - Opinion - (Band 9 示範) - Task 2.pdf · 9 pages",
+    "url": "model-essay-downloads.html?catalog=task2&item=d4a1d9e6b3df1648"
+  },
+  {
     "id": "fill:dse-writing-2025-part-a",
     "type": "fill-blanks",
     "ordinal": 2025,

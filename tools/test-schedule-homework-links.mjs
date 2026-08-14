@@ -41,7 +41,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 3936, "the Homework/Schedule catalogue should include every current learning resource, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4793, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -56,6 +56,7 @@ assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lesso
 assert.equal((byType["writing-submission"] || []).length, 310, "every Writing Practice exercise should have a Writing Submission assignment link");
 assert.equal((byType["reading-analysis"] || []).length, 157, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
+assert.equal((byType["download-material"] || []).length, 857, "every item in the DSE/IELTS download portal should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
@@ -100,6 +101,30 @@ assert.ok(ids.has("listening:ielts-listening-practice-20-part-4"));
 assert.ok(ids.has("learning-portal:quotes"));
 assert.ok(ids.has("learning-portal:english-joke-collection"));
 assert.ok([...ids].some((id) => id.startsWith("download:dse-writing-part-a:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:dse-writing-part-a:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:task1:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:task2:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:speaking:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:reading-passage-1:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:reading-passage-2:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:reading-passage-3:")));
+assert.ok([...ids].some((id) => id.startsWith("download-material:listening:")));
+
+const downloadMaterialsByCatalog = (byType["download-material"] || []).reduce((counts, resource) => {
+  const catalog = new URL(resource.url, "https://edmundeducation.com/").searchParams.get("catalog");
+  counts[catalog] = (counts[catalog] || 0) + 1;
+  return counts;
+}, {});
+assert.deepEqual(downloadMaterialsByCatalog, {
+  "dse-writing-part-a": 14,
+  listening: 20,
+  "reading-passage-1": 163,
+  "reading-passage-2": 149,
+  "reading-passage-3": 165,
+  speaking: 46,
+  task1: 62,
+  task2: 238
+}, "Download materials should mirror every live catalogue on the authenticated download portal");
 
 const readingAnalysisResources = byType["reading-analysis"] || [];
 const expectedReadingArticleIds = Object.keys(readingAnalysisAvailability.articles).sort();
@@ -414,6 +439,32 @@ assert.equal(normalizeHomeworkResource({
   label: "IELTS Listening Practice 20 - Part 4",
   url: "listening-system.html?section=ielts&practice=20&part=4"
 })?.url, "listening-system.html?section=ielts&practice=20&part=4");
+assert.equal(normalizeHomeworkResource({
+  id: "download-material:listening:04c672d5277d8916",
+  type: "download-material",
+  label: "IELTS Listening · Practice 1",
+  url: "model-essay-downloads.html?catalog=listening&item=04c672d5277d8916"
+})?.url, "model-essay-downloads.html?catalog=listening&item=04c672d5277d8916");
+for (const unsafeDownloadUrl of [
+  "model-essay-downloads.html?catalog=unknown&item=04c672d5277d8916",
+  "model-essay-downloads.html?catalog=listening&item=not-an-item",
+  "model-essay-downloads.html?catalog=listening&item=04c672d5277d8916&student=someone",
+  "model-essay-downloads.html?catalog=listening&item=04c672d5277d8916#download",
+  "https://evil.example/model-essay-downloads.html?catalog=listening&item=04c672d5277d8916"
+]) {
+  assert.equal(normalizeHomeworkResource({
+    id: "download-material:listening:04c672d5277d8916",
+    type: "download-material",
+    label: "IELTS Listening · Practice 1",
+    url: unsafeDownloadUrl
+  }), null, `unsafe Download materials URL must be rejected: ${unsafeDownloadUrl}`);
+}
+assert.equal(normalizeHomeworkResource({
+  id: "download:dse-writing-part-a:04c672d5277d8916",
+  type: "model-essay-download",
+  label: "Legacy DSE download",
+  url: "model-essay-downloads.html?catalog=listening&item=04c672d5277d8916"
+}), null, "legacy DSE-only download markers must not be widened to another catalogue");
 for (const unsafeListeningUrl of [
   "listening-system.html?section=ielts&practice=0&part=1",
   "listening-system.html?section=ielts&practice=1&part=5",
@@ -456,6 +507,8 @@ assert.equal(homeworkAutocomplete("Choose Su", 9).trigger, "Submission Writing")
 assert.equal(homeworkAutocomplete("Add An", 6).trigger, "Answer Analysis - IELTS Reading");
 assert.equal(homeworkAutocomplete("Add Co", 6).trigger, "Common Expression");
 assert.equal(homeworkAutocomplete("Add IELTS L", 11).trigger, "IELTS Listening");
+assert.equal(homeworkAutocomplete("Add Dow", 7).trigger, "Download materials");
+assert.equal(fullHomeworkTriggerAtCursor("Download materials", 18).type, "download-material");
 const accepted = acceptHomeworkAutocomplete("Please finish Fi", 16, 16, homeworkAutocomplete("Please finish Fi", 16));
 assert.equal(accepted.value, "Please finish Fill in the blanks");
 assert.equal(fullHomeworkTriggerAtCursor(accepted.value, accepted.cursor).type, "fill-blanks");
@@ -514,7 +567,8 @@ assert.deepEqual(
     ["我最喜愛功課", "#ff3473"],
     ["老師新加", "#920909"],
     ["Well done!", "#ffd591"],
-    ["每15分鐘休息一次", "#a1ff80"]
+    ["每15分鐘休息一次", "#a1ff80"],
+    ["準備材料", "#32cd32"]
   ],
   "Homework tags must keep the requested labels and exact colours"
 );
@@ -525,7 +579,8 @@ assert.deepEqual(
     ["favourite", "#25182b"],
     ["teacher-added", "#ffffff"],
     ["well-done", "#25182b"],
-    ["break-15", "#25182b"]
+    ["break-15", "#25182b"],
+    ["prepare-materials", "#143714"]
   ],
   "dark tag colours must use accessible white label text"
 );
@@ -542,6 +597,11 @@ assert.deepEqual(
   parseScheduleMessage(serializeScheduleMessage("", [], ["well-done", "teacher-added"])).tags.map(({ key }) => key),
   ["well-done", "teacher-added"],
   "tag-only slots must round-trip in the order selected"
+);
+assert.deepEqual(
+  parseScheduleMessage(serializeScheduleMessage("", [], ["prepare-materials"])).tags.map(({ label, color }) => [label, color]),
+  [["準備材料", "#32cd32"]],
+  "the lime-green 準備材料 tag must round-trip on a new content-free slot"
 );
 assert.equal(taggedParsed.resources[0]?.id, selected.id, "tag markers must not disrupt homework resources");
 assert.deepEqual(
@@ -580,6 +640,11 @@ assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysi
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "flight honeybee").total, 1, "shared analysis aliases should remain one searchable choice");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "common-expression", "See you around").items[0]?.id, "common-expression:speaking:common-expression-01");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "listening", "20 Part 4").items[0]?.id, "listening:ielts-listening-practice-20-part-4");
+assert.equal(
+  filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "download-material", "reading passage 3 water treatment").items[0]?.url,
+  "model-essay-downloads.html?catalog=reading-passage-3&item=bfb889ad9e2ba334",
+  "Download materials search should find an exact authenticated download item by catalogue and title"
+);
 assert.equal(
   filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "fill-blanks", "number households annual income 2015").items[0]?.id,
   "fill:model-essay-1-ielts-task1-bar-charts",
@@ -712,7 +777,7 @@ assert.ok(
   scheduleHtml.indexOf("data-entry-tags") < scheduleHtml.indexOf('id="schedule-message"'),
   "multi-select homework tags must be available before a new slot has content"
 );
-assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.has-entry-tag-wraps::after\s*\{[\s\S]*?--entry-tag-wrap-5/s);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.has-entry-tag-wraps::after\s*\{[\s\S]*?--entry-tag-wrap-6/s);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources, selectedTags\)/);
 assert.match(scheduleJs, /input\.type = "checkbox"/);
 assert.match(scheduleJs, /state\.editing\.tags\.push\(input\.value\)/, "new tag selections must preserve click order");
@@ -720,8 +785,9 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260812-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260812-2/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260814-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260814-1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");

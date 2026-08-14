@@ -166,6 +166,67 @@ test("multi-course private-video publish forwards the complete course selection"
   });
 });
 
+test("administrator can reset all progress or one valid Hong Kong activity date", async () => {
+  for (const reset of [
+    { scope: "all", expectedDate: null },
+    { scope: "date", activityDate: "2026-08-14", expectedDate: "2026-08-14" }
+  ]) {
+    await withRpcStub((name, body) => {
+      if (name === "video_class_admin_me") return [{ admin_id: ADMIN_ID }];
+      if (name === "video_class_admin_reset_student_progress") {
+        return {
+          student_id: STUDENT_ID,
+          student_name: "Test Student",
+          scope: reset.scope,
+          activity_date: reset.expectedDate,
+          lessons_reset: 2,
+          progress_rows_deleted: 1,
+          daily_rows_deleted: 2,
+          watched_seconds_removed: 125,
+          view_count_removed: 2,
+          playbacks_revoked: 1,
+          reset_at: "2026-08-14T02:00:00.000Z"
+        };
+      }
+      throw new Error(`Unexpected RPC ${name}`);
+    }, async calls => {
+      const response = await worker.fetch(request(
+        `/v1/admin/students/${STUDENT_ID}/progress/reset`,
+        "POST",
+        ADMIN_TOKEN,
+        reset
+      ), makeEnv(), {});
+
+      assert.equal(response.status, 200);
+      const payload = await response.json();
+      assert.equal(payload.reset.studentId, STUDENT_ID);
+      assert.equal(payload.reset.scope, reset.scope);
+      assert.equal(payload.reset.activityDate, reset.expectedDate);
+      assert.equal(payload.reset.watchedSecondsRemoved, 125);
+      const rpc = calls.find(call => call.name === "video_class_admin_reset_student_progress");
+      assert.ok(rpc);
+      assert.equal(rpc.body.p_student_id, STUDENT_ID);
+      assert.equal(rpc.body.p_activity_date, reset.expectedDate);
+      assert.equal(rpc.body.p_service_secret, "s".repeat(48));
+    });
+  }
+});
+
+test("administrator progress reset rejects impossible calendar dates before database access", async () => {
+  await withRpcStub(() => {
+    throw new Error("invalid date must not call the database");
+  }, async calls => {
+    const response = await worker.fetch(request(
+      `/v1/admin/students/${STUDENT_ID}/progress/reset`,
+      "POST",
+      ADMIN_TOKEN,
+      { scope: "date", activityDate: "2026-02-31" }
+    ), makeEnv(), {});
+    assert.equal(response.status, 400);
+    assert.equal(calls.length, 0);
+  });
+});
+
 test("private-video publish rejects both HEVC sample-entry variants with a stable error code", async () => {
   const sourceKey = "admin-uploads/videos/hevc-class.mp4";
   for (const codec of ["hvc1", "hev1"]) {

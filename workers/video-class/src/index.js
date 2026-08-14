@@ -257,6 +257,11 @@ async function route(request, env, ctx) {
     return adminChangeStudentKey(request, env, decodePathSegment(studentKeyMatch[1]), request.method === "DELETE");
   }
 
+  const studentProgressResetMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/progress\/reset$/);
+  if (studentProgressResetMatch && request.method === "POST") {
+    return adminResetStudentProgress(request, env, decodePathSegment(studentProgressResetMatch[1]));
+  }
+
   const studentAccessMatch = url.pathname.match(/^\/v1\/admin\/students\/([^/]+)\/access$/);
   if (studentAccessMatch && request.method === "PATCH") {
     return adminChangeStudentAccess(request, env, decodePathSegment(studentAccessMatch[1]));
@@ -1468,6 +1473,32 @@ async function adminChangeStudentKey(request, env, studentId, clear) {
   return json(request, env, { student: mapRosterStudent(row) }, 200);
 }
 
+async function adminResetStudentProgress(request, env, studentId) {
+  if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
+  const body = await readJson(request, 4096);
+  const scope = String(body.scope || "").trim().toLowerCase();
+  if (!["all", "date"].includes(scope)) throw new HttpError(400, "Reset scope must be all or date");
+
+  let activityDate = null;
+  if (scope === "date") {
+    activityDate = String(body.activityDate ?? body.activity_date ?? "").trim();
+    if (!isValidCalendarDate(activityDate)) throw new HttpError(400, "Activity date must be a valid YYYY-MM-DD date");
+  }
+
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const result = await serviceRpc(env, "video_class_admin_reset_student_progress", {
+    p_admin_token: token,
+    p_student_id: studentId,
+    p_activity_date: activityDate
+  });
+  const value = firstRow(result);
+  if (!value || !UUID_RE.test(String(value.student_id || ""))) {
+    throw new HttpError(404, "Student was not found");
+  }
+  return json(request, env, { reset: mapAdminProgressReset(value) }, 200);
+}
+
 async function adminChangeStudentAccess(request, env, studentId) {
   if (!UUID_RE.test(studentId)) throw new HttpError(400, "Invalid student ID");
   const body = await readJson(request, 4096);
@@ -2541,6 +2572,19 @@ function firstRow(value) {
   return null;
 }
 
+function isValidCalendarDate(value) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || ""));
+  if (!match) return false;
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  if (year < 2000 || year > 2100 || month < 1 || month > 12 || day < 1 || day > 31) return false;
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return date.getUTCFullYear() === year
+    && date.getUTCMonth() === month - 1
+    && date.getUTCDate() === day;
+}
+
 function mapStudent(row) {
   return {
     id: row.student_id || row.id || null,
@@ -2577,6 +2621,26 @@ function mapRosterStudent(row) {
     lastVideoLoginAt: row.last_video_login_at || null,
     createdAt,
     studentCreatedAt: createdAt
+  };
+}
+
+function mapAdminProgressReset(row) {
+  const value = row && typeof row === "object" ? row : {};
+  const activityDate = String(value.activity_date || value.activityDate || "");
+  return {
+    studentId: UUID_RE.test(String(value.student_id || value.studentId || ""))
+      ? String(value.student_id || value.studentId)
+      : null,
+    studentName: String(value.student_name || value.studentName || "").slice(0, 160),
+    scope: value.scope === "date" ? "date" : "all",
+    activityDate: isValidCalendarDate(activityDate) ? activityDate : null,
+    lessonsReset: finiteNonNegative(value.lessons_reset ?? value.lessonsReset, 0),
+    progressRowsDeleted: finiteNonNegative(value.progress_rows_deleted ?? value.progressRowsDeleted, 0),
+    dailyRowsDeleted: finiteNonNegative(value.daily_rows_deleted ?? value.dailyRowsDeleted, 0),
+    watchedSecondsRemoved: finiteNonNegative(value.watched_seconds_removed ?? value.watchedSecondsRemoved, 0),
+    viewCountRemoved: finiteNonNegative(value.view_count_removed ?? value.viewCountRemoved, 0),
+    playbacksRevoked: finiteNonNegative(value.playbacks_revoked ?? value.playbacksRevoked, 0),
+    resetAt: safeAnalyticsTimestamp(value.reset_at || value.resetAt)
   };
 }
 

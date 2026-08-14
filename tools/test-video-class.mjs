@@ -9,7 +9,7 @@ import { spawnSync } from "node:child_process";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, adminLibraryControlSql, paginationCursorFixSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
+const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, adminLibraryControlSql, paginationCursorFixSql, dashboardResetSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
   read("recorded.html"),
   read("video-class.html"),
   read("video-class.js"),
@@ -21,6 +21,7 @@ const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs,
   read("supabase-video-class-library-expansion.sql"),
   read("supabase-video-class-admin-library-control.sql"),
   read("supabase-video-class-pagination-cursor-fix.sql"),
+  read("supabase-video-class-dashboard-reset.sql"),
   read("workers/video-class/src/index.js"),
   read("workers/video-class/wrangler.jsonc"),
   read("workers/video-class/package.json"),
@@ -871,6 +872,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_publish_r2_object",
     "video_class_admin_issue_key",
     "video_class_admin_clear_key",
+    "video_class_admin_reset_student_progress",
     "video_class_admin_set_enabled",
     "video_class_admin_set_course_access",
     "video_class_admin_set_watermark",
@@ -901,13 +903,14 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assert.deepEqual(workerRpcs, expectedRpcs, "Worker RPC calls must match the reviewed database boundary");
 
   for (const rpc of expectedRpcs) {
-    const block = sqlFunctionBlock(rpc);
+    const rpcSql = rpc === "video_class_admin_reset_student_progress" ? dashboardResetSql : sql;
+    const block = sqlFunctionBlockFrom(rpcSql, rpc);
     assert.match(block, /p_service_secret\s+text/i, `${rpc}: service-secret parameter`);
     assert.match(block, /security\s+definer/i, `${rpc}: SECURITY DEFINER`);
     assert.match(block, /set\s+search_path\s*=\s*''/i, `${rpc}: empty search_path`);
     assert.match(block, /public\._video_class_worker_ok\(p_service_secret\)/i, `${rpc}: service-secret check`);
-    assert.match(sql, new RegExp(`revoke\\s+all\\s+on\\s+function\\s+public\\.${escapeRegExp(rpc)}\\(`, "i"), `${rpc}: revoke`);
-    assert.match(sql, new RegExp(`grant\\s+execute\\s+on\\s+function\\s+public\\.${escapeRegExp(rpc)}\\(`, "i"), `${rpc}: narrow PostgREST grant`);
+    assert.match(rpcSql, new RegExp(`revoke\\s+all\\s+on\\s+function\\s+public\\.${escapeRegExp(rpc)}\\(`, "i"), `${rpc}: revoke`);
+    assert.match(rpcSql, new RegExp(`grant\\s+execute\\s+on\\s+function\\s+public\\.${escapeRegExp(rpc)}\\(`, "i"), `${rpc}: narrow PostgREST grant`);
   }
 
   assertWorkerRoute("/v1/student/login", "POST");
@@ -1535,6 +1538,58 @@ test("administrator UI exposes UUID/key controls and playback grants expire with
   assert.match(workerSource, /payload\.exp\s*-\s*payload\.iat\s*>\s*PLAYBACK_TOKEN_TTL_SECONDS\s*\+\s*60/);
   assert.match(workerSource, /tokenExpiresAt:\s*expiresAt/);
   assert.doesNotMatch(workerSource, /filtered\.slice\(/, "admin roster must not silently stop after 100 students");
+});
+
+test("administrator progress resets are atomic, audited, serialized, and narrowly exposed", () => {
+  const reset = sqlFunctionBlockFrom(dashboardResetSql, "video_class_admin_reset_student_progress");
+  assert.match(reset, /security\s+definer/i);
+  assert.match(reset, /set\s+search_path\s*=\s*''/i);
+  assert.match(reset, /_video_class_worker_ok\(p_service_secret\)/i);
+  assert.match(reset, /_video_class_admin_id\(p_admin_token\)/i);
+
+  const studentLock = reset.indexOf("for no key update");
+  const accessLock = reset.indexOf("from public.video_class_student_access access");
+  const playbackScan = reset.indexOf("update public.video_class_playback_sessions playback");
+  assert.ok(studentLock >= 0 && accessLock > studentLock && playbackScan > accessLock,
+    "reset must lock student then access before scanning playback grants");
+  assert.match(reset, /from\s+public\.video_class_student_access\s+access[\s\S]*?for\s+update/i);
+  assert.match(reset, /playback\.revoked_at\s+is\s+null[\s\S]*?playback\.expires_at\s*>\s*clock_timestamp\(\)/i);
+  assert.match(reset, /delete\s+from\s+public\.video_class_daily_progress[\s\S]*?delete\s+from\s+public\.video_class_progress/i);
+  assert.match(reset, /p_activity_date\s+is\s+null/i);
+  assert.match(reset, /daily\.activity_date\s*=\s*p_activity_date/i);
+  assert.match(reset, /with\s+remaining\s+as[\s\S]*?sum\(daily\.watched_seconds\)[\s\S]*?sum\(daily\.view_count\)/i);
+  assert.match(reset, /'reset_student_progress'/i);
+  assert.match(reset, /'reset_student_daily_progress'/i);
+  assert.match(dashboardResetSql, /revoke\s+all\s+on\s+function\s+public\.video_class_admin_reset_student_progress\(text,\s*uuid,\s*uuid,\s*date\)[\s\S]*?from\s+public,\s*anon,\s*authenticated/i);
+  assert.match(dashboardResetSql, /grant\s+execute\s+on\s+function\s+public\.video_class_admin_reset_student_progress\(text,\s*uuid,\s*uuid,\s*date\)[\s\S]*?to\s+anon/i);
+
+  assert.match(workerSource, /studentProgressResetMatch[\s\S]*?request\.method\s*===\s*"POST"/i);
+  assert.match(workerSource, /async\s+function\s+adminResetStudentProgress[\s\S]*?isValidCalendarDate\(activityDate\)[\s\S]*?video_class_admin_reset_student_progress/i);
+  assert.match(workerSource, /function\s+isValidCalendarDate[\s\S]*?Date\.UTC\(year,\s*month\s*-\s*1,\s*day\)/i);
+  assert.match(portalHtml, /data-admin-progress-reset-dialog/);
+  assert.match(portalJs, /resetProgress\.textContent\s*=\s*"重設學習記錄"/);
+  assert.match(portalJs, /\/v1\/admin\/students\/\$\{encodeURIComponent\(student\.id\)\}\/progress\/reset/);
+});
+
+test("video search renders a safe highlighted thumbnail list immediately below the field", () => {
+  const field = portalHtml.indexOf("data-lesson-search");
+  const results = portalHtml.indexOf("data-lesson-search-results", field);
+  const dashboard = portalHtml.indexOf("data-learning-dashboard=\"library\"", results);
+  assert.ok(field >= 0 && results > field && dashboard > results,
+    "search results must be directly beneath the search field and before the dashboard");
+  assert.match(portalHtml, /data-lesson-search-results-list/);
+  assert.match(portalCss, /\.lesson-search-result__thumbnail\s*\{[^}]*aspect-ratio:\s*16\s*\/\s*9/i);
+  assert.match(portalCss, /\.lesson-search-result\s+mark\s*\{[^}]*background:\s*#ffe36a/i);
+  const highlighterStart = portalJs.indexOf("function appendHighlightedText");
+  const highlighterEnd = portalJs.indexOf("function renderLessonSearchResults", highlighterStart);
+  const highlighter = portalJs.slice(highlighterStart, highlighterEnd);
+  assert.ok(highlighterStart >= 0 && highlighterEnd > highlighterStart);
+  assert.match(highlighter, /document\.createTextNode/);
+  assert.match(highlighter, /document\.createElement\("mark"\)/);
+  assert.doesNotMatch(highlighter, /innerHTML|insertAdjacentHTML|outerHTML/,
+    "highlighted lesson metadata must never be injected as HTML");
+  assert.match(portalJs, /function\s+renderLessonSearchResults[\s\S]*?document\.createElement\("img"\)[\s\S]*?openLesson\(lesson/);
+  assert.match(portalJs, /elements\.lessonSearch\?\.addEventListener\("input"[\s\S]*?renderLessonSearchResults\(\)[\s\S]*?searchLessons\(state\.libraryQuery\)/);
 });
 
 test("admin lesson control, thumbnails, series access, and playback recovery remain end-to-end", () => {

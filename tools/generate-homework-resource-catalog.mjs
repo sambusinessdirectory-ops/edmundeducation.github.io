@@ -263,6 +263,98 @@ async function dseWritingPartADownloadResources() {
   });
 }
 
+const downloadMaterialSources = Object.freeze([
+  Object.freeze({
+    file: "dse-writing-part-a-downloads.js",
+    globalName: "EDMUND_DSE_WRITING_PART_A_DOWNLOADS",
+    catalogKey: () => "dse-writing-part-a",
+    sectionLabel: "DSE Writing Part A"
+  }),
+  Object.freeze({
+    file: "ielts-task1-downloads.js",
+    globalName: "EDMUND_IELTS_TASK1_DOWNLOADS",
+    catalogKey: () => "task1",
+    sectionLabel: "IELTS Writing Task 1"
+  }),
+  Object.freeze({
+    file: "ielts-task2-model-essays.js",
+    globalName: "EDMUND_MODEL_ESSAYS",
+    catalogKey: () => "task2",
+    sectionLabel: "IELTS Writing Task 2"
+  }),
+  Object.freeze({
+    file: "ielts-speaking-downloads.js",
+    globalName: "EDMUND_IELTS_SPEAKING_DOWNLOADS",
+    catalogKey: () => "speaking",
+    sectionLabel: "IELTS Speaking"
+  }),
+  Object.freeze({
+    file: "ielts-reading-downloads.js",
+    globalName: "EDMUND_IELTS_READING_DOWNLOADS",
+    catalogKey: (item) => `reading-passage-${Number(item?.passage)}`,
+    sectionLabel: "IELTS Reading"
+  }),
+  Object.freeze({
+    file: "ielts-listening-downloads.js",
+    globalName: "EDMUND_IELTS_LISTENING_DOWNLOADS",
+    catalogKey: () => "listening",
+    sectionLabel: "IELTS Listening"
+  })
+]);
+
+function downloadMaterialLabel(source, item) {
+  const number = Number(item?.year || item?.number || 0);
+  const passage = Number(item?.passage || 0);
+  const title = compactText(item?.title || String(item?.filename || "").replace(/\.pdf$/i, ""), 180);
+  if (source.globalName === "EDMUND_IELTS_READING_DOWNLOADS") {
+    return compactText(`IELTS Reading · Passage ${passage} · Practice ${number} · ${title}`, 180);
+  }
+  if (source.globalName === "EDMUND_IELTS_LISTENING_DOWNLOADS") {
+    return compactText(`IELTS Listening · Practice ${number} · ${title}`, 180);
+  }
+  if (source.globalName === "EDMUND_IELTS_SPEAKING_DOWNLOADS") {
+    return compactText(`IELTS Speaking · Part ${Number(item?.part)} · Book ${Number(item?.book)} · ${title}`, 180);
+  }
+  return compactText(`${source.sectionLabel} · ${title}`, 180);
+}
+
+async function downloadMaterialResources() {
+  const globals = await evaluateFiles(downloadMaterialSources.map((source) => source.file));
+  const resources = [];
+  for (const source of downloadMaterialSources) {
+    const items = globals[source.globalName];
+    if (!Array.isArray(items) || !items.length) {
+      throw new Error(`${source.sectionLabel} download catalogue is empty`);
+    }
+    for (const item of items) {
+      const itemId = String(item?.id || "");
+      const ordinal = Number(item?.year || item?.number || 0);
+      const catalogKey = source.catalogKey(item);
+      if (!/^[a-f0-9]{16}$/i.test(itemId) || !Number.isSafeInteger(ordinal) || ordinal < 1) {
+        throw new Error(`Invalid ${source.sectionLabel} download item: ${JSON.stringify(item)}`);
+      }
+      if (!/^(?:dse-writing-part-a|task1|task2|speaking|reading-passage-[123]|listening)$/.test(catalogKey)) {
+        throw new Error(`Invalid download catalogue route for ${itemId}: ${catalogKey}`);
+      }
+      const detailParts = [
+        source.sectionLabel,
+        item?.categoryLabel,
+        item?.filename,
+        Number(item?.pages) > 0 ? `${Number(item.pages)} pages` : ""
+      ].filter(Boolean);
+      resources.push({
+        id: `download-material:${catalogKey}:${itemId}`,
+        type: "download-material",
+        ordinal,
+        label: downloadMaterialLabel(source, item),
+        detail: compactText(detailParts.join(" · "), 180),
+        url: `model-essay-downloads.html?catalog=${encodeURIComponent(catalogKey)}&item=${encodeURIComponent(itemId)}`
+      });
+    }
+  }
+  return resources;
+}
+
 async function readingAnalysisResources() {
   const globals = await evaluateFiles([
     "ielts-reading-analysis-index.js",
@@ -486,6 +578,7 @@ const resources = [
   ...writingPracticeResources,
   ...writingSubmissionResources(writingPracticeResources),
   ...await dseWritingPartADownloadResources(),
+  ...await downloadMaterialResources(),
   ...await readingAnalysisResources(),
   ...await speakingResources(),
   ...await sentenceResources(),
