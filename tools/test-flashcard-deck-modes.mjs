@@ -90,18 +90,22 @@ const setCardFamiliarity = Function("getDeckFamiliarity", "saveDeckFamiliarity",
 setCardFamiliarity(1, "red", "deck-a");
 assert.deepEqual(savedFamiliarity, { green: ["2"], red: ["3", "1"] }, "a failed answer in green-only mode must immediately downgrade the card to red");
 const familiarityPersistence = sourceBetween("function saveFamiliarityStore(", "function getCardNotesStore(");
-assert.match(familiarityPersistence, /writeJson\(FAMILIARITY_KEY, store\)/, "familiarity changes must enter the synced state writer");
+assert.match(familiarityPersistence, /writeJson\(FAMILIARITY_KEY, store\)/, "familiarity changes must enter the synchronized state writer");
 const familiarityDeckWriter = sourceBetween("function saveDeckFamiliarity(", "function setCardFamiliarity(");
-assert.match(familiarityDeckWriter, /cachePendingFamiliarityDeck\(deckKey, normalized\)/, "familiarity changes need a durable per-account outbox before the debounced network save");
+assert.match(familiarityDeckWriter, /cachePendingFamiliarityDeck\(deckKey, normalized\)/, "familiarity changes need an account-scoped local recovery copy before the durable outbox write");
 
 const stateCacheIsolation = sourceBetween("function clearFlashcardSyncedStateCache(", "function familiarityPendingLocalKey(");
-assert.match(stateCacheIsolation, /supabaseSaveTimers\.clear\(\)/);
+assert.match(stateCacheIsolation, /if \(!legacySyncQuarantineReady\)/, "identity transitions must fail closed until legacy state is quarantined");
+assert.match(stateCacheIsolation, /flashcardStagedValues\.clear\(\)/);
+assert.match(stateCacheIsolation, /flashcardStateVersions\.clear\(\)/);
+assert.match(stateCacheIsolation, /flashcardStateChecksums\.clear\(\)/);
+assert.match(stateCacheIsolation, /supabaseState\.hydratedOwner = ""/);
 assert.match(stateCacheIsolation, /delete remoteStore\[key\]/);
 assert.match(stateCacheIsolation, /localStorage\.removeItem\(key\)/);
 const sessionSetter = sourceBetween("function setSession(user)", "function clearSession()");
 assert.match(sessionSetter, /clearFlashcardSyncedStateCache\(\)/, "every identity transition must discard the previous account cache");
 const sessionClearer = sourceBetween("function clearSession()", "function restoreSession()");
-assert.match(sessionClearer, /clearFlashcardSyncedStateCache\(\)/, "logout must discard synced account state");
+assert.match(sessionClearer, /clearFlashcardSyncedStateCache\(\)/, "logout must discard synchronized account state");
 
 const pendingOutbox = sourceBetween("function familiarityPendingLocalKey(", "function readJson(");
 assert.match(pendingOutbox, /FAMILIARITY_PENDING_LOCAL_PREFIX/);
@@ -109,28 +113,32 @@ assert.match(pendingOutbox, /function cachePendingFamiliarityDeck/);
 assert.match(pendingOutbox, /function clearSyncedPendingFamiliarity/);
 assert.match(pendingOutbox, /function restorePendingFamiliarity/);
 
-const saveContextSource = sourceBetween("function captureSupabaseStateSaveContext(", "function queueSupabaseStateSave(");
+const saveContextSource = sourceBetween("function captureSupabaseStateSaveContext(", "function isSupabaseStateHydrated(");
 assert.match(saveContextSource, /type: "student"[\s\S]*?token: studentSessionToken/);
 assert.match(saveContextSource, /type: "admin"[\s\S]*?adminPassword: adminPasswordForSession/);
-assert.match(saveContextSource, /function supabaseStateSaveTimerKey\(key, context\)/);
-const timerKeyHelper = Function(`${saveContextSource}; return supabaseStateSaveTimerKey;`)();
-assert.notEqual(
-  timerKeyHelper("edmundFlashcardFamiliarity", { owner: "student:a" }),
-  timerKeyHelper("edmundFlashcardFamiliarity", { owner: "student:b" }),
-  "different accounts must never share a debounce timer"
-);
+assert.match(saveContextSource, /epoch: supabaseState\.epoch/, "save ownership must be bound to the current synchronization epoch");
 
-const queueSaveSource = sourceBetween("function queueSupabaseStateSave(", "async function saveSupabaseState(");
-assert.match(queueSaveSource, /const context = captureSupabaseStateSaveContext\(\)/);
-assert.match(queueSaveSource, /const timerKey = supabaseStateSaveTimerKey\(key, context\)/);
-assert.match(queueSaveSource, /saveSupabaseState\(key, value, \{ context \}\)/);
+const mutationWriter = sourceBetween("async function writeJson(", "function advanceFlashcardSyncEpoch(");
+assert.match(mutationWriter, /if \(!flashcardMutationAllowed\(\)\)/);
+assert.match(mutationWriter, /flashcardStagedValues\.set/);
+assert.match(mutationWriter, /await enqueueFlashcardOutboxMutation\(mutation\)/);
+assert.ok(
+  mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)") < mutationWriter.indexOf("remoteStore[key] = payload", mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)")),
+  "a synchronized value must reach the durable IndexedDB outbox before becoming canonical browser state"
+);
 
 const saveStateSource = sourceBetween("async function saveSupabaseState(", "function displayPreferenceOwner(");
 assert.match(saveStateSource, /const context = options\.context \|\| captureSupabaseStateSaveContext\(\)/);
-assert.match(saveStateSource, /p_token: context\.token/);
-assert.match(saveStateSource, /p_student_name: context\.studentName/);
-assert.match(saveStateSource, /clearSyncedPendingFamiliarity\(value, context\)/, "successful familiarity saves must acknowledge only the matching account outbox");
-assert.doesNotMatch(saveStateSource, /p_token: studentSessionToken/);
-assert.doesNotMatch(saveStateSource, /p_student_name: currentUser\.name/);
+assert.match(saveStateSource, /isSupabaseStateHydrated\(context\)/);
+assert.match(saveStateSource, /isSupabaseStateContextCurrent\(context\)/);
+assert.match(saveStateSource, /createFlashcardOutboxMutation\(key, value, context\)/);
+assert.match(saveStateSource, /await enqueueFlashcardOutboxMutation\(mutation\)/);
+assert.match(saveStateSource, /await drainFlashcardOutbox/);
 
-console.log("Flashcard deck range, red-card and green-card mode checks passed.");
+assert.match(
+  source,
+  /@supabase\/supabase-js@2\.110\.8\/dist\/umd\/supabase\.js" integrity="sha384-[^"]+" crossorigin="anonymous"/,
+  "the integrity-sensitive client must not load a floating Supabase JavaScript release"
+);
+
+console.log("Flashcard deck range, red-card, green-card and durable persistence checks passed.");

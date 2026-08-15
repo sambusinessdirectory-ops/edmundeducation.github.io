@@ -1,0 +1,48 @@
+name: Flashcard integrity watchdog
+
+on:
+  schedule:
+    # GitHub cron is UTC. Five-minute cadence makes the monitor independent of the
+    # browser and Supabase's optional in-project scheduler.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: flashcard-integrity-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watchdog:
+    # Publishing this workflow must not silently activate external monitoring.
+    # Only the exact repository-variable value `true` starts manual or scheduled runs.
+    if: ${{ vars.FLASHCARD_WATCHDOG_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check out trusted default-branch source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Use pinned Node.js toolchain action
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+          check-latest: false
+
+      - name: Probe aggregate Supabase integrity health
+        env:
+          SUPABASE_URL: ${{ secrets.FLASHCARD_WATCHDOG_SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.FLASHCARD_WATCHDOG_SUPABASE_ANON_KEY }}
+          FLASHCARD_WATCHDOG_TOKEN: ${{ secrets.FLASHCARD_WATCHDOG_TOKEN }}
+          FLASHCARD_WATCHDOG_SNAPSHOT_CHECKS_ENABLED: ${{ vars.FLASHCARD_WATCHDOG_SNAPSHOT_CHECKS_ENABLED }}
+        run: node tools/check-flashcard-integrity-health.mjs --output "$RUNNER_TEMP/flashcard-health.json"
+
+      - name: Open, update, deduplicate, or close the watchdog issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/reconcile-flashcard-integrity-issue.mjs --input "$RUNNER_TEMP/flashcard-health.json"
