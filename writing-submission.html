@@ -151,6 +151,8 @@
                   <span>Timer 計時器</span>
                   <strong data-writing-timer-toggle-display>00:00:00</strong>
                 </button>
+                <button class="small-button model-essay-toggle" type="button" data-model-essay-toggle hidden>顯示範文底字 <span data-model-essay-open-count></span></button>
+                <button class="small-button model-essay-paragraph-open" type="button" data-model-essay-paragraph-open hidden>選擇參考段落</button>
                 <div class="writing-stopwatch" data-writing-stopwatch data-status="idle" aria-label="寫作秒錶">
                   <span aria-hidden="true">◷</span>
                   <span class="writing-stopwatch-copy"><small>Stopwatch 秒錶</small><strong data-writing-stopwatch-display>00:00:00</strong></span>
@@ -196,12 +198,16 @@
             </section>
             <label class="writing-field writing-field-main">
               <span class="sr-only">文章內容</span>
-              <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法偵測只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
+              <div class="writing-editor-stack" data-writing-editor-stack>
+                <div class="writing-essay-overlay" data-model-essay-overlay hidden aria-hidden="true"></div>
+                <textarea data-writing-input rows="15" maxlength="100000" spellcheck="true" placeholder="請在這裡開始寫作。文法偵測只會在您輸入句號（.）或分號（;）完成一句後開始。"></textarea>
+              </div>
             </label>
             <div class="editor-note">
               <span aria-hidden="true">✦</span>
               <p>完成一句後才檢查：系統不會在您仍然構思或輸入句子時打斷您。</p>
             </div>
+            <p class="proofread-status" data-writing-proofread-status role="status" aria-live="polite"></p>
             <p class="form-status submission-status" data-submission-status role="status" aria-live="polite"></p>
             <div class="writing-save-actions">
               <button class="secondary-button save-writing-button" type="button" data-save-progress>Save current progress · 儲存目前進度</button>
@@ -416,7 +422,94 @@
         <button type="button" data-random-topic-category="ielts-task-1"><strong>IELTS Task 1</strong><span>圖表、流程及地圖寫作</span><em data-random-topic-count>正在檢查權限…</em></button>
         <button type="button" data-random-topic-category="ielts-task-2"><strong>IELTS Task 2</strong><span>議論文及問題分析寫作</span><em data-random-topic-count>正在檢查權限…</em></button>
       </div>
-      <p class="form-status random-topic-status" data-random-topic-status role="status" aria-live="polite"></p>
+    <p class="form-status random-topic-status" data-random-topic-status role="status" aria-live="polite"></p>
+  </div>
+  </dialog>
+
+  <dialog class="submission-flow-dialog" data-direct-paste-duration-dialog aria-labelledby="direct-paste-duration-title">
+    <div class="submission-flow-dialog-shell">
+      <header class="submission-flow-dialog-head">
+        <h2 id="direct-paste-duration-title">偵測到貼上文字</h2>
+        <button class="dialog-close" type="button" data-direct-paste-cancel aria-label="取消貼上時間輸入">×</button>
+      </header>
+      <p class="submission-flow-dialog-intro" data-direct-paste-intro></p>
+      <div class="submission-flow-form-grid">
+        <label>
+          <span>分鐘</span>
+          <input type="number" min="0" max="720" inputmode="numeric" data-direct-paste-minutes>
+        </label>
+        <label>
+          <span>秒鐘</span>
+          <input type="number" min="0" max="59" inputmode="numeric" data-direct-paste-seconds>
+        </label>
+      </div>
+      <p class="form-status" data-direct-paste-status role="status" aria-live="polite"></p>
+      <div class="submission-flow-actions">
+        <button class="secondary-button" type="button" data-direct-paste-cancel>尚未完成，回去修改</button>
+        <button class="primary-button" type="button" data-direct-paste-confirm>確認提交時間</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="submission-flow-dialog" data-proofread-warning-dialog aria-labelledby="proofread-warning-title">
+    <div class="submission-flow-dialog-shell">
+      <header class="submission-flow-dialog-head">
+        <h2 id="proofread-warning-title">系統仍偵測到拼字/標點問題</h2>
+        <button class="dialog-close" type="button" data-proofread-warning-no aria-label="關閉提示">×</button>
+      </header>
+      <p class="submission-flow-dialog-body">
+        system still detects misseplling, do you still want to submit? 系統還偵測到拼字、標點或空格問題，是否仍要提交？
+      </p>
+      <div class="submission-flow-actions">
+        <button class="secondary-button" type="button" data-proofread-warning-no>回去校對一下</button>
+        <button class="primary-button" type="button" data-proofread-warning-yes>仍要提交</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="submission-flow-dialog" data-proofread-issues-dialog aria-labelledby="proofread-issues-title">
+    <div class="submission-flow-dialog-shell">
+      <header class="submission-flow-dialog-head">
+        <h2 id="proofread-issues-title">發現以下可能問題</h2>
+        <button class="dialog-close" type="button" data-proofread-issues-close aria-label="關閉問題清單">×</button>
+      </header>
+      <p class="submission-flow-dialog-body">
+        system found these spelling mistakes, do you want to correct them or submit?
+      </p>
+      <div class="proofread-issues-table-wrap">
+        <table class="proofread-issues-table" data-proofread-issues-table>
+          <thead>
+            <tr>
+              <th>錯誤文字</th>
+              <th>建議文字</th>
+              <th>類型</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="submission-flow-actions">
+        <button class="secondary-button" type="button" data-proofread-issues-correct>回去更正</button>
+        <button class="primary-button" type="button" data-proofread-issues-submit>仍要提交</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="submission-flow-dialog" data-model-essay-paragraph-dialog aria-labelledby="model-essay-paragraph-title">
+    <div class="submission-flow-dialog-shell">
+      <header class="submission-flow-dialog-head">
+        <h2 id="model-essay-paragraph-title">選擇參考段落</h2>
+        <button class="dialog-close" type="button" data-model-essay-paragraph-dialog-close aria-label="關閉段落選擇">×</button>
+      </header>
+      <label class="model-essay-select-all-row">
+        <input type="checkbox" data-model-essay-select-all>
+        <span>全部選擇</span>
+      </label>
+      <div class="model-essay-paragraph-list" data-model-essay-paragraph-list></div>
+      <div class="submission-flow-actions">
+        <button class="secondary-button" type="button" data-model-essay-paragraph-dialog-close>取消</button>
+        <button class="primary-button" type="button" data-model-essay-paragraph-apply>套用選取</button>
+      </div>
     </div>
   </dialog>
 

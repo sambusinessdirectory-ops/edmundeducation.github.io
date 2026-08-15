@@ -83,6 +83,8 @@ const TOPIC_CATALOG_VERSION = "20260812-submission-links1";
 const TOPIC_REFERENCE_VERSION = "20260811-2";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
+const WRITING_PROOFREADING_SECONDS = 5 * 60;
+const DIRECT_PASTE_WORD_THRESHOLD = 50;
 const HARPER_VERSION = "2.7.0";
 const ESL_RULESET_VERSION = "2.0.0";
 const VOCABULARY_TEXT_SCALE_VALUES = Object.freeze([0.5, 1, 2, 3, 4, 5, 7]);
@@ -95,6 +97,24 @@ const FEEDBACK_HIGHLIGHT_COLORS = Object.freeze({
   green: "#d5f2d5"
 });
 const FEEDBACK_HIGHLIGHT_NAMES = Object.freeze(Object.keys(FEEDBACK_HIGHLIGHT_COLORS));
+const SPELLING_AND_SPACING_HINTS = Object.freeze([
+  { pattern: "recieve", suggestion: "receive" },
+  { pattern: "seperate", suggestion: "separate" },
+  { pattern: "occured", suggestion: "occurred" },
+  { pattern: "calender", suggestion: "calendar" },
+  { pattern: "writting", suggestion: "writing" },
+  { pattern: "adress", suggestion: "address" },
+  { pattern: "definately", suggestion: "definitely" },
+  { pattern: "teh", suggestion: "the" },
+  { pattern: "thier", suggestion: "their" },
+  { pattern: "becuase", suggestion: "because" },
+  { pattern: "throught", suggestion: "thought" },
+  { pattern: "comming", suggestion: "coming" },
+  { pattern: "alot", suggestion: "a lot" },
+  { pattern: "happend", suggestion: "happened" },
+  { pattern: "freind", suggestion: "friend" },
+  { pattern: "managment", suggestion: "management" }
+]);
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
 const entryLink = normalizeWritingSubmissionEntryLink(window.location.search);
@@ -134,6 +154,32 @@ const elements = {
   topicReferenceArea: document.querySelector("[data-topic-reference-area]"),
   writingInput: document.querySelector("[data-writing-input]"),
   proofreadingLabel: document.querySelector("[data-proofreading-label]"),
+  writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
+  writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
+  modelEssayToggle: document.querySelector("[data-model-essay-toggle]"),
+  modelEssayParagraphDialogOpen: document.querySelector("[data-model-essay-paragraph-open]"),
+  modelEssayDialog: document.querySelector("[data-model-essay-paragraph-dialog]"),
+  modelEssayDialogClose: document.querySelector("[data-model-essay-paragraph-dialog-close]"),
+  modelEssayDialogApply: document.querySelector("[data-model-essay-paragraph-apply]"),
+  modelEssayParagraphList: document.querySelector("[data-model-essay-paragraph-list]"),
+  modelEssaySelectAll: document.querySelector("[data-model-essay-select-all]"),
+  modelEssayOpenCount: document.querySelector("[data-model-essay-open-count]"),
+  proofreadStatus: document.querySelector("[data-writing-proofread-status]"),
+  directPasteDialog: document.querySelector("[data-direct-paste-duration-dialog]"),
+  directPasteDialogIntro: document.querySelector("[data-direct-paste-intro]"),
+  directPasteDialogMinutes: document.querySelector("[data-direct-paste-minutes]"),
+  directPasteDialogSeconds: document.querySelector("[data-direct-paste-seconds]"),
+  directPasteDialogStatus: document.querySelector("[data-direct-paste-status]"),
+  directPasteDialogConfirm: document.querySelector("[data-direct-paste-confirm]"),
+  directPasteDialogCancel: document.querySelector("[data-direct-paste-cancel]"),
+  proofreadWarningDialog: document.querySelector("[data-proofread-warning-dialog]"),
+  proofreadWarningYes: document.querySelector("[data-proofread-warning-yes]"),
+  proofreadWarningNo: document.querySelector("[data-proofread-warning-no]"),
+  proofreadIssuesDialog: document.querySelector("[data-proofread-issues-dialog]"),
+  proofreadIssuesClose: document.querySelector("[data-proofread-issues-close]"),
+  proofreadIssuesSubmit: document.querySelector("[data-proofread-issues-submit]"),
+  proofreadIssuesCorrect: document.querySelector("[data-proofread-issues-correct]"),
+  proofreadIssuesTable: document.querySelector("[data-proofread-issues-table]"),
   wordCount: document.querySelector("[data-word-count]"),
   writingTimerToggle: document.querySelector("[data-writing-timer-toggle]"),
   writingTimerToggleDisplay: document.querySelector("[data-writing-timer-toggle-display]"),
@@ -245,6 +291,19 @@ const state = {
   lastWritingActivityAt: 0,
   writingClockTimer: null,
   selectedTopicResource: null,
+  modelEssayReference: null,
+  modelEssayParagraphs: [],
+  modelEssayParagraphSelection: [],
+  modelEssayOverlayVisible: false,
+  modelEssayRouteKey: "",
+  modelEssayRouteLoad: 0,
+  directPaste: false,
+  directPasteWordCount: 0,
+  proofreadStartedAt: 0,
+  proofreadIssueSignature: "",
+  directPastePromptResolver: null,
+  proofreadWarningResolver: null,
+  proofreadDetailsResolver: null,
   writingTimer: emptyWritingTimer(),
   writingStopwatch: emptyWritingStopwatch(),
   proofreadingGate: createWritingProofreadingGate(),
@@ -391,6 +450,172 @@ function initializeFeedbackStickyOffset() {
   sync();
   window.addEventListener("resize", sync, { passive: true });
   if (typeof ResizeObserver === "function") new ResizeObserver(sync).observe(header);
+}
+
+function safeDialogOpen(dialog) {
+  if (!dialog) return;
+  if (typeof dialog.showModal === "function") dialog.showModal();
+  else dialog.setAttribute("open", "");
+}
+
+function safeDialogClose(dialog) {
+  if (!dialog) return;
+  if (typeof dialog.close === "function" && dialog.open) dialog.close();
+  else dialog.removeAttribute("open");
+}
+
+function formatProofreadRemaining(secondsValue) {
+  const numeric = Math.max(0, Math.round(Number(secondsValue || 0)));
+  const minutes = Math.floor(numeric / 60);
+  const seconds = numeric % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function proofreadRemainingSeconds(now = Date.now()) {
+  if (!state.proofreadStartedAt) return WRITING_PROOFREADING_SECONDS;
+  return Math.max(0, WRITING_PROOFREADING_SECONDS - Math.floor((now - state.proofreadStartedAt) / 1000));
+}
+
+function proofreadReady() {
+  return state.proofreadStartedAt > 0 && proofreadRemainingSeconds() <= 0;
+}
+
+function resetProofreadState() {
+  state.proofreadStartedAt = 0;
+  state.proofreadIssueSignature = "";
+}
+
+function isProofreadingTextLikelyRequired() {
+  return Boolean(elements.writingInput?.value.trim());
+}
+
+function modelEssayRouteKey(route = selectedTopicReferenceRoute()) {
+  return route ? `${route.exerciseId}|${route.essayKey || "default"}` : "";
+}
+
+function normalizeModelEssayParagraphSelection(value, length = 0) {
+  if (!Array.isArray(value)) return Array.from({ length }, () => true);
+  const normalized = value.map(valueItem => valueItem === true || valueItem === "true");
+  if (normalized.length !== length) return Array.from({ length }, () => true);
+  return normalized.map(Boolean);
+}
+
+function selectedModelEssayParagraphs(reference = state.modelEssayReference, value = state.modelEssayParagraphSelection) {
+  const paragraphs = Array.isArray(reference?.paragraphs)
+    ? reference.paragraphs
+    : state.modelEssayParagraphs;
+  const selection = Array.isArray(value) && value.length === paragraphs.length ? value : Array.from({ length: paragraphs.length }, () => true);
+  return paragraphs
+    .map((paragraph, index) => ({ paragraph, index, selected: selection[index] !== false }))
+    .filter(item => item.selected)
+    .map(item => item.paragraph);
+}
+
+function modelEssayOverlayText() {
+  const selected = selectedModelEssayParagraphs();
+  return selected
+    .map((paragraph) => String(paragraph?.english || ""))
+    .filter(Boolean)
+    .join("\n\n");
+}
+
+function syncModelEssayOpenCount() {
+  if (!elements.modelEssayOpenCount) return;
+  if (!state.modelEssayParagraphs.length) {
+    elements.modelEssayOpenCount.textContent = "";
+    return;
+  }
+  const total = state.modelEssayParagraphs.length;
+  const selected = state.modelEssayParagraphSelection.filter(Boolean).length || 0;
+  elements.modelEssayOpenCount.textContent = `(${selected}/${total})`;
+}
+
+function syncModelEssayOverlay() {
+  const paragraphsAvailable = Boolean(state.modelEssayParagraphs.length);
+  const hasSelection = state.modelEssayParagraphSelection.some(value => value);
+  const overlayText = hasSelection ? modelEssayOverlayText() : "";
+  if (elements.writingEssayOverlay) {
+    elements.writingEssayOverlay.textContent = overlayText;
+    elements.writingEssayOverlay.hidden = !state.modelEssayOverlayVisible || !overlayText;
+  }
+  if (elements.writingEditorStack) {
+    elements.writingEditorStack.dataset.modelEssayVisible = String(
+      state.modelEssayOverlayVisible && paragraphsAvailable && hasSelection
+    );
+  }
+  const isOverlayActive = state.modelEssayOverlayVisible && paragraphsAvailable && hasSelection;
+  if (elements.writingInput) {
+    if (isOverlayActive) elements.writingInput.classList.add("writing-input-with-model-essay");
+    else elements.writingInput.classList.remove("writing-input-with-model-essay");
+  }
+  syncModelEssayOpenCount();
+  syncModelEssayOverlayScroll();
+}
+
+function syncModelEssayControls() {
+  if (elements.modelEssayToggle) {
+    elements.modelEssayToggle.disabled = !state.modelEssayParagraphs.length;
+    elements.modelEssayToggle.hidden = !state.modelEssayParagraphs.length;
+    elements.modelEssayToggle.textContent = state.modelEssayOverlayVisible
+      ? "關閉範文底字"
+      : "顯示範文底字";
+  }
+}
+
+function syncModelEssayOverlayScroll() {
+  if (!elements.writingInput || !elements.writingEssayOverlay) return;
+  elements.writingEssayOverlay.scrollTop = elements.writingInput.scrollTop;
+  elements.writingEssayOverlay.scrollLeft = elements.writingInput.scrollLeft;
+}
+
+function ensureProofreadTimerStarted() {
+  if (!elements.writingInput?.value.trim()) return;
+  if (state.proofreadStartedAt > 0) return;
+  state.proofreadStartedAt = Date.now();
+}
+
+function syncProofreadStatus() {
+  if (!elements.proofreadStatus) return;
+  if (!elements.writingInput?.value.trim()) {
+    elements.proofreadStatus.textContent = "未開始校對：請開始輸入文章後 5 分鐘後再交稿";
+    return;
+  }
+  if (!state.proofreadStartedAt) {
+    elements.proofreadStatus.textContent = "校對倒數尚未開始（請先輸入至少一次）";
+    return;
+  }
+  const remaining = proofreadRemainingSeconds();
+  if (remaining <= 0) elements.proofreadStatus.textContent = "可交稿：校對倒數已完成";
+  else elements.proofreadStatus.textContent = `尚需 ${formatProofreadRemaining(remaining)} 後才能交稿（校對）`;
+}
+
+function clearModelEssayState() {
+  state.modelEssayReference = null;
+  state.modelEssayParagraphs = [];
+  state.modelEssayParagraphSelection = [];
+  state.modelEssayOverlayVisible = false;
+  state.modelEssayRouteKey = "";
+  syncModelEssayOverlay();
+  syncModelEssayControls();
+}
+
+function applyModelEssaySelection(nextSelection) {
+  state.modelEssayParagraphSelection = normalizeModelEssayParagraphSelection(nextSelection, state.modelEssayParagraphs.length);
+  if (!state.modelEssayParagraphSelection.length) state.modelEssayOverlayVisible = false;
+  syncModelEssayOverlay();
+  syncModelEssayControls();
+}
+
+function escapeRegex(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function normalizeDialogMinutesSeconds(minutesValue, secondsValue) {
+  const minutes = Math.max(0, Math.round(Number(minutesValue || 0)));
+  const seconds = Math.max(0, Math.round(Number(secondsValue || 0)));
+  const boundedMinutes = Math.min(720, minutes);
+  const boundedSeconds = Math.min(59, seconds);
+  return boundedMinutes * 60 + boundedSeconds;
 }
 
 function normalizeFeedbackFormattingRuns(value, textValue = "") {
@@ -1408,6 +1633,107 @@ async function loadTopicReferenceCatalog({ retry = false } = {}) {
   return state.topicReferencePromise;
 }
 
+async function loadModelEssayReference({ force = false } = {}) {
+  const route = selectedTopicReferenceRoute();
+  const nextRouteKey = modelEssayRouteKey(route);
+  const loadTicket = state.modelEssayRouteLoad + 1;
+  state.modelEssayRouteLoad = loadTicket;
+  if (!route) {
+    clearModelEssayState();
+    return null;
+  }
+  if (!force && state.modelEssayRouteKey === nextRouteKey && state.modelEssayParagraphs.length) return state.modelEssayReference;
+  state.modelEssayRouteKey = nextRouteKey;
+  try {
+    const catalog = await loadTopicReferenceCatalog();
+    if (state.modelEssayRouteLoad !== loadTicket) return null;
+    const reference = catalog?.[route.exerciseId];
+    if (!reference || !Array.isArray(reference?.paragraphs)) {
+      clearModelEssayState();
+      return null;
+    }
+    const paragraphs = reference.paragraphs
+      .map((paragraph) => ({
+        label: String(paragraph?.label || ""),
+        english: String(paragraph?.english || "").trim(),
+        chinese: String(paragraph?.chinese || "").trim()
+      }))
+      .filter(paragraph => paragraph.english || paragraph.chinese);
+    state.modelEssayReference = { ...reference, paragraphs };
+    state.modelEssayParagraphs = paragraphs;
+    state.modelEssayParagraphSelection = normalizeModelEssayParagraphSelection(
+      state.modelEssayParagraphSelection,
+      paragraphs.length
+    );
+    if (!state.modelEssayParagraphSelection.length) {
+      state.modelEssayParagraphSelection = paragraphs.map(() => true);
+    }
+    if (!state.modelEssayParagraphSelection.some(Boolean)) {
+      state.modelEssayParagraphSelection = paragraphs.map(() => true);
+    }
+    if (!state.modelEssayOverlayVisible) state.modelEssayOverlayVisible = false;
+    syncModelEssayControls();
+    syncModelEssayOpenCount();
+    syncModelEssayOverlay();
+    return state.modelEssayReference;
+  } catch (error) {
+    if (state.modelEssayRouteLoad === loadTicket) {
+      console.warn("Model essay overlay catalog failed", error);
+      clearModelEssayState();
+    }
+    return null;
+  }
+}
+
+function renderModelEssayParagraphDialog() {
+  if (!elements.modelEssayParagraphList) return;
+  if (!state.modelEssayParagraphs.length) {
+    elements.modelEssayParagraphList.replaceChildren(emptyState("目前未有可顯示的 Model Essay 段落。"));
+    if (elements.modelEssaySelectAll) elements.modelEssaySelectAll.checked = false;
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  state.modelEssayParagraphs.forEach((paragraph, index) => {
+    const row = createElement("label", "model-essay-paragraph-row");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.dataset.modelEssayParagraphIndex = String(index);
+    checkbox.checked = Boolean(state.modelEssayParagraphSelection[index]);
+    const title = createElement("strong", "", paragraph.label || `Paragraph ${index + 1}`);
+    const preview = createElement("p", "model-essay-paragraph-row-preview", paragraph.english);
+    row.append(checkbox, title, preview);
+    fragment.append(row);
+  });
+  elements.modelEssayParagraphList.replaceChildren(fragment);
+  const allChecked = state.modelEssayParagraphSelection.every(Boolean);
+  const anyChecked = state.modelEssayParagraphSelection.some(Boolean);
+  if (elements.modelEssaySelectAll) {
+    elements.modelEssaySelectAll.checked = allChecked;
+    elements.modelEssaySelectAll.indeterminate = anyChecked && !allChecked;
+  }
+  syncModelEssayOpenCount();
+}
+
+function applyModelEssaySelectionFromDialog() {
+  if (!elements.modelEssayParagraphList) return;
+  const selections = [];
+  elements.modelEssayParagraphList.querySelectorAll("[data-model-essay-paragraph-index]").forEach((checkbox) => {
+    const index = Number(checkbox.dataset.modelEssayParagraphIndex);
+    if (!Number.isSafeInteger(index) || index < 0 || index >= state.modelEssayParagraphs.length) return;
+    selections[index] = checkbox.checked;
+  });
+  if (!selections.length) selections.push(...state.modelEssayParagraphs.map(() => true));
+  applyModelEssaySelection(normalizeModelEssayParagraphSelection(selections, state.modelEssayParagraphs.length));
+  persistDraft();
+}
+
+function setAllModelEssayParagraphSelection(nextChecked = true) {
+  if (!state.modelEssayParagraphs.length) return;
+  state.modelEssayParagraphSelection = state.modelEssayParagraphs.map(() => Boolean(nextChecked));
+  renderModelEssayParagraphDialog();
+  syncModelEssayOpenCount();
+}
+
 function topicReferenceError(content) {
   const error = createElement("div", "topic-reference-error");
   error.append(createElement("p", "", "暫時未能載入參考內容。您仍可使用上方連結前往相關練習。"));
@@ -1538,6 +1864,26 @@ async function loadTopicReferenceDetails(details, { retry = false } = {}) {
     }
     if (details.dataset.topicReferenceKind === "model-essay") {
       renderModelEssayReference(content, reference);
+      const normalizedParagraphs = Array.isArray(reference?.paragraphs)
+        ? reference.paragraphs
+          .map((paragraph) => ({
+            label: String(paragraph?.label || ""),
+            english: String(paragraph?.english || "").trim(),
+            chinese: String(paragraph?.chinese || "").trim()
+          }))
+          .filter((paragraph) => paragraph.english || paragraph.chinese)
+        : [];
+      state.modelEssayReference = { ...reference, paragraphs: normalizedParagraphs };
+      state.modelEssayParagraphs = normalizedParagraphs;
+      state.modelEssayParagraphSelection = normalizeModelEssayParagraphSelection(
+        state.modelEssayParagraphSelection,
+        normalizedParagraphs.length
+      );
+      if (!state.modelEssayParagraphSelection.length) {
+        state.modelEssayParagraphSelection = normalizedParagraphs.map(() => true);
+      }
+      syncModelEssayControls();
+      syncModelEssayOverlay();
     } else if (details.dataset.topicReferenceKind === "vocabulary") {
       renderVocabularyReference(content, reference);
     } else {
@@ -1595,6 +1941,7 @@ async function loadWritingTopicCatalog() {
 function renderSelectedTopicPreview() {
   const resource = canonicalWritingTopicResource(state.selectedTopicResource);
   state.selectedTopicResource = resource;
+  clearModelEssayState();
   if (!elements.selectedTopicPreview) return;
   if (!resource?.questionImages.length) {
     elements.selectedTopicPreview.hidden = true;
@@ -1637,6 +1984,9 @@ function renderSelectedTopicPreview() {
   elements.selectedTopicPreview.replaceChildren(head, images);
   elements.selectedTopicPreview.hidden = false;
   renderSelectedTopicReferences();
+  loadModelEssayReference().catch((error) => {
+    console.warn("Model essay reference load failed", error);
+  });
 }
 
 function writingTopicResultHaystack(resource) {
@@ -1848,6 +2198,13 @@ function readDraft() {
         && submissionDurationSeconds <= 31536000
         ? submissionDurationSeconds
         : null,
+      directPaste: Boolean(value.directPaste),
+      directPasteWordCount: Number.isSafeInteger(Number(value.directPasteWordCount))
+        ? Number(value.directPasteWordCount)
+        : 0,
+      proofreadStartedAt: Number.isSafeInteger(Number(value.proofreadStartedAt))
+        ? Number(value.proofreadStartedAt)
+        : 0,
       writingTimer: normalizeWritingTimer(value.writingTimer),
       writingStopwatch: normalizeWritingStopwatch(value.writingStopwatch),
       proofreadingGate: normalizeWritingProofreadingGate(value.proofreadingGate),
@@ -1872,6 +2229,9 @@ function persistDraft() {
       answer: elements.writingInput.value,
       durationSeconds: Math.round(state.draftDurationSeconds),
       submissionDurationSeconds: state.submissionDurationSeconds,
+      directPaste: state.directPaste,
+      directPasteWordCount: state.directPasteWordCount,
+      proofreadStartedAt: state.proofreadStartedAt,
       writingTimer: normalizeWritingTimer(state.writingTimer),
       writingStopwatch: normalizeWritingStopwatch(state.writingStopwatch),
       proofreadingGate: normalizeWritingProofreadingGate(state.proofreadingGate),
@@ -1947,6 +2307,8 @@ function updateEditorMetrics() {
   elements.draftState.textContent = changed ? "正在編輯" : "尚未提交";
   autosizeTextarea(elements.topicInput, 108);
   autosizeTextarea(elements.writingInput, 480);
+  syncProofreadStatus();
+  syncModelEssayOverlayScroll();
 }
 
 function syncWritingProofreadingUi(now = Date.now()) {
@@ -2094,6 +2456,7 @@ function tickWritingTimer() {
     }
   }
   tickWritingStopwatch();
+  syncProofreadStatus();
 }
 
 function pauseWritingTimersForIdleBreak(event) {
@@ -2292,6 +2655,9 @@ function startNewDraft({ preserveView = false } = {}) {
   state.documentId = newDocumentId();
   state.draftDurationSeconds = 0;
   state.submissionDurationSeconds = null;
+  state.directPaste = false;
+  state.directPasteWordCount = 0;
+  resetProofreadState();
   state.writingTimer = emptyWritingTimer();
   state.writingStopwatch = emptyWritingStopwatch();
   state.proofreadingGate = resetWritingProofreadingGate();
@@ -2306,6 +2672,7 @@ function startNewDraft({ preserveView = false } = {}) {
   elements.topicInput.value = "";
   elements.writingInput.value = "";
   state.selectedTopicResource = null;
+  clearModelEssayState();
   renderSelectedTopicPreview();
   setStatus(elements.submissionStatus, "");
   renderGrammarIssues();
@@ -2334,6 +2701,13 @@ async function restoreDraft() {
   state.documentId = draft?.documentId || newDocumentId();
   state.draftDurationSeconds = draft?.durationSeconds || 0;
   state.submissionDurationSeconds = draft?.submissionDurationSeconds ?? null;
+  state.directPaste = Boolean(draft?.directPaste);
+  state.directPasteWordCount = Number.isSafeInteger(draft?.directPasteWordCount)
+    ? Math.max(0, Number(draft.directPasteWordCount))
+    : 0;
+  state.proofreadStartedAt = Number.isSafeInteger(draft?.proofreadStartedAt) && draft.proofreadStartedAt > 0
+    ? Math.max(0, Math.round(draft.proofreadStartedAt))
+    : 0;
   state.writingTimer = normalizeWritingTimer(draft?.writingTimer);
   state.writingStopwatch = normalizeWritingStopwatch(draft?.writingStopwatch);
   state.proofreadingGate = normalizeWritingProofreadingGate(draft?.proofreadingGate);
@@ -2346,8 +2720,10 @@ async function restoreDraft() {
   elements.writingInput.value = draft?.answer || "";
   state.selectedTopicResource = selectedTopicResource;
   renderSelectedTopicPreview();
+  await loadModelEssayReference({ force: true });
   state.previousWriting = elements.writingInput.value;
   updateEditorMetrics();
+  syncProofreadStatus();
   if (state.writingTimer.durationSeconds) setWritingTimerInputs(state.writingTimer.durationSeconds);
   else setWritingTimerInputs(40 * 60);
   syncWritingTimerUi();
@@ -3291,16 +3667,260 @@ function scheduleManualGrammarRecheck(previousValue, nextValue) {
   }, 650);
 }
 
+function normalizeIssueText(value) {
+  return String(value || "").replace(/\s+/gu, " ").trim();
+}
+
+function preserveCaseForReplacement(original, replacement) {
+  const source = String(original || "");
+  const target = String(replacement || "");
+  if (source.toUpperCase() === source) return target.toUpperCase();
+  if (source.toLowerCase() === source) return target.toLowerCase();
+  if (source[0]?.toUpperCase() === source[0]) return `${target[0]?.toUpperCase() || ""}${target.slice(1).toLowerCase()}`;
+  return target;
+}
+
+function isProofreadRelevantGrammarIssue(issue) {
+  const labels = `${issue?.title || ""} ${issue?.message || ""} ${issue?.ruleId || ""} ${issue?.sentenceText || ""}`.toLowerCase();
+  return [
+    "spelling",
+    "spelling_or_spacing",
+    "punctuation",
+    "spacing",
+    "拼字",
+    "標點",
+    "空格"
+  ].some(token => labels.includes(token));
+}
+
+function buildProofreadIssueList(answer) {
+  const unique = new Set();
+  const candidates = [];
+  const raw = String(answer || "");
+  for (const issue of state.activeIssues) {
+    if (!isProofreadRelevantGrammarIssue(issue)) continue;
+    const before = normalizeIssueText(issue.originalText || issue.sentenceText || "");
+    const after = normalizeIssueText(issue.correctedSentence || issue.message || issue.sentenceText || "");
+    if (!before || !after || before === after) continue;
+    if (isLikelyBritishAmericanSpellingVariant(before, after)) continue;
+    const key = `${before}|||${after}`;
+    if (unique.has(key)) continue;
+    unique.add(key);
+    candidates.push({ incorrect: before, suggestion: after, reason: issue.title || "spelling_or_spacing" });
+  }
+  for (const hint of SPELLING_AND_SPACING_HINTS) {
+    const typo = String(hint.pattern || "");
+    const correct = String(hint.suggestion || "");
+    const pattern = new RegExp(`\\b${escapeRegex(typo)}\\b`, "gi");
+    let match = null;
+    while ((match = pattern.exec(raw)) !== null) {
+      const incorrect = match[0];
+      const replacement = preserveCaseForReplacement(incorrect, correct);
+      const key = `${incorrect.toLowerCase()}|||${replacement.toLowerCase()}`;
+      if (unique.has(key)) continue;
+      unique.add(key);
+      candidates.push({
+        incorrect: incorrect,
+        suggestion: replacement,
+        reason: "spelling"
+      });
+      if (match.index === pattern.lastIndex) pattern.lastIndex += 1;
+    }
+  }
+
+  const spacingPatterns = [
+    { regex: /,([A-Za-z])/g, replacement: ", $1", reason: "spacing" },
+    { regex: /([.!?;:])([A-Za-z])/g, replacement: "$1 $2", reason: "punctuation" },
+    { regex: /(\d+)(years?|months?|weeks?|days?|hours?|minutes?|seconds?)(?!\s)/gi, replacement: "$1 $2", reason: "spacing" }
+  ];
+  for (const item of spacingPatterns) {
+    let match = null;
+    while ((match = item.regex.exec(raw)) !== null) {
+      const full = match[0];
+      if (full.length < 2) continue;
+      let replacement = full.replace(item.regex, item.replacement || full);
+      const key = `${full.toLowerCase()}|||${replacement.toLowerCase()}`;
+      if (unique.has(key)) continue;
+      unique.add(key);
+      candidates.push({
+        incorrect: full,
+        suggestion: replacement,
+        reason: item.reason
+      });
+      if (match.index === item.regex.lastIndex) item.regex.lastIndex += 1;
+    }
+  }
+  return candidates;
+}
+
+function isLikelyBritishAmericanSpellingVariant(left, right) {
+  const normalizedLeft = String(left || "").trim().toLowerCase();
+  const normalizedRight = String(right || "").trim().toLowerCase();
+  const pairs = [
+    ["colour", "color"],
+    ["favour", "favor"],
+    ["fibre", "fiber"],
+    ["centre", "center"],
+    ["theatre", "theater"],
+    ["realise", "realize"],
+    ["organise", "organize"],
+    ["licence", "license"],
+    ["defence", "defense"],
+    ["analyse", "analyze"],
+    ["programme", "program"],
+    ["travelling", "traveling"]
+  ];
+  return pairs.some((pair) => {
+    const [british, american] = pair;
+    return (
+      (normalizedLeft === british && normalizedRight === american)
+      || (normalizedLeft === american && normalizedRight === british)
+    );
+  });
+}
+
+function proofreadingIssueSignature(issues) {
+  return issues
+    .map((issue) => `${normalizeIssueText(issue.incorrect)}=>${normalizeIssueText(issue.suggestion)}`)
+    .filter((line) => line)
+    .sort()
+    .join("||");
+}
+
+function renderProofreadingIssuesTable(issues) {
+  if (!elements.proofreadIssuesTable) return;
+  const body = elements.proofreadIssuesTable.querySelector("tbody");
+  if (!body) return;
+  if (!issues.length) {
+    body.replaceChildren(createElement("tr", "", createElement("td", "", "未發現可補正的拼字/標點問題。")));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const issue of issues) {
+    const row = document.createElement("tr");
+    row.append(
+      createElement("td", "", issue.incorrect),
+      createElement("td", "", issue.suggestion),
+      createElement("td", "", issue.reason || "spelling_or_spacing")
+    );
+    fragment.append(row);
+  }
+  body.replaceChildren(fragment);
+}
+
+function requestDirectPasteDuration() {
+  return new Promise((resolve) => {
+    const finalize = (value) => {
+      state.directPastePromptResolver = null;
+      if (elements.directPasteDialogStatus) elements.directPasteDialogStatus.textContent = "";
+      if (elements.directPasteDialogIntro) elements.directPasteDialogIntro.textContent = "";
+      if (elements.directPasteDialogMinutes) elements.directPasteDialogMinutes.value = "";
+      if (elements.directPasteDialogSeconds) elements.directPasteDialogSeconds.value = "";
+      safeDialogClose(elements.directPasteDialog);
+      resolve(value);
+    };
+    if (elements.directPasteDialogMinutes) elements.directPasteDialogMinutes.value = "";
+    if (elements.directPasteDialogSeconds) elements.directPasteDialogSeconds.value = "";
+    state.directPastePromptResolver = finalize;
+    const pastedWordCount = Number.isSafeInteger(Number(state.directPasteWordCount))
+      ? Math.max(0, Math.round(Number(state.directPasteWordCount)))
+      : 0;
+    const intro = pastedWordCount > 0
+      ? `It seems the text is pasted, how much time was spent on the writing? （系統偵測到約 ${pastedWordCount} 字為貼上內容，請輸入實際寫作時間）`
+      : "It seems the text is pasted, how much time was spent on the writing?（請輸入實際寫作時間）";
+    if (elements.directPasteDialogIntro) {
+      elements.directPasteDialogIntro.textContent = intro;
+    }
+    if (elements.directPasteDialogStatus) {
+      elements.directPasteDialogStatus.textContent = "";
+    }
+    safeDialogOpen(elements.directPasteDialog);
+    window.setTimeout(() => elements.directPasteDialogMinutes?.focus(), 0);
+  });
+}
+
+function requestProofreadWarningConfirmation() {
+  return new Promise((resolve) => {
+    state.proofreadWarningResolver = (value) => {
+      state.proofreadWarningResolver = null;
+      safeDialogClose(elements.proofreadWarningDialog);
+      resolve(value);
+    };
+    safeDialogOpen(elements.proofreadWarningDialog);
+  });
+}
+
+function requestProofreadIssueReview(issues) {
+  return new Promise((resolve) => {
+    renderProofreadingIssuesTable(issues);
+    state.proofreadDetailsResolver = (value) => {
+      state.proofreadDetailsResolver = null;
+      safeDialogClose(elements.proofreadIssuesDialog);
+      resolve(value);
+    };
+    safeDialogOpen(elements.proofreadIssuesDialog);
+  });
+}
+
+async function promptDirectPasteDuration() {
+  const result = await requestDirectPasteDuration();
+  if (typeof result !== "number" || !Number.isFinite(result)) return null;
+  return result;
+}
+
+async function ensureDirectPasteSubmissionDuration() {
+  if (!state.directPaste) return state.submissionDurationSeconds;
+  const answer = await promptDirectPasteDuration();
+  if (!Number.isFinite(answer) || answer < 0) {
+    throw new Error("尚未提交：請輸入實際貼上文章的撰寫時間。");
+  }
+  state.submissionDurationSeconds = Math.max(0, Math.round(answer));
+  persistDraft();
+  return state.submissionDurationSeconds;
+}
+
+async function enforceProofreadSubmissionChecks() {
+  if (!elements.writingInput?.value.trim()) return;
+  ensureProofreadTimerStarted();
+  if (!proofreadReady()) {
+    const remaining = proofreadRemainingSeconds();
+    syncProofreadStatus();
+    throw new Error(`尚未完成 5 分鐘校對（剩餘 ${formatProofreadRemaining(remaining)}），請先等到時間到。`);
+  }
+  const issues = buildProofreadIssueList(elements.writingInput.value);
+  if (!issues.length) {
+    state.proofreadIssueSignature = "";
+    return;
+  }
+  const issueSignature = proofreadingIssueSignature(issues);
+  if (state.proofreadIssueSignature && state.proofreadIssueSignature !== issueSignature) {
+    state.proofreadIssueSignature = issueSignature;
+  } else if (!state.proofreadIssueSignature) {
+    state.proofreadIssueSignature = issueSignature;
+  }
+  const stillSubmit = await requestProofreadWarningConfirmation();
+  if (!stillSubmit) {
+    throw new Error("尚未提交：請回到校對與修正後再試。");
+  }
+  const confirmSubmit = await requestProofreadIssueReview(issues);
+  if (!confirmSubmit) {
+    throw new Error("尚未提交：請回到校對與修正後再試。");
+  }
+}
+
 function handleWritingInput() {
   const nextValue = elements.writingInput.value;
   const previousValue = state.previousWriting;
   markWritingActivity();
+  ensureProofreadTimerStarted();
   if (!state.grammarDetectionEnabled) {
     state.previousWriting = nextValue;
     updateEditorMetrics();
     refreshVocabularyUsage();
     scheduleDraftSave();
     renderGrammarIssues();
+    syncProofreadStatus();
+    syncModelEssayOverlayScroll();
     return;
   }
   supersedeSegmentRecordsAffectedByEdit(previousValue, nextValue);
@@ -3318,12 +3938,31 @@ function handleWritingInput() {
   refreshVocabularyUsage();
   scheduleDraftSave();
   renderGrammarIssues();
+  syncProofreadStatus();
+  syncModelEssayOverlayScroll();
   if (immediateSegments.length) {
     window.clearTimeout(state.manualRecheckTimer);
     state.manualRecheckTimer = null;
     enqueueSegmentsForCheck(immediateSegments);
   } else {
     scheduleManualGrammarRecheck(previousValue, nextValue);
+  }
+}
+
+function handleWritingPaste(event) {
+  const clipboard = event.clipboardData?.getData("text/plain") || "";
+  if (!clipboard.trim()) return;
+  const pastedWordCount = countEnglishWords(clipboard);
+  if (pastedWordCount > DIRECT_PASTE_WORD_THRESHOLD) {
+    const currentPasteWordCount = Number.isSafeInteger(Number(state.directPasteWordCount))
+      ? Math.max(0, Math.round(Number(state.directPasteWordCount)))
+      : 0;
+    state.directPaste = true;
+    state.directPasteWordCount = currentPasteWordCount + pastedWordCount;
+    syncProofreadStatus();
+    if (elements.proofreadStatus) {
+      elements.proofreadStatus.textContent = "已偵測到大量貼上，請於提交時填寫實際寫作時間。";
+    }
   }
 }
 
@@ -3825,6 +4464,9 @@ async function loadDraftIntoWorkspace(draft) {
   state.documentId = draft.id;
   state.draftDurationSeconds = draft.durationSeconds;
   state.submissionDurationSeconds = null;
+  state.directPaste = false;
+  state.directPasteWordCount = 0;
+  resetProofreadState();
   state.writingTimer = normalizeWritingTimer(draft.countdown);
   state.writingStopwatch = normalizeWritingStopwatch(draft.stopwatch);
   state.proofreadingGate = resetWritingProofreadingGate();
@@ -3837,8 +4479,10 @@ async function loadDraftIntoWorkspace(draft) {
   elements.topicInput.value = draft.topic;
   elements.writingInput.value = draft.answer;
   state.selectedTopicResource = selectedTopicResource;
+  await loadModelEssayReference({ force: true });
   renderSelectedTopicPreview();
   updateEditorMetrics();
+  syncProofreadStatus();
   if (state.writingTimer.durationSeconds) setWritingTimerInputs(state.writingTimer.durationSeconds);
   else setWritingTimerInputs(40 * 60);
   syncWritingTimerUi();
@@ -5282,6 +5926,8 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
   const answer = elements.writingInput.value.trim();
   if (!topic || !answer) throw new Error("請先輸入寫作題目及文章內容。");
   accrueWritingTime();
+  await enforceProofreadSubmissionChecks();
+  await ensureDirectPasteSubmissionDuration();
   if (!UUID_RE.test(state.documentId)) state.documentId = newDocumentId();
   const submittedDocumentId = state.documentId;
   if (!Number.isSafeInteger(state.submissionDurationSeconds)) {
@@ -6091,6 +6737,130 @@ function bindEvents() {
   elements.refreshAdminReview.addEventListener("click", () => openAdminExplanationReview().catch(handleViewError));
   elements.adminReviewMore.addEventListener("click", () => loadAdminExplanationReviews().catch(handleViewError));
   elements.writingForm.addEventListener("submit", submitWriting);
+  if (elements.modelEssayToggle) {
+    elements.modelEssayToggle.addEventListener("click", async () => {
+      await loadModelEssayReference({ force: true });
+      if (!state.modelEssayParagraphs.length) {
+        showToast("此題目尚未設定可供參考的 Model Essay 段落。", "error");
+        return;
+      }
+      state.modelEssayOverlayVisible = !state.modelEssayOverlayVisible;
+      syncModelEssayOverlay();
+      persistDraft();
+      syncProofreadStatus();
+    });
+  }
+  if (elements.modelEssayParagraphDialogOpen) {
+    elements.modelEssayParagraphDialogOpen.addEventListener("click", async () => {
+      await loadModelEssayReference({ force: true });
+      if (!state.modelEssayParagraphs.length) {
+        showToast("此題目尚未設定可參考段落。", "error");
+        return;
+      }
+      renderModelEssayParagraphDialog();
+      safeDialogOpen(elements.modelEssayDialog);
+    });
+  }
+  if (elements.modelEssayDialogClose) {
+    elements.modelEssayDialogClose.addEventListener("click", () => safeDialogClose(elements.modelEssayDialog));
+  }
+  if (elements.modelEssayDialogApply) {
+    elements.modelEssayDialogApply.addEventListener("click", () => {
+      applyModelEssaySelectionFromDialog();
+      syncProofreadStatus();
+      persistDraft();
+      safeDialogClose(elements.modelEssayDialog);
+    });
+  }
+  if (elements.modelEssaySelectAll) {
+    elements.modelEssaySelectAll.addEventListener("change", (event) => {
+      setAllModelEssayParagraphSelection(event.target.checked);
+      persistDraft();
+    });
+  }
+  if (elements.directPasteDialogConfirm) {
+    elements.directPasteDialogConfirm.addEventListener("click", () => {
+      const total = normalizeDialogMinutesSeconds(
+        elements.directPasteDialogMinutes?.value,
+        elements.directPasteDialogSeconds?.value
+      );
+      if (!Number.isFinite(total) || total <= 0) {
+        if (elements.directPasteDialogStatus) {
+          elements.directPasteDialogStatus.textContent = "請輸入大於 0 分鐘，或至少 1 秒。";
+        }
+        return;
+      }
+      const resolver = state.directPastePromptResolver;
+      if (resolver) resolver(total);
+    });
+  }
+  if (elements.directPasteDialogCancel) {
+    elements.directPasteDialogCancel.addEventListener("click", () => {
+      const resolver = state.directPastePromptResolver;
+      if (resolver) resolver(null);
+    });
+  }
+  if (elements.directPasteDialog) {
+    elements.directPasteDialog.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      const resolver = state.directPastePromptResolver;
+      if (resolver) resolver(null);
+      safeDialogClose(elements.directPasteDialog);
+    });
+  }
+  if (elements.proofreadWarningYes) {
+    elements.proofreadWarningYes.addEventListener("click", () => {
+      const resolver = state.proofreadWarningResolver;
+      if (resolver) resolver(true);
+    });
+  }
+  if (elements.proofreadWarningNo) {
+    elements.proofreadWarningNo.addEventListener("click", () => {
+      const resolver = state.proofreadWarningResolver;
+      if (resolver) resolver(false);
+    });
+  }
+  if (elements.proofreadWarningDialog) {
+    elements.proofreadWarningDialog.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      const resolver = state.proofreadWarningResolver;
+      if (resolver) resolver(false);
+      safeDialogClose(elements.proofreadWarningDialog);
+    });
+  }
+  if (elements.proofreadIssuesClose) {
+    elements.proofreadIssuesClose.addEventListener("click", () => {
+      const resolver = state.proofreadDetailsResolver;
+      if (resolver) resolver(false);
+    });
+  }
+  if (elements.proofreadIssuesCorrect) {
+    elements.proofreadIssuesCorrect.addEventListener("click", () => {
+      const resolver = state.proofreadDetailsResolver;
+      if (resolver) resolver(false);
+    });
+  }
+  if (elements.proofreadIssuesSubmit) {
+    elements.proofreadIssuesSubmit.addEventListener("click", () => {
+      const resolver = state.proofreadDetailsResolver;
+      if (resolver) resolver(true);
+    });
+  }
+  if (elements.proofreadIssuesDialog) {
+    elements.proofreadIssuesDialog.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      const resolver = state.proofreadDetailsResolver;
+      if (resolver) resolver(false);
+      safeDialogClose(elements.proofreadIssuesDialog);
+    });
+  }
+  if (elements.modelEssayDialog) {
+    elements.modelEssayDialog.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      safeDialogClose(elements.modelEssayDialog);
+    });
+  }
+
   elements.writingTimerToggle.addEventListener("click", () => openWritingTimerPanel());
   elements.writingTimerStart.addEventListener("click", handleWritingTimerStart);
   elements.writingTimerPause.addEventListener("click", handleWritingTimerPause);
@@ -6151,6 +6921,8 @@ function bindEvents() {
   });
   elements.grammarToggle.addEventListener("change", () => handleGrammarDetectionToggle());
   elements.writingInput.addEventListener("input", handleWritingInput);
+  elements.writingInput.addEventListener("paste", handleWritingPaste);
+  elements.writingInput.addEventListener("scroll", syncModelEssayOverlayScroll);
   elements.writingInput.addEventListener("focus", markWritingActivity);
   elements.topicInput.addEventListener("focus", markWritingActivity);
   elements.adminSearch.addEventListener("input", () => {
