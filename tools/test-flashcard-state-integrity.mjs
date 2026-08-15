@@ -177,6 +177,22 @@ assert.match(outboxPersistence, /\.add\(record\)/);
 assert.match(outboxPersistence, /get\(record\.mutationId\)/);
 assert.match(outboxPersistence, /verified\.owner !== record\.owner/);
 
+const atomicSupersession = extractFunction("supersedeFlashcardOutboxMutation");
+assert.match(atomicSupersession, /store\.get\(previousMutationId\)/);
+assert.match(atomicSupersession, /if \(!previousRecord\)/);
+assert.match(atomicSupersession, /return null/);
+assert.ok(
+  atomicSupersession.indexOf("store.get(previousMutationId)")
+    < atomicSupersession.indexOf("store.add(replacement)"),
+  "A cross-tab supersession must claim the old row before adding a replacement"
+);
+assert.ok(
+  atomicSupersession.indexOf("store.add(replacement)")
+    < atomicSupersession.indexOf("store.delete(previousMutationId)"),
+  "Replacement creation and old-row deletion must remain in one ordered transaction"
+);
+assert.match(atomicSupersession, /previousLogicalId !== replacement\.logicalMutationId/);
+
 const ownerRuntime = vm.runInNewContext(`(() => {
   ${extractFunction("normalizedLegacyOwnerName")}
   ${extractFunction("flashcardOutboxOwnerMatches")}
@@ -288,6 +304,88 @@ assert.equal(genericRebaseRuntime(
 assert.equal(genericRebaseRuntime([1], [2], [1]).safe, true);
 assert.equal(genericRebaseRuntime([1], [2], [3]).safe, false, "Concurrent array edits require review");
 
+const queuedFastForwardRuntime = vm.runInNewContext(`(() => {
+  const ATTEMPTS_KEY = "attempts";
+  const supabaseState = { v2Availability: "available" };
+  const window = { crypto: { randomUUID: () => "ffffffff-ffff-4fff-8fff-ffffffffffff" } };
+  const flashcardStateVersions = new Map([[ATTEMPTS_KEY, 5], ["progress", 8], ["overlap", 8]]);
+  const flashcardStateChecksums = new Map([[ATTEMPTS_KEY, "attempts-v5"], ["progress", "progress-v8"], ["overlap", "overlap-v8"]]);
+  const flashcardCanonicalValues = new Map([
+    [ATTEMPTS_KEY, [{ id: "a", studentName: "Hayley", answeredCount: 1 }]],
+    ["progress", { local: 1, external: 2 }],
+    ["overlap", { local: 2, external: 1 }]
+  ]);
+  ${extractFunction("cloneFlashcardSyncPayload")}
+  ${extractFunction("flashcardIntegrityError")}
+  ${extractFunction("flashcardStateVersion")}
+  ${extractFunction("flashcardStateChecksum")}
+  ${extractFunction("flashcardCanonicalValue")}
+  ${extractFunction("flashcardJsonEqual")}
+  ${extractFunction("isPlainFlashcardStateObject")}
+  ${extractFunction("rebaseFlashcardGenericState")}
+  ${extractFunction("flashcardAttemptIdentity")}
+  ${extractFunction("flashcardAttemptStrength")}
+  ${extractFunction("compareFlashcardAttemptStrength")}
+  ${extractFunction("mergeFlashcardAttempts")}
+  ${extractFunction("flashcardOutboxMutationId")}
+  ${extractFunction("createFastForwardedFlashcardOutboxMutation")}
+  ${extractFunction("prepareFlashcardOutboxRecordForV2")}
+  return prepareFlashcardOutboxRecordForV2;
+})()`);
+const fastForwardedAttempts = queuedFastForwardRuntime({
+  mutationId: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+  logicalMutationId: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+  key: "attempts",
+  expectedVersion: 4,
+  baseChecksum: "attempts-v4",
+  status: "retry",
+  retries: 3,
+  lastAttemptAt: 100,
+  lastError: "response lost",
+  baseValue: [],
+  payload: [
+    { id: "a", studentName: "Hayley", answeredCount: 1 },
+    { id: "b", studentName: "Hayley", answeredCount: 1 }
+  ]
+});
+assert.equal(fastForwardedAttempts.expectedVersion, 5);
+assert.equal(fastForwardedAttempts.baseChecksum, "attempts-v5");
+assert.notEqual(fastForwardedAttempts.mutationId, "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa");
+assert.equal(fastForwardedAttempts.logicalMutationId, "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa");
+assert.equal(fastForwardedAttempts.supersedesMutationId, "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa");
+assert.equal(fastForwardedAttempts.status, "queued");
+assert.equal(fastForwardedAttempts.retries, 0);
+assert.equal(fastForwardedAttempts.lastAttemptAt, 0);
+assert.equal(fastForwardedAttempts.lastError, "");
+assert.equal(fastForwardedAttempts.receipt, null);
+assert.deepEqual([...fastForwardedAttempts.payload.map(row => row.id)], ["a", "b"]);
+const fastForwardedProgress = queuedFastForwardRuntime({
+  mutationId: "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+  key: "progress",
+  expectedVersion: 7,
+  baseChecksum: "progress-v7",
+  baseValue: { local: 1, external: 1 },
+  payload: { local: 2, external: 1 }
+});
+assert.equal(fastForwardedProgress.expectedVersion, 8);
+assert.deepEqual({ ...fastForwardedProgress.payload }, { local: 2, external: 2 });
+assert.throws(() => queuedFastForwardRuntime({
+  mutationId: "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+  key: "overlap",
+  expectedVersion: 7,
+  baseChecksum: "overlap-v7",
+  baseValue: { local: 1, external: 1 },
+  payload: { local: 3, external: 1 }
+}), /needs review/, "Overlapping queued/server edits must remain fail-closed");
+assert.throws(() => queuedFastForwardRuntime({
+  mutationId: "dddddddd-dddd-4ddd-8ddd-dddddddddddd",
+  key: "progress",
+  expectedVersion: 9,
+  baseChecksum: "progress-v9",
+  baseValue: { local: 1, external: 2 },
+  payload: { local: 2, external: 2 }
+}), /ahead of the verified canonical version/);
+
 const canonicalReload = extractFunction("resolveFlashcardCanonicalState");
 assert.match(canonicalReload, /record\.key !== ATTEMPTS_KEY && receipt\?\.hasCanonicalValue/);
 assert.match(canonicalReload, /await callFlashcardStateReadV2\(context\)/);
@@ -316,6 +414,17 @@ assert.match(drain, /receipt\.status === "conflict"/);
 assert.match(drain, /handleFlashcardOutboxConflict/);
 assert.match(drain, /receipt\.status === "rejected"/);
 assert.match(drain, /blockFlashcardOutboxMutation/);
+assert.ok(
+  drain.indexOf("supersedeFlashcardOutboxMutation(")
+    < drain.indexOf("sendFlashcardOutboxMutation(record, context)"),
+  "A locally fast-forwarded request must be atomically superseded under a fresh ID before transport"
+);
+assert.match(drain, /record = persistedReplacement/);
+assert.doesNotMatch(
+  drain,
+  /record = prepareFlashcardOutboxRecordForV2\(originalRecord\)/,
+  "An unpersisted replacement must not become the record later written by the integrity-error handler"
+);
 
 const wakeups = sourceBetween("function setupFlashcardOutboxWakeups", "async function requestFlashcardDurableStorage");
 assert.match(wakeups, /addEventListener\("online"/);

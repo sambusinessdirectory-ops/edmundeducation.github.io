@@ -184242,6 +184242,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const flashcardStagedValues = new Map();
     const flashcardStateVersions = new Map();
     const flashcardStateChecksums = new Map();
+    const flashcardCanonicalValues = new Map();
     const supabaseState = {
       loaded: false,
       online: false,
@@ -186005,6 +186006,20 @@ window.EDMUND_FLASHCARD_SEED = {
       flashcardStateChecksums.set(normalizedKey, typeof checksum === "string" ? checksum : "");
     }
 
+    function setFlashcardCanonicalValue(key, value) {
+      const normalizedKey = String(key || "");
+      if (!normalizedKey) throw new Error("Invalid Flashcard canonical state key.");
+      flashcardCanonicalValues.set(normalizedKey, cloneFlashcardSyncPayload(value));
+    }
+
+    function flashcardCanonicalValue(key) {
+      const normalizedKey = String(key || "");
+      if (!flashcardCanonicalValues.has(normalizedKey)) {
+        throw flashcardIntegrityError("Verified canonical Flashcard state is unavailable.");
+      }
+      return cloneFlashcardSyncPayload(flashcardCanonicalValues.get(normalizedKey));
+    }
+
     function flashcardJsonEqual(left, right) {
       if (Object.is(left, right)) return true;
       if (typeof left !== typeof right || left == null || right == null) return false;
@@ -186221,8 +186236,24 @@ window.EDMUND_FLASHCARD_SEED = {
         const transaction = database.transaction(FLASHCARD_OUTBOX_STORE, "readwrite");
         const completed = legacyQuarantineTransaction(transaction);
         const store = transaction.objectStore(FLASHCARD_OUTBOX_STORE);
-        store.add(replacement);
-        store.delete(previousMutationId);
+        // IndexedDB readwrite transactions are serialized across same-origin tabs.
+        // Claim the old row inside this transaction before adding a replacement so
+        // two tabs without Web Locks cannot both supersede the same request.
+        const previousRecord = await legacyQuarantineRequest(store.get(previousMutationId));
+        if (!previousRecord) {
+          await completed;
+          return null;
+        }
+        const previousLogicalId = previousRecord.logicalMutationId || previousRecord.mutationId;
+        if (
+          previousRecord.owner !== replacement.owner
+          || previousRecord.key !== replacement.key
+          || previousLogicalId !== replacement.logicalMutationId
+        ) {
+          throw flashcardIntegrityError("The outbox mutation selected for supersession does not match its replacement.");
+        }
+        await legacyQuarantineRequest(store.add(replacement));
+        await legacyQuarantineRequest(store.delete(previousMutationId));
         await completed;
 
         const verifyTransaction = database.transaction(FLASHCARD_OUTBOX_STORE, "readonly");
@@ -186233,9 +186264,12 @@ window.EDMUND_FLASHCARD_SEED = {
           legacyQuarantineRequest(verifiedStore.get(replacement.mutationId))
         ]);
         await verifiedComplete;
-        if (oldRecord || !newRecord || newRecord.logicalMutationId !== replacement.logicalMutationId) {
+        if (oldRecord || (newRecord && newRecord.logicalMutationId !== replacement.logicalMutationId)) {
           throw flashcardIntegrityError("The rebased Flashcard mutation could not be verified.");
         }
+        // A missing replacement after the committed transaction means another tab
+        // already claimed and acknowledged it. Do not recreate duplicate work.
+        if (!newRecord) return null;
         return newRecord;
       } finally {
         database.close();
@@ -186557,6 +186591,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function applyFlashcardCanonicalState(record, receipt, context, canonicalValue, options = {}) {
       let canonical = cloneFlashcardSyncPayload(canonicalValue);
+      setFlashcardCanonicalValue(record.key, canonicalValue);
       if (record.key === ATTEMPTS_KEY && options.preserveLocalAttempts) {
         canonical = mergeFlashcardAttempts(canonical, remoteStore[ATTEMPTS_KEY] || []);
       }
@@ -186601,6 +186636,40 @@ window.EDMUND_FLASHCARD_SEED = {
         transport: "v2",
         serverVersion: receipt.resultingVersion,
         receipt: compactFlashcardV2Receipt(receipt),
+        supersedesMutationId: record.mutationId,
+        requiresResolution: false,
+        canonicalValue: undefined,
+        canonicalVersion: undefined,
+        canonicalChecksum: undefined
+      };
+    }
+
+    function createFastForwardedFlashcardOutboxMutation(
+      record,
+      payload,
+      canonicalValue,
+      currentVersion,
+      currentChecksum
+    ) {
+      const mutationId = flashcardOutboxMutationId();
+      const updatedAt = Date.now();
+      return {
+        ...record,
+        mutationId,
+        logicalMutationId: record.logicalMutationId || record.mutationId,
+        payload: cloneFlashcardSyncPayload(payload),
+        baseValue: cloneFlashcardSyncPayload(canonicalValue),
+        baseChecksum: currentChecksum,
+        expectedVersion: currentVersion,
+        status: "queued",
+        retries: 0,
+        nextAttemptAt: 0,
+        lastAttemptAt: 0,
+        updatedAt,
+        lastError: "",
+        transport: "v2",
+        serverVersion: currentVersion,
+        receipt: null,
         supersedesMutationId: record.mutationId,
         requiresResolution: false,
         canonicalValue: undefined,
@@ -186658,7 +186727,10 @@ window.EDMUND_FLASHCARD_SEED = {
         canonicalValue,
         receipt
       );
-      await supersedeFlashcardOutboxMutation(record.mutationId, replacement);
+      const persistedReplacement = await supersedeFlashcardOutboxMutation(record.mutationId, replacement);
+      if (!persistedReplacement) {
+        return { rebased: false, blocked: false, supersededElsewhere: true };
+      }
       remoteStore[record.key] = cloneFlashcardSyncPayload(reconciliation.value);
       cacheJsonLocally(record.key, reconciliation.value);
       if (record.key === ATTEMPTS_KEY) {
@@ -186675,20 +186747,59 @@ window.EDMUND_FLASHCARD_SEED = {
       if (supabaseState.v2Availability === "missing") {
         return { ...record, transport: "v1-rollout-fallback" };
       }
-      if (Number.isSafeInteger(Number(record.expectedVersion)) && Number(record.expectedVersion) >= 0) {
-        return { ...record, expectedVersion: Number(record.expectedVersion), transport: "v2" };
+      const expectedVersion = Number(record.expectedVersion);
+      const currentVersion = flashcardStateVersion(record.key);
+      const currentChecksum = flashcardStateChecksum(record.key);
+      if (Number.isSafeInteger(expectedVersion) && expectedVersion >= 0) {
+        if (expectedVersion > currentVersion) {
+          throw flashcardIntegrityError("A queued Flashcard mutation is ahead of the verified canonical version.");
+        }
+        if (expectedVersion === currentVersion) {
+          if (
+            record.baseChecksum
+            && currentChecksum
+            && String(record.baseChecksum) !== currentChecksum
+          ) {
+            throw flashcardIntegrityError("A queued Flashcard mutation does not match the verified canonical checksum.");
+          }
+          return { ...record, expectedVersion, transport: "v2" };
+        }
+
+        // Another durable mutation from this queue may already have advanced the
+        // server while this record was waiting. Rebase locally against the separately
+        // tracked canonical value instead of knowingly sending a stale version and
+        // creating a conflict/alert round trip for every queued sibling.
+        const canonicalValue = flashcardCanonicalValue(record.key);
+        const reconciliation = record.key === ATTEMPTS_KEY
+          ? {
+              safe: true,
+              value: mergeFlashcardAttempts(canonicalValue, Array.isArray(record.payload) ? record.payload : []),
+              reason: "lossless-attempt-fast-forward"
+            }
+          : rebaseFlashcardGenericState(record.baseValue, record.payload, canonicalValue);
+        if (!reconciliation.safe) {
+          throw flashcardIntegrityError(`A queued mutation needs review (${reconciliation.reason}).`);
+        }
+        // Request IDs are immutable idempotency keys. Even an inflight request whose
+        // response was lost must never be resent with a different expected version or
+        // payload under the same ID. Persist a fresh superseding mutation instead.
+        return createFastForwardedFlashcardOutboxMutation(
+          record,
+          reconciliation.value,
+          canonicalValue,
+          currentVersion,
+          currentChecksum
+        );
       }
 
-      const canonicalValue = Object.prototype.hasOwnProperty.call(remoteStore, record.key)
-        ? cloneFlashcardSyncPayload(remoteStore[record.key])
-        : cloneFlashcardSyncPayload(defaultRemoteValueForKey(record.key));
+      const canonicalValue = flashcardCanonicalValue(record.key);
       if (record.key === ATTEMPTS_KEY) {
         return {
           ...record,
           payload: mergeFlashcardAttempts(canonicalValue, Array.isArray(record.payload) ? record.payload : []),
           baseValue: canonicalValue,
-          baseChecksum: flashcardStateChecksum(record.key),
-          expectedVersion: flashcardStateVersion(record.key),
+          baseChecksum: currentChecksum,
+          expectedVersion: currentVersion,
           transport: "v2",
           updatedAt: Date.now()
         };
@@ -186704,8 +186815,8 @@ window.EDMUND_FLASHCARD_SEED = {
         ...record,
         payload: reconciliation.value,
         baseValue: canonicalValue,
-        baseChecksum: flashcardStateChecksum(record.key),
-        expectedVersion: flashcardStateVersion(record.key),
+        baseChecksum: currentChecksum,
+        expectedVersion: currentVersion,
         transport: "v2",
         updatedAt: Date.now()
       };
@@ -186750,7 +186861,18 @@ window.EDMUND_FLASHCARD_SEED = {
         }
         let record = originalRecord;
         try {
-          record = prepareFlashcardOutboxRecordForV2(originalRecord);
+          const preparedRecord = prepareFlashcardOutboxRecordForV2(originalRecord);
+          if (preparedRecord.mutationId !== originalRecord.mutationId) {
+            const persistedReplacement = await supersedeFlashcardOutboxMutation(
+              originalRecord.mutationId,
+              preparedRecord
+            );
+            if (!persistedReplacement) {
+              scheduleFlashcardOutboxDrain("cross-tab-superseded", 0);
+              break;
+            }
+            record = persistedReplacement;
+          } else record = preparedRecord;
           record = {
             ...record,
             status: "inflight",
@@ -186768,7 +186890,9 @@ window.EDMUND_FLASHCARD_SEED = {
           if (receipt.status === "conflict") {
             const reconciliation = await handleFlashcardOutboxConflict(record, receipt, context);
             supabaseState.online = true;
-            if (reconciliation.rebased) scheduleFlashcardOutboxDrain("conflict-rebased", 0);
+            if (reconciliation.rebased || reconciliation.supersededElsewhere) {
+              scheduleFlashcardOutboxDrain("conflict-rebased", 0);
+            }
             break;
           }
 
@@ -186798,7 +186922,10 @@ window.EDMUND_FLASHCARD_SEED = {
                 canonicalValue,
                 { preserveLocalAttempts: true }
               );
-            } else setFlashcardStateMetadata(record.key, receipt.resultingVersion, receipt.resultingChecksum);
+            } else {
+              setFlashcardCanonicalValue(record.key, record.payload);
+              setFlashcardStateMetadata(record.key, receipt.resultingVersion, receipt.resultingChecksum);
+            }
           }
           await deleteFlashcardOutboxMutation(record.mutationId);
           acknowledgedCount += 1;
@@ -187110,6 +187237,7 @@ window.EDMUND_FLASHCARD_SEED = {
       flashcardStagedValues.clear();
       flashcardStateVersions.clear();
       flashcardStateChecksums.clear();
+      flashcardCanonicalValues.clear();
       supabaseState.hydratingOwner = "";
       supabaseState.hydratingEpoch = 0;
       supabaseState.hydratedOwner = "";
@@ -187266,6 +187394,7 @@ window.EDMUND_FLASHCARD_SEED = {
       supabaseState.transportMode = "v2";
       flashcardStateVersions.clear();
       flashcardStateChecksums.clear();
+      flashcardCanonicalValues.clear();
       return supabaseState.epoch;
     }
 
@@ -187611,6 +187740,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function applyRemoteStateRow(row) {
       if (!row?.key) return;
       remoteStore[row.key] = row.value;
+      setFlashcardCanonicalValue(row.key, row.value);
       cacheJsonLocally(row.key, row.value);
       if (supabaseState.v2Availability !== "missing") {
         setFlashcardStateMetadata(row.key, Number(row.version || 0), row.value_checksum || "");
@@ -187821,6 +187951,7 @@ window.EDMUND_FLASHCARD_SEED = {
       supabaseState.hydratedEpoch = 0;
       flashcardStateVersions.clear();
       flashcardStateChecksums.clear();
+      flashcardCanonicalValues.clear();
       try {
         const stateRead = await callFlashcardStateReadV2(requestContext);
         const rows = stateRead.rows;
@@ -187831,6 +187962,7 @@ window.EDMUND_FLASHCARD_SEED = {
           remoteKeys.add(row.key);
           if (row.key === ATTEMPTS_KEY) {
             remoteAttempts = attemptsForBackup(row.value, currentUser);
+            setFlashcardCanonicalValue(row.key, remoteAttempts);
             if (stateRead.transport === "v2") {
               setFlashcardStateMetadata(row.key, Number(row.version || 0), row.value_checksum || "");
             }
@@ -187843,10 +187975,12 @@ window.EDMUND_FLASHCARD_SEED = {
           if (remoteKeys.has(key)) return;
           const value = defaultRemoteValueForKey(key);
           remoteStore[key] = value;
+          setFlashcardCanonicalValue(key, value);
           cacheJsonLocally(key, value);
           if (stateRead.transport === "v2") setFlashcardStateMetadata(key, 0, "");
         });
         if (stateRead.transport === "v2" && !remoteKeys.has(ATTEMPTS_KEY)) {
+          setFlashcardCanonicalValue(ATTEMPTS_KEY, []);
           setFlashcardStateMetadata(ATTEMPTS_KEY, 0, "");
         }
         const mergedAttempts = mergeFlashcardAttempts(remoteAttempts, accountBackup);
@@ -187997,12 +188131,17 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!context || context.type !== "admin" || currentUser?.name !== studentName) return;
       flashcardStateVersions.clear();
       flashcardStateChecksums.clear();
+      flashcardCanonicalValues.clear();
       const remoteAttempts = attemptsForBackup(state[ATTEMPTS_KEY], currentUser);
       const mergedAttempts = mergeFlashcardAttempts(remoteAttempts, readAccountAttemptsBackup(currentUser));
       SUPABASE_SYNC_KEYS.forEach(key => {
         const value = key === ATTEMPTS_KEY
           ? mergedAttempts
           : Object.prototype.hasOwnProperty.call(state, key) ? state[key] : defaultRemoteValueForKey(key);
+        const canonicalValue = key === ATTEMPTS_KEY
+          ? remoteAttempts
+          : Object.prototype.hasOwnProperty.call(state, key) ? state[key] : defaultRemoteValueForKey(key);
+        setFlashcardCanonicalValue(key, canonicalValue);
         remoteStore[key] = value;
         cacheJsonLocally(key, value);
         if (supabaseState.v2Availability !== "missing") {
