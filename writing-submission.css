@@ -825,6 +825,13 @@ button { color: inherit; }
 .feedback-numbered-card { display: grid; grid-template-columns: auto minmax(0,1fr); align-items: start; gap: 11px; }
 .feedback-number-badge { width: 42px; height: 42px; border-radius: 11px; display: grid; place-items: center; color: #fff; background: #184d78; box-shadow: 0 4px 0 #ca741d; font: 900 16px ui-sans-serif,system-ui,sans-serif; }
 .feedback-numbered-body { min-height: 42px; border-left: 4px solid #dc7a18; border-radius: 0 13px 13px 0; padding: 10px 13px; color: #263957; background: #fff1d2; white-space: pre-wrap; }
+.teacher-feedback-live-preview { margin-top: 12px; overflow: hidden; border: 1px solid rgba(48,71,148,.2); border-radius: 15px; background: #fffdf8; box-shadow: 0 8px 20px rgba(39,39,87,.07); }
+.teacher-feedback-live-preview[hidden] { display: none; }
+.teacher-feedback-live-preview-head { border-bottom: 1px solid rgba(48,71,148,.12); padding: 9px 12px; display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #304794; background: #f1f5ff; font: 800 11px ui-sans-serif,system-ui,sans-serif; }
+.teacher-feedback-live-preview-head strong { font: inherit; letter-spacing: .03em; }
+.teacher-feedback-live-preview-head span { border-radius: 999px; padding: 4px 8px; color: #184d78; background: #fff; }
+.teacher-feedback-live-preview-content { padding: 13px; color: var(--ink); font: calc(16px * var(--submission-text-scale))/1.7 Georgia,"Noto Serif TC Local",serif; }
+.teacher-feedback-live-preview-content.is-error { color: #9e3c42; background: #fff4f3; }
 .teacher-feedback-rich-content mark,
 .teacher-feedback-rich-editor mark { border-radius: .2em; padding: .03em .08em; color: inherit; }
 .teacher-feedback-rich-content mark[data-highlight="yellow"],

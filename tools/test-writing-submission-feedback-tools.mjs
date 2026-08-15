@@ -56,6 +56,19 @@ test("a blank line escapes a numbered group back to an ordinary paragraph", () =
   assert.equal(blocks[1].text, "Suggestion\nUse a relative clause.");
 });
 
+test("a continuation typed after the final numbered point remains visible in that card", () => {
+  const source = "1. Good\n2. Bad\n3. Try\n4. See\nFSDAFSA";
+  const blocks = parseNumberedFeedbackBlocks(source);
+  assert.equal(blocks.length, 1);
+  assert.equal(blocks[0].type, "numbered");
+  assert.deepEqual(blocks[0].items.map(item => [item.number, item.text]), [
+    [1, "Good"],
+    [2, "Bad"],
+    [3, "Try"],
+    [4, "See\nFSDAFSA"]
+  ]);
+});
+
 test("formatting ranges are clipped and rebased to an arbitrary text slice", () => {
   const runs = [
     { start: 0, end: 5, bold: true, highlight: "yellow" },

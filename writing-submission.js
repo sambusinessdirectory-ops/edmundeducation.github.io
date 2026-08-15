@@ -493,6 +493,71 @@ function appendStructuredFeedbackRichText(container, textValue, formattingValue,
   });
 }
 
+function refreshFeedbackStructuredLivePreview(editor, preview) {
+  const count = preview?.querySelector("[data-feedback-structured-preview-count]");
+  const content = preview?.querySelector("[data-feedback-structured-preview-content]");
+  if (!editor || !preview || !count || !content) return;
+  try {
+    const value = readFeedbackRichEditor(editor);
+    const blocks = parseNumberedFeedbackBlocks(value.text);
+    const cardCount = blocks.reduce(
+      (total, block) => total + (block.type === "numbered" ? block.items.length : 0),
+      0
+    );
+    content.classList.remove("is-error");
+    if (!cardCount) {
+      preview.hidden = true;
+      count.textContent = "";
+      content.replaceChildren();
+      return;
+    }
+    preview.hidden = false;
+    count.textContent = `${cardCount} 張卡片`;
+    appendStructuredFeedbackRichText(content, value.text, value.formatting);
+  } catch (error) {
+    preview.hidden = false;
+    count.textContent = "未能預覽";
+    content.classList.add("is-error");
+    content.replaceChildren(createElement(
+      "p",
+      "feedback-structured-paragraph",
+      error?.message || "格式預覽暫時不可用。"
+    ));
+  }
+}
+
+function createFeedbackStructuredLivePreview(editor) {
+  const preview = createElement("section", "teacher-feedback-live-preview");
+  preview.dataset.feedbackStructuredPreview = editor.dataset.feedbackRichEditor || "feedback";
+  preview.setAttribute("aria-label", "學生版面即時預覽");
+  preview.hidden = true;
+
+  const head = createElement("div", "teacher-feedback-live-preview-head");
+  const title = createElement("strong", "", "學生版面即時預覽");
+  const count = createElement("span");
+  count.dataset.feedbackStructuredPreviewCount = "true";
+  head.append(title, count);
+
+  const content = createElement(
+    "div",
+    "teacher-feedback-rich-content teacher-feedback-live-preview-content"
+  );
+  content.dataset.feedbackStructuredPreviewContent = "true";
+  preview.append(head, content);
+
+  let pendingFrame = 0;
+  editor.addEventListener("input", () => {
+    if (pendingFrame) cancelAnimationFrame(pendingFrame);
+    pendingFrame = requestAnimationFrame(() => {
+      pendingFrame = 0;
+      if (!editor.isConnected || !preview.isConnected) return;
+      refreshFeedbackStructuredLivePreview(editor, preview);
+    });
+  });
+  refreshFeedbackStructuredLivePreview(editor, preview);
+  return preview;
+}
+
 function feedbackHighlightName(element) {
   const explicit = String(element?.dataset?.highlight || "");
   if (FEEDBACK_HIGHLIGHT_NAMES.includes(explicit)) return explicit;
@@ -4246,7 +4311,7 @@ function createFeedbackEditorRow({ index, value = {}, suggestedOriginal = "", so
     maxLength: 20000,
     datasetName: "comment"
   });
-  commentBand.append(comment);
+  commentBand.append(comment, createFeedbackStructuredLivePreview(comment));
 
   const suggestionBand = createElement("section", "teacher-feedback-suggestion");
   suggestionBand.append(createElement("strong", "", "建議寫法"));
@@ -4301,7 +4366,7 @@ function createFeedbackLearningRow(kind, index, value = {}) {
     maxLength: 20000,
     datasetName: grammar ? "grammar-point" : "sentence-method"
   });
-  row.append(head, editor);
+  row.append(head, editor, createFeedbackStructuredLivePreview(editor));
   return row;
 }
 
