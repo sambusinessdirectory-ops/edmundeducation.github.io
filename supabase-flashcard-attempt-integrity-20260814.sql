@@ -117,6 +117,7 @@ declare
   v_student_id uuid := public.flashcard_session_student_id(p_token);
   v_key text := btrim(coalesce(p_key, ''));
   v_value jsonb;
+  v_affected bigint := 0;
 begin
   if v_student_id is null or v_key = '' then
     return false;
@@ -128,6 +129,15 @@ begin
     else coalesce(p_value, '{}'::jsonb)
   end;
 
+  perform pg_catalog.set_config('flashcard_integrity.actor_kind', 'legacy_student', true);
+  perform pg_catalog.set_config(
+    'flashcard_integrity.session_fingerprint',
+    pg_catalog.encode(
+      extensions.digest(pg_catalog.convert_to(p_token::text, 'UTF8'), 'sha256'),
+      'hex'
+    ),
+    true
+  );
   insert into public.flashcard_student_state as state (student_id, key, value)
   values (v_student_id, v_key, v_value)
   on conflict (student_id, key) do update
@@ -137,8 +147,9 @@ begin
         else excluded.value
       end,
       updated_at = now();
+  get diagnostics v_affected = row_count;
 
-  return true;
+  return v_affected > 0;
 end;
 $$;
 
@@ -158,6 +169,7 @@ declare
   v_student_id uuid;
   v_key text := btrim(coalesce(p_key, ''));
   v_value jsonb;
+  v_affected bigint := 0;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return false;
@@ -179,6 +191,7 @@ begin
     else coalesce(p_value, '{}'::jsonb)
   end;
 
+  perform pg_catalog.set_config('flashcard_integrity.actor_kind', 'legacy_admin', true);
   insert into public.flashcard_student_state as state (student_id, key, value)
   values (v_student_id, v_key, v_value)
   on conflict (student_id, key) do update
@@ -188,8 +201,9 @@ begin
         else excluded.value
       end,
       updated_at = now();
+  get diagnostics v_affected = row_count;
 
-  return true;
+  return v_affected > 0;
 end;
 $$;
 

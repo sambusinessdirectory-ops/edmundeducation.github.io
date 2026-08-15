@@ -52,6 +52,9 @@ jobs:
       - name: Verify all Flashcard phase-one migration guards
         run: node tools/test-flashcard-integrity-phase1.mjs
 
+      - name: Verify Flashcard legacy object merge guard
+        run: node tools/test-flashcard-legacy-object-guard.mjs
+
       - name: Verify Flashcard independent watchdog
         run: node tools/test-flashcard-integrity-watchdog.mjs
 

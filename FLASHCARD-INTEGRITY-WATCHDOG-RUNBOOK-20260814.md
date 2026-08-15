@@ -1,9 +1,12 @@
 # Flashcard integrity watchdog runbook
 
-Status (2026-08-15): the base aggregate watchdog RPC is present in production, but
-the external GitHub watchdog is not active. The supplemental snapshot-gate migration,
-workflow gates, probe changes, and this revised runbook are **staged only**. They have
-not been applied to Supabase or to the actual GitHub repository.
+Status (2026-08-15): the base aggregate watchdog RPC, public snapshot-gate wrapper,
+legacy-object merge guard, and supplemental eight-trigger internal inventory are
+present and transactionally verified in production. The external GitHub watchdog is
+active and its post-migration manual run passed. Snapshot-family checks remain
+temporarily disabled until the independent encrypted nightly backup is restored in
+quarantine and the nightly schedule is activated; every non-snapshot integrity check
+remains active and fail-closed.
 
 This watchdog is independent of the Flashcard browser code and independent of any
 same-project Supabase cron job. GitHub Actions calls a read-only, aggregate-only RPC
@@ -56,7 +59,8 @@ The RPC reports unhealthy when any of these is true:
    version, or incorrect SHA-256 checksum;
 2. the attempts JSON and normalized canonical attempt records differ in either
    direction, contain a duplicate attempt ID, or have a bad payload checksum;
-3. any of seven required protection/audit/immutability triggers is absent or disabled;
+3. any of eight required compatibility/protection/audit/immutability triggers is
+   absent or disabled;
 4. an unresolved critical integrity alert exists;
 5. an alert-outbox row remains undelivered for more than five minutes;
 6. when snapshot checks are enabled, the required midnight Hong Kong snapshot is not
@@ -72,17 +76,58 @@ unreachable, unauthorized, malformed, or schema-mismatched endpoint is unhealthy
 
 ### 1. Apply and verify the database migrations
 
-Apply `supabase-flashcard-integrity-watchdog-20260814.sql` only after Flashcard
-integrity phase 1 stages 01–13 pass their verification gate. Do not apply stage 14 as
-part of this change. If the base migration is already present, do not re-provision its
-credential as a side effect of this rollout.
+Production already has the public snapshot-gate wrapper. After Flashcard integrity
+phase 1 stages 01–13 pass their verification gate, use this production-safe order:
 
-Then apply
-`supabase-flashcard-integrity-watchdog-snapshot-gate-20260815.sql`. It renames the
-existing implementation to a non-Data-API internal function and installs the gated
-wrapper. Do not publish the revised workflow until the supplemental migration is
-verified; the revised probe requires response schema `2026-08-15.1` and will reject
-the previous schema.
+1. apply
+   `supabase-flashcard-integrity-legacy-object-merge-guard-20260815.sql`;
+2. run
+   `supabase-flashcard-integrity-legacy-object-merge-guard-verification-20260815.sql`
+   and require its transaction to pass (the verification rolls all test data back);
+3. apply
+   `supabase-flashcard-integrity-watchdog-eight-trigger-internal-20260815.sql`;
+4. run
+   `supabase-flashcard-integrity-watchdog-eight-trigger-internal-verification-20260815.sql`
+   and require its transaction to pass.
+
+Do not apply phase 1 stage 14 as part of this change. If the base watchdog migration
+is already present, preserve the existing credential rows; do not re-provision or
+rotate a credential as an accidental side effect of this rollout. Applying the
+updated watchdog before the guard will correctly report `integrity_trigger_missing`.
+
+The order above is mandatory. **Do not reapply either**
+`supabase-flashcard-integrity-watchdog-20260814.sql` or
+`supabase-flashcard-integrity-watchdog-snapshot-gate-20260815.sql` in production.
+Reapplying the base watchdog after the public wrapper exists could replace that wrapper
+and undo the snapshot gate. The supplemental migration updates only the renamed
+internal implementation, preserves all credential rows, and never creates, replaces,
+grants, or revokes the public wrapper.
+
+For a genuinely fresh environment only, apply the updated eight-trigger base watchdog
+and then the snapshot-gate migration; the supplemental internal migration is not
+needed because the implementation being renamed already contains all eight triggers.
+
+The eight required trigger names are:
+
+- `flashcard_state_zy_legacy_object_merge`;
+- `flashcard_state_zz_integrity_protect`;
+- `flashcard_state_revision_audit`;
+- `flashcard_student_hard_delete_protected`;
+- `flashcard_integrity_state_revisions_immutable`;
+- `flashcard_integrity_receipts_immutable`;
+- `flashcard_integrity_attempt_mutations_immutable`;
+- `flashcard_integrity_snapshots_immutable`.
+
+The compatibility guard deliberately performs a **shallow top-level merge** for
+legacy v1 student/admin object upserts. An object member omitted by a legacy writer is
+preserved, so a legacy v1 client can no longer delete or reset one top-level member by
+omitting it. Incoming values still win for members the request actually supplies.
+Nested values underneath a supplied member are not recursively merged. Deliberate
+member removal and exact replacement must use the version-checked v2 writer.
+
+Do not publish the revised workflow until both the compatibility guard and the
+supplemental eight-trigger internal migration are verified; the revised probe requires
+response schema `2026-08-15.1` and will reject the previous schema.
 
 Confirm:
 
@@ -247,6 +292,15 @@ notify pgrst, 'reload schema';
 
 Do not drop the RPC, credential digests, alerts, outbox, revisions, attempts, snapshot
 runs, or snapshots during an incident. Re-enable only after review.
+
+Do not run
+`supabase-flashcard-integrity-legacy-object-merge-guard-rollback-20260815.sql` as a
+routine disable action. Once the watchdog uses the eight-trigger contract, removing
+or disabling `flashcard_state_zy_legacy_object_merge` must open and retain an
+`integrity_trigger_missing` incident until the guard is restored or a separately
+reviewed redesign intentionally updates the watchdog contract. The guard rollback is
+fail-closed and requires its explicit same-session approval setting; it does not
+delete state or audit evidence.
 
 ## References
 

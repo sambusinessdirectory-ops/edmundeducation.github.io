@@ -178,10 +178,11 @@ begin
   )
   select pg_catalog.count(*)::bigint into v_attempt_drift from drift;
 
-  -- Seven named triggers are the database-side seatbelts. A missing/disabled trigger
+  -- Eight named triggers are the database-side seatbelts. A missing/disabled trigger
   -- is critical even when the current rows still look correct.
   with expected(relation_id, trigger_name) as (
     values
+      ('public.flashcard_student_state'::pg_catalog.regclass, 'flashcard_state_zy_legacy_object_merge'::text),
       ('public.flashcard_student_state'::pg_catalog.regclass, 'flashcard_state_zz_integrity_protect'::text),
       ('public.flashcard_student_state'::pg_catalog.regclass, 'flashcard_state_revision_audit'::text),
       ('public.flashcard_students'::pg_catalog.regclass, 'flashcard_student_hard_delete_protected'::text),

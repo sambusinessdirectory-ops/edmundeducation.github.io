@@ -21,6 +21,26 @@ const snapshotGateMigration = await readFile(
   "supabase-flashcard-integrity-watchdog-snapshot-gate-20260815.sql",
   "utf8",
 );
+const internalInventoryMigration = await readFile(
+  "supabase-flashcard-integrity-watchdog-eight-trigger-internal-20260815.sql",
+  "utf8",
+);
+const internalInventoryVerification = await readFile(
+  "supabase-flashcard-integrity-watchdog-eight-trigger-internal-verification-20260815.sql",
+  "utf8",
+);
+const internalInventoryRollback = await readFile(
+  "supabase-flashcard-integrity-watchdog-eight-trigger-internal-rollback-20260815.sql",
+  "utf8",
+);
+const runbook = await readFile(
+  "FLASHCARD-INTEGRITY-WATCHDOG-RUNBOOK-20260814.md",
+  "utf8",
+);
+const internalInventoryExecutableSql = internalInventoryMigration.replace(
+  /^\s*--.*$/gm,
+  "",
+);
 const workflow = await readFile(
   ".github/workflows/flashcard-integrity-watchdog.yml",
   "utf8",
@@ -39,6 +59,51 @@ assert.match(migration, /grant execute on function public\.flashcard_integrity_h
 assert.doesNotMatch(migration, /grant[^;]+watchdog_credentials[^;]+to anon/i);
 assert.doesNotMatch(migration, /service[_-]?role[_-]?key/i);
 assert.doesNotMatch(migration, /eyJ[A-Za-z0-9_-]{20,}/);
+assert.match(migration, /Eight named triggers/i);
+
+const expectedTriggerBlockStart = migration.indexOf(
+  "with expected(relation_id, trigger_name)",
+);
+const expectedTriggerBlockEnd = migration.indexOf(
+  "select pg_catalog.count(*) filter",
+  expectedTriggerBlockStart,
+);
+assert.notEqual(
+  expectedTriggerBlockStart,
+  -1,
+  "watchdog must declare its required-trigger inventory",
+);
+assert.notEqual(
+  expectedTriggerBlockEnd,
+  -1,
+  "watchdog required-trigger inventory must feed the missing-trigger count",
+);
+const expectedTriggerBlock = migration.slice(
+  expectedTriggerBlockStart,
+  expectedTriggerBlockEnd,
+);
+const expectedTriggerNames = [
+  "flashcard_state_zy_legacy_object_merge",
+  "flashcard_state_zz_integrity_protect",
+  "flashcard_state_revision_audit",
+  "flashcard_student_hard_delete_protected",
+  "flashcard_integrity_state_revisions_immutable",
+  "flashcard_integrity_receipts_immutable",
+  "flashcard_integrity_attempt_mutations_immutable",
+  "flashcard_integrity_snapshots_immutable",
+];
+for (const triggerName of expectedTriggerNames) {
+  assert.match(
+    expectedTriggerBlock,
+    new RegExp(`'${triggerName}'::text`),
+    `watchdog must require ${triggerName}`,
+  );
+}
+assert.equal(
+  (expectedTriggerBlock.match(/::text\)/g) ?? []).length,
+  expectedTriggerNames.length,
+  "watchdog trigger inventory must contain exactly the eight reviewed triggers",
+);
 
 assert.match(
   snapshotGateMigration,
@@ -73,6 +138,92 @@ for (const requiredCheck of ["state", "attempts", "triggers", "alerts", "outbox"
 }
 assert.doesNotMatch(snapshotGateMigration, /service[_-]?role[_-]?key/i);
 assert.doesNotMatch(snapshotGateMigration, /eyJ[A-Za-z0-9_-]{20,}/);
+
+assert.match(
+  internalInventoryMigration,
+  /rename to flashcard_integrity_health_snapshot_v7_internal/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /create or replace function public\.flashcard_integrity_health_snapshot_required_internal\(\)/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /public\.flashcard_integrity_health_snapshot_v7_internal\(\)/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /Current internal watchdog is not the reviewed supplemental adapter\/passthrough/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /'flashcard_state_zy_legacy_object_merge'/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /'expectedCount', 8/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /'supplementalEightTriggerInventory', true/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /revoke all on function public\.flashcard_integrity_health_snapshot_v7_internal\(\)[\s\S]*from public, anon, authenticated, service_role/i,
+);
+assert.match(
+  internalInventoryMigration,
+  /revoke all on function public\.flashcard_integrity_health_snapshot_required_internal\(\)[\s\S]*from public, anon, authenticated, service_role/i,
+);
+assert.doesNotMatch(
+  internalInventoryExecutableSql,
+  /create or replace function public\.flashcard_integrity_health\(\)/i,
+  "supplemental migration must not replace the public snapshot-gate wrapper",
+);
+assert.doesNotMatch(
+  internalInventoryExecutableSql,
+  /(?:insert|update|delete|alter|drop|create)\s+(?:table\s+)?flashcard_integrity\.watchdog_credentials/i,
+  "supplemental migration must not mutate credential schema or rows",
+);
+assert.doesNotMatch(
+  internalInventoryExecutableSql,
+  /(?:grant|revoke)[^;]*public\.flashcard_integrity_health\(\)/i,
+  "supplemental migration must not alter the public wrapper ACL",
+);
+
+assert.match(
+  internalInventoryVerification,
+  /v_health := public\.flashcard_integrity_health\(\)/i,
+);
+assert.match(
+  internalInventoryVerification,
+  /x-flashcard-watchdog-snapshot-checks-enabled', 'false'/i,
+);
+assert.match(
+  internalInventoryVerification,
+  /checks,triggers,expectedCount/i,
+);
+assert.match(internalInventoryVerification, /rollback;/i);
+
+assert.match(
+  internalInventoryRollback,
+  /watchdog_internal_inventory_rollback_approved/i,
+);
+assert.match(
+  internalInventoryRollback,
+  /return public\.flashcard_integrity_health_snapshot_v7_internal\(\)/i,
+);
+assert.doesNotMatch(
+  internalInventoryRollback,
+  /drop\s+(?:table|function)|delete\s+from/i,
+  "rollback must preserve credentials and watchdog implementations",
+);
+
+assert.match(
+  runbook,
+  /watchdog-eight-trigger-internal-20260815\.sql/i,
+  "runbook must route already-gated production through the supplemental internal migration",
+);
 
 assert.match(workflow, /cron: "\*\/5 \* \* \* \*"/);
 assert.match(workflow, /contents: read/);
