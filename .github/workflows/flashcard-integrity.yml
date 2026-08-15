@@ -55,6 +55,9 @@ jobs:
       - name: Verify Flashcard legacy object merge guard
         run: node tools/test-flashcard-legacy-object-guard.mjs
 
+      - name: Verify Flashcard optimistic-conflict alert containment
+        run: node tools/test-flashcard-conflict-alert-containment.mjs
+
       - name: Verify Flashcard independent watchdog
         run: node tools/test-flashcard-integrity-watchdog.mjs
 
