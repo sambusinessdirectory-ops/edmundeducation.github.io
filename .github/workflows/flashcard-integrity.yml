@@ -1,0 +1,65 @@
+name: Flashcard data-integrity guard
+
+on:
+  push:
+    paths:
+      - "flashcards.html"
+      - "supabase-flashcard-*.sql"
+      - "supabase-shared-student-accounts.sql"
+      - "tools/test-flashcard-*.mjs"
+      - ".github/workflows/flashcard-integrity.yml"
+      - ".github/workflows/flashcard-integrity-watchdog.yml"
+  pull_request:
+    paths:
+      - "flashcards.html"
+      - "supabase-flashcard-*.sql"
+      - "supabase-shared-student-accounts.sql"
+      - "tools/test-flashcard-*.mjs"
+      - ".github/workflows/flashcard-integrity.yml"
+      - ".github/workflows/flashcard-integrity-watchdog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+
+      - name: Verify Flashcard state integrity
+        run: node tools/test-flashcard-state-integrity.mjs
+
+      - name: Verify Flashcard preferences
+        run: node tools/test-flashcard-preferences.mjs
+
+      - name: Verify Flashcard counting and admin ordering
+        run: node tools/test-flashcard-counting-admin-sort.mjs
+
+      - name: Verify Flashcard deck modes and durable outbox ordering
+        run: node tools/test-flashcard-deck-modes.mjs
+
+      - name: Verify all Flashcard phase-one migration guards
+        run: node tools/test-flashcard-integrity-phase1.mjs
+
+      - name: Verify Flashcard independent watchdog
+        run: node tools/test-flashcard-integrity-watchdog.mjs
+
+      - name: Reject destructive Flashcard SQL drift
+        shell: bash
+        run: |
+          if grep -nEi 'create or replace function public\.flashcard_(student_upsert_state|admin_upsert_student_state)[[:space:][:print:]]*set[[:space:]]+value[[:space:]]*=[[:space:]]*excluded\.value' supabase-*.sql; then
+            echo "A Flashcard writer appears to restore destructive whole-document replacement."
+            exit 1
+          fi
+          test "$(grep -c 'then public.flashcard_merge_attempt_arrays(state.value, excluded.value)' supabase-shared-student-accounts.sql)" -eq 2

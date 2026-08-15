@@ -68,12 +68,12 @@ assert.match(
 );
 assert.match(
   persistPreferences,
-  /await saveSupabaseState\(DISPLAY_PREFERENCES_KEY, nextPreferences, \{ silent: true \}\)/
+  /await writeJson\(DISPLAY_PREFERENCES_KEY, nextPreferences\)/
 );
 assert.match(persistPreferences, /if \(!saved\) \{/);
 assert.match(persistPreferences, /cacheAccountDisplayPreferences\(nextPreferences\)/);
 assert.doesNotMatch(persistPreferences, /hideLockedSections = previousHidden/);
-assert.match(persistPreferences, /偏好設定已儲存在這部裝置/);
+assert.match(persistPreferences, /偏好設定未能寫入耐久待同步紀錄/);
 
 const normalLogin = sourceBetween("async function login(username, password)", "function getKnownDeckIds()");
 const loginLoad = normalLogin.indexOf("await loadStudentStateFromSupabase()");
