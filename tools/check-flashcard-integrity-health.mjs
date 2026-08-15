@@ -3,7 +3,7 @@
 import { chmod, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 
-export const HEALTH_SCHEMA_VERSION = "2026-08-15.1";
+export const HEALTH_SCHEMA_VERSION = "2026-08-15.3";
 export const HEALTH_SOURCE = "supabase-flashcard-integrity-health";
 
 const MAX_ATTEMPTS = 3;
@@ -23,6 +23,32 @@ function dateValue(value) {
   if (value === null || value === undefined || value === "") return null;
   const text = String(value);
   return /^\d{4}-\d{2}-\d{2}$/.test(text) ? text : null;
+}
+
+function outboxIdValue(value) {
+  if (value === null || value === undefined || value === "") return null;
+  const text = String(value);
+  if (!/^[1-9][0-9]{0,18}$/.test(text)) return null;
+  try {
+    const parsed = BigInt(text);
+    return parsed <= 9_223_372_036_854_775_807n ? text : null;
+  } catch {
+    return null;
+  }
+}
+
+function preciseTimestampValue(value) {
+  const text = String(value ?? "");
+  if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,6})?(?:Z|[+-]\d{2}:\d{2})$/.test(text)) {
+    return null;
+  }
+  return Number.isFinite(new Date(text).getTime()) ? text : null;
+}
+
+function sha256DigestValue(value) {
+  if (value === null || value === undefined || value === "") return null;
+  const text = String(value);
+  return /^[0-9a-f]{64}$/.test(text) ? text : null;
 }
 
 function checkedAtValue(value) {
@@ -74,7 +100,16 @@ export function normalizeHealthResponse(raw) {
     alerts: normalizeCheck(rawChecks.alerts, ["unresolvedCriticalCount"]),
     outbox: normalizeCheck(
       rawChecks.outbox,
-      ["pendingCount", "lateCount", "oldestPendingAgeSeconds"],
+      [
+        "pendingCount",
+        "lateCount",
+        "oldestPendingAgeSeconds",
+        "pendingWarningCount",
+        "pendingCriticalCount",
+        "pendingOptimisticConflictCount",
+        "ackPendingCount",
+        "ackBatchLimit",
+      ],
     ),
     snapshot: normalizeCheck(
       rawChecks.snapshot,
@@ -83,6 +118,22 @@ export function normalizeHealthResponse(raw) {
       ["expectedDate", "lastCompletedDate"],
     ),
   };
+  if (checks.outbox) {
+    checks.outbox.ackThroughOutboxId = outboxIdValue(
+      rawChecks.outbox?.ackThroughOutboxId,
+    );
+    checks.outbox.ackObservedAt = preciseTimestampValue(
+      rawChecks.outbox?.ackObservedAt,
+    );
+    checks.outbox.ackBatchDigest = sha256DigestValue(
+      rawChecks.outbox?.ackBatchDigest,
+    );
+    checks.outbox.ackBatchDigestAlgorithm =
+      rawChecks.outbox?.ackBatchDigestAlgorithm ===
+        "sha256-ordered-decimal-outbox-ids-v1"
+        ? rawChecks.outbox.ackBatchDigestAlgorithm
+        : null;
+  }
 
   const snapshotEnabledPresent = typeof rawChecks.snapshot?.enabled === "boolean";
   const requiredChecksPresent = Object.values(checks).every((check) => check !== null)
@@ -92,6 +143,22 @@ export function normalizeHealthResponse(raw) {
     && checks.alerts?.unresolvedCriticalCount !== null
     && checks.outbox?.pendingCount !== null
     && checks.outbox?.lateCount !== null
+    && checks.outbox?.pendingWarningCount !== null
+    && checks.outbox?.pendingCriticalCount !== null
+    && checks.outbox?.pendingOptimisticConflictCount !== null
+    && checks.outbox?.ackPendingCount !== null
+    && checks.outbox?.ackBatchLimit === 500
+    && checks.outbox?.ackBatchDigestAlgorithm ===
+      "sha256-ordered-decimal-outbox-ids-v1"
+    && checks.outbox?.ackObservedAt !== null
+    && (
+      (checks.outbox?.ackPendingCount === 0
+        && checks.outbox?.ackThroughOutboxId === null
+        && checks.outbox?.ackBatchDigest === null)
+      || (checks.outbox?.ackPendingCount > 0
+        && checks.outbox?.ackThroughOutboxId !== null
+        && checks.outbox?.ackBatchDigest !== null)
+    )
     && snapshotEnabledPresent
     && checks.snapshot?.failedExpectedCount !== null
     && (
@@ -266,6 +333,9 @@ async function main() {
     snapshotChecksEnabled: typeof health.checks?.snapshot?.enabled === "boolean"
       ? health.checks.snapshot.enabled
       : null,
+    pendingWarningAlerts: health.checks?.outbox?.pendingWarningCount ?? null,
+    pendingOptimisticConflicts:
+      health.checks?.outbox?.pendingOptimisticConflictCount ?? null,
   }));
 }
 

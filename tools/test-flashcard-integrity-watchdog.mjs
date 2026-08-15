@@ -263,6 +263,15 @@ const rawHealthy = {
       pendingCount: 0,
       lateCount: 0,
       oldestPendingAgeSeconds: null,
+      pendingWarningCount: 0,
+      pendingCriticalCount: 0,
+      pendingOptimisticConflictCount: 0,
+      ackPendingCount: 0,
+      ackBatchLimit: 500,
+      ackThroughOutboxId: null,
+      ackObservedAt: "2026-08-14T12:00:00.000000+00:00",
+      ackBatchDigest: null,
+      ackBatchDigestAlgorithm: "sha256-ordered-decimal-outbox-ids-v1",
     },
     snapshot: {
       enabled: true,
@@ -322,7 +331,21 @@ const unhealthy = normalizeHealthResponse({
   incidentCodes: ["alert_outbox_late"],
   checks: {
     ...rawHealthy.checks,
-    outbox: { healthy: false, pendingCount: 3, lateCount: 2, oldestPendingAgeSeconds: 700 },
+    outbox: {
+      healthy: false,
+      pendingCount: 3,
+      lateCount: 2,
+      oldestPendingAgeSeconds: 700,
+      pendingWarningCount: 3,
+      pendingCriticalCount: 0,
+      pendingOptimisticConflictCount: 3,
+      ackPendingCount: 3,
+      ackBatchLimit: 500,
+      ackThroughOutboxId: "123",
+      ackObservedAt: "2026-08-14T12:00:00.000000+00:00",
+      ackBatchDigest: "a".repeat(64),
+      ackBatchDigestAlgorithm: "sha256-ordered-decimal-outbox-ids-v1",
+    },
   },
 });
 assert.equal(unhealthy.healthy, false);

@@ -61,6 +61,9 @@ jobs:
       - name: Verify Flashcard independent watchdog
         run: node tools/test-flashcard-integrity-watchdog.mjs
 
+      - name: Verify Flashcard external outbox acknowledgement
+        run: node tools/test-flashcard-integrity-outbox-ack.mjs
+
       - name: Reject destructive Flashcard SQL drift
         shell: bash
         run: |

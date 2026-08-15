@@ -45,4 +45,26 @@ jobs:
       - name: Open, update, deduplicate, or close the watchdog issue
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node tools/reconcile-flashcard-integrity-issue.mjs --input "$RUNNER_TEMP/flashcard-health.json"
+        run: >-
+          node tools/reconcile-flashcard-integrity-issue.mjs
+          --input "$RUNNER_TEMP/flashcard-health.json"
+          --output "$RUNNER_TEMP/flashcard-reconciliation.json"
+          --defer-health-exit
+
+      - name: Acknowledge only the reconciled exact outbox batch
+        env:
+          SUPABASE_URL: ${{ secrets.FLASHCARD_WATCHDOG_SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.FLASHCARD_WATCHDOG_SUPABASE_ANON_KEY }}
+          FLASHCARD_WATCHDOG_OUTBOX_ACK_TOKEN: ${{ secrets.FLASHCARD_WATCHDOG_OUTBOX_ACK_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_RUN_ATTEMPT: ${{ github.run_attempt }}
+        run: >-
+          node tools/acknowledge-flashcard-integrity-outbox.mjs
+          --health "$RUNNER_TEMP/flashcard-health.json"
+          --reconciliation "$RUNNER_TEMP/flashcard-reconciliation.json"
+
+      - name: Keep this run red for an unhealthy observation
+        run: >-
+          node tools/assert-flashcard-integrity-health.mjs
+          --input "$RUNNER_TEMP/flashcard-health.json"

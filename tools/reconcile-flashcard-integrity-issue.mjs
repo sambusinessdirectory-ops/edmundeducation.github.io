@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
 import { createHash } from "node:crypto";
-import { readFile } from "node:fs/promises";
+import { chmod, readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 
 export const ISSUE_TITLE = "[Flashcard integrity] Watchdog alert";
 export const ISSUE_MARKER = "<!-- flashcard-integrity-watchdog:v1 -->";
+export const RECONCILIATION_SCHEMA_VERSION = "2026-08-15.3";
 const FINGERPRINT_PREFIX = "<!-- flashcard-integrity-fingerprint:";
 
 function count(check, field) {
@@ -25,6 +26,12 @@ function stableIncidentRecord(health) {
     unresolvedCriticalAlerts: count(health?.checks?.alerts, "unresolvedCriticalCount"),
     pendingOutbox: count(health?.checks?.outbox, "pendingCount"),
     lateOutbox: count(health?.checks?.outbox, "lateCount"),
+    pendingWarningAlerts: count(health?.checks?.outbox, "pendingWarningCount"),
+    pendingCriticalAlerts: count(health?.checks?.outbox, "pendingCriticalCount"),
+    pendingOptimisticConflicts: count(
+      health?.checks?.outbox,
+      "pendingOptimisticConflictCount",
+    ),
     snapshotChecksEnabled: typeof health?.checks?.snapshot?.enabled === "boolean"
       ? health.checks.snapshot.enabled
       : null,
@@ -38,9 +45,48 @@ function stableIncidentRecord(health) {
   };
 }
 
+function acknowledgementObservationRecord(health) {
+  return {
+    schemaVersion: health?.schemaVersion || null,
+    source: health?.source || null,
+    checkedAt: health?.checkedAt || null,
+    incident: stableIncidentRecord(health),
+    acknowledgement: {
+      batchLimit: count(health?.checks?.outbox, "ackBatchLimit"),
+      pendingCount: count(health?.checks?.outbox, "ackPendingCount"),
+      throughOutboxId:
+        typeof health?.checks?.outbox?.ackThroughOutboxId === "string"
+          && /^[1-9][0-9]{0,18}$/.test(health.checks.outbox.ackThroughOutboxId)
+          ? health.checks.outbox.ackThroughOutboxId
+          : null,
+      observedAt:
+        typeof health?.checks?.outbox?.ackObservedAt === "string"
+          ? health.checks.outbox.ackObservedAt
+          : null,
+      batchDigest:
+        typeof health?.checks?.outbox?.ackBatchDigest === "string"
+          && /^[0-9a-f]{64}$/.test(health.checks.outbox.ackBatchDigest)
+          ? health.checks.outbox.ackBatchDigest
+          : null,
+      batchDigestAlgorithm:
+        health?.checks?.outbox?.ackBatchDigestAlgorithm ===
+          "sha256-ordered-decimal-outbox-ids-v1"
+          ? health.checks.outbox.ackBatchDigestAlgorithm
+          : null,
+    },
+  };
+}
+
 export function incidentFingerprint(health) {
   return createHash("sha256")
     .update(JSON.stringify(stableIncidentRecord(health)))
+    .digest("hex");
+}
+
+/** Bind an acknowledgement receipt to one exact, privacy-safe probe observation. */
+export function acknowledgementObservationFingerprint(health) {
+  return createHash("sha256")
+    .update(JSON.stringify(acknowledgementObservationRecord(health)))
     .digest("hex");
 }
 
@@ -72,6 +118,8 @@ export function buildIssueBody(health) {
     row("Missing protection triggers", record.missingTriggers),
     row("Unresolved critical alerts", record.unresolvedCriticalAlerts),
     row("Pending / late alert-outbox items", `${record.pendingOutbox} / ${record.lateOutbox}`),
+    row("Pending warning / critical notifications", `${record.pendingWarningAlerts} / ${record.pendingCriticalAlerts}`),
+    row("Pending optimistic-version conflicts", record.pendingOptimisticConflicts),
     row("Snapshot checks enabled", record.snapshotChecksEnabled ?? "unknown"),
     row("Required snapshot date", record.expectedSnapshotDate || "unknown"),
     row("Last completed snapshot date", record.lastCompletedSnapshotDate || "none"),
@@ -118,17 +166,22 @@ async function githubRequest(path, { method = "GET", body, config, fetchImpl = f
 }
 
 async function findOpenWatchdogIssue(config, fetchImpl) {
-  const query = encodeURIComponent(
-    `repo:${config.repository} is:issue is:open in:title "${ISSUE_TITLE}"`,
-  );
-  const search = await githubRequest(`/search/issues?q=${query}&per_page=20`, {
+  // Query the repository directly and restrict the creator to GitHub Actions. Public
+  // users can create look-alike issues in an open repository; those must never be
+  // treated as the monitor's reconciliation target.
+  const issues = await githubRequest(
+    `/repos/${config.repository}/issues?state=open&creator=github-actions%5Bbot%5D&per_page=100`,
+    {
     config,
     fetchImpl,
-  });
-  return (search.items || []).find((item) =>
+    },
+  );
+  return (Array.isArray(issues) ? issues : []).find((item) =>
     item.title === ISSUE_TITLE
     && typeof item.body === "string"
-    && item.body.includes(ISSUE_MARKER));
+    && item.body.includes(ISSUE_MARKER)
+    && !item.pull_request
+    && item.user?.login === "github-actions[bot]");
 }
 
 export async function reconcileIssue(health, { env = process.env, fetchImpl = fetch } = {}) {
@@ -186,12 +239,42 @@ function inputPathFromArguments(argv) {
   return argv[index + 1];
 }
 
+function optionalOutputPathFromArguments(argv) {
+  const index = argv.indexOf("--output");
+  if (index === -1) return null;
+  if (!argv[index + 1]) throw new Error("--output requires a path");
+  return argv[index + 1];
+}
+
 async function main() {
-  const inputPath = inputPathFromArguments(process.argv.slice(2));
+  const argv = process.argv.slice(2);
+  const inputPath = inputPathFromArguments(argv);
+  const outputPath = optionalOutputPathFromArguments(argv);
+  const deferHealthExit = argv.includes("--defer-health-exit");
   const health = JSON.parse(await readFile(inputPath, "utf8"));
   const result = await reconcileIssue(health);
-  console.log(JSON.stringify(result));
-  if (health?.healthy !== true) process.exitCode = 1;
+  const reconciliation = {
+    schemaVersion: RECONCILIATION_SCHEMA_VERSION,
+    checkedAt: health?.checkedAt || null,
+    healthFingerprint: acknowledgementObservationFingerprint(health),
+    action: result.action,
+    issueNumber: Number.isSafeInteger(result.issueNumber) && result.issueNumber > 0
+      ? result.issueNumber
+      : null,
+  };
+
+  if (outputPath) {
+    await writeFile(outputPath, `${JSON.stringify(reconciliation, null, 2)}\n`, {
+      mode: 0o600,
+    });
+    await chmod(outputPath, 0o600);
+  }
+
+  console.log(JSON.stringify(reconciliation));
+  // The watchdog workflow uses --defer-health-exit so the separately scoped outbox
+  // acknowledgement can run after GitHub reconciliation. A final explicit gate then
+  // restores the red status for this same unhealthy observation.
+  if (health?.healthy !== true && !deferHealthExit) process.exitCode = 1;
 }
 
 const isMain = process.argv[1]

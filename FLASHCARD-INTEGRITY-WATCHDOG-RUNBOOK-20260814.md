@@ -2,11 +2,18 @@
 
 Status (2026-08-15): the base aggregate watchdog RPC, public snapshot-gate wrapper,
 legacy-object merge guard, and supplemental eight-trigger internal inventory are
-present and transactionally verified in production. The external GitHub watchdog is
-active and its post-migration manual run passed. Snapshot-family checks remain
+present and transactionally verified in production. The external GitHub watchdog was
+active and is temporarily gated off for this schema cutover. Snapshot-family checks remain
 temporarily disabled until the independent encrypted nightly backup is restored in
 quarantine and the nightly schedule is activated; every non-snapshot integrity check
-remains active and fail-closed.
+remains active and fail-closed. The base external outbox acknowledgement schema
+`2026-08-15.2` and its separately scoped consumer credential are installed with the
+workflow gate disabled. The forward exact-batch schema `2026-08-15.3` was installed,
+but its first verification exposed invalid `pg_catalog.least` qualification in the
+live function body. Keep the workflow gate disabled, apply the function-only forward
+repair described below, and require the full schema `.3` verification to pass before
+the acknowledgement workflow is activated. Do not reapply the original `.3`
+migration to repair an already-installed environment.
 
 This watchdog is independent of the Flashcard browser code and independent of any
 same-project Supabase cron job. GitHub Actions calls a read-only, aggregate-only RPC
@@ -32,6 +39,15 @@ every five minutes and maintains one deduplicated incident issue.
   full commit SHAs.
 - Supabase credentials are present only in the probe step. The GitHub issue step sees
   only the sanitized temporary health document and `github.token`.
+- The staged delivery design uses a second random token whose digest is stored in a
+  private, RLS-enabled consumer table. The probe never receives this write token; the
+  GitHub reconciliation step never receives it; and the acknowledgement step never
+  receives `GITHUB_TOKEN`.
+- The exact-batch acknowledgement RPC returns only aggregate counts, a decimal-string
+  high-water mark, and SHA-256 of the ordered observed outbox IDs. It cannot return
+  alert details or student/account/state data. It recomputes the digest while locking
+  the batch and updates only that captured ID array; a newly committed lower ID, later
+  ID, delivered row, or any other membership change fails closed.
 - Publishing the workflow does not activate it. The entire job runs only when the
   repository variable `FLASHCARD_WATCHDOG_ENABLED` is exactly `true`; a missing value
   or any other spelling skips the job.
@@ -71,6 +87,123 @@ The RPC reports unhealthy when any of these is true:
 
 The probe retries only transient endpoint/network failure, then fails closed. An
 unreachable, unauthorized, malformed, or schema-mismatched endpoint is unhealthy.
+
+## Alert-outbox delivery and warning policy
+
+The `alert_outbox_late` failure in workflow run `31863169000` was a real monitoring
+failure: warning alerts were durably queued, but no consumer ever marked successful
+delivery. The database correctly kept them pending. Do not bulk-edit `delivered_at`
+from the SQL editor and do not weaken the five-minute health rule.
+
+The staged external delivery path is deliberately ordered:
+
+1. the read-only probe obtains a privacy-safe aggregate health document, the current
+   pending outbox watermark as decimal text, and SHA-256 of the ordered batch IDs;
+2. the GitHub step opens, updates, deduplicates, closes, or confirms the absence of the
+   watchdog issue;
+3. only after that GitHub API operation succeeds, the separately scoped
+   acknowledgement step verifies the health fingerprint and reconciliation receipt,
+then acknowledges the exact observed batch;
+4. a final step evaluates the original health document. If that observation was
+   unhealthy, the same workflow run remains red even though delivery succeeded.
+
+Any GitHub reconciliation failure prevents acknowledgement. Any token, schema,
+fingerprint, action, time-window, response, watermark, or batch-digest mismatch fails
+closed and leaves rows pending. Network retries reuse a deterministic
+repository/run/attempt key;
+the private append-only receipt makes replay idempotent. A later row or a new conflict
+after the probe receives a larger outbox ID and remains for the next run.
+
+`optimistic_version_conflict` at warning severity is normal evidence that optimistic
+concurrency rejected a stale write. Individual conflicts should **not** open and close
+one GitHub issue each; that would create alert fatigue and incorrectly imply data was
+lost. The issue and workflow show only aggregate pending warning, critical, and
+optimistic-conflict counts. A late undelivered notification still opens the existing
+watchdog issue. A future reviewed policy may add a separate `optimistic_conflict_burst`
+incident for a sustained rate/ratio threshold, but must not classify one ordinary
+conflict as an integrity failure. Delivery acknowledgement does not set
+`alerts.resolved_at`: notification delivery and semantic resolution are different
+facts, and the alert audit trail remains intact.
+
+### Forward supplemental deployment: exact-batch acknowledgement
+
+Use a reviewed change window and keep `FLASHCARD_WATCHDOG_ENABLED=false` during the
+database/client schema transition:
+
+1. confirm the scoped consumer digest and GitHub secret are installed while
+   `FLASHCARD_WATCHDOG_ENABLED=false`;
+2. for a fresh environment whose health RPC is still schema `2026-08-15.2`, apply
+   `supabase-flashcard-integrity-watchdog-outbox-batch-digest-20260815.sql`; for the
+   existing production environment where schema `.3` is already installed, **do not
+   reapply it** and instead apply
+   `supabase-flashcard-integrity-watchdog-outbox-batch-digest-function-repair-20260815.sql`;
+3. run (or rerun)
+   `supabase-flashcard-integrity-watchdog-outbox-batch-digest-verification-20260815.sql`
+   and require its rolled-back exact-membership acceptance tests to pass with no SQL
+   error. Confirm the health response is schema `.3`, exposes the ordered-ID digest
+   and algorithm, the seven-argument acknowledgement RPC is callable only by `anon`,
+   and the retained six-argument implementation is not callable by Data API roles;
+4. publish the schema `2026-08-15.3` probe and reconciliation receipt, schema
+   `2026-08-15.2` acknowledgement receipt client, final health gate, and workflow
+   together; do not rotate the already-provisioned acknowledgement token;
+5. set `FLASHCARD_WATCHDOG_ENABLED=true` and immediately manually dispatch once;
+   the five-minute schedule becomes active at the same moment, while the workflow's
+   concurrency group serializes any scheduled run behind the controlled run;
+6. verify GitHub reconciliation precedes acknowledgement,
+   verify the original unhealthy observation stays red, and verify the next run sees
+   the delivered exact batch and closes only after all other health checks pass.
+
+Stop without enabling the workflow if the repair rejects the live function markers,
+the verification reports any error, the health RPC is not schema `.3`, either RPC has
+unexpected privileges, or the deployed workflow/client source does not match the
+verified database contract. The repair replaces only the two already-installed
+function definitions and reasserts their grants; it does not mutate outbox rows,
+acknowledgement receipts, consumer credentials, alerts, or student data.
+
+Generate and provision the separate acknowledgement credential:
+
+```bash
+FLASHCARD_WATCHDOG_OUTBOX_ACK_TOKEN="$(openssl rand -hex 32)"
+printf '%s' "$FLASHCARD_WATCHDOG_OUTBOX_ACK_TOKEN" | openssl dgst -sha256
+```
+
+```sql
+insert into flashcard_integrity.watchdog_outbox_consumers (
+  label,
+  destination,
+  token_digest,
+  enabled,
+  valid_after,
+  valid_until
+)
+values (
+  'github-actions-outbox-primary',
+  'flashcard-integrity-monitor',
+  decode('<SHA256_HEX_DIGEST>', 'hex'),
+  true,
+  now() - interval '1 minute',
+  now() + interval '90 days'
+)
+on conflict (label) do update
+set token_digest = excluded.token_digest,
+    enabled = true,
+    valid_after = excluded.valid_after,
+    valid_until = excluded.valid_until,
+    rotated_at = now(),
+    updated_at = now();
+```
+
+Never reuse the health token for this consumer. The separate token limits compromise
+of the read-only probe and permits independent 90-day rotation. The database cannot
+cryptographically attest that GitHub accepted its own issue mutation; that boundary
+is enforced by reviewed workflow ordering, per-step secret isolation, immutable
+reconciliation input, deterministic run keys, branch protection, and append-only
+database receipts.
+
+Each run acknowledges at most 500 oldest pending rows. The probe hashes their ordered
+decimal IDs; the RPC recomputes that digest under row locks and updates only those IDs.
+This keeps the transaction and row-lock window short, closes the lower-ID transaction
+race, and leaves a larger backlog visibly unhealthy for successive red runs.
 
 ## One-time deployment (reviewed change window)
 
@@ -125,9 +258,9 @@ omitting it. Incoming values still win for members the request actually supplies
 Nested values underneath a supplied member are not recursively merged. Deliberate
 member removal and exact replacement must use the version-checked v2 writer.
 
-Do not publish the revised workflow until both the compatibility guard and the
-supplemental eight-trigger internal migration are verified; the revised probe requires
-response schema `2026-08-15.1` and will reject the previous schema.
+The base acknowledgement probe requires response schema `2026-08-15.2`. Do not
+publish the exact-batch workflow until its forward migration is verified; the staged
+probe requires schema `2026-08-15.3` and deliberately rejects both earlier schemas.
 
 Confirm:
 
@@ -192,6 +325,9 @@ In repository **Settings → Secrets and variables → Actions**, add:
 - secret `FLASHCARD_WATCHDOG_SUPABASE_ANON_KEY` (publishable/legacy anon key only;
   never a service-role or secret key);
 - secret `FLASHCARD_WATCHDOG_TOKEN` (the plaintext random token).
+- after the staged acknowledgement migration is verified, secret
+  `FLASHCARD_WATCHDOG_OUTBOX_ACK_TOKEN` (a distinct plaintext random token scoped only
+  to the `flashcard-integrity-monitor` destination).
 
 Add these repository variables before enabling the workflow:
 
@@ -202,7 +338,9 @@ Add these repository variables before enabling the workflow:
   by the probe once the job is active.
 
 Protect changes to `.github/workflows/**`, `tools/check-flashcard-integrity-health.mjs`,
-`tools/reconcile-flashcard-integrity-issue.mjs`, and watchdog SQL with CODEOWNERS and
+`tools/reconcile-flashcard-integrity-issue.mjs`,
+`tools/acknowledge-flashcard-integrity-outbox.mjs`,
+`tools/assert-flashcard-integrity-health.mjs`, and watchdog SQL with CODEOWNERS and
 branch review. Restrict who can edit Actions secrets or repository variables.
 
 ### 4. Activate with a controlled pre-snapshot smoke test
@@ -210,9 +348,10 @@ branch review. Restrict who can edit Actions secrets or repository variables.
 1. Keep `FLASHCARD_WATCHDOG_ENABLED=false`. A manual dispatch at this point must show
    the job as **skipped**. A skip proves the activation gate works; it is not evidence
    that Flashcard data is healthy.
-2. Confirm all three secrets are configured, the watchdog token digest is enabled,
-   the supplemental RPC returns schema `2026-08-15.1`, and the alert outbox has no
-   intentionally unhandled entries.
+2. Confirm the three existing secrets are configured (and the fourth acknowledgement
+   secret after that staged path is enabled), the relevant token digests are enabled,
+   the RPC returns the schema required by the deployed client, and no alert-outbox
+   entry is being intentionally abandoned.
 3. Set `FLASHCARD_WATCHDOG_SNAPSHOT_CHECKS_ENABLED=false`. Record an owner, reason,
    approval, and deadline for removing this temporary exception.
 4. Set `FLASHCARD_WATCHDOG_ENABLED=true`, then manually dispatch the workflow.
@@ -301,6 +440,15 @@ or disabling `flashcard_state_zy_legacy_object_merge` must open and retain an
 reviewed redesign intentionally updates the watchdog contract. The guard rollback is
 fail-closed and requires its explicit same-session approval setting; it does not
 delete state or audit evidence.
+
+To emergency-disable exact-batch acknowledgement, first disable its consumer
+credential and remove the GitHub acknowledgement secret. If a reviewed code rollback
+is still required, use
+`supabase-flashcard-integrity-watchdog-outbox-batch-digest-rollback-20260815.sql` with
+its exact same-session approval setting. That rollback restores the preserved schema
+`2026-08-15.2` health and six-argument acknowledgement contracts, while deliberately
+retaining credential digests, digest columns, append-only receipts, alerts, and outbox
+evidence. Keep the workflow gate off until the matching `.2` client is restored.
 
 ## References
 
