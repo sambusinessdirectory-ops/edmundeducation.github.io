@@ -76,6 +76,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   assert.equal(read(sessionStorage, "edmund-learning-portal-english-joke-collection-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-learning-portal-argument-learning-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-learning-portal-fragmented-reading-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-song-appreciation-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-learning-portal-precise-language-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-schedule-session-v1").studentToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundModelEssayDownloadSession").sessionToken, "11111111-1111-4111-8111-111111111111");
@@ -141,6 +142,7 @@ test("student logout removes the universal and app-specific browser sessions", (
     "edmund-proverb-system-session-v1",
     "edmund-phrasal-verb-system-session-v1",
     "edmund-dse-paper3-analysis-session-v1",
+    "edmund-song-appreciation-session-v1",
     "edmund-common-expression-speaking-session-v1",
     "edmund-common-expression-written-session-v1",
     "edmund-common-expression-rhetorical-speaking-session-v1",
@@ -165,6 +167,7 @@ test("student bridging and logout never overwrite active admin sessions", () => 
     "edmund-proverb-system-session-v1": { name: "Proverb Admin", role: "admin", token: "admin-proverb" },
     "edmund-phrasal-verb-system-session-v1": { name: "Phrasal Verb Admin", role: "admin", token: "admin-phrasal" },
     "edmund-dse-paper3-analysis-session-v1": { name: "Paper 3 Admin", role: "admin", token: "admin-paper3" },
+    "edmund-song-appreciation-session-v1": { name: "Song Admin", role: "admin", token: "admin-song" },
     "edmund-schedule-session-v1": { name: "Schedule Admin", role: "admin", adminToken: "admin-schedule" },
     edmundModelEssayDownloadSession: { name: "Download Admin", role: "admin", adminToken: "admin-download" }
   };
@@ -206,7 +209,8 @@ test("all established student portals load the shared accessible switcher", () =
     "common-expression-rhetorical-speaking.html": "common-expression-rhetorical-speaking",
     "common-expression-rhetorical-writing.html": "common-expression-rhetorical-writing",
     "common-expression-professional-message.html": "common-expression-professional-message",
-    "common-expression-business-speaking.html": "common-expression-business-speaking"
+    "common-expression-business-speaking.html": "common-expression-business-speaking",
+    "song-appreciation.html": "song-appreciation"
   };
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
@@ -283,6 +287,7 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "english-joke-collection.html",
     "argument-learning-system.html",
     "fragmented-reading-system.html",
+    "song-appreciation.html",
     "precise-language-system.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");

@@ -45,6 +45,7 @@
     { id: "english-joke-collection", href: "english-joke-collection.html", zh: "英文笑話收集站", en: "English Joke / Collection" },
     { id: "argument-learning", href: "argument-learning-system.html", zh: "論證 / 論據 / 論點 學習系統", en: "Argument learning" },
     { id: "fragmented-reading", href: "fragmented-reading-system.html", zh: "閱讀理解 / 碎片訓練系統", en: "Fragmented Reading" },
+    { id: "song-appreciation", href: "song-appreciation.html", zh: "英文歌聆聽練習", en: "Song Appreciation" },
     { id: "precise-language", href: "precise-language-system.html", zh: "精準措詞系統", en: "Precise Language" }
   ]);
 
@@ -85,6 +86,7 @@
     "english-joke-collection": "edmund-learning-portal-english-joke-collection-session-v1",
     "argument-learning": "edmund-learning-portal-argument-learning-session-v1",
     "fragmented-reading": "edmund-learning-portal-fragmented-reading-session-v1",
+    "song-appreciation": "edmund-song-appreciation-session-v1",
     "precise-language": "edmund-learning-portal-precise-language-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
@@ -197,6 +199,12 @@
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
       },
+      "song-appreciation"() {
+        const value = storageJson(storage, SESSION_KEYS["song-appreciation"]);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
       "common-expression-speaking"() {
         return commonExpressionSession("common-expression-speaking");
       },
@@ -254,6 +262,7 @@
       || candidates.proverbs()
       || candidates["phrasal-verbs"]()
       || candidates["dse-paper3-analysis"]()
+      || candidates["song-appreciation"]()
       || candidates.schedule()
       || candidates.downloads()
       || candidates["common-expression-speaking"]()
@@ -372,6 +381,12 @@
       role: "student"
     }, overwrite);
     writeStudentSession(storage, SESSION_KEYS["dse-paper3-analysis"], {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
+    writeStudentSession(storage, SESSION_KEYS["song-appreciation"], {
       token: universal.token,
       id: universal.id,
       name: universal.name,

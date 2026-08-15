@@ -235,7 +235,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 50, "homepage must contain all 50 numbered category cards after adding the learning portal backbones");
+assert.equal(homepageCards.length, 51, "homepage must contain all 51 linked category cards after adding Song Appreciation");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[9], "schedule-system.html", "Schedule must be numbered card 10");
 assert.equal(homepageCardHrefs[12], "flashcards.html", "Flashcards must be numbered card 13");

@@ -66,6 +66,7 @@ const htmlPages = [
   "resources.html",
   "schedule-motivation-admin.html",
   "schedule-system.html",
+  "song-appreciation.html",
   "sentence-structure.html",
   "speaking-system.html",
   "spelling-system.html",

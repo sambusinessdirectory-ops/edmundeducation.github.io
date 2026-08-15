@@ -22,7 +22,7 @@
     { ordinal: 47, id: "english-joke-collection", href: "english-joke-collection.html", lines: ["English Joke", "Collection", "英文笑話收集站"], dashboard: false, hue: 202 },
     { ordinal: 48, id: "argument-learning", href: "argument-learning-system.html", lines: ["Argument learning", "論證 / 論據 / 論點 學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 268 },
     { ordinal: 49, id: "fragmented-reading", href: "fragmented-reading-system.html", lines: ["Fragmented Reading", "閱讀理解", "碎片訓練系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 176 },
-    { ordinal: 50, id: "precise-language", href: "precise-language-system.html", lines: ["Precise Language", "精準措詞系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 12 }
+    { ordinal: 51, id: "precise-language", href: "precise-language-system.html", lines: ["Precise Language", "精準措詞系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 12 }
   ].map((portal) => Object.freeze({
     ...portal,
     titleEn: portal.lines[0],

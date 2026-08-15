@@ -379,6 +379,15 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "manifest": "/pwa-manifests/fragmented-reading.webmanifest"
   },
   {
+    "id": "song-appreciation",
+    "href": "song-appreciation.html",
+    "zh": "英文歌聆聽練習",
+    "en": "Song Appreciation",
+    "name": "英文歌聆聽練習｜EdmundEducation",
+    "shortName": "英文歌聆聽",
+    "manifest": "/pwa-manifests/song-appreciation.webmanifest"
+  },
+  {
     "id": "precise-language",
     "href": "precise-language-system.html",
     "zh": "精準措詞系統",

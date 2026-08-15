@@ -191,6 +191,9 @@ jobs:
           node tools/test-video-class.mjs
           node tools/test-homepage-video-opacity.mjs
 
+      - name: Validate Song Appreciation portal, data protection, and secure workflows
+        run: node tools/test-song-appreciation.mjs
+
       - name: Validate Writing Submission portal and self-hosted grammar engine
         run: |
           node grammar-corpus/validate-and-generate.mjs
@@ -221,11 +224,25 @@ jobs:
             --exclude='.DS_Store' \
             --exclude='_site' \
             --exclude='*.sql' \
+            --exclude='song-appreciation-data.js' \
             --exclude='tools' \
             --exclude='workers' \
             --exclude='assets/speaking-system/audio/edmund-neural/part1/' \
             --exclude='assets/speaking-system/audio/edmund-neural/part3/' \
             ./ _site/
+
+      - name: Verify protected Song Appreciation data is absent from Pages artifact
+        run: |
+          test ! -e _site/song-appreciation-data.js
+          if grep -RIl --include='*.js' \
+            -e 'EDMUND_SONG_APPRECIATION_DATA' \
+            -e 'You, with your words like knives' \
+            -e 'Got me feeling like I' \
+            -e '《Mean》描寫被欺凌' \
+            _site/; then
+            echo 'Protected Song Appreciation source material was copied into the public Pages artifact.' >&2
+            exit 1
+          fi
 
       - name: Stamp PWA release
         run: |

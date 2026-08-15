@@ -507,11 +507,14 @@
     }
 
     .system-switch-card {
+      counter-increment: none;
       --category-gradient: linear-gradient(135deg, #173b78 0%, #4f68b4 52%, #9b69b5 100%);
       --category-gradient-hover: linear-gradient(135deg, #112f63 0%, #435aa2 52%, #8c59a8 100%);
       --category-key-lip: #2f397e;
       --category-key-shadow: rgba(35,50,121,0.30);
     }
+
+    .system-switch-card::before { display: none; }
 
     .resources-card {
       --category-gradient: linear-gradient(135deg, #5f102a 0%, #9e173f 48%, #ef4444 100%);
@@ -2924,6 +2927,10 @@
 
         <a class="category learning-portal-card" href="fragmented-reading-system.html" aria-label="Fragmented Reading 閱讀理解 碎片訓練系統" style="--portal-card-hue:176">
           <span class="category-name">Fragmented Reading<br>閱讀理解<br>碎片訓練系統</span>
+        </a>
+
+        <a class="category song-appreciation-card" href="song-appreciation.html" aria-label="Song Appreciation 英文歌 聆聽練習" style="--category-gradient:linear-gradient(135deg,#291d37 0%,#874162 54%,#ef7d87 100%);--category-gradient-hover:linear-gradient(135deg,#20162d 0%,#743551 54%,#e46576 100%);--category-key-lip:#57243f;--category-key-shadow:rgba(93,35,65,.28)">
+          <span class="category-name">Song Appreciation<br>英文歌<br>聆聽練習</span>
         </a>
 
         <a class="category learning-portal-card" href="precise-language-system.html" aria-label="Precise Language 精準措詞系統" style="--portal-card-hue:12">
