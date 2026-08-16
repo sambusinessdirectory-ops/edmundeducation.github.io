@@ -41,19 +41,19 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4801, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4821, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
 assert.equal((byType.flashcards || []).length, 1281, "all current static and lazy-loaded flashcard leaf decks should be indexed");
-assert.equal((byType["fill-blanks"] || []).length, 310, "all current writing exercises should be indexed");
+assert.equal((byType["fill-blanks"] || []).length, 320, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
 assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be indexed");
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
-assert.equal((byType["writing-submission"] || []).length, 310, "every Writing Practice exercise should have a Writing Submission assignment link");
+assert.equal((byType["writing-submission"] || []).length, 320, "every Writing Practice exercise should have a Writing Submission assignment link");
 assert.equal((byType["reading-analysis"] || []).length, 157, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
 assert.equal((byType["download-material"] || []).length, 857, "every item in the DSE/IELTS download portal should be indexed");
@@ -86,6 +86,10 @@ assert.ok(ids.has("idiom:idiom-138"));
 assert.ok(ids.has("proverb:proverb-03"));
 assert.ok(ids.has("phrasal-verb:phrasal-verb-329"));
 assert.ok(ids.has("writing-submission:model-essay-2-ielts-advantage-disadvantage"));
+assert.ok(ids.has("fill:business-english-standard-response-book-1-q1"));
+assert.ok(ids.has("fill:business-english-standard-response-book-1-q10"));
+assert.ok(ids.has("writing-submission:business-english-standard-response-book-1-q1"));
+assert.ok(ids.has("writing-submission:business-english-standard-response-book-1-q10"));
 assert.ok(ids.has("reading-analysis:mungo-man"));
 assert.ok(ids.has("reading-analysis:if-you-can-get-used-to-the-taste"));
 assert.ok(ids.has("reading-analysis:p1-082-graffiti"));
@@ -795,7 +799,7 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260814-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260816-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260814-1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

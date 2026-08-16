@@ -61,6 +61,7 @@ function writingCategory(exerciseId) {
   if (/^model-essay-\d+-ielts-task1-/.test(exerciseId)) return "IELTS Task 1";
   if (/^model-essay-\d+-ielts-/.test(exerciseId)) return "IELTS Task 2";
   if (/^hkpf-civic-composition-/.test(exerciseId)) return "Government / HKPF";
+  if (/^business-english-standard-response-book-1-q\d+$/.test(exerciseId)) return "Business English";
   throw new Error(`Unclassified Writing Practice exercise: ${exerciseId}`);
 }
 
@@ -107,19 +108,20 @@ test("generated references cover every published Writing Practice lesson with no
 
   const authoritativeIds = authoritativeWritingExerciseIds();
   const generatedIds = entries.map(([exerciseId]) => exerciseId);
-  assert.equal(authoritativeIds.length, 310);
+  assert.equal(authoritativeIds.length, 320);
   assert.deepEqual(generatedIds, authoritativeIds, "references must exactly match Writing Practice sources");
   assert.equal(new Set(generatedIds).size, generatedIds.length);
   assert.equal(entries.filter(([, reference]) => reference.vocabulary.length > 0).length, 304);
   assert.equal(entries.filter(([, reference]) => reference.flashDeckId).length, 301);
-  assert.equal(entries.filter(([, reference]) => reference.paragraphs.every((paragraph) => paragraph.chinese)).length, 310);
+  assert.equal(entries.filter(([, reference]) => reference.paragraphs.every((paragraph) => paragraph.chinese)).length, 320);
 
   const expectedCategoryCoverage = {
     "DSE Part A": { total: 15, modelEssay: 15, translation: 15, vocabulary: 15, flashCards: 15 },
     "DSE Part B": { total: 3, modelEssay: 3, translation: 3, vocabulary: 3, flashCards: 0 },
     "IELTS Task 1": { total: 60, modelEssay: 60, translation: 60, vocabulary: 59, flashCards: 59 },
     "IELTS Task 2": { total: 228, modelEssay: 228, translation: 228, vocabulary: 224, flashCards: 224 },
-    "Government / HKPF": { total: 4, modelEssay: 4, translation: 4, vocabulary: 3, flashCards: 3 }
+    "Government / HKPF": { total: 4, modelEssay: 4, translation: 4, vocabulary: 3, flashCards: 3 },
+    "Business English": { total: 10, modelEssay: 10, translation: 10, vocabulary: 0, flashCards: 0 }
   };
   const actualCategoryCoverage = {};
   for (const [exerciseId, reference] of entries) {
@@ -206,6 +208,16 @@ test("generated references cover every published Writing Practice lesson with no
       .map(([exerciseId]) => exerciseId)
       .sort(),
     [
+      "business-english-standard-response-book-1-q1",
+      "business-english-standard-response-book-1-q10",
+      "business-english-standard-response-book-1-q2",
+      "business-english-standard-response-book-1-q3",
+      "business-english-standard-response-book-1-q4",
+      "business-english-standard-response-book-1-q5",
+      "business-english-standard-response-book-1-q6",
+      "business-english-standard-response-book-1-q7",
+      "business-english-standard-response-book-1-q8",
+      "business-english-standard-response-book-1-q9",
       "hkpf-civic-composition-7",
       "model-essay-2-ielts-cause-solution",
       "model-essay-26-ielts-direct-question",
@@ -221,6 +233,16 @@ test("generated references cover every published Writing Practice lesson with no
       .map(([exerciseId]) => exerciseId)
       .sort(),
     [
+      "business-english-standard-response-book-1-q1",
+      "business-english-standard-response-book-1-q10",
+      "business-english-standard-response-book-1-q2",
+      "business-english-standard-response-book-1-q3",
+      "business-english-standard-response-book-1-q4",
+      "business-english-standard-response-book-1-q5",
+      "business-english-standard-response-book-1-q6",
+      "business-english-standard-response-book-1-q7",
+      "business-english-standard-response-book-1-q8",
+      "business-english-standard-response-book-1-q9",
       "dse-writing-2022-part-b-q3",
       "dse-writing-2024-part-b-q5",
       "dse-writing-2025-part-b-q3",

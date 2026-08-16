@@ -21,7 +21,8 @@ create table if not exists public.writing_student_accounts (
     "toeic-writing": true,
     "toefl-writing": true,
     "pte-writing": true,
-    "government-writing": true
+    "government-writing": true,
+    "business-english": true
   }'::jsonb,
   session_token uuid not null default gen_random_uuid(),
   created_at timestamptz not null default now(),
@@ -51,7 +52,8 @@ as $$
     "toeic-writing": true,
     "toefl-writing": true,
     "pte-writing": true,
-    "government-writing": true
+    "government-writing": true,
+    "business-english": true
   }'::jsonb;
 $$;
 

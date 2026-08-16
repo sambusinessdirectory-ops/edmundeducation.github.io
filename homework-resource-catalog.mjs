@@ -13028,6 +13028,34 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     ]
   },
   {
+    "id": "fill:business-english-standard-response-book-1-q1",
+    "type": "fill-blanks",
+    "ordinal": 1,
+    "label": "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q1",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "How do you understand the impact of uncertainty on business decision-making?",
+      "你如何理解「不確定性」對商業決策的影響？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q2",
+    "type": "fill-blanks",
+    "ordinal": 2,
+    "label": "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q2",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Among inflation, interest rates, rising rent, and rising wages, which puts the greatest pressure on businesses, and why?",
+      "通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"
+    ],
+    "questionImages": []
+  },
+  {
     "id": "fill:dse-writing-2022-part-b-q3",
     "type": "fill-blanks",
     "ordinal": 3,
@@ -13058,6 +13086,34 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "questionImages": []
   },
   {
+    "id": "fill:business-english-standard-response-book-1-q3",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Q3 - 管理最核心的三個能力是甚麼？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q3",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "What are the three most essential capabilities in management?",
+      "管理最核心的三個能力是甚麼？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q4",
+    "type": "fill-blanks",
+    "ordinal": 4,
+    "label": "Q4 - 微觀管理（micromanagement）會帶來哪些問題？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q4",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "What problems can micromanagement cause?",
+      "微觀管理會帶來哪些問題？"
+    ],
+    "questionImages": []
+  },
+  {
     "id": "fill:dse-writing-2024-part-b-q5",
     "type": "fill-blanks",
     "ordinal": 5,
@@ -13067,6 +13123,90 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "sectionKey": "dse-writing",
     "questionPrompt": [
       "You posted a video on social media that went viral and gained 100,000 likes overnight. Write an article for the school magazine about your experience."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q5",
+    "type": "fill-blanks",
+    "ordinal": 5,
+    "label": "Q5 - 消費者真正購買的是功能、感受，還是身份認同？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q5",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "What are consumers really buying: function, feeling, or identity?",
+      "消費者真正購買的，究竟是功能、感受，還是身份認同？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q6",
+    "type": "fill-blanks",
+    "ordinal": 6,
+    "label": "Q6 - 企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q6",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "In business, is the most important strategic question what to do or what not to do?",
+      "企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q7",
+    "type": "fill-blanks",
+    "ordinal": 7,
+    "label": "Q7 - 一間公司執行力差，通常是流程問題、人才問題，還是管理問題？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q7",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "When a company executes poorly, is the root cause usually process, talent, or management?",
+      "一間公司執行力差，通常是流程問題、人才問題，還是管理問題？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q8",
+    "type": "fill-blanks",
+    "ordinal": 8,
+    "label": "Q8 - 應否聘用高能力但難合作的人？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q8",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Should a company hire someone who is highly capable but difficult to work with?",
+      "應否聘用高能力但難合作的人？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q9",
+    "type": "fill-blanks",
+    "ordinal": 9,
+    "label": "Q9 - 利潤高是否代表公司一定健康？為甚麼？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q9",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Does high profit necessarily mean a company is healthy? Why or why not?",
+      "利潤高是否代表公司一定健康？為甚麼？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "fill:business-english-standard-response-book-1-q10",
+    "type": "fill-blanks",
+    "ordinal": 10,
+    "label": "Q10 - 企業為何常說要創新，實際上卻很保守？",
+    "detail": "Business English · Standard Business Response · Book 1",
+    "url": "writing-practice.html?exercise=business-english-standard-response-book-1-q10",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Why do companies often say they want innovation, yet in practice remain conservative?",
+      "企業為何常說要創新，實際上卻很保守？"
     ],
     "questionImages": []
   },
@@ -43190,6 +43330,34 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     ]
   },
   {
+    "id": "writing-submission:business-english-standard-response-book-1-q1",
+    "type": "writing-submission",
+    "ordinal": 1,
+    "label": "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q1",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "How do you understand the impact of uncertainty on business decision-making?",
+      "你如何理解「不確定性」對商業決策的影響？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q2",
+    "type": "writing-submission",
+    "ordinal": 2,
+    "label": "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q2",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Among inflation, interest rates, rising rent, and rising wages, which puts the greatest pressure on businesses, and why?",
+      "通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"
+    ],
+    "questionImages": []
+  },
+  {
     "id": "writing-submission:dse-writing-2022-part-b-q3",
     "type": "writing-submission",
     "ordinal": 3,
@@ -43220,6 +43388,34 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "questionImages": []
   },
   {
+    "id": "writing-submission:business-english-standard-response-book-1-q3",
+    "type": "writing-submission",
+    "ordinal": 3,
+    "label": "Q3 - 管理最核心的三個能力是甚麼？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q3",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "What are the three most essential capabilities in management?",
+      "管理最核心的三個能力是甚麼？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q4",
+    "type": "writing-submission",
+    "ordinal": 4,
+    "label": "Q4 - 微觀管理（micromanagement）會帶來哪些問題？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q4",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "What problems can micromanagement cause?",
+      "微觀管理會帶來哪些問題？"
+    ],
+    "questionImages": []
+  },
+  {
     "id": "writing-submission:dse-writing-2024-part-b-q5",
     "type": "writing-submission",
     "ordinal": 5,
@@ -43229,6 +43425,90 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "sectionKey": "dse-writing",
     "questionPrompt": [
       "You posted a video on social media that went viral and gained 100,000 likes overnight. Write an article for the school magazine about your experience."
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q5",
+    "type": "writing-submission",
+    "ordinal": 5,
+    "label": "Q5 - 消費者真正購買的是功能、感受，還是身份認同？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q5",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "What are consumers really buying: function, feeling, or identity?",
+      "消費者真正購買的，究竟是功能、感受，還是身份認同？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q6",
+    "type": "writing-submission",
+    "ordinal": 6,
+    "label": "Q6 - 企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q6",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "In business, is the most important strategic question what to do or what not to do?",
+      "企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q7",
+    "type": "writing-submission",
+    "ordinal": 7,
+    "label": "Q7 - 一間公司執行力差，通常是流程問題、人才問題，還是管理問題？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q7",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "When a company executes poorly, is the root cause usually process, talent, or management?",
+      "一間公司執行力差，通常是流程問題、人才問題，還是管理問題？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q8",
+    "type": "writing-submission",
+    "ordinal": 8,
+    "label": "Q8 - 應否聘用高能力但難合作的人？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q8",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Should a company hire someone who is highly capable but difficult to work with?",
+      "應否聘用高能力但難合作的人？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q9",
+    "type": "writing-submission",
+    "ordinal": 9,
+    "label": "Q9 - 利潤高是否代表公司一定健康？為甚麼？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q9",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Does high profit necessarily mean a company is healthy? Why or why not?",
+      "利潤高是否代表公司一定健康？為甚麼？"
+    ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:business-english-standard-response-book-1-q10",
+    "type": "writing-submission",
+    "ordinal": 10,
+    "label": "Q10 - 企業為何常說要創新，實際上卻很保守？",
+    "detail": "Writing Submission · Business English · Standard Business Response · Book 1",
+    "url": "writing-submission.html?exercise=business-english-standard-response-book-1-q10",
+    "sectionKey": "business-english",
+    "questionPrompt": [
+      "Why do companies often say they want innovation, yet in practice remain conservative?",
+      "企業為何常說要創新，實際上卻很保守？"
     ],
     "questionImages": []
   },

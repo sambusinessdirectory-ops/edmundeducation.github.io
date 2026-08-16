@@ -3240,7 +3240,7 @@
         <div class="hero-copy">
           <img class="hero-learning-logo" src="E-Learning.png" alt="E-Learning">
           <h1>學生考試<br>寫作練習系統</h1>
-          <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習</p>
+          <p>DSE、IELTS、TOEIC、TOEFL、PTE、政府公務員及商務英語寫作練習</p>
         </div>
 
         <img class="hero-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
@@ -3427,7 +3427,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
-  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260730-1"></script>
+  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260816-1"></script>
   <script src="writing-practice-dse-part-a-data.js?v=20260726-2"></script>
   <script src="writing-practice-ielts-task1-data.js?v=20260730-1"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260722-1"></script>
@@ -3446,6 +3446,7 @@
   <script src="writing-practice-model-essays-direct-20-38-data.js?v=20260716-1"></script>
   <script src="writing-practice-model-essays-direct-39-48-data.js?v=20260715-1"></script>
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
+  <script src="writing-practice-business-standard-response-book1-data.js?v=20260816-1"></script>
   <script src="writing-progression-data.js?v=20260727-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260814-1"></script>
@@ -3476,7 +3477,8 @@
       { key: "toeic-writing", label: "TOEIC", subline: "英文寫作", tone: "orange" },
       { key: "toefl-writing", label: "TOEFL", subline: "英文寫作" },
       { key: "pte-writing", label: "PTE", subline: "英文寫作", tone: "emerald" },
-      { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" }
+      { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" },
+      { key: "business-english", label: "商務英語", subline: "英文寫作", tone: "orange" }
     ];
 
     const writingProgressionRows = Array.isArray(window.EDMUND_WRITING_PROGRESSION)
@@ -3832,6 +3834,27 @@
           { key: "immd", label: "ImmD", subline: "Immigration Department", deckIds: [] },
           { key: "ced", label: "C&ED", subline: "Customs and Excise Department", deckIds: [] }
         ]
+      },
+      "business-english": {
+        title: "商務英語",
+        tasks: [
+          {
+            key: "task-standard-business-response",
+            label: "Standard Business Response",
+            subline: "標準商務回應",
+            essayTypes: [
+              {
+                key: "book-1",
+                label: "Book 1",
+                subline: "10 Questions",
+                deckIds: Array.from(
+                  { length: 10 },
+                  (_, index) => `business-english-standard-response-book-1-q${index + 1}`
+                )
+              }
+            ]
+          }
+        ]
       }
     };
 
@@ -3921,7 +3944,8 @@
       window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES,
       window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES,
       window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES,
-      window.EDMUND_HKPF_WRITING_EXERCISES
+      window.EDMUND_HKPF_WRITING_EXERCISES,
+      window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES
     ].forEach(externalWritingExercises => {
       if (externalWritingExercises && typeof externalWritingExercises === "object" && !Array.isArray(externalWritingExercises)) {
         Object.assign(writingExercises, externalWritingExercises);

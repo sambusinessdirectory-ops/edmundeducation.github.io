@@ -86,7 +86,9 @@ jobs:
       - name: Refresh homework resource catalog
         run: |
           node tools/generate-homework-resource-catalog.mjs
+          node tools/generate-writing-submission-worker-topic-catalog.mjs
           git diff --exit-code -- homework-resource-catalog.mjs
+          git diff --exit-code -- workers/writing-submission/src/topic-catalog.js
 
       - name: Validate homework resource catalog and numeric search
         run: node tools/test-schedule-homework-links.mjs
@@ -125,6 +127,10 @@ jobs:
       - name: Validate Business Concepts Book 1 flashcards, voice and Homework links
         run: |
           node tools/test-business-concepts-book1-flashcards.mjs
+
+      - name: Validate Business English Writing Book 1, voice and Homework links
+        run: |
+          node tools/test-business-writing-book1.mjs
 
       - name: Validate immutable packed flashcard audio Worker routing
         run: |

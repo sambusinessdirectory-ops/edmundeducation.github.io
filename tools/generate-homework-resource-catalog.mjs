@@ -99,6 +99,7 @@ function writingOrdinal(exercise) {
 function writingSectionKey(exercise) {
   const id = String(exercise?.id || "").toLowerCase();
   const exam = String(exercise?.exam || "").toLowerCase();
+  if (id.startsWith("business-english-") || /business english|商務英語/.test(exam)) return "business-english";
   if (id.startsWith("dse-") || /\bdse\b/.test(exam)) return "dse-writing";
   if (id.startsWith("hkpf-") || /civil servant|government|hkpf/.test(exam)) return "government-writing";
   if (/\bielts\b/.test(exam) || id.includes("ielts")) return "ielts-writing";

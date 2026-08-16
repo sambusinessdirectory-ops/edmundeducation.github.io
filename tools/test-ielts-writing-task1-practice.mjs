@@ -148,7 +148,7 @@ for (const [category, count] of Object.entries(expectedCategories)) {
 }
 
 assert.equal(configurationCount, 960, "60 sets × 16 exercise configurations should be available");
-assert.equal(audioMeta.count, 310, "writing narration manifest should cover the existing 250 plus 60 new essays");
+assert.equal(audioMeta.count, 320, "writing narration manifest should cover all current Writing Practice exercises");
 assert.equal(audioMeta.complete, true);
 assert.equal(audioMeta.engine, "Kokoro-82M");
 assert.equal(audioMeta.voice, "af_heart", "whole essays should use the established female voice");
@@ -198,7 +198,7 @@ for (const exercise of Object.values(exercises)) {
 
 const html = read("writing-practice.html");
 assert.match(html, /writing-practice-ielts-task1-data\.js\?v=20260730-1/);
-assert.match(html, /writing-audio-manifest\.js\?v=writing-audio-v5-20260730-1/);
+assert.match(html, /writing-audio-manifest\.js\?v=writing-audio-v5-20260816-1/);
 assert.match(html, /window\.EDMUND_IELTS_WRITING_TASK1_EXERCISES/);
 assert.match(html, /questionImages/);
 assert.match(html, /writingEssayPortalLinksHtml/);
