@@ -173,6 +173,18 @@ async function flashcardResources(allFiles) {
     ["government/concept-vocabulary/book-1/k-environment-everyday-green-living", "K. Environment & Everyday Green Living 環境及日常綠色生活"],
     ["government/concept-vocabulary/book-1/l-scams-online-safety-technology", "L. Scams, Online Safety & Technology 騙案、網絡安全及科技"]
   ]);
+  const businessConceptBookOneTitles = new Map([
+    ["business-english/business-concepts-standard-response/q1-uncertainty", "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？"],
+    ["business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages", "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"],
+    ["business-english/business-concepts-standard-response/q3-core-management-capabilities", "Q3 - 管理最核心的三個能力是甚麼？"],
+    ["business-english/business-concepts-standard-response/q4-problems-of-micromanagement", "Q4 - 微觀管理（micromanagement）會帶來哪些問題？"],
+    ["business-english/business-concepts-standard-response/q5-function-feeling-or-identity", "Q5 - 消費者真正購買的是功能、感受，還是身份認同？"],
+    ["business-english/business-concepts-standard-response/q6-what-to-do-or-what-not-to-do", "Q6 - 企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？"],
+    ["business-english/business-concepts-standard-response/q7-process-people-or-management", "Q7 - 一間公司執行力差，通常是流程問題、人才問題，還是管理問題？"],
+    ["business-english/business-concepts-standard-response/q8-high-ability-but-difficult-to-work-with", "Q8 - 應否聘用高能力但難合作的人？"],
+    ["business-english/business-concepts-standard-response/q9-high-profit-and-company-health", "Q9 - 利潤高是否代表公司一定健康？為甚麼？"],
+    ["business-english/business-concepts-standard-response/q10-innovation-and-conservatism", "Q10 - 企業為何常說要創新，實際上卻很保守？"]
+  ]);
 
   return Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length > 0)
@@ -181,7 +193,8 @@ async function flashcardResources(allFiles) {
       const readingPassage = readingMatch?.[1] || "";
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
-      const exactTitle = civicsBookOneTitles.get(deckId)
+      const exactTitle = businessConceptBookOneTitles.get(deckId)
+        || civicsBookOneTitles.get(deckId)
         || taskTwoTitles.get(deckId)
         || (readingPractice && readingTitle
           ? `IELTS / Reading / Passage ${readingPassage} / ${readingPractice} — ${readingTitle}`

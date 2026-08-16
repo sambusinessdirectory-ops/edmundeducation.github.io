@@ -13315,22 +13315,6 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q104"
   },
   {
-    "id": "flash:business-english/business-concepts-standard-response/q1-uncertainty",
-    "type": "flashcards",
-    "ordinal": 1,
-    "label": "Business English / Business Concepts Standard Response / Q1 Uncertainty",
-    "detail": "Business English / Business Concepts Standard Response / Q1 Uncertainty · 82 cards",
-    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq1-uncertainty"
-  },
-  {
-    "id": "flash:business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages",
-    "type": "flashcards",
-    "ordinal": 2,
-    "label": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages",
-    "detail": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages · 82 cards",
-    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq2-inflation-interest-rates-rising-rent-and-rising-wages"
-  },
-  {
     "id": "flash:government/concept-vocabulary/book-1/c-healthcare-mental-health",
     "type": "flashcards",
     "ordinal": null,
@@ -22393,6 +22377,86 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Public libraries will soon no longer be housed in a building as all facilities and books will be available online for everyone to access. Discuss the advantages and disadvantages o",
     "detail": "IELTS / Writing / Task 2 / Advantage And Disadvantage / EdmundBd9AdDisAd Q17 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q17"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q1-uncertainty",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？",
+    "detail": "Business English / Business Concepts Standard Response / Q1 Uncertainty · 82 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq1-uncertainty"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？",
+    "detail": "Business English / Business Concepts Standard Response / Q2 Inflation Interest Rates Rising Rent And Rising Wages · 82 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq2-inflation-interest-rates-rising-rent-and-rising-wages"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q3-core-management-capabilities",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "Q3 - 管理最核心的三個能力是甚麼？",
+    "detail": "Business English / Business Concepts Standard Response / Q3 Core Management Capabilities · 82 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq3-core-management-capabilities"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q4-problems-of-micromanagement",
+    "type": "flashcards",
+    "ordinal": 4,
+    "label": "Q4 - 微觀管理（micromanagement）會帶來哪些問題？",
+    "detail": "Business English / Business Concepts Standard Response / Q4 Problems Of Micromanagement · 61 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq4-problems-of-micromanagement"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q5-function-feeling-or-identity",
+    "type": "flashcards",
+    "ordinal": 5,
+    "label": "Q5 - 消費者真正購買的是功能、感受，還是身份認同？",
+    "detail": "Business English / Business Concepts Standard Response / Q5 Function Feeling Or Identity · 110 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq5-function-feeling-or-identity"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q6-what-to-do-or-what-not-to-do",
+    "type": "flashcards",
+    "ordinal": 6,
+    "label": "Q6 - 企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？",
+    "detail": "Business English / Business Concepts Standard Response / Q6 What To Do Or What Not To Do · 88 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq6-what-to-do-or-what-not-to-do"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q7-process-people-or-management",
+    "type": "flashcards",
+    "ordinal": 7,
+    "label": "Q7 - 一間公司執行力差，通常是流程問題、人才問題，還是管理問題？",
+    "detail": "Business English / Business Concepts Standard Response / Q7 Process People Or Management · 82 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq7-process-people-or-management"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q8-high-ability-but-difficult-to-work-with",
+    "type": "flashcards",
+    "ordinal": 8,
+    "label": "Q8 - 應否聘用高能力但難合作的人？",
+    "detail": "Business English / Business Concepts Standard Response / Q8 High Ability But Difficult To Work With · 88 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq8-high-ability-but-difficult-to-work-with"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q9-high-profit-and-company-health",
+    "type": "flashcards",
+    "ordinal": 9,
+    "label": "Q9 - 利潤高是否代表公司一定健康？為甚麼？",
+    "detail": "Business English / Business Concepts Standard Response / Q9 High Profit And Company Health · 73 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq9-high-profit-and-company-health"
+  },
+  {
+    "id": "flash:business-english/business-concepts-standard-response/q10-innovation-and-conservatism",
+    "type": "flashcards",
+    "ordinal": 10,
+    "label": "Q10 - 企業為何常說要創新，實際上卻很保守？",
+    "detail": "Business English / Business Concepts Standard Response / Q10 Innovation And Conservatism · 110 cards",
+    "url": "flashcards.html?deck=business-english%2Fbusiness-concepts-standard-response%2Fq10-innovation-and-conservatism"
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q96",

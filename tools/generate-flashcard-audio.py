@@ -149,6 +149,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-business-concepts-book1-data.js",
+        "window.EDMUND_BUSINESS_CONCEPTS_BOOK1_SEED = ",
+        None,
+    ),
+    (
         "flashcards-hkpf-data.js",
         "window.EDMUND_HKPF_SEED = ",
         None,

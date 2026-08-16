@@ -184157,8 +184157,9 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-government-civics-book1-data.js?v=20260808-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
+  <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260808-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260816-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -184646,16 +184647,57 @@ window.EDMUND_FLASHCARD_SEED = {
     ];
     const businessConceptDecks = [
       {
-        label: "Q1 - Uncertainty",
+        label: "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？",
         deckId: "business-english/business-concepts-standard-response/q1-uncertainty",
-        title: "Flashcard - Book 1 - Q1 - Uncertainty"
+        title: "Business - Book 1 - Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？"
       },
       {
-        label: "Q2 - Inflation, Interest rates, Rising rent, and Rising wages",
+        label: "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？",
         deckId: "business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages",
-        title: "Flashcard - Book 1 - Q2 - Inflation, Interest rates, Rising rent, and Rising wages"
+        title: "Business - Book 1 - Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"
+      },
+      {
+        label: "Q3 - 管理最核心的三個能力是甚麼？",
+        deckId: "business-english/business-concepts-standard-response/q3-core-management-capabilities",
+        title: "Business - Book 1 - Q3 - 管理最核心的三個能力是甚麼？"
+      },
+      {
+        label: "Q4 - 微觀管理（micromanagement）會帶來哪些問題？",
+        deckId: "business-english/business-concepts-standard-response/q4-problems-of-micromanagement",
+        title: "Business - Book 1 - Q4 - 微觀管理（micromanagement）會帶來哪些問題？"
+      },
+      {
+        label: "Q5 - 消費者真正購買的是功能、感受，還是身份認同？",
+        deckId: "business-english/business-concepts-standard-response/q5-function-feeling-or-identity",
+        title: "Business - Book 1 - Q5 - 消費者真正購買的是功能、感受，還是身份認同？"
+      },
+      {
+        label: "Q6 - 企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？",
+        deckId: "business-english/business-concepts-standard-response/q6-what-to-do-or-what-not-to-do",
+        title: "Business - Book 1 - Q6 - 企業最重要的策略問題，是「做甚麼」還是「不做甚麼」？"
+      },
+      {
+        label: "Q7 - 一間公司執行力差，通常是流程問題、人才問題，還是管理問題？",
+        deckId: "business-english/business-concepts-standard-response/q7-process-people-or-management",
+        title: "Business - Book 1 - Q7 - 一間公司執行力差，通常是流程問題、人才問題，還是管理問題？"
+      },
+      {
+        label: "Q8 - 應否聘用高能力但難合作的人？",
+        deckId: "business-english/business-concepts-standard-response/q8-high-ability-but-difficult-to-work-with",
+        title: "Business - Book 1 - Q8 - 應否聘用高能力但難合作的人？"
+      },
+      {
+        label: "Q9 - 利潤高是否代表公司一定健康？為甚麼？",
+        deckId: "business-english/business-concepts-standard-response/q9-high-profit-and-company-health",
+        title: "Business - Book 1 - Q9 - 利潤高是否代表公司一定健康？為甚麼？"
+      },
+      {
+        label: "Q10 - 企業為何常說要創新，實際上卻很保守？",
+        deckId: "business-english/business-concepts-standard-response/q10-innovation-and-conservatism",
+        title: "Business - Book 1 - Q10 - 企業為何常說要創新，實際上卻很保守？"
       }
     ];
+    businessConceptDecks.forEach(deck => deckTitleLabels.set(deck.deckId, deck.title));
     const dseSpeakingSets = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3", "3.1", "3.2", "3.3", "4.1", "4.2", "4.3", "5.1", "5.2", "5.3", "6.1", "6.2", "6.3", "6.4", "6.5", "6.6", "7.1", "7.2", "7.3", "8.1", "8.2", "8.3", "9.1", "9.2", "9.3", "10.1", "10.2", "10.3"];
     const hiddenDseSpeakingSetsByYear = {
       "2012 DSE": new Set([
