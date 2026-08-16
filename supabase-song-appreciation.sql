@@ -293,7 +293,10 @@ create table if not exists public.song_appreciation_admin_accounts (
   check (name = pg_catalog.btrim(name)),
   check (pg_catalog.char_length(name) between 1 and 100),
   check (name !~ '[[:cntrl:]]'),
-  check (password_hash ~ '^\$2[aby]\$12\$[./A-Za-z0-9]{53}$')
+  -- pgcrypto's Blowfish verifier on Supabase accepts the $2a$ identifier.
+  -- Reject $2b$/$2y$ up front so provisioning cannot create an account that
+  -- looks like bcrypt but can never authenticate through extensions.crypt().
+  check (password_hash ~ '^\$2a\$12\$[./A-Za-z0-9]{53}$')
 );
 
 create unique index if not exists song_appreciation_admin_name_lower_idx
@@ -611,9 +614,11 @@ as $$
   );
 $$;
 
--- Owner-only provisioning. Generate a cost-12 bcrypt hash locally and pass
--- only that one-way hash. Re-provisioning rotates the password and revokes all
--- existing Song Appreciation admin sessions.
+-- Owner-only provisioning. Generate a cost-12 $2a$ bcrypt hash locally and
+-- pass only that one-way hash. Supabase pgcrypto does not verify the $2b$ or
+-- $2y$ identifiers, so accepting either would create an unusable account.
+-- Re-provisioning rotates the password and revokes all existing Song
+-- Appreciation admin sessions.
 create or replace function public.song_appreciation_provision_admin(
   p_name text,
   p_password_hash text
@@ -630,9 +635,9 @@ begin
   if pg_catalog.char_length(v_name) not between 1 and 100
     or v_name ~ '[[:cntrl:]]'
     or coalesce(p_password_hash, '')
-      !~ '^\$2[aby]\$12\$[./A-Za-z0-9]{53}$'
+      !~ '^\$2a\$12\$[./A-Za-z0-9]{53}$'
   then
-    raise exception 'A valid name and cost-12 bcrypt hash are required'
+    raise exception 'A valid name and cost-12 $2a$ bcrypt hash are required'
       using errcode = '22023';
   end if;
 

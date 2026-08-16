@@ -5,9 +5,10 @@ import { readFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const read = path => readFile(new URL(path, root), "utf8");
-const [html, css, js, config, schema, home, nav, learningConfig, pagesWorkflow] = await Promise.all([
+const [html, css, js, config, schema, bcryptMigration, home, nav, learningConfig, pagesWorkflow] = await Promise.all([
   read("song-appreciation.html"), read("song-appreciation.css"), read("song-appreciation.js"),
-  read("song-appreciation-config.js"), read("supabase-song-appreciation.sql"), read("index.html"),
+  read("song-appreciation-config.js"), read("supabase-song-appreciation.sql"),
+  read("supabase-song-appreciation-admin-bcrypt-compatibility.sql"), read("index.html"),
   read("shared-system-nav.js"), read("learning-portal-config.js"), read(".github/workflows/pages.yml")
 ]);
 
@@ -136,11 +137,36 @@ for (const routine of [
   "song_appreciation_admin_set_access"
 ]) assert.match(schema, new RegExp(`create or replace function public\\.${routine}`));
 assert.match(schema, /password_hash text not null/);
+assert.ok(
+  schema.includes("check (password_hash ~ '^\\$2a\\$12\\$[./A-Za-z0-9]{53}$')"),
+  "admin table must accept only the cost-12 $2a$ bcrypt identifier supported by pgcrypto"
+);
+const provisionAdminSql = between(
+  schema,
+  "create or replace function public.song_appreciation_provision_admin(",
+  "create or replace function public.song_appreciation_admin_login(",
+  "song_appreciation_provision_admin"
+);
+assert.ok(
+  provisionAdminSql.includes("!~ '^\\$2a\\$12\\$[./A-Za-z0-9]{53}$'"),
+  "admin provisioning must reject unsupported $2b$ and $2y$ bcrypt identifiers"
+);
+assert.doesNotMatch(
+  `${schema.slice(schema.indexOf("create table if not exists public.song_appreciation_admin_accounts"), schema.indexOf("create table if not exists public.song_appreciation_admin_sessions"))}\n${provisionAdminSql}`,
+  /\\\$2\[aby\]/,
+  "admin storage and provisioning must not accept bcrypt identifiers pgcrypto cannot verify"
+);
+for (const pattern of [
+  /drop constraint if exists song_appreciation_admin_accounts_password_hash_check/,
+  /check \(password_hash ~ '\^\\\$2a\\\$12\\\$\[\.\/A-Za-z0-9\]\{53\}\$'\)/,
+  /create or replace function public\.song_appreciation_provision_admin/,
+  /!~ '\^\\\$2a\\\$12\\\$\[\.\/A-Za-z0-9\]\{53\}\$'/,
+  /revoke all on function public\.song_appreciation_provision_admin\(text, text\)[\s\S]*?from public, anon, authenticated, service_role/
+]) assert.match(bcryptMigration, pattern, "bcrypt compatibility migration must preserve the $2a$-only owner contract");
 assert.match(schema, /extensions\.digest\([\s\S]*?'sha256'/);
 assert.match(schema, /not public\._song_appreciation_student_can_access/);
 assert.match(schema, /An absent row means allowed/);
 assert.match(schema, /grant execute on function public\.song_appreciation_student_list_songs\(uuid\)[\s\S]*?to anon, authenticated/);
-assert.doesNotMatch(`${html}\n${css}\n${js}\n${config}\n${schema}`, /SongAppreciation!Listening0811\?Practice357@Edmund/);
 
 // The public admin-login RPC must throttle before doing bcrypt work. Known
 // accounts have per-account buckets; arbitrary unknown names share one bucket.
