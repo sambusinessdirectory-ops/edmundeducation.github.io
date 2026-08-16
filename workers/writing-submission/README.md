@@ -44,6 +44,22 @@ position-only update cannot silently move a student's copy or bookmark to
 unrelated feedback. Legacy fragment shapes remain accepted only while creating
 new feedback with `expectedVersion: 0`.
 
+### Existing-installation structured feedback upgrade (required)
+
+Apply `../../supabase-writing-submission-feedback-structured-parts.sql` after
+the learning-tools migration and before deploying the matching Worker or
+browser assets. It adds ordered `sentence_structure_parts` and
+`rhetorical_parts` JSONB sections, each with original-sentence, enhancement,
+and benefit rich-text fields. It also installs the versioned student-open v3,
+administrator-get v4, and administrator-save v3 RPCs without removing any
+older RPC version.
+
+Formatting runs retain rolling-release compatibility: stored/requested legacy
+four-key runs (`start`, `end`, `bold`, `highlight`) remain valid, while the new
+six-key shape adds boolean `italic` and `strikethrough` fields and permits the
+`red` highlight. Apply the database migration first so the Worker never calls
+an RPC version that PostgREST has not exposed yet.
+
 ### Existing-installation topic-access upgrade (required)
 
 An existing Writing Submission installation must use the incremental
@@ -102,7 +118,8 @@ it, then apply `../../supabase-writing-submission-grammar-history.sql` and
 `../../supabase-writing-submission-feedback.sql` next, followed by
 `../../supabase-writing-submission-feedback-revision.sql` and
 `../../supabase-writing-submission-feedback-fragment-enhancements.sql`, then
-`../../supabase-writing-submission-feedback-learning-tools.sql`. Apply
+`../../supabase-writing-submission-feedback-learning-tools.sql`, then
+`../../supabase-writing-submission-feedback-structured-parts.sql`. Apply
 `../../supabase-writing-grammar-corpus.sql` after that, followed by the generated
 `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
@@ -124,6 +141,8 @@ The migration creates:
 - private, versioned per-fragment suggestion-copy practice and bookmarks;
 - administrator-authored rich-text grammar points, sentence-structure methods,
   and internal links into the Sentence Structure system;
+- ordered sentence-structure and rhetorical feedback cards with separate
+  original-sentence, enhancement, and benefit rich-text areas;
 - published-feedback visibility limited to the student who owns the active
   submission, with all draft/edit/delete operations limited to the dedicated
   Writing Submission administrator; and

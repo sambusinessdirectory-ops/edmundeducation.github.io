@@ -2,7 +2,9 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  feedbackFormattingCommandFromEvent,
   feedbackHighlightCommandFromEvent,
+  normalizeFeedbackEnhancementParts,
   normalizeGrammarFeedbackPoints,
   normalizeSentenceStructureDeepLink,
   normalizeSentenceStructureMethods,
@@ -15,9 +17,19 @@ test("feedback color shortcuts support Command and Control without hijacking pla
   assert.equal(feedbackHighlightCommandFromEvent({ ctrlKey: true, key: "O" }), "orange");
   assert.equal(feedbackHighlightCommandFromEvent({ metaKey: true, key: "b" }), "blue");
   assert.equal(feedbackHighlightCommandFromEvent({ ctrlKey: true, key: "G" }), "green");
+  assert.equal(feedbackHighlightCommandFromEvent({ metaKey: true, key: "r" }), "red");
+  assert.equal(feedbackHighlightCommandFromEvent({ metaKey: true, shiftKey: true, key: "b" }), null);
   assert.equal(feedbackHighlightCommandFromEvent({ key: "y" }), null);
   assert.equal(feedbackHighlightCommandFromEvent({ metaKey: true, altKey: true, key: "y" }), null);
   assert.equal(feedbackHighlightCommandFromEvent({ metaKey: true, key: "x" }), null);
+});
+
+test("format shortcuts keep Command-B blue and reserve Command-Shift-B for bold", () => {
+  assert.equal(feedbackFormattingCommandFromEvent({ metaKey: true, key: "b" }), "blue");
+  assert.equal(feedbackFormattingCommandFromEvent({ ctrlKey: true, key: "R" }), "red");
+  assert.equal(feedbackFormattingCommandFromEvent({ metaKey: true, shiftKey: true, key: "b" }), "bold");
+  assert.equal(feedbackFormattingCommandFromEvent({ ctrlKey: true, shiftKey: true, key: "r" }), null);
+  assert.equal(feedbackFormattingCommandFromEvent({ metaKey: true, altKey: true, key: "b" }), null);
 });
 
 test("pasted numbered feedback becomes a source-aligned card group", () => {
@@ -77,9 +89,9 @@ test("formatting ranges are clipped and rebased to an arbitrary text slice", () 
     { start: 30, end: 40, bold: true, highlight: "green" }
   ];
   assert.deepEqual(sliceFeedbackFormattingRuns(runs, 3, 16), [
-    { start: 0, end: 2, bold: true, highlight: "yellow" },
-    { start: 3, end: 9, bold: false, highlight: "blue" },
-    { start: 11, end: 13, bold: true, highlight: "" }
+    { start: 0, end: 2, bold: true, italic: false, strikethrough: false, highlight: "yellow" },
+    { start: 3, end: 9, bold: false, italic: false, strikethrough: false, highlight: "blue" },
+    { start: 11, end: 13, bold: true, italic: false, strikethrough: false, highlight: "" }
   ]);
 });
 
@@ -96,11 +108,51 @@ test("grammar points and sentence methods normalize to strict text-formatting re
   ];
   const expected = [{
     text: "Subject–verb agreement",
-    formatting: [{ start: 0, end: 7, bold: true, highlight: "orange" }]
+    formatting: [{ start: 0, end: 7, bold: true, italic: false, strikethrough: false, highlight: "orange" }]
   }];
   assert.deepEqual(normalizeGrammarFeedbackPoints(values), expected);
   assert.deepEqual(normalizeSentenceStructureMethods(values), expected);
   assert.deepEqual(normalizeGrammarFeedbackPoints("not an array"), []);
+  assert.equal(
+    normalizeGrammarFeedbackPoints(Array.from({ length: 101 }, (_, index) => ({
+      text: `Point ${index + 1}`,
+      formatting: []
+    }))).length,
+    100
+  );
+});
+
+test("enhancement parts preserve three independently formatted fields and legacy notes", () => {
+  assert.deepEqual(normalizeFeedbackEnhancementParts([{
+    originalSentence: {
+      text: "  The original sentence.  ",
+      formatting: [{ start: 2, end: 10, bold: false, italic: true, strikethrough: false, highlight: "red" }]
+    },
+    enhancement: { text: "A clearer sentence.", formatting: [] },
+    benefit: {
+      text: "More precise.",
+      formatting: [{ start: 0, end: 4, bold: true, italic: false, strikethrough: true, highlight: "" }]
+    }
+  }]), [{
+    originalSentence: {
+      text: "The original sentence.",
+      formatting: [{ start: 0, end: 8, bold: false, italic: true, strikethrough: false, highlight: "red" }]
+    },
+    enhancement: { text: "A clearer sentence.", formatting: [] },
+    benefit: {
+      text: "More precise.",
+      formatting: [{ start: 0, end: 4, bold: true, italic: false, strikethrough: true, highlight: "" }]
+    }
+  }]);
+
+  assert.deepEqual(normalizeFeedbackEnhancementParts([{
+    text: "Legacy sentence-structure note",
+    formatting: []
+  }]), [{
+    originalSentence: { text: "", formatting: [] },
+    enhancement: { text: "Legacy sentence-structure note", formatting: [] },
+    benefit: { text: "", formatting: [] }
+  }]);
 });
 
 test("sentence-structure links accept only one safe Edmund lesson parameter", () => {

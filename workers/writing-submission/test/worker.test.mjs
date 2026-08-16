@@ -3601,7 +3601,7 @@ test("students can read only published feedback belonging to their submission", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open_v2") {
+    if (rpc.name === "writing_submission_feedback_student_open_v3") {
       assert.deepEqual(rpc.body, {
         p_student_id: STUDENT_ID,
         p_submission_id: SUBMISSION_ID
@@ -3624,15 +3624,15 @@ test("students can read only published feedback belonging to their submission", 
   assert.equal(feedback.fragments[0].edmundComment, "Students 是複數，動詞使用 learn。");
   assert.equal(feedback.fragments[0].suggestedWriting, "Students learn quickly.");
   assert.deepEqual(feedback.fragments[0].originalFormatting, [
-    { start: 0, end: 8, bold: true, highlight: "" },
-    { start: 9, end: 15, bold: false, highlight: "yellow" }
+    { start: 0, end: 8, bold: true, italic: false, strikethrough: false, highlight: "" },
+    { start: 9, end: 15, bold: false, italic: false, strikethrough: false, highlight: "yellow" }
   ]);
   assert.deepEqual(feedback.fragments[0].commentFormatting, [
-    { start: 0, end: 8, bold: true, highlight: "orange" },
-    { start: 9, end: 10, bold: false, highlight: "blue" }
+    { start: 0, end: 8, bold: true, italic: false, strikethrough: false, highlight: "orange" },
+    { start: 9, end: 10, bold: false, italic: false, strikethrough: false, highlight: "blue" }
   ]);
   assert.deepEqual(feedback.fragments[0].suggestionFormatting, [
-    { start: 0, end: 8, bold: true, highlight: "green" }
+    { start: 0, end: 8, bold: true, italic: false, strikethrough: false, highlight: "green" }
   ]);
 });
 
@@ -3642,7 +3642,7 @@ test("legacy stored feedback emits the complete enhanced fragment shape", async 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open_v2") {
+    if (rpc.name === "writing_submission_feedback_student_open_v3") {
       return jsonResponse([storedFeedback({
         fragments: [{
           id: "88888888-8888-4888-8888-888888888888",
@@ -3684,7 +3684,7 @@ test("student feedback returns null while no published feedback exists", async t
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open_v2") return jsonResponse([]);
+    if (rpc.name === "writing_submission_feedback_student_open_v3") return jsonResponse([]);
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const response = await worker.fetch(new Request(
@@ -3715,7 +3715,7 @@ test("student list exposes published and unread feedback state and opening marks
         feedback_unread: true
       }]);
     }
-    if (rpc.name === "writing_submission_feedback_student_open_v2") {
+    if (rpc.name === "writing_submission_feedback_student_open_v3") {
       return jsonResponse([storedFeedback({
         improved_version: "A clearer retained-meaning version.",
         transcription_improved: "My first transcription",
@@ -3742,7 +3742,7 @@ test("student list exposes published and unread feedback state and opening marks
   assert.equal(feedback.improvedVersion, "A clearer retained-meaning version.");
   assert.equal(feedback.transcriptionVersion, 3);
   assert.equal(feedback.topicResource.id, CANONICAL_DSE_TOPIC.id);
-  assert.ok(calls.some(call => call.name === "writing_submission_feedback_student_open_v2"
+  assert.ok(calls.some(call => call.name === "writing_submission_feedback_student_open_v3"
     && call.body.p_student_id === STUDENT_ID));
 });
 
@@ -3798,7 +3798,7 @@ test("published admin feedback allows optional headers and carries the improved 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       assert.equal(rpc.body.p_overall_comment, "");
       assert.equal(rpc.body.p_final_comment, "");
       assert.equal(rpc.body.p_improved_version, "A polished passage.");
@@ -3844,10 +3844,10 @@ test("administrator can load, save and delete structured teacher feedback", asyn
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_get_v3") {
+    if (rpc.name === "writing_submission_feedback_admin_get_v4") {
       return jsonResponse([storedFeedback({ status: "draft", published_at: null })]);
     }
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       assert.equal(rpc.body.p_admin_token, ADMIN_TOKEN);
       assert.equal(rpc.body.p_submission_id, SUBMISSION_ID);
       assert.equal(rpc.body.p_status, "published");
@@ -3937,7 +3937,7 @@ test("administrator can load, save and delete structured teacher feedback", asyn
     { key: `writing-submission-admin-feedback:${ADMIN_ID}` },
     { key: `writing-submission-admin-feedback:${ADMIN_ID}` }
   ]);
-  assert.equal(calls.filter(call => call.name === "writing_submission_feedback_admin_save_v2").length, 1);
+  assert.equal(calls.filter(call => call.name === "writing_submission_feedback_admin_save_v3").length, 1);
 });
 
 test("legacy two-field feedback saves are normalized before storage", async t => {
@@ -3946,7 +3946,7 @@ test("legacy two-field feedback saves are normalized before storage", async t =>
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       assert.deepEqual(rpc.body.p_fragments, [{
         id: null,
         originalFragment: "Legacy original.",
@@ -4011,7 +4011,7 @@ test("published enhanced feedback does not require suggested writing", async t =
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       assert.equal(rpc.body.p_status, "published");
       assert.equal(rpc.body.p_fragments[0].suggestedWriting, "");
       return jsonResponse([storedFeedback({
@@ -4061,7 +4061,7 @@ test("feedback formatting rejects invalid shapes, ranges, styles and oversized a
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") saveCalled = true;
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") saveCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const validFragment = {
@@ -4132,7 +4132,7 @@ test("published feedback rejects incomplete fragment pairs before storage", asyn
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") saveCalled = true;
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") saveCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const response = await worker.fetch(new Request(
@@ -4167,7 +4167,7 @@ test("feedback saves require a valid version and matching feedback identity shap
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") saveCalled = true;
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") saveCalled = true;
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
   const headers = {
@@ -4206,7 +4206,7 @@ test("stale administrator feedback saves return a specific 409 without exposing 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       assert.equal(rpc.body.p_expected_version, 2);
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       return jsonResponse({
@@ -4307,7 +4307,7 @@ test("deleted and recreated feedback rejects stale save and delete requests from
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       return jsonResponse(1);
     }
-    if (operation === 2 && rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (operation === 2 && rpc.name === "writing_submission_feedback_admin_save_v3") {
       assert.equal(rpc.body.p_expected_version, 0);
       assert.equal(rpc.body.p_expected_feedback_id, null);
       return jsonResponse([storedFeedback({
@@ -4317,7 +4317,7 @@ test("deleted and recreated feedback rejects stale save and delete requests from
         published_at: null
       })]);
     }
-    if (operation === 3 && rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (operation === 3 && rpc.name === "writing_submission_feedback_admin_save_v3") {
       // Version 1 exists again, but it belongs to the recreated feedback ID.
       assert.equal(rpc.body.p_expected_version, 1);
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
@@ -4395,7 +4395,7 @@ test("student feedback returns learning sections and owner-specific fragment sta
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_feedback_student_open_v2") {
+    if (rpc.name === "writing_submission_feedback_student_open_v3") {
       assert.deepEqual(rpc.body, {
         p_student_id: STUDENT_ID,
         p_submission_id: SUBMISSION_ID
@@ -4412,6 +4412,22 @@ test("student feedback returns learning sections and owner-specific fragment sta
         sentence_structure_links: [{
           label: "Concessive clauses",
           url: "/sentence-structure.html?lesson=concessive"
+        }],
+        sentence_structure_parts: [{
+          originalSentence: {
+            text: "Students learns quickly.",
+            formatting: [{
+              start: 0, end: 8, bold: false, italic: true, strikethrough: false,
+              highlight: "red"
+            }]
+          },
+          enhancement: { text: "Students learn quickly.", formatting: [] },
+          benefit: { text: "Correct subject–verb agreement.", formatting: [] }
+        }],
+        rhetorical_parts: [{
+          originalSentence: { text: "This is useful.", formatting: [] },
+          enhancement: { text: "This approach is especially valuable.", formatting: [] },
+          benefit: { text: "Uses more precise emphasis.", formatting: [] }
         }],
         fragments: [{
           ...storedFeedback().fragments[0],
@@ -4435,6 +4451,11 @@ test("student feedback returns learning sections and owner-specific fragment sta
   assert.equal(feedback.grammarPoints[0].text, "Use a plural verb after Students.");
   assert.equal(feedback.sentenceStructureMethods[0].text, "Use a concessive clause before the main point.");
   assert.equal(feedback.sentenceStructureLinks[0].url, "/sentence-structure.html?lesson=concessive");
+  assert.equal(feedback.sentenceStructureParts[0].enhancement.text, "Students learn quickly.");
+  assert.deepEqual(feedback.sentenceStructureParts[0].originalSentence.formatting, [{
+    start: 0, end: 8, bold: false, italic: true, strikethrough: false, highlight: "red"
+  }]);
+  assert.equal(feedback.rhetoricalParts[0].benefit.text, "Uses more precise emphasis.");
   assert.deepEqual({
     text: feedback.fragments[0].suggestionCopyText,
     version: feedback.fragments[0].suggestionCopyVersion,
@@ -4621,9 +4642,11 @@ test("administrator learning tools use exact rich-text shapes and internal sente
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       saveCalls += 1;
       assert.equal(rpc.body.p_fragments[0].id, FRAGMENT_ID);
+      assert.equal(rpc.body.p_sentence_structure_parts, null);
+      assert.equal(rpc.body.p_rhetorical_parts, null);
       assert.deepEqual(rpc.body.p_grammar_points, [{
         text: "Subject–verb agreement",
         formatting: [{ start: 0, end: 7, bold: true, highlight: "blue" }]
@@ -4710,7 +4733,7 @@ test("rich-text formatting offsets use JavaScript UTF-16 positions after emoji",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
-    if (rpc.name === "writing_submission_feedback_admin_save_v2") {
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
       saveCalled = true;
       assert.deepEqual(rpc.body.p_grammar_points, [{
         text: "😀A",
@@ -4756,8 +4779,198 @@ test("rich-text formatting offsets use JavaScript UTF-16 positions after emoji",
   assert.equal(saveCalled, true, "UTF-16 run [2,3) must reach the storage RPC");
   assert.deepEqual((await response.json()).feedback.grammarPoints[0], {
     text: "😀A",
-    formatting: [{ start: 2, end: 3, bold: true, highlight: "yellow" }]
+    formatting: [{
+      start: 2, end: 3, bold: true, italic: false, strikethrough: false, highlight: "yellow"
+    }]
   });
+});
+
+test("structured sentence and rhetorical parts preserve order and expanded formatting", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalls = 0;
+  const sentenceStructureParts = [{
+    originalSentence: {
+      text: "Weak sentence",
+      formatting: [{
+        start: 0, end: 4, bold: false, italic: true, strikethrough: true,
+        highlight: "red"
+      }]
+    },
+    enhancement: { text: "A more precise sentence", formatting: [] },
+    benefit: { text: "Clearer academic tone", formatting: [] }
+  }];
+  const rhetoricalParts = [{
+    originalSentence: {
+      text: "Tone",
+      formatting: [{ start: 0, end: 4, bold: true, highlight: "red" }]
+    },
+    enhancement: { text: "Purposeful rhetorical tone", formatting: [] },
+    benefit: { text: "Stronger persuasion", formatting: [] }
+  }];
+  const orderedLinks = [
+    { label: "Second exercise", url: "/sentence-structure.html?lesson=second" },
+    { label: "First exercise", url: "/sentence-structure.html?lesson=first" }
+  ];
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") {
+      saveCalls += 1;
+      assert.deepEqual(rpc.body.p_sentence_structure_parts, sentenceStructureParts);
+      assert.deepEqual(rpc.body.p_rhetorical_parts, rhetoricalParts);
+      assert.deepEqual(rpc.body.p_sentence_structure_links, orderedLinks);
+      return jsonResponse([storedFeedback({
+        fragments: [],
+        grammar_points: [],
+        sentence_structure_methods: [],
+        sentence_structure_links: rpc.body.p_sentence_structure_links,
+        sentence_structure_parts: rpc.body.p_sentence_structure_parts,
+        rhetorical_parts: rpc.body.p_rhetorical_parts,
+        status: "draft",
+        published_at: null,
+        version: 1
+      })]);
+    }
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+
+  const response = await worker.fetch(new Request(
+    `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+    {
+      method: "PUT",
+      headers: {
+        Origin: ORIGIN,
+        Authorization: `Bearer ${ADMIN_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        overallComment: "",
+        fragments: [],
+        finalComment: "",
+        improvedVersion: "",
+        grammarPoints: [],
+        sentenceStructureMethods: [],
+        sentenceStructureLinks: orderedLinks,
+        sentenceStructureParts,
+        rhetoricalParts,
+        status: "draft",
+        expectedVersion: 0,
+        expectedFeedbackId: null
+      })
+    }
+  ), environment());
+
+  assert.equal(response.status, 200);
+  assert.equal(saveCalls, 1);
+  const feedback = (await response.json()).feedback;
+  assert.deepEqual(feedback.sentenceStructureLinks, orderedLinks);
+  assert.deepEqual(feedback.sentenceStructureParts[0].originalSentence.formatting, [{
+    start: 0, end: 4, bold: false, italic: true, strikethrough: true, highlight: "red"
+  }]);
+  assert.deepEqual(feedback.rhetoricalParts[0].originalSentence.formatting, [{
+    start: 0, end: 4, bold: true, italic: false, strikethrough: false, highlight: "red"
+  }]);
+});
+
+test("structured feedback parts reject malformed and unbounded input before storage", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+  let saveCalls = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const rpc = rpcRequest(input, init);
+    if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
+    if (rpc.name === "writing_submission_feedback_admin_save_v3") saveCalls += 1;
+    throw new Error(`Unexpected RPC ${rpc.name}`);
+  };
+  const emptyValue = { text: "", formatting: [] };
+  const validItem = {
+    originalSentence: { text: "Original", formatting: [] },
+    enhancement: { text: "Enhanced", formatting: [] },
+    benefit: { text: "Benefit", formatting: [] }
+  };
+  const basePayload = {
+    overallComment: "",
+    fragments: [],
+    finalComment: "",
+    improvedVersion: "",
+    grammarPoints: [],
+    sentenceStructureMethods: [],
+    sentenceStructureLinks: [],
+    sentenceStructureParts: [validItem],
+    rhetoricalParts: [],
+    status: "draft",
+    expectedVersion: 0,
+    expectedFeedbackId: null
+  };
+  const malformedPayloads = [
+    { ...basePayload, rhetoricalParts: undefined },
+    { ...basePayload, sentenceStructureParts: {} },
+    { ...basePayload, sentenceStructureParts: [{ ...validItem, extra: true }] },
+    {
+      ...basePayload,
+      sentenceStructureParts: [{
+        originalSentence: validItem.originalSentence,
+        enhancement: validItem.enhancement
+      }]
+    },
+    {
+      ...basePayload,
+      sentenceStructureParts: [{
+        ...validItem,
+        benefit: { text: "Benefit", formatting: [], html: "<b>unsafe</b>" }
+      }]
+    },
+    {
+      ...basePayload,
+      sentenceStructureParts: [{
+        ...validItem,
+        originalSentence: {
+          text: "Short",
+          formatting: [{
+            start: 0, end: 6, bold: false, italic: false,
+            strikethrough: false, highlight: "red"
+          }]
+        }
+      }]
+    },
+    {
+      ...basePayload,
+      sentenceStructureParts: [{
+        ...validItem,
+        originalSentence: {
+          text: "Original",
+          formatting: [{ start: 0, end: 4, bold: false, italic: true, highlight: "red" }]
+        }
+      }]
+    },
+    {
+      ...basePayload,
+      sentenceStructureParts: [{
+        originalSentence: emptyValue,
+        enhancement: emptyValue,
+        benefit: emptyValue
+      }]
+    },
+    {
+      ...basePayload,
+      sentenceStructureParts: Array.from({ length: 101 }, () => validItem)
+    }
+  ];
+  const headers = {
+    Origin: ORIGIN,
+    Authorization: `Bearer ${ADMIN_TOKEN}`,
+    "Content-Type": "application/json"
+  };
+  for (const payload of malformedPayloads) {
+    const response = await worker.fetch(new Request(
+      `https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,
+      { method: "PUT", headers, body: JSON.stringify(payload) }
+    ), environment());
+    assert.equal(response.status, 400);
+    assert.equal((await response.json()).code, "INVALID_FEEDBACK");
+  }
+  assert.equal(saveCalls, 0, "malformed structured parts must not reach storage");
 });
 
 test("the missing-explanation queue is available only through administrator authentication", async t => {
@@ -5402,6 +5615,107 @@ test("the feedback learning-tools migration is private, owner-scoped and concurr
     "writing_submission_feedback_bookmark_set_v2\\(",
     "writing_submission_feedback_bookmarks_list_v2\\("
   ]) {
+    assert.match(
+      migration,
+      new RegExp(`grant execute on function public\\.${signature}[\\s\\S]*?to service_role;`)
+    );
+  }
+});
+
+test("the structured-parts migration is additive, private and backward-compatible", t => {
+  const migrationUrl = new URL(
+    "../../../supabase-writing-submission-feedback-structured-parts.sql",
+    import.meta.url
+  );
+  if (!fs.existsSync(migrationUrl)) {
+    t.skip("the focused Worker staging fixture does not include the structured-parts migration");
+    return;
+  }
+  const migration = fs.readFileSync(migrationUrl, "utf8");
+  assert.match(migration, /^begin;/m);
+  assert.match(migration, /notify pgrst, 'reload schema';/);
+  assert.match(migration, /commit;\s*$/);
+  assert.match(
+    migration,
+    /add column if not exists sentence_structure_parts jsonb not null default '\[\]'::jsonb/
+  );
+  assert.match(
+    migration,
+    /add column if not exists rhetorical_parts jsonb not null default '\[\]'::jsonb/
+  );
+  assert.match(migration, /writing_submission_feedback_sentence_parts_valid check/);
+  assert.match(migration, /writing_submission_feedback_rhetorical_parts_valid check/);
+
+  const formattingValidator = migration.match(
+    /create or replace function public\._writing_submission_feedback_formatting_valid[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(formattingValidator, /v_key_count not in \(4, 6\)/);
+  assert.match(formattingValidator, /'italic', 'strikethrough'/);
+  assert.match(formattingValidator, /'yellow', 'orange', 'blue', 'green', 'red'/);
+  assert.match(formattingValidator, /jsonb_typeof\(p_formatting\) <> 'array'/);
+  assert.match(formattingValidator, /jsonb_array_length\(p_formatting\) > 500/);
+
+  const valueValidator = migration.match(
+    /create or replace function public\._writing_submission_feedback_rich_text_value_valid[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(valueValidator, /jsonb_typeof\(p_value\) <> 'object'/);
+  assert.match(valueValidator, /_writing_submission_utf16_length\(v_text\)/);
+  assert.match(valueValidator, /_writing_submission_feedback_formatting_valid/);
+  const partsValidator = migration.match(
+    /create or replace function public\._writing_submission_feedback_parts_valid[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(partsValidator, /jsonb_typeof\(p_parts\) <> 'array'/);
+  assert.match(partsValidator, /jsonb_array_length\(p_parts\) > 100/);
+  assert.match(partsValidator, /'originalSentence', 'enhancement', 'benefit'/);
+  assert.match(partsValidator, /#>> '\{originalSentence,text\}'/);
+
+  const studentOpen = migration.match(
+    /create or replace function public\.writing_submission_feedback_student_open_v3[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(studentOpen, /feedback\.student_id = p_student_id/);
+  assert.match(studentOpen, /feedback\.status = 'published'/);
+  assert.match(studentOpen, /submission\.deleted_at is null/);
+  assert.match(studentOpen, /feedback\.sentence_structure_parts/);
+  assert.match(studentOpen, /feedback\.rhetorical_parts/);
+
+  const adminGet = migration.match(
+    /create or replace function public\.writing_submission_feedback_admin_get_v4[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(adminGet, /public\._writing_submission_admin_id\(p_admin_token\) is not null/);
+  assert.match(adminGet, /feedback\.sentence_structure_parts/);
+  assert.match(adminGet, /feedback\.rhetorical_parts/);
+
+  const adminSave = migration.match(
+    /create or replace function public\.writing_submission_feedback_admin_save_v3[\s\S]*?\n\$\$;/
+  )?.[0] || "";
+  assert.match(adminSave, /public\._writing_submission_admin_id\(p_admin_token\)/);
+  assert.match(adminSave, /public\._writing_submission_feedback_parts_valid\(p_sentence_structure_parts\)/);
+  assert.match(adminSave, /public\._writing_submission_feedback_parts_valid\(p_rhetorical_parts\)/);
+  assert.match(adminSave, /pg_advisory_xact_lock/);
+  assert.match(adminSave, /submission\.deleted_at is null/);
+  assert.match(adminSave, /p_expected_feedback_id is distinct from v_feedback_id/);
+  assert.match(adminSave, /errcode = 'P4090'/);
+  assert.match(adminSave, /v_current_sentence_parts/);
+  assert.match(adminSave, /v_current_rhetorical_parts/);
+  assert.match(adminSave, /sentence_structure_parts = excluded\.sentence_structure_parts/);
+  assert.match(adminSave, /rhetorical_parts = excluded\.rhetorical_parts/);
+  assert.match(adminSave, /insert into public\.writing_submission_feedback_audit/);
+
+  assert.doesNotMatch(
+    migration,
+    /(?:drop|create or replace) function public\.writing_submission_feedback_(?:student_open_v2|admin_get_v3|admin_save_v2)\s*\(/i,
+    "the previous RPC versions must remain callable during a rolling release"
+  );
+  assert.doesNotMatch(migration, /grant execute[\s\S]*?to (?:anon|authenticated);/);
+  for (const signature of [
+    "writing_submission_feedback_student_open_v3\\(uuid, uuid\\)",
+    "writing_submission_feedback_admin_get_v4\\(uuid, uuid\\)",
+    "writing_submission_feedback_admin_save_v3\\("
+  ]) {
+    assert.match(
+      migration,
+      new RegExp(`revoke all on function public\\.${signature}[\\s\\S]*?from public, anon, authenticated, service_role;`)
+    );
     assert.match(
       migration,
       new RegExp(`grant execute on function public\\.${signature}[\\s\\S]*?to service_role;`)

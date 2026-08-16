@@ -64,6 +64,10 @@ const feedbackFragmentEnhancementMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-feedback-fragment-enhancements.sql"),
   "utf8"
 );
+const feedbackStructuredPartsMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-feedback-structured-parts.sql"),
+  "utf8"
+);
 const feedbackTools = fs.readFileSync(
   path.join(root, "writing-submission-feedback-tools.mjs"),
   "utf8"
@@ -346,8 +350,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260815-feedback-live-preview1/);
-  assert.match(html, /writing-submission\.js\?v=20260815-feedback-live-preview1/);
+  assert.match(html, /writing-submission\.css\?v=20260816-feedback-structure-export1/);
+  assert.match(html, /writing-submission\.js\?v=20260816-feedback-structure-export1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -372,7 +376,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.doesNotMatch(script, /(?:unpkg|esm\.sh|cdn\.jsdelivr)\./i);
 });
 
-test("countdown and student-owned composition exports are fully wired", () => {
+test("countdown and role-scoped composition plus feedback exports are fully wired", () => {
   assert.match(html, /data-writing-timer-toggle/);
   assert.match(html, /data-writing-timer-force/);
   assert.match(html, /時間到自動提交/);
@@ -382,10 +386,21 @@ test("countdown and student-owned composition exports are fully wired", () => {
   assert.match(script, /submissionPromise/);
   assert.match(script, /submitCurrentWriting\(\{ source: "timer" \}\)/);
   assert.match(script, /method:\s*"PUT"/);
-  assert.match(script, /\/v1\/submissions\/\$\{encodeURIComponent\(normalizedId\)\}/);
+  assert.match(script, /function fetchSubmissionExportBundle\(id, role\)/);
+  assert.match(script, /`\/v1\/submissions\/\$\{encodedId\}`/);
+  assert.match(script, /`\/v1\/admin\/submissions\/\$\{encodedId\}`/);
+  assert.match(script, /apiJson\(`\$\{basePath\}\/feedback`\)/);
   assert.match(script, /exportStudentSubmissions\(state\.submissions\.map/);
+  assert.match(script, /dataset\.exportAdminSubmission/);
+  assert.match(script, /feedbackPrintHtml\(feedback\)/);
+  assert.match(script, /readAdminFeedbackEditor\(editor, \{ allowEmpty: true \}\)/);
+  assert.match(script, /elements\.adminDetail\?\.querySelector\("\[data-feedback-editor\]"\)/);
+  assert.doesNotMatch(script, /elements\.adminSubmissionDetail/);
+  assert.match(script, /目前編輯器預覽（可能尚未儲存）/);
+  assert.match(script, /structured: true,[\s\S]*?emptyText: "未填寫"/);
+  assert.match(script, /@page\{size:A4;margin:10mm 9mm\}/);
+  assert.match(script, /print-color-adjust:exact/);
   assert.match(script, /列印／儲存為 PDF/);
-  assert.doesNotMatch(script, /\/v1\/admin\/submissions\/\$\{encodeURIComponent\(normalizedId\)\}/);
   assert.match(css, /\.writing-timer-panel/);
   assert.match(css, /\.submission-export-toolbar/);
 });
@@ -621,7 +636,7 @@ test("structured feedback supports suggested rewrites, safe formatting, row edit
     /function renumberFeedbackEditorRows\(list\) \{[\s\S]*?^\}/m
   )?.[0] || "";
   const editorReaderSource = script.match(
-    /function readAdminFeedbackEditor\(editor\) \{[\s\S]*?^\}/m
+    /function readAdminFeedbackEditor\(editor,[^)]*\) \{[\s\S]*?^\}/m
   )?.[0] || "";
   const renderDetailSource = script.match(
     /function renderSubmissionDetail\(submission,[\s\S]*?^\}/m
@@ -652,10 +667,12 @@ test("structured feedback supports suggested rewrites, safe formatting, row edit
     /pair\.dataset\.feedbackPrefilledOnly === "true" && !comment\.text && !suggestion\.text/
   );
 
-  // Persisted content is rebuilt from text nodes plus the two allowed inline
+  // Persisted content is rebuilt from text nodes plus the allowlisted inline
   // elements. It is never passed to an arbitrary-HTML parsing sink.
   assert.match(richRendererSource, /document\.createTextNode/);
   assert.match(richRendererSource, /document\.createElement\("strong"\)/);
+  assert.match(richRendererSource, /document\.createElement\("em"\)/);
+  assert.match(richRendererSource, /document\.createElement\("s"\)/);
   assert.match(richRendererSource, /document\.createElement\("mark"\)/);
   assert.match(richRendererSource, /mark\.dataset\.highlight = run\.highlight/);
   assert.doesNotMatch(
@@ -720,13 +737,15 @@ test("structured feedback supports suggested rewrites, safe formatting, row edit
   );
   assert.ok(highlightNamesMatch, "feedback highlight colors must be declared");
   assert.deepEqual(
-    [...highlightNamesMatch[1].matchAll(/\b(yellow|orange|blue|green)\s*:/g)].map(match => match[1]),
-    ["yellow", "orange", "blue", "green"]
+    [...highlightNamesMatch[1].matchAll(/\b(yellow|orange|blue|green|red)\s*:/g)].map(match => match[1]),
+    ["yellow", "orange", "blue", "green", "red"]
   );
-  for (const color of ["yellow", "orange", "blue", "green"]) {
+  for (const color of ["yellow", "orange", "blue", "green", "red"]) {
     assert.match(css, new RegExp(`mark\\[data-highlight="${color}"\\]`));
   }
   assert.match(script, /if \(command === "bold"\) document\.execCommand\("bold", false\)/);
+  assert.match(script, /command === "italic"[\s\S]*?document\.execCommand\("italic", false\)/);
+  assert.match(script, /command === "strikethrough"[\s\S]*?document\.execCommand\("strikeThrough", false\)/);
 });
 
 test("feedback learning tools, bookmarks and admin sorting are fully wired to the frontend", () => {
@@ -734,10 +753,10 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
     /function createFeedbackRichEditor\([\s\S]*?\n\}/
   )?.[0] || "";
   const adminFeedbackReaderSource = script.match(
-    /function readAdminFeedbackEditor\(editor\) \{[\s\S]*?^\}/m
+    /function readAdminFeedbackEditor\(editor,[^)]*\) \{[\s\S]*?^\}/m
   )?.[0] || "";
-  assert.match(richEditorSource, /feedbackHighlightCommandFromEvent\(event\)/);
-  assert.match(richEditorSource, /applyFeedbackFormatting\(highlight\)/);
+  assert.match(richEditorSource, /feedbackFormattingCommandFromEvent\(event\)/);
+  assert.match(richEditorSource, /applyFeedbackFormatting\(command\)/);
   assert.match(richEditorSource, /event\.shiftKey\s*&&\s*event\.key === "Enter"/);
   assert.match(richEditorSource, /document\.execCommand\("insertText", false, "\\n\\n"\)/);
   assert.match(script, /parseNumberedFeedbackBlocks\(/);
@@ -745,7 +764,7 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   assert.match(css, /\.feedback-numbered-card/);
   assert.match(css, /\.feedback-number-badge/);
 
-  for (const [key, color] of Object.entries({ y: "yellow", o: "orange", b: "blue", g: "green" })) {
+  for (const [key, color] of Object.entries({ y: "yellow", o: "orange", b: "blue", g: "green", r: "red" })) {
     assert.match(feedbackTools, new RegExp(`${key}: "${color}"`));
   }
   assert.match(feedbackTools, /\(!event\.metaKey && !event\.ctrlKey\)/);
@@ -775,12 +794,20 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   assert.match(script, /姓名 Z → A/);
 
   assert.match(adminFeedbackReaderSource, /const grammarPoints = normalizeGrammarFeedbackPoints\(/);
-  assert.match(adminFeedbackReaderSource, /const sentenceStructureMethods = normalizeSentenceStructureMethods\(/);
+  assert.match(adminFeedbackReaderSource, /const sentenceStructureParts = normalizeFeedbackEnhancementParts\(/);
+  assert.match(adminFeedbackReaderSource, /const rhetoricalParts = normalizeFeedbackEnhancementParts\(/);
+  assert.match(script, /const MAX_FEEDBACK_BODY_BYTES = 512 \* 1024/);
+  assert.match(script, /new TextEncoder\(\)\.encode\(requestBody\)\.byteLength > MAX_FEEDBACK_BODY_BYTES/);
+  assert.match(script, /整份評語內容超出安全儲存上限/);
+  assert.match(script, /const maximum = 100/);
   assert.match(script, /文法評語站/);
   assert.match(script, /文法重點/);
   assert.match(script, /句子結構提升區/);
-  assert.match(script, /句子結構方法/);
-  assert.match(adminFeedbackReaderSource, /return \{[\s\S]*?grammarPoints,[\s\S]*?sentenceStructureMethods,[\s\S]*?sentenceStructureLinks,/);
+  assert.match(script, /Original Sentence 原句/);
+  assert.match(script, /Enhancement 改良寫法/);
+  assert.match(script, /Benefit 好處／作用/);
+  assert.match(script, /修辭技巧提升區/);
+  assert.match(adminFeedbackReaderSource, /return \{[\s\S]*?grammarPoints,[\s\S]*?sentenceStructureMethods,[\s\S]*?sentenceStructureParts,[\s\S]*?rhetoricalParts,[\s\S]*?sentenceStructureLinks,/);
 
   assert.match(adminFeedbackReaderSource, /feedbackSentencePickerLinks\(/);
   assert.match(script, /function createFeedbackSentencePicker\(links = \[\]\)/);
@@ -788,6 +815,10 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   assert.match(script, /dataset\.feedbackSentenceSearch/);
   assert.match(script, /dataset\.feedbackSentenceResourceId/);
   assert.match(script, /dataset\.feedbackSentenceRemove/);
+  assert.match(script, /row\.draggable = true/);
+  assert.match(script, /dataset\.feedbackSentenceMove = "up"/);
+  assert.match(script, /dataset\.feedbackSentenceMove = "down"/);
+  assert.match(script, /已加入的句子結構練習（\$\{links\.length\}）/);
   assert.match(script, /filterHomeworkResources\([\s\S]*?"sentence-structure"[\s\S]*?60/);
   assert.doesNotMatch(script, /data\.feedbackSentenceLinks/);
   assert.match(css, /\.teacher-feedback-sentence-picker/);
@@ -901,9 +932,10 @@ test("published feedback is optional by section, unread-aware, and supports save
   assert.match(css, /\.submission-list-item\.has-feedback/);
   assert.match(css, /\.submission-feedback-bell/);
   assert.match(css, /\.teacher-feedback-transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_student_open_v2/);
+  assert.match(workerSource, /writing_submission_feedback_student_open_v3/);
   assert.match(workerSource, /writing_submission_feedback_student_save_transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_admin_get_v3/);
+  assert.match(workerSource, /writing_submission_feedback_admin_get_v4/);
+  assert.match(workerSource, /writing_submission_feedback_admin_save_v3/);
   assert.match(workerSource, /p_improved_version:\s*payload\.improvedVersion/);
   assert.match(workerSource, /!overallComment\.trim\(\)[\s\S]*?!finalComment\.trim\(\)[\s\S]*?!improvedVersion\.trim\(\)[\s\S]*?fragments\.length === 0[\s\S]*?grammarPoints/);
   assert.match(feedbackRevisionMigration, /add column if not exists improved_version text/);
@@ -914,6 +946,21 @@ test("published feedback is optional by section, unread-aware, and supports save
   assert.match(feedbackRevisionMigration, /writing_submission_admin_list_submissions_v3/);
   assert.match(feedbackRevisionMigration, /alter table public\.writing_submission_feedback_transcriptions enable row level security/i);
   assert.doesNotMatch(feedbackRevisionMigration, /grant (?:select|insert|update|delete) on table/i);
+});
+
+test("structured sentence and rhetorical feedback persistence remains additive and locked to the Worker", () => {
+  assert.match(feedbackStructuredPartsMigration, /add column if not exists sentence_structure_parts jsonb not null default '\[\]'::jsonb/i);
+  assert.match(feedbackStructuredPartsMigration, /add column if not exists rhetorical_parts jsonb not null default '\[\]'::jsonb/i);
+  assert.match(feedbackStructuredPartsMigration, /writing_submission_feedback_student_open_v3/);
+  assert.match(feedbackStructuredPartsMigration, /writing_submission_feedback_admin_get_v4/);
+  assert.match(feedbackStructuredPartsMigration, /writing_submission_feedback_admin_save_v3/);
+  assert.match(feedbackStructuredPartsMigration, /'italic', 'strikethrough'/);
+  assert.match(feedbackStructuredPartsMigration, /'yellow', 'orange', 'blue', 'green', 'red'/);
+  assert.match(feedbackStructuredPartsMigration, /set search_path = ''/i);
+  assert.match(feedbackStructuredPartsMigration, /revoke all on function public\.writing_submission_feedback_student_open_v3\([\s\S]*?from public, anon, authenticated, service_role/i);
+  assert.match(feedbackStructuredPartsMigration, /grant execute on function public\.writing_submission_feedback_student_open_v3\([\s\S]*?to service_role/i);
+  assert.match(workerSource, /p_sentence_structure_parts:\s*payload\.sentenceStructureParts/);
+  assert.match(workerSource, /p_rhetorical_parts:\s*payload\.rhetoricalParts/);
 });
 
 test("submission topic linkage is canonicalized and authorized by the Worker", () => {

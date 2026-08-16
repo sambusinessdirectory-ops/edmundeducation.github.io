@@ -47,7 +47,7 @@ const MAX_FEEDBACK_RICH_TEXT_ITEMS = 100;
 const MAX_SENTENCE_STRUCTURE_LINKS = 100;
 const MAX_SENTENCE_STRUCTURE_LINK_LABEL_CHARACTERS = 200;
 const MAX_SENTENCE_STRUCTURE_LINK_URL_CHARACTERS = 2048;
-const FEEDBACK_HIGHLIGHTS = new Set(["", "yellow", "orange", "blue", "green"]);
+const FEEDBACK_HIGHLIGHTS = new Set(["", "yellow", "orange", "blue", "green", "red"]);
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
@@ -1233,6 +1233,8 @@ function feedbackResponse(row) {
     grammarPoints: feedbackRichTextResponse(row.grammar_points),
     sentenceStructureMethods: feedbackRichTextResponse(row.sentence_structure_methods),
     sentenceStructureLinks: sentenceStructureLinksResponse(row.sentence_structure_links),
+    sentenceStructureParts: feedbackStructuredPartsResponse(row.sentence_structure_parts),
+    rhetoricalParts: feedbackStructuredPartsResponse(row.rhetorical_parts),
     fragments: fragments.map((fragment, index) => {
       const originalFragment = String(
         fragment?.originalFragment ?? fragment?.original_fragment ?? ""
@@ -1303,14 +1305,42 @@ function sentenceStructureLinksResponse(value) {
   });
 }
 
+function feedbackRichTextValueResponse(value) {
+  if (!isPlainObject(value)) return { text: "", formatting: [] };
+  const text = String(value.text || "");
+  return {
+    text,
+    formatting: feedbackFormattingResponse(value.formatting, text.length)
+  };
+}
+
+function feedbackStructuredPartsResponse(value) {
+  if (!Array.isArray(value)) return [];
+  return value.slice(0, MAX_FEEDBACK_RICH_TEXT_ITEMS).flatMap((item) => {
+    if (!isPlainObject(item)) return [];
+    return [{
+      originalSentence: feedbackRichTextValueResponse(item.originalSentence),
+      enhancement: feedbackRichTextValueResponse(item.enhancement),
+      benefit: feedbackRichTextValueResponse(item.benefit)
+    }];
+  });
+}
+
 function validFeedbackFormattingRun(run, textLength) {
-  return hasExactKeys(run, ["start", "end", "bold", "highlight"])
+  const legacyShape = hasExactKeys(run, ["start", "end", "bold", "highlight"]);
+  const expandedShape = hasExactKeys(run, [
+    "start", "end", "bold", "italic", "strikethrough", "highlight"
+  ]);
+  return (legacyShape || expandedShape)
     && Number.isInteger(run.start)
     && Number.isInteger(run.end)
     && run.start >= 0
     && run.start < run.end
     && run.end <= textLength
     && typeof run.bold === "boolean"
+    && (!expandedShape || (
+      typeof run.italic === "boolean" && typeof run.strikethrough === "boolean"
+    ))
     && typeof run.highlight === "string"
     && FEEDBACK_HIGHLIGHTS.has(run.highlight);
 }
@@ -1324,6 +1354,8 @@ function feedbackFormattingResponse(value, textLength) {
       start: run.start,
       end: run.end,
       bold: run.bold,
+      italic: run.italic === true,
+      strikethrough: run.strikethrough === true,
       highlight: run.highlight
     }));
 }
@@ -1351,12 +1383,17 @@ function normalizeFeedbackFormatting(value, label, textLength) {
     if (!validFeedbackFormattingRun(run, textLength)) {
       throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] is invalid`);
     }
-    return {
+    const normalized = {
       start: run.start,
       end: run.end,
       bold: run.bold,
       highlight: run.highlight
     };
+    if (Object.prototype.hasOwnProperty.call(run, "italic")) {
+      normalized.italic = run.italic;
+      normalized.strikethrough = run.strikethrough;
+    }
+    return normalized;
   });
 }
 
@@ -1384,6 +1421,44 @@ function normalizeFeedbackRichTextItems(value, label) {
         text.length
       )
     };
+  });
+}
+
+function normalizeFeedbackRichTextValue(value, label) {
+  if (!hasExactKeys(value, ["text", "formatting"])) {
+    throw new HttpError(400, "INVALID_FEEDBACK", `${label} has an invalid shape`);
+  }
+  const text = normalizeFeedbackText(value.text, `${label}.text`, MAX_FEEDBACK_COMMENT_CHARACTERS);
+  return {
+    text,
+    formatting: normalizeFeedbackFormatting(value.formatting, `${label}.formatting`, text.length)
+  };
+}
+
+function normalizeFeedbackStructuredParts(value, label) {
+  if (!Array.isArray(value) || value.length > MAX_FEEDBACK_RICH_TEXT_ITEMS) {
+    throw new HttpError(400, "INVALID_FEEDBACK", `${label} must be a valid structured-parts array`);
+  }
+  return value.map((item, index) => {
+    if (!hasExactKeys(item, ["originalSentence", "enhancement", "benefit"])) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] has an invalid shape`);
+    }
+    const originalSentence = normalizeFeedbackRichTextValue(
+      item.originalSentence,
+      `${label}[${index}].originalSentence`
+    );
+    const enhancement = normalizeFeedbackRichTextValue(
+      item.enhancement,
+      `${label}[${index}].enhancement`
+    );
+    const benefit = normalizeFeedbackRichTextValue(
+      item.benefit,
+      `${label}[${index}].benefit`
+    );
+    if (!originalSentence.text.trim() && !enhancement.text.trim() && !benefit.text.trim()) {
+      throw new HttpError(400, "INVALID_FEEDBACK", `${label}[${index}] is empty`);
+    }
+    return { originalSentence, enhancement, benefit };
   });
 }
 
@@ -1464,15 +1539,26 @@ function normalizeFeedbackPayload(payload) {
     "sentenceStructureMethods",
     "sentenceStructureLinks"
   ]);
+  const structuredKeys = new Set([
+    ...extendedKeys,
+    "sentenceStructureParts",
+    "rhetoricalParts"
+  ]);
   const hasExtendedFields = [
     "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
   ].some((key) => Object.prototype.hasOwnProperty.call(payload, key));
-  const allowedKeys = hasExtendedFields ? extendedKeys : baseKeys;
+  const hasStructuredFields = ["sentenceStructureParts", "rhetoricalParts"]
+    .some((key) => Object.prototype.hasOwnProperty.call(payload, key));
+  const allowedKeys = hasStructuredFields ? structuredKeys : (hasExtendedFields ? extendedKeys : baseKeys);
   if (!hasOnlyKeys(payload, allowedKeys) || ![
     "overallComment", "fragments", "finalComment", "status", "expectedVersion", "expectedFeedbackId"
   ].every((key) => Object.prototype.hasOwnProperty.call(payload, key)) || (
-    hasExtendedFields && ![
+    (hasExtendedFields || hasStructuredFields) && ![
       "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
+    ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+  ) || (
+    hasStructuredFields && ![
+      "sentenceStructureParts", "rhetoricalParts"
     ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))
   )) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
@@ -1596,14 +1682,20 @@ function normalizeFeedbackPayload(payload) {
       suggestionFormatting
     };
   });
-  const grammarPoints = hasExtendedFields
+  const grammarPoints = hasExtendedFields || hasStructuredFields
     ? normalizeFeedbackRichTextItems(payload.grammarPoints, "grammarPoints")
     : null;
-  const sentenceStructureMethods = hasExtendedFields
+  const sentenceStructureMethods = hasExtendedFields || hasStructuredFields
     ? normalizeFeedbackRichTextItems(payload.sentenceStructureMethods, "sentenceStructureMethods")
     : null;
-  const sentenceStructureLinks = hasExtendedFields
+  const sentenceStructureLinks = hasExtendedFields || hasStructuredFields
     ? normalizeSentenceStructureLinks(payload.sentenceStructureLinks)
+    : null;
+  const sentenceStructureParts = hasStructuredFields
+    ? normalizeFeedbackStructuredParts(payload.sentenceStructureParts, "sentenceStructureParts")
+    : null;
+  const rhetoricalParts = hasStructuredFields
+    ? normalizeFeedbackStructuredParts(payload.rhetoricalParts, "rhetoricalParts")
     : null;
   if (
     !overallComment.trim()
@@ -1613,6 +1705,8 @@ function normalizeFeedbackPayload(payload) {
     && (!grammarPoints || grammarPoints.length === 0)
     && (!sentenceStructureMethods || sentenceStructureMethods.length === 0)
     && (!sentenceStructureLinks || sentenceStructureLinks.length === 0)
+    && (!sentenceStructureParts || sentenceStructureParts.length === 0)
+    && (!rhetoricalParts || rhetoricalParts.length === 0)
   ) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");
   }
@@ -1624,6 +1718,8 @@ function normalizeFeedbackPayload(payload) {
     grammarPoints,
     sentenceStructureMethods,
     sentenceStructureLinks,
+    sentenceStructureParts,
+    rhetoricalParts,
     status,
     expectedVersion,
     expectedFeedbackId: expectedFeedbackId === null ? null : expectedFeedbackId.toLowerCase()
@@ -1866,7 +1962,7 @@ async function getSubmissionFeedback(request, env, submissionId) {
   }
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v2", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v3", {
     p_student_id: student.id,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2586,7 +2682,7 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
   }
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v3", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v4", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2609,7 +2705,7 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
   const payload = normalizeFeedbackPayload(
     await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v2", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v3", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase(),
     p_overall_comment: payload.overallComment,
@@ -2619,6 +2715,8 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     p_grammar_points: payload.grammarPoints,
     p_sentence_structure_methods: payload.sentenceStructureMethods,
     p_sentence_structure_links: payload.sentenceStructureLinks,
+    p_sentence_structure_parts: payload.sentenceStructureParts,
+    p_rhetorical_parts: payload.rhetoricalParts,
     p_status: payload.status,
     p_expected_version: payload.expectedVersion,
     p_expected_feedback_id: payload.expectedFeedbackId

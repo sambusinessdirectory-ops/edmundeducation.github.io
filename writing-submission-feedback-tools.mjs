@@ -2,12 +2,14 @@ const FEEDBACK_HIGHLIGHT_SHORTCUTS = Object.freeze({
   y: "yellow",
   o: "orange",
   b: "blue",
-  g: "green"
+  g: "green",
+  r: "red"
 });
 
 const FEEDBACK_HIGHLIGHTS = new Set(Object.values(FEEDBACK_HIGHLIGHT_SHORTCUTS));
 const MAX_FEEDBACK_FORMATTING_RUNS = 500;
-const MAX_FEEDBACK_LIST_ITEMS = 200;
+const MAX_FEEDBACK_LIST_ITEMS = 100;
+const MAX_FEEDBACK_ENHANCEMENT_PARTS = 100;
 const MAX_FEEDBACK_LIST_ITEM_LENGTH = 20_000;
 const SENTENCE_STRUCTURE_LESSON_RE = /^[a-z0-9][a-z0-9_-]{0,79}$/iu;
 
@@ -44,13 +46,22 @@ function feedbackLines(text) {
 }
 
 /**
- * Resolves the four feedback highlighter keyboard shortcuts. The integration
+ * Resolves the five feedback highlighter keyboard shortcuts. The integration
  * layer remains responsible for preventing the browser default and applying
  * the returned command to the active rich-text editor.
  */
 export function feedbackHighlightCommandFromEvent(event) {
-  if (!event || (!event.metaKey && !event.ctrlKey) || event.altKey) return null;
+  if (!event || (!event.metaKey && !event.ctrlKey) || event.altKey || event.shiftKey) return null;
   return FEEDBACK_HIGHLIGHT_SHORTCUTS[String(event.key || "").toLowerCase()] || null;
+}
+
+/** Resolves color and bold keyboard commands for the rich feedback editor. */
+export function feedbackFormattingCommandFromEvent(event) {
+  if (!event || (!event.metaKey && !event.ctrlKey) || event.altKey) return null;
+  const key = String(event.key || "").toLowerCase();
+  if (event.shiftKey && key === "b") return "bold";
+  if (event.shiftKey) return null;
+  return FEEDBACK_HIGHLIGHT_SHORTCUTS[key] || null;
 }
 
 /**
@@ -176,9 +187,13 @@ export function sliceFeedbackFormattingRuns(value, startValue, endValue) {
       start: clippedStart - start,
       end: clippedEnd - start,
       bold: run?.bold === true,
+      italic: run?.italic === true,
+      strikethrough: run?.strikethrough === true,
       highlight
     };
-    return normalized.bold || normalized.highlight ? normalized : null;
+    return normalized.bold || normalized.italic || normalized.strikethrough || normalized.highlight
+      ? normalized
+      : null;
   }).filter(Boolean).sort((left, right) => left.start - right.start || left.end - right.end);
 
   const output = [];
@@ -190,6 +205,8 @@ export function sliceFeedbackFormattingRuns(value, startValue, endValue) {
       previous
       && previous.end === run.start
       && previous.bold === run.bold
+      && previous.italic === run.italic
+      && previous.strikethrough === run.strikethrough
       && previous.highlight === run.highlight
     ) {
       previous.end = run.end;
@@ -232,6 +249,63 @@ export function normalizeGrammarFeedbackPoints(value) {
 /** Returns a bounded, canonical `{ text, formatting }[]` structure-method list. */
 export function normalizeSentenceStructureMethods(value) {
   return normalizeFeedbackTextItems(value);
+}
+
+function emptyRichFeedbackValue() {
+  return { text: "", formatting: [] };
+}
+
+function normalizeRichFeedbackValue(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value) || typeof value.text !== "string") {
+    return emptyRichFeedbackValue();
+  }
+  const rawText = value.text;
+  const text = rawText.trim();
+  if (!text || text.length > MAX_FEEDBACK_LIST_ITEM_LENGTH) return emptyRichFeedbackValue();
+  const trimStart = rawText.indexOf(text);
+  return {
+    text,
+    formatting: sliceFeedbackFormattingRuns(
+      Array.isArray(value.formatting) ? value.formatting : [],
+      trimStart,
+      trimStart + text.length
+    )
+  };
+}
+
+/**
+ * Canonicalizes ordered Original / Enhancement / Benefit records. Legacy
+ * sentence-method items remain visible as enhancement-only records.
+ */
+export function normalizeFeedbackEnhancementParts(value) {
+  if (!Array.isArray(value)) return [];
+  const output = [];
+  for (const item of value) {
+    let normalized;
+    if (item && typeof item === "object" && !Array.isArray(item) && typeof item.text === "string") {
+      normalized = {
+        originalSentence: emptyRichFeedbackValue(),
+        enhancement: normalizeRichFeedbackValue(item),
+        benefit: emptyRichFeedbackValue()
+      };
+    } else if (item && typeof item === "object" && !Array.isArray(item)) {
+      normalized = {
+        originalSentence: normalizeRichFeedbackValue(item.originalSentence),
+        enhancement: normalizeRichFeedbackValue(item.enhancement),
+        benefit: normalizeRichFeedbackValue(item.benefit)
+      };
+    } else {
+      continue;
+    }
+    if (
+      !normalized.originalSentence.text
+      && !normalized.enhancement.text
+      && !normalized.benefit.text
+    ) continue;
+    output.push(normalized);
+    if (output.length >= MAX_FEEDBACK_ENHANCEMENT_PARTS) break;
+  }
+  return output;
 }
 
 /**
