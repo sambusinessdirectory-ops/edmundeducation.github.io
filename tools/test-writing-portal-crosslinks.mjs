@@ -47,10 +47,11 @@ function categoryFor(exerciseId) {
   if (/^model-essay-.+-ielts-task1-/.test(exerciseId)) return "IELTS Task 1";
   if (/^model-essay-.+-ielts-/.test(exerciseId)) return "IELTS Task 2";
   if (/^hkpf-civic-composition-/.test(exerciseId)) return "Government";
+  if (/^business-english-standard-response-book-1-q\d+$/.test(exerciseId)) return "Business English";
   return "Unknown";
 }
 
-test("all five Writing families expose every real reciprocal route and no invented route", async () => {
+test("all six Writing families expose every real reciprocal route and no invented route", async () => {
   const { WRITING_SUBMISSION_REFERENCE_DATA: references } = await import(
     `${pathToFileURL(path.join(root, "writing-submission-reference-data.mjs")).href}?crosslinks=${Date.now()}`
   );
@@ -66,6 +67,7 @@ test("all five Writing families expose every real reciprocal route and no invent
     "DSE Part A": { lessons: 15, flashcards: 15 },
     "DSE Part B": { lessons: 3, flashcards: 0 },
     Government: { lessons: 4, flashcards: 3 },
+    "Business English": { lessons: 10, flashcards: 0 },
     "IELTS Task 1": { lessons: 60, flashcards: 59 },
     "IELTS Task 2": { lessons: 228, flashcards: 224 }
   });
@@ -83,6 +85,16 @@ test("all five Writing families expose every real reciprocal route and no invent
   }
 
   assert.deepEqual(entries.filter(([, reference]) => !reference.flashDeckId).map(([exerciseId]) => exerciseId), [
+    "business-english-standard-response-book-1-q1",
+    "business-english-standard-response-book-1-q2",
+    "business-english-standard-response-book-1-q3",
+    "business-english-standard-response-book-1-q4",
+    "business-english-standard-response-book-1-q5",
+    "business-english-standard-response-book-1-q6",
+    "business-english-standard-response-book-1-q7",
+    "business-english-standard-response-book-1-q8",
+    "business-english-standard-response-book-1-q9",
+    "business-english-standard-response-book-1-q10",
     "dse-writing-2022-part-b-q3",
     "dse-writing-2024-part-b-q5",
     "dse-writing-2025-part-b-q3",
