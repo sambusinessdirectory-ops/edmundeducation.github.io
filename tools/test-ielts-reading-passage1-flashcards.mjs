@@ -101,7 +101,7 @@ for (const [index, source] of inlineScripts.entries()) {
 assert(html.includes('const IELTS_READING_PASSAGE_1_DATA_URL = "flashcards-ielts-reading-passage-1-data.js?v=20260722-1"'), "Passage 1 lazy-load URL is missing");
 assert(!html.includes('<script src="flashcards-ielts-reading-passage-1-data.js'), "Passage 1 data should not block the login page");
 assert(!html.includes("function ensureIeltsReadingData()"), "IELTS Reading must not bulk-load every large passage bundle");
-assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260817-1"></script>'), "Flashcard audio cache key is stale");
+assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260818-1"></script>'), "Flashcard audio cache key is stale");
 assert(html.includes("ieltsReadingPracticesForPassage(passage)"), "IELTS Reading chooser is not using passage-specific decks");
 assert(html.includes("ieltsReadingPracticeLabel(passage, practice)"), "IELTS Reading chooser is not rendering passage titles");
 const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");

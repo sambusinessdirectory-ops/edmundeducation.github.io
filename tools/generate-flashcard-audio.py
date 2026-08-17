@@ -154,6 +154,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-hkfsd-concept-vocabulary-book1-data.js",
+        "window.EDMUND_HKFSD_CONCEPT_VOCABULARY_BOOK1_SEED = ",
+        None,
+    ),
+    (
         "flashcards-business-concepts-book1-data.js",
         "window.EDMUND_BUSINESS_CONCEPTS_BOOK1_SEED = ",
         None,
@@ -177,6 +182,16 @@ CLOUD_PACK_INDEX_RELATIVES = (
 MANIFEST_AUDIO_ASSIGNMENT = "window.EDMUND_FLASHCARD_AUDIO = Object.freeze("
 MANIFEST_META_ASSIGNMENT = "window.EDMUND_FLASHCARD_AUDIO_META = Object.freeze("
 SPOKEN_OVERRIDES = {
+    "Accident and Emergency Department (A&E)": "Accident and Emergency Department, A and E",
+    "Ambulanceman / Ambulancewoman": "Ambulanceman or Ambulancewoman",
+    "Fireman / Firewoman": "Fireman or Firewoman",
+    "backdraught / backdraft": "backdraught or backdraft",
+    "dormitory / rest room": "dormitory or rest room",
+    "fireman's lift / firefighting lift": "fireman's lift or firefighting lift",
+    "lift / elevator": "lift or elevator",
+    "lorry / truck": "lorry or truck",
+    "petrol / gasoline": "petrol or gasoline",
+    "torch / flashlight": "torch or flashlight",
     "Home Ownership Scheme (HOS)": "Home Ownership Scheme, H O S",
     "AI literacy": "A I literacy",
     "support SEN students": "support S E N students",
@@ -373,7 +388,8 @@ def spoken_text(display_text: str) -> str:
         "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK", "IQ", "EQ", "DS", "BC",
         "BCE", "UN", "CD", "AFM", "GDP", "HIV", "GM", "ADHD", "EV", "SMS", "MTV", "ID",
         "ZEV", "GSM", "IPCC", "DC", "ESA", "ATM", "LPG", "LP", "USB", "MRI", "FA", "WA",
-        "EP", "AMP", "AD", "API", "PR", "URL", "MRT", "CEO",
+        "EP", "AMP", "AD", "API", "PR", "URL", "MRT", "CEO", "BA", "FSCC",
+        "FSD", "PPE", "AED", "BLS", "CPR", "CPS", "FSI", "RTA", "SCBA",
     ):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
     text = re.sub(

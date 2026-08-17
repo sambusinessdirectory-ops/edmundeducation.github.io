@@ -184158,10 +184158,11 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-government-civics-book1-data.js?v=20260808-1"></script>
   <script src="flashcards-government-civics-book2-data.js?v=20260817-1"></script>
   <script src="flashcards-government-concept-logic-book1-data.js?v=20260817-1"></script>
+  <script src="flashcards-hkfsd-concept-vocabulary-book1-data.js?v=20260818-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260817-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260818-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -185197,6 +185198,82 @@ window.EDMUND_FLASHCARD_SEED = {
     ];
     governmentCivicsBook2Decks.forEach(deck => {
       deckTitleLabels.set(deck.deckId, `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`);
+    });
+    const hkfsdConceptVocabularyBook1Prefix = "government/hkfsd/concept-vocabulary/book-1";
+    const hkfsdConceptVocabularyBook1Decks = [
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/a-core-fire-service-emergency-fundamentals`,
+        label: "A. Core Fire Service & Emergency Fundamentals\n消防及緊急應變基本詞彙",
+        title: "A. Core Fire Service & Emergency Fundamentals 消防及緊急應變基本詞彙"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/b-fire-station-personnel-duty`,
+        label: "B. Fire Station, Personnel & Duty\n消防局、人員及值勤",
+        title: "B. Fire Station, Personnel & Duty 消防局、人員及值勤"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/c-ppe-breathing-apparatus`,
+        label: "C. PPE & Breathing Apparatus\n個人防護裝備及呼吸器",
+        title: "C. PPE & Breathing Apparatus 個人防護裝備及呼吸器"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/d-fire-appliances-emergency-vehicles`,
+        label: "D. Fire Appliances & Emergency Vehicles\n消防車輛及緊急車輛",
+        title: "D. Fire Appliances & Emergency Vehicles 消防車輛及緊急車輛"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/e-firefighting-tools-equipment`,
+        label: "E. Firefighting Tools & Equipment\n滅火工具及器材",
+        title: "E. Firefighting Tools & Equipment 滅火工具及器材"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/f-hoses-hydrants-pumps-water-supply`,
+        label: "F. Hoses, Hydrants, Pumps & Water Supply\n消防喉、消防栓、消防泵及供水",
+        title: "F. Hoses, Hydrants, Pumps & Water Supply 消防喉、消防栓、消防泵及供水"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/g-fire-heat-smoke-basic-fire-behaviour`,
+        label: "G. Fire, Heat, Smoke & Basic Fire Behaviour\n火、熱、煙及基本火災行為",
+        title: "G. Fire, Heat, Smoke & Basic Fire Behaviour 火、熱、煙及基本火災行為"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/h-buildings-fire-protection-fire-safety`,
+        label: "H. Buildings, Fire Protection & Fire Safety\n樓宇、防火系統及消防安全",
+        title: "H. Buildings, Fire Protection & Fire Safety 樓宇、防火系統及消防安全"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/i-fireground-operations-basic-tactics`,
+        label: "I. Fireground Operations & Basic Tactics\n火場行動及基本戰術",
+        title: "I. Fireground Operations & Basic Tactics 火場行動及基本戰術"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/j-search-rescue-casualty-handling`,
+        label: "J. Search, Rescue & Casualty Handling\n搜索、救援及傷者處理",
+        title: "J. Search, Rescue & Casualty Handling 搜索、救援及傷者處理"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/k-road-traffic-railway-rescue`,
+        label: "K. Road Traffic & Railway Rescue\n道路交通及鐵路救援",
+        title: "K. Road Traffic & Railway Rescue 道路交通及鐵路救援"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/l-ambulance-first-aid-medical-response`,
+        label: "L. Ambulance, First Aid & Medical Response\n救護、急救及醫療應變",
+        title: "L. Ambulance, First Aid & Medical Response 救護、急救及醫療應變"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/m-communications-mobilising-incident-command`,
+        label: "M. Communications, Mobilising & Incident Command\n通訊、調派及事故指揮",
+        title: "M. Communications, Mobilising & Incident Command 通訊、調派及事故指揮"
+      },
+      {
+        deckId: `${hkfsdConceptVocabularyBook1Prefix}/n-hazardous-materials-chemical-safety`,
+        label: "N. Hazardous Materials & Chemical Safety\n危險品及化學安全",
+        title: "N. Hazardous Materials & Chemical Safety 危險品及化學安全"
+      }
+    ];
+    hkfsdConceptVocabularyBook1Decks.forEach(deck => {
+      deckTitleLabels.set(deck.deckId, `政府機構 / HKFSD / 概念詞彙 / Book 1 / ${deck.title}`);
     });
     const governmentConceptLogicBook1Prefix = "government/concept-logic-arguments/book-1";
     const governmentConceptLogicBook1Sections = [
@@ -190969,7 +191046,18 @@ window.EDMUND_FLASHCARD_SEED = {
       });
       governmentTypes.forEach(type => {
         const typeId = deckIdForLabel("government", type, true);
-        if (type === "HKPF") {
+        if (type === "HKFSD") {
+          addAggregate(typeId, "政府機構 / HKFSD", 1);
+          addAggregate(`${typeId}/concept-vocabulary`, "政府機構 / HKFSD / 概念詞彙", 1);
+          addAggregate(
+            hkfsdConceptVocabularyBook1Prefix,
+            "政府機構 / HKFSD / 概念詞彙 / Book 1",
+            hkfsdConceptVocabularyBook1Decks.length
+          );
+          hkfsdConceptVocabularyBook1Decks.forEach(deck => {
+            addExact(deck.deckId, `政府機構 / HKFSD / 概念詞彙 / Book 1 / ${deck.title}`);
+          });
+        } else if (type === "HKPF") {
           addAggregate(typeId, "政府機構 / HKPF", hkpfCategories.length);
           addAggregate(`${typeId}/interview-keys`, "政府機構 / HKPF / Interview Keys", hkpfInterviewBooks.length);
           hkpfInterviewBooks.forEach((label, index) => {
@@ -192936,9 +193024,11 @@ window.EDMUND_FLASHCARD_SEED = {
             <h3>政府機構</h3>
             ${routeOptionButton("概念詞彙", "government-concept-vocabulary", "government/concept-vocabulary")}
             ${routeOptionButton("概念邏輯論點", "government-concept-logic-arguments", "government/concept-logic-arguments")}
-            ${governmentTypes.map(type => type === "HKPF"
-              ? routeOptionButton("HKPF", "government-hkpf", "government/hkpf")
-              : optionButton(type, deckIdForLabel("government", type, true))).join("")}
+            ${governmentTypes.map(type => {
+              if (type === "HKFSD") return routeOptionButton("HKFSD", "government-hkfsd", "government/hkfsd");
+              if (type === "HKPF") return routeOptionButton("HKPF", "government-hkpf", "government/hkpf");
+              return optionButton(type, deckIdForLabel("government", type, true));
+            }).join("")}
           </div>
         `,
         "columns-grid one"
@@ -193047,6 +193137,54 @@ window.EDMUND_FLASHCARD_SEED = {
               question.label,
               question.deckId,
               `政府機構 / 概念邏輯論點 / Book 1 / ${section.title} / ${question.title}`
+            )).join("")}
+          </div>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
+    function showGovernmentHkfsd() {
+      showOptions(
+        "政府機構 / HKFSD",
+        "選擇 HKFSD 學習範圍。",
+        () => routeColumnHtml("HKFSD", [
+          {
+            label: "概念詞彙",
+            route: "government-hkfsd-concept-vocabulary",
+            metaPrefix: "government/hkfsd/concept-vocabulary"
+          }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showGovernmentHkfsdConceptVocabulary() {
+      showOptions(
+        "政府機構 / HKFSD / 概念詞彙",
+        "選擇 Book。",
+        () => routeColumnHtml("概念詞彙", [
+          {
+            label: "Book 1",
+            route: "government-hkfsd-concept-vocabulary-book-1",
+            metaPrefix: hkfsdConceptVocabularyBook1Prefix
+          }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showGovernmentHkfsdConceptVocabularyBook1() {
+      showOptions(
+        "政府機構 / HKFSD / 概念詞彙 / Book 1",
+        "選擇消防概念詞彙主題。",
+        () => `
+          <div class="option-column">
+            <h3>Book 1</h3>
+            ${hkfsdConceptVocabularyBook1Decks.map(deck => optionButton(
+              deck.label,
+              deck.deckId,
+              `政府機構 / HKFSD / 概念詞彙 / Book 1 / ${deck.title}`
             )).join("")}
           </div>
         `,
@@ -196281,6 +196419,9 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route.startsWith("government-concept-logic-arguments-section|")) {
             showGovernmentConceptLogicArgumentsSection(route.split("|")[1]);
           }
+          if (route === "government-hkfsd") showGovernmentHkfsd();
+          if (route === "government-hkfsd-concept-vocabulary") showGovernmentHkfsdConceptVocabulary();
+          if (route === "government-hkfsd-concept-vocabulary-book-1") showGovernmentHkfsdConceptVocabularyBook1();
           if (route === "government-hkpf") showGovernmentHkpf();
           if (route === "government-hkpf-interview-keys") showGovernmentHkpfInterviewKeys();
           if (route.startsWith("government-hkpf-interview-set|")) showGovernmentHkpfInterviewSet(route.split("|")[1]);
