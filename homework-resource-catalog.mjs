@@ -16727,6 +16727,54 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fadvantage-and-disadvantage%2FEdmundBd9AdDisAd-Q19"
   },
   {
+    "id": "flash:government/concept-logic-arguments/book-1/a-core-policy-group-discussion/q1-public-consultations",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "Government / Concept Logic Arguments / Book 1 / A Core Policy Group Discussion / Q1 Public Consultations",
+    "detail": "Government / Concept Logic Arguments / Book 1 / A Core Policy Group Discussion / Q1 Public Consultations · 7 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-logic-arguments%2Fbook-1%2Fa-core-policy-group-discussion%2Fq1-public-consultations"
+  },
+  {
+    "id": "flash:government/concept-logic-arguments/book-1/a-core-policy-group-discussion/q2-short-term-relief-or-long-term-solutions",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "Government / Concept Logic Arguments / Book 1 / A Core Policy Group Discussion / Q2 Short Term Relief Or Long Term Solutions",
+    "detail": "Government / Concept Logic Arguments / Book 1 / A Core Policy Group Discussion / Q2 Short Term Relief Or Long Term Solutions · 6 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-logic-arguments%2Fbook-1%2Fa-core-policy-group-discussion%2Fq2-short-term-relief-or-long-term-solutions"
+  },
+  {
+    "id": "flash:government/concept-logic-arguments/book-1/a-core-policy-group-discussion/q3-public-service-funding",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "Government / Concept Logic Arguments / Book 1 / A Core Policy Group Discussion / Q3 Public Service Funding",
+    "detail": "Government / Concept Logic Arguments / Book 1 / A Core Policy Group Discussion / Q3 Public Service Funding · 6 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-logic-arguments%2Fbook-1%2Fa-core-policy-group-discussion%2Fq3-public-service-funding"
+  },
+  {
+    "id": "flash:government/concept-logic-arguments/book-1/l-scams-online-safety-technology/q1-banks-suspicious-transfers",
+    "type": "flashcards",
+    "ordinal": 1,
+    "label": "Government / Concept Logic Arguments / Book 1 / L Scams Online Safety Technology / Q1 Banks Suspicious Transfers",
+    "detail": "Government / Concept Logic Arguments / Book 1 / L Scams Online Safety Technology / Q1 Banks Suspicious Transfers · 7 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-logic-arguments%2Fbook-1%2Fl-scams-online-safety-technology%2Fq1-banks-suspicious-transfers"
+  },
+  {
+    "id": "flash:government/concept-logic-arguments/book-1/l-scams-online-safety-technology/q2-platform-responsibility-scam-advertisements",
+    "type": "flashcards",
+    "ordinal": 2,
+    "label": "Government / Concept Logic Arguments / Book 1 / L Scams Online Safety Technology / Q2 Platform Responsibility Scam Advertisements",
+    "detail": "Government / Concept Logic Arguments / Book 1 / L Scams Online Safety Technology / Q2 Platform Responsibility Scam Advertisements · 7 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-logic-arguments%2Fbook-1%2Fl-scams-online-safety-technology%2Fq2-platform-responsibility-scam-advertisements"
+  },
+  {
+    "id": "flash:government/concept-logic-arguments/book-1/l-scams-online-safety-technology/q3-protect-elderly-ai-deepfake-scams",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "Government / Concept Logic Arguments / Book 1 / L Scams Online Safety Technology / Q3 Protect Elderly Ai Deepfake Scams",
+    "detail": "Government / Concept Logic Arguments / Book 1 / L Scams Online Safety Technology / Q3 Protect Elderly Ai Deepfake Scams · 6 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-logic-arguments%2Fbook-1%2Fl-scams-online-safety-technology%2Fq3-protect-elderly-ai-deepfake-scams"
+  },
+  {
     "id": "flash:government/hkpf/interview-keys/set-1/q1",
     "type": "flashcards",
     "ordinal": 1,
