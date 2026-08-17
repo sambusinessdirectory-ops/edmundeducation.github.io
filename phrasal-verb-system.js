@@ -21,6 +21,16 @@ const MAX_BOOKMARKS = 2005;
 const LESSON_PAGES = 8;
 const EXERCISE_PAGE = 8;
 const ATTEMPT_PAGE_SIZE = 100;
+const ATTEMPT_OUTBOX_DB_NAME = "edmund-phrasal-verb-attempt-outbox-v1";
+const ATTEMPT_OUTBOX_DB_VERSION = 1;
+const ATTEMPT_OUTBOX_STORE = "attempt-mutations";
+const ATTEMPT_OUTBOX_LEASE_STORE = "drain-leases";
+const ATTEMPT_OUTBOX_SCHEMA_VERSION = 1;
+const ATTEMPT_OUTBOX_RETRY_BASE_MS = 1500;
+const ATTEMPT_OUTBOX_RETRY_CAP_MS = 5 * 60 * 1000;
+const ATTEMPT_OUTBOX_LEASE_MS = 2 * 60 * 1000;
+const ATTEMPT_OUTBOX_REQUEST_TIMEOUT_MS = 45 * 1000;
+const ATTEMPT_OUTBOX_LOCK_PREFIX = "edmund-phrasal-verb-attempt-outbox::";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const DEFAULT_PAGE_META = Object.freeze({
   1: Object.freeze({ titleZh: "概覽及例子", titleEn: "Overview + Examples", kicker: "OVERVIEW + EXAMPLES", description: "先掌握本課動詞片語的學習目標、核心意思及例子。" }),
@@ -137,6 +147,12 @@ const state = {
   bookmarkWriteRevision: 0,
   saveInFlight: false,
   exercisePersistTimer: null,
+  attemptSyncEpoch: "",
+  attemptTokenFingerprint: "",
+  attemptSyncAccountKey: "",
+  attemptOutboxPending: 0,
+  attemptOutboxLastError: "",
+  attemptOutboxBlocked: false,
   toastTimer: null,
   visitedLessonPages: new Set(),
   adminStudents: [],
@@ -146,6 +162,17 @@ const state = {
 
 let lessonSearchIndexCache = null;
 let exerciseClockWasRunningBeforeIdleBreak = false;
+let attemptOutboxDatabasePromise = null;
+let attemptOutboxDrainPromise = null;
+let attemptOutboxDrainRequested = false;
+let attemptOutboxRetryTimer = null;
+let attemptOutboxRetryAt = 0;
+let attemptOutboxWakeupsBound = false;
+let attemptOutboxSequence = 0;
+const attemptOutboxPersistencePromises = new Set();
+const attemptCanonicalPayloads = new Map();
+const attemptOutboxInstanceId = globalThis.crypto?.randomUUID?.()
+  || `tab-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 
 function idleBreakIsPaused() {
   return window.EdmundIdleBreak?.isPaused?.() === true;
@@ -423,6 +450,14 @@ function workerBaseUrl() {
   return baseUrl;
 }
 
+function retryAfterMilliseconds(value, now = Date.now()) {
+  const raw = String(value || "").trim();
+  if (!raw) return 0;
+  if (/^\d+(?:\.\d+)?$/.test(raw)) return Math.max(0, Math.ceil(Number(raw) * 1000));
+  const timestamp = Date.parse(raw);
+  return Number.isFinite(timestamp) ? Math.max(0, timestamp - Number(now || 0)) : 0;
+}
+
 async function parseApiError(response) {
   let message = `服務回應錯誤（${response.status}）`;
   let code = "";
@@ -436,6 +471,7 @@ async function parseApiError(response) {
   const error = new Error(message);
   error.status = response.status;
   error.code = code;
+  error.retryAfterMs = retryAfterMilliseconds(response.headers?.get?.("Retry-After"));
   return error;
 }
 
@@ -453,6 +489,9 @@ async function apiJson(path, options = {}, includeAuth = true, authToken = state
   } catch (error) {
     const connectionError = new Error("暫時未能連接英文動詞片語服務，請檢查網絡後再試。");
     connectionError.cause = error;
+    connectionError.status = 0;
+    connectionError.code = "NETWORK_ERROR";
+    connectionError.retryAfterMs = 0;
     throw connectionError;
   }
   if (!response.ok) {
@@ -476,7 +515,8 @@ function saveSession() {
       token: state.authToken,
       id: state.user.id || "",
       name: state.user.name || "",
-      role: state.user.role
+      role: state.user.role,
+      syncEpoch: state.user.role === "student" ? state.attemptSyncEpoch : ""
     }));
   } catch {
     // The session can remain in memory if storage is unavailable.
@@ -494,6 +534,7 @@ function readSession() {
 function clearSession() {
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
+  deactivateAttemptSyncContext();
   pauseExerciseClock();
   state.user = null;
   state.authToken = "";
@@ -565,6 +606,9 @@ async function validateRestoredSession() {
     name: String(saved.name || ""),
     role: saved.role
   };
+  state.attemptSyncEpoch = saved.role === "student"
+    ? String(saved.syncEpoch || newAttemptSyncEpoch())
+    : "";
   try {
     const payload = await apiJson(saved.role === "admin" ? "/v1/admin/me" : "/v1/student/me");
     const profile = saved.role === "admin" ? payload?.admin : payload?.student;
@@ -598,6 +642,7 @@ async function handleLogin(event) {
     if (!result) throw new Error("用戶名稱或密碼不正確。");
     state.authToken = result.token;
     state.user = result.user;
+    state.attemptSyncEpoch = isAdmin ? "" : newAttemptSyncEpoch();
     if (!isAdmin) {
       window.EdmundSystemNav?.rememberStudentSession({
         token: result.token,
@@ -608,9 +653,21 @@ async function handleLogin(event) {
       });
     }
     saveSession();
+    if (!isAdmin) {
+      try {
+        if (!(await activateAttemptSyncContext())) throw new Error("安全待同步記錄未能啟用。");
+      } catch (error) {
+        window.EdmundSystemNav?.forgetStudentSession();
+        clearSession();
+        const protectionError = new Error("此瀏覽器未能啟用安全待同步記錄；為保護進度，登入已停止。請勿使用私密瀏覽，並重新整理後再試。");
+        protectionError.cause = error;
+        throw protectionError;
+      }
+    }
     elements.loginForm.reset();
     setStatus(elements.loginStatus, "");
     setConnection("已安全連接", "online");
+    if (!isAdmin) renderAttemptOutboxStatus();
     if (state.user.role === "admin") {
       await openAdminDashboard();
       showToast("管理員登入成功。");
@@ -629,7 +686,25 @@ async function handleLogin(event) {
 
 async function logout() {
   const role = state.user?.role;
-  if (role === "student") pauseExerciseClock({ persist: true });
+  const finalAttemptSave = role === "student"
+    ? pauseExerciseClock({ persist: true })
+    : null;
+  if (finalAttemptSave) {
+    try {
+      await finalAttemptSave;
+    } catch (error) {
+      console.warn("Phrasal Verb System final durable save failed", error);
+      showToast("未能建立最後一份安全待同步記錄；請保持此頁開啟並再試一次。", "error");
+      return;
+    }
+  }
+  if (role === "student" && attemptOutboxPersistencePromises.size) {
+    const results = await Promise.allSettled([...attemptOutboxPersistencePromises]);
+    if (results.some((result) => result.status === "rejected")) {
+      showToast("仍有一份練習記錄未能寫入安全待同步佇列；請保持此頁開啟並再試一次。", "error");
+      return;
+    }
+  }
   if (role === "student") window.EdmundSystemNav?.forgetStudentSession();
   try {
     if (role === "admin" && state.authToken) {
@@ -679,6 +754,816 @@ function normalizeAttempt(value) {
   };
 }
 
+function newAttemptSyncEpoch() {
+  if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID();
+  throw new Error("此瀏覽器未能建立安全同步時段，請更新瀏覽器。");
+}
+
+function cloneAttemptSyncValue(value) {
+  if (typeof structuredClone === "function") return structuredClone(value);
+  return JSON.parse(JSON.stringify(value));
+}
+
+function attemptSyncAccountKey(user = state.user) {
+  const studentId = String(user?.id || "").trim();
+  return user?.role === "student" && UUID_RE.test(studentId)
+    ? studentId.toLocaleLowerCase()
+    : "";
+}
+
+async function attemptTokenFingerprint(token) {
+  const value = String(token || "");
+  if (!value || !globalThis.crypto?.subtle || typeof TextEncoder !== "function") {
+    throw new Error("此瀏覽器未能建立安全同步識別碼。");
+  }
+  const digest = await globalThis.crypto.subtle.digest("SHA-256", new TextEncoder().encode(value));
+  return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
+}
+
+function captureAttemptSyncContext() {
+  const accountKey = attemptSyncAccountKey();
+  if (
+    !accountKey
+    || !state.authToken
+    || !state.attemptSyncEpoch
+    || !state.attemptTokenFingerprint
+    || state.attemptSyncAccountKey !== accountKey
+  ) return null;
+  return {
+    accountKey,
+    ownerKey: `${accountKey}::${state.attemptTokenFingerprint}::${state.attemptSyncEpoch}`,
+    studentId: String(state.user.id),
+    studentName: String(state.user.name),
+    authToken: String(state.authToken),
+    tokenFingerprint: state.attemptTokenFingerprint,
+    syncEpoch: state.attemptSyncEpoch
+  };
+}
+
+function isAttemptSyncContextCurrent(context) {
+  const active = captureAttemptSyncContext();
+  return Boolean(
+    context?.ownerKey
+    && active?.ownerKey === context.ownerKey
+    && active.studentId === context.studentId
+    && active.authToken === context.authToken
+  );
+}
+
+function deactivateAttemptSyncContext() {
+  if (attemptOutboxRetryTimer) window.clearTimeout(attemptOutboxRetryTimer);
+  attemptOutboxRetryTimer = null;
+  attemptOutboxRetryAt = 0;
+  attemptOutboxDrainRequested = false;
+  state.attemptSyncEpoch = "";
+  state.attemptTokenFingerprint = "";
+  state.attemptSyncAccountKey = "";
+  state.attemptOutboxPending = 0;
+  state.attemptOutboxLastError = "";
+  state.attemptOutboxBlocked = false;
+  attemptCanonicalPayloads.clear();
+}
+
+function attemptPayloadFromValue(value) {
+  const normalized = normalizeAttempt(value || {});
+  return {
+    lessonId: normalized.lessonId,
+    lessonVersion: normalized.lessonVersion,
+    status: normalized.status === "completed" ? "completed" : "in_progress",
+    roundNumber: Math.max(1, Number(normalized.roundNumber || normalized.result?.round || 1)),
+    correctCount: Math.max(0, Number(normalized.correctCount || 0)),
+    totalCount: Math.max(0, Number(normalized.totalCount || 0)),
+    durationMs: Math.max(0, Number(normalized.durationMs || 0)),
+    startedAt: normalized.startedAt,
+    completedAt: normalized.completedAt || null,
+    result: cloneAttemptSyncValue(normalized.result || {})
+  };
+}
+
+function uniqueAttemptIds(...values) {
+  const seen = new Set();
+  return values.flatMap((value) => Array.isArray(value) ? value : []).map(String).filter((id) => {
+    if (!id || seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+}
+
+function attemptQuestionStateRank(value) {
+  if (value?.status === "correct") return 3;
+  if (value?.status === "wrong") return 2;
+  return 1;
+}
+
+function mergeAttemptQuestionStates(left, right) {
+  const output = {};
+  const leftState = isPlainObject(left) ? left : {};
+  const rightState = isPlainObject(right) ? right : {};
+  const ids = new Set([...Object.keys(leftState), ...Object.keys(rightState)]);
+  ids.forEach((id) => {
+    const earlier = isPlainObject(leftState[id]) ? leftState[id] : null;
+    const later = isPlainObject(rightState[id]) ? rightState[id] : null;
+    const chosen = !earlier
+      ? later
+      : !later
+        ? earlier
+        : attemptQuestionStateRank(later) >= attemptQuestionStateRank(earlier)
+          ? later
+          : earlier;
+    if (!chosen) return;
+    output[id] = {
+      status: ["pending", "correct", "wrong"].includes(chosen.status) ? chosen.status : "pending",
+      lastAnswer: String(chosen.lastAnswer || ""),
+      reveal: Boolean(earlier?.reveal || later?.reveal)
+    };
+  });
+  return output;
+}
+
+function attemptRoundFingerprint(round) {
+  return JSON.stringify([
+    Number(round?.round || 0),
+    String(round?.kind || ""),
+    String(round?.submittedAt || ""),
+    uniqueAttemptIds(round?.checkedIds).sort(),
+    uniqueAttemptIds(round?.correctIds).sort(),
+    uniqueAttemptIds(round?.incorrectIds).sort()
+  ]);
+}
+
+function mergeAttemptRounds(left, right) {
+  const seen = new Set();
+  const rounds = [];
+  [...(Array.isArray(left) ? left : []), ...(Array.isArray(right) ? right : [])].forEach((round) => {
+    if (!isPlainObject(round)) return;
+    const fingerprint = attemptRoundFingerprint(round);
+    if (seen.has(fingerprint)) return;
+    seen.add(fingerprint);
+    rounds.push(cloneAttemptSyncValue(round));
+  });
+  rounds.sort((first, second) => (
+    (Date.parse(first.submittedAt) || 0) - (Date.parse(second.submittedAt) || 0)
+    || Number(first.round || 0) - Number(second.round || 0)
+  ));
+  return rounds.slice(-250);
+}
+
+function earlierAttemptTimestamp(left, right) {
+  const values = [left, right].map(String).filter(Boolean);
+  if (!values.length) return "";
+  return values.sort((first, second) => (Date.parse(first) || Number.MAX_SAFE_INTEGER) - (Date.parse(second) || Number.MAX_SAFE_INTEGER))[0];
+}
+
+function laterAttemptTimestamp(left, right) {
+  const values = [left, right].map(String).filter(Boolean);
+  if (!values.length) return null;
+  return values.sort((first, second) => (Date.parse(second) || 0) - (Date.parse(first) || 0))[0];
+}
+
+function mergeAttemptPayloadLosslessly(canonicalValue, incomingValue) {
+  const canonical = attemptPayloadFromValue(canonicalValue);
+  const incoming = attemptPayloadFromValue(incomingValue);
+  if (canonical.lessonId && incoming.lessonId && canonical.lessonId !== incoming.lessonId) {
+    throw new Error("不能合併屬於不同教材的練習記錄。");
+  }
+  const canonicalResult = parseJsonObject(canonical.result, {});
+  const incomingResult = parseJsonObject(incoming.result, {});
+  const correctIds = uniqueAttemptIds(canonicalResult.correctIds, incomingResult.correctIds);
+  const questionState = mergeAttemptQuestionStates(canonicalResult.questionState, incomingResult.questionState);
+  correctIds.forEach((id) => {
+    const canonicalState = canonicalResult.questionState?.[id];
+    const incomingState = incomingResult.questionState?.[id];
+    const correctState = incomingState?.status === "correct"
+      ? incomingState
+      : canonicalState?.status === "correct"
+        ? canonicalState
+        : null;
+    if (correctState) questionState[id] = cloneAttemptSyncValue(correctState);
+  });
+  const roundNumber = Math.max(
+    1,
+    Number(canonical.roundNumber || canonicalResult.round || 1),
+    Number(incoming.roundNumber || incomingResult.round || 1)
+  );
+  const totalCount = Math.max(Number(canonical.totalCount || 0), Number(incoming.totalCount || 0));
+  const completed = (
+    canonical.status === "completed"
+    || incoming.status === "completed"
+    || Boolean(canonical.completedAt)
+    || Boolean(incoming.completedAt)
+  ) && totalCount > 0 && correctIds.length >= totalCount;
+  const incomingControlsAreNewer = Number(incoming.roundNumber || 1) >= Number(canonical.roundNumber || 1);
+  const controlResult = incomingControlsAreNewer ? incomingResult : canonicalResult;
+  let correctionIds = uniqueAttemptIds(controlResult.correctionIds)
+    .filter((id) => !correctIds.includes(id) && questionState[id]?.status === "wrong");
+  let correctionMode = !completed && controlResult.correctionMode === true && correctionIds.length > 0;
+  if (!correctionMode) correctionIds = [];
+  const awaitingNextRound = !completed && !correctionMode && controlResult.awaitingNextRound === true;
+  const result = {
+    round: roundNumber,
+    correctIds,
+    questionState,
+    rounds: mergeAttemptRounds(canonicalResult.rounds, incomingResult.rounds),
+    awaitingNextRound,
+    correctionMode,
+    correctionIds,
+    collapsedCorrectIds: uniqueAttemptIds(canonicalResult.collapsedCorrectIds, incomingResult.collapsedCorrectIds)
+      .filter((id) => correctIds.includes(id)),
+    contentVersion: String(incomingResult.contentVersion || canonicalResult.contentVersion || CONTENT.version || "1")
+  };
+  return {
+    lessonId: incoming.lessonId || canonical.lessonId,
+    lessonVersion: incoming.lessonVersion || canonical.lessonVersion,
+    status: completed ? "completed" : "in_progress",
+    roundNumber,
+    correctCount: correctIds.length,
+    totalCount,
+    durationMs: Math.max(Number(canonical.durationMs || 0), Number(incoming.durationMs || 0)),
+    startedAt: earlierAttemptTimestamp(canonical.startedAt, incoming.startedAt),
+    completedAt: completed ? laterAttemptTimestamp(canonical.completedAt, incoming.completedAt) : null,
+    result
+  };
+}
+
+function attemptOutboxRequest(request) {
+  return new Promise((resolve, reject) => {
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error || new Error("IndexedDB request failed"));
+  });
+}
+
+function attemptOutboxTransactionComplete(transaction) {
+  return new Promise((resolve, reject) => {
+    transaction.oncomplete = () => resolve();
+    transaction.onabort = () => reject(transaction.error || new Error("IndexedDB transaction aborted"));
+    transaction.onerror = () => reject(transaction.error || new Error("IndexedDB transaction failed"));
+  });
+}
+
+function trackAttemptOutboxPersistence(promise) {
+  attemptOutboxPersistencePromises.add(promise);
+  promise.then(
+    () => attemptOutboxPersistencePromises.delete(promise),
+    () => attemptOutboxPersistencePromises.delete(promise)
+  );
+  return promise;
+}
+
+function openAttemptOutboxDatabase() {
+  if (attemptOutboxDatabasePromise) return attemptOutboxDatabasePromise;
+  if (!globalThis.indexedDB) return Promise.reject(new Error("此瀏覽器未能使用耐久本機儲存。"));
+  attemptOutboxDatabasePromise = new Promise((resolve, reject) => {
+    const request = indexedDB.open(ATTEMPT_OUTBOX_DB_NAME, ATTEMPT_OUTBOX_DB_VERSION);
+    request.onupgradeneeded = () => {
+      const database = request.result;
+      const mutationStore = database.objectStoreNames.contains(ATTEMPT_OUTBOX_STORE)
+        ? request.transaction.objectStore(ATTEMPT_OUTBOX_STORE)
+        : database.createObjectStore(ATTEMPT_OUTBOX_STORE, { keyPath: "mutationId" });
+      if (!mutationStore.indexNames.contains("ownerKey")) mutationStore.createIndex("ownerKey", "ownerKey", { unique: false });
+      if (!mutationStore.indexNames.contains("accountKey")) mutationStore.createIndex("accountKey", "accountKey", { unique: false });
+      if (!mutationStore.indexNames.contains("attemptId")) mutationStore.createIndex("attemptId", "attemptId", { unique: false });
+      if (!database.objectStoreNames.contains(ATTEMPT_OUTBOX_LEASE_STORE)) {
+        database.createObjectStore(ATTEMPT_OUTBOX_LEASE_STORE, { keyPath: "accountKey" });
+      }
+    };
+    request.onsuccess = () => {
+      const database = request.result;
+      database.onversionchange = () => {
+        database.close();
+        attemptOutboxDatabasePromise = null;
+      };
+      resolve(database);
+    };
+    request.onerror = () => {
+      attemptOutboxDatabasePromise = null;
+      reject(request.error || new Error("未能開啟耐久待同步記錄。"));
+    };
+    request.onblocked = () => {
+      attemptOutboxDatabasePromise = null;
+      reject(new Error("耐久待同步記錄正由另一個舊版本頁面佔用。"));
+    };
+  });
+  return attemptOutboxDatabasePromise;
+}
+
+async function listAttemptOutboxRecords(context, { accountWide = false } = {}) {
+  if (!context?.ownerKey || !context?.accountKey) return [];
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_STORE, "readonly");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_STORE);
+  const indexName = accountWide ? "accountKey" : "ownerKey";
+  const indexValue = accountWide ? context.accountKey : context.ownerKey;
+  const rows = await attemptOutboxRequest(store.index(indexName).getAll(indexValue));
+  await attemptOutboxTransactionComplete(transaction);
+  return (Array.isArray(rows) ? rows : [])
+    .filter((record) => (
+      record?.schemaVersion === ATTEMPT_OUTBOX_SCHEMA_VERSION
+      && record.accountKey === context.accountKey
+      && (accountWide || record.ownerKey === context.ownerKey)
+    ))
+    .sort((left, right) => (
+      Number(left.createdAt || 0) - Number(right.createdAt || 0)
+      || Number(left.sequence || 0) - Number(right.sequence || 0)
+      || String(left.mutationId).localeCompare(String(right.mutationId))
+    ));
+}
+
+async function updateAttemptOutboxRecord(record) {
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_STORE, "readwrite");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_STORE);
+  const existing = await attemptOutboxRequest(store.get(record.mutationId));
+  if (existing?.ownerKey === record.ownerKey && existing?.accountKey === record.accountKey) store.put(record);
+  await attemptOutboxTransactionComplete(transaction);
+  return Boolean(existing);
+}
+
+async function deleteAttemptOutboxRecord(record) {
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_STORE, "readwrite");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_STORE);
+  const existing = await attemptOutboxRequest(store.get(record.mutationId));
+  if (existing?.ownerKey === record.ownerKey && existing?.accountKey === record.accountKey) {
+    store.delete(record.mutationId);
+  }
+  await attemptOutboxTransactionComplete(transaction);
+  return Boolean(existing);
+}
+
+async function replaceAttemptOutboxRecord(record, replacement) {
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_STORE, "readwrite");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_STORE);
+  const existing = await attemptOutboxRequest(store.get(record.mutationId));
+  if (
+    existing?.ownerKey === record.ownerKey
+    && existing?.accountKey === record.accountKey
+    && replacement?.ownerKey === record.ownerKey
+  ) {
+    store.add(replacement);
+    store.delete(record.mutationId);
+  }
+  await attemptOutboxTransactionComplete(transaction);
+  return Boolean(existing);
+}
+
+function createAttemptOutboxRecord(attemptId, payload, context, source = "exercise") {
+  const createdAt = Date.now();
+  const mutationId = globalThis.crypto?.randomUUID?.();
+  if (!mutationId) throw new Error("此瀏覽器未能建立安全待同步編號。");
+  return {
+    schemaVersion: ATTEMPT_OUTBOX_SCHEMA_VERSION,
+    mutationId,
+    logicalMutationId: mutationId,
+    ownerKey: context.ownerKey,
+    accountKey: context.accountKey,
+    studentId: context.studentId,
+    studentName: context.studentName,
+    tokenFingerprint: context.tokenFingerprint,
+    syncEpoch: context.syncEpoch,
+    originalOwnerKey: context.ownerKey,
+    attemptId: String(attemptId),
+    payload: cloneAttemptSyncValue(payload),
+    source: String(source || "exercise"),
+    createdAt,
+    sequence: ++attemptOutboxSequence,
+    updatedAt: createdAt,
+    status: "queued",
+    retries: 0,
+    conflicts: 0,
+    nextAttemptAt: 0,
+    lastAttemptAt: 0,
+    lastError: ""
+  };
+}
+
+async function enqueueAttemptOutboxRecord(record) {
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_STORE, "readwrite");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_STORE);
+  const existingRows = await attemptOutboxRequest(store.index("ownerKey").getAll(record.ownerKey));
+  const coalescible = (Array.isArray(existingRows) ? existingRows : []).filter((existing) => (
+    existing?.accountKey === record.accountKey
+    && existing?.attemptId === record.attemptId
+    && ["queued", "retry", "auth_required"].includes(existing.status)
+  ));
+  coalescible.sort((left, right) => Number(left.createdAt || 0) - Number(right.createdAt || 0));
+  let retainedRetry = null;
+  for (const existing of coalescible) {
+    record.payload = mergeAttemptPayloadLosslessly(existing.payload, record.payload);
+    record.createdAt = Math.min(Number(record.createdAt), Number(existing.createdAt || record.createdAt));
+    record.sequence = Math.min(Number(record.sequence), Number(existing.sequence || record.sequence));
+    record.logicalMutationId = existing.logicalMutationId || existing.mutationId;
+    if (
+      existing.status === "retry"
+      && (!retainedRetry || Number(existing.nextAttemptAt || 0) > Number(retainedRetry.nextAttemptAt || 0))
+    ) retainedRetry = existing;
+    store.delete(existing.mutationId);
+  }
+  if (retainedRetry) {
+    record.status = "retry";
+    record.retries = Math.max(Number(record.retries || 0), Number(retainedRetry.retries || 0));
+    record.nextAttemptAt = Math.max(Number(record.nextAttemptAt || 0), Number(retainedRetry.nextAttemptAt || 0));
+    record.lastError = String(retainedRetry.lastError || "暫時未能同步，系統會自動重試。");
+  }
+  store.add(record);
+  await attemptOutboxTransactionComplete(transaction);
+  return record;
+}
+
+async function acquireAttemptOutboxLease(context) {
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_LEASE_STORE, "readwrite");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_LEASE_STORE);
+  const existing = await attemptOutboxRequest(store.get(context.accountKey));
+  const now = Date.now();
+  const available = !existing
+    || existing.holder === attemptOutboxInstanceId
+    || Number(existing.expiresAt || 0) <= now;
+  if (available) {
+    store.put({
+      accountKey: context.accountKey,
+      holder: attemptOutboxInstanceId,
+      ownerKey: context.ownerKey,
+      acquiredAt: now,
+      expiresAt: now + ATTEMPT_OUTBOX_LEASE_MS
+    });
+  }
+  await attemptOutboxTransactionComplete(transaction);
+  return available;
+}
+
+async function releaseAttemptOutboxLease(context) {
+  try {
+    const database = await openAttemptOutboxDatabase();
+    const transaction = database.transaction(ATTEMPT_OUTBOX_LEASE_STORE, "readwrite");
+    const store = transaction.objectStore(ATTEMPT_OUTBOX_LEASE_STORE);
+    const existing = await attemptOutboxRequest(store.get(context.accountKey));
+    if (existing?.holder === attemptOutboxInstanceId) store.delete(context.accountKey);
+    await attemptOutboxTransactionComplete(transaction);
+  } catch (error) {
+    console.warn("Phrasal Verb attempt outbox lease release failed", error);
+  }
+}
+
+async function withAttemptOutboxAccountLock(context, task) {
+  const lockName = `${ATTEMPT_OUTBOX_LOCK_PREFIX}${context.accountKey}`;
+  if (navigator.locks?.request) {
+    try {
+      return await navigator.locks.request(lockName, { ifAvailable: true }, async (lock) => {
+        if (!lock) return { lockUnavailable: true };
+        return task();
+      });
+    } catch (error) {
+      console.warn("Web Lock unavailable; using the durable attempt lease", error);
+    }
+  }
+  const acquired = await acquireAttemptOutboxLease(context);
+  if (!acquired) return { lockUnavailable: true };
+  try {
+    return await task();
+  } finally {
+    await releaseAttemptOutboxLease(context);
+  }
+}
+
+async function adoptAttemptOutboxForContext(context) {
+  const database = await openAttemptOutboxDatabase();
+  const transaction = database.transaction(ATTEMPT_OUTBOX_STORE, "readwrite");
+  const store = transaction.objectStore(ATTEMPT_OUTBOX_STORE);
+  const rows = await attemptOutboxRequest(store.index("accountKey").getAll(context.accountKey));
+  const now = Date.now();
+  for (const record of Array.isArray(rows) ? rows : []) {
+    if (
+      record?.schemaVersion !== ATTEMPT_OUTBOX_SCHEMA_VERSION
+      || String(record.studentId || "") !== context.studentId
+      || String(record.accountKey || "") !== context.accountKey
+    ) continue;
+    const ownerChanged = record.ownerKey !== context.ownerKey;
+    const staleInflight = record.status === "inflight"
+      && now - Number(record.lastAttemptAt || 0) >= ATTEMPT_OUTBOX_LEASE_MS;
+    const updated = {
+      ...record,
+      ownerKey: context.ownerKey,
+      tokenFingerprint: context.tokenFingerprint,
+      syncEpoch: context.syncEpoch,
+      studentName: context.studentName,
+      originalStudentName: record.originalStudentName || record.studentName || context.studentName,
+      updatedAt: now,
+      ...(ownerChanged ? { adoptedFromOwnerKey: record.ownerKey, adoptedAt: now } : {})
+    };
+    if ((ownerChanged && record.status !== "blocked") || staleInflight) {
+      updated.status = "queued";
+      updated.nextAttemptAt = 0;
+      updated.lastError = "";
+    }
+    store.put(updated);
+  }
+  await attemptOutboxTransactionComplete(transaction);
+}
+
+function renderAttemptOutboxStatus() {
+  if (state.user?.role !== "student") return;
+  const pending = Math.max(0, Number(state.attemptOutboxPending || 0));
+  if (pending) {
+    setConnection(
+      state.attemptOutboxBlocked
+        ? `同步保護已暫停 · ${pending} 項變更安全保留，需完成同步核實`
+        : state.attemptOutboxLastError
+        ? `已安全儲存在此裝置 · ${pending} 項等待自動重試`
+        : `已安全儲存在此裝置 · ${pending} 項待同步`,
+      state.attemptOutboxBlocked ? "error" : "checking"
+    );
+  } else if (state.attemptSyncAccountKey) {
+    setConnection("已安全連接", "online");
+  }
+}
+
+async function refreshAttemptOutboxStatus(context = captureAttemptSyncContext()) {
+  if (!context || !isAttemptSyncContextCurrent(context)) return 0;
+  const rows = await listAttemptOutboxRecords(context);
+  if (!isAttemptSyncContextCurrent(context)) return rows.length;
+  state.attemptOutboxPending = rows.length;
+  const failed = rows.find((record) => record.lastError || ["retry", "blocked", "auth_required"].includes(record.status));
+  state.attemptOutboxBlocked = rows.some((record) => record.status === "blocked");
+  state.attemptOutboxLastError = failed ? String(failed.lastError || "待同步記錄正在等候重試。") : "";
+  renderAttemptOutboxStatus();
+  return rows.length;
+}
+
+async function activateAttemptSyncContext() {
+  if (state.user?.role !== "student" || !state.authToken) return false;
+  if (!state.attemptSyncEpoch) state.attemptSyncEpoch = newAttemptSyncEpoch();
+  const snapshot = {
+    id: String(state.user.id || ""),
+    name: String(state.user.name || ""),
+    token: String(state.authToken),
+    syncEpoch: String(state.attemptSyncEpoch)
+  };
+  const fingerprint = await attemptTokenFingerprint(snapshot.token);
+  if (
+    state.user?.role !== "student"
+    || String(state.user.id || "") !== snapshot.id
+    || String(state.user.name || "") !== snapshot.name
+    || String(state.authToken) !== snapshot.token
+    || String(state.attemptSyncEpoch) !== snapshot.syncEpoch
+  ) return false;
+  state.attemptTokenFingerprint = fingerprint;
+  state.attemptSyncAccountKey = attemptSyncAccountKey();
+  const context = captureAttemptSyncContext();
+  if (!context) return false;
+  const adoption = await withAttemptOutboxAccountLock(context, () => adoptAttemptOutboxForContext(context));
+  if (adoption?.lockUnavailable) scheduleAttemptOutboxDrain("adoption-lock", 750);
+  await refreshAttemptOutboxStatus(context);
+  setupAttemptOutboxWakeups();
+  scheduleAttemptOutboxDrain("activate", 0);
+  saveSession();
+  return true;
+}
+
+function attemptOutboxRetryDelay(retries, retryAfterMs = 0, randomValue = Math.random()) {
+  const exponent = Math.max(0, Math.min(12, Number(retries || 0) - 1));
+  const baseDelay = Math.min(ATTEMPT_OUTBOX_RETRY_CAP_MS, ATTEMPT_OUTBOX_RETRY_BASE_MS * (2 ** exponent));
+  const jitter = 0.8 + (Math.max(0, Math.min(1, Number(randomValue || 0))) * 0.4);
+  return Math.min(
+    ATTEMPT_OUTBOX_RETRY_CAP_MS,
+    Math.max(Math.ceil(Number(retryAfterMs || 0)), Math.round(baseDelay * jitter))
+  );
+}
+
+function retryableAttemptSyncError(error) {
+  const status = Number(error?.status || 0);
+  return status === 0
+    || [408, 425, 429, 500, 502, 503, 504].includes(status)
+    || error?.code === "NETWORK_ERROR";
+}
+
+function scheduleAttemptOutboxDrain(reason = "scheduled", delayMs = 0) {
+  const delay = Math.max(0, Number(delayMs || 0));
+  if (attemptOutboxDrainPromise && delay === 0) {
+    attemptOutboxDrainRequested = true;
+    return;
+  }
+  const runAt = Date.now() + delay;
+  if (attemptOutboxRetryTimer && attemptOutboxRetryAt <= runAt) return;
+  if (attemptOutboxRetryTimer) window.clearTimeout(attemptOutboxRetryTimer);
+  attemptOutboxRetryAt = runAt;
+  attemptOutboxRetryTimer = window.setTimeout(() => {
+    attemptOutboxRetryTimer = null;
+    attemptOutboxRetryAt = 0;
+    void drainAttemptOutbox({ reason });
+  }, delay);
+}
+
+function applyAttemptPayloadLocally(attemptId, payload, updatedAt = new Date().toISOString()) {
+  const index = state.attempts.findIndex((attempt) => attempt.id === attemptId);
+  const current = index >= 0 ? attemptPayloadFromValue(state.attempts[index]) : null;
+  const merged = current ? mergeAttemptPayloadLosslessly(current, payload) : attemptPayloadFromValue(payload);
+  const normalized = normalizeAttempt({ id: attemptId, ...merged, updatedAt });
+  if (index >= 0) state.attempts[index] = normalized;
+  else state.attempts.unshift(normalized);
+  state.dashboardLoaded = true;
+  return normalized;
+}
+
+async function overlayPendingAttemptMutations(context = captureAttemptSyncContext()) {
+  if (!context || !isAttemptSyncContextCurrent(context)) return [];
+  const rows = await listAttemptOutboxRecords(context);
+  if (!isAttemptSyncContextCurrent(context)) return rows;
+  rows.forEach((record) => {
+    if (!UUID_RE.test(String(record.attemptId || "")) || !isPlainObject(record.payload)) return;
+    applyAttemptPayloadLocally(record.attemptId, record.payload, new Date(Number(record.updatedAt || Date.now())).toISOString());
+  });
+  return rows;
+}
+
+async function attemptOutboxApiJson(path, options, context) {
+  const controller = new AbortController();
+  const timeout = window.setTimeout(() => controller.abort(), ATTEMPT_OUTBOX_REQUEST_TIMEOUT_MS);
+  try {
+    return await apiJson(path, { ...options, signal: controller.signal }, true, context.authToken);
+  } finally {
+    window.clearTimeout(timeout);
+  }
+}
+
+async function replaceAttemptConflictWithFreshMutation(record, context) {
+  const response = await attemptOutboxApiJson(
+    `/v1/attempts/${encodeURIComponent(record.attemptId)}`,
+    {},
+    context
+  );
+  const canonicalAttempt = response?.attempt;
+  if (!canonicalAttempt || String(canonicalAttempt.id || "") !== record.attemptId) {
+    const error = new Error("伺服器未能提供衝突記錄的核實版本。");
+    error.status = 409;
+    error.code = "INVALID_CONFLICT_CANONICAL";
+    throw error;
+  }
+  const canonicalPayload = attemptPayloadFromValue(canonicalAttempt);
+  const mergedPayload = mergeAttemptPayloadLosslessly(canonicalPayload, record.payload);
+  const now = Date.now();
+  const conflictNumber = Number(record.conflicts || 0) + 1;
+  const replacement = {
+    ...record,
+    mutationId: globalThis.crypto?.randomUUID?.(),
+    logicalMutationId: record.logicalMutationId || record.mutationId,
+    payload: mergedPayload,
+    status: "retry",
+    retries: Number(record.retries || 0) + 1,
+    conflicts: conflictNumber,
+    nextAttemptAt: now + attemptOutboxRetryDelay(conflictNumber, 0),
+    lastAttemptAt: now,
+    updatedAt: now,
+    lastError: "同步版本已安全合併，正等候重新提交。",
+    replacesMutationId: record.mutationId
+  };
+  if (!replacement.mutationId) throw new Error("此瀏覽器未能建立新的安全衝突重試編號。");
+  const replaced = await replaceAttemptOutboxRecord(record, replacement);
+  if (!replaced) return null;
+  attemptCanonicalPayloads.set(record.attemptId, canonicalPayload);
+  if (isAttemptSyncContextCurrent(context)) applyAttemptPayloadLocally(record.attemptId, mergedPayload);
+  scheduleAttemptOutboxDrain("conflict-merged", replacement.nextAttemptAt - now);
+  return replacement;
+}
+
+async function markAttemptOutboxRetry(record, error) {
+  const retries = Number(record.retries || 0) + 1;
+  const delay = attemptOutboxRetryDelay(retries, Number(error?.retryAfterMs || 0));
+  const retryRecord = {
+    ...record,
+    status: "retry",
+    retries,
+    nextAttemptAt: Date.now() + delay,
+    updatedAt: Date.now(),
+    lastError: String(error?.message || "暫時未能同步，系統會自動重試。")
+  };
+  await updateAttemptOutboxRecord(retryRecord);
+  scheduleAttemptOutboxDrain("retry", delay);
+  return retryRecord;
+}
+
+async function drainAttemptOutboxUnlocked(context) {
+  if (!context || !isAttemptSyncContextCurrent(context)) return { acknowledged: 0, pending: 0, blocked: true };
+  await adoptAttemptOutboxForContext(context);
+  const rows = await listAttemptOutboxRecords(context);
+  let acknowledged = 0;
+  for (const original of rows) {
+    if (!isAttemptSyncContextCurrent(context)) break;
+    if (original.status === "blocked") break;
+    const now = Date.now();
+    if (original.status === "inflight" && now - Number(original.lastAttemptAt || 0) < ATTEMPT_OUTBOX_LEASE_MS) {
+      scheduleAttemptOutboxDrain("inflight-lease", ATTEMPT_OUTBOX_LEASE_MS - (now - Number(original.lastAttemptAt || 0)));
+      break;
+    }
+    if (Number(original.nextAttemptAt || 0) > now) {
+      scheduleAttemptOutboxDrain("retry-wait", Number(original.nextAttemptAt) - now);
+      break;
+    }
+    let record = original;
+    try {
+      const canonical = attemptCanonicalPayloads.get(record.attemptId);
+      const payload = canonical
+        ? mergeAttemptPayloadLosslessly(canonical, record.payload)
+        : attemptPayloadFromValue(record.payload);
+      record = {
+        ...record,
+        payload,
+        status: "inflight",
+        lastAttemptAt: now,
+        updatedAt: now,
+        lastError: ""
+      };
+      await updateAttemptOutboxRecord(record);
+      const response = await attemptOutboxApiJson(`/v1/attempts/${encodeURIComponent(record.attemptId)}`, {
+        method: "PUT",
+        body: JSON.stringify(payload)
+      }, context);
+      const saved = normalizeAttempt(response?.attempt || { id: record.attemptId, ...payload });
+      if (saved.id !== record.attemptId || saved.lessonId !== payload.lessonId) {
+        throw new Error("伺服器回傳了另一份練習記錄。");
+      }
+      const savedPayload = attemptPayloadFromValue(saved);
+      attemptCanonicalPayloads.set(record.attemptId, savedPayload);
+      await deleteAttemptOutboxRecord(record);
+      acknowledged += 1;
+      if (isAttemptSyncContextCurrent(context)) applyAttemptPayloadLocally(record.attemptId, savedPayload, saved.updatedAt);
+    } catch (error) {
+      if (Number(error?.status || 0) === 409) {
+        try {
+          await replaceAttemptConflictWithFreshMutation(record, context);
+        } catch (conflictError) {
+          await markAttemptOutboxRetry(record, conflictError);
+        }
+        break;
+      }
+      if (retryableAttemptSyncError(error)) {
+        await markAttemptOutboxRetry(record, error);
+        break;
+      }
+      if (Number(error?.status || 0) === 401) {
+        await updateAttemptOutboxRecord({
+          ...record,
+          status: "auth_required",
+          updatedAt: Date.now(),
+          lastError: "登入時段已結束；記錄仍安全保留在此裝置，重新登入同一帳戶後會再同步。"
+        });
+        break;
+      }
+      await updateAttemptOutboxRecord({
+        ...record,
+        status: "blocked",
+        updatedAt: Date.now(),
+        lastError: String(error?.message || "待同步記錄需要檢查。")
+      });
+      break;
+    }
+  }
+  const pending = isAttemptSyncContextCurrent(context)
+    ? await refreshAttemptOutboxStatus(context)
+    : rows.length - acknowledged;
+  return { acknowledged, pending, blocked: false };
+}
+
+async function drainAttemptOutbox(options = {}) {
+  if (attemptOutboxDrainPromise) return attemptOutboxDrainPromise;
+  const context = options.context || captureAttemptSyncContext();
+  if (!context) return { acknowledged: 0, pending: 0, blocked: true };
+  attemptOutboxDrainPromise = withAttemptOutboxAccountLock(
+    context,
+    () => drainAttemptOutboxUnlocked(context)
+  ).then((result) => {
+    if (result?.lockUnavailable) scheduleAttemptOutboxDrain("single-writer-lock", 750);
+    return result;
+  }).catch((error) => {
+    console.warn("Phrasal Verb attempt outbox drain failed", error);
+    if (isAttemptSyncContextCurrent(context)) {
+      state.attemptOutboxLastError = String(error?.message || error || "待同步記錄暫時未能處理。");
+      renderAttemptOutboxStatus();
+      scheduleAttemptOutboxDrain("drain-error", attemptOutboxRetryDelay(1));
+    }
+    return { acknowledged: 0, pending: state.attemptOutboxPending, blocked: true };
+  }).finally(() => {
+    attemptOutboxDrainPromise = null;
+    if (attemptOutboxDrainRequested) {
+      attemptOutboxDrainRequested = false;
+      scheduleAttemptOutboxDrain("follow-up", 0);
+    }
+  });
+  return attemptOutboxDrainPromise;
+}
+
+function setupAttemptOutboxWakeups() {
+  if (attemptOutboxWakeupsBound) return;
+  attemptOutboxWakeupsBound = true;
+  window.addEventListener("online", () => scheduleAttemptOutboxDrain("online", 0));
+  window.addEventListener("focus", () => scheduleAttemptOutboxDrain("focus", 0));
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") scheduleAttemptOutboxDrain("visibility", 0);
+  });
+  try { void navigator.storage?.persist?.(); } catch { /* IndexedDB remains the durable source of truth. */ }
+}
+
 async function loadAllAttempts(authToken = state.authToken) {
   const rows = [];
   const seen = new Set();
@@ -712,6 +1597,9 @@ async function loadDashboardData({ force = false } = {}) {
   state.attempts = (Array.isArray(attemptPayload?.attempts) ? attemptPayload.attempts : [])
     .map(normalizeAttempt)
     .filter((attempt) => attempt.id && getLesson(attempt.lessonId));
+  attemptCanonicalPayloads.clear();
+  state.attempts.forEach((attempt) => attemptCanonicalPayloads.set(attempt.id, attemptPayloadFromValue(attempt)));
+  await overlayPendingAttemptMutations();
   state.attemptHistoryComplete = attemptPayload?.complete !== false;
   state.bookmarks = (Array.isArray(bookmarkPayload?.bookmarks) ? bookmarkPayload.bookmarks : [])
     .map(normalizeBookmark)
@@ -2169,6 +3057,8 @@ async function persistExercise({ keepalive = false } = {}) {
   const operationExercise = state.exercise;
   const operationUserId = String(state.user.id || "");
   const operationAuthToken = String(state.authToken || "");
+  if (!state.attemptSyncEpoch) state.attemptSyncEpoch = newAttemptSyncEpoch();
+  const operationSyncEpoch = String(state.attemptSyncEpoch);
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   const attemptId = operationExercise.id;
@@ -2187,20 +3077,30 @@ async function persistExercise({ keepalive = false } = {}) {
       completedAt: operationExercise.completedAt || null,
       result: serializeExerciseResult(operationExercise)
     };
-    const response = await apiJson(`/v1/attempts/${encodeURIComponent(attemptId)}`, {
-      method: "PUT",
-      body: JSON.stringify(payload),
-      keepalive
-    }, true, operationAuthToken);
-    const saved = normalizeAttempt(response?.attempt || { id: attemptId, ...payload });
+    let context = captureAttemptSyncContext();
+    if (!context) {
+      const activated = await activateAttemptSyncContext();
+      context = activated ? captureAttemptSyncContext() : null;
+    }
+    if (
+      !context
+      || context.studentId !== operationUserId
+      || context.authToken !== operationAuthToken
+      || context.syncEpoch !== operationSyncEpoch
+    ) throw new Error("登入帳戶已變更，這次練習記錄沒有被放入另一個帳戶的同步佇列。");
+    const canonical = attemptCanonicalPayloads.get(attemptId);
+    const safePayload = canonical ? mergeAttemptPayloadLosslessly(canonical, payload) : payload;
+    const record = createAttemptOutboxRecord(attemptId, safePayload, context, keepalive ? "page-lifecycle" : "exercise");
+    const durableRecord = await trackAttemptOutboxPersistence(enqueueAttemptOutboxRecord(record));
     if (
       String(state.user?.id || "") !== operationUserId
       || String(state.authToken || "") !== operationAuthToken
-    ) return;
-    const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
-    if (index >= 0) state.attempts[index] = saved;
-    else state.attempts.unshift(saved);
-    state.dashboardLoaded = true;
+      || String(state.attemptSyncEpoch || "") !== operationSyncEpoch
+    ) return { durable: true, pending: true };
+    applyAttemptPayloadLocally(attemptId, durableRecord.payload);
+    const pending = await refreshAttemptOutboxStatus(context);
+    scheduleAttemptOutboxDrain("exercise-save", 0);
+    return { durable: true, pending: pending > 0 };
   } finally {
     if (
       String(state.user?.id || "") === operationUserId
@@ -2292,14 +3192,19 @@ async function submitExercise(kind) {
   state.saveInFlight = true;
   renderExercisePage(lesson, { preserveScroll: true });
   try {
-    await Promise.all([
-      persistExercise(),
-      ...(bookmarkChanged ? [saveBookmarks()] : [])
-    ]);
-    showToast(remaining ? `已檢查 ${targets.length} 題。` : "全部題目完成，記錄已儲存！");
+    const attemptSave = await persistExercise();
+    if (bookmarkChanged) {
+      saveBookmarks().catch((error) => console.warn("Phrasal Verb bookmark answer upgrade failed", error));
+    }
+    const pendingCopy = attemptSave?.pending
+      ? "已安全儲存在此裝置，正在同步。"
+      : "記錄已安全同步。";
+    showToast(remaining
+      ? `已檢查 ${targets.length} 題；${pendingCopy}`
+      : `全部題目完成；${pendingCopy}`);
   } catch (error) {
     console.warn("Phrasal Verb System attempt save failed", error);
-    showToast("答案已檢查，但未能同步練習記錄；請稍後再試。", "error");
+    showToast("答案已檢查，但此裝置未能建立安全待同步記錄；請保持頁面開啟並稍後再試。", "error");
   } finally {
     state.saveInFlight = false;
   }
@@ -2327,7 +3232,7 @@ async function startCorrectionRound() {
     await persistExercise();
   } catch (error) {
     console.warn("Correction round save failed", error);
-    showToast("已進入錯題改正，但暫時未能同步記錄。", "error");
+    showToast("已進入錯題改正，但此裝置未能建立安全待同步記錄；請保持頁面開啟並稍後再試。", "error");
   }
   document.querySelector(".exercise-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
@@ -2342,7 +3247,7 @@ async function exitCorrectionRound() {
     await persistExercise();
   } catch (error) {
     console.warn("Correction round exit save failed", error);
-    showToast("已返回其餘題目，但暫時未能同步記錄。", "error");
+    showToast("已返回其餘題目，但此裝置未能建立安全待同步記錄；請保持頁面開啟並稍後再試。", "error");
   }
 }
 
@@ -2408,7 +3313,12 @@ async function startNextRound() {
     state.exercise.drafts[question.id] = "";
   }
   renderExercisePage(lesson);
-  try { await persistExercise(); } catch (error) { console.warn("Next round save failed", error); }
+  try {
+    await persistExercise();
+  } catch (error) {
+    console.warn("Next round save failed", error);
+    showToast("已開始下一組題目，但此裝置未能建立安全待同步記錄；請保持頁面開啟並稍後再試。", "error");
+  }
   document.querySelector(".exercise-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -2829,9 +3739,11 @@ async function checkHealth() {
   try {
     const response = await fetch(`${workerBaseUrl()}/v1/health`, { credentials: "omit" });
     if (!response.ok) throw new Error("Health unavailable");
-    setConnection("已連線", "online");
+    if (state.user?.role === "student" && state.attemptOutboxPending) renderAttemptOutboxStatus();
+    else setConnection("已連線", "online");
   } catch {
-    setConnection("服務連接中", "checking");
+    if (state.user?.role === "student" && state.attemptOutboxPending) renderAttemptOutboxStatus();
+    else setConnection("服務連接中", "checking");
   }
 }
 
@@ -2850,7 +3762,21 @@ async function initialise() {
     showView("login");
     return;
   }
+  if (state.user.role === "student") {
+    try {
+      if (!(await activateAttemptSyncContext())) throw new Error("安全待同步記錄未能啟用。");
+    } catch (error) {
+      console.warn("Phrasal Verb durable attempt protection failed", error);
+      window.EdmundSystemNav?.forgetStudentSession();
+      clearSession();
+      setConnection("安全儲存未能啟用", "error");
+      setStatus(elements.loginStatus, "此瀏覽器未能啟用安全待同步記錄；為保護進度，請勿使用私密瀏覽，並重新整理後再登入。", "error");
+      showView("login");
+      return;
+    }
+  }
   setConnection("已安全連接", "online");
+  if (state.user.role === "student") renderAttemptOutboxStatus();
   if (state.user.role === "admin") await openAdminDashboard();
   else {
     await openDashboard();

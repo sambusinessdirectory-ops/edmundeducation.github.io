@@ -18,7 +18,7 @@
       "name": "ATTEMPT_WRITE_RATE_LIMITER",
       "namespace_id": "914072037",
       "simple": {
-        "limit": 30,
+        "limit": 120,
         "period": 60
       }
     },

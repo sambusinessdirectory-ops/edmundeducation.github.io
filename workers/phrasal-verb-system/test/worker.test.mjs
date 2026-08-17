@@ -615,6 +615,53 @@ test("bookmark writes fail closed when the dedicated limiter rejects them", asyn
   assert.equal(replaceCalls, 0);
 });
 
+test("attempt write throttling is retryable and never reaches Supabase", async t => {
+  let upsertCalls = 0;
+  installFetch(t, async input => {
+    const functionName = rpcName(input);
+    if (functionName === "phrasal_verb_system_student_profile") return jsonResponse(studentProfile());
+    if (functionName === "phrasal_verb_system_upsert_attempt") upsertCalls += 1;
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+
+  const response = await worker.fetch(attemptRequest(attemptPayload()), environment({
+    ATTEMPT_WRITE_RATE_LIMITER: {
+      async limit() {
+        return { success: false };
+      }
+    }
+  }));
+
+  assert.equal(response.status, 429);
+  assert.equal(response.headers.get("Retry-After"), "5");
+  assert.match(response.headers.get("Access-Control-Expose-Headers") || "", /\bRetry-After\b/i);
+  assert.equal((await response.json()).code, "TOO_MANY_ATTEMPT_WRITES");
+  assert.equal(upsertCalls, 0);
+});
+
+test("attempt limiter outages return a bounded retry interval", async t => {
+  let upsertCalls = 0;
+  installFetch(t, async input => {
+    const functionName = rpcName(input);
+    if (functionName === "phrasal_verb_system_student_profile") return jsonResponse(studentProfile());
+    if (functionName === "phrasal_verb_system_upsert_attempt") upsertCalls += 1;
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+
+  const response = await worker.fetch(attemptRequest(attemptPayload()), environment({
+    ATTEMPT_WRITE_RATE_LIMITER: {
+      async limit() {
+        throw new Error("limiter unavailable");
+      }
+    }
+  }));
+
+  assert.equal(response.status, 503);
+  assert.equal(response.headers.get("Retry-After"), "5");
+  assert.equal((await response.json()).code, "RATE_LIMIT_UNAVAILABLE");
+  assert.equal(upsertCalls, 0);
+});
+
 test("attempt byte validation matches PostgreSQL jsonb spacing", async t => {
   let upsertCalled = false;
   installFetch(t, async input => {

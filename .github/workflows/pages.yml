@@ -43,6 +43,8 @@ jobs:
             supabase-phrasal-verb-system.sql \
             supabase-phrasal-verb-system-lessons-36-329.sql
           node --test tools/test-phrasal-verb-system.mjs
+          node --test tools/test-phrasal-verb-attempt-outbox.mjs
+          node tools/test-phrasal-verb-stale-snapshot-migration.mjs
           node workers/phrasal-verb-system/scripts/verify-catalog.mjs
           npm test --prefix workers/phrasal-verb-system
 

@@ -641,6 +641,130 @@ begin
 end;
 $$;
 
+-- Return true only when every progress fact in a delayed candidate snapshot is
+-- already represented by the canonical attempt. This lets the upsert RPC make
+-- fully dominated stale retries idempotent without dropping disjoint work.
+create or replace function public._phrasal_verb_system_snapshot_is_dominated(
+  p_existing jsonb,
+  p_candidate jsonb
+)
+returns boolean
+language plpgsql
+immutable
+set search_path = ''
+as $$
+declare
+  v_candidate_round_count integer;
+  v_existing_round_count integer;
+  v_index integer;
+  v_question_id text;
+  v_candidate_question jsonb;
+  v_existing_question jsonb;
+  v_candidate_status text;
+  v_existing_status text;
+begin
+  if p_existing is null
+    or p_candidate is null
+    or jsonb_typeof(p_existing) <> 'object'
+    or jsonb_typeof(p_candidate) <> 'object'
+    or jsonb_typeof(p_existing -> 'round') <> 'number'
+    or jsonb_typeof(p_candidate -> 'round') <> 'number'
+    or (p_candidate ->> 'round')::integer > (p_existing ->> 'round')::integer
+    or jsonb_typeof(p_existing -> 'correctIds') <> 'array'
+    or jsonb_typeof(p_candidate -> 'correctIds') <> 'array'
+    or jsonb_typeof(p_existing -> 'questionState') <> 'object'
+    or jsonb_typeof(p_candidate -> 'questionState') <> 'object'
+    or jsonb_typeof(p_existing -> 'rounds') <> 'array'
+    or jsonb_typeof(p_candidate -> 'rounds') <> 'array'
+  then
+    return false;
+  end if;
+
+  if exists (
+    select 1
+    from jsonb_array_elements_text(p_candidate -> 'correctIds')
+      as candidate_correct(question_id)
+    where not (p_existing -> 'correctIds' ? candidate_correct.question_id)
+  ) then
+    return false;
+  end if;
+
+  v_candidate_round_count := jsonb_array_length(p_candidate -> 'rounds');
+  v_existing_round_count := jsonb_array_length(p_existing -> 'rounds');
+  if v_candidate_round_count > v_existing_round_count then
+    return false;
+  end if;
+
+  if v_candidate_round_count > 0 then
+    for v_index in 0..v_candidate_round_count - 1 loop
+      if p_candidate -> 'rounds' -> v_index
+        is distinct from p_existing -> 'rounds' -> v_index
+      then
+        return false;
+      end if;
+    end loop;
+  end if;
+
+  for v_question_id in
+    select key_name
+    from jsonb_object_keys(p_candidate -> 'questionState') as key_row(key_name)
+  loop
+    if not (p_existing -> 'questionState' ? v_question_id) then
+      return false;
+    end if;
+
+    v_candidate_question := p_candidate -> 'questionState' -> v_question_id;
+    v_existing_question := p_existing -> 'questionState' -> v_question_id;
+    v_candidate_status := coalesce(v_candidate_question ->> 'status', '');
+    v_existing_status := coalesce(v_existing_question ->> 'status', '');
+
+    if (v_candidate_status = 'correct' and v_existing_status <> 'correct')
+      or (v_candidate_status = 'wrong' and v_existing_status = 'pending')
+      or (
+        v_candidate_status = v_existing_status
+        and coalesce(v_candidate_question ->> 'lastAnswer', '')
+          <> coalesce(v_existing_question ->> 'lastAnswer', '')
+        and v_candidate_round_count >= v_existing_round_count
+      )
+      or (
+        coalesce((v_candidate_question ->> 'reveal')::boolean, false)
+        and not coalesce((v_existing_question ->> 'reveal')::boolean, false)
+      )
+    then
+      return false;
+    end if;
+  end loop;
+
+  if p_candidate ? 'correctionIds'
+    and exists (
+      select 1
+      from jsonb_array_elements_text(p_candidate -> 'correctionIds')
+        as candidate_correction(question_id)
+      where not (
+        coalesce(p_existing -> 'correctionIds', '[]'::jsonb)
+          ? candidate_correction.question_id
+      )
+        and not (p_existing -> 'correctIds' ? candidate_correction.question_id)
+    )
+  then
+    return false;
+  end if;
+
+  if p_candidate ? 'collapsedCorrectIds'
+    and exists (
+      select 1
+      from jsonb_array_elements_text(p_candidate -> 'collapsedCorrectIds')
+        as candidate_collapsed(question_id)
+      where not (p_existing -> 'correctIds' ? candidate_collapsed.question_id)
+    )
+  then
+    return false;
+  end if;
+
+  return true;
+end;
+$$;
+
 create or replace function public._phrasal_verb_system_bookmark_payload_valid(p_bookmarks jsonb)
 returns boolean
 language plpgsql
@@ -1133,9 +1257,11 @@ security definer
 set search_path = ''
 as $$
 declare
+  -- PHRASAL_STALE_SNAPSHOT_NOOP_V1
   v_existing public.phrasal_verb_system_attempts%rowtype;
   v_now timestamptz := clock_timestamp();
   v_started_at timestamptz;
+  v_moves_backwards boolean;
 begin
   if not exists (
     select 1
@@ -1202,7 +1328,7 @@ begin
     -- Completed attempts are immutable. Returning the existing row makes a
     -- retry after a lost response idempotent without permitting rewrites.
     if v_existing.status <> 'completed' then
-      if p_round_number < v_existing.round_number
+      v_moves_backwards := p_round_number < v_existing.round_number
         or p_correct_count < v_existing.correct_count
         or p_duration_ms < v_existing.duration_ms
         or exists (
@@ -1210,25 +1336,40 @@ begin
           from jsonb_array_elements_text(v_existing.result -> 'correctIds')
             as old_id(question_id)
           where not (p_result -> 'correctIds' ? old_id.question_id)
-        )
-      then
-        raise exception 'Attempt progress cannot move backwards'
-          using errcode = '22023';
-      end if;
+        );
 
-      update public.phrasal_verb_system_attempts attempt
-      set status = p_status,
-          round_number = p_round_number,
-          correct_count = p_correct_count,
-          total_count = p_total_count,
-          duration_ms = p_duration_ms,
-          result = p_result,
-          completed_at = case
-            when p_status = 'completed' then greatest(v_now, v_existing.started_at)
-            else null
-          end,
-          updated_at = v_now
-      where attempt.id = p_id;
+      if v_moves_backwards then
+        if p_status = 'in_progress'
+          and p_round_number <= v_existing.round_number
+          and p_correct_count <= v_existing.correct_count
+          and p_duration_ms <= v_existing.duration_ms
+          and public._phrasal_verb_system_snapshot_is_dominated(
+            v_existing.result,
+            p_result
+          )
+        then
+          -- The canonical row already contains every fact in this delayed
+          -- retry. Preserve it byte-for-byte, including updated_at.
+          null;
+        else
+          raise exception 'Attempt progress cannot move backwards'
+            using errcode = '22023';
+        end if;
+      else
+        update public.phrasal_verb_system_attempts attempt
+        set status = p_status,
+            round_number = p_round_number,
+            correct_count = p_correct_count,
+            total_count = p_total_count,
+            duration_ms = p_duration_ms,
+            result = p_result,
+            completed_at = case
+              when p_status = 'completed' then greatest(v_now, v_existing.started_at)
+              else null
+            end,
+            updated_at = v_now
+        where attempt.id = p_id;
+      end if;
     end if;
   else
     if (
@@ -1721,6 +1862,8 @@ revoke all on function public._phrasal_verb_system_result_valid(text, jsonb)
 revoke all on function public._phrasal_verb_system_question_count(text)
   from public, anon, authenticated, service_role;
 revoke all on function public._phrasal_verb_system_question_id_valid(text, text)
+  from public, anon, authenticated, service_role;
+revoke all on function public._phrasal_verb_system_snapshot_is_dominated(jsonb, jsonb)
   from public, anon, authenticated, service_role;
 revoke all on function public._phrasal_verb_system_bookmark_payload_valid(jsonb)
   from public, anon, authenticated, service_role;

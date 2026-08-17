@@ -148,7 +148,8 @@ assert.ok(
 );
 
 const mutationWriter = sourceBetween("function writeJson", "function advanceFlashcardSyncEpoch");
-assert.match(mutationWriter, /if \(!flashcardMutationAllowed\(\)\)/);
+assert.match(mutationWriter, /if \(!flashcardMutationAllowed\(context, key\)\)/);
+assert.match(mutationWriter, /supabaseState\.outboxBlockedKeys\.has\(key\)/);
 assert.match(mutationWriter, /return false/);
 assert.match(mutationWriter, /createFlashcardOutboxMutation/);
 assert.match(mutationWriter, /await enqueueFlashcardOutboxMutation\(mutation\)/);
@@ -167,15 +168,18 @@ assert.match(isolatedReads, /SUPABASE_SYNC_KEYS\.includes\(key\)[\s\S]*cloneFlas
 assert.match(source, /const FLASHCARD_OUTBOX_DB = "edmund-flashcard-sync-outbox";/);
 assert.match(source, /const FLASHCARD_OUTBOX_STORE = "mutations";/);
 const outboxRecord = sourceBetween("function createFlashcardOutboxMutation", "function flashcardOutboxOwnerMatches");
-for (const field of ["mutationId", "logicalMutationId", "owner", "accountKey", "studentId", "studentName", "syncEpoch", "key", "payload", "baseValue", "baseChecksum", "expectedVersion", "createdAt", "retries", "status", "nextAttemptAt"]) {
+for (const field of ["mutationId", "logicalMutationId", "logicalMutationIds", "owner", "accountKey", "studentId", "studentName", "syncEpoch", "key", "payload", "baseValue", "baseChecksum", "expectedVersion", "createdAt", "retries", "status", "nextAttemptAt"]) {
   assert.match(outboxRecord, new RegExp(`\\b${field}:`), `Missing durable outbox field: ${field}`);
 }
 assert.match(outboxRecord, /transport: usesV2 \? "v2" : "v1-rollout-fallback"/);
 
 const outboxPersistence = sourceBetween("async function persistFlashcardOutboxMutation", "async function listFlashcardOutboxMutations");
-assert.match(outboxPersistence, /\.add\(record\)/);
-assert.match(outboxPersistence, /get\(record\.mutationId\)/);
+assert.match(outboxPersistence, /store\.getAll\(\)/);
+assert.match(outboxPersistence, /createCoalescedFlashcardOutboxMutation/);
+assert.match(outboxPersistence, /store\.add\(persistedRecord\)/);
+assert.match(outboxPersistence, /get\(persistedRecord\.mutationId\)/);
 assert.match(outboxPersistence, /verified\.owner !== record\.owner/);
+assert.match(outboxPersistence, /supersededRows\.some\(Boolean\)/);
 
 const atomicSupersession = extractFunction("supersedeFlashcardOutboxMutation");
 assert.match(atomicSupersession, /store\.get\(previousMutationId\)/);
@@ -304,8 +308,271 @@ assert.equal(genericRebaseRuntime(
 assert.equal(genericRebaseRuntime([1], [2], [1]).safe, true);
 assert.equal(genericRebaseRuntime([1], [2], [3]).safe, false, "Concurrent array edits require review");
 
+const progressRebaseRuntime = vm.runInNewContext(`(() => {
+  ${extractFunction("cloneFlashcardSyncPayload")}
+  ${extractFunction("flashcardJsonEqual")}
+  ${extractFunction("isPlainFlashcardStateObject")}
+  ${extractFunction("flashcardProgressAttemptId")}
+  ${extractFunction("flashcardProgressNumber")}
+  ${extractFunction("flashcardProgressSnapshotStrength")}
+  ${extractFunction("compareFlashcardProgressSnapshotStrength")}
+  ${extractFunction("mergeFlashcardProgressMap")}
+  ${extractFunction("mergeFlashcardProgressEntry")}
+  ${extractFunction("rebaseFlashcardProgressState")}
+  return rebaseFlashcardProgressState;
+})()`);
+const progressKey = "Hayley::dse";
+const baseProgressEntry = {
+  attemptId: "attempt-a",
+  roundNumber: 1,
+  roundQueue: [0, 1, 2],
+  initialQueue: [0, 1, 2],
+  currentPosition: 0,
+  answers: { 0: "red" },
+  outcomes: { 0: "red" },
+  outcomeTimes: { 0: 100 },
+  cardAttemptCounts: { 0: 1 },
+  elapsedMs: 1000,
+  startedAt: 10,
+  savedAt: 100
+};
+const localProgressEntry = {
+  ...baseProgressEntry,
+  roundNumber: 2,
+  roundQueue: [0],
+  currentPosition: 0,
+  answers: { 0: "green" },
+  outcomes: { 0: "green" },
+  outcomeTimes: { 0: 300 },
+  cardAttemptCounts: { 0: 2 },
+  elapsedMs: 3000,
+  savedAt: 300
+};
+const serverProgressEntry = {
+  ...baseProgressEntry,
+  currentPosition: 2,
+  answers: { 0: "red", 2: "green" },
+  outcomes: { 0: "red", 2: "green" },
+  outcomeTimes: { 0: 200, 2: 250 },
+  cardAttemptCounts: { 0: 1, 2: 1 },
+  elapsedMs: 2500,
+  savedAt: 250
+};
+const mergedProgress = progressRebaseRuntime(
+  { [progressKey]: baseProgressEntry },
+  { [progressKey]: localProgressEntry },
+  { [progressKey]: serverProgressEntry }
+);
+assert.equal(mergedProgress.safe, true, "The same practice attempt must recover monotonically");
+assert.equal(mergedProgress.value[progressKey].roundNumber, 2);
+assert.deepEqual({ ...mergedProgress.value[progressKey].answers }, { 0: "green" }, "A newer round must not inherit stale answers from the previous round");
+assert.deepEqual({ ...mergedProgress.value[progressKey].outcomes }, { 0: "green", 2: "green" });
+assert.deepEqual({ ...mergedProgress.value[progressKey].cardAttemptCounts }, { 0: 2, 2: 1 });
+assert.equal(mergedProgress.value[progressKey].elapsedMs, 3000);
+assert.equal(progressRebaseRuntime(
+  { [progressKey]: baseProgressEntry },
+  { [progressKey]: { ...localProgressEntry, attemptId: "attempt-local" } },
+  { [progressKey]: { ...serverProgressEntry, attemptId: "attempt-server" } }
+).safe, false, "Different attempt IDs must remain quarantined");
+assert.equal(progressRebaseRuntime(
+  { [progressKey]: baseProgressEntry },
+  {},
+  { [progressKey]: serverProgressEntry }
+).safe, false, "Completion/deletion racing with an edit must remain quarantined");
+
+const coalesceRuntime = vm.runInNewContext(`(() => {
+  const ATTEMPTS_KEY = "attempts";
+  const PROGRESS_KEY = "edmundFlashcardProgress";
+  const supabaseState = { v2Availability: "available" };
+  let uuidSequence = 0;
+  const window = { crypto: { randomUUID: () => {
+    uuidSequence += 1;
+    return \`ffffffff-ffff-4fff-8fff-\${String(uuidSequence).padStart(12, "0")}\`;
+  } } };
+  ${extractFunction("normalizedLegacyOwnerName")}
+  ${extractFunction("cloneFlashcardSyncPayload")}
+  ${extractFunction("flashcardJsonEqual")}
+  ${extractFunction("isPlainFlashcardStateObject")}
+  ${extractFunction("rebaseFlashcardGenericState")}
+  ${extractFunction("flashcardProgressAttemptId")}
+  ${extractFunction("flashcardProgressNumber")}
+  ${extractFunction("flashcardProgressSnapshotStrength")}
+  ${extractFunction("compareFlashcardProgressSnapshotStrength")}
+  ${extractFunction("mergeFlashcardProgressMap")}
+  ${extractFunction("mergeFlashcardProgressEntry")}
+  ${extractFunction("rebaseFlashcardProgressState")}
+  ${extractFunction("flashcardAttemptIdentity")}
+  ${extractFunction("flashcardAttemptStrength")}
+  ${extractFunction("compareFlashcardAttemptStrength")}
+  ${extractFunction("mergeFlashcardAttempts")}
+  ${extractFunction("attemptsForBackup")}
+  ${extractFunction("flashcardOutboxMutationId")}
+  ${extractFunction("flashcardOutboxRecordRequiresResolution")}
+  ${extractFunction("flashcardOutboxLogicalMutationIds")}
+  ${extractFunction("flashcardAttemptsPayloadBelongsToRecord")}
+  ${extractFunction("reconcileFlashcardStateMutation")}
+  ${extractFunction("createCoalescedFlashcardOutboxMutation")}
+  return createCoalescedFlashcardOutboxMutation;
+})()`);
+
+function queuedRecord(index, key, payload, baseValue = []) {
+  const mutationId = `00000000-0000-4000-8000-${String(index).padStart(12, "0")}`;
+  return {
+    mutationId,
+    logicalMutationId: mutationId,
+    logicalMutationIds: [mutationId],
+    owner: "student:id::hayley",
+    transportType: "student",
+    studentId: "id",
+    studentName: "Hayley",
+    key,
+    payload,
+    baseValue,
+    expectedVersion: 4,
+    baseChecksum: "v4",
+    order: index,
+    createdAt: index,
+    status: "queued"
+  };
+}
+
+const attemptBacklog = Array.from({ length: 195 }, (_, index) => queuedRecord(
+  index + 1,
+  "attempts",
+  [{ id: `local-${index + 1}`, studentName: "Hayley", answeredCount: index + 1 }]
+));
+const coalescedBacklog = coalesceRuntime(
+  attemptBacklog,
+  [{ id: "server", studentName: "Hayley", answeredCount: 5 }],
+  9,
+  "canonical-v9"
+);
+assert.ok(coalescedBacklog, "A 195-row attempts backlog must be coalesced safely");
+assert.equal(coalescedBacklog.payload.length, 196, "Coalescing must retain every local attempt and the server attempt");
+assert.equal(coalescedBacklog.logicalMutationIds.length, 195, "Every logical save must remain traceable after coalescing");
+assert.equal(coalescedBacklog.expectedVersion, 9);
+assert.equal(coalescedBacklog.baseChecksum, "canonical-v9");
+assert.ok(!attemptBacklog.some(record => record.mutationId === coalescedBacklog.mutationId));
+
+const genericChain = coalesceRuntime([
+  queuedRecord(201, "progress", { local: 2, external: 1 }, { local: 1, external: 1 }),
+  queuedRecord(202, "progress", { local: 2, external: 3 }, { local: 2, external: 1 })
+], { local: 1, external: 1 }, 4, "progress-v4");
+assert.deepEqual({ ...genericChain.payload }, { local: 2, external: 3 });
+assert.equal(coalesceRuntime([
+  queuedRecord(203, "progress", { value: 2 }, { value: 1 }),
+  queuedRecord(204, "progress", { value: 3 }, { value: 1 })
+], { value: 1 }, 4, "progress-v4"), null, "Overlapping generic snapshots must not be coalesced");
+assert.equal(coalesceRuntime([
+  queuedRecord(205, "attempts", [{ id: "a", studentName: "Hayley" }]),
+  queuedRecord(206, "progress", { value: 2 }, { value: 1 })
+], [], 4, "mixed-v4"), null, "Different state keys must never be coalesced together");
+
+const terminalRecoveryRuntime = vm.runInNewContext(`(() => {
+  const ATTEMPTS_KEY = "attempts";
+  const PROGRESS_KEY = "edmundFlashcardProgress";
+  const FLASHCARD_TERMINAL_RECOVERY_CODES = new Set(["version_conflict", "request_id_reuse"]);
+  const supabaseState = { v2Availability: "available" };
+  let uuidSequence = 0;
+  const window = { crypto: { randomUUID: () => {
+    uuidSequence += 1;
+    return \`eeeeeeee-eeee-4eee-8eee-\${String(uuidSequence).padStart(12, "0")}\`;
+  } } };
+  const flashcardStateVersions = new Map([[ATTEMPTS_KEY, 11], ["progress", 7], [PROGRESS_KEY, 8]]);
+  const flashcardStateChecksums = new Map([[ATTEMPTS_KEY, "attempts-v11"], ["progress", "progress-v7"], [PROGRESS_KEY, "saved-progress-v8"]]);
+  const flashcardCanonicalValues = new Map([
+    [ATTEMPTS_KEY, [{ id: "server", studentName: "Hayley", answeredCount: 5 }]],
+    ["progress", { local: 1, external: 2 }],
+    [PROGRESS_KEY, { [${JSON.stringify("Hayley::dse")}]: ${JSON.stringify(serverProgressEntry)} }]
+  ]);
+  ${extractFunction("cloneFlashcardSyncPayload")}
+  ${extractFunction("flashcardIntegrityError")}
+  ${extractFunction("flashcardStateVersion")}
+  ${extractFunction("flashcardStateChecksum")}
+  ${extractFunction("flashcardCanonicalValue")}
+  ${extractFunction("flashcardJsonEqual")}
+  ${extractFunction("isPlainFlashcardStateObject")}
+  ${extractFunction("rebaseFlashcardGenericState")}
+  ${extractFunction("flashcardProgressAttemptId")}
+  ${extractFunction("flashcardProgressNumber")}
+  ${extractFunction("flashcardProgressSnapshotStrength")}
+  ${extractFunction("compareFlashcardProgressSnapshotStrength")}
+  ${extractFunction("mergeFlashcardProgressMap")}
+  ${extractFunction("mergeFlashcardProgressEntry")}
+  ${extractFunction("rebaseFlashcardProgressState")}
+  ${extractFunction("flashcardAttemptIdentity")}
+  ${extractFunction("flashcardAttemptStrength")}
+  ${extractFunction("compareFlashcardAttemptStrength")}
+  ${extractFunction("mergeFlashcardAttempts")}
+  ${extractFunction("attemptsForBackup")}
+  ${extractFunction("flashcardOutboxMutationId")}
+  ${extractFunction("flashcardOutboxRecordRequiresResolution")}
+  ${extractFunction("flashcardOutboxLogicalMutationIds")}
+  ${extractFunction("flashcardAttemptsPayloadBelongsToRecord")}
+  ${extractFunction("reconcileFlashcardStateMutation")}
+  ${extractFunction("createFastForwardedFlashcardOutboxMutation")}
+  ${extractFunction("flashcardTerminalRecoveryCode")}
+  ${extractFunction("createRecoveredFlashcardOutboxMutation")}
+  return createRecoveredFlashcardOutboxMutation;
+})()`);
+const oldTerminalAttempt = queuedRecord(
+  301,
+  "attempts",
+  [{ id: "local", studentName: "Hayley", answeredCount: 8 }]
+);
+oldTerminalAttempt.status = "rejected";
+oldTerminalAttempt.requiresResolution = true;
+oldTerminalAttempt.receipt = { status: "rejected", code: "request_id_reuse" };
+const recoveredAttempt = terminalRecoveryRuntime(oldTerminalAttempt);
+assert.ok(recoveredAttempt);
+assert.notEqual(recoveredAttempt.mutationId, oldTerminalAttempt.mutationId, "Terminal recovery must always use a fresh request ID");
+assert.deepEqual([...recoveredAttempt.payload.map(row => row.id)], ["server", "local"]);
+assert.equal(recoveredAttempt.status, "queued");
+assert.equal(recoveredAttempt.recoveredFromTerminalCode, "request_id_reuse");
+
+const disjointTerminal = queuedRecord(
+  302,
+  "progress",
+  { local: 2, external: 1 },
+  { local: 1, external: 1 }
+);
+disjointTerminal.status = "conflict";
+disjointTerminal.requiresResolution = true;
+disjointTerminal.receipt = { status: "conflict", code: "version_conflict" };
+assert.deepEqual({ ...terminalRecoveryRuntime(disjointTerminal).payload }, { local: 2, external: 2 });
+
+const sameAttemptProgressTerminal = queuedRecord(
+  304,
+  "edmundFlashcardProgress",
+  { [progressKey]: localProgressEntry },
+  { [progressKey]: baseProgressEntry }
+);
+sameAttemptProgressTerminal.status = "conflict";
+sameAttemptProgressTerminal.requiresResolution = true;
+sameAttemptProgressTerminal.receipt = { status: "conflict", code: "version_conflict" };
+const recoveredProgress = terminalRecoveryRuntime(sameAttemptProgressTerminal);
+assert.ok(recoveredProgress, "A same-attempt progress conflict should recover under a fresh request ID");
+assert.notEqual(recoveredProgress.mutationId, sameAttemptProgressTerminal.mutationId);
+assert.equal(recoveredProgress.payload[progressKey].roundNumber, 2);
+assert.deepEqual({ ...recoveredProgress.payload[progressKey].outcomes }, { 0: "green", 2: "green" });
+
+const overlappingTerminal = {
+  ...disjointTerminal,
+  mutationId: "00000000-0000-4000-8000-000000000303",
+  logicalMutationId: "00000000-0000-4000-8000-000000000303",
+  logicalMutationIds: ["00000000-0000-4000-8000-000000000303"],
+  payload: { local: 1, external: 3 },
+  baseValue: { local: 1, external: 1 }
+};
+assert.equal(terminalRecoveryRuntime(overlappingTerminal), null, "A true generic overlap must stay quarantined");
+assert.equal(terminalRecoveryRuntime({
+  ...oldTerminalAttempt,
+  receipt: { status: "rejected", code: "invalid_request" }
+}), null, "Validation/auth-style rejections must not be auto-recovered");
+
 const queuedFastForwardRuntime = vm.runInNewContext(`(() => {
   const ATTEMPTS_KEY = "attempts";
+  const PROGRESS_KEY = "edmundFlashcardProgress";
   const supabaseState = { v2Availability: "available" };
   const window = { crypto: { randomUUID: () => "ffffffff-ffff-4fff-8fff-ffffffffffff" } };
   const flashcardStateVersions = new Map([[ATTEMPTS_KEY, 5], ["progress", 8], ["overlap", 8]]);
@@ -323,10 +590,20 @@ const queuedFastForwardRuntime = vm.runInNewContext(`(() => {
   ${extractFunction("flashcardJsonEqual")}
   ${extractFunction("isPlainFlashcardStateObject")}
   ${extractFunction("rebaseFlashcardGenericState")}
+  ${extractFunction("flashcardProgressAttemptId")}
+  ${extractFunction("flashcardProgressNumber")}
+  ${extractFunction("flashcardProgressSnapshotStrength")}
+  ${extractFunction("compareFlashcardProgressSnapshotStrength")}
+  ${extractFunction("mergeFlashcardProgressMap")}
+  ${extractFunction("mergeFlashcardProgressEntry")}
+  ${extractFunction("rebaseFlashcardProgressState")}
   ${extractFunction("flashcardAttemptIdentity")}
   ${extractFunction("flashcardAttemptStrength")}
   ${extractFunction("compareFlashcardAttemptStrength")}
   ${extractFunction("mergeFlashcardAttempts")}
+  ${extractFunction("attemptsForBackup")}
+  ${extractFunction("flashcardAttemptsPayloadBelongsToRecord")}
+  ${extractFunction("reconcileFlashcardStateMutation")}
   ${extractFunction("flashcardOutboxMutationId")}
   ${extractFunction("createFastForwardedFlashcardOutboxMutation")}
   ${extractFunction("prepareFlashcardOutboxRecordForV2")}
@@ -335,6 +612,8 @@ const queuedFastForwardRuntime = vm.runInNewContext(`(() => {
 const fastForwardedAttempts = queuedFastForwardRuntime({
   mutationId: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
   logicalMutationId: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+  studentId: "id",
+  studentName: "Hayley",
   key: "attempts",
   expectedVersion: 4,
   baseChecksum: "attempts-v4",
@@ -414,6 +693,14 @@ assert.match(drain, /receipt\.status === "conflict"/);
 assert.match(drain, /handleFlashcardOutboxConflict/);
 assert.match(drain, /receipt\.status === "rejected"/);
 assert.match(drain, /blockFlashcardOutboxMutation/);
+assert.match(drain, /flashcardOutboxTerminalBlocksAccount\(originalRecord\)/);
+assert.match(drain, /if \(globalBlock\) break;\s*continue;/);
+assert.match(drain, /outboxBlockedKeys\.has\(originalRecord\.key\)/);
+assert.ok(
+  drain.indexOf("isFlashcardAuthenticationError(error)")
+    < drain.indexOf('status: "retry"'),
+  "Authentication failures must be quarantined instead of entering the automatic retry loop"
+);
 assert.ok(
   drain.indexOf("supersedeFlashcardOutboxMutation(")
     < drain.indexOf("sendFlashcardOutboxMutation(record, context)"),
@@ -436,6 +723,50 @@ assert.match(statusGuard, /待同步/);
 assert.match(statusGuard, /離線/);
 assert.match(statusGuard, /最後同步/);
 assert.match(statusGuard, /系統已切換為唯讀/);
+assert.match(statusGuard, /同步保護已暫停/);
+assert.match(statusGuard, /系統將自動重試/);
+assert.match(statusGuard, /暫存進度同步已隔離/);
+assert.doesNotMatch(statusGuard, /同步未完成 · \$\{pending\} 項變更將自動重試/);
+
+const outboxStatusSummaryRuntime = vm.runInNewContext(`(() => {
+  const PROGRESS_KEY = "edmundFlashcardProgress";
+  const FLASHCARD_TERMINAL_RECOVERY_CODES = new Set(["version_conflict", "request_id_reuse"]);
+  ${extractFunction("flashcardOutboxRecordRequiresResolution")}
+  ${extractFunction("flashcardOutboxTerminalScope")}
+  ${extractFunction("flashcardOutboxTerminalBlocksAccount")}
+  ${extractFunction("flashcardOutboxStatusSummary")}
+  return flashcardOutboxStatusSummary;
+})()`);
+assert.equal(outboxStatusSummaryRuntime([
+  { status: "rejected", requiresResolution: true, lastError: "review" },
+  { status: "retry", lastError: "offline" }
+]).errorClass, "terminal", "Terminal recovery must never be mislabeled as an automatic retry");
+assert.equal(outboxStatusSummaryRuntime([
+  { status: "retry", lastError: "offline" }
+]).errorClass, "retryable");
+const isolatedProgressSummary = outboxStatusSummaryRuntime([
+  {
+    key: "edmundFlashcardProgress",
+    status: "conflict",
+    requiresResolution: true,
+    receipt: { status: "conflict", code: "version_conflict" },
+    lastError: "different attempt"
+  },
+  { key: "attempts", status: "queued" }
+]);
+assert.equal(isolatedProgressSummary.globalBlock, false, "An unresolved progress key must not freeze unrelated attempt synchronization");
+assert.deepEqual([...isolatedProgressSummary.blockedKeys], ["edmundFlashcardProgress"]);
+assert.equal(outboxStatusSummaryRuntime([
+  {
+    key: "edmundFlashcardProgress",
+    status: "rejected",
+    requiresResolution: true,
+    receipt: { status: "rejected", code: "invalid_request" }
+  }
+]).globalBlock, true, "Validation/auth-style terminal failures must remain account-wide fail-closed");
+assert.equal(outboxStatusSummaryRuntime([
+  { key: "attempts", status: "conflict", requiresResolution: true, receipt: { code: "version_conflict" } }
+]).globalBlock, true, "A critical attempts conflict must remain account-wide fail-closed");
 
 const enqueueOutbox = sourceBetween("function enqueueFlashcardOutboxMutation", "function setupFlashcardOutboxWakeups");
 assert.match(enqueueOutbox, /supabaseState\.outboxPersisting \+= 1/);
@@ -447,7 +778,7 @@ assert.ok(
 );
 
 const directSave = sourceBetween("async function saveSupabaseState", "function displayPreferenceOwner");
-assert.match(directSave, /!isSupabaseStateHydrated\(context\)/);
+assert.match(directSave, /!flashcardMutationAllowed\(context, key\)/);
 assert.match(directSave, /isSupabaseStateContextCurrent\(context\)/);
 assert.match(directSave, /enqueueFlashcardOutboxMutation\(mutation\)/);
 assert.doesNotMatch(directSave, /supabaseClient\.rpc/);
@@ -455,11 +786,84 @@ assert.doesNotMatch(directSave, /supabaseClient\.rpc/);
 const hydration = sourceBetween("async function loadStudentStateFromSupabase", "async function saveStudentAccessToSupabase");
 assert.match(hydration, /const requestContext = captureSupabaseStateSaveContext\(\)/);
 assert.match(hydration, /isSupabaseStateContextCurrent\(requestContext\)/);
-assert.match(hydration, /callFlashcardStateReadV2\(requestContext\)/);
+assert.match(hydration, /callFlashcardStateReadForHydration\(requestContext\)/);
 assert.match(hydration, /setFlashcardStateMetadata/);
 assert.match(hydration, /mergeFlashcardAttempts\(remoteAttempts, accountBackup\)/);
-assert.match(hydration, /await overlayFlashcardOutboxForContext\(requestContext\)/);
+assert.match(hydration, /await prepareFlashcardOutboxForHydration\(requestContext\)/);
 assert.match(hydration, /supabaseState\.hydratedOwner = requestContext\.owner/);
+assert.match(hydration, /pendingOutboxRows\.some\(flashcardOutboxTerminalBlocksAccount\)/);
+assert.doesNotMatch(hydration, /pendingOutboxRows\.some\(flashcardOutboxRecordRequiresResolution\)/);
+
+const hydrationPreparation = extractFunction("prepareFlashcardOutboxForHydration");
+assert.ok(
+  hydrationPreparation.indexOf("recoverFlashcardTerminalOutboxRows")
+    < hydrationPreparation.indexOf("coalesceFlashcardOutboxForContext"),
+  "Allowlisted terminal rows must be recovered before the backlog is coalesced"
+);
+assert.ok(
+  hydrationPreparation.indexOf("coalesceFlashcardOutboxForContext")
+    < hydrationPreparation.indexOf("overlayFlashcardOutboxForContext"),
+  "Hydration must overlay the final durable queue, not stale pre-recovery rows"
+);
+
+const terminalRecovery = extractFunction("createRecoveredFlashcardOutboxMutation");
+assert.match(terminalRecovery, /flashcardTerminalRecoveryCode/);
+assert.match(terminalRecovery, /reconcileFlashcardStateMutation\(record, canonicalValue\)/);
+assert.match(terminalRecovery, /replacement\.mutationId === record\.mutationId/);
+
+const hydrationRetryRuntime = vm.runInNewContext(`(() => {
+  const FLASHCARD_HYDRATION_READ_ATTEMPTS = 3;
+  const FLASHCARD_HYDRATION_RETRY_BASE_MS = 400;
+  const FLASHCARD_HYDRATION_RETRY_CAP_MS = 1600;
+  const supabaseState = { outboxErrorClass: "", outboxLastError: "" };
+  const window = { setTimeout: (callback) => { callback(); return 1; } };
+  let mode = "";
+  let calls = 0;
+  const updateSupabaseStatus = () => undefined;
+  const isSupabaseStateContextCurrent = () => true;
+  async function callFlashcardStateReadV2() {
+    calls += 1;
+    if ((mode === "transient" && calls < 3) || mode === "always-transient") {
+      const error = new TypeError("Failed to fetch");
+      throw error;
+    }
+    if (mode === "auth") throw { status: 401, message: "session token expired" };
+    return { rows: [], transport: "v2" };
+  }
+  ${extractFunction("flashcardIntegrityError")}
+  ${extractFunction("isFlashcardIntegrityError")}
+  ${extractFunction("isFlashcardAuthenticationError")}
+  ${extractFunction("isTransientFlashcardStateReadError")}
+  ${extractFunction("flashcardHydrationRetryDelay")}
+  ${extractFunction("callFlashcardStateReadForHydration").replace(/^function /, "async function ")}
+  return async requestedMode => {
+    mode = requestedMode;
+    calls = 0;
+    supabaseState.outboxErrorClass = "";
+    supabaseState.outboxLastError = "";
+    try {
+      await callFlashcardStateReadForHydration({ owner: "student:id::hayley" });
+      return { ok: true, calls, errorClass: supabaseState.outboxErrorClass };
+    } catch {
+      return { ok: false, calls, errorClass: supabaseState.outboxErrorClass };
+    }
+  };
+})()`);
+assert.deepEqual(
+  { ...(await hydrationRetryRuntime("transient")) },
+  { ok: true, calls: 3, errorClass: "" },
+  "A transient hydration read should succeed within the bounded three-attempt budget"
+);
+assert.deepEqual(
+  { ...(await hydrationRetryRuntime("auth")) },
+  { ok: false, calls: 1, errorClass: "hydration-auth" },
+  "Authentication failures must not be retried as transient network failures"
+);
+assert.deepEqual(
+  { ...(await hydrationRetryRuntime("always-transient")) },
+  { ok: false, calls: 3, errorClass: "hydration-transient" },
+  "Hydration retries must stop after the bounded three-attempt budget"
+);
 
 const boot = sourceBetween("async function initialiseFlashcardPortal", "void initialiseFlashcardPortal");
 assert.ok(
@@ -479,6 +883,14 @@ const readiness = sourceBetween("function requireFlashcardStateReady", "async fu
 assert.match(readiness, /currentUser\?\.role !== "student"/);
 assert.match(readiness, /if \(context && isSupabaseStateHydrated\(context\)\) return true/);
 assert.match(readiness, /未有有效的網上帳戶連線/);
+
+const mutationGate = extractFunction("flashcardMutationAllowed");
+assert.match(mutationGate, /outboxBlockedKeys\.has\(String\(key\)\)/);
+assert.ok(
+  mutationGate.indexOf("outboxBlockedKeys.has(String(key))")
+    < mutationGate.indexOf('currentUser?.role === "admin"'),
+  "A quarantined key must remain blocked even during admin impersonation"
+);
 
 const login = sourceBetween("async function login", "function getKnownDeckIds");
 assert.doesNotMatch(login, /getStudents\(\)\.find\(item => item\.name === trimmedName && item\.password === password\)/);

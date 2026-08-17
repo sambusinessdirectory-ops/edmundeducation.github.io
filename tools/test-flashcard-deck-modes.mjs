@@ -119,7 +119,7 @@ assert.match(saveContextSource, /type: "admin"[\s\S]*?adminPassword: adminPasswo
 assert.match(saveContextSource, /epoch: supabaseState\.epoch/, "save ownership must be bound to the current synchronization epoch");
 
 const mutationWriter = sourceBetween("async function writeJson(", "function advanceFlashcardSyncEpoch(");
-assert.match(mutationWriter, /if \(!flashcardMutationAllowed\(\)\)/);
+assert.match(mutationWriter, /if \(!flashcardMutationAllowed\(context, key\)\)/);
 assert.match(mutationWriter, /flashcardStagedValues\.set/);
 assert.match(mutationWriter, /await enqueueFlashcardOutboxMutation\(mutation\)/);
 assert.ok(
@@ -129,7 +129,7 @@ assert.ok(
 
 const saveStateSource = sourceBetween("async function saveSupabaseState(", "function displayPreferenceOwner(");
 assert.match(saveStateSource, /const context = options\.context \|\| captureSupabaseStateSaveContext\(\)/);
-assert.match(saveStateSource, /isSupabaseStateHydrated\(context\)/);
+assert.match(saveStateSource, /flashcardMutationAllowed\(context, key\)/);
 assert.match(saveStateSource, /isSupabaseStateContextCurrent\(context\)/);
 assert.match(saveStateSource, /createFlashcardOutboxMutation\(key, value, context\)/);
 assert.match(saveStateSource, /await enqueueFlashcardOutboxMutation\(mutation\)/);

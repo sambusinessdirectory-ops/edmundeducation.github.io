@@ -93,7 +93,13 @@ export default {
       return await route(request, env);
     } catch (error) {
       if (error instanceof HttpError) {
-        return json({ error: error.message, code: error.code }, error.status, request, env);
+        return json(
+          { error: error.message, code: error.code },
+          error.status,
+          request,
+          env,
+          error.headers
+        );
       }
       console.error("Phrasal Verb System Worker request failed", safeErrorMessage(error));
       return json(
@@ -192,11 +198,12 @@ async function route(request, env) {
 }
 
 class HttpError extends Error {
-  constructor(status, code, message) {
+  constructor(status, code, message, headers = undefined) {
     super(message);
     this.name = "HttpError";
     this.status = status;
     this.code = code;
+    this.headers = headers;
   }
 }
 
@@ -254,14 +261,22 @@ function corsHeaders(origin, env) {
   const headers = securityHeaders();
   headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type");
   headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, OPTIONS");
+  headers.set("Access-Control-Expose-Headers", "Retry-After");
   headers.set("Vary", "Origin");
   if (isAllowedOrigin(origin, env)) headers.set("Access-Control-Allow-Origin", origin);
   return headers;
 }
 
-function json(value, status, request, env) {
+function json(value, status, request, env, extraHeaders = undefined) {
   const headers = corsHeaders(request.headers.get("Origin") || "", env);
   headers.set("Content-Type", "application/json; charset=utf-8");
+  if (extraHeaders && typeof extraHeaders === "object") {
+    for (const [name, headerValue] of Object.entries(extraHeaders)) {
+      if (headerValue !== undefined && headerValue !== null) {
+        headers.set(name, String(headerValue));
+      }
+    }
+  }
   return new Response(JSON.stringify(value), { status, headers });
 }
 
@@ -1037,10 +1052,20 @@ async function enforceAttemptWriteRateLimit(studentId, env) {
       key: `phrasal-verb-system-attempt:${studentId}`
     });
   } catch {
-    throw new HttpError(503, "RATE_LIMIT_UNAVAILABLE", "Attempt saving is temporarily unavailable");
+    throw new HttpError(
+      503,
+      "RATE_LIMIT_UNAVAILABLE",
+      "Attempt saving is temporarily unavailable",
+      { "Retry-After": "5" }
+    );
   }
   if (!result.success) {
-    throw new HttpError(429, "TOO_MANY_ATTEMPT_WRITES", "Too many attempt updates; please wait and try again");
+    throw new HttpError(
+      429,
+      "TOO_MANY_ATTEMPT_WRITES",
+      "Too many attempt updates; please wait and try again",
+      { "Retry-After": "5" }
+    );
   }
 }
 
