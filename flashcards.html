@@ -184157,6 +184157,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-government-civics-book1-data.js?v=20260808-1"></script>
   <script src="flashcards-government-civics-book2-data.js?v=20260817-1"></script>
+  <script src="flashcards-government-concept-logic-book1-data.js?v=20260817-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
@@ -185197,6 +185198,121 @@ window.EDMUND_FLASHCARD_SEED = {
     governmentCivicsBook2Decks.forEach(deck => {
       deckTitleLabels.set(deck.deckId, `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`);
     });
+    const governmentConceptLogicBook1Prefix = "government/concept-logic-arguments/book-1";
+    const governmentConceptLogicBook1Sections = [
+      {
+        key: "a-core-policy-group-discussion",
+        label: "A. Core Policy & Group Discussion\n政策及小組討論",
+        title: "A. Core Policy & Group Discussion 政策及小組討論",
+        questions: [
+          {
+            deckId: `${governmentConceptLogicBook1Prefix}/a-core-policy-group-discussion/q1-public-consultations`,
+            label: "Q1 - How can the Government make public consultations more effective?\n政府可以如何令公眾諮詢更有效？",
+            title: "Q1 - How can the Government make public consultations more effective? / 政府可以如何令公眾諮詢更有效？"
+          },
+          {
+            deckId: `${governmentConceptLogicBook1Prefix}/a-core-policy-group-discussion/q2-short-term-relief-or-long-term-solutions`,
+            label: "Q2 - Should the Government focus more on short-term relief or long-term solutions?\n政府應較著重短期紓困措施，還是長遠解決方案？",
+            title: "Q2 - Should the Government focus more on short-term relief or long-term solutions? / 政府應較著重短期紓困措施，還是長遠解決方案？"
+          },
+          {
+            deckId: `${governmentConceptLogicBook1Prefix}/a-core-policy-group-discussion/q3-public-service-funding`,
+            label: "Q3 - How should the Government decide which public services should receive more funding?\n政府應如何決定哪些公共服務應獲得更多撥款？",
+            title: "Q3 - How should the Government decide which public services should receive more funding? / 政府應如何決定哪些公共服務應獲得更多撥款？"
+          }
+        ]
+      },
+      {
+        key: "b-housing-living-conditions",
+        label: "B. Housing & Living Conditions\n房屋及居住環境",
+        title: "B. Housing & Living Conditions 房屋及居住環境",
+        questions: []
+      },
+      {
+        key: "c-healthcare-mental-health",
+        label: "C. Healthcare & Mental Health\n醫療及精神健康",
+        title: "C. Healthcare & Mental Health 醫療及精神健康",
+        questions: []
+      },
+      {
+        key: "d-elderly-people-carers",
+        label: "D. Elderly People & Carers\n長者及照顧者",
+        title: "D. Elderly People & Carers 長者及照顧者",
+        questions: []
+      },
+      {
+        key: "e-families-children-working-parents",
+        label: "E. Families, Children & Working Parents\n家庭、兒童及在職父母",
+        title: "E. Families, Children & Working Parents 家庭、兒童及在職父母",
+        questions: []
+      },
+      {
+        key: "f-jobs-wages-employment",
+        label: "F. Jobs, Wages & Employment\n就業、工資及勞工",
+        title: "F. Jobs, Wages & Employment 就業、工資及勞工",
+        questions: []
+      },
+      {
+        key: "g-education-young-people",
+        label: "G. Education & Young People\n教育及青年",
+        title: "G. Education & Young People 教育及青年",
+        questions: []
+      },
+      {
+        key: "h-transport-getting-around",
+        label: "H. Transport & Getting Around\n交通及市民出行",
+        title: "H. Transport & Getting Around 交通及市民出行",
+        questions: []
+      },
+      {
+        key: "i-welfare-poverty-helping-people-in-need",
+        label: "I. Welfare, Poverty & Helping People in Need\n社會福利、扶貧及支援有需要人士",
+        title: "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士",
+        questions: []
+      },
+      {
+        key: "j-cost-of-living-peoples-financial-burden",
+        label: "J. Cost of Living & People's Financial Burden\n生活成本及市民經濟負擔",
+        title: "J. Cost of Living & People's Financial Burden 生活成本及市民經濟負擔",
+        questions: []
+      },
+      {
+        key: "k-environment-everyday-green-living",
+        label: "K. Environment & Everyday Green Living\n環境及日常綠色生活",
+        title: "K. Environment & Everyday Green Living 環境及日常綠色生活",
+        questions: []
+      },
+      {
+        key: "l-scams-online-safety-technology",
+        label: "L. Scams, Online Safety & Technology\n騙案、網絡安全及科技",
+        title: "L. Scams, Online Safety & Technology 騙案、網絡安全及科技",
+        questions: [
+          {
+            deckId: `${governmentConceptLogicBook1Prefix}/l-scams-online-safety-technology/q1-banks-suspicious-transfers`,
+            label: "Q1 - Should banks automatically stop suspicious money transfers?\n銀行是否應自動阻止可疑的轉帳？",
+            title: "Q1 - Should banks automatically stop suspicious money transfers? / 銀行是否應自動阻止可疑的轉帳？"
+          },
+          {
+            deckId: `${governmentConceptLogicBook1Prefix}/l-scams-online-safety-technology/q2-platform-responsibility-scam-advertisements`,
+            label: "Q2 - Should online platforms be held more responsible for scam advertisements?\n網上平台是否應為詐騙廣告承擔更大責任？",
+            title: "Q2 - Should online platforms be held more responsible for scam advertisements? / 網上平台是否應為詐騙廣告承擔更大責任？"
+          },
+          {
+            deckId: `${governmentConceptLogicBook1Prefix}/l-scams-online-safety-technology/q3-protect-elderly-ai-deepfake-scams`,
+            label: "Q3 - How can the Government protect elderly people from AI and deepfake scams?\n政府可以如何保障長者免受人工智能及深度偽造騙案影響？",
+            title: "Q3 - How can the Government protect elderly people from AI and deepfake scams? / 政府可以如何保障長者免受人工智能及深度偽造騙案影響？"
+          }
+        ]
+      }
+    ];
+    governmentConceptLogicBook1Sections.forEach(section => {
+      section.questions.forEach(question => {
+        deckTitleLabels.set(
+          question.deckId,
+          `政府機構 / 概念邏輯論點 / Book 1 / ${section.title} / ${question.title}`
+        );
+      });
+    });
     const hkpfCategories = ["Interview Keys", "Writing Composition", "HKPF CRE exam", "History and Facts"];
     const hkpfInterviewBooks = ["Book 1", "Book 2", "Book 3", "Book 4", "Book 5"];
     const hkpfWritingCompositions = [4, 5, 6].map(number => ({
@@ -185409,6 +185525,7 @@ window.EDMUND_FLASHCARD_SEED = {
       ],
       government: [
         { key: "government-concept-vocabulary", label: "概念詞彙" },
+        { key: "government-concept-logic-arguments", label: "概念邏輯論點" },
         { key: "government-hkfsd", label: "HKFSD" },
         { key: "government-hkpf", label: "HKPF" },
         { key: "government-csd", label: "CSD" },
@@ -189751,6 +189868,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (id.startsWith("dse/writing")) return "dse-writing";
       if (id.startsWith("dse/paper3") || id.startsWith("dse/paper-3")) return "dse-paper3";
       if (id.startsWith("dse/speaking")) return "dse-speaking";
+      if (id.startsWith("government/concept-logic-arguments")) return "government-concept-logic-arguments";
       if (id.startsWith("government/concept-vocabulary")) return "government-concept-vocabulary";
       if (id.startsWith("government/hkpf")) return "government-hkpf";
       if (id.startsWith("government/hkfsd")) return "government-hkfsd";
@@ -189781,6 +189899,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (value.startsWith("ielts-writing")) return "ielts-writing";
       if (value.startsWith("ielts-listening")) return "ielts-listening";
       if (value.startsWith("ielts-speaking")) return "ielts-speaking";
+      if (value.startsWith("government-concept-logic-arguments")) return "government-concept-logic-arguments";
       if (value.startsWith("government-concept-vocabulary")) return "government-concept-vocabulary";
       if (value.startsWith("government-hkpf")) return "government-hkpf";
       if (value.startsWith("government-hkfsd")) return "government-hkfsd";
@@ -190818,7 +190937,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
       addAggregate("synonyms", "Synonyms 同義詞", synonymTypes.length);
       synonymTypes.forEach(type => addExact(deckIdForLabel("synonyms", type, true), `Synonyms 同義詞 / ${type}`));
-      addAggregate("government", "政府機構", governmentTypes.length + 1);
+      addAggregate("government", "政府機構", governmentTypes.length + 2);
       addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 2);
       addAggregate(governmentCivicsBook1Prefix, "政府機構 / 概念詞彙 / Book 1", governmentCivicsBook1Decks.length);
       governmentCivicsBook1Decks.forEach(deck => {
@@ -190827,6 +190946,26 @@ window.EDMUND_FLASHCARD_SEED = {
       addAggregate(governmentCivicsBook2Prefix, "政府機構 / 概念詞彙 / Book 2", governmentCivicsBook2Decks.length);
       governmentCivicsBook2Decks.forEach(deck => {
         addExact(deck.deckId, `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`);
+      });
+      addAggregate("government/concept-logic-arguments", "政府機構 / 概念邏輯論點", 1);
+      addAggregate(
+        governmentConceptLogicBook1Prefix,
+        "政府機構 / 概念邏輯論點 / Book 1",
+        governmentConceptLogicBook1Sections.length
+      );
+      governmentConceptLogicBook1Sections.forEach(section => {
+        const sectionId = `${governmentConceptLogicBook1Prefix}/${section.key}`;
+        addAggregate(
+          sectionId,
+          `政府機構 / 概念邏輯論點 / Book 1 / ${section.title}`,
+          section.questions.length
+        );
+        section.questions.forEach(question => {
+          addExact(
+            question.deckId,
+            `政府機構 / 概念邏輯論點 / Book 1 / ${section.title} / ${question.title}`
+          );
+        });
       });
       governmentTypes.forEach(type => {
         const typeId = deckIdForLabel("government", type, true);
@@ -192791,11 +192930,12 @@ window.EDMUND_FLASHCARD_SEED = {
     function showGovernment() {
       showOptions(
         "政府機構",
-        "選擇概念詞彙或政府部門分類。",
+        "選擇概念內容或政府部門分類。",
         () => `
           <div class="option-column">
             <h3>政府機構</h3>
             ${routeOptionButton("概念詞彙", "government-concept-vocabulary", "government/concept-vocabulary")}
+            ${routeOptionButton("概念邏輯論點", "government-concept-logic-arguments", "government/concept-logic-arguments")}
             ${governmentTypes.map(type => type === "HKPF"
               ? routeOptionButton("HKPF", "government-hkpf", "government/hkpf")
               : optionButton(type, deckIdForLabel("government", type, true))).join("")}
@@ -192854,6 +192994,59 @@ window.EDMUND_FLASHCARD_SEED = {
               deck.label,
               deck.deckId,
               `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`
+            )).join("")}
+          </div>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
+    function showGovernmentConceptLogicArguments() {
+      showOptions(
+        "政府機構 / 概念邏輯論點",
+        "選擇 Book。",
+        () => routeColumnHtml("概念邏輯論點", [
+          {
+            label: "Book 1",
+            route: "government-concept-logic-arguments-book-1",
+            metaPrefix: governmentConceptLogicBook1Prefix
+          }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showGovernmentConceptLogicArgumentsBook1() {
+      showOptions(
+        "政府機構 / 概念邏輯論點 / Book 1",
+        "選擇概念邏輯論點主題。",
+        () => `
+          <div class="option-column">
+            <h3>Book 1</h3>
+            ${governmentConceptLogicBook1Sections.map(section => routeOptionButton(
+              section.label,
+              `government-concept-logic-arguments-section|${section.key}`,
+              `${governmentConceptLogicBook1Prefix}/${section.key}`
+            )).join("")}
+          </div>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
+    function showGovernmentConceptLogicArgumentsSection(sectionKey) {
+      const section = governmentConceptLogicBook1Sections.find(item => item.key === sectionKey);
+      if (!section) return;
+      showOptions(
+        `政府機構 / 概念邏輯論點 / Book 1 / ${section.title}`,
+        "選擇題目。",
+        () => `
+          <div class="option-column">
+            <h3>${escapeHtml(section.label).replace("\n", "<br>")}</h3>
+            ${section.questions.map(question => optionButton(
+              question.label,
+              question.deckId,
+              `政府機構 / 概念邏輯論點 / Book 1 / ${section.title} / ${question.title}`
             )).join("")}
           </div>
         `,
@@ -196083,6 +196276,11 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route === "government-concept-vocabulary") showGovernmentConceptVocabulary();
           if (route === "government-concept-vocabulary-book-1") showGovernmentConceptVocabularyBook1();
           if (route === "government-concept-vocabulary-book-2") showGovernmentConceptVocabularyBook2();
+          if (route === "government-concept-logic-arguments") showGovernmentConceptLogicArguments();
+          if (route === "government-concept-logic-arguments-book-1") showGovernmentConceptLogicArgumentsBook1();
+          if (route.startsWith("government-concept-logic-arguments-section|")) {
+            showGovernmentConceptLogicArgumentsSection(route.split("|")[1]);
+          }
           if (route === "government-hkpf") showGovernmentHkpf();
           if (route === "government-hkpf-interview-keys") showGovernmentHkpfInterviewKeys();
           if (route.startsWith("government-hkpf-interview-set|")) showGovernmentHkpfInterviewSet(route.split("|")[1]);
