@@ -41,12 +41,12 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4821, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4835, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1281, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1295, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 320, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
@@ -188,6 +188,20 @@ assert.equal(
   civicsBookOneFlashcards.find((resource) => resource.id.endsWith("/a-core-policy-group-discussion"))?.url,
   "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fa-core-policy-group-discussion",
   "Civics Book 1 Homework links should open the exact flashcard deck"
+);
+
+const civicsBookTwoFlashcards = (byType.flashcards || []).filter((resource) =>
+  resource.id.startsWith("flash:government/concept-vocabulary/book-2/")
+);
+assert.equal(civicsBookTwoFlashcards.length, 14, "all 14 Civics Book 2 decks should be indexed");
+assert.ok(
+  civicsBookTwoFlashcards.every((resource) => /[\u3400-\u9fff]/u.test(resource.label)),
+  "Civics Book 2 Homework labels should include their Chinese catalogue titles"
+);
+assert.equal(
+  civicsBookTwoFlashcards.find((resource) => resource.id.endsWith("/n-public-safety-emergency-preparedness-building-safety"))?.url,
+  "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fn-public-safety-emergency-preparedness-building-safety",
+  "Civics Book 2 Homework links should open the exact flashcard deck"
 );
 
 for (const [type, count, prefix] of [
@@ -799,7 +813,7 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260816-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260817-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260814-1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

@@ -13351,6 +13351,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fa-core-policy-group-discussion"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/a-core-policy-group-discussion",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "A. Core Policy & Group Discussion 政策及小組討論",
+    "detail": "Government / Concept Vocabulary / Book 2 / A Core Policy Group Discussion · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fa-core-policy-group-discussion"
+  },
+  {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q39",
     "type": "flashcards",
     "ordinal": 39,
@@ -13431,6 +13439,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fb-housing-living-conditions"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/b-housing-living-conditions",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "B. Housing & Living Conditions 房屋及居住環境",
+    "detail": "Government / Concept Vocabulary / Book 2 / B Housing Living Conditions · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fb-housing-living-conditions"
+  },
+  {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -13461,6 +13477,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "C. Healthcare & Mental Health 醫療及精神健康",
     "detail": "Government / Concept Vocabulary / Book 1 / C Healthcare Mental Health · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fc-healthcare-mental-health"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/c-healthcare-mental-health",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "C. Healthcare & Mental Health 醫療及精神健康",
+    "detail": "Government / Concept Vocabulary / Book 2 / C Healthcare Mental Health · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fc-healthcare-mental-health"
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q49",
@@ -13565,6 +13589,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "D. Elderly People & Carers 長者及照顧者",
     "detail": "Government / Concept Vocabulary / Book 1 / D Elderly People Carers · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fd-elderly-people-carers"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/d-elderly-people-carers",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "D. Elderly People & Carers 長者及照顧者",
+    "detail": "Government / Concept Vocabulary / Book 2 / D Elderly People Carers · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fd-elderly-people-carers"
   },
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q12",
@@ -16567,6 +16599,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fe-families-children-working-parents"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/e-families-children-working-parents",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "E. Families, Children & Working Parents 家庭、兒童及在職父母",
+    "detail": "Government / Concept Vocabulary / Book 2 / E Families Children Working Parents · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fe-families-children-working-parents"
+  },
+  {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -16607,6 +16647,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Ff-jobs-wages-employment"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/f-jobs-wages-employment",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "F. Jobs, Wages & Employment 就業、工資及勞工",
+    "detail": "Government / Concept Vocabulary / Book 2 / F Jobs Wages Employment · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Ff-jobs-wages-employment"
+  },
+  {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q11",
     "type": "flashcards",
     "ordinal": 11,
@@ -16645,6 +16693,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "G. Education & Young People 教育及青年",
     "detail": "Government / Concept Vocabulary / Book 1 / G Education Young People · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fg-education-young-people"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/g-education-young-people",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "G. Education & Young People 教育及青年",
+    "detail": "Government / Concept Vocabulary / Book 2 / G Education Young People · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fg-education-young-people"
   },
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q47",
@@ -16943,6 +16999,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fh-transport-getting-around"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/h-transport-getting-around",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "H. Transport & Getting Around 交通及市民出行",
+    "detail": "Government / Concept Vocabulary / Book 2 / H Transport Getting Around · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fh-transport-getting-around"
+  },
+  {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q58",
     "type": "flashcards",
     "ordinal": 58,
@@ -16965,6 +17029,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士",
     "detail": "Government / Concept Vocabulary / Book 1 / I Welfare Poverty Helping People In Need · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fi-welfare-poverty-helping-people-in-need"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/i-welfare-poverty-helping-people-in-need",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士",
+    "detail": "Government / Concept Vocabulary / Book 2 / I Welfare Poverty Helping People In Need · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fi-welfare-poverty-helping-people-in-need"
   },
   {
     "id": "flash:ielts/listening/Practice 1/part-1",
@@ -22127,12 +22199,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fj-cost-of-living-peoples-financial-burden"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/j-cost-of-living-peoples-financial-burden",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "J. Cost of Living & People’s Financial Burden 生活成本及市民經濟負擔",
+    "detail": "Government / Concept Vocabulary / Book 2 / J Cost Of Living Peoples Financial Burden · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fj-cost-of-living-peoples-financial-burden"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/k-environment-everyday-green-living",
     "type": "flashcards",
     "ordinal": null,
     "label": "K. Environment & Everyday Green Living 環境及日常綠色生活",
     "detail": "Government / Concept Vocabulary / Book 1 / K Environment Everyday Green Living · 38 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fk-environment-everyday-green-living"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/k-environment-everyday-green-living",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "K. Environment & Everyday Green Living 環境及日常綠色生活",
+    "detail": "Government / Concept Vocabulary / Book 2 / K Environment Everyday Green Living · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fk-environment-everyday-green-living"
   },
   {
     "id": "flash:government/concept-vocabulary/book-1/l-scams-online-safety-technology",
@@ -22143,12 +22231,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-1%2Fl-scams-online-safety-technology"
   },
   {
+    "id": "flash:government/concept-vocabulary/book-2/l-scams-online-safety-technology",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "L. Scams, Online Safety & Technology 騙案、網絡安全及科技",
+    "detail": "Government / Concept Vocabulary / Book 2 / L Scams Online Safety Technology · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fl-scams-online-safety-technology"
+  },
+  {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q80",
     "type": "flashcards",
     "ordinal": 80,
     "label": "Libraries should focus on improving their technological resources rather than on building a larger collection of paper books. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q80 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q80"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/m-economy-tourism-small-businesses",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "M. Economy, Tourism & Small Businesses 經濟、旅遊及中小企",
+    "detail": "Government / Concept Vocabulary / Book 2 / M Economy Tourism Small Businesses · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fm-economy-tourism-small-businesses"
   },
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q21",
@@ -22389,6 +22493,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Most societies have homeless people. Some people think that the best way to help them is to give them money. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q82 · 43 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q82"
+  },
+  {
+    "id": "flash:government/concept-vocabulary/book-2/n-public-safety-emergency-preparedness-building-safety",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "N. Public Safety, Emergency Preparedness & Building Safety 公共安全、應急準備及樓宇安全",
+    "detail": "Government / Concept Vocabulary / Book 2 / N Public Safety Emergency Preparedness Building Safety · 40 cards",
+    "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fn-public-safety-emergency-preparedness-building-safety"
   },
   {
     "id": "flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q22",

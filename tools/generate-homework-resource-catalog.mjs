@@ -174,6 +174,22 @@ async function flashcardResources(allFiles) {
     ["government/concept-vocabulary/book-1/k-environment-everyday-green-living", "K. Environment & Everyday Green Living 環境及日常綠色生活"],
     ["government/concept-vocabulary/book-1/l-scams-online-safety-technology", "L. Scams, Online Safety & Technology 騙案、網絡安全及科技"]
   ]);
+  const civicsBookTwoTitles = new Map([
+    ["government/concept-vocabulary/book-2/a-core-policy-group-discussion", "A. Core Policy & Group Discussion 政策及小組討論"],
+    ["government/concept-vocabulary/book-2/b-housing-living-conditions", "B. Housing & Living Conditions 房屋及居住環境"],
+    ["government/concept-vocabulary/book-2/c-healthcare-mental-health", "C. Healthcare & Mental Health 醫療及精神健康"],
+    ["government/concept-vocabulary/book-2/d-elderly-people-carers", "D. Elderly People & Carers 長者及照顧者"],
+    ["government/concept-vocabulary/book-2/e-families-children-working-parents", "E. Families, Children & Working Parents 家庭、兒童及在職父母"],
+    ["government/concept-vocabulary/book-2/f-jobs-wages-employment", "F. Jobs, Wages & Employment 就業、工資及勞工"],
+    ["government/concept-vocabulary/book-2/g-education-young-people", "G. Education & Young People 教育及青年"],
+    ["government/concept-vocabulary/book-2/h-transport-getting-around", "H. Transport & Getting Around 交通及市民出行"],
+    ["government/concept-vocabulary/book-2/i-welfare-poverty-helping-people-in-need", "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士"],
+    ["government/concept-vocabulary/book-2/j-cost-of-living-peoples-financial-burden", "J. Cost of Living & People’s Financial Burden 生活成本及市民經濟負擔"],
+    ["government/concept-vocabulary/book-2/k-environment-everyday-green-living", "K. Environment & Everyday Green Living 環境及日常綠色生活"],
+    ["government/concept-vocabulary/book-2/l-scams-online-safety-technology", "L. Scams, Online Safety & Technology 騙案、網絡安全及科技"],
+    ["government/concept-vocabulary/book-2/m-economy-tourism-small-businesses", "M. Economy, Tourism & Small Businesses 經濟、旅遊及中小企"],
+    ["government/concept-vocabulary/book-2/n-public-safety-emergency-preparedness-building-safety", "N. Public Safety, Emergency Preparedness & Building Safety 公共安全、應急準備及樓宇安全"]
+  ]);
   const businessConceptBookOneTitles = new Map([
     ["business-english/business-concepts-standard-response/q1-uncertainty", "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？"],
     ["business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages", "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"],
@@ -195,6 +211,7 @@ async function flashcardResources(allFiles) {
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
       const exactTitle = businessConceptBookOneTitles.get(deckId)
+        || civicsBookTwoTitles.get(deckId)
         || civicsBookOneTitles.get(deckId)
         || taskTwoTitles.get(deckId)
         || (readingPractice && readingTitle

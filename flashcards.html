@@ -184156,6 +184156,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2018-data.js?v=20260713-1"></script>
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-government-civics-book1-data.js?v=20260808-1"></script>
+  <script src="flashcards-government-civics-book2-data.js?v=20260817-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
@@ -185119,6 +185120,82 @@ window.EDMUND_FLASHCARD_SEED = {
     ];
     governmentCivicsBook1Decks.forEach(deck => {
       deckTitleLabels.set(deck.deckId, `政府機構 / 概念詞彙 / Book 1 / ${deck.title}`);
+    });
+    const governmentCivicsBook2Prefix = "government/concept-vocabulary/book-2";
+    const governmentCivicsBook2Decks = [
+      {
+        deckId: `${governmentCivicsBook2Prefix}/a-core-policy-group-discussion`,
+        label: "A. Core Policy & Group Discussion\n政策及小組討論",
+        title: "A. Core Policy & Group Discussion 政策及小組討論"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/b-housing-living-conditions`,
+        label: "B. Housing & Living Conditions\n房屋及居住環境",
+        title: "B. Housing & Living Conditions 房屋及居住環境"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/c-healthcare-mental-health`,
+        label: "C. Healthcare & Mental Health\n醫療及精神健康",
+        title: "C. Healthcare & Mental Health 醫療及精神健康"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/d-elderly-people-carers`,
+        label: "D. Elderly People & Carers\n長者及照顧者",
+        title: "D. Elderly People & Carers 長者及照顧者"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/e-families-children-working-parents`,
+        label: "E. Families, Children & Working Parents\n家庭、兒童及在職父母",
+        title: "E. Families, Children & Working Parents 家庭、兒童及在職父母"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/f-jobs-wages-employment`,
+        label: "F. Jobs, Wages & Employment\n就業、工資及勞工",
+        title: "F. Jobs, Wages & Employment 就業、工資及勞工"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/g-education-young-people`,
+        label: "G. Education & Young People\n教育及青年",
+        title: "G. Education & Young People 教育及青年"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/h-transport-getting-around`,
+        label: "H. Transport & Getting Around\n交通及市民出行",
+        title: "H. Transport & Getting Around 交通及市民出行"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/i-welfare-poverty-helping-people-in-need`,
+        label: "I. Welfare, Poverty & Helping People in Need\n社會福利、扶貧及支援有需要人士",
+        title: "I. Welfare, Poverty & Helping People in Need 社會福利、扶貧及支援有需要人士"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/j-cost-of-living-peoples-financial-burden`,
+        label: "J. Cost of Living & People’s Financial Burden\n生活成本及市民經濟負擔",
+        title: "J. Cost of Living & People’s Financial Burden 生活成本及市民經濟負擔"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/k-environment-everyday-green-living`,
+        label: "K. Environment & Everyday Green Living\n環境及日常綠色生活",
+        title: "K. Environment & Everyday Green Living 環境及日常綠色生活"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/l-scams-online-safety-technology`,
+        label: "L. Scams, Online Safety & Technology\n騙案、網絡安全及科技",
+        title: "L. Scams, Online Safety & Technology 騙案、網絡安全及科技"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/m-economy-tourism-small-businesses`,
+        label: "M. Economy, Tourism & Small Businesses\n經濟、旅遊及中小企",
+        title: "M. Economy, Tourism & Small Businesses 經濟、旅遊及中小企"
+      },
+      {
+        deckId: `${governmentCivicsBook2Prefix}/n-public-safety-emergency-preparedness-building-safety`,
+        label: "N. Public Safety, Emergency Preparedness & Building Safety\n公共安全、應急準備及樓宇安全",
+        title: "N. Public Safety, Emergency Preparedness & Building Safety 公共安全、應急準備及樓宇安全"
+      }
+    ];
+    governmentCivicsBook2Decks.forEach(deck => {
+      deckTitleLabels.set(deck.deckId, `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`);
     });
     const hkpfCategories = ["Interview Keys", "Writing Composition", "HKPF CRE exam", "History and Facts"];
     const hkpfInterviewBooks = ["Book 1", "Book 2", "Book 3", "Book 4", "Book 5"];
@@ -190742,10 +190819,14 @@ window.EDMUND_FLASHCARD_SEED = {
       addAggregate("synonyms", "Synonyms 同義詞", synonymTypes.length);
       synonymTypes.forEach(type => addExact(deckIdForLabel("synonyms", type, true), `Synonyms 同義詞 / ${type}`));
       addAggregate("government", "政府機構", governmentTypes.length + 1);
-      addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 1);
+      addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 2);
       addAggregate(governmentCivicsBook1Prefix, "政府機構 / 概念詞彙 / Book 1", governmentCivicsBook1Decks.length);
       governmentCivicsBook1Decks.forEach(deck => {
         addExact(deck.deckId, `政府機構 / 概念詞彙 / Book 1 / ${deck.title}`);
+      });
+      addAggregate(governmentCivicsBook2Prefix, "政府機構 / 概念詞彙 / Book 2", governmentCivicsBook2Decks.length);
+      governmentCivicsBook2Decks.forEach(deck => {
+        addExact(deck.deckId, `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`);
       });
       governmentTypes.forEach(type => {
         const typeId = deckIdForLabel("government", type, true);
@@ -192728,11 +192809,18 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         "政府機構 / 概念詞彙",
         "選擇 Book。",
-        () => routeColumnHtml("概念詞彙", [{
-          label: "Book 1",
-          route: "government-concept-vocabulary-book-1",
-          metaPrefix: governmentCivicsBook1Prefix
-        }]),
+        () => routeColumnHtml("概念詞彙", [
+          {
+            label: "Book 1",
+            route: "government-concept-vocabulary-book-1",
+            metaPrefix: governmentCivicsBook1Prefix
+          },
+          {
+            label: "Book 2",
+            route: "government-concept-vocabulary-book-2",
+            metaPrefix: governmentCivicsBook2Prefix
+          }
+        ]),
         "columns-grid one"
       );
     }
@@ -192748,6 +192836,24 @@ window.EDMUND_FLASHCARD_SEED = {
               deck.label,
               deck.deckId,
               `政府機構 / 概念詞彙 / Book 1 / ${deck.title}`
+            )).join("")}
+          </div>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
+    function showGovernmentConceptVocabularyBook2() {
+      showOptions(
+        "政府機構 / 概念詞彙 / Book 2",
+        "選擇公民概念詞彙主題。",
+        () => `
+          <div class="option-column">
+            <h3>Book 2</h3>
+            ${governmentCivicsBook2Decks.map(deck => optionButton(
+              deck.label,
+              deck.deckId,
+              `政府機構 / 概念詞彙 / Book 2 / ${deck.title}`
             )).join("")}
           </div>
         `,
@@ -195976,6 +196082,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route === "government-home") showGovernment();
           if (route === "government-concept-vocabulary") showGovernmentConceptVocabulary();
           if (route === "government-concept-vocabulary-book-1") showGovernmentConceptVocabularyBook1();
+          if (route === "government-concept-vocabulary-book-2") showGovernmentConceptVocabularyBook2();
           if (route === "government-hkpf") showGovernmentHkpf();
           if (route === "government-hkpf-interview-keys") showGovernmentHkpfInterviewKeys();
           if (route.startsWith("government-hkpf-interview-set|")) showGovernmentHkpfInterviewSet(route.split("|")[1]);
