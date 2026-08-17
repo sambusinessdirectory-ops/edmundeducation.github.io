@@ -375,6 +375,43 @@ test("a canonical answer reaches the Phrasal Verb attempt RPC unchanged", async 
   );
 });
 
+test("attempt state conflicts remain 409 so the browser can reload and merge", async t => {
+  installFetch(t, async input => {
+    const functionName = rpcName(input);
+    if (functionName === "phrasal_verb_system_student_profile") {
+      return jsonResponse(studentProfile());
+    }
+    if (functionName === "phrasal_verb_system_upsert_attempt") {
+      return jsonResponse({
+        code: "22023",
+        message: "Attempt progress cannot move backwards"
+      }, 400);
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+
+  const response = await worker.fetch(attemptRequest(attemptPayload()), environment());
+  assert.equal(response.status, 409);
+  assert.equal((await response.json()).code, "ATTEMPT_CONFLICT");
+});
+
+test("non-conflict Supabase failures remain generic 502 responses", async t => {
+  installFetch(t, async input => {
+    const functionName = rpcName(input);
+    if (functionName === "phrasal_verb_system_student_profile") {
+      return jsonResponse(studentProfile());
+    }
+    if (functionName === "phrasal_verb_system_upsert_attempt") {
+      return jsonResponse({ code: "57014", message: "statement timeout" }, 500);
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+
+  const response = await worker.fetch(attemptRequest(attemptPayload()), environment());
+  assert.equal(response.status, 502);
+  assert.equal((await response.json()).code, "DATA_SERVICE_UNAVAILABLE");
+});
+
 test("three-digit lessons and q100-q250 remain canonical", async t => {
   const lastLessonId = "phrasal-verb-329";
   const lastQuestionId = `${lastLessonId}-q${String(LESSON_QUESTION_COUNTS[lastLessonId]).padStart(2, "0")}`;

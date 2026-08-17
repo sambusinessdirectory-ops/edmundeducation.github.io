@@ -412,7 +412,7 @@ async function supabaseFetch(env, path, options = {}, timeoutMs = 20000) {
   }
 }
 
-async function rpc(env, functionName, payload) {
+async function rpc(env, functionName, payload, options = {}) {
   let response;
   try {
     response = await supabaseFetch(
@@ -434,7 +434,24 @@ async function rpc(env, functionName, payload) {
   }
   if (!response.ok) {
     console.error("Supabase RPC rejected", functionName, response.status);
-    try { await response.arrayBuffer(); } catch { /* Discard upstream details. */ }
+    let upstreamCode = "";
+    try {
+      const upstreamError = await response.json();
+      upstreamCode = String(upstreamError?.code || "").toUpperCase();
+    } catch {
+      try { await response.arrayBuffer(); } catch { /* Discard upstream details. */ }
+    }
+    const conflictSqlStates = new Set(
+      (Array.isArray(options.conflictSqlStates) ? options.conflictSqlStates : [])
+        .map(value => String(value || "").toUpperCase())
+    );
+    if (upstreamCode && conflictSqlStates.has(upstreamCode)) {
+      throw new HttpError(
+        409,
+        "ATTEMPT_CONFLICT",
+        "Attempt progress changed on another session; reload and merge before saving"
+      );
+    }
     throw new HttpError(
       502,
       "DATA_SERVICE_UNAVAILABLE",
@@ -1037,6 +1054,8 @@ async function putAttempt(request, env, attemptId) {
     p_duration_ms: payload.durationMs,
     p_started_at: payload.startedAt,
     p_result: payload.result
+  }, {
+    conflictSqlStates: ["22023", "23505"]
   }));
   if (!row) throw new HttpError(409, "ATTEMPT_CONFLICT", "Attempt could not be saved");
   return json({ attempt: attemptResponse(row) }, 200, request, env);
