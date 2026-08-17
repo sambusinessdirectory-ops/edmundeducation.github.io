@@ -41,12 +41,12 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4841, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4855, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
-assert.equal((byType.flashcards || []).length, 1301, "all current static and lazy-loaded flashcard leaf decks should be indexed");
+assert.equal((byType.flashcards || []).length, 1315, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 320, "all current writing exercises should be indexed");
 assert.equal((byType.speaking || []).length, 787, "all currently visible speaking exercises should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
@@ -90,6 +90,8 @@ assert.ok(ids.has("fill:business-english-standard-response-book-1-q1"));
 assert.ok(ids.has("fill:business-english-standard-response-book-1-q10"));
 assert.ok(ids.has("writing-submission:business-english-standard-response-book-1-q1"));
 assert.ok(ids.has("writing-submission:business-english-standard-response-book-1-q10"));
+assert.ok(ids.has("flash:government/hkfsd/concept-vocabulary/book-1/a-core-fire-service-emergency-fundamentals"));
+assert.ok(ids.has("flash:government/hkfsd/concept-vocabulary/book-1/n-hazardous-materials-chemical-safety"));
 assert.ok(ids.has("reading-analysis:mungo-man"));
 assert.ok(ids.has("reading-analysis:if-you-can-get-used-to-the-taste"));
 assert.ok(ids.has("reading-analysis:p1-082-graffiti"));

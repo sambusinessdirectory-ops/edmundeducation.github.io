@@ -11,6 +11,8 @@ const dataFile = "flashcards-hkfsd-concept-vocabulary-book1-data.js";
 const dataSource = fs.readFileSync(path.join(root, dataFile), "utf8");
 const html = fs.readFileSync(path.join(root, "flashcards.html"), "utf8");
 const generator = fs.readFileSync(path.join(root, "tools/generate-flashcard-audio.py"), "utf8");
+const homeworkGenerator = fs.readFileSync(path.join(root, "tools/generate-homework-resource-catalog.mjs"), "utf8");
+const homeworkCatalog = fs.readFileSync(path.join(root, "homework-resource-catalog.mjs"), "utf8");
 const manifestSource = fs.readFileSync(path.join(root, "flashcards-audio-manifest.js"), "utf8");
 const prefix = "government/hkfsd/concept-vocabulary/book-1";
 
@@ -98,6 +100,9 @@ for (const item of expected) {
   assert.ok(html.includes(item.slug), `${item.deckId}: navigation slug is missing`);
   assert.ok(html.includes(item.titleEn), `${item.deckId}: English title is missing`);
   assert.ok(html.includes(item.titleZh), `${item.deckId}: Chinese title is missing`);
+  assert.ok(homeworkCatalog.includes(`"id": "flash:${item.deckId}"`), `${item.deckId}: Homework resource is missing`);
+  assert.ok(homeworkCatalog.includes(`"label": "${item.titleEn} ${item.titleZh}"`), `${item.deckId}: Homework bilingual title is missing`);
+  assert.ok(homeworkCatalog.includes(`"url": "flashcards.html?deck=${encodeURIComponent(item.deckId)}"`), `${item.deckId}: Homework deck URL is missing`);
   cardCount += cards.length;
 }
 
@@ -117,6 +122,8 @@ assert.ok(html.includes('route === "government-hkfsd-concept-vocabulary-book-1"'
 assert.ok(html.includes('addAggregate(typeId, "政府機構 / HKFSD", 1)'), "HKFSD search aggregate is missing");
 assert.ok(generator.includes('"flashcards-hkfsd-concept-vocabulary-book1-data.js"'), "Audio generator does not ingest HKFSD Book 1");
 assert.ok(generator.includes('"window.EDMUND_HKFSD_CONCEPT_VOCABULARY_BOOK1_SEED = "'), "Audio generator assignment is missing");
+assert.ok(homeworkGenerator.includes('["hkfsd", "HKFSD"]'), "Homework generator does not preserve the HKFSD acronym");
+assert.equal((homeworkCatalog.match(/"id": "flash:government\/hkfsd\/concept-vocabulary\/book-1\//g) || []).length, 14, "Homework must expose exactly 14 HKFSD Book 1 resources");
 
 console.log(JSON.stringify({
   decks: expected.length,

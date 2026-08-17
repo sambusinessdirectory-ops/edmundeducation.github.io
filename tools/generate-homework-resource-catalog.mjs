@@ -37,6 +37,7 @@ function humanizeDeckId(deckId) {
   const preserved = new Map([
     ["dse", "DSE"],
     ["ielts", "IELTS"],
+    ["hkfsd", "HKFSD"],
     ["hkpf", "HKPF"],
     ["toeic", "TOEIC"],
     ["toefl", "TOEFL"],
@@ -190,6 +191,22 @@ async function flashcardResources(allFiles) {
     ["government/concept-vocabulary/book-2/m-economy-tourism-small-businesses", "M. Economy, Tourism & Small Businesses 經濟、旅遊及中小企"],
     ["government/concept-vocabulary/book-2/n-public-safety-emergency-preparedness-building-safety", "N. Public Safety, Emergency Preparedness & Building Safety 公共安全、應急準備及樓宇安全"]
   ]);
+  const hkfsdBookOneTitles = new Map([
+    ["government/hkfsd/concept-vocabulary/book-1/a-core-fire-service-emergency-fundamentals", "A. Core Fire Service & Emergency Fundamentals 消防及緊急應變基本詞彙"],
+    ["government/hkfsd/concept-vocabulary/book-1/b-fire-station-personnel-duty", "B. Fire Station, Personnel & Duty 消防局、人員及值勤"],
+    ["government/hkfsd/concept-vocabulary/book-1/c-ppe-breathing-apparatus", "C. PPE & Breathing Apparatus 個人防護裝備及呼吸器"],
+    ["government/hkfsd/concept-vocabulary/book-1/d-fire-appliances-emergency-vehicles", "D. Fire Appliances & Emergency Vehicles 消防車輛及緊急車輛"],
+    ["government/hkfsd/concept-vocabulary/book-1/e-firefighting-tools-equipment", "E. Firefighting Tools & Equipment 滅火工具及器材"],
+    ["government/hkfsd/concept-vocabulary/book-1/f-hoses-hydrants-pumps-water-supply", "F. Hoses, Hydrants, Pumps & Water Supply 消防喉、消防栓、消防泵及供水"],
+    ["government/hkfsd/concept-vocabulary/book-1/g-fire-heat-smoke-basic-fire-behaviour", "G. Fire, Heat, Smoke & Basic Fire Behaviour 火、熱、煙及基本火災行為"],
+    ["government/hkfsd/concept-vocabulary/book-1/h-buildings-fire-protection-fire-safety", "H. Buildings, Fire Protection & Fire Safety 樓宇、防火系統及消防安全"],
+    ["government/hkfsd/concept-vocabulary/book-1/i-fireground-operations-basic-tactics", "I. Fireground Operations & Basic Tactics 火場行動及基本戰術"],
+    ["government/hkfsd/concept-vocabulary/book-1/j-search-rescue-casualty-handling", "J. Search, Rescue & Casualty Handling 搜索、救援及傷者處理"],
+    ["government/hkfsd/concept-vocabulary/book-1/k-road-traffic-railway-rescue", "K. Road Traffic & Railway Rescue 道路交通及鐵路救援"],
+    ["government/hkfsd/concept-vocabulary/book-1/l-ambulance-first-aid-medical-response", "L. Ambulance, First Aid & Medical Response 救護、急救及醫療應變"],
+    ["government/hkfsd/concept-vocabulary/book-1/m-communications-mobilising-incident-command", "M. Communications, Mobilising & Incident Command 通訊、調派及事故指揮"],
+    ["government/hkfsd/concept-vocabulary/book-1/n-hazardous-materials-chemical-safety", "N. Hazardous Materials & Chemical Safety 危險品及化學安全"]
+  ]);
   const businessConceptBookOneTitles = new Map([
     ["business-english/business-concepts-standard-response/q1-uncertainty", "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？"],
     ["business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages", "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"],
@@ -211,6 +228,7 @@ async function flashcardResources(allFiles) {
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
       const exactTitle = businessConceptBookOneTitles.get(deckId)
+        || hkfsdBookOneTitles.get(deckId)
         || civicsBookTwoTitles.get(deckId)
         || civicsBookOneTitles.get(deckId)
         || taskTwoTitles.get(deckId)

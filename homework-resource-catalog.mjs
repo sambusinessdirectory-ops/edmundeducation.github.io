@@ -13343,6 +13343,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q99"
   },
   {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/a-core-fire-service-emergency-fundamentals",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "A. Core Fire Service & Emergency Fundamentals 消防及緊急應變基本詞彙",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / A Core Fire Service Emergency Fundamentals · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fa-core-fire-service-emergency-fundamentals"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/a-core-policy-group-discussion",
     "type": "flashcards",
     "ordinal": null,
@@ -13431,6 +13439,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q65"
   },
   {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/b-fire-station-personnel-duty",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "B. Fire Station, Personnel & Duty 消防局、人員及值勤",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / B Fire Station Personnel Duty · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fb-fire-station-personnel-duty"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/b-housing-living-conditions",
     "type": "flashcards",
     "ordinal": null,
@@ -13485,6 +13501,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "C. Healthcare & Mental Health 醫療及精神健康",
     "detail": "Government / Concept Vocabulary / Book 2 / C Healthcare Mental Health · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fc-healthcare-mental-health"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/c-ppe-breathing-apparatus",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "C. PPE & Breathing Apparatus 個人防護裝備及呼吸器",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / C Ppe Breathing Apparatus · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fc-ppe-breathing-apparatus"
   },
   {
     "id": "flash:ielts/writing/task-2/opinions/EdmundBd9OP-Q49",
@@ -13597,6 +13621,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "D. Elderly People & Carers 長者及照顧者",
     "detail": "Government / Concept Vocabulary / Book 2 / D Elderly People Carers · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fd-elderly-people-carers"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/d-fire-appliances-emergency-vehicles",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "D. Fire Appliances & Emergency Vehicles 消防車輛及緊急車輛",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / D Fire Appliances Emergency Vehicles · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fd-fire-appliances-emergency-vehicles"
   },
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q12",
@@ -16607,6 +16639,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fe-families-children-working-parents"
   },
   {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/e-firefighting-tools-equipment",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "E. Firefighting Tools & Equipment 滅火工具及器材",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / E Firefighting Tools Equipment · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fe-firefighting-tools-equipment"
+  },
+  {
     "id": "flash:ielts/writing/task-2/problem-and-cause/EdmundBd9CnS-Q15",
     "type": "flashcards",
     "ordinal": 15,
@@ -16637,6 +16677,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Every culture, throughout time, has recorded its history in one way or another. In what ways can history be passed on to the next generation? Why is history important to society?",
     "detail": "IELTS / Writing / Task 2 / Direct Question / EdmundBd9Dir Q38 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdirect-question%2FEdmundBd9Dir-Q38"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/f-hoses-hydrants-pumps-water-supply",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "F. Hoses, Hydrants, Pumps & Water Supply 消防喉、消防栓、消防泵及供水",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / F Hoses Hydrants Pumps Water Supply · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Ff-hoses-hydrants-pumps-water-supply"
   },
   {
     "id": "flash:government/concept-vocabulary/book-1/f-jobs-wages-employment",
@@ -16701,6 +16749,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "G. Education & Young People 教育及青年",
     "detail": "Government / Concept Vocabulary / Book 2 / G Education Young People · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fg-education-young-people"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/g-fire-heat-smoke-basic-fire-behaviour",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "G. Fire, Heat, Smoke & Basic Fire Behaviour 火、熱、煙及基本火災行為",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / G Fire Heat Smoke Basic Fire Behaviour · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fg-fire-heat-smoke-basic-fire-behaviour"
   },
   {
     "id": "flash:ielts/writing/task-2/direct-question/EdmundBd9Dir-Q47",
@@ -17039,6 +17095,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fhkpf%2Fwriting-composition%2Fcomposition-6"
   },
   {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/h-buildings-fire-protection-fire-safety",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "H. Buildings, Fire Protection & Fire Safety 樓宇、防火系統及消防安全",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / H Buildings Fire Protection Fire Safety · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fh-buildings-fire-protection-fire-safety"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/h-transport-getting-around",
     "type": "flashcards",
     "ordinal": null,
@@ -17069,6 +17133,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Human activity has had a negative impact on plants and animals around the world. Some people think that this cannot be changed, while others believe actions can be taken to bring a",
     "detail": "IELTS / Writing / Task 2 / Discuss Both Views Your Opinion / EdmundBd9ExpBth Q19 · 64 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fdiscuss-both-views-your-opinion%2FEdmundBd9ExpBth-Q19"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/i-fireground-operations-basic-tactics",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "I. Fireground Operations & Basic Tactics 火場行動及基本戰術",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / I Fireground Operations Basic Tactics · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fi-fireground-operations-basic-tactics"
   },
   {
     "id": "flash:government/concept-vocabulary/book-1/i-welfare-poverty-helping-people-in-need",
@@ -22255,6 +22327,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fj-cost-of-living-peoples-financial-burden"
   },
   {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/j-search-rescue-casualty-handling",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "J. Search, Rescue & Casualty Handling 搜索、救援及傷者處理",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / J Search Rescue Casualty Handling · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fj-search-rescue-casualty-handling"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/k-environment-everyday-green-living",
     "type": "flashcards",
     "ordinal": null,
@@ -22269,6 +22349,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "K. Environment & Everyday Green Living 環境及日常綠色生活",
     "detail": "Government / Concept Vocabulary / Book 2 / K Environment Everyday Green Living · 40 cards",
     "url": "flashcards.html?deck=government%2Fconcept-vocabulary%2Fbook-2%2Fk-environment-everyday-green-living"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/k-road-traffic-railway-rescue",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "K. Road Traffic & Railway Rescue 道路交通及鐵路救援",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / K Road Traffic Railway Rescue · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fk-road-traffic-railway-rescue"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/l-ambulance-first-aid-medical-response",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "L. Ambulance, First Aid & Medical Response 救護、急救及醫療應變",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / L Ambulance First Aid Medical Response · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fl-ambulance-first-aid-medical-response"
   },
   {
     "id": "flash:government/concept-vocabulary/book-1/l-scams-online-safety-technology",
@@ -22293,6 +22389,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Libraries should focus on improving their technological resources rather than on building a larger collection of paper books. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q80 · 70 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q80"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/m-communications-mobilising-incident-command",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "M. Communications, Mobilising & Incident Command 通訊、調派及事故指揮",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / M Communications Mobilising Incident Command · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fm-communications-mobilising-incident-command"
   },
   {
     "id": "flash:government/concept-vocabulary/book-2/m-economy-tourism-small-businesses",
@@ -22541,6 +22645,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Most societies have homeless people. Some people think that the best way to help them is to give them money. To what extent do you agree?",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q82 · 43 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q82"
+  },
+  {
+    "id": "flash:government/hkfsd/concept-vocabulary/book-1/n-hazardous-materials-chemical-safety",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "N. Hazardous Materials & Chemical Safety 危險品及化學安全",
+    "detail": "Government / HKFSD / Concept Vocabulary / Book 1 / N Hazardous Materials Chemical Safety · 40 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fconcept-vocabulary%2Fbook-1%2Fn-hazardous-materials-chemical-safety"
   },
   {
     "id": "flash:government/concept-vocabulary/book-2/n-public-safety-emergency-preparedness-building-safety",

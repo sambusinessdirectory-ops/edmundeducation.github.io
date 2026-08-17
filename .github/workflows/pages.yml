@@ -130,7 +130,7 @@ jobs:
         run: |
           node tools/test-government-civics-book2-flashcards.mjs
 
-      - name: Validate HKFSD Book 1 concept vocabulary and voice
+      - name: Validate HKFSD Book 1 concept vocabulary, voice and Homework links
         run: |
           node tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
 
