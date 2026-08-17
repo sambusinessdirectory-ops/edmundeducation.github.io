@@ -177,6 +177,13 @@ CLOUD_PACK_INDEX_RELATIVES = (
 MANIFEST_AUDIO_ASSIGNMENT = "window.EDMUND_FLASHCARD_AUDIO = Object.freeze("
 MANIFEST_META_ASSIGNMENT = "window.EDMUND_FLASHCARD_AUDIO_META = Object.freeze("
 SPOKEN_OVERRIDES = {
+    "Home Ownership Scheme (HOS)": "Home Ownership Scheme, H O S",
+    "AI literacy": "A I literacy",
+    "support SEN students": "support S E N students",
+    "integrate AI into teaching": "integrate A I into teaching",
+    "NGO service provider": "N G O service provider",
+    "small and medium enterprise (SME)": "small and medium enterprise, S M E",
+    "[V] support SMEs": "support S M E's",
     "AR": "A R",
     "built-in GPS": "built-in G P S",
     "Getfit 4": "Get Fit four",

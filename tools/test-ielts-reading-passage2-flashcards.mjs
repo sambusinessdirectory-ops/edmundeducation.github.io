@@ -222,7 +222,7 @@ assert(/currentUser !== requestUser[\s\S]*?currentDeckRequest !== deckId/.test(d
 assert(html.includes('new URLSearchParams(window.location.search).get("deck")'), "Flashcard Homework deep-link query is missing");
 assert(!/data-deck-search-input[\s\S]{0,1200}?ensureIeltsReadingData/.test(html), "Ordinary search bulk-loads every Reading passage");
 assert(!/data-advanced-search-input[\s\S]{0,1200}?ensureIeltsReadingData/.test(html), "Advanced search bulk-loads every Reading passage");
-assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260816-1"></script>'), "Flashcard audio cache key was not refreshed for the latest audio release");
+assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260817-1"></script>'), "Flashcard audio cache key was not refreshed for the latest audio release");
 
 const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
 assert(inlineSeed["ielts/reading/passage-2/Practice 1"]?.length === 165, "Existing Passage 2 Practice 1 changed unexpectedly");

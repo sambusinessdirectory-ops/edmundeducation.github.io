@@ -126,7 +126,7 @@ jobs:
         run: |
           node tools/test-government-civics-book1-flashcards.mjs
 
-      - name: Validate Civics Book 2 concept vocabulary and Homework links
+      - name: Validate Civics Book 2 concept vocabulary, voice and Homework links
         run: |
           node tools/test-government-civics-book2-flashcards.mjs
 

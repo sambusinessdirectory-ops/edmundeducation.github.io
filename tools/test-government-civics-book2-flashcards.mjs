@@ -11,8 +11,17 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataFile = "flashcards-government-civics-book2-data.js";
 const dataSource = fs.readFileSync(path.join(root, dataFile), "utf8");
 const html = fs.readFileSync(path.join(root, "flashcards.html"), "utf8");
+const audioManifestFile = "flashcards-audio-manifest.js";
+const audioManifestSource = fs.readFileSync(path.join(root, audioManifestFile), "utf8");
 const audioGeneratorSource = fs.readFileSync(path.join(root, "tools/generate-flashcard-audio.py"), "utf8");
 const prefix = "government/concept-vocabulary/book-2";
+
+function normalizeCardText(value) {
+  return String(value || "")
+    .replace(/[\u2018\u2019\u02bc\u02bb\uff07]/g, "'")
+    .replace(/([A-Za-z])\s+'\s*([A-Za-z])/g, "$1'$2")
+    .replace(/([A-Za-z])'\s+(s|t|re|ve|ll|d|m)\b/gi, "$1'$2");
+}
 
 const expected = [
   ["a-core-policy-group-discussion", 40, 4, "A. Core Policy & Group Discussion", "政策及小組討論"],
@@ -43,6 +52,10 @@ const sandbox = { window: {} };
 vm.createContext(sandbox);
 vm.runInContext(dataSource, sandbox, { filename: dataFile, timeout: 20_000 });
 const seed = sandbox.window.EDMUND_GOVERNMENT_CIVICS_BOOK2_SEED;
+const audioSandbox = { window: {} };
+vm.runInNewContext(audioManifestSource, audioSandbox, { filename: audioManifestFile, timeout: 20_000 });
+const audioManifest = audioSandbox.window.EDMUND_FLASHCARD_AUDIO;
+const audioMeta = audioSandbox.window.EDMUND_FLASHCARD_AUDIO_META;
 assert.ok(seed && typeof seed === "object", "Missing Civics Book 2 seed");
 assert.deepEqual(Object.keys(seed), expected.map(({ deckId }) => deckId), "Book 2 deck order or inventory changed");
 assert.deepEqual(
@@ -53,6 +66,7 @@ assert.deepEqual(
 
 let cardCount = 0;
 let exampleCount = 0;
+const audioFronts = new Set();
 for (const item of expected) {
   const cards = seed[item.deckId];
   assert.ok(Array.isArray(cards), `Missing deck ${item.deckId}`);
@@ -76,6 +90,15 @@ for (const item of expected) {
     const normalizedFront = card.front.trim().toLocaleLowerCase("en");
     assert.equal(fronts.has(normalizedFront), false, `${item.deckId}: duplicate front ${card.front}`);
     fronts.add(normalizedFront);
+    const spokenFront = normalizeCardText(card.front).trim();
+    audioFronts.add(spokenFront);
+    const audioUrl = audioManifest?.[spokenFront];
+    assert.ok(audioUrl, `${label}: missing Edmund Neural audio mapping`);
+    if (!audioUrl.startsWith("https://")) {
+      const audioPath = path.join(root, audioUrl);
+      assert.ok(fs.existsSync(audioPath), `${label}: local audio file is missing`);
+      assert.ok(fs.statSync(audioPath).size > 1000, `${label}: local audio file is too small`);
+    }
     exampleCount += card.examples.length;
   });
   assert.deepEqual([...pages].sort((a, b) => a - b), Array.from({ length: item.pages }, (_, index) => index + 1), `${item.deckId}: incomplete source-page coverage`);
@@ -83,6 +106,9 @@ for (const item of expected) {
 }
 assert.equal(cardCount, 560, "Civics Book 2 must contain exactly 560 cards");
 assert.equal(exampleCount, 2800, "Civics Book 2 must contain exactly 2,800 bilingual example pairs");
+assert.equal(audioFronts.size, 560, "Civics Book 2 must contain 560 unique spoken fronts");
+assert.equal(audioMeta?.complete, true, "Edmund Neural audio manifest is incomplete");
+assert.ok(audioMeta?.count >= 135787, `Expected at least 135787 audio mappings; found ${audioMeta?.count}`);
 
 const navigationMatch = html.match(/const governmentCivicsBook2Decks = (\[[\s\S]*?\n    \]);/);
 assert.ok(navigationMatch, "Could not locate the Book 2 navigation list");
@@ -95,6 +121,7 @@ for (const [index, deck] of Array.from(navigation).entries()) {
 }
 
 assert.match(html, /<script src="flashcards-government-civics-book2-data\.js\?v=20260817-1"><\/script>/, "Book 2 data file is not loaded");
+assert.match(html, /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260817-1"><\/script>/, "Edmund Neural audio cache key is stale");
 assert.ok(html.includes('route === "government-concept-vocabulary-book-2"'), "Book 2 route handler is missing");
 assert.ok(html.includes('route: "government-concept-vocabulary-book-2"'), "Book 2 selector is missing");
 assert.ok(html.includes('addAggregate("government/concept-vocabulary", "政府機構 / 概念詞彙", 2)'), "Book selector aggregate must contain two books");
@@ -115,4 +142,4 @@ for (const item of expected) {
   assert.match(resource.detail, new RegExp(`· ${item.cards} cards$`), `${item.deckId}: Homework card count changed`);
 }
 
-console.log(JSON.stringify({ decks: expected.length, cards: cardCount, bilingualExamples: exampleCount, homeworkLinks: homeworkResources.length }, null, 2));
+console.log(JSON.stringify({ decks: expected.length, cards: cardCount, bilingualExamples: exampleCount, audioFronts: audioFronts.size, audioMappings: audioMeta.count, homeworkLinks: homeworkResources.length }, null, 2));
