@@ -407,6 +407,7 @@ immutable
 set search_path = ''
 as $$
 declare
+  -- PHRASAL_CONTROL_REVISION_V3
   v_question_count integer;
   v_question_id text;
   v_item jsonb;
@@ -429,7 +430,7 @@ begin
     or p_result ? 'correctionIds'
     or p_result ? 'collapsedCorrectIds';
 
-  if v_key_count not in (6, 9)
+  if v_key_count not in (6, 7, 9, 10)
     or not (p_result ?& array[
       'round',
       'correctIds',
@@ -450,6 +451,7 @@ begin
         'correctionMode',
         'correctionIds',
         'collapsedCorrectIds',
+        'controlRevision',
         'contentVersion'
       )
     )
@@ -472,6 +474,14 @@ begin
     or jsonb_typeof(p_result -> 'awaitingNextRound') <> 'boolean'
     or jsonb_typeof(p_result -> 'contentVersion') <> 'string'
     or p_result ->> 'contentVersion' <> '1'
+    or (
+      p_result ? 'controlRevision'
+      and (
+        jsonb_typeof(p_result -> 'controlRevision') <> 'number'
+        or coalesce(p_result ->> 'controlRevision', '') !~ '^(0|[1-9][0-9]{0,9})$'
+        or (p_result ->> 'controlRevision')::numeric > 2147483647
+      )
+    )
   then
     return false;
   end if;
@@ -654,14 +664,20 @@ immutable
 set search_path = ''
 as $$
 declare
+  -- PHRASAL_CONTROL_STATE_GUARD_V3
   v_candidate_round_count integer;
   v_existing_round_count integer;
+  v_candidate_round_number integer;
+  v_existing_round_number integer;
   v_index integer;
   v_question_id text;
   v_candidate_question jsonb;
   v_existing_question jsonb;
   v_candidate_status text;
   v_existing_status text;
+  v_candidate_control_revision integer;
+  v_existing_control_revision integer;
+  v_controls_equal boolean;
 begin
   if p_existing is null
     or p_candidate is null
@@ -679,6 +695,28 @@ begin
   then
     return false;
   end if;
+
+  v_candidate_round_number := (p_candidate ->> 'round')::integer;
+  v_existing_round_number := (p_existing ->> 'round')::integer;
+
+  if (p_existing ? 'controlRevision' and jsonb_typeof(p_existing -> 'controlRevision') <> 'number')
+    or (p_candidate ? 'controlRevision' and jsonb_typeof(p_candidate -> 'controlRevision') <> 'number')
+    or coalesce(p_existing ->> 'controlRevision', '0') !~ '^(0|[1-9][0-9]{0,9})$'
+    or coalesce(p_candidate ->> 'controlRevision', '0') !~ '^(0|[1-9][0-9]{0,9})$'
+    or coalesce(p_existing ->> 'controlRevision', '0')::numeric > 2147483647
+    or coalesce(p_candidate ->> 'controlRevision', '0')::numeric > 2147483647
+  then
+    return false;
+  end if;
+
+  v_existing_control_revision := coalesce(
+    (p_existing ->> 'controlRevision')::integer,
+    0
+  );
+  v_candidate_control_revision := coalesce(
+    (p_candidate ->> 'controlRevision')::integer,
+    0
+  );
 
   if exists (
     select 1
@@ -719,43 +757,45 @@ begin
     v_existing_status := coalesce(v_existing_question ->> 'status', '');
 
     if (v_candidate_status = 'correct' and v_existing_status <> 'correct')
-      or (v_candidate_status = 'wrong' and v_existing_status = 'pending')
+      or (
+        v_candidate_status = 'wrong'
+        and v_existing_status = 'pending'
+        and v_existing_round_number = v_candidate_round_number
+      )
       or (
         v_candidate_status = v_existing_status
         and coalesce(v_candidate_question ->> 'lastAnswer', '')
           <> coalesce(v_existing_question ->> 'lastAnswer', '')
-        and v_candidate_round_count >= v_existing_round_count
+        and v_existing_round_number = v_candidate_round_number
       )
       or (
         coalesce((v_candidate_question ->> 'reveal')::boolean, false)
         and not coalesce((v_existing_question ->> 'reveal')::boolean, false)
+        and v_existing_round_number = v_candidate_round_number
+        and v_existing_control_revision <= v_candidate_control_revision
       )
     then
       return false;
     end if;
   end loop;
 
-  if p_candidate ? 'correctionIds'
-    and exists (
-      select 1
-      from jsonb_array_elements_text(p_candidate -> 'correctionIds')
-        as candidate_correction(question_id)
-      where not (
-        coalesce(p_existing -> 'correctionIds', '[]'::jsonb)
-          ? candidate_correction.question_id
-      )
-        and not (p_existing -> 'correctIds' ? candidate_correction.question_id)
-    )
-  then
-    return false;
-  end if;
+  v_controls_equal := (p_existing -> 'awaitingNextRound')
+      is not distinct from (p_candidate -> 'awaitingNextRound')
+    and coalesce(p_existing -> 'correctionMode', 'false'::jsonb)
+      is not distinct from coalesce(p_candidate -> 'correctionMode', 'false'::jsonb)
+    and coalesce(p_existing -> 'correctionIds', '[]'::jsonb)
+      @> coalesce(p_candidate -> 'correctionIds', '[]'::jsonb)
+    and coalesce(p_candidate -> 'correctionIds', '[]'::jsonb)
+      @> coalesce(p_existing -> 'correctionIds', '[]'::jsonb)
+    and coalesce(p_existing -> 'collapsedCorrectIds', '[]'::jsonb)
+      @> coalesce(p_candidate -> 'collapsedCorrectIds', '[]'::jsonb)
+    and coalesce(p_candidate -> 'collapsedCorrectIds', '[]'::jsonb)
+      @> coalesce(p_existing -> 'collapsedCorrectIds', '[]'::jsonb);
 
-  if p_candidate ? 'collapsedCorrectIds'
-    and exists (
-      select 1
-      from jsonb_array_elements_text(p_candidate -> 'collapsedCorrectIds')
-        as candidate_collapsed(question_id)
-      where not (p_existing -> 'correctIds' ? candidate_collapsed.question_id)
+  if v_existing_control_revision < v_candidate_control_revision
+    or (
+      v_existing_control_revision = v_candidate_control_revision
+      and not v_controls_equal
     )
   then
     return false;
@@ -1258,10 +1298,13 @@ set search_path = ''
 as $$
 declare
   -- PHRASAL_STALE_SNAPSHOT_NOOP_V1
+  -- PHRASAL_BRANCH_DIVERGENCE_GUARD_V2
+  -- PHRASAL_CONTROL_STATE_GUARD_V3
   v_existing public.phrasal_verb_system_attempts%rowtype;
   v_now timestamptz := clock_timestamp();
   v_started_at timestamptz;
-  v_moves_backwards boolean;
+  v_incoming_dominates boolean;
+  v_canonical_dominates boolean;
 begin
   if not exists (
     select 1
@@ -1328,34 +1371,24 @@ begin
     -- Completed attempts are immutable. Returning the existing row makes a
     -- retry after a lost response idempotent without permitting rewrites.
     if v_existing.status <> 'completed' then
-      v_moves_backwards := p_round_number < v_existing.round_number
-        or p_correct_count < v_existing.correct_count
-        or p_duration_ms < v_existing.duration_ms
-        or exists (
-          select 1
-          from jsonb_array_elements_text(v_existing.result -> 'correctIds')
-            as old_id(question_id)
-          where not (p_result -> 'correctIds' ? old_id.question_id)
+      v_incoming_dominates := p_round_number >= v_existing.round_number
+        and p_correct_count >= v_existing.correct_count
+        and p_duration_ms >= v_existing.duration_ms
+        and public._phrasal_verb_system_snapshot_is_dominated(
+          p_result,
+          v_existing.result
         );
 
-      if v_moves_backwards then
-        if p_status = 'in_progress'
-          and p_round_number <= v_existing.round_number
-          and p_correct_count <= v_existing.correct_count
-          and p_duration_ms <= v_existing.duration_ms
-          and public._phrasal_verb_system_snapshot_is_dominated(
-            v_existing.result,
-            p_result
-          )
-        then
-          -- The canonical row already contains every fact in this delayed
-          -- retry. Preserve it byte-for-byte, including updated_at.
-          null;
-        else
-          raise exception 'Attempt progress cannot move backwards'
-            using errcode = '22023';
-        end if;
-      else
+      v_canonical_dominates := p_status = 'in_progress'
+        and p_round_number <= v_existing.round_number
+        and p_correct_count <= v_existing.correct_count
+        and p_duration_ms <= v_existing.duration_ms
+        and public._phrasal_verb_system_snapshot_is_dominated(
+          v_existing.result,
+          p_result
+        );
+
+      if v_incoming_dominates then
         update public.phrasal_verb_system_attempts attempt
         set status = p_status,
             round_number = p_round_number,
@@ -1369,6 +1402,15 @@ begin
             end,
             updated_at = v_now
         where attempt.id = p_id;
+      elsif v_canonical_dominates then
+        -- The canonical row already contains every fact in this delayed
+        -- retry. Preserve it byte-for-byte, including updated_at.
+        null;
+      else
+        -- Equal or increasing counters are not proof that two browser
+        -- snapshots share one history. Reject incomparable branches.
+        raise exception 'Attempt progress branches diverged'
+          using errcode = '22023';
       end if;
     end if;
   else

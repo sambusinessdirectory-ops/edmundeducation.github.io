@@ -735,7 +735,11 @@ function normalizeBookmark(value) {
 }
 
 function normalizeAttempt(value) {
-  const result = parseJsonObject(value?.result, {});
+  const sourceResult = parseJsonObject(value?.result, {});
+  const result = {
+    ...sourceResult,
+    controlRevision: normalizeAttemptControlRevision(sourceResult.controlRevision)
+  };
   const lessonId = String(value?.lessonId || value?.lesson_id || "");
   const expectedTotal = lessonQuestionCount(getLesson(lessonId));
   return {
@@ -849,6 +853,66 @@ function uniqueAttemptIds(...values) {
   });
 }
 
+function normalizeAttemptControlRevision(value) {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric) || numeric <= 0) return 0;
+  return Math.min(2147483647, Math.trunc(numeric));
+}
+
+function attemptControlState(value) {
+  return {
+    awaitingNextRound: value?.awaitingNextRound === true,
+    correctionMode: value?.correctionMode === true,
+    correctionIds: uniqueAttemptIds(value?.correctionIds),
+    collapsedCorrectIds: uniqueAttemptIds(value?.collapsedCorrectIds)
+  };
+}
+
+function attemptControlIdsEqual(left, right) {
+  const leftIds = uniqueAttemptIds(left).sort();
+  const rightIds = uniqueAttemptIds(right).sort();
+  return leftIds.length === rightIds.length
+    && leftIds.every((id, index) => id === rightIds[index]);
+}
+
+function attemptControlStatesEqual(left, right) {
+  const earlier = attemptControlState(left);
+  const later = attemptControlState(right);
+  return earlier.awaitingNextRound === later.awaitingNextRound
+    && earlier.correctionMode === later.correctionMode
+    && attemptControlIdsEqual(earlier.correctionIds, later.correctionIds)
+    && attemptControlIdsEqual(earlier.collapsedCorrectIds, later.collapsedCorrectIds);
+}
+
+function nextAttemptControlRevision(value) {
+  const revision = normalizeAttemptControlRevision(value);
+  if (revision >= 2147483647) {
+    throw new Error("練習顯示狀態修訂號已達安全上限；已停止同步以免覆蓋記錄。");
+  }
+  return revision + 1;
+}
+
+function bumpAttemptControlRevisionIfChanged(exercise, before) {
+  if (!exercise || attemptControlStatesEqual(before, exercise)) return false;
+  exercise.controlRevision = nextAttemptControlRevision(exercise.controlRevision);
+  return true;
+}
+
+function normalizedAttemptControls(value, correctIds, questionState, completed) {
+  const control = attemptControlState(value);
+  const correctSet = new Set(uniqueAttemptIds(correctIds));
+  let correctionIds = control.correctionIds
+    .filter((id) => !correctSet.has(id) && questionState?.[id]?.status === "wrong");
+  const correctionMode = !completed && control.correctionMode && correctionIds.length > 0;
+  if (!correctionMode) correctionIds = [];
+  return {
+    awaitingNextRound: !completed && !correctionMode && control.awaitingNextRound,
+    correctionMode,
+    correctionIds,
+    collapsedCorrectIds: control.collapsedCorrectIds.filter((id) => correctSet.has(id))
+  };
+}
+
 function attemptQuestionStateRank(value) {
   if (value?.status === "correct") return 3;
   if (value?.status === "wrong") return 2;
@@ -892,20 +956,33 @@ function attemptRoundFingerprint(round) {
 }
 
 function mergeAttemptRounds(left, right) {
-  const seen = new Set();
-  const rounds = [];
-  [...(Array.isArray(left) ? left : []), ...(Array.isArray(right) ? right : [])].forEach((round) => {
+  const canonicalRounds = (Array.isArray(left) ? left : [])
+    .filter(isPlainObject)
+    .map(cloneAttemptSyncValue);
+  if (canonicalRounds.length > 250) {
+    throw new Error("伺服器練習歷史超出安全合併上限；已停止同步以免遺漏記錄。");
+  }
+  const rounds = canonicalRounds.slice();
+  const seen = new Set(rounds.map(attemptRoundFingerprint));
+  const localOnly = [];
+  (Array.isArray(right) ? right : []).forEach((round) => {
     if (!isPlainObject(round)) return;
     const fingerprint = attemptRoundFingerprint(round);
     if (seen.has(fingerprint)) return;
     seen.add(fingerprint);
-    rounds.push(cloneAttemptSyncValue(round));
+    localOnly.push({ fingerprint, round: cloneAttemptSyncValue(round) });
   });
-  rounds.sort((first, second) => (
-    (Date.parse(first.submittedAt) || 0) - (Date.parse(second.submittedAt) || 0)
-    || Number(first.round || 0) - Number(second.round || 0)
+  localOnly.sort((leftRound, rightRound) => (
+    (Date.parse(leftRound.round.submittedAt) || 0) - (Date.parse(rightRound.round.submittedAt) || 0)
+    || Number(leftRound.round.round || 0) - Number(rightRound.round.round || 0)
+    || String(leftRound.round.kind || "").localeCompare(String(rightRound.round.kind || ""))
+    || leftRound.fingerprint.localeCompare(rightRound.fingerprint)
   ));
-  return rounds.slice(-250);
+  if (rounds.length + localOnly.length > 250) {
+    throw new Error("合併後的練習歷史超出安全上限；已停止同步以免遺漏記錄。");
+  }
+  localOnly.forEach((entry) => rounds.push(entry.round));
+  return rounds;
 }
 
 function earlierAttemptTimestamp(left, right) {
@@ -952,23 +1029,26 @@ function mergeAttemptPayloadLosslessly(canonicalValue, incomingValue) {
     || Boolean(canonical.completedAt)
     || Boolean(incoming.completedAt)
   ) && totalCount > 0 && correctIds.length >= totalCount;
-  const incomingControlsAreNewer = Number(incoming.roundNumber || 1) >= Number(canonical.roundNumber || 1);
+  const canonicalControlRevision = normalizeAttemptControlRevision(canonicalResult.controlRevision);
+  const incomingControlRevision = normalizeAttemptControlRevision(incomingResult.controlRevision);
+  const incomingControlsAreNewer = incomingControlRevision > canonicalControlRevision;
   const controlResult = incomingControlsAreNewer ? incomingResult : canonicalResult;
-  let correctionIds = uniqueAttemptIds(controlResult.correctionIds)
-    .filter((id) => !correctIds.includes(id) && questionState[id]?.status === "wrong");
-  let correctionMode = !completed && controlResult.correctionMode === true && correctionIds.length > 0;
-  if (!correctionMode) correctionIds = [];
-  const awaitingNextRound = !completed && !correctionMode && controlResult.awaitingNextRound === true;
+  const chosenControls = attemptControlState(controlResult);
+  const mergedControls = normalizedAttemptControls(controlResult, correctIds, questionState, completed);
+  let controlRevision = Math.max(canonicalControlRevision, incomingControlRevision);
+  if (!attemptControlStatesEqual(chosenControls, mergedControls)) {
+    controlRevision = nextAttemptControlRevision(controlRevision);
+  }
   const result = {
     round: roundNumber,
     correctIds,
     questionState,
     rounds: mergeAttemptRounds(canonicalResult.rounds, incomingResult.rounds),
-    awaitingNextRound,
-    correctionMode,
-    correctionIds,
-    collapsedCorrectIds: uniqueAttemptIds(canonicalResult.collapsedCorrectIds, incomingResult.collapsedCorrectIds)
-      .filter((id) => correctIds.includes(id)),
+    awaitingNextRound: mergedControls.awaitingNextRound,
+    correctionMode: mergedControls.correctionMode,
+    correctionIds: mergedControls.correctionIds,
+    collapsedCorrectIds: mergedControls.collapsedCorrectIds,
+    controlRevision,
     contentVersion: String(incomingResult.contentVersion || canonicalResult.contentVersion || CONTENT.version || "1")
   };
   return {
@@ -2192,8 +2272,10 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
   if (state.lessonPage === EXERCISE_PAGE && questionId) {
     const exercise = ensureExercise(lesson);
     if (exercise.correctionMode && !exercise.correctionIds.includes(questionId)) {
+      const controlsBefore = attemptControlState(exercise);
       exercise.correctionMode = false;
       exercise.correctionIds = [];
+      if (bumpAttemptControlRevisionIfChanged(exercise, controlsBefore)) scheduleExercisePersistence();
     }
   }
   elements.lessonKicker.textContent = lessonEnglishTitle(lesson).toUpperCase();
@@ -2652,6 +2734,7 @@ function createExercise(lesson) {
     correctionMode: false,
     correctionIds: [],
     collapsedCorrectIds: [],
+    controlRevision: 0,
     durationMs: 0,
     startedAt,
     completedAt: ""
@@ -2695,6 +2778,7 @@ function exerciseFromAttempt(attempt) {
     correctionMode: result.correctionMode === true && correctionIds.length > 0,
     correctionIds,
     collapsedCorrectIds,
+    controlRevision: normalizeAttemptControlRevision(result.controlRevision),
     durationMs: Math.max(0, attempt.durationMs),
     startedAt: attempt.startedAt || new Date().toISOString(),
     completedAt: attempt.completedAt || ""
@@ -3048,6 +3132,7 @@ function serializeExerciseResult(exercise = state.exercise) {
     correctionMode: exercise.correctionMode === true,
     correctionIds: [...exercise.correctionIds],
     collapsedCorrectIds: [...exercise.collapsedCorrectIds],
+    controlRevision: normalizeAttemptControlRevision(exercise.controlRevision),
     contentVersion: String(CONTENT.version || "1")
   };
 }
@@ -3128,6 +3213,7 @@ function scheduleExercisePersistence() {
 
 async function submitExercise(kind) {
   if (state.saveInFlight || !state.exercise || state.exercise.awaitingNextRound) return;
+  const controlsBefore = attemptControlState(state.exercise);
   readExerciseDrafts();
   const lesson = getLesson();
   const available = submissionQuestions(lesson);
@@ -3188,6 +3274,7 @@ async function submitExercise(kind) {
       state.exercise.correctionIds = [];
     }
   }
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
 
   state.saveInFlight = true;
   renderExercisePage(lesson, { preserveScroll: true });
@@ -3219,6 +3306,7 @@ async function startCorrectionRound() {
     showToast("目前沒有需要改正的題目。", "error");
     return;
   }
+  const controlsBefore = attemptControlState(state.exercise);
   state.exercise.round += 1;
   state.exercise.awaitingNextRound = false;
   state.exercise.correctionMode = true;
@@ -3227,6 +3315,7 @@ async function startCorrectionRound() {
     if (state.exercise.questionState[id]) state.exercise.questionState[id].reveal = false;
   });
   state.exercise.collapsedCorrectIds = state.exercise.collapsedCorrectIds.filter((id) => !ids.includes(id));
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
   renderExercisePage(lesson);
   try {
     await persistExercise();
@@ -3239,9 +3328,11 @@ async function startCorrectionRound() {
 
 async function exitCorrectionRound() {
   if (!state.exercise?.correctionMode) return;
+  const controlsBefore = attemptControlState(state.exercise);
   readExerciseDrafts();
   state.exercise.correctionMode = false;
   state.exercise.correctionIds = [];
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
   renderExercisePage(getLesson(), { preserveScroll: true });
   try {
     await persistExercise();
@@ -3253,11 +3344,13 @@ async function exitCorrectionRound() {
 
 async function toggleCorrectCard(questionId) {
   if (!state.exercise?.correctIds.includes(questionId)) return;
+  const controlsBefore = attemptControlState(state.exercise);
   readExerciseDrafts();
   const hidden = state.exercise.collapsedCorrectIds;
   const index = hidden.indexOf(questionId);
   if (index >= 0) hidden.splice(index, 1);
   else hidden.push(questionId);
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
   renderExercisePage(getLesson(), { preserveScroll: true });
   scheduleExercisePersistence();
   requestAnimationFrame(() => {
@@ -3280,11 +3373,13 @@ async function toggleAllCorrectCards() {
     .map((question) => question.id);
   if (!visibleCorrectIds.length) return;
 
+  const controlsBefore = attemptControlState(state.exercise);
   const hidden = new Set(state.exercise.collapsedCorrectIds);
   const expandAll = visibleCorrectIds.every((id) => hidden.has(id));
   visibleCorrectIds.forEach((id) => expandAll ? hidden.delete(id) : hidden.add(id));
   state.exercise.collapsedCorrectIds = [...hidden]
     .filter((id) => state.exercise.correctIds.includes(id));
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
   renderExercisePage(lesson, { preserveScroll: true });
   scheduleExercisePersistence();
   requestAnimationFrame(() => {
@@ -3303,6 +3398,7 @@ function clearQuestionAnswer(questionId) {
 
 async function startNextRound() {
   if (!state.exercise?.awaitingNextRound) return;
+  const controlsBefore = attemptControlState(state.exercise);
   const lesson = getLesson();
   state.exercise.round += 1;
   state.exercise.awaitingNextRound = false;
@@ -3312,6 +3408,7 @@ async function startNextRound() {
     state.exercise.questionState[question.id] = { status: "pending", lastAnswer: "", reveal: false };
     state.exercise.drafts[question.id] = "";
   }
+  bumpAttemptControlRevisionIfChanged(state.exercise, controlsBefore);
   renderExercisePage(lesson);
   try {
     await persistExercise();

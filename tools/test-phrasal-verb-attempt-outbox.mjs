@@ -82,6 +82,26 @@ function payload({ correctId, answer, submittedAt, status = "in_progress", durat
   };
 }
 
+function roundFingerprint(round) {
+  return JSON.stringify([
+    Number(round?.round || 0),
+    String(round?.kind || ""),
+    String(round?.submittedAt || ""),
+    [...(round?.checkedIds || [])].map(String).sort(),
+    [...(round?.correctIds || [])].map(String).sort(),
+    [...(round?.incorrectIds || [])].map(String).sort()
+  ]);
+}
+
+function canonicalRoundsRemainPrefix(existing, candidate) {
+  const existingRounds = Array.isArray(existing?.rounds) ? existing.rounds : [];
+  const candidateRounds = Array.isArray(candidate?.rounds) ? candidate.rounds : [];
+  return candidateRounds.length <= existingRounds.length
+    && candidateRounds.every((round, index) => (
+      roundFingerprint(round) === roundFingerprint(existingRounds[index])
+    ));
+}
+
 test("durable attempt outbox is account-, token-, and epoch-bound", () => {
   assert.match(app, /ATTEMPT_OUTBOX_DB_NAME\s*=\s*"edmund-phrasal-verb-attempt-outbox-v1"/);
   assert.match(app, /createObjectStore\(ATTEMPT_OUTBOX_STORE, \{ keyPath: "mutationId" \}\)/);
@@ -180,6 +200,213 @@ test("lossless merge preserves progress from concurrent canonical and local snap
   assert.equal(merged.result.rounds.length, 2);
   assert.equal(merged.result.questionState["phrasal-verb-01-q01"].lastAnswer, "Traffic is building up.");
   assert.equal(merged.result.questionState["phrasal-verb-01-q02"].lastAnswer, "They built the team up.");
+});
+
+test("409 recovery preserves the canonical round prefix when an offline round is chronologically earlier", () => {
+  const canonical = payload({
+    correctId: "phrasal-verb-01-q01",
+    answer: "Traffic is building up.",
+    submittedAt: "2026-08-17T01:02:00.000Z",
+    durationMs: 2400
+  });
+  const offline = payload({
+    correctId: "phrasal-verb-01-q02",
+    answer: "They built the team up.",
+    submittedAt: "2026-08-17T01:01:00.000Z",
+    durationMs: 1800
+  });
+
+  const recovered = runMerge(canonical, offline);
+  assert.equal(
+    roundFingerprint(recovered.result.rounds[0]),
+    roundFingerprint(canonical.result.rounds[0]),
+    "The verified server history must remain the immutable prefix even when the offline event is earlier"
+  );
+  assert.equal(
+    roundFingerprint(recovered.result.rounds[1]),
+    roundFingerprint(offline.result.rounds[0])
+  );
+  assert.equal(
+    canonicalRoundsRemainPrefix(recovered.result, canonical.result),
+    true,
+    "The fresh merged mutation must dominate the canonical prefix accepted by the V2 SQL guard"
+  );
+
+  const secondRecovery = runMerge(canonical, recovered);
+  assert.deepEqual(
+    Array.from(secondRecovery.result.rounds, roundFingerprint),
+    Array.from(recovered.result.rounds, roundFingerprint),
+    "Repeating 409 recovery must be idempotent instead of reordering history into another conflict"
+  );
+  assert.equal(canonicalRoundsRemainPrefix(secondRecovery.result, canonical.result), true);
+});
+
+test("equal control revisions preserve canonical controls instead of looping on a stale exit", () => {
+  const canonical = payload({
+    correctId: "phrasal-verb-01-q01",
+    answer: "Traffic is building up.",
+    submittedAt: "2026-08-17T01:02:00.000Z"
+  });
+  canonical.result.questionState["phrasal-verb-01-q02"] = {
+    status: "wrong",
+    lastAnswer: "They built the team.",
+    reveal: false
+  };
+  canonical.result.correctionMode = true;
+  canonical.result.correctionIds = ["phrasal-verb-01-q02"];
+  canonical.result.controlRevision = 7;
+
+  const staleExit = structuredClone(canonical);
+  staleExit.result.correctionMode = false;
+  staleExit.result.correctionIds = [];
+  staleExit.result.controlRevision = 7;
+
+  const recovered = runMerge(canonical, staleExit);
+  assert.equal(recovered.result.controlRevision, 7);
+  assert.equal(recovered.result.correctionMode, true);
+  assert.deepEqual(Array.from(recovered.result.correctionIds), ["phrasal-verb-01-q02"]);
+
+  const secondRecovery = runMerge(canonical, recovered);
+  assert.equal(secondRecovery.result.controlRevision, 7);
+  assert.equal(secondRecovery.result.correctionMode, true);
+  assert.deepEqual(Array.from(secondRecovery.result.correctionIds), ["phrasal-verb-01-q02"]);
+});
+
+test("a higher control revision permits a legitimate same-round correction exit", () => {
+  const canonical = payload({
+    correctId: "phrasal-verb-01-q01",
+    answer: "Traffic is building up.",
+    submittedAt: "2026-08-17T01:02:00.000Z"
+  });
+  canonical.result.questionState["phrasal-verb-01-q02"] = {
+    status: "wrong",
+    lastAnswer: "They built the team.",
+    reveal: false
+  };
+  canonical.result.correctionMode = true;
+  canonical.result.correctionIds = ["phrasal-verb-01-q02"];
+  canonical.result.controlRevision = 7;
+
+  const legitimateExit = structuredClone(canonical);
+  legitimateExit.result.correctionMode = false;
+  legitimateExit.result.correctionIds = [];
+  legitimateExit.result.controlRevision = 8;
+
+  const merged = runMerge(canonical, legitimateExit);
+  assert.equal(merged.result.controlRevision, 8);
+  assert.equal(merged.result.correctionMode, false);
+  assert.deepEqual(Array.from(merged.result.correctionIds), []);
+  assert.equal(merged.result.awaitingNextRound, false);
+});
+
+test("structural progress normalization advances the chosen control revision once", () => {
+  const canonical = payload({
+    correctId: "phrasal-verb-01-q01",
+    answer: "Traffic is building up.",
+    submittedAt: "2026-08-17T01:02:00.000Z"
+  });
+  canonical.result.questionState["phrasal-verb-01-q02"] = {
+    status: "wrong",
+    lastAnswer: "They built the team.",
+    reveal: false
+  };
+  canonical.result.correctionMode = true;
+  canonical.result.correctionIds = ["phrasal-verb-01-q02"];
+  canonical.result.controlRevision = 3;
+
+  const correctedOffline = payload({
+    correctId: "phrasal-verb-01-q02",
+    answer: "They built the team up.",
+    submittedAt: "2026-08-17T01:03:00.000Z"
+  });
+  correctedOffline.result.controlRevision = 3;
+
+  const merged = runMerge(canonical, correctedOffline);
+  assert.equal(merged.result.controlRevision, 4);
+  assert.equal(merged.result.correctionMode, false);
+  assert.deepEqual(Array.from(merged.result.correctionIds), []);
+
+  const repeated = runMerge(merged, correctedOffline);
+  assert.equal(repeated.result.controlRevision, 4, "idempotent recovery must not invent another revision");
+});
+
+test("control revisions initialize, serialize, and advance once per actual UI control mutation", () => {
+  assert.match(functionSource("normalizeAttempt", "newAttemptSyncEpoch"), /controlRevision:\s*normalizeAttemptControlRevision/);
+  assert.match(functionSource("createExercise", "exerciseFromAttempt"), /controlRevision:\s*0/);
+  assert.match(functionSource("exerciseFromAttempt", "ensureExercise"), /controlRevision:\s*normalizeAttemptControlRevision/);
+  assert.match(functionSource("serializeExerciseResult", "persistExercise"), /controlRevision:\s*normalizeAttemptControlRevision/);
+
+  const context = {};
+  vm.createContext(context);
+  vm.runInContext(`${functionSource("uniqueAttemptIds", "attemptQuestionStateRank")}
+    exercise = {
+      awaitingNextRound: false,
+      correctionMode: false,
+      correctionIds: [],
+      collapsedCorrectIds: [],
+      controlRevision: 0
+    };
+    before = attemptControlState(exercise);
+    unchanged = bumpAttemptControlRevisionIfChanged(exercise, before);
+    exercise.awaitingNextRound = true;
+    firstChange = bumpAttemptControlRevisionIfChanged(exercise, before);
+    beforeSecond = attemptControlState(exercise);
+    exercise.awaitingNextRound = false;
+    exercise.correctionMode = true;
+    exercise.correctionIds = ["phrasal-verb-01-q02"];
+    secondChange = bumpAttemptControlRevisionIfChanged(exercise, beforeSecond);
+  `, context);
+  assert.equal(context.unchanged, false);
+  assert.equal(context.firstChange, true);
+  assert.equal(context.secondChange, true);
+  assert.equal(context.exercise.controlRevision, 2);
+
+  for (const [name, nextName, persistenceCall] of [
+    ["openLesson", "setLessonPage", "scheduleExercisePersistence"],
+    ["submitExercise", "startCorrectionRound", "persistExercise"],
+    ["startCorrectionRound", "exitCorrectionRound", "persistExercise"],
+    ["exitCorrectionRound", "toggleCorrectCard", "persistExercise"],
+    ["toggleCorrectCard", "toggleAllCorrectCards", "scheduleExercisePersistence"],
+    ["toggleAllCorrectCards", "clearQuestionAnswer", "scheduleExercisePersistence"],
+    ["startNextRound", "saveBookmarks", "persistExercise"]
+  ]) {
+    const source = functionSource(name, nextName);
+    assert.equal(
+      [...source.matchAll(/bumpAttemptControlRevisionIfChanged/g)].length,
+      1,
+      `${name}() must evaluate and bump its control mutation exactly once`
+    );
+    assert.ok(
+      source.indexOf("bumpAttemptControlRevisionIfChanged") < source.lastIndexOf(persistenceCall),
+      `${name}() must advance the revision before persistence`
+    );
+  }
+});
+
+test("409 recovery fails closed instead of discarding a round above the history limit", () => {
+  const canonical = payload({
+    correctId: "phrasal-verb-01-q01",
+    answer: "Traffic is building up.",
+    submittedAt: "2026-08-17T01:02:00.000Z",
+    durationMs: 2400
+  });
+  canonical.result.rounds = Array.from({ length: 250 }, (_, index) => ({
+    ...canonical.result.rounds[0],
+    round: index + 1,
+    submittedAt: new Date(Date.UTC(2026, 7, 17, 1, 2, index)).toISOString()
+  }));
+  const offline = payload({
+    correctId: "phrasal-verb-01-q02",
+    answer: "They built the team up.",
+    submittedAt: "2026-08-17T01:01:00.000Z",
+    durationMs: 1800
+  });
+
+  assert.throws(
+    () => runMerge(canonical, offline),
+    /超出安全上限/,
+    "The client must quarantine an oversized union instead of silently dropping the local round"
+  );
 });
 
 test("exercise submission reports durable local safety instead of remote data loss", () => {

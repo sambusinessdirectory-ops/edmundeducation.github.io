@@ -439,6 +439,7 @@ immutable
 set search_path = ''
 as $$
 declare
+  -- PHRASAL_CONTROL_REVISION_V3
   v_question_count integer;
   v_question_id text;
   v_item jsonb;
@@ -461,7 +462,7 @@ begin
     or p_result ? 'correctionIds'
     or p_result ? 'collapsedCorrectIds';
 
-  if v_key_count not in (6, 9)
+  if v_key_count not in (6, 7, 9, 10)
     or not (p_result ?& array[
       'round',
       'correctIds',
@@ -482,6 +483,7 @@ begin
         'correctionMode',
         'correctionIds',
         'collapsedCorrectIds',
+        'controlRevision',
         'contentVersion'
       )
     )
@@ -504,6 +506,14 @@ begin
     or jsonb_typeof(p_result -> 'awaitingNextRound') <> 'boolean'
     or jsonb_typeof(p_result -> 'contentVersion') <> 'string'
     or p_result ->> 'contentVersion' <> '1'
+    or (
+      p_result ? 'controlRevision'
+      and (
+        jsonb_typeof(p_result -> 'controlRevision') <> 'number'
+        or coalesce(p_result ->> 'controlRevision', '') !~ '^(0|[1-9][0-9]{0,9})$'
+        or (p_result ->> 'controlRevision')::numeric > 2147483647
+      )
+    )
   then
     return false;
   end if;
