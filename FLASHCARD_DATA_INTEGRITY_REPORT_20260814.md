@@ -227,11 +227,11 @@ Required controls:
 
 Rationale: an already-open browser may keep old JavaScript for days. The database must contain it.
 
-### Layer K — Midnight in-database snapshots
+### Layer K — 04:00 HKT in-database snapshots
 
 Required controls:
 
-1. At 00:00 Asia/Hong_Kong (`0 16 * * *` in the UTC database), copy all Flashcard state into a private snapshot batch.
+1. At 04:00 Asia/Hong_Kong, copy all Flashcard state into a private snapshot batch. Use `0 20 * * *` only when the independent scheduler is verified as UTC (`0 4 * * *` when it is explicitly configured to `Asia/Hong_Kong`).
 2. Use an advisory lock so only one batch can run.
 3. Store batch status, expected and copied row counts, expected and copied bytes, per-row SHA-256 digests, and verification time.
 4. Mark a batch complete only after verification succeeds.
@@ -383,7 +383,7 @@ Rationale: a secondary database protects availability and shortens failover, whi
 - encrypted nightly database and Storage export to private R2;
 - R2 Bucket Lock/lifecycle;
 - independent Cloudflare watchdog and alerting;
-- enable the midnight local snapshot schedule only after the watchdog verifies completed manifests and the retention worker requires an immutable off-site archive receipt;
+- enable the 04:00 HKT local snapshot schedule only after the watchdog verifies completed manifests and the retention worker requires an immutable off-site archive receipt;
 - automated restore verification.
 
 ### Phase 4 — normalize all progress systems
@@ -404,7 +404,7 @@ The work is not complete until all of these tests pass:
 6. An old browser with local history but no session storage is quarantined before cache clearing.
 7. A failed or interrupted save remains in the durable outbox and later replays exactly once.
 8. A hard account deletion leaves a recoverable archived copy according to retention policy.
-9. Midnight snapshot verification detects count or checksum mismatch.
+9. The 04:00 HKT snapshot verification detects count or checksum mismatch.
 10. A missing R2 backup produces an independent alert.
 11. A selected student can be reconstructed in a quarantine database and merged without overwriting current production data.
 12. Monthly automated and quarterly human restore drills succeed.

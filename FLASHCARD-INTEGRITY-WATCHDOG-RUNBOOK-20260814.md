@@ -79,8 +79,8 @@ The RPC reports unhealthy when any of these is true:
    absent or disabled;
 4. an unresolved critical integrity alert exists;
 5. an alert-outbox row remains undelivered for more than five minutes;
-6. when snapshot checks are enabled, the required midnight Hong Kong snapshot is not
-   completed by 00:15;
+6. when snapshot checks are enabled, the required 04:00 Hong Kong snapshot is not
+   completed by 04:15;
 7. when snapshot checks are enabled, the required snapshot failed or its row counts,
    aggregate metrics, student snapshot checksums, or manifest checksum no longer
    match.
@@ -375,16 +375,29 @@ Do not leave the temporary exception in place merely because the workflow is gre
 The green result deliberately excludes snapshot lateness/failure/corruption while the
 variable is `false`.
 
-1. Deploy the independently monitored nightly snapshot automation.
-2. Complete and verify at least one expected Hong Kong midnight snapshot, including
+1. Apply `supabase-flashcard-integrity-snapshot-hkt0400-20260817.sql`, then run the
+   rollback-only
+   `supabase-flashcard-integrity-snapshot-hkt0400-verification-20260817.sql`. This
+   aligns snapshot metadata and the watchdog deadline but deliberately schedules
+   nothing.
+2. Deploy the independently monitored nightly snapshot automation for 04:00
+   Asia/Hong_Kong. Use `0 20 * * *` only for a scheduler whose timezone has been
+   independently verified as UTC; use `0 4 * * *` for one explicitly configured to
+   `Asia/Hong_Kong`.
+3. Complete and verify at least one expected 04:00 Hong Kong snapshot, including
    manifest and per-student checksum validation and offsite-backup evidence.
-3. Confirm the current expected snapshot run is `completed` and not late, failed, or
+4. Confirm the current expected snapshot run is `completed` and not late, failed, or
    corrupt.
-4. Change `FLASHCARD_WATCHDOG_SNAPSHOT_CHECKS_ENABLED` to exact lowercase `true` in a
+5. Change `FLASHCARD_WATCHDOG_SNAPSHOT_CHECKS_ENABLED` to exact lowercase `true` in a
    reviewed repository-settings change.
-5. Manually dispatch the workflow. Verify it is green and the sanitized summary
+6. Manually dispatch the workflow. Verify it is green and the sanitized summary
    explicitly reports `"snapshotChecksEnabled":true`.
-6. Observe at least one scheduled run and close the temporary-exception record.
+7. Observe at least one scheduled run and close the temporary-exception record.
+
+During a midnight-to-04:00 cutover, do not invoke both times for the same Hong Kong
+date: the immutable `(snapshot_date, snapshot_kind)` identity makes the second call an
+intentional `already_completed` no-op. Historical `scheduled_for` values are evidence
+and must not be rewritten.
 
 If enabling snapshot checks opens an incident, treat that as a real failure; do not
 toggle the variable back to `false` merely to obtain a green run.

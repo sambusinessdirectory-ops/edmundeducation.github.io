@@ -63,6 +63,14 @@ Phase 1 intentionally schedules no `pg_cron` job. Do not schedule one until an i
 3. writes an encrypted, immutable copy to a separate provider/account (for example Cloudflare R2 with object lock/versioning), reads it back, verifies its checksum, and only then records `offsite_provider`, `offsite_object_key`, `offsite_checksum`, and `offsite_verified_at`;
 4. enforces quotas and retention. Local deletion must never occur unless the offsite fields are complete, the restore drill passed, and the retention action itself is audited. The current immutable trigger deliberately prevents casual snapshot deletion.
 
+The reviewed nightly target is 04:00 `Asia/Hong_Kong`, with watchdog lateness beginning
+at 04:15. Before activating the independent worker, apply
+`supabase-flashcard-integrity-snapshot-hkt0400-20260817.sql` and run
+`supabase-flashcard-integrity-snapshot-hkt0400-verification-20260817.sql`. Neither file
+creates or changes a scheduler. For an independently verified UTC scheduler, 04:00 HKT
+is `0 20 * * *`; for a scheduler explicitly configured to `Asia/Hong_Kong`, it is
+`0 4 * * *`.
+
 Also monitor growth of receipts, revisions, mutations, alerts/outbox, normalized attempts, and snapshots. Alert at conservative database-size thresholds before service limits.
 
 ## Safe disable and incident response
