@@ -217,6 +217,80 @@
       color: #991b1b;
     }
 
+    .flashcard-recovery-panel {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin: -12px 0 28px;
+      padding: 18px 20px;
+      border: 2px solid rgba(185,28,28,0.28);
+      border-radius: 20px;
+      background: rgba(254,242,242,0.97);
+      color: #7f1d1d;
+      box-shadow: 0 18px 36px rgba(127,29,29,0.14);
+    }
+
+    .flashcard-recovery-panel[data-recovery-state="recovering"] {
+      border-color: rgba(180,83,9,0.28);
+      background: rgba(255,251,235,0.97);
+      color: #78350f;
+    }
+
+    .flashcard-recovery-panel[data-recovery-state="success"] {
+      border-color: rgba(22,101,52,0.25);
+      background: rgba(240,253,244,0.97);
+      color: #14532d;
+    }
+
+    .flashcard-recovery-copy {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+
+    .flashcard-recovery-copy strong {
+      font-size: 18px;
+      line-height: 1.35;
+    }
+
+    .flashcard-recovery-copy p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .flashcard-recovery-copy .recovery-english {
+      color: currentColor;
+      font-size: 12px;
+      opacity: 0.82;
+    }
+
+    .flashcard-recovery-code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+    }
+
+    .flashcard-recovery-actions {
+      display: grid;
+      gap: 10px;
+      flex: 0 0 auto;
+      min-width: 230px;
+    }
+
+    .flashcard-recovery-panel .primary-button,
+    .flashcard-recovery-panel .secondary-button {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+    .flashcard-recovery-panel .primary-button:disabled {
+      cursor: wait;
+      opacity: 0.65;
+      transform: none;
+    }
+
     .breadcrumbs {
       display: flex;
       align-items: center;
@@ -3405,6 +3479,16 @@
     }
 
     @media (max-width: 1080px), (any-pointer: coarse) {
+      .flashcard-recovery-panel {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .flashcard-recovery-actions {
+        width: 100%;
+        min-width: 0;
+      }
+
       .front-stage > .card-nav,
       .desktop-countdown {
         display: none !important;
@@ -3840,6 +3924,29 @@
         </div>
       </div>
     </header>
+
+    <section
+      class="flashcard-recovery-panel hidden"
+      data-flashcard-recovery-panel
+      data-recovery-state="needs-action"
+      role="alert"
+      aria-live="assertive"
+    >
+      <div class="flashcard-recovery-copy">
+        <strong data-flashcard-recovery-title>同步復原需要處理 · Sync recovery required</strong>
+        <p data-flashcard-recovery-message></p>
+        <p class="recovery-english" data-flashcard-recovery-english></p>
+        <span class="flashcard-recovery-code" data-flashcard-recovery-code></span>
+      </div>
+      <div class="flashcard-recovery-actions">
+        <button class="primary-button" type="button" data-flashcard-recovery-action>
+          安全復原 · Retry safe recovery
+        </button>
+        <button class="secondary-button hidden" type="button" data-flashcard-recovery-download>
+          下載安全復原檔 · Download recovery copy
+        </button>
+      </div>
+    </section>
 
     <div class="admin-switch-modal hidden" data-admin-switch-modal role="dialog" aria-modal="true" aria-label="Quick student switch">
       <div class="admin-switch-card">
@@ -184285,6 +184392,11 @@ window.EDMUND_FLASHCARD_SEED = {
     let flashcardOutboxRetryAt = 0;
     let flashcardOutboxSequence = 0;
     let flashcardOutboxWakeupsBound = false;
+    let flashcardTerminalRecoveryPromise = null;
+    let flashcardRecoveryRows = [];
+    let flashcardRecoveryDiagnostic = "";
+    let flashcardRecoveryUiState = { mode: "idle", detail: "" };
+    const flashcardAutomaticRecoveryAttemptedOwners = new Set();
 
     function deckDataRevision(deckId) {
       if (deckId === REBUILT_WRITING_PART_A_2025_DECK_ID) {
@@ -185979,7 +186091,7 @@ window.EDMUND_FLASHCARD_SEED = {
               };
             }
             return {
-              message: `同步保護已暫停 · ${pending} 項變更安全保留，需完成衝突復原`,
+              message: `同步衝突需處理 · ${pending} 項變更保留在此瀏覽器，請按「安全復原」`,
               tone: "error"
             };
           }
@@ -187193,7 +187305,326 @@ window.EDMUND_FLASHCARD_SEED = {
       supabaseState.outboxLastError = summary.lastError;
       supabaseState.outboxBlockedKeys = new Set(summary.blockedKeys);
       supabaseState.outboxGlobalBlock = summary.globalBlock;
+      renderFlashcardRecoveryPanel(rows);
+      if (summary.errorClass === "terminal") scheduleFlashcardAutomaticTerminalRecovery();
       return summary;
+    }
+
+    function flashcardRecoveryDiagnosticCode(rows = flashcardRecoveryRows) {
+      const terminal = (Array.isArray(rows) ? rows : [])
+        .find(flashcardOutboxRecordRequiresResolution);
+      if (!terminal) return flashcardRecoveryDiagnostic;
+      const seed = [
+        terminal.mutationId,
+        terminal.key,
+        terminal.status,
+        terminal.receipt?.code,
+        terminal.createdAt
+      ].map(value => String(value || "")).join("|");
+      let hash = 0x811c9dc5;
+      for (let index = 0; index < seed.length; index += 1) {
+        hash ^= seed.charCodeAt(index);
+        hash = Math.imul(hash, 0x01000193);
+      }
+      return `FC-${(hash >>> 0).toString(16).toUpperCase().padStart(8, "0")}`;
+    }
+
+    function renderFlashcardRecoveryPanel(rows = flashcardRecoveryRows) {
+      if (Array.isArray(rows)) flashcardRecoveryRows = rows;
+      const terminalRows = flashcardRecoveryRows.filter(flashcardOutboxRecordRequiresResolution);
+      if (terminalRows.length) {
+        flashcardRecoveryDiagnostic = flashcardRecoveryDiagnosticCode(terminalRows);
+        if (["idle", "success"].includes(flashcardRecoveryUiState.mode)) {
+          flashcardRecoveryUiState = { mode: "needs-action", detail: "" };
+        }
+      } else if (flashcardRecoveryUiState.mode === "needs-action") {
+        flashcardRecoveryUiState = { mode: "idle", detail: "" };
+      }
+
+      const panel = document.querySelector("[data-flashcard-recovery-panel]");
+      if (!panel) return;
+      const mode = flashcardRecoveryUiState.mode;
+      const visible = terminalRows.length > 0 || ["recovering", "failed", "success"].includes(mode);
+      panel.classList.toggle("hidden", !visible);
+      if (!visible) return;
+
+      const title = panel.querySelector("[data-flashcard-recovery-title]");
+      const message = panel.querySelector("[data-flashcard-recovery-message]");
+      const english = panel.querySelector("[data-flashcard-recovery-english]");
+      const code = panel.querySelector("[data-flashcard-recovery-code]");
+      const action = panel.querySelector("[data-flashcard-recovery-action]");
+      const download = panel.querySelector("[data-flashcard-recovery-download]");
+      panel.dataset.recoveryState = mode;
+
+      if (mode === "recovering") {
+        if (title) title.textContent = "正在安全復原 · Safe recovery in progress";
+        if (message) message.textContent = "系統正在重新核實雲端紀錄，並只會合併能夠安全合併的待同步變更。請勿關閉此頁或清除瀏覽器資料。";
+        if (english) english.textContent = "The system is verifying the cloud record and will merge only changes that can be reconciled safely. Do not close this page or clear browser data.";
+      } else if (mode === "success") {
+        if (title) title.textContent = "同步衝突已安全復原 · Sync conflict recovered";
+        if (message) message.textContent = "已完成安全核實；你可以繼續使用學習系統。仍在佇列中的一般網絡同步會自動繼續。";
+        if (english) english.textContent = "Safety checks are complete and you may continue. Any ordinary network queue will continue automatically.";
+      } else if (mode === "failed") {
+        if (title) title.textContent = "需要管理員協助 · Administrator help required";
+        if (message) message.textContent = "本次安全復原未完成；單純等待不會自行解除。變更仍保留在這個瀏覽器。請勿清除瀏覽器資料、使用私密瀏覽或改用其他裝置。請下載安全復原檔，連同下方支援編號交給管理員；檔案包含未同步學習內容，請勿交給其他人。";
+        if (english) english.textContent = "This will not resolve by waiting. The pending change remains in this browser. Do not clear browser data, use private browsing, or switch devices. Download the recovery copy and give it, with the support code below, only to the administrator; it contains unsynced learning content.";
+      } else {
+        if (title) title.textContent = "同步復原需要處理 · Sync recovery required";
+        if (message) message.textContent = "這不是等候狀態。為免覆蓋雲端紀錄，系統已暫停相關寫入；待同步變更仍保留在這個瀏覽器，但尚未全部寫入雲端。請勿清除瀏覽器資料或改用其他裝置，並按「安全復原」。";
+        if (english) english.textContent = "This will not resolve by waiting. Editing is paused to protect the cloud record. Keep this browser's data and select Retry safe recovery.";
+      }
+
+      if (code) {
+        code.textContent = flashcardRecoveryDiagnostic
+          ? `支援編號 · Support code: ${flashcardRecoveryDiagnostic}`
+          : "";
+      }
+      if (action) {
+        action.classList.toggle("hidden", mode === "success");
+        action.disabled = mode === "recovering" || Boolean(flashcardTerminalRecoveryPromise);
+        action.textContent = mode === "recovering"
+          ? "正在安全復原 · Recovering…"
+          : "安全復原 · Retry safe recovery";
+      }
+      if (download) {
+        download.classList.toggle("hidden", mode !== "failed");
+        download.disabled = mode === "recovering" || Boolean(flashcardTerminalRecoveryPromise);
+      }
+    }
+
+    function sanitizeFlashcardRecoveryExportValue(value, seen = new WeakSet()) {
+      if (value === null || typeof value !== "object") return value;
+      if (seen.has(value)) return "[circular value omitted]";
+      seen.add(value);
+      if (Array.isArray(value)) {
+        const sanitized = value.map(item => sanitizeFlashcardRecoveryExportValue(item, seen));
+        seen.delete(value);
+        return sanitized;
+      }
+      const blockedIdentityFields = new Set([
+        "owner", "accountowner", "accountkey", "studentid", "studentname",
+        "userid", "username", "session", "sessionid", "sessiontoken",
+        "token", "ptoken", "accesstoken", "refreshtoken", "authorization",
+        "auth", "password", "passcode", "email"
+      ]);
+      const sanitized = {};
+      Object.entries(value).forEach(([key, item]) => {
+        const normalizedKey = String(key).toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
+        if (blockedIdentityFields.has(normalizedKey)) return;
+        sanitized[key] = sanitizeFlashcardRecoveryExportValue(item, seen);
+      });
+      seen.delete(value);
+      return sanitized;
+    }
+
+    async function downloadFlashcardRecoveryCopy() {
+      const context = captureSupabaseStateSaveContext();
+      if (!context?.owner || context.type !== "student") return false;
+      const rows = (await flashcardOutboxRowsForContext(context))
+        .filter(record => (
+          flashcardOutboxOwnerMatches(record, context)
+          && flashcardOutboxRecordRequiresResolution(record)
+        ));
+      if (!rows.length) return false;
+      const supportCode = flashcardRecoveryDiagnosticCode(rows);
+      const recoveryCopy = {
+        format: "edmund-flashcard-terminal-recovery-v1",
+        createdAt: new Date().toISOString(),
+        supportCode,
+        records: rows.map(record => ({
+          key: String(record.key || ""),
+          status: String(record.status || ""),
+          terminalScope: flashcardOutboxTerminalScope(record),
+          mutationId: String(record.mutationId || ""),
+          logicalMutationIds: flashcardOutboxLogicalMutationIds(record),
+          createdAt: Number(record.createdAt || 0),
+          updatedAt: Number(record.updatedAt || 0),
+          payload: sanitizeFlashcardRecoveryExportValue(record.payload),
+          baseValue: sanitizeFlashcardRecoveryExportValue(record.baseValue),
+          baseChecksum: String(record.baseChecksum || ""),
+          expectedVersion: Number(record.expectedVersion || 0),
+          canonicalValue: sanitizeFlashcardRecoveryExportValue(record.canonicalValue),
+          canonicalVersion: Number(record.canonicalVersion || 0),
+          canonicalChecksum: String(record.canonicalChecksum || ""),
+          receipt: record.receipt ? {
+            status: String(record.receipt.status || ""),
+            code: String(record.receipt.code || ""),
+            resultingVersion: Number(record.receipt.resultingVersion || 0),
+            resultingChecksum: String(record.receipt.resultingChecksum || "")
+          } : null
+        }))
+      };
+      const blob = new Blob([JSON.stringify(recoveryCopy, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = `flashcard-safe-recovery-${supportCode}-${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+      return true;
+    }
+
+    async function waitForFlashcardHydrationToSettle(context, timeoutMs = 12000) {
+      const startedAt = Date.now();
+      while (
+        isSupabaseStateContextCurrent(context)
+        && supabaseState.phase === FLASHCARD_SYNC_PHASES.HYDRATING
+        && Date.now() - startedAt < timeoutMs
+      ) {
+        await new Promise(resolve => window.setTimeout(resolve, 100));
+      }
+      return Boolean(
+        isSupabaseStateContextCurrent(context)
+        && supabaseState.phase !== FLASHCARD_SYNC_PHASES.HYDRATING
+      );
+    }
+
+    function scheduleFlashcardAutomaticTerminalRecovery() {
+      const context = captureSupabaseStateSaveContext();
+      if (!context?.owner || supabaseState.outboxErrorClass !== "terminal") return false;
+      const attemptKey = `${context.owner}:${context.epoch}`;
+      if (flashcardAutomaticRecoveryAttemptedOwners.has(attemptKey)) return false;
+      flashcardAutomaticRecoveryAttemptedOwners.add(attemptKey);
+      window.setTimeout(() => {
+        const active = captureSupabaseStateSaveContext();
+        if (
+          active?.owner === context.owner
+          && active?.epoch === context.epoch
+          && supabaseState.outboxErrorClass === "terminal"
+          && !flashcardTerminalRecoveryPromise
+        ) {
+          void runFlashcardTerminalRecovery({ automatic: true });
+        }
+      }, 350);
+      return true;
+    }
+
+    async function runFlashcardTerminalRecovery({ automatic = false } = {}) {
+      if (flashcardTerminalRecoveryPromise) return flashcardTerminalRecoveryPromise;
+      const context = captureSupabaseStateSaveContext();
+      if (!context?.owner || context.type !== "student") {
+        flashcardRecoveryUiState = { mode: "failed", detail: "missing-session" };
+        renderFlashcardRecoveryPanel();
+        return false;
+      }
+
+      const recovery = (async () => {
+        try {
+          flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
+          flashcardRecoveryUiState = { mode: "recovering", detail: automatic ? "automatic" : "manual" };
+          renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+
+          if (flashcardOutboxDrainPromise) {
+            await Promise.resolve(flashcardOutboxDrainPromise).catch(() => null);
+          }
+          if (!(await waitForFlashcardHydrationToSettle(context))) {
+            throw new Error("The current Flashcard hydration did not finish within the recovery window.");
+          }
+
+          const stateLoaded = await loadStudentStateFromSupabase();
+          if (!isSupabaseStateContextCurrent(context)) {
+            throw new Error("The active Flashcard account changed during recovery.");
+          }
+
+          if (
+            supabaseState.hydratedOwner === context.owner
+            && supabaseState.hydratedEpoch === context.epoch
+          ) {
+            const terminalRows = (await flashcardOutboxRowsForContext(context))
+              .filter(flashcardOutboxRecordRequiresResolution);
+            await recoverFlashcardTerminalOutboxRows(context, terminalRows);
+          }
+
+          flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
+          let summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
+          const terminalRowsRemain = flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution);
+          const canonicalHydrationComplete = Boolean(
+            supabaseState.hydratedOwner === context.owner
+            && supabaseState.hydratedEpoch === context.epoch
+          );
+          if (canonicalHydrationComplete && !terminalRowsRemain && !summary.globalBlock) {
+            // A second-pass reconciliation may remove the final terminal row after
+            // hydration initially selected DEGRADED_READ_ONLY. Only the verified,
+            // same-account canonical hydration can promote the state back to READY.
+            supabaseState.phase = FLASHCARD_SYNC_PHASES.READY;
+          }
+          if (
+            (stateLoaded || canonicalHydrationComplete)
+            && supabaseState.phase === FLASHCARD_SYNC_PHASES.READY
+            && !terminalRowsRemain
+          ) {
+            await drainFlashcardOutbox({ context, force: true, reason: automatic ? "terminal-auto-recovery" : "terminal-manual-recovery" });
+            flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
+            summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
+          }
+
+          const recovered = Boolean(
+            supabaseState.phase === FLASHCARD_SYNC_PHASES.READY
+            && summary.errorClass !== "terminal"
+            && !summary.globalBlock
+            && !flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution)
+          );
+          if (!recovered) {
+            flashcardRecoveryUiState = { mode: "failed", detail: supabaseState.outboxErrorClass || "unresolved" };
+            renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+            return false;
+          }
+
+          // applyFlashcardOutboxStatusSummary has now cleared the terminal class.
+          // Keep any ordinary retryable-network status, but never report success
+          // while a terminal error or terminal IndexedDB row remains.
+          supabaseState.outboxErrorClass = summary.errorClass || "";
+          supabaseState.outboxLastError = summary.lastError || "";
+          flashcardRecoveryUiState = { mode: "success", detail: "" };
+          renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+          const loginStatus = document.querySelector("[data-login-status]");
+          if (loginStatus) loginStatus.textContent = "";
+          updateSupabaseStatus(
+            summary.errorClass === "retryable" ? "同步將自動重試" : "已安全連接",
+            summary.errorClass === "retryable" ? "warning" : "live"
+          );
+          hydrateFlashcardDisplayPreferences();
+          if (currentView === "login") {
+            showAppPanel("dashboard", false);
+            window.setTimeout(openRequestedFlashcardTarget, 0);
+          } else {
+            refreshCurrentView();
+          }
+          window.setTimeout(() => {
+            if (
+              flashcardRecoveryUiState.mode === "success"
+              && !flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution)
+            ) {
+              flashcardRecoveryUiState = { mode: "idle", detail: "" };
+              renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+            }
+          }, 6000);
+          return true;
+        } catch (error) {
+          console.warn("Flashcard terminal recovery did not complete:", error);
+          try {
+            flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
+            applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
+          } catch {
+            // Never clear or replace the local outbox when recovery inspection fails.
+          }
+          flashcardRecoveryUiState = {
+            mode: "failed",
+            detail: isFlashcardAuthenticationError(error) ? "auth" : "unresolved"
+          };
+          renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+          return false;
+        }
+      })();
+
+      flashcardTerminalRecoveryPromise = recovery.finally(() => {
+        flashcardTerminalRecoveryPromise = null;
+        renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+      });
+      renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+      return flashcardTerminalRecoveryPromise;
     }
 
     function flashcardTerminalRecoveryCode(record) {
@@ -187759,6 +188190,8 @@ window.EDMUND_FLASHCARD_SEED = {
           : "同步衝突已被安全阻止；伺服器資料未被覆寫",
         terminalScope === "key" ? "warning" : "error"
       );
+      renderFlashcardRecoveryPanel([blockedRecord]);
+      scheduleFlashcardAutomaticTerminalRecovery();
       return blockedRecord;
     }
 
@@ -188554,7 +188987,7 @@ window.EDMUND_FLASHCARD_SEED = {
         ? "正在載入你的完整學習紀錄，請稍候再開始。"
         : context
           ? supabaseState.outboxErrorClass === "terminal"
-            ? "待同步變更已安全保留，但需完成衝突復原後才可繼續；請勿清除瀏覽器資料。"
+            ? "同步衝突不會靠等待自行解除。待同步變更仍保留在此瀏覽器；請勿清除瀏覽器資料，並按上方「安全復原」。"
             : supabaseState.outboxErrorClass === "hydration-transient"
               ? "資料連線暫時無法完成；學習紀錄未被更改，請檢查網絡後再試。"
               : supabaseState.outboxErrorClass === "hydration-auth"
@@ -189117,9 +189550,14 @@ window.EDMUND_FLASHCARD_SEED = {
         if (restorePendingFamiliarity()) {
           void saveSupabaseState(FAMILIARITY_KEY, readJson(FAMILIARITY_KEY, {}), { silent: true });
         }
-        startSupabaseRealtime();
+        if (pendingOutboxRows.some(flashcardOutboxRecordRequiresResolution)) {
+          const protectedStatus = protectedFlashcardSyncStatus();
+          updateSupabaseStatus(protectedStatus.message, protectedStatus.tone);
+        } else {
+          startSupabaseRealtime();
+        }
         if (!outboxBlocksAccount) scheduleFlashcardOutboxDrain("hydrated", 0);
-        return true;
+        return !outboxBlocksAccount;
       } catch (error) {
         console.warn("Could not load student state:", error);
         if (isSupabaseStateContextCurrent(requestContext)) {
@@ -190219,11 +190657,19 @@ window.EDMUND_FLASHCARD_SEED = {
               return false;
             }
             const stateLoaded = await loadStudentStateFromSupabase();
-            if (stateLoaded) {
+            const stateContext = captureSupabaseStateSaveContext();
+            if (stateLoaded && stateContext && isSupabaseStateHydrated(stateContext)) {
               hydrateFlashcardDisplayPreferences();
               updateSupabaseStatus("已安全連接", "live");
               showAppPanel("dashboard", false);
               return true;
+            }
+            if (supabaseState.outboxErrorClass === "terminal") {
+              loginFailureMessage = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料，並按上方「安全復原」；系統會先核實紀錄，完成後才開啟學習頁。";
+              showLogin();
+              renderFlashcardRecoveryPanel();
+              scheduleFlashcardAutomaticTerminalRecovery();
+              return false;
             }
             loginFailureMessage = "登入成功，但暫時未能安全載入完整學習紀錄。請稍後再試。";
             clearSession();
@@ -195647,6 +196093,21 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function setupEvents() {
       setupStudyStickyHeaderOffset();
+      document.addEventListener("click", event => {
+        const target = event.target instanceof Element ? event.target : null;
+        const recoveryAction = target?.closest("[data-flashcard-recovery-action]");
+        if (recoveryAction) {
+          void runFlashcardTerminalRecovery({ automatic: false });
+          return;
+        }
+        const recoveryDownload = target?.closest("[data-flashcard-recovery-download]");
+        if (recoveryDownload) {
+          void downloadFlashcardRecoveryCopy().catch(error => {
+            console.warn("Could not create the Flashcard recovery copy:", error);
+            window.alert("暫時未能下載安全復原檔。請勿清除瀏覽器資料，並把支援編號交給管理員。\n\nThe recovery copy could not be downloaded. Do not clear browser data; give the support code to the administrator.");
+          });
+        }
+      });
       document.querySelector("[data-login-form]")?.addEventListener("submit", async event => {
         event.preventDefault();
         const status = document.querySelector("[data-login-status]");
@@ -196777,7 +197238,15 @@ window.EDMUND_FLASHCARD_SEED = {
         window.setTimeout(openRequestedFlashcardTarget, 0);
       } else if (currentUser) {
         const status = document.querySelector("[data-login-status]");
-        if (status) status.textContent = "未能安全載入完整學習紀錄。請重新登入；系統不會以空白紀錄覆蓋原有資料。";
+        if (supabaseState.outboxErrorClass === "terminal") {
+          if (status) {
+            status.textContent = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料，並按上方「安全復原」；完成安全核實後才會開啟學習頁。";
+          }
+          renderFlashcardRecoveryPanel();
+          scheduleFlashcardAutomaticTerminalRecovery();
+        } else if (status) {
+          status.textContent = "未能安全載入完整學習紀錄。請重新登入；系統不會以空白紀錄覆蓋原有資料。";
+        }
       }
     }
 

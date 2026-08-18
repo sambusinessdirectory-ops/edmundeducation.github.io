@@ -29,6 +29,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Validate Flashcard conflict recovery release gate
+        run: |
+          node tools/test-flashcard-state-integrity.mjs
+          node tools/test-flashcard-deck-modes.mjs
+          node tools/test-flashcard-conflict-recovery-ui.mjs
+
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs
 

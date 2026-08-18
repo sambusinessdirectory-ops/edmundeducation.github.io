@@ -723,7 +723,8 @@ assert.match(statusGuard, /待同步/);
 assert.match(statusGuard, /離線/);
 assert.match(statusGuard, /最後同步/);
 assert.match(statusGuard, /系統已切換為唯讀/);
-assert.match(statusGuard, /同步保護已暫停/);
+assert.match(statusGuard, /同步衝突需處理/);
+assert.match(statusGuard, /請按「安全復原」/);
 assert.match(statusGuard, /系統將自動重試/);
 assert.match(statusGuard, /暫存進度同步已隔離/);
 assert.doesNotMatch(statusGuard, /同步未完成 · \$\{pending\} 項變更將自動重試/);
@@ -792,7 +793,16 @@ assert.match(hydration, /mergeFlashcardAttempts\(remoteAttempts, accountBackup\)
 assert.match(hydration, /await prepareFlashcardOutboxForHydration\(requestContext\)/);
 assert.match(hydration, /supabaseState\.hydratedOwner = requestContext\.owner/);
 assert.match(hydration, /pendingOutboxRows\.some\(flashcardOutboxTerminalBlocksAccount\)/);
-assert.doesNotMatch(hydration, /pendingOutboxRows\.some\(flashcardOutboxRecordRequiresResolution\)/);
+assert.ok(
+  hydration.includes("pendingOutboxRows.some(flashcardOutboxRecordRequiresResolution)")
+    || hydration.includes('outboxErrorClass === "terminal"'),
+  "Hydration must detect terminal rows that still need a visible warning"
+);
+assert.match(
+  hydration,
+  /protectedFlashcardSyncStatus\(\)/,
+  "An isolated terminal row must remain visible even when it does not block the whole account"
+);
 
 const hydrationPreparation = extractFunction("prepareFlashcardOutboxForHydration");
 assert.ok(
