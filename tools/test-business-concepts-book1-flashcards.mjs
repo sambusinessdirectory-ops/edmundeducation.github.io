@@ -321,7 +321,7 @@ assert.match(
 );
 assert.match(
   html,
-  /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260818-1"><\/script>/,
+  /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260818-2"><\/script>/,
   "Edmund Neural audio cache key is stale"
 );
 assert.ok(

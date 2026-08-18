@@ -80,8 +80,8 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-writing-submission-session-v1";
 const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
-const TOPIC_CATALOG_VERSION = "20260816-business-book1";
-const TOPIC_REFERENCE_VERSION = "20260816-1";
+const TOPIC_CATALOG_VERSION = "20260818-hkfsd-ir3";
+const TOPIC_REFERENCE_VERSION = "20260818-hkfsd-ir3";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
 const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
@@ -1693,13 +1693,16 @@ function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
   if (essayKey && !essayPortals.hasWritingPractice(essayKey)) return null;
   const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
   const hkpfCompositionMatch = /^hkpf-civic-composition-([4-6])$/i.exec(exerciseId);
+  const hkfsdIncidentReportMatch = /^hkfsd-incident-report-(\d+)$/i.exec(exerciseId);
   const flashDeckId = essayKey && essayPortals.hasFlashcards(essayKey)
     ? essayPortals.flashDeckId(essayKey)
     : dsePartAMatch
       ? `dse/writing/part-a/${dsePartAMatch[1]}`
       : hkpfCompositionMatch
         ? `government/hkpf/writing-composition/composition-${hkpfCompositionMatch[1]}`
-        : "";
+        : hkfsdIncidentReportMatch
+          ? `government/hkfsd/incident-reports/incident-report-${hkfsdIncidentReportMatch[1]}`
+          : "";
   const hasFlashcards = Boolean(flashDeckId);
   const writingHref = `writing-practice.html?exercise=${encodeURIComponent(exerciseId)}`;
   return {

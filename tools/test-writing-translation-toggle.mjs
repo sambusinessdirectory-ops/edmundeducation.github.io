@@ -1257,7 +1257,7 @@ assert.equal(hooks.state(), null, "returning to the essay should leave practice 
 const audioManifestWindow = {};
 vm.runInNewContext(readFileSync(`${repository}/writing-audio-manifest.js`, "utf8"), { window: audioManifestWindow });
 const fullAudioManifest = audioManifestWindow.EDMUND_WRITING_AUDIO;
-assert.equal(Object.keys(fullAudioManifest).length, 320, "the complete writing audio manifest should contain 320 essays");
+assert.equal(Object.keys(fullAudioManifest).length, 321, "the complete writing audio manifest should contain 321 essays");
 hooks.setAudioManifest(fullAudioManifest);
 [
   {

@@ -134,6 +134,12 @@ jobs:
         run: |
           node tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
 
+      - name: Validate HKFSD Incident Report 3 Flash Cards and Writing Practice
+        run: |
+          node tools/test-hkfsd-incident-report-3.mjs
+          node tools/test-hkfsd-incident-report-flashcards.mjs
+          node tools/test-hkfsd-incident-report-writing.mjs
+
       - name: Validate Business Concepts Book 1 flashcards, voice and Homework links
         run: |
           node tools/test-business-concepts-book1-flashcards.mjs

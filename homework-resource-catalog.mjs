@@ -8461,6 +8461,17 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "questionImages": []
   },
   {
+    "id": "fill:hkfsd-incident-report-3",
+    "type": "fill-blanks",
+    "ordinal": 3,
+    "label": "Incident Report 3",
+    "detail": "HKFSD · 事故報告 Incident Report",
+    "url": "writing-practice.html?exercise=hkfsd-incident-report-3",
+    "sectionKey": "government-writing",
+    "questionPrompt": [],
+    "questionImages": []
+  },
+  {
     "id": "fill:dse-writing-2014-part-a",
     "type": "fill-blanks",
     "ordinal": 2014,
@@ -17125,6 +17136,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Health care should not be provided for free regardless of a person’s income. The health of a person is in their own hands and they should, therefore, be held accountable for that. ",
     "detail": "IELTS / Writing / Task 2 / Opinions / EdmundBd9OP Q58 · 33 cards",
     "url": "flashcards.html?deck=ielts%2Fwriting%2Ftask-2%2Fopinions%2FEdmundBd9OP-Q58"
+  },
+  {
+    "id": "flash:government/hkfsd/incident-reports/incident-report-3",
+    "type": "flashcards",
+    "ordinal": 3,
+    "label": "HKFSD Incident Report 3 事故報告 3",
+    "detail": "Government / HKFSD / Incident Reports / Incident Report 3 · 86 cards",
+    "url": "flashcards.html?deck=government%2Fhkfsd%2Fincident-reports%2Fincident-report-3"
   },
   {
     "id": "flash:ielts/writing/task-2/discuss-both-views-your-opinion/EdmundBd9ExpBth-Q19",
@@ -39032,6 +39051,17 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
       "The Government will require taxi drivers to provide at least two electronic payment means from April 1, including one QR code payment method and one non-QR code payment method. Passengers may still pay in cash, but the new requirement aims to make taxi services more convenient, especially for tourists and passengers who prefer cashless payment. Some people welcome the measure as a step towards modernising taxi services, while others worry that some drivers may face difficulties in using the systems and that e-payment alone may not be enough to improve the overall taxi experience.",
       "Please give your own views on the issue and suggest ways for the Government to help implement the new requirement effectively."
     ],
+    "questionImages": []
+  },
+  {
+    "id": "writing-submission:hkfsd-incident-report-3",
+    "type": "writing-submission",
+    "ordinal": 3,
+    "label": "Incident Report 3",
+    "detail": "Writing Submission · HKFSD · 事故報告 Incident Report",
+    "url": "writing-submission.html?exercise=hkfsd-incident-report-3",
+    "sectionKey": "government-writing",
+    "questionPrompt": [],
     "questionImages": []
   },
   {

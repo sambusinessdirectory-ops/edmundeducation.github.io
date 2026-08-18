@@ -11,7 +11,7 @@ const html = fs.readFileSync(path.join(siteDir, "flashcards.html"), "utf8");
 
 assert.ok(
   html.includes(
-    '<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260818-1"></script>'
+    '<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260818-2"></script>'
   ),
   "The current audio manifest cache key is stale"
 );

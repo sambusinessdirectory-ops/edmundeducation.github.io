@@ -86,7 +86,7 @@ assert.equal(checkedCards, 3631, "all 3,631 Task 1 card rows must have female au
 const html = fs.readFileSync(path.join(root, "flashcards.html"), "utf8");
 assert.match(
   html,
-  /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260818-1/,
+  /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260818-2/,
   "the flashcard audio cache key is stale"
 );
 

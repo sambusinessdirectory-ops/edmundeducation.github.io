@@ -81,7 +81,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260817-1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260818-2";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
 const STUDENT_AUDIT_PAGE_SIZE = 10;
 const STUDENT_ACCESS_SECTIONS = [

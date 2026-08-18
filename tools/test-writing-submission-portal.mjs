@@ -241,7 +241,7 @@ test("random question delivery exposes exactly four permission-gated canonical c
   );
   assert.equal(
     Object.values(counts).reduce((total, count) => total + count, 0),
-    writingCatalog.length - 14,
+    writingCatalog.length - 15,
     "unrelated Government and Business English questions must not enter one of the four requested random categories"
   );
 
@@ -351,7 +351,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
   assert.match(html, /writing-submission\.css\?v=20260816-feedback-structure-export1/);
-  assert.match(html, /writing-submission\.js\?v=20260816-business-book1/);
+  assert.match(html, /writing-submission\.js\?v=20260818-hkfsd-ir3/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -556,13 +556,15 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.doesNotMatch(script, /writingHref:\s*canonical\.url/);
   assert.match(script, /dse\/writing\/part-a\/\$\{dsePartAMatch\[1\]\}/);
   assert.match(script, /government\/hkpf\/writing-composition\/composition-\$\{hkpfCompositionMatch\[1\]\}/);
+  assert.match(script, /government\/hkfsd\/incident-reports\/incident-report-\$\{hkfsdIncidentReportMatch\[1\]\}/);
   assert.match(script, /flashcards\.html\?deck=\$\{encodeURIComponent\(flashDeckId\)\}/);
   assert.match(script, /重溫 Flash Card 請按這裡：/);
   assert.match(script, /重溫 Fill In The Blanks 請按這裡：/);
   assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
   assert.match(script, /展開以 Open Book 參考 Edmund 主題性生字 Thematic Vocabulary/);
   assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
-  assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260816-1"/);
+  assert.match(script, /TOPIC_CATALOG_VERSION\s*=\s*"20260818-hkfsd-ir3"/);
+  assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260818-hkfsd-ir3"/);
   assert.match(script, /reference\.exerciseId !== route\.exerciseId/);
   assert.match(script, /reference\.writingHref !== route\.writingHref/);
   assert.match(script, /reference\.flashDeckId !== route\.flashDeckId/);

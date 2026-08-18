@@ -184159,10 +184159,11 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-government-civics-book2-data.js?v=20260817-1"></script>
   <script src="flashcards-government-concept-logic-book1-data.js?v=20260817-1"></script>
   <script src="flashcards-hkfsd-concept-vocabulary-book1-data.js?v=20260818-1"></script>
+  <script src="flashcards-hkfsd-incident-reports-data.js?v=20260818-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="flashcards-business-concepts-book1-data.js?v=20260816-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260818-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260818-2"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -185274,6 +185275,21 @@ window.EDMUND_FLASHCARD_SEED = {
     ];
     hkfsdConceptVocabularyBook1Decks.forEach(deck => {
       deckTitleLabels.set(deck.deckId, `政府機構 / HKFSD / 概念詞彙 / Book 1 / ${deck.title}`);
+    });
+    const hkfsdIncidentReportsPrefix = "government/hkfsd/incident-reports";
+    const hkfsdIncidentReportDecks = Array.from({ length: 10 }, (_, index) => {
+      const number = index + 1;
+      return {
+        deckId: `${hkfsdIncidentReportsPrefix}/incident-report-${number}`,
+        label: `Incident Report ${number}`,
+        title: `Incident Report ${number}`
+      };
+    });
+    hkfsdIncidentReportDecks.forEach(deck => {
+      deckTitleLabels.set(
+        deck.deckId,
+        `政府機構 / HKFSD / 事故報告 Incident Reports / ${deck.title}`
+      );
     });
     const governmentConceptLogicBook1Prefix = "government/concept-logic-arguments/book-1";
     const governmentConceptLogicBook1Sections = [
@@ -191047,7 +191063,7 @@ window.EDMUND_FLASHCARD_SEED = {
       governmentTypes.forEach(type => {
         const typeId = deckIdForLabel("government", type, true);
         if (type === "HKFSD") {
-          addAggregate(typeId, "政府機構 / HKFSD", 1);
+          addAggregate(typeId, "政府機構 / HKFSD", 2);
           addAggregate(`${typeId}/concept-vocabulary`, "政府機構 / HKFSD / 概念詞彙", 1);
           addAggregate(
             hkfsdConceptVocabularyBook1Prefix,
@@ -191056,6 +191072,17 @@ window.EDMUND_FLASHCARD_SEED = {
           );
           hkfsdConceptVocabularyBook1Decks.forEach(deck => {
             addExact(deck.deckId, `政府機構 / HKFSD / 概念詞彙 / Book 1 / ${deck.title}`);
+          });
+          addAggregate(
+            hkfsdIncidentReportsPrefix,
+            "政府機構 / HKFSD / 事故報告 Incident Reports",
+            hkfsdIncidentReportDecks.length
+          );
+          hkfsdIncidentReportDecks.forEach(deck => {
+            addExact(
+              deck.deckId,
+              `政府機構 / HKFSD / 事故報告 Incident Reports / ${deck.title}`
+            );
           });
         } else if (type === "HKPF") {
           addAggregate(typeId, "政府機構 / HKPF", hkpfCategories.length);
@@ -193153,6 +193180,11 @@ window.EDMUND_FLASHCARD_SEED = {
             label: "概念詞彙",
             route: "government-hkfsd-concept-vocabulary",
             metaPrefix: "government/hkfsd/concept-vocabulary"
+          },
+          {
+            label: "事故報告 Incident Reports",
+            route: "government-hkfsd-incident-reports",
+            metaPrefix: hkfsdIncidentReportsPrefix
           }
         ]),
         "columns-grid one"
@@ -193185,6 +193217,24 @@ window.EDMUND_FLASHCARD_SEED = {
               deck.label,
               deck.deckId,
               `政府機構 / HKFSD / 概念詞彙 / Book 1 / ${deck.title}`
+            )).join("")}
+          </div>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
+    function showGovernmentHkfsdIncidentReports() {
+      showOptions(
+        "政府機構 / HKFSD / 事故報告 Incident Reports",
+        "選擇事故報告。暫未加入卡片的報告會標示為尚未有卡片。",
+        () => `
+          <div class="option-column">
+            <h3>事故報告 Incident Reports</h3>
+            ${hkfsdIncidentReportDecks.map(deck => optionButton(
+              deck.label,
+              deck.deckId,
+              `政府機構 / HKFSD / 事故報告 Incident Reports / ${deck.title}`
             )).join("")}
           </div>
         `,
@@ -193573,6 +193623,8 @@ window.EDMUND_FLASHCARD_SEED = {
         "hkpf-cre-exam": "HKPF CRE exam",
         "history-and-facts": "History and Facts",
         "concept-vocabulary": "概念詞彙",
+        "incident-reports": "事故報告 Incident Reports",
+        "incident-report-3": "Incident Report 3",
         "book-1": "Book 1",
         csd: "CSD",
         "c-and-ed": "C&ED",
@@ -196422,6 +196474,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route === "government-hkfsd") showGovernmentHkfsd();
           if (route === "government-hkfsd-concept-vocabulary") showGovernmentHkfsdConceptVocabulary();
           if (route === "government-hkfsd-concept-vocabulary-book-1") showGovernmentHkfsdConceptVocabularyBook1();
+          if (route === "government-hkfsd-incident-reports") showGovernmentHkfsdIncidentReports();
           if (route === "government-hkpf") showGovernmentHkpf();
           if (route === "government-hkpf-interview-keys") showGovernmentHkpfInterviewKeys();
           if (route.startsWith("government-hkpf-interview-set|")) showGovernmentHkpfInterviewSet(route.split("|")[1]);

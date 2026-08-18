@@ -102,7 +102,7 @@ function writingSectionKey(exercise) {
   const exam = String(exercise?.exam || "").toLowerCase();
   if (id.startsWith("business-english-") || /business english|商務英語/.test(exam)) return "business-english";
   if (id.startsWith("dse-") || /\bdse\b/.test(exam)) return "dse-writing";
-  if (id.startsWith("hkpf-") || /civil servant|government|hkpf/.test(exam)) return "government-writing";
+  if (id.startsWith("hkpf-") || id.startsWith("hkfsd-") || /civil servant|government|hkpf|hkfsd/.test(exam)) return "government-writing";
   if (/\bielts\b/.test(exam) || id.includes("ielts")) return "ielts-writing";
   if (/\btoeic\b/.test(exam) || id.includes("toeic")) return "toeic-writing";
   if (/\btoefl\b/.test(exam) || id.includes("toefl")) return "toefl-writing";
@@ -207,6 +207,9 @@ async function flashcardResources(allFiles) {
     ["government/hkfsd/concept-vocabulary/book-1/m-communications-mobilising-incident-command", "M. Communications, Mobilising & Incident Command 通訊、調派及事故指揮"],
     ["government/hkfsd/concept-vocabulary/book-1/n-hazardous-materials-chemical-safety", "N. Hazardous Materials & Chemical Safety 危險品及化學安全"]
   ]);
+  const hkfsdIncidentReportTitles = new Map([
+    ["government/hkfsd/incident-reports/incident-report-3", "HKFSD Incident Report 3 事故報告 3"]
+  ]);
   const businessConceptBookOneTitles = new Map([
     ["business-english/business-concepts-standard-response/q1-uncertainty", "Q1 - 你如何理解「不確定性」（uncertainty）對商業決策的影響？"],
     ["business-english/business-concepts-standard-response/q2-inflation-interest-rates-rising-rent-and-rising-wages", "Q2 - 通脹、利率、租金或人工上升，哪一項對企業壓力最大？為甚麼？"],
@@ -228,6 +231,7 @@ async function flashcardResources(allFiles) {
       const readingPractice = readingMatch?.[2] || "";
       const readingTitle = readingTitlesByPassage.get(readingPassage)?.[readingPractice] || "";
       const exactTitle = businessConceptBookOneTitles.get(deckId)
+        || hkfsdIncidentReportTitles.get(deckId)
         || hkfsdBookOneTitles.get(deckId)
         || civicsBookTwoTitles.get(deckId)
         || civicsBookOneTitles.get(deckId)

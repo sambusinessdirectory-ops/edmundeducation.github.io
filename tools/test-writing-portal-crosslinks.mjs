@@ -35,7 +35,7 @@ function publishedWritingFlashDecks() {
   });
   evaluate(localScriptSources(
     "flashcards.html",
-    /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-hkpf)-data\.js$/
+    /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/
   ), sandbox);
   return new Map(Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length));
@@ -46,6 +46,7 @@ function categoryFor(exerciseId) {
   if (/^dse-writing-.+-part-b-/.test(exerciseId)) return "DSE Part B";
   if (/^model-essay-.+-ielts-task1-/.test(exerciseId)) return "IELTS Task 1";
   if (/^model-essay-.+-ielts-/.test(exerciseId)) return "IELTS Task 2";
+  if (exerciseId === "hkfsd-incident-report-3") return "Government";
   if (/^hkpf-civic-composition-/.test(exerciseId)) return "Government";
   if (/^business-english-standard-response-book-1-q\d+$/.test(exerciseId)) return "Business English";
   return "Unknown";
@@ -66,7 +67,7 @@ test("all six Writing families expose every real reciprocal route and no invente
   assert.deepEqual(counts, {
     "DSE Part A": { lessons: 15, flashcards: 15 },
     "DSE Part B": { lessons: 3, flashcards: 0 },
-    Government: { lessons: 4, flashcards: 3 },
+    Government: { lessons: 5, flashcards: 4 },
     "Business English": { lessons: 10, flashcards: 0 },
     "IELTS Task 1": { lessons: 60, flashcards: 59 },
     "IELTS Task 2": { lessons: 228, flashcards: 224 }

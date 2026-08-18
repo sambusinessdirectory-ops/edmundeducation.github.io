@@ -158,7 +158,7 @@ vm.runInContext(
 );
 const flashcardFiles = [...new Set(localScriptSources(
   flashcardsHtml,
-  /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf)-data\.js$/
+  /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/
 ))];
 await evaluateFiles(flashcardFiles, flashcardContext);
 const flashcardSeed = flashcardContext.window.EDMUND_FLASHCARD_SEED || {};
@@ -167,6 +167,9 @@ function flashDeckIdForWritingExercise(exerciseId, essayKey) {
   if (essayKey) return essayPortals.flashDeckId(essayKey);
   const dsePartAMatch = /^dse-writing-(20(?:1[2-9]|2[0-5]))-part-a(?:-argument-(?:for|against))?$/i.exec(exerciseId);
   if (dsePartAMatch) return `dse/writing/part-a/${dsePartAMatch[1]}`;
+  if (exerciseId === "hkfsd-incident-report-3") {
+    return "government/hkfsd/incident-reports/incident-report-3";
+  }
   const hkpfCompositionMatch = /^hkpf-civic-composition-([4-6])$/i.exec(exerciseId);
   return hkpfCompositionMatch
     ? `government/hkpf/writing-composition/composition-${hkpfCompositionMatch[1]}`

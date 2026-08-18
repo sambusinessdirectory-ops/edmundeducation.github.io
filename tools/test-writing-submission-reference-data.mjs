@@ -60,6 +60,7 @@ function writingCategory(exerciseId) {
   if (/^dse-writing-.*-part-b(?:-|$)/.test(exerciseId)) return "DSE Part B";
   if (/^model-essay-\d+-ielts-task1-/.test(exerciseId)) return "IELTS Task 1";
   if (/^model-essay-\d+-ielts-/.test(exerciseId)) return "IELTS Task 2";
+  if (exerciseId === "hkfsd-incident-report-3") return "Government / HKFSD";
   if (/^hkpf-civic-composition-/.test(exerciseId)) return "Government / HKPF";
   if (/^business-english-standard-response-book-1-q\d+$/.test(exerciseId)) return "Business English";
   throw new Error(`Unclassified Writing Practice exercise: ${exerciseId}`);
@@ -78,7 +79,7 @@ function publishedWritingFlashDeckIds() {
   });
   evaluateBrowserFiles(localScriptSources(
     "flashcards.html",
-    /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf)-data\.js$/
+    /^(?:flashcards-ielts-writing(?:-.*)?|flashcards-dse-writing-part-a|flashcards-dse-practical-writing|flashcards-hkpf|flashcards-hkfsd-incident-reports)-data\.js$/
   ), sandbox);
   return new Set(Object.entries(sandbox.window.EDMUND_FLASHCARD_SEED || {})
     .filter(([, cards]) => Array.isArray(cards) && cards.length)
@@ -108,11 +109,11 @@ test("generated references cover every published Writing Practice lesson with no
 
   const authoritativeIds = authoritativeWritingExerciseIds();
   const generatedIds = entries.map(([exerciseId]) => exerciseId);
-  assert.equal(authoritativeIds.length, 320);
+  assert.equal(authoritativeIds.length, 321);
   assert.deepEqual(generatedIds, authoritativeIds, "references must exactly match Writing Practice sources");
   assert.equal(new Set(generatedIds).size, generatedIds.length);
-  assert.equal(entries.filter(([, reference]) => reference.vocabulary.length > 0).length, 304);
-  assert.equal(entries.filter(([, reference]) => reference.flashDeckId).length, 301);
+  assert.equal(entries.filter(([, reference]) => reference.vocabulary.length > 0).length, 305);
+  assert.equal(entries.filter(([, reference]) => reference.flashDeckId).length, 302);
   assert.equal(entries.filter(([, reference]) => reference.paragraphs.every((paragraph) => paragraph.chinese)).length, 320);
 
   const expectedCategoryCoverage = {
@@ -120,6 +121,7 @@ test("generated references cover every published Writing Practice lesson with no
     "DSE Part B": { total: 3, modelEssay: 3, translation: 3, vocabulary: 3, flashCards: 0 },
     "IELTS Task 1": { total: 60, modelEssay: 60, translation: 60, vocabulary: 59, flashCards: 59 },
     "IELTS Task 2": { total: 228, modelEssay: 228, translation: 228, vocabulary: 224, flashCards: 224 },
+    "Government / HKFSD": { total: 1, modelEssay: 1, translation: 0, vocabulary: 1, flashCards: 1 },
     "Government / HKPF": { total: 4, modelEssay: 4, translation: 4, vocabulary: 3, flashCards: 3 },
     "Business English": { total: 10, modelEssay: 10, translation: 10, vocabulary: 0, flashCards: 0 }
   };
@@ -270,6 +272,15 @@ test("generated references cover every published Writing Practice lesson with no
       `government/hkpf/writing-composition/composition-${composition}`
     );
   }
+  assert.equal(
+    references["hkfsd-incident-report-3"].flashDeckId,
+    "government/hkfsd/incident-reports/incident-report-3"
+  );
+  assert.equal(
+    references["hkfsd-incident-report-3"].vocabulary.length,
+    86,
+    "HKFSD Incident Report 3 must import all 86 source-backed Flash Cards"
+  );
 });
 
 test("every Writing Submission topic resolves to the same canonical Writing Practice route as its reference", async () => {

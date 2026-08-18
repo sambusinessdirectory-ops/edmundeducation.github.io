@@ -205,6 +205,15 @@ export const WRITING_SUBMISSION_TOPIC_CATALOG = Object.freeze([
     "questionImages": []
   },
   {
+    "id": "fill:hkfsd-incident-report-3",
+    "type": "fill-blanks",
+    "label": "Incident Report 3",
+    "detail": "HKFSD · 事故報告 Incident Report",
+    "sectionKey": "government-writing",
+    "questionPrompt": [],
+    "questionImages": []
+  },
+  {
     "id": "fill:dse-writing-2014-part-a",
     "type": "fill-blanks",
     "label": "Lucky Village: Where Tradition Meets Transformation",
