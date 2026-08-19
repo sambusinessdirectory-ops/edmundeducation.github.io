@@ -445,9 +445,77 @@ assert.deepEqual(
   "Only a safe, same-owner row may be superseded under a fresh mutation ID"
 );
 
-// Unsafe overlap, validation/auth failures, and unknown terminal records must
-// stay quarantined. Neither the recovery orchestrator nor the UI may erase the
-// IndexedDB evidence or advise students to erase it themselves.
+// If canonical hydration succeeds but safe reconciliation still cannot repair
+// stale browser rows, login availability takes priority. Preserve a verified
+// local archive first, then remove only same-account terminal rows.
+const availabilityArchive = extractFunction("archiveFlashcardTerminalOutboxRows");
+const availabilityRelease = extractFunction("releaseFlashcardTerminalOutboxRows");
+assert.match(availabilityArchive, /sanitizeFlashcardRecoveryExportValue/);
+assert.match(availabilityArchive, /storeLegacyQuarantineInIndexedDb/);
+assert.match(availabilityArchive, /storeLegacyQuarantineInLocalStorage/);
+assert.match(availabilityRelease, /flashcardOutboxOwnerMatches\(record, context\)/);
+assert.match(availabilityRelease, /flashcardOutboxRecordRequiresResolution\(record\)/);
+assert.ok(
+  availabilityRelease.indexOf("archiveFlashcardTerminalOutboxRows")
+    < availabilityRelease.indexOf("deleteFlashcardOutboxMutation"),
+  "Terminal rows must be archived before the active queue releases them"
+);
+assert.match(availabilityRelease, /isSupabaseStateContextCurrent\(context\)/);
+assert.match(availabilityRelease, /flashcardOutboxRowsForContext\(context\)/);
+
+const releaseEvents = [];
+const availabilityReleaseRuntime = vm.runInNewContext(`(() => {
+  let activeRows = globalThis.initialRows.map(record => ({ ...record }));
+  const releaseEvents = globalThis.releaseEvents;
+  const flashcardOutboxOwnerMatches = (record, context) => record.owner === context.owner;
+  const flashcardOutboxRecordRequiresResolution = record => record.requiresResolution === true;
+  const archiveFlashcardTerminalOutboxRows = async (_context, rows) => {
+    releaseEvents.push({ type: "archive", ids: rows.map(record => record.mutationId) });
+    return { archived: rows.length, storage: "indexeddb", bundleId: "terminal-v1-test" };
+  };
+  const isSupabaseStateContextCurrent = () => true;
+  const deleteFlashcardOutboxMutation = async mutationId => {
+    releaseEvents.push({ type: "delete", id: mutationId });
+    activeRows = activeRows.filter(record => record.mutationId !== mutationId);
+  };
+  const flashcardOutboxRowsForContext = async context => (
+    activeRows.filter(record => record.owner === context.owner)
+  );
+  ${availabilityRelease.replace(/^function /, "async function ")}
+  return releaseFlashcardTerminalOutboxRows;
+})()`, {
+  releaseEvents,
+  initialRows: [
+    { owner: "student:gina", mutationId: "terminal-1", requiresResolution: true },
+    { owner: "student:gina", mutationId: "terminal-2", requiresResolution: true },
+    { owner: "student:gina", mutationId: "ordinary-1", requiresResolution: false },
+    { owner: "student:other", mutationId: "other-terminal", requiresResolution: true }
+  ]
+});
+const availabilityResult = await availabilityReleaseRuntime(
+  { owner: "student:gina" },
+  [
+    { owner: "student:gina", mutationId: "terminal-1", requiresResolution: true },
+    { owner: "student:gina", mutationId: "terminal-2", requiresResolution: true },
+    { owner: "student:gina", mutationId: "ordinary-1", requiresResolution: false },
+    { owner: "student:other", mutationId: "other-terminal", requiresResolution: true }
+  ]
+);
+assert.equal(availabilityResult.released, 2);
+assert.deepEqual(JSON.parse(JSON.stringify(releaseEvents)), [
+  { type: "archive", ids: ["terminal-1", "terminal-2"] },
+  { type: "delete", id: "terminal-1" },
+  { type: "delete", id: "terminal-2" }
+]);
+assert.match(recovery, /releaseFlashcardTerminalOutboxRows/);
+assert.ok(
+  recovery.indexOf("canonicalHydrationComplete") < recovery.indexOf("releaseFlashcardTerminalOutboxRows"),
+  "Availability release must run only after canonical cloud hydration succeeds"
+);
+
+// Safe merge must never silently erase a terminal row; the explicit
+// availability-release helper owns archive-before-delete fallback behavior.
+// The UI must never advise students to erase all browser data themselves.
 for (const protectedSource of [recovery, terminalRows, renderRecoveryPanel]) {
   assert.doesNotMatch(protectedSource, /deleteFlashcardOutboxMutation/);
   assert.doesNotMatch(protectedSource, /localStorage\.clear|indexedDB\.deleteDatabase|caches\.delete/);

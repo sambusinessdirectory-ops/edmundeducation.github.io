@@ -187397,9 +187397,15 @@ window.EDMUND_FLASHCARD_SEED = {
         if (message) message.textContent = "系統正在重新核實雲端紀錄，並只會合併能夠安全合併的待同步變更。請勿關閉此頁或清除瀏覽器資料。";
         if (english) english.textContent = "The system is verifying the cloud record and will merge only changes that can be reconciled safely. Do not close this page or clear browser data.";
       } else if (mode === "success") {
-        if (title) title.textContent = "同步衝突已安全復原 · Sync conflict recovered";
-        if (message) message.textContent = "已完成安全核實；你可以繼續使用學習系統。仍在佇列中的一般網絡同步會自動繼續。";
-        if (english) english.textContent = "Safety checks are complete and you may continue. Any ordinary network queue will continue automatically.";
+        if (flashcardRecoveryUiState.detail === "cloud-record-restored") {
+          if (title) title.textContent = "已恢復登入 · Login restored";
+          if (message) message.textContent = "舊有瀏覽器同步衝突已封存並移出目前佇列；系統已採用已核實的雲端紀錄，你可以立即繼續學習。";
+          if (english) english.textContent = "Stale browser conflicts were archived and removed from the active queue. The verified cloud record is loaded and you may continue now.";
+        } else {
+          if (title) title.textContent = "同步衝突已安全復原 · Sync conflict recovered";
+          if (message) message.textContent = "已完成安全核實；你可以繼續使用學習系統。仍在佇列中的一般網絡同步會自動繼續。";
+          if (english) english.textContent = "Safety checks are complete and you may continue. Any ordinary network queue will continue automatically.";
+        }
       } else if (mode === "failed") {
         if (title) title.textContent = "需要管理員協助 · Administrator help required";
         if (message) message.textContent = "本次安全復原未完成；單純等待不會自行解除。變更仍保留在這個瀏覽器。請勿清除瀏覽器資料、使用私密瀏覽或改用其他裝置。請下載安全復原檔，連同下方支援編號交給管理員；檔案包含未同步學習內容，請勿交給其他人。";
@@ -187580,6 +187586,66 @@ window.EDMUND_FLASHCARD_SEED = {
       return true;
     }
 
+    async function archiveFlashcardTerminalOutboxRows(context, rows) {
+      const records = (Array.isArray(rows) ? rows : [])
+        .filter(record => (
+          flashcardOutboxOwnerMatches(record, context)
+          && flashcardOutboxRecordRequiresResolution(record)
+        ))
+        .map(record => sanitizeFlashcardRecoveryExportValue(record));
+      if (!records.length) return { archived: 0, storage: "none", bundleId: "" };
+
+      const serialized = JSON.stringify(records);
+      const digest = legacySyncDigestFallback(serialized);
+      const bundle = {
+        bundleId: `terminal-v1-${digest}`,
+        schemaVersion: 1,
+        kind: "terminal-outbox-availability-archive",
+        capturedAt: Date.now(),
+        digest,
+        records
+      };
+      let storage = "indexeddb";
+      try {
+        await storeLegacyQuarantineInIndexedDb(bundle);
+      } catch (indexedDbError) {
+        storage = "localstorage";
+        try {
+          storeLegacyQuarantineInLocalStorage(bundle);
+        } catch (localStorageError) {
+          // Authentication and access must not remain blocked by a stale local
+          // queue when neither browser storage mechanism can accept an archive.
+          storage = "unavailable";
+          console.warn("Could not archive stale Flashcard conflicts before releasing login:", indexedDbError, localStorageError);
+        }
+      }
+      return { archived: records.length, storage, bundleId: bundle.bundleId };
+    }
+
+    async function releaseFlashcardTerminalOutboxRows(context, rows) {
+      const candidates = (Array.isArray(rows) ? rows : [])
+        .filter(record => (
+          flashcardOutboxOwnerMatches(record, context)
+          && flashcardOutboxRecordRequiresResolution(record)
+        ));
+      if (!candidates.length) return { released: 0, storage: "none", bundleId: "" };
+
+      const archive = await archiveFlashcardTerminalOutboxRows(context, candidates);
+      for (const record of candidates) {
+        if (!isSupabaseStateContextCurrent(context)) {
+          throw new Error("The active Flashcard account changed while stale conflicts were being released.");
+        }
+        await deleteFlashcardOutboxMutation(record.mutationId);
+      }
+      const candidateIds = new Set(candidates.map(record => String(record.mutationId || "")));
+      const remaining = (await flashcardOutboxRowsForContext(context))
+        .filter(record => candidateIds.has(String(record.mutationId || "")));
+      if (remaining.length) {
+        throw new Error("A stale Flashcard conflict could not be released from the active queue.");
+      }
+      return { released: candidates.length, ...archive };
+    }
+
     async function waitForFlashcardHydrationToSettle(context, timeoutMs = 12000) {
       const startedAt = Date.now();
       while (
@@ -187679,7 +187745,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
           flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
           let summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
-          const terminalRowsRemain = flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution);
+          let terminalRowsRemain = flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution);
           const canonicalHydrationComplete = Boolean(
             supabaseState.hydratedOwner === context.owner
             && supabaseState.hydratedEpoch === context.epoch
@@ -187700,6 +187766,18 @@ window.EDMUND_FLASHCARD_SEED = {
             summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
           }
 
+          let availabilityRelease = null;
+          if (canonicalHydrationComplete && flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution)) {
+            const terminalRows = flashcardRecoveryRows.filter(flashcardOutboxRecordRequiresResolution);
+            availabilityRelease = await releaseFlashcardTerminalOutboxRows(context, terminalRows);
+            flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
+            summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
+            terminalRowsRemain = flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution);
+            if (!terminalRowsRemain && !summary.globalBlock) {
+              supabaseState.phase = FLASHCARD_SYNC_PHASES.READY;
+            }
+          }
+
           const recovered = Boolean(
             supabaseState.phase === FLASHCARD_SYNC_PHASES.READY
             && summary.errorClass !== "terminal"
@@ -187717,13 +187795,20 @@ window.EDMUND_FLASHCARD_SEED = {
           // while a terminal error or terminal IndexedDB row remains.
           supabaseState.outboxErrorClass = summary.errorClass || "";
           supabaseState.outboxLastError = summary.lastError || "";
-          flashcardRecoveryUiState = { mode: "success", detail: "" };
+          flashcardRecoveryUiState = {
+            mode: "success",
+            detail: availabilityRelease?.released ? "cloud-record-restored" : ""
+          };
           renderFlashcardRecoveryPanel(flashcardRecoveryRows);
           const loginStatus = document.querySelector("[data-login-status]");
           if (loginStatus) loginStatus.textContent = "";
           updateSupabaseStatus(
-            summary.errorClass === "retryable" ? "同步將自動重試" : "已安全連接",
-            summary.errorClass === "retryable" ? "warning" : "live"
+            availabilityRelease?.released
+              ? "舊同步衝突已封存；已採用雲端紀錄"
+              : summary.errorClass === "retryable"
+                ? "同步將自動重試"
+                : "已安全連接",
+            availabilityRelease?.released || summary.errorClass === "retryable" ? "warning" : "live"
           );
           hydrateFlashcardDisplayPreferences();
           if (currentView === "login") {
