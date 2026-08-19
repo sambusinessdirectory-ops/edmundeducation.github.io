@@ -150,6 +150,13 @@ const setupEvents = extractFunction("setupEvents");
 assert.match(setupEvents, /dataset\.flashcardLoginBusy/);
 assert.match(setupEvents, /setAttribute\("aria-busy", "true"\)/);
 assert.match(setupEvents, /controls\.forEach\(control => \{ control\.disabled = true; \}\)/);
+const formDataCaptureIndex = setupEvents.indexOf("const formData = new FormData(form);");
+const controlDisableIndex = setupEvents.indexOf("controls.forEach(control => { control.disabled = true; });");
+assert.notEqual(formDataCaptureIndex, -1, "Login submit handler must capture FormData");
+assert.ok(
+  formDataCaptureIndex < controlDisableIndex,
+  "Login values must be captured before controls are disabled because disabled controls are omitted from FormData"
+);
 assert.match(setupEvents, /finally[\s\S]{0,260}controls\.forEach\(control => \{ control\.disabled = false; \}\)/);
 
 console.log("Flashcard login single-flight and authenticated recovery reuse gate passed.");

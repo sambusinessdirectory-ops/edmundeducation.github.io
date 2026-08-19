@@ -196361,12 +196361,14 @@ window.EDMUND_FLASHCARD_SEED = {
         event.preventDefault();
         const form = event.currentTarget;
         if (form.dataset.flashcardLoginBusy === "true") return;
+        // Capture submitted values before disabling controls: disabled form
+        // controls are omitted from FormData by every browser.
+        const formData = new FormData(form);
         const controls = [...form.querySelectorAll("input, button")];
         form.dataset.flashcardLoginBusy = "true";
         form.setAttribute("aria-busy", "true");
         controls.forEach(control => { control.disabled = true; });
         const status = document.querySelector("[data-login-status]");
-        const formData = new FormData(form);
         if (status) status.textContent = "Checking login...";
         try {
           const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
