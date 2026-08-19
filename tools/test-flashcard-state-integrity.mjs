@@ -374,11 +374,45 @@ assert.equal(progressRebaseRuntime(
   { [progressKey]: { ...localProgressEntry, attemptId: "attempt-local" } },
   { [progressKey]: { ...serverProgressEntry, attemptId: "attempt-server" } }
 ).safe, false, "Different attempt IDs must remain quarantined");
-assert.equal(progressRebaseRuntime(
+const serverUnchangedProgressDeletion = progressRebaseRuntime(
+  { [progressKey]: baseProgressEntry },
+  {},
+  { [progressKey]: baseProgressEntry }
+);
+assert.equal(serverUnchangedProgressDeletion.safe, true);
+assert.deepEqual(
+  JSON.parse(JSON.stringify(serverUnchangedProgressDeletion.value)),
+  {},
+  "A local progress deletion must apply when the server is unchanged"
+);
+const alreadyAbsentProgressDeletion = progressRebaseRuntime(
+  { [progressKey]: baseProgressEntry },
+  {},
+  {}
+);
+assert.equal(alreadyAbsentProgressDeletion.safe, true);
+assert.deepEqual(
+  JSON.parse(JSON.stringify(alreadyAbsentProgressDeletion.value)),
+  {},
+  "A progress deletion that is already canonical must remain a no-op"
+);
+const newerServerProgressSurvivesDeletion = progressRebaseRuntime(
   { [progressKey]: baseProgressEntry },
   {},
   { [progressKey]: serverProgressEntry }
-).safe, false, "Completion/deletion racing with an edit must remain quarantined");
+);
+assert.equal(newerServerProgressSurvivesDeletion.safe, true);
+assert.equal(newerServerProgressSurvivesDeletion.reason, "newer-server-progress-preserved");
+assert.deepEqual(
+  JSON.parse(JSON.stringify(newerServerProgressSurvivesDeletion.value)),
+  { [progressKey]: serverProgressEntry },
+  "A newer server edit must win over a racing local completion/deletion"
+);
+assert.equal(progressRebaseRuntime(
+  { [progressKey]: baseProgressEntry },
+  { [progressKey]: localProgressEntry },
+  {}
+).safe, false, "A local edit racing with a server deletion must remain quarantined");
 
 const coalesceRuntime = vm.runInNewContext(`(() => {
   const ATTEMPTS_KEY = "attempts";
@@ -555,6 +589,73 @@ assert.ok(recoveredProgress, "A same-attempt progress conflict should recover un
 assert.notEqual(recoveredProgress.mutationId, sameAttemptProgressTerminal.mutationId);
 assert.equal(recoveredProgress.payload[progressKey].roundNumber, 2);
 assert.deepEqual({ ...recoveredProgress.payload[progressKey].outcomes }, { 0: "green", 2: "green" });
+
+// Production incident FC-EA75232D: the first local rebase was conservatively
+// isolated without a server receipt. By the subsequent verified hydration, its
+// payload was byte-for-byte equivalent to canonical state. That ordinary queue
+// race must self-heal instead of trapping the student behind administrator help.
+const alreadyCanonicalLocalRebase = queuedRecord(
+  305,
+  "edmundFlashcardProgress",
+  { [progressKey]: serverProgressEntry },
+  {
+    [progressKey]: serverProgressEntry,
+    "Hayley::completed-deck": {
+      attemptId: "completed-attempt",
+      savedAt: 100,
+      roundNumber: 4,
+      outcomes: { 0: "green" }
+    }
+  }
+);
+alreadyCanonicalLocalRebase.status = "blocked";
+alreadyCanonicalLocalRebase.requiresResolution = true;
+alreadyCanonicalLocalRebase.terminalScope = "key";
+alreadyCanonicalLocalRebase.receipt = null;
+alreadyCanonicalLocalRebase.recoveryClass = "fresh-canonical-rebase";
+alreadyCanonicalLocalRebase.lastError = "A queued mutation needs review (progress-delete-edit-overlap:Hayley::completed-deck).";
+const recoveredAlreadyCanonical = terminalRecoveryRuntime(alreadyCanonicalLocalRebase);
+assert.ok(recoveredAlreadyCanonical, "An already-canonical local progress rebase must recover automatically");
+assert.notEqual(recoveredAlreadyCanonical.mutationId, alreadyCanonicalLocalRebase.mutationId);
+assert.equal(recoveredAlreadyCanonical.recoveredFromTerminalCode, "local_rebase_review");
+assert.deepEqual(
+  JSON.parse(JSON.stringify(recoveredAlreadyCanonical.payload)),
+  { [progressKey]: serverProgressEntry }
+);
+
+const precedingClientLocalRebase = { ...alreadyCanonicalLocalRebase };
+delete precedingClientLocalRebase.recoveryClass;
+precedingClientLocalRebase.mutationId = "00000000-0000-4000-8000-000000000307";
+precedingClientLocalRebase.logicalMutationId = precedingClientLocalRebase.mutationId;
+precedingClientLocalRebase.logicalMutationIds = [precedingClientLocalRebase.mutationId];
+assert.ok(
+  terminalRecoveryRuntime(precedingClientLocalRebase),
+  "An existing isolated row from the immediately preceding client must self-heal without a new recovery marker"
+);
+
+const ambiguousLocalRebase = {
+  ...alreadyCanonicalLocalRebase,
+  mutationId: "00000000-0000-4000-8000-000000000306",
+  logicalMutationId: "00000000-0000-4000-8000-000000000306",
+  logicalMutationIds: ["00000000-0000-4000-8000-000000000306"],
+  payload: {},
+  baseValue: { [progressKey]: baseProgressEntry }
+};
+const serverPreservingRecovery = terminalRecoveryRuntime(ambiguousLocalRebase);
+assert.ok(serverPreservingRecovery, "A local delete racing with a newer server edit must recover without administrator action");
+assert.notEqual(
+  serverPreservingRecovery.mutationId,
+  ambiguousLocalRebase.mutationId,
+  "Server-preserving recovery must use a fresh idempotency key"
+);
+assert.equal(serverPreservingRecovery.status, "queued");
+assert.equal(serverPreservingRecovery.expectedVersion, 8);
+assert.equal(serverPreservingRecovery.baseChecksum, "saved-progress-v8");
+assert.deepEqual(
+  JSON.parse(JSON.stringify(serverPreservingRecovery.payload)),
+  { [progressKey]: serverProgressEntry },
+  "Terminal recovery must preserve the newer canonical progress entry"
+);
 
 const overlappingTerminal = {
   ...disjointTerminal,

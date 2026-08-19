@@ -186798,6 +186798,7 @@ window.EDMUND_FLASHCARD_SEED = {
         ...Object.keys(canonicalValue)
       ]);
       const rebased = cloneFlashcardSyncPayload(canonicalValue);
+      let preservedNewerServerEntry = false;
       for (const key of keys) {
         const baseHas = Object.prototype.hasOwnProperty.call(baseValue, key);
         const localHas = Object.prototype.hasOwnProperty.call(localValue, key);
@@ -186819,7 +186820,15 @@ window.EDMUND_FLASHCARD_SEED = {
           else delete rebased[key];
           continue;
         }
-        if (!localHas || !serverHas) {
+        if (!localHas && serverHas) {
+          // Removing completed/superseded local progress is safe only while the
+          // server still matches the verified base. A newer server edit may come
+          // from another tab/device, so preserve it instead of forcing the local
+          // deletion or trapping the student in administrator recovery.
+          preservedNewerServerEntry = true;
+          continue;
+        }
+        if (!serverHas) {
           return { safe: false, value: null, reason: `progress-delete-edit-overlap:${key}` };
         }
         const mergedEntry = mergeFlashcardProgressEntry(
@@ -186832,7 +186841,13 @@ window.EDMUND_FLASHCARD_SEED = {
         }
         rebased[key] = mergedEntry.value;
       }
-      return { safe: true, value: rebased, reason: "same-attempt-progress-store-merge" };
+      return {
+        safe: true,
+        value: rebased,
+        reason: preservedNewerServerEntry
+          ? "newer-server-progress-preserved"
+          : "same-attempt-progress-store-merge"
+      };
     }
 
     function reconcileFlashcardStateMutation(record, canonicalValue) {
@@ -187417,6 +187432,79 @@ window.EDMUND_FLASHCARD_SEED = {
       return sanitized;
     }
 
+    function redactFlashcardRecoveryCustomDeckId(value) {
+      return String(value || "").replace(
+        /student-custom\/[^/\s)]+\//g,
+        "student-custom/student/"
+      );
+    }
+
+    function sanitizeFlashcardRecoveryStructuralDeckIds(value, fieldName = "") {
+      if (Array.isArray(value)) {
+        return value.map(item => sanitizeFlashcardRecoveryStructuralDeckIds(item));
+      }
+      if (!value || typeof value !== "object") {
+        return typeof value === "string" && ["id", "deckid"].includes(String(fieldName).toLocaleLowerCase())
+          ? redactFlashcardRecoveryCustomDeckId(value)
+          : value;
+      }
+      return Object.fromEntries(Object.entries(value).map(([childKey, childValue]) => [
+        childKey,
+        sanitizeFlashcardRecoveryStructuralDeckIds(childValue, childKey)
+      ]));
+    }
+
+    function sanitizeFlashcardRecoveryStateValue(key, value) {
+      const sanitized = sanitizeFlashcardRecoveryExportValue(value);
+      const ownerPrefixedState = [PROGRESS_KEY, FAMILIARITY_KEY, NOTES_KEY].includes(key);
+      const ownerTopLevelState = [BOOKMARKS_KEY, DASHBOARD_LAYOUT_KEY].includes(key);
+      const studentCustomCardState = key === CARDS_KEY;
+      if (
+        (!ownerPrefixedState && !ownerTopLevelState && !studentCustomCardState)
+        || !sanitized
+        || typeof sanitized !== "object"
+        || Array.isArray(sanitized)
+      ) return sanitized;
+      const redacted = {};
+      const usedKeys = new Set();
+      Object.entries(sanitized).forEach(([stateKey, entry]) => {
+        const separator = stateKey.indexOf("::");
+        const redactedStateKey = redactFlashcardRecoveryCustomDeckId(stateKey);
+        const studentCustomMatch = studentCustomCardState
+          ? redactedStateKey.match(/^student-custom\/student\/(.+)$/)
+          : null;
+        let safeKey = ownerTopLevelState
+          ? "student"
+          : studentCustomMatch
+            ? `student-custom/student/${studentCustomMatch[1]}`
+          : separator >= 0
+            ? `student${redactFlashcardRecoveryCustomDeckId(stateKey.slice(separator))}`
+            : redactedStateKey;
+        let suffix = 2;
+        while (usedKeys.has(safeKey)) {
+          safeKey = ownerTopLevelState
+            ? `student-${suffix}`
+            : studentCustomMatch
+              ? `student-custom/student-${suffix}/${studentCustomMatch[1]}`
+            : separator >= 0
+            ? `student-${suffix}${redactFlashcardRecoveryCustomDeckId(stateKey.slice(separator))}`
+            : `${redactedStateKey}-${suffix}`;
+          suffix += 1;
+        }
+        usedKeys.add(safeKey);
+        redacted[safeKey] = sanitizeFlashcardRecoveryStructuralDeckIds(entry);
+      });
+      return redacted;
+    }
+
+    function sanitizeFlashcardRecoveryDiagnosticText(value) {
+      const ownerRedacted = String(value || "").replace(
+        /:([^:\r\n]+?)::/g,
+        ":student::"
+      );
+      return redactFlashcardRecoveryCustomDeckId(ownerRedacted);
+    }
+
     async function downloadFlashcardRecoveryCopy() {
       const context = captureSupabaseStateSaveContext();
       if (!context?.owner || context.type !== "student") return false;
@@ -187439,11 +187527,13 @@ window.EDMUND_FLASHCARD_SEED = {
           logicalMutationIds: flashcardOutboxLogicalMutationIds(record),
           createdAt: Number(record.createdAt || 0),
           updatedAt: Number(record.updatedAt || 0),
-          payload: sanitizeFlashcardRecoveryExportValue(record.payload),
-          baseValue: sanitizeFlashcardRecoveryExportValue(record.baseValue),
+          lastError: sanitizeFlashcardRecoveryDiagnosticText(record.lastError),
+          recoveryClass: String(record.recoveryClass || ""),
+          payload: sanitizeFlashcardRecoveryStateValue(record.key, record.payload),
+          baseValue: sanitizeFlashcardRecoveryStateValue(record.key, record.baseValue),
           baseChecksum: String(record.baseChecksum || ""),
           expectedVersion: Number(record.expectedVersion || 0),
-          canonicalValue: sanitizeFlashcardRecoveryExportValue(record.canonicalValue),
+          canonicalValue: sanitizeFlashcardRecoveryStateValue(record.key, record.canonicalValue),
           canonicalVersion: Number(record.canonicalVersion || 0),
           canonicalChecksum: String(record.canonicalChecksum || ""),
           receipt: record.receipt ? {
@@ -187631,10 +187721,36 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!flashcardOutboxRecordRequiresResolution(record)) return "";
       const receiptStatus = String(record?.receipt?.status || record?.status || "").toLocaleLowerCase();
       const code = String(record?.receipt?.code || "").toLocaleLowerCase();
-      if (!FLASHCARD_TERMINAL_RECOVERY_CODES.has(code)) return "";
-      if (code === "version_conflict" && receiptStatus !== "conflict") return "";
-      if (code === "request_id_reuse" && receiptStatus !== "rejected") return "";
-      return code;
+      if (FLASHCARD_TERMINAL_RECOVERY_CODES.has(code)) {
+        if (code === "version_conflict" && receiptStatus !== "conflict") return "";
+        if (code === "request_id_reuse" && receiptStatus !== "rejected") return "";
+        return code;
+      }
+
+      // A same-browser progress queue can advance the canonical version while a
+      // coalesced sibling is still waiting. If the first reconciliation sees an
+      // apparent delete/edit overlap, the row is isolated until a fresh canonical
+      // hydration can prove whether the queued result is now safe. These records
+      // have no server receipt, so they must not be mistaken for arbitrary rejected
+      // writes. The explicit recovery class is used for new records; the exact
+      // legacy message recognises rows created by the immediately preceding client.
+      const localRecoveryClass = String(record?.recoveryClass || "").toLocaleLowerCase();
+      const lastError = String(record?.lastError || "");
+      const legacyLocalRebaseReview = (
+        lastError.startsWith("A queued mutation needs review (")
+        || lastError.startsWith("A legacy mutation needs review (")
+      ) && lastError.endsWith(").");
+      if (
+        record?.key === PROGRESS_KEY
+        && receiptStatus === "blocked"
+        && !record?.receipt
+        && record?.terminalScope === "key"
+        && (
+          localRecoveryClass === "fresh-canonical-rebase"
+          || legacyLocalRebaseReview
+        )
+      ) return "local_rebase_review";
+      return "";
     }
 
     function createRecoveredFlashcardOutboxMutation(record) {
@@ -188161,6 +188277,9 @@ window.EDMUND_FLASHCARD_SEED = {
         : record.key === PROGRESS_KEY && FLASHCARD_TERMINAL_RECOVERY_CODES.has(receiptCode)
           ? "key"
           : "account";
+      const optionCanonicalVersion = Number(options.canonicalVersion);
+      const hasOptionCanonicalVersion = Number.isSafeInteger(optionCanonicalVersion)
+        && optionCanonicalVersion >= 0;
       const blockedRecord = {
         ...record,
         status: receipt?.status === "rejected"
@@ -188172,9 +188291,14 @@ window.EDMUND_FLASHCARD_SEED = {
         lastError: message,
         receipt: receipt ? compactFlashcardV2Receipt(receipt) : record.receipt,
         canonicalValue: record.key === ATTEMPTS_KEY ? undefined : cloneFlashcardSyncPayload(canonicalValue),
-        canonicalVersion: receipt?.resultingVersion ?? record.canonicalVersion ?? null,
-        canonicalChecksum: receipt?.resultingChecksum ?? record.canonicalChecksum ?? "",
-        terminalScope
+        canonicalVersion: receipt?.resultingVersion
+          ?? (hasOptionCanonicalVersion ? optionCanonicalVersion : record.canonicalVersion ?? null),
+        canonicalChecksum: receipt?.resultingChecksum
+          ?? (typeof options.canonicalChecksum === "string"
+            ? options.canonicalChecksum
+            : record.canonicalChecksum ?? ""),
+        terminalScope,
+        recoveryClass: String(options.recoveryClass || record.recoveryClass || "")
       };
       await updateFlashcardOutboxMutation(blockedRecord);
       supabaseState.outboxLastError = message;
@@ -188383,14 +188507,16 @@ window.EDMUND_FLASHCARD_SEED = {
           }
 
           if (receipt.status === "rejected") {
-            const canonicalValue = Object.prototype.hasOwnProperty.call(remoteStore, record.key)
-              ? remoteStore[record.key]
-              : defaultRemoteValueForKey(record.key);
+            const canonicalValue = flashcardCanonicalValue(record.key);
             const blockedRecord = await blockFlashcardOutboxMutation(
               record,
               receipt,
               canonicalValue,
-              `The server rejected this mutation (${receipt.code || "unknown_reason"}).`
+              `The server rejected this mutation (${receipt.code || "unknown_reason"}).`,
+              {
+                canonicalVersion: flashcardStateVersion(record.key),
+                canonicalChecksum: flashcardStateChecksum(record.key)
+              }
             );
             if (!flashcardOutboxTerminalBlocksAccount(blockedRecord)) continue;
             break;
@@ -188423,9 +188549,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (record.key === FAMILIARITY_KEY) clearSyncedPendingFamiliarity(record.payload, context);
         } catch (error) {
           if (isFlashcardIntegrityError(error)) {
-            const canonicalValue = Object.prototype.hasOwnProperty.call(remoteStore, record.key)
-              ? remoteStore[record.key]
-              : defaultRemoteValueForKey(record.key);
+            const canonicalValue = flashcardCanonicalValue(record.key);
             const message = String(error?.message || error || "Synchronization integrity check failed.");
             const blockedRecord = await blockFlashcardOutboxMutation(
               record,
@@ -188435,21 +188559,28 @@ window.EDMUND_FLASHCARD_SEED = {
               {
                 scope: record.key === PROGRESS_KEY && /needs review/i.test(message)
                   ? "key"
-                  : "account"
+                  : "account",
+                recoveryClass: record.key === PROGRESS_KEY && /^A (?:queued|legacy) mutation needs review \(.+\)\.$/.test(message)
+                  ? "fresh-canonical-rebase"
+                  : "",
+                canonicalVersion: flashcardStateVersion(record.key),
+                canonicalChecksum: flashcardStateChecksum(record.key)
               }
             );
             if (!flashcardOutboxTerminalBlocksAccount(blockedRecord)) continue;
             break;
           }
           if (isFlashcardAuthenticationError(error)) {
-            const canonicalValue = Object.prototype.hasOwnProperty.call(remoteStore, record.key)
-              ? remoteStore[record.key]
-              : defaultRemoteValueForKey(record.key);
+            const canonicalValue = flashcardCanonicalValue(record.key);
             await blockFlashcardOutboxMutation(
               record,
               null,
               canonicalValue,
-              "Authentication rejected this pending change; it remains quarantined and was not retried."
+              "Authentication rejected this pending change; it remains quarantined and was not retried.",
+              {
+                canonicalVersion: flashcardStateVersion(record.key),
+                canonicalChecksum: flashcardStateChecksum(record.key)
+              }
             );
             break;
           }

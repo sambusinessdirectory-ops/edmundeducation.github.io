@@ -126,15 +126,155 @@ assert.match(recoveryDownload, /flashcardOutboxRecordRequiresResolution\(record\
 for (const field of ["payload", "baseValue", "canonicalValue"]) {
   assert.match(
     recoveryDownload,
-    new RegExp(`${field}: sanitizeFlashcardRecoveryExportValue\\(record\\.${field}\\)`),
+    new RegExp(`${field}: sanitizeFlashcardRecoveryStateValue\\(record\\.key, record\\.${field}\\)`),
     `Recovery download must sanitize ${field}`
   );
 }
+assert.match(recoveryDownload, /lastError: sanitizeFlashcardRecoveryDiagnosticText\(record\.lastError\)/);
+assert.match(recoveryDownload, /recoveryClass: String\(record\.recoveryClass/);
 assert.match(recoveryDownload, /new Blob/);
 assert.doesNotMatch(
   recoveryDownload,
   /deleteFlashcardOutboxMutation|supersedeFlashcardOutboxMutation|updateFlashcardOutboxMutation|persistFlashcardOutboxMutation|localStorage\.clear|indexedDB\.deleteDatabase|callSupabaseRpc/,
   "Downloading a recovery copy must be read-only"
+);
+
+const sanitizeRecoveryState = vm.runInNewContext(`(() => {
+  const PROGRESS_KEY = "edmundFlashcardProgress";
+  const CARDS_KEY = "edmundFlashcardCards";
+  const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
+  const NOTES_KEY = "edmundFlashcardNotes";
+  const BOOKMARKS_KEY = "edmundFlashcardBookmarks";
+  const DASHBOARD_LAYOUT_KEY = "edmundFlashcardDashboardLayouts";
+  ${extractFunction("sanitizeFlashcardRecoveryExportValue")}
+  ${extractFunction("redactFlashcardRecoveryCustomDeckId")}
+  ${extractFunction("sanitizeFlashcardRecoveryStructuralDeckIds")}
+  ${extractFunction("sanitizeFlashcardRecoveryStateValue")}
+  return sanitizeFlashcardRecoveryStateValue;
+})()`);
+assert.deepEqual(
+  JSON.parse(JSON.stringify(sanitizeRecoveryState("edmundFlashcardProgress", {
+    "Danny::deck-a": { savedAt: 1 },
+    "Another Student::deck-b": { savedAt: 2 }
+  }))),
+  {
+    "student::deck-a": { savedAt: 1 },
+    "student::deck-b": { savedAt: 2 }
+  },
+  "Recovery exports must redact dynamic student-name prefixes from progress keys"
+);
+for (const stateKey of ["edmundFlashcardFamiliarity", "edmundFlashcardNotes"]) {
+  assert.deepEqual(
+    JSON.parse(JSON.stringify(sanitizeRecoveryState(stateKey, {
+      "Danny::deck-a": { card: 1 },
+      "Another Student::deck-b": { card: 2 }
+    }))),
+    {
+      "student::deck-a": { card: 1 },
+      "student::deck-b": { card: 2 }
+    },
+    `Recovery exports must redact owner prefixes for ${stateKey}`
+  );
+}
+assert.deepEqual(
+  JSON.parse(JSON.stringify(sanitizeRecoveryState("edmundFlashcardProgress", {
+    "陳大文（中三）::deck-a": { savedAt: 1 },
+    "Danny (S1)::deck-b": { savedAt: 2 }
+  }))),
+  {
+    "student::deck-a": { savedAt: 1 },
+    "student::deck-b": { savedAt: 2 }
+  },
+  "Recovery exports must redact Chinese and parenthesized owner prefixes"
+);
+assert.deepEqual(
+  JSON.parse(JSON.stringify(sanitizeRecoveryState("edmundFlashcardProgress", {
+    "陳大文（中三）::student-custom/2ex-2b9-2ff/my-deck": {
+      deckId: "student-custom/2ex-2b9-2ff/my-deck",
+      deckTitle: "保留這個學習內容"
+    }
+  }))),
+  {
+    "student::student-custom/student/my-deck": {
+      deckId: "student-custom/student/my-deck",
+      deckTitle: "保留這個學習內容"
+    }
+  },
+  "Recovery exports must redact custom-deck owner slugs nested in progress keys and deckId fields"
+);
+for (const stateKey of ["edmundFlashcardBookmarks", "edmundFlashcardDashboardLayouts"]) {
+  assert.deepEqual(
+    JSON.parse(JSON.stringify(sanitizeRecoveryState(stateKey, {
+      Danny: ["deck-a"],
+      "Another Student": ["deck-b"]
+    }))),
+    {
+      student: ["deck-a"],
+      "student-2": ["deck-b"]
+    },
+    `Recovery exports must redact top-level owner names for ${stateKey}`
+  );
+}
+assert.deepEqual(
+  JSON.parse(JSON.stringify(sanitizeRecoveryState("edmundFlashcardCards", {
+    "__studentCustomDecks": [
+      {
+        id: "student-custom/danny-s1/my-vocabulary-abc123",
+        title: "My vocabulary",
+        studentName: "already removed by the generic sanitizer"
+      }
+    ],
+    "student-custom/danny-s1/my-vocabulary-abc123": [
+      {
+        front: "Keep this exact learning content (Danny)",
+        meaning: { en: "student-custom/danny-s1 is part of this example" }
+      }
+    ]
+  }))),
+  {
+    "__studentCustomDecks": [
+      {
+        id: "student-custom/student/my-vocabulary-abc123",
+        title: "My vocabulary"
+      }
+    ],
+    "student-custom/student/my-vocabulary-abc123": [
+      {
+        front: "Keep this exact learning content (Danny)",
+        meaning: { en: "student-custom/danny-s1 is part of this example" }
+      }
+    ]
+  },
+  "Recovery exports must redact custom-deck owner slugs without rewriting card learning content"
+);
+assert.deepEqual(
+  JSON.parse(JSON.stringify(sanitizeRecoveryState("unrelatedState", {
+    "Danny::content-key": { value: 1 }
+  }))),
+  { "Danny::content-key": { value: 1 } },
+  "Unrelated content maps must not be structurally rewritten"
+);
+
+const sanitizeRecoveryDiagnostic = vm.runInNewContext(`(() => {
+  ${extractFunction("redactFlashcardRecoveryCustomDeckId")}
+  ${extractFunction("sanitizeFlashcardRecoveryDiagnosticText")}
+  return sanitizeFlashcardRecoveryDiagnosticText;
+})()`);
+assert.equal(
+  sanitizeRecoveryDiagnostic("A queued mutation needs review (progress-delete-edit-overlap:Danny::deck-a)."),
+  "A queued mutation needs review (progress-delete-edit-overlap:student::deck-a)."
+);
+assert.equal(
+  sanitizeRecoveryDiagnostic("A queued mutation needs review (different-progress-attempt:Danny (S1)::deck-a)."),
+  "A queued mutation needs review (different-progress-attempt:student::deck-a)."
+);
+assert.equal(
+  sanitizeRecoveryDiagnostic("A queued mutation needs review (different-progress-attempt:陳大文（中三）::deck-a)."),
+  "A queued mutation needs review (different-progress-attempt:student::deck-a)."
+);
+assert.equal(
+  sanitizeRecoveryDiagnostic("A queued mutation needs review (different-progress-attempt:陳大文（中三）::student-custom/2ex-2b9-2ff/my-deck)."),
+  "A queued mutation needs review (different-progress-attempt:student::student-custom/student/my-deck)."
 );
 
 const recovery = extractFunction("runFlashcardTerminalRecovery");
@@ -175,6 +315,7 @@ assert.match(terminalCode, /request_id_reuse/);
 
 const terminalCodeRuntime = vm.runInNewContext(`(() => {
   const FLASHCARD_TERMINAL_RECOVERY_CODES = new Set(["version_conflict", "request_id_reuse"]);
+  const PROGRESS_KEY = "edmundFlashcardProgress";
   ${extractFunction("flashcardOutboxRecordRequiresResolution")}
   ${terminalCode}
   return flashcardTerminalRecoveryCode;
@@ -189,6 +330,23 @@ assert.equal(terminalCodeRuntime({
   requiresResolution: true,
   receipt: { status: "rejected", code: "request_id_reuse" }
 }), "request_id_reuse");
+assert.equal(terminalCodeRuntime({
+  key: "edmundFlashcardProgress",
+  status: "blocked",
+  requiresResolution: true,
+  terminalScope: "key",
+  receipt: null,
+  recoveryClass: "fresh-canonical-rebase",
+  lastError: "A queued mutation needs review (progress-delete-edit-overlap:Danny::deck)."
+}), "local_rebase_review", "A locally isolated progress rebase must be retried after fresh hydration");
+assert.equal(terminalCodeRuntime({
+  key: "edmundFlashcardProgress",
+  status: "blocked",
+  requiresResolution: true,
+  terminalScope: "key",
+  receipt: null,
+  lastError: "A queued mutation needs review (progress-delete-edit-overlap:Danny::deck)."
+}), "local_rebase_review", "Rows created by the immediately preceding client must remain recoverable");
 for (const code of ["authentication_failed", "invalid_request", "validation_failed", "checksum_mismatch"]) {
   assert.equal(
     terminalCodeRuntime({
@@ -200,6 +358,42 @@ for (const code of ["authentication_failed", "invalid_request", "validation_fail
     `${code} must remain quarantined for review instead of being auto-replayed`
   );
 }
+for (const unsafeLocalRow of [
+  {
+    key: "edmundFlashcardProgress",
+    status: "blocked",
+    requiresResolution: true,
+    terminalScope: "account",
+    receipt: null,
+    recoveryClass: "fresh-canonical-rebase",
+    lastError: "A queued mutation needs review (progress-delete-edit-overlap:Danny::deck)."
+  },
+  {
+    key: "edmundFlashcardProgress",
+    status: "blocked",
+    requiresResolution: true,
+    terminalScope: "key",
+    receipt: null,
+    lastError: "Authentication rejected this pending change; it remains quarantined and was not retried."
+  }
+]) {
+  assert.equal(
+    terminalCodeRuntime(unsafeLocalRow),
+    "",
+    "Only a key-isolated canonical-rebase review may enter automatic local recovery"
+  );
+}
+
+const outboxDrain = extractFunction("drainFlashcardOutboxUnlocked");
+assert.match(outboxDrain, /recoveryClass:[\s\S]{0,180}fresh-canonical-rebase/);
+assert.doesNotMatch(
+  outboxDrain,
+  /hasOwnProperty\.call\(remoteStore, record\.key\)/,
+  "Terminal evidence must never label the UI-overlaid pending value as verified canonical state"
+);
+assert.match(outboxDrain, /const canonicalValue = flashcardCanonicalValue\(record\.key\)/);
+assert.match(outboxDrain, /canonicalVersion: flashcardStateVersion\(record\.key\)/);
+assert.match(outboxDrain, /canonicalChecksum: flashcardStateChecksum\(record\.key\)/);
 
 const terminalRows = extractFunction("recoverFlashcardTerminalOutboxRows");
 assert.match(terminalRows, /supersedeFlashcardOutboxMutation/);
