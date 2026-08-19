@@ -1003,7 +1003,7 @@ assert.ok(
   "A quarantined key must remain blocked even during admin impersonation"
 );
 
-const login = sourceBetween("async function login", "function getKnownDeckIds");
+const login = sourceBetween("async function performFlashcardLogin", "function getKnownDeckIds");
 assert.doesNotMatch(login, /getStudents\(\)\.find\(item => item\.name === trimmedName && item\.password === password\)/);
 assert.match(login, /離線本機登入已停用/);
 

@@ -42,6 +42,9 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("message", (event) => {
   if (event.data?.type === "SKIP_WAITING") self.skipWaiting();
+  if (event.data?.type === "GET_RELEASE_ID") {
+    event.ports?.[0]?.postMessage({ release: RELEASE_ID });
+  }
 });
 
 self.addEventListener("fetch", (event) => {
@@ -63,6 +66,11 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(request, { cache: "no-store" }).catch(() => caches.match("/pwa-register.js"))
     );
+    return;
+  }
+
+  if (url.pathname === "/release.json") {
+    event.respondWith(fetch(request, { cache: "no-store" }));
     return;
   }
 

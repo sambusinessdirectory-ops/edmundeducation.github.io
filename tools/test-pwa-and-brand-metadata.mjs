@@ -227,7 +227,7 @@ test("the service worker is a small privacy-safe offline shell", async () => {
   assert.match(offline, /尚未送出的內容並未上載/);
 });
 
-test("installation and updates stay user-controlled", async () => {
+test("installation and routine in-exercise updates stay user-controlled", async () => {
   const register = await read("pwa-register.js");
   assert.match(register, /beforeinstallprompt/);
   assert.match(register, /iPad\|iPhone\|iPod/);
@@ -243,7 +243,14 @@ test("installation and updates stay user-controlled", async () => {
   assert.match(register, /window\.addEventListener\("focus", checkWhenActive\)/);
   assert.match(register, /document\.addEventListener\("visibilitychange"/);
   assert.match(register, /worker\.postMessage\(\{ type: "SKIP_WAITING" \}\)/);
-  assert.doesNotMatch(register, /location\.reload\(\).*updatefound/s, "detecting an update must not force a reload");
+  const passiveUpdateWatcher = register.match(/function watchUpdateWorker[\s\S]+?(?=\n  function checkForUpdate)/)?.[0] || "";
+  assert.doesNotMatch(
+    passiveUpdateWatcher,
+    /location\.reload\(/,
+    "detecting an update during ordinary use must not force a reload"
+  );
+  assert.match(register, /CRITICAL_UPDATE_RELOAD_GUARD_KEY/);
+  assert.match(register, /deployedReleaseRequiresReload/);
 
   const css = await read("pwa-ui.css");
   assert.match(css, /safe-area-inset-top/);
@@ -261,7 +268,12 @@ test("the Pages artifact receives a unique service-worker release for every comm
   assert.ok(workflow.includes("grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js"));
   assert.ok(workflow.includes('sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" _site/service-worker.js'));
   assert.ok(workflow.includes('grep -Fq "${GITHUB_SHA}" _site/service-worker.js'));
-  assert.match(workflow, /if grep -Fq '__EDMUND_RELEASE__' _site\/service-worker\.js;/);
+  for (const artifact of ["pwa-register.js", "release.json"]) {
+    assert.ok(workflow.includes(`grep -Fq '__EDMUND_RELEASE__' _site/${artifact}`));
+    assert.ok(workflow.includes(`sed -i "s/__EDMUND_RELEASE__/\${GITHUB_SHA}/g" _site/${artifact}`));
+    assert.ok(workflow.includes(`grep -Fq "\${GITHUB_SHA}" _site/${artifact}`));
+  }
+  assert.match(workflow, /if grep -Fq '__EDMUND_RELEASE__' \\/);
 });
 
 test("the home page gives Google a stable favicon and verified brand entity", async () => {

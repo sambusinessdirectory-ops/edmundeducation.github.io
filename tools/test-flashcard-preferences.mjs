@@ -75,7 +75,7 @@ assert.match(persistPreferences, /cacheAccountDisplayPreferences\(nextPreference
 assert.doesNotMatch(persistPreferences, /hideLockedSections = previousHidden/);
 assert.match(persistPreferences, /偏好設定未能寫入耐久待同步紀錄/);
 
-const normalLogin = sourceBetween("async function login(username, password)", "function getKnownDeckIds()");
+const normalLogin = sourceBetween("async function performFlashcardLogin(trimmedName, password)", "function getKnownDeckIds()");
 const loginLoad = normalLogin.indexOf("await loadStudentStateFromSupabase()");
 const loginHydrate = normalLogin.indexOf("hydrateFlashcardDisplayPreferences()");
 const loginShow = normalLogin.indexOf('showAppPanel("dashboard", false)');

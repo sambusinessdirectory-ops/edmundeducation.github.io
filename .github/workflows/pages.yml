@@ -34,6 +34,8 @@ jobs:
           node tools/test-flashcard-state-integrity.mjs
           node tools/test-flashcard-deck-modes.mjs
           node tools/test-flashcard-conflict-recovery-ui.mjs
+          node tools/test-flashcard-pwa-critical-update.mjs
+          node tools/test-flashcard-login-singleflight.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs
@@ -279,9 +281,18 @@ jobs:
       - name: Stamp PWA release
         run: |
           grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js
+          grep -Fq '__EDMUND_RELEASE__' _site/pwa-register.js
+          grep -Fq '__EDMUND_RELEASE__' _site/release.json
           sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" _site/service-worker.js
+          sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" _site/pwa-register.js
+          sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" _site/release.json
           grep -Fq "${GITHUB_SHA}" _site/service-worker.js
-          if grep -Fq '__EDMUND_RELEASE__' _site/service-worker.js; then
+          grep -Fq "${GITHUB_SHA}" _site/pwa-register.js
+          grep -Fq "${GITHUB_SHA}" _site/release.json
+          if grep -Fq '__EDMUND_RELEASE__' \
+            _site/service-worker.js \
+            _site/pwa-register.js \
+            _site/release.json; then
             echo 'PWA release placeholder was not fully stamped.' >&2
             exit 1
           fi

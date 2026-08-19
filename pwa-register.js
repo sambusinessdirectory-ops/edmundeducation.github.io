@@ -19,6 +19,11 @@
   const IDLE_MILLISECONDS = 25 * 60 * 1000;
   const IDLE_CHECK_MILLISECONDS = 15 * 1000;
   const UPDATE_CHECK_THROTTLE_MS = 30 * 1000;
+  const CLIENT_RELEASE_ID = "__EDMUND_RELEASE__";
+  const CRITICAL_UPDATE_DEFAULT_TIMEOUT_MS = 2500;
+  const CRITICAL_UPDATE_MAX_TIMEOUT_MS = 5000;
+  const CRITICAL_UPDATE_RELOAD_GUARD_MS = 2 * 60 * 1000;
+  const CRITICAL_UPDATE_RELOAD_GUARD_KEY = "edmund-pwa-critical-update-reload";
   const standalone = window.matchMedia("(display-mode: standalone)").matches
     || window.navigator.standalone === true;
   const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent)
@@ -27,6 +32,10 @@
   let appIdentity = ROOT_APP;
   let installPrompt = null;
   let reloadingForUpdate = false;
+  let automaticUpdateReloadTarget = "";
+  let updateReloadFallbackTimer = 0;
+  let deployedReleaseId = "";
+  let deployedReleaseProbePromise = null;
   let lastUpdateCheckAt = 0;
   let offeredUpdateWorker = null;
 
@@ -374,6 +383,231 @@
     || location.hostname === "127.0.0.1";
   if (!canRegister) return;
 
+  function settleServiceWorkerOperationBefore(promise, deadline, fallback = null) {
+    const remaining = Math.max(0, Number(deadline || 0) - Date.now());
+    if (!remaining) return Promise.resolve(fallback);
+    return new Promise((resolve) => {
+      let settled = false;
+      const finish = value => {
+        if (settled) return;
+        settled = true;
+        window.clearTimeout(timer);
+        resolve(value);
+      };
+      const timer = window.setTimeout(() => finish(fallback), remaining);
+      Promise.resolve(promise).then(finish, () => finish(fallback));
+    });
+  }
+
+  function validStampedReleaseId(value) {
+    const normalized = String(value || "").trim();
+    return /^[a-f0-9]{40}$/i.test(normalized) ? normalized.toLocaleLowerCase() : "";
+  }
+
+  function deployedReleaseRequiresReload(releaseId) {
+    const client = validStampedReleaseId(CLIENT_RELEASE_ID);
+    const deployed = validStampedReleaseId(releaseId);
+    return Boolean(client && deployed && client !== deployed);
+  }
+
+  async function deployedReleaseIdBefore(deadline, { force = false } = {}) {
+    if (!validStampedReleaseId(CLIENT_RELEASE_ID)) return "";
+    if (deployedReleaseId && !force) return deployedReleaseId;
+    if (!deployedReleaseProbePromise) {
+      const probe = fetch(`/release.json?client=${encodeURIComponent(CLIENT_RELEASE_ID)}&at=${Date.now()}`, {
+        cache: "no-store",
+        credentials: "same-origin",
+        headers: { Accept: "application/json" }
+      }).then(async response => {
+        if (!response.ok) return "";
+        const payload = await response.json();
+        const release = validStampedReleaseId(payload?.release);
+        if (release) deployedReleaseId = release;
+        return release;
+      });
+      deployedReleaseProbePromise = probe.catch(() => "").finally(() => {
+        if (deployedReleaseProbePromise === wrappedProbe) deployedReleaseProbePromise = null;
+      });
+      const wrappedProbe = deployedReleaseProbePromise;
+    }
+    return settleServiceWorkerOperationBefore(deployedReleaseProbePromise, deadline, "");
+  }
+
+  async function activeControllerReleaseIdBefore(deadline) {
+    if (!validStampedReleaseId(CLIENT_RELEASE_ID)) return "";
+    const controller = navigator.serviceWorker.controller;
+    if (!controller || typeof MessageChannel !== "function") return "";
+    const channel = new MessageChannel();
+    const response = new Promise(resolve => {
+      channel.port1.onmessage = event => resolve(validStampedReleaseId(event.data?.release));
+      try {
+        controller.postMessage({ type: "GET_RELEASE_ID" }, [channel.port2]);
+      } catch (_) {
+        resolve("");
+      }
+    });
+    const release = await settleServiceWorkerOperationBefore(response, deadline, "");
+    channel.port1.close?.();
+    return release;
+  }
+
+  function claimCriticalUpdateReloadAttempt(targetRelease = "service-worker-update") {
+    const now = Date.now();
+    const target = String(targetRelease || "service-worker-update");
+    if (automaticUpdateReloadTarget === target) return false;
+    try {
+      const rawPrevious = window.sessionStorage.getItem(CRITICAL_UPDATE_RELOAD_GUARD_KEY);
+      let previous = null;
+      try { previous = rawPrevious ? JSON.parse(rawPrevious) : null; } catch { previous = null; }
+      const previousAt = Number(previous?.at || rawPrevious || 0);
+      const previousTarget = String(previous?.target || "");
+      if (
+        previousAt > 0
+        && now - previousAt < CRITICAL_UPDATE_RELOAD_GUARD_MS
+        && (!previousTarget || previousTarget === target)
+      ) return false;
+      window.sessionStorage.setItem(
+        CRITICAL_UPDATE_RELOAD_GUARD_KEY,
+        JSON.stringify({ at: now, target })
+      );
+    } catch (_) {
+      // The in-memory guard below still prevents a loop when session storage is unavailable.
+    }
+    automaticUpdateReloadTarget = target;
+    return true;
+  }
+
+  function showManualSafetyReload() {
+    notice(
+      "需要完成安全更新",
+      "自動重新載入未能完成。請按「重新載入最新版本」；學習紀錄不會被清除。",
+      [{
+        label: "重新載入最新版本",
+        primary: true,
+        run: () => { window.location.reload(); }
+      }]
+    );
+  }
+
+  function beginServiceWorkerUpdateReload(worker, { automatic = false, targetRelease = "" } = {}) {
+    if (!worker || !navigator.serviceWorker.controller) return false;
+    // A recent guarded attempt still means this page must not continue into a
+    // safety-critical login. Report update-pending even though no second reload
+    // is scheduled, so the caller keeps the stale client locked.
+    if (automatic && !claimCriticalUpdateReloadAttempt(targetRelease || "service-worker-update")) {
+      showManualSafetyReload();
+      return true;
+    }
+    reloadingForUpdate = true;
+    removeUi();
+    try {
+      worker.postMessage({ type: "SKIP_WAITING" });
+    } catch (_) {
+      reloadingForUpdate = false;
+      if (automatic) showManualSafetyReload();
+      return automatic;
+    }
+    if (updateReloadFallbackTimer) window.clearTimeout(updateReloadFallbackTimer);
+    updateReloadFallbackTimer = window.setTimeout(() => {
+      if (!reloadingForUpdate) return;
+      reloadingForUpdate = false;
+      window.location.reload();
+    }, 1500);
+    return true;
+  }
+
+  function beginDeployedReleaseReload(targetRelease) {
+    if (!claimCriticalUpdateReloadAttempt(targetRelease)) {
+      showManualSafetyReload();
+      return true;
+    }
+    reloadingForUpdate = true;
+    removeUi();
+    if (updateReloadFallbackTimer) window.clearTimeout(updateReloadFallbackTimer);
+    updateReloadFallbackTimer = window.setTimeout(() => {
+      if (!reloadingForUpdate) return;
+      reloadingForUpdate = false;
+      window.location.reload();
+    }, 50);
+    return true;
+  }
+
+  async function findInstalledServiceWorkerUpdate(registration, deadline, { forceCheck = true } = {}) {
+    if (registration.waiting) return registration.waiting;
+    let discoveredWorker = registration.installing || null;
+    const discoverWorker = () => {
+      discoveredWorker = registration.installing || discoveredWorker;
+    };
+    if (forceCheck) {
+      registration.addEventListener("updatefound", discoverWorker);
+      try {
+        await settleServiceWorkerOperationBefore(
+          Promise.resolve().then(() => registration.update()),
+          deadline
+        );
+      } finally {
+        registration.removeEventListener("updatefound", discoverWorker);
+      }
+    }
+    if (registration.waiting) return registration.waiting;
+    const worker = registration.installing || discoveredWorker;
+    if (!worker || worker.state === "redundant") return null;
+    if (worker.state === "installed") return worker;
+    await settleServiceWorkerOperationBefore(new Promise(resolve => {
+      const onStateChange = () => {
+        if (worker.state !== "installed" && worker.state !== "redundant") return;
+        worker.removeEventListener("statechange", onStateChange);
+        resolve(worker.state === "installed" ? worker : null);
+      };
+      worker.addEventListener("statechange", onStateChange);
+    }), deadline);
+    return registration.waiting || (worker.state === "installed" ? worker : null);
+  }
+
+  async function reloadIfCriticalUpdateAvailable({
+    timeoutMs = CRITICAL_UPDATE_DEFAULT_TIMEOUT_MS,
+    forceCheck = true
+  } = {}) {
+    if (!navigator.serviceWorker.controller || reloadingForUpdate) return false;
+    const boundedTimeout = Math.min(
+      CRITICAL_UPDATE_MAX_TIMEOUT_MS,
+      Math.max(250, Number(timeoutMs) || CRITICAL_UPDATE_DEFAULT_TIMEOUT_MS)
+    );
+    const deadline = Date.now() + boundedTimeout;
+    let currentDeployedRelease = await deployedReleaseIdBefore(deadline, { force: true });
+    if (!currentDeployedRelease && Date.now() < deadline) {
+      currentDeployedRelease = await activeControllerReleaseIdBefore(deadline);
+    }
+    if (deployedReleaseRequiresReload(currentDeployedRelease)) {
+      return beginDeployedReleaseReload(currentDeployedRelease);
+    }
+    let registration = await settleServiceWorkerOperationBefore(
+      navigator.serviceWorker.getRegistration("/"),
+      deadline
+    );
+    if (!registration && !forceCheck) return false;
+    if (!registration && Date.now() < deadline) {
+      registration = await settleServiceWorkerOperationBefore(
+        navigator.serviceWorker.register("/service-worker.js", {
+          scope: "/",
+          updateViaCache: "none"
+        }),
+        deadline
+      );
+    }
+    if (!registration || Date.now() >= deadline) return false;
+    const worker = await findInstalledServiceWorkerUpdate(registration, deadline, { forceCheck });
+    if (!worker || !navigator.serviceWorker.controller) return false;
+    return beginServiceWorkerUpdateReload(worker, {
+      automatic: true,
+      targetRelease: currentDeployedRelease
+    });
+  }
+
+  window.EdmundPwaUpdates = Object.freeze({
+    reloadIfUpdateAvailable: reloadIfCriticalUpdateAvailable
+  });
+
   function offerUpdate(worker) {
     if (!worker || offeredUpdateWorker === worker) return;
     offeredUpdateWorker = worker;
@@ -385,10 +619,7 @@
         {
           label: "立即更新",
           primary: true,
-          run: () => {
-            reloadingForUpdate = true;
-            worker.postMessage({ type: "SKIP_WAITING" });
-          }
+          run: () => { beginServiceWorkerUpdateReload(worker); }
         }
       ]
     );
@@ -422,6 +653,7 @@
       if (registration.waiting && navigator.serviceWorker.controller) offerUpdate(registration.waiting);
       watchUpdateWorker(registration.installing);
       checkForUpdate(registration, { force: true });
+      void deployedReleaseIdBefore(Date.now() + CRITICAL_UPDATE_MAX_TIMEOUT_MS);
 
       const checkWhenActive = () => checkForUpdate(registration);
       document.addEventListener("visibilitychange", () => {
@@ -439,6 +671,10 @@
   navigator.serviceWorker.addEventListener("controllerchange", () => {
     if (!reloadingForUpdate) return;
     reloadingForUpdate = false;
+    if (updateReloadFallbackTimer) {
+      window.clearTimeout(updateReloadFallbackTimer);
+      updateReloadFallbackTimer = 0;
+    }
     window.location.reload();
   });
 })();

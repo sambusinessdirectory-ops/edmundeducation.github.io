@@ -184396,6 +184396,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let flashcardRecoveryRows = [];
     let flashcardRecoveryDiagnostic = "";
     let flashcardRecoveryUiState = { mode: "idle", detail: "" };
+    let flashcardRecoveryAttentionScheduled = false;
     const flashcardAutomaticRecoveryAttemptedOwners = new Set();
 
     function deckDataRevision(deckId) {
@@ -185793,6 +185794,8 @@ window.EDMUND_FLASHCARD_SEED = {
     let adminPasswordForSession = "";
     let studentSessionToken = "";
     let loginFailureMessage = "";
+    let flashcardLoginFlight = null;
+    let flashcardClientReloadPending = false;
     let studentPasswordLogsCache = {};
     let activeSpeechAudio = null;
     let activeSpeechRequestId = 0;
@@ -187344,6 +187347,24 @@ window.EDMUND_FLASHCARD_SEED = {
       return `FC-${(hash >>> 0).toString(16).toUpperCase().padStart(8, "0")}`;
     }
 
+    function focusFlashcardRecoveryAction(panel) {
+      if (
+        flashcardRecoveryAttentionScheduled
+        || currentView !== "login"
+        || !panel
+        || panel.classList.contains("hidden")
+      ) return;
+      flashcardRecoveryAttentionScheduled = true;
+      window.requestAnimationFrame(() => {
+        flashcardRecoveryAttentionScheduled = false;
+        if (currentView !== "login" || panel.classList.contains("hidden")) return;
+        const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
+        panel.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+        const action = panel.querySelector("[data-flashcard-recovery-action]:not(.hidden):not(:disabled)");
+        action?.focus({ preventScroll: true });
+      });
+    }
+
     function renderFlashcardRecoveryPanel(rows = flashcardRecoveryRows) {
       if (Array.isArray(rows)) flashcardRecoveryRows = rows;
       const terminalRows = flashcardRecoveryRows.filter(flashcardOutboxRecordRequiresResolution);
@@ -187404,6 +187425,9 @@ window.EDMUND_FLASHCARD_SEED = {
       if (download) {
         download.classList.toggle("hidden", mode !== "failed");
         download.disabled = mode === "recovering" || Boolean(flashcardTerminalRecoveryPromise);
+      }
+      if (terminalRows.length && ["needs-action", "failed"].includes(mode)) {
+        focusFlashcardRecoveryAction(panel);
       }
     }
 
@@ -187591,6 +187615,27 @@ window.EDMUND_FLASHCARD_SEED = {
       return true;
     }
 
+    async function reloadForCurrentFlashcardClientUpdate(reason) {
+      // A service-worker activation reload is allowed only on the login screen,
+      // never while an answer or timed study session may still be in progress.
+      if (currentView !== "login" || isSessionInProgress()) return false;
+      if (flashcardClientReloadPending) return true;
+      const reloadIfUpdateAvailable = window.EdmundPwaUpdates?.reloadIfUpdateAvailable;
+      if (typeof reloadIfUpdateAvailable !== "function") return false;
+      try {
+        const reloadPending = Boolean(await reloadIfUpdateAvailable({
+          reason,
+          timeoutMs: reason === "login" ? 500 : 2500,
+          forceCheck: reason !== "login"
+        }));
+        if (reloadPending) flashcardClientReloadPending = true;
+        return reloadPending;
+      } catch (error) {
+        console.warn("Flashcard client update check did not complete:", error);
+        return false;
+      }
+    }
+
     async function runFlashcardTerminalRecovery({ automatic = false } = {}) {
       if (flashcardTerminalRecoveryPromise) return flashcardTerminalRecoveryPromise;
       const context = captureSupabaseStateSaveContext();
@@ -187602,6 +187647,11 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const recovery = (async () => {
         try {
+          if (await reloadForCurrentFlashcardClientUpdate("terminal-recovery")) {
+            flashcardRecoveryUiState = { mode: "recovering", detail: "client-update" };
+            renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+            return false;
+          }
           flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
           flashcardRecoveryUiState = { mode: "recovering", detail: automatic ? "automatic" : "manual" };
           renderFlashcardRecoveryPanel(flashcardRecoveryRows);
@@ -189118,7 +189168,7 @@ window.EDMUND_FLASHCARD_SEED = {
         ? "正在載入你的完整學習紀錄，請稍候再開始。"
         : context
           ? supabaseState.outboxErrorClass === "terminal"
-            ? "同步衝突不會靠等待自行解除。待同步變更仍保留在此瀏覽器；請勿清除瀏覽器資料，並按上方「安全復原」。"
+            ? "同步衝突不會靠等待自行解除。待同步變更仍保留在此瀏覽器；請勿清除瀏覽器資料。系統會帶你到「安全復原」按鈕。"
             : supabaseState.outboxErrorClass === "hydration-transient"
               ? "資料連線暫時無法完成；學習紀錄未被更改，請檢查網絡後再試。"
               : supabaseState.outboxErrorClass === "hydration-auth"
@@ -190745,9 +190795,60 @@ window.EDMUND_FLASHCARD_SEED = {
       renderBreadcrumbs();
     }
 
-    async function login(username, password) {
+    function flashcardLoginNameKey(value) {
+      return String(value || "").trim().toLocaleLowerCase();
+    }
+
+    function terminalRecoveryOwnsAuthenticatedStudent() {
+      const context = captureSupabaseStateSaveContext();
+      return Boolean(
+        context?.type === "student"
+        && isSupabaseStateContextCurrent(context)
+        && (
+          flashcardTerminalRecoveryPromise
+          || supabaseState.outboxErrorClass === "terminal"
+          || flashcardRecoveryRows.some(record => (
+            flashcardOutboxOwnerMatches(record, context)
+            && flashcardOutboxRecordRequiresResolution(record)
+          ))
+        )
+      );
+    }
+
+    function isSameAuthenticatedFlashcardStudent(name) {
+      const context = captureSupabaseStateSaveContext();
+      return Boolean(
+        context?.type === "student"
+        && isSupabaseStateContextCurrent(context)
+        && currentUser?.role === "student"
+        && !currentUser.impersonatedByAdmin
+        && studentSessionToken
+        && currentUser.sessionToken === studentSessionToken
+        && context.studentId === String(currentUser.id || "")
+        && flashcardLoginNameKey(currentUser.name) === flashcardLoginNameKey(name)
+      );
+    }
+
+    async function reuseAuthenticatedFlashcardRecovery(name) {
+      if (!terminalRecoveryOwnsAuthenticatedStudent()) return null;
+      if (!isSameAuthenticatedFlashcardStudent(name)) {
+        loginFailureMessage = `正在安全復原 ${currentUser?.name || "目前學生"} 的紀錄；完成復原並安全登出前，不能切換帳戶。`;
+        return false;
+      }
+      loginFailureMessage = "你已經登入；系統正使用現有的安全連線復原紀錄，無需再次登入。";
+      const recovered = await runFlashcardTerminalRecovery({ automatic: true });
+      if (recovered) loginFailureMessage = "";
+      return recovered;
+    }
+
+    async function performFlashcardLogin(trimmedName, password) {
       loginFailureMessage = "";
-      const trimmedName = username.trim();
+      if (await reloadForCurrentFlashcardClientUpdate("login")) {
+        loginFailureMessage = "正在載入最新安全版本；頁面會自動重新開啟，請稍後重新登入。";
+        return false;
+      }
+      const reusedRecovery = await reuseAuthenticatedFlashcardRecovery(trimmedName);
+      if (reusedRecovery !== null) return reusedRecovery;
       if (supabaseClient) {
         try {
           if (trimmedName === ADMIN_NAME) {
@@ -190796,7 +190897,7 @@ window.EDMUND_FLASHCARD_SEED = {
               return true;
             }
             if (supabaseState.outboxErrorClass === "terminal") {
-              loginFailureMessage = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料，並按上方「安全復原」；系統會先核實紀錄，完成後才開啟學習頁。";
+              loginFailureMessage = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料；系統會帶你到「安全復原」按鈕，核實完成後才開啟學習頁。";
               showLogin();
               renderFlashcardRecoveryPanel();
               scheduleFlashcardAutomaticTerminalRecovery();
@@ -190817,6 +190918,23 @@ window.EDMUND_FLASHCARD_SEED = {
         loginFailureMessage = "帳戶資料服務未能連接。為保護學習紀錄，離線本機登入已停用。";
       }
       return false;
+    }
+
+    function login(username, password) {
+      const trimmedName = String(username || "").trim();
+      const nameKey = flashcardLoginNameKey(trimmedName);
+      if (flashcardLoginFlight) {
+        if (flashcardLoginFlight.nameKey === nameKey) return flashcardLoginFlight.promise;
+        loginFailureMessage = "另一個帳戶登入正在處理中，請待目前登入完成後再試。";
+        return Promise.resolve(false);
+      }
+      const task = performFlashcardLogin(trimmedName, password);
+      const guarded = task.finally(() => {
+        if (flashcardLoginFlight?.promise === guarded) flashcardLoginFlight = null;
+      });
+      // Never retain the submitted password in the single-flight descriptor.
+      flashcardLoginFlight = { nameKey, promise: guarded };
+      return guarded;
     }
 
     function getKnownDeckIds() {
@@ -196241,13 +196359,25 @@ window.EDMUND_FLASHCARD_SEED = {
       });
       document.querySelector("[data-login-form]")?.addEventListener("submit", async event => {
         event.preventDefault();
+        const form = event.currentTarget;
+        if (form.dataset.flashcardLoginBusy === "true") return;
+        const controls = [...form.querySelectorAll("input, button")];
+        form.dataset.flashcardLoginBusy = "true";
+        form.setAttribute("aria-busy", "true");
+        controls.forEach(control => { control.disabled = true; });
         const status = document.querySelector("[data-login-status]");
-        const formData = new FormData(event.currentTarget);
+        const formData = new FormData(form);
         if (status) status.textContent = "Checking login...";
-        const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
-        if (!ok && status) status.textContent = loginFailureMessage || "Wrong user name or password.";
-        if (ok && status) status.textContent = "";
-        if (ok) window.setTimeout(openRequestedFlashcardTarget, 0);
+        try {
+          const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
+          if (!ok && status) status.textContent = loginFailureMessage || "Wrong user name or password.";
+          if (ok && status) status.textContent = "";
+          if (ok) window.setTimeout(openRequestedFlashcardTarget, 0);
+        } finally {
+          form.removeAttribute("aria-busy");
+          delete form.dataset.flashcardLoginBusy;
+          controls.forEach(control => { control.disabled = false; });
+        }
       });
 
       document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
@@ -197371,7 +197501,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const status = document.querySelector("[data-login-status]");
         if (supabaseState.outboxErrorClass === "terminal") {
           if (status) {
-            status.textContent = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料，並按上方「安全復原」；完成安全核實後才會開啟學習頁。";
+            status.textContent = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料；系統會帶你到「安全復原」按鈕，完成安全核實後才會開啟學習頁。";
           }
           renderFlashcardRecoveryPanel();
           scheduleFlashcardAutomaticTerminalRecovery();

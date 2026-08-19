@@ -78,9 +78,18 @@ assert.ok(
 );
 
 const renderRecoveryPanel = extractFunction("renderFlashcardRecoveryPanel");
+const focusRecoveryAction = extractFunction("focusFlashcardRecoveryAction");
 assert.match(renderRecoveryPanel, /data-flashcard-recovery-panel/);
 assert.match(renderRecoveryPanel, /data-flashcard-recovery-code/);
 assert.match(renderRecoveryPanel, /outboxErrorClass|flashcardOutboxRecordRequiresResolution/);
+assert.match(renderRecoveryPanel, /focusFlashcardRecoveryAction\(panel\)/);
+assert.match(focusRecoveryAction, /currentView !== "login"/);
+assert.match(focusRecoveryAction, /requestAnimationFrame/);
+assert.match(focusRecoveryAction, /prefers-reduced-motion: reduce/);
+assert.match(focusRecoveryAction, /scrollIntoView/);
+assert.match(focusRecoveryAction, /data-flashcard-recovery-action/);
+assert.match(focusRecoveryAction, /focus\(\{ preventScroll: true \}\)/);
+assert.doesNotMatch(source, /按上方「安全復原」/);
 
 // A click must call the bounded recovery orchestrator. Merely rendering a
 // button without binding it recreates the student-facing dead end.
@@ -473,7 +482,7 @@ assert.match(
 );
 assert.match(readiness, /(?:請勿|不要)清除瀏覽器資料/);
 
-const login = extractFunction("login");
+const login = extractFunction("performFlashcardLogin");
 assert.match(login, /const stateLoaded = await loadStudentStateFromSupabase\(\)/);
 assert.match(login, /stateLoaded && stateContext && isSupabaseStateHydrated\(stateContext\)/);
 assert.ok(
