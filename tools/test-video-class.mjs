@@ -9,7 +9,7 @@ import { spawnSync } from "node:child_process";
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, adminLibraryControlSql, paginationCursorFixSql, dashboardResetSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
+const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs, portalConfig, sql, libraryExpansionSql, adminLibraryControlSql, paginationCursorFixSql, dashboardResetSql, homeworkLinksSql, workerSource, wranglerSource, workerPackageSource, workerLockSource] = await Promise.all([
   read("recorded.html"),
   read("video-class.html"),
   read("video-class.js"),
@@ -22,6 +22,7 @@ const [recordedHtml, portalHtml, portalJs, portalZipJs, portalCss, frameGuardJs,
   read("supabase-video-class-admin-library-control.sql"),
   read("supabase-video-class-pagination-cursor-fix.sql"),
   read("supabase-video-class-dashboard-reset.sql"),
+  read("supabase-video-class-homework-links-20260820.sql"),
   read("workers/video-class/src/index.js"),
   read("workers/video-class/wrangler.jsonc"),
   read("workers/video-class/package.json"),
@@ -872,6 +873,7 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_admin_publish_r2_object",
     "video_class_admin_issue_key",
     "video_class_admin_clear_key",
+    "video_class_admin_delete_official_playlist",
     "video_class_admin_reset_student_progress",
     "video_class_admin_set_enabled",
     "video_class_admin_set_course_access",
@@ -885,12 +887,14 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
     "video_class_student_save_note",
     "video_class_student_create_playlist",
     "video_class_student_rename_playlist",
+    "video_class_student_resolve_homework_target",
     "video_class_student_delete_playlist",
     "video_class_student_set_playlist_lesson",
     "video_class_student_create_clip",
     "video_class_student_delete_clip",
     "video_class_student_save_feedback",
     "video_class_create_playback",
+    "video_class_homework_resource_catalog",
     "video_class_playback_list_renditions",
     "video_class_authorize_thumbnail",
     "video_class_authorize_attachment",
@@ -903,7 +907,15 @@ test("private R2 lesson metadata and the Worker/RPC contracts stay aligned", () 
   assert.deepEqual(workerRpcs, expectedRpcs, "Worker RPC calls must match the reviewed database boundary");
 
   for (const rpc of expectedRpcs) {
-    const rpcSql = rpc === "video_class_admin_reset_student_progress" ? dashboardResetSql : sql;
+    const rpcSql = rpc === "video_class_admin_reset_student_progress"
+      ? dashboardResetSql
+      : [
+          "video_class_admin_delete_official_playlist",
+          "video_class_homework_resource_catalog",
+          "video_class_student_resolve_homework_target"
+        ].includes(rpc)
+        ? homeworkLinksSql
+        : sql;
     const block = sqlFunctionBlockFrom(rpcSql, rpc);
     assert.match(block, /p_service_secret\s+text/i, `${rpc}: service-secret parameter`);
     assert.match(block, /security\s+definer/i, `${rpc}: SECURITY DEFINER`);
