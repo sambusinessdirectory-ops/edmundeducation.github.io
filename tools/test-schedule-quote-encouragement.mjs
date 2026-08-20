@@ -112,7 +112,7 @@ assert.match(js, /schedule_(?:student|admin)_save_encouragement/g);
 assert.match(js, /schedule_(?:student|admin)_use_previous_encouragement/g);
 assert.match(
   js,
-  /const \[payload, encouragementPayload, motivationPayload, wellbeingPayload, learningPurposePayload, reminderEmailPayload\][\s\S]*?Promise\.all/s,
+  /const \[payload, encouragementPayload, motivationPayload, wellbeingPayload, learningPurposePayload, reminderEmailPayload, opportunitiesPayload\][\s\S]*?Promise\.all/s,
 );
 assert.match(js, /state\.encouragementRequestId === requestId[\s\S]*?state\.weekStart === requestedWeek/s);
 
