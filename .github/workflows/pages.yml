@@ -228,6 +228,9 @@ jobs:
       - name: Validate Song Appreciation portal, data protection, and secure workflows
         run: node tools/test-song-appreciation.mjs
 
+      - name: Validate Eddy game public bundle and asset publication gate
+        run: node tools/test-eddy-game-publication.mjs
+
       - name: Validate Writing Submission portal and self-hosted grammar engine
         run: |
           node grammar-corpus/validate-and-generate.mjs

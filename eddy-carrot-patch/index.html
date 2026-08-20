@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#477a45" />
+    <title>Eddy's Carrot Patch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="gameLoadingScreen" class="game-loading-screen" role="status" aria-live="polite" aria-label="Loading Eddy's Carrot Patch">
+      <img src="assets/game-cover.png" alt="Eddy's Carrot Patch" />
+      <div class="loading-progress" aria-hidden="true"><span></span></div>
+      <p>Loading the carrot patch…</p>
+    </div>
+    <main class="page-shell">
+      <header class="topbar">
+        <div class="title-block">
+          <a id="backToHome" class="back-home" href="../index.html" aria-label="Back to home">← Back to home</a>
+          <img id="eddyPortrait" class="eddy-portrait" alt="Eddy" hidden />
+          <h1>Eddy's Carrot Patch</h1>
+          <p class="subtitle">Plant, grow, harvest and collect.</p>
+        </div>
+        <div class="stats" role="group" aria-label="Farm status">
+          <button id="inventoryToggle" class="stat-pill inventory-toggle" type="button" aria-expanded="false" aria-controls="inventoryPanel">
+            <span id="inventoryIcon" class="stat-icon" aria-hidden="true">🥕</span>
+            <strong id="carrotCount">0</strong>
+            <span>Inventory</span>
+          </button>
+          <button id="seedSelector" class="stat-pill seed-selector" type="button" aria-label="Select crop seed">
+            <span id="seedIcon" class="stat-icon" aria-hidden="true">🌱</span>
+            <strong id="seedName">Carrot</strong>
+            <span>seed</span>
+          </button>
+          <div class="stat-pill"><strong id="readyCount">0</strong><span>ready</span></div>
+          <div id="clockPill" class="stat-pill clock-pill" aria-label="Farm time">
+            <span id="phaseIcon" class="stat-icon" aria-hidden="true">🌅</span>
+            <strong id="gameTime">06:00</strong>
+            <span id="dayPhase">Sunrise</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="game-card" aria-labelledby="game-heading">
+        <h2 id="game-heading" class="sr-only">Eddy farming game</h2>
+        <div class="game-toolbar" role="group" aria-label="Keyboard controls">
+          <div class="control-hint">
+            <span class="keycap">WASD</span>
+            <span aria-hidden="true">/</span>
+            <span class="keycap">↑ ↓ ← →</span>
+            <span>move</span>
+            <span class="hint-divider" aria-hidden="true">·</span>
+            <span class="keycap">E</span>
+            <span aria-hidden="true">/</span>
+            <span class="keycap">Space</span>
+            <span>interact</span>
+          </div>
+        </div>
+
+        <div class="canvas-wrap" id="canvasWrap">
+          <canvas
+            id="gameCanvas"
+            width="1280"
+            height="720"
+            tabindex="0"
+            aria-label="A grassy farm with Eddy the horse and eight carrot plots. Use arrow keys or WASD to walk in eight directions. Press E or Space near a plot to plant or harvest."
+          ></canvas>
+          <div id="toast" class="toast" role="status" aria-live="polite"></div>
+          <div id="inventoryHotbar" class="inventory-hotbar" aria-label="Inventory quick bar"></div>
+
+          <aside id="inventoryPanel" class="inventory-panel" role="dialog" aria-modal="true" aria-labelledby="inventoryHeading" hidden>
+            <div class="inventory-panel-heading">
+              <div>
+                <span class="eyebrow">EDDY'S PACK</span>
+                <h3 id="inventoryHeading">Inventory</h3>
+              </div>
+              <button id="inventoryClose" class="inventory-close" type="button" aria-label="Close inventory">×</button>
+            </div>
+            <div id="inventoryGrid" class="inventory-grid" role="list" aria-label="Twelve inventory slots"></div>
+            <p id="inventoryCapacity" class="inventory-capacity">12 slots · stacks hold up to 999</p>
+          </aside>
+
+        </div>
+
+        <div class="mobile-controls" role="group" aria-label="Touch controls">
+          <div class="dpad" role="group" aria-label="Eight-direction movement pad">
+            <button type="button" data-dir="nw" aria-label="Move northwest">↖</button>
+            <button type="button" data-dir="n" aria-label="Move north">↑</button>
+            <button type="button" data-dir="ne" aria-label="Move northeast">↗</button>
+            <button type="button" data-dir="w" aria-label="Move west">←</button>
+            <span class="dpad-center" aria-hidden="true">🐴</span>
+            <button type="button" data-dir="e" aria-label="Move east">→</button>
+            <button type="button" data-dir="sw" aria-label="Move southwest">↙</button>
+            <button type="button" data-dir="s" aria-label="Move south">↓</button>
+            <button type="button" data-dir="se" aria-label="Move southeast">↘</button>
+          </div>
+          <button id="actionButton" class="action-button" type="button" disabled>
+            Walk near a garden bed
+          </button>
+        </div>
+
+        <p id="gameStatus" class="sr-only" aria-live="polite">
+          Eddy is ready to farm. Progress is saved on this device.
+        </p>
+      </section>
+    </main>
+    <script src="loader.js" defer></script>
+    <script src="asset-registry.js" defer></script>
+    <script src="production-runtime.js" defer></script>
+    <script src="game.js" defer></script>
+  </body>
+</html>
