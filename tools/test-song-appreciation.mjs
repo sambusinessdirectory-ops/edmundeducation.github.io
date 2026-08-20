@@ -136,6 +136,22 @@ for (const routine of [
   "song_appreciation_admin_upsert_song", "song_appreciation_admin_list_students_with_access",
   "song_appreciation_admin_set_access"
 ]) assert.match(schema, new RegExp(`create or replace function public\\.${routine}`));
+const adminUpsertSql = between(
+  schema,
+  "create or replace function public.song_appreciation_admin_upsert_song(",
+  "create or replace function public.song_appreciation_admin_list_students_with_access(",
+  "song_appreciation_admin_upsert_song"
+);
+assert.match(
+  adminUpsertSql,
+  /on conflict on constraint song_appreciation_songs_pkey do update/i,
+  "song upsert must name the primary-key constraint instead of colliding with its id output column"
+);
+assert.doesNotMatch(
+  adminUpsertSql,
+  /on conflict\s*\(\s*id\s*\)/i,
+  "song upsert must not use an ambiguous bare id conflict target"
+);
 assert.match(schema, /password_hash text not null/);
 assert.ok(
   schema.includes("check (password_hash ~ '^\\$2a\\$12\\$[./A-Za-z0-9]{53}$')"),

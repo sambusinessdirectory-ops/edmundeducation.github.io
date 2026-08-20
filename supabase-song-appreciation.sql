@@ -1738,7 +1738,7 @@ begin
     p_published,
     p_sort_order
   )
-  on conflict (id) do update
+  on conflict on constraint song_appreciation_songs_pkey do update
   set slug = excluded.slug,
       title = excluded.title,
       singer = excluded.singer,
