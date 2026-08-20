@@ -385,8 +385,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260820-manual-topics1/);
-  assert.match(html, /writing-submission\.js\?v=20260820-manual-topics1/);
+  assert.match(html, /writing-submission\.css\?v=20260820-overlay-flow1/);
+  assert.match(html, /writing-submission\.js\?v=20260820-overlay-flow1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -503,6 +503,29 @@ test("the writing-area prompt lives on the grammar card and cannot cover model-e
   const writingInput = html.match(/<textarea data-writing-input[^>]*><\/textarea>/)?.[0] || "";
   assert.ok(writingInput, "the writing textarea should remain available");
   assert.doesNotMatch(writingInput, /placeholder=/);
+});
+
+test("model-essay guide text flows after real typing and offers an inline paragraph picker", () => {
+  assert.match(html, /data-model-essay-mini-panel/);
+  assert.match(html, /data-model-essay-mini-chips/);
+  assert.match(script, /writing-essay-overlay-prefix/);
+  assert.match(script, /writing-essay-overlay-guide/);
+  assert.match(script, /const prefixText = typedText && !\/\\s\$\/u\.test\(typedText\)/);
+  assert.match(script, /function renderModelEssayMiniPanel\(\)/);
+  assert.match(script, /addChip\("全文", allSelected/);
+  assert.match(script, /addChip\(`P\$\{index \+ 1\}`/);
+  assert.match(css, /\.writing-essay-overlay-prefix\s*\{\s*color:\s*transparent/);
+  assert.match(css, /\.model-essay-mini-panel\[hidden\]\s*\{\s*display:\s*none/);
+});
+
+test("students can remove a selected topic and every attached reference", () => {
+  assert.match(html, /data-remove-writing-topic[^>]*>移除目前題目及資源</);
+  const removal = script.match(/function removeSelectedWritingTopic\(\) \{[\s\S]*?\n\}/)?.[0] || "";
+  assert.match(removal, /state\.selectedTopicResource = null/);
+  assert.match(removal, /elements\.topicInput\.value = ""/);
+  assert.match(removal, /clearModelEssayState\(\)/);
+  assert.match(removal, /renderSelectedTopicPreview\(\)/);
+  assert.match(script, /elements\.removeWritingTopic\?\.addEventListener\("click", removeSelectedWritingTopic\)/);
 });
 
 test("Writing Practice topics strip display-only fields from draft and submission transport", () => {

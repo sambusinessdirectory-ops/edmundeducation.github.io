@@ -29,6 +29,7 @@ assert.equal(learningDaySummary({ sources: { x: { activityDays: [{ date: "2026-0
 assert.equal(normalizePurposeFontSize(99), 2);
 assert.equal(normalizePurposeFontSize(3), 3);
 assert.deepEqual(normalizePomodoroSettings({}), DEFAULT_POMODORO_SETTINGS);
+assert.equal(normalizePomodoroSettings({ allowSkipBreak: true }).allowSkipBreak, true);
 assert.deepEqual(nextPomodoroPhase({ phase: "work", completedSessions: 3, settings: DEFAULT_POMODORO_SETTINGS }), { phase: "long-break", completedSessions: 4 });
 assert.equal(formatPomodoroRemaining(61000), "01:01");
 
@@ -41,8 +42,16 @@ assert.match(html, /總學習日數/);
 assert.match(html, /data-purpose-font-size="3"/);
 assert.match(html, /語言與機遇/);
 assert.match(html, /data-pomodoro-break-lock/);
+assert.match(html, /data-pomodoro-allow-skip/);
+assert.match(html, /data-pomodoro-skip-break/);
 assert.match(html, /class="pomodoro-header-button"[\s\S]*?data-pomodoro-header/);
 assert.match(html, /html\.pomodoro-page-locked[\s\S]*?overflow:hidden/);
+assert.match(html, /dialog\[data-pomodoro-dialog\][^{]*\{[^}]*width:min\(760px,calc\(100vw - 24px\)\)[^}]*overflow:visible/s);
+assert.match(html, /\.learning-day-counter\s*\{[^}]*padding:0[^}]*\}/s);
+assert.doesNotMatch(html, /\.learning-day-counter\s*\{[^}]*border:1px/s);
+assert.match(html, /\.pomodoro-break-lock\s*\{[^}]*background:rgba\(102,48,45,\.7\)/s);
+assert.match(script, /function skipPomodoroBreak\(\)/);
+assert.match(script, /pomodoroState\.settings\.allowSkipBreak/);
 assert.match(script, /edmund-student-progress\.edmundeducation\.workers\.dev/);
 assert.match(script, /STUDENT_PROGRESS_WORKER_URL\}\/v1\/progress/);
 assert.match(script, /schedule_admin_teacher_assignment_students/);

@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260820-manual-topics1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260820-overlay-flow1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260820-2">
 </head>
 <body>
@@ -126,6 +126,7 @@
               <div class="topic-picker-actions">
                 <button class="small-button random-topic-button" type="button" data-random-topic-open>隨機派送問題</button>
                 <button class="small-button topic-picker-button" type="button" data-topic-picker-open>選擇寫作練習題目</button>
+                <button class="small-button remove-writing-topic-button" type="button" data-remove-writing-topic hidden>移除目前題目及資源</button>
               </div>
               <span class="draft-state" data-draft-state>尚未提交</span>
             </div>
@@ -166,8 +167,7 @@
                   <span>Timer 計時器</span>
                   <strong data-writing-timer-toggle-display>00:00:00</strong>
                 </button>
-                <button class="small-button model-essay-toggle" type="button" data-model-essay-toggle hidden>顯示範文底字 <span data-model-essay-open-count></span></button>
-                <button class="small-button model-essay-paragraph-open" type="button" data-model-essay-paragraph-open hidden>選擇參考段落</button>
+                <button class="small-button model-essay-toggle" type="button" data-model-essay-toggle hidden><span data-model-essay-toggle-label>顯示範文底字</span> <span data-model-essay-open-count></span></button>
                 <div class="writing-stopwatch" data-writing-stopwatch data-status="idle" aria-label="寫作秒錶">
                   <span aria-hidden="true">◷</span>
                   <span class="writing-stopwatch-copy"><small>Stopwatch 秒錶</small><strong data-writing-stopwatch-display>00:00:00</strong></span>
@@ -183,6 +183,14 @@
                 </div>
               </div>
             </div>
+            <section class="model-essay-mini-panel" data-model-essay-mini-panel hidden aria-label="範文底字段落選擇">
+              <div>
+                <strong>選擇底字段落</strong>
+                <small>預設顯示全文；可只保留需要參考的段落。</small>
+              </div>
+              <div class="model-essay-mini-chips" data-model-essay-mini-chips></div>
+              <button class="small-button model-essay-paragraph-open" type="button" data-model-essay-paragraph-open>詳細預覽</button>
+            </section>
             <section class="writing-timer-panel" id="writing-timer-panel" data-writing-timer-panel hidden aria-labelledby="writing-timer-title">
               <div class="writing-timer-head">
                 <div>
@@ -553,6 +561,6 @@
   <script src="writing-submission-config.js"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260820-2"></script>
-  <script type="module" src="writing-submission.js?v=20260820-manual-topics1"></script>
+  <script type="module" src="writing-submission.js?v=20260820-overlay-flow1"></script>
 </body>
 </html>

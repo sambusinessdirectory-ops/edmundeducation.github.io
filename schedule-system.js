@@ -86,7 +86,7 @@ import {
   normalizePomodoroSettings,
   normalizePurposeFontSize,
   pomodoroPhaseDurationMs
-} from "./schedule-learning-experience.mjs?v=20260820-1";
+} from "./schedule-learning-experience.mjs?v=20260820-pomodoro-polish1";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
@@ -393,6 +393,7 @@ elements.pomodoroHeaderTime = elements.pomodoroHeader?.querySelector("[data-pomo
 elements.pomodoroDialog = document.querySelector("[data-pomodoro-dialog]");
 elements.pomodoroForm = document.querySelector("[data-pomodoro-form]");
 elements.pomodoroEnabled = document.querySelector("[data-pomodoro-enabled]");
+elements.pomodoroAllowSkip = document.querySelector("[data-pomodoro-allow-skip]");
 elements.pomodoroWork = document.querySelector("[data-pomodoro-work]");
 elements.pomodoroShortBreak = document.querySelector("[data-pomodoro-short-break]");
 elements.pomodoroLongBreak = document.querySelector("[data-pomodoro-long-break]");
@@ -404,6 +405,7 @@ elements.pomodoroReset = document.querySelector("[data-reset-pomodoro]");
 elements.pomodoroBreakLock = document.querySelector("[data-pomodoro-break-lock]");
 elements.pomodoroBreakCountdown = document.querySelector("[data-pomodoro-break-countdown]");
 elements.pomodoroBreakKicker = document.querySelector("[data-pomodoro-break-kicker]");
+elements.pomodoroSkipBreak = document.querySelector("[data-pomodoro-skip-break]");
 
 const state = {
   currentUser: null,
@@ -2400,6 +2402,7 @@ function writePomodoroState() {
 function currentPomodoroSettingsFromForm() {
   return normalizePomodoroSettings({
     enabled: elements.pomodoroEnabled.checked,
+    allowSkipBreak: elements.pomodoroAllowSkip.checked,
     workMinutes: Number(elements.pomodoroWork.value),
     shortBreakMinutes: Number(elements.pomodoroShortBreak.value),
     longBreakMinutes: Number(elements.pomodoroLongBreak.value),
@@ -2411,6 +2414,7 @@ function currentPomodoroSettingsFromForm() {
 function populatePomodoroForm() {
   const settings = normalizePomodoroSettings(pomodoroState?.settings || DEFAULT_POMODORO_SETTINGS);
   elements.pomodoroEnabled.checked = settings.enabled;
+  elements.pomodoroAllowSkip.checked = settings.allowSkipBreak;
   elements.pomodoroWork.value = settings.workMinutes;
   elements.pomodoroShortBreak.value = settings.shortBreakMinutes;
   elements.pomodoroLongBreak.value = settings.longBreakMinutes;
@@ -2442,6 +2446,15 @@ function stopPomodoro() {
   renderPomodoroHeader();
 }
 
+function skipPomodoroBreak() {
+  if (!pomodoroState || pomodoroState.phase === "work" || !pomodoroState.settings.allowSkipBreak) return;
+  pomodoroState.phase = "work";
+  pomodoroState.endsAt = Date.now() + pomodoroPhaseDurationMs(pomodoroState.settings, "work");
+  writePomodoroState();
+  tickPomodoro();
+  showToast("已略過休息，下一輪專注時間現在開始。", "success");
+}
+
 function renderPomodoroHeader() {
   const running = Boolean(pomodoroState?.settings?.enabled && pomodoroState?.endsAt);
   elements.pomodoroHeader.dataset.running = String(running);
@@ -2466,6 +2479,9 @@ function tickPomodoro() {
   }
   const onBreak = pomodoroState.phase !== "work";
   elements.pomodoroBreakLock.hidden = !onBreak;
+  if (elements.pomodoroSkipBreak) {
+    elements.pomodoroSkipBreak.hidden = !(onBreak && pomodoroState.settings.allowSkipBreak);
+  }
   setPomodoroPageLocked(onBreak);
   if (onBreak) {
     elements.pomodoroBreakKicker.textContent = pomodoroState.phase === "long-break"
@@ -7570,6 +7586,7 @@ elements.pomodoroReset?.addEventListener("click", () => {
   populatePomodoroForm();
   setStatus(elements.pomodoroStatus, "番茄鐘已停止及重設。", "success");
 });
+elements.pomodoroSkipBreak?.addEventListener("click", skipPomodoroBreak);
 elements.pomodoroForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   const settings = currentPomodoroSettingsFromForm();

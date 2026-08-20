@@ -1,5 +1,6 @@
 export const DEFAULT_POMODORO_SETTINGS = Object.freeze({
   enabled: false,
+  allowSkipBreak: false,
   workMinutes: 25,
   shortBreakMinutes: 5,
   longBreakMinutes: 25,
@@ -57,6 +58,7 @@ export function normalizePomodoroSettings(value) {
   };
   return {
     enabled: source.enabled === true,
+    allowSkipBreak: source.allowSkipBreak === true,
     workMinutes: bounded(source.workMinutes, 25, 1, 180),
     shortBreakMinutes: bounded(source.shortBreakMinutes, 5, 1, 60),
     longBreakMinutes: bounded(source.longBreakMinutes, 25, 1, 120),

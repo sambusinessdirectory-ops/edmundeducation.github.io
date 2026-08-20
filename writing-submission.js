@@ -204,6 +204,7 @@ const elements = {
   topicPickerClose: document.querySelector("[data-topic-picker-close]"),
   topicPickerSearch: document.querySelector("[data-topic-picker-search]"),
   topicPickerResults: document.querySelector("[data-topic-picker-results]"),
+  removeWritingTopic: document.querySelector("[data-remove-writing-topic]"),
   selectedTopicPreview: document.querySelector("[data-selected-topic-preview]"),
   topicReferenceArea: document.querySelector("[data-topic-reference-area]"),
   writingInput: document.querySelector("[data-writing-input]"),
@@ -211,6 +212,9 @@ const elements = {
   writingEditorStack: document.querySelector("[data-writing-editor-stack]"),
   writingEssayOverlay: document.querySelector("[data-model-essay-overlay]"),
   modelEssayToggle: document.querySelector("[data-model-essay-toggle]"),
+  modelEssayToggleLabel: document.querySelector("[data-model-essay-toggle-label]"),
+  modelEssayMiniPanel: document.querySelector("[data-model-essay-mini-panel]"),
+  modelEssayMiniChips: document.querySelector("[data-model-essay-mini-chips]"),
   modelEssayParagraphDialogOpen: document.querySelector("[data-model-essay-paragraph-open]"),
   modelEssayDialog: document.querySelector("[data-model-essay-paragraph-dialog]"),
   modelEssayDialogClose: document.querySelector("[data-model-essay-paragraph-dialog-close]"),
@@ -669,7 +673,11 @@ function syncModelEssayOverlay() {
   const hasSelection = state.modelEssayParagraphSelection.some(value => value);
   const overlayText = hasSelection ? modelEssayOverlayText() : "";
   if (elements.writingEssayOverlay) {
-    elements.writingEssayOverlay.textContent = overlayText;
+    const typedText = elements.writingInput?.value || "";
+    const prefixText = typedText && !/\s$/u.test(typedText) ? `${typedText} ` : typedText;
+    const prefix = createElement("span", "writing-essay-overlay-prefix", prefixText);
+    const guide = createElement("span", "writing-essay-overlay-guide", overlayText);
+    elements.writingEssayOverlay.replaceChildren(prefix, guide);
     elements.writingEssayOverlay.hidden = !state.modelEssayOverlayVisible || !overlayText;
   }
   if (elements.writingEditorStack) {
@@ -686,14 +694,54 @@ function syncModelEssayOverlay() {
   syncModelEssayOverlayScroll();
 }
 
+function renderModelEssayMiniPanel() {
+  if (!elements.modelEssayMiniPanel || !elements.modelEssayMiniChips) return;
+  const paragraphs = state.modelEssayParagraphs;
+  const visible = state.modelEssayOverlayVisible && paragraphs.length > 0;
+  elements.modelEssayMiniPanel.hidden = !visible;
+  if (elements.modelEssayParagraphDialogOpen) elements.modelEssayParagraphDialogOpen.hidden = !visible;
+  if (!visible) {
+    elements.modelEssayMiniChips.replaceChildren();
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  const allSelected = state.modelEssayParagraphSelection.length === paragraphs.length
+    && state.modelEssayParagraphSelection.every(Boolean);
+  const addChip = (label, pressed, onClick) => {
+    const button = createElement("button", "model-essay-mini-chip", label);
+    button.type = "button";
+    button.setAttribute("aria-pressed", String(pressed));
+    button.addEventListener("click", onClick);
+    fragment.append(button);
+  };
+  addChip("全文", allSelected, () => {
+    applyModelEssaySelection(Array.from({ length: paragraphs.length }, () => true));
+    persistDraft();
+  });
+  paragraphs.forEach((paragraph, index) => {
+    addChip(`P${index + 1}`, state.modelEssayParagraphSelection[index] !== false, () => {
+      const next = [...state.modelEssayParagraphSelection];
+      next[index] = !next[index];
+      if (!next.some(Boolean)) {
+        showToast("請至少保留一個範文段落。", "error");
+        return;
+      }
+      applyModelEssaySelection(next);
+      persistDraft();
+    });
+  });
+  elements.modelEssayMiniChips.replaceChildren(fragment);
+}
+
 function syncModelEssayControls() {
   if (elements.modelEssayToggle) {
     elements.modelEssayToggle.disabled = !state.modelEssayParagraphs.length;
     elements.modelEssayToggle.hidden = !state.modelEssayParagraphs.length;
-    elements.modelEssayToggle.textContent = state.modelEssayOverlayVisible
+    elements.modelEssayToggleLabel.textContent = state.modelEssayOverlayVisible
       ? "關閉範文底字"
       : "顯示範文底字";
   }
+  renderModelEssayMiniPanel();
 }
 
 function syncModelEssayOverlayScroll() {
@@ -2365,6 +2413,7 @@ function renderSelectedTopicPreview() {
   state.floatingTopicSignature = "";
   syncFloatingWritingTopicContent();
   clearModelEssayState();
+  if (elements.removeWritingTopic) elements.removeWritingTopic.hidden = !resource;
   if (!elements.selectedTopicPreview) return;
   if (!resource?.questionImages.length) {
     elements.selectedTopicPreview.hidden = true;
@@ -2387,7 +2436,7 @@ function renderSelectedTopicPreview() {
     zoom.append(option);
   }
   zoomLabel.append(zoom);
-  const remove = createElement("button", "", "移除附圖");
+  const remove = createElement("button", "", "移除題目及資源");
   remove.type = "button";
   remove.dataset.removeTopicPreview = "true";
   controls.append(zoomLabel, remove);
@@ -2410,6 +2459,17 @@ function renderSelectedTopicPreview() {
   loadModelEssayReference().catch((error) => {
     console.warn("Model essay reference load failed", error);
   });
+}
+
+function removeSelectedWritingTopic() {
+  state.selectedTopicResource = null;
+  elements.topicInput.value = "";
+  clearModelEssayState();
+  renderSelectedTopicPreview();
+  updateEditorMetrics();
+  persistDraft();
+  showToast("已移除題目、Flash Card、Fill In The Blanks、範文及 Glossary；現在可重新選擇或自行輸入。", "success");
+  elements.topicInput.focus();
 }
 
 function writingTopicResultHaystack(resource) {
@@ -4356,7 +4416,7 @@ function handleWritingInput() {
     scheduleDraftSave();
     renderGrammarIssues();
     syncProofreadStatus();
-    syncModelEssayOverlayScroll();
+    syncModelEssayOverlay();
     return;
   }
   supersedeSegmentRecordsAffectedByEdit(previousValue, nextValue);
@@ -4375,7 +4435,7 @@ function handleWritingInput() {
   scheduleDraftSave();
   renderGrammarIssues();
   syncProofreadStatus();
-  syncModelEssayOverlayScroll();
+  syncModelEssayOverlay();
   if (immediateSegments.length) {
     window.clearTimeout(state.manualRecheckTimer);
     state.manualRecheckTimer = null;
@@ -8073,10 +8133,12 @@ function bindEvents() {
       }
       state.modelEssayOverlayVisible = !state.modelEssayOverlayVisible;
       syncModelEssayOverlay();
+      syncModelEssayControls();
       persistDraft();
       syncProofreadStatus();
     });
   }
+  elements.removeWritingTopic?.addEventListener("click", removeSelectedWritingTopic);
   if (elements.modelEssayParagraphDialogOpen) {
     elements.modelEssayParagraphDialogOpen.addEventListener("click", async () => {
       await loadModelEssayReference({ force: true });
@@ -8538,9 +8600,7 @@ function bindEvents() {
     const randomTopic = event.target.closest("[data-random-topic-category]");
     if (randomTopic) return assignRandomWritingTopic(randomTopic.dataset.randomTopicCategory).catch(handleViewError);
     if (event.target.closest("[data-remove-topic-preview]")) {
-      state.selectedTopicResource = null;
-      renderSelectedTopicPreview();
-      scheduleDraftSave();
+      removeSelectedWritingTopic();
       return;
     }
     const resumeDraft = event.target.closest("[data-resume-draft]");
