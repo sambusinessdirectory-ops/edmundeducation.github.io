@@ -1,0 +1,1800 @@
+{
+  "id": "p2-114-acquiring-the-principles-of-mathematics-and-science",
+  "catalogueId": "p2-114",
+  "catalogueIds": [
+    "p2-114"
+  ],
+  "passage": 2,
+  "title": "Acquiring the principles of mathematics and science",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "v",
+    "ii",
+    "vi",
+    "i",
+    "ix",
+    "viii",
+    "B",
+    "D",
+    "A",
+    "E",
+    "discovery learning",
+    "teacher",
+    "peers"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "v — The need to develop new concepts in daily life",
+      "answerKey": "v — The need to develop new concepts in daily life",
+      "type": "Question Analysis",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求把 Paragraph A 配一個 heading。Heading v 的意思是：在日常生活理解中，需要發展新概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been pointed out that learning mathematics and science is not so much learning facts as learning ways of thinking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人指出，學習數學和科學，重點較偏向學習思考方式，而不只是學習 facts。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do young people change their ways of thinking as they develop and as they learn in school?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕人在成長和學校學習期間，如何改變自己的思考方式？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已經明顯提出全文主題：learning science 牽涉 thinking 的改變。它不是單純講課程內容，也不是討論老師訓練；它在問學生如何改變原有概念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的定位詞是 “new concepts” 和 “daily life”。原文沒有 daily life 這個字，但有 “ordinary situations”。原文也沒有直接寫 “new concepts”，但有 “conceptual changes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has also been emphasised that in order to learn science, people often have to change the way they think in ordinary situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章也強調，為了學習科學，人們往往需要改變自己在日常情境中的思考方式。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These changes in ways of thinking are often referred to as conceptual changes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些思考方式上的改變，通常稱為 conceptual changes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的 “daily life” 對應 “ordinary situations”；“develop new concepts” 對應 “conceptual changes”。Paragraph A 的 heat / temperature 例子也說明學生需要放棄 “temperature as a measure of heat” 這種日常直覺，重新區分 temperature 和 heat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何其他 heading 不合適ii superficial understanding 更貼近 Paragraph B，因為 B 講學生記到公式卻不懂應用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vi contradiction assists mental development 更貼近 Paragraph C，因為 C 才正式講 conflict 和disequilibrium。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph A 最適合 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "ii — The problem of superficial understanding",
+      "answerKey": "ii — The problem of superficial understanding",
+      "type": "Question Analysis",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求把 Paragraph B 配一個 heading。Heading ii 的意思是：表面理解的問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditional instruction based on telling students how modern scientists think does not seem to be very successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以直接告訴學生 modern scientists 如何思考為基礎的傳統教學，似乎不太成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students may be able to repeat a formula but fail to use the concept represented by the formula when they explain observed events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生可能能夠重複公式，但當他們解釋觀察到的事件時，卻無法使用該公式所代表的概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到本段集中講一種常見學習失敗：學生表面上學過定義和公式，但概念沒有真正內化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的核心是 “superficial understanding”。原文沒有 superficial，但有一整組意思相近的訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“learn the definitions, the formulae, the terminology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still maintain their previous conceptions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“repeat a formula but fail to use the concept”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都表示學生只掌握表層形式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students may learn the definitions, the formulae, the terminology, and yet still maintain their previous conceptions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生可能學會定義、公式和術語，卻仍然保留原來的觀念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點在 “and yet”。它表示學生看似完成學習任務，但深層概念沒有改變。後一句 “repeat a formula but fail to use the concept” 更清楚：會背公式不等於能理解概念。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "superficial understanding= learn definitions / formulae / terminology= repeat a formula= fail to use the concept為何其他 heading 不合適v 講日常概念改變，屬於 Paragraph A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vi 講矛盾促進發展，屬於 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vii teacher training 原文完全沒有作為本段主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph B = ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "vi — The claim that a perceived contradiction can assist mental development",
+      "answerKey": "vi — The claim that a perceived contradiction can assist mental development",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求把 Paragraph C 配一個 heading。Heading vi 的意思是：感知到的矛盾可以幫助心智發展這一主張。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The psychologist Piaget suggested an interesting hypothesis relating to the process of cognitive change in children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家 Piaget 提出一個有趣假說，關於兒童 cognitive change 的過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may actually discard the evidence and keep their theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們實際上可能會丟掉證據，保留自己的理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 介紹 Piaget 的學習理論，並在尾句補上一個保留：兒童不一定因矛盾證據就改變想法。中間的核心應該是 conflict 如何觸發 cognitive change。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的定位詞是 “contradiction”、“assist” 和 “mental development”。原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“conflict”"
+            },
+            {
+              "kind": "quote",
+              "text": "“challenges their thinking”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disequilibrium”"
+            },
+            {
+              "kind": "quote",
+              "text": "“triggers equilibration processes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produce cognitive change”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When confronted with a result that challenges their thinking – that is, when faced with conflict –pupils realise that they need to think again about their own ways of solving problems…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當學生遇到一個挑戰他們思考的結果，也就是面對 conflict 時，他們會意識到自己需要重新思考解決問題的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He hypothesised that conflict brings about disequilibrium, and then triggers equilibration processes that ultimately produce cognitive change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他假設 conflict 會帶來 disequilibrium，然後觸發 equilibration processes，最終產生 cognitive change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 中的 “perceived contradiction” 對應原文 “conflict”；“assist mental development” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“produce cognitive change”。本段重點不是普通 classroom activity，而是 Piaget 對 conflict 如何引發思考改變的理論。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "尾句提到兒童可能丟掉證據、保留理論，這是一個限制，提醒 conflict 未必每次成功。不過全段主旨仍是 Piaget 的 conflict → disequilibrium → cognitive change 假說。因此 heading vi 最全面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "i — A suggested modification to a theory about learning",
+      "answerKey": "i — A suggested modification to a theory about learning",
+      "type": "Question Analysis",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求把 Paragraph D 配一個 heading。Heading i 的意思是：對一個學習理論提出修訂或調整。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s hypothesis about how cognitive change occurs was later translated into an educational approach which is now termed ‘discovery learning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 關於 cognitive change 如何發生的假說，後來被轉化成一種教育方法，現在稱為discovery learning。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This hypothesis, originally advanced by Perret-Clermont (1980) and Doise and Mugny (1984), has been investigated in many recent studies of science teaching and learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個最初由 Perret-Clermont 以及 Doise 和 Mugny 提出的假說，已在許多近期 science teaching and learning 研究中被探討。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 先講 Piaget 理論如何成為 discovery learning，再講後來研究者提出另一個假說。這段主旨明顯是學習理論的發展和調整。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的定位詞是 “modification” 和 “theory about learning”。原文裡可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovery learning initially took…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“However, it was subsequently proposed that…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 “However” 很重要，因為它帶出後來對初始版本的修訂。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovery learning initially took what is now considered the ‘lone learner’ route.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discovery learning 最初採取現在被視為 “lone learner” 的路線。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, it was subsequently proposed that interpersonal conflict, especially with peers, might play an important role in promoting cognitive change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，後來有人提出，interpersonal conflict，尤其是與 peers 的衝突，可能在促進 cognitive change 中有重要作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "初始版本把焦點放在個別學習者面對挑戰情境；後來的版本加入 peers 和 interpersonal conflict。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的 “suggested modification” 就是這個從 lone learner 到 peer conflict 的轉向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何其他 heading 不合適viii 是實驗配對工作，Paragraph F 才談 pair work。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ix 是 disagreement 的 delayed benefits，Paragraph E 才提供實驗結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph D = i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "ix — Evidence for the delayed benefits of disagreement between pupils",
+      "answerKey": "ix — Evidence for the delayed benefits of disagreement between pupils",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求把 Paragraph E 配一個 heading。Heading ix 的意思是：學生之間意見不一致的好處會延遲出現的證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Christine Howe and her colleagues, for example, have compared children’s progress in understanding several types of science concepts when they are given the opportunity to observe relevant events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Christine Howe 和她的同事比較了兒童在有機會觀察相關事件後，對幾類科學概念的理解進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, they found no evidence to support the idea that the children worked out their new conceptions during their group discussions, because progress was not actually observed in a post-test immediately after the sessions of group work, but rather in a second test given around four weeks after the group work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他們沒有證據支持兒童是在小組討論期間形成新概念，因為進步沒有在 group work 後立即的 post-test 出現，反而是在 group work 約四星期後的第二次測驗中出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯是一個實驗結果段，而且重點在 progress 的時間：immediately 沒有，four weeks later 有。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的定位詞是 “delayed benefits” 和 “disagreement”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“dissimilar views”"
+            },
+            {
+              "kind": "quote",
+              "text": "“progressed more”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not actually observed… immediately”"
+            },
+            {
+              "kind": "quote",
+              "text": "“around four weeks after”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They found support for the idea that children in the groups with dissimilar views progressed more after their training sessions than those who had been placed in groups with similar views.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們發現證據支持這個想法：被放在 views 不相似的小組中的兒童，在訓練後比 views 相似的小組進步更多。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“progress was not actually observed in a post-test immediately after the sessions of group work, but rather in a second test given around four weeks after the group work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進步沒有在 group work 後立即的 post-test 中觀察到，反而在 group work 約四星期後的第二次測驗中出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 把這兩點合成一個主旨：disagreement between pupils 有益，但效果延遲出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "disagreement between pupils= groups with dissimilar views delayed benefits= no progress immediately after group work= progress in a second test around four weeks later所以 Paragraph E = ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "viii — An experiment to assess the benefits of exchanging views with a partner",
+      "answerKey": "viii — An experiment to assess the benefits of exchanging views with a partner",
+      "type": "Question Analysis",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求把 Paragraph F 配一個 heading。Heading viii 的意思是：一個評估與 partner 交換意見是否有益的實驗。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another study, Howe and her colleagues set out to investigate whether the progress obtained through pair work could be a function of the exchange of ideas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在另一項研究中，Howe 和她的同事著手調查 pair work 所取得的進步是否可能來自 ideas 的交換。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A post-test, given to individuals, assessed the progress made by pupils in their conceptions of what influenced the path of falling objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個給個別學生完成的 post-test 評估學生在理解影響 falling objects path 的因素方面有多大進步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接說明這段是 another study，目的是調查 pair work 中 exchange of ideas 的作用。末句說 post-test 評估 progress，剛好符合 experiment / assess benefits。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位詞是 “experiment”、“benefits”、“exchanging views” 和 “partner”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“another study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pair work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exchange of ideas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pairs of pupils”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howe and her colleagues set out to investigate whether the progress obtained through pair work could be a function of the exchange of ideas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howe 和同事想研究 pair work 帶來的進步是否可能是 ideas exchange 的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎直接對應 heading viii。pair work = with a partner；exchange of ideas = exchanging views；investigate whether progress = assess the benefits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不是 ix Paragraph E 已經給出 “dissimilar views progressed more” 和 “four weeks after” 的 delayed benefit。Paragraph F 只描述另一個 pair work experiment 的設計與評估，沒有提供 delayed result。因此 viii 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B, D",
+      "answerKey": "B, D",
+      "type": "Question Analysis",
+      "prompt": "Questions 20–21",
+      "translation": "作者把哪兩個關於 learning 的說法歸於 Piaget？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Which TWO statements about learning are attributed to Piaget by the writer?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “attributed to Piaget”。所以答案必須來自 Paragraph C 中 Piaget 的觀點，不能拿 Paragraph D 後來研究者的 peer interaction 理論，也不能拿 Paragraph B 對傳統教學的批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option B答案之一：B — Mental challenge is a stimulus to learning."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The psychologist Piaget suggested an interesting hypothesis relating to the process of cognitive change in children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家 Piaget 提出一個關於兒童 cognitive change 過程的有趣假說。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may actually discard the evidence and keep their theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們實際上可能會丟掉證據，保留自己的理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段就是 Piaget 的核心理論段。題目問 Piaget，因此先看 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option B 的定位詞是 “mental challenge” 和 “stimulus”。原文對應 “challenges their thinking”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“faced with conflict”、“triggers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“When confronted with a result that challenges their thinking – that is, when faced with conflict –pupils realise that they need to think again about their own ways of solving problems…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當學生遇到一個挑戰他們思考的結果，也就是面對 conflict 時，他們會意識到自己需要重新思考自己的解題方式。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“He hypothesised that conflict brings about disequilibrium, and then triggers equilibration processes that ultimately produce cognitive change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他假設 conflict 會帶來 disequilibrium，然後觸發 equilibration processes，最終產生 cognitive change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mental challenge 對應 “challenges their thinking”；stimulus to learning 對應 “triggers… cognitive change”。因此 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D答案之二：D — Children sometimes reject evidence that conflicts with their preconceptions."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：兒童有時會拒絕與自己原有想法衝突的證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍是 Paragraph C，因為題目問 Piaget 的 learning views。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D 的定位詞是 “reject evidence” 和 “conflicts with preconceptions”。原文最後兩句有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“contradictory evidence”、“discard the evidence”、“keep their theory”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“However, Piaget also pointed out that young children do not always discard their ideas in the face of contradictory evidence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，Piaget 也指出，年幼兒童面對相反證據時，並不總會放棄自己的想法。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may actually discard the evidence and keep their theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們實際上可能會丟掉證據，保留自己的理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好支持 D。選項中的 “preconceptions” 對應 “their ideas / their theory”；“reject evidence” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“discard the evidence”。錯項排除A 說老師可以透過 explaining difficult concepts 協助學習。Paragraph B 反而指出傳統直接講解效果不佳；Piaget 也強調 active problem-solving。 C 說 repetition and consistency aid development，原文沒有。 E 說 children can help one another progress，這是 Paragraph D 後來 peer conflict 假說的方向，不是 Piaget 本人原始說法。所以 Questions 20–21 答案是 B 和 D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        20,
+        21
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A, E",
+      "answerKey": "A, E",
+      "type": "Question Analysis",
+      "prompt": "Questions 22–23",
+      "translation": "哪兩個選項描述 Howe 對 8–12 歲兒童做的實驗？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Which TWO statements describe Howe’s experiment with children aged 8 to 12?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "控制詞是 “children aged 8 to 12”，所以必須定位到 Paragraph E 第一個 Howe study，不能用Paragraph F 的 12–15 歲 pair work study。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option A答案之一：A — The children were assessed on their ability to understand a scientific problem."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Christine Howe and her colleagues, for example, have compared children’s progress in understanding several types of science concepts when they are given the opportunity to observe relevant events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Christine Howe 和同事比較兒童在有機會觀察相關事件後，對幾類 science concepts 的理解進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, they found no evidence to support the idea that the children worked out their new conceptions during their group discussions, because progress was not actually observed in a post-test immediately after the sessions of group work, but rather in a second test given around four weeks after the group work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他們沒有證據支持兒童是在 group discussions 中形成新概念，因為進步沒有在 group work 後立即測驗中出現，反而在約四星期後的第二次測驗中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option A 的定位詞是 “assessed”、“understand” 和 “scientific problem”。原文對應 “pre-test”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“progress in understanding”、“motion down a slope”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“In one study, Howe and her colleagues compared the progress of children aged 8 to 12 in understanding what influences motion down a slope.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項研究中，Howe 和同事比較了 8–12 歲兒童在理解甚麼會影響物體沿斜坡向下運動方面的進步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “what influences motion down a slope” 是科學問題；“compared the progress… in understanding” 表示他們評估兒童理解上的進步。後文 pre-test 和 post-test 也確認了assessment 的存在。因此 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E答案之二：E — The children were given a total of three tests at different times."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：兒童在不同時間總共接受三次測驗。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍是 Paragraph E，因為此題限定 8–12 歲兒童。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E 的定位詞是 “three tests” 和 “different times”。原文不會直接寫 three tests，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“pre-test”"
+            },
+            {
+              "kind": "quote",
+              "text": "“post-test immediately after”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a second test given around four weeks after”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to ascertain the role of conflict in group work, they created two kinds of groups according to a pre-test…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了確定 conflict 在 group work 中的作用，他們根據 pre-test 建立兩種小組。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“progress was not actually observed in a post-test immediately after the sessions of group work, but rather in a second test given around four weeks after the group work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進步沒有在 group work 後立即的 post-test 中觀察到，反而在 group work 約四星期後的第二次測驗中出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三個測驗分別是： pre-test：分組前post-test：group work 後立即second test：約四星期後所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除B 說所有兒童都在 mixed-ability groups。原文按 similar / dissimilar views 分組，沒有說 mixed ability，也沒有說 all。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說說話最多的兒童進步最少，原文沒有談 talk most。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 teacher 幫助兒童理解科學問題，原文沒有說老師直接協助理解。Howe 的設計重點是group views 和 conflict。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Questions 22–23 答案是 A 和 E。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "discovery learning",
+      "answerKey": "discovery learning",
+      "type": "Question Analysis",
+      "prompt": "“The application of this theory gave rise to a teaching method known as 24 __________.”",
+      "translation": "這個理論的應用產生了一種稱為 ______ 的教學方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s hypothesis about how cognitive change occurs was later translated into an educational approach which is now termed ‘discovery learning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 關於 cognitive change 如何發生的假說，後來被轉化成一種教育方法，現在稱為discovery learning。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This hypothesis, originally advanced by Perret-Clermont (1980) and Doise and Mugny (1984), has been investigated in many recent studies of science teaching and learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個最初由 Perret-Clermont 以及 Doise 和 Mugny 提出的假說，已在許多近期 science teaching and learning 研究中被探討。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句已經足以定位，因為題目中的 “application of this theory” 對應原文 “Piaget’s hypothesis… translated into an educational approach”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “teaching method known as”。原文中的對應是 “educational approach which is now termed”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s hypothesis about how cognitive change occurs was later translated into an educational approach which is now termed ‘discovery learning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 關於 cognitive change 如何發生的假說，後來被轉化成一種教育方法，現在稱為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“discovery learning”。題目中的 “gave rise to a teaching method” 是對 “was later translated into an educational approach” 的改寫。答案詞就是 discovery learning。答案形式檢查discovery learning = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：discovery learning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "teacher",
+      "answerKey": "teacher",
+      "type": "Question Analysis",
+      "prompt": "“At first, this approach focused only on the relationship between individual pupils and their 25__________.”",
+      "translation": "起初，這種方法只集中於個別學生和他們的 ______ 之間的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s hypothesis about how cognitive change occurs was later translated into an educational approach which is now termed ‘discovery learning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 關於 cognitive change 如何發生的假說，後來被轉化成一種教育方法，現在稱為discovery learning。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This hypothesis, originally advanced by Perret-Clermont (1980) and Doise and Mugny (1984), has been investigated in many recent studies of science teaching and learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個最初由 Perret-Clermont 以及 Doise 和 Mugny 提出的假說，已在許多近期 science teaching and learning 研究中被研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題繼續問 discovery learning 的早期版本，所以仍然定位到 Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “At first”、“focused only” 和 “individual pupils”。原文對應 “initially”、“lone learner route”。接著要找 lone learner route 中除了 individual pupil 之外，還涉及哪個人物角色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovery learning initially took what is now considered the ‘lone learner’ route.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Discovery learning 最初採取現在被視為 “lone learner” 的路線。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The role of the teacher was to select situations that challenged the pupils’ reasoning; and the pupils’ peers had no real role in this process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "老師的角色是選擇能挑戰學生推理的情境；學生的 peers 在這個過程中沒有真正角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “relationship between individual pupils and their ______”。早期版本排除了 peers，留下的主要人際角色是 teacher。teacher 的功能是設計或選擇 challenging situations。題目把這個早期模式概括成個別學生與 teacher 的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查teacher = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "label",
+              "text": "句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“individual pupils and their teacher”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法自然，意思也配合原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：teacher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "peers",
+      "answerKey": "peers",
+      "type": "Question Analysis",
+      "prompt": "“Later, researchers such as Perret-Clermont became interested in the role that interaction with 26 __________ might also play in a pupil’s development.”",
+      "translation": "後來，Perret-Clermont 等研究者開始關注與 ______ 互動在學生發展中可能也扮演的角色。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s hypothesis about how cognitive change occurs was later translated into an educational approach which is now termed ‘discovery learning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 關於 cognitive change 如何發生的假說，後來被轉化成一種教育方法，現在稱為discovery learning。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This hypothesis, originally advanced by Perret-Clermont (1980) and Doise and Mugny (1984), has been investigated in many recent studies of science teaching and learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個最初由 Perret-Clermont 以及 Doise 和 Mugny 提出的假說，已在許多近期 science teaching and learning 研究中被探討。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題問 “Later, researchers such as Perret-Clermont”，所以目標句應在 Paragraph D 後半，尤其是 Perret-Clermont 前一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Perret-Clermont”、“interaction with” 和 “pupil’s development”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“interpersonal conflict, especially with peers” 和 “promoting cognitive change”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“However, it was subsequently proposed that interpersonal conflict, especially with peers, might play an important role in promoting cognitive change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，後來有人提出，interpersonal conflict，尤其是與 peers 之間的衝突，可能在促進 cognitive change 中扮演重要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “interaction with” 對應原文 “interpersonal conflict”；“pupil’s development” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“promoting cognitive change”。空格需要填互動對象。原文清楚說 especially with peers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "interaction with peers= interpersonal conflict, especially with peers pupil’s development= promoting cognitive change答案形式檢查peers = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：peers"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Acquiring the principles of mathematics and science.pdf",
+    "sha256": "ab796c39914eb17758807795c43e75acb461ccbf7a888f7a4ce0570da2c28ebb",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句指出學習數學和科學主要是學習思考方式，不只是記 facts。末句追問 young people 如何在成長和學校學習中改變 thinking。只看首尾句，可以先判斷本段是全文引入段：它提出 conceptual changes 這個核心概念，並用 science learning 作背景。中間很可能會用 heat 和 temperature 作例子，說明學生要改變日常直覺，才能真正理解科學概念。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說傳統教學，即直接告訴學生 modern scientists 如何思考，成效似乎不高。末句指出學生可能能重複公式，卻無法用公式背後的概念解釋觀察到的事件。只看首尾句，可以估計本段重點是「表面學懂」的問題：學生記得 definitions、formulae、terminology，但舊有觀念仍然存在。題目若問 superficial understanding 或 classroom concepts，應先看這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句介紹 Piaget 對兒童 cognitive change 的假說。末句說年幼兒童面對相反證據時，不一定放棄自己的想法，甚至可能丟掉證據、保留理論。只看首尾句，可以推測本段會講 Piaget 的核心：當學生遇到 conflict 或 contradiction，可能產生 disequilibrium，然後推動 cognitive change。本段也會提醒，矛盾證據未必自動改變兒童想法。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Piaget 對 cognitive change 的假說後來被轉化成一種教育方法，現在稱為 discovery learning。末句說 Perret-Clermont、Doise 和 Mugny 提出的同儕衝突假說，已在很多 science teaching and learning studies 中被研究。首尾合看，這段功能是講理論如何被改造成教學法，再從 lone learner 版本發展到重視 peers 的版本。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Christine Howe 和同事比較兒童在觀察相關事件後，理解幾類 science concepts 的進步。末句說進步沒有在 group work 後立即出現，反而在約四星期後的第二次測驗中出現。只看首尾句，可以估計本段是實驗證據段：Howe 用 8–12 歲兒童、斜坡運動、相似與不相似觀點小組，檢查 disagreement 是否帶來 delayed progress。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說另一項研究想調查 pair work 帶來的進步，是否可能源自 ideas 的 exchange。末句說個別post-test 評估學生對 falling objects path 的理解進步。只看首尾句，可以判斷本段是另一個實驗設計段：對象是 12–15 歲學生，主題是 falling objects，重點在 pair work、initial conceptions、exchange of ideas，以及個別測驗如何量度 conceptual progress。"
+      }
+    ]
+  }
+}

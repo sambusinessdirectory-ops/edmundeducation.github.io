@@ -1,0 +1,1687 @@
+{
+  "id": "p2-100-wheel-of-fortune",
+  "catalogueId": "p2-100",
+  "catalogueIds": [
+    "p2-100"
+  ],
+  "passage": 2,
+  "title": "Wheel of Fortune",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "C",
+    "A",
+    "F",
+    "B",
+    "C",
+    "F",
+    "G",
+    "B",
+    "E",
+    "C",
+    "A",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "the contrasting effects that new technology can have on existing business",
+      "translation": "新科技對現有企業可能造成的兩種相反效果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。這類題不是找段落總標題，而是找哪一段包含指定資訊。題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目中的 strongest clues 是 “contrasting effects”、“new technology” 和 “existing business”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New technologies always contain within them both threats and opportunities.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：新科技總是同時包含威脅和機會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The proliferation of the means of distribution results, gratifyingly, in the proliferation of dollars, pounds, pesetas and the rest to pay for it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：分發方式越來越多，令人滿意的是，也帶來更多以美元、英鎊、比塞塔等形式出現的收"
+            },
+            {
+              "kind": "paragraph",
+              "text": "入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已可猜到 D 段會講新科技的雙面性：一方面有 threats，另一方面有 opportunities 和more money。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “contrasting effects” 對應原文 “both threats and opportunities”。“existing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "business” 對應 “companies in the business” 和 “existing entertainment companies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have the potential both to make the companies in the business a great deal richer, and to sweep them away.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們既有可能令業內公司富有得多，也有可能把它們掃走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含兩個相反結果： make companies richer = 正面效果； sweep them away = 負面效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph D 包含題目要求的資訊，答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "the fact that a total transformation is going to take place in the future in the delivery of all forms of entertainment",
+      "translation": "未來所有娛樂形式的製作、放映或購買方式都會發生全面轉變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。題目控制詞是 “total transformation”、“future”、“all forms of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "entertainment”。要找一段講 digital revolution 會改變 every aspect，而不是只影響其中一種媒體。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those 500 channels eventually arrived but via the Internet and the PC rather than through television.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：那 500 個頻道最後的確出現了，但它們是透過 Internet 和 PC 出現，而非透過"
+            },
+            {
+              "kind": "paragraph",
+              "text": "television。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What nobody is sure of is how it will affect the economics of the business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有人確定的是，它會如何影響這個行業的經濟結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 C 段講 digital revolution 的實際發展和未來經濟影響。中間句會處理它改變娛樂業的範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “total transformation” 對應原文 “change every aspect”。“delivery of all forms of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "entertainment” 對應原文列出的 cartoons、films、music。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually it will change every aspect of it, from the way cartoons are made to the way films are screened to the way people buy music.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最終它會改變娛樂業的每一個方面，從卡通製作方式，到電影放映方式，再到人們購"
+            },
+            {
+              "kind": "paragraph",
+              "text": "買音樂的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “every aspect” 是定案詞。題目把原文的三個例子概括成 “all forms of entertainment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cartoons、films、music 分別代表不同娛樂形式和不同產業環節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "the confused feelings that people are known to have experienced in response to technological innovation",
+      "translation": "人們面對科技創新時，會出現混雜的情緒。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “confused feelings”、“technological innovation”。原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文可能不會說 confused，而會直接描寫兩種情緒並存。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since moving pictures were invented a century ago, a new way of distributing entertainment to consumers has emerged about once every generation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：自從一個世紀前 moving pictures 被發明以來，大約每一代都會出現一種向消費者分"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發娛樂的新方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The arrival of digital technology, which translates music, pictures and text into the zeros and ones of computer language, marks one of those periods.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：digital technology 的出現標誌着其中一個時期；這種科技把音樂、圖像和文字轉化成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "電腦語言中的 0 和 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 A 段在講娛樂分發科技的歷史循環，digital technology 是最新一輪。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “feelings” 對應原文 “fear mixed with exhilaration”。“technological innovation” 對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應 “Each such innovation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each such innovation has changed the industry irreversibly; each has been accompanied by a period of fear mixed with exhilaration.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：每一次這類創新都不可逆轉地改變了行業；每一次都伴隨着一段恐懼和興奮交雜的時"
+            },
+            {
+              "kind": "paragraph",
+              "text": "期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fear mixed with exhilaration = mixed/confused feelings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "technological innovation = each such innovation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "the fact that some companies have learnt from the mistakes of others",
+      "translation": "有些公司從其他公司的錯誤中吸取教訓。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “learnt”、“mistakes of others”。原文可能用 “sense"
+            },
+            {
+              "kind": "paragraph",
+              "text": "of history”、“saw what happened to predecessors” 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the reason why incumbents got pushed aside was that they did not see what was coming.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在位公司被推到一旁，部分原因是它們沒有看見即將到來的變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, these days, the powers in the entertainment business are no longer movie studios, or television broadcasters, or publishers; all those businesses have become part of bigger businesses still, companies that can both create content and distribute it in a range of different ways.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所以，今日娛樂業的權力核心已不再是電影公司、電視廣播商或出版社；這些業務都成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為更大型企業的一部分，這些公司既能創造內容，也能以不同方式分發內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 F 段會講公司如何被淘汰，以及後來聰明公司如何重組成更大型、更垂直整合的企業。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “learnt from the mistakes of others” 對應原文 “a sense of history” 和 “saw what"
+            },
+            {
+              "kind": "paragraph",
+              "text": "happened to those of their predecessors”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greater freedom, combined with a sense of history, prompted the smarter companies in the entertainment business to reinvent themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：更大的自由，加上歷史意識，促使娛樂業中較聰明的公司重新改造自己。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They saw what happened to those of their predecessors who were stuck with one form of distribution.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們看見了那些前輩公司發生了甚麼事：那些公司被困在單一分發形式之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來，就是公司從 predecessors 的失敗經驗中學習。題目中的 “mistakes of others” 是對 “predecessors who were stuck with one form of distribution” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "the high cost to the consumer of new ways of distributing entertainment",
+      "translation": "新的娛樂分發方式對消費者來說成本太高。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “high cost”、“consumer”、“new ways of distributing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "entertainment”。原文可能用 price / pay 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may sound familiar, because the digital revolution, and the explosion of choice that would go with it, has been heralded for some time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這聽起來可能很熟悉，因為 digital revolution 以及隨之而來的選擇爆炸，早已被宣傳"
+            },
+            {
+              "kind": "paragraph",
+              "text": "了一段時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the entertainment companies tried out the technology, it worked fine – but not at a price that people were prepared to pay.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當娛樂公司試用這項技術時，它運作良好，但價格不是人們願意支付的水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句直接出現 price 和 pay，所以 B 段是本題目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “high cost to the consumer” 對應 “not at a price that people were prepared to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pay”。“new ways of distributing entertainment” 對應 digital television / 500-channel universe。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the entertainment companies tried out the technology, it worked fine – but not at a price that people were prepared to pay.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：娛樂公司試用這項技術時，技術本身沒有問題，但價格高到人們不願意支付。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這句改寫成 “high cost to the consumer”。原文沒有直接說 “high”，但 “not prepared to pay” 說明價格對消費者來說不具接受性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "uncertainty regarding the financial impact of wider media access",
+      "translation": "媒體接觸範圍擴大後，其財務或經濟影響仍未確定。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “uncertainty”、“financial impact”、“wider media"
+            },
+            {
+              "kind": "paragraph",
+              "text": "access”。原文可能用 “nobody is sure” 和 “economics”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those 500 channels eventually arrived but via the Internet and the PC rather than through television.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：那 500 個頻道最後出現了，但途徑是 Internet 和 PC，而非 television。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What nobody is sure of is how it will affect the economics of the business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有人確定的是，它會如何影響這個行業的經濟結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經很清楚：更多媒體選擇出現了，但經濟結果未明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “uncertainty” 對應 “nobody is sure”。“financial impact” 對應 “economics of the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "business”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“What nobody is sure of is how it will affect the economics of the business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有人確定 digital revolution 會如何影響娛樂業的經濟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 nobody，表示沒有確定答案；核心是 economics，即財務／經濟影響。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wider media access” 由前文 “500 channels” 和 Internet / PC 的新分發方式提供背景。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "the fact that some companies were the victims of strict government policy",
+      "translation": "有些公司曾受嚴格政府政策影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “strict government policy”。原文可能用 regulatory"
+            },
+            {
+              "kind": "paragraph",
+              "text": "environment、laws、preventing 這些字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the reason why incumbents got pushed aside was that they did not see what was coming.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在位公司被推開的部分原因，是它們沒有看到即將發生的變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, these days, the powers in the entertainment business are no longer movie studios, or television broadcasters, or publishers; all those businesses have become part of bigger businesses still...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所以，今日娛樂業的權力核心已不再是電影公司、電視廣播商或出版社；它們已成為更"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型企業的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可估計 F 段會講舊公司失勢和新公司整合的原因。中間的法規內容正是本題答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “strict government policy” 對應原文 “a tighter regulatory environment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "government policy 的具體形式是 “laws preventing television broadcasters from owning programme companies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they also faced a tighter regulatory environment than the present one.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但它們也面對比現在更嚴格的監管環境。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America, laws preventing television broadcasters from owning programme companies were repealed earlier this decade, allowing the creation of vertically integrated businesses.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在美國，阻止電視廣播商擁有節目公司的法律在本十年較早時被廢除，這使垂直整合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業得以形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示較早的公司受法規限制，不能整合內容與分發。題目用 “victims of strict government policy” 概括這種被法規限制的情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "the fact that the digital revolution could undermine the giant entertainment companies",
+      "translation": "digital revolution 可能削弱大型娛樂公司。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “digital revolution”、“undermine”、“giant"
+            },
+            {
+              "kind": "paragraph",
+              "text": "entertainment companies”。原文可能用 latest technology、weaken、great companies。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Out of all this, seven huge entertainment companies have emerged – Time Warner, Walt Disney, Bertelsmann, Viacom, News Corp, Seagram and Sony.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在這一切之後，七間巨型娛樂公司出現了，包括 Time Warner、Walt Disney、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bertelsmann、Viacom、News Corp、Seagram 和 Sony。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains to be seen whether the latest technology will weaken those great companies, or make them stronger than ever.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最新科技到底會削弱這些大公司，還是令它們比以往更強，仍有待觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句直接講 “weaken those great companies”，與題目 “undermine the giant entertainment companies” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “undermine” 對應原文 “weaken”。“giant entertainment companies” 對應 “seven"
+            },
+            {
+              "kind": "paragraph",
+              "text": "huge entertainment companies” 和 “those great companies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains to be seen whether the latest technology will weaken those great companies, or make them stronger than ever.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最新科技會削弱這些大公司，抑或令它們更強，仍未有定論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含兩個可能結果，題目只抽出其中一個可能性：could undermine。could 表示可能，所以它沒有把未來結果說死，和原文 “remains to be seen” 一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B — Hal Varian",
+      "answerKey": "B — Hal Varian",
+      "type": "People / Companies",
+      "prompt": "Historically, new forms of distributing entertainment have alarmed those well-established in the business.",
+      "translation": "歷史上，新的娛樂分發方式曾令業內既有勢力感到警覺或害怕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。這類題要把人物或公司和文章中的觀點配對。Golden Manual"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提醒，人物配對題要先找所有人物位置，再讀人物前後的觀點句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New technologies always contain within them both threats and opportunities.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：新科技總是同時包含威脅和機會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The proliferation of the means of distribution results, gratifyingly, in the proliferation of dollars, pounds, pesetas and the rest to pay for it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：分發方式增多，令人滿意地帶來更多收入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段首尾句顯示本段講新科技對行業的威脅與機會，並回顧歷史上的恐懼反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Historically” 和 “well-established in the business” 對應原文 “Old companies"
+            },
+            {
+              "kind": "paragraph",
+              "text": "always fear new technology”。人物定位詞是 Hal Varian。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Go back far enough, points out Hal Varian, an economist at the University of California at Berkeley, and you find publishers complaining that ‘circulating libraries’ would cannibalise their sales.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：加州大學柏克萊分校經濟學家 Hal Varian 指出，只要回看得夠久，就會發現出版商曾"
+            },
+            {
+              "kind": "paragraph",
+              "text": "抱怨 circulating libraries 會侵蝕它們的銷售。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "publishers 是 established business；complaining 和 cannibalise their sales 顯示它們對新分發方式感到威脅。這正好對應題目 “have alarmed those well-established in the business”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "E — Christopher Dixon",
+      "answerKey": "E — Christopher Dixon",
+      "type": "People / Companies",
+      "prompt": "The merger of entertainment companies follows a pattern evident in other industries.",
+      "translation": "娛樂公司合併或集中化，遵循了其他行業曾出現過的模式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “pattern”、“other industries”。這題很可能在有人直接"
+            },
+            {
+              "kind": "paragraph",
+              "text": "評論 entertainment business 的地方。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Out of all this, seven huge entertainment companies have emerged – Time Warner, Walt Disney, Bertelsmann, Viacom, News Corp, Seagram and Sony.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在這一切之後，七間巨型娛樂公司出現了，包括 Time Warner、Walt Disney、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bertelsmann、Viacom、News Corp、Seagram 和 Sony。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains to be seen whether the latest technology will weaken those great companies, or make them stronger than ever.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最新科技到底會削弱這些大公司，還是令它們更強，仍有待觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段講大型娛樂公司的出現與未來。題目說 merger pattern in other industries，應找本段中評論者的話。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人物定位詞是 Christopher Dixon。原文還有 “oil and automotive businesses”，正好對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "other industries。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘What you are seeing,’ says Christopher Dixon, managing director of media research at PaineWebber, a stockbroker, ‘is the creation of a global oligopoly. It happened to the oil and automotive businesses earlier this century; now it is happening to the entertainment business.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：PaineWebber 媒體研究董事總經理 Christopher Dixon 說：「你正在看到的是一個全球"
+            },
+            {
+              "kind": "paragraph",
+              "text": "寡頭壟斷的形成。這在本世紀較早時已發生於石油和汽車行業；現在它正在娛樂業發生。」global oligopoly = 少數巨頭控制市場； oil and automotive businesses = other industries； now entertainment business = same pattern in entertainment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — MGM",
+      "answerKey": "C — MGM",
+      "type": "People / Companies",
+      "prompt": "Major entertainment bodies that have remained independent have lost their influence.",
+      "translation": "保持獨立、沒有成為巨型集團一部分的主要娛樂公司，已失去影響力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “remained independent”、“lost their influence”。原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能用 “not part of one of the giants” 和 “reduced to a whisper”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All the same, there is something in the old companies’ fears.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：儘管如此，舊公司的恐懼也有一定道理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And RCA, once the most important broadcasting company in the world, is now a recording label belonging to Bertelsmann, a large German entertainment company.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：RCA 曾經是世界上最重要的廣播公司，如今只是德國大型娛樂公司 Bertelsmann 旗"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下的一個唱片品牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 E 段講舊公司地位下降和權力轉移。MGM 的例子藏在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 是 MGM。掃描 Paragraph E 找 MGM，看到 “has been reduced to a whisper"
+            },
+            {
+              "kind": "paragraph",
+              "text": "because it is not part of one of the giants”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“MGM, once the roaring lion of Hollywood, has been reduced to a whisper because it is not part of one of the giants.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：MGM 曾是 Hollywood 的咆哮雄獅，如今卻被削弱到只剩低語般的影響力，原因是它"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有成為其中一個巨型集團的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "roaring lion → whisper 是強烈對比，表示影響力大幅下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "not part of one of the giants = remained outside / independent from giant groups。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lost their influence = reduced to a whisper。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — John Malone",
+      "answerKey": "A — John Malone",
+      "type": "People / Companies",
+      "prompt": "News of the most recent technological development was published some years ago.",
+      "translation": "最新科技發展的消息在幾年前已被公開提出或宣傳。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “some years ago”、“most recent technological"
+            },
+            {
+              "kind": "paragraph",
+              "text": "development”。原文可能有年份和人物名。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may sound familiar, because the digital revolution, and the explosion of choice that would go with it, has been heralded for some time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這聽起來可能很熟悉，因為 digital revolution 以及隨之而來的選擇爆炸，早已被宣傳"
+            },
+            {
+              "kind": "paragraph",
+              "text": "了一段時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the entertainment companies tried out the technology, it worked fine – but not at a price that people were prepared to pay.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：娛樂公司試用這項技術時，它運作良好，但價格不是人們願意支付的水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段首句已說 digital revolution 已被 heralded for some time，即早已被預告或宣傳。人名在下一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A 是 John Malone。掃描後找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1992, John Malone, chief executive of TCI, an American cable giant, welcomed the‘500-channel universe’.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1992, John Malone, chief executive of TCI, an American cable giant, welcomed the‘500-channel universe’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：1992 年，美國大型有線電視公司 TCI 的行政總裁 John Malone 歡迎 “500-channel"
+            },
+            {
+              "kind": "paragraph",
+              "text": "universe” 的到來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明早在 1992 年，與 digital revolution 相關的多頻道願景已被公開提出。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“published some years ago” 對應 “has been heralded for some time” 和 1992 這個年份。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "D — by drawing comparisons with other periods of technological innovation.",
+      "answerKey": "D — by drawing comparisons with other periods of technological innovation.",
+      "type": "Multiple Choice",
+      "prompt": "Question 26",
+      "translation": "作者如何表達她對 digital revolution 的看法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：How does the writer put across her views on the digital revolution?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。這題問寫作手法，不是問某一個細節。要看全文如何組織論點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice 的核心是選最完整、最精確受原文支持的一項，不能只靠單字重現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraphs A、D、E、F、G"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since moving pictures were invented a century ago, a new way of distributing entertainment to consumers has emerged about once every generation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：自從一個世紀前 moving pictures 被發明以來，大約每一代都會出現一種向消費者分"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發娛樂的新方式。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains to be seen whether the latest technology will weaken those great companies, or make them stronger than ever.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最新科技到底會削弱這些大公司，還是令它們更強，仍有待觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "從開頭到結尾，作者一直把 digital revolution 放入娛樂分發科技的歷史循環中觀察。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “How does the writer put across her views” 要找文章論證方式。全文出現多個歷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "史比較：moving pictures、television、VCR、circulating libraries、oil and automotive businesses。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hollywood was hostile to television; television was terrified by the VCR.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Hollywood 曾敵視 television；television 曾害怕 VCR。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Go back far enough ... publishers complaining that ‘circulating libraries’ would cannibalise their sales.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：再往回看，出版商曾抱怨 circulating libraries 會侵蝕銷售。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者不是單純定義 digital revolution，也不是只分析一種媒體；她透過歷史上多次技術創新和行業反應作比較，說明舊公司如何害怕新科技、如何被改變、如何重新整合。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說 examining the forms of media affected。文章的確提到 cartoons、films、music，但這只是例子，未能概括整體寫法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 analysing how companies reacted。這也部分正確，因為文章講 old companies fear new technology，但全文更大的方法是歷史比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 giving a personal definition。文章沒有主要用定義方式展開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最完整：作者一直比較不同 technological innovation periods，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "C — Entertainment companies should adapt to technological innovation.",
+      "answerKey": "C — Entertainment companies should adapt to technological innovation.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "哪一項最能總結作者在全文中的觀點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Which of the following best summarises the writer’s views in Reading Passage 2?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。這題問全篇主旨，需要綜合各段，不可只用一句局部證據作答。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全文結構"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 開頭把 digital revolution 放入一百年娛樂分發變革史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 說新科技有 threats and opportunities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 說舊公司恐懼有道理，因為新科技會改變它們的角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 說 smarter companies reinvent themselves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 說七大娛樂公司已形成 global oligopoly，但最新科技會削弱或強化它們仍未可知。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “best summarises” 表示要找作者整體立場。全篇最接近總結的概念是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F：smarter companies reinvent themselves，以及 Paragraph G：最新科技結果未定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greater freedom, combined with a sense of history, prompted the smarter companies in the entertainment business to reinvent themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：更大的自由，加上歷史意識，促使娛樂業中較聰明的公司重新改造自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句表達出文章很重要的教訓：公司要從歷史吸取經驗，因應新分發方式重新定位。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They saw what happened to those of their predecessors who were stuck with one form of distribution.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們看見了那些被困在單一分發形式的前輩公司發生了甚麼事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "stuck with one form of distribution 是負面例子；reinvent themselves 是正面策略。這正好支援 C： Entertainment companies should adapt to technological innovation。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說 public should cease resisting new technology。文章焦點在 entertainment companies，不在public。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 digital technology will increase profits。Paragraph D 說過往新科技令現有娛樂公司賺更多，但 Paragraph C 和 G 都保留不確定性，所以 B 太絕對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 最能概括全文：公司要適應技術創新，否則角色和權力會被改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 technological change only benefits big entertainment companies。only 太絕對，而且 G 段說大公司也可能被削弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Wheel of Fortune.pdf",
+    "sha256": "575231ec25f3061c2add88695d3f4cb03fb78bb87ae83cfcbea90b554b86ffd4",
+    "pageCount": 16
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說，自 moving pictures 發明以來，大約每一代都會出現新的娛樂分發方式；末句指出digital technology 把音樂、圖像和文字轉成電腦語言中的 zeros and ones，標誌着又一個轉變時期。只看首尾句，可以先估計本段功能是建立大背景：娛樂業一再被新科技改變，而每次創新都帶來既興奮又恐懼的反應。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說 digital revolution 和隨之而來的選擇爆炸，其實已被宣傳了一段時間；末句說娛樂公司試用相關技術時，技術本身可行，但價格不是消費者願意支付的水平。首尾句顯示本段重點是早期 digital television 願景與現實落差，尤其是 1992 年 “500-channel universe” 的期待，以及新分發方式在成本上的問題。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說那 500 個頻道最後的確出現了，但透過 Internet 和 PC，而非 television；末句說沒有人確定 digital revolution 會如何影響娛樂業的經濟結構。只看首尾句，可以判斷本段主題是digital revolution 的真正發展方向和未來影響：它會改變 cartoons、films、music 等所有環節，但財務後果仍然不明朗。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說新科技總是同時包含 threats and opportunities；末句說分發方式增多，結果令人滿意地帶來更多收入。首尾句顯示本段是從歷史角度分析新科技的雙重效果：它可能令現有公司更富有，也可能把它們淘汰。中間用 Hollywood、television、VCR、circulating libraries 等例子說明舊公司經常害怕新科技。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句承認 old companies 的恐懼有一定道理；末句說 RCA 這個昔日重要 broadcasting company，如今只是 Bertelsmann 旗下的 recording label。只看首尾句，可以知道本段重點是新科技未必會消滅舊公司，但會改變它們的角色和權力。中間列出 film、radio、broadcasters、Paramount、Universal、MGM、RCA 等例子，說明老品牌逐漸失去實權。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 incumbent companies 被推開的部分原因，是它們沒有看見即將到來的變化；末句說今日娛樂業的權力核心已不再是單一 movie studios、television broadcasters 或 publishers，而是能創造內容並以多種方式分發內容的大企業。首尾句顯示本段主題是公司如何因歷史教訓和較寬鬆法規而重組、整合、重新定位。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說在上述變化之後，七間巨型 entertainment companies 出現；末句說最新科技到底會削弱這些大公司，還是令它們比以前更強，仍有待觀察。首尾句顯示本段總結娛樂業變成 global oligopoly 的格局。中間列出 Time Warner、Disney、Bertelsmann、Viacom、News Corp、Seagram、Sony，並用 oil 和 automotive industries 作比較。"
+      }
+    ]
+  }
+}

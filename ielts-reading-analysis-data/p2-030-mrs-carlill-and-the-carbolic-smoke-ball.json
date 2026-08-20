@@ -1,0 +1,1734 @@
+{
+  "id": "p2-030-mrs-carlill-and-the-carbolic-smoke-ball",
+  "catalogueId": "p2-030",
+  "catalogueIds": [
+    "p2-030"
+  ],
+  "passage": 2,
+  "title": "Mrs. Carlill and the Carbolic Smoke Ball",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "gauze",
+    "nozzle",
+    "powder",
+    "rubber ball",
+    "C",
+    "A",
+    "D",
+    "F",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Cities, rather than rural areas, were badly affected by the influenza pandemic.”",
+      "translation": "城市比鄉郊地區更嚴重地受到流感大流行影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有一個比較結構：“cities, rather than rural areas”。所以我們不只要找 cities 是否受影響，也要找文章有沒有把城市和 rural areas 作比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whole cities came to a standstill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個城市陷入停頓。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a picture repeated across the continent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種景象在歐洲大陸各地反覆出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 很明顯在講城市受疫情衝擊。首句的 “Whole cities” 直接帶我們去找city impact；最後一句把這種情況擴展到歐洲大陸。可是目前只看到 cities，未看到 rural areas，因此需要細讀是否有比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Cities” 和 “rural areas”。Paragraph 4 有 “cities”、London、postal service、trains、banks、courts、London cemetery。Paragraph 5 也有 Paris、Berlin、Vienna。這些都屬於城市或都市例子。掃描全文時，找不到 countryside、rural、villages、farms 等鄉郊對照詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whole cities came to a standstill. London was especially hard-hit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個城市陷入停頓。倫敦尤其受到嚴重打擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句證明城市嚴重受影響。後文的 Paris、Berlin、Vienna 也補充城市死亡人數上升。可是題目要求的命題更強：城市受害，鄉郊地區相對較少或沒有那麼嚴重。文章沒有提供 rural areas 的資料，也沒有比較城市與鄉村的受害程度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文支援： cities badly affected= “Whole cities came to a standstill”= “London was especially hard-hit”題目額外要求： rather than rural areas= 城市與鄉郊之間的比較這個比較關係在文章中缺失。因為原文沒有說 rural areas 的情況，所以不能判 FALSE；同時，只有城市受害證據，也不足以判 TRUE。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“During the pandemic, people did not understand the link between microorganisms and disease.”",
+      "translation": "在大流行期間，人們不了解 microorganisms 和 disease 之間的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題重點在 “did not understand the link”。如果原文說微生物致病理論已在發展或得到支持，題目就與原文方向相衝。要小心：文章可能說人們尚未找出 flu 的具體 organism，這不等於完全不理解微生物與疾病的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By now, the theory that micro-organisms caused disease was gaining ground, but no one had identified an organism responsible for flu (and wouldn’t until 1933).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到這時，micro-organisms caused disease 的理論正在逐漸得到支持，但仍沒有人找出導致 flu的 organism，而且要到 1933 年才會找到。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the absence of a germ, many clung to the old idea of bad airs, or miasmas, possibly stirred by some great physical force – earthquakes, perhaps, or electrical phenomena in the upper atmosphere, even a passing comet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在缺乏病原體證據的情況下，許多人仍抓住 bad airs 或 miasmas 的舊觀念，甚至認為可能由地震、高空電氣現象或彗星等巨大物理力量攪動而成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接處理 microorganisms 和 disease；末句則說 flu 的具體成因仍令人困惑，很多人仍相信舊理論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “microorganisms” 和 “disease”。原文使用 “micro-organisms caused disease”。這幾乎是原字重現。接著要看動詞：題目說 did not understand；原文說 theory was gaining ground。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By now, the theory that micro-organisms caused disease was gaining ground…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到這時，微生物會導致疾病的理論正在逐漸得到支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“gaining ground” 表示一種觀點開始更被接受、支持度增加。這和題目 “people did not understand the link” 方向不一致。更精準地說，當時人們對 flu 的具體病原體仍未清楚，但微生物可引起疾病這個大方向已經逐漸站穩。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "did not understand the link= 完全不了解 microorganisms 和 disease 的關係原文： the theory that micro-organisms caused disease was gaining ground= 微生物致病理論正在獲得支持題目把「未找出 flu 的特定病原體」擴大成「不了解微生物與疾病的關係」。原文提供了相反方向的資料，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“People once believed that influenza was caused by miasmas.”",
+      "translation": "人們曾經相信 influenza 是由 miasmas 造成的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 old belief。題目用 “once believed”，所以只要文章說 many people 曾相信 bad airs /miasmas 與 flu 有關，便可成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By now, the theory that micro-organisms caused disease was gaining ground, but no one had identified an organism responsible for flu (and wouldn’t until 1933).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到這時，微生物導致疾病的理論正在逐漸得到支持，但仍沒有人找出導致 flu 的 organism，而且要到 1933 年才會找到。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the absence of a germ, many clung to the old idea of bad airs, or miasmas, possibly stirred by some great physical force – earthquakes, perhaps, or electrical phenomena in the upper atmosphere, even a passing comet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在缺乏病原體證據的情況下，許多人仍抓住 bad airs 或 miasmas 的舊觀念，甚至認為可能由地震、高空電氣現象或彗星等巨大物理力量攪動而成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都圍繞 flu cause。第一句說未找到 flu organism；最後一句說很多人仍相信 miasmas。這與題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “miasmas”。這是專門詞，掃描時很容易定位。原文直接有 “bad airs, or miasmas”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the absence of a germ, many clung to the old idea of bad airs, or miasmas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在缺乏病原體證據的情況下，許多人仍堅持 bad airs，也就是 miasmas 的舊觀念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “many”，核心動詞是 “clung to”，表示堅持某種舊信念。前文背景是 no organism responsible for flu identified，所以這個 old idea 用來解釋當時人們對 flu 的成因理解。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "People once believed= many clung to the old idea influenza was caused by miasmas= in the absence of a germ, many clung to bad airs / miasmas題目沒有說 all people，只說 people 一般曾有這種 belief。原文 “many” 已足夠支持。答案是TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Treatments prescribed for influenza often contained harmful ingredients.”",
+      "translation": "醫生為 influenza 開出的治療方法經常含有有害成分。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “often” 和 “harmful ingredients”。文章確實列出一些治療或藥物，但要選 TRUE，原文需要說這些成分 harmful，並且通常／經常如此。不能用現代常識自行判斷 heroin 或大量alcohol 有害。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10–11 Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doctors advised people to eat well, avoid ‘unnecessary assemblies’, and if they were really worried, to stuff cotton wool up their nostrils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫生建議人們吃得好、避免「不必要集會」，如果真的很擔心，便把 cotton wool 塞進鼻孔。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 11 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some doctors gave drugs to ease symptoms – quinine for fever, salicin for headache, heroin for an ‘incessant cough’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些醫生給病人藥物來緩解症狀，例如用 quinine 治 fever、salicin 治 headache、heroin 治不停咳嗽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都講 treatment，所以是目標範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Treatments prescribed” 和 “harmful ingredients”。原文有 “Doctors advised”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prescriptions”、 “Some doctors gave drugs”。可是 harmful、dangerous、poisonous、damaging等詞沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Some doctors gave drugs to ease symptoms – quinine for fever, salicin for headache, heroin for an ‘incessant cough’. But nothing in the pharmacy remotely resembled a cure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些醫生給藥來緩解症狀，例如用 quinine 退燒、salicin 治頭痛、heroin 治「不停咳嗽」。可是藥房裡沒有任何東西接近真正的 cure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說藥物用來 ease symptoms，並補充它們不是 cure。原文沒有評價這些 ingredients harmful，也沒有說 treatments often contained harmful ingredients。Paragraph 10 的 alcohol prescriptions 也帶有諷刺效果，但文章焦點在無有效療法和醫療建議荒誕，沒有明確作出harmful 這個判斷。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： quinine, salicin, heroin, alcohol symptom relief nothing resembled a cure原文缺少： harmful ingredients often harmful medical harm or side effects因此答案是 NOT GIVEN。這題最容易出現常識補充，但 IELTS Reading 要回到文章證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "gauze",
+      "answerKey": "gauze",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "此空格指向 smoke ball 噴嘴外面覆蓋的材料。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型：Diagram Label Completion字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbolic smoke ball was a hollow rubber ball, 5 centimetres across, with a nozzle covered by gauze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "carbolic smoke ball 是一個中空的 rubber ball，直徑 5 cm，帶有一個由 gauze 覆蓋的 nozzle。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 1891, the figure skyrocketed to 1,500.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1891 年 1 月，這個數字飆升至 1,500。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 12 先描述 smoke ball 的構造，再講銷量上升。Diagram label 題最常來自這種結構描述段，尤其第一句已經列出主要部件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為你貼出的 diagram 未顯示，我按同題組 diagram 的箭嘴順序處理。Q18 指向 nozzle 外層覆蓋物。掃描 Paragraph 12，可直接找到 “with a nozzle covered by gauze”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbolic smoke ball was a hollow rubber ball, 5 centimetres across, with a nozzle covered by gauze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "carbolic smoke ball 是一個中空橡膠球，直徑 5 cm，並有一個由紗布覆蓋的噴嘴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“covered by gauze” 說明 gauze 是覆蓋在 nozzle 上的材料。若圖中箭嘴指向噴嘴表面的網狀覆蓋物，答案就是 gauze。答案形式檢查： gauze = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "nozzle",
+      "answerKey": "nozzle",
+      "type": "Question Analysis",
+      "prompt": "Question 19",
+      "translation": "此空格指向 smoke ball 的噴嘴。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型：Diagram Label Completion字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbolic smoke ball was a hollow rubber ball, 5 centimetres across, with a nozzle covered by gauze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "carbolic smoke ball 是一個中空橡膠球，直徑 5 cm，帶有一個由 gauze 覆蓋的 nozzle。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 1891, the figure skyrocketed to 1,500.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1891 年 1 月，這個數字飆升至 1,500。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段第一句同時給出 rubber ball、nozzle、gauze 三個圖示部件，因此 Q19 仍在同一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Diagram 中若箭嘴指向球體伸出的出口部件，而不是外層紗布，便要找物件本身名稱。原文中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“with a nozzle covered by gauze” 表示該部件是 nozzle，外面覆蓋 gauze。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“with a nozzle covered by gauze”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "帶有一個由紗布覆蓋的噴嘴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的主部件是 nozzle，gauze 是覆蓋材料。題目若指向凸出的噴口，答案應填 nozzle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： nozzle = 1 word，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "powder",
+      "answerKey": "powder",
+      "type": "Question Analysis",
+      "prompt": "Question 20",
+      "translation": "此空格指向 smoke ball 內部的粉末。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型：Diagram Label Completion字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbolic smoke ball was a hollow rubber ball, 5 centimetres across, with a nozzle covered by gauze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "carbolic smoke ball 是一個中空橡膠球，直徑 5 cm，帶有一個由 gauze 覆蓋的 nozzle。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 1891, the figure skyrocketed to 1,500.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1891 年 1 月，這個數字飆升至 1,500。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句描述外部結構；下一句自然會補充內部裝了甚麼，所以 diagram 裡若箭嘴指向球內內容物，就要讀 Paragraph 12 中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目圖若指向 ball inside，掃描時要找 inside、within、contained 等詞。Paragraph 12 中有"
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside was a powder treated with carbolic acid, or phenol.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside was a powder treated with carbolic acid, or phenol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "裡面是一種經 carbolic acid，即 phenol，處理過的粉末。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “Inside” 是位置提示；真正被標示的物件是 powder。carbolic acid / phenol 是處理粉末的化學物，不一定是 diagram 標示的部件名稱。若圖中箭嘴指向球內填充物，答案是 powder。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： powder = 1 word，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "rubber ball",
+      "answerKey": "rubber ball",
+      "type": "Question Analysis",
+      "prompt": "Question 21",
+      "translation": "此空格指向 carbolic smoke ball 的球體本身。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型：Diagram Label Completion字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbolic smoke ball was a hollow rubber ball, 5 centimetres across, with a nozzle covered by gauze.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "carbolic smoke ball 是一個中空的 rubber ball，直徑 5 cm，帶有一個由 gauze 覆蓋的 nozzle。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 1891, the figure skyrocketed to 1,500.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1891 年 1 月，這個數字飆升至 1,500。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 12 第一個名詞短語 “a hollow rubber ball” 就是整個產品的主體。Diagram 若指向圓形球體外殼，答案應取這個詞組的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若箭嘴指向整個圓球或外殼，不應填 smoke ball，因為原文的結構描述更精準地說它是 “a hollow rubber ball”。題目字數限制為 NO MORE THAN TWO WORDS，rubber ball 正好兩字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“a hollow rubber ball, 5 centimetres across”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個中空橡膠球，直徑 5 cm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hollow” 是形容詞，說明球體中空；“rubber ball” 是物件本體名稱。Diagram label 通常要填物件，不一定需要保留所有形容詞。答案填 rubber ball 最穩。答案形式檢查： rubber ball = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — Began legal proceedings",
+      "answerKey": "C — Began legal proceedings",
+      "type": "Question Analysis",
+      "prompt": "Question 22",
+      "translation": "Mrs Carlill 對應哪一項行為？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Mrs. Carlill"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要找 Mrs Carlill 自己做了甚麼。題目中有六個 statements，Mrs Carlill最可能對應法律行動，因為她是案件原告。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 16第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no reply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司沒有回覆。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A vendor who made a promise ‘must not be surprised if occasionally he is held to his promise’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作出承諾的賣方，如果偶爾被要求履行承諾，不應感到驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 16 是投訴失敗後進入訴訟的段落。第一句說公司不回覆；末句是法官判斷。Mrs Carlill 的行動應該在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mrs. Carlill”。掃描 Paragraph 16，可找到 “Louisa recovered and sued.” 這句非常短，但很關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Louisa recovered and sued.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Louisa 康復後提出訴訟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sued” 就是開始法律程序、入稟控告。選項 C “Began legal proceedings” 是法律語言的概括。這句的主語是 Louisa，即 Mrs Carlill，所以答案是 C。錯項邊界A “Sent a complaint that received no reply” 看似和 Carlill 家有關，但實際寫信的是她丈夫。 B “Broke the contract” 是公司行為。 F “Treated the advertisement as a type of contract” 是上訴法院／Lord Justice Bowen 所在判決方向。所以 Mrs Carlill 最準確對應 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — Sent a complaint that received no reply",
+      "answerKey": "A — Sent a complaint that received no reply",
+      "type": "Question Analysis",
+      "prompt": "Question 23",
+      "translation": "Mrs Carlill 的丈夫對應哪一項行為？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Mrs. Carlill’s husband"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 husband 的具體行動。最強定位詞是 “husband”，文章只在索償段落明確提到他。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 15–16 Paragraph 15 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 20 January, Louisa’s husband wrote to the Carbolic Smoke Ball Company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1 月 20 日，Louisa 的丈夫寫信給 Carbolic Smoke Ball Company。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 16 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no reply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司沒有回覆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，已經能看到：丈夫寫信，公司沒有回覆。這正好對應選項 A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mrs. Carlill’s husband”。原文直接是 “Louisa’s husband wrote”。接著要找 letter的內容和公司反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 20 January, Louisa’s husband wrote to the Carbolic Smoke Ball Company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1 月 20 日，Louisa 的丈夫寫信給 Carbolic Smoke Ball Company。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“His wife, he wrote, had seen their advert and bought a smoke ball on the strength of it. She had followed the instructions to the letter, and yet now – as their doctor could confirm – she had flu.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在信中寫道，他的妻子看見公司的廣告，並因相信該廣告而買了 smoke ball。她完全依照指示使用，可是現在患上 flu，醫生可以證明。"
+            },
+            {
+              "kind": "label",
+              "text": "下一段第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no reply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司沒有回覆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句建立完整鏈條：husband wrote → letter complained that advert promise failed → company did not reply。選項 A “Sent a complaint that received no reply” 完整概括這個行動，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "D — Described the intended audience for advertisements",
+      "answerKey": "D — Described the intended audience for advertisements",
+      "type": "Question Analysis",
+      "prompt": "Question 24",
+      "translation": "Judge Hawkins 對應哪一項說法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Judge Hawkins"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要找 Judge Hawkins 的觀點或判詞。定位詞 “Judge Hawkins” 只出現在 Paragraph 16。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 16第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no reply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司沒有回覆。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A vendor who made a promise ‘must not be surprised if occasionally he is held to his promise’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作出承諾的賣方，如果偶爾被要求履行承諾，不應感到驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 16 是第一審判決段。Hawkins 的角色是判 Mrs Carlill 勝訴，並回應公司對廣告的辯解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Judge Hawkins”。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In June, Mr. Justice Hawkins found in Mrs. Carlill’s favour.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後要看他說了甚麼，尤其是 adverts 的 audience。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Judge Hawkins pointed out that adverts were not aimed at the wise and thoughtful, but at the credulous and weak.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Judge Hawkins 指出，廣告的目標受眾並非 wise and thoughtful；它面向 credulous and weak，即較容易相信、較脆弱的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確描述 adverts were aimed at whom，也就是廣告的 intended audience。選項 D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Described the intended audience for advertisements” 完全對應這句。錯項邊界E 說 “Claimed that most advertisements were fraudulent”，原文沒有說 Hawkins 指控大部分廣告欺詐。Hawkins 的重點在 adverts 的受眾和承諾效力。 F 屬於上訴法院最後處理 advert as contract 的方向，更適合 Lord Justice Bowen 所在段落。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "F — Treated the advertisement as a type of contract",
+      "answerKey": "F — Treated the advertisement as a type of contract",
+      "type": "Question Analysis",
+      "prompt": "Question 25",
+      "translation": "Lord Justice Bowen 對應哪一項說法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Lord Justice Bowen"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Lord Justice Bowen 的判決立場。定位詞非常強，因為人名只在上訴法院段落出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 18第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were times, the judges decided, when a contract could be one-sided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法官們認為，有些時候 contract 可以是 one-sided。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It seems to me that if a person chooses to make extravagant promises of this kind, he probably does so because it pays him to make them, and, if he has made them, the extravagance of the promises is no reason in law why he should not be bound by them,’ pronounced Lord Justice Bowen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lord Justice Bowen 宣告：如果一個人選擇作出這類誇張承諾，他大概是因為這樣做對他有利；既然他作出了承諾，承諾誇張在法律上也不能成為不受約束的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已提出 one-sided contract；末句是 Bowen 的原話，說 extravagant promises can bind a person。這就是廣告可形成合約責任的核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人物定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Lord Justice Bowen”。找到他的 quote 後，要回看前文，因為 quote 中的 “promises”指廣告中的 reward promise。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The advert had made a very specific offer to purchasers: protection from flu or £100. By using the smoke ball as instructed, Mrs. Carlill had accepted that offer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該廣告向購買者作出一個非常具體的 offer：要麼保護你免受 flu，要麼支付 £100。Mrs Carlill 按指示使用 smoke ball，便接受了這個 offer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著 Bowen 的 quote 說，作出誇張承諾者仍可被法律約束。這表示法院把廣告中的 promise 視為可形成 contract 的 offer。選項 F “Treated the advertisement as a type of contract” 正好概括這段上訴法院推理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項邊界B “Broke the contract made with the Carbolic Smoke Ball Company” 主體不對，破壞承諾的是公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 是 Hawkins 對廣告受眾的評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 抓到 Bowen 段落的法律重點：advert constituted a contract。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — It established the validity of a unilateral contract.",
+      "answerKey": "B — It established the validity of a unilateral contract.",
+      "type": "Question Analysis",
+      "prompt": "“Why is Mrs Carlill’s case still frequently cited in court?”",
+      "translation": "為甚麼 Mrs Carlill 的案件至今仍經常在法庭上被引用？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問案件至今 frequently cited 的原因，答案通常在結尾總結段。要找法律原則，而非只找故事趣味或消費者勝訴。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 19第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Louisa got her £100.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Louisa 得到了她的 £100。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The case established the principle of the unilateral contract and is frequently cited today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這宗案件確立了 unilateral contract 的原則，直到今天仍經常被引用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 19 是結論段。第一句完成故事結果；最後一句直接說法律意義。題目問why cited today，所以最後一句就是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “frequently cited”。原文最後一句完全重現 “frequently cited today”。定位後要讀它前面的原因：“established the principle of the unilateral contract”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The case established the principle of the unilateral contract and is frequently cited today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這宗案件確立了 unilateral contract 的原則，因此直到今天仍經常被引用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unilateral contract” 指一方作出 offer，另一方透過完成指定行為來接受 offer 的合約形式。Carlill按指示使用 smoke ball，便接受了公司廣告中的 offer。這就是案件的經典法律價值。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “It proved the untrustworthiness of advertisements.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章確實顯示公司廣告誇張，但案件被引用的原因是合約法原則，非廣告不可信本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “It established the validity of a unilateral contract.”正確。這直接對應 “established the principle of the unilateral contract”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It explained the nature of a contract.”太籠統。案件處理 contract 的一種特殊形式，即 unilateral contract。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It defended the rights of consumers.”這可以是故事效果之一，但原文結尾明確給出的法律原因是 unilateral contract 原則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Mrs. Carlill and the Carbolic Smoke Ball.pdf",
+    "sha256": "01680a3382c4736be5bdd369a7c009bcb64250eb55ae632f77cee7b30290bd62",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句交代 1892 年 1 月 14 日，Queen Victoria 的孫兒 Prince Albert Victor 死於流感。末句說Albert 後來只成為歷史腳註。只看首尾句，可以估計本段用王室死亡事件引入 Russian flu pandemic 的嚴重性，同時暗示個人死亡未必帶來長久歷史記憶。這為後面 Mrs Carlill 因一場小額索償反而留名形成對照。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說三天後，London housewife Louisa Carlill 也感染流感。末句說她康復、索取 £100，並引發一連串令她留名的事件。只看首尾句，本段把故事焦點由王室轉向普通市民。中間會說她使用carbolic smoke ball 作預防，且相信公司廣告的保證，所以後文大概會進入廣告承諾、索償和法律案件。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說事情開始於 1889 年春天，最初的流感疫情報告來自 Russia。末句說疾病在之後四年每年一波，而且一波比一波嚴重。只看首尾句，本段是 pandemic 背景段，交代 Russian flu 如何從最初報告發展成真正全球性流行病。它重點在時間線和疫情反覆惡化，為後文社會恐慌和藥品廣告提供背景。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說整個城市陷入停頓。末句說同樣畫面在歐洲大陸反覆出現。只看首尾句，可以估計本段負責描寫疫情對城市生活的衝擊。中間會列舉 London 的郵政、火車、銀行、法院和墓地情況，證明疫情不只影響個人健康，也使公共系統和日常生活接近癱瘓。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說病患和死亡的準確數字很少，但 Paris、Berlin 和 Vienna 都報告死亡人數大增。末句說這次流感也大幅襲擊上流階層、富人名人、年輕和健康者。只看首尾句，本段大概講資料不足但死亡激增明顯，而且這次疫情打破一般 epidemics 主要殺害弱勢群體的印象，因此新聞和公眾反應會更強烈。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說讀報大眾每天都看到 celebrity victims 的消息。末句說貴族、政客、詩人、歌劇歌手、主教和樞機主教都逃不過 Russian flu。只看首尾句，本段延續上一段「名人受害」的主題，強調流感入侵歐洲王室和社會精英圈。這會解釋為何公眾恐慌迅速升高，也為專利藥商機鋪路。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說公眾越來越害怕。末句說報章的歇斯底里報道暴露了一個可怕事實。只看首尾句，本段是轉折橋段：它承接媒體放大恐慌，準備引出真正令人害怕的核心原因。這個原因不單是死亡人數，還包括當時醫學界面對流感時缺乏有效答案。"
+      },
+      {
+        "number": "8",
+        "summary": "首句直接說醫學界對這種疾病沒有答案。末句說沒有人能在任何事情上達成一致。只看首尾句，本段聚焦 medical uncertainty。文章會說流感成因和傳播方式仍是 mystery，醫生無法統一解釋。這段很可能與題目中 microorganism、disease、miasmas、treatments 等判斷題有關。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說到那時，micro-organisms caused disease 的理論正在 gaining ground。末句說在缺乏流感病原體的情況下，很多人仍相信 bad airs 或 miasmas，甚至把原因歸於地震、高空電氣現象或彗星。只看首尾句，本段處理病因理論：細菌／微生物理論正在興起，但 influenza 本身仍未被確認病原。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說醫生建議人們吃得好、避免不必要集會，十分擔心者可把 cotton wool 塞進鼻孔。末句說三天內巴黎街上被抓的 1,500 名醉漢中，有 1,200 人聲稱自己是在遵醫囑。只看首尾句，本段以諷刺語氣列出預防和治療建議，尤其是 alcohol prescriptions。它反映當時醫療建議混亂，甚至帶有荒誕效果。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說有些醫生用藥物緩解症狀，例如 quinine、salicin 和 heroin。末句說最成功的其中一家公司是 Carbolic Smoke Ball Company。只看首尾句，本段由醫生的 symptomatic treatment 轉向民眾另尋幫助。中間會說藥房裡沒有真正 cure，於是 patent medicines 供應者透過誇張廣告爭奪消費者。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說 carbolic smoke ball 是一個中空 rubber ball，直徑 5 cm，帶有由 gauze 覆蓋的 nozzle。末句說 1891 年 1 月銷量暴增至 1,500。只看首尾句，本段會詳細介紹 smoke ball 的構造、用法和商業成功。這是 Questions 18–21 diagram label 的核心段落，因為 diagram 通常會標出球體、噴嘴、紗布和內部粉末。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說 Carbolic Smoke Ball Company 急於利用公眾恐慌，提出越來越誇張的聲稱。末句引用廣告說 £1,000 已存入銀行，以示公司誠意。只看首尾句，本段是案件的關鍵廣告段：公司不只聲稱可治療多種病，還承諾任何按指示使用後仍染病者可獲 £100。這個金錢保證後來成為合約爭議核心。"
+      },
+      {
+        "number": "14",
+        "summary": "首句說 Mrs Carlill 匆忙去買 smoke ball，價錢是 10 shillings。末句說她按指示每天三次使用，直到 1 月 17 日患病。只看首尾句，本段證明她實際購買並按指示使用產品。這對後文合約成立很重要，因為她的行為將被法院視為接受公司廣告 offer 的方式。"
+      },
+      {
+        "number": "15",
+        "summary": "首句說 1 月 20 日，Louisa 的丈夫寫信給 Carbolic Smoke Ball Company。末句說他指出妻子按指示使用，仍然患上 flu，醫生可證明。只看首尾句，本段功能是投訴和索償前奏。丈夫是 solicitor也很重要，因為他知道如何把廣告承諾轉化成法律主張。"
+      },
+      {
+        "number": "16",
+        "summary": "首句說公司沒有回覆。末句引用 Judge Hawkins 的意思：商人作出承諾，就不應驚訝有時會被要求履行。只看首尾句，本段講第一階段訴訟：丈夫持續追討，公司抗拒，Louisa 起訴，Hawkins 判她勝訴。中間還會提到公司把廣告辯稱為 puffery，但法官拒絕讓公司完全逃避承諾。"
+      },
+      {
+        "number": "17",
+        "summary": "首句說 Carbolic 上訴。末句問：Mrs Carlill 和公司之間到底有甚麼 agreement？只看首尾句，本段把案件推到上訴法院，並把問題收窄到 contract formation。重點不再是產品是否真的有效，也不只是公司是否欺詐，而是廣告能否構成合約，以及 Mrs Carlill 如何接受 offer。"
+      },
+      {
+        "number": "18",
+        "summary": "首句說法官們認為，有些時候 contract 可以是 one-sided。末句引用 Lord Justice Bowen：若有人選擇作出誇張承諾，承諾誇張本身不能成為法律上免責理由。只看首尾句，本段給出最終法律推理：公司廣告是具體 offer；Carlill 按指示使用產品就是 acceptance；£1,000 deposit 顯示公司有誠意。"
+      },
+      {
+        "number": "19",
+        "summary": "首句說 Louisa 得到 £100。末句說這案建立 unilateral contract 原則，直到今天仍常被引用。只看首尾句，本段是結論段，直接回答案件的法律意義。它不只是一宗消費糾紛，也成為合約法中unilateral contract 的經典案例。"
+      }
+    ]
+  }
+}

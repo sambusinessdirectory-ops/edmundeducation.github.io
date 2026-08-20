@@ -1,0 +1,1554 @@
+{
+  "id": "p2-090-sampling-bias",
+  "catalogueId": "p2-090",
+  "catalogueIds": [
+    "p2-090"
+  ],
+  "passage": 2,
+  "title": "Sampling Bias",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "self-selection",
+    "opinionated perspectives",
+    "maximise",
+    "sufficiently trained",
+    "introduction",
+    "trust",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Cavemen were often very good artists.”",
+      "translation": "穴居人通常是很出色的藝術家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目有兩個控制點：第一，主體是 cavemen；第二，評價是 often very good artists。文章若只說他們留下 paintings，仍未足夠證明畫得很好。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our primitive ancestors left many paintings on the walls inside caves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的原始祖先在洞穴內牆上留下很多繪畫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ‘caveman effect’ is an example of what is known as ‘sampling bias’ — one of the biggest problems when conducting any form of statistical data gathering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 “caveman effect” 是所謂 sampling bias 的一個例子，而 sampling bias 是進行任何統計數據收集時最大的問題之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的功能是用洞穴證據引出 sampling bias。雖然第一句提到 paintings，但末句把重點轉到「證據保存位置造成偏差」。所以這段未必會評價畫作藝術水平。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Cavemen”、“paintings / artists” 和 “very good”。原文可找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“paintings” 和 “cavemen”，但找不到 good、skilful、talented、artistic quality 這類評價詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Our primitive ancestors left many paintings on the walls inside caves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的原始祖先在洞穴內牆上留下很多繪畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只證明有 paintings，沒有說這些畫作是否精美，也沒有說畫家是否 skilled。後文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prehistoric people are characterised as ‘cavemen’” 也只是在說後人如何因證據保存地點而稱他們為穴居人。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： very good artists = 畫得很好、有很高藝術能力。原文只有： left many paintings = 留下很多畫。「有畫作」只能證明存在繪畫活動，不能推出「通常很擅長藝術」。文章沒有相反資料，也沒有說他們畫得差，所以答案不是 FALSE。核心評價缺失，因此是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Surveys can be done cheaply by telephone.”",
+      "translation": "調查可以透過電話以低成本進行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查兩個元素：surveys 是否可以用 telephone 做；這種方式是否 relatively cheap /cost-effective。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys, for example, are popular because they are easy to administer and relatively cost-effective, particularly if conducted remotely through technical means, such as telephone, mail, email, or the Internet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，調查很受歡迎，因為它們容易執行，而且成本相對有效，特別是透過電話、郵件、電郵或互聯網等技術方式遠程進行時。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, the sampling is biased, or skewed in favour of certain outcomes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，抽樣是有偏差的，或會偏向某些結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句直接講 surveys 的執行優點和遠程方式，與題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Surveys”、“cheaply” 和 “telephone”。原文中 “relatively cost-effective” 對應cheaply；“telephone” 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys, for example, are popular because they are easy to administer and relatively cost-effective, particularly if conducted remotely through technical means, such as telephone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查很受歡迎，因為它們容易執行，而且成本相對有效，尤其是以電話等技術方式遠程進行時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 surveys；核心形容是 relatively cost-effective；telephone 是例子之一。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“relatively cost-effective” 改寫成 “cheaply”，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cheaply= relatively cost-effective by telephone= through technical means, such as telephone所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Surveys can usually give reliable information.”",
+      "translation": "調查通常可以提供可靠資訊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題控制詞是 “usually” 和 “reliable”。原文若說 surveys notoriously unreliable，方向便相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys, for example, are popular because they are easy to administer and relatively cost-effective…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查很受歡迎，因為它們容易執行，而且成本相對有效。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, the sampling is biased, or skewed in favour of certain outcomes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，抽樣是有偏差的，或會偏向某些結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句先講優點，末句指出抽樣偏差。Paragraph 2 的中後段很可能會直接處理可靠性問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “reliable information”。原文用相反表達 “notoriously unreliable”。這是非常強的反向定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such surveys, however, have proven notoriously unreliable because of the difficulty in obtaining representative samples.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這類調查已被證明極不可靠，原因是難以取得具代表性的樣本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“however” 轉折後才是判斷重點。原文不是單純說 surveys 有少量問題，而是用 “notoriously unreliable” 表示它們以不可靠著稱。題目說 “usually give reliable information”，與原文方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "usually reliable information原文： notoriously unreliable題目說通常可靠；原文說非常不可靠。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Elderly and disabled people are often at home during the day.”",
+      "translation": "長者和殘疾人士日間經常在家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要從日間打電話到家中的例子判斷。原文未必直接說 “at home”，但如果說日間接家居電話的人更可能是 elderly、disabled，就可支持題目。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Let us look at some examples.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓我們看一些例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No matter how large the sampling size is, sampling bias can immediately invalidate the results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論樣本數量有多大，抽樣偏差都可以立即令結果失效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段用例子說明 sampling bias 如何出現。題目中的 elderly、disabled 與日間家居電話例子直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Elderly”、“disabled” 和 “during the day”。原文有 “rings domestic homes during the daytime”、“disabled”、“elderly”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If one rings domestic homes during the daytime, most of those who work during the day will be excluded. Those who answer are more likely to be the unemployed, disabled, elderly, and retired…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果在日間致電家庭住戶，大部分日間工作的人會被排除。接電話的人更可能是失業人士、殘疾人士、長者和退休人士。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的推理很短：日間打到 domestic homes，能接電話的人自然是在家或可接家居電話的人。原文說這些人更可能是 disabled、elderly、retired 等，因此題目說 elderly and disabled people are often at home during the day，方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "at home during the day= answer domestic home calls during the daytime elderly and disabled people= disabled, elderly所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Larger survey samples can reduce sampling bias.”",
+      "translation": "較大的調查樣本可以減少抽樣偏差。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易令人被 Paragraph 2 的 “large numbers” 吸引。真正要判斷的是：文章是否認為樣本變大能處理 sampling bias。控制詞是 “can reduce”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2–3 Paragraph 2 第一／最後句顯示 surveys 有大樣本優點，但也有 biased sampling 問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 最後一句更直接說：樣本多大也可能無效。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “larger samples” 和 “sampling bias”。Paragraph 2 有 “large numbers of respondents”；Paragraph 3 有 “No matter how large the sampling size is”。後一句是定案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys also lend themselves to obtaining particularly large numbers of respondents, which, in theory, allows a greater chance of sampling all the variations of the target population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查也容易取得特別大量受訪者，理論上這增加抽樣涵蓋目標人口各種變化的機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “in theory”，表示只是理論可能。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“No matter how large the sampling size is, sampling bias can immediately invalidate the results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論樣本數量有多大，抽樣偏差都可以立即令結果失效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接壓過題目說法。題目說 larger samples can reduce bias；原文最後指出，即使樣本很大， sampling bias 仍可立即使結果無效。作者重點在：樣本數量不能保證代表性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "larger samples can reduce sampling bias原文： No matter how large the sampling size is, sampling bias can invalidate results兩者方向相反，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "self-selection",
+      "answerKey": "self-selection",
+      "type": "Question Analysis",
+      "prompt": "Flowchart Completion字數限制：NO MORE THAN TWO WORDS",
+      "translation": "這格要填一種較隱微的 sampling bias 名稱。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the subtler forms of sampling bias is known as self-selection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sampling bias 中其中一種較隱微的形式稱為 self-selection。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, any survey in which many respondents do not answer, do not give clear answers, or only give cursory or unthinking answers, is immediately invalidated, since opinionated perspectives are disproportionately represented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，任何有很多受訪者不回答、不清楚回答，或只草率回答的調查，都會立即失效，因為有強烈意見的觀點會被不成比例地代表。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接給出 bias 類型，因此本題定位非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flowchart 的第一格若指 “a subtle form of sampling bias”，原文完全重現為 “One of the subtler forms…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the subtler forms of sampling bias is known as self-selection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sampling bias 中其中一種較隱微的形式稱為 self-selection。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是該術語本身。self-selection 是兩個部分組成的一個詞，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：self-selection"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "opinionated perspectives",
+      "answerKey": "opinionated perspectives",
+      "type": "Question Analysis",
+      "prompt": "Flowchart Completion字數限制：NO MORE THAN TWO WORDS",
+      "translation": "這格要填在調查中被過度代表的內容。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the subtler forms of sampling bias is known as self-selection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "sampling bias 中其中一種較隱微的形式稱為 self-selection。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, any survey in which many respondents do not answer, do not give clear answers, or only give cursory or unthinking answers, is immediately invalidated, since opinionated perspectives are disproportionately represented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，任何有很多受訪者不回答、不清楚回答，或只草率回答的調查，都會立即失效，因為有強烈意見的觀點會被不成比例地代表。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段先定義 self-selection，再解釋為何它會造成過度代表，因此 Q20 仍在 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flowchart 相關語義是 “over-represented”。原文中的直接對應是 “disproportionately represented”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...opinionated perspectives are disproportionately represented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有強烈意見的觀點會被不成比例地代表。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“disproportionately represented” 就是 over-represented 的意思。空格所需答案是被過度代表的東西：opinionated perspectives。答案形式檢查opinionated perspectives = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：opinionated perspectives"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "maximise",
+      "answerKey": "maximise",
+      "type": "Question Analysis",
+      "prompt": "Flowchart Completion字數限制：NO MORE THAN TWO WORDS",
+      "translation": "這格要填處理 self-selection 問題的一個方法：增加回覆數量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is such an immediate and obvious problem that it has given rise to techniques to maximise the possibility of garnering responses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個如此直接又明顯的問題，因此產生了一些技巧，以最大化取得回覆的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...interviewers must introduce themselves, their company and the nature of the interview fully and with evident sincerity, in order to gain the trust of those they are talking to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪員必須完整而明顯真誠地介紹自己、公司和訪問性質，以取得談話對象的信任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 techniques 和 maximise responses，因此 Q21 在 Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flowchart 若寫 “A key technique is to ___ the number / possibility of responses”，原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“maximise the possibility of garnering responses”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“...techniques to maximise the possibility of garnering responses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些用來最大化取得回覆可能性的技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“garnering responses” 意思是取得、收集回覆。flowchart 把它改寫成 increase / get more responses。答案詞是 maximise。答案形式檢查maximise = 1 word，符合限制。若你的原圖空格後沒有 “the”，答案也可能寫 “maximise the”；但按常見 flowchart 句式，填 maximise 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：maximise"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "sufficiently trained",
+      "answerKey": "sufficiently trained",
+      "type": "Question Analysis",
+      "prompt": "Flowchart Completion字數限制：NO MORE THAN TWO WORDS",
+      "translation": "這格要填訪員需要具備甚麼條件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is such an immediate and obvious problem that it has given rise to techniques to maximise the possibility of garnering responses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個如此直接又明顯的問題，因此產生了一些技巧，以最大化取得回覆的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...interviewers must introduce themselves, their company and the nature of the interview fully and with evident sincerity, in order to gain the trust of those they are talking to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪員必須完整而真誠地介紹自己、公司和訪問性質，以取得受訪者信任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間會說明訪員怎樣提高回覆率，training 是核心之一。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目若提到 interviewers，原文有 “The interviewers themselves must be sufficiently trained…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The interviewers themselves must be sufficiently trained in correct question-asking techniques…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪員本身必須在正確提問技巧方面接受足夠訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flowchart 把句子改成 “interviewers should be ______”。空格前後需要形容詞短語，因此"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sufficiently trained” 文法和意思都合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：sufficiently trained"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "introduction",
+      "answerKey": "introduction",
+      "type": "Question Analysis",
+      "prompt": "Flowchart Completion字數限制：NO MORE THAN TWO WORDS",
+      "translation": "這格要填訪員為建立信任需要提供的東西，內容包括自己、公司和訪問性質。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is such an immediate and obvious problem that it has given rise to techniques to maximise the possibility of garnering responses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個如此直接又明顯的問題，因此產生了一些技巧，以最大化取得回覆的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...interviewers must introduce themselves, their company and the nature of the interview fully and with evident sincerity, in order to gain the trust of those they are talking to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪員必須完整而明顯真誠地介紹自己、公司和訪問性質，以取得談話對象的信任。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flowchart 若寫 “give a complete and honest ______ of themselves and their work”，原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“introduce themselves, their company and the nature of the interview fully and with evident sincerity”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“...interviewers must introduce themselves, their company and the nature of the interview fully and with evident sincerity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪員必須完整而真誠地介紹自己、公司和訪問性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的動作是 introduce。flowchart 需要名詞，所以常見答案是 “introduction”。你貼出的正文沒有直接出現 introduction 這個名詞，只出現 introduce 這個動詞；這代表你貼出的版本和原題flowchart 可能有輕微詞形差異。按原題答案，填："
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "trust",
+      "answerKey": "trust",
+      "type": "Question Analysis",
+      "prompt": "Flowchart Completion字數限制：NO MORE THAN TWO WORDS",
+      "translation": "這格要填訪員完整介紹自己的最終目的：取得受訪者甚麼。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is such an immediate and obvious problem that it has given rise to techniques to maximise the possibility of garnering responses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個如此直接又明顯的問題，因此產生了一些技巧，以最大化取得回覆的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...interviewers must introduce themselves, their company and the nature of the interview fully and with evident sincerity, in order to gain the trust of those they are talking to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪員必須完整而真誠地介紹自己、公司和訪問性質，以取得談話對象的信任。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flowchart 若寫 “This helps to build / gain ______ with respondents”，原文直接有 “gain the trust”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...in order to gain the trust of those they are talking to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以取得他們正在交談的人的信任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“those they are talking to” 指受訪者。題目把 gain 改寫成 build 或 establish，核心名詞仍是 trust。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：trust"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — can result in important input being lost.",
+      "answerKey": "B — can result in important input being lost.",
+      "type": "Question Analysis",
+      "prompt": "“The number of sampling variables…”",
+      "translation": "抽樣變項的數量……選項 B 中文意思：可能導致重要輸入／重要資料被排除或流失。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。要找 Paragraph 6 中 “number of variables” 的影響。題目不是問變項是否存在，而是問變項多會造成甚麼後果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even with this, sampling bias can easily arise due to the number of variables in place, since it only takes one to skew the data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使有這些方法，抽樣偏差仍可因現場變項數量而輕易出現，因為只需一個變項便能扭曲數據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What about race, colour, gender, religion, socio-economic background, and first language? The list goes on and on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那種族、膚色、性別、宗教、社會經濟背景和第一語言又如何？這個清單可以一直列下去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 variables 可 skew the data；末句列出變項可以非常多。這段正是 Question 25 的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “number of sampling variables”。原文有 “number of variables”。接著要找這些variables 如何影響樣本：excludes ordinary workers、excluding those who cook、respondents healthier than average 等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If taking samples from a specific location — say, a street corner—then it may be that this location is in the business district, excluding ordinary workers from the sample.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果從某個特定地點取樣，例如街角，那個地點可能位於商業區，從而把普通工人排除在樣本之外。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is a health club nearby, the majority of respondents may be much healthier than the average of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果附近有健身俱樂部，大部分受訪者可能比人口平均水平健康得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子顯示，取樣地點和周邊環境會讓某些人被排除，某些人被過度代表。選項 B 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“important input being lost” 概括了 “excluding ordinary workers” 這類情況。選項排除A “is usually not so large”：原文最後說 “The list goes on and on”，表示變項清單很多。 C “means many locations need to be used”：原文沒有提出多地點取樣作必然要求。 D “can result in lists being necessary”：原文說 “The list goes on and on” 是表達變項多，不是說研究必須製作清單。 B 最貼近 “excluding…” 的後果，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C — needs exact ratios.",
+      "answerKey": "C — needs exact ratios.",
+      "type": "Question Analysis",
+      "prompt": "“Mathematical extrapolation…”",
+      "translation": "數學外推法……選項 C 中文意思：需要精確比例。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。定位詞很明顯：Mathematical extrapolation。要找這種方法有效需要甚麼條件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One method to deal with this is to make sure all targeted groups are represented, if only a little, and make mathematical extrapolations to correct the bias.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "處理這個問題的一種方法，是確保所有目標群體都至少有一點代表性，然後用數學外推來修正偏差。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that does assume all the other variables which introduce bias have been excluded — often a very problematic assumption to make.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這假定所有其他會引入偏差的變項都已被排除，而這往往是一個非常有問題的假設。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句介紹 mathematical extrapolation，末句提醒其限制。因此 Question 26 一定在 Paragraph 7。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mathematical extrapolation”。原文完全重現 “mathematical extrapolations”。之後要掃描條件詞，例如 “needs”、“requires”、“for this to work”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For this to work, the degree of underrepresentation needs to be quantified exactly…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要讓這個方法奏效，低代表性的程度需要被精確量化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是答案核心。degree of underrepresentation 指某一群體在樣本中少了多少；quantified exactly 指必須精確用數字表達。選項 C “needs exact ratios” 是對這句的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “can yield confident results”：原文語氣保守，說 “guardedly and with many provisos”，所以不能說 confident。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “requires responses from both men and women”：原文用男女比例只是例子，不是所有mathematical extrapolation 的必要條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “needs many respondents”：原文重點在 underrepresentation 的精確量化，不是受訪者一定要很多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 對應 “quantified exactly”，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Sampling Bias.pdf",
+    "sha256": "e55463c61d2291bdb9f2fae7dd53f3094e0ee5b97804e72a6a7637862796ebc3",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說史前祖先在洞穴牆上留下很多繪畫；末句把 “caveman effect” 定義為 sampling bias 的例子。只看首尾句，可以估計本段用「穴居人」作引入，說明證據保存地點會扭曲我們對過去生活方式的理解。中間會比較洞穴、懸崖、樹皮、獸皮、河邊和海岸等位置，指出只有較能保存的證據留下來。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 surveys 受歡迎，因為容易執行且成本相對低；末句說 sampling 會偏向某些結果。首尾合看，這段先交代 surveys 的優點，例如電話、郵件、電郵、網絡、樣本大、問題標準化，然後轉到核心問題：看似精確的調查也可能因無法取得代表性樣本而變得不可靠。題目若問 survey cost、reliability，要看這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說接下來看一些例子；末句說無論樣本多大，sampling bias 都可立即令結果無效。這段大概會用具體調查方式展示偏差如何出現：只打手機會排除偏好 landlines 的人；白天打到家中會排除日間工作者。段落功能是用生活化例子說明樣本來源本身會改變受訪者組成，樣本大也未必解決問題。"
+      },
+      {
+        "number": "4",
+        "summary": "首句介紹一種較隱微的 sampling bias：self-selection；末句說 opinionated perspectives 會被不成比例地代表。只看首尾句，可以估計這段不是討論調查地點，而是討論誰願意回覆。願意花時間回答的人通常較想表達意見；不回答或只草率回答的人被削弱，結果會使有強烈意見的人在數據中佔比過高。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說這個問題直接又明顯，因此產生了增加 responses 的技巧；末句說訪員必須完整而真誠地介紹自己、公司和訪問性質，以取得受訪者信任。首尾合看，這段是補救方法段：先預先通知受訪者，再訓練訪員如何提問和建立可信感。題目若問 maximize responses、trained interviewers、trust，應定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說即使如此，sampling bias 仍容易因多個 variables 出現，因為只需一個因素便足以扭曲數據；末句以 race、colour、gender、religion、socio-economic background、first language 等作結。只看首尾句，可以估計這段集中講 variables 太多。地點、附近設施、校園位置、學院類型和學生背景都可能改變樣本組成。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說其中一個處理方法，是確保所有目標群體至少有一點代表性，並用 mathematical extrapolations 修正偏差；末句說假定所有其他偏差變項已被排除，往往非常有問題。首尾句顯示本段討論數學修正的條件和限制：需要精確量化低估程度，也要假設少數受訪者能代表同類群體，否則修正本身仍有風險。"
+      }
+    ]
+  }
+}

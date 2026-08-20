@@ -1,0 +1,1654 @@
+{
+  "id": "p2-053-bestcomconsiderate-computing",
+  "catalogueId": "p2-053",
+  "catalogueIds": [
+    "p2-053"
+  ],
+  "passage": 2,
+  "title": "Bestcom—Considerate Computing",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "clues",
+    "relationship",
+    "message",
+    "reschedule",
+    "voicemail",
+    "cellphone",
+    "meeting"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“According to Ted Selker, human reproduction has been disturbed throughout history.”",
+      "translation": "根據 Ted Selker，人類繁殖在歷史上一直接受干擾。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Ted Selker 是否真的說過「human reproduction has been disturbed throughout history」。重點不在 procreation 這個字有沒有出現，重點在 Selker 如何使用這個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Your battery is now fully charged,’ announced the laptop to its owner Donald A. Norman in a synthetic voice, with great enthusiasm and maybe even a hint of pride.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手提電腦用合成聲音、帶著很大熱情甚至一點自豪感，向主人 Donald A. Norman 宣佈：「你的電池現在已充滿。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We are used to a complex life that gets constantly interrupted by computers’ attention-seeking requests, as much as we are familiar with procreation,’ laughs Ted Selker of the Massachusetts Institute of Technology (MIT) Media Lab.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MIT Media Lab 的 Ted Selker 笑說：「我們已習慣複雜生活不斷被電腦那些尋求注意力的要求打斷，就像我們熟悉繁殖一樣。」只看首尾句，可以先猜 Paragraph 1 主要處理 computer interruptions 和人類對這種打斷的熟悉程度。procreation 只是比喻，用來形容「熟悉」，不是本段真正討論的生物學主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Ted Selker” 和 “human reproduction”。原文對應的是 “procreation”。但是掃描到原句後，要看 procreation 在句子中的角色。原文中，被 constantly interrupted 的主體是 “a complex life”，打斷來源是 “computers’ attention-seeking requests”。procreation 只放在 “as much as we are familiar with…” 之後，表示熟悉程度的比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are used to a complex life that gets constantly interrupted by computers’ attention-seeking requests, as much as we are familiar with procreation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們已習慣複雜生活不斷被電腦那些要求注意力的訊息打斷，就像我們熟悉繁殖一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說的是：human reproduction has been disturbed throughout history。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是：humans are familiar with procreation，並且 familiar with computer interruptions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個關係錯置。原文沒有說 reproduction 被打斷，也沒有說 throughout history。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“procreation” 從一個比較用語，改成了被干擾的主體。真正被打斷的是 complex life / human attention。這和題目聲稱的 “human reproduction has been disturbed” 不一致，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "procreation 是很強的定位詞，看到它之後很容易以為題目有根據。不過 IELTS Reading 不能只看名詞重現。這題真正控制答案的是動詞關係：原文是 familiar with procreation；題目是reproduction has been disturbed。兩者關係不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“If people are interrupted by calls or e-mails, they usually put up with it.”",
+      "translation": "如果人們被電話或電郵打斷，他們通常會忍受。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷人們面對 calls 或 e-mails interruptions 時，原文是否說他們通常會忍受，而不會主動關掉設備。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Humanity has been connected to approximately three billion networked telephones, computers, traffic lights and even fridges and picture frames because these devices facilitate our daily lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類已連接到大約三十億部網絡電話、電腦、交通燈，甚至雪櫃和相架，因為這些設備便利我們的日常生活。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We merely endure the consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們只是承受後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段講：科技設備雖然打斷我們，但因為它們方便生活，人們通常不會關掉它們，只會忍受其後果。這和題目的 “put up with it” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “calls or e-mails” 和 “put up with”。原文對應 “phones”、“e-mail system” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“endure the consequences”。“put up with” 不會原字重現，但 “endure” 就是忍受、承受的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“That is why we do not typically turn off the phones, shut down the e-mail system, or close the office door even when we have an upcoming meeting or a stretch of concentrated work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，即使我們快要開會，或有一段需要專心工作的時間，我們通常也不會關掉電話、關閉電郵系統，或關上辦公室門。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“We merely endure the consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們只是承受後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “interrupted by calls or e-mails” 對應原文 phones 和 e-mail system 帶來的打斷。題目中的 “usually put up with it” 對應 “do not typically turn off…” 和 “merely endure”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "usually = typically put up with = endure calls or e-mails = phones / e-mail system原文與題目方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Microsoft is now investigating software that is suitable for ordinary offices.”",
+      "translation": "Microsoft 現正在研究適合一般辦公室使用的軟件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目重點是 Microsoft、software、ordinary offices。要檢查原文是否說 Microsoft 正在測試或研究某種可供普通 office employees 使用的系統。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To do this, the machines need new skills of three kinds: sensing, reasoning and communicating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要做到這一點，機器需要三種新技能：感知、推理和溝通。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a couple of years, companies might manage to provide each office employee with a software version of the personal receptionist who is only available to corner-suite executives today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾年之內，公司或許能為每位辦公室員工提供一個軟件版的私人接待員，而今天這類私人接待員只屬於高層辦公室行政人員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 considerate systems 需要哪些能力，以及這些能力如何變成辦公室員工可用的軟件工具。題目中的 ordinary offices 雖然沒有原字出現，但 “each office employee” 已經把範圍從高層擴展到一般員工。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Microsoft” 和 “software”。原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microsoft has been conducting extensive in-house tests of a far more sophisticated system since 2003.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接把 Microsoft 和系統測試連起來。段落最後的 “software version” 則連到題目的software。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microsoft has been conducting extensive in-house tests of a far more sophisticated system since 2003.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 2003 年起，Microsoft 一直在公司內部廣泛測試一個複雜得多的系統。"
+            },
+            {
+              "kind": "label",
+              "text": "再看段落最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a couple of years, companies might manage to provide each office employee with a software version of the personal receptionist…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾年之內，公司或許能為每位辦公室員工提供一個軟件版的私人接待員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “now investigating” 對應 “has been conducting extensive in-house tests”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ordinary offices” 對應 “each office employee”，因為這不再限於 corner-suite executives。“software” 對應 “software version of the personal receptionist”。這題有一點需要留意：原文說 “might manage to provide”，帶有未來可能性；但 Microsoft 的測試行動已經在進行。所以題目說 Microsoft is now investigating software，與原文一致。答案是TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People usually misjudge how busy they are.”",
+      "translation": "人們通常會誤判自己有多忙。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找原文是否說人們自稱很忙，但實際上沒有那麼忙。定位詞是 busy / claim / truth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the truth is that most people are not as busy as they claim to be, which explains why we can often stand interruptions from our inconsiderate electronic paraphernalia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，事實是大多數人沒有自己聲稱的那麼忙，這解釋了為什麼我們常常能忍受那些不體貼電子設備的打擾。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, by studying Microsoft workers, Horvitz also found that they ordinarily spend over 65 per cent of their day in a low-attention mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "類似地，Horvitz 研究 Microsoft 員工後也發現，他們平日一天超過 65% 的時間處於低注意力模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段講「人自稱很忙」和「實際可被打斷狀態」之間的落差。這直接對應題目的 misjudge how busy they are。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “misjudge” 和 “busy”。原文沒有 misjudge，但 “not as busy as they claim to be” 就是誤判或誇大自己忙碌程度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the truth is that most people are not as busy as they claim to be…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，事實是大多數人沒有自己聲稱的那麼忙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “People usually misjudge how busy they are.”原文說 “most people are not as busy as they claim to be”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "usually = most people / ordinarily 的概括方向misjudge how busy they are = claim to be busier than they truly are後文研究數據也支持這點：員工希望不受打斷的時間大約只是三分之一，而 Microsoft workers 超過 65% 時間處於 low-attention mode。原文命題和題目命題同方向，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Researchers from Carnegie Mellon University observed IBM employees in all occupational groups.”",
+      "translation": "Carnegie Mellon University 的研究者觀察了 IBM 所有職業群組的員工。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個控制點：第一，研究者身份；第二，觀察對象是否涵蓋 all occupational groups。只要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“all” 與原文數量範圍衝突，就要判斷為 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“However, the truth is that most people are not as busy as they claim to be, which explains why we can often stand interruptions from our inconsiderate electronic paraphernalia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，事實是大多數人沒有自己聲稱的那麼忙，這解釋了我們為何常能忍受不體貼電子設備的打擾。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, by studying Microsoft workers, Horvitz also found that they ordinarily spend over 65 per cent of their day in a low-attention mode.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "類似地，Horvitz 研究 Microsoft 員工後也發現，他們平日一天超過 65% 的時間處於低注意力模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段在講 workplace studies 和 interruptibility。題目提到 Carnegie Mellon University 和 IBM employees，所以要看段中 IBM Research team 的研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Carnegie Mellon University”、“IBM employees” 和 “all occupational groups”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To find out the extent to which such disruption may claim people’s daily time, an IBM Research team led by Jennifer Lai from Carnegie Mellon University studied ten managers, researchers and interns at the workplace.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“an IBM Research team led by Jennifer Lai from Carnegie Mellon University studied ten managers, researchers and interns at the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個由 Carnegie Mellon University 的 Jennifer Lai 領導的 IBM Research 團隊，在工作場所研究了十名 managers、researchers 和 interns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “in all occupational groups”，即所有職業群組。原文清楚限制為 “ten managers, researchers and interns”。這只是三類人，而且總數只有十人。原文沒有支持 all；更準確地說，原文的數量和範圍直接限制了研究對象。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突位置",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "observed = videotaped / studied IBM employees in all occupational groups = 題目擴大了範圍ten managers, researchers and interns = 原文有限樣本因為題目的 all occupational groups 和原文的 ten managers, researchers and interns 不相容，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Current phone and computer systems use shortcuts to deliver information immediately.”",
+      "translation": "現有電話和電腦系統會用簡化方式，立即把資訊送到使用者面前。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷現有系統是否靠一個簡單假設處理 calls、emails 和 alerts。題目中的 “shortcuts” 不是原文字，但可理解成「簡化假設」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously, today’s phones and computers are probably correct about two-thirds of the time by assuming that their users are always available to answer a call, check an email, or click the ‘OK’ button on an alert box.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，今天的電話和電腦大約有三分之二時間是對的，因為它們假設使用者永遠有空接電話、查看電郵，或點擊提示框上的 “OK”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But for the considerate systems to be functional and useful, their accuracy has to be above 65 per cent in sensing when their users are about to reach their cognitive limit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 considerate systems 若要有功能並真正有用，在感知使用者快要達到認知極限時，其準確度必須高於 65%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段比較現有 phone / computer systems 和未來 considerate systems。現有系統靠 “assuming users are always available”；新系統需要真正 sense cognitive limit。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “current phone and computer systems” 和 “shortcuts”。原文對應 “today’s phones and computers” 和 “by assuming that their users are always available”。“shortcut” 在這裡可視為一種 simple assumption，不需要逐字出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“today’s phones and computers are probably correct about two-thirds of the time by assuming that their users are always available to answer a call, check an email, or click the ‘OK’ button on an alert box.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天的電話和電腦大概有三分之二時間是對的，方法是直接假設使用者永遠有空接電話、查看電郵，或按提示框上的 “OK”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “use shortcuts” 對應 “by assuming that their users are always available”。這是一種簡化判斷：系統沒有真正感知使用者是否忙碌，只用「使用者通常有空」這個預設來處理訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“deliver information immediately” 對應 calls、emails、alert boxes 立即要求使用者回應。所以題目與原文意思一致，答案是 TRUE。要留意：原文沒有說這些系統永遠錯；它說這個簡化假設約三分之二時間是對的，但若要成為 considerate systems，準確度必須更高。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "clues",
+      "answerKey": "clues",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 20",
+      "translation": "Bestcom system 會作進一步分析，找出有關 users 正在做甚麼的 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Bestcom system carries out further analysis to find 20 __________ about what users are doing.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “find”，後面是 “about what users are doing”，所以答案需要一個名詞。題目中的 further analysis 對應原文 “digs a bit deeper”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inspired by Horvitz’s work, Microsoft’s prototype Bestcom-Enhanced Telephony (Bestcom-ET) digs a bit deeper into every user’s computer to find clues about what they are dealing with.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受 Horvitz 的工作啟發，Microsoft 的原型 Bestcom-Enhanced Telephony 會更深入查看每位使用者的電腦，以尋找有關他們正在處理事情的線索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz points out that by the end of last October, nearly 3,800 people had been relying on the system to field their incoming calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horvitz 指出，截至去年十月底，接近 3,800 人一直依靠這個系統處理來電。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段正式介紹 Bestcom-ET 的核心功能和測試規模。Question 20 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“further analysis” 就是對 “digs a bit deeper” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Bestcom system”、“further analysis”、“what users are doing”。原文中 “Bestcom-ET”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “what they are dealing with” 是最直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bestcom-ET digs a bit deeper into every user’s computer to find clues about what they are dealing with.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bestcom-ET 會更深入查看每位使用者的電腦，以找出他們正在處理甚麼事情的線索。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：find ___ about what users are doing"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：find clues about what they are dealing with what users are doing = what they are dealing with further analysis = digs a bit deeper答案是 clues。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： clues 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "relationship",
+      "answerKey": "relationship",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 21",
+      "translation": "檢查 caller 和 user 之間的 __________，例如 caller 是家人、朋友還是同事。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Check the 21 __________ between the caller and the user, such as whether the caller is a family member, friend or colleague.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the”，後面是 “between the caller and the user”，所以需要一個名詞。題目舉出的family member、friend、colleague 都是在說人際關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz is, in fact, a tester himself, and as we have our conversation in his office, Bestcom silently takes care of all the calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，Horvitz 本人也是測試者；當我們在他的辦公室談話時，Bestcom 正默默處理所有電話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的 calendar 顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 8 是 Bestcom 實際運作流程段。Question 21 問 known caller的關係判斷，應在段落前半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “family member, friend or colleague”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Firstly, it checks if the caller is in his address book, the company directory, or the ‘recent call’ list. After triangulating all these resources at the same time, it attempts to figure out what their relationship is.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After triangulating all these resources at the same time, it attempts to figure out what their relationship is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在同時交叉比對這些資源之後，它會嘗試判斷他們之間是甚麼關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Check the ___ between the caller and the user”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “figure out what their relationship is”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Check = figure out between the caller and the user = their答案是 relationship。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： relationship 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "message",
+      "answerKey": "message",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 22",
+      "translation": "如果 caller 不在 directory 裏，他們的螢幕上會出現一個 __________，說明 user 不能接聽。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“If callers are not in the directory, a(n) 22 __________ appears on their screen, saying that the user is unavailable.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a(n)”，後面是 “appears on their screen”，所以答案需要單數名詞。題目中的 “saying that the user is unavailable” 指向原文中 “he cannot answer now”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz is, in fact, a tester himself, and as we have our conversation in his office, Bestcom silently takes care of all the calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horvitz 本人也是測試者；我們在他辦公室談話時，Bestcom 正默默處理所有電話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的行事曆顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段是電話處理流程。Question 22 問 unknown caller 看到甚麼，所以要看Bestcom 如何處理不放行的 callers。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “screen”、“unavailable”。原文直接有 “message on their screens” 和 “he cannot answer now”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other callers will get a message on their screens saying he cannot answer now because he is in a meeting, and will not be available until 3 p.m.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他來電者會在自己的螢幕上收到一則訊息，說他現在因為正在開會而不能接聽，並且到下午三點前都不會有空。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：a(n) ___ appears on their screen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：callers will get a message on their screens appears on their screen = get … on their screens saying that the user is unavailable = saying he cannot answer now / will not be available答案是 message。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： message 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "reschedule",
+      "answerKey": "reschedule",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 23",
+      "translation": "系統會為雙方 __________ 一個合適時間，或者 caller 可以為 user 留下 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The system will 23 __________ a suitable time for both parties, or callers may leave a(n) 24__________ for the user.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 23 空格前是 “will”，所以答案需要動詞原形。題目中的 “suitable time for both parties”對應原文 “a time that works for both of them”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz is, in fact, a tester himself, and as we have our conversation in his office, Bestcom silently takes care of all the calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horvitz 本人也是測試者；我們在他辦公室談話時，Bestcom 正默默處理所有電話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的行事曆顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段從來電篩選一路講到日程安排和轉接電話。Question 23 問安排合適callback time，所以要看段中 calendar 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “suitable time” 和 “both parties”。原文對應 “a time that works for both of them”。在同一句前面，可以看到動詞 “reschedule”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The system will scan both Horvitz’s calendar and the caller’s to check if it can reschedule a callback at a time that works for both of them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "系統會掃描 Horvitz 和 caller 雙方的行事曆，查看是否可以把回電重新安排在一個雙方都合適的時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “a time that works for both of them” 改成 “a suitable time for both parties”。真正答案詞是動詞 “reschedule”。雖然原文完整搭配是 “reschedule a callback at a time”，flow-chart 把callback 省略了，保留 “a suitable time”。就答案來源來看，唯一符合 will + 動詞原形、且出現在原文中的詞是 reschedule。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： reschedule 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "voicemail",
+      "answerKey": "voicemail",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 24",
+      "translation": "或者 caller 可以為 user 留下 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“…or callers may leave a(n) 24 __________ for the user.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “leave a(n)”，所以需要一個單數名詞。日常搭配中，leave a voicemail 是很強的線索。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz is, in fact, a tester himself, and as we have our conversation in his office, Bestcom silently takes care of all the calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horvitz 本人也是測試者；我們在他辦公室談話時，Bestcom 正默默處理所有電話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的行事曆顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道段落在講 Bestcom 如何處理來電。Question 24 接在 reschedule callback後面，應該就在同一句或下一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “leave”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some callers will take that option, while others simply leave a voicemail.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some callers will take that option, while others simply leave a voicemail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些來電者會選擇那個安排，其他人則只是留下一段語音留言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：callers may leave a(n) ___"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：callers … leave a voicemail答案是 voicemail。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： voicemail 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "cellphone",
+      "answerKey": "cellphone",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 25",
+      "translation": "如果 user 的日程中沒有 __________，Bestcom 會把電話轉到 user 的 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bestcom transfers the call to the user’s 25 __________ if there is no 26 __________ in the user’s schedule.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 25 空格前是 “the user’s”，所以需要一個名詞，應該是某種接收來電的設備。題目說call transfer，要看段落最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz is, in fact, a tester himself, and as we have our conversation in his office, Bestcom silently takes care of all the calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horvitz 本人也是測試者；我們在他辦公室談話時，Bestcom 正默默處理所有電話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的行事曆顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，Question 25 已經可以定位。這一句正好描述 out of office 時的 call transfer。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “transfers the call” 和 “Out of the office”。原文有 “When Horvitz is not in his office” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“transfer selected callers to his cellphone”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：transfers the call to the user’s ___"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：transfer selected callers to his cellphone user’s = his答案是 cellphone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： cellphone 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "meeting",
+      "answerKey": "meeting",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 26",
+      "translation": "如果 user 的日程中沒有 __________，Bestcom 會把電話轉到 user 的手機。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bestcom transfers the call to the user’s cellphone if there is no 26 __________ in the user’s schedule.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “no”，後面是 “in the user’s schedule”，所以答案需要一個名詞，表示行事曆中某個會阻止轉接的安排。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horvitz is, in fact, a tester himself, and as we have our conversation in his office, Bestcom silently takes care of all the calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horvitz 本人也是測試者；我們在他辦公室談話時，Bestcom 正默默處理所有電話。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的行事曆顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，可以知道 transfer 的條件有一個限制：calendar 不能顯示他正在 meeting。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “schedule”。原文用 “calendar”。題目說 “if there is no…”；原文用 “unless his calendar implies that he is in a meeting”。這裡是條件句改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Horvitz is not in his office, Bestcom automatically offers to transfer selected callers to his cellphone, unless his calendar implies that he is in a meeting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Horvitz 不在辦公室時，Bestcom 會自動提出把部分來電轉到他的手機，除非他的行事曆顯示他正在開會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “unless he is in a meeting” 改寫成 “if there is no meeting in the user’s schedule”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "calendar = schedule unless in a meeting = if there is no meeting答案是 meeting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： meeting 是一個字，符合 ONLY ONE WORD。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Bestcom—Considerate Computing.pdf",
+    "sha256": "bc5324a2d50ad0202c7365e1da87e44d558baead127b33df7f81f1634582a3e4",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用 Donald Norman 的 laptop battery announcement 開場，顯示電腦通知可以十分突兀；尾句引用 Ted Selker，說人類已習慣被電腦要求注意力。只看首尾句，可以先估計本段是問題導入：現代人熟悉 multitasking 和 interruptions，電腦、電話等設備經常打斷工作與生活。題目若問 Ted Selker、procreation、distractions，應先回到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說人類已連接到約三十億部網絡電話、電腦、交通燈，甚至雪櫃和相架；尾句說我們通常只好承受這些設備帶來的後果。只看首尾句，可以估計本段講科技設備為何難以關掉：它們便利日常生活，所以即使有會議或專注工作，人們也通常不關電話、不停電郵、不關辦公室門。題目若問people put up with interruptions，這段很重要。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說大量研究確認，突如其來的 interruptions 會降低工作效率並增加錯誤；尾句說研究者正嘗試讓設備像 considerate colleagues，而非自我中心的笨拙同事。只看首尾句，可以估計本段說明interruptions 的後果和研究方向。中間提到 frustration、stress、loss of focus，也指出 pilots、drivers、soldiers、doctors 等專業人士失去專注可能帶來災難。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說機器要做到這一點，需要三種新技能：sensing、reasoning、communicating；尾句說未來公司或可為每個 office employee 提供軟件版 personal receptionist。只看首尾句，可以估計本段講considerate computing 的技術框架和早期產品。中間有 Volvos、IBM WebSphere、Microsoft in-house tests 等例子，題目若問 Microsoft ordinary offices 或 software receptionist，要看這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句用 However 轉折，說大多數人其實沒有自己聲稱那麼忙；尾句說 Horvitz 研究 Microsoft workers，發現他們一天超過 65% 時間處於 low-attention mode。只看首尾句，可以估計本段講人們自評忙碌程度與實際狀態的差距。中間 IBM Research team 研究 ten managers, researchers and interns，測量 interruptibility，發現 leave-me-alone 狀態比例差異很大。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說今天的 phones and computers 假設 users always available，大概有三分之二時間是對的；尾句說 considerate systems 若要有用，判斷 users 是否接近 cognitive limit 的準確度必須高於65%。只看首尾句，可以估計本段比較現有系統和未來系統。現有系統靠簡化假設送出 calls、e-mails、alerts；新系統必須更準確判斷人類注意力負荷。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說受 Horvitz 工作啟發，Microsoft 的 Bestcom-Enhanced Telephony 會更深入用戶電腦，尋找用戶正在處理事情的 clues；尾句說截至去年十月底，近 3,800 人依靠該系統處理 incoming calls。只看首尾句，可以估計本段正式介紹 Bestcom-ET 的內部測試和功能方向。題目 flow-chart第一格 “further analysis” 很可能定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Horvitz 本人也是 tester，談話期間 Bestcom 默默處理所有電話；尾句說 Horvitz 不在辦公室時，Bestcom 會自動把部分來電轉到 cellphone，除非 calendar 顯示他正在 meeting。只看首尾句，可以估計本段是完整流程段：系統查 address book、directory、recent call list，判斷relationship，顯示 message，掃描雙方 calendar，安排 callback 或 voicemail，再決定是否轉接手機。"
+      }
+    ]
+  }
+}

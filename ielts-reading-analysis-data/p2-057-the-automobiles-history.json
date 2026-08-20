@@ -1,0 +1,1789 @@
+{
+  "id": "p2-057-the-automobiles-history",
+  "catalogueId": "p2-057",
+  "catalogueIds": [
+    "p2-057"
+  ],
+  "passage": 2,
+  "title": "The automobile’s history",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "A",
+    "B",
+    "F",
+    "C",
+    "E",
+    "internal combustion engine",
+    "identity and status",
+    "15 minutes",
+    "1973 oil crisis",
+    "a polluting gas-guzzler",
+    "engine power",
+    "Exhaust gases",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D — Mercedes-Benz",
+      "answerKey": "D — Mercedes-Benz",
+      "type": "Matching Automobile",
+      "prompt": "“began producing the first practical automobiles”",
+      "translation": "開始生產第一批實用汽車。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是品牌配對題，要找哪個品牌或公司和 “first practical automobiles” 及 “began producing”有關。關鍵不只在 first practical，也要看到 started to produce。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is generally acknowledged that the first practical automobiles equipped with petrol- or gasoline-powered internal combustion engines were invented almost at the same time by different German inventors who were working on their own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般認為，第一批配備汽油內燃機的實用汽車，幾乎在同一時間由不同德國發明者各自發明。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benz obtained a patent for his invention on 29 January 1886, and in 1888, he started to produce automobiles in a company that later became the renowned Mercedes-Benz.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Benz 在 1886 年 1 月 29 日為自己的發明取得專利；1888 年，他開始在一間公司生產汽車，該公司後來成為著名的 Mercedes-Benz。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 主要交代 practical automobiles 的德國起源，以及 Benz如何從發明走到生產。題目有 “began producing”，末句有 “started to produce”，所以這段非常吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “first practical automobiles” 和 “began producing”。原文第一句有 “first practical automobiles”，末句有 “started to produce automobiles”。兩句合起來把答案帶到 Benz及後來的 Mercedes-Benz。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文真正定案的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benz obtained a patent for his invention on 29 January 1886, and in 1888, he started to produce automobiles in a company that later became the renowned Mercedes-Benz.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Benz 在 1886 年取得專利，1888 年開始在一間後來成為 Mercedes-Benz 的公司生產汽車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “began producing”，原文說 “started to produce”。題目的 “the first practical automobiles”回到同段第一句。雖然原文人物是 Karl Benz，選項沒有 Karl Benz，只提供品牌 / 公司名，因此要選 “a company that later became … Mercedes-Benz”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "began producing = started to produce first practical automobiles = first practical automobiles equipped with petrol- or gasoline-powered internal combustion engines Mercedes-Benz = company that later became the renowned Mercedes-Benz所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A — Ford",
+      "answerKey": "A — Ford",
+      "type": "Matching Automobile",
+      "prompt": "“mass-produced cars that ordinary consumers could afford”",
+      "translation": "大量生產普通消費者買得起的汽車。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪個品牌或人物與 mass production 和 affordable automobiles 相關。題目中的ordinary consumers 對應原文中的 public / middle class / affordable。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The United States led the adoption of interchangeable parts and assembly-line mass production, and from 1914, this concept was significantly reinforced by Henry Ford.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國率先採用可互換零件和裝配線式大規模生產；從 1914 年起，Henry Ford 大幅加強了這個概念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This mixture of high wages and high efficiency was known as Fordism, which provided a valuable lesson for most major industries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種高工資和高效率的混合模式被稱為 Fordism，為多數主要工業提供了寶貴一課。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Ford 的 assembly-line mass production 和 Fordism。題目有mass-produced 和 affordable，Paragraph 4 是最直接目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “mass-produced” 和 “afford”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This marked the debut of large-scale production-line manufacture of affordable automobiles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這標誌著可負擔汽車的大規模生產線製造首次登場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “large-scale production-line manufacture” 對應 mass-produced。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“affordable automobiles” 對應 ordinary consumers could afford。前一段也補充 Ford “set the price of his cars as low as possible” and “paid his employees wages high enough to afford the cars they made”，所以 Ford 和 affordability 的關係很強。題目問品牌，選項 A 是 Ford。這裡的答案不是 Mercedes-Benz，因為 Mercedes-Benz 對應 first practical automobile production；Ford 對應 mass production and affordability。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mass-produced = large-scale production-line manufacture cars ordinary consumers could afford = affordable automobiles / middle class could afford them Ford = Henry Ford / Fordism所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — the BMC Mini",
+      "answerKey": "B — the BMC Mini",
+      "type": "Matching Automobile",
+      "prompt": "“used automobile space efficiently”",
+      "translation": "有效運用汽車內部空間。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪個品牌或車款和 “space-efficient” 相關。這是一個原字定位題，space efficiently 很可能直接對應原文的 space-efficient。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1950s, engine power and vehicle speeds increased, designs evolved into more integrated and artistic forms, and car ownership expanded globally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1950 年代，engine power 和 vehicle speeds 提升，設計演變成更整合、更具藝術感的形式，汽車擁有量也在全球擴大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the 20th century, there had been a sharp fall in the number of automobile marques.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 20 世紀末，汽車品牌數量已經大幅下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段處理戰後設計、市場、競爭和品牌整合。題目提到 automobile space，段落中間很可能出現某款車的設計特色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “space efficiently”。在 Paragraph 6 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“BMC first launched a revolutionary space-efficient Mini in 1959, which went on to achieve strong global sales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BMC 在 1959 年首次推出革命性的 space-efficient Mini，後來取得強勁全球銷售。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接把 “space-efficient” 和 “Mini” 連在一起。題目把形容詞 “space-efficient” 改寫成動詞短語 “used automobile space efficiently”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“BMC first launched” 表示這款車是 BMC Mini。選項 B 完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "used automobile space efficiently = space-efficient the BMC Mini = revolutionary space-efficient Mini strong global sales = later market success, not the answer focus所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "F — Jeep",
+      "answerKey": "F — Jeep",
+      "type": "Matching Automobile",
+      "prompt": "“continuously improved the car’s overall performance”",
+      "translation": "持續改善汽車整體性能。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一個品牌與 “continuously improved / upgraded” 有關。題目使用 “overall performance”，原文可能用 “functions” 或 “upgraded” 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prototype Bantam BRC was the first Jeep automobile and the primary light four-wheel-drive vehicle used by the US Army and the Allies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bantam BRC 原型車是第一款 Jeep automobile，也是美國陸軍和盟軍使用的主要輕型四輪驅動車。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since then, many Jeep derivatives with similar military and civilian functions have been created and continuously upgraded in other countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自此以後，許多具有類似軍用和民用功能的 Jeep 衍生車款在其他國家被創造出來，並持續升級。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 5 專講 Jeep 的軍事起源和後續發展。題目有 continuously improved，末句有 continuously upgraded，非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “continuously improved”。原文對應 “continuously upgraded”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “overall performance” 可回到 “military and civilian functions”，也就是車款功能和用途上的延伸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since then, many Jeep derivatives with similar military and civilian functions have been created and continuously upgraded in other countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此後，許多 Jeep 衍生車款被創造並持續升級，具備類似軍用和民用功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“continuously upgraded” 是定案短語。題目用 “improved the car’s overall performance” 概括upgraded 的結果。雖然原文沒有逐字寫 performance，Jeep 是唯一一個出現 continuously upgraded 的選項，因此 F 最穩。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "continuously improved = continuously upgraded overall performance = military and civilian functions / vehicle functions Jeep = Jeep derivatives所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C — Cadillac and Lincoln",
+      "answerKey": "C — Cadillac and Lincoln",
+      "type": "Matching Automobile",
+      "prompt": "“achieved strong sales even during an economic recession”",
+      "translation": "即使在經濟衰退期間也取得強勁銷售。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪個品牌在 economic crisis 中仍有好表現。題目中的 economic recession 可能在原文以 economic crisis 表示。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the US, car performance dominated marketing, as exemplified by pony cars and muscle cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，汽車性能主導市場推廣，pony cars 和 muscle cars 就是例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The irony in all this was that full-size sedans such as Cadillac and Lincoln scored a huge comeback during the economic crisis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整件事的諷刺之處在於，在經濟危機期間，Cadillac 和 Lincoln 這類 full-size sedans 竟然取得巨大回歸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講美國市場由 performance marketing 轉入 1970s 危機，最後提到Cadillac 和 Lincoln 的 comeback。題目中的 economic recession 直接對應末句 economic crisis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “economic recession / crisis” 和 “strong sales”。原文有 “scored a huge comeback during the economic crisis”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“huge comeback” 表示市場表現強勢回升，可以合理對應 “achieved strong sales”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The irony in all this was that full-size sedans such as Cadillac and Lincoln scored a huge comeback during the economic crisis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "諷刺的是，在經濟危機期間，Cadillac 和 Lincoln 這類大型轎車取得巨大回歸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “economic crisis” 改寫成 “economic recession”，把 “scored a huge comeback” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“achieved strong sales”。品牌名稱直接出現，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "economic recession = economic crisis achieved strong sales = scored a huge comeback Cadillac and Lincoln = full-size sedans such as Cadillac and Lincoln所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E — Mazda",
+      "answerKey": "E — Mazda",
+      "type": "Matching Automobile",
+      "prompt": "“achieved considerable success with a rotary engine”",
+      "translation": "憑 rotary engine 取得相當成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是品牌配對中最直接的一題。定位詞 rotary engine 幾乎必然原字出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the technology front, the most important developments of the post-war era were the widespread use of independent suspension, wider application of fuel injection, and a growing emphasis on safety in automobile design.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在科技方面，戰後時代最重要的發展包括 independent suspension 的廣泛使用、fuel injection 的更廣泛應用，以及汽車設計中日益重視安全。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mazda achieved considerable success with its rotary engine, which nevertheless acquired a reputation as a polluting gas-guzzler.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mazda 憑 rotary engine 取得相當成功；不過，這款引擎也獲得 polluting gas-guzzler 的名聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 8 專講戰後汽車技術發展。最後一句已直接包含 Mazda、considerable success 和 rotary engine。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “rotary engine”。原文末句直接出現同一短語。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mazda achieved considerable success with its rotary engine…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mazda 憑它的 rotary engine 取得相當成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完全支援題目。題目和原文只是省略了 possessive “its”。選項 E 是 Mazda。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "achieved considerable success = achieved considerable success with a rotary engine = with its rotary engine Mazda = Mazda所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "internal combustion engine",
+      "answerKey": "internal combustion engine",
+      "type": "Short-answer Questions",
+      "prompt": "“What important engine feature became widespread in the nineteenth century?”",
+      "translation": "十九世紀有哪一項重要引擎特徵變得普及？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案要用 NO MORE THAN THREE WORDS AND/OR A NUMBER。答案應是一個引擎特徵或引擎類型。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The history of the automobile dates back to 1769, when steam-powered vehicles were invented to carry people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "汽車歷史可追溯至 1769 年，當時 steam-powered vehicles 被發明用來載人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1806, the first cars powered by an internal combustion engine came into being, paving the way for the widespread modern petrol-fuelled internal-combustion engine introduced in 1885.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1806 年，第一批由 internal combustion engine 推動的汽車出現，為 1885 年 introduced 的廣泛現代 petrol-fuelled internal-combustion engine 鋪路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段是汽車早期動力技術的時間線：1769 年蒸汽動力，1806 年內燃機汽車，1885 年現代汽油內燃機。題目問 nineteenth century 的 engine feature，因此 Paragraph 1 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “engine feature” 和 “nineteenth century”。原文中 1806 和 1885 都是十九世紀年份；與engine 最相關的短語是 “internal combustion engine” 以及 “petrol-fuelled internal-combustion engine”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1806, the first cars powered by an internal combustion engine came into being, paving the way for the widespread modern petrol-fuelled internal-combustion engine introduced in 1885.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1806 年第一批內燃機汽車出現，並為 1885 年現代汽油內燃機的普及鋪路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 important engine feature。核心特徵是 “internal combustion”。如果要填一個自然名詞短語，最穩妥是 “internal combustion engine”，三個詞，符合字數限制。原文 1885 句中的完整說法是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“petrol-fuelled internal-combustion engine”，但題目問 feature，考試答案寫 “internal combustion engine” 已抓住核心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "became widespread = paving the way for the widespread modern …nineteenth century = 1806 / 1885 important engine feature = internal combustion engine所以答案是 internal combustion engine。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "identity and status",
+      "answerKey": "identity and status",
+      "type": "Short-answer Questions",
+      "prompt": "“What did a car symbolise to wealthy people at the beginning of the twentieth century?”",
+      "translation": "二十世紀初，汽車對富人來說象徵甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案要用 NO MORE THAN THREE WORDS AND/OR A NUMBER。題目問 “symbolise”，答案通常是一個抽象名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the beginning of the twentieth century, the automobile entered the transport market as a product for the wealthy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀初，汽車作為富人的產品進入交通市場。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, he set the price of his cars as low as possible; second, he paid his employees wages high enough to afford the cars they made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，Ford 盡量把車價定得低；第二，他給員工足夠高的工資，使他們買得起自己製造的汽車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段從汽車作為富人商品，發展到 Ford 令汽車更可負擔。題目問 wealthy people and symbolise，因此要看本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “wealthy people” 和 “symbolise”。原文第一句有 “product for the wealthy”，後文直接有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“symbol of identity and status”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Everybody in the community knew who owned what car, and cars immediately became a symbol of identity and status.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社區中每個人都知道誰擁有哪一輛車，汽車立刻成為身份和地位的象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What did a car symbolise…?” 原文答案在 “a symbol of” 後面。答案應抽取核心名詞短語"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“identity and status”。這裡的 identity 指個人身份或形象；status 指社會地位。對富人來說，汽車既是交通工具，也展示他們是誰、處於甚麼社會位置。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "symbolise = became a symbol of wealthy people = product for the wealthy / car owners known by community answer = identity and status所以答案是 identity and status。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "15 minutes",
+      "answerKey": "15 minutes",
+      "type": "Short-answer Questions",
+      "prompt": "“How long did Ford’s assembly line take to produce a car?”",
+      "translation": "Ford 的裝配線生產一輛車需要多久？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案需要時間，通常要保留數字和單位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The United States led the adoption of interchangeable parts and assembly-line mass production, and from 1914, this concept was significantly reinforced by Henry Ford.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國率先採用可互換零件和裝配線大規模生產；從 1914 年起，Henry Ford 大幅強化了這個概念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This mixture of high wages and high efficiency was known as Fordism, which provided a valuable lesson for most major industries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種高工資與高效率的結合被稱為 Fordism，為大多數主要工業提供了寶貴一課。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 是 Ford assembly line、mass production 和 efficiency 的段落。題目問 assembly line take how long，因此必看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “assembly line” 和 “How long”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Ford car came off fully assembled from the line every 15 minutes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每隔 15 分鐘，就有一輛 Ford 汽車從生產線上完整組裝下線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Ford car came off fully assembled from the line every 15 minutes, an interval shorter than with any previous method.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一輛 Ford 車每 15 分鐘就能完整組裝下線，這個間隔比以往任何方法都短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “How long did … take to produce a car?” 原文說 “every 15 minutes”。答案要保留數字和時間單位，所以是 15 minutes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "produce a car = a Ford car came off fully assembled assembly line = the line how long = every 15 minutes所以答案是 15 minutes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "1973 oil crisis",
+      "answerKey": "1973 oil crisis",
+      "type": "Short-answer Questions",
+      "prompt": "“What major historical event caused the American automobile industry to struggle against Japanese imports?”",
+      "translation": "哪一個重大歷史事件令美國汽車業在面對日本進口車時陷入困境？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案應是事件名稱，並要保留年份。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the US, car performance dominated marketing, as exemplified by pony cars and muscle cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，汽車性能主導市場行銷，pony cars 和 muscle cars 就是例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The irony in all this was that full-size sedans such as Cadillac and Lincoln scored a huge comeback during the economic crisis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "諷刺的是，在經濟危機期間，Cadillac 和 Lincoln 這類大型轎車取得巨大回歸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 7 是美國汽車業在 1970s 的市場轉折段。題目提到 Japanese imports，也會把我們帶到同段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Japanese imports” 和 “American automobile industry”。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in the 1970s, everything changed as the American automobile industry suffered from the 1973 oil crisis, competition with Japanese and European imports, automobile emission-control regulations and a lack of innovation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在 1970 年代，一切都改變了，因為美國汽車業受到 1973 年石油危機、日本和歐洲進口車競爭、汽車排放控制規例，以及缺乏創新的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子列出多項令 American automobile industry 受挫的因素。題目問 “major historical event”，在這串因素中，真正是 historical event 的是 “1973 oil crisis”。Japanese imports 是同句中的另一個競爭壓力，但題目問的是哪個事件造成困境，因此答案要選 1973 oil crisis。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "major historical event = 1973 oil crisis struggle = suffered from Japanese imports = Japanese and European imports所以答案是 1973 oil crisis。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "a polluting gas-guzzler",
+      "answerKey": "a polluting gas-guzzler",
+      "type": "Short-answer Questions",
+      "prompt": "“What was Mazda’s rotary engine reputed to be?”",
+      "translation": "Mazda 的 rotary engine 有甚麼名聲？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案應回應 “reputed to be”，即 “被認為是甚麼”。字數限制是最多三個字及 / 或數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the technology front, the most important developments of the post-war era were the widespread use of independent suspension, wider application of fuel injection, and a growing emphasis on safety in automobile design.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在科技方面，戰後時代最重要的發展包括 independent suspension 的廣泛使用、fuel injection 的更廣泛應用，以及汽車設計中越來越重視安全。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mazda achieved considerable success with its rotary engine, which nevertheless acquired a reputation as a polluting gas-guzzler.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mazda 憑 rotary engine 取得相當成功；不過，它也獲得 polluting gas-guzzler 的名聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 8 講戰後汽車技術，最後聚焦 Mazda rotary engine 的成功和負面名聲。題目有 Mazda and rotary engine，所以目標段非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Mazda’s rotary engine” 和 “reputed”。原文用 “acquired a reputation as…” 表達 “was reputed to be”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mazda achieved considerable success with its rotary engine, which nevertheless acquired a reputation as a polluting gas-guzzler.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mazda 的 rotary engine 取得相當成功，但也有「污染大、耗油高」的名聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案應在 “a reputation as” 後面取詞，所以是 “a polluting gas-guzzler”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“gas-guzzler” 指耗油量很大的車或引擎；“polluting” 指造成污染。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reputed to be = acquired a reputation as Mazda’s rotary engine = its rotary engine answer = a polluting gas-guzzler所以答案是 a polluting gas-guzzler。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "engine power",
+      "answerKey": "engine power",
+      "type": "Short-answer Questions",
+      "prompt": "“What has greatly increased with the use of computerised engine-management systems?”",
+      "translation": "在 computerised engine-management systems 的幫助下，甚麼大幅增加？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案應是一個名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The modern era has also witnessed a sharp rise in engine power with the help of computerised engine-management systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代時代也在 computerised engine-management systems 的幫助下，見證了 engine power 的急劇上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exhaust gases from both fuels pollute the air and contribute to climate change and global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩種燃料產生的 exhaust gases 會污染空氣，並促成 climate change 和 global warming。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 9 先講現代技術令引擎力量提升，再講 petrol / diesel 排放問題。題目問 computerised engine-management systems，首句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “computerised engine-management systems”。原文第一句逐字出現。其前面的 “sharp rise in engine power” 是答案所在。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The modern era has also witnessed a sharp rise in engine power with the help of computerised engine-management systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代汽車因電腦化引擎管理系統，出現 engine power 的大幅上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What has greatly increased…?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “a sharp rise in engine power”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“greatly increased” 對應 “sharp rise”；真正增加的是 “engine power”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "greatly increased = sharp rise with the use of = with the help of answer = engine power所以答案是 engine power。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "Exhaust gases",
+      "answerKey": "Exhaust gases",
+      "type": "Short-answer Questions",
+      "prompt": "“What substance contributes to pollution, climate change and global warming?”",
+      "translation": "哪一種物質造成污染，並促成氣候變化和全球暖化？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與字數限制",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer question，答案應是一個物質或排放物名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The modern era has also witnessed a sharp rise in engine power with the help of computerised engine-management systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代時代在電腦化引擎管理系統的幫助下，見證了 engine power 的急劇上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exhaust gases from both fuels pollute the air and contribute to climate change and global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩種燃料產生的 exhaust gases 會污染空氣，並促成氣候變化和全球暖化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 9 包含現代汽車性能和環境問題。題目出現 pollution、climate change、global warming，與最後一句高度一致。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “pollution / climate change / global warming”。原文最後一句三個概念都出現：pollute the air、contribute to climate change、global warming。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exhaust gases from both fuels pollute the air and contribute to climate change and global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "petrol 和 diesel 兩種燃料產生的廢氣會污染空氣，並促成氣候變化和全球暖化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What substance…?” 主語正是 “Exhaust gases”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“both fuels” 指前一句的 petrol or diesel。題目不問 fuel type，問造成污染和暖化的物質，因此答案要填 exhaust gases。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "substance = exhaust gases contributes to pollution = pollute the air climate change and global warming = climate change and global warming所以答案是 Exhaust gases。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "B — The historical development and innovation in car designs.",
+      "answerKey": "B — The historical development and innovation in car designs.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main idea of the passage?”",
+      "translation": "本文主旨是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是主旨題，要看全文，不可只看某一段。主旨應能覆蓋汽車早期發明、量產、品牌演變、技術創新、市場競爭和現代問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文由 Paragraph 1 的 1769 steam-powered vehicles 開始，接着到 Paragraph 2 的 Benz 和Mercedes-Benz、Paragraph 3–4 的 Ford affordability and mass production、Paragraph 5 的Jeep、Paragraph 6 的 Mini 和品牌整合、Paragraph 7 的美國市場危機、Paragraph 8 的戰後技術、Paragraph 9 的現代引擎管理和環境影響。這條路線清楚呈現 “historical development”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的關鍵詞是 “historical development” and “innovation in car designs”。原文多段都反覆出現與發展和創新相關的概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“dates back to 1769”"
+            },
+            {
+              "kind": "quote",
+              "text": "“introduced in 1885”"
+            },
+            {
+              "kind": "quote",
+              "text": "“assembly-line mass production”"
+            },
+            {
+              "kind": "quote",
+              "text": "“space-efficient Mini”"
+            },
+            {
+              "kind": "quote",
+              "text": "“engine power and vehicle speeds increased”"
+            },
+            {
+              "kind": "quote",
+              "text": "“widespread use of independent suspension”"
+            },
+            {
+              "kind": "quote",
+              "text": "“computerised engine-management systems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些不是單一環境議題，也不只談 gasoline-engine design；它們共同組成汽車技術、設計和產業的歷史演變。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項排除"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “The influence of cars on the environment.” Paragraph 9 確實提到 exhaust gases、pollution、climate change 和 global warming，但環境只是結尾其中一個現代問題。全文大部分篇幅講發明、品牌、量產、設計、競爭和科技發展，因此 A範圍太窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The historical development and innovation in car designs.”這是最佳答案。它能覆蓋早期動力、Benz 的實用汽車、Ford 大規模生產、Jeep、Mini、戰後設計、rotary engine 和 modern engine-management systems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “The beginning of modern gasoline-engine design.”這只對應 Paragraphs 1–2。文章後面還有 Fordism、Jeep、Mini、1970s crisis、Mazda 和環境問題，所以 C 只符合文章開頭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The history of humans and the automobile industry.”這個選項太寬泛，也不自然。文章主要講 automobile 的歷史和設計 / 技術 / 產業變化，沒有真正講 “history of humans”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The automobile’s history.pdf",
+    "sha256": "d8e4ca535dbf0b250ececd6ba050ca0578d448353aacd3dda0659093c41b9e84",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句把 automobile history 追溯到 1769 年，當時已有 steam-powered vehicles 用來載人。末句說 1806 年出現由 internal combustion engine 推動的汽車，並為 1885 年 introduced 的 modern petrol-fuelled internal-combustion engine 鋪路。只看首尾句，可以估計本段是早期汽車動力技術的時間線，由蒸汽車走向內燃機。Question 20 的 “important engine feature” 和 nineteenth century 很可能定位在這裡。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說第一批 practical automobiles，配備 petrol- or gasoline-powered internal combustion engines，普遍被認為幾乎同時由不同 German inventors 發明。末句說 Benz 1886 年取得專利， 1888 年開始在一間公司生產汽車，該公司後來成為 Mercedes-Benz。只看首尾句，可以估計本段集中於 Benz、德國發明者和 first practical automobiles 的商業化起點。Question 14 的 “began producing the first practical automobiles” 明顯應看這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說二十世紀初，automobile 進入交通市場時，是 wealthy people 的產品。末句說 Ford 做了兩件關鍵事：盡量降低車價，以及付給員工足以買得起自己所造汽車的工資。只看首尾句，可以估計本段由汽車作為富人身份象徵，轉到中產也能負擔汽車的過程。中間會提到 identity and status、freedom of travel、dropping prices，因此 Questions 21 和 15 的背景都在這裡或下一段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 United States 領先採用 interchangeable parts 和 assembly-line mass production，1914年起由 Henry Ford 大幅強化。末句說高工資與高效率的混合稱為 Fordism，為多數主要工業提供重要一課。只看首尾句，可以估計本段主題是 Ford 的大規模生產線和工業管理模式。中間有affordable automobiles、every 15 minutes、higher productivity、reduced labour requirements 和safety procedures，Questions 15 和 22 會在這段找到直接證據。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 prototype Bantam BRC 是第一款 Jeep automobile，也是 US Army and the Allies 使用的主要 light four-wheel-drive vehicle。末句說自此許多 Jeep derivatives 被創造出來，具備類似military and civilian functions，並在其他國家 continuously upgraded。只看首尾句，可以估計本段專講 Jeep 的軍用起源、二戰及戰後銷售上升，以及後來不斷升級。Question 17 的 “continuously improved” 很可能由 continuously upgraded 改寫而來。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 1950s 期間，engine power 和 vehicle speeds 增加，設計變得更 integrated and artistic，全球 car ownership 也擴大。末句說到 20 世紀末，automobile marques 的數量 sharply fell。只看首尾句，可以估計本段處理戰後至 20 世紀末的品牌、設計、市場和全球競爭變化。中間有 Detroit facing foreign competition、BMC Mini、badge-engineered cars、corporate consolidation 等。 Question 16 和部分品牌配對會在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說在美國，car performance 主導 marketing，例子包括 pony cars 和 muscle cars。末句說諷刺的是，在經濟危機中，full-size sedans such as Cadillac and Lincoln 取得巨大回歸。只看首尾句，可以估計本段集中於美國車市在 1970s 的轉折：性能行銷、1973 oil crisis、日本與歐洲進口車競爭、排放規例、缺乏創新，以及 Cadillac 和 Lincoln 的 comeback。Questions 18 和 23 都在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 post-war era 最重要的科技發展包括 independent suspension、fuel injection 和automobile design 對 safety 的重視。末句說 Mazda 的 rotary engine 曾取得 considerable success，但也有 polluting gas-guzzler 的名聲。只看首尾句，可以估計本段專講戰後汽車科技進步，尤其是懸掛、燃油噴射、安全設計和 Mazda rotary engine。Questions 19 和 24 的定位詞Mazda、rotary engine、reputed 都會指向這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 modern era 也因 computerised engine-management systems 見證 engine power sharp rise。末句說 petrol 和 diesel 兩種燃料產生的 exhaust gases 會污染空氣，並促成 climate change 和 global warming。只看首尾句，可以估計本段是現代汽車技術與環境後果的總結。它一方面講 engine power 的提升，另一方面講 internal combustion engine、petrol / diesel 和排氣污染。Questions 25、26 和 main idea 排除項 A 都會用到這段。"
+      }
+    ]
+  }
+}

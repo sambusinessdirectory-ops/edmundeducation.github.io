@@ -1,0 +1,1134 @@
+{
+  "id": "p2-122-life-code-unlocked",
+  "catalogueId": "p2-122",
+  "catalogueIds": [
+    "p2-122"
+  ],
+  "passage": 2,
+  "title": "Life code: unlocked!",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "ix",
+    "vi",
+    "x",
+    "vii",
+    "v",
+    "i",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "biological phenomena",
+    "DNA microarrays",
+    "myriad conditions",
+    "expression levels"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "ix — Using a method borrowed from another field",
+      "answerKey": "ix — Using a method borrowed from another field",
+      "type": "Matching Headings",
+      "prompt": "Questions 14–19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 14 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。這類題要看全段主題，不要只抓其中一個例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of shying away from this question, the 36-year-old applied mathematician and physicist at Columbia University embraced it—and now, six years later, he thinks he has an answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位 36 歲的哥倫比亞大學應用數學家兼物理學家沒有避開這個問題，反而接受了它；六年後，他認為自己已有答案。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wiggins and his colleagues have now brought machine learning to the natural sciences and tweaked it so that it can also tell a story—one not only about input and output but also about what happens inside a model of gene regulation, the black box in between.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wiggins 和同事把 machine learning 帶到自然科學，並加以調整，使它不只說明輸入與輸出，也能說明 gene regulation model 這個中間黑箱內部發生甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “machine learning”、“artificial intelligence”、“natural sciences”。這些詞顯示方法原本屬於 artificial intelligence / engineering，後來被 Wiggins 帶入 natural sciences。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "核心證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“By venturing into fields outside his own, Wiggins has drawn on tools from a branch of artificial intelligence called machine learning…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wiggins 走進自己原本領域以外的範圍，借用了人工智能一個分支 machine learning 的工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的 “borrowed from another field” 對應 “fields outside his own” 和 “artificial intelligence called machine learning”。全段重點是跨領域方法移植，所以答案是 ix。Heading vii 也有machine learning，但它集中於 data decide what to look at，較適合 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 15 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vi — The technical advances that enabled detailed gene research"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph C 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The impetus for this work began in the late 1990s, when high-throughput techniques generated more mRNA expression profiles and DNA sequences than ever before…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項工作的推動力始於 1990 年代後期，當時 high-throughput techniques 產生了前所未有的大量 mRNA expression profiles 和 DNA sequences。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As noisy and incomplete as the data were, biologists could now query which genes turn on or off in different cells and determine the collection of proteins that give rise to a cell’s characteristic features, healthy or diseased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使數據雜亂且不完整，生物學家現在仍能查詢哪些基因在不同細胞中開啟或關閉，並判斷哪些蛋白質集合形成細胞的特徵，不論健康或患病。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “high-throughput techniques”、“DNA microarrays”、“panoramic view”、“gene activity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是技術進步和細緻基因研究的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Key among these techniques were DNA microarrays, chips that provide a panoramic view of the activity of genes and their expression levels in any cell type, simultaneously and under myriad conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術之中最重要的是 DNA microarrays；這些晶片能同時在各種細胞類型和多種條件下，提供基因活動和 expression levels 的全景視圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 說 “technical advances that enabled detailed gene research”。這正好概括high-throughput techniques 和 DNA microarrays 帶來的研究能力。Heading iv “Drawing a map of genes” 太籠統，沒有抓到 technical advances 這個主軸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 16 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：x — A difficult obstacle to discovering the rules governing gene activity"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph D 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet predicting such gene activity requires uncovering the fundamental rules that govern it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，要預測這種基因活動，就需要揭示支配它的基本規則。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If your experiment requires statistics,’ British physicist Ernest Rutherford once said, ‘you ought to have done a better experiment.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國物理學家 Ernest Rutherford 曾說：「如果你的實驗需要統計學，你本應把實驗做得更好。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “predicting gene activity”、“fundamental rules”、“statistics”、“infer the interaction”。這些詞都指向「找規則」的困難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To find these rules, scientists needed statistics to infer the interaction between genes and the proteins that regulate them and to then mathematically describe this network’s underlying structure…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了找出這些規則，科學家需要用統計學推斷 genes 和調控它們的 proteins 之間的互動，然後用數學描述這個網絡的底層結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段重點是：gene activity 背後有 rules，但要找出 rules 需要 statistics；偏偏一些 physicists 抗拒statistics。Heading x 完整覆蓋 “difficult obstacle” 和 “rules governing gene activity”。Heading viii說 failure to identify specific genes controlling proteins，焦點太窄，Paragraph D 談的是整個規則和網絡結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 17 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — A way to decide which data are worth investigating"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in working with microarrays, ‘the experiment has been done without you,’ Wiggins explains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wiggins 解釋說，在使用 microarrays 時，「實驗已經在沒有你的情況下完成了」。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When working with so many unknown variables, ‘machine learning lets the data decide what’s worth looking at,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，當面對如此多未知變數時，machine learning 讓 data 自己決定甚麼值得研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “unknown variables”、“data decide”、“worth looking at”。這些詞幾乎直接對應 heading vii。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正定案句就是尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“machine learning lets the data decide what’s worth looking at.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "machine learning 讓數據決定哪些東西值得留意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的 “decide which data are worth investigating” 對應 “data decide what’s worth looking at”。這段前半也說 biology does not hand you a model、some genes and proteins are not even known，說明研究者缺少現成框架，所以需要 machine learning 幫忙篩選訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 18 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：v — An algorithm jointly applied by Wiggins and another scientist to build a model that can"
+            },
+            {
+              "kind": "paragraph",
+              "text": "identify new examples"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the Kavli Institute, Wiggins began building a model of a gene regulatory network in yeast…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Kavli Institute，Wiggins 開始建立 yeast gene regulatory network 的 model。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In gene regulatory networks, the learning task becomes the problem of predicting whether genes increase or decrease their protein-making activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 gene regulatory networks 中，learning task 變成預測 genes 的 protein-making activity 會增加還是減少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Christina Leslie”、“classifier”、“labeled examples”、“new pictures”、“predicting”。這些詞指向一個可學習規則並辨認新例子的 algorithm。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leslie suggested using a specific machine-learning tool called a classifier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leslie 建議使用一種特定 machine-learning 工具，叫做 classifier。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“From these rules, the algorithm generates a model that can determine whether or not new pictures have bikes in them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據這些規則，algorithm 產生一個 model，可以判斷新的圖片裡有沒有自行車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 提到 “Wiggins and another scientist”、“build a model”、“identify new examples”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 正是在解釋 Leslie 建議 classifier，並用 bicycle pictures 例子說明它如何辨認新例子，所以答案是 v。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 19 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：i — Finding the best match between a model and data to predict gene activity"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph G 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The algorithm that Wiggins and Leslie began building in the fall of 2002 was trained on the DNA sequences and mRNA levels of regulators expressed during a range of conditions in yeast…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wiggins 和 Leslie 在 2002 年秋天開始建立的 algorithm，以 yeast 在多種條件下表達的regulators 的 DNA sequences 和 mRNA levels 作訓練。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By adding one pairing at a time, MEDUSA can predict which genes ratchet up their RNA production or clamp that production down, as well as reveal the collective mechanisms that orchestrate an organism’s transcriptional logic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MEDUSA 透過每次加入一個 pairing，可以預測哪些 genes 會提高 RNA production，哪些會降低 production，並揭示組織 transcriptional logic 的集體機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “MEDUSA”、“best improves the fit”、“model and data”、“predict”。Heading i 幾乎把這段核心直接概括出來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“MEDUSA finds the pairing that best improves the fit between the model and the data it tries to emulate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MEDUSA 找出最能改善 model 和它嘗試模仿的 data 之間吻合度的 pairing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 說 “Finding the best match between a model and data to predict gene activity”。這完全對應 “best improves the fit between the model and the data” 以及尾句的 “predict which genes…” Heading ii “The definition of MEDUSA” 只覆蓋名稱解釋，無法概括整段流程。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Wiggins was the first person to use DNA microarrays to study genes.”",
+      "translation": "Wiggins 是第一個使用 DNA microarrays 研究 genes 的人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph C，也要回看 Paragraph A / B 的時間線。Paragraph C 首句說 late 1990s 已有 high-throughput techniques；尾句說 biologists could now query which genes turn on or off。這表示 microarrays 的使用背景早已存在，並且已有 biologists 使用這些資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “first person”、“DNA microarrays”、“study genes”。原文沒有 “first person”，但有 “late 1990s”、“biologists could now query”，以及 Paragraph A 的 spring day in 2002。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The impetus for this work began in the late 1990s, when high-throughput techniques generated more mRNA expression profiles and DNA sequences than ever before…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項工作的推動力始於 1990 年代後期，當時 high-throughput techniques 產生了前所未有的大量 mRNA profiles 和 DNA sequences。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“biologists could now query which genes turn on or off in different cells…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生物學家現在可以查詢哪些 genes 在不同細胞中開啟或關閉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Wiggins 是第一個使用 DNA microarrays 研究 genes 的人。原文顯示，在 Wiggins 看到spreadsheet 之前，late 1990s 的技術和 biologists 的查詢工作已經存在。Paragraph E 也說 “the experiment has been done without you”，表示 Wiggins 面對的是已生成的資料。這和 “first person” 衝突，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is almost impossible to reduce the interaction patterns among DNA, RNA and proteins to fundamental laws.”",
+      "translation": "要把 DNA、RNA 和 proteins 之間的互動模式化約成基本定律，幾乎是不可能的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But in working with microarrays, ‘the experiment has been done without you,’ Wiggins explains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wiggins 解釋說，使用 microarrays 時，實驗已經在沒有你的情況下完成。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When working with so many unknown variables, ‘machine learning lets the data decide what’s worth looking at,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對這麼多未知變數時，machine learning 讓 data 決定甚麼值得看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “DNA, RNA, and proteins”、“interaction patterns”、“fundamental laws”。原文有幾乎完全對應的句子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even more challenging, the building blocks that make up DNA, RNA, and proteins are assembled in myriad ways; moreover, subtly different rules of interaction govern their activity, making it difficult, if not impossible, to reduce their patterns of interaction to fundamental laws.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更具挑戰的是，構成 DNA、RNA 和 proteins 的 building blocks 以無數方式組合；此外，細微不同的互動規則支配它們的活動，使人很難，甚至可能不可能，把它們的互動模式化約成基本定律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “almost impossible” 對應原文 “difficult, if not impossible”。題目中的 “interaction patterns”也直接對應 “patterns of interaction”。方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Wiggins is very optimistic about the future of genetic research.”",
+      "translation": "Wiggins 對 genetic research 的未來非常樂觀。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落是 Paragraph B 和 Paragraph E。Paragraph B 說 Wiggins thinks he has an answer；Paragraph E 說 machine learning performs well under unknown variables。這些內容顯示他相信 machine learning 有用，但題目問的是他是否 “very optimistic about the future of genetic research”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “very optimistic”、“future”、“genetic research”。掃描全文，沒有直接出現 optimistic、future prospects、promising future、genetic research will improve 等說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "相關句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“now, six years later, he thinks he has an answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "六年後，他認為自己已有答案。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wiggins believes that many machine-learning algorithms perform well under precisely these conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wiggins 相信許多 machine-learning algorithms 正是在這些條件下表現良好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只支援：Wiggins 對 machine learning 處理未知變數有信心。題目多加了 “very optimistic” 和 “future of genetic research” 兩個核心元素。文章沒有交代他對整個 genetic research 未來的情緒或預測，也沒有提供「非常樂觀」的程度判斷。因此答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "biological phenomena",
+      "answerKey": "biological phenomena",
+      "type": "Summary Completion",
+      "prompt": "Question 23",
+      "translation": "Wiggins 說，研究 genetic components 的技術快速進步，促使研究者以全新方式看待 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wiggins says that rapid advances in techniques for studying genetic components prompted researchers to look at 23 ______ in a completely new way.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。首句提到 high-throughput techniques 產生大量 mRNA profiles 和 DNA sequences；這和 summary 的 “rapid advances in techniques” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “completely new way”。原文有完全對應的 “opening up a completely different way of thinking about biological phenomena”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The impetus for this work began in the late 1990s, when high-throughput techniques generated more mRNA expression profiles and DNA sequences than ever before, ‘opening up a completely different way of thinking about biological phenomena,’ Wiggins says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項工作的推動力始於 1990 年代後期，當時 high-throughput techniques 產生了比以往更多的mRNA profiles 和 DNA sequences；Wiggins 說，這開啟了一種完全不同的方式去思考 biological phenomena。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a completely different way of thinking about” 對應 summary 的 “look at … in a completely new way”。答案是 biological phenomena，兩個 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "DNA microarrays",
+      "answerKey": "DNA microarrays",
+      "type": "Summary Completion",
+      "prompt": "Question 24",
+      "translation": "______ 是這些技術的核心。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“24 ______ are central to these techniques.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph C。這段先總說 high-throughput techniques，再指出其中關鍵技術。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “central to these techniques”。原文沒有 central，但有 “Key among these techniques were…”，意思相近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Key among these techniques were DNA microarrays, chips that provide a panoramic view of the activity of genes and their expression levels…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技術之中最重要的是 DNA microarrays；它們是能提供 gene activity 和 expression levels 全景視圖的晶片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Key among these techniques” 對應 “central to these techniques”。答案是 DNA microarrays，兩個 words，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "myriad conditions",
+      "answerKey": "myriad conditions",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "儘管 measurements 是在 ______ 下進行，它們仍提供 gene activity 的全景視圖。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the 25 ______ under which measurements were taken, they provide a panoramic view of gene activity…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標位置在 Paragraph C 中間。這段介紹 DNA microarrays 能同時在不同 cell types 和conditions 下觀察 gene activity。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “under which measurements were taken”。這提示我們找 “under + noun” 結構。原文有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“under myriad conditions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“DNA microarrays, chips that provide a panoramic view of the activity of genes and their expression levels in any cell type, simultaneously and under myriad conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "DNA microarrays 是一些晶片，能在任何 cell type 中，同時並在多種條件下，提供 gene activity和 expression levels 的全景視圖。"
+            },
+            {
+              "kind": "quote",
+              "text": "“under myriad conditions” 對應題目 “under which measurements were taken”。答案是 myriad conditions，兩個 words。注意：同段還有 “noisy and incomplete”，但那是形容 data quality。這題空格後面有 “under which”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，文法上最自然接 “conditions”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "expression levels",
+      "answerKey": "expression levels",
+      "type": "Summary Completion",
+      "prompt": "Question 26",
+      "translation": "它們在每種 cell type 中提供 gene activity 和 ______ 的全景視圖。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“they provide a panoramic view of gene activity and 26 ______ in every type of cell.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標仍是 Paragraph C。空格前 “gene activity and” 提示答案應是另一個名詞短語，並且和 gene activity 並列。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “panoramic view”、“gene activity”、“every type of cell”。原文有 “panoramic view of the activity of genes and their expression levels in any cell type”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“provide a panoramic view of the activity of genes and their expression levels in any cell type…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提供 genes 的 activity 和它們的 expression levels 在任何 cell type 中的全景視圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把 “the activity of genes” 改寫成 “gene activity”，把 “any cell type” 改寫成 “every type of cell”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 expression levels，兩個 words，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Life code_ unlocked!.pdf",
+    "sha256": "81a95e747b1a0feb8f8170dbcb3cd1018034696c72eedb2db684c1d1e736be21",
+    "pageCount": 13
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把場景放在 airport shuttle bus，Chris Wiggins 打開一份 Excel spreadsheet。尾句用他的問題 “How to make sense of all this data?” 收結。只看首尾句，這段主要是突破開始前的回憶： Wiggins 第一次看到 yeast genes 的 mRNA 數據，面對大量 biological data，不知道如何理解。這段功能是引入故事背景，所以例題 Paragraph A 配 iii。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Wiggins 沒有逃避這個問題，反而開始處理它；尾句說 machine learning 不只描述 input和 output，也能解釋 gene regulation model 內部發生甚麼。只看首尾句，這段大概講 Wiggins 把人工智能領域的 machine learning 帶入 natural sciences，用來理解基因調控的黑箱。段落重點是跨領域借用方法。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說這項工作的推動力來自 1990s 後期的 high-throughput techniques，產生大量 mRNA profiles 和 DNA sequences。尾句說即使數據 noisy and incomplete，biologists 仍可查詢哪些genes turn on or off。這段功能是解釋技術背景：DNA microarrays 等新技術讓研究者能同時觀察gene activity 和 expression levels，開啟新的 biological thinking。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說要預測 gene activity，就要找出 governing rules。尾句引用 Rutherford，說如果實驗需要statistics，實驗本身就應做得更好。首尾句顯示這段處理一個難題：要發現 gene-protein interaction 的規則，就需要 statistics 和 mathematical description；可是一些 physicists 對statistics 抗拒，令找規則變得困難。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說在 microarrays 研究中，實驗已經在你之前完成，biology 也不會直接給你 model。尾句說machine learning lets the data decide what’s worth looking at。這段功能是解釋為何 machine learning 適合這種情況：DNA、RNA、proteins 的互動複雜，未知變數很多，研究者只能讓 data 幫助篩選值得研究的訊號。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Wiggins 開始建立 yeast gene regulatory network model。尾句說在 gene regulatory networks 中，learning task 變成預測 genes 的 protein-making activity 會增加或減少。只看首尾句，這段介紹 Christina Leslie 建議的 classifier：它先從 labeled examples 學習 decision rules，再把這種方法應用到 gene regulation prediction。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Wiggins 和 Leslie 在 2002 年秋天建立的 algorithm，以 yeast 的 DNA sequences 和mRNA levels 作訓練。尾句說 MEDUSA 能預測 genes 何時提高或降低 RNA production，並揭示transcriptional logic。這段功能是詳細解釋 MEDUSA 如何逐步找出 motif-regulator pairings，讓model 和 data 更吻合，最後預測 gene activity。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1530 @@
+{
+  "id": "p2-102-its-eco-logical",
+  "catalogueId": "p2-102",
+  "catalogueIds": [
+    "p2-102"
+  ],
+  "passage": 2,
+  "title": "IT’S ECO-LOGICAL",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "YES",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "NO",
+    "NOT GIVEN",
+    "B",
+    "D",
+    "E",
+    "A",
+    "D",
+    "World Tourism Organisation",
+    "city entrepreneurs",
+    "1992 Earth Summit"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“The term ‘ecotourism’ has become an advertising gimmick.”",
+      "translation": "“ecotourism” 這個詞已經變成一種廣告噱頭。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN 題，題目問 writer’s views。要判斷作者是否認為 ecotourism 這個詞已被市場宣傳濫用。控制詞是 “advertising gimmick”，意思接近 marketing trick / promotional label。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“If there were awards for tourism phrases that have been hijacked, diluted and misused then‘ecotourism’ would earn top prize.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果旅遊用語中有一個獎項頒給那些被挪用、淡化和濫用的詞語，那麼 “ecotourism” 會獲得最高獎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It rapidly became the hottest marketing tag a holiday could carry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它很快成為一個假期行程可以掛上的最熱門市場宣傳標籤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的語氣已很清楚：作者認為 ecotourism 這個詞被市場大量使用，且意義被沖淡。這和題目中的 “advertising gimmick” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “advertising gimmick”。原文沒有直接使用 gimmick，但 “hottest marketing tag” 是非常接近的表達。“hijacked, diluted and misused” 也提示這個詞已被過度包裝和濫用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It rapidly became the hottest marketing tag a holiday could carry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它很快成為一個假期行程可以掛上的最熱門市場宣傳標籤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“marketing tag” 指市場宣傳標籤。題目中的 “advertising gimmick” 比 “marketing tag” 批評意味更重，但原文第一句已經用 “hijacked, diluted and misused” 補足這種批評語氣。因此，題目命題和作者觀點一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "advertising gimmick= hottest marketing tag= a phrase hijacked, diluted and misused判斷：YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“The intentions of those who coined the term ‘ecotourism’ were sincere.”",
+      "translation": "最初創造或使用 “ecotourism” 這個概念的人，動機是真誠的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 writer 是否認為 ecotourism 的原始動機是好的。控制詞是 “intentions” 和 “sincere”。原文可能用 motives、honourable attempts 之類的詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These days the ecotourism label is used to cover anything from a two-week tour living with remote Indonesian tribes, to a one-hour motorboat trip through an Australian gorge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今 ecotourism 這個標籤可用來涵蓋各種行程，從與印尼偏遠部落生活兩星期，到在澳洲峽谷乘一小時快艇遊都有。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that the original motives behind the movement were honourable attempts to provide a way for those who cared to make informed choices, but the lack of regulations and a standard industry definition left many travellers lost in an ecotourism jungle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，這個運動背後的原始動機是可敬的嘗試，目的是為關心環境的人提供作出知情選擇的方法；可是缺乏規例和行業標準定義，令很多旅客迷失於 ecotourism jungle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段先批評標籤被廣泛套用，最後承認 original motives were honourable。題目正是問原始動機。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “intentions” 和 “sincere”。原文對應 “original motives” 和 “honourable attempts”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“coined the term” 沒有逐字出現，但題目問的是概念早期目的，和 “original motives behind the movement” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“There is no doubt that the original motives behind the movement were honourable attempts to provide a way for those who cared to make informed choices…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，這個運動背後的原始動機是可敬的嘗試，目的是為關心環境的人提供作出知情選擇的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的態度非常明確。“There is no doubt” 表示作者肯定這一點；“honourable attempts” 表示動機正當、真誠。題目用 “sincere” 概括 “honourable motives”，屬於合理改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "intentions= original motives sincere= honourable判斷：YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Ecotourism is growing at a faster rate than any other type of travel.”",
+      "translation": "Ecotourism 的增長速度比任何其他旅遊類型都快。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “faster rate than any other type of travel”。這是一個最高級比較。文章若只提供ecotourism 的增長率，仍不足以證明它比所有其他旅遊形式都快。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is easier to understand why the ecotourism market has become so overcrowded when we look at its wider role in the world economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們看看 ecotourism 在世界經濟中的更大角色，就較容易理解為何這個市場變得如此擁擠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a time-consuming process and many travellers take an operator’s claims at face value, only adding to the proliferation of fake ecotours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個耗時的過程，而很多旅客直接相信營辦商的說法，結果只會令假 ecotours 進一步增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 是市場規模和市場混亂段。它會提供數字資料，例如金額、比例和增長率，所以最適合檢查 Question 16。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “growing” 和 “faster rate”。掃描 Paragraph 3，可找到："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“an annual growth rate of around five per cent”。這句提供了 ecotourism 的增長率，但要繼續檢查有沒有和其他 travel types 比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Add to this an annual growth rate of around five per cent and the pressure for many operators, both in developed and developing countries, to jump on the accelerating bandwagon is compelling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上每年約百分之五的增長率，發達國家和發展中國家的許多營辦商都面對強大壓力，想加入這個正在加速的潮流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 ecotourism 年增長約 5%，並說 operator 加入的壓力很強。題目額外加入 “faster than any other type of travel”，這需要其他旅遊類型的增長數據或明確比較。文章沒有提供這項比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料清單：原文有： ecotourism annual growth rate around five per cent ecotourism is worth US$20 billion ecotourism makes up one-fifth of international tourism原文缺少： other types of travel growth rates ecotourism faster than all other travel any ranking of growth speed判斷：NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“It is surprising that so many tour organisations decided to become involved in ecotourism.”",
+      "translation": "很多旅遊機構決定加入 ecotourism，這令人意外。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看作者是否覺得 operators 加入 ecotourism 令人 surprised。真正控制答案的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“surprising”。如果原文說這件事很容易理解，或經濟壓力很 compelling，方向便和題目相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句：“It is easier to understand why the ecotourism market has become so overcrowded when we look at its wider role in the world economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們看看 ecotourism 在世界經濟中的更大角色，就較容易理解為何這個市場變得如此擁擠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a time-consuming process and many travellers take an operator’s claims at face value, only adding to the proliferation of fake ecotours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個耗時的過程，而很多旅客直接相信營辦商的說法，結果只會令假 ecotours 進一步增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，作者已表示市場擁擠是可以理解的。這和題目 “surprising” 形成直接對照。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “surprising” 和 “so many tour organisations”。原文對應 “many operators” 和 “the pressure … is compelling”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Add to this an annual growth rate of around five per cent and the pressure for many operators, both in developed and developing countries, to jump on the accelerating bandwagon is compelling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上每年約百分之五的增長率，發達國家和發展中國家的許多營辦商都面對強大壓力，想加入這個正在加速的潮流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“compelling” 表示很有吸引力、很難抗拒。作者的邏輯是：市場大、增長快，所以很多 operators 加入並不奇怪，甚至很容易理解。題目說 “It is surprising”，方向和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：surprising"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：easier to understand / pressure is compelling判斷：NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“Tourists have learnt to make investigations about tour operators before using them.”",
+      "translation": "旅客已學會在使用旅遊營辦商前先調查它們。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 tourists 是否真的會主動調查 operators。原文確實提到 consumers 被迫自己調查，但重點在很多人嫌麻煩，直接相信營辦商聲稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is easier to understand why the ecotourism market has become so overcrowded when we look at its wider role in the world economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們看看 ecotourism 在世界經濟中的更大角色，就較容易理解為何這個市場變得如此擁擠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a time-consuming process and many travellers take an operator’s claims at face value, only adding to the proliferation of fake ecotours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個耗時的過程，而很多旅客直接相信營辦商的說法，結果只會令假 ecotours 進一步增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已很接近答案。它說很多旅客 take claims at face value，即直接相信表面說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “learnt”、“make investigations” 和 “tour operators”。原文對應 “consumers have been left to investigate the credentials of operators themselves”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without any widely recognised accreditation system, consumers have been left to investigate the credentials of operators themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於沒有任何廣泛認可的認證制度，消費者只能自行調查營辦商的資歷和可信度。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a time-consuming process and many travellers take an operator’s claims at face value…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個耗時的過程，而很多旅客直接相信營辦商的說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 consumers 被迫承擔調查責任。第二句馬上指出這個過程耗時，而且 many travellers直接相信營辦商說法。題目說 tourists have learnt to investigate，原文顯示很多人並沒有這樣做。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "make investigations= investigate the credentials of operators tourists have learnt to do this與many travellers take claims at face value方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Tourists have had bad experiences on ecotour holidays.”",
+      "translation": "旅客在 ecotour holidays 中有過不愉快經驗。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是旅客實際經驗。文章可能提到 fake ecotours、operators claims、worthy operators，但要選 YES，需要明確說 tourists had bad experiences。若只說存在假行程或市場混亂，仍未足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看相關段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標範圍：Paragraph 3–4 Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a time-consuming process and many travellers take an operator’s claims at face value, only adding to the proliferation of fake ecotours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個耗時的過程，而很多旅客直接相信營辦商的說法，結果只會令假 ecotours 進一步增加。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By taking a little extra time to investigate the ecotourism options, not only can you direct your custom to worthy operators, but you will often find that the experience they offer is far more rewarding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要多花一點時間調查 ecotourism 選項，你不但可以把消費投向值得支持的營辦商，也常會發現它們提供的體驗更有回報。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段確實談到 fake ecotours 和 rewarding experience，但沒有直接講旅客已經有 bad experiences。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “bad experiences” 和 “ecotour holidays”。原文沒有 bad experiences、complaints、disappointed tourists、suffered、negative experiences 等表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 fake ecotours 增加，這表示市場有問題；原文也說選擇 worthy operators 後 experience far more rewarding，這表示好營辦商能提供更佳體驗。可是，這些都沒有直接說旅客曾經在ecotour holidays 中有壞經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料清單：原文有： fake ecotours are proliferating many travellers believe operators’ claims worthy operators may offer more rewarding experiences原文缺少： tourists had bad experiences tourists complained ecotour holidays disappointed travellers判斷：NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B, D, E",
+      "answerKey": "B, D, E",
+      "type": "Question Analysis",
+      "prompt": "Questions 20–22",
+      "translation": "根據文章，以下哪三項關於 Ecotourism Society（TES）是正確的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the information given in the reading passage, which THREE of the following are true of the Ecotourism Society (TES)?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 multiple-answer 題。題目限定 TES，所以不能拿 WTO、Tribes 或 Green Globe 21 的資料作答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ecotourism business is still very much in need of a shake-up and a standardised approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ecotourism 行業仍非常需要整頓和標準化方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“TES also offers guidance on the choice of ecotour and has established a register of approved ecotourism operators around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "TES 也提供選擇 ecotour 的指引，並建立了一份全球 approved ecotourism operators 名冊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 是 TES 的主要介紹段，包含其性質、成員、活動和服務。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "要掃描 TES 的身份、活動和服務。原文中幾個高價值訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-profit organisation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“travel industry, conservation and ecological professionals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“organises an annual initiative”"
+            },
+            {
+              "kind": "quote",
+              "text": "“educational campaign”"
+            },
+            {
+              "kind": "quote",
+              "text": "“offers guidance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“register … around the world”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — It involves a range of specialists in the field.原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Founded in 1990, the Ecotourism Society (TES) is a non-profit organisation of travel industry, conservation and ecological professionals…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ecotourism Society（TES）成立於 1990 年，是一個由旅遊業、保育和生態專業人士組成的非牟利組織。"
+            },
+            {
+              "kind": "quote",
+              "text": "“travel industry, conservation and ecological professionals” 顯示它涉及不同範疇的專業人士。 Option B 的 “a range of specialists” 是對這組人的概括。所以 B 正確。 D — It sets up regular ecotour promotions.原文關鍵句：“TES organises an annual initiative to further aid the development of the ecotourism industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "TES 每年組織一項 initiative，以進一步幫助 ecotourism 行業發展。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year it is launching ‘Your Travel Choice Makes a Difference’, an educational campaign aimed at helping consumers understand the potential positive and negative impacts of their travel decisions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年它推出 “Your Travel Choice Makes a Difference”，這是一項教育活動，旨在幫助消費者了解自己旅遊決定可能帶來的正面和負面影響。"
+            },
+            {
+              "kind": "quote",
+              "text": "“annual initiative” 支援 regular；“educational campaign” 可理解為一種推廣／宣傳活動。這裡promotions 應理解為 educational promotions，不是減價優惠。所以 D 正確。 E — It offers information on ecotours at an international level.原文關鍵句：“TES also offers guidance on the choice of ecotour and has established a register of approved ecotourism operators around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "TES 也提供選擇 ecotour 的指引，並建立了一份全球 approved ecotourism operators 名冊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“guidance” 對應 offers information；“around the world” 對應 international level。所以 E 正確。錯項排除A 說 TES 監察 ecotourism growth。市場數字來自 World Tourism Organisation，文章沒有說TES 做這件事。 C 說 TES 因角色獲 public recognition。文章沒有提到 TES 獲獎或被公開表揚。 F 說 TES consults with people working in tourist destinations。文章沒有說 TES 諮詢目的地工作者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B, D, E。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A, D",
+      "answerKey": "A, D",
+      "type": "Question Analysis",
+      "prompt": "Questions 23–24",
+      "translation": "根據文章，以下哪兩項關於 Green Globe 21 award 是正確的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the information given in the reading passage, which TWO of the following are true of the Green Globe 21 award?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 multiple-answer 題。定位詞是 Green Globe 21，因此要看 Paragraph 6–7。要特別分清Green Globe 21、WTTC、operators 和 destination communities 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6–7 Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in November 1999 Green Globe 21 introduced an annual, independent check on operators wishing to use the logo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在 1999 年 11 月，Green Globe 21 對希望使用標誌的營辦商引入年度獨立檢查。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scheme also allows destination communities to become Green Globe 21 approved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 scheme 也容許旅遊目的地社群獲得 Green Globe 21 approval。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句已提示 Green Globe 21 的兩個重點：獨立檢查，以及 operators 以外的 destination communities 也可獲認可。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找：self-regulating / independent concern、tour operators、tour sites / destination communities、payment、membership、reduce numbers 等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A — The scheme is self-regulating.原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scheme is now an independent concern, though the WTTC still supports it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 scheme 現在是一個獨立機構，不過 WTTC 仍然支持它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 A。這裡的 self-regulating 最合適理解為 scheme 現在以 independent concern 的形式運作，不再由 WTTC 直接協調。要小心：文章同時說 operators 需要 annual, independent check，所以這不等於公司可以完全自己檢查自己。選項 A 在本題語境中對應 “independent concern”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Both tour operators and tour sites can apply for affiliation.原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Green Globe 21 introduced an annual, independent check on operators wishing to use the logo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Green Globe 21 對希望使用標誌的 operators 引入年度獨立檢查。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scheme also allows destination communities to become Green Globe 21 approved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 scheme 也容許 destination communities 獲得 Green Globe 21 approval。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "operators 可以申請使用 logo；destination communities 也可以獲得 approval。Option D 用 “tour sites” 概括 destination communities，意思吻合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除B 說 Amanda Marks 被招募去 develop the award。原文只說她認為 Green Globe 21 是最有希望的系統，沒有說她被招募。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 1999 年前公司不需要付 membership fee。原文說公司以前只要付 annual fee 就可使用logo，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 說它打算減少 ecotour operators 數量。文章沒有這項目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A, D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        23,
+        24
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "World Tourism Organisation",
+      "answerKey": "World Tourism Organisation",
+      "type": "Question Analysis",
+      "prompt": "“Which body provides information on global tourist numbers?”",
+      "translation": "哪個機構提供全球旅遊人數／旅遊數字方面的資料？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，字數限制是 NO MORE THAN THREE WORDS。題目問 “Which body”，所以答案應是一個機構名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is easier to understand why the ecotourism market has become so overcrowded when we look at its wider role in the world economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們看看 ecotourism 在世界經濟中的更大角色，就較容易理解為何這個市場變得如此擁擠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a time-consuming process and many travellers take an operator’s claims at face value, only adding to the proliferation of fake ecotours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個耗時的過程，而很多旅客直接相信營辦商的說法，結果只會令假 ecotours 進一步增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段提供世界經濟和旅遊市場數據，因此最可能藏有 “global tourist numbers” 的來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “body” 和 “global tourist numbers”。掃描 Paragraph 3，可見："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to World Tourism Organisation figures…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to World Tourism Organisation figures, ecotourism is worth US$20 billion a year and makes up one-fifth of all international tourism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 World Tourism Organisation 的數字，ecotourism 每年價值 200 億美元，並佔所有國際旅遊的五分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問哪個 body 提供資料。原文中的資料來源是 “World Tourism Organisation figures”。答案應填機構名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： World Tourism Organisation = 3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：World Tourism Organisation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "city entrepreneurs",
+      "answerKey": "city entrepreneurs",
+      "type": "Question Analysis",
+      "prompt": "“Who often gains financially from tourism in rural environments?”",
+      "translation": "在鄉郊地區旅遊中，誰經常獲得金錢收益？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 “Who”，所以答案應是人物或群體名詞。題目中的 “rural environments” 對應原文 “country areas”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, several simple questions can help assess a company’s commitment to minimising its environmental impact and maximising the benefits to the local community in the tourism area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，幾個簡單問題可幫助評估一家公司是否致力於減少環境影響，並最大化旅遊地區當地社群的收益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By taking a little extra time to investigate the ecotourism options, not only can you direct your custom to worthy operators, but you will often find that the experience they offer is far more rewarding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要多花一點時間調查 ecotourism 選項，你不但可以把消費投向值得支持的營辦商，也常會發現它們提供的體驗更有回報。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講 local community benefit 和 money flow，因此 Question 26 應定位在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “financially” 和 “rural environments”。原文沒有 financially，但有 “the money you pay ends up…”；“rural environments” 對應 “country areas”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is common for city entrepreneurs to own tour companies in country areas, which can mean the money you pay ends up in the city rather than in the community being visited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由城市企業家擁有鄉郊地區的旅遊公司是很常見的，這可能意味著你所支付的金錢最後流向城市，而沒有留在被遊覽的社群。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 who gains financially。原文說 money ends up in the city，原因是 city entrepreneurs own tour companies in country areas。因此，獲益群體是 city entrepreneurs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： city entrepreneurs = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：city entrepreneurs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "1992 Earth Summit",
+      "answerKey": "1992 Earth Summit",
+      "type": "Question Analysis",
+      "prompt": "“Which meeting provided the principles behind the Green Globe 21 regulations?”",
+      "translation": "哪個會議提供了 Green Globe 21 規例背後的原則？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，問 “Which meeting”，所以答案應是會議名稱。定位詞是 Green Globe 21 regulations / principles。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A leading ecotourism operator in the United Kingdom is Tribes, which won the 1999 Tourism Concern and Independent Traveller’s World ‘Award for Most Responsible Tour Operator’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國一個主要 ecotourism operator 是 Tribes，它贏得 1999 年 Tourism Concern 和 Independent Traveller’s World 的 “Award for Most Responsible Tour Operator”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in November 1999 Green Globe 21 introduced an annual, independent check on operators wishing to use the logo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在 1999 年 11 月，Green Globe 21 對希望使用標誌的 operators 引入年度獨立檢查。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段主要講 accreditation scheme 和 Green Globe 21 的標準來源，因此 Question 27 應在此段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Green Globe 21” 和 “principles”。原文對應 “sustainable development standards contained in Agenda 21 from the 1992 Earth Summit”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Green Globe 21 award is based on the sustainable development standards contained in Agenda 21 from the 1992 Earth Summit…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Green Globe 21 award 是以 1992 Earth Summit 所產生的 Agenda 21 中所載的可持續發展標準為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問哪個 meeting 提供背後原則。原文直接說 standards contained in Agenda 21 from the 1992 Earth Summit。若只填 Earth Summit 也能指向會議，但 “1992 Earth Summit” 更完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： 1992 Earth Summit = 3 words / units，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：1992 Earth Summit"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - IT’S ECO-LOGICAL.pdf",
+    "sha256": "6af46860cf6a98856b0bee6dd1f66c5d99974b3d23f67b1ac8d2c8d9749c41ed",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用 “ecotourism” 被 hijacked、diluted、misused 作開場，語氣明顯帶批評。末句說這個詞很快成為假期行程最熱門的 marketing tag。只看首尾句，可以先估計本段講 ecotourism 一詞如何由環保旅遊概念變成市場宣傳標籤。中間應會交代這個詞在 1980s 出現，與環保意識上升和旅客希望自己旅遊不造成負面影響有關。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說現今 ecotourism label 可套用於很多差異極大的行程，由住在印尼部落兩星期，到澳洲峽谷一小時快艇遊。末句說缺乏規例和標準定義令旅客迷失於 ecotourism jungle。只看首尾句，可以判斷本段重點是標籤使用過度和定義混亂。它應會說原本動機可敬，但行業缺少清楚標準，令旅客難以判斷哪些行程真正環保。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說只要看 ecotourism 在世界經濟中的角色，就較容易理解為何市場變得擁擠。末句說很多旅客直接相信營辦商說法，令假 ecotours 繼續增加。只看首尾句，可以估計本段是經濟誘因段： ecotourism 市場龐大、增長吸引，令很多 operator 加入；同時，因缺少公認 accreditation system，消費者要自己查證，假 eco 行程便容易增加。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說幾個簡單問題可幫助評估公司是否真心減少環境影響並增加當地社群收益。末句說多花一點時間調查 ecotourism options，不只可支持可靠營辦商，還常會得到更有回報的體驗。只看首尾句，本段功能是提供旅客判斷方法。中間應會列出材料、工資、員工訓練、公司擁有人和收益流向等檢查點。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 ecotourism business 仍很需要 shake-up 和 standardised approach。末句說 TES 提供選擇 ecotour 的指引，並建立全球 approved ecotourism operators 名冊。只看首尾句，可以判斷本段開始介紹改善機制，尤其是 Ecotourism Society。中間應會說 TES 的成立年份、成員背景、非牟利性質、保育和可持續發展目標，以及消費者教育活動。"
+      },
+      {
+        "number": "6",
+        "summary": "首句介紹英國 leading ecotourism operator Tribes，並說它曾獲 Most Responsible Tour Operator獎。末句說 1999 年 11 月 Green Globe 21 對想使用標誌的 operators 加入年度 independent check。首尾句顯示本段焦點轉向認證制度，尤其是過往 accreditation scheme 的問題，以及Green Globe 21 為何較有希望。中間應會提及 Agenda 21、Earth Summit、WTTC 和舊制度的不足。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Green Globe 21 的現有和新 affiliates 現在有一年時間確保運作符合 Agenda 21 standards。末句說 scheme 也容許 destination communities 獲得 Green Globe 21 approval。只看首尾句，可以估計本段補充 Green Globe 21 的執行細節：inspection、reapply、成本、potential savings、全球 joint ventures，以及不只 tour operators，旅遊目的地社群也可參與。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 ecotourism 作為相對新興行業，經歷 teething pains 並不令人意外。末句說若旅遊業、當地社群、旅客和環境專家能採取 committed and unified approach，ecotourism 這個標籤有機會變得值得自豪和信任。只看首尾句，這是總結段：文章承認問題存在，但語氣轉向審慎樂觀，強調多方合作可修復 ecotourism 的可信度。"
+      }
+    ]
+  }
+}

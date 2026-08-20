@@ -1,0 +1,1619 @@
+{
+  "id": "p2-035-life-casting-and-art",
+  "catalogueId": "p2-035",
+  "catalogueIds": [
+    "p2-035"
+  ],
+  "passage": 2,
+  "title": "Life-Casting and Art",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "E",
+    "B",
+    "F",
+    "D",
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "YES",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“an example of a craftsman’s unsuccessful claim to ownership of his work”",
+      "translation": "一個工匠聲稱自己擁有作品權利但失敗的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many, life-casting was an insult to the sculptor’s creative genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多人來說，life-casting 是對雕塑家創造天才的一種冒犯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some even feared that ‘if too much nature was allowed in, it would lead Art away from its proper course of the Ideal.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人甚至害怕，如果讓太多自然真實進入藝術，它會令藝術偏離通往 Ideal 的正道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會集中講藝術界怎樣排斥 life-casting。題目提到craftsman、claim、ownership，屬於法律或權利爭議，所以要在這段找 lawsuit、permission、rights等字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “craftsman’s unsuccessful claim” 和 “ownership”。原文沒有用ownership，但有 lawsuit、permission、rights："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an infamous lawsuit of 1834, a moulder whose mask of the dying French emperor Napoleon had been reproduced and sold without his permission was judged to have no rights to the image.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1834 年一宗著名的訴訟中，一位 mould-maker 製作了垂死的法國皇帝 Napoleon 的面模；該面模在未經他許可下被複製和出售，但法院裁定他對該形象沒有權利。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “moulder” 對應題目的 craftsman。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“without his permission” 顯示他的作品被別人使用。“was judged to have no rights to the image” 正是 “unsuccessful claim to ownership” 的核心。題目把法律細節概括成「工匠嘗試主張作品權利但不成功」。Paragraph C 同時有 lawsuit、permission、rights 三個訊號，因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有出現 Napoleon，但 Napoleon 是這段最稀有的人名。做 Matching Information 時，若題目有 “ownership / claim / work”，原文很可能用 legal words 表達，例如 lawsuit、rights、permission。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“an example of how trends in art can change attitudes to an earlier work”",
+      "translation": "一個例子，說明藝術潮流如何改變人們對早期作品的態度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time changes our view in another way, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間也會以另一種方式改變我們的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It reminds us slyly, poignantly, of the full-size original.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它以含蓄而動人的方式，提醒我們想起那個真人原型的完整存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph E 會講「時間如何改變觀看方式」。題目中的 “trends in art” 對應原文 “Each new movement”；“change attitudes to an earlier work” 對應 “reassessment of what has gone before”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “trends in art”、“change attitudes”、“earlier work”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each new movement implies a reassessment of what has gone before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一個新的藝術運動，都意味著對過去作品的一次重新評估。"
+            },
+            {
+              "kind": "label",
+              "text": "接著作者給出例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take, for example, the cast of the hand of a giant from a circus, made by an anonymous artist around 1889, an item that would now sit happily in any commercial or public gallery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一隻由匿名藝術家約在 1889 年製作的馬戲團巨人手部鑄模，如今可以很自然地放在任何商業或公共畫廊中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先提出一般原理：new movement 會帶來 reassessment。然後用 giant’s hand cast 作例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件作品本來可能只是 life-cast 或工藝物，但今日眼光會把它看成可以進入 gallery 的藝術品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “trends in art” 對應 “Each new movement”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“change attitudes” 對應 “reassessment”。“an earlier work” 對應 “the cast ... made ... around 1889”。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“the original function of a particular type of art”",
+      "translation": "某一類藝術形式原本的功能。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What also happens is that techniques and crafts which would have been judged inartistic at the time they were used are reassessed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種情況是，一些在當時會被判定為不具藝術性的技術和工藝，後來會被重新評估。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their virtues of speed and unwavering realism also implied their limitations; they left little or no room for the imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們速度快、寫實穩定，這些優點同時也暗示限制；它們幾乎沒有給想像力留下空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯會介紹 life-casting 這種當時被低估的技術。題目問 original function，因此要找 “used for” 這類功能句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “original function” 和 “particular type of art”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, the casts were used for medical research and, consequently, in the nineteenth century life-casting was considered inferior to sculpture…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在當時，這些鑄模被用於醫學研究；因此，在十九世紀，life-casting 被認為低於 sculpture。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the casts were used for medical research” 清楚交代 life-casting 的原本用途。題目說 “a particular type of art”，指後來可被重新評估為藝術的 life-casting；原文說它當時的功能是medical research。所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也談到 objects originally intended for devotional、ritualistic、recreational purposes，但那是一般引入。題目問 “a particular type of art”，而本文的 particular type 是 life-casting，因此真正答案在 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“ways of assessing whether or not an object is art”",
+      "translation": "判斷一件物件算不算藝術的方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But is it art? And, if so, why?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它算藝術嗎？如果算，原因是甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the constant pleasures of art is its ability to come at us from an unexpected angle and stop us short in wonder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術一種持續的樂趣，在於它能從意想不到的角度靠近我們，令我們驚訝得停下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接提出 “is it art?”，所以這段一定與藝術判準有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “assessing”、“whether or not”、“object is art”。原文用 “tests” 表示判斷方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tests are simple: does it interest the eye, excite the brain, move the mind to reflection and involve the heart?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "判準很簡單：它是否吸引眼睛、刺激頭腦、促使心靈反思，並牽動情感？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “ways of assessing” 對應原文 “The tests are simple”。這些 tests 包括四個方面： interest the eye吸引視覺excite the brain刺激思考move the mind to reflection使人反思involve the heart牽動情感這些都是作者提出的藝術判斷方法。因此答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“how artists deal with the less interesting aspects of their work”",
+      "translation": "藝術家如何處理工作中較沉悶、較不吸引的部分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The painter Gauguin, at the end of the nineteenth century, worried about future developments in photography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末，畫家 Gauguin 擔心 photography 的未來發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painters have always used technical back-up such as studio assistants to do the boring bits, while apparently lesser crafts involve great skill, thought, preparation and, depending on how we define it, imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畫家一直都會使用技術支援，例如 studio assistants 來處理沉悶部分；同時，那些表面上較低階的工藝也涉及高度技巧、思考、準備，並且按我們如何定義，也涉及想像力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看尾句，已經看到 “boring bits”，直接對應題目的 “less interesting aspects”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “less interesting aspects”。原文對應短語是 “the boring bits”。同句中有 artists 的具體類別 “Painters”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painters have always used technical back-up such as studio assistants to do the boring bits…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畫家一直會使用技術支援，例如工作室助手，來處理較沉悶的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “boring bits” 改寫成 “less interesting aspects of their work”。“deal with” 對應 “used technical back-up ... to do”。所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不在討論 life-casting 的技術難度，而在 Paragraph D 對傳統藝術工作方式的補充。看到artists 便要留意 painters、studio assistants、boring bits 這組字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Nineteenth-century sculptors admired the speed and realism of life-casting.”",
+      "translation": "十九世紀雕塑家欣賞 life-casting 的速度和寫實性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / C，主力在 Paragraph B 後半和 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What also happens is that techniques and crafts which would have been judged inartistic at the time they were used are reassessed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些在當時會被視為不具藝術性的技術和工藝，後來會被重新評估。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their virtues of speed and unwavering realism also implied their limitations; they left little or no room for the imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們速度快、寫實穩定，這些優點也暗示了限制；它們幾乎沒有給想像力留下空間。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many, life-casting was an insult to the sculptor’s creative genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多人來說，life-casting 是對雕塑家創造天才的冒犯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Nineteenth-century sculptors”、“admired”、“speed and realism”。原文有 speed 和realism，但句子方向不同："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their virtues of speed and unwavering realism also implied their limitations…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們速度快和穩定寫實這些優點，也暗示了限制。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many, life-casting was an insult to the sculptor’s creative genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多人而言，life-casting 冒犯了雕塑家的創造天才。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 sculptors admired speed and realism，意思是他們正面欣賞 life-casting 的特點。原文的態度更複雜，也更負面。Paragraph B 說 speed and realism 雖可稱為 virtues，但馬上指出它們implied limitations，原因是它們 left little or no room for the imagination。Paragraph C 更明確指出 life-casting 對許多人來說是 insult to sculptor’s creative genius。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：admired speed and realism"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：speed and realism implied limitations；life-casting was an insult題目把原文中的受批評特點改成受欣賞特點，方向相反。所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Rodin believed that life-casting would improve if the process were slower.”",
+      "translation": "Rodin 認為，如果 life-casting 過程慢一些，它會變得更好。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many, life-casting was an insult to the sculptor’s creative genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多人來說，life-casting 是對雕塑家創造天才的冒犯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some even feared that ‘if too much nature was allowed in, it would lead Art away from its proper course of the Ideal.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人甚至害怕，如果讓太多自然真實進入藝術，藝術會偏離 Ideal 的正道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中講十九世紀藝術界對 life-casting 的批評。Rodin 出現在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Rodin” 和 “slower”。原文直接有 Rodin："
+            },
+            {
+              "kind": "quote",
+              "text": "“This judgement reflects the view of established members of the nineteenth-century art world such as Rodin, who commented that life-casting ‘happens fast but it doesn’t make Art’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項判決反映了十九世紀藝術界既有成員的觀點，例如 Rodin；他評論 life-casting「發生得很快，但它不能產生 Art」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提供 Rodin 的批評：life-casting happens fast but it doesn’t make Art。這句可以證明Rodin 不把 life-casting 視為真正 Art，也可以證明他注意到它速度快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了另一層條件：if the process were slower，即「如果慢一些」。原文沒有說 Rodin 認為問題只在速度，也沒有說慢了就會 improve。Rodin 的句子可能是在批評它快速、機械、缺乏藝術性，但文章沒有提供他的改良方案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： Rodin believed slower process → life-casting would improve原文提供的證據： Rodin said life-casting happens fast and does not make Art缺少 “would improve if slower” 這個條件關係。因此答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The importance of painting has declined with the development of colour photography.”",
+      "translation": "隨着 colour photography 的發展，painting 的重要性下降了。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The painter Gauguin, at the end of the nineteenth century, worried about future developments in photography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀末，畫家 Gauguin 擔心 photography 的未來發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painters have always used technical back-up such as studio assistants to do the boring bits, while apparently lesser crafts involve great skill, thought, preparation and, depending on how we define it, imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畫家一直會用技術支援，例如 studio assistants 處理沉悶部分；看似較低階的工藝也涉及技巧、思考、準備和想像力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “painting”、“colour photography”、“declined”。原文有 colour photography 的擔心："
+            },
+            {
+              "kind": "quote",
+              "text": "“If ever the process went into colour, what painter would labour away at a likeness with a brush made from squirrel-tail?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 photography 有一天能進入彩色，還有甚麼畫家會用松鼠尾毛製成的畫筆辛苦地畫相似形象？"
+            },
+            {
+              "kind": "label",
+              "text": "但下一句立即說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But painting has proved robust.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 painting 證明了自己很有生命力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 painting 的 importance has declined。原文承認 Gauguin 曾擔心 colour photography 的發展會威脅繪畫，但作者隨即用 “But” 轉折，說 painting has proved robust。robust 在這裡表示有韌性、站得住、沒有被輕易削弱。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句也補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Photography has changed it, of course…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Photography 當然改變了 painting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要分清 changed 和 declined。原文說 photography 改變了 painting，但 painting 依然 robust。題目說 importance declined，語氣比原文強，而且和 “proved robust” 不相容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Life-casting requires more skill than sculpture.”",
+      "translation": "Life-casting 比 sculpture 需要更多技巧。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / D Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What also happens is that techniques and crafts which would have been judged inartistic at the time they were used are reassessed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些在當時會被視為不具藝術性的技術和工藝，後來會被重新評估。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painters have always used technical back-up such as studio assistants to do the boring bits, while apparently lesser crafts involve great skill, thought, preparation and, depending on how we define it, imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畫家一直會使用技術支援處理沉悶部分；看似較低階的工藝也涉及高度技巧、思考、準備和想像力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 skill 比較，所以要找 life-casting 是否和 sculpture 作 skill level 比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more skill than sculpture”。原文相關句包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was complex, technical work…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一項複雜的技術工作。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the nineteenth century life-casting was considered inferior to sculpture…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀，life-casting 被認為低於 sculpture。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“apparently lesser crafts involve great skill, thought, preparation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表面上較低階的工藝也涉及高度技巧、思考和準備。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援三件事：第一，life-casting 是 complex, technical work。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，十九世紀的人認為它 inferior to sculpture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，作者認為看似較低階的工藝也可能需要 great skill。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目需要比較句：life-casting requires more skill than sculpture。原文沒有說 life-casting 比sculpture 更需要技巧，也沒有比較兩者技巧高低。作者只是在修正傳統偏見，說 low-status crafts也有 skill。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的核心資料是 “more than sculpture”。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“complex, technical work” 很容易令人覺得 life-casting 技術含量高。這個判斷可以成立，但“more skill than sculpture” 多了比較，原文沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“New art encourages us to look at earlier work in a fresh way.”",
+      "translation": "新的藝術會鼓勵我們用新眼光看較早的作品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time changes our view in another way, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間也會以另一種方式改變我們的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It reminds us slyly, poignantly, of the full-size original.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它以含蓄而動人的方式，提醒我們想起那個真人原型的完整存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一開始已經談 view 的改變，中間直接提到 new movement 和 reassessment。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “New art”、“earlier work”、“fresh way”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each new movement implies a reassessment of what has gone before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一個新的藝術運動，都意味著對過去作品的一次重新評估。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But usually it is a matter of re-alerting the sensibility, reminding us not to take things for granted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但通常情況下，這是在重新喚醒我們的感受力，提醒我們不要把事物視作理所當然。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “New art” 對應原文 “Each new movement”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“look at earlier work” 對應 “what has gone before”。“in a fresh way” 對應 “reassessment” 和 “re-alerting the sensibility”。作者的意思是，新藝術運動會改變我們看過去作品的方式。這未必每次都完全公正，有時可能self-serving，但作者接着說 usually it re-alerts sensibility，提醒我們重新觀看。所以題目和作者觀點一致，答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The intended meaning of a work of art can get lost over time.”",
+      "translation": "一件藝術作品原本的意圖或意義，可能隨時間流失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / F，主力在 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art changes over time and our idea of what art is changes too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術會隨時間改變，我們對藝術是甚麼的理解也會改變。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But is it art? And, if so, why?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它算藝術嗎？如果算，為甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the constant pleasures of art is its ability to come at us from an unexpected angle and stop us short in wonder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術持續令人愉悅的一點，是它能從意想不到的角度接近我們，令我們驚訝停下。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “intended meaning” 和 “over time”。Paragraph F 有非常直接的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few of us can look at a medieval altarpiece as its painter intended.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們很少有人能以中世紀祭壇畫畫家原本意圖的方式去觀看那件作品。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over time the ‘reader’ does become more powerful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨時間過去，「讀者」確實變得更有力量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說今日觀者很難按畫家原本意圖觀看 medieval altarpiece。這表示作品原本的宗教、文化、思想功能會隨時間變得不再直接可感。Paragraph A 也有類似總論：一些原本為 devotional、ritualistic 或 recreational purposes 而造的物件，到了後來文明手中會被 recategorised as art，因為後來的人已經不再回應原本用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “intended meaning ... can get lost over time”。“can get lost” 語氣保守，表示可能發生。原文的 “Few of us can look ... as its painter intended” 正好支援這種說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "作者沒有說作品價值消失。相反，作品可以產生 new fields of pleasure。題目問的是 intended meaning 可能流失，這與作品仍有藝術價值可以同時成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — size and realism",
+      "answerKey": "B — size and realism",
+      "type": "Multiple Choice",
+      "prompt": "“The most noticeable contrast in the cast of the giant’s hand is between…”",
+      "translation": "giant’s hand 這件鑄模中，最明顯的對比是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time changes our view in another way, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間也會以另一種方式改變我們的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It reminds us slyly, poignantly, of the full-size original.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它以含蓄而動人的方式，提醒我們想起那個真人原型的完整存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 用 giant’s hand cast 作例子，說明今日眼光如何重新看待舊物件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “giant’s hand” 和 “contrast”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most significant impact of this piece is on the eye, in the contradiction between unexpected size and verisimilitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件作品最重要的衝擊首先落在視覺上，在於意想不到的尺寸與逼真感之間的矛盾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “contradiction between unexpected size and verisimilitude” 對應選項 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "unexpected size = size verisimilitude = realism / 逼真感 / 像真的程度選項 B “size and realism” 是最直接改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項為何不選： A dirt and decoration原文後面有 “nails are dirt-encrusted” 和 caster’s decorative addition，但這是後續觀察，並非most significant impact。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C choice and arrangement原文有 “element of choice, arrangement, art if you like”，但這是第三步觀察，沒有對應 “most noticeable contrast”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D balance and texture原文說 sleeve-end gives the item balance and variation of texture，屬於細節效果，不是最主要的 contrast。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "D — the way we respond to it",
+      "answerKey": "D — the way we respond to it",
+      "type": "Multiple Choice",
+      "prompt": "“According to the writer, the importance of any artistic object lies in…”",
+      "translation": "根據作者，一件藝術物件的重要性在於甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But is it art? And, if so, why?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它算藝術嗎？如果算，為甚麼？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the constant pleasures of art is its ability to come at us from an unexpected angle and stop us short in wonder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術持續令人愉悅的一點，在於它能從意想不到的角度接近我們，令我們因驚奇而停下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 專門討論作品為何算 art，以及如何判斷它的藝術重要性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “importance”、“artistic object”。原文最關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What counts is the surviving object and our response to it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正算數的是存留下來的物件，以及我們對它的反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “importance ... lies in”，原文用 “What counts is...” 表達同一功能。作者先否定單靠 artist intention 判斷藝術的做法，接着說 works of art do float free of their creators’ intentions。這表示作品可以脫離創作者原意，後來觀者的反應會變得重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “the way we respond to it” 直接對應 “our response to it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A the artist’s intentions原文說作品會 float free of creators’ intentions，因此作者不把重點放在這裡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B the artist’s beliefs原文沒有把 artist’s beliefs 作為判準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C the relevance it has to modern life文章談到 later viewers 會重新理解作品，但沒有說 modern relevance 是核心判準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Life-Casting and Art.pdf",
+    "sha256": "6ae111f58ec55fd9d2bd16904377acd252956f382a8698bcf79f5d758ce89152",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句段 Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句說 art 和我們對 art 的理解都會隨時間改變。尾句指出，一些原本有宗教、儀式或娛樂用途的物件，到了後來文明手中，可能被重新分類為 art。只看首尾句可見，本段是總開場：作者先建立「藝術分類會變」這個觀點，為後文 life-casting 從科學用途轉為藝術展品鋪路。 B 首句說一些當時被視為不具藝術性的技巧和工藝，後來也會被重新評估，life-casting 正是有趣例子。尾句說 life-casting 和 photography 的速度與寫實雖是優點，也暗示限制，因為給想像力留下空間很少。首尾句顯示，本段介紹 life-casting 的方法、原本用途和當時被低估的原因。 C 首句說對很多人而言，life-casting 是對 sculptor creative genius 的侮辱。尾句說有人甚至害怕太多 nature 進入藝術，會令 Art 偏離 Ideal。只看首尾句可見，本段集中講十九世紀藝術界對 life-casting 的排斥，包括法律案例、Rodin 的批評，以及傳統藝術觀對「太寫實」的焦慮。 D 首句說 Gauguin 在十九世紀末擔心 photography 日後若能進入 colour，畫家還有甚麼理由用筆慢慢畫 likeness。尾句說所謂 lesser crafts 也需要 skill、thought、preparation 和imagination。首尾句顯示，本段比較 senior arts 和 junior arts，重點在說傳統藝術其實也依賴技術支援，低階工藝也有高度技巧。 E 首句說時間也會以另一種方式改變我們的看法。尾句說這隻 moulded hand 雖只是手，卻能代表完整的人，令人隱約而動人地想起原本的真人。首尾句顯示，本段講新藝術運動如何令我們重新看舊作品，並以 giant’s hand cast 作例子，展示它如何因今日眼光而具有藝術力量。 F 首句提出核心問題：這算 art 嗎？如果算，為甚麼？尾句說藝術的一種持續樂趣，是它能從意想不到的角度接近我們，令我們驚訝停下。首尾句顯示，本段進入判準討論：作者認為作品可脫離創作者意圖，重點轉向 surviving object 和觀者反應。Questions 17、24、26很可能在此。",
+        "label": "落"
+      }
+    ]
+  }
+}

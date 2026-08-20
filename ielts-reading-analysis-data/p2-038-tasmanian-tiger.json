@@ -1,0 +1,1498 @@
+{
+  "id": "p2-038-tasmanian-tiger",
+  "catalogueId": "p2-038",
+  "catalogueIds": [
+    "p2-038"
+  ],
+  "passage": 2,
+  "title": "Tasmanian Tiger",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "black stripes",
+    "12 million",
+    "Australia",
+    "European",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "D",
+    "B",
+    "D",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "black stripes",
+      "answerKey": "black stripes",
+      "type": "Summary Completion",
+      "prompt": "“The Tasmanian tiger, also called the thylacine, resembled a dog and had 14 ______ on its coat.”",
+      "translation": "Tasmanian tiger，又叫 thylacine，外形像狗，身上有 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，答案要來自文章，且 NO MORE THAN TWO WORDS。空格前有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“had”，後面有 “on its coat”，所以答案需要是一個名詞短語，描述外觀特徵。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“Although it was called a tiger, it looked like a dog with black stripes on its back and it was the largest known carnivorous marsupial of modern times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然它被稱為 tiger，但它看起來像一隻背上有黑色條紋的狗，而且是現代已知最大的肉食性有袋動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scientific name for the Tasmanian tiger is Thylacine and it is believed to have become extinct in the 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tasmanian tiger 的科學名稱是 Thylacine，並相信已在 20 世紀滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 主要介紹 Tasmanian tiger 的外觀、分類和滅絕狀態。題目問 resembled a dog 和 coat 上的特徵，正好對應首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “resembled a dog” 和 “coat”。原文沒有 resembled，而用 “looked like a dog”。題目中的 “coat” 則用較概括的方式指動物身體表面，原文具體寫成 “on its back”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“it looked like a dog with black stripes on its back”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它看起來像一隻背上有黑色條紋的狗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “looked like a dog” 改寫成 “resembled a dog”，把 “on its back” 改寫成 “on its coat”。真正要填的是外觀名詞短語 “black stripes”。答案 black stripes 兩個 words，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 “tiger”。題目問的不是名字中的 tiger，而是外觀上像 dog，加上 black stripes。考Summary Completion 時，空格前後文法比物種名稱更重要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "12 million",
+      "answerKey": "12 million",
+      "type": "Summary Completion",
+      "prompt": "“Fossils show that thylacines existed as early as 15 ______ years ago.”",
+      "translation": "化石顯示 thylacines 早在 ______ 年前已經存在。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fossils of thylacines dating from about 12 million years ago have been dug up at various places in Victoria, South Australia and Western Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可追溯至約 1,200 萬年前的 thylacine 化石，已在 Victoria、South Australia 和 Western Australia多地被挖出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there are still unsubstantiated sightings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，仍然有未經證實的目擊報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 2 是歷史時間線段：先講 fossil evidence，再講 extinction status 和後來的 claimed sightings。題目問 fossils 和 years ago，所以首句是直接目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Fossils” 和 “years ago”。原文首句直接出現 “Fossils of thylacines” 和 “about 12 million years ago”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fossils of thylacines dating from about 12 million years ago…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可追溯至約 1,200 萬年前的 thylacine 化石……題目句子本身已有 “years ago”，所以答案格不用再填 years ago。NO MORE THAN TWO WORDS 下，最安全答案是 12 million。如果填 “about 12 million”，會超過 two words；如果填 “12 million years”，也超過字數限制，而且題目後面已有 years ago。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "Australia",
+      "answerKey": "Australia",
+      "type": "Summary Completion",
+      "prompt": "“They once lived throughout 16 ______ before disappearing from the mainland.”",
+      "translation": "牠們曾經遍布 ______，之後從大陸消失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fossils of thylacines dating from about 12 million years ago have been dug up at various places in Victoria, South Australia and Western Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可追溯至約 1,200 萬年前的 thylacine 化石，已在 Victoria、South Australia 和 Western Australia多地被挖出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there are still unsubstantiated sightings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，仍然有未經證實的目擊報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段由 fossil locations 講到 mainland extinction 和 Tasmania decline。題目中的 “throughout” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mainland” 都把我們帶到 thylacine 曾經分布於澳洲大陸的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “once lived throughout” 和 “mainland”。原文對應 “widespread in Australia” 和“extinct on the continent”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“They were widespread in Australia 7,000 years ago, but have probably been extinct on the continent for 2,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們在 7,000 年前廣泛分布於 Australia，但可能已在該大陸滅絕 2,000 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“widespread in Australia” 對應題目的 “lived throughout Australia”。題目把 “continent” 改寫成“mainland”，意思是澳洲大陸。因此答案是 Australia。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "European",
+      "answerKey": "European",
+      "type": "Summary Completion",
+      "prompt": "“Soon after the arrival of 17 ______ settlers, the Tasmanian population began to decline more rapidly.”",
+      "translation": "在 ______ 定居者到來後不久，Tasmania 的 thylacine 數量開始更快速下降。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fossils of thylacines dating from about 12 million years ago have been dug up at various places in Victoria, South Australia and Western Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可追溯至約 1,200 萬年前的 thylacine 化石，已在 Victoria、South Australia 和 Western Australia多地被挖出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there are still unsubstantiated sightings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，仍然有未經證實的目擊報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的中後段處理 Tasmania 的 decline。題目中的 “settlers” 對應原文的 “European settlement” 和 “new arrivals”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “settlers” 和 “decline more rapidly”。原文沒有 settlers 這個字，但有 “European settlement” 和 “new arrivals”。“decline more rapidly” 則對應 “decline was certainly accelerated”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of disease, thylacine numbers may have been declining in Tasmania at the time of European settlement 200 years ago, but the decline was certainly accelerated by the new arrivals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於疾病，thylacine 數量在 200 年前 European settlement 時可能已在 Tasmania 下降，但新來者肯定加速了這種下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “European settlement” 改成 “arrival of European settlers”。空格在 “______ settlers” 前面，所以答案應填形容詞 European。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “disease”。疾病可能已令數量下降，但題目問 settlers arrival 後的 accelerated decline，所以答案落在 European。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — Hans Naarding",
+      "answerKey": "A — Hans Naarding",
+      "type": "Matching Features",
+      "prompt": "“His report of seeing a live thylacine in the wild attracted international interest.”",
+      "translation": "他在野外看見活 thylacine 的報告，引起國際關注。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The director of Tasmania’s National Parks at the time, Peter Morrow, decided in his wisdom to keep Naarding’s sighting of the thylacine secret for two years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時 Tasmania’s National Parks 的 director Peter Morrow 決定把 Naarding 的 thylacine sighting保密兩年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I was besieged by television crews, including four broadcasting live from Japan, and others from the United Kingdom, Germany, New Zealand and South America,’ said Naarding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Naarding 說：「我被電視團隊包圍，包括四隊來自日本的現場直播團隊，以及其他來自英國、德國、新西蘭和南美的團隊。」只看首尾句，Paragraph 5 明顯講 Naarding sighting 曝光後的媒體轟動，而且是國際層面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “seeing a live thylacine” 和 “international interest”。原文用 “Naarding’s sighting” 指代他看到 thylacine，又用多個國家電視團隊表示 international interest。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the news finally broke, it was accompanied by pandemonium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當消息終於曝光時，隨之而來的是一片混亂轟動。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“I was besieged by television crews, including four broadcasting live from Japan, and others from the United Kingdom, Germany, New Zealand and South America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我被電視團隊包圍，包括四隊從日本現場直播的團隊，以及來自英國、德國、新西蘭和南美的其他團隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “attracted international interest” 是對多國 media attention 的概括。人物是 Hans Naarding，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — Nick Mooney",
+      "answerKey": "D — Nick Mooney",
+      "type": "Matching Features",
+      "prompt": "“Many eyewitness reports are unreliable.”",
+      "translation": "許多目擊報告並不可靠。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Mooney has seen it all—the mistakes, the hoaxes, the illusions and the plausible accounts of sightings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mooney 見過各種情況：錯誤、騙局、幻覺，以及看似可信的目擊說法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a bit like a gold prospector’s blind faith, ‘it has got to be there’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有點像淘金者的盲目信念：「它一定在那裡。」只看首尾句，可以看出這段是 Mooney 對 sightings 的可靠性和心理因素的分析。第一句直接列出 mistakes、hoaxes、illusions，已經支援 eyewitness reports 並非全部可信。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “eyewitness reports” 和 “unreliable”。原文沒有 unreliable 一字，但用 mistakes、hoaxes、illusions 表達不可靠來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Mooney has seen it all—the mistakes, the hoaxes, the illusions and the plausible accounts of sightings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mooney 見過全部類型：錯誤、騙局、幻覺，以及看似可信的目擊說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mistakes” 是誤認；“hoaxes” 是騙局；“illusions” 是錯覺。這三項共同說明很多 reports 不能直接信。題目把這些具體類型概括成 “Many eyewitness reports are unreliable”。人物是 Nick Mooney，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Mooney 也說很多報告者自己相信見到了 thylacine，甚至可以通過 lie-detector test。這"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示人可能真誠，但真誠不等於報告一定可靠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "C — David Pemberton",
+      "answerKey": "C — David Pemberton",
+      "type": "Matching Features",
+      "prompt": "“A species does not always need a particular minimum number of animals to survive.”",
+      "translation": "一個物種不一定永遠需要某個固定最低數量才能存活。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr. David Pemberton, curator of zoology at the Tasmanian Museum and Art Gallery, whose PhD thesis was on the thylacine, says that despite scientific thinking that 500 animals are required to sustain a population, the Florida panther is down to a dozen or so animals and, while it does have some inbreeding problems, is still ticking along.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "David Pemberton 博士是 Tasmanian Museum and Art Gallery 的 zoology curator，博士論文研究 thylacine。他說，雖然科學上認為要維持一個族群需要 500 隻動物，但 Florida panther 只剩大約十多隻，雖有近親繁殖問題，仍然存活。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I’ll take a punt and say that, if we manage to find a thylacine in the scrub, it means that there are 50-plus animals out there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「我願意冒險估計，如果我們能在灌木叢中找到一隻 thylacine，那就意味著外面有 50 多隻。」只看首尾句，Paragraph 9 提出一個較不絕對的族群觀點：標準 minimum population 只是科學一般判斷，實際存活情況可能更複雜。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “minimum number” 和 “survive”。原文用 “500 animals are required to sustain a population” 和 “still ticking along”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“despite scientific thinking that 500 animals are required to sustain a population, the Florida panther is down to a dozen or so animals and, while it does have some inbreeding problems, is still ticking along.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然科學上認為要維持族群需要 500 隻動物，但 Florida panther 只剩十多隻左右，雖有近親繁殖問題，仍然繼續存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “does not always need a particular minimum number” 對應原文的 “despite scientific thinking that 500 animals are required”。Pemberton 用 Florida panther 作反例，說明最低數量規則不能機械套用。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — Randolph Rose",
+      "answerKey": "B — Randolph Rose",
+      "type": "Matching Features",
+      "prompt": "“There is no hope of finding a surviving Tasmanian tiger.”",
+      "translation": "找到仍然存活的 Tasmanian tiger 已沒有希望。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7–8 Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Rose, who in his 35 years in Tasmanian academia has fielded countless reports of thylacine sightings, is now convinced that his dream will go unfulfilled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Rose 在 Tasmania 學術界 35 年間處理過無數 thylacine sighting 報告後，現在相信自己的夢想將無法實現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Sixty years ago, there was only one thylacine that we know of, and that was in Hobart Zoo,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「60 年前，我們知道的 thylacine 只有一隻，而且那隻在 Hobart Zoo。」Paragraph 7 顯示 Rose 的個人希望已轉向失望；Paragraph 8 用族群數量規則支撐他的悲觀判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “no hope” 和 “surviving”. 原文沒有 no hope，但 “his dream will go unfulfilled” 是非常接近的說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“he dreams of seeing a thylacine. But Rose … is now convinced that his dream will go unfulfilled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他夢想看見 thylacine；但 Rose 現在相信這個夢會落空。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“any animal with a population base of less than 1,000 is headed for extinction within 60 years”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何族群基數低於 1,000 的動物，通常會在 60 年內走向滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “his dream will go unfulfilled” 概括成 “There is no hope”。這是較強的說法，但在四個人物中，Rose 的立場最悲觀，答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — Hans Naarding",
+      "answerKey": "A — Hans Naarding",
+      "type": "Matching Features",
+      "prompt": "“If any Tasmanian tigers remain, they should be left undisturbed.”",
+      "translation": "如果還有 Tasmanian tigers 存在，牠們應該被留在原地，不應受干擾。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 15第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Could the thylacine still be out there? ‘Sure,’ Naarding says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "thylacine 仍可能在外面嗎？Naarding 說：「當然有可能。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If there are thylacines out there, they are better off right where they are.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「如果外面仍有 thylacines，牠們留在現在的位置會更好。」只看首尾句，Paragraph 15 明顯是 Naarding 對 thylacine 可能仍存在和應否干預的最終態度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “If any Tasmanian tigers remain” 和 “left undisturbed”。原文對應 “If there are thylacines out there” 和 “better off right where they are”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there are thylacines out there, they are better off right where they are.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果外面仍有 thylacines，牠們留在原地會更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “left undisturbed” 是對 “better off right where they are” 的概括：不要捕捉、搬走、公開追捕或干預。人物是 Hans Naarding，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — Nick Mooney",
+      "answerKey": "D — Nick Mooney",
+      "type": "Matching Features",
+      "prompt": "“The interpretation of evidence can be affected by people’s beliefs.”",
+      "translation": "人們的信念會影響他們如何詮釋證據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Mooney has seen it all—the mistakes, the hoaxes, the illusions and the plausible accounts of sightings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mooney 見過各種情況：錯誤、騙局、幻覺，以及看似可信的目擊說法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a bit like a gold prospector’s blind faith, ‘it has got to be there’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有點像淘金者的盲目信念：「它一定在那裡。」首尾句已顯示這段分析 reported sightings 的心理機制，尤其是 blind faith 如何塑造判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “beliefs” 和 “interpretation of evidence”。原文沒有 interpretation 一字，但有 “blind optimism”、 “that’s a thylacine!” 和 “blind faith”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It is a blind optimism that something is, rather than a cynicism that something isn’t,’ Mooney says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mooney 說：「這是一種相信某物存在的盲目樂觀，而非懷疑某物不存在的冷嘲態度。」再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“If something crosses the road, it’s not a case of ‘I wonder what that was?’ Rather, it is a case of ‘that’s a thylacine!’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果有東西橫過馬路，他們不會想「那是甚麼？」；他們會直接想「那就是 thylacine！」這裡清楚說明：人先有 “it has got to be there” 的信念，然後把模糊 evidence 直接解讀為thylacine。題目把這概括成 “interpretation of evidence can be affected by people’s beliefs”。人物是 Mooney，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B — widespread interest in finding a living thylacine",
+      "answerKey": "B — widespread interest in finding a living thylacine",
+      "type": "Multiple Choice",
+      "prompt": "“Hans Naarding’s sighting resulted in…”",
+      "translation": "Hans Naarding 的目擊事件導致甚麼結果？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 5–6 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The director of Tasmania’s National Parks at the time, Peter Morrow, decided in his wisdom to keep Naarding’s sighting of the thylacine secret for two years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時 Tasmania’s National Parks 的 director Peter Morrow 決定把 Naarding 的 thylacine sighting保密兩年。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Government and private search parties combed the region, but no further sightings were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府和私人搜索隊搜遍該地區，但沒有再出現目擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，可以看到 sighting 先被保密，後來消息曝光，引發媒體和 search parties 行動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Naarding’s sighting” 和 “resulted in”。原文的結果詞包括 “pandemonium”、 “television crews” 和 “search parties combed the region”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the news finally broke, it was accompanied by pandemonium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當消息終於曝光時，隨之而來的是一片轟動混亂。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Government and private search parties combed the region, but no further sightings were made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府和私人搜索隊搜遍該地區，但沒有再有目擊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “widespread interest in finding a living thylacine” 最能概括 media pandemonium 和search parties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯在 “protect the thylacine”。原文說 search parties 搜尋，沒有說展開保護合作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 加入 “worldwide reported sightings increase”，文章沒有這個因果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 literature popularity，原文只說 Australian mythology，不是 literature。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "D — claims that a species is extinct can be mistaken",
+      "answerKey": "D — claims that a species is extinct can be mistaken",
+      "type": "Multiple Choice",
+      "prompt": "“The example of the coelacanth illustrates that…”",
+      "translation": "coelacanth 這個例子說明甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all, animals can be notoriously elusive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，動物可以非常難以尋獲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The strange fish known as the coelacanth, with its ‘proto-legs’, was thought to have died out along with the dinosaurs about 70 million years ago until a specimen was dragged to the surface in a shark net off the south-east coast of South Africa in 1938.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "名為 coelacanth 的奇特魚類，有著「原始腿」般的構造；人們曾以為牠約 7,000 萬年前已和恐龍一起滅絕，直到 1938 年一個標本在南非東南海岸外被鯊魚網拉上海面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段先給 general idea：animals can be elusive，再用 coelacanth 作例。該例子的特別之處是：一個被認為已滅絕的物種，後來被發現仍存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “coelacanth”。原文同段只有一處，非常容易定位。接著要看它被用來 support 哪個general claim。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“was thought to have died out … until a specimen was dragged to the surface”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾被認為已滅絕……直到一個標本被拉上海面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯是：曾經被認為滅絕，不代表一定真的滅絕。選項 D “claims that a species is extinct can be mistaken” 對應這個完整例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 是很強的干擾，因為段落第一句直接說 animals can be notoriously elusive，意思是有些動物很難被找到。但若看 coelacanth 例子如何服務 thylacine 主題，它真正突出的不是單純難找，而是「被判斷為滅絕的物種仍可能被重新發現」。所以我會選 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 只是 coelacanth 的背景資訊；B 完全不符合原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — given some credence even when the claims are untrue",
+      "answerKey": "A — given some credence even when the claims are untrue",
+      "type": "Multiple Choice",
+      "prompt": "“Mooney believes that all reports of sightings should be…”",
+      "translation": "Mooney 認為所有目擊報告都應該怎樣處理？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 13第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, Mooney treats all reports at face value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Mooney 會先按表面內容認真對待所有報告。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obsessive characters get irate that someone in my position is not out there when they think the thylacine is there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些執著的人會很生氣，因為當他們認為 thylacine 在某處時，像我這樣位置的人卻沒有立即到場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段說明 Mooney 的平衡態度：他不羞辱報告者，也不會立即出動。他給報告基本尊重，但保持專業距離。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “all reports” 和 “should be”。原文第一句直接說 “treats all reports at face value”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mooney treats all reports at face value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mooney 會先按表面內容認真對待所有報告。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“I never try to embarrass people, or make fools of them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我從不嘗試令別人尷尬，也不會把他們當傻瓜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“At face value” 表示先給予基本可信度和尊重，不一開始就嘲笑或否定。選項 A 的 “given some credence” 正好對應這點。它加上 “even when the claims are untrue”，是因為前一段已說Mooney 見過 mistakes、hoaxes、illusions；即使如此，他仍不會用羞辱方式處理報告者。 B 錯，因為他明說自己不會每次電話一來就立即出車。 C 錯，因為 “at face value” 的方向不是一律不信。 D 有一定吸引力，因為 Mooney 的工作是 investigating sightings；但題目問他的處理態度，最直接證據是 “treats all reports at face value”。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Tasmanian Tiger.pdf",
+    "sha256": "6fdd9577522db5933cd7d7d9b7eed74c23514e57d055cbb26c7c28d51403ab28",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Tasmanian tiger 雖然叫 tiger，外形卻像背上有黑色條紋的狗。尾句說它的科學名稱是Thylacine，並相信已在 20 世紀滅絕。只看首尾句，可以估計這段在介紹物種身份、外觀和官方滅絕背景。重點詞包括 largest known carnivorous marsupial、least understood、native animals、scientific name。Questions 14 的外觀描述會回到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 thylacine fossils 可追溯至約 12 million years ago，並在澳洲多地被挖出。尾句說雖然官方分類為 extinct，仍有 unsubstantiated sightings。只看首尾句，這段功能是交代 thylacine 的歷史分布和滅絕時間線：曾廣泛分布於 Australia，可能因 dingoes 從大陸消失，後來在 Tasmania 因disease 和 European settlement 加速衰退。Questions 15–17 主要在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句介紹 Hans Naarding，他本來在研究 endangered migratory bird。尾句說他那晚看到的東西，現在被視為最可信的 thylacine recorded sighting。只看首尾句，可以判斷這段開始轉向現代目擊事件。Naarding 不是普通遊客，而是有豐富動物觀察經驗的人，所以他的 sighting 在文章中被賦予較高可信度。Questions 18 和 24 會用到這段與後文。"
+      },
+      {
+        "number": "4",
+        "summary": "首句由 Naarding 親自說 “I had to work at night”，進入目擊細節。尾句說他一伸手拿相機，動物便消失在 tea-tree undergrowth and scrub 中。只看首尾句，這段功能是完整呈現 Naarding 的觀察過程：距離近、觀察時間足、形態特徵清楚，包括 small shepherd dog size、sloping hindquarter、thick tail、12 distinct stripes。這段支援目擊可信度，也支援 Question 18 的背景。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說當時 Tasmania’s National Parks 的 director Peter Morrow 決定把 Naarding 的 sighting 保密兩年。尾句引用 Naarding，說他被來自 Japan、UK、Germany、New Zealand、South America的電視團隊包圍。只看首尾句，這段功能是描述消息曝光後的國際轟動。Question 18 的“attracted international interest” 和 Question 24 的 “widespread interest” 都可定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Government and private search parties 搜遍該地區，但再沒有 sighting。尾句說自此thylacine staged something of a comeback，成為 Australian mythology 的一部分。只看首尾句，可以看出這段講 Naarding sighting 後的搜索和文化效果：真實動物仍未被找到，但它在澳洲神話和想像中重新活躍。Question 24 會用這段確認 sighting 引發大規模搜尋。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說自從 thylacine supposed died out 之後，已有超過 4,000 claimed sightings。尾句說Randolph Rose 現在相信自己看見 thylacine 的夢想會落空。只看首尾句，這段一方面提供大量目擊報告的數字，另一方面引入 Rose 的悲觀立場。Rose 不是完全沒有願望；他夢想見到thylacine，但長期接觸報告後已相信這個夢不會實現。Question 21 主要在這段和下一段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句引用 Rose，說保育界共識是，若動物族群基數低於 1,000，通常會在 60 年內走向滅絕。尾句說 60 年前我們唯一知道的 thylacine 只在 Hobart Zoo。只看首尾句，這段把 Rose 的悲觀判斷建立在族群數量上：如果 60 年前只剩一隻已知個體，按保育模型，野外仍有可持續族群的可能性很低。Question 21 的 “no hope” 由此而來。"
+      },
+      {
+        "number": "9",
+        "summary": "首句引入 David Pemberton，他是 Tasmanian Museum and Art Gallery 的 zoology curator，博士論文研究 thylacine。尾句說如果真的在 scrub 中找到一隻 thylacine，他估計外面應有 50-plus animals。只看首尾句，這段功能是提出較開放的科學態度：雖然一般認為 500 animals 才足以維持族群，但 Florida panther 數量很低仍存活，因此最低族群數不是絕對規則。Question 20 會定位到這段。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 animals can be notoriously elusive。尾句說 coelacanth 原被認為約 70 million years ago已和 dinosaurs 同時消失，直到 1938 年在南非外海被捕獲。只看首尾句，這段用 coelacanth 例子說明：有些動物極難被發現，甚至曾被認為滅絕的物種也可能重新出現。Question 25 就在這段。C 和 D 都有吸引力，但段落功能更偏向滅絕判斷可出錯。"
+      },
+      {
+        "number": "11",
+        "summary": "首句介紹 Nick Mooney，他負責調查自 1980s 中期以來約 4,000 宗 thylacine sightings。尾句說一名 German tourist 的兩張 digital photographs 和 sighting account，在表面上是他見過最有說服力的存活案例之一。只看首尾句，這段功能是介紹 Mooney 作為專責調查者的角色，並帶出近期照片證據。Questions 19、23、26 都要看 Mooney 後續評論。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說 Mooney 已見過各種情況：mistakes、hoaxes、illusions 和 plausible accounts。尾句把這種心態比作 gold prospector’s blind faith：“it has got to be there”。只看首尾句，這段功能是分析目擊報告的心理問題：很多人真心相信自己看見 thylacine，但信念、期待和執著會影響他們詮釋證據。Questions 19 和 23 的核心證據都在這段。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說 Mooney treats all reports at face value。尾句說一些 obsessive characters 會因為Mooney 沒有立即出發調查而生氣。只看首尾句，這段說明 Mooney 的處理態度：他不羞辱報告者，也不把人當傻瓜；但他也不會每接一個電話就立刻出車。Question 26 要小心 “at face value” 的意思：先給予基本尊重和初步可信度，不等於立刻行動。"
+      },
+      {
+        "number": "14",
+        "summary": "首句說 Hans Naarding 對人們花時間和金錢搜尋 tiger 感到 bemused。尾句說資源更應用於saving the Tasmanian devil，以及幫助因濕地縮小而下降的 migratory bird populations。只看首尾句，這段顯示 Naarding 的現實保育取向：即使他有重要 sighting，他仍認為持續花大量資源追尋thylacine 不太值得。這為 Question 22 和最後段落作鋪墊。"
+      },
+      {
+        "number": "15",
+        "summary": "首句問 thylacine 會否仍在外面，Naarding 回答 “Sure”。尾句說如果還有 thylacines，牠們 right where they are 會更好。只看首尾句，這段是全文收結：Naarding 不排除存活可能，但認為即使發現也未必有實質保育意義。比起捕捉、公開或干預，他更傾向讓可能存在的 thylacines 留在原地、不受打擾。Question 22 直接來自這段。"
+      }
+    ]
+  }
+}

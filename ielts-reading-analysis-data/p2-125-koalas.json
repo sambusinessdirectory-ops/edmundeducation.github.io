@@ -1,0 +1,1478 @@
+{
+  "id": "p2-125-koalas",
+  "catalogueId": "p2-125",
+  "catalogueIds": [
+    "p2-125"
+  ],
+  "passage": 2,
+  "title": "Koalas",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "C",
+    "A",
+    "B",
+    "A",
+    "YES",
+    "NO",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C — frequent births from which few offspring survive.",
+      "answerKey": "C — frequent births from which few offspring survive.",
+      "type": "Question Analysis",
+      "prompt": "“Koala numbers have declined for all the following reasons EXCEPT”",
+      "translation": "以下各項都是 koala 數量下降的原因，除了哪一項？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 EXCEPT 題。四個選項中，三個要在原文找到支持；一個不符合原文。做這種題時，不能只找看起來熟悉的字，要逐項核對「是否真的是 decline reason」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C，另需看 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today koalas are found only in scattered pockets of southeast Australia, where they seem to be at risk on several fronts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天 koalas 只在澳洲東南部零散地區出現，牠們似乎正面對多方面風險。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The animals usually die soon, but poachers can easily replace them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物通常很快死亡，但偷獵者很容易補充新的 koalas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 很明顯在列舉 koala decline 的多種威脅，所以 14 題要優先看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “declined”, “poaching”, “disease”, “births”, “road accidents”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 可掃到 “parasites, chlamydia epidemics and a tumour-causing retro-virus”，對應disease；也可掃到 “cars” 和 “poachers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Koalas have been killed by parasites, chlamydia epidemics and a tumour-causing retro-virus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 被寄生蟲、衣原體流行病和一種會導致腫瘤的逆轉錄病毒殺死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持 B disease。"
+            },
+            {
+              "kind": "label",
+              "text": "原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And every year 11,000 are killed by cars … and thousands are killed by poachers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年有 11,000 隻 koalas 被車撞死，另有數以千計被偷獵者殺死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持 D road accidents 和 A poaching。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 “frequent births from which few offspring survive”，意思是「出生頻密，但幼崽存活率低」。原文 Paragraph D 的說法剛好不同："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the main threat to their survival is their slow reproductive rate – they produce only one baby a year over a reproductive lifespan of about nine years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此牠們生存的主要威脅是繁殖速度慢；牠們在約九年的繁殖生命中，每年只生一個幼崽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 slow reproductive rate，每年只生一個；選項 C 說 frequent births，方向不合。至於"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“few offspring survive”，原文也沒有這樣描述。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C — remaining inactive for a long period.",
+      "answerKey": "C — remaining inactive for a long period.",
+      "type": "Question Analysis",
+      "prompt": "“What helps koalas fully digest their food?”",
+      "translation": "甚麼幫助 koalas 完全消化食物？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Koalas eat between 600 and 1,250 grams of foliage from certain eucalyptus species each day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 每天吃 600 至 1,250 克某些 eucalyptus 樹種的葉子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To digest their food properly, koalas must sit still for 21 hours every day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了正常消化食物，koalas 每天必須靜坐 21 小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以即時估計 Paragraph F 是飲食和消化段。題目問 digest food，最後一句已經高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fully digest their food”。原文直接有 “digest their food properly”。這是很強的同義定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To digest their food properly, koalas must sit still for 21 hours every day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了正常消化食物，koalas 每天必須靜坐 21 小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “remaining inactive for a long period” 對應 “sit still for 21 hours every day”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "remaining inactive = sit still for a long period = 21 hours every day fully digest = digest properly錯項分析： A toxic substances in the leaves：原文說葉子含有 toxic cyanides 的前體物，這是消化系統要處理的負擔，不是幫助消化的因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B organs that dissolve fibre：原文說 “Cellulose-digesting bacteria in the caecum break down fibre”，真正分解纖維的是 bacteria，不是 organs 本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D eating eucalyptus leaves：這只是牠們的食物來源，沒有回答「怎樣幫助消化」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — They show signs of distress.",
+      "answerKey": "A — They show signs of distress.",
+      "type": "Question Analysis",
+      "prompt": "“How do koalas react when threatened?”",
+      "translation": "Koalas 受威脅或受驚時會怎樣反應？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Koalas are the epitome of innocence and inoffensiveness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 是天真無害的典型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They use their claws to grip the hard smooth bark of eucalyptus trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們用爪抓住 eucalyptus 樹堅硬而光滑的樹皮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段在處理 koalas 的非攻擊性，以及 claws 的真正用途。題目問threatened reaction，應看中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “threatened”。原文沒有直接用 threatened，但有 “If you upset a koala”。upset 在這裡指令牠不安、受驚或受困擾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you upset a koala, it may blink or swallow, or hiccup. But attack? No way! Koalas are just not aggressive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你令一隻 koala 不安，牠可能會眨眼、吞嚥，或打嗝。攻擊？絕不會！Koalas 完全沒有攻擊性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “show signs of distress” 對應 blink、swallow、hiccup 這些細小緊張反應。牠們受驚時不是反擊，而是出現不安徵象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： B counterattack furiously：和 “But attack? No way!” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C use sharp claws to injure people：原文只說牠們有能力造成傷害，但 “they simply do not attack”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D use claws to grip tree bark：這句本身來自原文，但它不是受威脅時的反應；那是 claws 的正常用途。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B — They allow tourists to hug koalas.",
+      "answerKey": "B — They allow tourists to hug koalas.",
+      "type": "Question Analysis",
+      "prompt": "“How do Australian zoos exploit koalas?”",
+      "translation": "澳洲動物園如何利用 koalas 牟利或消費牠們的可愛形象？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latest problem for the species is perhaps more insidious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個物種最新面對的問題可能更隱蔽。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People may not realise how cruel this is: because of the koala’s delicate disposition, constant handling can push their already precariously balanced physiology beyond its limits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們可能沒有意識到這有多殘忍：由於 koalas 性情脆弱，持續被人觸碰會把牠們本已不穩定的生理平衡推過極限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講一種表面可愛、實際有害的做法。題目中的 exploit 對應 “taken advantage of”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Australian zoos exploit”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australian zoos and wildlife parks have taken advantage of their uncomplaining attitudes…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "完整答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australian zoos and wildlife parks have taken advantage of their uncomplaining attitudes, and charge visitors to be photographed hugging the furry bundles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲動物園和野生動物園利用 koalas 不會抱怨的性情，向遊客收費，讓他們抱著這些毛茸茸的小動物拍照。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 “allow tourists to hug koalas” 正好對應 “charge visitors to be photographed hugging”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "tourists / visitors = 遊客hug koalas = hugging the furry bundles exploit = taken advantage of / charge visitors A pets：原文提到非法寵物是 poachers 的問題，不是 zoos 的 exploit 方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C symbols：Animal Ambassador 在 Paragraph I 出現，但不是 exploit 的具體方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D campaigns：campaigning to ban koala cuddling 是保育團體的行動，方向不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — Introduce national guidelines for handling koalas.",
+      "answerKey": "A — Introduce national guidelines for handling koalas.",
+      "type": "Question Analysis",
+      "prompt": "“What may the authorities do to protect koalas?”",
+      "translation": "當局可能會做甚麼來保護 koalas？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph I。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost every zoo in Australia has koalas—the marsupial has become the Animal Ambassador of the nation—but nowhere outside Australia would handling by the public be allowed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲幾乎每間動物園都有 koalas，這種有袋動物已成為國家的動物大使；但在澳洲以外，公眾接觸 koalas 是不會被容許的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Following a wave of publicity, some zoos and wildlife parks have stopped using their koalas as photographic props.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一波宣傳後，一些動物園和野生動物園已停止把 koalas 當作拍照道具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講公眾 handling、動物園政策和保護行動。題目問 authorities，應看state government authorities 和 national guidelines。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “authorities” 和 “protect”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Policy on koala handling is determined by state government authorities.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“with the aim of establishing national guidelines.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The association is also lobbying the Australian Nature Conservation Agency, with the aim of establishing national guidelines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該協會也正在游說 Australian Nature Conservation Agency，目標是建立全國性指引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “Introduce national guidelines for handling koalas” 對應 “establishing national guidelines”，而全段語境是 koala handling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B close some zoos：原文沒有說關閉動物園。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C discourage the public from visiting zoos：文章批評 cuddling，不等於反對大眾參觀動物園。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D persuade the public to learn more：雖然 publicity 出現，但答案句的具體政策方向是 national guidelines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Newly arrived human settlers posed a danger to koalas.”",
+      "translation": "新來的人類定居者對 koalas 構成危險。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just two hundred years ago, koalas flourished across Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就在兩百年前，koalas 曾在澳洲各地繁盛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Koalas and Aboriginal Australians had coexisted peacefully for centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 和澳洲原住民已和平共存了幾百年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會比較 European settlement 前後的情況：原住民時期和平共存，後來人類活動造成問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “newly arrived human settlers”。原文用 “European settlement”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "settlers = settlement newly arrived human settlers = Europeans arriving and settling in Australia"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their problem, however, has been human activity, particularly since European settlement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們的問題一直是人類活動，特別是自歐洲人定居以來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 newly arrived human settlers posed a danger。原文說問題來自 human activity，尤其是European settlement 之後。再加上下一句說 Aboriginal Australians 和 koalas 之前和平共存，這形成清楚對比：危險主要來自後來的歐洲定居人類活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "newly arrived human settlers = European settlement posed a danger = their problem has been human activity koalas before settlers = coexisted peacefully with Aboriginal Australians"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Koalas can still be seen throughout most of Australia.”",
+      "translation": "Koalas 現在仍可在澳洲大部分地區看到。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today koalas are found only in scattered pockets of southeast Australia, where they seem to be at risk on several fronts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天 koalas 只在澳洲東南部零散地區出現，牠們似乎正面對多方面風險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The animals usually die soon, but poachers can easily replace them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物通常很快死亡，但偷獵者很容易補充新的 koalas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，Paragraph C 已經和題目高度相關，因為題目問 koalas 現在分佈範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “throughout most of Australia”。原文對應位置分佈的短語是 “only in scattered pockets of southeast Australia”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today koalas are found only in scattered pockets of southeast Australia…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天 koalas 只在澳洲東南部零散地區出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 throughout most of Australia，即遍佈澳洲大部分地區。原文說 only in scattered pockets of southeast Australia，即只在東南部零散小區域。兩者範圍明顯衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "only 是控制答案的詞，直接排除 “throughout most”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It takes decades for eucalyptus trees to recover after a fire.”",
+      "translation": "Eucalyptus 樹在火災後需要數十年才能恢復。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bushfires pose another threat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "山火構成另一項威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the main threat to their survival is their slow reproductive rate – they produce only one baby a year over a reproductive lifespan of about nine years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，牠們生存的主要威脅是繁殖速度慢；牠們在約九年的繁殖生命中，每年只生一個幼崽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講火災影響，以及為何物種恢復仍受限制。題目問 eucalyptus trees after fire，要看中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “eucalyptus trees”, “recover”, “after a fire”。原文有 “eucalyptus”, “grows quickly”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“already regenerating after the fires”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The koalas will be aided by the eucalyptus, which grows quickly and is already regenerating after the fires.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 會得到 eucalyptus 的幫助，因為 eucalyptus 生長很快，而且火災後已經開始再生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 takes decades，即需要數十年。原文說 grows quickly and is already regenerating，表示恢復速度快，且已經開始再生。這和題目方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Koalas fight one another when food becomes scarce.”",
+      "translation": "當食物短缺時，koalas 會互相打鬥。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落是 Paragraph C 和 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today koalas are found only in scattered pockets of southeast Australia, where they seem to be at risk on several fronts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天 koalas 只在澳洲東南部零散地區出現，牠們似乎正面對多方面風險。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Koalas are the epitome of innocence and inoffensiveness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 是天真無害的典型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 提到 eucalyptus 變少；Paragraph G 提到 koalas 不具攻擊性。兩段都和題目有部分關聯，需要細分題目要求。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個核心元素： 1. food becomes scarce 2. koalas fight one another原文 Paragraph C 確實有食物來源減少："
+            },
+            {
+              "kind": "quote",
+              "text": "“The koala’s only food source, the eucalyptus tree, has become less abundant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koala 唯一的食物來源 eucalyptus 樹已經變得較少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 有非攻擊性描述，但語境集中於人類接觸 koala："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you upset a koala, it may blink or swallow, or hiccup. But attack? No way!”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說食物短缺時 koalas 之間會發生甚麼。它只提供兩類資料：食物變少：eucalyptus tree has become less abundant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般性格：koalas are not aggressive / do not attack in the described human-upset context。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求的是一個特定因果情境：food becomes scarce → fight one another。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有建立這條因果鏈，也沒有描述 koalas 之間的競爭、領地衝突或為食物打鬥。雖然 “not aggressive” 可能令人想選 NO，但這一句主要在說受人驚擾時牠們不會攻擊人。要判 NO，原文需要更清楚排除「食物短缺時互相打鬥」這個情況。現在缺少這個 specific situation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It is difficult to notice when koalas are ill.”",
+      "translation": "Koalas 生病時很難被察覺。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also very sensitive, and the slightest upset can prevent them from breeding, cause them to go off their food and make them susceptible to gut infections.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們也非常敏感，最微小的不安都可能令牠們停止繁殖、不再進食，並更容易患上腸道感染。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surgery revealed hundreds of pea-sized tumours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手術發現了數百個豌豆大小的腫瘤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 koala 健康脆弱，以及疾病可能隱藏到很嚴重才發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “difficult to notice” 和 “ill”。原文對應 “stoic creatures”, “appear healthy”, “could be dead”, “only warning”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Koalas are stoic creatures and put on a brave face until they are at death’s door.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Koalas 是能忍耐的動物，直到臨近死亡前都會裝出勇敢、正常的樣子。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“One day they may appear healthy; the next, they could be dead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們某一天可能看起來健康；第二天卻可能已經死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "再接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“A sudden loss of weight is usually the only warning keepers have that their charge is ill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "體重突然下降通常是飼養員唯一能知道牠們生病的警號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子直接支持題目：牠們病了很難看出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "difficult to notice = only warning / appear healthy ill = at death’s door / their charge is ill所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Koalas easily contract contagious human diseases through cuddling.”",
+      "translation": "Koalas 會透過被人擁抱而容易感染人類傳染病。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落是 Paragraph E、H、I。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 最後一句說 constant handling 會令 koala 生理平衡超出極限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 第一段說 slightest upset 會令牠們更容易有 gut infections。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 講 koala cuddling 和 handling policy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “contagious human diseases”, “through cuddling”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 cuddling / hugging / handling，也有 gut infections，但沒有 “human diseases” 或"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“contagious”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的關鍵句：“constant handling can push their already precariously balanced physiology beyond its limits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "持續被人觸碰會把牠們本已不穩定的生理平衡推過極限。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“the slightest upset can … make them susceptible to gut infections.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最微小的不安也可能令牠們更容易出現腸道感染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些證據只支持：handling / upset 會造成壓力、生理失衡和感染風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了兩個原文沒有提供的元素： human diseases：人類疾病contagious：傳染性疾病文章沒有說 koalas 因 cuddling 感染人類傳染病，也沒有說疾病由人傳給 koalas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Koalas like to hold a person’s arm when they are embraced.”",
+      "translation": "Koalas 被人抱著時，喜歡抓住人的手臂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph I。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost every zoo in Australia has koalas—the marsupial has become the Animal Ambassador of the nation—but nowhere outside Australia would handling by the public be allowed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲幾乎每間動物園都有 koalas，這種有袋動物已成為國家的動物大使；但在澳洲以外，公眾接觸 koalas 是不會被容許的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Following a wave of publicity, some zoos and wildlife parks have stopped using their koalas as photographic props.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一波宣傳後，一些動物園和野生動物園已停止把 koalas 當作拍照道具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講公眾抱 koalas、handling 方式和保育批評。題目問 embraced 時牠們如何抓人，應看中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “hold a person’s arm” 和 “embraced”。原文對應 “cling to their handler” 和 “use his or her arm as a tree”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondly, most people have no idea how to handle the animals; koalas like to cling to their handler, in their own time, and use his or her arm as a tree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，大多數人不知道怎樣正確抱或處理這些動物；koalas 喜歡按照自己的節奏抓住處理牠們的人，並把那人的手臂當作一棵樹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “hold a person’s arm” 對應原文 “cling to their handler” 和 “use his or her arm as a tree”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“when they are embraced” 對應這段的 handling / cuddling 語境。所以答案是 YES。要留意 “in their own time”：原文不是說 koalas 喜歡被陌生人強行擁抱，而是說在被正確 handling時，牠們喜歡自己慢慢抓住 handler 的手臂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — a journalist writing for a magazine.",
+      "answerKey": "A — a journalist writing for a magazine.",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In your opinion, this article was written by…”",
+      "translation": "你認為這篇文章是由誰寫的？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看全文語氣，而非只靠一句定位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章開頭用 “Koalas are just too nice for their own good” 和 “arboreal couch potato” 這些帶有雜誌式幽默的表達；中段有科普資料，如 chlamydia、retro-virus、caecum、physiology；後段又加入London Zoo、Queen、conservation society、national guidelines 等新聞或專題報道資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞不在某個單字，而在文章整體文體：生動形容：plush, grey fur / button nose / furry bundles批評語氣：how cruel this is / flies in the face of every rule of good care廣泛資料來源：zoologists、London Zoo、Association of Fauna and Marine Parks、state authorities"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A 最合理，因為文章像 magazine feature：有吸引人的開場、有幽默語氣、有科普解釋、有保育議題，也有對 zoos 和 wildlife parks 的批評。作者不像單純的飼養員、遊客或政府官員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B keeper at London Zoo：文中確實提到 London Zoo，但作者沒有用第一身說自己照顧過 koalas，也沒有只集中在 London Zoo。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C tourist returning from Australia：文章資料太全面，包括疾病、生理、保育政策和動物園規則，不像旅遊回憶。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D government official drafting legislation：文章有 national guidelines，但語氣太生動，亦沒有正式政策文件的格式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Koalas.pdf",
+    "sha256": "65ca52cc29c38ea254133ea082929cf2986e71e5298210757bf4ab180c9a85d2",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 koalas “too nice for their own good”，尾句用 “arboreal couch potato” 形容牠們在理想世界中應該安全無虞。只看首尾句，可以估計本段是用幽默語氣開場，突出 koalas 溫順、缺乏天敵、生活本應安全。這段暫時未講人類威脅或疾病，主要建立「牠們本身沒有攻擊性、很脆弱」的基調。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 200 年前 koalas 曾在澳洲廣泛繁盛；尾句說牠們和 Aboriginal Australians 共存了幾百年。只看首尾句，可以估計本段開始解釋 koala decline：以前數量多，現在下降，但 exact numbers 不清。段中核心是 human activity，特別是 European settlement 之後，人類活動成為問題來源。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說今天 koalas 只在澳洲東南部零散地區出現，面對多方面風險；尾句說非法寵物通常很快死亡，但 poachers 容易補貨。只看首尾句，可以估計本段列出主要威脅：eucalyptus forests 減少、parasites、chlamydia、retro-virus、cars、poachers 和 illegal pets。題目若問 decline reasons，很可能回到 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句提出 bushfires 也是另一威脅；尾句指出生存主要威脅是繁殖速度慢，一年只生一個幼崽，繁殖期約九年。只看首尾句，可以估計本段講火災短期傷害和恢復能力。中間提到 eucalyptus grows quickly and is already regenerating，這對判斷 eucalyptus 是否需數十年恢復很重要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 koalas 最新問題更隱蔽；尾句指出 constant handling 可能把牠們已脆弱平衡的physiology 推過極限。只看首尾句，可以估計本段講「可愛外表」如何導致動物園和 wildlife parks利用牠們，讓遊客付費擁抱拍照。題目若問 Australian zoos exploit koalas，答案多半在 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 koalas 每天吃 600 至 1,250 克某些 eucalyptus foliage；尾句說為了 properly digest food，牠們每天必須靜坐 21 小時。只看首尾句，可以估計本段講 koalas 的飲食和消化系統。段中會說 eucalyptus leaves 有 cellulose、tannins、toxic chemicals，koalas 需要特殊消化系統和長時間不動。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 koalas 是 innocence and inoffensiveness 的典型；尾句說牠們用 claws 抓住 eucalyptus樹皮。只看首尾句，可以估計本段講 koalas 的非攻擊性。段中雖提到牠們有能力咬人或抓傷人，但重點是牠們通常不攻擊；受驚時可能 blink、swallow 或 hiccup。題目若問 threatened reaction， G 是目標段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 koalas 很敏感，最微小的 upset 也會影響繁殖、進食和感染風險；尾句說 London Zoo 的雌性 koala 手術發現大量小腫瘤。只看首尾句，可以估計本段講健康監察困難和壓力後果。中間關鍵是牠們 stoic，看似健康，翌日可能死亡，所以飼養員要每日量體重。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說澳洲幾乎每間 zoo 都有 koalas，但澳洲以外不會容許公眾 handling；尾句說一些 zoos 和wildlife parks 已停止把 koalas 當 photographic props。只看首尾句，可以估計本段集中批評koala cuddling，並提到 conservation society 正推動 ban 和 national guidelines。題目若問authorities 或 handling policy，I 是主要答案段。"
+      }
+    ]
+  }
+}

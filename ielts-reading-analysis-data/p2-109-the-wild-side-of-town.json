@@ -1,0 +1,2076 @@
+{
+  "id": "p2-109-the-wild-side-of-town",
+  "catalogueId": "p2-109",
+  "catalogueIds": [
+    "p2-109"
+  ],
+  "passage": 2,
+  "title": "THE WILD SIDE OF TOWN",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "woodland species",
+    "exotic flowers",
+    "domestic cats",
+    "81",
+    "C",
+    "E",
+    "G",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There is now more wildlife in UK cities than in the countryside.”",
+      "translation": "現在英國城市中的野生動物比鄉郊更多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否支持「城市 wildlife 數量或可見度已超越 countryside」這個大方向。控制詞是 now、more wildlife、UK cities、countryside。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1–2 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The countryside is no longer the place to see wildlife, according to Chris Barnes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Chris Barnes，鄉郊已不再是觀察野生動物的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These days you are more likely to find impressive numbers of skylarks, dragonflies and toads in your own back garden.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，你更可能在自己的後花園找到數量可觀的雲雀、蜻蜓和蟾蜍。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The past half century has seen an interesting reversal in the fortunes of much of Britain’s wildlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去半個世紀，英國許多野生動物的命運出現了有趣的逆轉。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst the rural countryside has become poorer and poorer, wildlife habitat in towns has burgeoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鄉郊地區愈來愈貧乏，城鎮中的野生動物棲息地卻蓬勃增長。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 now 對應原文 “These days” 和 “Now”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 cities 對應 “towns”、“urban forest”、“back garden”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 countryside 原字出現在 Paragraph 1 和 Paragraph 2。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 more wildlife 未必逐字出現，但 “more likely to find impressive numbers” 和 “wildlife habitat in towns has burgeoned” 已經建立同方向意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正控制答案的是兩組對比：原文一："
+            },
+            {
+              "kind": "quote",
+              "text": "“These days you are more likely to find impressive numbers of skylarks, dragonflies and toads in your own back garden.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，你更可能在自己的後花園看到數量可觀的雲雀、蜻蜓和蟾蜍。"
+            },
+            {
+              "kind": "label",
+              "text": "原文二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst the rural countryside has become poorer and poorer, wildlife habitat in towns has burgeoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鄉郊愈來愈貧乏，城鎮中的野生動物棲息地卻大幅增加。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more wildlife in UK cities than in the countryside”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“countryside is no longer the place to see wildlife”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “more likely to find impressive numbers … in your own back garden”● “rural countryside has become poorer and poorer, wildlife habitat in towns has burgeoned”判斷：文章開頭的整體立場很清楚：傳統 countryside 優勢已被反轉，城市和花園成為更容易看到大量wildlife 的地方。題目雖然把這個意思概括成 “more wildlife in UK cities”，但方向與原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 Paragraph 3 第一部分仍承認 hare、eagle、red deer 等依賴廣闊空間的物種仍在remote rural landscapes。這不會推翻 Question 14，因為題目問整體 wildlife 變化方向；原文承認少數物種仍屬鄉郊，同時主線仍是城市 wildlife habitat 增長。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Rural wildlife has been reduced by the use of pesticides on farms.”",
+      "translation": "鄉郊野生動物因農場使用農藥而減少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否把 rural wildlife decline 和 pesticides / agrochemicals 連起來。控制詞是Rural wildlife、reduced、pesticides、farms。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3–4 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst species that depend on wide open spaces such as the hare, the eagle and the red deer may still be restricted to remote rural landscapes, many of our wild plants and animals find the urban ecosystem ideal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然像野兔、鷹和赤鹿這些依賴廣闊開放空間的物種，可能仍局限於偏遠鄉郊景觀，但很多野生植物和動物覺得城市生態系統很理想。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This really should be no surprise, since it is the fragmentation and agrochemical pollution in the farming lowlands that has led to the catastrophic decline of so many species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這其實不應令人驚訝，因為正是 farming lowlands 中的棲息地破碎化和農業化學污染，導致如此多物種災難式下降。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, most urban open spaces have escaped the worst of the pesticide revolution, and they are an intimate mosaic of interconnected habitats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相對之下，大多數城市開放空間避過了農藥革命最嚴重的影響，並形成一個由互相連接的棲息地組成的緊密拼圖。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 pesticides 對應原文 “pesticide revolution” 和 “agrochemical pollution”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 farms 對應 “farming lowlands”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 reduced 對應 “catastrophic decline”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is the fragmentation and agrochemical pollution in the farming lowlands that has led to the catastrophic decline of so many species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "farming lowlands 的棲息地破碎化和農業化學污染，導致很多物種災難式下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pesticides on farms= agrochemical pollution in the farming lowlands / pesticide revolution rural wildlife has been reduced= catastrophic decline of so many species判斷：題目說 rural wildlife 因農場農藥而減少；原文說 farming lowlands 的 agrochemical pollution 導致很多物種 catastrophic decline。兩者方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文同時提到 fragmentation 和 agrochemical pollution。題目只抽出 pesticides 這一項，沒有問題，因為原文確實把農業化學污染列為 decline 的原因之一。題目沒有說 pesticides 是唯一原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the past, hedges on farms used to link different habitats.”",
+      "translation": "過去農場上的樹籬曾經連接不同棲息地。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要從「cutting down hedgerows」推回「hedgerows 原本有連接棲息地功能」。控制詞是 In the past、hedges on farms、link different habitats。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, most urban open spaces have escaped the worst of the pesticide revolution, and they are an intimate mosaic of interconnected habitats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相對之下，大多數城市開放空間避過了農藥革命最嚴重的影響，並形成一個互相連接的棲息地拼圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In towns, the tangle of canals, railway embankments, road verges and boundary hedges lace the landscape together, providing first-class ecological corridors for species such as hedgehogs, kingfishers and dragonflies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在城鎮中，運河、鐵路堤岸、路邊綠帶和邊界樹籬交織在一起，把景觀連接起來，為刺蝟、翠鳥和蜻蜓等物種提供一流的生態走廊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 hedges on farms 對應原文 “hedgerows on farmland”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 link different habitats 對應 “interconnected habitats”、“lace the landscape together”、“ecological corridors”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 In the past 由 “Over the years, the cutting down…” 暗示。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the years, the cutting down of hedgerows on farmland has contributed to habitat isolation and species loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來，農地上樹籬被砍掉，造成棲息地孤立和物種流失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯是：砍掉 hedgerows 後，habitat isolation 增加。要令「砍掉後變孤立」成立， hedgerows 原本就有連接 habitat 的功能。原文後一句再用城市 boundary hedges “lace the landscape together” 作正面例子，進一步支持 hedges 作為連接結構的功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hedges on farms= hedgerows on farmland used to link different habitats= cutting them down has contributed to habitat isolation判斷：題目和原文方向一致。原文沒有直接寫 “used to link”，但 “cutting down … contributed to habitat isolation” 是短距離、可直接支持的推論。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不是單純找 “hedges” 一字。真正定案的是 “habitat isolation”。如果樹籬被移除後導致isolation，便可推回它們原本有連接作用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“New urban environments are planned to provide ecological corridors for wildlife.”",
+      "translation": "新的城市環境被規劃成為 wildlife 提供 ecological corridors。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否說 new urban environments are planned。控制詞不只是 ecological corridors，還包括 new 和 planned。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4；也要留意 Paragraph 9 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, most urban open spaces have escaped the worst of the pesticide revolution, and they are an intimate mosaic of interconnected habitats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相對之下，多數城市開放空間避過了農藥革命最嚴重影響，並形成互相連接的棲息地拼圖。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In towns, the tangle of canals, railway embankments, road verges and boundary hedges lace the landscape together, providing first-class ecological corridors for species such as hedgehogs, kingfishers and dragonflies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在城鎮中，運河、鐵路堤岸、路邊綠帶和邊界樹籬把景觀連接起來，為刺蝟、翠鳥和蜻蜓等物種提供一流生態走廊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are now dozens of schemes to create new habitats and restore old ones in and around our big cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有數十個計劃，在大城市內外創造新棲息地和修復舊棲息地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 ecological corridors 可直接帶到 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目中的 new urban environments 和 planned 要額外檢查。Paragraph 4 講的是 canals、railway embankments、road verges、boundary hedges 這些既有城市結構。Paragraph 9 有schemes，但講的是 create habitats / restore habitats，沒有說 ecological corridors。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In towns, the tangle of canals, railway embankments, road verges and boundary hedges lace the landscape together, providing first-class ecological corridors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在城鎮中，運河、鐵路堤岸、路邊綠帶和邊界樹籬交織在一起，把景觀連接起來，提供一流生態走廊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支持：城市中確實有 ecological corridors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有提供：這些 corridors 是新的城市環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些城市環境是有意規劃出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市規劃者的目的就是提供 wildlife corridors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文只說現有城市景觀中的一些結構發揮 ecological corridor 功能。題目加入 “New” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“planned”，這兩個核心元素都沒有獲得原文支持。原文也沒有明確否定有這類規劃，所以答案是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生很容易看到 “ecological corridors” 原字重現就選 TRUE。這題真正控制答案的是 planned。 IELTS 常把一個原文存在的結果，改寫成「有意規劃的目的」。原文支援「它們提供 corridors」，但未支援「它們被規劃來提供 corridors」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Public parks and gardens are being expanded to encourage wildlife.”",
+      "translation": "公共公園和花園正在擴建，以鼓勵 wildlife。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否說 parks and gardens are being expanded。控制詞是 expanded 和 to encourage wildlife。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5–6 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urban parks and formal recreation grounds are valuable for some species, and many of them are increasingly managed with wildlife in mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市公園和正式休憩場地對某些物種有價值，而且其中許多正愈來愈以 wildlife 為考量來管理。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, there are songbirds and predators in abundance over these once-industrial landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，在這些曾經是工業區的景觀上，有大量鳴禽和捕食者。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are fifteen million domestic gardens in the UK, and whilst some are still managed as lifeless chemical war zones, most benefit the local wildlife, either through benign neglect or positive encouragement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國有一千五百萬個家庭花園，雖然其中一些仍被管理成沒有生命的化學戰場，但多數都透過善意忽略或積極鼓勵而令本地 wildlife 受益。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birdfeeders can also supplement the natural seed supply, and only the millions of domestic cats may spoil the scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "餵鳥器也可以補充自然種子供應；只有數以百萬計的家貓可能破壞這幅景象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 public parks 對應 “Urban parks and formal recreation grounds”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 gardens 對應 “domestic gardens”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 encourage wildlife 對應 “managed with wildlife in mind”、“positive encouragement”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵是 expanded，原文沒有出現 expand、increase the size、enlarge 等意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“many of them are increasingly managed with wildlife in mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中許多正愈來愈以 wildlife 為考量來管理。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“most benefit the local wildlife, either through benign neglect or positive encouragement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多數花園透過善意忽略或積極鼓勵而令本地 wildlife 受益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子支持：公園在管理上愈來愈考慮 wildlife。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "家庭花園多數有利於本地 wildlife。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子沒有提供：公園正在擴大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "花園正在擴大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "擴大規模的目的在於鼓勵 wildlife。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目中的 “expanded” 是原文沒有提供的核心動作。原文談的是 management、benefit、encouragement，沒有談面積擴張。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“managed with wildlife in mind” 很容易被讀成「為了 wildlife 做了某些改變」。這個理解方向可以，但它只支援管理方式改變；題目要求的是 expanded，即面積或規模擴大。動作不同，證據不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Old industrial wastelands have damaged wildlife habitats in urban areas.”",
+      "translation": "舊工業荒地破壞了城市中的 wildlife habitats。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 old industrial wastelands 對 wildlife 的影響。控制詞是 damaged。如果原文說這些地方被野生動物成功殖居，方向便相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urban parks and formal recreation grounds are valuable for some species, and many of them are increasingly managed with wildlife in mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市公園和正式休憩場地對某些物種有價值，而且許多正愈來愈以 wildlife 為考量來管理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, there are songbirds and predators in abundance over these once-industrial landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，在這些曾經是工業區的景觀上，有大量鳴禽和捕食者。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 old industrial wastelands 對應原文 “post-industrial land”、“demolished factories”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“waste tips”、“quarries”、“redundant railway yards”、“brownfield sites”。題目中的 damaged wildlife habitats 要看原文是否有 damaged / destroyed / harmed。實際原文出現的是 “spectacularly colonised” 和 “in abundance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“But in many places their significance is eclipsed by the huge legacy of post-industrial land: demolished factories, waste tips, quarries, redundant railway yards and other so-called‘brownfield’ sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在很多地方，城市公園的重要性被龐大的後工業土地遺產超越：被拆卸的工廠、垃圾堆、採石場、廢棄鐵路場，以及其他所謂 brownfield sites。"
+            },
+            {
+              "kind": "label",
+              "text": "原文下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Merseyside, South Yorkshire and the West Midlands, much of this has been spectacularly colonised with birch and willow woodland, herb-rich grassland and shallow wetlands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Merseyside、South Yorkshire 和 West Midlands，這些土地有大量已被樺樹和柳樹林地、草本豐富的草地和淺水濕地精彩地殖居。"
+            },
+            {
+              "kind": "label",
+              "text": "原文結果句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consequence, there are songbirds and predators in abundance over these once-industrial landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，這些曾經的工業景觀上有大量鳴禽和捕食者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 old industrial wastelands damaged wildlife habitats。原文方向相反：這些 brownfield sites 已發展出 woodland、grassland、wetlands，並有大量 songbirds 和 predators。因此答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "waste tips、demolished factories、quarries 這些字表面有負面感覺，學生容易用常識判斷它們會破壞自然。文章的觀點更細緻：這些地方反而成為重要城市棲息地。判斷要回到原文，不可被字面印象帶走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "woodland species",
+      "answerKey": "woodland species",
+      "type": "Short-answer Questions",
+      "prompt": "“Which type of wildlife benefits most from urban gardens?”",
+      "translation": "哪一類 wildlife 最受益於城市花園？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are fifteen million domestic gardens in the UK, and whilst some are still managed as lifeless chemical war zones, most benefit the local wildlife, either through benign neglect or positive encouragement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國有一千五百萬個家庭花園，雖然部分仍像沒有生命的化學戰場，但多數都令本地 wildlife 受益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birdfeeders can also supplement the natural seed supply, and only the millions of domestic cats may spoil the scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "餵鳥器也可以補充自然種子供應；只有數以百萬計的家貓可能破壞這景象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 urban gardens 對應 “domestic gardens”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 benefits most 對應原文 “Those that do best”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those that do best tend to be woodland species…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表現最好、最受益的通常是 woodland species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：問題問 “Which type of wildlife”，答案要是名詞短語。woodland species 是兩個詞，符合 “NO MORE THAN THREE WORDS AND/OR A NUMBER”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "benefits most= do best urban gardens= domestic gardens"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “local wildlife”。這是整體受益對象；題目問哪一類最受益，原文更精準的答案是woodland species。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "exotic flowers",
+      "answerKey": "exotic flowers",
+      "type": "Short-answer Questions",
+      "prompt": "“What type of garden plants can benefit birds and insects?”",
+      "translation": "哪一類花園植物能使鳥類和昆蟲受益？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are fifteen million domestic gardens in the UK…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "英國有一千五百萬個家庭花園……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birdfeeders can also supplement the natural seed supply, and only the millions of domestic cats may spoil the scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "餵鳥器也可以補充自然種子供應；只有數以百萬計的家貓可能破壞這幅景象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 明顯是 gardens and wildlife 段，題目問 garden plants，所以定位在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 garden plants 可對應 lawns、flower borders、climber-covered fences、shrubberies、fruit trees、exotic flowers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 benefit birds and insects 會連到 nectar season，因為 nectar 對鳥類和昆蟲有食物價值。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, in some respects gardens are rather better than the real thing, especially with exotic flowers extending the nectar season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在某些方面，花園甚至比真正的林地更好，尤其是 exotic flowers 可以延長花蜜季節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：問題問 “What type of garden plants”，答案要是植物類型。exotic flowers 是兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "garden plants that benefit birds and insects= exotic flowers extending the nectar season"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“fruit trees” 也屬於 garden plants，但原文沒有特別說它們延長 nectar season。題目問可使 birds and insects 受益的植物類型，最直接證據是 exotic flowers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "domestic cats",
+      "answerKey": "domestic cats",
+      "type": "Short-answer Questions",
+      "prompt": "“What represents a threat to wildlife in urban gardens?”",
+      "translation": "甚麼東西對城市花園中的 wildlife 構成威脅？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are fifteen million domestic gardens in the UK…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "英國有一千五百萬個家庭花園……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Birdfeeders can also supplement the natural seed supply, and only the millions of domestic cats may spoil the scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "餵鳥器也可以補充自然種子供應；只有數以百萬計的家貓可能破壞這幅景象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 threat 未必逐字出現，原文用 “may spoil the scene” 表示可能破壞良好情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "urban gardens 的威脅在 Paragraph 6 最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“only the millions of domestic cats may spoil the scene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有數以百萬計的 domestic cats 可能破壞這幅景象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：題目問 What，答案是名詞短語。domestic cats 是兩個詞，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "represents a threat= may spoil the scene wildlife in urban gardens= the garden wildlife scene described in Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “chemical war zones”。這描述某些花園的管理方式較差，但題目問具體 threat；原文最後明確指向 domestic cats。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "81",
+      "answerKey": "81",
+      "type": "Short-answer Questions",
+      "prompt": "“At the last count, how many species of bird were spotted in urban gardens?”",
+      "translation": "最近一次統計中，城市花園看到多少種鳥類？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Britain’s gardeners have embraced the idea of ‘gardening with nature’, wildlife’s response has been spectacular.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著英國園丁接受 “gardening with nature” 的概念，wildlife 的反應非常驚人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The BUGS project (Biodiversity in Urban Gardens in Sheffield) calculates that there are 25,000 garden ponds and 100,000 nest boxes in that one city alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BUGS project 計算，單在 Sheffield 一城便有 25,000 個花園池塘和 100,000 個巢箱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 how many species of bird 對應 “the number of different bird species”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 last count 對應 1990 至 2000 的變化，最後數字是 81。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between 1990 and 2000, the number of different bird species seen at artificial feeders in gardens increased from 17 to an amazing 81.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1990 至 2000 年間，花園人工餵鳥器上看到的不同鳥類數目，由 17 種增加到驚人的 81 種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：題目問數字，答案可直接填 81。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "At the last count= by 2000, after increasing from 17 spotted in urban gardens= seen at artificial feeders in gardens"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 17。17 是 1990 年的起點；題目說 “at the last count”，要填後來的最新數字 81。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C, E, G",
+      "answerKey": "C, E, G",
+      "type": "Choose THREE letters",
+      "prompt": "Questions 24–26",
+      "translation": "它們能促進人的身心健康。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple-answer 題要逐一證明每個正確選項，並確認三項都屬於同一類別。這題問的是 wildlife habitats 對 urban residents 的好處，所以只屬於「對人有益」的項目才可選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C — They can promote human well-being."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are at last acknowledging that the wildlife habitat in towns provides a valuable life support system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們終於承認，城鎮中的 wildlife habitat 提供有價值的生命支援系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hospital patients with a view of natural green space make a more rapid recovery and suffer less pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能看到自然綠地景觀的住院病人康復較快，痛楚也較少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中的 human well-being 可對應 reduce stress、anger、hospital recovery、less pain。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“We now have scientific proof that contact with wildlife close to home can help to reduce stress and anger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有科學證據顯示，接觸住家附近的 wildlife 可以幫助減少壓力和憤怒。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hospital patients with a view of natural green space make a more rapid recovery and suffer less pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能看到自然綠地的住院病人康復更快，痛楚更少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "promote human well-being= reduce stress and anger / faster recovery / less pain判斷： C 直接受原文支持，是正確答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E — They can absorb excess water."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們能吸收或容納多餘雨水。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are at last acknowledging that the wildlife habitat in towns provides a valuable life support system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們終於承認城市 wildlife habitat 提供有價值的生命支援系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hospital patients with a view of natural green space make a more rapid recovery and suffer less pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能看到自然綠地的住院病人康復更快，痛楚更少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中的 absorb excess water 可對應 “intercepting rainstorms”、“contain storm water runoff”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reducing the risk of flooding”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“The canopy of the urban forest is filtering air pollution and intercepting rainstorms, allowing the water to drip more gradually to the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市森林的樹冠會過濾空氣污染並攔截暴雨，讓雨水更逐漸地滴落地面。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sustainable urban drainage relies on ponds and wetlands to contain storm water runoff, thus reducing the risk of flooding…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可持續城市排水依靠池塘和濕地容納暴雨徑流，從而降低水浸風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "absorb excess water= intercept rainstorms / contain storm water runoff / reduce flooding判斷： E 對應城市樹冠、ponds 和 wetlands 對雨水管理的功能，所以正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G — They can help clean the urban atmosphere."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們能幫助淨化城市空氣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are at last acknowledging that the wildlife habitat in towns provides a valuable life support system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們終於承認城市中的 wildlife habitat 提供有價值的生命支援系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hospital patients with a view of natural green space make a more rapid recovery and suffer less pain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能看到自然綠地的住院病人康復更快，痛楚更少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中的 clean the urban atmosphere 對應原文 “filtering air pollution”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The canopy of the urban forest is filtering air pollution…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市森林的樹冠正在過濾空氣污染。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "help clean the urban atmosphere= filtering air pollution判斷： G 有直接原文支持，所以正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 A、B、D、F 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “They can make cities greener.”文章確實談到 urban forest、green space、wetlands，但 Question 24–26 問的是 ways can wildlife habitats benefit people。A 的 “make cities greener” 太籠統，原文沒有把它明確列為對人的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “They can improve the climate.”原文講 filtering air pollution、intercepting rainstorms、reduce flooding，沒有說 improve the climate。climate 是更大的氣候層面，文章沒有提供這項結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They can extend the flowering season.”原文說 exotic flowers extend the nectar season，這是在 Paragraph 6 解釋 gardens 對 wildlife的好處，主要利於鳥類和昆蟲，不屬於城市居民的直接利益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F “They can attract wildlife.”全文確實說城市棲息地吸引 wildlife，但題目問 wildlife habitats 怎樣 benefit people living in urban areas。F 停留在 wildlife 自身受益，未指出人的好處。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "C — active nature conservation.",
+      "answerKey": "C — active nature conservation.",
+      "type": "Multiple Choice",
+      "prompt": "“The writer believes that sustainable development is dependent on…”",
+      "translation": "作者認為 sustainable development 取決於甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 writer believes，即要看全文最後的總結態度。控制詞是sustainable development 和 dependent on。Multiple Choice 要選最完整、最貼近原文支持的一項。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 11；同時回看 Paragraph 9–10 Paragraph 11："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to remember that if we work with wildlife, then wildlife will work for us and this is the very essence of sustainable development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要記住，如果我們與 wildlife 合作，wildlife 也會為我們服務；這正是 sustainable development 的本質。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditionally, nature conservation in the UK has been seen as marginal and largely rural.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統上，英國的自然保育被視為邊緣事項，而且主要屬於鄉郊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now we are beginning to place it at the heart of urban environmental and economic policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在我們開始把它放在城市環境和經濟政策的核心位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 sustainable development 原字出現在最後一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 dependent on 對應 “if we work with wildlife, then wildlife will work for us”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是條件句：人類主動與 wildlife 合作，wildlife 才能為城市和人類提供好處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to remember that if we work with wildlife, then wildlife will work for us and this is the very essence of sustainable development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要記住：如果我們與 wildlife 合作，wildlife 也會為我們服務；這正是可持續發展的本質。"
+            },
+            {
+              "kind": "label",
+              "text": "句子結構："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“if we work with wildlife” 是條件。“wildlife will work for us” 是結果。“the very essence of sustainable development” 是作者的總結判斷。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A urban economic policy Paragraph 9 提到 nature conservation 開始進入 urban environmental and economic policy 的核心，但政策只是其中一個場域。最後一句的核心條件是 work with wildlife。 B large restoration schemes Paragraph 9–10 有 create new habitats、restore old ones、London Wetland Centre 等例子，但這些是實踐方式，範圍比最後總結窄。 C active nature conservation正確。active nature conservation 最能概括 “work with wildlife”，也承接 Paragraph 9 的 nature conservation 由邊緣轉到城市政策核心。 D government projects文章提到 schemes，但沒有把 sustainable development 的依賴條件收窄到 government projects。London Wetland Centre 由 Wildfowl and Wetlands Trust masterminded，也不等於政府項目。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "active nature conservation= work with wildlife= create new habitats / restore old ones / treat urban wildlife habitat as a life support system判斷：作者最後把可持續發展定義為人類與 wildlife 合作，並讓 wildlife 回饋人類。因此最合適答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - THE WILD SIDE OF TOWN.pdf",
+    "sha256": "e1e52bf5196439032b8dd9fd9f9115d6e7659096b363e3317773b2aafeebbc95",
+    "pageCount": 24
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph 1–11",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句直接推翻傳統印象：Chris Barnes 認為 countryside 已不再是看 wildlife 的主要地方。末句說，如今人在自己後花園更可能看到大量 skylarks、dragonflies 和 toads。只看首尾句，可以先猜本段是全文主旨引入：城市或家居花園的野生動物數量變得非常可觀，文章接下來會解釋為何城市環境反而適合許多野生物種。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說過去半個世紀，英國野生動物的命運出現有趣逆轉；鄉村愈來愈貧乏，城鎮 wildlife habitat卻大幅增長。末句建議，如果想聽清晨鳥鳴或認識狐狸，可以去 urban forest。只看首尾句，可見本段延續 Paragraph 1 的城市化野生動物主題，並把 rural decline 和 urban growth 放在同一個對比框架中。"
+      },
+      {
+        "number": "3",
+        "summary": "首句承認某些依賴廣闊空間的物種，如 hare、eagle、red deer，仍受限於偏遠鄉郊。末句指出， farming lowlands 的 fragmentation 和 agrochemical pollution 導致很多物種災難式下降。只看首尾句，可以先判斷本段功能是解釋鄉郊野生動物減少的原因，同時保留範圍限制：並非所有物種都適合城市，部分大型或開闊地物種仍屬鄉郊。"
+      },
+      {
+        "number": "4",
+        "summary": "首句用 “By contrast” 轉入城市優勢，說多數 urban open spaces 避過 pesticide revolution 最壞影響。末句說 canals、railway embankments、road verges 和 boundary hedges 把城市景觀連起來，成為 hedgehogs、kingfishers 和 dragonflies 的 ecological corridors。只看首尾句，本段功能是解釋城市棲息地的結構優勢：少農藥、 habitat 互相連接、方便物種移動。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 urban parks 和 formal recreation grounds 對部分物種有價值，而且愈來愈以 wildlife 為管理考量。末句說 once-industrial landscapes 現在有大量 songbirds 和 predators。只看首尾句，可以估計本段重點由公園轉到 brownfield sites：舊工業用地、廢棄鐵路場、採石場等，看似荒廢，實際上已被林地、草地和濕地物種大量殖居。"
+      },
+      {
+        "number": "6",
+        "summary": "首句指出英國有一千五百萬個 domestic gardens，部分仍像 chemical war zones，但多數有利於本地 wildlife。末句說 birdfeeders 可補充自然種子供應，只有數以百萬計的 domestic cats 可能破壞這幅景象。只看首尾句，可見本段主題是家庭花園如何支持野生動物，也引出 gardens 的受益物種、exotic flowers、birdfeeders，以及 cats 這個威脅。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說英國園丁接受 “gardening with nature” 後，wildlife 的反應非常驚人。末句引用 BUGS project，說單在 Sheffield 一城已有 25,000 個 garden ponds 和 100,000 個 nest boxes。只看首尾句，本段功能是用數據證明家庭花園對 biodiversity 的貢獻。中間 1990 至 2000 年 bird species 由 17 增至 81，是短答題的關鍵數字。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說人們終於承認城市 wildlife habitat 提供有價值的 life support system。末句說有自然綠地景觀的病人康復較快，痛楚較少。只看首尾句，可以判斷本段由「野生動物受益」轉向「人類受益」：城市樹冠過濾空氣污染、攔截雨水；濕地和 ponds 減少洪水、淨化水質；接觸自然也能減低壓力和憤怒。"
+      },
+      {
+        "number": "9",
+        "summary": "首句指出 UK 傳統上把 nature conservation 視為邊緣、主要屬鄉郊的事。末句用 London Wetland Centre 作例，說 London 部分地區因相關計劃而 biodiversity 變得重要。只看首尾句，可以估計本段功能是講保育觀念轉變：nature conservation 正由 rural margin 移到 urban environmental and economic policy 的核心，並出現建立或修復棲息地的城市計劃。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 London Wetland Centre 是一項獨特計劃，由 Wildfowl and Wetlands Trust 策劃，把廢棄Victorian reservoir 變成 wildlife reserve。末句說該地吸引超過 104 種鳥，包括 bittern 這種全國重要稀有鳥。只看首尾句，本段功能是作具體案例：展示舊城市基建如何被改造為重要濕地棲息地，並獲得科學保育地位。"
+      },
+      {
+        "number": "11",
+        "summary": "這段只有一句：如果人類與 wildlife 合作，wildlife 也會為人類服務，而這正是 sustainable development 的本質。只看這一句，可以把它視為全文總結。文章前面已說城市棲息地既支援物種，也為人類提供空氣、水、心理健康和防洪等好處；結尾把這些例子提升成可持續發展原則。"
+      }
+    ]
+  }
+}

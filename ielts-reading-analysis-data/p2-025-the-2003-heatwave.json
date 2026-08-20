@@ -1,0 +1,1582 @@
+{
+  "id": "p2-025-the-2003-heatwave",
+  "catalogueId": "p2-025",
+  "catalogueIds": [
+    "p2-025"
+  ],
+  "passage": 2,
+  "title": "The 2003 Heatwave",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "YES",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "1976, 1995",
+    "2000 floods",
+    "1998 and 2002",
+    "1990",
+    "1856",
+    "France",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The average summer temperature in 2003 was almost 4°C above the long-term average.”",
+      "translation": "2003 年夏季平均溫度比長期平均值高出接近 4°C。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN 題，要判斷題目命題是否符合作者和文中科學資料。控制詞是average summer temperature、almost 4°C、long-term average。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 和 Paragraph 4 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The three months of June, July and August were the warmest ever recorded in western and central Europe, with record national highs in Portugal, Germany and Switzerland as well as in Britain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "6、7、8 月是 western and central Europe 有紀錄以來最暖的三個月；Portugal、Germany、Switzerland 和 Britain 都錄得全國最高溫紀錄。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over a great rectangular block of the earth stretching from west of Paris to northern Italy, taking in Switzerland and southern Germany, the average temperature for the summer months was 3.78°C above the long-term norm…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一大片由 Paris 以西延伸至 northern Italy、涵蓋 Switzerland 和 southern Germany 的長方形區域內，夏季月份的平均溫度比長期標準高出 3.78°C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 almost 4°C 對應原文 3.78°C 和 Paragraph 4 的 nearly four degrees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 long-term average 對應原文 long-term norm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 average summer temperature 對應原文 average temperature for the summer months。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the average temperature for the summer months was 3.78°C above the long-term norm”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夏季月份的平均溫度比長期標準高出 3.78°C。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“But there has been nothing remotely like 2003, when the anomaly is nearly four degrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但從未有任何情況接近 2003 年，當時的異常值接近四度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "almost 4°C= 3.78°C= nearly four degrees long-term average= long-term norm判斷：題目把 3.78°C 概括為 almost 4°C，這是合理近似；long-term average 也等於 long-term norm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有清楚寫出 western and central Europe，但整篇都在討論 2003 年歐洲熱浪，Paragraph 2 已把計算範圍限定在歐洲的一大片地區。這裡不能把題目讀成全球平均溫度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Human activity causes global warming.”",
+      "translation": "人類活動造成全球暖化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問作者是否支持「global warming 由 human activity 引起」這個說法。控制詞是 Human activity 和 global warming。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3 和 Paragraph 5 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That excess might not seem a lot until you are aware of the context – but then you realise it is enormous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個超出值在未理解背景前可能看似不大，但理解背景後便會意識到它非常巨大。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is considered so exceptional that Professor Phil Jones, the CRU’s director, is prepared to say openly … that the 2003 extreme may be directly attributed, not to natural climate variability, but to global warming caused by human actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它被視為如此異常，以致 CRU 主任 Phil Jones 願意公開表示：2003 年的極端情況可能可直接歸因於人類行為造成的全球暖化，而非自然氣候波動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Human activity 在原文改寫為 human actions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 causes global warming 對應 global warming caused by human actions。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 也再次出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“global warming, caused by human actions.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“global warming caused by human actions”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由人類行為造成的全球暖化。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 再確認："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the final degree of it is likely to be due to global warming, caused by human actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但最後那一度很可能是由人類行為造成的全球暖化所導致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Human activity= human actions causes global warming= global warming caused by human actions判斷：原文兩次把 global warming 和 human actions 連在一起，因此題目方向與原文一致。答案是YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Jones believes that the 2003 temperature variation was within the normal range.”",
+      "translation": "Jones 認為 2003 年的溫度變化在正常範圍內。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷 Jones 是否認為 2003 年溫度異常屬於 normal range。控制詞是 Jones、within the normal range。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This is quite remarkable,’ Professor Jones told The Independent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jones 教授對《The Independent》說：「這相當 remarkable。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the final degree of it is likely to be due to global warming, caused by human actions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但最後那一度很可能來自人類行為造成的全球暖化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已可推測 Jones 並沒有把 2003 年看成普通波動。他用 quite remarkable 形容，最後又把部分異常歸因於 global warming。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 normal range 會在原文中以 normal statistical distribution、very unusual、one in a thousand years 等語言出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s very unusual in a statistical sense. If this series had a normal statistical distribution, you wouldn’t get this number.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從統計角度看，這非常不尋常。如果這組數據呈正常統計分布，你不會得到這個數字。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The return period … would be something like one in a thousand years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的回歸週期，也就是預期多久才會再發生一次，大約是一千年一次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Jones believes 2003 variation was within normal range.原文命題： Jones says it was very unusual; normal distribution would not produce this number.判斷：原文直接和題目衝突。Jones 強調 2003 年異常在統計上極不尋常，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 說 nearly three degrees may be natural variability。這只表示部分異常可由自然波動解釋，不代表整個 2003 anomaly 在正常範圍內。真正控制答案的是 “very unusual” 和 “you wouldn’t get this number”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Temperatures are measured twice a day in major cities.”",
+      "translation": "主要城市每天量度兩次氣溫。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 measurement frequency，即一天量度幾次。控制詞是 twice a day 和 major cities。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the most dramatic features of the summer was the hot nights, especially in the first half of August.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個夏天最戲劇性的特徵之一是炎熱夜晚，尤其是 8 月上半月。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany recorded its warmest-ever night at Weinbiet in the Rhine Valley … and similar record-breaking nighttime temperatures were recorded in Switzerland and Italy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國在 Rhine Valley 的 Weinbiet 錄得有紀錄以來最暖夜晚；Switzerland 和 Italy 也錄得類似破紀錄夜間溫度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 temperatures、major cities 可能帶到 Paris、Germany、Switzerland、Italy 的 night temperature records。但原文只提供最低溫、日期和地點，沒有提供每天量度次數。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Paris, the temperature never dropped below 23°C … between 7 and 14 August…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Paris，8 月 7 至 14 日期間，溫度從未低於 23°C。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the city recorded its warmest-ever night on 11-12 August…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該城市在 8 月 11 至 12 日錄得有史以來最暖夜晚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子提供：有些城市錄得夜間高溫；有具體日期；有最低溫數值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供：一天量度幾次；是否所有 major cities 都採用相同量度方式； twice a day 這個測量頻率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有 temperature records，但沒有 measurement frequency。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到多個城市和溫度數字，容易以為文章也講量度方法。這題真正缺少的是 twice a day，文章完全沒有交代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Winters became milder before summers became much hotter.”",
+      "translation": "冬天先變得較溫和，之後夏天才變得非常炎熱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 warming pattern 的時間順序。控制詞是 before，以及 milder winters 和 much hotter summers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The summer of 2003 has, in a sense, been one that climate scientists have long been expecting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從某種意義上說，2003 年夏天是氣候科學家長久以來一直預期會出現的夏天。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But sooner or later, the unprecedented hot summer was bound to come, and this year it did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但遲早，前所未有的炎熱夏天一定會來，而今年它真的來了。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 milder winters 和 hotter summers 幾乎直接出現在原文。重點是順序詞 Until now和 sooner or later。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until now, warming has manifested itself mainly in milder winters rather than much hotter summers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，暖化主要表現為冬天較溫和，而非夏天大幅變熱。"
+            },
+            {
+              "kind": "label",
+              "text": "後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“But sooner or later, the unprecedented hot summer was bound to come, and this year it did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但前所未有的炎熱夏天遲早會來，今年它就出現了。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Winters became milder before summers became much hotter= Until now, warming mainly showed in milder winters; then the unprecedented hot summer came.判斷：原文清楚建立時間順序：過去主要是冬天變暖，2003 年才出現前所未有的炎熱夏天。因此答案是YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Governments are building new high-altitude ski resorts.”",
+      "translation": "政府正在興建新的高海拔滑雪度假村。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 governments、building、new high-altitude ski resorts。重點在 building new resorts是否有原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The summer of 2003 has, in a sense, been one that climate scientists have long been expecting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從某種意義上說，2003 年夏天是氣候科學家長久以來一直預期會出現的夏天。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But sooner or later, the unprecedented hot summer was bound to come, and this year it did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但前所未有的炎熱夏天遲早會來，今年它真的來了。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 ski resorts 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“winter sports would die out in Europe’s lower-level ski resorts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬季運動將會在歐洲較低海拔的滑雪度假村消失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last week, the United Nations predicted that winters were warming so quickly that winter sports would die out in Europe’s lower-level ski resorts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上星期，United Nations 預測冬天變暖速度很快，以致冬季運動會在歐洲低海拔滑雪度假村消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有： UN prediction； lower-level ski resorts； winter sports dying out。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有： governments building resorts； new resorts； high-altitude resorts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章只說低海拔滑雪場可能失去冬季運動，沒有提到政府正在興建高海拔滑雪場。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "low-level ski resorts 出現後，讀者可能自然想到搬到更高海拔。但這是推測，原文沒有提供相關政策或建設行動。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "1976, 1995",
+      "answerKey": "1976, 1995",
+      "type": "Short-answer Questions",
+      "prompt": "“Which two other years had Britain’s hottest summers?”",
+      "translation": "英國另外哪兩年有最熱的夏季？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Britain, the year as a whole is likely to be the warmest ever recorded, but despite the high temperature record on 10 August, the summer itself … still comes behind 1976 and 1995, when there were longer periods of intense heat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對英國來說，全年很可能成為有紀錄以來最暖的一年；但即使 8 月 10 日錄得高溫紀錄，夏季本身仍排在 1976 和 1995 之後，因為那兩年有更長時間的強烈高溫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The temperatures recorded were out of all proportion to the previous record,’ he said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「錄得的溫度與過去紀錄相比完全不成比例。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Britain、hottest summers 對應原文 For Britain、summer itself、comes behind 1976 and 1995。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the summer itself … still comes behind 1976 and 1995, when there were longer periods of intense heat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該夏季本身仍排在 1976 和 1995 之後，因為那兩年有更長時間的強烈高溫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：題目要求 NO MORE THAN TWO WORDS AND/OR NUMBERS。用 1976, 1995 可避免多加"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“and” 這個詞，格式最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "2000 floods",
+      "answerKey": "2000 floods",
+      "type": "Short-answer Questions",
+      "prompt": "“Which earlier event also changed UK government policy?”",
+      "translation": "哪一個較早事件也改變了英國政府政策？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It will certainly have left its mark on a number of countries, as to how they think and plan for climate change in the future, much as the 2000 floods have revolutionised the way the Government is thinking about flooding in the UK.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它肯定會在多個國家留下印記，影響它們未來如何思考和規劃氣候變化；情況就像 2000 年洪水已徹底改變英國政府思考洪水問題的方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 2003 heatwave will have similar repercussions across Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年熱浪將會在歐洲產生類似後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 earlier event 和 changed UK government policy 對應原文 the 2000 floods 和revolutionised the way the Government is thinking。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the 2000 floods have revolutionised the way the Government is thinking about flooding in the UK”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2000 年洪水徹底改變了英國政府思考洪水問題的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： 2000 floods 是一個數字加一個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "1998 and 2002",
+      "answerKey": "1998 and 2002",
+      "type": "Summary Completion",
+      "prompt": "“The other two hottest years worldwide were 22 ______.”",
+      "translation": "全球另外兩個最熱年份是 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Britain, the year as a whole is likely to be the warmest ever recorded…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對英國來說，全年很可能是有紀錄以來最暖的一年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The temperatures recorded were out of all proportion to the previous record,’ he said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「錄得的溫度與過去紀錄相比完全不成比例。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 worldwide 對應原文 global temperature record。掃描 Paragraph 9 中段可找到1998 和 2002。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the moment, the year is on course to be the third hottest ever in the global temperature record, which goes back to 1856, behind 1998 and 2002…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，這一年有望成為全球溫度紀錄中第三熱的一年；該紀錄可追溯至 1856 年，排在 1998 和2002 之後。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "other two hottest years worldwide= behind 1998 and 2002 in the global temperature record"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：1998 and 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "1990",
+      "answerKey": "1990",
+      "type": "Summary Completion",
+      "prompt": "“The ten hottest years on record all occurred after 23 ______.”",
+      "translation": "有紀錄以來最熱的十年全都發生在 ______ 之後。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 9，因為這段集中處理 global temperature record 和 hottest years"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 ten hottest years 幾乎原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ten hottest years in the record have all now occurred since 1990.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "紀錄中最熱的十年現在全都發生在 1990 年以來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 since 1990 改寫成 after 1990，空格只需填年份。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：1990"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這裡不要填 “1856”。1856 是 global temperature record 開始的年份；1990 才是 ten hottest years 集中出現的時間點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "1856",
+      "answerKey": "1856",
+      "type": "Summary Completion",
+      "prompt": "“The global temperature record began in 24 ______.”",
+      "translation": "全球溫度紀錄始於 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 global temperature record 直接出現在原文。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the global temperature record, which goes back to 1856”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球溫度紀錄可追溯至 1856 年。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "began in= goes back to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：1856"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "France",
+      "answerKey": "France",
+      "type": "Summary Completion",
+      "prompt": "“Thousands of people died in 25 ______.”",
+      "translation": "數以千計的人死於 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 15,000 excess deaths in France during August, compared with previous years, have been related to the high night-time temperatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與過往年份相比，法國 8 月多出的 15,000 宗死亡已被認為與夜間高溫有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The elderly were most affected, with a 70 per cent increase in mortality rate in those aged 75-94.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長者受影響最大，75 至 94 歲人士死亡率增加 70%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Thousands of people died 對應原文 15,000 excess deaths。空格前是 “in”，可填地點或時間；原文最清楚的地點是 France。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 15,000 excess deaths in France during August…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國 8 月多出的 15,000 宗死亡……答案形式： France 是一個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若題目想要時間，August 也出現，但 summary 的常見表達 “people died in France” 最自然，且第一段也提過 Europe 有 thousands of heat-related deaths。這裡填 France 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "D — That Hot Year in Europe",
+      "answerKey": "D — That Hot Year in Europe",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following is the best title for this passage?”",
+      "translation": "以下哪一個最適合做文章標題？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文主線"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 引入 2003 summer 作為 global warming 明顯呈現的一年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2–5 用 CRU、Phil Jones、anomaly nearly four degrees 等資料證明其異常程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 說 warming 以往主要表現為 milder winters，2003 帶來 unprecedented hot summer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7–8 講 Europe 的 hot nights 和 France 的死亡人數。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9–12 講 Britain、global records、Tyndall Centre research 和 Europe policy repercussions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "比較選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Global Warming太寬。文章確實談 global warming，但主角是 2003 European heatwave。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B What Caused Global Warming方向不合。文章說 2003 heatwave 可能部分歸因於 human actions caused global warming，但沒有系統解釋 global warming 的成因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The Effects of Global Warming有部分支援，但仍太寬。文章集中在一個年份、一場歐洲熱浪和其破紀錄影響，沒有全面整理全球暖化的所有 effects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D That Hot Year in Europe最合適。文章核心是 2003 年歐洲異常炎熱的夏季，包括 western and central Europe、France、Germany、Switzerland、Italy、Britain，以及 across Europe 的後續影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "回到文章主題句"
+            },
+            {
+              "kind": "label",
+              "text": "文章開頭說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was the summer, scientists now realise, when global warming at last made itself unmistakably felt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家現在意識到，那是全球暖化終於明顯呈現的夏天。"
+            },
+            {
+              "kind": "label",
+              "text": "最後說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 2003 heatwave will have similar repercussions across Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年熱浪將在歐洲產生類似後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： D 能同時覆蓋年份、地區和熱浪主題，所以是最佳標題。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The 2003 Heatwave.pdf",
+    "sha256": "f55ba9ae97151642dfcd7ed17bdb87e2efa06d69f17a7eeb89761b926c3367ee",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph 1–12",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 2003 年夏天讓科學家意識到 global warming 終於以明顯方式呈現。末句說它有多remarkable 到現在才變得清楚。只看首尾句，可先判斷本段是全文引入：2003 年夏天不只炎熱，也有 record temperature、forest fires、rivers drying、heat-related deaths 等嚴重現象，後文會解釋其異常程度和氣候意義。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 6、7、8 月是 western and central Europe 有紀錄以來最暖的三個月。末句介紹 University of East Anglia 的 CRU，是世界主要溫度紀錄監測與分析機構之一。只看首尾句，可估計本段重點是用科學數據證明 2003 夏天的異常程度，尤其是 3.78°C above the long-term norm 這個關鍵數字。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說這個 excess 看起來可能不大，但理解背景後便知道它非常巨大。末句說 Phil Jones 願意公開把 2003 extreme 直接歸因於 human actions caused global warming。只看首尾句，可判斷本段功能是解釋數字的嚴重性，並把異常高溫由普通 climate variability 推向 global warming 的人為成因。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 meteorologists 以往只會保守地說近期高溫與 climate change predictions 一致。末句說graph 顯示 2003 anomaly 接近四度，過去完全沒有同類情況。只看首尾句，可估計本段用長期溫度紀錄和 anomaly graph 作比較，證明 2003 的偏差遠超 200 年來其他 hot years。"
+      },
+      {
+        "number": "5",
+        "summary": "首句引用 Professor Jones 說這非常 remarkable。末句說若 excess nearly four degrees，其中約三度可由 natural variability 解釋，最後一度很可能來自 human actions caused global warming。只看首尾句，可判斷本段是 Jones 的核心判斷：2003 年高溫在統計上極罕見，並非完全可用自然波動解釋。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 2003 夏天某程度上是 climate scientists 等了很久的事件。末句說前所未有的炎熱夏天遲早會來，今年終於來了。只看首尾句，可估計本段把 2003 heatwave 放進長期 warming pattern：過去 warming 主要表現為 milder winters，後來才輪到 much hotter summers 以更明顯方式出現。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說這個夏天最戲劇性的特徵之一是 hot nights，尤其是 8 月上半月。末句說 Switzerland 和Italy 也錄得類似破紀錄夜間高溫。只看首尾句，可判斷本段聚焦 night-time temperatures：Paris、Germany、Switzerland、Italy 都有夜晚最低溫破紀錄，為下一段解釋 heat-related deaths 提供直接背景。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說法國 8 月多出的 15,000 deaths 已被認為與 high night-time temperatures 有關。末句說75–94 歲長者死亡率增加 70%。只看首尾句，可估計本段處理 2003 heatwave 對人命的影響，尤其是 France、August、elderly mortality、night temperatures 下降後死亡人數急跌等細節。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說英國全年可能成為有紀錄以來最暖，但該年夏季本身仍排在 1976 和 1995 之後。末句引用 Jones 說 2003 歐洲夏季溫度遠超過去紀錄。只看首尾句，可判斷本段一邊區分 Britain summer ranking，一邊講 global temperature record、1998、2002、1856、since 1990 等統計資料。"
+      },
+      {
+        "number": "10",
+        "summary": "這段只有一句，Jones 說 2003 是過去 500 年最暖的夏天，很可能遠超 500 年範圍，而且異常程度極大。只看這句，可判斷它是對前文的強烈總結。它不提供太多新題目細節，但強化 2003 heatwave 的歷史級別：warmest、500 years、enormously exceptional 都是程度訊號。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說 Tyndall Centre 的同事正計劃對 2003 heatwave 進行 special study。末句引用 Mike Hulme，指出無論 temperature extremes 或 impacts 的範圍和多樣性，這都是前所未有的夏天。只看首尾句，可估計本段把事件推向研究和政策層面：科學界要專門研究其影響。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說 2003 heatwave 會在多個國家留下印記，影響未來如何思考和規劃 climate change。末句說它會在歐洲產生類似 repercussions。只看首尾句，可判斷本段是政策影響總結：作者把 2003 heatwave 和 2000 floods 作比較，指出極端事件會改變政府及國家對風險管理的思考方式。"
+      }
+    ]
+  }
+}

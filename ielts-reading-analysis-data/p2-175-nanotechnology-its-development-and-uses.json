@@ -1,0 +1,1124 @@
+{
+  "id": "p2-175-nanotechnology-its-development-and-uses",
+  "catalogueId": "p2-175",
+  "catalogueIds": [
+    "p2-175"
+  ],
+  "passage": 2,
+  "title": "Nanotechnology: its development and uses",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "A",
+    "C",
+    "E",
+    "B",
+    "C",
+    "A",
+    "B",
+    "A",
+    "C",
+    "turning point",
+    "widespread acceptance",
+    "cell membranes"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "promising beginnings",
+      "translation": "有前景的早期發展／初步應用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fullerenes are derived from carbon molecules and, in common with other nanoparticles, possess chemical and physical properties that are of huge scientific interest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fullerenes 來自碳分子，並且像其他 nanoparticles 一樣，具有極具科學研究價值的化學和物理性質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These properties are of great benefit, for example in medicine, as drugs to fight cancer or AIDS can be attached to nanoparticles to reach their target cell in the human body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些性質非常有益，例如在醫學上，對抗癌症或 AIDS 的藥物可以附著在 nanoparticles 上，到達人體內的目標細胞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是 “promising”。原文不一定用 promising 這個字，所以要找 potential value、benefit、applications、used 等表示「有前景」的詞。Paragraph D 中有 “The potential value of fullerenes for medical science was first raised…” 以及 “Since then, fullerenes have been used for several biomedical applications…”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The potential value of fullerenes for medical science was first raised in 2003 and again in 2005…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fullerenes 對醫學科學的潛在價值，最早在 2003 年被提出，並在 2005 年再次被提出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 “promising beginnings”。“potential value” 表示這項技術開始展現前景；後文的biomedical applications、commercial products、environmental clean-ups 再說明這些前景開始進入不同用途。因此答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "promising beginnings= potential value first raised= early signs of useful applications"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 turning point，容易令人想到「開始」。可是 Question 14 的 “promising” 重點在「有應用前景」，Paragraph D 的 medical、commercial、environmental uses 更貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "definition of a revolutionary technology",
+      "translation": "一種革命性技術的定義。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nanotechnology has been hailed by many as being a twentieth-century miracle of science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人把納米技術譽為二十世紀的科學奇蹟。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What makes these substances of such scientific interest is that their minute size facilitates medical and technological processes that would otherwise be impossible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些物質之所以具備科學研究價值，是因為它們的微小尺寸能促成一些本來不可能實現的醫療和科技程序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的強定位詞是 “definition”。Paragraph A 很快出現 “Essentially, nanotechnology… is…engineering at the atomic level.” 這是定義句。題目中的 “revolutionary technology” 對應首句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“miracle of science” 以及末句 “processes that would otherwise be impossible”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵句：“Essentially, nanotechnology, a term derived from Greek, translating literally as ‘dwarf technology’, is, as the origin of its name suggests, engineering at the atomic level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基本上，nanotechnology 這個詞源自希臘語，字面意思是「侏儒技術」；正如名稱來源所暗示，它是原子層面的工程技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句給出納米技術的正式定義。Paragraph A 也解釋 nanoparticles 的尺度和來源，所以整段功能就是定義並介紹這項技術。因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "definition= “is… engineering at the atomic level” revolutionary technology= “twentieth-century miracle of science”= enables processes “that would otherwise be impossible”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "repackaging an old idea",
+      "translation": "把舊概念重新包裝。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Strangely, what should have sparked a scientific revolution was then largely forgotten for the next 15 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奇怪的是，這個本應引發科學革命的概念，之後十五年大致被遺忘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention of the Scanning Tunnelling Microscope (STM) and the discovery of nano-sized particles termed ‘fullerenes’ were to prove a turning point in nanotechnology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scanning Tunnelling Microscope 的發明，以及被稱為 fullerenes 的納米級粒子的發現，後來證明是納米技術的轉捩點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是 “old idea” 和 “repackaging”。Paragraph C 中有一句非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1974, Japanese scientist Norio Taniguchi… reintroduced Feynman’s theory and gave an old concept a new name…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1974, Japanese scientist Norio Taniguchi of the Tokyo University of Science reintroduced Feynman’s theory and gave an old concept a new name, referring to the science as‘nanotechnology’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1974 年，東京理科大學的日本科學家 Norio Taniguchi 重新提出 Feynman 的理論，並給一個舊概念取了新名稱，把這門科學稱為 nanotechnology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎直接對應題目。reintroduced Feynman’s theory 表示重新提出舊理論；gave an old concept a new name 表示重新命名、重新包裝。因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "repackaging= gave an old concept a new name old idea= Feynman’s theory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Question Analysis",
+      "prompt": "dubious attributes",
+      "translation": "令人懷疑／有爭議的特性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, despite the amazing properties attributed to nanoparticles such as fullerenes, nanotechnology has yet to win widespread acceptance in scientific circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，儘管 fullerenes 等 nanoparticles 被認為有驚人的性質，納米技術仍未在科學界獲得廣泛接受。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a view echoed by the Federal Environment Agency, which maintains that such risks are vastly outweighed by the potential benefits of nanotechnology, in particular for the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Federal Environment Agency 也呼應這種觀點，認為這些風險遠低於納米技術的潛在好處，尤其是在環境方面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “dubious” 不一定原字出現。要掃描 questionable、toxic、risks、side effects、sceptics等語義。Paragraph E 有 “potentially so toxic”、“potentially lethal”、“side effects”、“risks”等密集訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very properties that make nanoparticles so valuable in technology and medical science are also the ones that make them potentially so toxic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正正是那些令 nanoparticles 在科技和醫學上如此有價值的性質，也令它們有潛在毒性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句完整解釋 “dubious attributes”。同一批特性既帶來價值，也帶來毒性風險。Paragraph E 之後再提到 toxic substances、bloodstream、major organs、no natural immune system，所以本段重點就是安全疑慮和爭議。因此答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dubious attributes= potentially toxic properties= properties with questionable safety implications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "the foundation of a new technology",
+      "translation": "新技術的理論基礎。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may be something of a revelation for many of us to learn that nanotechnology – or its concept – is far from cutting-edge science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人可能會驚訝地得知，納米技術，或至少它的概念，遠非最前沿的新科學。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The building of increasingly minute tools at the microscopic level would in turn produce ultra-microscopic materials, later to become known as ‘nanoparticles’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在微觀層面建造愈來愈細小的工具，最終會製造出超微觀材料，後來這些材料被稱為nanoparticles。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “foundation” 會對應 basic concept、first referred to、outlined。Paragraph B 中有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Feynman outlined the basic concept of nanotechnology.” 這就是理論基礎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵句：“During the lecture, entitled ‘There’s Plenty of Room at the Bottom’, Feynman outlined the basic concept of nanotechnology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在題為 “There’s Plenty of Room at the Bottom” 的演講中，Feynman 概述了納米技術的基本概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“basic concept” 正是 foundation。這段不是講實際應用，也不是講安全風險；它處理納米技術最初的理論框架。因此答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "foundation= basic concept= theoretical basis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C — incites controversy",
+      "answerKey": "C — incites controversy",
+      "type": "Question Analysis",
+      "prompt": "Nanotechnology…",
+      "translation": "納米技術……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。首句 already signals controversy: “has yet to win widespread acceptance in scientific circles.” 末句又說 risks are outweighed by benefits，顯示作者正在呈現爭議雙方。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Nanotechnology 的整體評價。選項 C 的 “controversy” 對應 Paragraph E 的 “sceptics”、“side effects”、“risks”、“widespread acceptance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have yet to convince the nanotechnology sceptics that the advantages of nanoparticles outweigh their potential side effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家仍未能說服納米技術懷疑者相信，nanoparticles 的好處大於它們的潛在副作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚顯示納米技術引起爭議，所以 C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A has limited value：錯。Paragraph D 提到 biomedical、commercial、environmental uses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B is not related to science：錯。全文多次說 science、scientists、scientific interest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D poses insurmountable safety issues：錯。Paragraph E 說 regulations can minimise risks，沒有說風險無法處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C incites controversy：正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — overlooked as a science",
+      "answerKey": "A — overlooked as a science",
+      "type": "Question Analysis",
+      "prompt": "In the beginning, nanotechnology was…",
+      "translation": "最初，納米技術……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。第一句說本應引發科學革命的概念被遺忘十五年，已經提示答案方向是 ignored / overlooked。末句才轉到後來的 turning point。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “In the beginning”。Paragraph C 的 “then largely forgotten for the next 15 years” 正好處理 Feynman 之後的早期狀態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Strangely, what should have sparked a scientific revolution was then largely forgotten for the next 15 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奇怪的是，這個本應引發科學革命的概念，之後十五年大致被遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“largely forgotten” 對應 “overlooked”。所以答案是 A。選項排除B considered to be irrelevant：原文沒有說科學家認為它無關緊要。 C highly unpopular：原文沒有提到不受歡迎，只說被遺忘。 D regarded as being revolutionary：原文說 it should have sparked a scientific revolution，實際情況是被遺忘，所以 D 的方向不準。 A overlooked as a science：正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — natural and manufactured processes",
+      "answerKey": "B — natural and manufactured processes",
+      "type": "Question Analysis",
+      "prompt": "Nanoparticles are a product of…",
+      "translation": "Nanoparticles 來自……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。這段介紹 nanoparticles 的定義、大小和來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “product of”。原文沒有這個短語，但有 “manufactured”、“occur naturally”、“arise as by-products”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some of these carbon-based substances are manufactured, others, such as metals, occur naturally or arise as by-products of processes such as volcanic eruptions or wood burning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些碳基物質有些是製造出來的；其他如金屬，則自然存在，或由火山爆發、木材燃燒等過程產生為副產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 manufactured 和 naturally，因此答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A manufacturing processes alone：錯在 alone，原文還有 naturally。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C purely biological processes：原文沒有 purely biological。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D environmental factors alone：火山和燃燒只是例子，不能概括全部來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B natural and manufactured processes：正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — other technologies caught up with it",
+      "answerKey": "A — other technologies caught up with it",
+      "type": "Question Analysis",
+      "prompt": "Nanotechnology remained a purely theoretical science until…",
+      "translation": "納米技術一直停留在純理論科學，直到……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。首句講概念被遺忘，末句講 STM 和 fullerenes 成為 turning point。這段正是由 theory 走向 practical application 的過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “purely theoretical science”。Paragraph C 有 “leave the realm of theoretical science and become reality”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two major scientific developments within a relatively short period were to enable practical application of nanotechnology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在相對短時間內出現的兩項重大科學發展，使納米技術的實際應用成為可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文說這兩項發展是 STM 的發明和 fullerenes 的發現。選項 A “other technologies caught up with it” 雖然表達較概括，但最能涵蓋「其他科學／技術發展使它能實際應用」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除B scientists were better able to understand its practical applications：原文重點在 scientific developments enabled application，不在理解能力提升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Taniguchi convinced other scientists：原文沒有說他說服其他科學家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D a scientist invented a new technology：只覆蓋 STM 的 invention，忽略 fullerenes 的 discovery，而且原文是 two major scientific developments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A other technologies caught up with it：正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "C — real but manageable",
+      "answerKey": "C — real but manageable",
+      "type": "Question Analysis",
+      "prompt": "Safety concerns about nanotechnology are…",
+      "translation": "關於納米技術的安全疑慮是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。首句說未獲科學界廣泛接受；末句說風險被認為低於潛在好處。這段會同時講真實風險和可控制性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Safety concerns”。原文對應 toxic、lethal、bloodstream、major organs、immune system、risks、regulations。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such properties are potentially lethal if toxic substances attach themselves to the same nanoparticles…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果有毒物質附著在這些 nanoparticles 上，這些性質可能是致命的。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also believes that regulations can be put in place to minimise such risks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也相信可以設立規例，把這些風險減到最低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說風險真實存在；第二句說可透過 regulation 管理。兩句合起來對應 C：real but manageable。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A completely unfounded：錯，原文明確提到 potentially lethal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B exaggerated by its detractors：原文有懷疑者，但沒有把安全疑慮全部說成誇大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D misunderstood：原文沒有把問題定性為誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C real but manageable：正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "turning point",
+      "answerKey": "turning point",
+      "type": "Question Analysis",
+      "prompt": "“A major 24 _________________ in the field of nanotechnology came with the discovery of fullerenes and the invention of the Scanning Tunnelling Microscope.”",
+      "translation": "Fullerenes 的發現和 Scanning Tunnelling Microscope 的發明，成為納米技術領域的一個重大______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。末句直接出現 STM、fullerenes、turning point。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “discovery of fullerenes” 和 “invention of the Scanning Tunnelling Microscope”。兩者在 Paragraph C 最後一句同時出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention of the Scanning Tunnelling Microscope (STM) and the discovery of nano-sized particles termed ‘fullerenes’ were to prove a turning point in nanotechnology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "STM 的發明，以及被稱為 fullerenes 的納米級粒子的發現，後來證明是納米技術的轉捩點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查題目是 “A major ___ in the field…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“turning point” 是名詞短語，兩個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：turning point"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "widespread acceptance",
+      "answerKey": "widespread acceptance",
+      "type": "Question Analysis",
+      "prompt": "“Amongst scientists, nanotechnology has not met with 25 _________________.”",
+      "translation": "在科學家之中，納米技術尚未得到 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。第一句直接說 nanotechnology has yet to win widespread acceptance in scientific circles。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Amongst scientists”。原文對應 “in scientific circles”。“has not met with” 對應 “has yet to win”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, despite the amazing properties attributed to nanoparticles such as fullerenes, nanotechnology has yet to win widespread acceptance in scientific circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，儘管 fullerenes 等 nanoparticles 被認為有驚人的性質，納米技術仍未在科學界獲得廣泛接受。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Amongst scientists= in scientific circles has not met with= has yet to win答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“widespread acceptance” 是兩個字，符合字數限制，並且可自然接在 “has not met with” 後面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：widespread acceptance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "cell membranes",
+      "answerKey": "cell membranes",
+      "type": "Question Analysis",
+      "prompt": "“The ability of nanoparticles to penetrate 26 _________________ is something of a mixed blessing.”",
+      "translation": "Nanoparticles 能穿透 ______ 的能力，可說是禍福參半。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D 和 Paragraph E。Paragraph D 講這種能力的好處；Paragraph E 講同一能力可能帶來毒性風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “penetrate”。Paragraph D 有 “penetrate cell membranes”；Paragraph E 也有 “through the cell membranes and into the cells themselves”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph D 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...their minute size which allows them to penetrate cell membranes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們微小的尺寸使它們能穿透細胞膜。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...thereby delivering a fatal toxin through the cell membranes and into the cells themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣便可能把致命毒素穿過細胞膜送入細胞本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好解釋 “mixed blessing”：在 Paragraph D，它有助藥物到達目標細胞；在 Paragraph E，它也可能把毒素帶進細胞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cell membranes” 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：cell membranes"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Nanotechnology_ its development and uses.pdf",
+    "sha256": "1cb6ee8c6b7d41813922f26b590a195c53657c08ef2486109cd56c01e195c0a1",
+    "pageCount": 13
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把納米技術稱為二十世紀科學奇蹟；末句指出，納米粒子的極細尺寸令某些醫療和科技程序變得可行。只看首尾句，讀者可先估計本段負責介紹主題、定義技術、解釋尺度，並說明為何nanoparticles 有研究價值。中間應會補充名稱來源、粒子大小，以及自然或製造來源。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提醒讀者，納米技術概念其實並非最新科學；末句說愈來愈微小的工具最終會製造出後來稱為 nanoparticles 的超微材料。只看首尾句，這段功能應是追溯理論起點，尤其是 Feynman 在1959 年提出的基本概念。讀者可預計答案會涉及 earliest idea、basic concept、atomic-level construction。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說這個本應引發科學革命的概念之後被遺忘十五年；末句說 STM 的發明和 fullerenes 的發現成為納米技術的 turning point。首尾合看，這段大概會講從理論冷落到實際突破的轉折，包括Taniguchi 重新命名舊概念，以及 1980s 兩項科學發展把它推向應用。"
+      },
+      {
+        "number": "D",
+        "summary": "首句介紹 fullerenes 這種碳分子，並說它們和其他 nanoparticles 一樣有重要化學和物理性質；末句說藥物可附著於 nanoparticles 到達人體目標細胞。只看首尾句，這段明顯偏向應用和好處，尤其是醫療、商業、環境清理，以及 nanoparticles 為何因表面比例和尺寸產生實用價值。"
+      },
+      {
+        "number": "E",
+        "summary": "首句用 However 轉折，指出即使 nanoparticles 性質驚人，科學界仍未廣泛接受納米技術；末句說部分機構認為風險遠低於潛在環境好處。只看首尾句，這段會處理爭議和安全疑慮：同一批性質既帶來用途，也可能造成毒性、血液和器官風險，最後再加入較樂觀的監管觀點。"
+      }
+    ]
+  }
+}

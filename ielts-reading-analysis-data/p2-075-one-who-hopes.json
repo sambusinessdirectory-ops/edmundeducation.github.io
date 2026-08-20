@@ -1,0 +1,1972 @@
+{
+  "id": "p2-075-one-who-hopes",
+  "catalogueId": "p2-075",
+  "catalogueIds": [
+    "p2-075"
+  ],
+  "passage": 2,
+  "title": "One Who Hopes",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "v",
+    "viii",
+    "iii",
+    "vi",
+    "i",
+    "ii",
+    "C",
+    "D",
+    "B",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "v — From the written word to the spoken word",
+      "answerKey": "v — From the written word to the spoken word",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "從書面文字走向口頭使用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph B 要配一個最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zamenhof, after ten years of developing his brainchild from the late 1870s to the early 1880s, published the first Esperanto grammar in Warsaw in July 1887.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zamenhof 從 1870 年代後期到 1880 年代初期，花了十年發展他的構想，並於 1887 年 7 月在Warsaw 出版第一本 Esperanto grammar。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely estimated that it can be learned in between a quarter and a twentieth of the time required for other languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍估計，學習 Esperanto 只需其他語言所需時間的四分之一至二十分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段一開始是 grammar，即書面規則；之後談 speakers 增長、correspondence、periodicals，再到 world congresses。這表示 Esperanto 由一套出版出來的書面語言設計，逐步變成有人交流和集會使用的語言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading v 的定位詞是 “written word” 和 “spoken word”。原文中的 written side 包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“published the first Esperanto grammar”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出版第一本 Esperanto 文法書。"
+            },
+            {
+              "kind": "quote",
+              "text": "“speakers of Esperanto kept in contact primarily through correspondence and periodicals”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期 Esperanto 使用者主要透過書信和期刊保持聯絡。"
+            },
+            {
+              "kind": "label",
+              "text": "spoken / live-use side 則是："
+            },
+            {
+              "kind": "quote",
+              "text": "“since 1905 world congresses have been held on five continents every year except during the two world wars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1905 年起，除了兩次世界大戰期間，世界大會每年在五大洲舉行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的資料看似很多：Zamenhof 出版 grammar、speaker numbers、world congresses、official status、learning time。但核心發展線是 Esperanto 從書面發表和書信聯絡，進一步走向speakers 的現場 congresses 和教育制度。heading v 能抓住這條發展路線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何較弱iii “Language is personal” 較適合 Paragraph D 的 emotional involvement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vi “A real language” 較適合 Paragraph E，因為 E 段直接回應 “not a ‘real’ language”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viii “The mechanics of a language” 會去 C 段，因為 C 段才詳細講 vowel、consonant、verb、word order、prefixing、suffixing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "viii — The mechanics of a language",
+      "answerKey": "viii — The mechanics of a language",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "一種語言的運作機制。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph C 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a constructed language, Esperanto is not genealogically related to any ethnic language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一種 constructed language，Esperanto 在譜系上不屬於任何 ethnic language。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one study, a group of European high school students studied Esperanto for one year and then French for three years, ending up with a significantly better command of French than a control group that had spent all four years studying French.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項研究中，一組歐洲高中生先學一年 Esperanto，再學三年 French，最後 French 掌握程度明顯比四年都學 French 的 control group 更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段會講 Esperanto 的語言結構和學習效果。首句標明它是constructed language，接下來自然會解釋它如何被設計，以及為何較容易學。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的 “mechanics” 指語言內部如何運作，例如 sound system、grammar、word formation、pronunciation、word order。原文有大量這類訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has five vowels and 23 consonants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它有五個元音和二十三個輔音。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It has one simple way of conjugating all of its verbs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有動詞只有一種簡單的變位方式。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Words are often formed from a limited set of roots…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "詞語通常由有限的一組字根形成。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The language is phonetic, and the rules of pronunciation are very simple…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種語言是 phonetic，發音規則十分簡單。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段幾乎整段都在拆解 Esperanto 的機械式設計：音素數量、動詞變位、字根、發音、字序、前綴和後綴。後半再說這些設計如何令 language learning 更容易，甚至幫助之後學其他外語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii 能完整概括這段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何較弱ii “Fewer languages, more results” 涉及用一種語言節省翻譯成本和提高效益，應在 G 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “From the written word to the spoken word” 是歷史發展，不是語言結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "i “A non-exclusive language” 著重公平參與，較貼近 F 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "iii — Language is personal",
+      "answerKey": "iii — Language is personal",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "語言牽涉個人情感與表達。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph D 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Needless to say, the language has its critics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不用說，這種語言也有批評者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others cite its lack of cultural history, indigenous literature – ‘no one has ever written a novel directly in Esperanto’ – together with its minimal vocabulary and its inability to express all the necessary philosophical, emotional and psychological concepts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他批評者則指出，它缺乏文化歷史和本土文學——「沒有人曾直接用 Esperanto 寫小說」——再加上詞彙量很少，也無法表達所有必要的哲學、情感和心理概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 D 段是 criticism 段。它不只批評文法或實用性，更多集中於語言是否自然、是否有文化厚度、是否能承載情感和心理表達。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的 “personal” 可對應 emotional involvement、philosophical / emotional /psychological concepts。原文最關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“…because of its artificial nature, it is impossible to become emotionally involved with the language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於它的人造性質，人們不可能與這種語言產生情感投入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接把 language 和 personal emotion 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段的 critics 認為 Esperanto 缺少 natural tongue 的 flow，也難以讓人 emotionally involved。後面再說它缺少文化歷史、原生文學和深層概念表達能力。heading iii “Language is personal” 把這些批評濃縮成一個主旨：語言不只是工具，也承載情感、文化和個人投入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何較弱vi “A real language” 看似相關，但這段是 critics 質疑 Esperanto，E 段才是支持者回應它是真實語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viii “The mechanics of a language” 屬於 C 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv “What’s fashionable in language” 完全沒有對應，文章沒有談潮流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "vi — A real language",
+      "answerKey": "vi — A real language",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "一種真正的語言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph E 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The champions of Esperanto – Esperantists – disagree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 的擁護者，即 Esperantists，不同意這些批評。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That means that communication through Esperanto does not give an advantage to the members of any particular nation or culture, but provides an ethos of equality of rights, tolerance and true internationalism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示透過 Esperanto 溝通不會讓任何特定國家或文化的成員佔優勢，反而提供一種權利平等、寬容和真正國際主義的精神。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段明顯是 supporters 反駁 critics 的段落。上一段批評 Esperanto 不自然、缺乏文化和表達深度；E 段則指出它已有世界文學翻譯，也在國際會議中使用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vi 的強定位詞是 “real language”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“To rebut the accusation that it is not a ‘real’ language, Esperantists point out that it is frequently used at international meetings which draw hundreds or thousands of participants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了反駁它不是真正語言的指控，Esperantists 指出 Esperanto 經常用於有數百或數千人參與的國際會議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段前半說 Esperanto 有大量世界文學翻譯，包括 poetry、novels 和 literary journals；中段直接反駁 “not a ‘real’ language”；後半再補充它在國際交流中公平和中立。雖然段末有 non-exclusive的意味，但全段起點是 rebut the accusation that it is not a real language，因此 heading vi 最貼切。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何較弱i “A non-exclusive language” 也和段末 equality 有關，但 F 段更完整講普通人、不同母語者都能參與國際交流，並打破 English native speakers 的特權。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii “Fewer languages, more results” 屬於 G 段的省錢和重新分配資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii “Language is personal” 屬於 D 段的批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "i — A non-exclusive language",
+      "answerKey": "i — A non-exclusive language",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "一種不排斥普通人的語言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph F 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperantists further claim that Esperanto has the potential – were it universally taught for a year or two throughout the world – to empower ordinary people to communicate effectively worldwide on a scale that far exceeds what is attainable today only by the most linguistically brilliant among us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperantists 進一步聲稱，如果 Esperanto 在全球普遍教授一兩年，它有潛力讓普通人能在全球有效溝通，程度遠超今日只有最具語言天分的人才能做到的情況。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays that privilege is often restricted to native speakers of English and those who have special talents and opportunities for learning English as a foreign language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，這種特權常常只限於 English native speakers，以及那些有特殊天分和機會學習 English作為外語的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段核心很清楚：Esperanto 可把全球交流能力從少數人手中擴展到 ordinary people。這正是 non-exclusive 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i 的定位詞是 “non-exclusive”。原文沒有直接寫 non-exclusive，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“empower ordinary people”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "賦權普通人。"
+            },
+            {
+              "kind": "quote",
+              "text": "“those who speak many different native languages will be able to participate fluently in international conferences and chat comfortably…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說不同母語的人將能流暢參與國際會議，並在正式報告後輕鬆聊天。"
+            },
+            {
+              "kind": "quote",
+              "text": "“that privilege is often restricted to native speakers of English…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種特權如今常限於 English native speakers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段並非只說 Esperanto 有用，也強調它可以降低語言門檻。今天國際交流能力常屬於 English native speakers 或有特別學習機會的人；Esperanto 若普及，就可讓 ordinary people、不同 native languages 的人都參與。這就是 heading i 的 “non-exclusive language”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何較弱vi “A real language” 已由 E 段處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii “Fewer languages, more results” 要到 G 段，因為 G 段講 translator / interpreter cost。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “From the written word to the spoken word” 是 B 段歷史發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "ii — Fewer languages, more results",
+      "answerKey": "ii — Fewer languages, more results",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "較少語言障礙，換來更多實際成果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph G 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What Esperanto does offer in concrete terms is the potential to save billions of dollars which are now being spent on translators and interpreters, billions which would be freed up to serve the purposes of governments and organisations that spend so much of their resources translating from one language into another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 在具體層面可提供的，是節省現時花在 translators 和 interpreters 上的數十億美元；這些錢可釋放出來，服務於那些把大量資源花在不同語言翻譯上的政府和組織的目的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the World Health Organisation and other NGOs did not have to devote enormous sums to interpreters and translations, they would be able to devote those huge amounts of money to improving the health of stricken populations throughout the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 World Health Organisation 和其他 NGOs 不必把巨額款項用於 interpreters 和 translations，它們便可把這些大筆金錢用於改善世界各地受苦人群的健康。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段主題就是：減少翻譯需求，釋放資金，讓組織做更多實際工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的 “Fewer languages, more results” 可對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“save billions of dollars”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "節省數十億美元。"
+            },
+            {
+              "kind": "quote",
+              "text": "“freed up to serve the purposes of governments and organisations”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "釋放資源，供政府和組織達成其目的。"
+            },
+            {
+              "kind": "quote",
+              "text": "“devote those huge amounts of money to improving the health…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把大筆金錢用於改善健康。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 段反覆出現 translators、interpreters、translation、documentation、EU、WHO、NGOs、money。它不是談翻譯錯誤，也不是談語言時尚；重點是若共同語言減少翻譯負擔，就能把錢用於更實際的成果。heading ii 最能概括段落結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真實中伏位ix “Lost in translation” 看似有吸引力，因為本段很多次出現 translation / translators / interpreters。不過這個 heading 通常暗示「意思在翻譯中流失」或「翻譯造成理解問題」。G 段真正關心的是金錢和資源被翻譯工作消耗，最後可帶來更多實際成果，所以 ii 更精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "C — It can make the learning of other foreign languages less complicated.",
+      "answerKey": "C — It can make the learning of other foreign languages less complicated.",
+      "type": "Multiple Choice",
+      "prompt": "“What advantage is there to learning Esperanto as one’s first foreign language?”",
+      "translation": "把 Esperanto 作為第一門外語來學，有甚麼好處？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a constructed language, Esperanto is not genealogically related to any ethnic language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為 constructed language，Esperanto 在譜系上不屬於任何 ethnic language。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one study, a group of European high school students studied Esperanto for one year and then French for three years, ending up with a significantly better command of French than a control group that had spent all four years studying French.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項研究中，一組歐洲高中生先學一年 Esperanto，再學三年 French，最後 French 掌握程度明顯比四年都學 French 的 control group 更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段會先講 Esperanto 的設計，再講它如何幫助其他語言學習。題目問 “first foreign language”，自然要看 C 段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是 “first foreign language”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the use of a grammatically simple and culturally flexible language like Esperanto softens the blow of learning one’s first foreign language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 Esperanto 這種文法簡單、文化上靈活的語言，可以減輕學習第一門外語時的衝擊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“several research studies demonstrate that studying Esperanto before another foreign language speeds up and improves the learning of the other language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多項研究顯示，在學另一門外語前先學 Esperanto，會加快並改善該外語的學習。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This is presumably because learning subsequent foreign languages is easier than learning one’s first…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這大概是因為學後續外語比學第一門外語容易。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文說 pronunciation rules are very simple，但沒有說它們 follow those of most European languages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。原文說 grammar simple，不等於沒有 grammar rules。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。原文的 “speeds up and improves the learning of the other language” 對應「令其他外語學習較不複雜」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文說 “one simple way of conjugating all of its verbs”，意思是有一種簡單變位方式，不等於 verbs are not conjugated。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "make learning other foreign languages less complicated= speeds up and improves the learning of the other language= softens the blow of learning one’s first foreign language所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D — It lacks depth of expression.",
+      "answerKey": "D — It lacks depth of expression.",
+      "type": "Multiple Choice",
+      "prompt": "“What do its critics say of Esperanto?”",
+      "translation": "Esperanto 的批評者怎樣評價它？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Needless to say, the language has its critics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不用說，這種語言也有批評者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others cite its lack of cultural history, indigenous literature – ‘no one has ever written a novel directly in Esperanto’ – together with its minimal vocabulary and its inability to express all the necessary philosophical, emotional and psychological concepts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他批評者指出，它缺乏文化歷史和本土文學，詞彙量很少，也無法表達所有必要的哲學、情感和心理概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段顯然是 critics 段。題目問 critics say，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “depth of expression” 不會原字出現，但可以對應 “inability to express all the necessary philosophical, emotional and psychological concepts”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Others cite its lack of cultural history, indigenous literature… together with its minimal vocabulary and its inability to express all the necessary philosophical, emotional and psychological concepts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他人指出它缺乏文化歷史和本土文學，再加上詞彙量很少，也無法表達所有必要的哲學、情感和心理概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心在 “inability to express”。如果一種語言不能充分表達哲學、情感、心理概念，就代表它被批評為缺乏表達深度。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文說它有 artificial feel，但沒有說它只用於 artificial situations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。critics 說人不可能 emotionally involved，不是說它 requires emotional involvement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文批評的是缺乏 indigenous literature，也引用 “no one has ever written a novel directly in Esperanto”；沒有說它 cannot translate works of literature。Paragraph E 反而說大量世界文學已被翻譯成 Esperanto。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確，概括了 minimal vocabulary 和 inability to express complex concepts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lacks depth of expression= minimal vocabulary= inability to express philosophical, emotional and psychological concepts所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B — More aid money would reach those who need it.",
+      "answerKey": "B — More aid money would reach those who need it.",
+      "type": "Multiple Choice",
+      "prompt": "“How could Esperanto help on a global level?”",
+      "translation": "Esperanto 可以如何在全球層面提供幫助？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What Esperanto does offer in concrete terms is the potential to save billions of dollars which are now being spent on translators and interpreters…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 在具體層面能提供的，是節省現時花在 translators 和 interpreters 上的數十億美元。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the World Health Organisation and other NGOs did not have to devote enormous sums to interpreters and translations, they would be able to devote those huge amounts of money to improving the health of stricken populations throughout the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 World Health Organisation 和其他 NGOs 不必把巨額款項花在 interpreters 和 translations上，它們便能把這些大筆金錢用於改善世界各地受苦人群的健康。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，全球層面的幫助不是抽象地「大家更友好」，而是資源可以從 translation cost 轉到實際援助和健康改善。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “global level” 可對應 World Health Organisation、NGOs、throughout the world。選項B 的 “aid money” 對應 “huge amounts of money” 和 “improving the health of stricken populations”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If the World Health Organisation and other NGOs did not have to devote enormous sums to interpreters and translations, they would be able to devote those huge amounts of money to improving the health of stricken populations throughout the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 WHO 和其他 NGOs 不需要把巨額款項用於口譯和翻譯，它們便能把那些大筆金錢用於改善全球受苦人群的健康。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文沒有說 eliminate the need for conferences。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。節省翻譯費用後，更多資源可用於受苦人群。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。Esperanto 是 universal second language，不代表 world population would be speaking only one language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文說錢可用於 governments、organisations、health of stricken populations，不是用於learning foreign languages。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "aid money would reach those who need it= huge amounts of money devoted to improving the health of stricken populations所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Supporters of Esperanto say it gives everyone an equal voice.”",
+      "translation": "Esperanto 的支持者說，它讓每個人都有平等的發聲機會。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The champions of Esperanto – Esperantists – disagree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 的擁護者，即 Esperantists，不同意批評者的說法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That means that communication through Esperanto does not give an advantage to the members of any particular nation or culture, but provides an ethos of equality of rights, tolerance and true internationalism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示透過 Esperanto 溝通不會讓任何特定國家或文化的成員佔優勢，反而提供一種權利平等、寬容和真正國際主義的精神。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段直接談 supporters 的立場。題目主語也是 “Supporters of Esperanto”，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “supporters” 和 “equal voice”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperantists”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 支持者。"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not give an advantage to the members of any particular nation or culture”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不會讓任何特定國家或文化成員佔優勢。"
+            },
+            {
+              "kind": "quote",
+              "text": "“equality of rights”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "權利平等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, on an international scale, it is most useful – and fair – for neutral communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，在國際層面，它對中立溝通最有用，也最公平。"
+            },
+            {
+              "kind": "quote",
+              "text": "“That means that communication through Esperanto does not give an advantage to the members of any particular nation or culture, but provides an ethos of equality of rights, tolerance and true internationalism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示透過 Esperanto 溝通不會讓任何特定國家或文化的成員佔優勢，反而提供權利平等、寬容和真正國際主義的精神。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “equal voice” 是概括說法。原文沒有逐字寫 voice，但 “does not give an advantage” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“equality of rights” 已經表示不同國家和文化的人都不會因母語背景而處於劣勢。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "equal voice= neutral communication= does not give an advantage= equality of rights判斷：題目說 supporters claim Esperanto gives everyone an equal voice。原文中 Esperantists 正是這樣主張：它公平、中立、不偏向任何國家或文化。因此答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Esperanto is the only artificially constructed language.”",
+      "translation": "Esperanto 是唯一一種人工建構語言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Language lovers, just like music lovers, enjoy variety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言愛好者就像音樂愛好者一樣，都享受多樣性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zamenhof’s goal was to create an easy and flexible language as a universal second language to promote peace and international understanding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zamenhof 的目標是創造一種簡單、靈活的語言，作為 universal second language，以促進和平和國際理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段介紹 Esperanto 的身份和目的。題目問 “only artificially constructed language”，所以應回到 A 段看 Esperanto 在 artificial languages 中的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “only” 和 “artificially constructed language”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperanto is the most widely spoken artificially constructed international language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 是最廣泛使用的人工建構國際語言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperanto is the most widely spoken artificially constructed international language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 是最廣泛使用的 artificially constructed international language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most widely spoken” 是一個比較級最高級結構。它的意思是：在這一類 artificially constructed international languages 之中，Esperanto 使用最廣。若文章要表達它是唯一一種，通常會用 the only artificially constructed language。原文選用 “most widely spoken”，表示它在同類中領先，並非唯一存在。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：the only artificially constructed language"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：the most widely spoken artificially constructed international language判斷：“only” 把範圍收窄成「唯一一種」。原文的 “most widely spoken” 則把 Esperanto 放入一個可比較的類別中。題目過度收窄，和原文表述不相容，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “one simple, easy-to-learn tongue” 就以為文章說只有 Esperanto 這一種。其實這句是作者用來引出 Esperanto 的寫法；真正定義句是 “the most widely spoken artificially constructed international language”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Esperanto can be learned as part of a self-study course.”",
+      "translation": "Esperanto 可以作為 self-study course 的一部分來學習。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 第一和最後一句顯示，它講 Esperanto 的歷史、使用者、教育地位和學習時間。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zamenhof… published the first Esperanto grammar in Warsaw in July 1887.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zamenhof 於 1887 年 7 月在 Warsaw 出版第一本 Esperanto grammar。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely estimated that it can be learned in between a quarter and a twentieth of the time required for other languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍估計，學習 Esperanto 只需其他語言所需時間的四分之一至二十分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 則解釋 Esperanto 的內部設計如何令學習更容易。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “self-study course”。掃描全文時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is an optional subject on the curriculum of several state education systems”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是幾個國家教育制度課程中的 optional subject。"
+            },
+            {
+              "kind": "label",
+              "text": "也可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“it can be learned…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它可以被學會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但全文沒有出現 self-study、course book、online course、independent learning、teach yourself等概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“One reason is that Esperanto has no official status in any country, but it is an optional subject on the curriculum of several state education systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個原因是 Esperanto 在任何國家都沒有官方地位，但它是幾個國家教育制度課程中的選修科目。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It is widely estimated that it can be learned in between a quarter and a twentieth of the time required for other languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍估計，它只需其他語言四分之一至二十分之一的時間便能學會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子支援兩件事：Esperanto 可在部分教育制度中作 optional subject；它相對容易學。可是題目問的是 self-study course，這是一種學習方式。文章沒有說 Esperanto 可不可以透過自學課程學習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料狀態：原文有：optional subject原文有：can be learned quickly原文缺少：self-study course判斷：題目加入了學習形式 “self-study course”。文章沒有明確支持，也沒有否定。所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Esperanto can be used equally in formal and casual situations.”",
+      "translation": "Esperanto 可用於正式和較輕鬆的場合。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperantists further claim that Esperanto has the potential – were it universally taught for a year or two throughout the world – to empower ordinary people to communicate effectively worldwide…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperantists 進一步聲稱，如果 Esperanto 在全球普遍教授一兩年，它有潛力讓普通人在全球有效溝通。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays that privilege is often restricted to native speakers of English and those who have special talents and opportunities for learning English as a foreign language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，這種特權常限於 English native speakers，以及那些有特殊天分和機會學 English 作為外語的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段討論 Esperanto 在全球交流中的使用範圍。題目問 formal and casual situations，因此要在本段找正式與非正式場景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “formal” 可對應 business、diplomacy、scholarship、international conferences、formal presentations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“casual” 可對應 chat comfortably。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“It offers the opportunity to improve communication in business, diplomacy, scholarship and other fields…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它提供機會改善 business、diplomacy、scholarship 和其他領域中的溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是較正式的場合。"
+            },
+            {
+              "kind": "quote",
+              "text": "“...so that those who speak many different native languages will be able to participate fluently in international conferences and chat comfortably with each other after the formal presentations are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣，說不同母語的人便能流暢地參與國際會議，並在正式報告結束後輕鬆互相聊天。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時提供兩種情境： formal situation = international conferences / formal presentations casual situation = chat comfortably after the presentations"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "formal situations= business, diplomacy, scholarship, international conferences, formal presentations casual situations= chat comfortably with each other after the formal presentations判斷：題目說 Esperanto can be used in formal and casual situations。原文同時說它可改善正式領域溝通，也可讓人會後輕鬆聊天。題目方向和原文一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - One Who Hopes.pdf",
+    "sha256": "02d5e55a241afd92bb1480eb253ea9c9d5ed60d211b002bc6f91fe6920e52ab7",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 language lovers 和 music lovers 作類比，說喜歡語言的人也享受 variety。最後一句指出Zamenhof 的目標，是創造一種 easy and flexible universal second language，以促進 peace and international understanding。只看首尾句，可以先估計 A 段主要介紹 Esperanto 的身份、名稱來源和理想目的。題目已給 Example：Paragraph A = vii Harmony through language，因為本段重點正是透過共同語言促進和平與理解。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Zamenhof 經過十年發展後，在 1887 年於 Warsaw 出版第一本 Esperanto grammar。最後一句說 Esperanto 一般估計只需其他語言四分之一到二十分之一的時間便能學會。只看首尾句，可以估計 B 段會講 Esperanto 從書面 grammar 開始，逐步發展成有 speakers、correspondence、periodicals 和 world congresses 的語言社群。題目若問早期發展、世界大會、speaker numbers，B 段最重要。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Esperanto 作為 constructed language，和任何 ethnic language 沒有 genealogical relation。最後一句用研究例子說，高中生先學一年 Esperanto 再學三年 French，最後 French 掌握程度比四年都學 French 的 control group 更好。只看首尾句，可以判斷 C 段會詳細解釋Esperanto 的語音、文法、字根、詞尾、發音和學習優勢。Heading 若提到 language mechanics，應先看 C 段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Esperanto 當然有 critics。最後一句列出批評：缺乏 cultural history、indigenous literature，還有 minimal vocabulary，以及無法表達所有必要的哲學、情感和心理概念。只看首尾句，可以估計 D 段處理反對意見，尤其是語言是否有自然流動感、情感投入和深層表達能力。題目若問critics say、emotional involvement、lack of expression，D 段是主要定位段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Esperanto 的支持者 Esperantists 不同意批評。最後一句說 Esperanto 不會讓任何particular nation or culture 的成員佔優勢，反而提供 equality of rights、tolerance 和 true internationalism。只看首尾句，可以估計 E 段是支持者反駁批評：他們指出 Esperanto 有大量翻譯文學、可用於國際會議，也具備中立、公平、平等的國際交流價值。Heading 若問 real language 或 equal voice，可看 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Esperantists 進一步聲稱，如果全世界普遍教一兩年 Esperanto，它有潛力讓普通人有效地全球溝通。最後一句說現今這種 privilege 常只限於 English native speakers，以及有特殊天分和機會學 English 的人。只看首尾句，可以判斷 F 段重點是「降低排他性」：Esperanto 可讓不同母語者都參與國際會議，也能在正式報告後輕鬆聊天。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Esperanto 在具體層面可節省現時花在 translators and interpreters 上的 billions of dollars。最後一句說如果 WHO 和其他 NGOs 不必花大筆錢在 interpreting and translation，便可把 huge amounts of money 用於改善全球受苦人群的健康。只看首尾句，可以估計 G 段聚焦translation cost 和 money reallocation：少花在翻譯，多做實際工作，帶來更大成果。"
+      }
+    ]
+  }
+}

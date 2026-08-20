@@ -1,0 +1,1127 @@
+{
+  "id": "p2-131-conflicting-climatic-phenomena-co-existing-on-the-mars",
+  "catalogueId": "p2-131",
+  "catalogueIds": [
+    "p2-131"
+  ],
+  "passage": 2,
+  "title": "Conflicting climatic phenomena co-existing on the Mars",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "H",
+    "B",
+    "F",
+    "C",
+    "A",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "sulfurous acid rain",
+    "airborne water droplets",
+    "carbonate rocks",
+    "greenhouse warming"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A problem indirectly solved by SO2”",
+      "translation": "一個由 SO2 間接解決的問題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph D。首句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘When you take away oxygen, it’s a profound change, and the atmosphere works really differently,’ Schrag remarks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schrag 說：「當你拿走氧氣，這是一個深刻改變，大氣的運作方式會非常不同。」尾句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Schrag and his colleagues, that difference also implies that SO2 would have played a starring role in the Martian water cycle—thus resolving another climate conundrum, namely, a lack of certain rocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Schrag 和同事的說法，這種差異也意味 SO2 可能在火星水循環中扮演重要角色，從而解決另一個氣候難題，也就是缺少某些岩石。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “problem”、 “indirectly solved”、 “SO2”。原文對應詞不是 problem，而是 “climate"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conundrum”。“solved” 對應 “resolving”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正定案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“thus resolving another climate conundrum, namely, a lack of certain rocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從而解決另一個氣候難題，也就是缺少某些岩石。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “problem” 被原文改寫成 “climate conundrum”。“indirectly solved by SO2” 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“SO2 would have played a starring role... thus resolving...” Paragraph E 會詳細解釋酸雨如何抑制 carbonate rocks 形成，但題目問的是哪段提到「這個問題被 SO2 解釋／解決」，最直接位置在Paragraph D。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“A device with an astounding ability for detection”",
+      "translation": "一種有驚人偵測能力的儀器。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph H。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kasting maintains that an SO2 climate feedback could not have made early Mars as warm as Earth, but he does allow for the possibility that SO2 concentrations may have remained high enough to keep the planet partly defrosted, with perhaps enough rainfall to form river valleys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kasting 認為 SO2 氣候回饋不能令早期火星像地球一樣暖，但他承認 SO2 濃度可能足以令火星部分解凍，並可能有足夠降雨形成河谷。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scheduled to launch in 2009, the rover ... will be the first to carry an X-ray diffractometer, which can scan and identify the crystal structure of any mineral it encounters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這架 rover 預定於 2009 年發射，將首次攜帶 X-ray diffractometer；它能掃描並識別遇到的任何礦物的晶體結構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “device”、 “detection”。原文沒有直接寫 astounding ability，但有 “scan and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "identify” 以及 “any mineral it encounters”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“an X-ray diffractometer, which can scan and identify the crystal structure of any mineral it encounters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一部 X-ray diffractometer，能掃描並識別它遇到的任何礦物的晶體結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “device” 對應 “X-ray diffractometer”。“astounding ability for detection” 是對 “scan and identify ... any mineral” 的概括。這裡要留意，rover 是載具，真正的偵測儀器是 X-ray diffractometer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“A potential contributor to warming on Mars that interacts with CO2.”",
+      "translation": "一種可能促成火星暖化、並與 CO2 互相配合的因素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, inspired by the surprising discovery that sulfur minerals are pervasive in the Martian soil, scientists are beginning to suspect that CO2 had a warm-up partner: sulfur dioxide (SO2).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，由於科學家驚訝地發現火星土壤中普遍存在硫礦物，他們開始懷疑 CO2 有一個保暖伙伴：sulfur dioxide，即 SO2。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A hundredth or even a thousandth of a percent SO2 in Mars’s early atmosphere could have provided the extra boost of greenhouse warming that the Red Planet needed to stay wet...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期火星大氣中即使只有百分之一或千分之一個百分點的 SO2，也可能提供紅色星球保持濕潤所需的額外 greenhouse warming。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “warming”、 “Mars”、 “interacts with CO2”。原文中最直接的對應是 “CO2 had a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "warm-up partner: sulfur dioxide”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“CO2 had a warm-up partner: sulfur dioxide (SO2).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "CO2 有一個保暖伙伴：二氧化硫 SO2。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“SO2 ... could have provided the extra boost of greenhouse warming...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SO2 可能提供額外的溫室暖化推力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “warm-up partner” 改寫成 “interacts with CO2”，把 “extra boost of greenhouse warming”改寫成 “potential contributor to warming”。Paragraph G 也談 CO2 和 SO2 的 partnership，但Paragraph B 是首次明確指出 SO2 作為暖化伙伴的段落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The destructive effect of sunlight proposed by opponents.”",
+      "translation": "反對者提出陽光具有破壞作用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists doubt that SO2 was really up to these climatic tasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些科學家懷疑 SO2 是否真的能完成這些氣候任務。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There may be ways to make this idea work,’ Kasting says. ‘But it would take some detailed modeling to convince skeptics, including me, that it is actually feasible.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kasting 說：「也許有方法令這個想法成立，但需要一些詳細模型，才能說服包括我在內的懷疑者相信它真的可行。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “destructive effect”、 “sunlight”、 “opponents”。原文中的 opponent 是 Kasting，他"
+            },
+            {
+              "kind": "paragraph",
+              "text": "質疑 SO2 假說。sunlight 對應 “the sun’s ultraviolet radiation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even in an oxygen-free atmosphere, SO2 is still extremely fragile; the sun’s ultraviolet radiation splits apart SO2 molecules quite readily...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使在沒有氧氣的大氣中，SO2 仍然非常脆弱；太陽的紫外線很容易把 SO2 分子分裂開來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “destructive effect of sunlight” 對應 “ultraviolet radiation splits apart SO2 molecules”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“proposed by opponents” 對應前面的 “Some scientists doubt...” 和 Kasting 的反方觀點。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A specific condition on early Mars that allowed SO2 to remain in the atmosphere for a long time.”",
+      "translation": "早期火星上一個令 SO2 能長時間留在大氣中的特定條件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“That may not sound like much, but for many gases, even minuscule concentrations are hard to maintain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那聽起來可能不多，但對很多氣體來說，即使是極微小濃度也很難維持。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early Mars would have been virtually free of atmospheric oxygen, though, so SO2 would have stuck around much longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，早期火星幾乎沒有大氣氧氣，所以 SO2 會停留更久。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “specific condition”、 “early Mars”、 “remain”、 “long time”。原文對應 “virtually"
+            },
+            {
+              "kind": "paragraph",
+              "text": "free of atmospheric oxygen” 和 “stuck around much longer”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early Mars would have been virtually free of atmospheric oxygen, though, so SO2 would have stuck around much longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期火星幾乎沒有大氣氧氣，所以 SO2 會留存更長時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “specific condition” 指 “virtually free of atmospheric oxygen”。“remain in the atmosphere for a long time” 對應 “stuck around much longer”。這題的因果很清楚：少氧氣 → SO2 不會像地球上那樣快速變成 sulfate → SO2 可留得更久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Conflicting climatic phenomena coexisting on Mars.”",
+      "translation": "火星上同時存在互相衝突的氣候現象或氣候證據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“On Mars, signs of wetness keep pouring in: deeply carved river valleys, vast deltas and widespread remnants of evaporating seas...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在火星上，潮濕跡象不斷出現：深切河谷、巨大三角洲，以及廣泛分布的蒸發海洋遺跡。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A thick layer of heat-trapping carbon dioxide from volcanoes probably shrouded the young planet, but climate models indicate time and again that CO2 alone could not have kept the surface above freezing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕火星可能曾被火山釋放的厚厚 CO2 覆蓋，但氣候模型一次又一次顯示，單靠 CO2 無法令火星表面保持在冰點以上。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “conflicting”、 “climatic phenomena”、 “Mars”。Paragraph A 有兩組衝突：wetness"
+            },
+            {
+              "kind": "paragraph",
+              "text": "signs 和 today’s cold/parched Mars；liquid water evidence 和 failed climate models。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“signs of wetness keep pouring in”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "潮濕跡象不斷出現。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bitterly cold and parched today, Mars needed a potent greenhouse atmosphere to sustain its watery past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天的火星極度寒冷乾燥，但要維持它多水的過去，火星曾需要強大的溫室大氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是題目說的 conflicting phenomena：一方面有 wetness evidence，另一方面火星今天 cold and parched，而且模型難以解釋古代溫暖濕潤環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Schrag has provided concrete evidence to counter sceptics of his view.”",
+      "translation": "Schrag 已經提供具體證據來反駁懷疑他觀點的人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schrag admits that the details are uncertain, but he cites estimates by other researchers who suggest that early Martian volcanoes could have spewed enough SO2 to keep pace with the SO2 destroyed photochemically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schrag 承認細節仍不確定，但他引用其他研究者的估算，指出早期火星火山可能釋放足夠 SO2，補上被光化學破壞的 SO2。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Previous findings also indicate that a thick CO2 atmosphere would have effectively scattered the most destructive wavelengths of ultraviolet radiation—yet another example of an apparently mutually beneficial partnership between CO2 and SO2 on early Mars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以往研究也指出，厚 CO2 大氣可能有效散射最具破壞性的紫外線波長，這又是早期火星上 CO2和 SO2 似乎互利合作的另一例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “concrete evidence”、 “counter sceptics”。原文有 “details are uncertain”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“estimates”、 “suggest”，這些字都顯示證據仍屬推測或模型層面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "最重要的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schrag admits that the details are uncertain...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schrag 承認細節仍不確定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “has provided concrete evidence”，語氣很強，意思是已拿出實質、清楚、有說服力的證據。原文剛好說 details are uncertain，而且 Kasting 在 Paragraph F 仍表示需要 detailed modeling 才能說服 skeptics。Schrag 有引用 estimates 和 previous findings，但這不等於已提供concrete evidence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文和題目方向相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“he cites estimates” 看起來像提供證據，但 estimates 是估算，不是 concrete evidence。題目最強的控制詞是 concrete。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Increasing evidence supports the leading role of SO2 in warming Mars.”",
+      "translation": "越來越多證據支持 SO2 在火星暖化中扮演主導角色。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph G，也要回看 Paragraph B / D / E。Paragraph G 首句說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schrag admits details uncertain，尾句說 previous findings indicate CO2 may have protected SO2 from ultraviolet radiation。這段的功能是補充支持假說的線索，但仍保留不確定性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Increasing evidence”、 “leading role”、 “warming Mars”。原文有幾個相關說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists are beginning to suspect that CO2 had a warm-up partner: sulfur dioxide (SO2).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家開始懷疑 CO2 有一個保暖伙伴：SO2。"
+            },
+            {
+              "kind": "quote",
+              "text": "“SO2 ... could have provided the extra boost of greenhouse warming...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SO2 可能提供額外的溫室暖化推力。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Schrag admits that the details are uncertain...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schrag 承認細節仍不確定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這題要分清三件事："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，文章確實說 SO2 可能有助 warming。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，文章也說有 estimates 和 previous findings 支持這個 hypothesis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，文章沒有明確說 “increasing evidence”，也沒有確認 SO2 在 warming Mars 中有 “leading role”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文最接近 “leading role” 的短語是 Paragraph D 的 “starring role”，但那裡說的是 “Martian water cycle”，不是直接說 SO2 主導火星暖化。Paragraph B 則說 SO2 是 CO2 的 “warm-up partner” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“extra boost”，這比較像輔助暖化因素。再加上 Paragraph G 開頭承認 details are uncertain，所以原文不足以判斷題目整句成立。這題不能選 TRUE，因為 “increasing evidence” 和 “leading role” 都超出原文可確定範圍。也不宜選 FALSE，因為文章沒有否定 SO2 可能有重要暖化作用。按 IELTS 嚴格證據標準，答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sulfites may not have been detected because no one was looking for them.”",
+      "translation": "sulfites 可能未被發現，是因為以前沒有人在找它們。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。首句討論 SO2 可能只需令火星部分解凍；尾句說 Mars Science"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Laboratory 將用 X-ray diffractometer 搜尋和識別礦物。這段後半明顯談 sulfites 和未來探測。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sulfites”、 “detected”、 “no one was looking”。原文幾乎直接重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“No sulfites have yet turned up, possibly because no one was looking for them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前還沒有發現 sulfites，可能是因為沒有人一直在尋找它們。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “may not have been detected” 對應原文 “No sulfites have yet turned up”。題目的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“because no one was looking for them” 與原文完全一致。原文使用 “possibly”，題目使用 “may”，兩者都表示可能性，不是絕對因果。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "sulfurous acid rain",
+      "answerKey": "sulfurous acid rain",
+      "type": "Summary Completion",
+      "prompt": "“Schrag’s team argues that 23 ______, formed when SO2 combined with 24 ______, would have inhibited the buildup of thick layers of limestone and other carbonate rocks.”",
+      "translation": "Schrag 團隊認為，當 SO2 與 24 ______ 結合時形成的 23 ______，會抑制厚層 limestone 和其他 carbonate rocks 的累積。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。首句直接說 SO2 與 airborne water droplets 結合，然後以"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sulfurous acid rain 形式落下。尾句說這會令更多 CO2 留在大氣，boost greenhouse warming。這段是 summary 的主要來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “SO2 combined with”、 “inhibited”、 “limestone and other carbonate rocks”。原文"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schrag’s team contends that on early Mars, much of the SO2 would have combined with airborne water droplets and fallen as sulfurous acid rain...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schrag 團隊認為，在早期火星上，大量 SO2 會與空氣中的水滴結合，並以亞硫酸雨的形式落下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 23 要填一個由 SO2 和某物結合後形成的東西。原文說 SO2 combined with airborne"
+            },
+            {
+              "kind": "paragraph",
+              "text": "water droplets and fallen as sulfurous acid rain。答案必須來自原文，且不超過三個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 23 答案是 sulfurous acid rain。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "airborne water droplets",
+      "answerKey": "airborne water droplets",
+      "type": "Summary Completion",
+      "prompt": "“formed when SO2 combined with 24 ______”",
+      "translation": "當 SO2 與 24 ______ 結合時形成。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "同一句原文直接給答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“SO2 would have combined with airborne water droplets...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SO2 會與空氣中的水滴結合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “combined with”，後面要填 SO2 結合的對象。原文名詞短語是 “airborne water"
+            },
+            {
+              "kind": "paragraph",
+              "text": "droplets”，三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 24 答案是 airborne water droplets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "carbonate rocks",
+      "answerKey": "carbonate rocks",
+      "type": "Summary Completion",
+      "prompt": "“A humid, CO2-rich atmosphere could produce thick layers of 25 ______.”",
+      "translation": "潮濕且富含 CO2 的大氣可以產生厚層的 25 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍在 Paragraph E。這段中間解釋為何研究者原本以為 Mars 應該有很多 carbonate rocks"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “humid, CO2-rich atmosphere”、 “thick layers”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers assumed Mars would be chock-full of carbonate rocks because their formation is such a fundamental consequence of the humid, CO2-rich atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者原本以為火星應該充滿 carbonate rocks，因為這類岩石的形成，是潮濕、富含 CO2 的大氣所帶來的基本結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “chock-full of carbonate rocks” 改寫成 “produce thick layers of ______”。上一句也"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有 “thick layers of limestone and other carbonate rocks”，所以這裡答案應是上位類別 “carbonate rocks”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 25 答案是 carbonate rocks。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "greenhouse warming",
+      "answerKey": "greenhouse warming",
+      "type": "Summary Completion",
+      "prompt": "“Stopping this process would have allowed SO2 to accelerate 26 ______.”",
+      "translation": "停止這個過程會令 SO2 加速 / 加強 26 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍在 Paragraph E。尾句正好談到 stopping CO2-sequestration step 的結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Stopping this process”、 “allowed SO2”、 “accelerate”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stifling this CO2-sequestration step on early Mars would have forced more of the gas to accumulate in the atmosphere—another way SO2 could have boosted greenhouse warming, Schrag suggests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在早期火星上抑制這個 CO2 封存步驟，會迫使更多 CO2 累積在大氣中；Schrag 認為，這是SO2 可能加強 greenhouse warming 的另一種方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Stopping this process” 對應原文 “Stifling this CO2-sequestration step”。題目的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“accelerate” 對應原文 “boosted”。空格要填被加強的東西，原文是 “greenhouse warming”。所以 26 答案是 greenhouse warming。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Conflicting climatic phenomena co-existing on the Mars.pdf",
+    "sha256": "506c3d1b2e306bb3056747120a1a0e912103c42e2dd079bcd7e813b8466facd9",
+    "pageCount": 14
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句段 Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句說 Mars 上 wetness 的跡象不斷出現，包括河谷、三角洲和蒸發海洋遺跡。尾句說氣候模型反覆顯示 CO2 alone 不能令表面保持在冰點以上。只看首尾句可見，這段建立全文矛盾：地貌證據似乎指向古代火星曾有液態水，但現有氣候解釋不足，尤其單靠二氧化碳無法解釋溫暖濕潤的過去。 B 首句說因為 Martian soil 中普遍發現 sulfur minerals，科學家開始懷疑 CO2 有一個warm-up partner：SO2。尾句說極低濃度的 SO2 也可能提供額外 greenhouse warming。這段功能是正式引入新假說：火山釋放的 sulfur dioxide 或許和 CO2 一起令早期火星保持濕潤。Question 16 很可能在此。 C 首句指出雖然 SO2 濃度聽起來很小，但很多氣體即使濃度極低，也很難長期維持。尾句說早期火星幾乎沒有 atmospheric oxygen，所以 SO2 可以停留更久。這段功能是解釋為何 SO2 在地球不能長期保暖，在早期火星卻可能有效，重點在 oxygen-free atmosphere。 Question 18 很可能在此。 D 首句引用 Schrag，指出沒有氧氣會令大氣運作方式產生深刻改變。尾句說這種差異也意味 SO2 可能在 Martian water cycle 中扮演 starring role，並解決另一個 climate conundrum：缺少某些岩石。這段是橋段：由 oxygen-free atmosphere 轉向 SO2 如何解釋岩石缺失問題。Question 14 很可能在此。 E 首句說 Schrag 團隊認為早期火星上大量 SO2 會與 airborne water droplets 結合，形成sulfurous acid rain。尾句說抑制 CO2 sequestration 會令更多 CO2 留在大氣中，進一步boosted greenhouse warming。這段詳細解釋 SO2 的化學機制：酸雨抑制 carbonate rocks 形成，間接保留更多 CO2，支援暖化假說。Questions 23–26 集中在此。 F 首句指出有些科學家懷疑 SO2 是否真的能完成這些氣候任務。尾句引用 Kasting，說需要detailed modeling 才能說服包括他在內的懷疑者。只看首尾句可見，這段是反方段落，核心在質疑 SO2 假說。中間提到 sunlight 的 ultraviolet radiation 會破壞 SO2 分子。 Question 17 很可能在此。 G 首句說 Schrag 承認細節仍不確定，但引用其他研究者的估算，指火山可能釋放足夠 SO2來補回被光化學破壞的量。尾句說 thick CO2 atmosphere 也可能遮擋最具破壞性的ultraviolet radiation，顯示 CO2 和 SO2 可形成 mutually beneficial partnership。這段功能是回應懷疑者，但證據仍帶不確定性。Questions 20–21 可定位到這裡。 H 首句說 Kasting 認為 SO2 climate feedback 不能令早期火星像地球一樣暖，但可能足夠令火星部分解凍。尾句說 Mars Science Laboratory 將首次攜帶 X-ray diffractometer，可掃描並識別任何礦物的 crystal structure。這段收束全文：SO2 不必令火星很熱，只需足夠形成河谷；最後提出未來可搜尋 sulfites 的設備。Questions 15 和 22 很可能在此。",
+        "label": "落"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1294 @@
+{
+  "id": "p2-101-robots",
+  "catalogueId": "p2-101",
+  "catalogueIds": [
+    "p2-101"
+  ],
+  "passage": 2,
+  "title": "ROBOTS",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "viii",
+    "vi",
+    "ix",
+    "iv",
+    "i",
+    "iii",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "video camera",
+    "database",
+    "tiny pressure pads"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "viii — Robots have quietly infiltrated our lives.",
+      "answerKey": "viii — Robots have quietly infiltrated our lives.",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph A 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The modern world is increasingly populated by quasi-intelligent gizmos whose presence we barely notice but whose creeping ubiquity has removed much human drudgery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代世界越來越充滿半智能的小裝置；我們幾乎沒有注意到它們的存在，但它們逐漸無處不在，已經減少了很多人類苦工。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As progress accelerates, the experimental becomes the exploitable at record pace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著進步加速，實驗性技術正以前所未有的速度變成可實際使用的技術。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位概念是 “quietly infiltrated our lives”。原文對應 “presence we barely notice”和 “creeping ubiquity”。這兩個短語都表示 robots 或 automated systems 已經慢慢進入生活，只是人們未必察覺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段列出大量日常和工業例子：robot assembly arms、automated teller terminals、robo-drivers、automated moles、robotic muckers。這些例子覆蓋工廠、銀行、地鐵、礦井和核事故清理，正好說明 robots 已經進入很多領域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viii 最能概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 如 v “Has the power of robots become too great?” 帶有擔憂語氣，但 Paragraph A的語氣主要是描述 robots 已普遍存在，沒有說 power too great。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "vi — Human skills have been heightened with the help of robotics.",
+      "answerKey": "vi — Human skills have been heightened with the help of robotics.",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph B 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other innovations promise to extend the abilities of human operators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他創新有望擴展人類操作者的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1994 a ten-foot-tall NASA robotic explorer called Dante, with video-camera eyes and spiderlike legs, scrambled over the menacing rim of an Alaskan volcano while technicians 2,000 miles away in California watched the scene by satellite and controlled Dante’s descent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1994 年，一部十英尺高、名為 Dante 的 NASA 探測機械人，配有攝錄鏡頭般的眼睛和蜘蛛般的腿，在阿拉斯加一座火山危險邊緣爬行；加州 2,000 英里外的技術員透過衛星觀看畫面並控制它下降。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 heading vi 的關鍵是 “Human skills have been heightened”。Paragraph B 第一個動詞already says “extend the abilities”。中間再出現 “far greater precision than highly skilled physicians can achieve with their hands alone”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 robot systems 可做某些 brain and bone surgery，而且有 submillimetre accuracy，精準度比技術高超的醫生單靠雙手更高。這清楚支援 “human skills have been heightened with robotics”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dante 的例子則補充第二種提升：人可以在遠距離控制 robot，避開危險環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 vi 最貼近本段主旨：機械人不只替代人，也能擴展人的精準度和安全操作距離。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "ix — Original predictions have been revised.",
+      "answerKey": "ix — Original predictions have been revised.",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph C 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But if robots are to reach the next stage of labour-saving utility, they will have to operate with less human supervision and be able to make at least a few decisions for themselves – goals that pose a formidable challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果 robots 要達到下一階段的省力用途，它們就必須在較少人類監督下運作，並至少能為自己作出一些決定；這些目標構成巨大挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite a spasm of initial optimism in the 1960s and 1970s, when it appeared that transistor circuits and microprocessors might be able to perform in the same way as the human brain by the 21st century, researchers lately have extended their forecasts by decades if not centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 1960 和 1970 年代曾有一陣早期樂觀情緒，當時看來晶體管電路和微處理器到了 21 世紀或許能像人腦一樣運作，但近來研究人員已把預測延後數十年，甚至數百年。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ix 的定位詞是 “predictions” 和 “revised”。原文沒有直接用 revised，但 “extended their forecasts by decades if not centuries” 就是把原本預測時間大幅延後。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段先提出 robots 要做到下一步，必須有 common sense 和自主 decision-making。接著說 true AI 的研究 “produced very mixed results”。最後一句把早期樂觀預測和後來延後預測作對比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以本段的核心不是單純說 robots 不能判斷，因為那更適合 Paragraph D；Paragraph C 的主線是 AI 原本被高估，後來 forecasts 被延後。答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "iv — There are judgements that robots cannot make.",
+      "answerKey": "iv — There are judgements that robots cannot make.",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph D 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they found, in attempting to model thought, is that the human brain’s roughly one hundred billion neurons are much more talented – and human perception far more complicated– than previously imagined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在嘗試模擬思考時發現，人腦約一千億個神經元比之前想像中更有能力，人類感知也複雜得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most advanced computer systems on Earth can’t approach that kind of ability, and neuroscientists still don’t know quite how we do it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球上最先進的電腦系統也無法接近那種能力，神經科學家仍未完全知道我們如何做到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位概念是 “judgements robots cannot make”。本段反覆比較 robots / computer systems 和 human mind 的判斷能力。尤其 “can’t approach that kind of ability” 是最強證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文承認 robots 在 controlled factory environment 中可以看出機器面板差了 fraction of a millimetre。可是人腦可以在 rapidly changing scene 中立刻忽略 98% 無關資訊，集中在 forest road 旁的 woodchuck，或 crowd 中一張 suspicious face。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種複雜、快速、語境化的視覺判斷。Paragraph D 的主旨是：robots 在受控環境可做細微識別，但面對真實世界複雜場景，仍有很多判斷做不到。答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "i — Some success has resulted from observing how the brain functions.",
+      "answerKey": "i — Some success has resulted from observing how the brain functions.",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph E 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nonetheless, as information theorists, neuroscientists, and computer experts pool their talents, they are finding ways to get some lifelike intelligence from robots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，隨著資訊理論家、神經科學家和電腦專家合作，他們正在找到方法，讓 robots 具備某些近似生命的智能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually the net wires itself into a system that can pronounce certain words or distinguish certain shapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，這個網絡會自我連接成一個系統，能讀出某些字詞或分辨某些形狀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i 的核心是 “observing how the brain functions”。Paragraph E 直接提到 “real brain’s neurons” 和 “neural networks”。這些詞把答案定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說有一種方法放棄 conventional electronic circuits 的 linear, logical structure，改用 real brain’s neurons 那種 messy, ad hoc arrangement。這些 neural networks 不必逐條 programming，而是用 feedback signals 強化正確路徑、消除錯誤連接。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表科學家從人腦運作方式得到啟發，並取得 some success：可以 pronounce certain words或 distinguish certain shapes。答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "iii — Scientists are examining the humanistic possibilities.",
+      "answerKey": "iii — Scientists are examining the humanistic possibilities.",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph F 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other areas researchers are struggling to fashion a more natural relationship between people and robots in the expectation that someday machines will take on some tasks now done by humans in, say, nursing homes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他領域，研究人員正努力塑造人和 robots 之間更自然的關係，期望有一天機器能承擔目前由人類在例如 nursing homes 中完成的某些工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The robot then uses an ensemble of tiny pressure pads to adjust its plastic face into an appropriate emotional response.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，這個 robot 使用一組細小壓力墊，把自己的塑膠面孔調整成合適的情緒反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的定位概念是 “humanistic possibilities”。Paragraph F 的 “natural relationship between people and robots”、nursing homes、facial expressions、emotional messages、detect emotions 都屬於人性化、人際互動方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段介紹日本 face robot。研究者集中在面部，因為他們相信 facial expressions 是傳遞emotional messages 最重要的方式。Robot 會觀察人的 eyes、nose、eyebrows、mouth 的 spatial arrangement，猜測對方 happy、frightened、angry 或 nervous，再調整自己的表情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Paragraph F 的主旨不是 robots 的工業用途，也不是 AI 預測，而是科學家研究 robots 與人類情感互動的可能性。答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Karel Capek successfully predicted our current uses for robots.”",
+      "translation": "Karel Capek 成功預見了我們今天對 robots 的用途。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The modern world is increasingly populated by quasi-intelligent gizmos whose presence we barely notice but whose creeping ubiquity has removed much human drudgery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代世界越來越充滿半智能小裝置；它們逐漸無處不在，減少了很多人類苦工，只是我們幾乎沒有察覺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As progress accelerates, the experimental becomes the exploitable at record pace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著進步加速，實驗性科技正以前所未有的速度變成可實際利用的科技。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Karel Capek” 和 “current uses”。Karel Capek 是人名，掃描時很快定位到 Paragraph A 後半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such is the scope of uses envisioned by Karel Capek, the Czech playwright who coined the term ‘robot’ in 1920 (the word ‘robota’ means ‘forced labour’ in Czech).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是捷克劇作家 Karel Capek 所設想的用途範圍；他在 1920 年創造了 “robot” 一詞，捷克語"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“robota” 意思是「強迫勞動」。題目中的 successfully predicted 對應原文 “uses envisioned by Karel Capek”。前文列出的工廠、銀行、地鐵、礦井、核事故清理等用途，就是 current uses 的例子。所以題目和原文方向一致，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Lives were saved by the NASA robot, Dante.”",
+      "translation": "NASA 機械人 Dante 拯救了人的生命。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other innovations promise to extend the abilities of human operators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他創新有望擴展人類操作者的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1994 a ten-foot-tall NASA robotic explorer called Dante, with video-camera eyes and spiderlike legs, scrambled over the menacing rim of an Alaskan volcano while technicians 2,000 miles away in California watched the scene by satellite and controlled Dante’s descent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1994 年，一部名為 Dante 的 NASA 探測機械人在阿拉斯加火山危險邊緣爬行，而加州 2,000 英里外的技術員透過衛星觀看並控制它下降。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “NASA robot, Dante” 和 “lives were saved”。Dante 直接出現在 Paragraph B 最後一句，但 “saved lives” 或 “rescue” 沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文確實說："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, techniques of long-distance control will keep people even farther from hazard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，遠距離控制技術會令人在更遠的位置避開危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只能支援「Dante 這類遠距操作可讓人遠離危險」。然而題目說 lives were saved，是一個更具體的結果：有人原本可能死亡，最後由 Dante 救回。文章沒有提供這種事件、受害者或拯救結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此原文有 hazard 和 remote control 的背景，但缺少 “lives were saved” 這個核心結果。答案是NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Robots are able to make fine visual judgements.”",
+      "translation": "Robots 能作出精細的視覺判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they found, in attempting to model thought, is that the human brain’s roughly one hundred billion neurons are much more talented – and human perception far more complicated– than previously imagined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在嘗試模擬思考時發現，人腦約一千億個神經元比之前想像中更有能力，人類感知也複雜得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most advanced computer systems on Earth can’t approach that kind of ability, and neuroscientists still don’t know quite how we do it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球上最先進的電腦系統也無法接近那種能力，神經科學家仍未完全知道我們如何做到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “fine visual judgements”。原文沒有完全相同字眼，但有 “recognise the misalignment”和 “by a fraction of a millimetre”。這些都表示很細微的視覺辨識。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have built robots that can recognise the misalignment of a machine panel by a fraction of a millimetre in a controlled factory environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們已經製造出 robots，能在受控工廠環境中辨認機器面板只有幾分之一毫米的錯位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 “fine visual judgements”：a fraction of a millimetre 是非常細小的差距，robots 能看出這種 misalignment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要留意，原文隨後說 humans 在複雜場景中的能力遠勝電腦，但這沒有否定 robots 在受控環境中能作精細視覺判斷。題目只說 able to make fine visual judgements，沒有說在所有真實環境都能做到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The internal workings of the brain can be replicated by robots.”",
+      "translation": "人腦內部運作可以被 robots 複製。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph D，並可連到 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they found, in attempting to model thought, is that the human brain’s roughly one hundred billion neurons are much more talented – and human perception far more complicated– than previously imagined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在嘗試模擬思考時發現，人腦約一千億個神經元比之前想像中更有能力，人類感知也比之前想像複雜得多。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most advanced computer systems on Earth can’t approach that kind of ability, and neuroscientists still don’t know quite how we do it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球上最先進的電腦系統也無法接近那種能力，神經科學家仍未完全知道我們如何做到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “internal workings of the brain” 和 “replicated”。原文相關概念包括 “model thought”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“human brain’s neurons”、 “real brain’s neurons” 和 “neuroscientists still don’t know quite how we do it”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 直接說 human perception far more complicated than previously imagined，而且最先進電腦也 “can’t approach that kind of ability”。這已經和 “can be replicated” 方向相衝。 Paragraph E 的 neural networks 確實受到人腦啟發：“One method renounces the linear, logical structure of conventional electronic circuits in favour of the messy, ad hoc arrangement of a real brain’s neurons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種方法放棄傳統電子電路的線性邏輯結構，改採近似真實大腦神經元的混亂、臨時組合式排列。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這只是模仿某種安排方式，並取得有限成果，例如辨認 certain words 或 certain shapes。文章沒有說 robots 已能複製大腦內部完整運作。加上 Paragraph D 說人類仍未完全知道自己如何做到這些感知判斷，題目說法過強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Japanese have the most advanced robot systems.”",
+      "translation": "日本人擁有最先進的 robot systems。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other areas researchers are struggling to fashion a more natural relationship between people and robots in the expectation that someday machines will take on some tasks now done by humans in, say, nursing homes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他領域，研究人員正努力建立人與 robots 之間更自然的關係，期望有一天機器能承擔目前由人類在例如護老院中完成的某些工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The robot then uses an ensemble of tiny pressure pads to adjust its plastic face into an appropriate emotional response.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，這個 robot 使用一組細小壓力墊，把自己的塑膠面孔調整成合適的情緒反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Japanese” 和 “most advanced”。Paragraph F 提到 Japan、Science University of Tokyo 和 Japanese robot，但沒有出現 most advanced、leading、best、ahead of other countries這類比較詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is particularly important in Japan, where the percentage of elderly citizens is rapidly increasing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這在日本尤其重要，因為日本老年人口比例正在迅速上升。"
+            },
+            {
+              "kind": "label",
+              "text": "再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“So experiments at the Science University of Tokyo have created a ‘face robot’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，東京理科大學的實驗製造了一個 “face robot”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只能說明日本正在研究 face robot，原因和人口老化有關。題目加入 “the most advanced robot systems” 這個最高級比較，但文章沒有和美國、歐洲或其他國家作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "video camera",
+      "answerKey": "video camera",
+      "type": "Summary Completion",
+      "prompt": "“The prototype of the Japanese ‘face robot’ observes humans through a 25_________________ which is embedded in its head.”",
+      "translation": "日本 “face robot” 的原型透過一個嵌在頭部的 __________ 觀察人類。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other areas researchers are struggling to fashion a more natural relationship between people and robots…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他領域，研究人員正努力建立人和 robots 之間更自然的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The robot then uses an ensemble of tiny pressure pads to adjust its plastic face into an appropriate emotional response.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後 robot 使用一組細小壓力墊，將自己的塑膠面孔調整成合適情緒反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “face robot”、 “prototype”、 “embedded”。原文直接有 “a prototype” 和 “a video camera embedded in the left eye”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So experiments at the Science University of Tokyo have created a ‘face robot’ – a life-size, soft plastic model of a female head with a video camera embedded in the left eye – as a prototype.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，東京理科大學的實驗製造了一個 “face robot” 作為原型；它是一個真人大小、柔軟塑膠製成的女性頭部模型，左眼嵌入了一部攝錄鏡頭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “through a”，所以答案需要單數名詞短語。原文的 “video camera” 兩個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 video camera。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "database",
+      "answerKey": "database",
+      "type": "Summary Completion",
+      "prompt": "“It then refers to a 26 _________________ of typical ‘looks’ that the human face can have, to decide what emotion the person is feeling.”",
+      "translation": "然後它參考一個人臉典型「樣貌」的 __________，以判斷那個人正感受到甚麼情緒。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句指出研究人員正建立人和 robots 之間更自然的關係；最後一句說 robot 會調整自己的面部表情。這代表中間細節應該解釋 robot 如何讀取和回應情緒。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “typical looks”、 “decide what emotion” 和 “refers to”。原文對應 “compares those configurations with a database of standard facial expressions and guesses the emotion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It compares those configurations with a database of standard facial expressions and guesses the emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它把這些面部配置和一個標準面部表情資料庫比較，然後猜測情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “typical ‘looks’ that the human face can have” 對應 “standard facial expressions”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“refers to” 對應 “compares … with”。空格前已有 “a”，空格後有 “of”，所以最自然答案是 database。所以答案是 database。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "tiny pressure pads",
+      "answerKey": "tiny pressure pads",
+      "type": "Summary Completion",
+      "prompt": "“To respond to this expression, the robot alters its own expression using a number of 27_________________.”",
+      "translation": "為了回應這個表情，robot 會使用多個 __________ 來改變自己的表情。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說研究者想建立 robots 和人類更自然的關係；最後一句正好說 robot 用某些裝置改變面部情緒反應，因此最後一句就是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “alters its own expression” 和 “using a number of”。原文對應 “uses an ensemble of tiny pressure pads to adjust its plastic face”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The robot then uses an ensemble of tiny pressure pads to adjust its plastic face into an appropriate emotional response.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，這個 robot 使用一組細小壓力墊，把自己的塑膠面孔調整成合適的情緒反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “alters its own expression” 對應 “adjust its plastic face into an appropriate emotional response”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a number of” 對應 “an ensemble of”。答案要從原文取字，且不超過三個字，所以 tiny pressure pads 最完整。所以答案是 tiny pressure pads。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - ROBOTS.pdf",
+    "sha256": "441deb1e2add1155e3e601d25a3c56ac8f5df5a67254e860aba6ec485ed1641b",
+    "pageCount": 15
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap Intro",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說現代世界越來越多 quasi-intelligent gizmos，而且我們幾乎沒有注意到它們；尾句說實驗科技正快速變成可實際利用的技術。只看首尾句，可以估計本段講 robots 已悄悄進入日常生活。中間列出工廠機械臂、ATM、無人駕駛地鐵、採礦自動機、核災清理機械人，也引入 Karel Capek和 robot 一詞來源。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說其他創新會擴展 human operators 的能力；尾句描述 NASA 機械人 Dante 在火山邊緣行動，由 2,000 miles 外的技術員遙控。只看首尾句，可以估計本段主力講 robotics 如何提升人的能力，尤其是精準度和安全距離。中間提到腦部和骨科手術可達 submillimetre accuracy，也用Dante 說明 remote control 如何遠離危險。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 But 轉折，說若 robots 要進入下一階段，就要減少 human supervision，並能作出少量decisions；尾句說研究人員已把原本預測延後幾十年甚至幾百年。只看首尾句，可以估計本段講AI 發展低於早期預期。重點在 common sense、dynamic world 和 true artificial intelligence 的困難，heading 很可能和 revised predictions 有關。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說研究者嘗試 model thought 時發現，人腦神經元能力和 human perception 比想像複雜；尾句說最先進電腦仍不能接近人類這種能力，神經科學家也未完全知道人類如何做到。只看首尾句，可以估計本段比較 robots 和 human mind 的判斷能力。中間有 machine panel、woodchuck、suspicious face 等例子，重點是複雜場景判斷。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 information theorists、neuroscientists 和 computer experts 合作後，正在找到讓 robots具備某些 lifelike intelligence 的方法；尾句說這些網絡最後能讀出某些字或分辨某些形狀。只看首尾句，可以估計本段講 neural networks。它們參考人腦神經元的 messy arrangement，不用傳統逐步 programming，而透過 feedback 自我調整。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說另一方向是建立人和 robots 之間更自然的關係，期待機器有一天能做 nursing homes 中某些工作；尾句說 robot 會用 tiny pressure pads 調整自己的塑膠面部，作出合適情緒反應。只看首尾句，可以估計本段講人性化 robots，尤其是日本 face robot。它會透過 camera、database 和facial expressions 偵測人類情緒並回應。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說其他實驗室採取不同方向，不嘗試模仿 human intelligence or emotions；尾句說很多mini-critters 像 ant colony 一樣合作，可探索行星氣候或檢查危險工業管道。只看首尾句，可以估計本段講 swarm robots 和 collective intelligence。重點是不要把所有期望放在一個 robot，而可以讓大量半智能小機械協作。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "首句說人類自有創意以來，一直發明工具處理 dangerous、boring、onerous 或 nasty 的工作；尾句說這種衝動最終發展成 robotics，把人類能力賦予機器。只看首尾句，可以估計引言功能是設定全文大方向：robots 不是突然出現的科技，而是人類長期減少辛苦、危險和厭惡工作的延伸。後文會討論 robots 的用途、限制和未來可能性。"
+  ]
+}

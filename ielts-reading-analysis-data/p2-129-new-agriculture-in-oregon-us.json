@@ -1,0 +1,1520 @@
+{
+  "id": "p2-129-new-agriculture-in-oregon-us",
+  "catalogueId": "p2-129",
+  "catalogueIds": [
+    "p2-129"
+  ],
+  "passage": 2,
+  "title": "New Agriculture in Oregon, US",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "E",
+    "D",
+    "C",
+    "A",
+    "F",
+    "D",
+    "B",
+    "G",
+    "NO",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "E — Art Pimms",
+      "answerKey": "E — Art Pimms",
+      "type": "Matching People",
+      "prompt": "“The new techniques offer two distinct advantages.”",
+      "translation": "新技術帶來兩項明顯好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, the new system produced crops of very large onions, rated ‘super-colossal’ and highly valued by the restaurant industry and food processors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另外，這個新系統生產出非常大的洋蔥，被評為 “super-colossal”，並受到餐飲業和食品加工商高度重視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new practices benefit the environment and help growers succeed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些新做法有利環境，也幫助種植者成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph G 會講新農法的成果。第一句指出產品質素和市場價值，最後一句直接總結兩項好處：環境受益，growers 也成功。這和題目的 “two distinct advantages” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “new techniques” 和 “two distinct advantages”。原文沒有用techniques，而是用 “new practices”。“two distinct advantages” 對應兩個並列結果："
+            },
+            {
+              "kind": "quote",
+              "text": "“benefit the environment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“help growers succeed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art Pimms, one of the researchers at Malheur, comments: ‘Growers are finding that when they adopt more environmentally benign practices, they can have excellent results. The new practices benefit the environment and help growers succeed.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malheur 的研究員之一 Art Pimms 評論說：「種植者發現，當他們採用較環保的做法時，可以有出色結果。這些新做法有利環境，也幫助種植者成功。」這句由 Art Pimms 說出。題目的 “offer two distinct advantages” 是對 “benefit the environment and help growers succeed” 的概括。第一個 advantage 是 environmental benefit；第二個advantage 是 growers’ success。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "new techniques = new practices two distinct advantages = benefit the environment + help growers succeed offer = benefit / help所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D — Paul Jepson",
+      "answerKey": "D — Paul Jepson",
+      "type": "Matching People",
+      "prompt": "“Work on developing alternative techniques is not yet complete.”",
+      "translation": "發展替代技術的工作仍未完成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GAO report singles out Oregon’s apple and pear producers who have used the new IPM techniques with growing success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GAO 報告特別指出，Oregon 的蘋果和梨子生產者使用新的 IPM 技術，並取得越來越明顯的成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We must continue to develop effective alternative practices that will reduce environmental hazards and produce high-quality products,’ said Paul Jepson, a professor of entomology at OSU and new director of OSU’s Integrated Plant Protection Centre (IPPC).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OSU 昆蟲學教授、IPPC 新任主任 Paul Jepson 說：「我們必須繼續發展有效的替代做法，以減少環境危害並生產高品質產品。」只看首尾句，可以估計 Paragraph C 一方面承認 Oregon 的 IPM 成功，另一方面指出 OSU 科學家仍在回應批評並繼續開發替代方法。題目中的 “not yet complete” 就對應 “must continue to develop”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “developing alternative techniques” 和 “not yet complete”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“continue to develop”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effective alternative practices”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We must continue to develop effective alternative practices that will reduce environmental hazards and produce high-quality products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們必須繼續發展有效的替代做法，以減少環境危害並生產高品質產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “We”，說話人是 Paul Jepson。核心動詞是 “must continue to develop”。continue表示工作仍在進行；題目把這點改寫成 “is not yet complete”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "alternative techniques = alternative practices work is not yet complete = must continue to develop developing = develop所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — Bill Bowler",
+      "answerKey": "C — Bill Bowler",
+      "type": "Matching People",
+      "prompt": "“Eating food produced with toxic chemicals is dangerous to human health.”",
+      "translation": "食用以有毒化學品種植的食物會危害人體健康。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are some of the results Oregon growers have achieved in collaboration with Oregon State University (OSU) researchers as they test new farming methods including integrated pest management (IPM).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是 Oregon 種植者與 OSU 研究人員合作測試新農法，包括 IPM 時取得的一些成果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the kind found on today’s farms can be healthy for consumers,’ noted Bill Bowler, spokesman for Green Action, one of many lobbyists interested in this issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Green Action 發言人 Bill Bowler 指出：「長期食用現今農場使用有毒化學品種植出來的食物，不可能對消費者健康有益。」只看首尾句，可以估計 Paragraph B 由 Oregon 成功例子擴展至全美 IPM 問題，最後進入食品安全爭議。題目談 toxic chemicals 和 human health，最自然定位到段落最後 Bill Bowler 的 quote。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “toxic chemicals” 和 “human health”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“foodstuffs grown using toxic chemicals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can be healthy for consumers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the kind found on today’s farms can be healthy for consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長期食用現今農場那類有毒化學品種植出來的食物，不可能對消費者健康有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句由 Bill Bowler 說出。雖然原文表達方式是否定形式 “can be healthy”，但意思很清楚：他認為這類食物不健康，會對消費者構成健康風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "eating food = consumption of foodstuffs produced with toxic chemicals = grown using toxic chemicals dangerous to human health = cannot be healthy for consumers所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — Tony Brown",
+      "answerKey": "A — Tony Brown",
+      "type": "Matching People",
+      "prompt": "“Changing from current farming methods to new ones is expensive.”",
+      "translation": "由現有農法轉用新農法成本高昂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are some of the results Oregon growers have achieved in collaboration with Oregon State University (OSU) researchers as they test new farming methods including integrated pest management (IPM).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是 Oregon 種植者與 OSU 研究人員合作測試新農法，包括 IPM 時取得的一些成果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the kind found on today’s farms can be healthy for consumers,’ noted Bill Bowler, spokesman for Green Action, one of many lobbyists interested in this issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bill Bowler 指出，長期食用以現今農場有毒化學品種植的食物，不可能對消費者健康有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph B 集中在 IPM、新農法、政府推行、成本和食品安全爭議。題目中的expensive 屬於農民採用新做法的障礙，所以要在本段中找農民代表的說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “changing” 和 “expensive”。原文用："
+            },
+            {
+              "kind": "quote",
+              "text": "“Making wholesale changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“is expensive”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Making wholesale changes to the way farmers control pests on their farms is expensive,’ Tony Brown, of the National Farmers Association, says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "National Farmers Association 的 Tony Brown 說：「全面改變農民在農場控制害蟲的方式是昂貴的。」這句完全對應題目。題目的 “Changing from current farming methods to new ones” 概括了原文的 “Making wholesale changes to the way farmers control pests”。“is expensive” 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "changing from current methods to new ones = making wholesale changes to the way farmers control pests expensive = expensive所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "F — Steve Black",
+      "answerKey": "F — Steve Black",
+      "type": "Matching People",
+      "prompt": "“The results exceeded expectations.”",
+      "translation": "結果超出預期。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OSU researchers in Malheur next tested straw mulch and found that it successfully held soil in place and kept the ground moist with less irrigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malheur 的 OSU 研究人員接著測試 straw mulch，發現它成功固定土壤，並在較少灌溉下保持地面濕潤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I would never have believed that we could replace the artificial pest controls that we had before and still keep our good results,’ commented Steve Black, a commercial onion farmer in Oregon, ‘but instead we have actually surpassed expectations.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Oregon 商業洋蔥農 Steve Black 評論說：「我從來沒想過我們可以取代以前的人造害蟲控制方法，同時仍保持好結果；結果我們實際上已經超出預期。」只看首尾句，可以推測 Paragraph H 是 straw mulch 實驗段。它先講保土保濕，再由 farmer 評論成果超出原本想像。題目中的 “exceeded expectations” 幾乎就是原文 “surpassed expectations”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “exceeded expectations”。原文同義詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“surpassed expectations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“but instead we have actually surpassed expectations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果我們實際上已經超出預期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句由 Steve Black 說出。surpassed = exceeded；expectations = expectations。題目只是把動詞換成另一個近義詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "exceeded = surpassed results = good results / actual outcome expectations = expectations所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D — Paul Jepson",
+      "answerKey": "D — Paul Jepson",
+      "type": "Matching People",
+      "prompt": "“Research findings should be translated into practical projects.”",
+      "translation": "研究成果應該轉化為實際田間項目。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The GAO report criticizes agencies for not clearly communicating the goals of IPM,’ said Jepson.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jepson 說：「GAO 報告批評各機構沒有清楚傳達 IPM 的目標。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work coming from OSU researchers must be adopted in the field and not simply languish in scientific journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OSU 研究人員的成果必須在田間被採用，不應只留在科學期刊中慢慢被擱置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 的功能是講 communication 和 adoption。段落不集中介紹某項技術，而是講研究成果如何走出期刊，進入農場實踐。這和題目的 “translated into practical projects” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “research findings” 和 “practical projects”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“work coming from OSU researchers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adopted in the field”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work coming from OSU researchers must be adopted in the field and not simply languish in scientific journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OSU 研究人員的成果必須在田間被採用，不應只停留在科學期刊中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是 Jepson 的觀點延續。核心是 “must be adopted in the field”。in the field 指農場或實地環境；這正是題目說的 practical projects。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "research findings = work coming from OSU researchers translated into practical projects = adopted in the field should = must所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — Patrick Leahy",
+      "answerKey": "B — Patrick Leahy",
+      "type": "Matching People",
+      "prompt": "“The United States currently produces the best food in the world.”",
+      "translation": "美國目前生產世界上最好的食物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are some of the results Oregon growers have achieved in collaboration with Oregon State University (OSU) researchers as they test new farming methods including integrated pest management (IPM).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是 Oregon 種植者與 OSU 研究人員合作測試新農法，包括 IPM 時取得的一些成果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the kind found on today’s farms can be healthy for consumers,’ noted Bill Bowler, spokesman for Green Action, one of many lobbyists interested in this issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bill Bowler 指出，長期食用以現今農場有毒化學品種植的食物，不可能對消費者健康有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 會處理全美農藥使用、食品安全和不同人物立場。Question 21 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“best food in the world” 是一種強烈評價，要找段落中帶有最高級的 quote。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “best food in the world”。原文沒有 best food，但有最高級：“the safest and highest quality on Earth”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Our food supply remains the safest and highest quality on Earth but we continue to overdose our farmland with powerful and toxic pesticides and to underuse the safe and effective alternatives,’ charged Patrick Leahy, who commissioned the report.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "委託撰寫該報告的 Patrick Leahy 指責說：「我們的食物供應仍然是地球上最安全、品質最高的，但我們仍繼續在農田過量使用強力有毒農藥，並低度使用安全有效的替代方法。」題目把 “safest and highest quality on Earth” 概括為 “best food in the world”。雖然 Leahy 同時批評農藥過量使用，但題目只問哪位人物說美國食物是世界最佳。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "United States food supply = our food supply best food in the world = safest and highest quality on Earth currently = remains所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "G — Rick Hilton",
+      "answerKey": "G — Rick Hilton",
+      "type": "Matching People",
+      "prompt": "“Consumers’ expectations influence agricultural products.”",
+      "translation": "消費者的期望會影響農產品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OSU researchers throughout the state have been working to reduce dependence on broad-spectrum chemical sprays that are toxic to many kinds of organisms, including humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OSU 研究人員在全州努力減少對廣譜化學噴劑的依賴；這類噴劑對多種生物有毒，包括人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These and other studies around the state are part of the effort of the IPPC to find alternative farming practices that benefit both the economy and the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些以及全州其他研究，都是 IPPC 尋找替代農法的努力之一，目標是同時有利經濟和環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph I 集中於減少化學農藥，同時維持經濟可行性。題目提到consumers’ expectations，因此要找 consumer pressure、product appearance、market demand一類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Consumers’ expectations”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumers are rightly putting more and more pressure…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“they still want a picture-perfect product”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Consumers are rightly putting more and more pressure on the industry to change its reliance on chemical pesticides, but they still want a picture-perfect product,’ said Rick Hilton…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rick Hilton 說：「消費者正合理地向業界施加越來越大壓力，要求改變對化學農藥的依賴，但他們仍想要外觀完美的產品。」這句有兩個 consumer expectations：第一，消費者希望減少 chemical pesticides；第二，他們仍想要 picture-perfect product。這些期望會影響 growers 和 researchers 採用的新方法，因為新方法既要降低農藥，又要保持梨子的外觀和品質。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "consumers’ expectations = consumers put pressure + want picture-perfect product influence agricultural products = affect industry methods and product standards所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Integrated pest management has generally been regarded as a success across the United States.”",
+      "translation": "Integrated pest management 一般被認為在全美取得成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are some of the results Oregon growers have achieved in collaboration with Oregon State University (OSU) researchers as they test new farming methods including integrated pest management (IPM).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是 Oregon 種植者與 OSU 研究人員合作測試新農法，包括 IPM 時取得的一些成果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the kind found on today’s farms can be healthy for consumers,’ noted Bill Bowler…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bill Bowler 指出，長期食用以有毒化學品種植的食物，不可能對消費者健康有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句把 IPM 和 Oregon 成功聯繫起來；接下來 “Nationwide, however” 很重要，因為它會比較Oregon 和全美情況。題目問 across the United States，所以要看 nationwide 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Integrated pest management”、“success” 和 “across the United States”。原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nationwide, however, IPM has not delivered results comparable to those in Oregon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，在全國範圍內，IPM 並未帶來可與 Oregon 相比的成果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 IPM generally been regarded as a success across the United States。原文說 nationwide IPM has not delivered comparable results。這裡有清楚相衝："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：全美普遍成功"
+            },
+            {
+              "kind": "label",
+              "text": "原文：全國表現未能與 Oregon 相比後文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the federal government has failed to promote that goal effectively or implement IPM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯邦政府未能有效推廣這個目標，也未能實施 IPM。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這進一步削弱 “generally regarded as a success”。文章承認 Oregon 成功，但沒有把這種成功擴展到全美；相反，它明確指出 nationwide 效果不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Oregon’s apple and pear farmers have been cited as successful examples of integrated pest management.”",
+      "translation": "Oregon 的蘋果和梨子農民被引用為 IPM 的成功例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GAO report singles out Oregon’s apple and pear producers who have used the new IPM techniques with growing success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GAO 報告特別指出 Oregon 的蘋果和梨子生產者使用新的 IPM 技術，並取得越來越明顯的成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We must continue to develop effective alternative practices that will reduce environmental hazards and produce high-quality products,’ said Paul Jepson…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Jepson 說：「我們必須繼續發展有效的替代做法，以減少環境危害並生產高品質產品。」只看首尾句，Paragraph C 的第一句已經非常接近題目。它提到 GAO report、Oregon’s apple and pear producers、new IPM techniques、growing success。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “apple and pear farmers”、“cited” 和 “successful examples”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“singles out”"
+            },
+            {
+              "kind": "quote",
+              "text": "“apple and pear producers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“growing success”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The GAO report singles out Oregon’s apple and pear producers who have used the new IPM techniques with growing success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GAO 報告特別指出 Oregon 的蘋果和梨子生產者，他們使用新的 IPM 技術並取得越來越明顯的成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “have been cited” 對應 “singles out”。singles out 意思是特別指出、特別提到。題目的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“successful examples” 對應 “with growing success”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "farmers = producers cited = singled out successful examples = used new IPM techniques with growing success題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The IPPC draws on scientists from organisations around the world.”",
+      "translation": "IPPC 借助來自世界各地組織的科學家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The IPPC brings together scientists from OSU’s Agricultural Experiment Station, OSU Extension Service, the U.S. Department of Agriculture and Oregon farmers to help develop agricultural systems that will save water and soil, and reduce pesticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IPPC 結合來自 OSU Agricultural Experiment Station、OSU Extension Service、U.S. Department of Agriculture 的科學家，以及 Oregon 農民，以協助發展能節水、保土和減少農藥的農業系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In response to the GAO report, the Centre is putting even more emphasis on integrating research and farming practices to improve Oregon agriculture environmentally and economically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為回應 GAO 報告，該中心更加重視整合研究和農業實踐，以在環境和經濟上改善 Oregon 農業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 會介紹 IPPC 的組成和目標。題目說 around the world，所以要檢查原文列出的機構是否屬於國際範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “IPPC”、“scientists” 和 “around the world”。原文列出： OSU’s Agricultural Experiment Station OSU Extension Service U.S. Department of Agriculture Oregon farmers"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 IPPC brings together scientists from OSU 相關機構和 U.S. Department of Agriculture，再加上 Oregon farmers。這些來源都屬於 Oregon / United States 框架。題目把來源擴大成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“organisations around the world”，也就是國際範圍。這和原文提供的來源範圍相衝。題目命題： IPPC draws on scientists from worldwide organisations.原文命題： IPPC brings together scientists from named Oregon / U.S. organisations, plus Oregon farmers.這裡控制答案的是 geographic scope。around the world 的範圍遠大於 OSU、USDA 和 Oregon farmers。原文沒有國際組織、海外科學家或 worldwide network 的資訊。所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Experiments with straw mulch produced unexpected benefits.”",
+      "translation": "straw mulch 實驗產生了意外好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OSU researchers in Malheur next tested straw mulch and found that it successfully held soil in place and kept the ground moist with less irrigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malheur 的 OSU 研究人員接著測試 straw mulch，發現它成功固定土壤，並在較少灌溉下保持地面濕潤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I would never have believed that we could replace the artificial pest controls that we had before and still keep our good results,’ commented Steve Black… ‘but instead we have actually surpassed expectations.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Steve Black 說：「我從來沒想過我們可以取代以前的人造害蟲控制方法，同時仍保持好結果；結果我們實際上已經超出預期。」首句直接有 straw mulch 和 tested，最後一句說 surpassed expectations。題目中的 unexpected benefits 很可能在此段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “straw mulch” 和 “unexpected benefits”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unexpectedly, the scientists also found…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unexpectedly, the scientists also found that the mulched soil created a home for beneficial beetles and spiders that prey on onion thrips—a notorious pest in commercial onion fields—a discovery that could reduce the need for pesticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出乎意料地，科學家還發現覆蓋了 straw mulch 的土壤為有益甲蟲和蜘蛛提供棲息地；這些昆蟲和蜘蛛會捕食 onion thrips 這種商業洋蔥田中臭名昭著的害蟲，而這項發現可能減少對農藥的需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “unexpected benefits” 對應三層內容： Unexpectedly = 意外地created a home for beneficial beetles and spiders = 產生有益昆蟲和蜘蛛棲地could reduce the need for pesticides = 可能減少農藥需求題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The apple industry now faces strong competition from overseas.”",
+      "translation": "蘋果產業現在面對來自海外的強大競爭。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OSU researchers throughout the state have been working to reduce dependence on broad-spectrum chemical sprays that are toxic to many kinds of organisms, including humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OSU 研究人員在全州努力減少對廣譜化學噴劑的依賴；這類噴劑對多種生物有毒，包括人類。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These and other studies around the state are part of the effort of the IPPC to find alternative farming practices that benefit both the economy and the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些以及全州其他研究都是 IPPC 尋找替代農法的努力之一，目標是同時有利經濟和環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 會講 chemical sprays、research、economy 和 environment。題目有overseas competition，所以要找 competition 和 specific industry。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “apple industry” 和 “overseas competition”。原文找到的相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Picture-perfect pears are an important product in Oregon and traditionally they have required lots of chemicals. In recent years, the industry has faced stiff competition from overseas producers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "外觀完美的梨子是 Oregon 的重要產品，傳統上需要大量化學品。近年來，這個產業面對來自海外生產者的激烈競爭。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “the industry” 指前一句的 pear industry，即 picture-perfect pears 所在的產業。原文在Paragraph I 集中講 pear growers、pears 和 codling moth larvae，沒有在這裡說 apple industry的 overseas competition。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要： apple industry faces strong overseas competition.原文提供： pear industry faces stiff competition from overseas producers. apple 和 pear 是不同產業。文章早前 Paragraph C 同時提過 “apple and pear producers”，但關於 overseas competition 的句子只連到 pears。原文沒有說 apple industry 有沒有同樣競爭，也沒有說 apple industry 沒有競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - New Agriculture in Oregon, USy.pdf",
+    "sha256": "4de35a014572ef7ed9405575359bce5b1364f8bc139accee28288fc0deeb545a",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 eastern Oregon 的洋蔥種植者採用新系統，既節水又保護 topsoil，同時產出最高品質的“super-colossal” onions。末句轉到 range managers，用 insect predators 控制有毒雜草 tansy ragwort，為 Oregon 畜牧業每年節省大量金錢。只看首尾句，可以先估計本段是開場例子段，展示 Oregon 農業新方法的成果：保水、保土、減少有害生物、維持品質，還有清楚經濟收益。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把 Paragraph A 的成果連到 Oregon growers 和 OSU researchers 的合作，並點出integrated pest management。末句引用 Bill Bowler，質疑長期食用以有毒化學品種植的食物不可能健康。只看首尾句，可以估計本段會由 Oregon 成功例子轉到全美 IPM 推行問題、政府責任、農民成本、農藥安全爭議。人物 Tony Brown、Patrick Leahy、Bill Bowler 的觀點都集中在這段， Questions 17、18、21 很可能定位於此。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 GAO report 特別指出 Oregon 的 apple and pear producers 使用新 IPM 技術並日漸成功。末句引用 Paul Jepson，表示仍須繼續發展有效替代方法，以降低環境危害並生產高品質產品。只看首尾句，可以推測本段功能是承認 Oregon 在 IPM 上領先全國，同時指出研究和改良仍要繼續。Questions 16 和 24 的定位詞，如 alternative techniques、apple and pear farmers、successful examples，都指向這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句介紹 IPPC 的組成：它結合 OSU、OSU Extension Service、USDA 和 Oregon farmers，目標是建立節水、保土、減少農藥的 agricultural systems。末句說中心因應 GAO report，更加強調把research 和 farming practices 整合，以改善 Oregon agriculture 的環境和經濟表現。只看首尾句，本段功能是介紹 IPPC 的成員來源和工作目標。Question 25 的 around the world 要在這段檢查範圍。"
+      },
+      {
+        "number": "E",
+        "summary": "首句引用 Jepson，說 GAO report 批評 agencies 沒有清楚傳達 IPM 的目標。末句說 OSU researchers 的成果必須在田間被採用，不應只停留在 scientific journals。只看首尾句，可以估計本段重點是 communication 和 practical adoption。它不是介紹某種農業技術本身，而是處理研究如何真正落地。Question 20 的 “Research findings should be translated into practical projects”幾乎直接對應本段末句。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Oregon 的 growers 和 scientists 正一起實施新做法。末句說新的 drip irrigation system把水和肥料使用量減半，保住 topsoil，並保護 water quality。只看首尾句，可以推測本段是具體技術例子：以 drip irrigation 取代浪費水、沖走土壤和肥料的 old ditches。段落重心是新灌溉系統的實際環境成效，包括節水、減肥料、保土和保護水質。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說新系統還生產出非常大的洋蔥，即 restaurant industry 和 food processors 重視的“super-colossal” onions。末句 Art Pimms 總結，new practices benefit the environment and help growers succeed。只看首尾句，可以估計本段功能是補充 drip irrigation 的產品和商業成效：新方法不只改善環境，也令種植者取得好結果。Question 15 的 “two distinct advantages” 很可能就是environment 和 growers succeed。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 OSU researchers 在 Malheur 測試 straw mulch，發現它能固定 soil，並在較少 irrigation下保持地面濕潤。末句 Steve Black 說自己原本不相信可取代 artificial pest controls 並保持好結果，結果實際表現 surpass expectations。只看首尾句，可以推測本段是 straw mulch 的實驗段，重點包括保土、保濕，以及意外帶來 beneficial beetles and spiders，從而可能減少農藥。 Questions 19 和 26 指向這段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 OSU researchers 在全州努力減少對 broad-spectrum chemical sprays 的依賴，這類噴劑對多種生物包括 humans 有毒。末句總結這些研究屬於 IPPC 的努力，目標是找出同時有利經濟和環境的替代 farming practices。只看首尾句，可以估計本段集中在 pear growers、chemical pesticides、consumer pressure 和市場競爭。Rick Hilton 的 quote 會回答 Question 22；Question 27 的 apple industry 要小心，因本段後半講的是 pear industry。"
+      }
+    ]
+  }
+}

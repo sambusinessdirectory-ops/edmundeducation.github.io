@@ -1,0 +1,2150 @@
+{
+  "id": "p2-132-how-war-debris-could-cause-cancer",
+  "catalogueId": "p2-132",
+  "catalogueIds": [
+    "p2-132"
+  ],
+  "passage": 2,
+  "title": "How war debris could cause cancer",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "G",
+    "E",
+    "A",
+    "G",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "the military",
+    "high density",
+    "self-sharpening",
+    "chemical toxicity"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A well-known process related to the new theory.”",
+      "translation": "一個與新理論有關、眾所周知的物理過程。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目不問整段主旨，而是問哪一段包含這項資料。最強定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“well-known process” 和 “new theory”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“Now two researchers, Chris Busby and Ewald Schnug, have a new theory that they say explains how depleted uranium could cause genetic damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，兩位研究者 Chris Busby 和 Ewald Schnug 提出一個新理論；他們說這個理論可以解釋depleted uranium 如何造成 genetic damage。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that uranium could be especially effective at capturing photons and kicking out damaging photoelectrons: with an atomic number of 92, uranium blocks low-energy gamma photons over 450 times as effectively as the lighter element calcium, for instance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著 uranium 可能特別有效地捕捉 photons，並釋放出有害的 photoelectrons；例如uranium 的 atomic number 是 92，所以它阻擋 low-energy gamma photons 的能力比較輕的calcium 強 450 倍以上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph D 是新理論的科學原理段。第一句直接說 “new theory”，最後一句說 uranium 如何捕捉 photons 並釋放 photoelectrons，正好和題目的 process 相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“well-known process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new theory”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their theory invokes a well-known process called the photoelectric effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的理論引用了一個稱為 photoelectric effect 的眾所周知過程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their theory invokes a well-known process called the photoelectric effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的理論引用了一個眾所周知的過程，叫做 photoelectric effect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “Their theory” 指 Busby 和 Schnug 的 new theory；“well-known process” 原字重現；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“called the photoelectric effect” 給出具體名稱。題目沒有要求填名稱，只要求找哪段包含這項資訊，所以 Paragraph D 最直接。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "new theory = Their theory well-known process = a well-known process related to = invokes / called the photoelectric effect答案判斷： Paragraph D 同時有 new theory 和 well-known process，資料功能完全吻合，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提出 controversial claim，看起來像新理論開場；但 A 沒有說 “well-known process”。真正包含 photoelectric effect 的段落是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“A person who acknowledges the theory but doubts its significance.”",
+      "translation": "有一個人承認這個理論值得考慮，但懷疑它的重要性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找一位人物的態度。核心不是只找 “theory”，還要同時找到 acknowledge 和 doubts its significance。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hans-Georg Menzel, who chairs the International Commission on Radiological Protection’s committee on radiation doses, acknowledges that the theory should be considered, but he doubts that it will prove significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hans-Georg Menzel 是 International Commission on Radiological Protection 的 radiation doses委員會主席；他承認這個理論應被考慮，但懷疑它最終會證明很重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations in the UK, including the Ministry of Defence and the Health Protection Agency, say they have no plans to investigate Busby’s hypothesis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國一些機構，包括 Ministry of Defence 和 Health Protection Agency，表示沒有計劃調查Busby 的假說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已經能強烈定位，因為題目的 wording 幾乎被原文首句完整重現。這段功能是呈現Menzel 的審慎懷疑，並補充英國機構沒有調查計劃。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“acknowledges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“doubts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“acknowledges that the theory should be considered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“he doubts that it will prove significant”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hans-Georg Menzel ... acknowledges that the theory should be considered, but he doubts that it will prove significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hans-Georg Menzel 承認這個理論應被考慮，但他懷疑它會否證明具有重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Hans-Georg Menzel。動詞有兩個：acknowledges 和 doubts。第一個動詞表示他沒有完全忽視理論；第二個動詞表示他對理論的重要性持保留態度。題目把 “the theory should be considered” 概括成 “acknowledges the theory”，把 “prove significant” 改寫成 “its significance”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a person = Hans-Georg Menzel acknowledges the theory = acknowledges that the theory should be considered doubts its significance = doubts that it will prove significant答案判斷： Paragraph G 明確包含這位人物和態度，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 的 Mark Hill 也有 doubts，但題目說 “acknowledges the theory but doubts its significance” 這組雙重態度直接出現在 Menzel 那句。因此答案要選 G，不要選 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“An explanation of damage to DNA.”",
+      "translation": "對 DNA 受損原因的解釋。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 “DNA damage” 的位置。最強定位詞是 DNA；其次是 damage / genetic material。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Busby and Schnug say that previous risk models have ignored this well-established physical effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Busby 和 Schnug 說，以前的 risk models 忽略了這個已確立的物理效應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Photoelectrons from uranium are therefore likely to be emitted precisely where they will cause most damage to genetic material,’ says Busby.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Busby 說：「因此，uranium 產生的 photoelectrons 很可能正正在最會傷害 genetic material 的位置釋放。」首句連接 previous risk models 和 physical effect；最後一句直接說 photoelectrons 會在最容易傷害 genetic material 的位置釋放。這段很可能解釋為何 DNA 特別容易受到影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“damage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“attach to DNA strands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uranium binds strongly to DNA phosphate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cause most damage to genetic material”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Various studies have shown that dissolved uranium – ingested in food or water, for example –is liable to attach to DNA strands within cells, because uranium binds strongly to DNA phosphate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多項研究顯示，溶解的 uranium，例如經食物或水攝入的 uranium，容易依附在細胞內的 DNA strands 上，因為 uranium 會強烈結合 DNA phosphate。"
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Photoelectrons from uranium are therefore likely to be emitted precisely where they will cause most damage to genetic material,’ says Busby.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Busby 說，uranium 產生的 photoelectrons 因此很可能在最會傷害 genetic material 的位置被釋放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來建立 DNA damage 的機制：uranium 會依附到 DNA strands，原因是它 strongly binds to DNA phosphate；一旦 photoelectrons 在這些位置釋放，便會對 genetic material 造成最大傷害。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "DNA = DNA strands / DNA phosphate / genetic material damage to DNA = cause most damage to genetic material explanation = uranium attaches to DNA, then emits photoelectrons nearby答案判斷： Paragraph E 直接解釋 uranium、DNA attachment 和 genetic material damage 的關係，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 解釋 photoelectric effect，能說明 photoelectrons 從哪裡來；但 DNA 位置和genetic material damage 要到 Paragraph E 才出現。Question 16 的核心是 DNA，不只是物理過程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“A brief, controversial explanation of what may be causing soldiers’ health problems.”",
+      "translation": "一個簡短而有爭議的解釋，說明甚麼可能導致士兵健康問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找文章開首的 controversial claim。控制詞有 controversial、soldiers、health problems。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Could the mystery over how depleted uranium might cause genetic damage be closer to being solved?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "depleted uranium 可能如何造成 genetic damage 這個謎團，是否接近被解開？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, they argue, could explain how residues of depleted uranium scattered across former war zones could be increasing the risk of cancers and other problems among soldiers and local people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為，這可以解釋散落在昔日戰區的 depleted uranium 殘留物，如何可能增加士兵和當地人的 cancers 及其他問題風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出 mystery；最後一句說這個理論可能解釋 soldiers 和 local people 的 cancers and other problems。這段明顯是文章總引入，提供簡短、有爭議的健康風險解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“controversial”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soldiers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“health problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a controversial claim by two researchers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing the risk of cancers and other problems among soldiers and local people”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may be, if a controversial claim by two researchers is right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果兩位研究者提出的一項有爭議主張是正確的，那麼這個謎團或許接近解開。"
+            },
+            {
+              "kind": "quote",
+              "text": "“They say that minute quantities of the material lodged in the body may kick out energetic electrons that mimic the effect of beta radiation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，留在體內的極微量這種物質，可能會釋放 energetic electrons，模仿 beta radiation 的效果。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This, they argue, could explain how residues of depleted uranium scattered across former war zones could be increasing the risk of cancers and other problems among soldiers and local people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們認為，這能解釋散落在昔日戰區的 depleted uranium 殘留物，如何可能增加士兵和當地人的癌症及其他問題風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “brief explanation” 對應 Paragraph A 的開場概述；“controversial” 原字重現；“soldiers’ health problems” 對應 “cancers and other problems among soldiers”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "health problems = cancers and other problems soldiers = soldiers controversial explanation = controversial claim what may be causing = residues of depleted uranium / energetic electrons答案判斷： Paragraph A 是最符合的段落，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後文很多段落都在講 mechanism，但 Question 17 要的是 brief, controversial explanation。這種「總覽式說法」通常在文章開首，答案落在 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Organisations that have no plans to investigate Busby’s hypothesis.”",
+      "translation": "一些沒有計劃調查 Busby 假說的機構。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞非常強：Organisations、no plans、investigate、Busby’s hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hans-Georg Menzel, who chairs the International Commission on Radiological Protection’s committee on radiation doses, acknowledges that the theory should be considered, but he doubts that it will prove significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hans-Georg Menzel 承認這個理論應被考慮，但懷疑它是否會證明具有重要性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations in the UK, including the Ministry of Defence and the Health Protection Agency, say they have no plans to investigate Busby’s hypothesis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國一些機構，包括 Ministry of Defence 和 Health Protection Agency，表示沒有計劃調查Busby 的假說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 先講 Menzel 的保留態度，最後轉向英國機構沒有調查計劃。題目幾乎直接抄自最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no plans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“investigate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Busby’s hypothesis”"
+            },
+            {
+              "kind": "label",
+              "text": "原文完全對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations in the UK ... have no plans to investigate Busby’s hypothesis.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations in the UK, including the Ministry of Defence and the Health Protection Agency, say they have no plans to investigate Busby’s hypothesis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國一些機構，包括 Ministry of Defence 和 Health Protection Agency，表示沒有計劃調查Busby 的假說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含題目所需的所有元素：主體是 Organisations in the UK；例子是 Ministry of Defence和 Health Protection Agency；動作是 have no plans；對象是 investigate Busby’s hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Organisations = Organisations in the UK no plans = have no plans investigate Busby’s hypothesis = investigate Busby’s hypothesis答案判斷： Paragraph G 直接包含題目資訊，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 的 Mark Hill “would like to see a fuller investigation”，看似也和 investigation 有關；但它說的是 Hill 的希望，不是機構沒有計劃。題目問 Organisations with no plans，答案必須用Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Everyone believes that depleted uranium is harmful to human health.”",
+      "translation": "所有人都相信 depleted uranium 對人體健康有害。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有一個極強控制詞：Everyone。只要原文出現某些人不同意，就會和 “Everyone believes” 衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depleted uranium is highly valued by the military, who use it in the tips of armour-piercing weapons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Depleted uranium 受到軍方高度重視，軍方把它用於 armour-piercing weapons 的尖端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they acknowledge that the material is weakly radioactive, they say this effect is too small to explain the genetic damage seen in war veterans and civilians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他們承認這種物質有微弱放射性，但他們說這種影響太小，無法解釋 war veterans 和civilians 身上看到的 genetic damage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph B 談 depleted uranium 的軍事用途和健康爭議。最後一句出現 “they say this effect is too small”，暗示有一方不同意它造成嚴重傷害。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“believes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“harmful to human health”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到兩組相反立場："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some researchers and campaigners are convinced...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments and the military disagree...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some researchers and campaigners are convinced that depleted uranium left in the environment by spent munitions causes cancer, birth defects and other ill effects in people exposed to it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些研究者和倡議者相信，spent munitions 留在環境中的 depleted uranium 會令接觸它的人患上 cancer、birth defects 以及其他不良影響。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments and the military disagree and point out that there is no conclusive epidemiological evidence for this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府和軍方不同意，並指出目前沒有確定的 epidemiological evidence 支持這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 everyone believes，但原文清楚分成兩方：some researchers and campaigners are convinced；governments and the military disagree。這不是資料不足，而是有明確相反資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Everyone believes = all parties accept Some researchers and campaigners are convinced = only some people believe Governments and the military disagree = another group rejects the claim harmful to human health = causes cancer, birth defects and other ill effects答案判斷：原文直接說 governments and the military disagree，因此題目的 Everyone 範圍過大，答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章標題和開頭都在問 cancer risk，容易令人覺得全文都認同 depleted uranium 有害。但IELTS 判斷要看原文立場分布。這裡有支持者，也有反對者，所以 “Everyone” 不成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Heavier elements are better at intercepting X-rays and gamma radiation.”",
+      "translation": "較重元素更擅長攔截 X-rays 和 gamma radiation。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 heavy elements 和 light elements 在阻擋輻射方面的比較。定位詞是 Heavier elements、intercepting、X-rays、gamma radiation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now two researchers, Chris Busby and Ewald Schnug, have a new theory that they say explains how depleted uranium could cause genetic damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，兩位研究者 Chris Busby 和 Ewald Schnug 提出一個新理論；他們說這個理論能解釋depleted uranium 如何造成 genetic damage。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that uranium could be especially effective at capturing photons and kicking out damaging photoelectrons: with an atomic number of 92, uranium blocks low-energy gamma photons over 450 times as effectively as the lighter element calcium, for instance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著 uranium 可能特別有效地捕捉 photons，並釋放有害 photoelectrons；例如 uranium 的atomic number 是 92，所以它阻擋 low-energy gamma photons 的能力比較輕的 calcium 強 450倍以上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都圍繞新理論和 uranium 捕捉 photons 的能力。題目問 heavier elements 和 radiation interception，正好屬於 Paragraph D 的物理原理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heavier elements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“intercepting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“X-rays”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gamma radiation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“heavy elements are far better at intercepting gamma radiation and X-rays than light elements.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that heavy elements are far better at intercepting gamma radiation and X-rays than light elements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著 heavy elements 比 light elements 更擅長攔截 gamma radiation 和 X-rays。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 heavy elements 改成 heavier elements，意思一致。原文的 far better at intercepting 比題目 stronger；題目只說 better，所以原文完全支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heavier elements = heavy elements are better at = are far better at intercepting = intercepting X-rays and gamma radiation = gamma radiation and X-rays答案判斷：題目和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 uranium 和 calcium 的例子分散注意。uranium vs calcium 只是例子；真正的 general rule是 heavy elements are far better at intercepting gamma radiation and X-rays than light elements。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Detailed calculations indicate that phantom photoelectrons are the main cause of uranium genotoxicity.”",
+      "translation": "詳細計算顯示，phantom photoelectrons 是 uranium genotoxicity 的主要原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 detailed calculations 和 uranium genotoxicity。題目問的是計算結果是否這樣表示，不是問整個科學界是否已接受。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Busby and Schnug base their claim on calculations of the photoelectrons that would be produced by the interaction between normal background levels of gamma radiation and uranium in the body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Busby 和 Schnug 把他們的主張建基於一些計算；這些計算關於 normal background gamma radiation 和人體內 uranium 互動時會產生的 photoelectrons。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their computer modelling results are described in a peer-reviewed paper to be published this month by the IPNSS in a book called Loads and Fate of Fertiliser-Derived Uranium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的 computer modelling results 會刊載於一篇 peer-reviewed paper，該文將於本月由 IPNSS出版在一本名為 Loads and Fate of Fertiliser-Derived Uranium 的書中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 是 Busby 和 Schnug 的 calculation / modelling evidence 段。題目說detailed calculations，所以應定位在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Detailed calculations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“phantom photoelectrons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uranium genotoxicity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our detailed calculations indicate that the phantom photoelectrons are the predominant effect by far for uranium genotoxicity...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our detailed calculations indicate that the phantom photoelectrons are the predominant effect by far for uranium genotoxicity, and that uranium could be 1,500 times as powerful an emitter of photoelectrons as it is an alpha emitter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的詳細計算顯示，phantom photoelectrons 是 uranium genotoxicity 中遠遠佔主導地位的效應；而且 uranium 作為 photoelectrons emitter 的能力可能比它作為 alpha emitter 強 1,500 倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “main cause”，原文說 “the predominant effect by far”。Predominant effect by far 比 main更強，表示明顯佔主導。雖然這是 Busby 和 Schnug 的 quote，不代表所有人已同意，但題目只說detailed calculations indicate，正好對應原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Detailed calculations indicate = Our detailed calculations indicate main cause = predominant effect by far uranium genotoxicity = uranium genotoxicity phantom photoelectrons = phantom photoelectrons答案判斷：題目與原文的計算結果一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後文 G 和 H 有科學家提出 doubts，可能令人想改成 FALSE。但 Question 21 的主體是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Detailed calculations”，不是 “scientific consensus”。原文確實說這些 calculations indicate 這個結果，因此 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most scientists support Mark Hill’s opinion.”",
+      "translation": "大多數科學家支持 Mark Hill 的看法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 “Most scientists” 是否支持 Mark Hill。控制詞是 Most，代表需要多數科學家的態度資料。只知道 Mark Hill 自己的看法不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiation biophysicist Mark Hill of the University of Oxford would like to see a fuller investigation, though he suggests this might show that the photoelectric effect is not as powerful as Busby claims.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Oxford University 的 radiation biophysicist Mark Hill 希望看到更完整的調查，但他提出，調查結果可能會顯示 photoelectric effect 沒有 Busby 聲稱的那麼強。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If he is right, this would dilute the mechanism proposed by Busby and Schnug.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他是對的，這會削弱 Busby 和 Schnug 提出的機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph H 只講 Mark Hill 本人的技術性質疑，以及如果他的看法正確，會如何削弱 Busby 和 Schnug 的機制。段落未顯示其他大多數科學家的支持程度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“support”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mark Hill’s opinion”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到 Mark Hill 的個人意見："
+            },
+            {
+              "kind": "quote",
+              "text": "“would like to see a fuller investigation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suggests this might show...”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hill’s doubts centre on...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但沒有找到： most scientists majority many scientists support Hill scientific consensus"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hill’s doubts centre on an effect called Compton scattering, which he believes needs to be factored into any calculations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hill 的懷疑集中在一種叫做 Compton scattering 的效應上；他認為任何計算都需要把這個效應納入。"
+            },
+            {
+              "kind": "quote",
+              "text": "“With Compton scattering, uranium is only 4.5 times as effective as calcium at stopping gamma photons, so Hill says that taking it into account would reduce the relative importance of uranium as an emitter of secondary electrons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若考慮 Compton scattering，uranium 阻擋 gamma photons 的能力只比 calcium 強 4.5 倍，因此Hill 說，把它納入考慮會降低 uranium 作為 secondary electrons emitter 的相對重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只交代 Hill 的理由，沒有交代其他科學家是否支持他。Paragraph G 也只是說 Menzel有 doubts，並提到幾位 colleagues intended to collect data and perform calculations；仍未等於Most scientists support Mark Hill。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： Most scientists● support● Mark Hill’s opinion原文提供： Mark Hill’s opinion● his reason: Compton scattering● possible effect on Busby and Schnug’s mechanism缺失部分：大多數科學家的態度是否支持 Hill支持比例答案判斷：文章沒有足夠資料判斷 “Most scientists support Mark Hill’s opinion” 是否成立，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Menzel 和 Hill 都有 doubts，容易令人覺得很多科學家都支持 Hill。但兩位科學家的個別保留，不足以推出 most scientists。IELTS 對 “most” 這類範圍詞非常嚴格。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "the military",
+      "answerKey": "the military",
+      "type": "Summary Completion",
+      "prompt": "“23 ______ values depleted uranium because of its 24 ______ and 25 ______ properties, which are useful in warfare.”",
+      "translation": "______ 重視 depleted uranium，因為它的 ______ 和 ______ 特性在戰爭中有用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格 23 在句子開首，後面是 values，所以需要一個主語名詞短語。題目中的 values depleted uranium 是強定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depleted uranium is highly valued by the military, who use it in the tips of armour-piercing weapons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Depleted uranium 受到軍方高度重視，軍方把它用於 armour-piercing weapons 的尖端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they acknowledge that the material is weakly radioactive, they say this effect is too small to explain the genetic damage seen in war veterans and civilians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他們承認這種物質有微弱放射性，但他們說這種影響太小，無法解釋 war veterans 和civilians 身上的 genetic damage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接提供答案。這段先講軍方為何重視 depleted uranium，再講健康爭議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“values depleted uranium”"
+            },
+            {
+              "kind": "quote",
+              "text": "“useful in warfare”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depleted uranium is highly valued by the military”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depleted uranium is highly valued by the military, who use it in the tips of armour-piercing weapons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Depleted uranium 受到軍方高度重視，軍方把它用於穿甲武器的尖端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把被動語態改成主動語態：原文：Depleted uranium is highly valued by the military."
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：______ values depleted uranium."
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此空格要填 by 後面的主體：the military。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "is highly valued by = values the military = the military depleted uranium = depleted uranium答案判斷：答案是 the military。兩個詞，符合 NO MORE THAN TWO WORDS。若只寫 military，語法上較不自然；原文完整短語是 the military。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "high density",
+      "answerKey": "high density",
+      "type": "Summary Completion",
+      "prompt": "“...because of its 24 ______ and 25 ______ properties...”",
+      "translation": "因為它的 ______ 和 ______ 特性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 24 在 “its” 後面，與後面的 “self-sharpening properties” 並列。答案需要來自原文，最多兩個詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depleted uranium is highly valued by the military, who use it in the tips of armour-piercing weapons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Depleted uranium 受到軍方高度重視，軍方把它用於穿甲武器的尖端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they acknowledge that the material is weakly radioactive, they say this effect is too small to explain the genetic damage seen in war veterans and civilians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他們承認這種物質有微弱放射性，但他們說這種影響太小，無法解釋 war veterans 和civilians 身上的 genetic damage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句講 military use，下一句自然解釋為何這種物質適合武器用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“properties”"
+            },
+            {
+              "kind": "quote",
+              "text": "“useful in warfare”"
+            },
+            {
+              "kind": "quote",
+              "text": "“armour-piercing weapons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The material’s high density and self-sharpening properties help it to penetrate...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The material’s high density and self-sharpening properties help it to penetrate the armour of enemy tanks and bunkers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種物質的 high density 和 self-sharpening properties 幫助它穿透敵方 tanks 和 bunkers 的armour。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格 24 對應第一個性質：high density。題目把 “help it to penetrate the armour...” 改成 “useful in warfare”，屬於概括改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "because of its = The material’s 24 ______ = high density useful in warfare = help it to penetrate the armour of enemy tanks and bunkers答案判斷：答案是 high density。兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 density 單字，因為原文是 high density。high 是重要程度詞，表示密度高才有穿甲價值。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "self-sharpening",
+      "answerKey": "self-sharpening",
+      "type": "Summary Completion",
+      "prompt": "“...because of its 24 ______ and 25 ______ properties, which are useful in warfare.”",
+      "translation": "因為它的 high density 和 ______ 特性，這些特性在戰爭中有用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 25 直接位於 properties 前面，所以答案需要是一個形容詞或複合形容詞。限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depleted uranium is highly valued by the military, who use it in the tips of armour-piercing weapons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Depleted uranium 受到軍方高度重視，軍方把它用於穿甲武器的尖端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they acknowledge that the material is weakly radioactive, they say this effect is too small to explain the genetic damage seen in war veterans and civilians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他們承認這種物質有微弱放射性，但他們說這種影響太小，無法解釋 war veterans 和civilians 身上的 genetic damage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 交代軍事用途和材料特性。空格 25 與 24 屬於同一句原文。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“properties”"
+            },
+            {
+              "kind": "quote",
+              "text": "“armour-piercing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“warfare”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“high density and self-sharpening properties”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The material’s high density and self-sharpening properties help it to penetrate the armour of enemy tanks and bunkers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種物質的高密度和自我削尖特性，幫助它穿透敵方坦克和掩體的裝甲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "25 後面已經有 properties，所以只需填 self-sharpening。self-sharpening 是 hyphenated compound，IELTS 一般視為一個詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "25 ______ properties = self-sharpening properties useful in warfare = help it to penetrate the armour of enemy tanks and bunkers答案判斷：答案是 self-sharpening。它來自原文，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “armour-piercing”。這是 weapons 的種類，不是 depleted uranium 的 material property。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格受 “properties” 控制，答案必須是材料特性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "chemical toxicity",
+      "answerKey": "chemical toxicity",
+      "type": "Summary Completion",
+      "prompt": "“Some scientists argue that more study is needed into uranium’s 26 ______, which may be reinforced by its weak radioactivity.”",
+      "translation": "一些科學家認為需要進一步研究 uranium 的 ______，它可能會受到 weak radioactivity 加強。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 uranium’s 後面，需要名詞短語。題目中的 “more study is needed” 和 “weak radioactivity”是定位訊號。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations such as the UK’s Royal Society, the US Department of Veterans Affairs and UNEP have called for more comprehensive epidemiological studies to clarify the link between depleted uranium and any ill effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "UK’s Royal Society、US Department of Veterans Affairs 和 UNEP 等組織呼籲進行更全面的epidemiological studies，以釐清 depleted uranium 和任何不良影響之間的聯繫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They say the science seems to support the theory that genetic damage might be occurring because uranium’s chemical toxicity and weak radioactivity could somehow reinforce each other, though no one knows what the mechanism for this might be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，科學似乎支持一個理論：genetic damage 可能正在發生，因為 uranium 的 chemical toxicity 和 weak radioactivity 可能以某種方式互相加強，儘管沒有人知道其機制可能是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和最後一句都提到 further studies / scientific uncertainty。題目中的 “more study is needed”和 “weak radioactivity” 直接指向 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uranium’s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weak radioactivity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“more long-term and quantitative research is needed on the effects of uranium’s chemical toxicity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uranium’s chemical toxicity and weak radioactivity could somehow reinforce each other”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The authors of the NRC report argue that more long-term and quantitative research is needed on the effects of uranium’s chemical toxicity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NRC report 的作者認為，需要更多長期且量化的研究，去研究 uranium’s chemical toxicity 的影響。"
+            },
+            {
+              "kind": "quote",
+              "text": "“They say the science seems to support the theory that genetic damage might be occurring because uranium’s chemical toxicity and weak radioactivity could somehow reinforce each other...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，科學似乎支持這個理論：genetic damage 可能正在發生，因為 uranium 的 chemical toxicity 和 weak radioactivity 可能以某種方式互相加強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “more long-term and quantitative research is needed” 改寫成 “more study is needed”；把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“could somehow reinforce each other” 改寫成 “may be reinforced by its weak radioactivity”。空格就是 chemical toxicity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more study is needed = more long-term and quantitative research is needed uranium’s 26 ______ = uranium’s chemical toxicity may be reinforced by weak radioactivity = chemical toxicity and weak radioactivity could reinforce each other答案判斷：答案是 chemical toxicity。兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 weak radioactivity，因為題目已經把 weak radioactivity 放在空格後。空格問的是會被weak radioactivity 加強的那一項，也就是 uranium’s chemical toxicity。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - How war debris could cause cancer.pdf",
+    "sha256": "8a6b84d4acd265d7ffc90d228d987efaba4d0a5703aeb6bcc19fbdfd3ecb66fe",
+    "pageCount": 25
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 以一個疑問開場：depleted uranium 如何造成 genetic damage 這個謎團是否快要解開。段尾說兩位研究者認為，身體內極微量的 depleted uranium 可能釋放 energetic electrons，模仿 beta radiation 的效果，從而解釋 war zones 殘留物如何增加 soldiers 和 local people 的cancers risk。只看首尾句，這段功能是提出 controversial claim，並把全文焦點放在戰爭殘留depleted uranium 與健康問題的可能機制。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句說 depleted uranium 受到 military 重視，用於 armour-piercing weapons 的尖端。段尾轉到爭議：政府和軍方承認它 weakly radioactive，但認為這種放射性太小，難以解釋veterans 和 civilians 的 genetic damage。只看首尾句，這段主要交代 depleted uranium 的軍事用途、戰場使用量、健康爭議，以及不同持份者立場。題目若問 military、density、self-sharpening、governments disagree、epidemiological evidence，應回到本段。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句列出 Royal Society、US Department of Veterans Affairs 和 UNEP 等組織，要求更全面的 epidemiological studies。段尾說科學目前似乎支持一個理論：uranium’s chemical toxicity 和 weak radioactivity 可能互相 reinforce，但機制未知。只看首尾句，這段功能是總結研究現況：已有 test-tube 和 animal studies 指向癌症風險，但仍需要 long-term、quantitative research。題目若問 further research、chemical toxicity、weak radioactivity，答案多半在這段。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句引入 Busby 和 Schnug 的 new theory，說它解釋 depleted uranium 如何造成genetic damage。段尾用 uranium 和 calcium 比較，指出 uranium 的 atomic number 是 92，因此阻擋 low-energy gamma photons 的能力比 calcium 強 450 倍以上。只看首尾句，這段功能是提出新理論的物理基礎：photoelectric effect、atomic number、heavy elements、gamma photons、X-rays 和 damaging photoelectrons。題目若問 well-known process 或 heavy elements，目標就是這段。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說 Busby 和 Schnug 認為 previous risk models 忽略了 photoelectric effect。段尾引用 Busby：uranium 釋放的 photoelectrons 很可能剛好出現在最能傷害 genetic material 的地方。只看首尾句，這段由物理原理轉入人體位置：dissolved uranium 會依附 DNA strands，因為uranium strongly binds to DNA phosphate。這段尤其適合定位 DNA damage、vulnerable spots、genetic material 和 photoelectrons near DNA 的題目。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說 Busby 和 Schnug 的 claim 建基於 calculations，計算 normal background gamma radiation 和 body uranium 互動後會產生多少 photoelectrons。段尾說他們的 computer modelling results 會刊於 peer-reviewed paper。只看首尾句，這段功能是提供新理論的計算證據：phantom photoelectrons 被說成 uranium genotoxicity 的 predominant effect，並且 uranium 作為 photoelectron emitter 的能力可能比 alpha emitter 強 1,500 倍。題目若問 detailed calculations，應看這段。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句介紹 Hans-Georg Menzel，他承認這個 theory 值得考慮，但懷疑它是否significant。段尾說英國 Ministry of Defence 和 Health Protection Agency 無計劃調查 Busby’s hypothesis。只看首尾句，這段功能是呈現審慎懷疑和機構反應。中間 Menzel 認為 normal background radiation 下 photoelectron impacts 太少，未必能造成 damaging double hits；但他仍向委員會提出此議題。題目若問 doubts、significance、no plans，定位本段。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句介紹 Oxford radiation biophysicist Mark Hill，他希望看到 fuller investigation，但懷疑 photoelectric effect 未必如 Busby 所說般強。段尾說如果 Hill 正確，這會 dilute Busby 和Schnug 提出的 mechanism。只看首尾句，這段功能是補充另一位科學家的技術性質疑。Hill 的焦點在 Compton scattering；若把它納入計算，uranium 相比 calcium 的優勢會大幅降低，進而削弱uranium 作為 secondary electrons emitter 的重要性。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 只有一段收束。首句說 depleted uranium 的爭論很可能繼續，無論實驗結果如何。段尾說 Busby’s theory 是否站得住腳仍待觀察，但調查它有助釐清這種 mysterious substance 的疑問。只看首尾句，這段功能是總結全文態度：文章沒有宣布 Busby 理論已被證實，也沒有完全否定它；重點轉向 scientific investigation 的價值，即研究本身可以減少疑團。"
+      }
+    ]
+  }
+}

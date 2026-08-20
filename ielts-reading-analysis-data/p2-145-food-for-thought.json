@@ -1,0 +1,1884 @@
+{
+  "id": "p2-145-food-for-thought",
+  "catalogueId": "p2-145",
+  "catalogueIds": [
+    "p2-145"
+  ],
+  "passage": 2,
+  "title": "Food for thought",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "iii",
+    "x",
+    "viii",
+    "ix",
+    "vi",
+    "i",
+    "iv",
+    "extra snacks",
+    "firewood",
+    "85%",
+    "50%",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "iii — Surprising use of school premises",
+      "answerKey": "iii — Surprising use of school premises",
+      "type": "Matching Headings",
+      "prompt": "Paragraph A",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are not enough classrooms at the Msekeni primary school, so half the lessons take place in the shade of yellow-blossomed acacia trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Msekeni primary school 沒有足夠課室，所以有一半課堂在開著黃色花朵的 acacia trees 樹蔭下進行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Food matters more than shelter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物比遮蔽空間更重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到一個矛盾：學校缺課室，理論上每一間課室都應用來上課；不過段落最後強調 food matters more than shelter，說明文章要解釋為何食物在這所學校比上課空間更優先。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落反覆談甚麼"
+            },
+            {
+              "kind": "label",
+              "text": "段落中間的關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given this shortage, it might seem odd that one of the school’s purpose-built classrooms has been emptied of pupils and turned into a storeroom for sacks of grain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到這種課室短缺，其中一間專門建成的課室被清空，不再讓學生使用，並改成一個存放一袋袋穀物的儲物室，這看起來可能很奇怪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “it might seem odd” 直接提示 surprising。school’s purpose-built classrooms 對應 school premises，即校舍或校內空間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 是 “Surprising use of school premises”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 surprising use 是：一間真正建來上課的課室，因 feeding programme 需要，被改成 grain storeroom。這不是普通 classroom shortage 描述，而是用一個反常安排引出 food matters more than shelter。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Surprising = it might seem odd school premises = school’s purpose-built classroom use = turned into a storeroom for grain = sacks of grain答案判斷： iii 能覆蓋整段：缺課室、改課室為糧食儲存室、食物比遮蔽空間重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii “A song for getting porridge” 只對應 Paragraph C 最後一個細節，不能概括 Paragraph A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 14 答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "x — None of the usual causes",
+      "answerKey": "x — None of the usual causes",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Msekeni is in one of the poorer parts of Malawi, a landlocked southern African country of exceptional beauty and great poverty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Msekeni 位於 Malawi 較貧困的地區之一；Malawi 是南部非洲一個內陸國家，極其美麗，也極其貧窮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hunger blights most aspects of Malawian life, so the country is as good a place as any to investigate how nutrition affects development, and vice versa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "飢餓破壞了 Malawi 生活的大部分方面，所以這個國家很適合用來研究營養如何影響發展，以及發展如何反過來影響營養。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段在交代 Malawi 的 hunger problem。不過 heading 題不能只看大主題，還要看段落中間如何發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找控制段落方向的句子"
+            },
+            {
+              "kind": "label",
+              "text": "中間關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“No war lays waste Malawi, nor is the land unusually crowded or infertile, but Malawians still have trouble finding enough to eat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malawi 並沒有被戰爭摧毀，土地也沒有異常擁擠或貧瘠，但 Malawians 仍然難以找到足夠食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出三個常見飢餓原因： war crowded land infertile land原文逐一排除這些原因，然後說 still have trouble finding enough to eat。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading x 是 “None of the usual causes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "usual causes 指一般人會想到的飢餓原因，例如戰爭、人口過密、土地貧瘠。Paragraph B 的重點是：Malawi 有 hunger problem，但這些常見原因並不存在。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "usual causes = war / unusually crowded land / infertile land none = no war / nor crowded / nor infertile hunger problem = trouble finding enough to eat答案判斷： x 最能概括 Paragraph B 的邏輯：Malawi 貧窮且飢餓嚴重，但問題不由常見原因解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv “Global perspective” 要到 Paragraph G 才出現，因為那段明確用 “On a global scale” 開場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 15 答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "viii — How the food programme is operated",
+      "answerKey": "viii — How the food programme is operated",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The headmaster at Msekeni, Bernard Kumanda, has strong views on the subject.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Msekeni 的校長 Bernard Kumanda 對這個主題有強烈看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The children line up in large crowds, cheerfully singing a song called ‘We are getting porridge’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子們排成大隊，開心地唱著一首叫 “We are getting porridge” 的歌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會從校長看法，走到孩子實際領取 porridge 的場景。這表示段落不只在講觀點，也在展示 feeding programme 的現場流程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落反覆資訊"
+            },
+            {
+              "kind": "label",
+              "text": "本段中間出現一連串 operation details："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since 1999, his pupils have received free school lunches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1999 年起，他的學生得到免費學校午餐。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Donors such as the World Food Programme (WFP) provide the food…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "World Food Programme 等捐助者提供食物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Local volunteers do the cooking…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "本地義工負責烹調。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子分別交代： programme 何時開始誰提供食物食物存放在哪裡誰負責煮食如何派給孩子"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 是 “How the food programme is operated”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "operated 指「如何運作」。Paragraph C 正好交代 school lunches 的供應、儲存、烹調和派發流程。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "food programme = free school lunches / feeding programme context operated = donors provide food, classroom stores grain, volunteers cook, children receive porridge how = 由誰、在哪裡、怎樣煮、怎樣派答案判斷： viii 覆蓋全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii “A song for getting porridge” 只來自最後一句，是一個 vivid detail，無法代表整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 16 答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "ix — How the food programme affects school attendance",
+      "answerKey": "ix — How the food programme affects school attendance",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the school’s feeding programme was introduced, enrolment at Msekeni doubled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校的 feeding programme 推出後，Msekeni 的入學人數增加了一倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls, who are more likely than boys to be kept out of school, are given extra snacks to take home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女孩比男孩更可能被留在校外，所以她們會得到額外小食帶回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都與 attendance / enrolment 有關。第一句直接說 enrolment doubled；最後一句解釋programme 特別支援 girls，因為她們更容易被留在家中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落主線"
+            },
+            {
+              "kind": "label",
+              "text": "本段關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the new pupils had switched from nearby schools that did not give out free porridge, but most were children whose families had previously kept them at home to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些新學生是從附近沒有派免費粥的學校轉來，但大多數是以前被家人留在家中工作的孩子。"
+            },
+            {
+              "kind": "quote",
+              "text": "“One plate of porridge a day completely altered the calculation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每天一碟粥完全改變了家庭的計算。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子解釋 feeding programme 如何令更多孩子入學：食物改變家庭成本和收益的計算。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 是 “How the food programme affects school attendance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "attendance 在這裡可對應 enrolment、go to school、kept them at home。Paragraph D 的中心是「免費食物令更多孩子上學」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "school attendance = enrolment / go to school affects = doubled / switched from nearby schools / previously kept at home food programme = free porridge / one plate of porridge a day答案判斷： ix 能概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vii “Girls receive special treatment in the programme” 有原文支持，但只是最後一句的細節；整段主線仍是 enrolment doubled 和家庭送孩子上學的決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 17 答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "vi — A surprising academic outcome",
+      "answerKey": "vi — A surprising academic outcome",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a school takes in a horde of extra students from the poorest homes, you would expect standards to drop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一所學校接收大量來自最貧困家庭的額外學生時，你會預期學業水平下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pass rate for boys stayed about the same, while for girls it improved by 9.5%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男孩的合格率大致保持不變，女孩的合格率則提高了 9.5%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說你會 expect standards to drop；段尾說 pass rate 沒有整體下降，女孩甚至改善。這組首尾句已經顯示段落核心是 surprising outcome。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找答案句"
+            },
+            {
+              "kind": "label",
+              "text": "最關鍵的轉折是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they have not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但學業水平並沒有下降。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pass rates at Msekeni improved dramatically, from 30% to 85%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Msekeni 的合格率大幅改善，從 30% 上升到 85%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 dramatically improved 直接支撐 academic outcome。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 是 “A surprising academic outcome”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "surprising 來自原文的 expectation gap：理論上學生變多、貧困學生更多、教師沒有增加，成績應該下降；結果 pass rates improved dramatically。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "academic outcome = standards / pass rates surprising = you would expect standards to drop / But they have not improved dramatically = from 30% to 85%答案判斷： vi 是最貼合的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "xi “How to maintain academic standards” 問的是方法，但本段沒有教學校如何維持成績；它報告一個出乎意料的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 18 答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "i — Why better food helps students’ learning",
+      "answerKey": "i — Why better food helps students’ learning",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Better nutrition makes for brighter children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更好的營養會造就更聰明的孩子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the fact that the effect of feeding was more pronounced in girls than in boys gives a clue to who eats first in rural Malawian households. It isn’t the girls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "feeding 對女孩的效果比男孩更明顯，這提示我們在 Malawi 鄉村家庭中誰先吃飯；先吃的人並非女孩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句直接是段落主旨：nutrition improves children’s learning ability。最後一句補充性別差異，說明女孩原本可能營養更不足，所以 school feeding 對她們效果更大。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落反覆概念"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段反覆出現： concentrate focus the mind brains grow and develop calories, proteins and micronutrients feeding children at school works so well這些都與 learning ability 有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 是 “Why better food helps students’ learning”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most immediately, well-fed children find it easier to concentrate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最直接的是，吃得飽的孩子較容易集中注意力。"
+            },
+            {
+              "kind": "quote",
+              "text": "“More crucially, though, more and better food helps brains grow and develop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更關鍵的是，更多、更好的食物有助大腦生長和發展。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "better food = better nutrition / more and better food helps students’ learning = brighter children / easier to concentrate / brains grow and develop why = concentration + brain development答案判斷： i 覆蓋整段的解釋邏輯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “Brains can be starved” 只對應中間一句 brain can be stunted 的細節，範圍太窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 19 答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "iv — Global perspective",
+      "answerKey": "iv — Global perspective",
+      "type": "Matching Headings",
+      "prompt": "Paragraph G",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a global scale, the good news is that people are eating better than ever before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從全球規模來看，好消息是人們比以往任何時候都吃得更好。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And when they eventually join the ranks of the well off, they can start fretting about growing too fast.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他們最終加入富裕者行列時，他們便可以開始擔心增長太快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句的 “On a global scale” 是極強定位詞，直接提示 global perspective。段尾也把 developing countries 的營養改善連到未來富裕社會的煩惱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落範圍"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 提到： Homo sapiens since the industrial revolution rich countries developing countries World Health Organisation developing world global battle against hunger這些資訊全部超出 Msekeni / Malawi 個案，轉向全球層面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否概括全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 是 “Global perspective”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文不再只講 Msekeni school feeding programme，而是比較 global nutrition trends：人類變高變大、富裕國家慢性營養不良罕見、developing world 的 stunting 下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "global perspective = On a global scale people are eating better = plates and rice bowls are fuller worldwide development = developing world / rich countries / WHO statistics答案判斷： iv 是最直接、最完整的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 headings 多數仍圍繞 school feeding programme，只有 Paragraph G 真正從個案提升到全球視角。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 20 答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "extra snacks",
+      "answerKey": "extra snacks",
+      "type": "Sentence Completion",
+      "prompt": "“_________________ are offered exclusively to girls in the feeding programme.”",
+      "translation": "在 feeding programme 中，只有女孩會獲提供 _________________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 sentence completion，限制是 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格在句首，後面是 are offered，所以答案要用 plural noun phrase。題目中的 girls 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the school’s feeding programme was introduced, enrolment at Msekeni doubled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校的 feeding programme 推出後，Msekeni 的入學人數增加了一倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls, who are more likely than boys to be kept out of school, are given extra snacks to take home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女孩比男孩更可能被留在校外，所以她們會得到額外小食帶回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 和 attendance、girls、feeding support 有關。題目問 girls exclusively receive what，答案很可能在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： girls feeding programme offered exclusively原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls … are given extra snacks to take home.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls, who are more likely than boys to be kept out of school, are given extra snacks to take home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女孩比男孩更可能被留在校外，所以她們會得到額外小食帶回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “are given” 改寫成 “are offered”。空格前後語法要求 plural noun，原文的 “extra snacks”正好符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "are offered = are given exclusively to girls = Girls … are given extra snacks = extra snacks答案判斷：答案是 extra snacks。兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 snacks。原文是 extra snacks，extra 說明這是額外支援，也是女孩特殊安排的關鍵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "firewood",
+      "answerKey": "firewood",
+      "type": "Sentence Completion",
+      "prompt": "“Instead of going to school, many children in poverty are sent to collect 22_________________ or help in the fields.”",
+      "translation": "很多貧困兒童沒有上學，會被送去收集 _________________ 或在田裡幫忙。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 collect 後面，需要名詞。題目已有 “or help in the fields”，所以要找原文中和這個短語並列的活動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the school’s feeding programme was introduced, enrolment at Msekeni doubled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校的 feeding programme 推出後，Msekeni 的入學人數增加了一倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls, who are more likely than boys to be kept out of school, are given extra snacks to take home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女孩比男孩更可能被留在校外，所以她們會得到額外小食帶回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 解釋孩子原本為何不上學，因此題目中的 “Instead of going to school” 明顯定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： collect help in the fields kept them at home to work原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“sending children out to gather firewood or help in the fields.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These families were so poor that the long-term benefits of education seemed unattractive when set against the short-term gain of sending children out to gather firewood or help in the fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些家庭非常貧困；和把孩子送出去撿柴或在田裡幫忙所帶來的短期收益相比，教育的長期好處顯得不吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 collect 對應原文 gather。空格後面保留了 or help in the fields，因此空格就是 firewood。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "collect = gather many children in poverty = children from very poor families instead of going to school = education seemed unattractive / kept them at home to work firewood = firewood答案判斷：答案是 firewood。一個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "85%",
+      "answerKey": "85%",
+      "type": "Sentence Completion",
+      "prompt": "“The pass rate at Msekeni has risen to 23 _________________ with the help of the feeding programme.”",
+      "translation": "在 feeding programme 的幫助下，Msekeni 的合格率上升至 _________________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “risen to”，所以答案應該是數字或百分比。定位詞是 pass rate 和 Msekeni。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a school takes in a horde of extra students from the poorest homes, you would expect standards to drop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一所學校接收大量來自最貧困家庭的額外學生時，你會預期學業水平下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pass rate for boys stayed about the same, while for girls it improved by 9.5%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男孩的合格率大致保持不變，女孩的合格率則提高了 9.5%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段討論 academic standards 和 pass rates。題目問 Msekeni 的 pass rate，目標段落很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞： pass rate Msekeni risen to原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pass rates at Msekeni improved dramatically, from 30% to 85%.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pass rates at Msekeni improved dramatically, from 30% to 85%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Msekeni 的合格率大幅改善，從 30% 上升到 85%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經有 “has risen to”，所以答案只需填終點數字 85%。不要填 “from 30% to 85%”，因為句子會變成 “risen to from 30% to 85%”，文法錯誤。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "has risen to = improved dramatically … to pass rate = pass rates at Msekeni = at Msekeni 85% = 85%答案判斷：答案是 85%。這是數字加符號，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "30% 是起點，85% 是終點。題目問 risen to，必須填上升後的結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "50%",
+      "answerKey": "50%",
+      "type": "Sentence Completion",
+      "prompt": "“Since the industrial revolution, the size of the modern human has grown by 24_________________.”",
+      "translation": "自 industrial revolution 以來，現代人類的體型增長了 _________________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 grown by，所以答案需要數字或百分比。定位詞是 industrial revolution。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a global scale, the good news is that people are eating better than ever before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從全球規模來看，好消息是人們比以往任何時候都吃得更好。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And when they eventually join the ranks of the well off, they can start fretting about growing too fast.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他們最終加入富裕者行列時，他們便可以開始擔心增長太快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是 global perspective，討論長期營養改善和人類發展。industrial revolution 是明顯年代定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： industrial revolution grown size of modern human原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homo sapiens has grown 50% bigger since the industrial revolution.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homo sapiens has grown 50% bigger since the industrial revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自工業革命以來，智人已經變大了 50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 Homo sapiens 改寫成 modern human，把 grown 50% bigger 改寫成 size has grown by 50%。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "modern human = Homo sapiens grown by = grown … bigger since the industrial revolution = since the industrial revolution 50% = 50%答案判斷：答案是 50%。符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A and C",
+      "answerKey": "A and C",
+      "type": "Choose TWO letters",
+      "prompt": "Questions 25–26",
+      "translation": "有些孩子在戶外上課。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Option A選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some children are taught in the open air.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are not enough classrooms at the Msekeni primary school, so half the lessons take place in the shade of yellow-blossomed acacia trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Msekeni primary school 沒有足夠課室，所以有一半課堂在開著黃色花朵的 acacia trees 樹蔭下進行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Food matters more than shelter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物比遮蔽空間更重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項定位詞是 taught、open air。原文沒有 open air 這個短語，但有 “lessons take place in the shade of … trees”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "quote",
+              "text": "“half the lessons take place in the shade of yellow-blossomed acacia trees”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一半課堂在 acacia trees 的樹蔭下進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在樹蔭下上課就是 open air teaching。Some children 是保守說法，因為原文說 half the lessons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： A 獲得原文直接支持，所以是正確選項。"
+            },
+            {
+              "kind": "label",
+              "text": "Option B選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Malawi has trouble feeding its large population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malawi 因人口龐大而難以養活人民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE / Unsupported目標段落：Paragraph B原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No war lays waste Malawi, nor is the land unusually crowded or infertile, but Malawians still have trouble finding enough to eat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malawi 沒有被戰爭摧毀，土地也沒有異常擁擠或貧瘠，但 Malawians 仍然難以找到足夠食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的問題在 “large population”。原文說 land is not unusually crowded，意思是人口或土地壓力並非異常嚴重。文章確實說 Malawians have trouble finding enough to eat，但沒有把原因歸於large population。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 把食物困難和 large population 連在一起，缺乏原文支援，所以不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option C選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“No new staff members were recruited when attendance rose.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出席人數上升時，學校沒有招聘新職員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a school takes in a horde of extra students from the poorest homes, you would expect standards to drop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一所學校接收大量來自最貧困家庭的額外學生時，你會預期學業水平下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pass rate for boys stayed about the same, while for girls it improved by 9.5%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男孩的合格率大致保持不變，女孩的合格率則提高了 9.5%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： new staff members attendance rose recruited原文沒有 recruited，但有 “increase in the number of teachers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the influx of new pupils is not accompanied by an increase in the number of teachers, as was the case at Msekeni, you would expect standards to fall even further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當新學生大量湧入，卻沒有伴隨教師數量增加時，你會預期學業水平進一步下降；Msekeni 的情況正是如此。"
+            },
+            {
+              "kind": "quote",
+              "text": "“as was the case at Msekeni” 表示 Msekeni 確實出現 new pupils increased，但 teachers did not increase。選項中的 new staff members 可由 teachers 概括，attendance rose 對應 influx of new pupils / enrolment increased。答案判斷： C 獲得原文支持，所以是正確選項。 Option D選項：“Girls enjoy a higher status than boys in the family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女孩在家庭中的地位比男孩高。"
+            },
+            {
+              "kind": "label",
+              "text": "判斷：FALSE目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the fact that the effect of feeding was more pronounced in girls than in boys gives a clue to who eats first in rural Malawian households. It isn’t the girls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "feeding 對女孩的效果比男孩更明顯，這提示我們在 Malawi 鄉村家庭中誰先吃飯；先吃的人並非女孩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句暗示女孩在家中的食物分配較不利。若女孩地位更高，原文不會說 “It isn’t the girls” 來解釋feeding 對女孩特別有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： D 和原文方向相反，所以不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option E選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Boys and girls experience the same improvement in the pass rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男孩和女孩的合格率改善相同。"
+            },
+            {
+              "kind": "label",
+              "text": "判斷：FALSE目標段落：Paragraph E原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pass rate for boys stayed about the same, while for girls it improved by 9.5%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男孩的合格率大致保持不變，女孩的合格率則提高了 9.5%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確分開 boys 和 girls。Boys stayed about the same；girls improved by 9.5%。兩者沒有相同 improvement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： E 和原文數據相衝，所以不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option F選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“WHO has cooperated with WFP to provide grain to the school at Msekeni.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "WHO 和 WFP 合作向 Msekeni 學校提供穀物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：NOT GIVEN / Unsupported相關段落：Paragraph C and Paragraph G Paragraph C 原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Donors such as the World Food Programme (WFP) provide the food…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "World Food Programme 等捐助者提供食物。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The proportion of children under five in the developing world who are malnourished to the point of stunting fell from 39% in 1990 to 30% in 2000, says the World Health Organisation (WHO).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "World Health Organisation 表示，developing world 中五歲以下兒童因營養不良而發育遲緩的比例，從 1990 年的 39% 降至 2000 年的 30%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "WFP 在 Paragraph C 是 food donor；WHO 在 Paragraph G 只提供 global statistics。文章沒有說WHO 和 WFP 合作，也沒有說 WHO 向 Msekeni 提供 grain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： F 把兩個組織拼在一起，但文章沒有建立 cooperation 關係，所以不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 iii 15 x 16 viii 17 ix 18 vi 19 i 20 iv 21 extra snacks 22 firewood 23 85%24 50%25 A 26 C"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        25,
+        26
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Food for thought.pdf",
+    "sha256": "61e942a3bace1229c5e4d55a92543e35163a50263a4db7fbf5082aa62790e5b0",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 由 Msekeni primary school 的 classroom shortage 開場：half the lessons 要在acacia trees 的 shade 下上課。段尾 “Food matters more than shelter” 把焦點推向一個反常安排：明明缺課室，卻把一間 purpose-built classroom 變成 grain storeroom。只看首尾句，讀者會先看到「校舍不足」和「食物優先」的衝突，因此這段大概用一個 surprising scene 引出 feeding programme 的重要性，並預告文章會把 education 和 nutrition 連在一起。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句介紹 Msekeni 位於 Malawi 較貧困地區，這個國家美麗但貧窮。段尾說 hunger blights most aspects of Malawian life，所以 Malawi 適合用來研究 nutrition 和 development 之間的互相影響。只看首尾句，這段明顯在交代大背景：Malawi 有嚴重食物問題。不過中間特別排除了常見原因，例如 war、overcrowding 和 infertile land。這暗示題目若問「一般飢荒原因是否存在」，答案要看 Paragraph B。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句引入 headmaster Bernard Kumanda，說他認為 food 是 priceless teaching aid。段尾描寫孩子排隊唱 “We are getting porridge”，等待學校派發食物。只看首尾句，可以推測這段主題是 school feeding programme 的實際運作：free school lunches、WFP donors、sacks of grain、converted classroom、local volunteers cooking。這段不是主要講成績，也不是主要講出席率；它的功能偏向展示 programme 如何供應、儲存、煮食和派發。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句說 school feeding programme introduced 後，enrolment doubled。段尾補充girls 會得到 extra snacks to take home。首尾句合起來，段落功能很清楚：食物改變了家長是否送孩子上學的計算。中間解釋很多孩子原本留在家中工作、collect firewood 或 help in the fields；一碗 porridge 減輕家庭食物壓力，因此提高入學率。Girls 的 extra snacks 是支援出席率的細節，不足以概括全段。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句提出一個合理預期：若學校突然接收大量來自最貧困家庭的學生，standards 應會下跌。段尾給出全國結果：free food 令更多 girls 和 boys 入學，boys pass rate 大致不變，girls pass rate 上升。只看首尾句，這段核心是 unexpected academic result。中間又指出 Msekeni 沒有增加 teachers，但 pass rates 從 30% 升至 85%。因此這段重點在「本應下降的成績反而改善」。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句直接提出中心句：“Better nutrition makes for brighter children.” 段尾說 feeding的效果在 girls 身上更明顯，暗示 rural Malawian households 裡誰先吃飯，答案不是 girls。只看首尾句，可先判斷這段在解釋 food 如何影響 learning：短期是 concentration，長期是 brain growth and development。中間用 undernourished children staring into space、brain needs calories, proteins and micronutrients 等證據，說明 nutrition 對學習能力有直接作用。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句把視角拉到 global scale，說全球人類吃得比以往更好。段尾說當人們最終加入 well off ranks，就會開始擔心 growing too fast。只看首尾句，這段明顯是 global perspective：從 Malawi 的個案轉到全世界營養改善、人類體型變大、developing countries stunting 下降。中間引用 WHO 數字，說 developing world under-five stunting 從 39% 降到 30%。段落功能是用全球趨勢收束全文。"
+      }
+    ]
+  }
+}

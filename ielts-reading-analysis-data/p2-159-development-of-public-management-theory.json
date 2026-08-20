@@ -1,0 +1,1074 @@
+{
+  "id": "p2-159-development-of-public-management-theory",
+  "catalogueId": "p2-159",
+  "catalogueIds": [
+    "p2-159"
+  ],
+  "passage": 2,
+  "title": "Development of Public management theory",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "B",
+    "E",
+    "A",
+    "B",
+    "B",
+    "D",
+    "C",
+    "D",
+    "A",
+    "B*",
+    "D",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "B, E",
+      "answerKey": "B, E",
+      "type": "Question Analysis",
+      "prompt": "Questions 15–16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Choose TWO。題目問 features and advantages of bureaucratic management，即官僚"
+            },
+            {
+              "kind": "paragraph",
+              "text": "管理的特徵和好處。這類題要逐一檢查每個選項是否真的屬於 advantages，不能只因某個字在文章出現就選。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Weber admired bureaucracy for its trustworthiness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Weber 欣賞官僚制度的可靠性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Relations among members of the organisation are impersonal and are based on positions rather than personalities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織成員之間的關係是非個人化的，並以職位為基礎，而非以個人性格或私人關係為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 是 bureaucracy 的正面特徵段。首句有 admired 和trustworthiness，已經提示這段偏向優點；尾句有 impersonal、positions、personalities，提示公平、規則化、減少私人偏好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 features、advantages、bureaucratic management。掃描 Paragraph B 時，要找job security、public service、rules、duties、rights、positions、personalities 這類制度特徵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees’ promotion can be fairer because it is based on job duties rather than personal characteristics.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Well-defined rules and regulations follow the principles of rationality, objectivity and consistency. They cover all employees’ duties and rights and must be strictly followed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "明確的規則和規章遵循理性、客觀和一致性的原則。它們涵蓋所有員工的職責和權利，並必須嚴格遵守。"
+            },
+            {
+              "kind": "label",
+              "text": "再加上："
+            },
+            {
+              "kind": "quote",
+              "text": "“Relations among members of the organisation are impersonal and are based on positions rather than personalities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織成員之間的關係是非個人化的，並以職位為基礎，而非以個人性格或私人關係為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “based on job duties rather than personal characteristics” 對應原文的 “duties and rights” 以及 “based on positions rather than personalities”。選項把制度的 objective / impersonal特徵概括成較公平的 promotion，所以 B 可接受。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees can dedicate themselves to public service in return for long-term job stability.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was constituted by a group of professional, ethical public officials who dedicated themselves to public service in return for job security and the other advantages of public employment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它由一群專業、具倫理操守的公職人員組成；他們投身公共服務，換取工作保障和其他公共就業的好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句幾乎直接對應 E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "dedicated themselves to public service = dedicate themselves to public service job security = long-term job stability錯項排除： A 錯在 “little hierarchy”。原文說 “a defined hierarchy of authority”，意思是有清楚層級，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 “greater freedom”。Paragraph B 強調 rules must be strictly followed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯在 “mastery of new technology”。原文稍後只提到 technical qualifications，沒有寫 new technology，而且那是在批評 bureaucracy 的限制。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        15,
+        16
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Question Analysis",
+      "prompt": "Questions 17–18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Choose TWO。題目問 limitations of bureaucratic management，即官僚管理的限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落應該是批評 bureaucracy 的 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A bureaucratic organisation is very rigid and places too much emphasis on inflexible rules and regulations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "官僚組織非常僵化，並且過度強調缺乏彈性的規則和規章。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Formalities and rules can cause unnecessary delays in decision-making, and coordination and communication can be difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁文縟節和規則可能造成決策上不必要的延誤，協調和溝通也可能變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示本段是 limitations 段：rigid、inflexible、delays、difficult 都是負面訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 limitations。選項中最有定位力的是 commitment、decision-making、formalities、rules、dynamic organisations。掃描 Paragraph C 時，真正有原文直接支援的是 commitment 和decision-making。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employee commitment is not given enough consideration.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also gives too much weight to employees’ technical qualifications in promotion and transfer decisions, while their dedication and commitment are not considered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在晉升和調職決定中過度重視員工的技術資格，卻沒有考慮他們的奉獻精神和投入程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “commitment is not given enough consideration” 直接對應原文 “commitment are not considered”。所以 A 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Decision-making is made difficult by formalities and rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Formalities and rules can cause unnecessary delays in decision-making, and coordination and communication can be difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁文縟節和規則可能造成決策上不必要的延誤，協調和溝通也可能變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “made difficult” 概括原文的 “cause unnecessary delays”。決策被拖慢，就是decision-making 受 formalities and rules 影響。B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： C 說 employees are organised casually，和原文方向不合。官僚制特點正是 formal rules 和hierarchy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 rules are difficult to enforce。原文說 rules must be strictly followed，沒有說難以執行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 有一定迷惑性，因為原文說 bureaucracy suitable for static organisations in which change is very slow。可是選項說 “not applicable to dynamic organisations”，語氣太絕對；文章沒有直接說完全不能用於快速變化組織。在 Choose TWO 的情況下，A 和 B 有最直接、最穩定的原文支援。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        17,
+        18
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B, D",
+      "answerKey": "B, D",
+      "type": "Question Analysis",
+      "prompt": "Questions 19–20",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Choose TWO。題目問 Douglas McGregor’s Theory Y 下 management 的 aims。定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應該在 Paragraph I，因為 Paragraph H 講 Theory X，Paragraph I 講 Theory Y。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theory Y is much more compatible with the humanist tradition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Theory Y 與人本傳統更加相容。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers therefore need only guide employees cooperatively towards goals that serve the organisation, leaving room for many people to create and share power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，管理者只需要以合作方式引導員工走向服務組織的目標，並留下空間讓很多人創造和分享權力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Theory Y 是人本管理，強調合作、引導、自我控制和權力分享。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 Theory Y、aims of management。掃描 Paragraph I 時，應留意 work is natural、direct and control themselves、seek responsibility、guide cooperatively、share power。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“For employees, work is as natural as rest or play.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“It begins with the assumption that work is as natural for people as rest or play.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它從這個假設開始：對人來說，工作像休息或遊戲一樣自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 是原文直接重現，正確。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers may guide employees cooperatively towards objectives.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers therefore need only guide employees cooperatively towards goals that serve the organisation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，管理者只需要以合作方式引導員工走向服務組織的目標……D 把 goals 改寫成 objectives，把 need only guide employees cooperatively 改寫成 may guide employees cooperatively。意思相同，正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： A 是 Theory X，不屬於 Theory Y。Paragraph H 說 employees must be coerced and controlled。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 和 Theory Y 相反。原文說 “People learn naturally and seek responsibility.” E 和最後一句相反。Theory Y 留出空間讓很多人 create and share power，並非 managers have little scope to delegate or share power。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        19,
+        20
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C, D",
+      "answerKey": "C, D",
+      "type": "Question Analysis",
+      "prompt": "Questions 21–22",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Choose TWO。題目問 Theory Z 的 limitations。定位應該在 Paragraph J 後半，因為前"
+            },
+            {
+              "kind": "paragraph",
+              "text": "半介紹優點，後半用 “Despite its advantages” 引出 drawbacks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Z organisation can be regarded as a complementary third element to McGregor’s dichotomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Z 型組織可以被視為 McGregor 二分法之外的補充性第三元素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, many workers value the financial return more than the objectives of the job, and a high level of self-discipline is necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現實中，許多員工重視財務回報多於工作的目標，而且需要很高程度的自律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段先把 Theory Z 放入 X / Y 後的補充位置，再指出現實限制。題目問 limitations，所以要看 “Despite its advantages, the model has several drawbacks” 之後。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 limitations of Theory Z。掃描時要找 drawbacks、financial return、objectives、self-discipline、impersonal、relationships。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not all employees value the work more highly than their wages.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“In reality, many workers value the financial return more than the objectives of the job…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現實中，許多員工重視財務回報多於工作的目標……C 把原文反向概括成 “not all employees value the work more highly than their wages”。如果many workers 更重視 money，自然表示不是所有員工都把工作目標放在薪金之上。C 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Personalisation remains impossible to eliminate in organisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professional distance is reduced because relationships cannot remain impersonal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專業距離會減少，因為人際關係無法保持非個人化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 “personalisation remains impossible to eliminate” 對應原文 “relationships cannot remain impersonal”。意思是組織內難以完全維持非個人化關係。D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： A 是 Theory Z 的優點，不是 limitation。原文說 decision-making is democratic and participatory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 inherent design flaw，原文沒有這種判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 和原文相反。原文說 high level of self-discipline is necessary，並非 unnecessary。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — Max Weber",
+      "answerKey": "A — Max Weber",
+      "type": "Matching Features",
+      "prompt": "“Professional, ethical public officials dedicate themselves to public service in return for job security.”",
+      "translation": "專業而具倫理操守的公職人員，為了工作保障而投身公共服務。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。首句說 Weber admired bureaucracy for its trustworthiness，最"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後一句說 relations are impersonal and based on positions。這段是 Weber 對 bureaucracy 正面特徵的描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 professional、ethical、public officials、public service、job security。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“It was constituted by a group of professional, ethical public officials who dedicated themselves to public service in return for job security and the other advantages of public employment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它由一群專業、具倫理操守的公職人員組成；他們投身公共服務，換取工作保障和其他公共就業的好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完全對應題目，所以人物是 Max Weber。雖然句子出現在 Paragraph B，但開頭明確說Weber admired bureaucracy，因此這是 Weber 相關觀點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B — Douglas McGregor / Theory Z section",
+      "answerKey": "B — Douglas McGregor / Theory Z section",
+      "type": "Matching Features",
+      "prompt": "“High effectiveness can be achieved only after agreeing on a core set of objectives and ways of doing business.”",
+      "translation": "只有先同意一套核心目標和做事方式，才可以達到高度成效。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph J。首句說 Z organisation is a complementary third element to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "McGregor’s dichotomy，最後一句列出 Theory Z 的現實限制。這段介紹 Theory Z。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 agreeing、central set of objectives、ways of doing business。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“However, they achieve this only after agreeing on a central set of objectives and ways of doing business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他們只有在同意一套核心目標和做事方式之後，才做到這一點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “this” 指前文低層員工能自由創造、在組織中探索，並成為真正具有公司特色的員工。題目把這概括成 high effectiveness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "嚴格說，這一句直接屬於 Theory Z，文章沒有說 Douglas McGregor 親自提出 Theory Z。可是選項沒有 Theory Z 的提出者，Paragraph J 又把 Z organisation 放在 McGregor’s dichotomy 之後，所以在 A–E 中最可能填 B。這題要記住文本歸屬有瑕疵：答案是考試式最接近答案，不是完美人物歸屬。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "D — Chester Barnard",
+      "answerKey": "D — Chester Barnard",
+      "type": "Matching Features",
+      "prompt": "“Managers need to consider employees’ emotional needs, in addition to material rewards, in the incentive system.”",
+      "translation": "在誘因制度中，管理者除了物質回報，也要考慮員工的情感或非物質需要。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。首句引入 Chester Barnard 和 The Economy of Incentives，尾句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "列出 general and specific incentives，包括金錢、非物質機會、工作環境和 workmanship pride。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 incentives、material rewards、recognition、non-material、persuasion。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“An organisation’s net attraction is determined by material rewards, working conditions and intangibles such as recognition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個組織的淨吸引力由物質回報、工作條件，以及 recognition 這類無形因素決定。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barnard attached greater importance to persuasion than to economic incentives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Barnard 認為 persuasion 比經濟誘因更重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 emotional needs / in addition to material rewards 對應原文的 intangibles such as recognition、personal non-material opportunities 和 persuasion。人物是 Chester Barnard。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C — Herbert Simon",
+      "answerKey": "C — Herbert Simon",
+      "type": "Matching Features",
+      "prompt": "“Individuals can maximise their self-interest when all budgetary resources and choices are used effectively.”",
+      "translation": "個人在有效運用預算資源和選擇限制時，可以最大化自身利益。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。首句說 Simon believed decision-makers face uncertainty and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "information costs，尾句解釋 economics 中 rational behaviour 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 maximise、budget constraints、limited choices、self-interest。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“In economics, rational behaviour means that individuals maximise their utility under the constraints they face—such as budget constraints and limited choices—in pursuit of their self-interest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在經濟學中，理性行為指個人在面對限制時最大化自己的效用，例如預算限制和有限選擇，並追求自身利益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句位於 Simon 的 bounded rationality 討論中，所以人物配 C Herbert Simon。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要小心：Simon 的主要觀點其實是完全理性的 “economic man” 不現實，人通常只有 bounded rationality。Question 26 把標準經濟學的 rational behaviour 拿出來配人物，因為這整段都在Simon 的理論框架之內。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "B — Douglas McGregor",
+      "answerKey": "B — Douglas McGregor",
+      "type": "Matching Features",
+      "prompt": "“The belief that humans naturally dislike work and must therefore be forced and controlled.”",
+      "translation": "認為人天生不喜歡工作，因此必須被強迫和控制。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。首句引入 Douglas McGregor’s Theory X and Theory Y，尾句說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lazy people supposedly prefer close direction and micromanagement。這段明顯講 Theory X。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 dislike work、forced、controlled。原文用 aversion to work、coerced、controlled。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Theory X, commonly held by early management theorists, begins with the assumption that people have an inherent aversion to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Theory X 是早期管理理論家常持有的觀點，它從這個假設開始：人對工作有天生的厭惡。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees must therefore be coerced and controlled if management expects results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果管理層期望有成果，員工就必須被強迫和控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "inherent aversion to work = naturally dislike work coerced and controlled = forced and controlled所以答案是 Douglas McGregor，因為這是他 Theory X / Theory Y 框架中的 Theory X 描述。"
+            },
+            {
+              "kind": "label",
+              "text": "最後總結這篇的題目分三組："
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Development of Public management theory.pdf",
+    "sha256": "72334e3976aa61eed93da7957677835bb5dc4de8f2428fe404b3eedbbed3d7b4",
+    "pageCount": 12
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段先說有些理論連接 private-sector 和 public-sector management，並立刻引入Max Weber。尾句列出 Weber 的三種權力：traditional、charismatic、bureaucratic or legal power。首尾句合起來，可以先估計這段是 Weber bureaucracy 的總介紹：bureaucracy 被視為有效組織形式，有清楚 authority、rules and regulations。後面題目若問 Weber、legal power、classical bureaucracy，目標很可能在這段和下一段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Weber admired bureaucracy for its trustworthiness，尾句說組織成員關係 impersonal， based on positions rather than personalities。首尾句已經顯示這段在講 bureaucratic organisations 的正面特徵：可靠、專業、倫理、公職服務、工作保障、分工、專門化、清楚層級、理性和客觀規則。這段特別適合 Questions 15–16，因為題目問 features and advantages，即官僚管理的特徵和好處。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接指出 bureaucratic organisation is very rigid，並且太重視 inflexible rules and regulations。尾句說 formalities and rules can cause unnecessary delays in decision-making，而且 coordination and communication can be difficult。只看首尾句，這段功能非常清楚：它在批評bureaucracy 的限制，包括僵化、忽略人際關係、忽略 dedication and commitment、只適合變化慢的組織、決策延誤和溝通困難。Questions 17–18 應定位到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句引入 Herbert Simon、Chester Barnard、Charles Lindblom，說他們是早期 American public administrators。尾句說多數 public administrators 只用足夠資料作出 satisfactory decision。首尾句顯示這段由三位學者開場，但重點很快轉向 Simon 的 decision-making theory：facts vs values、public resources、objectively determined facts、economic man unrealistic、satisfactory decision。後面若問 Simon 或 bounded rationality 的背景，Paragraph D 和 E 要一起看。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Simon believed decision-makers face uncertainty about the future and costs in acquiring information。尾句說 rational behaviour in economics means individuals maximise utility under constraints, such as budget constraints and limited choices。首尾句合起來，可以先估計這段延續 Simon：人做決定時受未來不確定性和資訊成本限制，所以只能 bounded rationality。這段也解釋傳統經濟學中 rational behaviour 的意思，適合 Question 26。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Chester Barnard was another watershed scholar，並提到 The Economy of Incentives。尾句列出 incentives，包括 money、material inducements、non-material opportunities、working conditions、ideal benefactions。首尾句顯示這段主題是 Barnard 的 incentive theory：組織是exchange system，員工要得到足夠誘因才會留下和付出 labour and loyalty。這段特別適合問material rewards 以外的 recognition、persuasion、emotional or non-material needs。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Humanists embrace a dynamic view of employees and management techniques。尾句說 employees are unique individuals with their own goals, needs and desires。只看首尾句，可以看到文章從 classical bureaucracy 轉入 humanist era。這段功能是過渡：管理理論不再把員工只看成機器零件，而要承認員工有個人目標、需要和欲望。後文的 Theory X、Theory Y、Theory Z都建立在這個人本管理方向上。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 humanist era brought new interpretations of power and management，並引入 Douglas McGregor’s Theory X and Theory Y。尾句說 lazy people supposedly prefer close direction, even micromanagement。首尾句顯示這段重點是 Theory X：早期管理者假設人天生厭惡工作，所以需要 coercion、control、close direction。這段適合 Question 27，因為題目問 humans naturally dislike work and must be forced and controlled。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Theory Y is much more compatible with the humanist tradition。尾句說 managers need only guide employees cooperatively towards goals，並讓很多人 create and share power。首尾句顯示這段完全轉向 Theory Y 的正面人性假設：工作像休息或遊戲一樣自然，員工會自我引導和控制，也會學習和尋求責任。Questions 19–20 問 Theory Y 的 management aims，答案一定主要在這段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說 Z organisation can be regarded as a complementary third element to McGregor’s dichotomy。尾句說 many workers value financial return more than job objectives，而且 high level of self-discipline is necessary。首尾句顯示這段介紹 Theory Z：它類似 Theory Y，給員工責任、創造空間和參與式決策，但要求先同意 central objectives and ways of doing business。後半也直接列出缺點：professional distance reduced、personal relationships hard to avoid、workers may care more about wages、self-discipline demanding。"
+      }
+    ]
+  }
+}

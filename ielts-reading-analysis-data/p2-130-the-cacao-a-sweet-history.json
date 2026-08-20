@@ -1,0 +1,2084 @@
+{
+  "id": "p2-130-the-cacao-a-sweet-history",
+  "catalogueId": "p2-130",
+  "catalogueIds": [
+    "p2-130"
+  ],
+  "passage": 2,
+  "title": "The Cacao: A Sweet history",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "E",
+    "D",
+    "C",
+    "B",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "outer coverings",
+    "chocolate liquor",
+    "cocoa fat",
+    "mould"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“the part of the cacao plant used to produce chocolate”",
+      "translation": "cacao 植物中用來製造 chocolate 的部分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter D 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farmers grow cacao trees in many countries in Africa, Central and South America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農民在非洲、中美洲和南美洲很多國家種植 cacao trees。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are trying to make sure that cacao can be grown in a way that is fair to the farmers and safe for the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們正嘗試確保 cacao 可以用一種對農民公平、對環境安全的方式種植。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Chapter D 明顯處理現代 cacao 種植。題目問 “part of the cacao plant”，需要找植物結構或收成部位，例如 tree、pod、seed。這類資訊最可能在介紹 cacao tree 生長和採收的Chapter D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “part of the cacao plant” 和 “used to produce chocolate”。掃描Chapter D 時，要留意 “fruits called pods”、“seeds inside the pods”、“harvested to make chocolate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After about five years, cacao trees start producing large fruits called pods, which grow near the trunk of the tree. The seeds inside the pods are harvested to make chocolate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約五年後，cacao trees 開始長出稱為 pods 的大型果實，這些果實長在樹幹附近。Pods 裡面的 seeds 會被收成，用來製造 chocolate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問植物哪一部分用來製造 chocolate。原文先講 pods，再明確說 “The seeds inside the pods are harvested to make chocolate.” 所以真正答案資訊在 Chapter D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“the part of the cacao plant used to produce chocolate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “The seeds inside the pods are harvested to make chocolate.”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Chapter E 也大量提到 cacao seeds 和製作流程，所以很容易誤選 E。不過題目問的是 cacao plant 的部分；Chapter D 明確講 pod、tree trunk、seeds inside the pods，植物結構資訊更完整，因此 D 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“average annual chocolate consumption per person in the United States”",
+      "translation": "美國每人每年的平均 chocolate 消耗量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Chapter E 先講製造流程，再轉向 chocolate business 和消費文化。題目問 “average annual chocolate consumption per person in the United States”，屬於市場和消費數據，因此最可能在 Chapter E 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “average annual”、“per person”、“United States”。掃描 Chapter E 後半，可以找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Each year”、“Americans”、“average”、“per person” 這組高度重合的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Each year, Americans eat an average of more than five kilograms of chocolate per person.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年，美國人平均每人吃超過五公斤 chocolate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接提供美國每人每年的平均消耗量。雖然題目要求找 Chapter，不用填數字，但這句證明資訊位於 Chapter E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“average annual chocolate consumption per person in the United States”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “Each year, Americans eat an average of more than five kilograms of chocolate per person.”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “United States” 在 Chapter E 同一段出現兩次：一次是 2005 年購買 cocoa products的金額，另一次是每人平均吃 chocolate 的重量。這題要找 “average annual … per person”，所以真正控制答案的是 “Each year”、“average”、“per person”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“risks faced by farmers in the cacao business”",
+      "translation": "cacao 行業中農民面對的風險。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter D 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farmers grow cacao trees in many countries in Africa, Central and South America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農民在非洲、中美洲和南美洲很多國家種植 cacao trees。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are trying to make sure that cacao can be grown in a way that is fair to the farmers and safe for the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們正嘗試確保 cacao 可以用一種對農民公平、對環境安全的方式種植。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Chapter D 已經把焦點放在 farmers 和 cacao growing 上。題目問農民在 cacao business 面對甚麼風險，Chapter D 最有機會提供農業難度、病蟲害和經濟風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “farmers”、“risks”、“business”。原文未必直接用 risk，因此要找 “difficult to grow”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vulnerable to diseases and insects”、“economic conditions beyond their control” 這類風險語義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文證據一：“But these trees can be difficult to grow. They require an exact amount of water, warmth, soil and protection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這些樹可能很難種植。它們需要剛好的水分、溫度、土壤和保護。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farmed cacao trees are much more vulnerable to diseases and insects than wild trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人工種植的 cacao trees 比野生樹更容易受疾病和昆蟲侵害。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據三："
+            },
+            {
+              "kind": "quote",
+              "text": "“They sell their harvest on a futures market. This means that economic conditions beyond their control can affect the amount of money they will earn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們在 futures market 上出售收成。這表示不受他們控制的經濟情況會影響他們能賺多少錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句共同建立 “risks faced by farmers”。風險包括種植條件嚴格、病蟲害，以及市場價格受外在經濟因素影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“risks faced by farmers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “difficult to grow” + “vulnerable to diseases and insects” + “economic conditions beyond their control”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Chapter E 講 chocolate making is big business，但那裡主要是工廠製作和市場消費。題目講farmers，所以要回到 Chapter D 的種植和收成環節。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“where the first sweetened chocolate drink appeared”",
+      "translation": "最早出現甜味 chocolate drink 的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter C 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The explorer Christopher Columbus brought cacao seeds to Spain after his trip to Central America in 1502.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "探險家 Christopher Columbus 在 1502 年中美洲之旅後，把 cacao seeds 帶到西班牙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the period known as the Industrial Revolution, new technologies helped make chocolate less costly to produce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Industrial Revolution 期間，新技術幫助降低 chocolate 的生產成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Chapter C 會講 cacao seeds 進入 Spain、chocolate 在歐洲擴散，以及後來因技術變得較便宜。題目問 “first sweetened chocolate drink appeared”，很可能在講西班牙和歐洲早期飲用方式的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first”、“sweetened”、“chocolate drink”。掃描 Chapter C，可以找到 “The wealthy people of Spain first enjoyed a sweetened version of the chocolate drink.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wealthy people of Spain first enjoyed a sweetened version of the chocolate drink.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西班牙的富人最早享用甜味版本的 chocolate drink。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接回答題目：where = Spain。題目要求找 chapter，所以答案是 Chapter C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“where the first sweetened chocolate drink appeared”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “The wealthy people of Spain first enjoyed a sweetened version of the chocolate drink.”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Chapter B 有 Maya 和 Aztec 的 chocolate drink，但那裡是 unsweetened 或 bitter drink。題目有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sweetened”，這個字把答案帶到 Chapter C 的 Spain。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“how ancient American civilisations obtained cacao”",
+      "translation": "古代美洲文明如何取得 cacao。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter B 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historians believe the Maya people of Central America first learned to farm cacao plants around two thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史學家相信，中美洲的 Maya 人大約在兩千年前最早學會種植 cacao plants。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others believe the word ‘chocolate’ was created by combining Mayan and Nahuatl words.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人相信 “chocolate” 這個詞是由 Mayan 和 Nahuatl 詞語結合而成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Chapter B 主要講古代美洲文明和 cacao 的早期歷史。Maya、Aztec、Nahuatl 都指向古代美洲文化。題目問 ancient American civilisations obtained cacao，自然要找 Maya 和 Aztec如何取得 cacao。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ancient American civilisations”、“obtained cacao”。原文不一定用 obtained，因此要找 “farm”、“grew”、“traded to get cacao”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Maya took cacao trees from the rainforests and grew them in their gardens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Maya 人把 cacao trees 從 rainforest 帶出來，並在自己的 garden 種植。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“But cacao plants could not grow in the area where the Aztecs lived. So they traded to get cacao.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 cacao plants 不能在 Aztecs 居住的地區生長。因此他們透過貿易取得 cacao。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句提供兩種 ancient American civilisations 的取得方式：Maya 種植；Aztecs 交易取得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter B 包含這組資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“how … obtained cacao”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= Maya “grew them in their gardens” + Aztecs “traded to get cacao”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 civilisations 複數，所以不能只看 Maya。Chapter B 同時處理 Maya 和 Aztec，完整答案資訊就在這一章。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The ceremonial use of cacao and chocolate was restricted to Maya ruling families.”",
+      "translation": "cacao 和 chocolate 的儀式用途只限於 Maya ruling families。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter B 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historians believe the Maya people of Central America first learned to farm cacao plants around two thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史學家相信，中美洲的 Maya 人大約在兩千年前最早學會種植 cacao plants。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others believe the word ‘chocolate’ was created by combining Mayan and Nahuatl words.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人相信 “chocolate” 這個詞是由 Mayan 和 Nahuatl 詞語結合而成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Chapter B 是古代文化背景段。題目提到 ceremonial use、Maya ruling families，所以應在 Chapter B 中尋找 Maya 和 Aztec 對 cacao / chocolate 的社會與宗教用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ceremonial use”、“restricted”、“Maya ruling families”。掃描 Chapter B，可以找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Ruling families drank chocolate at special ceremonies”，但要繼續看後文，因為 restricted 是強限制詞，必須檢查有沒有其他群體也使用 cacao / chocolate。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文相關句一：“Ruling families drank chocolate at special ceremonies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "統治家族會在特別儀式中飲用 chocolate。"
+            },
+            {
+              "kind": "label",
+              "text": "如果只看這一句，題目似乎有道理。但原文後面繼續說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historians believe that cacao seeds were also used in marriage ceremonies as a sign of the union between a husband and a wife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史學家相信 cacao seeds 也用於婚禮儀式，象徵丈夫和妻子的結合。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chocolate also played a special role in both Maya and Aztec royal and religious events. Priests presented cacao seeds and offerings to the gods and served chocolate drinks during sacred ceremonies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chocolate 在 Maya 和 Aztec 的 royal and religious events 中也有特殊角色。祭司會向神明獻上cacao seeds 和祭品，並在神聖儀式中供應 chocolate drinks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 ceremonial use “was restricted to Maya ruling families”。restricted to 表示只限於某一群體。原文資料範圍更廣：cacao seeds 用於 marriage ceremonies；chocolate 也在 Maya 和 Aztec的 royal and religious events 中使用；priests 也在 sacred ceremonies 中供應 drinks。這些都超出 “Maya ruling families” 一組人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供了與題目限制相衝的資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：restricted to Maya ruling families"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：marriage ceremonies + Maya and Aztec royal and religious events + priests served chocolate drinks"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最易錯的位置是 “Ruling families drank chocolate at special ceremonies.” 這句確實提到 Maya ruling families 和 ceremonies，但它只是一個用途例子，沒有表示所有 ceremonial use 都限於ruling families。判斷要看整個相關段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hernando Cortés recognised chocolate and chocolate drinks as a valuable investment.”",
+      "translation": "Hernando Cortés 意識到 chocolate 和 chocolate drinks 可以是有價值的投資。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter C 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The explorer Christopher Columbus brought cacao seeds to Spain after his trip to Central America in 1502.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "探險家 Christopher Columbus 在 1502 年中美洲之旅後，把 cacao seeds 帶到西班牙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the period known as the Industrial Revolution, new technologies helped make chocolate less costly to produce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Industrial Revolution 期間，新技術幫助降低 chocolate 的生產成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter C 的首尾句顯示這章處理 chocolate 進入西班牙、傳入歐洲、逐步商業化的歷史。題目點名 Hernando Cortés，因此 Chapter C 是最直接目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Hernando Cortés” 和 “valuable investment”。原文直接出現 “the Spanish explorer Hernando Cortés” 和 “valuable investment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it was the Spanish explorer Hernando Cortés who understood that chocolate could be a valuable investment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正理解 chocolate 可以成為有價值投資的，是西班牙探險家 Hernando Cortés。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believed the chocolate drink would become popular with Spaniards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他相信 chocolate drink 會受到西班牙人歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Cortés recognised chocolate and chocolate drinks as a valuable investment。原文說他understood chocolate could be a valuable investment，並相信 chocolate drink 會在 Spaniards之間流行。兩句合起來完全支援題目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“recognised” = “understood”"
+            },
+            {
+              "kind": "quote",
+              "text": "“valuable investment” = “valuable investment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chocolate drinks” = “the chocolate drink would become popular”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Columbus 也出現在 Chapter C 第一個句子，但 Columbus 只是把 cacao seeds 帶到 Spain。真正看出投資價值的人是 Hernando Cortés。題目用人名定位時，要分清不同探險家的動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The forastero tree produces the best chocolate.”",
+      "translation": "forastero tree 生產最好的 chocolate。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter D 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farmers grow cacao trees in many countries in Africa, Central and South America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農民在非洲、中美洲和南美洲很多國家種植 cacao trees。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are trying to make sure that cacao can be grown in a way that is fair to the farmers and safe for the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們正嘗試確保 cacao 可以用一種對農民公平、對環境安全的方式種植。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter D 講現代 cacao tree 種植，題目提到 forastero tree，所以目標自然是 Chapter D 中介紹cacao tree 種類的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “forastero tree” 和 “best chocolate”。掃描 Chapter D，可以找到 “Most of the world’s chocolate is made from the seed of the forastero tree.” 但找不到 best、highest quality、finest taste 這類質素排名。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the world’s chocolate is made from the seed of the forastero tree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界上大部分 chocolate 都由 forastero tree 的種子製成。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But farmers can also grow criollo or trinitario cacao plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但農民也可以種植 criollo 或 trinitario cacao plants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 forastero tree 用量最大，沒有說它生產 “best chocolate”。“Most of the world’s chocolate” 是數量或普及程度；“best chocolate” 是品質判斷。兩者不能互相代替。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章沒有提供 forastero tree 是否生產最好 chocolate 的資料，也沒有直接說它品質較差。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有：most of the world’s chocolate題目需要：best chocolate缺少：quality ranking / taste judgement / comparison among forastero, criollo, trinitario"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "很多學生會把 “most” 誤讀成 “best”。IELTS Reading 中，數量最多不等於品質最高。題目用 best，必須找明確的質素評價。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some parts of cacao seeds are removed during chocolate production.”",
+      "translation": "在 chocolate 生產過程中，cacao seeds 的某些部分會被移除。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter E 首句直接講 cacao seeds 的工廠生產過程。題目說 some parts of seeds are removed，所以要在生產步驟中找 remove、outer coverings、nibs 這類詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “parts of cacao seeds”、“removed”、“production”。掃描 Chapter E 的流程句，可以找到 “Then they remove the seeds’ outer coverings”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then they remove the seeds’ outer coverings so that only the insides, or nibs, remain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，他們移除 seeds 的外層覆蓋物，只留下裡面的部分，即 nibs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 cacao seeds 的 some parts are removed。原文說 outer coverings 被 remove，並只留下insides / nibs。這是直接同義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文完全一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Some parts of cacao seeds are removed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “remove the seeds’ outer coverings”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有問移除後剩下甚麼。nibs 是留下的部分；outer coverings 是被移除的部分。做題時要看清楚 remove 的受詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Chocolate is more popular in some countries or regions than in others.”",
+      "translation": "Chocolate 在某些國家或地區比其他地方更受歡迎。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter E 後半談 chocolate making is big business，並提供歐洲和美國的消費例子。題目問受歡迎程度在不同地區是否有差異，所以要找 “especially popular” 這類比較意味。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “more popular”、“some countries or regions”。原文沒有直接寫 “more popular than others”，但有 “especially popular in Europe and the United States”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chocolate is especially popular in Europe and the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chocolate 在歐洲和美國特別受歡迎。"
+            },
+            {
+              "kind": "quote",
+              "text": "“especially popular” 表示在這些地方的受歡迎程度特別高。題目把它概括成 “more popular in some countries or regions than in others”。這是合理改寫，因為 “especially” 本身含有相對突出、比一般地方更顯著的意思。後文例子：“For example, in 2005, the United States bought 1.4 billion dollars’ worth of cocoa products. Each year, Americans eat an average of more than five kilograms of chocolate per person.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，2005 年，美國購買了價值 14 億美元的 cocoa products。每年，美國人平均每人吃超過五公斤 chocolate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子進一步支持美國是高消費地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“more popular in some countries or regions than in others”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “especially popular in Europe and the United States”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字寫 “than in others”，但 “especially popular” 已經帶出相對比較。這種題要理解副詞especially 的功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "outer coverings",
+      "answerKey": "outer coverings",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 24",
+      "translation": "Cacao seeds 經過 sorting、cleaning、cooking 後，移除它們的 ______，然後得到 nibs。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 位置： Cacao seeds↓Sorting, cleaning and cooking↓Removing their 24 __________↓Nibs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter E 首句已經指向 production process，因此 flow chart 全組題都主要來自 Chapter E 前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用流程順序定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "流程圖先給 “Sorting, cleaning and cooking”，原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Workers must sort, clean and cook the seeds.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一步是 “Removing their ___”，所以要看下一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then they remove the seeds’ outer coverings so that only the insides, or nibs, remain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，他們移除 seeds 的 outer coverings，只留下內部，即 nibs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “Removing their”，後面接名詞。原文中被 remove 的東西是 “the seeds’ outer coverings”。因為題目已有 “their”，答案只需填 “outer coverings”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： outer coverings = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “insides” 或 “nibs”。它們是移除外層後留下的部分；題目問的是被移除的部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "chocolate liquor",
+      "answerKey": "chocolate liquor",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 25",
+      "translation": "Nibs 被 crushing 之後，形成 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 位置： Nibs↓Crushing↓25 __________"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapter E 的前半是製作流程。Question 25 位於 nibs 之後，所以要按順序找 “Workers crush the nibs”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用流程順序定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Nibs” 和 “Crushing”。原文直接說 “Workers crush the nibs into…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Workers crush the nibs into a soft substance called chocolate liquor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工人把 nibs 壓碎成一種柔軟物質，稱為 chocolate liquor。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "流程圖中 “Crushing” 之後的產物，就是 “chocolate liquor”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： chocolate liquor = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“liquor” 在這裡不是日常所說的酒精飲品。它是 chocolate making 裡的專門名稱，指由 nibs 壓碎後形成的軟質物質。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "cocoa fat",
+      "answerKey": "cocoa fat",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 26",
+      "translation": "加入 sugar、milk 和 ______，形成 crumb mixture。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 位置： 25 chocolate liquor↓Add sugar, milk and 26 __________↓Crumb mixture"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題在 flow chart 中接着 chocolate liquor，所以要找 chocolate makers 加入甚麼配料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用前後詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已給 “Add sugar, milk and ___”。掃描原文可以找到完全相近的句子：“combine chocolate liquor with exact amounts of sugar, milk and cocoa fat.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chocolate makers have their own special recipes in which they combine chocolate liquor with exact amounts of sugar, milk and cocoa fat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chocolate makers 有自己的特別配方，他們把 chocolate liquor 與精確分量的 sugar、milk 和cocoa fat 混合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前已有 sugar, milk and，所以答案是第三個配料 “cocoa fat”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： cocoa fat = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前一句提到 “fat called cocoa butter”，但流程圖的句式直接對應後一句 “sugar, milk and cocoa fat”。在 IELTS flow chart 中，最穩定的方法是按流程順序抄回原文對應詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "mould",
+      "answerKey": "mould",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 27",
+      "translation": "把 crumb mixture finely crush，然後放入 ______ 成形。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 位置： Crumb mixture↓Crush finely and shape in a 27 __________"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標 Chapter：E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看 Chapter E 功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To become chocolate, cacao seeds go through a long production process in a factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了變成 chocolate，cacao seeds 要在工廠經過漫長的生產過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many offer chocolate lovers the chance to taste chocolates made from cacao grown in different parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多專門店讓 chocolate lovers 有機會品嚐由世界不同地區 cacao 製成的巧克力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題是流程圖最後一步，要在 Chapter E 製作流程後段找 “crush finely”、“shape” 或 “mould”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用流程順序定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Crumb mixture”、“Crush finely”、“shape”。原文先講 “this ‘crumb’ mixture”，再講finely crush，最後講 shaped in a mould。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They finely crush this ‘crumb’ mixture in order to make it smooth. The mixture then goes through two more processes before it is shaped in a mould.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們把這個 “crumb” mixture 精細壓碎，使它變得順滑。然後這個 mixture 還會經過兩個程序，最後在 mould 中成形。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "流程圖把中間兩個程序簡化了，最後一步仍然是 “shaped in a mould”。所以答案是 mould。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： mould = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “two more processes”。流程圖空格前是 “shape in a”，需要一個容器或工具名詞。原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mould” 正好符合文法和流程意思。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Cacao_ A Sweet history.pdf",
+    "sha256": "81c5b996f78efd0dd770c2663f0376eb06d69b9bb011474e9de5ad156fde298c",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每個 Chapter 的首尾句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說現代人通常把 chocolate 視為容易在世界各地商店買到的甜食或飲品。末句說 chocolate從本地 Mesoamerican beverage 變成 global sweet，當中跨越很多文化和大洲。只看首尾句，可以估計 Chapter A 是全文引入：先指出現代人熟悉的巧克力形象，再帶出它曾經珍貴、歷史悠久，並預告文章會講 cacao 如何由美洲地方飲品走向全球。",
+        "label": "Chapter A"
+      },
+      {
+        "number": "2",
+        "summary": "首句說歷史學家相信 Maya 約兩千年前開始種植 cacao。末句說 chocolate 一詞可能由 Mayan和 Nahuatl 詞語結合而成。只看首尾句，可以估計 Chapter B 會處理古代美洲文明和 cacao 的早期關係，包括種植、飲用、宗教和社會用途，也可能談到語源。由於首句直接提到 Maya，末句提到語言來源，這章明顯是古代文化背景段。",
+        "label": "Chapter B"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Christopher Columbus 在 1502 年中美洲之旅後，把 cacao seeds 帶到西班牙。末句說Industrial Revolution 期間，新技術令 chocolate 生產成本下降。只看首尾句，可以估計 Chapter C會講 chocolate 從美洲進入歐洲，再由昂貴飲品逐步變得更普及。段落重心應包括西班牙探索者、殖民地種植、歐洲流行，以及技術如何改變 chocolate 的可負擔程度。",
+        "label": "Chapter C"
+      },
+      {
+        "number": "4",
+        "summary": "首句說農民在非洲、中美洲和南美洲很多國家種植 cacao trees。末句說業界人士、活動家和科學家正與農民合作，確保 cacao 種植對農民公平、對環境安全。只看首尾句，可以估計 Chapter D會由現代 cacao 種植地點入手，講到生長條件、農民工作難度、病蟲害、收入風險和環境問題。這章很可能回答和「植物部分」、「農民風險」、「現代種植」有關的題目。",
+        "label": "Chapter D"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 cacao seeds 要在工廠經過漫長生產過程，才會變成 chocolate。末句說很多專門店讓chocolate lovers 品嚐由世界不同地區 cacao 製成的巧克力。只看首尾句，可以估計 Chapter E先講製造流程，再講 chocolate business 和消費市場。這章很可能包含 flow chart 所需的步驟，例如清洗、烹煮、去殼、nibs、chocolate liquor、加配料和 mould，也可能提供美國消費量。",
+        "label": "Chapter E"
+      }
+    ]
+  }
+}

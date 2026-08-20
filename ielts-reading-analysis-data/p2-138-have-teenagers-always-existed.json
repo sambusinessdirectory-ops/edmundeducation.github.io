@@ -1,0 +1,2305 @@
+{
+  "id": "p2-138-have-teenagers-always-existed",
+  "catalogueId": "p2-138",
+  "catalogueIds": [
+    "p2-138"
+  ],
+  "passage": 2,
+  "title": "Have teenagers always existed",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "A",
+    "B",
+    "D",
+    "YES",
+    "NO",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "D",
+    "A",
+    "B",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D — The work of anthropologists could inform our understanding of modern adolescence.",
+      "answerKey": "D — The work of anthropologists could inform our understanding of modern adolescence.",
+      "type": "Question Analysis",
+      "prompt": "“In the first paragraph, why does the writer say ‘This is not merely an academic debate’?”",
+      "translation": "第一段中，作者為何說「這不只是學術爭論」？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目明確限定 first paragraph，所以不用全篇搜尋。核心要判斷作者為何說這場爭論有超出學術範圍的意義。要特別留意 “not merely an academic debate” 後面通常會解釋 practical significance，也就是這件事對理解現代人類有何幫助。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our ancestor, Homo erectus, may not have had culture or even language, but did they have teenagers?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的祖先 Homo erectus 可能沒有文化，甚至沒有語言；但他們有沒有青少年階段？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why do we, uniquely, have a growth spurt so late in life?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼唯獨我們會在人生這麼晚的階段才出現成長突增？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 1 的功能是提出大問題：teenage phase 是否早在人類祖先身上出現，以及現代人為何有獨特的 late growth spurt。這正好和題目問的 “not merely academic”有關，因為作者想說這個古人類問題能幫助我們理解現代人類成長。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “not merely an academic debate”。掃描 Paragraph 1，這句之後緊接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Humans today are the only animals on Earth to have a teenage phase…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Establishing exactly when adolescence first evolved… could help us understand its purpose.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句值得停下細讀，因為它們直接解釋這場討論的現代意義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Humans today are the only animals on Earth to have a teenage phase, yet we have very little idea why.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日人類是地球上唯一擁有青少年階段的動物，但我們對原因所知甚少。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Establishing exactly when adolescence first evolved and finding out what sorts of changes in our bodies and lifestyles it was associated with could help us understand its purpose.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確定青春期最早何時演化出來，並找出它與我們身體和生活方式哪些變化相關，可以幫助我們理解它的目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明，研究古人類青春期不只服務於化石年代或分類問題，還能幫助我們理解現代人類為何有 teenage phase。選項 D 說 anthropologists 的研究可幫助我們理解 modern adolescence，正好對應 “could help us understand its purpose”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說人類學理論需要 practical research 支持。原文沒有把重點放在研究方法是否 practical。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說人類學家之間有重要誤解。原文只說 contested，沒有說 misunderstandings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說人類學家對 adolescence 的態度正在改變。第一段有爭議，但作者說 “not merely academic”的原因並非態度轉變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。它對應 “could help us understand its purpose”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“not merely an academic debate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 有現代理解價值"
+            },
+            {
+              "kind": "quote",
+              "text": "“could help us understand its purpose”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= could inform our understanding of modern adolescence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A — He would have experienced an adolescent phase had he lived.",
+      "answerKey": "A — He would have experienced an adolescent phase had he lived.",
+      "type": "Question Analysis",
+      "prompt": "“What was Susan Anton’s opinion of the Turkana boy?”",
+      "translation": "Susan Anton 對 Turkana boy 的看法是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。最強定位詞是 Susan Anton 和 Turkana boy。題目問的是 Anton 的opinion，所以答案必須來自 Anton 的看法，不應只用其他研究者或作者背景句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You need as many developmental markers as possible to get an estimate of age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要估計年齡，需要盡可能多的發育指標。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She believes the Turkana boy was just about to enter it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她相信 Turkana boy 正準備進入這個階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 4 是 Turkana boy 的發育證據分析段。首句說要比較多種developmental markers；末句直接說 Susan Anton 相信他快要進入 adolescent spurt。因此這段是 Question 15 的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Susan Anton” 和 “Turkana boy”。掃描 Paragraph 4，可以看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Susan Anton of New York University points to research by Margaret Clegg…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及段落尾部："
+            },
+            {
+              "kind": "quote",
+              "text": "“She thinks that Homo erectus had already developed modern human patterns of growth…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“She believes the Turkana boy was just about to enter it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “it” 指前一句的 “adolescent spurt”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She thinks that Homo erectus had already developed modern human patterns of growth, with a late, if not quite so extreme, adolescent spurt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她認為 Homo erectus 已經發展出現代人類式的成長模式，具有較晚出現的 adolescent spurt，雖然未必像現代人那麼極端。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She believes the Turkana boy was just about to enter it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她相信 Turkana boy 正準備進入這個 adolescent spurt。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來表示，Anton 認為 Turkana boy 尚未完成成長，並且快將進入青春期成長突增。如果他繼續存活，就會經歷 adolescent phase。選項 A 的 “had he lived” 是從 “just about to enter it”作出的合理短距離推論。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。Turkana boy was just about to enter the adolescent spurt。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說他的 skull 顯示已成年。原文方向相反：“still has a rounded skull, and needs more growth”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說他的 skeleton and teeth 不能和較近代骨骼比較。原文剛好引用 Margaret Clegg 的 18th-and 19th-century skeletons 作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說他一定比同時代其他人長得快。原文沒有比較同時代個體，只說不同 age markers 有差異。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“was just about to enter it”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= would have experienced an adolescent phase had he lived"
+            },
+            {
+              "kind": "quote",
+              "text": "“modern human patterns of growth”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= growth pattern including adolescence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — The growth period of many apes is confined to times when there is enough food.",
+      "answerKey": "B — The growth period of many apes is confined to times when there is enough food.",
+      "type": "Question Analysis",
+      "prompt": "“What point does Steven Leigh make?”",
+      "translation": "Steven Leigh 提出了甚麼觀點？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 Steven Leigh 的 point，所以要找他提出的比較和解釋。選項中有apes、food、growth period 等字，明顯要回到 Leigh 討論 apes 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Anton is right, that theory contradicts the orthodox idea linking late growth with development of a large brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Anton 正確，她的理論會抵觸把 late growth 和 large brain development 相連的正統觀點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Leigh, this is the key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Leigh 來說，這一點正是關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 5 會先指出 Anton 對正統理論的挑戰，再引入 Steven Leigh 的另一個解釋。末句的 “this” 指前文提到的人類 whole skeleton involved，說明 Leigh 關心 growth spurt 的形式和功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Steven Leigh”。掃描 Paragraph 5，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anthropologist Steven Leigh from the University of Illinois goes further.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著要留意 “many apes”、“growth spurts”、“food is plentiful” 這組訊號，因為選項 B 明顯涉及apes 和 food。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says that many apes have growth spurts in particular body regions that are associated with reaching maturity, and this makes sense because by timing the short but crucial spells of maturation to coincide with the seasons when food is plentiful, they minimise the risk of being without adequate food supplies while growing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，許多猿類在與成熟相關的特定身體部位會出現成長突增；這是合理的，因為牠們把短暫但關鍵的成熟期安排在食物充足的季節，便能在成長時把缺乏足夠食物的風險降到最低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句指出兩點：第一，許多 apes 的 growth spurts 發生在特定 body regions；第二，這些成熟期會配合食物充足的季節。選項 B 說 many apes 的 growth period 限於有足夠食物的時間。雖然"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“confined” 比原文 “timing… to coincide” 稍為強一點，但四個選項中，它最準確概括 Leigh 關於apes 和 food availability 的重點。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說人類骨骼不同部分以不同速度發育。原文說 many apes 有 particular body regions 的 spurts；人類的特點是 whole skeleton involved。A 把焦點放錯到 human skeleton。 B 正確。它對應 “coincide with the seasons when food is plentiful”。 C 說人類發育速度因生活條件而不同。原文沒有講人類個體差異。 D 說食物更多時 apes 成長期更長。原文講 timing，不是 duration longer。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“seasons when food is plentiful”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= times when there is enough food"
+            },
+            {
+              "kind": "quote",
+              "text": "“timing … to coincide with”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= growth period is arranged around those times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — Their speed of growth is directly related to the body’s speed of development.",
+      "answerKey": "D — Their speed of growth is directly related to the body’s speed of development.",
+      "type": "Question Analysis",
+      "prompt": "“What can we learn from a mammal’s teeth?”",
+      "translation": "我們可以從哺乳動物的牙齒得知甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。定位詞是 mammal’s teeth。題目問從牙齒可以學到甚麼，所以要找 tooth growth 與其他發育指標的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another approach, which has produced a surprising result, relies on the minute analysis of tooth growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種方法依靠對牙齒生長的精細分析，而這種方法產生了令人意外的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Teeth are good indicators of life history because their growth is less related to the environment and nutrition than is the growth of the skeleton.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牙齒是 life history 的良好指標，因為牙齒生長與環境和營養的關係，比骨骼生長小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 7 是 tooth evidence 方法段。它解釋為甚麼牙齒可以用來推斷成長和成熟速度，也會說明牙齒比骨骼較穩定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “mammal’s teeth”。掃描 Paragraph 7，最直接相關的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Across mammals, the rate at which teeth develop is closely related to how fast the brain grows and the age you mature.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 mammals、teeth develop、brain grows、age mature，是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Across mammals, the rate at which teeth develop is closely related to how fast the brain grows and the age you mature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在哺乳動物之中，牙齒發育速度與大腦生長速度以及成熟年齡密切相關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 tooth growth rate 可以反映 broader development。選項 D 說牙齒生長速度和身體發育速度直接相關。原文更精確地說它和 brain growth 及 age of maturity closely related。雖然選項用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“body’s speed of development” 作較概括說法，但它最貼近 “age you mature” 這個成熟速度概念。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說 poor diet 會令牙齒長得較慢。原文說牙齒生長較少受 environment and nutrition 影響，所以A 方向不合。 B 說牙齒比骨骼更能指示 lifestyle。原文說 life history，不是 lifestyle；life history 指發育節奏、成熟年齡等。 C 說牙齒生長期很難準確預測。原文反而說 enamel ridges 可以像 tree rings 一樣計算牙冠形成時間。 D 正確。它是對 tooth growth rate 與 maturity / development 之間關係的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“rate at which teeth develop”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= speed of growth of teeth"
+            },
+            {
+              "kind": "quote",
+              "text": "“age you mature”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= body’s speed of development / maturation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“It is difficult for anthropologists to do research on human fossils because they are so rare.”",
+      "translation": "人類化石非常稀少，所以人類學家研究它們很困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目要判斷作者是否認為 fossil rarity 令研究困難。要比較兩個元素：human fossils are rare，以及 research / assessment is difficult。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human fossil record is extremely sparse, and the number of fossilised children minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類化石紀錄極為稀少，而兒童化石的數量更是微乎其微。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even with a modern human, you can only make a rough estimate based on the developmental stage of teeth and bones and the skeleton’s general size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使面對現代人，也只能根據牙齒和骨骼的發育階段，以及骨骼整體大小，作出粗略估計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 3 是研究困難段。首句直接說化石紀錄少；末句說即使材料較熟悉，年齡估算仍只能粗略進行。這和題目完全相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “difficult”、“anthropologists”、“human fossils” 和 “rare”。原文沒有用 rare，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“extremely sparse” 和 “minuscule” 是很強的近義詞。掃描 Paragraph 3 也可看到 “tricky business”，直接對應 difficult。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“The human fossil record is extremely sparse, and the number of fossilised children minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類化石紀錄極為稀少，而兒童化石數量非常少。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accurately assessing how old someone is from their skeleton is a tricky business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據骨骼準確評估某人的年齡是一件棘手的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來清楚支持題目。第一句交代 rarity，第二句交代 difficulty。題目說 anthropologists 做human fossil research 很困難，因為化石稀少；原文則說 human fossil record extremely sparse，並且 age assessment tricky。意思方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“so rare”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= extremely sparse / minuscule"
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult … to do research”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= tricky business / limited fossil record判斷題目命題和原文命題同方向，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“Modern methods mean it is possible to predict the age of a skeleton accurately.”",
+      "translation": "現代方法意味著我們可以準確預測骨骼年齡。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目說 “possible to predict … accurately”，屬於強說法。要檢查原文是否支持 accurate prediction，或提供相反證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human fossil record is extremely sparse, and the number of fossilised children minuscule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類化石紀錄極為稀少，而兒童化石數量非常少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even with a modern human, you can only make a rough estimate based on the developmental stage of teeth and bones and the skeleton’s general size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使面對現代人，也只能根據牙齒和骨骼發育階段，以及骨骼整體大小，作出粗略估計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 不會支持 “accurately predict”。末句中的 “only make a rough estimate” 已經和 accurate prediction 形成明顯衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “accurately”、“age of a skeleton”、“modern methods”。原文相關字是 “Accurately assessing”、“skeleton”、“rough estimate”。這些詞集中在 Paragraph 3 最後兩句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accurately assessing how old someone is from their skeleton is a tricky business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據骨骼準確判斷某人年齡是一件棘手的事。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even with a modern human, you can only make a rough estimate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是現代人，也只能作出粗略估計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 modern methods make accurate prediction possible。原文說 even with a modern human, only a rough estimate。這裡的 “only” 很重要，表示上限只是粗略估計，沒有達到accurate prediction。題目中的 “modern methods” 本身也沒有在原文出現；但即使假設題目指現代骨骼判斷方法，原文仍給出相反方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“predict … accurately”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tricky business”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only make a rough estimate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "rough estimate 和 accurately predict 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供明確相反資料，所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“Susan Anton’s conclusion about the Turkana boy reinforces an established idea.”",
+      "translation": "Susan Anton 對 Turkana boy 的結論加強了一個既有觀點。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目控制詞是 “reinforces an established idea”。要檢查 Anton 的conclusion 與 established / orthodox idea 的關係：是支持，還是衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Anton is right, that theory contradicts the orthodox idea linking late growth with development of a large brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Anton 正確，該理論會抵觸把 late growth 與 large brain development 相連的正統觀點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Leigh, this is the key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Leigh 來說，這一點正是關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已經能定位：Paragraph 5 明確說 Anton 的看法會 contradict the orthodox idea。題目說reinforces an established idea，方向明顯相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Susan Anton’s conclusion” 對應 Paragraph 4 末尾，但 “reinforces an established idea” 要到 Paragraph 5 才有判斷。原文中的 “orthodox idea” 對應 established idea；“contradicts”對應題目的相反方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Anton is right, that theory contradicts the orthodox idea linking late growth with development of a large brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Anton 正確，該理論會抵觸把晚期成長和大腦大型化發展相連的正統觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “that theory”，指 Anton 對 Homo erectus / Turkana boy 的成長模式看法。核心動詞是 “contradicts”。題目用 “reinforces”，意思是加強、支持。原文用 “contradicts”，意思是抵觸、反駁。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“established idea”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= orthodox idea"
+            },
+            {
+              "kind": "quote",
+              "text": "“reinforces”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= supports / strengthens"
+            },
+            {
+              "kind": "quote",
+              "text": "“contradicts”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= goes against / conflicts with判斷題目說支持既有觀點；原文說抵觸正統觀點。答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“Steven Leigh’s ideas are likely to be met with disbelief by many anthropologists.”",
+      "translation": "Steven Leigh 的想法很可能會被許多人類學家懷疑或不接受。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目中的 “likely” 表示預測或可能反應；“disbelief” 表示不太接受、覺得太誇張。要找作者對其他 anthropologists 會如何看 Leigh’s theory 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to his theory, adolescence evolved as an integral part of efficient upright locomotion, as well as to accommodate more complex brains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據他的理論，adolescence 作為有效雙足直立行走的一個重要部分演化出來，同時也為了容納更複雜的大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While many anthropologists will consider Leigh’s theory a step too far, he is not the only one with new ideas about the evolution of teenagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多人類學家會認為 Leigh 的理論推得太遠，但他並非唯一對青少年演化提出新想法的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 6 介紹 Leigh 的新理論，也指出它可能被很多 anthropologists 視為 too far。這正是題目要判斷的內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Steven Leigh’s ideas”、“disbelief” 和 “many anthropologists”。Paragraph 6 最後一句有 “many anthropologists will consider Leigh’s theory a step too far”。“a step too far” 是關鍵表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While many anthropologists will consider Leigh’s theory a step too far, he is not the only one with new ideas about the evolution of teenagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多人類學家會認為 Leigh 的理論走得太遠，但他不是唯一對 teenagers 的演化提出新想法的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a step too far” 表示某想法超出可接受範圍，帶有懷疑、不認同或覺得推論過大的意思。題目用“met with disbelief” 概括這種反應，是合理改寫。題目也用了 “likely”，原文用 “will consider”，反而比 likely 更肯定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“many anthropologists”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= many anthropologists"
+            },
+            {
+              "kind": "quote",
+              "text": "“met with disbelief”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= consider … a step too far"
+            },
+            {
+              "kind": "quote",
+              "text": "“ideas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= theory判斷原文和題目方向一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Researchers in France and Spain developed a unique method of analysing teeth.”",
+      "translation": "法國和西班牙的研究者發展了一種獨特的牙齒分析方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目包含兩個很強的元素：developed 和 unique method。文章若只是說他們分析牙齒或發表研究，仍不足以支持 developed a unique method。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7–8 Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another approach, which has produced a surprising result, relies on the minute analysis of tooth growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種方法依靠對牙齒生長的精細分析，並產生令人意外的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Teeth are good indicators of life history because their growth is less related to the environment and nutrition than is the growth of the skeleton.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牙齒是 life history 的良好指標，因為牙齒生長較少受環境和營養影響。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A more decisive piece of evidence came last year, when researchers in France and Spain published their findings from a study of Neanderthal teeth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，一項更具決定性的證據出現了；當時法國和西班牙的研究者發表了他們對 Neanderthal teeth 研究的發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So it still looks as though we are the original teenagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，看來我們仍是最早真正擁有 teenage phase 的人類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都和 teeth analysis 有關。Paragraph 7 介紹牙齒分析方法；Paragraph 8 提到 France and Spain researchers。題目需要跨段檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Researchers in France and Spain”、“developed”、“unique method”、“analysing teeth”。原文只找到 “published their findings from a study of Neanderthal teeth”。另外 Paragraph 7 說 “Another approach… relies on the minute analysis of tooth growth”，但沒有說這種方法由法國和西班牙研究者發展，也沒有說 unique。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A more decisive piece of evidence came last year, when researchers in France and Spain published their findings from a study of Neanderthal teeth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，一項更具決定性的證據出現了；當時法國和西班牙的研究者發表了他們對 Neanderthal teeth 研究的發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供三件事：研究者地點是 France and Spain；研究材料是 Neanderthal teeth；他們published their findings。它沒有說 developed a method，也沒有說該方法 unique。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph 7："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another approach… relies on the minute analysis of tooth growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種方法依靠對牙齒生長的精細分析。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說有一種 approach，但沒有把它歸功於 France and Spain researchers，也沒有說它獨一無二。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／缺失分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： published findings study of Neanderthal teeth minute analysis of tooth growth原文缺少： developed unique method method created by researchers in France and Spain判斷題目加入了 “developed” 和 “unique” 兩個文章沒有提供的核心資料。沒有明確衝突，也沒有足夠支持，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“There has been too little research comparing the brains of Homo erectus and Neanderthals.”",
+      "translation": "比較 Homo erectus 和 Neanderthals 大腦的研究太少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目有三個限制：too little research、comparing the brains、Homo erectus and Neanderthals。文章需要明確談到這種研究量不足，才可選 YES；若文章說研究充足，才可選 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標範圍：Paragraph 2、7、8 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until recently, the dominant explanation was that physical growth is delayed by our need to grow large brains and to learn all the behaviour patterns associated with humanity – speaking, social interaction and so on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到最近，主流解釋是：身體成長被延遲，是因為我們需要長出大型大腦，並學習語言、社交互動等與人類相關的行為模式。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble is, some of the fossil evidence seems to tell a different story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於，一些化石證據似乎講述了不同故事。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A more decisive piece of evidence came last year, when researchers in France and Spain published their findings from a study of Neanderthal teeth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，一項更具決定性的證據出現了；法國和西班牙研究者發表了對 Neanderthal teeth 的研究發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So it still looks as though we are the original teenagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，看來我們仍是最早真正擁有 teenage phase 的人類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到文章確實談 large brains、Homo erectus、Neanderthals 和 tooth evidence，但段落焦點是 adolescence origin 和 growth rate，不是大腦比較研究的數量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “brains”、“Homo erectus”、“Neanderthals”、“too little research”。掃描全文可找到large brains、Homo erectus、Neanderthals，但找不到 “too little research”、“insufficient research”、“few studies comparing brains” 這類意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“What’s more, studies of mammals show a strong relationship between brain size and the rate of development…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，哺乳動物研究顯示，brain size 與 development rate 之間有強烈關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只是一般 mammal studies，不是 Homo erectus 和 Neanderthals 的 brain comparison。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neanderthals had much faster tooth growth than those of Homo erectus…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Neanderthals 的牙齒生長速度比 Homo erectus 快得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句比較的是 tooth growth，不是 brains。文章亦沒有說相關研究太少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／缺失分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： brain size and development rate 的一般關係Homo erectus and Neanderthals 的 adolescence / tooth growth 討論Neanderthal teeth study原文缺少： brains of Homo erectus vs Neanderthals research comparing those brains too little research判斷題目把文章中的 brain、Homo erectus、Neanderthals 三組相關概念拼在一起，但文章沒有提供「比較兩者大腦的研究太少」這項資料。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "D — a need to be dependent on others for survival.",
+      "answerKey": "D — a need to be dependent on others for survival.",
+      "type": "Question Analysis",
+      "prompt": "“Until recently, delayed growth in humans until adolescence was thought to be due to ______”",
+      "translation": "直到最近，人類成長延遲至青春期才發生，被認為是由於 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。要找 “until recently” 的主流解釋。題目中的 delayed growth 對應Paragraph 2 第一段主流理論。答案要接在 “due to” 後面，意思和文法都要自然。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until recently, the dominant explanation was that physical growth is delayed by our need to grow large brains and to learn all the behaviour patterns associated with humanity – speaking, social interaction and so on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到最近，主流解釋是：身體成長被延遲，是因為我們需要長出大型大腦，並學習語言、社交互動等與人類相關的行為模式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble is, some of the fossil evidence seems to tell a different story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於，一些化石證據似乎講述了不同故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接對應題目 “Until recently”。這段先講主流解釋，再以最後一句轉向化石證據的挑戰。因此Question 24 應從 Paragraph 2 前半尋找句尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Until recently”、“delayed growth” 和 “due to”。原文第一句有 “Until recently, the dominant explanation…” 和 “physical growth is delayed by…”。接著要讀完整因果鏈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While such behaviour is still developing, humans cannot easily fend for themselves, so it is best to stay small and look youthful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這些行為仍在發展時，人類不能輕易獨立照顧自己，因此保持細小和年幼外觀較有利。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That way your parents and other members of the social group are motivated to continue looking after you.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣一來，父母和社會群體中的其他成員便會有動機繼續照顧你。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句解釋 delayed growth 的生存功能：孩子在語言、社交和人類行為仍未成熟時，不能 fend for themselves，需要父母和群體照顧。選項 D “a need to be dependent on others for survival” 正好概括這條邏輯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項配對D 正確。"
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot easily fend for themselves”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= dependent on others"
+            },
+            {
+              "kind": "quote",
+              "text": "“continue looking after you”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= others support survival G 有 “larger brains” 字眼，表面上很吸引，因為原文確實提到 large brains。但選項 G 說 “than previously”，文章沒有這個比較；而且題目要配完整因果，D 更能包含 “cannot fend for themselves” 和 “parents… looking after you” 這段核心解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整句子"
+            },
+            {
+              "kind": "quote",
+              "text": "“Until recently, delayed growth in humans until adolescence was thought to be due to a need to be dependent on others for survival.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — inconsistencies between height, skeleton and dental evidence.",
+      "answerKey": "A — inconsistencies between height, skeleton and dental evidence.",
+      "type": "Question Analysis",
+      "prompt": "“In her research, Margaret Clegg discovered ______”",
+      "translation": "Margaret Clegg 在她的研究中發現了 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。最強定位詞是 Margaret Clegg。題目問她發現甚麼，所以必須看 Clegg的研究結果，而非 Anton 對 Turkana boy 的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You need as many developmental markers as possible to get an estimate of age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要估計年齡，需要盡可能多的發育指標。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She believes the Turkana boy was just about to enter it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她相信 Turkana boy 正準備進入這個 adolescent spurt。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 4 圍繞 developmental markers 來估計 age。Clegg 的研究被放在這裡，功能是用已知死亡年齡的近代骨骼來說明不同 markers 之間可能出現差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Margaret Clegg”。原文中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Susan Anton of New York University points to research by Margaret Clegg…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面馬上說 Clegg 研究 18th- and 19th-century skeletons whose ages at death were known。這句值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When she tried to age the skeletons without checking the records, she found similar discrepancies to those of the Turkana boy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當她不查閱紀錄、嘗試判斷這些骨骼年齡時，她發現了與 Turkana boy 類似的差異。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“One 10-year-old boy, for example, had a dental age of 9, a skeletal age of 6 but was tall enough to be 11.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一名 10 歲男孩的牙齒年齡是 9 歲，骨骼年齡是 6 歲，但身高足以像 11 歲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 discrepancies 指不同指標給出不同年齡：dental age、skeletal age、height。選項 A 說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“inconsistencies between height, skeleton and dental evidence”，正好概括這些差異。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“discrepancies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= inconsistencies"
+            },
+            {
+              "kind": "quote",
+              "text": "“dental age / skeletal age / tall enough”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= dental evidence / skeleton evidence / height evidence完整句子"
+            },
+            {
+              "kind": "quote",
+              "text": "“In her research, Margaret Clegg discovered inconsistencies between height, skeleton and dental evidence.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — the fact that human beings walk on two legs.",
+      "answerKey": "B — the fact that human beings walk on two legs.",
+      "type": "Question Analysis",
+      "prompt": "“Steven Leigh thought the existence of adolescence was connected to ______”",
+      "translation": "Steven Leigh 認為 adolescence 的存在與 ______ 有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。定位詞是 Steven Leigh 和 connected to。要找 Leigh 對 adolescence evolved as what 的理論。答案要能自然接在 “connected to” 後面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to his theory, adolescence evolved as an integral part of efficient upright locomotion, as well as to accommodate more complex brains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據他的理論，adolescence 作為有效直立行走的一個重要部分演化出來，同時也為了容納更複雜的大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While many anthropologists will consider Leigh’s theory a step too far, he is not the only one with new ideas about the evolution of teenagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多人類學家會認為 Leigh 的理論推得太遠，但他並非唯一對 teenagers 的演化提出新想法的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 明確介紹 Leigh 的 theory。第一句的 “upright locomotion” 就是核心訊號；末句說此理論具爭議，但仍屬於 adolescence evolution 的新想法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Steven Leigh”、“existence of adolescence”、“connected to”。原文有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“adolescence evolved as an integral part of efficient upright locomotion”。接著一句又說 “our ancestors first walked on two legs six million years ago”。這兩句一起支援選項 B。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“According to his theory, adolescence evolved as an integral part of efficient upright locomotion…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據他的理論，adolescence 是作為有效直立行走的一個重要部分演化出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fossil evidence suggests that our ancestors first walked on two legs six million years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "化石證據顯示，我們的祖先最早在六百萬年前開始用雙腿行走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“upright locomotion” 指直立行走；“walked on two legs” 是更日常的說法。選項 B “the fact that human beings walk on two legs” 正好把 technical expression 轉成普通描述。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“efficient upright locomotion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= walking efficiently on two legs"
+            },
+            {
+              "kind": "quote",
+              "text": "“our ancestors first walked on two legs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= human beings walk on two legs完整句子"
+            },
+            {
+              "kind": "quote",
+              "text": "“Steven Leigh thought the existence of adolescence was connected to the fact that human beings walk on two legs.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "E — difficult climatic conditions.",
+      "answerKey": "E — difficult climatic conditions.",
+      "type": "Question Analysis",
+      "prompt": "“Research on Neanderthals suggests that they had short lives because of ______”",
+      "translation": "關於 Neanderthals 的研究顯示，他們壽命短是因為 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。定位詞是 Neanderthals、short lives、because。答案必須是原因。要留意這題問 short lives，不是問 tooth growth 本身。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A more decisive piece of evidence came last year, when researchers in France and Spain published their findings from a study of Neanderthal teeth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，一項更具決定性的證據出現了；法國和西班牙研究者發表了對 Neanderthal teeth 的研究發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So it still looks as though we are the original teenagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，看來我們仍是最早真正擁有 teenage phase 的人類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 8 以 Neanderthal teeth study 作結論證據，最後回到全篇主題：誰才是 original teenagers。中間必定會說 Neanderthals 的發育速度、童年長短和生存環境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Neanderthals”、“short lives” 和 “because”。掃描 Paragraph 8，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lead researcher Fernando Ramirez-Rozzi thinks Neanderthals died young – about 25 years old — primarily because of the cold, harsh environment…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lead researcher Fernando Ramirez-Rozzi thinks Neanderthals died young – about 25 years old — primarily because of the cold, harsh environment they had to endure in glacial Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首席研究者 Fernando Ramirez-Rozzi 認為，Neanderthals 年輕時便死亡，大約只有 25 歲，主要原因是他們必須在冰河時期歐洲忍受寒冷而嚴酷的環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚給出原因：“cold, harsh environment”。選項 E “difficult climatic conditions” 是概括改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cold 和 glacial Europe 屬於 climatic conditions；harsh environment 則說明條件艱難。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“cold, harsh environment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= difficult conditions"
+            },
+            {
+              "kind": "quote",
+              "text": "“glacial Europe”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= climatic context / cold climate完整句子"
+            },
+            {
+              "kind": "quote",
+              "text": "“Research on Neanderthals suggests that they had short lives because of difficult climatic conditions.”"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Have teenagers always existed.pdf",
+    "sha256": "52133329800b244f1755b2eecca3b15aa04d204abcb1eddf4ae78f56f13558a7",
+    "pageCount": 24
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首句和末句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用 Homo erectus 引出核心問題：遠古人類是否已有 teenagers。末句追問人類為何獨有 late growth spurt。只看首尾句，可以估計本段是問題引入段：文章並非單純討論化石分類，重點在adolescence 的起源、功能和現代意義。中間大概會說學界爭議、現代人類的獨特性，以及找出青春期何時出現為何有助理解今日人類成長。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說直到最近，主流解釋認為人類延遲成長與大腦和學習有關。末句說麻煩在於部分化石證據似乎指向不同故事。只看首尾句，可以看到本段先提出 orthodox theory，再留下疑問。中間應會解釋：人類兒童需要長時間學語言、社交和行為模式，因此保持年幼外觀以獲照顧；若理論正確， adolescence 應較晚才出現。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說人類化石紀錄非常稀少，兒童化石更少。末句說即使是現代人，也只能根據牙齒、骨骼和整體大小粗略估計年齡。只看首尾句，這段功能是交代研究困難和方法限制。它會把焦點帶到fossilised children，尤其 Turkana boy，並提醒讀者：用骨骼判斷年齡十分棘手，所以後文各種年齡估算差異會變得重要。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說要估計年齡，需要盡可能多的 developmental markers。末句說 Anton 相信 Turkana boy正準備進入 adolescent spurt。首尾合看，這段應詳細分析 Turkana boy 的年齡證據：牙齒、骨骼、高度互相不一致，並用 Margaret Clegg 的歷史骨骼研究作參照。段落最後轉向 Susan Anton 的結論：Homo erectus 可能已有接近現代人類的成長模式。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說如果 Anton 正確，她的理論會推翻把 late growth 和 large brain development 相連的正統看法。末句說對 Leigh 來說，人類整副骨骼參與 growth spurt 是關鍵。只看首尾句，這段會介紹Steven Leigh 的挑戰：他不滿意 adolescence 只是 catch-up growth 的解釋，並比較 apes 的局部成熟期與人類全身骨骼成長的差異。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Leigh 認為 adolescence 是 efficient upright locomotion 的一部分，也與更複雜大腦有關。末句說他並非唯一提出青少年演化新想法的人。只看首尾句，這段會把 adolescence 推到更古老的演化時間線，特別是祖先六百萬年前雙足行走。它同時提示 Leigh 的理論較大膽，很多anthropologists 可能覺得這一步推得太遠。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說另一種方法依靠對 tooth growth 的精細分析，而且結果令人意外。末句說牙齒是良好的life history 指標，因為牙齒生長較少受環境和營養影響。只看首尾句，這段會引入牙齒作為判斷成熟速度的工具。中間會解釋 enamel ridges 像樹木年輪，可以顯示牙冠形成時間，並連到 brain growth 和 maturity age。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說去年一項更具決定性的證據來自法國和西班牙研究者對 Neanderthal teeth 的研究。末句說看來我們仍是 original teenagers。首尾句顯示本段是文章結論段：Neanderthals 牙齒發育更快，可能童年較短，受 glacial Europe 的寒冷艱苦環境影響，要較快成年。這會削弱 Homo erectus或 Neanderthals 已有現代青春期的說法。"
+      }
+    ]
+  }
+}

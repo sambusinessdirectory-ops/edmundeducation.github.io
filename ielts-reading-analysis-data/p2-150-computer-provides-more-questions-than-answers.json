@@ -1,0 +1,1420 @@
+{
+  "id": "p2-150-computer-provides-more-questions-than-answers",
+  "catalogueId": "p2-150",
+  "catalogueIds": [
+    "p2-150"
+  ],
+  "passage": 2,
+  "title": "Computer Provides More Questions Than Answers",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "H",
+    "C",
+    "B",
+    "G",
+    "cargo vessel",
+    "luxury items",
+    "gearwheel",
+    "analogue computer",
+    "C",
+    "B",
+    "B",
+    "A People list for Questions 23–26: A = Yanis Bitsakis"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "The content inside the wrecked ship",
+      "translation": "沉船內部的物品內容。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information，要找哪一段包含指定資訊。題目中的 content inside the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wrecked ship 要找「船裡有甚麼」，不是問沉船在哪裡。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside the hull were a number of bronze and marble statues.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：船艙內有一些青銅和大理石雕像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It had inscriptions in Greek characters and seemed to have something to do with astronomy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它刻有希臘文字，看來似乎與天文學有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能很清楚：它先交代沉船內部物品，再帶出那件後來被認出和astronomy 有關的物件。因此，題目問 content inside the wrecked ship，B 是最直接段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “content”, “inside”, “wrecked ship”。原文對應 “Inside the hull”, “bronze and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "marble statues”, “luxury items”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正支援答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the look of things, the ship seemed to be carrying luxury items, probably made in various Greek islands and bound for wealthy patrons in the growing Roman Empire.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：從表面看來，這艘船似乎載著奢侈品，這些物品大概在不同希臘島嶼製造，目的地是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "日益壯大的羅馬帝國中的富有贊助人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說明沉船載有 luxury items。首句再列出 bronze and marble statues，正好是船內物品的具體例子。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也講沉船，但它主要講地點、海流、船隻大小和 sponge divers 發現 wreck。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問船裡的東西，所以要落在 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "Ancient astronomers and craftspeople may have been involved.",
+      "translation": "古代天文學家和工匠可能曾參與其中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If they needed to know when eclipses would occur, and this related to the rising and setting of stars and related them to dates and religious experiences, the mechanism would directly help,’ said Yanis Bitsakis, a physicist at the University of Athens who co-wrote the Nature paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雅典大學物理學家 Yanis Bitsakis 說，如果他們需要知道日月食何時發生，並把這些"
+            },
+            {
+              "kind": "paragraph",
+              "text": "現象與星體升落、日期和宗教經驗連繫起來，這個機械裝置便能直接幫助他們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a reminder, he said, that while the study of history often focuses on written texts, they can tell us only a fraction of what went on at a particular time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他說，這提醒我們，歷史研究雖常集中於文字材料，但文字只能告訴我們某個時代發"
+            },
+            {
+              "kind": "paragraph",
+              "text": "生事情的一小部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 講裝置的實際用途和歷史意義。中間句子提到製造它需要不同專業人士合作，因此可回答本題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “astronomers” 和 “craftspeople”。這兩個詞在 Paragraph H 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Building it would have been expensive and required collaboration among astronomers, engineers, intellectuals, and craftspeople.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：製造它成本應該很高，並且需要天文學家、工程師、知識分子和工匠合作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “may have been involved” 對應原文 “required collaboration among”。題目只抽出astronomers and craftspeople，但原文還包括 engineers 和 intellectuals。這不影響答案，因為題目要求找包含該資訊的段落。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也有 astronomy 和 Mike Edmunds 的研究團隊，但那是現代研究者重建裝"
+            },
+            {
+              "kind": "paragraph",
+              "text": "置。Question 15 問的是古代製造過程可能涉及的人，所以 H 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "The location of the Antikythera Mechanism.",
+      "translation": "Antikythera Mechanism 的所在位置。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That piece of ‘junk’ went on to become the most celebrated find from the shipwreck; it is displayed at the National Archaeological Museum of Athens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：那件「廢物」後來成為這次沉船中最著名的發現；它現於雅典國家考古博物館展出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The device is so famous that an international conference organized in Athens a couple of weeks ago had only one subject: the Antikythera Mechanism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這個裝置非常有名，以至於數週前在雅典舉行的一場國際會議只有一個主題："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antikythera Mechanism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的功能是正式介紹該裝置的地位、名稱和所在地。題目問 location，第一句已直接給出答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “location” 和 “Antikythera Mechanism”。雖然 location 這個字沒有原文重現，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“displayed at” 是位置訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is displayed at the National Archaeological Museum of Athens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它現於雅典國家考古博物館展出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “displayed at” 表示現在所在或展示位置。因此，包含這項資訊的是 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 提到 Antikythera island 和沉船位置，但那是發現地點，不是 Antikythera"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mechanism 現在的位置。題目問 the location of the mechanism，C 比 A 精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "Details of how the mechanism was found.",
+      "translation": "這個機械裝置是如何被發現的細節。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside the hull were a number of bronze and marble statues.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：船艙內有一些青銅和大理石雕像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It had inscriptions in Greek characters and seemed to have something to do with astronomy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它刻有希臘文字，看來似乎與天文學有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 從船內物品講到一件帶 Greek inscriptions、似乎與 astronomy 有關的物件。這正是機械裝置由「不起眼物件」轉化成重要發現的過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “how”, “mechanism”, “found”。原文不一定說 mechanism was found，但會有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "found、cleared off、piece of junk、gearwheel 這些過程字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nine months later, an enterprising archaeologist cleared off a layer of organic material from one of the pieces of junk and found that it looked like a gearwheel.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：九個月後，一位有進取心的考古學家清除其中一件廢物表面的一層有機物質，發現它"
+            },
+            {
+              "kind": "paragraph",
+              "text": "看起來像一個齒輪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供了 mechanism 被認出的具體過程：先被當成 junk 儲存，後來考古學家清理表面物質，才發現它像 gearwheel。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 說 sponge divers discovered the wreck，那是沉船被發現的方式；Question"
+            },
+            {
+              "kind": "paragraph",
+              "text": "17 問 mechanism 本身怎樣被發現，所以答案在 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "The mechanism’s appearance and structure.",
+      "translation": "這個機械裝置的外觀和結構。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By turning the gear mechanism, which included what Edmunds called a beautiful system of epicyclic gears that factored in the elliptical orbit of the moon, a person could check what the sky would have looked like on a date in the past, or how it would appear in the future.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：透過轉動齒輪機構，人們可以查看過去某日天空的樣子，或未來某日天空會如何呈現；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個齒輪機構包括 Edmunds 稱為美麗的 epicyclic gears 系統，並把月球橢圓軌道納入計算。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside the front door were pointers indicating the date and the position of the sun, moon, and zodiac, while opening the back door revealed the relationship between calendar years and lunar months, and a mechanism to predict eclipses.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：前門內有指針顯示日期，以及太陽、月亮和黃道帶位置；打開後門則可看到曆年與陰曆"
+            },
+            {
+              "kind": "paragraph",
+              "text": "月份之間的關係，以及預測日月食的機構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph G 是結構描述段。它談 gear mechanism、epicyclic gears、front door、back door、pointers 和 eclipse mechanism。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “appearance” 和 “structure”。原文對應 “gear mechanism”, “encased in a box”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“doors in front and back”, “pointers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "中間句也很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mechanism was encased in a box with doors in front and back covered with inscriptions —a sort of instruction manual.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這個機械裝置裝在一個盒子裡，前後都有門，門上刻有文字，就像一種使用說明書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚描述外觀；最後一句再描述內部結構和功能。因此答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也提到 gears 和三維重建，但 F 主要講研究團隊重建、曆年和 lunar months"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的數學關係。G 對外觀和結構的描寫更完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 19–22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "cargo vessel",
+      "answerKey": "cargo vessel",
+      "type": "Question Analysis",
+      "prompt": "“An enormous ancient 19 _________________ was discovered by chance by sponge divers.”",
+      "translation": "海綿潛水員偶然發現了一艘巨大的古代 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion，答案必須來自文章，而且不超過兩個字。空格前有 “an"
+            },
+            {
+              "kind": "paragraph",
+              "text": "enormous ancient”，後面是 “was discovered”，所以空格需要一個單數名詞或名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Antikythera lies 18 miles north of Crete, where the Aegean Sea meets the Mediterranean.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Antikythera 島位於 Crete 以北 18 英里，正是 Aegean Sea 與 Mediterranean 交會之"
+            },
+            {
+              "kind": "paragraph",
+              "text": "處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It came to rest about 200 feet below the surface, where it stayed for more than 2,000 years until divers looking for sponges discovered the wreck a little more than a century ago.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它停在水面下約 200 英尺處，在那裡停留了超過 2,000 年，直到一百多年前尋找海綿"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的潛水員發現這艘沉船。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “enormous”, “ancient”, “sponge divers”。原文對應 “giant cargo vessel” 和 “divers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "looking for sponges”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship that sank there was a giant cargo vessel measuring nearly 500 feet long.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在那裡沉沒的船是一艘巨大的貨船，長度接近 500 英尺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “enormous” 對應 “giant”；“discovered by chance by sponge divers” 對應最後一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“divers looking for sponges discovered the wreck”。空格要填的是船的類型，所以答案是 cargo vessel。答案形式：cargo vessel 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "luxury items",
+      "answerKey": "luxury items",
+      "type": "Question Analysis",
+      "prompt": "“It carried 20 _________________, including bronze and marble sculptures.”",
+      "translation": "它載著 __________，包括青銅和大理石雕塑。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside the hull were a number of bronze and marble statues.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：船艙內有一些青銅和大理石雕像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It had inscriptions in Greek characters and seemed to have something to do with astronomy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它刻有希臘文字，看來似乎與天文學有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 先列出船內物件，再講其中一件特殊物件。題目中的 bronze and marble sculptures 直接對應第一句的 bronze and marble statues。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “carried”, “bronze and marble”。原文對應 “seemed to be carrying luxury items”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “bronze and marble statues”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the look of things, the ship seemed to be carrying luxury items, probably made in various Greek islands and bound for wealthy patrons in the growing Roman Empire.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：從表面看來，這艘船似乎載著奢侈品，這些物品大概在不同希臘島嶼製造，目的地是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "日益壯大的羅馬帝國中的富有贊助人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “including bronze and marble sculptures” 補充例子；原文用 “luxury items” 作上位概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 luxury items。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：luxury items 兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "gearwheel",
+      "answerKey": "gearwheel",
+      "type": "Question Analysis",
+      "prompt": "“An archaeologist then found an object resembling a 21 _________________, inscribed with Greek characters.”",
+      "translation": "一位考古學家後來發現一件物件，看起來像 __________，上面刻有希臘文字。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inside the hull were a number of bronze and marble statues.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：船艙內有一些青銅和大理石雕像。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It had inscriptions in Greek characters and seemed to have something to do with astronomy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它刻有希臘文字，看來似乎與天文學有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段由普通船貨轉到一件刻有 Greek characters 的特殊物件。題目的 “inscribed with Greek characters” 幾乎直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “archaeologist”, “resembling”, “Greek characters”。原文有 “an enterprising"
+            },
+            {
+              "kind": "paragraph",
+              "text": "archaeologist”, “looked like a gearwheel”, “inscriptions in Greek characters”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nine months later, an enterprising archaeologist cleared off a layer of organic material from one of the pieces of junk and found that it looked like a gearwheel.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：九個月後，一位有進取心的考古學家清除其中一件廢物表面的一層有機物質，發現它"
+            },
+            {
+              "kind": "paragraph",
+              "text": "看起來像一個齒輪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “resembling” 對應原文 “looked like”。因此答案是 gearwheel。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “inscriptions”。題目已經把 “inscribed with Greek characters” 放在空格後面，空格"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要填的是物件看起來像甚麼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "analogue computer",
+      "answerKey": "analogue computer",
+      "type": "Question Analysis",
+      "prompt": "“This sophisticated device proved to be the world’s first 22 _________________.”",
+      "translation": "這個精密裝置被證明是世界第一部 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That piece of ‘junk’ went on to become the most celebrated find from the shipwreck; it is displayed at the National Archaeological Museum of Athens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：那件「廢物」後來成為這次沉船中最著名的發現；它現於雅典國家考古博物館展出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The device is so famous that an international conference organized in Athens a couple of weeks ago had only one subject: the Antikythera Mechanism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這個裝置非常有名，以至於數週前在雅典舉行的一場國際會議只有一個主題："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antikythera Mechanism。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sophisticated device”, “world’s first”。原文直接有 “the world’s first known"
+            },
+            {
+              "kind": "paragraph",
+              "text": "analogue computer”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research has shown that the wheel was part of a device so sophisticated that its complexity would not be matched for a thousand years — it was also the world’s first known analogue computer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究顯示，這個齒輪是一個極精密裝置的一部分，其複雜程度在一千年內都沒有被追"
+            },
+            {
+              "kind": "paragraph",
+              "text": "上；它也是世界上第一部已知的類比電腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “This sophisticated device proved to be the world’s first ___” 對應原文 “the world’s first known analogue computer”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：原文有 “known analogue computer”，但題目限制最多兩個字，所以填 analogue computer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 23–26人物快速定位表Person 主要段落 核心資訊Yanis Bitsakis H 裝置可幫助知道 eclipses、stars、dates 的關係Mike Edmunds F, G, J 帶領重建團隊；月相和曆法關係；認為應有更多同類裝置François E, H, I 比較齒輪複雜度；評論技術傑作；推測用途像展示品Charette"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "C — François Charette",
+      "answerKey": "C — François Charette",
+      "type": "Question Analysis",
+      "prompt": "More complicated than an earlier device.",
+      "translation": "比一個較早的裝置更複雜。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We have gear trains from the 9th century in Baghdad used for simpler displays of the solar and lunar motions relative to one another—they use eight gears,’ said François Charette, a historian of science in Germany who wrote an editorial accompanying a new study of the mechanism two weeks ago in the journal Nature.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：德國科學史學者 François Charette 說：「我們有九世紀巴格達的齒輪組，用來較簡單"
+            },
+            {
+              "kind": "label",
+              "text": "地顯示太陽和月亮彼此的相對運動——它們使用八個齒輪。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt it was a technological masterpiece.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：毫無疑問，它是一件技術傑作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 的功能是由 Charette 比較舊裝置和 Antikythera Mechanism的技術複雜度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “earlier device”, “more complicated”。原文用 “9th century in Baghdad”, “simpler"
+            },
+            {
+              "kind": "paragraph",
+              "text": "displays”, “eight gears”, “more than 30 gears”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case, we have more than 30 gears. To see it on a computer animation makes it mind-boggling.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在這個例子中，我們有超過三十個齒輪。透過電腦動畫看到它，令人難以置信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Charette 將 Baghdad 的 eight gears 和 Antikythera 的 more than 30 gears 對比。題目說 more complicated than an earlier device，正是對這個比較的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B — Mike Edmunds",
+      "answerKey": "B — Mike Edmunds",
+      "type": "Question Analysis",
+      "prompt": "Expected more examples of the Antikythera Mechanism to be found in the future.",
+      "translation": "預期未來會找到更多 Antikythera Mechanism 的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph J。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why was the technology that went into the device lost?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為何用於這個裝置的技術會失傳？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The archaeological world may look in their cupboards and perhaps say, ‘That isn’t a bit of rusty old metal in the cupboard.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：考古界可能會查看自己的儲物櫃，然後或許會說：「櫃裡那件東西並非只是一塊生鏽舊"
+            },
+            {
+              "kind": "paragraph",
+              "text": "金屬。」只看首尾句，可以判斷 Paragraph J 講技術失傳和未來重新發現的可能性。Mike Edmunds 在這段多次發言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more examples”, “future”, “found”。原文對應 “very unlikely to have been the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "only one ever made”, “hopeful”, “a better one will surface”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Its sophistication is such that it can’t have been the only one,’ Edmunds said. ‘There must have been a tradition of making them. We’re always hopeful a better one will surface.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Edmunds 說：「它的精密程度如此高，不可能只有這一件。一定曾經有製作這類裝置的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統。我們一直希望會有更好的例子出現。」題目中的 “expected more examples … to be found in the future” 對應 “hopeful a better one will surface”。說這番話的人是 Edmunds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — Mike Edmunds",
+      "answerKey": "B — Mike Edmunds",
+      "type": "Question Analysis",
+      "prompt": "Discovered that the Antikythera Mechanism was related to lunar cycles.",
+      "translation": "發現 Antikythera Mechanism 與月亮週期有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The device was probably built between 100 and 140 BC, and the understanding of astronomy it displays seems to have been based on knowledge developed by the Babylonians around 300-700 BC, said Mike Edmunds, a professor of astrophysics at Cardiff University in Britain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：英國 Cardiff University 天體物理學教授 Mike Edmunds 說，該裝置大概建於公元前"
+            },
+            {
+              "kind": "paragraph",
+              "text": "100 至 140 年之間，它展示的天文知識似乎建基於巴比倫人在公元前 300 至 700 年左右發展出的知識。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gears had to be cut precisely to reflect this complex relationship; 19 calendar years equal 235 lunar months.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：齒輪必須被精準切割，以反映這種複雜關係；19 個曆年等於 235 個陰曆月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph F 講 Mike Edmunds 的研究、裝置年代、天文知識和 lunar months。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “lunar cycles”。原文沒有 cycle 這個字，但有 “lunar months”, “moon to cycle"
+            },
+            {
+              "kind": "paragraph",
+              "text": "through its phases”, “full moon to full moon”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He led a research team that reconstructed what the gear mechanism would have looked like by using advanced three-dimensional imaging technology. The group also decoded a number of the inscriptions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他帶領一個研究團隊，利用先進三維成像技術重建齒輪機構的外觀。該團隊也解讀了"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些銘文。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mechanism explores the relationship between lunar months—the time it takes for the moon to cycle through its phases, say, full moon to full moon—and calendar years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這個機械裝置探索陰曆月與曆年之間的關係；陰曆月指月亮完成一輪月相變化所需時"
+            },
+            {
+              "kind": "paragraph",
+              "text": "間，例如由滿月到下一次滿月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現屬於 Edmunds 帶領的團隊，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — Yanis Bitsakis",
+      "answerKey": "A — Yanis Bitsakis",
+      "type": "Question Analysis",
+      "prompt": "Said the mechanism helped ancient people calculate the movement of celestial bodies.",
+      "translation": "說這個裝置幫助古人計算天體運行。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If they needed to know when eclipses would occur, and this related to the rising and setting of stars and related them to dates and religious experiences, the mechanism would directly help,’ said Yanis Bitsakis, a physicist at the University of Athens who co-wrote the Nature paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雅典大學物理學家 Yanis Bitsakis 說，如果他們需要知道日月食何時發生，並把這些"
+            },
+            {
+              "kind": "paragraph",
+              "text": "現象與星體升落、日期和宗教經驗連繫起來，這個機械裝置便能直接幫助他們。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a reminder, he said, that while the study of history often focuses on written texts, they can tell us only a fraction of what went on at a particular time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他說，這提醒我們，歷史研究雖常集中於文字材料，但文字只能告訴我們某個時代發"
+            },
+            {
+              "kind": "paragraph",
+              "text": "生事情的一小部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “helped”, “movement of celestial bodies”。原文對應 “eclipses”, “rising and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "setting of stars”, “position of sun and moon” 這類天體運行內容。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If they needed to know when eclipses would occur, and this related to the rising and setting of stars and related them to dates and religious experiences, the mechanism would directly help.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果他們需要知道日月食何時發生，並把這些現象與星體升落、日期和宗教經驗連繫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "起來，這個機械裝置便能直接幫助他們。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a mechanical computer. You turn the handle and you have a date on the front.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它是一部機械電腦。你轉動把手，前面就會顯示一個日期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 Bitsakis 的說法概括成 helped ancient people calculate the movement of celestial bodies。雖然原文沒有逐字寫 calculate the movement，但 “eclipses”, “rising and setting of stars” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“date” 都屬於天體運行與時間計算。說這番話的人是 Yanis Bitsakis。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 有 Charette 提到 ancient astronomers already knew how to calculate"
+            },
+            {
+              "kind": "paragraph",
+              "text": "positions without the device，但他的重點是推測裝置可能像 planetarium display。Question 26 的“helped” 更貼近 Bitsakis 的 “would directly help”。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Computer Provides More Questions Than Answers.pdf",
+    "sha256": "4f206716bc96c956dd82a5fb7ce8982c29b09aad59e9638006a7fcbad4514795",
+    "pageCount": 14
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句交代 Antikythera 的地理位置：它在 Crete 以北，處於 Aegean Sea 和 Mediterranean 的交會處。最後一句說 sponge divers 在一百多年前偶然發現沉船。只看首尾句，可以先判斷本段功能是「沉船地點與發現背景」。它提供位置、海流危險、古羅馬航線、巨型船隻、深度和發現者。題目若問 shipwreck、sponge divers、where it sank，會優先回到 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說船艙內有 bronze and marble statues。最後一句說其中一件被清理後露出 Greek characters，似乎與 astronomy 有關。只看首尾句，可以估計本段功能是「船內物品和機械物件初次被認出」。它從 luxury items、statues、stored junk，推進到 gearwheel-like object。題目若問wrecked ship 裡有甚麼、mechanism 怎樣被發現、inscriptions 或 gearwheel，B 是主要段落。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說那件「junk」後來成為沉船最著名發現，現在展示於 National Archaeological Museum of Athens。最後一句說 Antikythera Mechanism 著名到有一場國際會議只討論它。只看首尾句，可以看出本段由「展出位置」轉到「學術地位」。它正式命名該裝置，說明它是複雜裝置，也是世界第一部已知 analogue computer。題目若問 location 或 first analogue computer，C 很關鍵。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說每次關於該裝置的新發現都帶來新問題。最後一句問它是否能幫助理解古人如何思考determinism 和 human destiny。只看首尾句，可以判斷本段是「研究問題清單」。它不主要提供具體答案，功能是強調這件裝置仍有很多未知，包括誰製造、目的、技術為何消失、希臘文化和古人宇宙觀。標題中的 more questions than answers 正在這段展開。"
+      },
+      {
+        "number": "E",
+        "summary": "首句由 François Charette 比較 9th century Baghdad 的 gear trains 和 Antikythera Mechanism。最後一句說它毫無疑問是 technological masterpiece。只看首尾句，可以估計本段功能是「用齒輪數量比較技術複雜度」。早期 Baghdad 裝置用 eight gears，Antikythera 有 more than 30 gears，所以它遠超後來較簡單的太陽和月亮顯示裝置。題目若問 more complicated 或 earlier device，E是答案區。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說裝置大概建於 100–140 BC，天文知識可能源自 Babylonians。最後一句說 19 calendar years equal 235 lunar months。只看首尾句，可以判斷本段講「年代、研究重建、月相和曆法關係」。Mike Edmunds 帶領團隊用 three-dimensional imaging 重建齒輪機構，並解讀 inscriptions。題目若問 built date、lunar months、calendar years、Edmunds 或 lunar cycles，F 很重要。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說轉動齒輪可查看過去或未來某日期天空的樣子。最後一句說前門有 date、sun、moon、zodiac 指針，後門顯示 calendar years、lunar months 和 eclipse prediction mechanism。只看首尾句，可判斷本段功能是「機械外觀、結構和操作方式」。它描述 epicyclic gears、box、front and back doors、instruction manual-like inscriptions。題目若問 appearance、structure、pointers、doors 或 eclipse mechanism，G 是核心段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句由 Yanis Bitsakis 說明該裝置能幫助人們知道 eclipses、stars 和 dates 的關係。最後一句提醒我們，單靠 written texts 只能知道古代的一小部分。只看首尾句，可以判斷本段講「用途和文化意義」。中間還提到 building it required collaboration among astronomers, engineers, intellectuals, and craftspeople。題目若問 ancient people how used it，或誰可能參與製造，H 要優先看。"
+      },
+      {
+        "number": "I",
+        "summary": "首句用未來歷史學家看 philosophy texts 和 aircraft engine 作類比。最後一句說該裝置可能像現代 planetarium device，用來激發興趣或展示身份。只看首尾句，可以判斷本段功能是「由文獻和科技實物比較，推測裝置用途」。Charette 認為它不像 astrology 工具，更可能是富有羅馬人家中的展示品。題目若問 practical use、planetarium、bragging rights 或 astrology，I 是目標段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句提出大問題：為何該裝置的技術失傳？最後一句期待考古界重新檢查櫃中那些看似 rusty old metal 的物件。只看首尾句，可以判斷本段講「技術失傳原因和未來發現可能」。Edmunds 把背景連到 Roman power，並認為這樣複雜的裝置不大可能只有一件。題目若問 lost technology、more examples、future discoveries 或 Edmunds 的期望，J 很重要。"
+      }
+    ]
+  }
+}

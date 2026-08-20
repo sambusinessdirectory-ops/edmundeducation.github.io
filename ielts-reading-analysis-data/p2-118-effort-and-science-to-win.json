@@ -1,0 +1,1677 @@
+{
+  "id": "p2-118-effort-and-science-to-win",
+  "catalogueId": "p2-118",
+  "catalogueIds": [
+    "p2-118"
+  ],
+  "passage": 2,
+  "title": "EFFORT AND SCIENCE TO WIN",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "B",
+    "A",
+    "C",
+    "D",
+    "B",
+    "A",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“the natural process of oxygen production”",
+      "translation": "氧氣產生的自然過程。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們通常每天使用它 45 至 60 分鐘，每週三次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph D 會先處理資金和設備問題，再集中介紹某項運動醫學設備。最後一句的 “it” 指前文的 hyperbaric chamber，所以這段很可能包含該設備的原理、用途和操作方法。題目問 oxygen production，自然要在介紹 hyperbaric chamber 原理的位置細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “oxygen production”。掃描 Paragraph D 時，不只找 oxygen，也要找produce、natural state、air pressure 這類和氧氣來源或狀態有關的詞。"
+            },
+            {
+              "kind": "label",
+              "text": "在 Paragraph D 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Green plants produce the oxygen; modern technology merely increases the air pressure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "綠色植物產生氧氣；現代科技只是提高氣壓。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Green plants”，動詞是 “produce”，受詞是 “the oxygen”。它直接說明氧氣的自然來源：氧氣由綠色植物產生。後半句 “modern technology merely increases the air pressure” 補充說明科技的角色只是增加氣壓，沒有改變氧氣的分子組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “the natural process of oxygen production”。原文的 “Green plants produce the oxygen”正正講 oxygen production 的自然來源。因為這個資訊只在 Paragraph D 出現，所以答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 hyperbaric chamber 很科技化，學生可能只看 “modern technology” 便以為題目問的是人工製氧。細讀後會見到原文把 oxygen production 交給 green plants，把 technology 的功能限定為 increasing air pressure。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“standard post-competition procedures”",
+      "translation": "比賽後的標準程序。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The study of elite athletes is now more scientific than ever,’ says Dr Francisco Javier Squares.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Francisco Javier Squares 說：「對精英運動員的研究現在比以往任何時候都更科學。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through detailed scientific evaluation at our Deporte facility, we can construct a highly specific training programme for each individual.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 Deporte 設施內的詳細科學評估，我們可以為每位個別運動員建立高度具體的訓練計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 會講科學化訓練如何落實在運動員身上。第一句提出 elite athletes 的研究更科學；最後一句落到 individual training programme。因此，這段很可能有「評估、檢查、跟進、制定訓練計劃」的程序資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “post-competition procedures”。原文未必用 procedure，所以要找 after each competition、medical examinations、follow-up training 這類表示比賽後安排的詞。"
+            },
+            {
+              "kind": "label",
+              "text": "在 Paragraph B 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“After each competition, athletes undergo thorough medical examinations and follow-up training to help us devise a tailor-made programme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每次比賽後，運動員會接受全面醫學檢查和跟進訓練，幫助我們設計一個度身訂造的計劃。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的時間詞是 “After each competition”，直接對應題目的 post-competition。動詞 “undergo” 表示接受某項程序；受詞有兩個：thorough medical examinations 和 follow-up training。兩者合起來就是比賽後的標準跟進程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “standard post-competition procedures” 概括原文的 “After each competition, athletes undergo…”；“after each competition” 也暗示這不是偶然一次，而是固定做法。答案因此是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph E 也講 intense workout 之後的 rest and recovery，但那段重點是測量心臟恢復，不是「每次比賽後的標準程序」。Question 15 的控制詞是 post-competition，所以Paragraph B 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“the areas studied to improve athletic performance”",
+      "translation": "為提升運動表現而研究的範疇。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Mexico, the Directorate of Medicine and Applied Sciences at the National Sports Commission (Deporte) analyses every aspect of sports science, from the role of the auditory system in sporting achievement to the power of the mind and its role in winning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在墨西哥，國家體育委員會 Deporte 的醫學與應用科學部門分析運動科學的每一個方面，從聽覺系統在運動成就中的角色，到心智力量及其在勝利中的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From promising child athletes as young as nine to older sportspeople, the facility at Deporte has attracted some of Mexico’s most famous athletes and Olympic hopefuls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從年僅九歲、有潛質的兒童運動員，到年長運動人士，Deporte 的設施吸引了一些墨西哥最著名的運動員和奧運希望之星。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 是介紹 Deporte 的研究範圍與服務對象。第一句已經用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“every aspect of sports science” 打開範圍，最後一句說明受惠對象涵蓋兒童、年長運動員、著名運動員和奧運希望之星。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “areas studied” 和 “athletic performance”。掃描 Paragraph A 時，要找列舉式名詞，例如 psychology、nutrition、biochemistry 等。原文關鍵句：“Recently, researchers have focused on evaluating the visual acuity of cyclists and long-distance runners, but they also study more traditional areas, including psychology, nutrition, anthropology, biochemistry and odontology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最近，研究人員集中評估單車手和長跑運動員的視力敏銳度，但他們也研究較傳統的範疇，包括心理學、營養學、人類學、生物化學和牙科學。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確列出 Deporte 研究的 areas。前半句是近期焦點：visual acuity of cyclists and long-distance runners。後半句是 traditional areas：psychology、nutrition、anthropology、biochemistry、odontology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “areas studied to improve athletic performance” 概括原文中 “analyses every aspect of sports science” 和後面的研究領域清單。因為 Paragraph A 集中列出研究範圍，所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph B 也提到 detailed scientific evaluation，但那段重點是個人化訓練計劃，不是列出研究範疇。若題目問 “areas studied”，應優先找清單式資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“the Mexican viewpoint on winning”",
+      "translation": "墨西哥對勝利的看法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas many countries focus on glorifying the champion, the Mexican Olympic team takes a slightly different approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然很多國家集中頌揚冠軍，但墨西哥奧運隊採取稍為不同的做法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When an athlete stands on the podium, it is because many people have made a great effort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一名運動員站上頒獎台，是因為很多人都作出了巨大努力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯在比較一般國家和墨西哥隊對勝利的理解。首句說墨西哥有different approach；尾句說 podium 背後有 many people 的努力。這段很可能直接回答 Mexican viewpoint on winning。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mexican viewpoint” 和 “winning”。原文有 Mexico、wins、combined team effort、podium、many people working behind the scenes，全部和題目高度相關。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When an athlete wins for Mexico, it is always the result of a combined team effort, with many people working behind the scenes to make the achievement possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一名運動員為墨西哥勝出時，這永遠是團隊共同努力的結果，有很多人在幕後工作，令這項成就成為可能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “an athlete wins for Mexico”，核心判斷是 “it is always the result of a combined team effort”。“always” 程度很強，表示在墨西哥觀點中，勝利穩定地被理解為團隊努力的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Mexican viewpoint on winning。原文說墨西哥運動員勝利來自 combined team effort 和behind-the-scenes work。這正是墨西哥對 winning 的理解，因此答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是題首導語也講 medical specialists collaboration，但 Question 17 問的是 “viewpoint”，不是整篇總論。Paragraph C 有 “different approach” 和直接引言，最符合題目要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D — speeds up athletes’ recovery time.",
+      "answerKey": "D — speeds up athletes’ recovery time.",
+      "type": "Multiple Choice",
+      "prompt": "“The hyperbaric chamber…”",
+      "translation": "高壓氧艙……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們通常每天使用它 45 至 60 分鐘，每週三次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 先講墨西哥的資金和設備條件，再講一項設備的使用頻率。因為題目直接問 hyperbaric chamber，目標自然落在 Paragraph D 中段介紹該設備的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是 “hyperbaric chamber”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“One example of sophisticated equipment at the Mexican facility is the hyperbaric chamber, which is used to speed recovery after vigorous exercise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "墨西哥設施中一項先進設備例子是高壓氧艙，它用來在劇烈運動後加快恢復。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “is used to speed recovery after vigorous exercise”。“speed recovery” 即加快恢復；“after vigorous exercise” 說明它在劇烈運動後使用。這和 D “speeds up athletes’ recovery time”完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “helps athletes breathe more easily.”原文說 athletes breathe the air inside the chamber，但重點在 increased air pressure 和 oxygen entering tissues more effectively。沒有說呼吸變得更容易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “increases the amount of oxygen an athlete breathes.”原文說 “the natural state of the oxygen does not change” 和 “modern technology merely increases the air pressure”。增加的是 air pressure，不是氧氣本身的分子組成或吸入量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “decreases oxygen pressure for Mexican athletes.”方向相反。原文說 “increases the air pressure”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “speeds up athletes’ recovery time.”正確。原文的 “speed recovery” 和 “recover … much more quickly” 直接支持 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 B。很多學生看到 oxygen enter tissues more effectively，便以為氧氣量增加。細讀要看"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“merely increases the air pressure” 這個限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B — helps doctors identify heart problems.",
+      "answerKey": "B — helps doctors identify heart problems.",
+      "type": "Multiple Choice",
+      "prompt": "“The electroencephalograph (EEG)…”",
+      "translation": "腦電圖儀 EEG……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When athletes are pushed to the limit, the true indicator of fitness is not how hard the heart works but how quickly it recovers after an extreme workout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當運動員被推到極限時，真正的體能指標並非心臟工作得多努力，重點在極端訓練後恢復得多快。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The EEG has had a major impact on the team’s ability to measure the heart’s muscular endurance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "EEG 對團隊測量心臟肌肉耐力的能力產生了重大影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 的核心是 heart recovery 和 heart endurance。題目問 EEG，所以答案應在描述 EEG 用途的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “electroencephalograph (EEG)”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“An electroencephalograph (EEG) is used to measure this recovery rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "腦電圖儀 EEG 用來測量這個恢復速度。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文解釋它如何幫助醫生："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the transition from intense exertion to recovery, doctors can monitor weaknesses in the way the heart responds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在從劇烈用力轉向恢復的過程中，醫生可以監測心臟反應方式中的弱點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要把兩句合起來看。第一句說 EEG 用來測量 recovery rate；第二句說醫生可以監測 heart response 的 weaknesses。選項 B 的 “identify heart problems” 是對 “monitor weaknesses in the way the heart responds” 的概括。這裡的 problems 不是正式診斷某種疾病，而是指心臟反應中的弱點或異常表現。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “measures how fast brainwaves move during exercise.”原文說 sensors placed on the scalp allow doctors to monitor brainwave activity，但沒有說測量brainwaves move 的速度，也沒有把答案重點放在 exercise during 的腦波速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “helps doctors identify heart problems.”正確。原文的 “monitor weaknesses in the way the heart responds” 支持這個概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “measures how hard the heart works during exercise.” Paragraph E 首句已排除這個方向：真正指標是恢復速度，不是 how hard the heart works。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “strengthens athletes’ heart muscles.”原文說 EEG helps measure endurance，沒有說它強化心臟肌肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 A。EEG 的名稱和 brainwave activity 很吸引，但題目要問它在此文中的功能。文章把EEG 放在 heart recovery 和 heart endurance 的脈絡中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — medical advances.",
+      "answerKey": "A — medical advances.",
+      "type": "Multiple Choice",
+      "prompt": "“Life expectancy in Mexico has increased because of…”",
+      "translation": "墨西哥人的預期壽命增加，是因為……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1796, human life expectancy was between 25 and 36 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1796 年，人類預期壽命介乎 25 至 36 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This has helped protect the bodies of recreational as well as elite sportspeople.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有助保護休閒運動人士和精英運動員的身體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 先由 human life expectancy 的歷史變化切入，再用 sporting equipment 作例子，講科學和工程如何改善健康與運動保護。題目問 Mexico life expectancy，自然定位到本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Life expectancy in Mexico” 和 “increased”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1996, the average Mexican could expect to live for about 75 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1996 年，普通墨西哥人可以預期活到大約 75 歲。"
+            },
+            {
+              "kind": "label",
+              "text": "接著有原因句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People are living longer largely because of advances in modern science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們壽命變長，主要因為現代科學的進步。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的原因是 “advances in modern science”。選項中沒有 “modern science” 這個完全一樣的答案，所以要選最貼近的一項。A “medical advances” 最接近，因為本段主軸是 medical equipment、engineering advances 和人體保護；在四個選項中，只有 A 能概括科學與醫學進步對壽命延長的影響。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “medical advances.”正確，是四個選項中最貼近 “advances in modern science” 的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “more committed doctors.”原文沒有說醫生更投入或更有承擔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “better-made sporting equipment.”後文的 tennis shoes 是運動傷害保護的例子，不能拿來解釋整體壽命增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “advances in ergonomics.” ergonomic design 是鞋履科技中的一個細節，不足以概括 life expectancy increased 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 C 和 D。Paragraph F 後半確實講鞋和 ergonomic design，但那是現代科技保護身體的例子；題目問 life expectancy 增加的原因，答案要回到 “advances in modern science”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There are limits to the scope of sporting research.”",
+      "translation": "運動研究的範圍有限制。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Mexico, the Directorate of Medicine and Applied Sciences at the National Sports Commission (Deporte) analyses every aspect of sports science, from the role of the auditory system in sporting achievement to the power of the mind and its role in winning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在墨西哥，Deporte 的醫學與應用科學部門分析運動科學的每一個方面，從聽覺系統在運動成就中的角色，到心智力量及其在勝利中的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From promising child athletes as young as nine to older sportspeople, the facility at Deporte has attracted some of Mexico’s most famous athletes and Olympic hopefuls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從年僅九歲、有潛質的兒童運動員，到年長運動人士，Deporte 的設施吸引了一些墨西哥最著名的運動員和奧運希望之星。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 介紹 Deporte 研究範圍很廣，也服務很多類型運動員。題目說research scope 有 limits，需要檢查原文是否支持「有限制」這種說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “limits” 和 “scope”。原文未必有 limits，但有相反方向的表達：every aspect、Everything open to scrutiny。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everything, it seems, is open to scrutiny.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，一切都可以接受仔細檢查。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句已說 “analyses every aspect of sports science”，中間又說 “Everything … is open to scrutiny”。這兩個表達都把研究範圍說得很廣。題目說 “There are limits to the scope”，意思是有些範疇不能或不會被研究。這和 “every aspect” 及 “Everything” 的方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“limits to the scope”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 研究範圍有限。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“every aspect of sports science”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 運動科學每個方面。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Everything … is open to scrutiny”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 幾乎所有東西都可被研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “including psychology, nutrition…” 這類清單可能令人以為只研究幾個項目。其實清單只是例子，真正控制範圍的是 every aspect 和 Everything。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Athletic programmes differ mainly between men and women.”",
+      "translation": "運動訓練計劃主要按男女差異而不同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The study of elite athletes is now more scientific than ever,’ says Dr Francisco Javier Squares.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Francisco Javier Squares 說：「對精英運動員的研究現在比以往任何時候都更科學。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through detailed scientific evaluation at our Deporte facility, we can construct a highly specific training programme for each individual.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 Deporte 設施內的詳細科學評估，我們可以為每位個別運動員建立高度具體的訓練計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 重點在科學化與個人化訓練。最後一句的 “for each individual” 特別重要，因為題目說 programmes mainly differ between men and women，即主要按性別分類。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “programmes differ mainly”。原文沒有 men and women，所以要找 programme 如何被設計：one-size-fits-all、same height and weight、muscle and fat、each individual。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elite sport has become big business; there is no longer a one-size-fits-all approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "精英運動已成為大生意；現在不再有一套方法適用所有人的做法。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through detailed scientific evaluation at our Deporte facility, we can construct a highly specific training programme for each individual.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 Deporte 設施內的詳細科學評估，我們可以為每位個別運動員建立高度具體的訓練計劃。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目提出的分類基礎是 “men and women”。原文提出的分類基礎是 “each individual”，並用兩個身高體重相同但肌肉和脂肪比例不同的人作例子。這說明訓練計劃不應只按外表或粗略分類處理，而要按個別運動員的身體組成和科學評估設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題不是單純「原文沒有 gender」那麼簡單。題目用了 “mainly”，聲稱主要差異來自男女。原文已經明確把重點放在 detailed scientific evaluation 和 each individual。兩者方向不合，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“differ mainly between men and women”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 主要按性別分類。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“highly specific training programme for each individual”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 每人按個別科學評估制定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於文章確實提到 “sportsmen and women”，但那在 Paragraph D，意思只是男女運動員，不是說訓練計劃按男女分開。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mexico and Germany have similar sporting resources.”",
+      "translation": "墨西哥和德國有相近的運動資源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們通常每天使用它 45 至 60 分鐘，每週三次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 會講墨西哥在資金和設備方面的情況，並介紹其中一項先進設備。題目提到 Mexico and Germany，所以要看本段是否有跨國設施比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Mexico and Germany” 和 “similar sporting resources”。原文沒有 resources 這個字，但有 facilities 和 on a par with。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quality of Mexico’s facilities is on a par with that found in countries such as Italy and Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "墨西哥設施的質素與意大利、德國等國家的設施質素相若。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The quality of Mexico’s facilities”，比較詞是 “on a par with”，比較對象是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“countries such as Italy and Germany”。“on a par with” 意思是水平相若、同一級別。題目用 “sporting resources” 概括原文的 “facilities”。在這篇文章語境中，facilities 包括sports-research equipment and laboratories，屬於運動科研資源。題目說 Mexico and Germany have similar sporting resources，和原文 “Mexico’s facilities is on a par with … Germany” 一致。所以答案是 TRUE。中伏位是 Paragraph D 開頭提到 poorer countries。學生可能以為墨西哥資源不足，但後一句立刻說 “this has not been a problem for the Mexican team”，並指出政府撥款充足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A lack of money prevents athletic development in some poorer countries.”",
+      "translation": "在一些較貧窮國家，缺乏金錢會阻礙運動發展。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們通常每天使用它 45 至 60 分鐘，每週三次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，Question 24 已經很明顯定位在 Paragraph D。題目中的 lack of money 對應budgetary constraints；poorer countries 也直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “lack of money” 和 “poorer countries”。原文相應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“budgetary constraints” 指預算限制，也就是資金不足或財政限制。“can be hindered” 指可能受到阻礙。題目用 “prevents athletic development” 表示阻止或阻礙運動發展；在這題語境中，它不是說運動完全不存在，而是指運動員發展會受到財政條件限制。原文說 poorer countries 的 sportsmen and women can be hindered by budgetary constraints。題目說 lack of money prevents athletic development in some poorer countries。兩者方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“lack of money”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “budgetary constraints”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevents athletic development”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “can be hindered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some poorer countries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “poorer countries” + “often the case”中伏位在 “However, this has not been a problem for the Mexican team.” 這句。它只說墨西哥隊沒有這個問題，沒有否定其他貧窮國家受預算限制影響。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Wealthy countries enjoy greater athletic success.”",
+      "translation": "富裕國家享有更大的運動成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們通常每天使用它 45 至 60 分鐘，每週三次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目提到 wealthy countries 和 athletic success，最可能要先看 Paragraph D 的資金與國家資源比較。不過只看首尾句，這段確實談 budget 和 equipment，尚未見到 rich countries success 的直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Wealthy countries” 和 “greater athletic success”。原文有 poorer countries、Italy、Germany、facilities on a par，但沒有 wealthy countries enjoy greater success 這個結論。"
+            },
+            {
+              "kind": "label",
+              "text": "相關原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quality of Mexico’s facilities is on a par with that found in countries such as Italy and Germany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "墨西哥設施的質素與意大利、德國等國家的設施質素相若。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀原文是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供三項相關資料：第一，較貧窮國家的運動員可能受 budgetary constraints 阻礙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，墨西哥政府為最新運動研究設備和實驗室撥出大量資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，墨西哥設施質素與意大利和德國等國相若。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目需要另一個結論：wealthy countries enjoy greater athletic success。要支持這句，文章需要比較 wealthy countries 和 poorer countries 的實際成績，例如 medal counts、win rates、champions 或 athletic success outcomes。原文沒有提供這種成功程度比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： budget constraints in poorer countries Mexico has good facilities Mexico facilities comparable to Italy and Germany題目需要： wealthy countries > other countries in athletic success缺少的是 “greater athletic success” 的成績比較。資源較好可能幫助訓練，但文章沒有把它推到「富裕國家更成功」這個結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是把 “resources” 自行推成 “success”。IELTS Reading 可以接受短距離同義改寫，但不能用現實常識補出文章沒有明講的結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mexican athletes have the support of their government.”",
+      "translation": "墨西哥運動員得到政府支持。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如較貧窮國家常見的情況，男女運動員可能會受到預算限制阻礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們通常每天使用它 45 至 60 分鐘，每週三次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 先提到資金限制，再講墨西哥設備使用。題目問 government support，應該在本段中間找政府撥款或 funding 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mexican athletes” 和 “government support”。原文沒有直接說 support，但有government allocated a substantial sum。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The government has allocated a substantial sum for the latest sports-research equipment and laboratories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府已撥出一筆可觀款項，用於最新的運動研究設備和實驗室。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The government”，動詞是 “has allocated”，受詞是 “a substantial sum”。用途是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“for the latest sports-research equipment and laboratories”。這表示政府用資金支持運動科研設施，而這些設施正是墨西哥隊和運動員使用的支援系統。題目說 Mexican athletes have the support of their government。原文的政府撥款是具體支持形式。它不是抽象口號，而是實際資金投入，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“have the support of their government”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “The government has allocated a substantial sum…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“support”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= funding / equipment / laboratories / research facilities中伏位是題目沒有要求政府直接陪運動員訓練，也沒有要求政府親自管理醫療程序。只要政府提供資金和設備支援，statement 就能成立。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - EFFORT AND SCIENCE TO WIN.pdf",
+    "sha256": "b00417ff5515d4e03cbeaa8ae5430adebeab4a1d4f9027337b8985a105498749",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看題首導語及 A–F 段首尾句題首導語",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Deporte 研究 sports science 的 every aspect，從 auditory system 到 mind 的 role in winning 都會分析。末句說這個設施吸引了墨西哥著名運動員和 Olympic hopefuls。只看首尾句，可以先估這段在介紹 Deporte 的研究範圍和服務對象。段落大概會列出不同研究領域，例如視力、心理、營養、生化等，適合定位「研究哪些範疇提升表現」的題目。"
+      },
+      {
+        "number": "B",
+        "summary": "首句引用 Dr Squares，說 elite athletes 的研究比以往更科學。末句說 Deporte 可以為每個人建立highly specific training programme。只看首尾句，可以估計這段重點是運動訓練個人化。中間很可能會講比賽後檢查、跟進訓練，以及為何舊式 one-size-fits-all 方法已過時。這段適合回答post-competition procedures 和 personalised programmes 相關題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說很多國家會 glorify the champion，但墨西哥奧運隊有 slightly different approach。末句說運動員站上 podium，是因為 many people have made a great effort。只看首尾句，這段明顯在講墨西哥對勝利的看法：勝出不是單一英雄的功勞，重點在 team effort、humility 和behind-the-scenes support。這段很適合定位「Mexican viewpoint on winning」。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說貧窮國家的運動員常受 budgetary constraints 阻礙，但墨西哥隊沒有這個問題。末句說hyperbaric chamber 通常每天使用 45 至 60 分鐘，每週三次。只看首尾句，可以估計這段先講資金與設施，再講一項高科技設備如何幫助運動員復原。中間大概會提到政府撥款、設施水平與德國意大利相若、氧氣來源和氣壓技術。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說運動員被推到極限時，真正 fitness indicator 不是心臟多努力工作，而是極端訓練後恢復得多快。末句說 EEG 大大提升了團隊測量 heart’s muscular endurance 的能力。只看首尾句，可以估計這段集中在 heart endurance 和 recovery rate。中間應會解釋 EEG 如何用 sensors 監測brainwave activity，再協助醫生觀察心臟從 exertion 到 recovery 的反應弱點。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 1796 年人類預期壽命只有 25 至 36 年。末句說改良後的鞋履科技保護了 recreational 和elite sportspeople 的身體。只看首尾句，這段把現代科學和工程進步放到更大背景：人類壽命增加，運動裝備也改善。中間以 tennis shoes 為例，說明從布鞋和硬橡膠鞋底，到 silicone 和ergonomic design，科技如何減少運動傷害。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "題首導語先把全文主旨說出來：現代運動成功不只靠 disciplined training，也要靠 medical specialists 的合作。換言之，文章會集中講「科學支援如何幫助運動員獲勝」。這句已經預告後文方向：醫學、科技、心理、營養、設備、復原和個人化訓練都可能成為重點。正式做題時，這句不能直接作答案，但能幫我們預測全文會圍繞 sports science 和 teamwork 展開。"
+  ]
+}

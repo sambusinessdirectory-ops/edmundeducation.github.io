@@ -1,0 +1,1285 @@
+{
+  "id": "p2-060-park-the-car-permanently",
+  "catalogueId": "p2-060",
+  "catalogueIds": [
+    "p2-060"
+  ],
+  "passage": 2,
+  "title": "Park the Car Permanently",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "G",
+    "F",
+    "E",
+    "可任意排序。",
+    "可任意排序。",
+    "可任意排序。",
+    "可任意排序。",
+    "可任意排序。",
+    "A, C",
+    "A, B",
+    "A, C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B — Don’t wait!",
+      "answerKey": "B — Don’t wait!",
+      "type": "Matching Headings",
+      "prompt": "“Don’t wait!”",
+      "translation": "不要等；不要等到被迫才行動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。題目不是問單一句資料，而是要找哪一段整體最適合 “Don’t wait!”。這個 heading 帶有勸告語氣，所以要找段落是否直接對讀者提出行動建議。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why wait until you are forced off the road by costly charges?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼要等到昂貴收費迫使你放棄駕車才行動？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not owning a vehicle is far more practical than most people realise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不擁有車輛比大多數人意識到的更實際。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 已經有很強的勸告方向。第一句用 “Why wait” 開頭，和 heading “Don’t wait!” 幾乎是直接對應。最後一句則把行動方向說清楚：不擁有車其實很 practical。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的字是 “wait”。原文第一句直接出現 “Why wait”。再掃描本段，可見 “You’d be far better off giving it up and relying on other forms of transport.” 這句說讀者放棄私家車、改用其他交通工具會更好。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You’d be far better off giving it up and relying on other forms of transport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你放棄私家車，改依靠其他交通方式，會好得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “far better off”，即在財務或整體處境上更有利。Paragraph A 只是交代政府會推road pricing；Paragraph B 才直接向讀者說：不要等到被迫，現在已可考慮放棄擁車。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Don’t wait= Why wait until you are forced off the road= 現在就考慮改變，不要等收費迫使你改變答案判斷： B 最適合。A 有政府政策背景，但沒有直接勸讀者 “don’t wait”。真正的命令式語氣和行動建議集中在 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "G — Team up",
+      "answerKey": "G — Team up",
+      "type": "Matching Headings",
+      "prompt": "“Team up”",
+      "translation": "組隊；與別人合作同行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪段主題是 people sharing journeys。Heading “Team up” 未必逐字出現於首句，但它可能以 car sharing、share the journey、colleagues、online databases 等形式出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Car sharing is an increasingly popular option for people making the same journeys regularly –to and from work, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於經常走同一路線的人，例如上下班的人，car sharing 是越來越受歡迎的選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more you can reduce your car use, however you gain access to it, the more you will save.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你以甚麼方式取得用車機會，越能減少用車，就越能省錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 car sharing；最後一句總結減少 car use 可省錢。只看首尾句，可以看出本段主要處理 shared journeys 和 reduced car use。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 的核心是 “team up”。Paragraph G 中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liftshare and Carshare are two national organisations that maintain online databases of people who would be prepared to team up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liftshare 和 Carshare 是兩個全國性組織，它們維持網上資料庫，收錄願意組隊同行的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many companies run schemes that help colleagues who live near each other and work in the same place to contact each other so they can share the journey to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多公司推行計劃，幫助住得近、在同一地方工作的同事互相聯絡，以便一起分享上班旅程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整展示 “team up” 的實際意思：不是加入車會，也不是租車，而是找到同行的人，共同完成相同旅程。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Team up= car sharing= share the journey to work= people prepared to team up答案判斷： G 最合適。F 也有 members，但那是 car club 會員，不是和別人合作同行。Heading “Team up”的重點是 sharing journeys，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "F — Join a club",
+      "answerKey": "F — Join a club",
+      "type": "Matching Headings",
+      "prompt": "“Join a club”",
+      "translation": "加入一個車會或會員制組織。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找介紹 car clubs 的段落。定位詞包括 club、members、deposit、smart card、hourly rate。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Streetcar, one of several ‘car clubs’ with growing numbers of members, reckons that using its vehicles twice a week, every week, for a year, would cost you just £700.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Streetcar 是幾個會員數正在增長的 “car clubs” 之一；它估計每週使用其車輛兩次、全年如此，只需 £700。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Members pay an hourly rate for the car – £4.95 is the cost at Streetcar – and return it to the same spot, or to a different designated parking place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "會員按小時付費使用汽車；Streetcar 的收費是 £4.95，之後把車還到同一地點，或另一個指定泊車點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已清楚顯示本段講 car club 的會員制和使用程序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 的定位詞是 “club”。原文首句直接出現 “car clubs”。同段又多次出現 “members”，例如"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“charge their members a refundable deposit” 和 “provide them with an electronic smart card”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“These three companies, which now operate in 20 of Britain’s towns and cities, charge their members a refundable deposit – £150 at Streetcar – and then provide them with an electronic smart card.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三間公司目前在英國 20 個城鎮營運，向會員收取可退還按金；Streetcar 的按金是 £150，之後向會員提供 electronic smart card。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不是一般租車介紹，而是會員加入 car club 後如何使用車輛。Heading “Join a club” 正好概括本段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Join a club= car clubs with members= charge their members a deposit= provide members with smart cards答案判斷： F 是答案。E 講 public transport 和 occasional car hire；G 講 car sharing。只有 F 的主題是 car club membership。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "E — Use public transport",
+      "answerKey": "E — Use public transport",
+      "type": "Matching Headings",
+      "prompt": "“Use public transport”",
+      "translation": "使用公共交通。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪段主要把 public transport 作為放棄私家車後的替代方案，並比較其成本。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take the cost of public transport, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以公共交通的成本為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not that car hire is necessarily the most cost-effective option for people who are prepared to do without a car but may still need to drive occasionally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，對於準備不擁有車但偶爾仍需要駕駛的人來說，租車未必一定是最省錢的選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 public transport，段落中間用 London Travelcard 具體比較成本。最後一句再把話題轉向 occasional car hire，說它只是其中一種補充方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 中最有定位力的是 “public transport”。Paragraph E 首句完全重現這個概念。再看中間："
+            },
+            {
+              "kind": "quote",
+              "text": "“In London, the most expensive city in the UK, the most expensive annual Travelcard, allowing travel in any zone at any time, costs just over £1,700.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在倫敦這個英國最昂貴的城市，最貴的 annual Travelcard，可讓乘客任何時間在任何區域出行，費用只是略高於 £1,700。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句展示公共交通作為替代私家車的財務基礎。接著文章說即使買最貴 Travelcard，再偶爾租車，仍可能比擁有私家車便宜。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Use public transport= cost of public transport= annual Travelcard= give up your car and still have money left答案判斷： E 最適合。雖然本段也談 car hire，但 public transport 是段落起點和主要成本比較基礎，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A, B, C, F, G",
+      "answerKey": "A, B, C, F, G",
+      "type": "FIVE true statements",
+      "prompt": "Questions 18–22",
+      "translation": "McCarthy 認為人們可能會對用車上癮。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple-answer。每個選項都要獨立驗證，不能只因為某個字眼出現便選。手冊也提醒， multiple-answer 題要逐項追蹤每個選項是否被提及、支持、限制或否定。"
+            },
+            {
+              "kind": "label",
+              "text": "Option A選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“McCarthy claims people can become addicted to using cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A car is a huge financial commitment, as well as being a psychological addiction.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "汽車是一項巨大的財務承擔，同時也是一種心理上的上癮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時最重要的定位詞是 McCarthy 和 addicted。原文中的 “psychological addiction” 直接對應"
+            },
+            {
+              "kind": "quote",
+              "text": "“can become addicted”。題目把名詞 addiction 改成動詞 phrase “become addicted”，意思一致。判斷：A 正確。 Option B選項：“The cost of using a car rose by over ten per cent last year.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年用車成本上升超過 10%。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The estimate is that the cost of running a car rose by more than ten per cent last year alone.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "估計顯示，單在去年，汽車運行成本便上升超過 10%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “using a car” 對應原文 “running a car”。“over ten per cent” 對應 “more than ten per cent”。“last year” 完全一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：B 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "Option C選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most British people borrow money to help buy cars.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數英國人會借錢幫助買車。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cost of finance packages, which most people have to resort to in order to pay for at least part of the price of a new car, has also been rising – to an average of £1,040 a year.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "融資方案的成本也一直上升；多數人都要依靠這些方案來支付新車價格的至少一部分，平均每年達 £1,040。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 finance packages 就是借貸或分期融資。題目把 “finance packages” 改寫成 “borrow money”。在英國文章語境中，“most people” 指購買新車的人群。選項用 “British people” 作背景概括，雖然較寬，但仍配合全文的 UK setting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：C 正確。要留意，這裡支援的是多數新車買家需要融資，不是每一位英國居民都買車。"
+            },
+            {
+              "kind": "label",
+              "text": "Option D選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people need cars to drive in London occasionally.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人需要車，偶爾在倫敦駕駛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E原文確實提到 London、Travelcard 和 occasional car hire，但沒有說 “many people need cars to drive in London occasionally”。原文說的是：即使在 London 買最貴 Travelcard，還可以有錢偶爾租車。這是成本比較，不是人們在倫敦偶爾駕車的需求調查。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：D 不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option E選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Streetcar operates in over 20 cities in Britain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Streetcar 在英國超過 20 個城市營運。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These three companies, which now operate in 20 of Britain’s towns and cities…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三間公司目前在英國 20 個城鎮營運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題有兩點。第一，原文主語是 “These three companies”，即 Streetcar、Citycarclub 和 Whizzgo三間公司合計，不是 Streetcar 一間公司。第二，原文是 “20”，選項說 “over 20”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：E 不選。"
+            },
+            {
+              "kind": "label",
+              "text": "Option F選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Streetcar’s cars must be left at specific locations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Streetcar 的車必須停放在指定位置。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Members pay an hourly rate for the car – £4.95 is the cost at Streetcar – and return it to the same spot, or to a different designated parking place.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "會員按小時付費使用汽車；Streetcar 的收費是 £4.95，之後要把車還到同一地點，或另一個指定泊車點。"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific locations” 對應 “the same spot” 或 “designated parking place”。題目用概括方式表達原文的兩種可接受還車地點。判斷：F 正確。 Option G選項：“Car sharing is becoming more popular with people who live and work near each other.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Car sharing 對住得近、工作地點相同或相近的人越來越受歡迎。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Car sharing is an increasingly popular option for people making the same journeys regularly –to and from work, for example.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於定期走同一路線的人，例如上下班的人，car sharing 是越來越受歡迎的選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many companies run schemes that help colleagues who live near each other and work in the same place to contact each other so they can share the journey to work.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多公司推行計劃，幫助住得近、在同一地方工作的同事互相聯絡，方便他們共享上班旅程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句合併概括：越來越受歡迎 + 住得近和工作地點相同的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：G 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "Option H選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“The government wants to encourage people to go to work on foot or by bicycle.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府想鼓勵人們步行或騎單車上班。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A and G Paragraph A 說政府想減少 congestion 和 motoring environmental damage。Paragraph G 提到bicycle 和 walking，但那是作者列出的低成本交通選擇，不是政府政策。文章沒有說政府鼓勵步行或騎單車上班。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：H 不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Multiple Choice",
+      "prompt": "“The government has decided…”",
+      "translation": "政府已經決定……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 government 的決定。定位詞是 government、petition、road pricing、determined、push ahead。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than a million people are likely to be disappointed by their experience of the Government’s attempts to improve the democratic process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一百萬人很可能會因政府改善民主程序的嘗試而感到失望。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Government is convinced that this is the only way to reduce congestion and the environmental damage caused by motoring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府相信這是減少交通擠塞和駕車造成環境破壞的唯一方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 Government 和 decided。原文中對應的決定語氣是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may have signed an online petition against road pricing, but ministers are determined to push ahead with plans to make it more expensive to drive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可能已經簽署了反對 road pricing 的網上請願，但部長們仍決心推進計劃，令駕車變得更昂貴。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “not to follow protestors’ suggestions.”正確。online petition against road pricing 代表反對者希望政府不要推行 road pricing；但ministers are determined to push ahead，表示政府不採納這種反對方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to become more democratic.”不選。第一句只是說 people may be disappointed by the Government’s attempts to improve the democratic process，沒有說政府已決定變得更民主。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to go ahead with charging drivers to use roads.”正確。road pricing 的意思正是向道路使用收費；“push ahead with plans to make it more expensive to drive” 支持 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A, C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Multiple Choice",
+      "prompt": "“Cars are often…”",
+      "translation": "汽車經常／往往……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 cars 的整體情況，重點在 purchase price 和 operating cost 的對比。要看 Paragraph C和 D。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C and Paragraph D Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may seem as if cars have never been cheaper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "汽車看起來似乎從未如此便宜。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While drivers who do less or more than the average mileage each year will spend correspondingly less or more, many of the costs of car ownership are fixed – and therefore unavoidable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然每年駕駛里數少於或多於平均值的司機會相應花費較少或較多，但許多擁車成本是固定的，因此無法避免。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, leaving aside all the practical and psychological barriers to giving up your car, in financial terms, doing so makes sense for many people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，暫時撇開放棄汽車的實際和心理障礙，從財務角度看，放棄私家車對很多人有道理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 要找 cheap；選項 B 要找 expensive to operate；選項 C 要找 second-hand。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “relatively cheap in Britain.”正確。Paragraph C 說可以買到少於 £4,800 的 brand-new car，也有很多 £5,000 至 £7,000 的decent vehicles。這支持 cars can seem cheap to buy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “relatively expensive to operate in Britain.”正確。Paragraph C 說 “it has never been more expensive to own and run a vehicle”，並列出平均年成本 £5,539。Paragraph D 進一步解釋 depreciation、finance、insurance、maintenance、tax等固定成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “sold second-hand in Britain.”不選。原文只說 “if you buy second-hand, the prices will be even lower”，意思是若買二手車價格更低。這句沒有說汽車 often sold second-hand，也沒有提供二手市場比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A, B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Multiple Choice",
+      "prompt": "“Fuel costs…”",
+      "translation": "燃油成本……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 fuel costs 在 car running costs 中的比例和變動因素。定位詞是 fuel costs、one-fifth、variable、mileage。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depreciation – the fact that your vehicle loses a large chunk of its resale value each year – is one problem, accounting for £2,420 a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Depreciation，即你的車每年失去大量 resale value，是其中一個問題，每年佔 £2,420。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, leaving aside all the practical and psychological barriers to giving up your car, in financial terms, doing so makes sense for many people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，暫時撇開放棄汽車的實際和心理障礙，從財務角度看，這樣做對很多人有道理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only fuel costs are truly variable.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“While petrol prices are the most visible indicator of the cost of running a car, for the typical driver they account for less than one-fifth of the real costs each year.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “make up about 20 per cent of the cost of running a car.”正確。原文說 less than one-fifth。one-fifth 是 20%，題目用 about 20 per cent 作近似概括。嚴格來說原文是少於 20%，但此選項是四捨五入式表述，方向正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “are related to the amount drivers pay for their cars.”不選。原文沒有把 fuel costs 和 car purchase price 連起來。車價和 fuel cost 是不同成本項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “depend on how far you drive.”正確。原文說 “Only fuel costs are truly variable”，前文又說 mileage 多或少會影響花費。Fuel 是最直接隨駕駛距離變動的項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A, C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Multiple Choice",
+      "prompt": "“Using public transport…”",
+      "translation": "使用公共交通……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 public transport 的財務效果，尤其是 public transport + occasional car hire 的組合是否省錢。目標段落是 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take the cost of public transport, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以公共交通成本為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not that car hire is necessarily the most cost-effective option for people who are prepared to do without a car but may still need to drive occasionally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，對於準備不擁有車但偶爾仍需要駕駛的人來說，租車未必一定是最省錢的選擇。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“You could give up your car and still have thousands of pounds to spare to spend on occasional car hire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你可以放棄私家車，仍有數千英鎊剩下，用於偶爾租車。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“you could hire a cheap car from a company such as easyCar for about 30 weeks a year, and still be better off overall than if you own your own vehicle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你可以每年約 30 個星期從 easyCar 這類公司租一輛便宜車，整體上仍會比自己擁車更划算。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “will save money for British motorists, except in London.”不選。原文特別用 London 這個最昂貴城市作例子，說即使在 London，最貴 Travelcard 也只是略高於 £1,700，仍可能比擁車省錢。選項說 except in London，方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “and renting a car part of the time can save money.”正確。原文直接說 public transport 加上 occasional car hire，甚至租車約 30 weeks a year，仍可比擁車便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “costs Londoners about £1,700 a year.”不選。原文說的是 London 最貴 annual Travelcard costs just over £1,700，不代表所有Londoners 使用公共交通都花約 £1,700。這個選項把最高級 Travelcard 的例子擴大成一般Londoners 的成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 B 15 G 16 F 17 E 18 A 19 B 20 C 21 F 22 G 23 A, C 24 A, B 25 A, C 26 B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Park the Car Permanently.pdf",
+    "sha256": "256d03e1df4063353c79d782426a7db80172b1b53b48adca636cf4dbf411a3b5",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 先交代政治背景：超過一百萬人可能對政府改善民主程序的嘗試感到失望，因為他們雖然簽了反對 road pricing 的 online petition，政府仍決定推進令駕車更昂貴的政策。段尾說政府相信這是減少 congestion 和 motoring environmental damage 的唯一方法。只看首尾句，可見本段主要不是講個人理財，而是交代政府推行 road pricing 的背景、民眾反對和政策目的。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 用反問 “Why wait…” 開始，直接勸讀者不要等到昂貴收費迫使自己離開道路，應主動考慮放棄私家車。段尾引用 Donnachadh McCarthy，說不擁有車其實比多數人想像中 practical。只看首尾句，可見本段功能是提出文章主張：很多人雖然享受汽車便利，但擁車在財務上不划算，也帶有 psychological addiction。題目若問 “Don’t wait!” 或 McCarthy 的看法，應看本段。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句說 cars seem cheaper than ever，並列出新車和二手車購買價似乎下降。段尾卻說 many costs of car ownership are fixed and unavoidable。只看首尾句，可估計本段會處理一個表面矛盾：買車價格看似便宜，但擁有和使用汽車從未如此昂貴。中間的 figures 很重要，包括running cost 去年升逾 10%，平均年成本 £5,539，即每星期 £107。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句介紹 depreciation，即汽車每年失去大量 resale value，是主要成本之一。段尾說，暫時撇開 practical and psychological barriers，從 financial terms 來看，放棄私家車對很多人有道理。只看首尾句，可見本段進一步拆解 car ownership costs：depreciation、finance packages、insurance、maintenance、tax、breakdown insurance。它特別指出 fuel costs 其實只佔真實年度成本少於五分之一。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 以 public transport cost 為例，指出即使在英國最昂貴城市 London，最高級 annual Travelcard 也只是略高於 £1,700。段尾補充 car hire 未必是所有無車人士的最省錢選擇。只看首尾句，可見本段核心是公共交通與偶爾租車的成本比較：即使買最貴倫敦 Travelcard，再租cheap car 多個星期，仍可能比自己擁車便宜。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句介紹 Streetcar 這類 car clubs，說使用其車輛一年每週兩次只需 £700。段尾說members 可按小時計費使用車輛，並把車還到同一位置或另一個指定泊車點。只看首尾句，本段重點是 car club 如何運作：會員付 refundable deposit、獲得 electronic smart card、取用停在固定位置的車、按小時付費。題目若問 Join a club 或 Streetcar locations，定位在此段。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句說 car sharing 是越來越受歡迎的選擇，尤其適合 regularly making the same journeys 的人，例如上下班。段尾總結，無論用甚麼方式取得汽車，只要能減少 car use，就能省更多錢。只看首尾句，可見本段從 car clubs 轉到 car sharing、Liftshare、Carshare，以及 bicycle和 walking。題目若問 team up、colleagues、walking 或 cycling，目標段落是 G。"
+      }
+    ]
+  }
+}

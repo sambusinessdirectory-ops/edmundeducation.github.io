@@ -1,0 +1,1486 @@
+{
+  "id": "p2-041-antarctica-in-from-the-cold",
+  "catalogueId": "p2-041",
+  "catalogueIds": [
+    "p2-041"
+  ],
+  "passage": 2,
+  "title": "Antarctica – in from the cold?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "F",
+    "E",
+    "C",
+    "A",
+    "D",
+    "A",
+    "C",
+    "C",
+    "A",
+    "C",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“An example of research used to develop an agricultural weather-forecasting system”",
+      "translation": "一個用來發展農業天氣預測系統的研究例子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是「研究例子」和「農業天氣預測系統」，所以要同時看到research、forecasting、Australia / farmers / agriculture 這類線索。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Out of this extreme environment come some powerful forces that reverberate around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些會在全球產生迴響的強大力量，正是來自這個極端環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“CSIRO is developing this as a prototype forecasting system, but we can confidently predict that as we know more about the Antarctic and Southern Ocean we will be able to enhance and extend our predictive ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "CSIRO 正在把這個發展成一套原型預測系統；我們也可以有信心地預測，隨著我們對南極和南大洋認識增加，我們將能提升並擴展預測能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 已經很像答案段。首句說南極力量影響全球，尾句直接出現 prototype forecasting system。題目中的 weather-forecasting system，正好對應 forecasting system。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “research”、“agricultural”、“weather-forecasting system”。原文沒有 agricultural 這個字，但有 “graziers in northern Queensland”，即澳洲北昆士蘭的牧場經營者；這就是農業或畜牧業語境。原文也有 “Recent work is showing…” 來對應 research。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent work is showing that the temperature of the ocean may be a better predictor of rainfall in Australia than is the pressure difference between Darwin and Tahiti—the Southern Oscillation Index.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期研究顯示，海洋溫度或許比 Darwin 和 Tahiti 之間的氣壓差，也就是 Southern Oscillation Index，更能預測澳洲降雨。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By receiving more accurate predictions, graziers in northern Queensland are able to avoid overstocking in years when rainfall will be poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過得到更準確的預測，北昆士蘭的牧場經營者能夠在降雨不足的年份避免過度放牧或飼養過多牲畜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來就是題目說的研究例子：研究 Southern Ocean / ocean temperature 與澳洲 rainfall的關係，再應用於農業天氣預測，幫助 graziers 減少損失。因此答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "research = Recent work weather-forecasting system = prototype forecasting system agricultural = graziers / overstocking / pasture degradation predict rainfall = weather prediction"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也講 ocean surface temperature，但 E 的焦點在 sea ice 和 food chain；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 14 要找農業預測系統，D 才有 CSIRO、graziers 和 rainfall prediction。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“An explanation of how Antarctic sea ice revitalises the world’s oceans”",
+      "translation": "解釋南極海冰如何令世界海洋重新充氧、恢復活力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The circulatory system of the world’s oceans is like a huge conveyor belt, moving water and dissolved minerals and nutrients from one hemisphere to the other, and from the ocean’s abyssal depths to the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界海洋的循環系統像一條巨大的輸送帶，把水、溶解礦物和營養物由一個半球帶到另一個半球，也從深海帶到表層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The state of the northern oceans, and their biological productivity, owes much to what happens in the Antarctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北方海洋的狀態及其生物生產力，很大程度上取決於南極發生的事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 講南極如何影響全球海洋循環和北方海洋生產力。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“world’s oceans” 和 “revitalises” 與本段首尾句非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sea ice”、“revitalises”、“world’s oceans”。原文中最直接的答案詞是 “reoxygenates and revitalises the ocean”。看到 “fresh sea ice forms” 和 “revitalises” 在同段，便可停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Recent research has shown that as fresh sea ice forms, it is continuously stripped away by the wind and may be blown up to 90 km in a single day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期研究顯示，當新的海冰形成時，它會不斷被風刮走，一天之內可能被吹到 90 公里外。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since only fresh water freezes into ice, the water that remains becomes increasingly salty and dense, sinking until it spills over the continental shelf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於只有淡水會結冰，留下來的海水會變得越來越鹹、越來越密，然後下沉，直到越過大陸棚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cold water carries more oxygen than warm water, so when it rises, well into the Northern Hemisphere, it reoxygenates and revitalises the ocean.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冷水比暖水攜帶更多氧氣，因此當它在北半球深處上升時，便會為海洋重新充氧並恢復活力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案鏈很清楚：fresh sea ice forms → wind removes it → remaining water becomes salty and dense → sinks and joins global circulation → cold oxygen-rich water later rises → reoxygenates and revitalises ocean。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此包含這項 explanation 的段落是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“A description of a food chain that affects animals’ survival patterns”",
+      "translation": "描述一條會影響動物生存狀況的食物鏈。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ocean’s surface temperature results from the interplay between deep-water temperature, air temperature and ice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋表面溫度來自深水溫度、空氣溫度和冰之間的互動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many species of baleen whales and flighted seabirds migrate between the hemispheres and when the krill are less abundant they do not thrive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 baleen whales 和會飛的 seabirds 會在兩個半球之間遷徙；當 krill 數量較少時，牠們便不能興旺繁衍或生長良好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 從 ocean temperature / ice 轉到 animals 的生存。最後一句有 krill、whales、seabirds 和 do not thrive，直接提示 food chain 和 survival patterns。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “food chain”、“animals’ survival”。原文用 “staple diet” 表達食物鏈中被吃的一方，並列出 whales、penguins、seals、seabirds、fish 等依賴 krill 的動物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctic krill—the small shrimp-like crustaceans that are the staple diet for baleen whales, penguins, some seals, flighted seabirds and many fish—breed well in years when sea ice is extensive and poorly when it is not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antarctic krill 是一種像小蝦的甲殼類動物，是 baleen whales、penguins、一些 seals、會飛的seabirds 和許多 fish 的主要食物；在 sea ice 範圍廣闊的年份，牠們繁殖良好；海冰不廣時，繁殖便較差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整描述了食物鏈：sea ice extent 影響 krill breeding，krill 是多種動物的 staple diet，krill 減少會令 whales 和 seabirds 等物種不興旺。題目中的 “survival patterns” 對應 “breed well /poorly” 和 “do not thrive”。答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A reference to an extreme temperature and a powerful cold wind in Antarctica”",
+      "translation": "提到南極的極端溫度和強烈冷風。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctica was not always cold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "南極並非一直都寒冷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The icy blast that howls over the ice cap and out to sea—the so-called katabatic wind—can reach 300 km/h, creating fearsome wind-chill effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那股在冰蓋上呼嘯並吹向海洋的冰冷強風，也就是所謂 katabatic wind，可達每小時 300 公里，造成可怕的風寒效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯處理南極氣候變冷和極端寒冷環境。最後一句已出現 powerful cold wind，題目的另一半 extreme temperature 在中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “extreme temperature” 和 “powerful cold wind”。原文對應 “surface temperatures as low as −89.2°C” 和 “katabatic wind … 300 km/h”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today the ice that overlies the bedrock is up to 4 km thick, and surface temperatures as low as−89.2°C have been recorded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天覆蓋基岩的冰層厚達 4 公里，並曾記錄到低至攝氏零下 89.2 度的表面溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The icy blast that howls over the ice cap and out to sea—the so-called katabatic wind—can reach 300 km/h, creating fearsome wind-chill effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那股在冰蓋上呼嘯並吹向海洋的冰冷強風，也就是 katabatic wind，可達每小時 300 公里，造成可怕的風寒效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求同一段包含 extreme temperature 和 powerful cold wind。Paragraph C 同時有 −89.2°C和 300 km/h katabatic wind，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“A reference to the former view of Antarctica as a forgotten and insignificant continent”",
+      "translation": "提到昔日人們把 Antarctica 視為被遺忘、無重要價值的大陸。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A little over a century ago, men of the ilk of Scott, Shackleton and Mawson battled against Antarctica’s blizzards, cold and deprivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一百多年前，Scott、Shackleton 和 Mawson 這類人物與南極的暴風雪、嚴寒和匱乏搏鬥。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The image was one of a place removed from everyday reality, of a place with no apparent value to anyone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種形象是一個遠離日常現實的地方，一個對任何人都看不出明顯價值的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 正在描述昔日南極形象。題目中的 former view 對應本段 “created an image … to last well into the 20th century”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “former view”、“forgotten”、“insignificant”。原文沒有 forgotten / insignificant 這兩個字，但有 “remoteness, hardship, bleakness and isolation” 以及 “no apparent value to anyone”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“they created an image of Antarctica that was to last well into the 20th century—an image of remoteness, hardship, bleakness and isolation that was the province of only the most courageous of men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們創造了一種一直延續到二十世紀很久的南極形象：遙遠、艱苦、荒涼和孤立，只有最勇敢的人才會涉足。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The image was one of a place removed from everyday reality, of a place with no apparent value to anyone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種形象是一個遠離日常現實的地方，一個對任何人都看不出明顯價值的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "forgotten and insignificant 是對 “removed from everyday reality” 和 “no apparent value to anyone” 的概括。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — temperature",
+      "answerKey": "D — temperature",
+      "type": "Matching Factors",
+      "prompt": "“Globally, Antarctica’s enormous size and 19 __________ influence the climate.”",
+      "translation": "在全球層面，Antarctica 的巨大規模和 __________ 會影響氣候。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As we enter the 21st century, our perception of Antarctica has changed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入 21 世紀後，我們對南極的看法已經改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientific research during the past half century has revealed—and continues to reveal—that Antarctica’s great mass and low temperature exert a major influence on climate and ocean circulation, factors which influence the lives of millions of people all over the globe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去半世紀的科學研究已經揭示，並仍在繼續揭示，南極的巨大質量和低溫會對氣候和海洋循環產生重大影響，而這些因素會影響全球數以百萬計的人。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “enormous size” 和 “influence the climate”。原文對應 “great mass” 和 “exert a major influence on climate”。空格應該找與 great mass 並列的另一個因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文句子中並列的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctica’s great mass and low temperature”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "南極的巨大質量和低溫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “great mass” 改寫成 “enormous size”，把 “low temperature” 簡化成選項 D “temperature”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "enormous size = great mass temperature = low temperature influence the climate = exert a major influence on climate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — Antarctic Circumpolar Current (ACC)",
+      "answerKey": "A — Antarctic Circumpolar Current (ACC)",
+      "type": "Matching Factors",
+      "prompt": "“The 20 __________ circulates under the influence of winds blowing from the west.”",
+      "translation": "__________ 在西風影響下流動循環。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctica was not always cold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "南極並非一直都寒冷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The icy blast that howls over the ice cap and out to sea—the so-called katabatic wind—can reach 300 km/h, creating fearsome wind-chill effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那股在冰蓋上呼嘯並吹向海洋的冰冷強風，也就是 katabatic wind，可達每小時 300 公里，造成可怕的風寒效應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 似乎講南極變冷過程和風。但題目有 “winds blowing from the west”，應該掃描中段有 current 和 westerly winds 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “winds blowing from the west”。原文對應 “prevailing westerly winds”。與它同一句出現的主體是 Antarctic Circumpolar Current (ACC)。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The slow break-up of the supercontinent Gondwana with the northward movements of Africa, South America, India and Australia eventually created enough space around Antarctica for the development of an Antarctic Circumpolar Current (ACC), which flowed from west to east under the influence of the prevailing westerly winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超大陸 Gondwana 的緩慢分裂，加上 Africa、South America、India 和 Australia 向北移動，最終在南極周圍創造了足夠空間，使 Antarctic Circumpolar Current，即 ACC，得以形成；它在盛行西風影響下由西向東流動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “circulates under the influence of winds blowing from the west” 對應原文 “flowed from west to east under the influence of the prevailing westerly winds”。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C — rainfall",
+      "answerKey": "C — rainfall",
+      "type": "Matching Factors",
+      "prompt": "“Ocean temperature and an index based on air pressure can help predict 21 __________ in Australia.”",
+      "translation": "海洋溫度和以氣壓為基礎的指數，可以幫助預測澳洲的 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Out of this extreme environment come some powerful forces that reverberate around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些會在全球產生迴響的強大力量，來自這個極端環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“CSIRO is developing this as a prototype forecasting system, but we can confidently predict that as we know more about the Antarctic and Southern Ocean we will be able to enhance and extend our predictive ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "CSIRO 正在把這個發展成一套原型預測系統；隨著我們更了解南極和南大洋，我們將能提升並擴展預測能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Ocean temperature”、“air pressure index”、“Australia”。原文直接有 “temperature of the ocean”、“predictor of rainfall in Australia” 和 “pressure difference between Darwin and Tahiti—the Southern Oscillation Index”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent work is showing that the temperature of the ocean may be a better predictor of rainfall in Australia than is the pressure difference between Darwin and Tahiti—the Southern Oscillation Index.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期研究顯示，海洋溫度或許比 Darwin 和 Tahiti 之間的氣壓差，也就是 Southern Oscillation Index，更能預測澳洲降雨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “an index based on air pressure” 對應 “pressure difference between Darwin and Tahiti—the Southern Oscillation Index”。這兩項都用來 predict rainfall in Australia。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — emphasise the significance of Antarctica to the global climate and ocean currents.",
+      "answerKey": "C — emphasise the significance of Antarctica to the global climate and ocean currents.",
+      "type": "Multiple Choice",
+      "prompt": "“In paragraph B, the writer intends to…”",
+      "translation": "在 Paragraph B 中，作者的意圖是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As we enter the 21st century, our perception of Antarctica has changed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入 21 世紀後，我們對南極的看法已經改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientific research during the past half century has revealed—and continues to reveal—that Antarctica’s great mass and low temperature exert a major influence on climate and ocean circulation, factors which influence the lives of millions of people all over the globe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去半世紀的科學研究已經揭示，並仍在繼續揭示，南極的巨大質量和低溫會對氣候和海洋循環產生重大影響，而這些因素會影響全球數以百萬計的人。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 writer intends to，所以要找段落功能，不是單一細節。Paragraph B 重複出現 “integral part of Planet Earth”、“key component in the Earth System”、“major influence on climate and ocean circulation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文中段說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the continent and its surrounding ocean are increasingly seen to be an integral part of Planet Earth, and a key component in the Earth System.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這片大陸及其周邊海洋越來越被視為地球不可分割的一部分，也是 Earth System 的關鍵組成部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與最後一句一起，明確指出 Paragraph B 的目的：改變舊有觀感，強調 Antarctica 對全球climate 和 ocean circulation 的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 正確，因為它完整概括本段主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 提到 media discussions of global warming，但 Paragraph B 只短暫提到 TV and tourism 令世界看起來變小，沒有說全球暖化媒體討論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 講 sea ice supply food，這是 Paragraph E 的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 Antarctica 位於 Earth 中心，原文的 “central spot on Earth’s mantle” 是問句中的思考方向，段落真正落點在 Earth System 影響，不是地理中心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — It can help them reduce economic losses.",
+      "answerKey": "A — It can help them reduce economic losses.",
+      "type": "Multiple Choice",
+      "prompt": "“Why should Australian farmers monitor the temperature of the Southern Ocean?”",
+      "translation": "為甚麼澳洲農民應該留意 Southern Ocean 的溫度？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Out of this extreme environment come some powerful forces that reverberate around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些會在全球產生迴響的強大力量，來自這個極端環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“CSIRO is developing this as a prototype forecasting system, but we can confidently predict that as we know more about the Antarctic and Southern Ocean we will be able to enhance and extend our predictive ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "CSIRO 正在把這個發展成一套原型預測系統；隨著我們更了解南極和南大洋，我們將能提升並擴展預測能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Australian farmers”、“temperature of the Southern Ocean”。原文用 “temperature of the ocean” 和 “graziers in northern Queensland”。graziers 是牧場經營者，屬於農業／畜牧業人士。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By receiving more accurate predictions, graziers in northern Queensland are able to avoid overstocking in years when rainfall will be poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過得到更準確的預測，北昆士蘭的牧場經營者能夠在降雨不足的年份避免過度飼養或放牧。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only does this limit their losses, but it also prevents serious pasture degradation that may take decades to repair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不但限制他們的損失，也防止嚴重的牧場退化；這種退化可能需要數十年才能修復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A，因為 monitor ocean temperature → improve rainfall prediction → avoid overstocking→ limit losses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說讓已受損 grassland recover，原文說 prevent pasture degradation，不是讓受損草地恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說防止 livestock dying，原文沒有提到牲畜死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 astronauts view 來自段落前半 visual image，與農民監測海溫的原因無關。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — because reduced sea ice makes their food source less productive.",
+      "answerKey": "C — because reduced sea ice makes their food source less productive.",
+      "type": "Multiple Choice",
+      "prompt": "“Why may whale and seabird numbers decline?”",
+      "translation": "為甚麼 whale 和 seabird 數量可能下降？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ocean’s surface temperature results from the interplay between deep-water temperature, air temperature and ice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋表面溫度來自深水溫度、空氣溫度和冰之間的互動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many species of baleen whales and flighted seabirds migrate between the hemispheres and when the krill are less abundant they do not thrive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 baleen whales 和會飛的 seabirds 在兩個半球之間遷徙；當 krill 較少時，牠們便不能興旺生長。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “whale”、“seabird”、“decline”。原文沒有 decline，但有 “do not thrive”。要再找原因，便回到前一句 krill 和 sea ice 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctic krill—the small shrimp-like crustaceans that are the staple diet for baleen whales, penguins, some seals, flighted seabirds and many fish—breed well in years when sea ice is extensive and poorly when it is not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antarctic krill 是 baleen whales、penguins、一些 seals、會飛的 seabirds 和許多 fish 的主要食物；在 sea ice 廣闊的年份，牠們繁殖良好；海冰不廣時，牠們繁殖較差。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“when the krill are less abundant they do not thrive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 krill 較少時，牠們便不能興旺生長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 正確：reduced sea ice 對應 “when sea ice is … not extensive”；food source less productive 對應 krill breed poorly / less abundant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A killer-whale activity 沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B seabird migration 和 salinity 的關係沒有建立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D seals fail to reproduce 與題目 whales / seabirds 不合，也沒有原文支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — They increase the salinity of surface water.",
+      "answerKey": "B — They increase the salinity of surface water.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the ultimate effect of the katabatic winds described in paragraph F?”",
+      "translation": "Paragraph F 所描述的 katabatic winds 最終造成甚麼效果？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The circulatory system of the world’s oceans is like a huge conveyor belt, moving water and dissolved minerals and nutrients from one hemisphere to the other, and from the ocean’s abyssal depths to the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界海洋循環系統像一條巨大輸送帶，把水、溶解礦物和營養物由一個半球帶到另一個半球，也從深海帶到表層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The state of the northern oceans, and their biological productivity, owes much to what happens in the Antarctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北方海洋的狀態及其生物生產力，很大程度取決於南極發生的事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講南極過程如何影響全球海洋。題目特別限制 paragraph F，所以不能用 Paragraph D 的 mountainous seas 作答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “katabatic winds”。Paragraph F 中的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“During winter, the howling katabatic winds sometimes scour the ice off patches of the sea’s surface…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During winter, the howling katabatic winds sometimes scour the ice off patches of the sea’s surface leaving large ice-locked lagoons, or ‘polynyas’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬季時，呼嘯的 katabatic winds 有時會把海面部分區域的冰刮走，留下大型被冰封鎖的潟湖，即polynyas。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since only fresh water freezes into ice, the water that remains becomes increasingly salty and dense, sinking until it spills over the continental shelf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於只有淡水會結冰，留下的海水會變得越來越鹹、越來越密，然後下沉，直到越過大陸棚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。風先刮走新形成的淡水冰，結果留下的 surface water 變得更鹹、更密。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A current speed 沒有被說成 katabatic winds 的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 只捕捉到 fresh sea ice may be blown away，但題目問 ultimate effect，段落真正推進到salinity and density。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D mountainous seas 出現在 Paragraph D，由 low-pressure cells whipping up the Southern Ocean 帶出，並非 Paragraph F 的 katabatic winds 結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — An increase in the water’s salinity and density",
+      "answerKey": "A — An increase in the water’s salinity and density",
+      "type": "Multiple Choice",
+      "prompt": "“What causes Antarctic water to move beyond the continental shelf?”",
+      "translation": "甚麼原因令 Antarctic water 越過大陸棚移動？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The circulatory system of the world’s oceans is like a huge conveyor belt, moving water and dissolved minerals and nutrients from one hemisphere to the other, and from the ocean’s abyssal depths to the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界海洋循環系統像一條巨大輸送帶，把水、溶解礦物和營養物從一個半球帶到另一個半球，也從深海帶到表層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The state of the northern oceans, and their biological productivity, owes much to what happens in the Antarctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北方海洋的狀態及其生物生產力，很大程度取決於南極發生的事情。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “continental shelf”。原文直接出現 “spills over the continental shelf”，前面就是原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since only fresh water freezes into ice, the water that remains becomes increasingly salty and dense, sinking until it spills over the continental shelf.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於只有淡水會結冰，留下來的海水變得越來越鹹、越來越密，然後下沉，直到越過大陸棚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 causes，原文原因是 water becomes increasingly salty and dense。選項 A “An increase in the water’s salinity and density” 完整對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 salt and density 下降，與原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C global warming 沒有在這題相關句出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D melting fresh ice 也不合；原文說 fresh water freezes into ice，留下的海水變鹹變密，並非因fresh ice melting。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Antarctica – in from the cold_.pdf",
+    "sha256": "c09cdbec78c2e058bdcd80d47ce0933249296f251d2406ef28f83a814a973ea5",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 Scott、Shackleton 和 Mawson 等早期探險者放在 Antarctica 的 blizzards、cold 和deprivation 中；尾句說當時的南極看來和日常現實隔絕，對任何人都沒有明顯價值。只看首尾句，可以估計本段講舊時南極形象：遙遠、艱苦、荒涼、孤立，只屬於最勇敢的人，也像一個被世界遺忘、看不出實用價值的地方。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出進入 21 世紀後，人們對 Antarctica 的看法已改變；尾句說過去半世紀科學研究顯示南極巨大質量和低溫會強烈影響 climate 和 ocean circulation。只看首尾句，可以估計本段是全文觀點轉折：南極仍然遙遠艱苦，但已被視為 Earth System 的重要部分，與全球氣候、海洋流動和人類生活有密切關係。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Antarctica 並非一直寒冷；尾句說 katabatic wind 可達 300 km/h，造成可怕的 wind-chill effects。只看首尾句，可以估計本段講南極如何變成今天極寒大陸。中間會解釋 Gondwana 分裂、Antarctic Circumpolar Current 形成、植被消失、冰川開始，以及今日冰層厚度、極端低溫和強烈下坡風。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說南極極端環境產生一些會在全球迴響的 powerful forces；尾句說隨著對 Antarctica 和Southern Ocean 認識增加，人類的預測能力會提升和延伸。只看首尾句，可以估計本段講南極如何影響天氣系統與預測。中間有 Southern Ocean、rainfall in Australia、graziers in northern Queensland、overstocking、pasture degradation 和 CSIRO prototype forecasting system。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說海洋表面溫度來自 deep-water temperature、air temperature 和 ice 的互動；尾句說當 krill變少時，跨半球遷徙的 whales 和 seabirds 便不能 thriving。只看首尾句，可以估計本段講 sea ice 對天氣和食物鏈的影響。中間會提到 sea ice extent、Antarctic krill、baleen whales、penguins、seals、flighted seabirds 和 fish。"
+      },
+      {
+        "number": "F",
+        "summary": "首句把世界海洋循環比作巨大 conveyor belt，運送水、礦物和營養物；尾句說北方海洋狀態和生物生產力很大程度取決於 Antarctic 發生的事。只看首尾句，可以估計本段講全球 ocean circulation。中間會解釋 ACC、thermohaline circulation、polynyas、fresh sea ice、salty dense water sinking，以及冷水如何 reoxygenates and revitalises ocean。"
+      }
+    ]
+  }
+}

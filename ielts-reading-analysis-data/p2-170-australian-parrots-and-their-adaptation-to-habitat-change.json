@@ -1,0 +1,1304 @@
+{
+  "id": "p2-170-australian-parrots-and-their-adaptation-to-habitat-change",
+  "catalogueId": "p2-170",
+  "catalogueIds": [
+    "p2-170"
+  ],
+  "passage": 2,
+  "title": "Australian parrots and their adaptation to habitat change",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "I",
+    "F",
+    "G",
+    "D",
+    "C",
+    "H",
+    "C",
+    "D",
+    "B",
+    "one-sixth",
+    "sixteenth century",
+    "Mercator",
+    "John Gould"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“An example of one parrot species surviving at the expense of another”",
+      "translation": "一種鸚鵡以另一種鸚鵡受損為代價而成功生存或擴張的例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New conditions sometimes favour an incoming species over one that originally inhabited the area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的環境有時會使新進入的物種比原本棲息在該地的物種更有利。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their success precipitated a partial collapse in the black-cockatoo population when the latter lost the struggle for scarce nesting hollows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當黑鳳頭鸚鵡在稀少樹洞的競爭中落敗時，galahs 的成功導致黑鳳頭鸚鵡數量部分崩潰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的強定位概念是 “at the expense of another”。原文未必逐字重複，但可以掃描 favour、incoming species、destroyed eggs、occupy the holes、partial collapse 等概念。Paragraph I 的首尾句已經同時出現「新進物種受益」和「原有物種崩潰」，所以值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They soon entered nesting holes and destroyed black-cockatoo eggs so that they could occupy the holes themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們很快進入築巢洞，破壞黑鳳頭鸚鵡的蛋，以便自己佔用那些洞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "one parrot species surviving at the expense of another= galahs colonised the island, destroyed black-cockatoo eggs, and occupied their nesting holes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也提到 galahs 擴張，但 G 只說牠們受益於 grasslands。Question 15 要求「一個物種令另一物種受損」；真正有 eggs destroyed 和 black-cockatoo collapse 的位置是 Paragraph I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“A description of how plants may adapt to attract birds”",
+      "translation": "植物如何適應以吸引鳥類的描述。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Differently shaped beaks are not the only adaptations produced during the developing relationship between parrots and their food plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在鸚鵡和牠們食用植物的發展關係中，不同形狀的喙並非唯一產生的適應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, red is particularly attractive to birds, so flowers that depend on birds for pollination are often red, while lorikeets’ tongues have bristles that help them collect as much pollen as possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，紅色對鳥類特別有吸引力，所以依靠鳥類授粉的花朵通常是紅色；同時，lorikeets 的舌頭有刷毛，幫助牠們盡量收集花粉。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是 plants、adapt、attract birds。Paragraph F 中有 flowers、shape、colour、red、pollination，全部都在同一語義場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Features such as the flowers’ shape and colour have adapted to the birds’ needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "花朵的形狀和顏色等特徵，已經適應了鳥類的需要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plants may adapt to attract birds= flowers’ shape and colour have adapted; red is particularly attractive to birds"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講 beaks 如何適應食物，焦點在鳥類身體結構。Question 16 問 plants 如何吸引birds，焦點轉到 flowers，因此 Paragraph F 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Examples of two parrot species that benefited from environmental change”",
+      "translation": "兩種因環境改變而受益的鸚鵡例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, most Australian parrots inhabit woodland and open forest, and their numbers decline towards both deserts and wetter areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日，大多數澳洲鸚鵡棲息於林地和開闊森林；越接近沙漠和較濕地區，數量越少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are among the species that have adapted well to changes brought about by European settlement: forest felling created grasslands where galahs and corellas thrive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們屬於能夠很好適應歐洲殖民帶來變化的物種；森林砍伐創造了草地，而 galahs 和 corellas在那裡繁盛。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要找 two species 和 benefited from environmental change。Paragraph G 直接列出 “galah”和 “corella”，並說牠們 expanded their ranges。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two dry-country parrots—the pink-and-grey galah and the pink, white and yellow corella—have expanded their ranges in recent years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩種乾旱地區鸚鵡——粉灰色的 galah 和粉、白、黃色的 corella——近年已擴大分布範圍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "benefited from environmental change= adapted well to changes brought about by European settlement= forest felling created grasslands where they thrive"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 也提到 galahs，但那裡重點是 galahs 對 black-cockatoos 的破壞。Question 17 只問兩個受益物種，Paragraph G 的 galah + corella 最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“How Australia’s varied landscape produced a great variety of parrot species”",
+      "translation": "澳洲多變的地貌或棲息環境如何造成大量不同鸚鵡物種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The creatures that remained in those shrinking rainforests had to adapt to drier conditions or face extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留在那些縮小雨林中的生物必須適應較乾燥的環境，否則便面臨滅絕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, they diversified into a wide range of species whose adaptations reflect the many changes animals and plants had to make to survive in these areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，牠們分化成多種物種；牠們的適應反映了動植物為了在這些地區生存而必須作出的許多改變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 varied landscape 會在原文中以 rainforests、eucalypt woodlands、central deserts、harshest environments 等具體地貌出現。great variety of species 對應 diversified into a wide range of species。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parrots spread from ancestral forests through eucalypt woodlands to colonise the central deserts of Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鸚鵡從祖先森林出發，穿過桉樹林地，並殖居澳洲中部沙漠。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "varied landscape= ancestral forests, eucalypt woodlands, central deserts produced a great variety= diversified into a wide range of species"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 講地質和氣候背景，但它主要解釋 Gondwana 和雨林退縮。Paragraph D 才把地貌變化、適應壓力和物種多樣化直接連起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A reason why most parrot species are native to the Southern Hemisphere”",
+      "translation": "為甚麼多數鸚鵡物種原生於南半球的一個原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parrots descend from an ancient line.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鸚鵡源自一條古老的演化譜系。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The centre of Australia had begun to dry out, and the rainforests that once covered it gradually contracted to the continental margins, where they still exist to a limited extent today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲中部開始變乾，曾經覆蓋那裡的雨林逐漸退縮到大陸邊緣；今日仍有有限範圍存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Southern Hemisphere 對應原文的 Africa, Australia and South America，以及 ancient southern continent of Gondwana。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given their great diversity and the fact that most species inhabit Africa, Australia and South America, it seems almost certain that parrots originated millions of years ago on the ancient southern continent of Gondwana, before it broke up into the separate Southern Hemisphere continents we know today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到鸚鵡的高度多樣性，以及多數物種棲息於非洲、澳洲和南美洲，幾乎可以肯定鸚鵡數百萬年前起源於古老的南方大陸 Gondwana；後來它分裂成今日我們所知的各個南半球大陸。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "native to the Southern Hemisphere= originated on Gondwana before it broke up into separate Southern Hemisphere continents"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 只說鸚鵡分布於南半球大陸，屬於現象描述。Question 19 要 reason，真正解釋來自 Paragraph C 的 Gondwana origin。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“An example of a parrot species that did not survive changes to its habitat”",
+      "translation": "一種未能在棲息地改變後存活下來的鸚鵡例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other parrot species did not fare so well when their environments were altered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當環境被改變時，其他鸚鵡物種的情況並不好。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even some species that initially benefited from forest clearing now face a shortage of nesting sites because of further human-made changes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至一些最初因森林砍伐而受益的物種，現在也因進一步的人為改變而面對築巢地點短缺。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 did not survive 對應 did not fare so well、disappearance、declined、habitat destroyed。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The clearing of large areas of rainforest is probably responsible for the disappearance of the double-eyed fig parrot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大面積雨林清除很可能是 double-eyed fig parrot 消失的原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "did not survive changes to its habitat= disappearance caused by clearing of large areas of rainforest"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段也提到 ground-parrot numbers declined。declined 是數量下降；Question 20 要 did not survive，disappearance of the double-eyed fig parrot 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C — had ancestors on a continent that later split apart.",
+      "answerKey": "C — had ancestors on a continent that later split apart.",
+      "type": "Multiple Choice",
+      "prompt": "“The writer believes that most parrot species…”",
+      "translation": "作者認為大多數鸚鵡物種……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。首句 “Parrots descend from an ancient line” 指向古老起源；段落中段直接談 Gondwana，這是答案核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 ancestors / origin / continent / split apart 對應原文 “originated … on the ancient southern continent of Gondwana” 和 “before it broke up”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“it seems almost certain that parrots originated millions of years ago on the ancient southern continent of Gondwana, before it broke up into the separate Southern Hemisphere continents we know today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎可以肯定，鸚鵡數百萬年前起源於古老的南方大陸 Gondwana；在它分裂成今日各個南半球大陸之前，鸚鵡已經在那裡起源。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說牠們從非洲和南美洲移到澳洲。原文沒有這條遷移路線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說祖先在非洲、澳洲或南美洲其中一處。原文重點是共同古大陸 Gondwana。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。a continent that later split apart = Gondwana before it broke up。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說那個大陸現在被水覆蓋。原文沒有這項資料。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Africa, Australia and South America 在原文中出現，學生可能被 B 吸引。但這三地是今日分布；真正的起源答案是 Gondwana。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D — They are specially adapted to suit the birds’ diets.",
+      "answerKey": "D — They are specially adapted to suit the birds’ diets.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the writer say about parrots’ beaks?”",
+      "translation": "作者對鸚鵡的喙有甚麼說法？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。首句講 evolutionary pressures 如何把 keratin mould into a range of tools；末句用 broad, strong beaks crack hard seeds 作例子。段落主題明顯是 beaks and food。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 beaks。原文中有 beaks、food、extracting seeds、crack hard seeds。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size of a parrot’s short, blunt beak and the length of its curved upper section are related to the food the species eats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鸚鵡短而鈍的喙的大小，以及彎曲上喙部分的長度，都與該物種所吃的食物有關。"
+            },
+            {
+              "kind": "label",
+              "text": "後文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some have comparatively long beaks that are perfect for extracting seeds from fruit; others have broader, stronger beaks designed to crack hard seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些鸚鵡有較長的喙，非常適合從果實中取出種子；另一些有較寬、較強壯的喙，用來咬開堅硬種子。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說鸚鵡喙比其他鳥類長。原文沒有作出這種比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說喙由獨特材料構成。原文提到 keratin，但沒有說 unique。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說鸚鵡喙比其他物種使用得更有效率。原文沒有比較 efficiency。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。喙的大小和形狀與食物種類有關。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "keratin 很容易吸引注意，但題目問 writer says about beaks 的核心。真正定案的短語是 “related to the food the species eats”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B — They need to be maintained.",
+      "answerKey": "B — They need to be maintained.",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following is NOT mentioned as a disadvantage of nesting boxes?”",
+      "translation": "以下哪一項沒有被提及為巢箱的缺點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph J。首句說可能沒有最終答案能平衡鸚鵡物種；末句說人類既是危險競爭者，也有能力維持多樣性。這段是保育措施與限制的總結段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 nesting boxes / nest-box programmes。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nest-box programmes help ease the shortage of nesting sites in some places, but there are too few of them; they are expensive and no adequate substitute for large, old trees, which provide both habitat and nectar, pollen and seeds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "巢箱計劃在某些地方有助緩解築巢地點短缺，但數量太少；它們昂貴，且不能充分替代大型老樹，因為老樹同時提供棲息地以及花蜜、花粉和種子。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A They are too expensive.有提及：they are expensive。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B They need to be maintained.沒有提及。原文沒有說 maintenance、repair、regular care 或 upkeep。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They provide shelter but not food.有提及。原文說老樹提供 habitat 和 nectar, pollen and seeds；巢箱不能充分替代老樹，表示巢箱最多只舒緩 nesting sites，不能提供完整食物資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D There are too few of them.有提及：there are too few of them。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 NOT mentioned，所以不能選原文有明確支持的 A、C、D。B 聽起來像巢箱的合理問題，但文章沒有這樣說。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "one-sixth",
+      "answerKey": "one-sixth",
+      "type": "Summary Completion",
+      "prompt": "“There are 345 parrot species in existence and, of these, 24 ______ live in Australia.”",
+      "translation": "現存有 345 種鸚鵡，其中 ______ 生活在澳洲。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。這段介紹澳洲鸚鵡多樣性和全球比例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "345 是最強定位數字。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One-sixth of the world’s 345 parrot species are found there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球 345 種鸚鵡中，有六分之一在那裡被發現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “of these”，後面是 “live in Australia”，所以需要一個比例或數量短語。one-sixth 符合NO MORE THAN TWO WORDS AND/OR A NUMBER，也符合原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "sixteenth century",
+      "answerKey": "sixteenth century",
+      "type": "Summary Completion",
+      "prompt": "“As early as the 25 ______, the mapmaker 26 ______ recognised that parrots lived in this part of the world.”",
+      "translation": "早在 ______，地圖製作者 ______ 已認出鸚鵡生活在世界這一部分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。這段講歐洲人很早把澳洲附近稱為鸚鵡之地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mapmaker 對應 cartographer；recognised that parrots lived here 對應 Terra Psittacorum—the Land of Parrots。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the sixteenth century, the German cartographer Mercator made a world map that included a place near present-day Australia which he named Terra Psittacorum—the Land of Parrots…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十六世紀，德國製圖師 Mercator 製作了一幅世界地圖，其中包括一個接近今日澳洲的地方，他把那裡命名為 Terra Psittacorum——鸚鵡之地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格 25 在 “the” 後面，所以答案填 sixteenth century，不需要加 the。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "Mercator",
+      "answerKey": "Mercator",
+      "type": "Summary Completion",
+      "prompt": "“the mapmaker 26 ______ recognised that parrots lived in this part of the world.”",
+      "translation": "地圖製作者 ______ 認出鸚鵡生活在世界這一部分。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "mapmaker = cartographer。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the German cartographer Mercator…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國製圖師 Mercator……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要人名。Mercator 是一個名字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "German 是國籍，不是人名；cartographer 是職業，不是答案。真正答案是 Mercator。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "John Gould",
+      "answerKey": "John Gould",
+      "type": "Summary Completion",
+      "prompt": "“27 ______, the famous painter of animals and birds, commented on the number and beauty of Australian parrots.”",
+      "translation": "著名動物和鳥類畫家 ______ 評論了澳洲鸚鵡的數量和美麗。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。前半講 Mercator；後半講 John Gould 的評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "famous painter of animals and birds 對應 “celebrated British naturalist and wildlife artist”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1865, the celebrated British naturalist and wildlife artist John Gould said, ‘No group of birds gives Australia so tropical and benign an air as the numerous species of this great family by which it is tenanted.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1865 年，著名英國自然學家兼野生動物藝術家 John Gould 說，沒有哪一類鳥比這個大家族的眾多物種更能賦予澳洲熱帶而溫和的氣息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：空格需要人名；John Gould 剛好兩個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Australian parrots and their adaptation to habitat change.pdf",
+    "sha256": "2e8c1c56aaf0c64d35474fad081f7e664f97dfd5284bcf00c2229b338805bbea",
+    "pageCount": 15
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–J",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把鸚鵡的全球分布放在熱帶與南半球背景；末句收束到澳洲，指出全球 345 種鸚鵡中有六分之一在澳洲。只看首尾句，讀者可先判斷本段功能是介紹澳洲鸚鵡的整體豐富程度，尤其是diversity and form，並為後文討論多樣化來源鋪路。"
+      },
+      {
+        "number": "B",
+        "summary": "首句引入十六世紀 Mercator 的地圖和 Terra Psittacorum；末句引用 John Gould 對澳洲鸚鵡的讚美。只看首尾句，這段明顯是歷史名聲段：歐洲人很早已把澳洲附近和鸚鵡聯繫起來。Mercator、sixteenth century、John Gould 都是強定位詞，特別適合 summary completion。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說鸚鵡來自古老譜系；末句講澳洲中部變乾、雨林退縮到大陸邊緣。只看首尾句，段落功能會被看作演化與地理背景：鸚鵡可能起源於 Gondwana，後來大陸分裂及氣候改變令棲息地改變。這段特別適合找 origin、Southern Hemisphere、Gondwana、broke up 等答案。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說留在縮小雨林中的生物必須適應乾燥環境或面臨滅絕；末句說鸚鵡因此分化成不同物種，適應反映動植物為生存作出的改變。只看首尾句，這段功能是解釋 habitat change 如何推動parrot diversification，尤其適合處理「多樣景觀產生多樣物種」的題目。"
+      },
+      {
+        "number": "E",
+        "summary": "首句把 evolutionary pressures 和 keratin、beaks 連起來；末句用 broader, stronger beaks crack hard seeds 作例子。只看首尾句，這段功能是解釋鸚鵡喙形如何因食物而演化。若題目問 beaks、diet、food types、tools、hard seeds，Paragraph E 就是優先目標段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說不同喙形並非唯一適應，還有鸚鵡與食用植物之間的發展關係；末句用紅花吸引鳥類、lorikeets 舌頭有刷毛收集花粉作例子。只看首尾句，這段功能是處理 bird–plant co-evolution，尤其是植物如何用顏色和形狀吸引授粉鳥類。"
+      },
+      {
+        "number": "G",
+        "summary": "首句交代今日多數澳洲鸚鵡住在 woodland and open forest，沙漠和濕地數量較少；末句說European settlement 後森林砍伐製造 grasslands，令 galahs 和 corellas thriving。只看首尾句，這段功能是描述現代分布和人類改變下的受益物種。"
+      },
+      {
+        "number": "H",
+        "summary": "首句直接轉向 other parrot species did not fare so well；末句說即使某些初期受益的物種，後來也面對 nesting sites shortage。只看首尾句，這段功能是展示 habitat alteration 的負面後果，包括rainforest clearing、swamp draining、nesting-site shortage。disappearance、declined、destroyed都是定位信號。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說新環境有時會令 incoming species 勝過原本棲息的物種；末句說 galahs 的成功導致black-cockatoo population partial collapse。只看首尾句，這段功能非常清楚：人類改變環境後，一個物種可能乘勢擴張，並令另一物種受損。這段特別適合找 competition、at the expense of another species。"
+      },
+      {
+        "number": "J",
+        "summary": "首句提出可能沒有最終方法能確保鸚鵡物種之間的公平平衡；末句說人類是鸚鵡最危險的競爭者，但也有知識和能力維持多樣性。只看首尾句，這段功能是保育總結：nest-box programmes 有幫助但有限，真正問題來自人類改變環境和競爭加劇。"
+      }
+    ]
+  }
+}

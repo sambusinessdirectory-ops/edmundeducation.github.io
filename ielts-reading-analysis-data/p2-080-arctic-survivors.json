@@ -1,0 +1,1885 @@
+{
+  "id": "p2-080-arctic-survivors",
+  "catalogueId": "p2-080",
+  "catalogueIds": [
+    "p2-080"
+  ],
+  "passage": 2,
+  "title": "Arctic Survivors",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "D",
+    "A",
+    "C",
+    "C",
+    "A",
+    "B",
+    "tolerance",
+    "processes",
+    "fur",
+    "preserver",
+    "conductor",
+    "metabolic"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A — can withstand extremely difficult living conditions.",
+      "answerKey": "A — can withstand extremely difficult living conditions.",
+      "type": "Multiple Choice",
+      "prompt": "“Animals that live in the Arctic…”",
+      "translation": "生活在 Arctic 的動物……選項： A can withstand extremely difficult living conditions.能承受極端艱難的生存環境。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B often freeze solid during winter.冬天經常完全凍僵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C are mainly reptilian.主要是爬蟲類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D are mostly frogs or toads.大多是青蛙或蟾蜍。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A thick blanket of snow lies several feet deep all over the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "厚厚一層雪覆蓋整片地面，深達數英尺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And yet there are animals here, animals that exhibit a remarkable tolerance of the most inhospitable conditions on the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是這裡仍有動物存在，牠們對地球上最不適合居住的環境展現出驚人的承受能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 的功能：它先描寫 Arctic winter 的嚴酷，再指出少數動物能在這種環境中生存。題目問 Arctic animals 的特點，最後一句已經直接指向答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Animals that live in the Arctic”。原文對應 “there are animals here”。再看選項 A 的 “withstand extremely difficult living conditions”，原文有 “remarkable tolerance” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most inhospitable conditions”。這些詞在意思上非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“And yet there are animals here, animals that exhibit a remarkable tolerance of the most inhospitable conditions on the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是這裡仍有動物存在，牠們對地球上最不適合居住的環境展現出驚人的承受能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “animals here”，即 Arctic 中能生存的動物。核心動詞是 “exhibit”，表示展現。真正決定答案的是 “remarkable tolerance”，即很強的忍受能力。 “the most inhospitable conditions” 則表示極端惡劣、不利生命的環境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "can withstand = exhibit a remarkable tolerance of extremely difficult living conditions = the most inhospitable conditions on the planet animals that live in the Arctic = animals here選項判斷： A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 把 amphibians 的情況放到 Arctic animals 身上。原文說 “Amphibians would freeze solid here”，意思是兩棲類會凍僵，所以牠們難以在這裡生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 和 D 也不合，因為原文接著說 reptiles 不能承受極寒，frogs 和 toads 屬於 amphibians，也不符合 Arctic survivors 的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “remarkable tolerance”。題目問能在 Arctic 生存的動物，所以要看哪些動物能承受環境，而非看哪些動物會被環境淘汰。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "D — about 50 cm below the surface of the snow.",
+      "answerKey": "D — about 50 cm below the surface of the snow.",
+      "type": "Multiple Choice",
+      "prompt": "“Where do lemmings live?”",
+      "translation": "lemmings 住在哪裡？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A on the surface of the snow.在雪的表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B in tunnels built under the frozen ocean.在冰封海洋下建造的隧道中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C in wide tunnels deep underground.在地下深處的寬大隧道中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D about 50 cm below the surface of the snow.在雪面下約 50 厘米的位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less than half a metre beneath the surface of the snow, a furry white creature, no bigger than a hamster, scurries along a tunnel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雪面下不到半米的位置，一隻毛茸茸的白色小動物，大小不超過一隻 hamster，沿著隧道快速移動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur is the life preserver of the Arctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毛皮是 Arctic 的生命保護器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段以 lemming 作例子，說明牠住在雪層下的 tunnel 中，並引出 fur 對保溫的重要性。題目直接問 lemmings live where，所以第一句就是最強定位句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “lemmings” 和 “where”。原文第一句先描述 “a furry white creature”，下一句說 “It is a collared lemming”。因此第一句中的位置，就是 lemming 的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "原文位置短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less than half a metre beneath the surface of the snow”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接對應 D 的 “about 50 cm below the surface of the snow”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less than half a metre beneath the surface of the snow, a furry white creature, no bigger than a hamster, scurries along a tunnel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雪面下不到半米的位置，一隻毛茸茸的白色小動物，大小不超過 hamster，沿著隧道快速移動。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a collared lemming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠是一隻 collared lemming。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句需要連在一起看。第一句先說有一隻小動物在雪面下不到半米處的 tunnel 中移動，第二句才揭示牠是 collared lemming。所以 lemming 的生活位置是 snow surface below less than half a metre。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less than half a metre = about 50 cm beneath = below surface of the snow = surface of the snow tunnel = passage inside the snow field選項判斷： D 正確。雖然原文說 “less than half a metre”，D 用 “about 50 cm” 作近似表達，是四個選項中唯一接近原文的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯在 surface；原文是 beneath the surface。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在 frozen ocean；原文說 snow，不是 ocean。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 deep underground；原文是雪面下不到半米，沒有 deep underground。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是 tunnel。看到 tunnel 有些學生會想到 underground，但原文的 tunnel 位於 snow field 之內，位置很淺，不能自行改成地下深處。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — thick layers of hair.",
+      "answerKey": "A — thick layers of hair.",
+      "type": "Multiple Choice",
+      "prompt": "“Fur is…”",
+      "translation": "Fur 是……選項： A thick layers of hair.厚厚的毛髮層。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B common to all animal classes.所有動物類別都有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C unhelpful to Arctic animals.對 Arctic animals 沒有幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D the life preserver only for small Arctic mammals.只是小型 Arctic mammals 的生命保護器。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only one class of animals has fur – the mammals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有一類動物有 fur，那就是 mammals。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without it, wolves, lemmings and arctic foxes alike would surely perish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 fur 的話，wolves、lemmings 和 arctic foxes 都肯定會死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 4 專門說 fur 屬於哪類動物，以及它對 Arctic mammals 的生死意義。題目問 Fur is，最自然要在這段尋找定義句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Fur is”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur comprises dense layers of hair.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是定義句。IELTS 中遇到 “X is…” 題目，原文常用 “X comprises / consists of / is composed of…” 改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur comprises dense layers of hair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fur 由密集的毛髮層組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“comprises” 意思是「由……組成」。 “dense layers of hair” 指密集的毛髮層。選項 A 用 “thick layers of hair”，與 “dense layers of hair” 意思接近。dense 更強調密集，thick 更偏厚，但在這題四個選項中，A 是唯一準確概括 fur 結構的答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fur is = fur comprises thick layers = dense layers hair = hair選項判斷： A 正確。 B 和原文相反，因為原文說 “Only one class of animals has fur – the mammals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 和整段方向相反，因為 fur 給 mammals 生存優勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的範圍太窄。Paragraph 3 說 “Fur is the life preserver of the Arctic”，Paragraph 4 又提 wolves、lemmings、arctic foxes，不限於 small mammals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要分清 “Fur is the life preserver” 是比喻功能；“Fur comprises dense layers of hair” 是結構定義。題目問 Fur is，選項 A 最貼近結構定義。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — It is a bad conductor of heat.",
+      "answerKey": "C — It is a bad conductor of heat.",
+      "type": "Multiple Choice",
+      "prompt": "“Why is trapped air a good insulator?”",
+      "translation": "為甚麼 trapped air 是好的保溫物？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A It is a good conductor of heat.它是良好的熱傳導體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Air helps us to breathe.空氣幫助我們呼吸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C It is a bad conductor of heat.它是不良熱傳導體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D It absorbs heat and cold very well.它很能吸收熱和冷。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The insulation provided by fur comes not from the fur itself, but largely from the layer of air trapped within the fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 提供的保溫效果，主要來自 fur 內困住的空氣層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such effective insulation is only made possible by the layer of trapped air contained within the long, fine and densely packed fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種有效保溫，只能由長、細、密集的 fur 中困住的空氣層實現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 明顯講 trapped air 如何提供 insulation。題目直接問 trapped air 為何能保溫，所以本段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “trapped air” 和 “good insulator”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air is an extremely effective insulator, which is the same as saying it is a poor conductor…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句已經把 “insulator” 和 “conductor” 的關係講清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air is an extremely effective insulator, which is the same as saying it is a poor conductor, i.e. it has a very limited ability to conduct heat away from a warm surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "空氣是一種極有效的保溫物；換句話說，它是 poor conductor，也就是說，它把熱從溫暖表面傳走的能力非常有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯很清楚： good insulator = poor conductor。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 air 很不善於傳導熱量，所以熱不容易從動物皮膚表面流失。這就是 trapped air 保溫的原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "good insulator = extremely effective insulator bad conductor = poor conductor of heat = conduct heat away from a warm surface選項判斷： C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 和原文相反，good conductor 會把熱帶走，保溫效果差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 是常識，但與保溫原理無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 原文沒有說 air absorbs heat and cold；真正原因是 limited ability to conduct heat away。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “poor conductor”。題目問 why，答案要找原因，不可只看到 “air” 就用呼吸常識作答。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C — thirty degrees.",
+      "answerKey": "C — thirty degrees.",
+      "type": "Multiple Choice",
+      "prompt": "“If the temperature at the tip of the fur of an arctic fox is minus ten degrees, the temperature at the surface of the skin will be closer to…”",
+      "translation": "如果 arctic fox 的 fur tip 溫度是零下十度，皮膚表面的溫度會較接近……選項： A forty degrees.四十度。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B ten degrees.十度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C thirty degrees.三十度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D thirty-five degrees.三十五度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The insulation provided by fur comes not from the fur itself, but largely from the layer of air trapped within the fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 的保溫效果主要來自 fur 內困住的空氣層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such effective insulation is only made possible by the layer of trapped air contained within the long, fine and densely packed fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種有效 insulation 由長、細、密集 fur 中的 trapped air 形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可估計本段會提供 fur insulation 的原理和例子。題目問 fur tip 和 skin surface 的溫度差，應在本段中間掃描數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “minus ten degrees”、“surface of the skin”。原文中有完整對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“If an arctic fox or wolf is exposed to an air temperature of about minus ten degrees, the temperature near the tips of the fur will match the air temperature, but at the surface of the skin it will be closer to thirty degrees.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時包含 minus ten、tips of the fur、surface of the skin、thirty degrees。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If an arctic fox or wolf is exposed to an air temperature of about minus ten degrees, the temperature near the tips of the fur will match the air temperature, but at the surface of the skin it will be closer to thirty degrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 arctic fox 或 wolf 暴露在約零下十度的氣溫中，fur tip 附近的溫度會與空氣溫度相同；但在皮膚表面，溫度會較接近三十度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子分成兩個位置： tips of the fur = about minus ten degrees surface of the skin = closer to thirty degrees題目問的是第二個位置，即 skin surface。答案就是 thirty degrees。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "tip of the fur = tips of the fur minus ten degrees = about minus ten degrees surface of the skin = surface of the skin will be closer to = will be closer to選項判斷： C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 forty degrees 是 temperature difference，不是 skin temperature。原文下一句說 “This represents a temperature difference of around forty degrees.” 這很容易造成誤選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 把 -10 的外界溫度錯當成皮膚溫度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 沒有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的技巧是分清「溫度數值」和「溫差」。題目問 skin surface temperature，所以要選thirty degrees，不可選 forty degrees。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A — an animal that can generate heat inside its body.",
+      "answerKey": "A — an animal that can generate heat inside its body.",
+      "type": "Multiple Choice",
+      "prompt": "“What is an endotherm?”",
+      "translation": "endotherm 是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A an animal that can generate heat inside its body.能在身體內部產生熱量的動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B an animal that cannot generate heat inside its body.不能在身體內部產生熱量的動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C an animal that never gets cold.永遠不會感到寒冷的動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D an animal that has special insulation.具有特殊 insulation 的動物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Arctic mammals have more in their arsenal than just fur to protect them from the elements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arctic mammals 在抵禦惡劣環境時，除了 fur，還有更多工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, thermoregulation and fur make Arctic mammals perfectly equipped to face the toughest conditions the Arctic can throw at them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "thermoregulation 和 fur 加起來，使 Arctic mammals 完全具備面對 Arctic 最嚴酷條件的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 在講 fur 以外的保暖機制。題目問 endotherm，應在本段定義句找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “endotherm”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are endotherms, meaning they can generate their own body heat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是標準定義句。看到 “meaning” 時，後面通常就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike amphibians, reptiles and other classes of animals, they are endotherms, meaning they can generate their own body heat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 amphibians、reptiles 和其他類別動物不同，牠們是 endotherms，意思是牠們能產生自己的body heat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “they” 指 Arctic mammals。 “meaning” 後面直接解釋 endotherms 的意思：can generate their own body heat。選項 A 用 “inside its body” 來改寫 “own body heat”，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "endotherm = animal that can generate its own body heat generate heat inside its body = generate their own body heat animal = mammals in this context選項判斷： A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 和原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 過度概括。endotherms 能產熱，不代表永遠不會冷。原文後面還說 “When Arctic mammals are cold”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 只符合 fur insulation 的概念，沒有定義 endotherm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是 D。fur 的確是 special insulation，但 endothermy 指的是 internal heat generation，即體內產熱能力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B — protect themselves from the elements.",
+      "answerKey": "B — protect themselves from the elements.",
+      "type": "Multiple Choice",
+      "prompt": "“Thermoregulation and fur help Arctic mammals…”",
+      "translation": "thermoregulation 和 fur 幫助 Arctic mammals……選項： A cope with hot temperatures.應付高溫。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B protect themselves from the elements.抵禦惡劣自然環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C regulate the temperature of their surroundings.調節周圍環境的溫度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D create a layer of trapped air within their fur.在 fur 中創造 trapped air layer。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Arctic mammals have more in their arsenal than just fur to protect them from the elements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arctic mammals 在抵禦惡劣環境時，除了 fur，還有更多工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, thermoregulation and fur make Arctic mammals perfectly equipped to face the toughest conditions the Arctic can throw at them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "thermoregulation 和 fur 合起來，使 Arctic mammals 完全具備面對 Arctic 最嚴酷條件的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段核心非常清楚：fur 和 thermoregulation 都是 Arctic mammals 對抗嚴酷環境的生存工具。題目把兩者放在一起問，因此最後一句是直接答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Thermoregulation and fur”。原文最後一句完整重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, thermoregulation and fur…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再看選項 B 的 “protect themselves from the elements”，原文第一句有 “protect them from the elements”。首尾句互相支援。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Arctic mammals have more in their arsenal than just fur to protect them from the elements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arctic mammals 在抵禦惡劣環境時，除了 fur，還有更多工具。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, thermoregulation and fur make Arctic mammals perfectly equipped to face the toughest conditions the Arctic can throw at them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "thermoregulation 和 fur 合起來，使 Arctic mammals 完全具備面對 Arctic 最嚴酷條件的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來表示：fur 和 thermoregulation 都幫助 Arctic mammals 抵禦 Arctic 的寒冷、黑暗、雪地和極端氣候。 “the elements” 指自然環境中的惡劣因素，尤其是寒冷和風雪。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "protect themselves from the elements = protect them from the elements / face the toughest conditions thermoregulation and fur = Together, thermoregulation and fur help = make … perfectly equipped選項判斷： B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 太窄，也放錯重點；原文雖然說 warm 時 metabolic rate 會下降，但整段主題是 Arctic cold。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 surroundings。thermoregulation 調節的是 body temperature，不是外界環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 只屬於 fur insulation 的物理結構，thermoregulation 本身不創造 trapped air。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “face the toughest conditions”。題目問兩種機制的共同功能，所以要選能概括survival protection 的 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "tolerance",
+      "answerKey": "tolerance",
+      "type": "Summary Completion",
+      "prompt": "“The Arctic: winter is something few animals can survive, but there are a select few that show an amazing 21 __________ of the severe winter conditions.”",
+      "translation": "Arctic winter 很少動物能生存，但仍有少數動物對嚴酷冬季條件展現出驚人的 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A thick blanket of snow lies several feet deep all over the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "厚厚一層雪覆蓋整片地面，深達數英尺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And yet there are animals here, animals that exhibit a remarkable tolerance of the most inhospitable conditions on the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是這裡仍有動物存在，牠們對地球上最不適合居住的環境展現出驚人的承受能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段先描寫 Arctic winter 的嚴酷，再講少數動物能承受。Summary 中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“amazing” 和 “severe winter conditions” 就是在改寫最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “amazing” 和 “severe winter conditions”。原文對應 “remarkable” 和 “the most inhospitable conditions”。空格需要一個名詞，因為前面是 “an amazing ___ of”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“animals that exhibit a remarkable tolerance of the most inhospitable conditions on the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些動物對地球上最不適合居住的環境展現出驚人的承受能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前後文法是 “show an amazing ___ of”。原文搭配是 “exhibit a remarkable tolerance of”。因此答案是 tolerance。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "show = exhibit amazing = remarkable severe winter conditions = most inhospitable conditions tolerance = tolerance答案形式檢查： tolerance 是一個字，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “conditions”。題目空格後已經有 conditions，所以不能填 conditions；真正缺的是對這些條件的承受能力，即 tolerance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "processes",
+      "answerKey": "processes",
+      "type": "Summary Completion",
+      "prompt": "“Those animals have to use their food resources to keep their body temperature high so that the biochemical 22 __________ inside them continue to run.”",
+      "translation": "那些動物必須使用食物資源保持體溫，讓體內的 biochemical __________ 繼續運作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less than half a metre beneath the surface of the snow, a furry white creature, no bigger than a hamster, scurries along a tunnel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雪面下不到半米，一隻小如 hamster 的白色毛茸茸動物沿 tunnel 快速移動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur is the life preserver of the Arctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 是 Arctic 的生命保護器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段以 lemming 作例子，說明在雪下生活如何消耗能量，也引出 fur 的保溫作用。Summary 句中的 food resources、body temperature、biochemical 都指向本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “food resources”、“biochemical”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“They pay by using some of their precious and scarce food supply to generate heat within their bodies so that their biochemical processes can continue to function efficiently.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They pay by using some of their precious and scarce food supply to generate heat within their bodies so that their biochemical processes can continue to function efficiently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們付出的代價，是使用部分珍貴又稀少的食物供應，在體內產生熱量，好讓牠們的biochemical processes 能繼續有效運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “food resources” 改寫 “food supply”；“keep their body temperature high” 改寫 “generate heat within their bodies”；“continue to run” 改寫 “continue to function efficiently”。空格需要接在biochemical 後面，原文是 biochemical processes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "food resources = food supply inside them = within their bodies continue to run = continue to function efficiently biochemical processes = biochemical processes答案形式檢查： processes 是一個字，符合 ONE WORD ONLY。題目已有 biochemical，所以只填 processes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "fur",
+      "answerKey": "fur",
+      "type": "Summary Completion",
+      "prompt": "“One thing that helps them keep their bodies warm is their 23 __________ which consists of thick layers of hair…”",
+      "translation": "幫助牠們保持身體溫暖的一樣東西是牠們的 __________，它由厚厚的毛髮層組成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only one class of animals has fur – the mammals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有一類動物有 fur，那就是 mammals。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without it, wolves, lemmings and arctic foxes alike would surely perish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有它的話，wolves、lemmings 和 arctic foxes 都肯定會死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 的主題就是 fur。Summary 中 “consists of thick layers of hair” 也直接對應本段定義句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “thick layers of hair”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur comprises dense layers of hair.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是定義 fur 的句子，所以空格就是 fur。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur comprises dense layers of hair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 由密集的毛髮層組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 寫成 “which consists of thick layers of hair”，其中 “consists of” 對應 “comprises”；“thick layers” 對應 “dense layers”。既然從句描述的是 fur 的結構，空格必須填 fur。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "consists of = comprises thick layers = dense layers hair = hair their ___ = fur答案形式檢查： fur 是一個字，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “coat”。Paragraph 3 有 “A thick insulating coat of fine fur”，但 Summary 後面明確說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consists of thick layers of hair”，最直接的原文定義是 Fur comprises dense layers of hair，所以答案填 fur。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "preserver",
+      "answerKey": "preserver",
+      "type": "Summary Completion",
+      "prompt": "“…it is their life 24 __________.”",
+      "translation": "它是牠們的生命 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less than half a metre beneath the surface of the snow, a furry white creature, no bigger than a hamster, scurries along a tunnel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在雪面下不到半米，一隻小如 hamster 的白色毛茸茸動物沿 tunnel 快速移動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur is the life preserver of the Arctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 是 Arctic 的生命保護器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本題直接對應 Paragraph 3 最後一句。Summary 前面已經說 “their fur”，接著問 “life ___”，所以要找原文固定搭配。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “life”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur is the life preserver of the Arctic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原字重現題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fur is the life preserver of the Arctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 是 Arctic 的生命保護器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“life preserver” 字面意思是救生工具、保命器。文章用它來比喻 fur 對 Arctic mammals 的重要性：沒有 fur，牠們會失去保溫能力，難以在極寒環境中存活。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "it is their life ___ = Fur is the life preserver their = Arctic mammals / Arctic animals in summary context preserver = preserver答案形式檢查：題目已給 life，所以只填 preserver。preserver 是一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "conductor",
+      "answerKey": "conductor",
+      "type": "Summary Completion",
+      "prompt": "“The layer of trapped air that they also have provides very effective insulation from cold because it is not a good 25 __________ of heat.”",
+      "translation": "牠們 fur 內的 trapped air layer 能有效隔絕寒冷，因為它不是良好的熱 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The insulation provided by fur comes not from the fur itself, but largely from the layer of air trapped within the fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fur 的保溫效果主要來自 fur 內困住的空氣層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such effective insulation is only made possible by the layer of trapped air contained within the long, fine and densely packed fur.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種有效 insulation 由長、細、密集 fur 中困住的空氣層產生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以確定本段講 trapped air 的 insulation 功能。Summary 中的 “not a good ___ of heat” 會對應原文的 poor conductor。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “not a good ___ of heat”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air is an extremely effective insulator, which is the same as saying it is a poor conductor…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "poor conductor = not a good conductor。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Air is an extremely effective insulator, which is the same as saying it is a poor conductor, i.e. it has a very limited ability to conduct heat away from a warm surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "空氣是一種極有效的保溫物；這等同於說它是 poor conductor，也就是說，它把熱從溫暖表面傳走的能力很有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將 “poor conductor” 改寫成 “not a good conductor”。空格前有 “a good”，後面有 “of heat”，所以答案必須是單數名詞 conductor。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not a good conductor = poor conductor of heat = conduct heat away from a warm surface very effective insulation = extremely effective insulator答案形式檢查： conductor 是一個字，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 insulator。air 的確是 insulator，但題目句型是 “not a good ___ of heat”，自然搭配是conductor of heat，不是 insulator of heat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "metabolic",
+      "answerKey": "metabolic",
+      "type": "Summary Completion",
+      "prompt": "“In the case of an Arctic mammal getting cold, it deals with it by increasing its 26 __________rate to generate more heat.”",
+      "translation": "當 Arctic mammal 感到寒冷時，牠會提高自己的 __________ rate，以產生更多熱量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Arctic mammals have more in their arsenal than just fur to protect them from the elements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arctic mammals 在抵禦惡劣環境時，除了 fur，還有更多工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, thermoregulation and fur make Arctic mammals perfectly equipped to face the toughest conditions the Arctic can throw at them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "thermoregulation 和 fur 合起來，使 Arctic mammals 完全具備面對 Arctic 最嚴酷條件的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講 Arctic mammals 如何主動調節體溫。Summary 中的 “getting cold” 和 “generate more heat” 正是 thermoregulation 的細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “getting cold”、“rate”、“generate more heat”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Arctic mammals are cold, they raise their metabolic rate and produce more heat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Arctic mammals are cold, they raise their metabolic rate and produce more heat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Arctic mammals 感到寒冷時，牠們會提高 metabolic rate，並產生更多熱量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “getting cold” 對應 “are cold”；“increasing” 對應 “raise”；“to generate more heat” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“produce more heat”。空格放在 rate 前面，所以答案是 metabolic。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "getting cold = are cold increasing = raise generate more heat = produce more heat metabolic rate = metabolic rate答案形式檢查： metabolic 是一個字，符合 ONE WORD ONLY。題目已經提供 rate，所以不能填 metabolic rate；只填 metabolic。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Arctic Survivors.pdf",
+    "sha256": "16eda33fdf911b43a7eb6d178c253d03cbcdeb4c37f49456bc5ccc1075c19907",
+    "pageCount": 24
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹 Arctic 的地理位置，說它位於地球最北端，並包括 Arctic Ocean、Canada、Russia、Greenland 等地區。末句說 Arctic 沒有樹木，但在最溫暖的地方，shrubs 很常見，甚至可達兩米高。只看首尾句，可以先估計本段是環境背景段：它交代 Arctic 的範圍、低溫、permafrost、植物受限，以及為後文解釋動物如何生存鋪墊。"
+      },
+      {
+        "number": "2",
+        "summary": "首句描寫厚厚雪層覆蓋大地，太陽每天只短暫出現，然後黑暗籠罩土地。末句說，儘管 Arctic 冬季環境極端，仍有動物在這裡生存，並表現出對地球上最惡劣環境的 remarkable tolerance。初步來看，本段把 Arctic winter 塑造成幾乎不適合生命的地方，再引出少數能承受極寒的 animal survivors。Q14 和 Q21 明顯會用到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說，在雪面下不到半米的位置，一隻像 hamster 一樣大的白色毛茸茸動物沿著 tunnel 移動，它是 collared lemming。末句說 fur is the life preserver of the Arctic。只看首尾句，可估計本段會以 lemming 作例子，說明牠如何住在雪下、利用食物產熱、節省能量，以及為何厚厚毛皮對 Arctic survival 這麼重要。Q15、Q22、Q23、Q24 都可先定位此段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說只有一類動物有 fur，那就是 mammals。末句說，如果沒有 fur，wolves、lemmings 和arctic foxes 都肯定會死亡。只看首尾句，本段明顯解釋 fur 的性質和重要性：fur 由 dense layers of hair 組成，hair 又由 keratin 構成，並且有感覺功能。題目若問 fur 是甚麼、哪類動物有 fur，這段就是主要目標。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 fur 的保溫功能主要來自 trapped air，並非只靠 fur 本身。末句說，這種有效 insulation 由long, fine and densely packed fur 內的 trapped air 產生。初步來看，本段解釋 insulation 的物理原理：air 是 poor conductor，能減少 heat loss；arctic fox 或 wolf 的 fur tips 可接近外界 -10°C，但皮膚表面仍可接近 30°C。Q17、Q18、Q25 會集中在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Arctic mammals 除了 fur，還有其他方法抵禦環境。末句說 thermoregulation 和 fur 合起來，使 Arctic mammals 完全具備面對 Arctic 最嚴酷條件的能力。只看首尾句，本段功能是補充mammals 的第二大生存機制：endothermy 和 thermoregulation。它解釋牠們能自行產熱、調節體溫、在寒冷時提高 metabolic rate。Q19、Q20、Q26 會在這段處理。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

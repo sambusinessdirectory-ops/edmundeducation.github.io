@@ -1,0 +1,998 @@
+{
+  "id": "p2-144-twin-study-two-of-a-kind",
+  "catalogueId": "p2-144",
+  "catalogueIds": [
+    "p2-144"
+  ],
+  "passage": 2,
+  "title": "Twin Study: Two of a kind",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "J",
+    "D",
+    "E",
+    "B",
+    "E",
+    "Francis Galton",
+    "1924",
+    "和 25–27 是 Choose THREE",
+    "通常答案次序不影響得分。",
+    "原 PDF 未提供第 3 個答案",
+    "A",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "Matching Information",
+      "prompt": "“Research conducted in Ohio.”",
+      "translation": "在 Ohio 進行或由 Ohio 機構相關研究者進行的研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph J。首句直接出現 “Peter Miraldi, of Kent State University in Ohio”，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說研究目標是找出令男性掉髮的 genes。只看首尾句已可估計，這段會列出 Ohio 相關研究項目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Ohio”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elsewhere in the marquee, Peter Miraldi, of Kent State University in Ohio, was trying to find out whether genes affect an individual’s motivation to communicate with others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在帳篷另一處，來自 Ohio Kent State University 的 Peter Miraldi 正試圖研究基因是否影響一個人與他人溝通的動機。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是哪一段包含 Ohio 研究。Paragraph J 直接出現 “Kent State University in Ohio”，而同段也提到 Case Western Reserve University in Cleveland。Cleveland 也位於 Ohio，但即使不靠地理常識，第一句已經明示 Ohio。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Research conducted in Ohio"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：Peter Miraldi, of Kent State University in Ohio, was trying to find out…答案是 J。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 有 Maryland，Paragraph G 有 Twinsburg，都是地名或研究地點。Matching Information 要先找最稀有地名；Ohio 的直接命中在 Paragraph J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Medical contributions made by twin research.”",
+      "translation": "雙胞胎研究在醫學方面作出的貢獻。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。第一句直接說 twin studies 正幫助理解 cancer、asthma 等疾病"
+            },
+            {
+              "kind": "paragraph",
+              "text": "；最後一句則把討論擴展到 genes 和 environment 互相塑造。只看首句已可把 D 列為主要目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Medical contributions”。原文未必用 contribution，所以要找 diseases、medical"
+            },
+            {
+              "kind": "paragraph",
+              "text": "experiments、cancer、asthma 等醫學詞。Paragraph D 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“More importantly, perhaps, twin studies are helping the understanding of diseases such as cancer, asthma, osteoporosis, arthritis and immune disorders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許更重要的是，雙胞胎研究正幫助人們理解癌症、哮喘、骨質疏鬆、關節炎和免疫系統疾病。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “twin studies”，動作是 “are helping the understanding of diseases”。這就是medical contribution。後面還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“And twins can be used, within ethical guidelines, for medical experiments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在倫理準則之內，雙胞胎也可用於醫學實驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來清楚支援題目：twin research 對疾病理解和醫學實驗都有貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Medical contributions= helping the understanding of diseases= can be used for medical experiments答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Research conducted under life-threatening conditions.”",
+      "translation": "在威脅生命的情況下進行的研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。第一句說這類研究過去有爭議；最後一句說 twin studies 因此曾"
+            },
+            {
+              "kind": "paragraph",
+              "text": "被懷疑。首尾句顯示，本段會講研究歷史中有問題甚至不道德的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “life-threatening conditions”。原文不會直接重複這個說法，所以要找 war、camp"
+            },
+            {
+              "kind": "paragraph",
+              "text": "、gas-chambers、brutal experiments。Paragraph E 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Josef Mengele, a Nazi doctor working at the Auschwitz extermination camp during the Second World War, was fascinated by twins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Josef Mengele 是第二次世界大戰期間在 Auschwitz 滅絕營工作的納粹醫生，他對雙胞胎非常著迷。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“He sought them out among arrivals at the camp and preserved them from the gas-chambers for a series of brutal experiments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在抵達營地的人群中尋找雙胞胎，讓他們暫時避開毒氣室，以便進行一系列殘酷實驗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“extermination camp”、“gas-chambers”、“brutal experiments” 明確建立生命威脅語境。題目沒有要求研究合法或科學可信，只問哪段包含在生命受威脅情況下進行的 research。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "life-threatening conditions= Auschwitz extermination camp= gas-chambers= brutal experiments答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也有 medical experiments，但那裡強調 “within ethical guidelines”。Question 17 的核心在危險和殘酷環境，所以應回到 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Data on similarities between identical twins.”",
+      "translation": "關於 identical twins 相似度的數據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。首句解釋 twin rule of pathology，說遺傳病在 identical twins 中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更 concordant；最後一句用 moles 例子說明基因和環境都會影響特徵。首尾句顯示，這段很可能有相似度和數字資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Data”、“similarities”、“identical twins”。原文有非常明顯的數據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early work, for example, showed that the statistical correlation of skin-mole counts between identical twins was 0.4, while non-identical twins had a correlation of only 0.2.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如早期研究顯示，identical twins 之間 skin-mole counts 的統計相關係數是 0.4，而non-identical twins 的相關係數只有 0.2。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“statistical correlation” 就是 data。“between identical twins was 0.4” 就是 identical twins 相似度的數字資料。這段還用 “concordant” 解釋共同出現或共同缺席的可能性，也是在處理相似度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Data= statistical correlation similarities= more concordant / correlation identical twins= identical twins答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也講 identical twins 對 quinine 的味覺一致，但 Question 18 特別說 data， Paragraph B 的 0.4 和 0.2 更貼合 “data”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Reasons why one study was unconvincing.”",
+      "translation": "某項研究令人不信服的原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。首句說研究曾有爭議；末句說 twin studies 曾被懷疑。這段明顯"
+            },
+            {
+              "kind": "paragraph",
+              "text": "包含研究可信度問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “unconvincing”。原文不一定用 unconvincing，所以要找 suspicious、faked、too"
+            },
+            {
+              "kind": "label",
+              "text": "good、controversial。Paragraph E 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the war, Cyril Burt, a British psychologist who worked on the heredity of intelligence, tainted twin research with results that appear, in retrospect, to have been rather too good.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰後，研究智力遺傳的英國心理學家 Cyril Burt 以一些回頭看來好得過分的結果，玷污了雙胞胎研究。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of his data on identical twins who had been reared apart were probably faked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他部分關於分開撫養的 identical twins 的資料很可能是偽造的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Reasons why one study was unconvincing”。原文提供兩個原因：results too good，以及data probably faked。這正好解釋為何他的研究令人不信服。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unconvincing= results appeared rather too good= data were probably faked答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 同時有 Mengele 和 Burt。Question 17 用 Mengele；Question 19 用 Burt。兩題同段但資訊點不同，要分開定位。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "Francis Galton",
+      "answerKey": "Francis Galton",
+      "type": "Summary Completion",
+      "prompt": "“20 ______ was the first person to conduct research on twins.”",
+      "translation": "______ 是第一位進行雙胞胎研究的人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。第一句已經說 twin study 可追溯至十九世紀末，並立刻引入"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Francis Galton。這是人物起源題的典型位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “first person”、“research on twins”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“THE scientific study of twins goes back to the late nineteenth century, when Francis Galton, an early geneticist, realised that they came in two varieties…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雙胞胎的科學研究可追溯至十九世紀末，當時早期遺傳學家 Francis Galton 意識到雙胞胎有兩種類型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要人名，字數限制是 NO MORE THAN TWO WORDS。原文的人名 “Francis Galton” 正好兩個字。題目把 “scientific study of twins goes back to…” 概括成 first person to conduct research on twins。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Francis Galton。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "1924",
+      "answerKey": "1924",
+      "type": "Summary Completion",
+      "prompt": "“Twin research was first applied in medicine in 21 ______.”",
+      "translation": "雙胞胎研究首次被應用於醫學是在 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍是 Paragraph A。末句提到 1924，並說這個 insight 被用來 formulate the twin rule of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pathology。Pathology 是疾病研究，屬於醫學範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “first applied in medicine”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That insight turned out to be key, although it was not until 1924 that it was used to formulate what is known as the twin rule of pathology, and twin studies really got going.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個見解後來證明十分關鍵，雖然直到 1924 年，它才被用來建立所謂的 twin rule of pathology，雙胞胎研究也真正展開。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“not until 1924” 表示時間點被延後到 1924。“pathology” 指疾病研究，對應題目 “medicine”。空格要年份，答案直接填 1924。答案是 1924。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 同時有 late nineteenth century 和 1924。前者是雙胞胎科學研究的起源；題目問first applied in medicine，所以要填 1924。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A, E, F",
+      "answerKey": "A, E, F",
+      "type": "Choose THREE letters",
+      "prompt": "Questions 22–24",
+      "translation": "Ohio、Maryland 和 Twinsburg 涉及哪三個研究範疇？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which THREE research fields were investigated in Ohio, Maryland and Twinsburg?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A — Sensory perception目標段落：Paragraph G / H"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Twinsburg” 和感官研究。Paragraph G 提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Breslin and his colleagues want to find out how genes influence human perception, particularly the senses of smell and taste and those (warmth, cold, pain, tingle, itch and so on) that result from stimulation of the skin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Breslin 博士和同事想研究基因如何影響人類感知，尤其是嗅覺、味覺，以及由皮膚刺激引起的溫暖、寒冷、疼痛、刺痛、痕癢等感覺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A “Sensory perception” 正好概括 smell、taste、warmth、cold、pain、tingle、itch。Paragraph H 的 quinine taste 例子也支援 sensory perception 這個範疇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E — Hearing目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Maryland” 和 “hearing”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other side of the tent, Dennis Drayna, from the National Institute on Deafness and Other Communication Disorders, in Maryland, was studying hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "帳篷另一邊，來自 Maryland 的 National Institute on Deafness and Other Communication Disorders 的 Dennis Drayna 正在研究聽覺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E “Hearing” 和原文 “was studying hearing” 直接相同。這題沒有複雜改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F — Male baldness目標段落：Paragraph J"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Ohio” 或 “baldness”。Paragraph J 先提到 Kent State University in Ohio，後面說"
+            },
+            {
+              "kind": "label",
+              "text": "："
+            },
+            {
+              "kind": "quote",
+              "text": "“And next to Mr Miraldi was a team of dermatologists from Case Western Reserve University in Cleveland. They are looking at the development of skin disease and male-pattern baldness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miraldi 旁邊是一隊來自 Cleveland 的 Case Western Reserve University 的皮膚科醫生。他們正在研究皮膚病和男性型禿髮的發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 F “Male baldness” 對應 “male-pattern baldness”。後一句還說研究目標是找出令男性頭髮脫落的 genes。這清楚支援 F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 F 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項簡析： B Cancer 出現在 Paragraph D，是 twin studies 的醫學貢獻背景，未屬 Ohio、Maryland、Twinsburg 三個現場研究範疇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Vitamin D allergy 沒有出現；原文是 vitamin C 和 common cold。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Mole heredity 出現在 Paragraph B，是早期例子，不屬這三地的現場研究。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, B, D",
+      "answerKey": "A, B, D",
+      "type": "Choose THREE letters",
+      "prompt": "Questions 25–27",
+      "translation": "以下哪三項 findings 獲文章支持？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which THREE findings are supported by the passage?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A — Non-identical twins develop from different eggs."
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “non-identical twins” 和 “eggs”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Francis Galton, an early geneticist, realised that they came in two varieties: identical twins born from one egg and non-identical twins that had come from two eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期遺傳學家 Francis Galton 意識到雙胞胎有兩種類型：由一個卵子形成的 identical twins，以及由兩個卵子形成的 non-identical twins。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 non-identical twins develop from different eggs。原文說 non-identical twins had come from two eggs。two eggs 就是 different eggs 的意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — Identical twins are more closely related genetically than non-identical twins."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / B"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “identical twins”、“non-identical twins”、“genetically”。Paragraph A 建立基本分類"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，Paragraph B 用 heritable disease 和 concordance 展示遺傳相似度差異。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“identical twins born from one egg and non-identical twins that had come from two eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "identical twins 由一個卵子形成，non-identical twins 由兩個卵子形成。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“any heritable disease will be more concordant … in identical twins than in non-identical twins”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何可遺傳疾病在 identical twins 中會比在 non-identical twins 中更一致地共同出現或共同缺席。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B 沒有逐字出現，但文章的研究框架支援它。identical twins 來自同一個 egg，且 heritable diseases 在他們之間更 concordant。這反映 identical twins 在遺傳上比 non-identical twins 更接近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Genetic influence on smoking is stronger than environmental influence."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確，但範圍要讀得很精準"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “smoking”、“genetic”、“environmental”。原文第一句直接提到 smoking："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twin research has shown that whether or not someone takes up smoking is determined mainly by environmental factors, but once he does so, how much he smokes is largely down to his genes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雙胞胎研究顯示，一個人是否開始吸煙主要由環境因素決定；但一旦他開始吸煙，他吸多少很大程度取決於基因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句分成兩層：第一層：whether or not someone takes up smoking是否開始吸煙→ mainly by environmental factors主要由環境因素決定第二層：how much he smokes吸煙量多少→ largely down to his genes很大程度取決於基因選項 D 的 wording 較概括。嚴格來說，文章支援的是「吸煙量」受基因影響很大，不支援「是否開始吸煙」由基因主導。由於選項中 C、E、F 都明顯不受支持，而 D 有 Paragraph C 的直接證據，所以 D 是 intended answer。學生做題時要記住：這裡的 smoking 要落在 “how much he smokes”這個範圍內理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何 C、E、F 不選C “Vitamin C has a clear effect on the common cold.” Paragraph D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study that administered vitamin C to one twin and a placebo to the other found that it had no effect on the common cold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項研究給一名雙胞胎服用 vitamin C，另一名服用安慰劑，結果發現 vitamin C 對普通感冒沒有作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 和原文方向相反，所以不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “Eating too many sweets during pregnancy leads to skin disease.” Paragraph G 只說胎兒出生前可能接觸 chocolate、garlic、mint、vanilla 等味道，並可能影響日後食物偏好。文章沒有說 eating too many sweets，也沒有把 pregnancy 和 skin disease 建立因果關係。所以 E 缺乏原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F “Hair loss has been found to be connected with a skin condition.” Paragraph J 說 dermatologists are looking at “skin disease and male-pattern baldness”，並說研究目標是找出令男性頭髮脫落的 genes。原文只說同一研究團隊研究這兩個題目，沒有說 hair loss 已被證實和某種 skin condition 相關。所以 F 不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Twin Study_ Two of a kind.pdf",
+    "sha256": "963820ffffa198150a2d25f934521aea95fb45f8ce57cdcde820bd4908b9aa0c",
+    "pageCount": 13
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句段 Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句把 twin studies 放回十九世紀末，並引入 Francis Galton 這位 early geneticist。末句說這個 insight 到 1924 年才被用來建立 twin rule of pathology，之後 twin studies 才真正展開。只看首尾句可見，本段功能是交代雙胞胎研究的起源、identical / non-identical 的基本分類，以及醫學研究規則的形成。Questions 20–21 很可能在此。 B 首句直接解釋 twin rule of pathology：遺傳病在 identical twins 中應有更高 concordance。末句說 moles 的研究結果顯示它們可遺傳，但也有環境成分。首尾句合起來可見，本段重點是用數據展示 identical twins 和 non-identical twins 的相似度差異，並說明基因與環境如何共同影響特徵。Question 18 很可能在此。 C 首句用 smoking 做例子：是否開始吸煙主要由環境決定，但吸煙量很大程度受基因影響。末句說 parenting matters，但 personality 不像一些人以為那樣由家長完全決定。首尾句顯示，本段把 twin research 擴展到行為、宗教傾向和人格特質，重點是基因影響可以出現在很日常的心理和行為層面。Question 25–27 可能用到本段。 D 首句說 twin studies 正幫助人類理解 cancer、asthma、osteoporosis、arthritis 和 immune disorders。末句說基因可能塑造個人所處的環境，就像環境塑造基因活動。首尾句顯示，本段有兩層功能：先講 twin research 的醫學貢獻和實驗用途，再推進到 nature and nurture 互動，而非簡單二分。Question 16 很可能在此。 E 首句說過去這類研究曾引起爭議。末句總結 twin studies 因此曾被懷疑。首尾句顯示，本段功能是交代 twin research 的歷史陰影和可信度危機，包括 Josef Mengele 在Auschwitz 的殘酷實驗、Cyril Burt 可能偽造資料，以及戰後社會科學意識形態對遺傳解釋的排斥。Questions 17 和 19 很可能在此。 F 首句用 ideological pendulum has swung back 表示社會態度已回轉，因 Human Genome Project 令 genes 從抽象概念變成真實 DNA。末句說 twin studies 重回潮流，許多 twins也積極參與。首尾句顯示，本段是轉折段：它解釋為何曾受懷疑的 twin research 重新被接受，研究焦點也轉向 nature 和 nurture 如何互動。 G 首句說 Twinsburg festival 的研究在 1979 年從一個小攤位開始。末句說 prenatal exposure 可能影響日後 food preferences。首尾句顯示，本段把文章帶到 Twinsburg festival 的現場研究，重點是 Paul Breslin 團隊研究 human perception，尤其 smell、taste和皮膚刺激感覺，並探討基因與經驗如何共同影響感知。Questions 22–24 很可能用到本段。 H 首句用 however 轉入 genetic influences，例如 taste quinine 的能力。末句說non-identical twins 的一致性較低。首尾句顯示，本段延續 perception 研究，但焦點更集中在 taste 的遺傳因素。quinine 苦味感受在 identical twins 中高度一致，在 non-identical twins 中較少一致，這為感官感知的遺傳基礎提供清楚例子。 I 首句說帳篷另一邊，Dennis Drayna 來自 Maryland 的 National Institute，正在研究hearing。末句說他相信不同聲音資訊的處理方式可能受 genetics 影響。首尾句顯示，本段重點是聽覺研究：聲音到達耳朵後如何被加工，musical pitch perception 的遺傳性，以及左右耳同時接收不同語音時大腦如何整合。Questions 22–24 很可能用到本段。 J 首句說 Peter Miraldi 來自 Ohio 的 Kent State University，研究 genes 是否影響個人與他人溝通的動機。末句說另一項研究目標是找出導致男性掉髮的 genes。首尾句顯示，本段集中在 Ohio 相關研究：一邊是 communication motivation、personality 和 sociability，另一邊是 skin disease 與 male-pattern baldness。Questions 15 和 22–24 很可能在此。 K 首句說帳篷最繁忙的部分是 forensic-science fingerprint research 的隊伍。末句說 IAI 出版 Journal of Forensic Identification。首尾句顯示，本段轉向 fingerprints 和 forensic identification，並交代 Secret Service、Steve Nash、IAI 等機構線索。這段重點較像研究現場的另一個項目，與本組題目的主要答案關係較弱。",
+        "label": "落"
+      },
+      {
+        "number": "2",
+        "summary": "22–24 和 25–27 是 Choose THREE，通常答案次序不影響得分。",
+        "label": "25–27 A, B, D"
+      }
+    ]
+  }
+}

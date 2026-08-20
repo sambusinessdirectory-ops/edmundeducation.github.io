@@ -1,0 +1,1739 @@
+{
+  "id": "p2-099-reading-the-screen",
+  "catalogueId": "p2-099",
+  "catalogueIds": [
+    "p2-099"
+  ],
+  "passage": 2,
+  "title": "READING THE SCREEN",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "D",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "YES",
+    "NO",
+    "manuscript",
+    "tabloid",
+    "shopping lists"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C — there is evidence that literacy is related to external factors.",
+      "answerKey": "C — there is evidence that literacy is related to external factors.",
+      "type": "Multiple Choice",
+      "prompt": "“When discussing the debate on literacy in education, the writer notes that…”",
+      "translation": "作者討論教育中的 literacy debate 時，指出甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate surrounding literacy is one of the most charged in education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍繞 literacy 的討論，是教育中最具爭議、情緒最強烈的討論之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An understanding of these earlier periods helps us understand today’s ‘crisis in literacy’ debate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "了解這些較早期的歷史階段，有助我們理解今天所謂 “crisis in literacy” 的討論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 1 是概念框架段。它不是立即討論孩子是否變差，而是說literacy debate 本身複雜，而且需要歷史和社會背景來理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “debate on literacy in education” 對應第一句 “The debate surrounding literacy”。選項C 的 “external factors” 未必原字出現，所以要掃描 social、technical、context、Renaissance England 等外部背景詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“These studies argue that literacy can only be understood in its social and technical context.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究指出，literacy 只能放在它的社會和技術背景中理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是答案核心。social context 和 technical context 都是 literacy 本身以外的因素，屬於external factors。後面 Renaissance England 的例子也支持這一點：當時讀和寫不同，讀 print 和讀 manuscript 也不同，因此 literacy 的標準會受歷史和技術條件影響。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯在把焦點放到 children。Paragraph 1 沒有說 children cannot read and write as well as before。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在 “academic work has improved”。原文說 academic work supports the second position，沒有說學術研究本身變好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。social and technical context 對應 external factors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯在 “equally convincing”。原文說第二種 position supported by most relevant academic work，所以兩方說服力並非平均。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "external factors= social and technical context literacy is related to external factors= literacy can only be understood in its social and technical context所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A — the printed word is both gaining and losing power.",
+      "answerKey": "A — the printed word is both gaining and losing power.",
+      "type": "Multiple Choice",
+      "prompt": "“In the 4th paragraph, the writer’s main point is that…”",
+      "translation": "第 4 段的主要觀點是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The decision of some car manufacturers to issue their instructions to mechanics as a video pack rather than as a handbook might be taken to spell the end of any automatic link between industrialisation and literacy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些汽車製造商決定把給技工的指示製成 video pack，而非 handbook，這可能被理解為industrialisation 和 literacy 之間自動連結的終結。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While you may not need to read and write to watch television, you certainly need to be able to read and write in order to make programmes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然觀看電視未必需要讀寫，但要製作節目，肯定需要能讀能寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經可見一個雙向結構：一方面 handbook 被 video 取代，print 看似失勢；另一方面television programme production 仍需要 reading and writing，print / writing 又有新價值。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “main point”，所以不能只抓一個例子。要找段落整體重複概念：video pack、handbook、writing、book rules、television、programmes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, it is also the case that ever-increasing numbers of people make their living from writing, which is better rewarded than ever before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，越來越多人靠寫作謀生，而且寫作的回報比以往任何時候都更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和首句形成對照。首句說 handbook 可能被 video 取代，代表 printed word 在某些工業場景中失去傳統地位；這句說更多人靠 writing 生活，且收入更好，代表 writing 的價值上升。最後一句再補充：製作 television programmes 也需要讀寫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。第 4 段同時講 print / writing 的失勢和增值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 太空泛。文章沒有把所有 inventions 概括成有利有弊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 太絕對。mechanics 可能少看 handbook，但原文沒有說所有 manual jobs 都不再需要 reading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 只符合局部。media careers 需要 writing，但本段重點更廣，還包括 handbook 被 video 取代。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "printed word losing power= video pack rather than handbook printed word gaining power= more people make their living from writing / writing better rewarded / need to read and write to make programmes所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — how best to incorporate technology into classroom teaching.",
+      "answerKey": "B — how best to incorporate technology into classroom teaching.",
+      "type": "Multiple Choice",
+      "prompt": "“According to the writer, the main problem that schools face today is…”",
+      "translation": "根據作者，學校今天面對的主要問題是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6，並由 Paragraph 7 補充"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, there is a crisis in literacy and it would be foolish to ignore it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，literacy 確實有危機，忽略它是不智的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, although media studies are now part of the national curriculum, and more and more students are now clamouring to take these courses, teachers remain uncertain about both methods and aims in this area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，雖然 media studies 現在已成為 national curriculum 的一部分，越來越多學生也渴望修讀這些課程，但教師對這個領域的方法和目標仍感到不確定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 6 不是單純說學校缺設備，重點轉向如何使用新科技、如何建立方法和目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “main problem that schools face” 可對應原文的問句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How should these new technologies be introduced into the schools?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些新科技應該怎樣被引入學校？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個問句非常關鍵，因為它直接指出問題核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“It isn’t enough to call for computers, camcorders and edit suites in every classroom; unless they are properly integrated into the educational culture, they will stand unused.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單單要求每間課室都有 computers、camcorders 和 edit suites 並不足夠；如果它們沒有被恰當地融入教育文化之中，它們就會閒置不用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 也補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The entertainment and information industries must be drawn into a debate with the educational institutions to determine how best to blend these new technologies into the classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "娛樂和資訊產業必須與教育機構一起討論，以決定如何最好地把這些新科技融合進課室。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 太傳統。文章不是問 reading and writing 技能本身怎樣教，重點在新科技如何融入教學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。incorporate technology into classroom teaching 對應 “properly integrated into the educational culture” 和 “blend these new technologies into the classroom”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 money / purchase。文章說買設備不夠，問題不在購買本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 沒有支援。文章沒有說學生 literacy levels 差異太大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "incorporate technology= introduce new technologies / properly integrate / blend these new technologies classroom teaching= schools / educational culture / classroom所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — our exposure to cultural information is likely to increase.",
+      "answerKey": "D — our exposure to cultural information is likely to increase.",
+      "type": "Multiple Choice",
+      "prompt": "“At the end of the article, the writer is suggesting that…”",
+      "translation": "文章結尾作者暗示甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new media now point not only to a futuristic cyber-economy; they also make our cultural past available to the whole nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新媒體現在不只指向未來的 cyber-economy，也把我們的文化過去帶給整個國家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the new media, joined to the old through the public-service tradition of British broadcasting, now make our literary tradition available to all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但新媒體透過 British broadcasting 的公共服務傳統與舊媒體結合，現在使我們的 literary tradition 可供所有人接觸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以見到結尾的核心是 “available”：文化過去、文學傳統，以前只屬於少數人，現在可讓更多人接觸。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “cultural information” 對應原文的 “cultural past”、“literary heritage”、“literary tradition”。“exposure is likely to increase” 對應 “available to the whole nation / available to all”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“It is doubtful whether our literary heritage has ever been available to or sought out by more than about 5 per cent of the population; it has certainly not been available to more than 10 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的文學遺產是否曾經被超過大約 5% 的人口接觸或主動尋求，這很值得懷疑；它肯定未曾向超過 10% 的人口開放。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But the new media… now make our literary tradition available to all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但新媒體現在使我們的文學傳統可供所有人接觸。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。文章結尾不是說 literature and culture cannot be divorced。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。Paragraph 8 討論 literacy 一詞的歷史，但結尾重點已轉向文化可及性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文說文學遺產未曾 available to more than 10%，不等於 10% never read literature。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。文化和文學資訊以前只屬少數人，現在透過 new media 可向所有人開放。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cultural information= cultural past / literary heritage / literary tradition exposure is likely to increase= available to the whole nation / available to all所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It is not as easy to analyse literacy levels as it used to be.”",
+      "translation": "分析 literacy levels 已不像以前那麼容易。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There does seem to be evidence that there has been an overall decline in some aspects of reading and writing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實似乎有證據顯示，reading and writing 的某些方面整體下降了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the picture is not uniform and doesn’t readily demonstrate the simple distinction between literate and illiterate which had been considered adequate since the middle of the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但整體情況並不一致，也不能輕易展示自 19 世紀中期以來被視為足夠的 literate / illiterate 簡單區分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，段落方向很清楚：作者承認有下降跡象，但強調分析並不簡單，傳統二分法不再足夠。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “analyse literacy levels” 對應原文的 “picture”、“distinction between literate and illiterate”。“not as easy as it used to be” 對應 “doesn’t readily demonstrate” 和 “had been considered adequate since the middle of the 19th century”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“But the picture is not uniform and doesn’t readily demonstrate the simple distinction between literate and illiterate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這幅圖像並不一致，也不能輕易展示識字和文盲之間的簡單區分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “not uniform” 表示資料不一致；“doesn’t readily demonstrate” 表示不能容易地證明；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“simple distinction” 表示以前那套簡單分析框架。題目說現在分析 literacy levels 不像以前容易，方向完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not as easy to analyse= the picture is not uniform / doesn’t readily demonstrate as it used to be= the distinction had been considered adequate since the middle of the 19th century所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Our literacy skills need to be as highly developed as they were in the past.”",
+      "translation": "我們的 literacy skills 需要像過去一樣高度發展。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While reading and a certain amount of writing are as crucial as they have ever been in industrial societies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然在工業社會中，reading 和一定程度的 writing 仍然和以往一樣重要……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…research suggests that for many people the only use for writing, outside formal education, is the compilation of shopping lists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，對很多人而言，離開正式教育後，writing 的唯一用途是編寫 shopping lists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出作者承認 basic reading and some writing 仍重要，但同時指出高度寫作能力在很多人的日常生活中用途變少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “as highly developed as they were in the past” 對應原文的 “fully developed grasp” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“as necessary as it was 30 or 40 years ago”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“While reading and a certain amount of writing are as crucial as they have ever been in industrial societies, it is doubtful whether a fully developed grasp of either is as necessary as it was 30 or 40 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然在工業社會中，reading 和一定程度的 writing 仍和以往一樣重要，但是否仍像三四十年前那樣需要完全成熟的讀寫掌握能力，這一點值得懷疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “need to be as highly developed”；原文說 “it is doubtful whether a fully developed grasp… is as necessary”。這是清楚的方向衝突。作者不是否定所有 reading / writing 的重要性，他只是質疑高度成熟的讀寫能力是否仍像過去一樣必要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：need to be as highly developed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：it is doubtful whether a fully developed grasp is as necessary判斷：原文提出懷疑，題目卻給出肯定說法，所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Illiteracy is on the increase.”",
+      "translation": "illiteracy 正在增加。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 / Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 第一首尾句顯示：作者承認某些 reading and writing 層面下降，但指出圖像不一致，傳統 literate / illiterate 二分法不足。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, there is a crisis in literacy and it would be foolish to ignore it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，literacy 確實有危機，忽略它是不智的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Illiteracy” 可掃描 literate、illiterate、literacy crisis、decline。相關句確實出現，但要留意題目問的是 “illiteracy is on the increase”，即文盲或不識字的人正在增加。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“There does seem to be evidence that there has been an overall decline in some aspects of reading and writing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實似乎有證據顯示 reading and writing 的某些方面整體下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 “some aspects of reading and writing” 下降，不等於更多人完全不能讀寫。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the picture is not uniform and doesn’t readily demonstrate the simple distinction between literate and illiterate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但整體情況並不一致，也不能輕易展示 literate 和 illiterate 的簡單區分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句反而提醒我們，不應把問題直接變成「文盲增加」這個簡單命題。作者有說 literacy crisis，有說某些技能下降，但沒有提供 illiteracy rate，也沒有說不識字人口增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料狀態：原文有：某些讀寫層面下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：literacy 有危機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少：illiteracy 正在增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Professional writers earn relatively more than they used to.”",
+      "translation": "專業寫作者比以前賺得相對更多。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The decision of some car manufacturers to issue their instructions to mechanics as a video pack rather than as a handbook might be taken to spell the end of any automatic link between industrialisation and literacy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些汽車製造商把技工指示改成 video pack，可能意味 industrialisation 和 literacy 的自動連結正在終結。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While you may not need to read and write to watch television, you certainly need to be able to read and write in order to make programmes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "觀看電視未必需要讀寫，但要製作節目肯定需要讀寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段討論 written word 在新媒體和工作世界中的地位變化。題目問professional writers 的收入，應看本段中間 “make their living from writing”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Professional writers” 對應原文 “people make their living from writing”。“earn relatively more” 對應 “better rewarded than ever before”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, it is also the case that ever-increasing numbers of people make their living from writing, which is better rewarded than ever before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，越來越多人靠寫作謀生，而且寫作的回報比以往任何時候都更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “make their living from writing” 就是 professional writers 或靠寫作為生的人。“better rewarded than ever before” 表示回報比以前更好，正好支援題目的 relatively more。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "professional writers= people make their living from writing earn relatively more than they used to= better rewarded than ever before所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“A good literacy level is important for those who work in television.”",
+      "translation": "對從事 television 工作的人來說，良好的 literacy level 很重要。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The decision of some car manufacturers to issue their instructions to mechanics as a video pack rather than as a handbook might be taken to spell the end of any automatic link between industrialisation and literacy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些汽車製造商把技工指示改成 video pack，可能意味 industrialisation 和 literacy 的自動連結正在終結。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While you may not need to read and write to watch television, you certainly need to be able to read and write in order to make programmes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "觀看電視未必需要讀寫，但要製作節目，肯定需要能讀能寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎直接由最後一句提供答案。題目把 “those who work in television” 改寫成 “make programmes”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “television” 和 “work”。原文有 “watch television” 及 “make programmes”。真正定案的是 “make programmes”，因為它指電視節目製作工作，而非觀眾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“While you may not need to read and write to watch television, you certainly need to be able to read and write in order to make programmes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然觀看電視未必需要讀寫，但要製作節目，肯定需要能讀能寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有明顯對比：watch television 不需要；make programmes 需要。題目說從事 television 工作的人需要 good literacy level，原文用 “certainly need to be able to read and write” 支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "those who work in television= people who make programmes a good literacy level is important= certainly need to be able to read and write所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Computers are having a negative impact on literacy in schools.”",
+      "translation": "Computers 正在對學校中的 literacy 造成負面影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 / Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 第一首尾句顯示：new media workers 絕不 illiterate，新舊媒體可在學校融合，培養經濟和政治參與所需技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 第一首尾句顯示：literacy 有危機，但新科技若要在學校有效，必須被正確整合；教師也對方法和目標不確定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Computers”、“negative impact”、“literacy in schools” 可對應原文 “computer”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“schoolwork with the new technologies”、“stimulus to literacy”、“information technology used in the classroom”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The production of schoolwork with the new technologies could be a significant stimulus to literacy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用新科技製作 schoolwork 可以成為 literacy 的重要刺激。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明顯把 new technologies 視為 potential stimulus，即有可能促進 literacy。Paragraph 5 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no reason why the new and old media cannot be integrated in schools to provide the skills needed to become economically productive and politically enfranchised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有理由認為新舊媒體不能在學校融合，以提供經濟生產和政治參與所需的技能。"
+            },
+            {
+              "kind": "label",
+              "text": "作者確實指出現實問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“unless they are properly integrated into the educational culture, they will stand unused.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果它們沒有被正確融入教育文化，它們就會閒置不用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 “stand unused” 是未被有效使用，並非對 literacy 造成負面影響。作者的方向是：科技有正面潛力，問題在 integration。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：negative impact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：significant stimulus / provide skills / stand unused if not integrated題目說 computers 正在造成負面影響；原文說新科技可以刺激 literacy，真正問題是未被正確融入。兩者方向相衝，所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "manuscript",
+      "answerKey": "manuscript",
+      "type": "Sentence Completion",
+      "prompt": "“In Renaissance England, the best readers were those able to read 24 ______.”",
+      "translation": "在 Renaissance England，最好的讀者是那些能夠閱讀 ______ 的人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate surrounding literacy is one of the most charged in education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍繞 literacy 的討論，是教育中最具爭議的討論之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An understanding of these earlier periods helps us understand today’s ‘crisis in literacy’ debate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "了解這些較早期時期，有助我們理解今天的 “crisis in literacy” debate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段用 Renaissance England 解釋 literacy 有層次，不可只分會讀和不會讀。題目直接點名Renaissance England，所以定位非常穩定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Renaissance England” 和 “best readers”。原文沒有 “best readers”，但有 “more difficult task”，表示較高層次的閱讀能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In Renaissance England, for example, many more people could read than could write, and within reading there was a distinction between those who could read print and those who could manage the more difficult task of reading manuscript.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在 Renaissance England，能讀的人遠多於能寫的人；即使在 reading 之中，也有能讀印刷文字的人，和能完成較困難的閱讀手稿任務的人之分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “the best readers” 是對原文 “more difficult task” 的概括。讀 manuscript 比讀 print 更難，所以能讀 manuscript 的人屬於較高層次讀者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “able to read ______”。原文是 “reading manuscript”。空格填 manuscript，一個字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 manuscript。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "tabloid newspapers",
+      "answerKey": "tabloid newspapers",
+      "type": "Sentence Completion",
+      "prompt": "“The writer uses the example of 25 ______ to illustrate the general fall in certain areas of literacy.”",
+      "translation": "作者用 ______ 的例子說明 literacy 某些方面的普遍下降。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There does seem to be evidence that there has been an overall decline in some aspects of reading and writing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實似乎有證據顯示 reading and writing 的某些方面整體下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the picture is not uniform and doesn’t readily demonstrate the simple distinction between literate and illiterate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但整體情況並不一致，也不能輕易證明 literate / illiterate 的簡單區分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經可知這段會先提供下降證據，再提醒不要過度簡化。題目問 “example”，所以要找本段中的具體例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “general fall” 對應原文 “overall decline”。“certain areas of literacy” 對應 “some aspects of reading and writing”。例子通常出現在破折號或 “compare…” 之後。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“...you only need to compare the tabloid newspapers of today with those of 50 years ago to see a clear decrease in vocabulary and simplification of syntax.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你只需要比較今天的 tabloid newspapers 和 50 年前的 tabloid newspapers，就能看到詞彙明顯減少，以及句法變得簡化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “general fall” 指 vocabulary decrease 和 syntax simplification。作者用 tabloid newspapers 作例子，展示某些 reading/writing 層面的下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “the example of ______”。需要名詞短語。原文 “tabloid newspapers” 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 tabloid newspapers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "shopping lists",
+      "answerKey": "shopping lists",
+      "type": "Sentence Completion",
+      "prompt": "“It has been shown that after leaving school, the only things that a lot of people write are 26______.”",
+      "translation": "研究顯示，很多人離開學校後唯一會寫的東西是 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While reading and a certain amount of writing are as crucial as they have ever been in industrial societies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然在工業社會中，reading 和一定程度的 writing 仍和以往一樣重要……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…research suggests that for many people the only use for writing, outside formal education, is the compilation of shopping lists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，對很多人而言，在正式教育以外，writing 的唯一用途是編寫 shopping lists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎直接由 Paragraph 3 最後一句改寫。題目中的 “after leaving school” 對應 “outside formal education”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “after leaving school”、“only things”、“a lot of people write”。原文對應 “outside formal education”、“only use for writing”、“for many people”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“…research suggests that for many people the only use for writing, outside formal education, is the compilation of shopping lists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，對很多人來說，在正式教育以外，寫作的唯一用途是編寫購物清單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “the only things that a lot of people write are ______”。空格需要複數名詞。原文是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shopping lists”，兩個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "after leaving school= outside formal education a lot of people= many people the only things they write= the only use for writing is the compilation of shopping lists答案是 shopping lists。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - READING THE SCREEN.pdf",
+    "sha256": "ce40da686dcbee52be7fc354557fcab9537601c4af1be6f5047896cbc148216c",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 literacy debate 是教育中最激烈的討論之一；最後一句說理解早期歷史階段，有助理解今日的 “crisis in literacy” debate。只看首尾句，可以估計這段在建立理論框架：literacy 不可只用「會否讀寫」來看，還要放入 social and technical context。中間的 Renaissance England 例子會說明讀、寫、讀印刷體、讀手稿之間有不同層次。題目若問 literacy 和外在因素、歷史例子、manuscript，先看本段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句承認某些 reading and writing 層面似乎有整體下降；最後一句說這幅圖像並不一致，也不能輕易證明傳統 literate / illiterate 二分法仍然足夠。只看首尾句，可以看出這段的功能是修正過度簡化的看法：作者接受某些能力下降，例如報章詞彙和句法簡化，但他不把問題直接化約成「識字／文盲」兩類。題目若問 literacy levels 是否容易分析、tabloid newspapers、illiteracy，應回到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 reading 和一定程度的 writing 在工業社會仍然重要；最後一句說研究顯示很多人離開正式教育後，寫作用途只剩 shopping lists。只看首尾句，可以估計這段討論日常生活中 reading /writing 的必要性正在改變。中間會比較 print、television、telephone 對傳統讀寫功能的影響。題目若問我們是否仍需要像過去一樣高度發展的讀寫能力，或問離校後寫甚麼，本段最關鍵。"
+      },
+      {
+        "number": "4",
+        "summary": "首句用汽車製造商把技工指示由 handbook 改成 video pack 的例子，暗示 industrialisation 和literacy 的自動連結可能正在消失；最後一句說觀看電視不一定需要讀寫，但製作節目肯定需要讀寫。只看首尾句，可以看到本段同時展示 printed word 的失勢和新價值：某些 manual work 少了書面指示，但寫作職業增加，媒體製作也需要讀寫能力。題目 15、21、22 很可能在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說在 new media 工作的人絕對稱不上 illiterate；最後一句說 new and old media 可以在學校融合，培養經濟生產和政治參與所需技能。只看首尾句，可以估計這段反駁「新媒體令人不識字」的悲觀看法。中間會講 computer 重新把 written word 帶回 screen，也提到孩子為了上網而掌握reading and writing。題目若問 computers 和 literacy 的關係，這段提供作者較正面的基本立場。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說確實存在 literacy crisis，忽略它是不智的；最後一句說雖然 media studies 已納入 national curriculum，學生需求增加，但教師仍不確定方法和目標。只看首尾句，可以判斷這段把焦點轉到學校實踐：新科技可能刺激 literacy，但只買 computers、camcorders、edit suites 不夠，真正問題在於如何融入 educational culture。題目若問學校主要困難、technology in classroom、computers對 literacy 的影響，應看本段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說這並非教師的錯；最後一句說 entertainment and information industries 必須與educational institutions 展開討論，決定如何把新科技最好地融合到 classroom。只看首尾句，可以估計這段是 Paragraph 6 的補充：學校整合新媒體的困難，不應簡單怪教師。作者提出跨界合作，讓教育界和媒體／資訊產業一起設計方法。題目若問 schools face today 的核心問題， Paragraph 6 是主段，Paragraph 7 是補強。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說當代很多人傾向悲觀看法，認為 new media 正破壞 old skills 和 critical judgement；最後一句說 19 世紀教育改革把 reading and writing 變成可與完整文化參與分離的技能。只看首尾句，可以看出這段在反思 “literacy” 這個詞本身的歷史。作者承認過去世代或許更 literate，但那只限於少數人；現代 “literacy” 概念也經過歷史重塑。題目若問 literacy 一詞、文化和讀寫分離，應看本段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 new media 不只指向未來 cyber-economy，也把 cultural past 帶給整個國家；最後一句說new media 結合 British broadcasting 的 public-service tradition，令 literary tradition available to all。只看首尾句，可以判斷結尾非常樂觀：新媒體能擴大接觸文化和文學傳統的機會。題目 17 問文章最後的 suggested meaning，答案大多要在這段找，而重點是 cultural information / literary heritage 的可及性增加。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "本文沒有 A、B、C 段落標記，所以我按自然段編為 Paragraph 1–9。標題和開首導語 “Are the electronic media…” 不計入 Paragraph 1。Golden Manual 也提醒，遇到無段落字母的文章，要先統一段落編號，之後所有題目都用同一套編號。"
+  ]
+}

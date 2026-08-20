@@ -1,0 +1,2052 @@
+{
+  "id": "p2-044-does-an-iq-test-prove-creativity",
+  "catalogueId": "p2-044",
+  "catalogueIds": [
+    "p2-044"
+  ],
+  "passage": 2,
+  "title": "Does An IQ Test Prove Creativity?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "A — Jamison",
+    "E — Teresa Amabile",
+    "F — Vera John-Steiner",
+    "C — Guy Claxton",
+    "D — Paul Howard-Jones",
+    "scalp electrodes",
+    "inspiration and elaboration",
+    "alpha wave activity",
+    "difference"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A high IQ guarantees greater creativity than an average IQ score does.”",
+      "translation": "高 IQ 保證一個人比平均 IQ 分數的人更有創造力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心是 guarantees，即「保證」。它要求原文支持一個很強的因果關係：IQ 高 → creativity 一定更高。這種絕對字眼要特別小心。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1970s, creativity was still seen as a type of intelligence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1970 年代初期，creativity 仍被視為 intelligence 的一種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While it depends on the discipline, in general, beyond a certain level, IQ does not help boost creativity; it is necessary but not sufficient to make someone creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這取決於不同學科，但一般來說，超過某個水平後，IQ 不會幫助提升 creativity；它是讓一個人有創意的必要條件，但並不足夠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 是 IQ 和 creativity 關係的修正段：過去把創意看成智力，後來研究發現這種關係有限。這和題目中的 high IQ、greater creativity 完全相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “high IQ”、“guarantees”、“greater creativity”。原文沒有 guarantees，但有更關鍵的反向訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“beyond a certain level, IQ does not help boost creativity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“necessary but not sufficient”。這些詞組直接處理 IQ 能否提升 creativity。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Creative people are intelligent, at least in terms of IQ tests, but their scores are often only average or slightly above average.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有創意的人是聰明的，至少以 IQ 測試來說如此；但他們的分數往往只是平均或略高於平均。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“beyond a certain level, IQ does not help boost creativity; it is necessary but not sufficient to make someone creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過某個水平後，IQ 不會幫助提升創意；IQ 是必要條件，但單靠它不足以令人有創意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 high IQ guarantees greater creativity。原文清楚降低了 IQ 的作用：creative people 的 IQ通常只是 average 或 slightly above average，而且 IQ 超過某水平後不會再 boost creativity。這與 guarantee 的強度相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "high IQ = beyond a certain level of IQ guarantees greater creativity = must boost creativity原文 = IQ does not help boost creativity beyond a certain level necessary but not sufficient = 有需要，但不足以保證結果判斷：原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “high IQ” 很容易令人聯想到 creative people are intelligent。不過真正定案的是後半句： IQ 只到某程度有用，之後不會繼續提升 creativity。看到 “necessary” 也不能立刻選 TRUE，因為同一句還有 “not sufficient”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In a competitive society, language proficiency is more important than other abilities.”",
+      "translation": "在競爭社會中，語言能力比其他能力更重要。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章有沒有比較 language proficiency 和 other abilities，並且限定在 competitive society。題目涉及 language ability，但全文主題是 creativity、IQ、personality、mental illness、brain activity、mood 和 social networks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最接近的可能段落：全篇沒有直接目標段落；可先從 Introduction 和 Paragraph A 排查。"
+            },
+            {
+              "kind": "label",
+              "text": "Introduction 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone has some creativity, though some people have much more than others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個人都有一定 creativity，只是有些人比其他人多很多。"
+            },
+            {
+              "kind": "label",
+              "text": "Introduction 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We asked writers and neuroscientists, pop stars and AI gurus to try to deconstruct the creative process—and learn how we can all ignite the spark within.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章訪問作家、神經科學家、流行歌手和 AI 專家，嘗試拆解 creative process，並學習如何點燃內在創意。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1970s, creativity was still seen as a type of intelligence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1970 年代初期，creativity 仍被視為 intelligence 的一種。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While it depends on the discipline, in general, beyond a certain level, IQ does not help boost creativity; it is necessary but not sufficient to make someone creative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般來說，超過某個水平後，IQ 不會幫助提升 creativity；它是必要條件，但並不足夠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些首尾句，文章焦點並不在 language proficiency，也沒有討論 competitive society。這提示我們這題很可能是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “competitive society”、“language proficiency”、“more important than other abilities”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描全文可見相關能力詞包括：● IQ● creative skills● personality● aesthetic qualities● broad interests● working memory● mental flexibility● evaluating and analysing ideas● social networks但全文沒有出現 language proficiency、language ability、competitive society，也沒有建立 “X is more important than other abilities” 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀資料缺口"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到很多能力。例如 Paragraph A 談 IQ 和 creativity："
+            },
+            {
+              "kind": "quote",
+              "text": "“beyond a certain level, IQ does not help boost creativity; it is necessary but not sufficient…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過某個水平後，IQ 不會幫助提升 creativity；它有必要，但不足以令人有創意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 談 personality 和 knowledge："
+            },
+            {
+              "kind": "quote",
+              "text": "“the ‘creative personality’ tends to place a high value on aesthetic qualities and to have broad interests…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "creative personality 往往重視審美品質，並有廣泛興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子說的是 creativity 的條件，並沒有提語言能力。題目要求的命題包括三部分：● competitive society● language proficiency● more important than other abilities原文沒有提供這三者之間的關係。文章沒有明確支持，也沒有明確否定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫檢查",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "language proficiency 可能等於 linguistic ability / verbal skill / communication skill，但原文沒有相關表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "competitive society 可能等於 workplace / organisations，但 Paragraph G 談的是 workplace creativity 和 positive moods，沒有比較語言能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "more important than other abilities 需要比較證據，原文沒有這種排序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章沒有足夠資料判斷題目真偽，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 writers、stories、story-making task，就聯想到 language。這只是合理聯想，並非文章證據。IELTS 的 NOT GIVEN 常見陷阱，就是題目說法聽起來合理，但文章沒有建立該比較關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Creative people can combine a wider range of resources and knowledge to develop novel approaches.”",
+      "translation": "有創意的人能結合更廣泛的資源和知識，發展新方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 creative people 是否能使用多種 resources 和 knowledge，再 recombine 成 novel solutions / approaches。控制詞是 “combine”、“resources and knowledge”、“novel approaches”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of the difficulty of studying the actual process, most early attempts to study creativity concentrated on personality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於研究實際 creative process 很困難，早期大多數 creativity 研究集中於 personality。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Creativity comes to those who wait, but only to those who are happy to do so in a bit of a fog.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Creativity 會來到願意等待的人身上，但只會來到那些即使有點迷霧、不太清楚，也樂於等待的人身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 是 creative personality 的特質段。題目問 creative people 如何使用 resources 和 knowledge，正好屬於人格和認知資源部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “resources”、“knowledge”、“novel approaches”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“providing lots of resources to draw on and knowledge to recombine into novel solutions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目高度吻合。題目把 “solutions” 改成 “approaches”，屬於合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to creativity specialist Mark Runco of California State University, Fullerton, the‘creative personality’ tends to place a high value on aesthetic qualities and to have broad interests, providing lots of resources to draw on and knowledge to recombine into novel solutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 California State University, Fullerton 的 creativity specialist Mark Runco，creative personality 往往重視審美品質，並有廣泛興趣，這提供大量可運用的資源，以及可重新組合成novel solutions 的知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 “the creative personality”。核心內容是 broad interests 帶來 lots of resources 和knowledge。這些 resources 和 knowledge 可被 recombine，產生 novel solutions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Creative people = the creative personality combine = recombine a wider range of resources = broad interests providing lots of resources knowledge = knowledge novel approaches = novel solutions判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a wider range” 原文沒有逐字說 wider range，但 “broad interests” 和 “lots of resources”已經支持範圍廣。這是可接受的概括，不是越界推論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A creative person does not necessarily suffer from mental illness.”",
+      "translation": "有創意的人不一定患有 mental illness。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題關鍵在 “does not necessarily”。它沒有否認 creativity 和 mental illness 有關，只是說creativity 不必然等於 mental illness。要找原文中對 prerequisite / link 的說法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jordan Peterson, a psychologist at the University of Toronto, Canada, believes he has identified a mechanism that could help explain this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加拿大 University of Toronto 的心理學家 Jordan Peterson 相信，他已找到一個 mechanism，可幫助解釋這種關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So for Peterson, mental illness is not a prerequisite for creativity, but it shares some cognitive traits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以對 Peterson 來說，mental illness 不是 creativity 的 prerequisite，但兩者分享某些 cognitive traits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能大致判斷題目方向。題目中的 “does not necessarily suffer” 對應 “not a prerequisite”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “mental illness” 和 “necessarily”。原文沒有 necessarily，但有 “not a prerequisite”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "prerequisite 指必要前提；not a prerequisite 表示不必然需要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So for Peterson, mental illness is not a prerequisite for creativity, but it shares some cognitive traits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以對 Peterson 來說，mental illness 不是 creativity 的必要前提，但它們分享一些認知特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句要分兩層讀：第一，mental illness is not a prerequisite for creativity。這直接支持題目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，creativity 和 mental illness share some cognitive traits。這表示兩者有部分相似認知特徵，但這種相似不等於所有 creative people 都患病。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 也提供背景："
+            },
+            {
+              "kind": "quote",
+              "text": "“For centuries, a link has been made between creativity and mental illness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個世紀以來，人們一直把 creativity 和 mental illness 連在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說有 link，但 link 不等於必然關係。Paragraph D 用 not a prerequisite 釐清了範圍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "does not necessarily suffer from mental illness = mental illness is not a prerequisite creative person = creativity / creative people suffer from = have / experience not necessarily = not required as a condition判斷：題目和原文意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 說 established artists 更可能有 mood disorders，這會令人誤以為 creative people必然有 mental illness。真正控制答案的是題目 “not necessarily” 和原文 “not a prerequisite”。兩者都在降低絕對程度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — Jamison",
+      "answerKey": "A — Jamison",
+      "type": "Matching Features",
+      "prompt": "“A change in mood, rather than a negative mood itself, may trigger creative thinking.”",
+      "translation": "觸發 creative thinking 的可能是 mood 的轉變，而非 negative mood 本身。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要找誰提出「mood change」和「negative mood itself」之間的區分。定位詞是 “change in mood”、“negative mood itself”、“trigger”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But there may be a price to pay for having a creative personality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "擁有 creative personality 可能要付出代價。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Intelligence can help channel this thought style into great creativity, but when combined with emotional problems, lateral, divergent or open thinking can lead to mental illness instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Intelligence 可以幫助把這種 thought style 引導成 great creativity；但當它和 emotional problems結合時，lateral、divergent 或 open thinking 也可能走向 mental illness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯講 creative personality、mental illness 和 emotional state 的關係。題目中的 mood 和 negative mood 應該在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “change in mood” 和 “negative mood itself”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“a change of mood state might be the key to triggering a creative event, rather than the negative mood itself.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎逐字改寫題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychiatrist Jamison of Johns Hopkins University in Baltimore, Maryland, found that established artists are significantly more likely to have mood disorders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baltimore, Maryland 的 Johns Hopkins University 精神科醫生 Jamison 發現，成名藝術家患mood disorders 的可能性明顯更高。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But she also suggests that a change of mood state might be the key to triggering a creative event, rather than the negative mood itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但她也指出，觸發 creative event 的關鍵可能是 mood state 的轉變，而非 negative mood 本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句主語是 she，指 Jamison。核心動詞是 suggests。重點是 mood state change 可能 triggering creative event。題目把 creative event 改成 creative thinking，意思相近。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A change in mood = a change of mood state may trigger creative thinking = might be the key to triggering a creative event rather than a negative mood itself = rather than the negative mood itself人物 = Jamison判斷：答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也談 positive moods 和 creativity，但它講 organisations 中正面情緒和 creativity的線性關係。Q18 的關鍵是 “rather than the negative mood itself”，這句只出現在 Jamison 的觀點中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E — Teresa Amabile",
+      "answerKey": "E — Teresa Amabile",
+      "type": "Matching Features",
+      "prompt": "“The more positive people’s moods are, the more creative they are in organisations.”",
+      "translation": "在 organisations 中，人們 mood 越正面，creativity 越高。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問人物觀點。定位詞是 “positive moods”、“creativity in organisations”。這些詞非常精準，會把我們帶到 workplace creativity 段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And creativity need not always be a solitary, tortured affair, according to Teresa Amabile of Harvard Business School.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Harvard Business School 的 Teresa Amabile，creativity 不一定總是孤獨、痛苦的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Time pressures, financial pressures and hard-earned bonus schemes, on the other hand, do not boost workplace creativity: internal motivation, not coercion, produces the best work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，時間壓力、財務壓力和辛苦賺來的獎金制度並不會提升 workplace creativity；internal motivation，而非強迫，才產生最佳作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段談 workplace creativity、moods 和 motivation。題目中的 organisations 明顯對應這段中間的 businesses / organisations。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “positive moods” 和 “organisations”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“positive moods relate positively to creativity in organisations, and that the relationship is a simple linear one.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是目標句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a decade-long study of real businesses, to be published soon, Amabile found that positive moods relate positively to creativity in organisations, and that the relationship is a simple linear one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項為期十年的真實企業研究中，Amabile 發現 positive moods 和 organisations 中的creativity 呈正向關係，而且這種關係是 simple linear one。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“simple linear one” 表示關係直接、線性：mood 越正面，creativity 越高。題目用 “The more positive … the more creative” 正好把 linear positive relationship 轉成比較句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive people’s moods = positive moods the more creative they are = relate positively to creativity in organisations = in organisations / real businesses人物 = Teresa Amabile判斷：答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 mood disorders 和 creativity，但那裡是 mental illness / artists 的角度。 Question 19 指定 organisations，最直接證據只在 Teresa Amabile 的 decade-long business study。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F — Vera John-Steiner",
+      "answerKey": "F — Vera John-Steiner",
+      "type": "Matching Features",
+      "prompt": "“Strong interpersonal relationships and trust contribute to creativity.”",
+      "translation": "強大的人際關係和信任有助於 creativity。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 social / interpersonal / trust 的觀點。定位詞是 “relationships”、“trust”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another often forgotten aspect of creativity is social.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "creativity 另一個經常被忘記的方面是 social。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One vital characteristic of a highly creative person, she says, is that they have at least one other person in their life who doesn’t think they are completely nuts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，高度 creative 的人有一個重要特徵：生命中至少有另一個人不覺得他們完全瘋狂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 清楚談 social aspect of creativity。題目中的 interpersonal relationships 和 trust 應該在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “relationships” 和 “trust”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“you need strong social networks and trusting relationships”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句即是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vera John-Steiner of the University of New Mexico says that to be really creative you need strong social networks and trusting relationships, not just active neural networks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of New Mexico 的 Vera John-Steiner 說，要真正有創造力，你需要 strong social networks 和 trusting relationships，不只需要 active neural networks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主語是 Vera John-Steiner。核心動詞是 says。她的觀點很清楚：真正的 creativity 需要 social networks 和 trusting relationships。題目把 strong social networks 改寫成 strong interpersonal relationships。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "strong interpersonal relationships = strong social networks trust = trusting relationships contribute to creativity = to be really creative you need…人物 = Vera John-Steiner判斷：答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “interpersonal” 未在原文逐字出現，但 “social networks” 和 “trusting relationships” 已經完整支援。不要只因沒有 interpersonal 這個字而放棄 Paragraph H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C — Guy Claxton",
+      "answerKey": "C — Guy Claxton",
+      "type": "Matching Features",
+      "prompt": "“Creativity requires the ability to move easily between different kinds of thinking.”",
+      "translation": "creativity 需要能夠在不同 thinking states 之間靈活轉換。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰說 creativity 需要 different kinds of thinking，以及 creative people 能 move between states。定位詞是 “move easily”、“different kinds of thinking”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what of the creative act itself?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼 creative act itself 又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a later study, Martindale found that communication between the sides of the brain is also important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後來的研究中，Martindale 發現大腦兩側之間的 communication 也很重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段是 creative brain at work 的研究段。Guy Claxton 的引言出現在 Martindale 研究之後，用來總結 thinking states 的轉換。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “different kinds of thinking” 和 “move between”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Creativity requires different kinds of thinking. Very creative people move between these states intuitively.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 Guy Claxton 的話。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s as if the less creative person can’t shift gear,’ says Guy Claxton, a psychologist at the University of Bristol, UK.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 University of Bristol 的心理學家 Guy Claxton 說：「這就像較不具創造力的人不能換檔。」接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Creativity requires different kinds of thinking. Very creative people move between these states intuitively.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「Creativity 需要不同種類的 thinking。非常 creative 的人會憑直覺在這些 states 之間轉換。」這裡的 “shift gear” 是比喻，意思是切換思考模式。題目把 “move intuitively” 改成 “move easily”，意思相近。different kinds of thinking 逐字重現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "move easily = move intuitively / shift gear different kinds of thinking = different kinds of thinking creativity requires = creativity requires人物 = Guy Claxton判斷：答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Martindale 是做 brain-wave study 的研究者，但選項列表沒有 Martindale。題目問這句 opinion屬於誰，原文 reporting verb “says Guy Claxton” 是定案訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D — Paul Howard-Jones",
+      "answerKey": "D — Paul Howard-Jones",
+      "type": "Matching Features",
+      "prompt": "“Creative thinking can improve when people practise assessing and processing ideas.”",
+      "translation": "當人練習評估和處理 ideas 時，creative thinking 可以提升。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 evaluating、analysing、assessing ideas 的觀點。定位詞是 “assessing”、“processing ideas”、“improve”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Howard-Jones, who works with Claxton at Bristol, believes he has found another aspect of creativity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Bristol 和 Claxton 共事的 Paul Howard-Jones 相信，他已找到 creativity 的另一個方面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The test also shows that the more we try and are stretched, the more creative our minds can be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項測試也顯示，我們越努力、越被拉伸，思維可以變得越有創意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 會講 Howard-Jones 的創造力研究，尤其是 effort、stretching 和creativity 的提升。題目問 assessing / processing ideas，應看本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “assessing” 和 “processing ideas”。原文沒有 assessing，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“we have to assess”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evaluating and analysing ideas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是直接近義詞。掃描到這句便要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story-making task, particularly when we are stretched, produces many options which we have to assess.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個編故事任務，尤其當我們被拉伸時，會產生許多 options，而我們需要評估這些 options。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“So part of creativity is a conscious process of evaluating and analysing ideas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 creativity 的一部分，是有意識地 evaluating and analysing ideas 的過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The test also shows that the more we try and are stretched, the more creative our minds can be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "測試也顯示，我們越努力、越被拉伸，思維可以變得越有創意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “assessing and processing ideas” 概括了 “assess options” 和 “evaluating and analysing ideas”。“can improve” 對應最後一句 “the more creative our minds can be”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "assessing ideas = assess options / evaluating ideas processing ideas = analysing ideas creative thinking can improve = more creative our minds can be人物 = Paul Howard-Jones判斷：答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也講 brain becoming busier 和 organised thinking，但那是 Martindale / Claxton 對inspiration 和 elaboration 的研究。Q22 的 evaluating and analysing ideas 是 Howard-Jones 段落的明確表述。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "scalp electrodes",
+      "answerKey": "scalp electrodes",
+      "type": "Summary Completion",
+      "prompt": "“In 1978, Colin Martindale recorded patterns of brain waves while people made up stories, using a network of 23 __________.”",
+      "translation": "1978 年，Colin Martindale 在人們編故事時記錄 brain waves 的 patterns，使用的是一個由__________ 組成的 network。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，答案不超過三個字。空格前有 “a network of”，後面需要一個複數名詞短語，表示 Martindale 用來記錄 EEG 的工具。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what of the creative act itself?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼 creative act itself 又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a later study, Martindale found that communication between the sides of the brain is also important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後來研究中，Martindale 發現大腦兩側之間的 communication 也很重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 會從 creative personality 轉到 creative brain at work。題目有 1978、Colin Martindale、brain waves，必定在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1978”、“Colin Martindale”、“network”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back in 1978, he used a network of scalp electrodes to record an electroencephalogram…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整對應 summary。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back in 1978, he used a network of scalp electrodes to record an electroencephalogram, a record of the pattern of brain waves, as people made up stories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早在 1978 年，他使用一組 scalp electrodes network 來記錄 electroencephalogram，即 brain waves pattern 的記錄，當時人們正在編故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “record an electroencephalogram, a record of the pattern of brain waves” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“recorded patterns of brain waves”。空格要填 network 的組成部分：scalp electrodes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "recorded patterns of brain waves = record an electroencephalogram while people made up stories = as people made up stories using a network of = used a network of scalp electrodes = scalp electrodes答案形式檢查：“scalp electrodes” 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 electroencephalogram。它是被記錄的結果，不是 network 的組成物。空格前的 “network of” 明確要求一組實體工具。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "inspiration and elaboration",
+      "answerKey": "inspiration and elaboration",
+      "type": "Summary Completion",
+      "prompt": "“He identified two stages of creativity, including 24 __________.”",
+      "translation": "他辨認出 creativity 的兩個階段，包括 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前說 “two stages”，答案最自然要填兩個 stage 名稱。字數限制是 NO MORE THAN THREE WORDS，因此 “inspiration and elaboration” 剛好三個字，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what of the creative act itself?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼 creative act itself 又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a later study, Martindale found that communication between the sides of the brain is also important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後來研究中，Martindale 發現大腦兩側之間的 communication 也重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是分析 creative act 的腦活動。題目問 stages of creativity，應看 Martindale 研究的核心總結句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “two stages”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Creativity has two stages: inspiration and elaboration…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句就是答案來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Creativity has two stages: inspiration and elaboration, each characterised by very different states of mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Creativity 有兩個階段：inspiration 和 elaboration；每個階段都有非常不同的 mental states。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句用冒號直接給出定義。stage 1 是 inspiration，即靈感形成、想法冒出的階段。stage 2 是elaboration，即把想法發展、整理、加工的階段。題目說 “two stages of creativity”，因此把兩個名稱都填入最完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "identified two stages = creativity has two stages including = colon introducing the two names inspiration and elaboration = inspiration and elaboration答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“inspiration and elaboration” 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "只填 inspiration 也與下一句 “while people planned their stories” 有關，但題目明確說 “two stages”。若只填一個 stage，資訊不夠完整。原文直接列出兩個 stage，所以填兩者最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "alpha wave activity",
+      "answerKey": "alpha wave activity",
+      "type": "Summary Completion",
+      "prompt": "“When the participants began developing their stories, 25 __________ decreased and the brain became busier, showing greater cortical arousal.”",
+      "translation": "當參加者開始發展自己的 stories 時，__________ 下降，大腦變得更忙碌，顯示 cortical arousal增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後有 decreased，所以答案需要一個可下降的名詞短語。題目中的 developing their stories對應原文 “work on their stories”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what of the creative act itself?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼 creative act itself 又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a later study, Martindale found that communication between the sides of the brain is also important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後來研究中，Martindale 發現大腦兩側 communication 也重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中間會比較 inspiration 和 elaboration 兩階段的 brain activity。題目問 developing stories 時什麼下降，應定位到 elaboration / work on stories 那句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “began developing their stories”、“decreased”、“brain became busier”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“when these quiet-minded people were asked to work on their stories, the alpha wave activity dropped off and the brain became busier…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dropped off” 就是 decreased。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“However, when these quiet-minded people were asked to work on their stories, the alpha wave activity dropped off and the brain became busier, revealing increased cortical arousal, more corralling of activity and more organised thinking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，當這些 quiet-minded people 被要求處理自己的故事時，alpha wave activity 下降，大腦變得更忙碌，顯示 cortical arousal 增加、活動更被整合、思考更有組織。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “work on their stories” 改寫成 “began developing their stories”。“dropped off” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“decreased”。所以空格填 “alpha wave activity”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "began developing their stories = were asked to work on their stories decreased = dropped off brain became busier = the brain became busier alpha wave activity = alpha wave activity答案形式檢查：“alpha wave activity” 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 cortical arousal。原文說 cortical arousal increased，題目說空格項 decreased。方向相反。真正下降的是 alpha wave activity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "difference",
+      "answerKey": "difference",
+      "type": "Summary Completion",
+      "prompt": "“The people with the greatest 26 __________ in brain activity between the two stages produced the most creative storylines.”",
+      "translation": "在兩個階段之間 brain activity 的 __________ 最大的人，創作出最有創意的 storylines。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 greatest，後面有 “in brain activity between the two stages”，所以答案需要一個名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目基本改寫原文 “biggest difference”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what of the creative act itself?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼 creative act itself 又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a later study, Martindale found that communication between the sides of the brain is also important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後來研究中，Martindale 發現大腦兩側 communication 也重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 creative brain activity，尤其 inspiration 和 development stages 的差異。題目提到 two stages、brain activity、creative storylines，必然在本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “most creative storylines” 和 “brain activity between the two stages”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the people who showed the biggest difference in brain activity between the inspiration and development stages who produced the most creative storylines.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與 summary 幾乎一致。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Strikingly, it was the people who showed the biggest difference in brain activity between the inspiration and development stages who produced the most creative storylines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "引人注目的是，那些在 inspiration 和 development stages 之間 brain activity 差異最大的人，創作出了最有創意的 storylines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 greatest 對應原文 biggest。空格後已經有 “in brain activity”，所以只需要填名詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“difference”。如果填 “difference in brain activity”，句子會變成 “greatest difference in brain activity in brain activity”，重複而不自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "greatest = biggest two stages = inspiration and development stages produced the most creative storylines = produced the most creative storylines difference = difference答案形式檢查：“difference” 是一個字，符合 NO MORE THAN THREE WORDS，也最符合空格前後文法。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 two stages，原文此處用 “inspiration and development stages”。前面原文用 “elaboration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，後面用 “development” 描述第二階段。兩者在此語境中指同一個發展故事、加工想法的階段。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Does An IQ Test Prove Creativity_.pdf",
+    "sha256": "79ef4ad6682c48f22a38672d74b06bb68092c9d81b59a0ed3ae983b37aa1c33c",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "首句說每個人都有一定 creativity，只是有人比其他人多很多。末句說文章訪問 writers、neuroscientists、pop stars 和 AI gurus，希望拆解 creative process，並學習如何點燃內在創意。只看首尾句，可以估計開首是總引入：creativity 很重要，卻難以定義和觀察，因此後文會從心理學、腦科學、人格、情緒、社交關係等角度拆解創造力。",
+        "label": "Introduction"
+      },
+      {
+        "number": "A",
+        "summary": "首句說 1970s 初期，creativity 仍被視為一種 intelligence。末句指出 IQ 對 creativity 來說necessary but not sufficient。只看首尾句，可以估計本段會處理 IQ 和 creativity 的關係：早期大家把創意看成智力，但 Torrance 等較細緻測試顯示兩者關係較複雜。題目若問 high IQ 是否保證creativity，這段必然是核心定位段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說，由於研究實際 creative process 很困難，早期研究多集中在 personality。末句說creativity comes to those who wait，但只給那些願意在迷霧中等待的人。只看首尾句，可以估計本段描述 creative personality：創意人格重視審美、有廣泛興趣、能處理複雜和衝突，也較能忍受不清晰狀態。題目若問 resources、knowledge、novel solutions，應定位本段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句提出 creative personality 可能有代價。末句說 intelligence 可把某種 thought style 引向great creativity，但若和 emotional problems 結合，也可能走向 mental illness。初步來看，本段集中講 creativity、mood disorders 和 mental illness 的關係。Jamison 的觀點會在這段出現，尤其是mood state change 可能觸發 creative event 這個細節。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Jordan Peterson 相信自己找到一個可解釋 creativity 和 mental illness 關係的mechanism。末句說，對 Peterson 來說，mental illness 不是 creativity 的 prerequisite，但兩者分享一些 cognitive traits。只看首尾句，這段是神經認知解釋段：creative brains 對 incoming stimuli更開放，latent inhibition 較低，可能看見更多 ideas，但極低時也有 mental illness 風險。"
+      },
+      {
+        "number": "E",
+        "summary": "首句轉問 creative act itself，即創作行為本身。末句說，在後來研究中，Martindale 發現大腦兩側的 communication 也重要。只看首尾句，本段應該進入腦活動研究：Colin Martindale 用 scalp electrodes 記錄 brain waves，發現 creativity 涉及 inspiration 和 elaboration 兩階段，alpha waves、cortical arousal、mental flexibility 都會成為答案線索。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Paul Howard-Jones 相信自己找到 creativity 的另一面。末句說測試也顯示，人越努力、越被拉伸，思維可以越具創造力。初步來看，本段是 fMRI 研究段：受試者用三個詞編故事，有時要給 obvious story，有時要 inventive。研究指出右側 prefrontal region 活躍，這和 monitoring conflict、filtering unhelpful connections、evaluating ideas 有關。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說，按照 Teresa Amabile，creativity 不一定是 solitary, tortured affair。末句說 time pressures、financial pressures 和 bonus schemes 不會提升 workplace creativity；internal motivation 才產生最佳作品。只看首尾句，可以估計本段集中講 workplace creativity、positive moods 和motivation。題目若問 organisations、positive mood、workplace creativity，答案很可能在此段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說，creativity 另一個常被遺忘的方面是 social。末句說，一個 highly creative person 的重要特徵是，生命中至少有一個人不覺得他完全瘋狂。只看首尾句，本段是社交關係總結段：Vera John-Steiner 認為真正創造力需要 strong social networks 和 trusting relationships，不只需要active neural networks。題目若問 trust 或 interpersonal relationships，應定位此段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航；這一步只建立「段落可能功能」，答案仍要靠 Scan 和Read 驗證。"
+  ]
+}

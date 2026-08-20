@@ -1,0 +1,1353 @@
+{
+  "id": "p2-095-looking-for-life-on-the-ocean-wave",
+  "catalogueId": "p2-095",
+  "catalogueIds": [
+    "p2-095"
+  ],
+  "passage": 2,
+  "title": "Looking for Life on the Ocean Wave",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "H",
+    "B",
+    "D",
+    "A",
+    "C",
+    "D",
+    "F",
+    "G",
+    "B",
+    "A",
+    "A, B",
+    "嚴格來說沒有完全正確選項；若考試必須填字母，A 是最接近但方向寫反"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "如何拯救世界？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “How to save the world?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Put one buccaneering entrepreneur-cum-bioscientist on a luxury yacht.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把一位像冒險家般的企業家兼生物科學家放到一艘豪華遊艇上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then hijack the molecular machinery of these microbes to make clean energy, develop new drugs or boost the ability of the Earth’s lungs to ‘breathe’ more carbon dioxide, and so limit global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後利用這些微生物的分子機制來製造清潔能源、開發新藥，或提升地球「肺部」吸收更多二氧化碳的能力，從而限制全球暖化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 是一個宏大、戲劇化的開場。它先塑造一個科學冒險場景，再把海洋微生物研究連到 clean energy、new drugs、carbon dioxide 和 global warming。這和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“How to save the world?” 的語氣很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “save the world”。原文沒有直接寫 save the world，所以要找與「拯救世界」相關的結果詞，例如 clean energy、new drugs、carbon dioxide、limit global warming。 Paragraph A 最後一句同時出現三個大型應用： make clean energy develop new drugs limit global warming這些都是能改善全球環境和人類未來的方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "真正支援 heading 的短語是：“make clean energy, develop new drugs ... limit global warming”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造清潔能源、開發新藥、限制全球暖化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading “How to save the world?” 是一個概括式標題，不會逐字重複原文。Paragraph A 的功能正是用一個「配方」般的方式，提出 Venter 的項目可能如何解決能源、醫療和氣候問題。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 和 G 也談 clean fuel、carbon dioxide 和 climate change，因此也有「拯救世界」味道。不過 F 主要講 discoveries 和 Synthetic Genomics 的 commercial application；G 主要講phages 和 carbon-capturing organisms。A 覆蓋面最大，作為 opening overview，最能承載 “How to save the world?” 這個 heading。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "研究推翻或反駁傳統觀念。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “Research contradicts conventional ideas”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The biggest impact of his project has been on basic science, overturning many established ideas about the tree of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的項目對基礎科學最大的影響，是推翻許多關於生命之樹的既有觀念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, they use this ‘light-harvesting’ machinery to pump charged atoms in the equivalent of solar batteries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，它們使用這種「光收集」機制，把帶電原子泵入相當於太陽能電池的系統中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接出現 “overturning many established ideas”，即推翻既有觀念。這和 heading"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Research contradicts conventional ideas” 幾乎是同義關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “contradicts conventional ideas”。原文對應：“overturning many established ideas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常強的同義改寫： contradicts = overturning conventional ideas = established ideas"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It used to be thought that the protein pigment in our own eyes that enables us to detect light was rare. But Venter’s gene trawl reveals that all surface marine organisms make proteorhodopsins that detect coloured light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去人們以為，人眼中使我們能偵測光線的蛋白色素很罕見。但 Venter 的基因搜尋顯示，所有海洋表層生物都會製造能偵測有色光的 proteorhodopsins。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有清楚的舊觀念與新發現對照：舊觀念：這類 protein pigment 很 rare。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "新發現：all surface marine organisms make proteorhodopsins。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果：它們是 “one of the most abundant and important gene families on the planet”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph H 最適合 heading 15。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "基因組競賽的勝出者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “Genome race winner”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This may sound like the outline for a sci-fi potboiler, but it sums up the remarkable efforts of Craig Venter, the maverick American scientist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這聽起來可能像科幻通俗小說的大綱，但它概括了美國非傳統科學家 Craig Venter 的非凡努力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was the culmination of a bitter race with an international consortium of government labs, and his bull-in-a-china-shop approach earned him the epithet ‘the bad boy of science’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一場與國際政府實驗室聯盟激烈競賽的高潮；他那種橫衝直撞的做法令他得到 “the bad boy of science” 這個稱號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 很明顯在介紹 Venter 的成名背景，尤其是 human genome race。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Genome race winner”。掃描 Paragraph B，看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“he had identified all the genes – the genome – in the DNA of a human being”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the culmination of a bitter race”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語把 genome 和 race 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seven years ago, Venter announced at the White House that he had identified all the genes –the genome – in the DNA of a human being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "七年前，Venter 在白宮宣布，他已辨認出一個人類 DNA 中所有 genes，即 genome。"
+            },
+            {
+              "kind": "label",
+              "text": "後面說這是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the culmination of a bitter race with an international consortium of government labs”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一場與國際政府實驗室聯盟激烈競賽的高潮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading “Genome race winner” 把這段濃縮成一個標題。原文沒有直接用 winner，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“announced at the White House that he had identified all the genes” 加上 “culmination of a bitter race” 已清楚說明他在這場競賽中取得突破性成果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "微生物的重要性。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “The importance of microbes”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Microbes make up the vast majority of life on the planet and account for up to 90 per cent of the biological mass in the sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "微生物構成地球上絕大部分生命，並佔海洋生物量高達 90%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It is important to understand their role and function to ensure the survival of the planet and human life,’ says Venter, who is founder and chairman of the J. Craig Venter Institute in Rockville, Maryland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venter 說：「要確保地球和人類生命的存續，理解它們的角色和功能很重要。」首尾句都直接指向 microbes 的重要性。第一句用數量和比例說明它們龐大，最後一句明確說理解它們對 planet 和 human life survival 很重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “importance” 和 “microbes”。Paragraph D 反覆出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“vast majority of life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“central processors of matter and energy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“responsible for the creation and maintenance of the air we breathe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biggest hope of slowing global warming”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都在建立 microbes 的核心地位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are the central processors of matter and energy in ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們是生態系統中物質和能量的核心處理者。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are responsible for the creation and maintenance of the air we breathe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們負責創造並維持我們呼吸的空氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上最後 Venter 的引文，Paragraph D 的主旨就是 microbes 對地球生命系統、空氣、碳循環和人類存續的重要性。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A, C, D, F, G",
+      "answerKey": "A, C, D, F, G",
+      "type": "Five true statements",
+      "prompt": "Questions 18–22",
+      "translation": "八個選項中有五個正確，答案可用任何次序填入 18–22。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目要求："
+            },
+            {
+              "kind": "quote",
+              "text": "“FIVE of the following statements are true.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A — Craig Venter is an unconventional scientist."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim / Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。定位詞是 “unconventional scientist”。原文沒有用 unconventional，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the maverick American scientist”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位非傳統、特立獨行的美國科學家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“maverick” 指不按常規、獨立行事、作風非典型的人。Paragraph B 後面還說他的“bull-in-a-china-shop approach” 令他得到 “the bad boy of science” 的稱號。這進一步支援他是unconventional。所以 A 正確。 B — Venter has no scientific qualifications."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “no scientific qualifications”。文章沒有說 Venter 沒有科學資格。相反，Paragraph B 稱他為：“the maverick American scientist”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 又說他是："
+            },
+            {
+              "kind": "quote",
+              "text": "“founder and chairman of the J. Craig Venter Institute”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文把他清楚定位為 scientist，並介紹他的 genome research、synthetic genome 和 marine DNA project。選項 B 的 “no scientific qualifications” 缺乏原文支援，還和人物身份方向不合，所以不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — Carbon is used to make shells for sea creatures."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim / Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。定位詞是 “carbon” 和 “shells”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our oceans are the biggest ‘sink’ of carbon, thanks in part to organisms that absorb carbon from the atmosphere to build their skeletons and shells, like ‘lungs’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的海洋是最大的 carbon「儲存槽」，部分原因是一些生物從大氣吸收 carbon，用來建造自己的骨骼和外殼，像「肺」一樣運作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項說 carbon is used to make shells。原文說 organisms absorb carbon ... to build their skeletons and shells。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "make shells = build shells。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sea creatures = marine organisms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — The Sargasso Sea has long been thought of as not rich in life."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim / Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。定位詞是 “Sargasso Sea” 和 “not rich in life”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Sorcerer II expedition began with a pilot project in 2003 in the Sargasso Sea near Bermuda in which more than a million new genes were discovered in what was thought to be the marine equivalent of a desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sorcerer II 探險由 2003 年在百慕達附近 Sargasso Sea 的試驗項目開始；在那個被認為是海洋沙漠的地方，他們發現了超過一百萬個新 genes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“marine equivalent of a desert” 即海洋中的沙漠，比喻生命或營養看似貧乏。選項的 “not rich in life” 是對這個比喻的普通說法。D 正確。 E — The genes Venter has discovered are interesting, but scientifically useless."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “scientifically useless”。原文的方向完全不同。Paragraph F 說：“Venter’s bounty doubles the number known to science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venter 的收穫令科學界已知的 genes 數量翻倍。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The biggest impact of his project has been on basic science, overturning many established ideas about the tree of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的項目對基礎科學最大的影響，是推翻許多關於生命之樹的既有觀念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說這些 genes 對 science 很重要，甚至 double the number known to science，還改變 basic science 的觀念。E 說 scientifically useless，和原文方向相反，所以不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F — Venter wants to make bacteria resistant to viruses."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim / Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。定位詞是 “bacteria resistant to viruses”。原文直接說："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“If we can understand this relationship better, and find out how to inhibit the viruses, or make the bacteria resistant, we would have a lot more organisms capturing carbon dioxide,” says Venter."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venter 說，如果我們能更好理解這種關係，並找出如何抑制 viruses，或令 bacteria 具抵抗力，就會有更多 organisms 捕捉 carbon dioxide。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 F 幾乎直接改寫原文： make bacteria resistant to viruses= make the bacteria resistant, in relation to phages / bacterial viruses所以 F 正確。 G — Microbes may use sunlight as energy but without photosynthesis."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim / Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。定位詞是 “sunlight”、“energy”、“without photosynthesis”。原文說：“Venter believes these proteins help microbes to use energy from the sun, as plants do, but without photosynthesis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venter 相信這些 proteins 幫助 microbes 像植物一樣使用太陽能，但不經過 photosynthesis。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 G 是原文的直接改寫： sunlight as energy= energy from the sun without photosynthesis= but without photosynthesis所以 G 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H — Bacteria can protect microbes from too much sunlight."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “protect microbes” 和 “sunlight”。Paragraph I 有相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team discovered many new proteins that protect microbes from UV rays and some that are involved in repairing the damage caused by UV.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊發現許多新 proteins，可以保護 microbes 免受 UV rays 傷害，也有些參與修復 UV 造成的損害。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 proteins protect microbes from UV rays。選項 H 把主體改成 bacteria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "proteins ≠ bacteria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 H 不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B — owns a floating laboratory.",
+      "answerKey": "B — owns a floating laboratory.",
+      "type": "Choose the correct",
+      "prompt": "Craig Venter A is the only person to have read his own genetic code. B owns a floating laboratory. C disagrees with Darwin’s theory of evolution.",
+      "translation": "Craig Venter 哪一項描述正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It did not deter him, and while many of the critics in the scientific establishment who vilified him disappeared from view, Venter went on to become the first person to read his own genome and is also undertaking an extraordinary effort to create a synthetic genome for an artificial organism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些批評沒有阻止他；當許多曾猛烈批評他的科學建制派人士淡出視野時，Venter 後來成為第一個讀取自己 genome 的人，並且正進行一項非凡工作：為人工生物創造 synthetic genome。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He calls his approach ‘metagenomics’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他把自己的方法稱為 “metagenomics”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 主要講 Venter 現時的研究方法和 Sorcerer II 這艘船，所以選項 B 很可能在此。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞： floating laboratory own / his Darwin own genome原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“His 29-metre sloop, Sorcerer II, is a floating laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他那艘 29 米長的單桅帆船 Sorcerer II 是一個 floating laboratory。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 正確，因為 “His ... sloop” 表示這艘船屬於他或由他使用；“is a floating laboratory” 直接對應選項。"
+            },
+            {
+              "kind": "label",
+              "text": "A 錯在 “only”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first person to read his own genome”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "first person = 第一個人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "only person = 唯一一個人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個不等於唯一一個；後來可能有其他人做到。"
+            },
+            {
+              "kind": "label",
+              "text": "C 錯在關係錯置。原文說 Venter 的海洋基因研究是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the modern answer to Charles Darwin’s 19th-century voyage on HMS Beagle”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是對 Darwin 19 世紀 HMS Beagle 航行的現代回應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是類比 Darwin 的航行，不表示 Venter disagrees with Darwin’s theory of evolution。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — took place in the Sargasso Sea.",
+      "answerKey": "A — took place in the Sargasso Sea.",
+      "type": "Choose the correct",
+      "prompt": "Craig Venter’s pilot project A took place in the Sargasso Sea. B ended at the Galapagos Islands. C gave him the idea of writing his autobiography.",
+      "translation": "Craig Venter 的 pilot project 有甚麼正確描述？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Sorcerer II expedition began with a pilot project in 2003 in the Sargasso Sea near Bermuda in which more than a million new genes were discovered in what was thought to be the marine equivalent of a desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sorcerer II 探險由 2003 年在百慕達附近 Sargasso Sea 的 pilot project 開始；在那個被認為是海洋沙漠的地方，他們發現了超過一百萬個新 genes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One in particular, through the Panama Canal, up to Cocos Island and down to the Galapagos,‘was a transforming event, phenomenal’ as he combined genomics with writing an autobiography and diving with sharks, all under the gaze of a Discovery Channel TV crew.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一次旅程經 Panama Canal，到 Cocos Island，再到 Galapagos；他形容那是一次改變性的、非凡的經歷，當時他把 genomics、自傳寫作和與鯊魚潛水結合起來，全程在 Discovery Channel攝製隊注視下進行。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “pilot project”。原文第一句直接命中："
+            },
+            {
+              "kind": "quote",
+              "text": "“a pilot project in 2003 in the Sargasso Sea near Bermuda”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。pilot project 的地點清楚是 Sargasso Sea near Bermuda。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有地名干擾。Galapagos 的確出現在同一段，但那是後來某次 major ocean passage 的地點，並非 pilot project 的地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 把兩件事混在一起。原文說他在一次旅程中 combined genomics with writing an autobiography，沒有說 pilot project gave him the idea of writing autobiography。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "Synthetic Genomics, owned by Venter, hopes to A make fuel from carbon dioxide. B produce hydrogen. C discover more species of microbe.",
+      "translation": "Venter 擁有的 Synthetic Genomics 希望做甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A flood of discoveries has emerged from the latest phase of the expedition, which used phenomenal computing power to reconstruct and analyse microbial DNA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這次 expedition 的最新階段湧現大量發現，並使用驚人的 computing power 來重建和分析microbial DNA。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another target is hydrogen production, the ultimate clean fuel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個目標是 hydrogen production，即終極清潔燃料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只列出發現，也轉到 Synthetic Genomics 的應用目標，所以 Question 25 明顯定位到Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Synthetic Genomics”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“His company, Synthetic Genomics, wants to harness this genetic information and use the microbes to turn carbon dioxide into propane and other fuels, short-circuiting the traditional geological process in which ancient creatures are compressed into coal and oil over the aeons. Another target is hydrogen production, the ultimate clean fuel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的公司 Synthetic Genomics 希望利用這些 genetic information，並使用 microbes 把 carbon dioxide 轉化為 propane 和其他 fuels，繞過傳統地質過程，即古代生物經漫長年代被壓縮成 coal和 oil。另一個目標是 hydrogen production，即終極清潔燃料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確： make fuel from carbon dioxide= turn carbon dioxide into propane and other fuels B 正確： produce hydrogen= hydrogen production C 不選。文章確實說 expedition 發現了 400 newly discovered microbes，但這是 Venter’s team returned to port with 的研究成果。Synthetic Genomics 的目標是 harness genetic information、make fuels、hydrogen production。原文沒有說這家公司希望 discover more species of microbe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A, B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "嚴格來說，沒有完全正確選項。若考試必須填字母，A 是最接近，但題目選項方向寫反。",
+      "answerKey": "嚴格來說，沒有完全正確選項。若考試必須填字母，A 是最接近，但題目選項方向寫反。",
+      "type": "Choose the correct",
+      "prompt": "Before Venter’s study, it was thought that A nutrient levels depended on the number of organisms that eat carbon. B certain viruses keep microbe levels under control. C bacteria might be responsible for climate change.",
+      "translation": "在 Venter 的研究之前，人們認為甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it comes to climate change, the expedition has thrown up another key insight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "談到 climate change，這次 expedition 也帶來另一個重要見解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If we can understand this relationship better, and find out how to inhibit the viruses, or make the bacteria resistant, we would have a lot more organisms capturing carbon dioxide,’ says Venter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venter 說：「如果我們能更好理解這種關係，並找出如何抑制 viruses，或令 bacteria 具抵抗力，就會有更多 organisms 捕捉 carbon dioxide。」Paragraph G 是 climate change 和 carbon-capturing organisms 的段落，也包含 “it used to be thought”，所以 Question 26 一定看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Before Venter’s study” 和 “it was thought that”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parts of the ocean have more carbon-hungry organisms than others, and it used to be thought that populations reflected local nutrient levels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋某些部分有更多 carbon-hungry organisms；過去人們認為，這些族群數量反映當地 nutrient levels。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Venter has found that this may not be the case.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venter 發現情況可能未必如此。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文的舊觀念是： populations reflected local nutrient levels這裡 populations 指 carbon-hungry organisms 的 population levels，即數量或族群規模。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：人們以前以為，某地有多少 carbon-hungry organisms，反映該地 nutrient levels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更自然的改寫應該是： The number of carbon-hungry organisms depended on local nutrient levels.吃 carbon 的 organisms 數量取決於當地營養水平。"
+            },
+            {
+              "kind": "label",
+              "text": "但選項 A 寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“nutrient levels depended on the number of organisms that eat carbon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "營養水平取決於吃 carbon 的 organisms 數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這把因果方向倒轉了。原文是 populations reflected nutrient levels；選項 A 是 nutrient levels depended on populations。嚴格按文章，A 不能完全成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 是 Venter 的新發現方向，不是 “Before Venter’s study” 的舊觀念。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The culprit could be bacterial viruses—phages—which keep microbe levels low in some seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "元兇可能是 bacterial viruses，即 phages；它們令某些海域的 microbe levels 維持在較低水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 Venter has found 後面的新 insight，所以 B 的時間錯了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 沒有原文支援。文章談 bacteria / microbes capture carbon dioxide，沒有說 bacteria might be responsible for climate change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這題有選項設計問題。若按 IELTS 嚴格閱讀，沒有一個選項完全符合原文。若考試答案表強制要求一個字母，A 很可能是出題者想考的舊觀念，但它的 wording 把方向寫反。真正準確答案應為： carbon-hungry organism populations reflected local nutrient levels."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Looking for Life on the Ocean Wave.pdf",
+    "sha256": "4f2a73354df662e5b64688f22d8ade26ff88f4f7edd2714fd015a6e70000dbac",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句段 Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句用一個近乎電影情節的畫面開始：一位企業家兼生物科學家坐在豪華遊艇上，用網在全球海洋中尋找最微小生物。尾句說可利用這些 microbes 的 molecular machinery 製造clean energy、新藥，或增強地球「肺部」吸收 CO2 的能力，限制 global warming。只看首尾句可見，本段是全篇的宏大開場：海洋微生物研究可能有拯救世界的應用。 B 首句說這聽起來像 sci-fi potboiler，但實際概括了 Craig Venter 的 remarkable efforts。尾句說他在 human genome race 中作風強硬，得到 “the bad boy of science” 這個稱號。首尾句顯示，本段主要介紹 Venter 的人物形象和成名背景：他是非傳統、具爭議性的科學家，曾在解讀人類 genome 的競賽中取得重要位置。 C 首句說批評沒有阻止他，Venter 後來成為第一個讀取自己 genome 的人，還研究synthetic genome。尾句說他把自己的方法稱為 “metagenomics”。首尾句顯示，本段功能是介紹他的現時海洋 DNA 項目：Sorcerer II 是 floating laboratory，他不用傳統培養微生物方法，改為直接讀取海水中各種生物的 genetic codes。 D 首句說 microbes 構成地球上絕大部分生命，並佔海洋 biological mass 高達 90%。尾句引用 Venter，說理解它們的 role and function 對 planet 和 human life 的 survival 很重要。首尾句顯示，本段集中說 microbes 的重要性：它們處理 matter and energy、維持空氣、吸收carbon，也可能幫助減慢 global warming。 E 首句說 Sorcerer II expedition 由 2003 年 Sargasso Sea 附近的 pilot project 開始，當時在被視為海洋沙漠的地方發現過百萬新 genes。尾句描述 Venter 穿越 Panama Canal、到Cocos Island 和 Galapagos 的經歷，兼做 genomics、自傳寫作和潛水。首尾句顯示，本段是 expedition history：從試驗項目到長距離採樣旅程。 F 首句說 expedition 最新階段帶來大量發現，並使用強大的 computing power 重建和分析microbial DNA。尾句說另一個目標是 hydrogen production，即 ultimate clean fuel。首尾句顯示，本段重點是研究成果和應用：400 newly discovered microbes、six million new genes，以及 Synthetic Genomics 希望把 genetic information 用於 carbon dioxide 轉化和clean fuel。 G 首句說 climate change 方面，這次 expedition 也帶來另一個 key insight。尾句引用Venter，說若能抑制 viruses 或令 bacteria resistant，便會有更多 organisms capturing carbon dioxide。首尾句顯示，本段處理 carbon-capturing organisms 的數量差異：以往以為和 nutrient levels 有關，Venter 則提出 phages 可能控制 microbe levels。 H 首句說 Venter 項目對 basic science 的最大影響，是推翻許多關於 tree of life 的既有觀念。尾句說 microbes 使用 “light-harvesting” machinery，把 charged atoms pump 進相當於 solar batteries 的系統。首尾句顯示，本段集中於傳統觀念被修正：proteorhodopsins 原以為罕見，研究後發現它們是地球上最豐富、重要的 gene families 之一。 I 首句說團隊發現許多新 proteins，可保護 microbes 免受 UV rays 傷害，也有些參與 repair UV damage。尾句引用 Venter，說我們只是剛開始理解 microbial world。首尾句顯示，本段作結：還有更多 protein 和生命分類方面的新發現，很多從前以為只屬於某一 kingdom of life 的 protein，其實更廣泛存在。",
+        "label": "落"
+      },
+      {
+        "number": "2",
+        "summary": "26 嚴格來說沒有完全正確選項；若考試必須填字母，A 是最接近但方向寫反",
+        "label": "25 A, B"
+      }
+    ]
+  }
+}

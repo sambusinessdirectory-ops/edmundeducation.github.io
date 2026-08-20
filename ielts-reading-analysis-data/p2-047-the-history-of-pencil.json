@@ -1,0 +1,1614 @@
+{
+  "id": "p2-047-the-history-of-pencil",
+  "catalogueId": "p2-047",
+  "catalogueIds": [
+    "p2-047"
+  ],
+  "passage": 2,
+  "title": "The History of Pencil",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "tree",
+    "soft",
+    "sheep",
+    "mined",
+    "string",
+    "clay",
+    "grease",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "tree",
+      "answerKey": "tree",
+      "type": "Sentence Completion",
+      "prompt": "“Graphite was found beneath a 14 ______ at Borrowdale.”",
+      "translation": "Graphite 在 Borrowdale 的一棵 ______ 下面被發現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story of the pencil began with a lightning strike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鉛筆的故事由一次 lightning strike 開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local people soon used it to mark their sheep for ownership and counting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地人很快用它標記自己的羊，以表示擁有權和計算數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會講 graphite 的發現和早期用途。題目問 Borrowdale 發現 graphite 的位置，所以答案應在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Graphite”、“found”、“Borrowdale”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graphite, the principal material used to make pencils, was discovered at Borrowdale in England in 1564, when lightning struck a local tree during a storm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Graphite 是製作鉛筆的主要材料；它於 1564 年在英格蘭 Borrowdale 被發現，當時暴風雨中閃電擊中了一棵當地的樹。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local people found that the black substance at the roots of the unfortunate tree differed from the ash of burnt wood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地人發現，那棵不幸的樹根部的黑色物質，和燒焦木頭的灰不同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “beneath a ______” 改寫原文的 “at the roots of the unfortunate tree”。樹根位於樹的下方，所以 “beneath a tree” 意思合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，需要單數可數名詞。原文可填入的物件是 “tree”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 tree。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “roots”。題目是 “beneath a ___”，問的是哪個物件下面；原文說黑色物質在 tree"
+            },
+            {
+              "kind": "paragraph",
+              "text": "roots 附近，真正可接在 “a” 後面的單數名詞是 tree。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "soft",
+      "answerKey": "soft",
+      "type": "Sentence Completion",
+      "prompt": "“It was messy to use because it was 15 ______.”",
+      "translation": "它用起來很容易弄髒，因為它很 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story of the pencil began with a lightning strike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鉛筆的故事由一次閃電擊中事件開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local people soon used it to mark their sheep for ownership and counting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地人很快用它標記羊，以表示擁有權和計算數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 會交代 graphite 的性質和早期使用方式。題目中的 “messy to use” 指它容易留下痕跡，所以應找描述 graphite 物理性質的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “messy”、“use”。原文沒有 messy，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was soft and left marks everywhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它很柔軟，而且到處留下痕跡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “messy to use”，意思是使用時容易弄得到處都有痕跡。原文用 “left marks everywhere”解釋這種效果；造成這種效果的性質是 “soft”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句型是 “because it was ______”，空格需要形容詞。原文形容詞是 soft。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 soft。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "sheep",
+      "answerKey": "sheep",
+      "type": "Sentence Completion",
+      "prompt": "“Early users employed graphite to mark 16 ______.”",
+      "translation": "早期使用者用 graphite 來標記 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story of the pencil began with a lightning strike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鉛筆的故事由一次閃電開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local people soon used it to mark their sheep for ownership and counting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地人很快用它標記自己的羊，以表示擁有權和計算數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可預測這題答案就在段尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Early users”、“employed”、“mark”。原文的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local people soon used it to mark their sheep for ownership and counting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地人很快用它標記自己的羊，以表示擁有權和計算數量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “Early users” 對應原文 “Local people soon”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “employed graphite to mark” 對應原文 “used it to mark”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“it” 指前文的 graphite。空格位於 “mark ______” 之後，需要被標記的對象。原文是 “their sheep”。答案只可一個字，所以填 sheep。所以答案是 sheep。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "mined",
+      "answerKey": "mined",
+      "type": "Sentence Completion",
+      "prompt": "“People found graphite 17 ______ in Britain.”",
+      "translation": "人們發現 Britain 有被 ______ 的 graphite / Britain 是 graphite 的開採來源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain became a major source of mined graphite, but the first pencil was invented elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Britain 成為 mined graphite 的主要來源，但第一支鉛筆是在其他地方發明的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“News of these early pencils spread widely and attracted artists throughout the known world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些早期鉛筆的消息廣泛傳播，並吸引了當時已知世界各地的藝術家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph 2 會從 Britain 的 graphite 來源，轉到 Italy 和 Germany 的早期pencil 發展。Question 17 的 “in Britain” 明顯對應本段第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “graphite”、“Britain”。原文第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain became a major source of mined graphite…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Britain 成為 mined graphite 的主要來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的題幹略有語法不順，但若依你貼出的文字，空格放在 “graphite ___ in Britain” 中，最能從原文抽出的單字是 mined。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “mined graphite” 指「開採出來的石墨」。題目把原文 “Britain became a major source of mined graphite” 壓縮成 “People found graphite mined in Britain”。這種寫法不算非常自然，但在ONE WORD ONLY 限制下，mined 是最符合文章第二段的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果題目原本有 “at ______ in Britain”，那就要回到 Paragraph 1 的 “Borrowdale”。但目前這個題幹已經有 “in Britain”，而且 Question 14 已經考過 Borrowdale 的發現場景，所以 Question 17 更合理地指向 “mined graphite”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 mined。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "string",
+      "answerKey": "string",
+      "type": "Sentence Completion",
+      "prompt": "“The first pencil consisted of graphite wrapped in 18 ______ or animal skin.”",
+      "translation": "第一種鉛筆由 graphite 組成，外面包著 ______ 或動物皮。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain became a major source of mined graphite, but the first pencil was invented elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Britain 成為 mined graphite 的主要來源，但第一支鉛筆在其他地方發明。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“News of these early pencils spread widely and attracted artists throughout the known world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期鉛筆的消息廣泛傳播，吸引了世界各地藝術家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “first pencil”，所以要看 Paragraph 2 中介紹 Italy 早期 pencils 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “first pencil”、“wrapped”、“animal skin”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Italy, graphite sticks were initially wrapped in string or sheepskin for stability, creating what may have been the world’s first pencils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Italy，graphite sticks 最初被 string 或 sheepskin 包裹，以增加穩定性，這可能創造了世界上最早的鉛筆。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “animal skin” 是原文 “sheepskin” 的概括改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wrapped in ______ or animal skin” 對應原文 “wrapped in string or sheepskin”。空格需要和 “animal skin” 並列的材料名詞。原文是 string。所以答案是 string。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "clay",
+      "answerKey": "clay",
+      "type": "Sentence Completion",
+      "prompt": "“Because graphite was too soft, 19 ______ was added to make it harder.”",
+      "translation": "因為 graphite 太軟，所以加入 ______ 令它更硬。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although a pencil’s graphite core is still called its lead, modern pencils contain no lead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然鉛筆的 graphite core 仍被稱為 lead，現代鉛筆其實不含 lead。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The standard writing pencil is graded HB.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "標準書寫鉛筆的等級是 HB。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 會講 modern pencil core 的材料和硬度分級。題目問 added to make it harder，自然要找 graphite 和硬度的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “graphite”、“soft”、“harder”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘lead’ is actually a mixture of finely ground graphite and clay powders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所謂 “lead” 其實是細磨 graphite 和 clay powders 的混合物。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more clay that is added, the harder the core becomes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加入的 clay 越多，筆芯就越硬。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “was added to make it harder”，對應原文 “The more clay that is added, the harder the core becomes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一種材料。原文清楚指出決定硬度的是 clay。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 clay。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 graphite。Graphite 是 pencil core 的主要材料之一，但令 core 變硬的控制因素是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "clay 的比例。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "grease",
+      "answerKey": "grease",
+      "type": "Sentence Completion",
+      "prompt": "“Russian astronauts preferred 20 ______ pencils for writing in space.”",
+      "translation": "Russian astronauts 較喜歡用 ______ pencils 在太空書寫。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The claim that the United States did not use pencils in space until it spent $1,000 developing a zero-gravity pencil is fiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一種說法稱，美國在花 1,000 美元發明 zero-gravity pencil 前沒有在太空使用鉛筆；這種說法是虛構的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the Americans later invented zero-gravity pencils, they continued using mechanical pencils for many years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然美國人後來發明了 zero-gravity pencils，他們仍然多年使用 mechanical pencils。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 會處理太空用筆，並比較 Russian 和 American 的選擇。題目中的 Russian astronauts 直接定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Russian astronauts”、“preferred”、“space”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Russian astronauts are widely known to have used grease pencils, which did not present a breakage problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Russian astronauts 廣為人知使用 grease pencils，這種筆沒有折斷問題。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Americans favoured mechanical pencils, which produced finer, clearer lines than the smudged lines left by the grease pencils favoured by the Russians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國人偏好 mechanical pencils，因為它們產生的線條比俄羅斯人偏好的 grease pencils 留下的模糊線條更細、更清晰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句型是 “20 ______ pencils”，空格需要放在 pencils 前面，形成一種 pencil 類型。原文是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“grease pencils”。因為答案限制是 ONE WORD ONLY，所以填 grease。所以答案是 grease。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Italy was probably the first country in the world to make pencils.”",
+      "translation": "Italy 可能是世界上第一個製作鉛筆的國家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain became a major source of mined graphite, but the first pencil was invented elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Britain 成為 mined graphite 的主要來源，但第一支鉛筆在其他地方發明。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“News of these early pencils spread widely and attracted artists throughout the known world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些早期鉛筆的消息廣泛傳播，吸引了已知世界各地的藝術家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已經提示：雖然 Britain 有 graphite，第一支 pencil 的發明地點在 elsewhere。接下來最重要地名就是 Italy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Italy”、“probably”、“first”、“pencils”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Italy, graphite sticks were initially wrapped in string or sheepskin for stability, creating what may have been the world’s first pencils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Italy，graphite sticks 最初被 string 或 sheepskin 包裹以增加穩定性，這可能創造了世界上最早的鉛筆。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目使用 “probably”，原文使用 “may have been”。兩者語氣一致，都表示可能性，沒有把事情說成百分百確定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Italy was probably the first country”。原文雖然沒有逐字說 “first country”，但句子開頭 “In Italy” 指明地點，後面 “world’s first pencils” 指明可能是世界最早的 pencils。把地點和發明結果連起來，題目說法成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Italy was probably the first country"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：In Italy ... may have been the world’s first pencils所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“German craftspeople used several kinds of wood to make pencils.”",
+      "translation": "德國工匠使用了幾種不同木材來製作鉛筆。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain became a major source of mined graphite, but the first pencil was invented elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Britain 成為 mined graphite 的主要來源，但第一支鉛筆在其他地方發明。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“News of these early pencils spread widely and attracted artists throughout the known world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期鉛筆的消息廣泛傳播，並吸引世界各地藝術家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 講 Italy 和 Germany 的 early pencils，所以 German craftspeople 直接指向本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “German craftspeople”、“wood”、“several kinds”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon afterwards, in 1662, German craftspeople developed a superior technique: they carved two wooden halves, inserted a graphite stick and glued the halves together—essentially the same method used today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久之後，1662 年，德國工匠發展出更優越的技術：他們雕刻兩個木製半邊，插入一支 graphite stick，再把兩半黏合在一起——基本上就是今天仍使用的方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 German craftspeople 和 wood，但說的是 “two wooden halves”，意思是兩片木頭或兩個木製半邊。題目說 “several kinds of wood”，重點在「幾種木材種類」，例如 juniper、cedar、pine 之類的 wood types。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“two wooden halves” 講的是結構和件數；“several kinds of wood” 講的是木材種類。這兩個概念不能互相替換。原文沒有說 German craftspeople 只用一種木材，也沒有說他們用了幾種木材。因此不能判FALSE；文章缺少 wood types 的資料。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “several” 容易被原文 “two wooden halves” 吸引。two 是數量，但它修飾 halves"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，不修飾 kinds of wood。判斷要落在 “kinds” 這個字上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Graphite makes a pencil harder and sharper.”",
+      "translation": "Graphite 令鉛筆更硬、更尖銳。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although a pencil’s graphite core is still called its lead, modern pencils contain no lead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然鉛筆的 graphite core 仍被稱為 lead，現代鉛筆其實不含 lead。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The standard writing pencil is graded HB.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "標準書寫鉛筆的等級是 HB。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 解釋鉛筆芯材料、硬度和分級。題目問 “harder”，所以應看 clay / hardness 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Graphite”、“harder”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘lead’ is actually a mixture of finely ground graphite and clay powders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所謂 “lead” 其實是細磨 graphite 和 clay powders 的混合物。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more clay that is added, the harder the core becomes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加入的 clay 越多，筆芯就越硬。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “harder” 歸因於 graphite。原文清楚說造成硬度變化的是 clay 的加入量。也就是說， graphite 是筆芯成分之一，但硬度由 clay 的比例控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，題目還說 “sharper”。原文沒有談 sharper 或筆尖銳利程度。即使先不看 sharper，harder 這一部分已經和原文分配的原因不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：Graphite makes pencil harder原文命題：More clay makes core harder兩者核心因果不同，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 一直有 graphite，學生可能看到 graphite 就覺得主體對了。其實這題真正控"
+            },
+            {
+              "kind": "paragraph",
+              "text": "制答案的是 “makes ... harder”，要找造成硬度的材料，答案落在 clay。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Pencils are no longer produced in Britain.”",
+      "translation": "Britain 現在已經不再生產鉛筆。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In England, pencils continued to be made from whole pieces of sawn graphite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 England，鉛筆繼續用整塊鋸開的 graphite 製作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As demand rose, so did the appetite for graphite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著需求上升，對 graphite 的需求也同步增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 講 England 的舊式製作方式和 mass production 帶來的需求增長。題目問的是「現在是否不再生產」，要看原文有沒有 current production 的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “no longer”、“produced”、“Britain”。原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In England, pencils continued to be made from whole pieces of sawn graphite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 England，鉛筆繼續用整塊鋸開的 graphite 製作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “continued to be made”，看起來好像和題目方向相反。不過要留意文章敘述是在講歷史發展，前面剛談 Italy 和 Germany 的 1560、1662，後面轉向 mass production。這句沒有說現代Britain 是否仍在製作 pencils，也沒有說已停止生產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目使用 “are no longer produced”，是現在狀態判斷。要選 TRUE 或 FALSE，文章必須提供現在仍生產或現在已停產的明確資訊。這裡只提供歷史階段中的 England 製作方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：England 曾繼續用 sawn graphite 製作 pencils。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少：Britain 現在是否還生產 pencils。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “continued to be made” 會想選 FALSE，但這句的時間背景偏歷史敘述，未能直接"
+            },
+            {
+              "kind": "paragraph",
+              "text": "回答 “are no longer produced” 的現代狀態。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“American astronauts did not use pencils in space.”",
+      "translation": "美國太空人在太空中沒有使用鉛筆。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The claim that the United States did not use pencils in space until it spent $1,000 developing a zero-gravity pencil is fiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有說法稱美國在花 1,000 美元發明 zero-gravity pencil 前沒有在太空用鉛筆；這個說法是虛構的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the Americans later invented zero-gravity pencils, they continued using mechanical pencils for many years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然美國人後來發明了 zero-gravity pencils，他們仍多年使用 mechanical pencils。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經把 “did not use pencils in space” 標成 fiction；題目句子與這個 myth 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “American astronauts”、“use pencils”、“space”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their American counterparts also used pencils in space before a true zero-gravity pencil was invented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的美國同行在真正的 zero-gravity pencil 發明前，也曾在太空使用鉛筆。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Americans favoured mechanical pencils…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國人偏好 mechanical pencils。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 American astronauts did not use pencils in space。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 American counterparts also used pencils in space。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確相反資訊。題目中的 “did not use” 與原文 “also used” 正面衝突。後文還補充美國人喜歡用 mechanical pencils，進一步證明他們確實使用某種鉛筆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落第一句提到 “The claim that the United States did not use pencils...” 很像題目，但句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾 “is fiction” 才是判斷重點。這題不能只看到 claim，要看到作者如何評價它。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Pencils are unlikely to be used in the future.”",
+      "translation": "鉛筆將來不太可能被使用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Against the backdrop of a digitised world, the pencil’s prospects may seem bleak.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在數碼化世界的背景下，鉛筆的前景可能看起來暗淡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The possibilities seem limitless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能性似乎無限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經有明顯轉折：開頭說前景看似 bleak，結尾說 possibilities seem limitless。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 future unlikely，應檢查作者最後的真正立場。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “future”、“unlikely”、“used”。原文沒有 unlikely，但有 “will probably continue using them”："
+            },
+            {
+              "kind": "quote",
+              "text": "“A broad range of people will probably continue using them: students for mathematics, artists for sketching, waiters and waitresses for recording orders, make-up artists for applying cosmetics, and architects for producing blueprints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多不同類型的人大概會繼續使用鉛筆：學生用來做數學，藝術家用來素描，侍應用來記錄訂單，化妝師用來化妝，建築師用來製作藍圖。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 pencils are unlikely to be used in the future。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 a broad range of people will probably continue using them。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unlikely” 和 “will probably continue” 方向相反。文章雖然承認在 digitised world 中 pencil prospects may seem bleak，但接著用 “In reality, they are not” 修正這個表面印象，並列出很多未來或持續使用者。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：unlikely to be used"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：will probably continue using them所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 第一個句子 “prospects may seem bleak” 會吸引人選 TRUE。細讀時要看到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一句 “In reality, they are not.” 作者最終立場是鉛筆前景不差，使用場景仍然很多。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The History of Pencil.pdf",
+    "sha256": "6a00ad534c6a7b6fb125ae262b56465a91462f95d41a86c551462c3bf4bd0800",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 首句用 lightning strike 引出 pencil 的起源，說 graphite 於 1564 年在 England 的1 Borrowdale 被發現。尾句說當地人很快用它標記 sheep，用於 ownership 和counting。只看首尾句可見，本段集中講 graphite 的偶然發現、外觀和早期用途：它在樹根附近出現，柔軟、會留下痕跡，亦曾被誤認為 lead。 Paragraph 首句說 Britain 是 mined graphite 的重要來源，但第一支 pencil 在其他地方發明。 2 尾句說早期 pencils 的消息廣泛傳播，吸引世界各地藝術家。首尾句顯示，本段處理「鉛筆形態如何形成」：意大利人用 string 或 sheepskin 包裹 graphite，後來德國工匠發展出兩半木材夾 graphite 的方法。 Paragraph 首句說雖然 pencil core 仍叫 lead，現代鉛筆其實不含 lead。尾句說標準書寫鉛筆3 等級是 HB。只看首尾句可見，本段集中解釋 modern pencil core 的材料和分級： lead 名稱沿用至今，實際成分是 graphite 和 clay；clay 影響硬度，grinding 影響品質。 Paragraph 首句說 England 的 pencils 繼續用整塊鋸開的 graphite 製作。尾句說 demand 上4 升時，對 graphite 的需求也同步增加。首尾句顯示，本段是過渡段：由英國製筆方式，轉到 mass production 令鉛筆在多國越來越流行，並帶動 graphite 需求。 Paragraph 首句引用 United States Geological Survey，指出 2012 年全球 natural graphite 產5 量達 1,100,000 tonnes。尾句說由於 military importance，Crown 嚴格控制Borrowdale mine 和 output。首尾句顯示，本段把 graphite 從文具用途擴展到軍事用途，特別是 Elizabeth I 時期用於 cannonball moulds。 Paragraph 首句澄清一個流行說法：美國花 1,000 美元發明 zero-gravity pencil 前沒有在太空6 用鉛筆，這是 fiction。尾句說美國人後來雖然發明了 zero-gravity pencils，仍多年使用 mechanical pencils。首尾句顯示，本段處理 space pencil myth，並比較Russian grease pencils 和 American mechanical pencils。 Paragraph 首句說在 digitised world 背景下，pencil 的前景看似 bleak。尾句說 possibilities 7 seem limitless。首尾句形成明顯轉折：雖然數碼世界可能令人以為鉛筆會被淘汰，文章結論卻說鉛筆仍廣泛存在，未來仍會被學生、藝術家、侍應、化妝師和建築師使用。",
+        "label": "段落 Rough roadmap"
+      },
+      {
+        "number": "2",
+        "summary": "小提醒：Question 17 的題幹 “People found graphite ___ in Britain” 本身有點不自然。依你貼出的句子和文章第二段 “Britain became a major source of mined graphite”，最貼近、且符合 ONE WORD ONLY 的答案是 mined。若原卷題幹其實是 “at ___ in Britain”，答案才會變成Borrowdale。",
+        "label": "26 FALSE"
+      }
+    ]
+  }
+}

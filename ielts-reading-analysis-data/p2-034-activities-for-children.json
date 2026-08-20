@@ -1,0 +1,1614 @@
+{
+  "id": "p2-034-activities-for-children",
+  "catalogueId": "p2-034",
+  "catalogueIds": [
+    "p2-034"
+  ],
+  "passage": 2,
+  "title": "Activities for Children",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "C",
+    "B",
+    "C",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Changes in children’s health and living conditions”",
+      "translation": "兒童健康和生活條件的變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twenty-five years ago, children in London walked to school and played in parks and playing fields after school and at the weekend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十五年前，倫敦兒童會步行上學，放學後和週末會在公園及遊樂場玩耍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If children continue to be this inactive, they’ll be storing up big problems for the future.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「如果孩子繼續這樣不活躍，他們將會為未來累積大問題。」只看首尾句，可以先判斷 Paragraph A 正在對比過去和現在的兒童生活方式。第一句是過去：步行、戶外玩耍。最後一句連到未來健康問題：inactive 會造成 long-term problems。這正好對應題目中的 living conditions 和 health。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “changes”、“children’s health”、“living conditions”。原文未必直接用 living conditions，但 A 段有一整組生活方式詞語：walked to school、played in parks、driven to school、television screens、computer games、playing fields sold off。"
+            },
+            {
+              "kind": "label",
+              "text": "最值得停下的是這組對比："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twenty-five years ago…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Today they are usually driven to school…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today they are usually driven to school by parents anxious about safety and spend hours glued to television screens or computer games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，他們通常由擔心安全的父母開車送上學，並花幾小時黏在電視螢幕或電腦遊戲前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 living conditions / lifestyle 的改變：戶外活動減少，螢幕時間增加。段落最後一句補充健康後果：inactive 會為 future 儲存 big problems。題目中的 “health and living conditions” 是對 A段整體內容的概括。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 段也有健康數據，容易令人想選 B。不過 B 段主要是 fitness survey 和健康指標；A 段同時呈現生活條件變化和健康憂慮，因此更完整對應 Q14。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“A health organisation’s monitoring of physical activity”",
+      "translation": "一個健康組織／健康標準背景下，對兒童體能活動的監測。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1985, Professor Armstrong headed a five-year research project into children’s fitness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1985 年，Armstrong 教授主持了一個為期五年的兒童體能研究項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“High levels of cholesterol, excess body fat and inactivity are believed to increase the risk of coronary heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高膽固醇、過量體脂和缺乏活動被認為會增加冠心病風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 B 段是健康研究數據段。第一句提到 research project；最後一句把cholesterol、body fat、inactivity 連到 coronary heart disease。這段最可能包含 health organisation、monitoring、physical activity 等資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的詞是 “health organisation” 和 “monitoring”。原文中對應 “American Heart Foundation” 以及 “The survey, which monitored 700 11-16-year-olds”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The survey, which monitored 700 11-16-year-olds, found that 48 per cent of girls and 41 per cent of boys already exceeded safe cholesterol levels set for children by the American Heart Foundation.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項調查監測了 700 名 11 至 16 歲兒童，發現 48% 女孩和 41% 男孩已超過 American Heart Foundation 為兒童設定的安全膽固醇水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的 wording 有少少壓縮：監測兒童的是 Armstrong 的 survey；American Heart Foundation 提供的是 safe cholesterol levels。B 段同時出現 health organisation、monitored 700 children、exercise levels 等資訊，所以段落定位仍是 B。"
+            },
+            {
+              "kind": "label",
+              "text": "後文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“More disturbingly, the survey found that over a four-day period, half the girls and one-third of the boys did less exercise than the equivalent of a brisk 10-minute walk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更令人不安的是，調查發現，在四天期間，一半女孩和三分之一男孩的運動量，少於一次快步走10 分鐘的等量活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接處理 physical activity monitoring。因此答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A comparison of exercise time in the UK and other countries”",
+      "translation": "英國和其他國家的運動時間比較。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical education is under pressure in the UK – most schools devote little more than 100 minutes a week to it in curriculum time, which is less than many other European countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國的體育教育正受壓；多數學校每週課程時間只給略多於 100 分鐘 PE，低於很多其他歐洲國家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Armstrong, who presented the findings at the meeting, noted that since the introduction of the national curriculum there had been a marked fall in the time devoted to PE in UK schools, with only a minority of pupils getting two hours a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Armstrong 教授在會議上發表這些發現，並指出自從 national curriculum 引入後，英國學校用於PE 的時間明顯下降，只有少數學生每週有兩小時。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “comparison”、“exercise time”、“UK”、“other countries”。C 段直接出現 “less than many other European countries”，後面又列出 France、Austria、Switzerland、Ireland、25 countries。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three European countries—France, Austria and Switzerland—give children a head start in PE and offer at least two hours in primary and secondary schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "三個歐洲國家——法國、奧地利和瑞士——在 PE 上讓兒童有較好起步，並在中小學提供至少兩小時 PE。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The survey shows that the UK ranks 13th out of the 25 countries, with Ireland bottom, averaging under an hour a week for PE.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查顯示，英國在 25 個國家中排名第 13，愛爾蘭墊底，每週 PE 平均少於一小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子清楚比較英國與其他歐洲國家的 PE 時間。因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“An inappropriate approach to school sport”",
+      "translation": "學校運動中一種不合適的做法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a former junior football international, Professor Armstrong is a passionate advocate for sport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為前青年足球國際賽選手，Armstrong 教授熱切支持運動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He added that children need to have the opportunity to take part in a wide variety of individual, partner and team sports.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他補充說，孩子需要有機會參與多種個人、雙人和團隊運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 D 段會談 Armstrong 對學校 sport 的看法。第一句說他支持 sport；最後一句說需要 wide variety。這已經提示段落會批評單一或偏窄的學校運動安排。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “inappropriate approach” 和 “school sport”。原文沒有 inappropriate，但有批評語氣："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Armstrong believes that there is far too great an emphasis on team games at school.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Armstrong believes that there is far too great an emphasis on team games at school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Armstrong 教授認為，學校對團隊遊戲的重視程度過高。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We need to look at the time devoted to PE and balance it between individual and pair activities, such as aerobics and badminton, as well as team sports.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們需要檢視 PE 所用時間，並把時間平衡分配給個人和雙人活動，例如 aerobics 和 badminton，以及團隊運動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “inappropriate approach” 對應原文的 “far too great an emphasis on team games”。問題在學校過度集中 team games，令不擅長團隊運動的孩子失去興趣。因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“According to the American Heart Foundation’s limits, boys have higher cholesterol levels than girls.”",
+      "translation": "按照 American Heart Foundation 的標準，男孩的膽固醇水平比女孩高。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1985, Professor Armstrong headed a five-year research project into children’s fitness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1985 年，Armstrong 教授主持了一個為期五年的兒童體能研究項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“High levels of cholesterol, excess body fat and inactivity are believed to increase the risk of coronary heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高膽固醇、過量體脂和缺乏活動被認為會增加冠心病風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段是兒童健康數據段。題目點名 American Heart Foundation 和 cholesterol，所以目標段落明確是 B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “American Heart Foundation’s limits”、“boys”、“girls”、“cholesterol”。原文對應句有全部元素："
+            },
+            {
+              "kind": "quote",
+              "text": "“The survey … found that 48 per cent of girls and 41 per cent of boys already exceeded safe cholesterol levels set for children by the American Heart Foundation.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The survey, which monitored 700 11-16-year-olds, found that 48 per cent of girls and 41 per cent of boys already exceeded safe cholesterol levels set for children by the American Heart Foundation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項調查監測了 700 名 11 至 16 歲兒童，發現 48% 女孩和 41% 男孩已超過 American Heart Foundation 為兒童設定的安全膽固醇水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 boys have higher cholesterol levels than girls。原文提供的比較方向是：超過安全膽固醇水平的比例，女孩是 48%，男孩是 41%。在這個標準下，女孩超標比例較高。題目把方向寫成男孩較高，和原文數字不符。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文在男女比較方向上衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “levels”，原文用 “per cent … exceeded safe cholesterol levels”。原文未提供平均cholesterol level，但就 American Heart Foundation limits 而言，超標比例女孩更高。題目方向不成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“British children generally do less exercise than children in some other European countries.”",
+      "translation": "英國兒童一般比某些其他歐洲國家的兒童少做運動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical education is under pressure in the UK – most schools devote little more than 100 minutes a week to it in curriculum time, which is less than many other European countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國的體育教育正受壓；多數學校每週課程時間只給略多於 100 分鐘 PE，低於很多其他歐洲國家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Armstrong … noted that since the introduction of the national curriculum there had been a marked fall in the time devoted to PE in UK schools, with only a minority of pupils getting two hours a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Armstrong 教授指出，自 national curriculum 引入後，英國學校 PE 時間明顯下降，只有少數學生每週有兩小時。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “British children”、“less exercise”、“other European countries”。C 段第一句已直接出現 UK 和 less than many other European countries。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical education is under pressure in the UK – most schools devote little more than 100 minutes a week to it in curriculum time, which is less than many other European countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 PE 正受壓，多數學校每週課程時間只給略多於 100 分鐘，這少於很多其他歐洲國家。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three European countries—France, Austria and Switzerland—give children a head start in PE and offer at least two hours in primary and secondary schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國、奧地利和瑞士在中小學提供至少兩小時 PE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “some other European countries”，程度很保守，只需要有幾個歐洲國家比英國多。原文列出 France、Austria、Switzerland，也說 UK 少於 many other European countries，完全支持題目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文同方向，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Skipping is becoming increasingly popular in UK schools.”",
+      "translation": "跳繩在英國學校中越來越受歡迎。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any cardiovascular exercise is a good option, and it doesn’t necessarily have to be high intensity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何心血管運動都是不錯選擇，而且不一定要高強度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Ninety per cent of children don’t like team sports,’ says company director, Gillian Gale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司總監 Gillian Gale 說：「九成孩子不喜歡團隊運動。」只看首尾句，F 段會談不同形式的 cardio exercise，以及孩子不喜歡 team sports 的問題。題目提到 skipping，所以應在 F 段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Skipping”、“increasingly popular”、“UK schools”。原文只出現 skipping 一次："
+            },
+            {
+              "kind": "quote",
+              "text": "“It can be anything that gets your heart rate up, such as walking the dog, swimming, running, skipping, hiking.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It can be anything that gets your heart rate up, such as walking the dog, swimming, running, skipping, hiking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它可以是任何令心率上升的活動，例如遛狗、游泳、跑步、跳繩、遠足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只把 skipping 列為 cardiovascular exercise 的例子。原文沒有說 skipping 在 UK schools 內流行，也沒有說 becoming increasingly popular，更沒有提供時間變化或學校採用情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有 skipping 這個活動例子，但缺少 “becoming increasingly popular” 和 “in UK schools” 兩個核心部分。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 skipping 原字出現，容易直接選 TRUE。這題真正要檢查的是 popularity 和 UK schools，原文沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“According to Healthy Kids, parents’ first task is to encourage their children to maintain a healthy body weight.”",
+      "translation": "按照 Healthy Kids 的說法，父母的首要任務是鼓勵孩子維持健康體重。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A prevention survey found that children whose parents keep in shape are much more likely to maintain healthy body weights themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項 prevention survey 發現，父母保持體形的孩子，更有可能自己維持健康體重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Incorporate more movement into family life: park farther from shops at the mall, take the stairs instead of the lift, and walk to nearby friends’ houses instead of driving.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「把更多活動加入家庭生活：在商場泊車時離商店遠一點，行樓梯，不坐升降機，步行去附近朋友家，不開車。」G 段主題是 parent example 和 family movement。題目提到 Healthy Kids，目標在 G 段Elizabeth Ward 的引文附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Healthy Kids”、“parents’ first task”、“encourage their children”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elizabeth Ward, R.D., a Boston nutritional consultant and author of Healthy Foods, Healthy Kids.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面就是她的建議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There’s nothing worse than telling a child what he needs to do and not doing it yourself,’ says Elizabeth Ward…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Elizabeth Ward 說：「沒有甚麼比告訴孩子他需要做甚麼，自己卻沒有這樣做更糟。」再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Set a good example and get your nutritional house in order first.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「先樹立好榜樣，並先把自己的營養生活整理好。」題目說 parents’ first task 是 encourage their children。原文重點是父母先做好自己：set a good example，get your nutritional house in order first。題目把 “first task” 放在鼓勵孩子身上，原文把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“first” 放在父母自身示範和家庭營養整理上。判斷：原文提供相反方向的建議，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — The future health of British children",
+      "answerKey": "C — The future health of British children",
+      "type": "Multiple Choice",
+      "prompt": "“What concerns Professor Neil Armstrong in paragraph A?”",
+      "translation": "Paragraph A 中，Neil Armstrong 擔心甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twenty-five years ago, children in London walked to school and played in parks and playing fields after school and at the weekend.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十五年前，倫敦兒童會步行上學，放學後和週末會在公園及遊樂場玩耍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If children continue to be this inactive, they’ll be storing up big problems for the future.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「如果孩子繼續這樣不活躍，他們將會為未來累積大問題。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Professor Neil Armstrong” 和 “concerns”。Paragraph A 中 Armstrong 的直接引文是答案位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“This change in lifestyle has, sadly, meant greater restrictions on children…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及最後一句的 future problems。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句與選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If children continue to be this inactive, they’ll be storing up big problems for the future.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果孩子繼續如此不活躍，他們會為未來累積嚴重問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 children，原因是 inactive，時間是 future。由於文章整體談 health and exercise sciences，這些 future problems 指向未來健康風險。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Spending more time watching television harms children’s academic performance.”原文提到 television screens，但沒有談 academic performance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Parents have less time to spend with their children.”原文說父母開車送孩子上學，沒有說父母陪伴時間減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “The future health of British children.”正確。inactive + big problems for the future，連到孩子未來健康。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The increasing pace of property development.”原文有 playing fields sold off to property developers，但 Armstrong 的核心擔憂落在 children inactive 和 future problems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B — Children should be more active to exercise the heart.",
+      "answerKey": "B — Children should be more active to exercise the heart.",
+      "type": "Multiple Choice",
+      "prompt": "“What point does Armstrong make in paragraph B?”",
+      "translation": "Armstrong 在 Paragraph B 提出甚麼重點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1985, Professor Armstrong headed a five-year research project into children’s fitness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1985 年，Armstrong 教授主持了一個為期五年的兒童體能研究項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“High levels of cholesterol, excess body fat and inactivity are believed to increase the risk of coronary heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高膽固醇、過量體脂和缺乏活動被認為會增加冠心病風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的功能是用研究數據指出兒童缺乏活動與心臟健康風險。題目問 Armstrong 的point，要找他的直接說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Armstrong” 和 “point”。原文有直接引文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The heart is a muscle and needs exercise, or it loses its strength.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句與選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Armstrong adds, ‘The heart is a muscle and needs exercise, or it loses its strength.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Armstrong 補充說：「心臟是一塊肌肉，需要運動；否則它會失去力量。」這句的核心是 heart needs exercise。選項 B “Children should be more active to exercise the heart” 把這個意思轉成建議：孩子需要更活躍，讓心臟得到鍛鍊。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Everyone needs a ten-minute walk every day.”原文提到 “less exercise than the equivalent of a brisk 10-minute walk”，那是比較兒童活動量不足的標準，並沒有說每人每日必須走 10 分鐘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應 “The heart is a muscle and needs exercise”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Girls are in a better situation than boys.”原文數據顯示女孩在 cholesterol 超標和運動不足方面更嚴重，C 不成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Exercise can cure many diseases.”原文說 inactivity increases risk，沒有說 exercise can cure diseases。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — to teach parents how to organise fitness activities for children",
+      "answerKey": "C — to teach parents how to organise fitness activities for children",
+      "type": "Multiple Choice",
+      "prompt": "“What is the aim of Fit Kids training?”",
+      "translation": "Fit Kids training 的目的是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any cardiovascular exercise is a good option, and it doesn’t necessarily have to be high intensity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何心血管運動都是好選擇，而且不一定要高強度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Ninety per cent of children don’t like team sports,’ says company director, Gillian Gale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司總監 Gillian Gale 說：「九成孩子不喜歡團隊運動。」F 段主題是用有趣方式讓兒童做運動，並引出 Fit Kids。題目直接問 Fit Kids training，所以定位很快。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Fit Kids training”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fit Kids trains parents to run fitness classes for children.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句與選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fit Kids trains parents to run fitness classes for children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fit Kids 訓練父母為兒童開辦／帶領健身課。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Fit Kids，動詞是 trains，對象是 parents，目的或技能是 run fitness classes for children。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to make a profit by running several sessions”原文沒有談 profit 或幾個 sessions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to focus on only one activity for each child”原文強調任何能令 heart rate up 的活動都可以，並沒有只集中一種活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to teach parents how to organise fitness activities for children”正確。run fitness classes for children 對應 organise fitness activities for children。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to promote team sport as the best form of exercise”原文最後說 90% children don’t like team sports，Fit Kids 的方向正是避開單靠 team sports 的限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — Create more opportunities for physical activity.",
+      "answerKey": "A — Create more opportunities for physical activity.",
+      "type": "Multiple Choice",
+      "prompt": "“What does Lifshitz suggest at the end of the passage?”",
+      "translation": "文章最後 Lifshitz 建議甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A prevention survey found that children whose parents keep in shape are much more likely to maintain healthy body weights themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項 prevention survey 發現，父母保持體形的孩子，更有可能自己維持健康體重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Incorporate more movement into family life: park farther from shops at the mall, take the stairs instead of the lift, and walk to nearby friends’ houses instead of driving.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「把更多活動加入家庭生活：在商場泊遠一點，行樓梯，步行去附近朋友家，不開車。」題目說 at the end of the passage，所以直接看 G 段最後一句。這句本身就是 Lifshitz 的建議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Lifshitz” 和 “suggest at the end”。原文中 Lifshitz 的說法包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, children in obese families expend only 200 calories a day in physical activity…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Incorporate more movement into family life…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句與選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Incorporate more movement into family life: park farther from shops at the mall, take the stairs instead of the lift, and walk to nearby friends’ houses instead of driving.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把更多活動加入家庭生活：在商場泊車離商店遠一點，走樓梯，不坐升降機，步行去附近朋友家，不開車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句用三個例子說明怎樣增加日常活動機會。選項 A “Create more opportunities for physical activity” 是對這些例子的概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "park farther、take stairs、walk 都是在創造更多日常活動機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Take the lift to save time.”原文方向相反：take the stairs instead of the lift。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Children should expend more than 200 calories every day.”原文說 obese families 的孩子 only 200 calories，但沒有設定每日必須超過 200 calories 的具體標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “People should always walk rather than drive.”原文例子是 walk to nearby friends’ houses instead of driving，並沒有說所有情況都必須步行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — Children in the UK need appropriate forms of exercise.",
+      "answerKey": "B — Children in the UK need appropriate forms of exercise.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main idea of the passage?”",
+      "translation": "本文主旨是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文由 A 段生活方式變化開始：兒童比以前少走路、少戶外玩耍，更多時間看螢幕。B 段用數據顯示 cholesterol、overweight、inactivity 的健康風險。C 段指出 UK PE 時間不足。D 段批評學校過度偏向 team games，主張 individual、pair、team sports 要平衡。E、F 段展示有趣的兒童活動和 Fit Kids。G 段把父母榜樣和家庭日常活動加入討論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用主旨詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 main idea，不能只找一個原字。要找全篇反覆出現的概念：children、inactive、exercise、PE、team sports、individual activities、parents、movement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文反覆出現的主線不是單一疾病，也不是單一政府政策，而是兒童需要更合適、更容易持續的活動形式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "比較選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Overweight children face future health risks.”這是 B 段和 A 段的一部分。文章確實講 overweight 和 future health risk，但後文大量討論 PE 時間、team games、Fit Kids、parents movement。A 範圍太窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Children in the UK need appropriate forms of exercise.”正確。它概括全文：英國兒童活動不足，學校 PE 不夠，單靠 team games 會令很多孩子失去興趣，因此需要多元、合適、能吸引孩子的運動方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “The government has taken the wrong approach to children’s activity.” D 段有提到 Government 投入社區 sport，但學校 curriculum commitment 較弱。然而全文沒有把政府政策作為唯一中心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Parents play the most important role in children’s activity.” G 段確實強調父母示範，但這只是全文最後一部分。前文更大篇幅處理學校、PE、運動形式和兒童不活躍問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全文的 “inactive children”、“PE under pressure”、“far too great an emphasis on team games”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wide variety of individual, partner and team sports”、“Fit Kids trains parents” 合起來，指向一個中心：孩子需要合適、多元、可持續的 exercise。B 最能覆蓋全篇。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Activities for Children.pdf",
+    "sha256": "a28743a783ed11a755dbb5c414759a8479fef807b7233ad957c13e58ec44c47d",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看 A–G 段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說二十五年前，倫敦兒童會步行上學，放學和週末會在公園及遊樂場玩耍。末句引用 Neil Armstrong 的警告：如果孩子繼續如此不活躍，將來會累積大問題。只看首尾句，可以先估計本段在講兒童生活方式的變化：由戶外活動轉為被父母接送、看電視、打機，並帶出未來健康風險。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 1985 年 Armstrong 主持了一個五年兒童 fitness 研究項目。末句說高膽固醇、過量體脂和缺乏活動被認為會增加冠心病風險。只看首尾句，可以估計本段用研究數據證明問題嚴重：兒童膽固醇超標、過重、運動量不足。這段很適合定位 cholesterol、American Heart Foundation、survey、exercise level 等題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說英國的 physical education 正受壓，多數學校每星期只在課程時間給略多於 100 分鐘 PE，低於很多歐洲國家。末句說自 national curriculum 引入後，英國學校 PE 時間明顯下降，只有少數學生每週有兩小時。這段明顯是跨國比較段，重點是 UK、France、Austria、Switzerland、Ireland 和 PE 時數。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Armstrong 曾是 junior football international，所以是 sport 的熱情支持者。末句說孩子需要有機會參與廣泛的個人、雙人和團隊運動。只看首尾句，可以估計本段在討論學校 sport 的安排問題：政府社區運動投入不少，但學校課程內 commitment 不足，而且 Armstrong 批評學校過度重視 team games，應提供更多元選擇。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說好消息是一些小公司和兒童活動團體已經作出正面而有創意的回應。末句說孩子不協調、吵鬧、興奮又情緒化，提供了原始喜劇感。只看首尾句，可以估計本段會描寫一種有趣、遊戲化的兒童活動場景。重點不在傳統 PE 課堂，而在用音樂、姿勢、space hopper 等方式讓孩子動起來。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說任何 cardiovascular exercise 都是不錯選擇，而且不一定要高強度。末句引用 Gillian Gale說，九成孩子不喜歡 team sports。只看首尾句，可以估計本段在提出更廣義的 exercise：walking the dog、swimming、running、skipping、hiking，甚至逛超市也可算活動。中間會引出 Fit Kids：用有趣形式訓練家長帶兒童健身。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說一項 prevention survey 發現，父母保持體形的孩子，更有可能維持健康體重。末句建議把更多 movement 加入家庭生活，例如在商場泊遠一點、行樓梯、步行去附近朋友家。只看首尾句，可以估計本段重點是家庭和父母示範：父母要先做好榜樣，再把日常生活變成增加活動量的機會。"
+      }
+    ]
+  }
+}

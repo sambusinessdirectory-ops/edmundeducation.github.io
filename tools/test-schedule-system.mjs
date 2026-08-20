@@ -560,7 +560,7 @@ assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
 assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260818-2"/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260820-1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = import\(HOMEWORK_CATALOG_URL\)/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260814-1/);

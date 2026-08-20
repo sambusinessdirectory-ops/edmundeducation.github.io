@@ -1,0 +1,1665 @@
+{
+  "id": "p2-042-saving-the-british-bitterns",
+  "catalogueId": "p2-042",
+  "catalogueIds": [
+    "p2-042"
+  ],
+  "passage": 2,
+  "title": "Saving the British Bitterns",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "ii",
+    "v",
+    "i",
+    "viii",
+    "vi",
+    "iii",
+    "iv",
+    "the 1950s",
+    "shy",
+    "starvation",
+    "fish prey",
+    "network of 19 sites",
+    "otters, brown hares",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "ii — Fluctuations in bittern numbers",
+      "answerKey": "ii — Fluctuations in bittern numbers",
+      "type": "Question Analysis",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph A 選 heading。Heading ii 的意思是：bittern 數量的波動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Breeding bitterns became extinct in the UK by 1886, but following recolonisation early in the 20th century, numbers rose to a peak of about 70 booming, or singing, males in the 1950s before falling to fewer than 20 by the 1990s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁殖中的 bitterns 到 1886 年在英國已經絕跡，但在 20 世紀初重新定居後，數量在 1950s 上升至約 70 隻 booming males 的高峰，之後到 1990s 跌至少於 20 隻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the late 1980s, it was clear that the bittern was in trouble, but little information was available on which to base recovery measures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1980s 後期，bittern 明顯陷入困境，但當時可用來制定恢復措施的資料很少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 的主線很清楚：先講 extinct，再講 recolonisation，接著 rise to a peak，之後 falling，最後進入 trouble。這是典型數量變化段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的核心詞是 “Fluctuations” 和 “numbers”。原文直接反覆出現 numbers、rose、peak、falling、fewer than 20。這些字全部指向 population changes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正定案的是第一句的時間線："
+            },
+            {
+              "kind": "quote",
+              "text": "“became extinct … recolonisation … numbers rose to a peak … before falling to fewer than 20”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由絕跡，到重新定居，到數量升至高峰，再跌至少於 20。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句包含完整上升與下降。Heading ii “Fluctuations in bittern numbers” 覆蓋整段，比其他heading 更能概括 Paragraph A。這段未開始講 counting method、habitat research 或cooperation；它主要建立數量危機背景。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "v — Developing a method for counting bitterns",
+      "answerKey": "v — Developing a method for counting bitterns",
+      "type": "Question Analysis",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。Heading v 的意思是：發展計算 bitterns 數目的方法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bitterns have cryptic plumage and a shy nature and usually remain hidden within reed-bed vegetation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bitterns 有隱蔽的羽色和害羞的習性，通常藏在 reed-bed vegetation 之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes the number of booming males in the UK much more certain and enables us to estimate local survival from one year to the next.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令英國 booming males 的數目更確定，也讓研究者估計牠們由一年到下一年的 local survival。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說明觀察困難：bitterns 很難直接看見。末句說新方法令數量更確定。兩句合起來，段落功能就是解決 counting / monitoring 難題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的定位詞是 “method” 和 “counting”。原文中有兩個直接訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our first challenge was to develop standard methods for monitoring their numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“we developed a way to count males from the sound pattern unique to each individual.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our first challenge was to develop standard methods for monitoring their numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者的第一個挑戰，是發展標準方法來監測牠們的數量。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“we developed a way to count males from the sound pattern unique to each individual.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者發展出一種方法，根據每隻雄鳥獨有的聲音模式來計算雄鳥數目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 中的 “Developing a method” 對應 “developed a way”；“counting bitterns” 對應 “count males”。本段全部細節都服務於這個主題，所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "i — Research findings about habitat and the resulting management decisions",
+      "answerKey": "i — Research findings about habitat and the resulting management decisions",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph C 選 heading。Heading i 的意思是：關於 habitat 的研究發現，以及由此產生的管理決定。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our first direct understanding of the habitat needs of breeding bitterns came from comparisons of reed bed sites that had lost their booming birds with those that retained them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者第一次直接了解 breeding bitterns 的 habitat needs，是透過比較已失去 booming birds 的reed bed sites 和仍保留牠們的 sites。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This project, though led by the RSPB, involved many other organisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 project 雖由 RSPB 主導，也涉及很多其他機構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句是 research findings 的入口：habitat needs。末句講 project 和多方機構參與。中間把research 和 management 連起來，所以 heading i 最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的定位詞是 “habitat”、“research findings”、“management decisions”。Paragraph C 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“habitat needs”、“This research showed”、“through management”、“recommendations”、“manage and rehabilitate reed beds”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“This research showed that bitterns had been retained in reed beds where the natural process of succession, or drying out, had been slowed through management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究顯示，在透過管理減慢 succession，即 drying out 的 reed beds 中，bitterns 得以保留。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Based on this work, broad recommendations on how to manage and rehabilitate reed beds for bitterns were made…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基於這項工作，研究者提出了如何為 bitterns 管理和修復 reed beds 的廣泛建議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句是 research finding；第二句是 resulting management decision。Heading i 的兩個部分都由原文直接支援，所以 Paragraph C = i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "viii — Research into reed-bed habitat",
+      "answerKey": "viii — Research into reed-bed habitat",
+      "type": "Question Analysis",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph D 選 heading。Heading viii 的意思是：對 reed-bed habitat 的研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To refine these recommendations and provide fine-scale, quantitative habitat prescriptions for the bitterns’ preferred feeding habitat, we radio-tracked male bitterns on the RSPB’s Minsmere and Leighton Moss reserves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了 refine 這些建議，並為 bitterns 偏好的 feeding habitat 提供細緻和量化的 habitat prescriptions，研究者在 RSPB 的 Minsmere 和 Leighton Moss reserves 對雄鳥進行radio-tracking。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the course of our research, we located 87 bittern nests and found that female bitterns preferred to nest in areas of continuous vegetation, well into the reed bed, but where water was still present during the driest part of the breeding season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在研究過程中，研究者找到 87 個 bittern nests，並發現雌鳥偏好在連續植被區域築巢，位置深入reed bed，但在 breeding season 最乾旱時仍要有水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 feeding habitat，末句講 nesting habitat。兩者同屬 reed-bed habitat 的詳細研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位詞是 “reed-bed habitat”。Paragraph D 反覆出現 habitat prescriptions、preferred feeding habitat、wetter reed bed margins、reed bed next to larger open pools、continuous vegetation、well into the reed bed。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This showed clear preferences for feeding in the wetter reed bed margins, particularly within the reed bed next to larger open pools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示 bitterns 明顯偏好在較濕的 reed bed 邊緣覓食，特別是在靠近較大 open pools 的 reed bed 裡。"
+            },
+            {
+              "kind": "label",
+              "text": "另一個核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“female bitterns preferred to nest in areas of continuous vegetation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雌鳥偏好在連續植被區域築巢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 已經講 broad management recommendations。Paragraph D 再進一步用radio-tracking 和 nest location 研究具體 reed-bed habitat 要求，所以 heading viii 最準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "vi — The importance of food",
+      "answerKey": "vi — The importance of food",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph F 選 heading。Heading vi 的意思是：食物的重要性。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final phase of research involved understanding the diet, survival and dispersal of bittern chicks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一階段研究涉及了解 bittern chicks 的 diet、survival 和 dispersal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, an important element of recent studies (including a PhD with the University of Hull) has been the development of recommendations on habitat and water conditions to promote healthy native fish populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近期研究的重要部分，是制定關於 habitat 和 water conditions 的建議，以促進健康的native fish populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 已經把 chicks 的 survival 和 food supply 連起來。末句的 native fish populations 更顯示食物是本段真正焦點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的定位詞是 “food”。原文中可用 diet、starvation、fish prey、native fish populations 定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many chicks did not survive to fledging and starvation was found to be the most likely reason for their demise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 chicks 未能存活至 fledging，而 starvation 被認為是牠們死亡最可能的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fish prey fed to chicks was dominated by those species penetrating into the reed edge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "餵給 chicks 的 fish prey 主要是那些能進入 reed edge 的魚類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明：幼鳥死亡很大程度與食物不足相關；牠們需要合適魚類作食物。Heading iii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Protecting young bitterns” 也有吸引力，但 Paragraph F 的核心不只在幼鳥本身，更落在 diet、starvation 和 fish prey，因此 vi 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "iii — Protecting young bitterns",
+      "answerKey": "iii — Protecting young bitterns",
+      "type": "Question Analysis",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph G 選 heading。Heading iii 的意思是：保護 young bitterns。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once independent, radio-tagged young bitterns were found to seek out new sites during their first winter; a proportion of these would remain on new sites to breed if the conditions were suitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦獨立後，帶有 radio tags 的 young bitterns 被發現會在第一個冬天尋找新 sites；如果條件合適，其中一部分會留在新 sites 繁殖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A network of 19 sites developed through this partnership project will secure a more sustainable UK bittern population with successful breeding outside of the core area, less vulnerable to chance events and sea level rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 partnership project 建立的 19-site network，將保護一個更可持續的 UK bittern population，使牠們能在 core area 以外成功繁殖，並減少受偶然事件和海平面上升影響的脆弱性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句主體是 young bitterns，末句說建立 network 以支持 breeding outside core area。段落主線是為獨立後的 young bitterns 提供合適新地點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的定位詞是 “young bitterns”。Paragraph G 第一個詞組就有 “radio-tagged young bitterns”。之後的 “new sites”、“suitable sites”、“new areas” 都是保護策略。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A second EU LIFE-funded project aims to provide these suitable sites in new areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個由 EU LIFE 資助的 project 旨在於新區域提供這些合適 sites。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“these suitable sites” 指前一句 young bitterns 獨立後尋找、並可能留下繁殖的 sites。Heading iii用 “Protecting” 概括提供新棲息地和分散繁殖風險的策略，所以答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "iv — International cooperation succeeds",
+      "answerKey": "iv — International cooperation succeeds",
+      "type": "Question Analysis",
+      "prompt": "Question 20",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph H 選 heading。Heading iv 的意思是：合作取得成功。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2004, the number of booming male bitterns in the UK had increased to 55, with almost all of the increase being on those sites undertaking management based on advice derived from our research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2004 年，英國 booming male bitterns 增至 55，而且幾乎所有增長都來自那些根據研究建議進行 management 的 sites。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over 3 km of new ditches have been formed, 3.7 km of existing ditches have been re-profiled and 2.2 km of old meander (former estuarine features) has been cleaned out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已經形成超過 3 公里的新 ditches，3.7 公里的 existing ditches 已被重新塑形，2.2 公里的 old meander 已被清理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說數量增加，末句列出大規模 habitat engineering。中間則指出成功來自 managers、owners 和 wardens 的 trust、hard work、dedication。段落重點是多方落實管理後取得成果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的定位詞是 “cooperation succeeds”。Paragraph H 的直接支援包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“success has only been achieved through the trust, hard work and dedication of all the managers, owners and wardens…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although science has been at the core of the bittern story, success has only been achieved through the trust, hard work and dedication of all the managers, owners and wardens of sites…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然科學一直是 bittern story 的核心，但成功只靠所有 site managers、owners 和 wardens 的信任、努力和投入才得以達成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確把 success 和多方合作連起來。Paragraph H 也承接前文 EU LIFE-funded projects 和partnership projects，因此 heading iv 最適合用來概括研究、資金、管理者和實地工作者共同取得的成果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "the 1950s",
+      "answerKey": "the 1950s",
+      "type": "Question Analysis",
+      "prompt": "“When did the number of breeding bitterns reach its peak?”",
+      "translation": "breeding bitterns 的數量在甚麼時候達到高峰？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Breeding bitterns became extinct in the UK by 1886, but following recolonisation early in the 20th century, numbers rose to a peak of about 70 booming, or singing, males in the 1950s before falling to fewer than 20 by the 1990s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁殖中的 bitterns 到 1886 年在英國絕跡，但在 20 世紀初重新定居後，數量在 1950s 升至約 70隻 booming males 的高峰，之後到 1990s 跌至少於 20 隻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the late 1980s, it was clear that the bittern was in trouble, but little information was available on which to base recovery measures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1980s 後期，bittern 明顯陷入困境，但可用來制定恢復措施的資料很少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門講 bittern 數量變化，題目問 peak，答案就在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “peak”。原文直接有 “numbers rose to a peak”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“numbers rose to a peak of about 70 booming, or singing, males in the 1950s”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數量在 1950s 升至約 70 隻 booming males 的高峰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 When，所以需要時間答案。答案是 the 1950s，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "shy",
+      "answerKey": "shy",
+      "type": "Question Analysis",
+      "prompt": "“How is the bittern’s nature described?”",
+      "translation": "bittern 的 nature 被描述成怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bitterns have cryptic plumage and a shy nature and usually remain hidden within reed-bed vegetation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bitterns 有隱蔽的羽色和害羞的習性，通常藏在 reed-bed vegetation 中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This makes the number of booming males in the UK much more certain and enables us to estimate local survival from one year to the next.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令英國 booming males 的數目更確定，也可估計 local survival。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接描述 bittern 的外表和性情。題目問 nature，答案在 “a shy nature”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “nature”。原文第一句完全重現 “a shy nature”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“a shy nature”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "害羞、怕人、傾向躲藏的習性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 How is the nature described? 答案可直接填形容詞 shy。若填 “a shy nature” 也符合字數，但更自然的答案是 shy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "starvation",
+      "answerKey": "starvation",
+      "type": "Question Analysis",
+      "prompt": "“What is the main cause of death among bittern chicks?”",
+      "translation": "bittern chicks 死亡的主要原因是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final phase of research involved understanding the diet, survival and dispersal of bittern chicks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一階段研究涉及了解 bittern chicks 的 diet、survival 和 dispersal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, an important element of recent studies … has been the development of recommendations on habitat and water conditions to promote healthy native fish populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近期研究的重要部分，是制定關於 habitat 和 water conditions 的建議，以促進健康的native fish populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 明確講 chicks survival，所以死亡原因一定在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “death” 和 “chicks”。原文用 “did not survive”、“demise” 和 “starvation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many chicks did not survive to fledging and starvation was found to be the most likely reason for their demise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 chicks 未能存活至 fledging，而 starvation 被認為是牠們死亡最可能的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “main cause of death” 對應原文 “most likely reason for their demise”。答案是starvation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "fish prey",
+      "answerKey": "fish prey",
+      "type": "Question Analysis",
+      "prompt": "“What is the main food of bittern chicks?”",
+      "translation": "bittern chicks 的主要食物是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final phase of research involved understanding the diet, survival and dispersal of bittern chicks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一階段研究涉及了解 bittern chicks 的 diet、survival 和 dispersal。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, an important element of recent studies … has been the development of recommendations on habitat and water conditions to promote healthy native fish populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近期研究的重要部分，是制定 habitat 和 water conditions 建議，以促進 healthy native fish populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段從 diet 到 fish populations，明顯包含 chicks 食物資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “food” 和 “chicks”。原文沒有用 main food，但有 “fish prey fed to chicks”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fish prey fed to chicks was dominated by those species penetrating into the reed edge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "餵給 chicks 的 fish prey 主要由那些能進入 reed edge 的魚類組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 main food，原文說餵給 chicks 的是 fish prey，而且後文還說要促進 native fish populations。答案用原文詞組 fish prey 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "network of 19 sites",
+      "answerKey": "network of 19 sites",
+      "type": "Question Analysis",
+      "prompt": "“What system is intended to secure a stable bittern population?”",
+      "translation": "甚麼系統旨在確保一個穩定／可持續的 bittern population？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once independent, radio-tagged young bitterns were found to seek out new sites during their first winter; a proportion of these would remain on new sites to breed if the conditions were suitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦獨立後，radio-tagged young bitterns 會在第一個冬天尋找新 sites；若條件合適，其中一部分會留在新 sites 繁殖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A network of 19 sites developed through this partnership project will secure a more sustainable UK bittern population with successful breeding outside of the core area, less vulnerable to chance events and sea level rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 partnership project 建立的 19-site network，會確保 UK bittern population 更可持續，並讓牠們能在 core area 以外成功繁殖，減少受偶然事件和海平面上升影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在講 new sites 和 network，所以本題定位在 Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “system” 對應原文 “network”；“stable” 對應 “more sustainable”；“secure” 原字也重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“A network of 19 sites … will secure a more sustainable UK bittern population…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個由 19 個 sites 組成的 network，將確保 UK bittern population 更可持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案需要保留完整系統名稱，所以填 network of 19 sites。它符合 NO MORE THAN THREE WORDS AND/OR A NUMBER：network、of、sites 三個字，加上數字 19。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "otters, brown hares",
+      "answerKey": "otters, brown hares",
+      "type": "Question Analysis",
+      "prompt": "“Besides bitterns and rare vegetation, which mammals benefit from the project?”",
+      "translation": "除了 bitterns 和 rare vegetation 之外，哪些 mammals 也受益於這個 project？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bitterns now winter regularly at the site, and there is some indication that they remain longer into spring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bitterns 現在 regularly winter at the site，而且有跡象顯示牠們留到 spring 的時間更長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters and brown hares occur at the site, as does the rare plant pillwort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Otters 和 brown hares 在這個 site 出現，rare plant pillwort 也在此出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 bitterns，末句同時講 mammals 和 rare plant。題目的 “besides bitterns and rare vegetation” 正好把我們帶到這段最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “mammals” 和 “rare vegetation”。原文未用 mammals 這個上位詞，但 otters 和 brown hares 都是 mammals；rare vegetation 對應 “rare plant pillwort”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otters and brown hares occur at the site, as does the rare plant pillwort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Otters 和 brown hares 在這個 site 出現，rare plant pillwort 也在這裡出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句將 mammals 和 rare plant 放在同一個句子中。題目問 rare vegetation 以外的 mammals，所以答案是 otters, brown hares。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充一點：Paragraph I 也提到 water vole，但題目 wording 與 “rare plant pillwort” 同句對應最強；加上字數限制，答案應落在 otters, brown hares。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "B — to show how cooperation can protect an endangered species",
+      "answerKey": "B — to show how cooperation can protect an endangered species",
+      "type": "Question Analysis",
+      "prompt": "“What is the main purpose of this passage?”",
+      "translation": "這篇文章的主要目的 是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文主線"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章由 Paragraph A 的 population crisis 開始，接著 Paragraph B–D 講 monitoring 和 habitat research，Paragraph E–G 講管理成效、幼鳥食物和新 sites，Paragraph H–I 講合作落實後的數量回升與生態收益。整體焦點不是單純介紹 bittern 外形，也不只是講 reed beds；文章真正想展示的是：科學研究、資金、管理和多方合作如何救回一種瀕危濕地鳥類。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的定位詞是 “cooperation”、“protect”、“endangered species”。原文有多個支援點："
+            },
+            {
+              "kind": "quote",
+              "text": "“This project, though led by the RSPB, involved many other organisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 project 雖由 RSPB 主導，也涉及很多其他機構。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“success has only been achieved through the trust, hard work and dedication of all the managers, owners and wardens…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成功有賴 managers、owners 和 wardens 的信任、努力和投入。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀整體證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2004, the number of booming male bitterns in the UK had increased to 55…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2004 年，英國 booming male bitterns 增至 55。"
+            },
+            {
+              "kind": "label",
+              "text": "這是保育成功的結果。Paragraph H 又補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although science has been at the core of the bittern story, success has only been achieved through the trust, hard work and dedication…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然科學是整個 bittern story 的核心，但成功需要多方人士的信任、努力和投入才得以達成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來，清楚支援 B：文章主要展示合作如何保護瀕危物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “to describe the main characteristics of the bittern” 只符合 Paragraph B 的小部分，例如 shy nature 和 cryptic plumage，未能概括全文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to describe the difficulty of obtaining information about the bittern’s habitat and diet” 只覆蓋早期資料不足和後來研究，沒有包括 recovery success。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to explain how to save wetlands and reed beds in the UK” 太偏向 habitat management，未能準確反映文章主角是 British bitterns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 最能概括全文由危機、研究、管理到合作成功的完整方向。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Saving the British Bitterns.pdf",
+    "sha256": "0637666065d7b07325462e93c29bb72d434f101d20c2847e3b6e4581ef6d9967",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 breeding bitterns 在 1886 年於英國絕跡，後來重新定居，數量在 1950s 達到約 70 隻booming males 的高峰。末句說到 1980s 後期，bittern 明顯陷入危機，但可用來制定 recovery measures 的資料很少。只看首尾句，可以判斷本段主要交代數量起伏和危機背景，重點是由消失、回升、再下跌，到保育研究需要開始。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 bitterns 有 cryptic plumage 和 shy nature，通常藏在 reed-bed vegetation 中。末句說新方法令 UK booming males 數目更確定，也可估計 local survival。只看首尾句，可以估計本段處理研究第一步：因為鳥難以看見，所以研究者要發展標準監測方法。核心線索是 male bittern 的boom 聲音，以及如何用 individual sound pattern counting。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說，研究者最初直接了解 breeding bitterns 的 habitat needs，是透過比較失去 booming birds 的 reed bed sites 和仍保留牠們的 sites。末句說此項由 RSPB 主導的 project 亦涉及很多其他機構。首尾句顯示本段重點是：研究發現某些 reed beds 因 management 延慢 drying out 而保住 bitterns，之後形成管理建議和 EU LIFE Fund 支援。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說，為了 refine recommendations 並提供更細緻、量化的 feeding habitat prescriptions，研究者在 Minsmere 和 Leighton Moss radio-tracked male bitterns。末句說 female bitterns 偏好在連續植被深處築巢，但 driest part of breeding season 仍要有水。只看首尾句，本段明顯是詳細habitat research：分別研究雄鳥覓食地、home range size，以及雌鳥築巢需求。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說，根據研究制定的 habitat prescriptions 成效非常驚人。末句說 1997 年低點後，Britain bittern numbers 對 habitat management work 有反應，並自 1950s 以來首次開始增加。只看首尾句，可以判斷本段是成果段：管理手法如 reed bed lowering 成功阻止 drying out，bittern 數量從低位回升，證明前面研究與管理建議有效。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說，最後一階段研究涉及 bittern chicks 的 diet、survival 和 dispersal。末句說近期研究的重要部分，是制定 habitat 和 water conditions 建議，以促進 healthy native fish populations。首尾句顯示本段焦點是幼鳥存活和食物供應。中間會解釋 radio tags、chicks 未能 fledging 的原因、starvation，以及 fish prey 對 chicks 的重要性。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說，radio-tagged young bitterns 獨立後，在第一個冬天會尋找新 sites。末句說，透過partnership project 建立的 19-site network，會令 UK bittern population 更 sustainable，並減少chance events 和 sea level rise 的威脅。只看首尾句，本段功能是講 young bitterns 離巢後需要合適新地點，因此第二個 EU LIFE-funded project 建立新區域 breeding sites。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說，到 2004 年，UK booming male bitterns 增至 55，而且幾乎所有增長都出現在根據研究建議進行 management 的 sites。末句說新建和修復的 ditches、sluices、bunds、seedlings 等工程已大規模展開。只看首尾句，本段把科學研究、site managers、owners、wardens 和實地工程連接起來，重點是合作實施管理措施後取得明顯成果。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 bitterns 現在 regularly winter at the site，而且有跡象顯示牠們留到 spring 的時間變長。末句說 otters、brown hares 和 rare plant pillwort 也在 site 出現。只看首尾句，本段是一個reserve 成效例子：雖然尚未 breeding，但 wintering bitterns、booming male、wildfowl、reed-bed passerines、shoveler、water vole、mammals 和 rare plant 都顯示 habitat improvement 帶來更廣泛生態收益。"
+      }
+    ]
+  }
+}

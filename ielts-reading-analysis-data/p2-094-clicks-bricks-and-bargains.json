@@ -1,0 +1,1125 @@
+{
+  "id": "p2-094-clicks-bricks-and-bargains",
+  "catalogueId": "p2-094",
+  "catalogueIds": [
+    "p2-094"
+  ],
+  "passage": 2,
+  "title": "Clicks, Bricks, and Bargains",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "F",
+    "G",
+    "C",
+    "A",
+    "C",
+    "D",
+    "E",
+    "H",
+    "No fully supported option",
+    "A",
+    "A, B",
+    "A, C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "在網上比較價格。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “Compare prices on the Net”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far from wrecking retailers’ businesses, the web plays to their strengths.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "網絡遠遠沒有摧毀零售商的生意，反而發揮了它們的優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides attracting an online purchase, shopping comparison searches can also be used by ordinary retailers as a relatively cheap way to advertise and attract consumers to their physical stores.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了吸引網上購買外，購物比較搜尋也可被普通零售商用作較便宜的宣傳方式，吸引消費者到實體店。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph D 會解釋網絡如何幫助零售商。最後一句出現 “shopping comparison searches”，已經和 heading 的 “Compare prices on the Net” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Compare prices” 和 “Net”。Paragraph D 中有 “Shopping comparison sites”，以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“see who is offering the lowest prices”。這些詞直接把我們帶到答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Shopping comparison sites, including America’s Shopzilla and Ciao in Europe, are among the fastest growing destinations on the web. These sites allow users to compare products, read reviews – and most important of all – see who is offering the lowest prices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購物比較網站，包括美國的 Shopzilla 和歐洲的 Ciao，是網上增長最快的目的地之一。這些網站讓使用者比較產品、閱讀評論，最重要的是，看誰提供最低價格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading “Compare prices on the Net” 正好概括這段核心。Paragraph D 的主題不是單一網站Shopzilla，也不是一般網上宣傳；真正反覆出現的概念是 comparison sites、compare products、lowest prices。因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "網上購買，到店取貨。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “Buy online, collect at the store”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Circuit City was a pioneer of the ‘pick-up in-store’ option, which is proving increasingly popular with Internet shoppers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Circuit City 是 “pick-up in-store” 這種選項的先行者，而這種做法正越來越受網購者歡迎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is developing services that link the web with its stores, such as e-mailing digital pictures and picking up the prints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它正在發展把網站和門市連接起來的服務，例如用電郵傳送數碼照片，再到店裡領取相片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在講同一件事：網上和實體店之間的連接。第一句的 “pick-up in-store” 幾乎直接對應heading。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Buy online” 和 “collect at the store”。Paragraph F 有 “customers buying goods online” 和 “collect their purchases at a shop”。這是非常直接的同義定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around half the customers buying goods online from Circuit City collect their purchases at a shop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約一半在 Circuit City 網上購物的顧客，會到店裡領取他們購買的商品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 的 “Buy online” 對應 “buying goods online”；“collect at the store” 對應 “collect their purchases at a shop”。Paragraph F 後面再解釋為何消費者會這樣做，例如檢查商品、省送貨費、避免等送貨員、方便退貨。因此 F 是最完整的答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "實體街舖和網絡市場的支配地位。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “Street and web domination”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Does this mean retailing giants will come to dominate the web just as they do the high street?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是否表示零售巨頭會像支配商業街一樣，支配網絡？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These days, Amazon also sells its e-commerce experience, helping to run the websites of big, traditional retailers such as Target and Britain’s Marks & Spencer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，Amazon 也出售自己的電子商務經驗，協助 Target 和英國 Marks & Spencer 等大型傳統零售商營運網站。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經直接把 “web” 和 “high street” 放在一起比較，這正好對應 heading 中的 “Street and web domination”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Street”、“web” 和 “domination”。Paragraph G 第一問句出現 “dominate the web”和 “high street”，幾乎就是 heading 的原文改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Does this mean retailing giants will come to dominate the web just as they do the high street?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是否表示零售巨頭會像支配商業街一樣，支配網絡？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句就是整段問題核心。後文用 Tesco、Wal-Mart、Target 和 Amazon 說明：大型零售商在線下很強，在網上也可能佔大份額；可是網上競爭仍然存在。Heading “Street and web domination” 可以覆蓋整段，而不只是其中一個例子。因此答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "追隨 Amazon 的腳步。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading: “In the footsteps of Amazon”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazon was the company that proved online retailing could be a huge business – and it still leads the pack.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon 是證明網上零售可以成為龐大生意的公司，而且它仍然領先。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Nielsen//NetRatings, the leading retail websites in Europe include Germany’s Tchibo, a diversified chain; OTTO, a German mail-order specialist; and Fnac, a French high-street favourite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Nielsen//NetRatings，歐洲領先的零售網站包括德國多元化連鎖店 Tchibo、德國郵購專門店 OTTO，以及法國人氣實體街舖 Fnac。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句把 Amazon 放在網上零售先行者位置，後文接着講 Wal-Mart、Target、Argos、Tesco 和歐洲傳統商戶也發展網店。整段功能就是說傳統零售商正在跟上 Amazon 開出的道路。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Amazon” 和 “footsteps”。原文沒有 footsteps，但 “Amazon proved online retailing could be a huge business” 加上 “Things are changing quickly” 和傳統零售商上升，形成「其他商戶追隨 Amazon 模式」的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The online rise of mighty Wal-Mart, the world’s biggest retailer, is being closely followed by its chief supermarket rival, Target, which now operates the fourth most popular retail website in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球最大零售商 Wal-Mart 在線上的崛起，正被它的主要超市競爭對手 Target 緊密追隨；Target現在營運美國第四受歡迎的零售網站。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 先說 Amazon 證明網上零售可行，再說傳統巨頭陸續在線上崛起。Heading “In the footsteps of Amazon” 是一個概括：Amazon 先走出成功路徑，其他傳統商戶正在沿着類似方向前進。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE / Selected",
+      "answerKey": "TRUE / Selected",
+      "type": "Five True Statements",
+      "prompt": "Questions 18–22",
+      "translation": "傳統零售商營運的網站是增長最快的一批網站。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：八個選項中選 FIVE 個 true statements，答案可任意排序。這類題要逐項檢查，不能因為某選項有原文字眼就直接選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案：A, C, D, E, H Option A"
+            },
+            {
+              "kind": "label",
+              "text": "Statement:"
+            },
+            {
+              "kind": "quote",
+              "text": "“Websites operated by traditional retailers are the fastest growing ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Increasingly, the websites run by conventional retailers – once considered dinosaurs of the bricks-and-mortar age – are growing the fastest.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越明顯地，由傳統零售商營運的網站——它們曾被視為實體零售時代的恐龍——正增長得最快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“websites operated by traditional retailers” 對應 “websites run by conventional retailers”；“fastest growing ones” 對應 “are growing the fastest”。兩者方向一致，所以 A 是正確選項。 Option B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Statement:“Online sales grew by over $19 billion last year.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年網上銷售增長了超過 190 億美元。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Online sales in America (excluding travel) are expected to grow to more than $19 billion in the crucial two months running up to Christmas – 24% more than the same period last year…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國網上銷售額，不包括旅遊，預計在聖誕前兩個關鍵月份增至超過 190 億美元，比去年同期多24%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 “grow to more than $19 billion”，即銷售額達到超過 190 億美元；題目說 “grew by over $19 billion”，意思是增幅本身超過 190 億美元。這是 “to” 和 “by” 的差別。原文也說 expected，並非單純描述去年已發生的數字。因此 B 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            },
+            {
+              "kind": "label",
+              "text": "Statement:"
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazon is the biggest online retailer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon 是最大的網上零售商。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazon was the company that proved online retailing could be a huge business – and it still leads the pack.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amazon 是證明網上零售可以成為龐大生意的公司，而且它仍然領先。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“still leads the pack” 表示在同類競爭者中仍然排在前列、仍然是領先者。題目用 “biggest online retailer” 來概括這個市場領先地位。雖然原文沒有逐字說 biggest，但在這組選項中，C 有明確文本支援，所以選 C。 Option D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Statement:“Shopzilla allows people to compare prices in different stores.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shopzilla 讓人們比較不同商店的價格。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shopping comparison sites, including America’s Shopzilla and Ciao in Europe, are among the fastest growing destinations on the web. These sites allow users to compare products, read reviews – and most important of all – see who is offering the lowest prices.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "購物比較網站，包括美國的 Shopzilla 和歐洲的 Ciao，是網上增長最快的目的地之一。這些網站讓使用者比較產品、閱讀評論，最重要的是，看誰提供最低價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“These sites” 包括 Shopzilla。題目說 compare prices in different stores，原文說 see who is offering the lowest prices。意思一致，所以 D 是正確選項。 Option E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Statement:“Michael Silverstein says the best customers like to mix online and traditional shopping.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael Silverstein 說，最好的顧客喜歡把網上購物和傳統店舖購物結合起來。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Retailers are starting to recognise that their most profitable customers … find the convenience of an online offering complementary to an in-store experience.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "零售商開始意識到，他們最有利潤的顧客認為網上服務的便利，能和店內體驗互相補充。"
+            },
+            {
+              "kind": "quote",
+              "text": "“most profitable customers” 對應題目的 “best customers”；“online offering complementary to an in-store experience” 對應 “mix online and traditional shopping”。因此 E 是正確選項。 Option F判斷：Ambiguous / 邊界項Statement:“Circuit City was one of the first businesses of its kind.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Circuit City 是同類業務中最早的一批公司之一。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Circuit City was a pioneer of the ‘pick-up in-store’ option, which is proving increasingly popular with Internet shoppers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Circuit City 是 “pick-up in-store” 這種選項的先行者，而這種做法正越來越受網購者歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果把 F 理解成 “one of the first businesses to offer the pick-up in-store option”，它可以成立，因為 “pioneer” 就有先行者的意思。可是原句只寫 “businesses of its kind”，沒有明確說 “of this option” 或 “to offer this service”。由於題目要求只選 FIVE，而 A、C、D、E、H 的證據較直接，我把F 視為有爭議，不放入嚴格答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option G"
+            },
+            {
+              "kind": "label",
+              "text": "Statement:"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesco has the biggest share of Britain’s retail market.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesco 擁有英國零售市場最大份額。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesco, for instance, has a huge 30% share of the British grocery market.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 Tesco 擁有英國食品雜貨市場龐大的 30% 份額。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 “British grocery market”，即英國食品雜貨市場；題目改成 “Britain’s retail market”，範圍大很多。grocery market 只是 retail market 的一部分。題目把市場範圍擴大，所以 G 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option H"
+            },
+            {
+              "kind": "label",
+              "text": "Statement:"
+            },
+            {
+              "kind": "quote",
+              "text": "“Target sells less than Wal-Mart.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Target 的銷售額少於 Wal-Mart。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wal-Mart may have more than five times the annual sales of Target…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wal-Mart 的年銷售額可能超過 Target 的五倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Wal-Mart 的 annual sales 超過 Target 五倍，Target 自然賣得比 Wal-Mart 少。題目是原文的簡化改寫，所以 H 是正確選項。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "No fully supported option",
+      "answerKey": "No fully supported option",
+      "type": "Choose the correct",
+      "prompt": "“Cyber Monday” is…",
+      "translation": "“Cyber Monday” 是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“It’s a new phenomenon called ‘Cyber Monday’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種稱為 “Cyber Monday” 的新現象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, on Thanksgiving Day itself, the number of visitors to Wal-Mart’s website exceeded those visiting Amazon – the first time that has ever happened, says Hitwise, which monitors Internet usage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在 Thanksgiving Day 當日，Wal-Mart 網站訪客數超過 Amazon；監測互聯網使用情況的Hitwise 說，這是首次發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph A 介紹 Cyber Monday，同時補充 Thanksgiving Day 當日Wal-Mart 網站超越 Amazon 的事件。兩者在時間上需要分清。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Cyber Monday”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“On November 28, millions of Americans returned to work after the Thanksgiving holiday and fired up their office computers to take advantage of high-speed Internet links and continue the arduous task of hunting for Christmas presents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "11 月 28 日，數以百萬計美國人在 Thanksgiving 假期後回到工作崗位，開啟辦公室電腦，利用高速網絡，繼續艱辛地尋找聖誕禮物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項排除"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “the busiest day for online shopping in America.”原文說有數百萬人網購、零售網站訪客倍增、Visa 網上消費增加，但沒有說這是美國網購最繁忙的一天。A 的 “busiest” 缺少最高級證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “when Americans begin shopping for Christmas.”原文用 “continue the arduous task of hunting for Christmas presents”。“continue” 表示他們已經在做這件事，不支援 “begin shopping”。B 的問題在動詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the first time visits to the Wal-Mart website exceeded visits to the Amazon website.”原文確實有 Wal-Mart 網站訪客首次超過 Amazon，但時間是 “on Thanksgiving Day itself”，不是Cyber Monday。C 把 Thanksgiving Day 的事件放到 Cyber Monday 上，時間錯位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q23 在嚴格文本閱讀下沒有完整正確選項。這題很可能是試題設計或改寫時出現問題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Choose the correct",
+      "prompt": "“eBay and Amazon are considered to be ‘pure Internet plays’ because…”",
+      "translation": "eBay 和 Amazon 被視為 “pure Internet plays”，原因是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Online sales in America (excluding travel) are expected to grow to more than $19 billion in the crucial two months running up to Christmas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國網上銷售額，不包括旅遊，預計在聖誕前兩個關鍵月份增至超過 190 億美元。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During Thanksgiving in 2004, Amazon for the first time sold more consumer electronics than it sold books.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 2004 年 Thanksgiving 期間，Amazon 首次賣出更多消費電子產品，多於書本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 講 eBay 和 Amazon 這類純網上企業，以及它們如何變得像大型百貨公司。題目問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“because”，要找明確原因句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “pure Internet plays”。原文直接說：“Both are considered ‘pure Internet plays’, since they have no physical shops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者都被視為 “pure Internet plays”，因為它們沒有實體店。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A “you cannot visit their shops” 對應 “they have no physical shops”。如果沒有實體店，顧客自然不能去店內購物或參觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “they are like big stores” 來自後文 “resemble online versions of vast department stores”，但這是它們商業模式後來的變化，並非被稱為 pure Internet plays 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “third-party agents can sell things there” 也來自後文 third-party merchants offer their wares，這描述平台運作方式，並非 “pure Internet plays” 的定義原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "“Problems that traditional retailers have when expanding include…”",
+      "translation": "傳統零售商擴張時遇到的問題包括……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The traditional retailers are finding many other advantages in expanding their stores online.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統零售商發現，把店舖擴展到網上有很多其他優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As successful examples of this approach in America, Mr Silverstein points to Neiman Marcus, which has taken a lead in online top-end fashion, Victoria’s Secret in lingerie, and Circuit City in consumer electronics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Silverstein 以美國的成功例子說明這種做法，包括在高端時裝網上銷售領先的 Neiman Marcus、內衣品牌 Victoria’s Secret，以及消費電子產品零售商 Circuit City。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講傳統零售商網上擴張的優勢。題目問 offline expanding 的問題，所以要看本段如何比較online 和 offline。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “expanding” 和 “problems”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One is that in cyberspace, even the biggest super-centre is unconstrained by planning laws or dogged by protests, as Wal-Mart often is when it tries to expand offline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個優勢是，在網絡空間中，即使最大的超級中心也不受規劃法限制，也不會像 Wal-Mart線下擴張時那樣經常受到抗議困擾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “getting planning permission for new stores.”正確。原文的 “unconstrained by planning laws” 指網上擴張不用受規劃法限制。反過來說，線下擴張會面對 planning laws，即新店規劃或許可問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “people protesting their new stores.”正確。原文的 “dogged by protests” 直接對應 people protesting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “finding money to construct new stores.”原文沒有提到建店資金不足，也沒有說傳統零售商缺錢。這是合理想像，但沒有文本支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A 和 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Choose the correct",
+      "prompt": "“People buy online and then go to the store to collect their purchases because they…”",
+      "translation": "人們先在網上購買，再去店裡取貨，原因是他們……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Circuit City was a pioneer of the ‘pick-up in-store’ option, which is proving increasingly popular with Internet shoppers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Circuit City 是 “pick-up in-store” 這種選項的先行者，而這種做法正越來越受網購者歡迎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is developing services that link the web with its stores, such as e-mailing digital pictures and picking up the prints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它正在發展把網站和門市連接起來的服務，例如用電郵傳送數碼照片，再到店裡領取相片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 明顯講 buy online and collect in store。題目問原因，因此要看本段中間列出的reasons。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “why would someone” 和 “collect”。原文直接提出問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from instant consumer gratification, why would someone want the convenience of buying online only to trek to a store to take delivery? There are, it appears, many reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了即時滿足消費者外，為甚麼有人想享受網上購買的便利，卻又特地走到店裡取貨？看來原因有很多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文列出原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people want to examine items before they accept them; some want to save on delivery costs; others want to avoid hanging around for the delivery man to call.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人想在接受商品前檢查物品；有些人想節省送貨費；另一些人想避免一直等送貨員上門。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many, the chief reason is that they trust a big retailing brand with a local store – not least because they will know where goods can be returned if there is a problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對許多人來說，主要原因是他們信任有本地門市的大型零售品牌，尤其因為如果商品有問題，他們知道可以在哪裡退貨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “don’t want to wait for delivery.”正確。原文的 “avoid hanging around for the delivery man to call” 就是避免等送貨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “like being in a store.”原文沒有說他們喜歡身處店內。去店裡是為了檢查、節省費用、避免等送貨、方便退貨，不是因為喜歡逛店。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “know they can return the goods if they are faulty.”正確。原文說 “know where goods can be returned if there is a problem”。“if there is a problem”對應 faulty goods。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A 和 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Clicks, Bricks, and Bargains.pdf",
+    "sha256": "ab22f233cf2fd8d2746070f23640deb10b6ed9f195ede49523ba3ebc8a626204",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：A–G 段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句介紹新現象 “Cyber Monday”：美國人在 Thanksgiving 假期後回到辦公室，用高速網絡繼續買聖誕禮物。末句說 Thanksgiving 當日 Wal-Mart 網站訪客首次超過 Amazon。只看首尾句，可估計本段是全文引入：網購急速增長，傳統零售商的網站亦開始強勢冒起，文章焦點會放在線上零售與實體零售的競爭。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用數字說明美國聖誕前兩個月的網上銷售預計超過 190 億美元。末句說 Amazon 在 2004年 Thanksgiving 首次賣出更多消費電子產品，多於書本。這段大概處理純網店的增長與轉型： eBay 和 Amazon 雖沒有實體店，卻逐漸變得像大型百貨公司，商品種類越來越廣。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Amazon 證明了 online retailing 可以成為大生意，而且仍然領先。末句列出歐洲主要零售網站，包括 Tchibo、OTTO 和 Fnac。只看首尾句，可估計本段講傳統零售商追隨 Amazon 的網上成功模式。Wal-Mart、Target、Argos、Tesco 等實體商戶也在網上快速崛起，形成新一輪競爭。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說網絡沒有摧毀零售商生意，反而發揮了它們的優勢。末句說 comparison searches 不只帶來網上購買，也可幫實體店以較低成本宣傳並吸引客人。這段重點是 price comparison websites：消費者可以比較產品、看評論、找最低價；大型零售商因規模經濟，常能在價格上佔優。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說傳統零售商發現，把店舖擴展到網上有很多其他優勢。末句列舉 Neiman Marcus、Victoria’s Secret 和 Circuit City 作為成功例子。這段功能是解釋實體商戶為何喜歡網上擴張：網上空間不受規劃法和抗議困擾，也可先測試市場；網店和實體店能互補，服務高利潤客戶。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Circuit City 是 “pick-up in-store” option 的先行者，這種做法越來越受網購者歡迎。末句說Wal-Mart 正發展連接網站和門市的服務，例如網上傳送數碼照片，再到店取相。只看首尾句，可知本段集中講 buy online, collect in store：網購後到門市取貨，原因包括檢查商品、省運費、避免等送貨，以及方便退貨。"
+      },
+      {
+        "number": "G",
+        "summary": "首句提出問題：零售巨頭會否像控制 high street 一樣控制網絡？末句說 Amazon 也在出售自己的 e-commerce experience，幫 Target 和 Marks & Spencer 等傳統商戶營運網站。這段是總結和展望：大型傳統零售商在線上很強，但仍有競爭；Amazon 也從單純賣貨，轉向支援其他零售商的網上業務。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "特別說明： Questions 18–22 要求選 FIVE。按嚴格文本支援，我選 A, C, D, E, H。選項 F 有一定爭議，因為原文說 Circuit City 是 “pick-up in-store” option 的 pioneer；如果把 F 解讀成「最早推行這種取貨服務的公司之一」，F 也可成立。不過 F 原句 “one of the first businesses of its kind” 表達較闊，所以我未把它放入嚴格五項答案。",
+    "Question 23 的三個選項都未被原文完整支持。尤其 C 說的是 Thanksgiving Day itself 的情況，不是 Cyber Monday 本身。因此這題設計有問題；嚴格 IELTS 閱讀標準下，沒有一個完整正確選項。"
+  ]
+}

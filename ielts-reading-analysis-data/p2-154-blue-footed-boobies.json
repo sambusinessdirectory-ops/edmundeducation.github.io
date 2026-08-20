@@ -1,0 +1,1814 @@
+{
+  "id": "p2-154-blue-footed-boobies",
+  "catalogueId": "p2-154",
+  "catalogueIds": [
+    "p2-154"
+  ],
+  "passage": 2,
+  "title": "Blue-footed Boobies",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "vi",
+    "v",
+    "viii",
+    "i",
+    "iv",
+    "vii",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "up",
+    "nest-building",
+    "webbed feet",
+    "blood vessels"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "vi — Diving for food",
+      "answerKey": "vi — Diving for food",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph A 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Boobies are a small group of seabirds native to tropical and subtropical oceans throughout the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Boobies 是一小群海鳥，原生於世界各地的熱帶和亞熱帶海洋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surprisingly, individuals do not eat with the hunting group, preferring to eat on their own, usually in the early morning or late afternoon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人意外的是，個體不會和捕獵群體一起進食，而較喜歡獨自進食，通常在清晨或傍晚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 在介紹 boobies 作為海鳥的基本覓食行為。第一句給出物種和棲息範圍，最後一句提到 hunting group 和 eat on their own，已經把段落推向 feeding / hunting。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的關鍵是 “Diving for food”。掃描 Paragraph A，可見多個相關詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fish”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specialised fish-eaters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plunge into the water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fish shoal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dive together”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞不斷重複 fish、plunge、dive，說明全段焦點是如何靠潛水捕魚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When their prey is in sight, they fold their long wings back around their streamlined bodies and plunge into the water from as high as 80 feet…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當牠們看見獵物時，會把長翼向後摺貼在流線型身體旁，並從高達 80 英尺處俯衝入水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含目的和動作：目的，是捕魚；動作，是 plunge into the water。段落後面又說 lead bird看到 fish shoal 後，會 signal rest of the group，然後 they will all dive together。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不是 iii “Folding wings for a purpose”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 確實有 “fold their long wings”，但這只是潛水捕魚前的一個動作。整段從 diet、schooling fish、prey、plunge、fish shoal、dive together 到 eating pattern，全部圍繞食物和捕食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii 只抓到局部技巧，vi 才能覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "v — Classification of boobies",
+      "answerKey": "v — Classification of boobies",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph B 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are three varieties on the Galapagos: the blue-footed, red-footed, and masked boobies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加拉帕戈斯群島上有三種 boobies：藍腳、紅腳和 masked boobies。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All catch fish in a similar manner, but in different areas: the blue-footed booby does its fishing close to shore, while the masked booby goes slightly farther out, and the red-footed booby fishes at the farthest distances from shore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們都以相似方式捕魚，但捕魚地點不同：藍腳鰹鳥近岸捕魚，masked booby 稍微離岸較遠，紅腳鰹鳥則在離岸最遠處捕魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜本段在分類和比較三種 boobies。首句直接列出 three varieties，末句比較三種鳥的 fishing areas。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 的 “Classification” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“three varieties”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all members of the same family”"
+            },
+            {
+              "kind": "quote",
+              "text": "“differ not only in appearance but also in behaviour”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是分類、同科、差異比較的語言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are all members of the same family and differ not only in appearance but also in behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們都是同一科的成員，不只在外貌上不同，在行為上也不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句就是分類段的核心。先把三種 birds 放入 same family，再比較 appearance 和 behaviour。後面 mating cycle 和 fishing distance 只是比較項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不是 ii “The feeding habits of the red-footed booby”？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 最後確實提到 red-footed booby fishes at the farthest distances from shore。但整段不是只講 red-footed booby，也沒有集中討論牠的 feeding habits。它同時比較 blue-footed、red-footed 和 masked boobies，所以 v 最貼合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "viii — Mating and breeding",
+      "answerKey": "viii — Mating and breeding",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph D 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The blue-footed booby’s characteristic feet play a significant part in its famous courtship ceremony, the ‘booby dance’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藍腳鰹鳥具代表性的腳，在著名的求偶儀式 “booby dance” 中扮演重要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When ready, the female blue-footed booby lays one to three eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備好時，雌性藍腳鰹鳥會產下一至三隻蛋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句是 courtship ceremony，末句是 laying eggs。只看首尾句，段落功能已經從求偶走到繁殖， heading 應選 mating and breeding。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的定位詞是 “Mating” 和 “breeding”。Paragraph D 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“courtship ceremony”"
+            },
+            {
+              "kind": "quote",
+              "text": "“win his mate over”"
+            },
+            {
+              "kind": "quote",
+              "text": "“After mating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nest-building display”"
+            },
+            {
+              "kind": "quote",
+              "text": "“breeding grounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lays one to three eggs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞形成清楚的求偶、交配、產卵鏈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After mating, another ritual occurs: a nest-building display, although the nest is never used because they nest on the bare ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "交配後，另一個儀式會出現：築巢展示。不過這個巢不會被使用，因為牠們在裸露地面上築巢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句承接 “After mating”，再引出 nesting。段落最後又說 “lays one to three eggs”，完整覆蓋breeding。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段有很多 “feet” 和 “dance” 的細節，容易令人把焦點放在 courtship dance。但 heading 要概括整段。段落不只描述舞蹈，也說交配後儀式、breeding grounds 和產蛋，因此 viii 最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "i — An unusual way of incubating eggs",
+      "answerKey": "i — An unusual way of incubating eggs",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph E 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After mating, two or three eggs are laid in a shallow depression on flat or gently sloping ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "交配後，兩至三隻蛋會產在平地或緩坡上的淺凹處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The eggs are thick-shelled so they can withstand the full weight of an incubating bird.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些蛋有厚殼，因此能承受孵蛋成鳥的全部重量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都圍繞 eggs 和 incubating bird。這段不是一般講產蛋，而是講孵蛋方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的關鍵是 “unusual” 和 “incubating eggs”。原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both male and female take turns incubating the eggs.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike most birds…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, it uses its broad webbed feet…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to transmit heat essential for incubation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Unlike most birds” 是非常強的訊號，表示這段有 unusual method。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句：“Unlike most birds, the booby does not develop brood patches (areas of bare skin on the breast) to warm the eggs during incubation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同於大多數鳥類，booby 不會長出 brood patches，即胸部裸露皮膚區域，用來在孵化期間溫暖鳥蛋。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, it uses its broad webbed feet, which have large numbers of prominent blood vessels, to transmit heat essential for incubation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，牠使用寬大的蹼足，這些腳有大量明顯血管，用來傳送孵化所需的熱量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明 unusual 的地方：其他鳥多用 brood patches，booby 用 feet。這正是 heading i。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "iv — Rearing the young",
+      "answerKey": "iv — Rearing the young",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph F 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After hatching, the male plays a major role in bringing fish home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孵化後，雄鳥在把魚帶回來方面扮演主要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the chicks grow, the need to feed them becomes greater than the need to protect them and both adults must fish to provide enough food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着雛鳥長大，餵食牠們的需要超過保護牠們的需要，因此雙親都必須捕魚，以提供足夠食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句出現 After hatching，末句出現 chicks grow、feed them、both adults must fish。這段很明顯是在講父母如何養育雛鳥。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iv “Rearing the young” 可對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“chicks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fed continuously”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bringing fish home”"
+            },
+            {
+              "kind": "quote",
+              "text": "“female takes on a larger role”"
+            },
+            {
+              "kind": "quote",
+              "text": "“both adults must fish”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是育雛行為。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He can bring back a constant supply of small fish for the chicks, which must be fed continuously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠可以為雛鳥帶回穩定的小魚供應，而雛鳥必須持續被餵食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接講 feeding chicks。後面又解釋雄鳥適合近岸淺潛，雌鳥後期承擔更多，最後雙親都要捕魚。整段不是單純描述 male/female differences，而是講育雛過程中的分工變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "vii — A survival mechanism during food shortages",
+      "answerKey": "vii — A survival mechanism during food shortages",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph G 選出最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When times are good, the parents may successfully fledge all three chicks, but in harder times, they may still lay as many eggs yet only obtain enough food to raise one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "情況良好時，父母可能成功養大三隻雛鳥；但在艱難時期，即使牠們產下同樣多蛋，也可能只取得足夠食物養大一隻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The system ensures that, if possible, at least one chick will survive a period of shortage rather than all three dying of starvation under a more ‘humane’ system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這套系統確保在可能情況下，至少有一隻雛鳥能在短缺期存活，而不會在較「人道」的系統下三隻都餓死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在說 hard times、food shortage、at least one chick survives。heading vii 直接吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的關鍵是 “survival mechanism” 和 “food shortages”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“harder times”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only obtain enough food to raise one”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food is scarce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outcompete them”"
+            },
+            {
+              "kind": "quote",
+              "text": "“causing them to starve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at least one chick will survive”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The above system optimises the reproductive capacity of the blue-footed booby in an unpredictable environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上述系統在不可預測的環境中，優化了藍腳鰹鳥的繁殖能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把看似殘酷的 sibling murder 解釋為一種 survival strategy。最後一句再明確說至少一隻能survive a period of shortage。vii 能完整概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Boobies are frightened when humans approach them.”",
+      "translation": "當人類靠近 boobies 時，牠們會害怕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the origin of the name ‘booby’ is uncertain, some believe it comes from the Spanish word bobo, meaning ‘stupid’ or ‘clown’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 booby 這個名字的來源並不確定，有些人認為它來自西班牙語 bobo，意思是「愚蠢」或「小丑」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its clumsiness and lack of fear made it easy for people to capture, kill and eat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠的笨拙和缺乏恐懼，使人很容易捕捉、殺死和食用牠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 會講名字來源和人類容易接近 / 捕捉牠們的原因。題目有 “humans approach”，應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “frightened” 和 “humans”。原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The blue-footed booby is extremely vulnerable to human visitors because it seems unafraid of them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藍腳鰹鳥對人類訪客非常脆弱，因為牠似乎不怕人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 frightened when humans approach them。原文說 “seems unafraid of them”，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "frightened= afraid / scared seems unafraid= appears not afraid human visitors= humans approaching or visiting原文不只是沒有支持題目，它明確說牠們 lack of fear，而且 seems unafraid of human visitors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和題目相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 說牠們 vulnerable to humans，學生可能把 vulnerable 理解成害怕。其實vulnerable 是容易受傷害、容易被捕捉；原因正正是 lack of fear。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Female boobies eat more than males.”",
+      "translation": "雌性 boobies 比雄性吃得更多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：主要掃描 Paragraph F，也要回看 Paragraph A Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After hatching, the male plays a major role in bringing fish home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孵化後，雄鳥在把魚帶回來方面扮演主要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the chicks grow, the need to feed them becomes greater than the need to protect them and both adults must fish to provide enough food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着雛鳥長大，餵食牠們的需要超過保護牠們的需要，因此雙親都必須捕魚，以提供足夠食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 講雌雄雙親餵養雛鳥的分工，不一定講雌雄自己的食量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Female”、 “eat more” 和 “males”。文章中與 male / female 最相關的是Paragraph F："
+            },
+            {
+              "kind": "quote",
+              "text": "“The female takes on a larger role as time passes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着時間過去，雌鳥承擔較大的角色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 female takes on a larger role，但這個 larger role 是指育雛和提供食物的角色變大，不是說雌鳥自己吃更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是： female boobies eat more food than male boobies原文實際提供的是： male brings fish home at first female takes on a larger role later both adults must fish to provide enough food for chicks Paragraph A 也只說 individuals prefer to eat on their own，沒有比較雌雄食量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，文章沒有足夠資料判斷雌鳥是否比雄鳥吃得更多。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“female takes on a larger role” 很容易令人聯想到「雌性更多」。但 larger role 指照顧和覓食分工，題目問 eat more，兩者關係不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“When food is insufficient, larger chicks are fed at the expense of their smaller nestmates’ survival.”",
+      "translation": "當食物不足時，較大的雛鳥會得到餵食，而較小的同巢雛鳥會因此犧牲生存機會。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When times are good, the parents may successfully fledge all three chicks, but in harder times, they may still lay as many eggs yet only obtain enough food to raise one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "情況良好時，父母可能成功養大三隻雛鳥；但在較艱難時期，即使牠們產下同樣多蛋，也可能只取得足夠食物養大一隻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The system ensures that, if possible, at least one chick will survive a period of shortage rather than all three dying of starvation under a more ‘humane’ system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這套系統確保在可能情況下，至少有一隻雛鳥能在短缺期存活，而不會三隻都餓死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 明顯討論食物不足時雛鳥如何競爭生存。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： food is insufficient larger chicks smaller nestmates survival原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“If food is scarce, the firstborn will get more food than its nestmates and will outcompete them, causing them to starve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果食物稀少，先出生的雛鳥會比同巢雛鳥得到更多食物，並在競爭中勝過牠們，導致牠們餓死。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “food is insufficient” 對應 “food is scarce”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“larger chicks” 對應 “firstborn chick is larger and stronger”。“fed at the expense of smaller nestmates’ survival” 對應 “get more food than its nestmates …causing them to starve”。原文和題目方向完全一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字說 firstborn，但 larger chicks 來自原文的 “The firstborn chick is larger and stronger”。要把前一句和後一句連起來讀，才看得到 larger chick 為何得到更多食物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "up",
+      "answerKey": "up",
+      "type": "Summary Completion",
+      "prompt": "“During the dance, the male spreads his wings and stamps his feet on the ground, with his bill 23 __________.”",
+      "translation": "在舞蹈期間，雄鳥張開 / 展示翅膀並踏腳，鳥喙保持向上的姿態。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The blue-footed booby’s characteristic feet play a significant part in its famous courtship ceremony, the ‘booby dance’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藍腳鰹鳥具代表性的腳，在著名求偶儀式 “booby dance” 中扮演重要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When ready, the female blue-footed booby lays one to three eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備好時，雌性藍腳鰹鳥會產下一至三隻蛋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 是求偶和繁殖段，summary 的 courtship / dance 必然定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： dance male bill原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also raises his bill up towards the sky to try to win his mate over.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠也會把鳥喙向上朝着天空抬起，試圖贏得伴侶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “with his bill”，後面沒有其他詞，所以需要一個能描述 bill 位置的字。原文在 bill 後面直接出現 “up towards the sky”。由於題目限制是 NO MORE THAN TWO WORDS，“towards the sky” 有三個字，不可填。最自然、最貼近原文的答案是 up。"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“with his bill up”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鳥喙向上。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段也有 “sky-pointing”，但 summary 的句型是 “with his bill ___”。直接來自 “raises his bill up towards the sky” 的答案是 up，文法最順。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "nest-building",
+      "answerKey": "nest-building",
+      "type": "Summary Completion",
+      "prompt": "“After mating, the booby’s unusual behaviour continues with a 24 __________ ritual that serves no practical purpose.”",
+      "translation": "交配後，booby 的異常行為繼續出現：有一個沒有實際用途的築巢儀式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The blue-footed booby’s characteristic feet play a significant part in its famous courtship ceremony, the ‘booby dance’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藍腳鰹鳥具代表性的腳，在著名求偶儀式 “booby dance” 中扮演重要角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When ready, the female blue-footed booby lays one to three eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備好時，雌性藍腳鰹鳥會產下一至三隻蛋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 由求偶進到交配後行為，summary 的 “After mating” 明確把答案帶到同段中後部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： After mating ritual serves no practical purpose原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“After mating, another ritual occurs: a nest-building display, although the nest is never used because they nest on the bare ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "交配後，另一個儀式會出現：築巢展示。不過這個巢不會被使用，因為牠們在裸露地面上築巢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格在 “a ___ ritual” 前，需要一個形容 ritual 類型的詞。原文是 “a nest-building display”。題目把display 改寫成 ritual，因此只需填 nest-building。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "another ritual occurs= behaviour continues with a ritual nest-building display= nest-building ritual the nest is never used= serves no practical purpose答案符合字數限制，hyphenated word 算一個詞，所以答案是 nest-building。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "webbed feet",
+      "answerKey": "webbed feet",
+      "type": "Summary Completion",
+      "prompt": "“When the female lays eggs, the parents incubate them beneath their 25 __________, which contain 26 __________ to transmit heat because the birds lack brood patches.”",
+      "translation": "雌鳥產蛋後，父母用牠們的蹼足孵蛋；這些蹼足含有血管，用來傳熱，因為這些鳥沒有 brood patches。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After mating, two or three eggs are laid in a shallow depression on flat or gently sloping ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "交配後，兩至三隻蛋會產在平地或緩坡上的淺凹處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The eggs are thick-shelled so they can withstand the full weight of an incubating bird.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些蛋有厚殼，因此能承受孵蛋成鳥的全部重量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 講產蛋和孵蛋。題目有 incubate、brood patches，因此定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： incubate beneath their ___brood patches transmit heat原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, it uses its broad webbed feet, which have large numbers of prominent blood vessels, to transmit heat essential for incubation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，牠使用寬大的蹼足，這些腳有大量明顯血管，用來傳送孵化所需的熱量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格 25 在 “beneath their ___” 之後，應填身體部位。原文說 boobies use their “broad webbed feet” to transmit heat。由於最多兩個字，不能填 broad webbed feet 三個字，所以保留核心名詞短語 webbed feet。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "uses its broad webbed feet= incubate them beneath their webbed feet transmit heat essential for incubation= transmit heat"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：webbed feet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "blood vessels",
+      "answerKey": "blood vessels",
+      "type": "Summary Completion",
+      "prompt": "“...which contain 26 __________ to transmit heat because the birds lack brood patches.”",
+      "translation": "這些蹼足含有血管，用來傳熱，因為這些鳥沒有 brood patches。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After mating, two or three eggs are laid in a shallow depression on flat or gently sloping ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "交配後，兩至三隻蛋會產在平地或緩坡上的淺凹處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The eggs are thick-shelled so they can withstand the full weight of an incubating bird.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些蛋有厚殼，因此能承受孵蛋成鳥的全部重量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 incubation。Question 26 接續 Question 25，同一句原文提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： contain transmit heat brood patches原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, it uses its broad webbed feet, which have large numbers of prominent blood vessels, to transmit heat essential for incubation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，牠使用寬大的蹼足，這些腳有大量明顯血管，用來傳送孵化所需的熱量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “which contain ___ to transmit heat”。原文說 webbed feet “have large numbers of prominent blood vessels”。contain 改寫 have；to transmit heat 原字幾乎重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案必須從原文取詞，而且不可超過兩個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large numbers of prominent blood vessels” 太長；真正需要填的是名詞核心 blood vessels。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "contain= have blood vessels= blood vessels to transmit heat= to transmit heat所以答案是 blood vessels。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Blue-footed Boobies.pdf",
+    "sha256": "3a3fafca7017303543aa724f4dcd7c4c3e7fdabfad0696b2ba3fe09f058c498e",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 boobies 定位為分布於熱帶及亞熱帶海洋的 seabirds，並指出牠們 mainly eat fish。末句補充一個反直覺細節：雖然牠們會成群尋找魚群和一起潛水，個體通常獨自進食。只看首尾句，可先估計本段功能是介紹 boobies 的覓食和捕魚方式。中間的 folded wings、plunge into water、streamlined bodies 都是捕食技術細節，Heading 應抓住 diving for food 這個整段主題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Galapagos 有三種 boobies：blue-footed、red-footed、masked。末句說牠們捕魚方式相似，但捕魚地點不同：blue-footed 近岸，masked 較遠，red-footed 最遠。只看首尾句，可見本段功能是分類和比較三種 boobies。段落不是只講 red-footed booby，也不是只講捕魚動作，而是把三個品種放在同一 family 內，從外貌、行為、mating cycle 和 fishing areas 比較。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 booby 一名來源 uncertain，可能來自西班牙語 bobo，意思是 stupid 或 clown。末句說牠們在陸地上的 clumsiness 和 lack of fear 使人容易捕捉、殺死和食用牠們。只看首尾句，可先估計本段功能是解釋名字來源，同時補充這種名字背後的行為原因。Example 已給 Paragraph C —ix，所以這段也幫我們確認 heading 題要抓段落主軸，而非只看人類捕捉這個後半細節。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 blue-footed booby 的 characteristic feet 在 courtship ceremony，即 booby dance 中非常重要。末句說雌鳥準備好時會產下一至三隻蛋。只看首尾句，可見本段從求偶儀式走到繁殖產卵，功能偏向 mating and breeding。中間的 blue feet、raising bill、crossing wings、squawking、nest-building display 都屬於求偶及交配後行為；末句的 eggs 把段落推到 breeding。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說交配後，兩至三隻蛋會產在平地或緩坡上的淺凹處，雌雄輪流孵蛋。末句說蛋殼很厚，能承受孵蛋成鳥的全部重量。只看首尾句，可先估計本段圍繞 egg incubation。中間最特別的資訊是 boobies 沒有 brood patches，改用 broad webbed feet 及 blood vessels 傳熱。所以 heading應該鎖定 unusual incubation method，而非一般產蛋或築巢。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說雛鳥孵化後，雄鳥在帶魚回來方面扮演 major role。末句說隨着雛鳥長大，餵食需求超過保護需求，因此雙親都要捕魚。只看首尾句，可見本段功能是 rearing the young，即如何養育幼鳥。中間解釋雄鳥為何起初較適合帶小魚回來，因為牠尾巴比例較長，可以較淺潛水和靠近海岸覓食。後半則轉為雙親共同供食。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說食物充足時，父母可能成功養大三隻雛鳥；艱難時期即使產下同樣多蛋，也可能只夠養活一隻。末句說這套系統確保在食物短缺時至少有一隻雛鳥存活。只看首尾句，可見本段功能是解釋 food shortage 下的 survival mechanism。中間的 firstborn chick larger and stronger、gets more food、outcompete nestmates、starve 都支持 heading vii。"
+      }
+    ]
+  }
+}

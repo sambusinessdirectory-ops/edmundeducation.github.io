@@ -55,9 +55,15 @@ const index = loadBrowserData(
 const catalogueById = new Map(index.passages[1].map((record) => [record.id, record]));
 const sourceByFilename = new Map(report.sources.map((source) => [source.filename, source]));
 const availabilityEntries = Object.values(availability.articles);
-const jsonEntries = Object.values(availability.articles).filter(({ source }) => source === "json");
-const bundledEntries = availabilityEntries.filter(({ source }) => source === "bundled");
-const jsonFilenames = filenames.filter((filename) => filename.endsWith(".json")).sort();
+const jsonEntries = Object.values(availability.articles).filter(
+  ({ source, passage }) => source === "json" && passage === 1,
+);
+const bundledEntries = availabilityEntries.filter(
+  ({ source, passage }) => source === "bundled" && passage === 1,
+);
+const jsonFilenames = filenames.filter(
+  (filename) => filename.startsWith("p1-") && filename.endsWith(".json"),
+).sort();
 
 assert.equal(manifest.sources.length, 156, "the expanded corpus must retain all 156 source records");
 assert.equal(report.sourceCount, 156);
@@ -115,7 +121,9 @@ for (const duplicate of [manifest.bundledSourceDuplicates[0], report.bundledSour
 
 assert.equal(index.passages[1].length, 164, "Passage 1 catalogue size changed unexpectedly");
 const availableCatalogueIds = new Set(
-  availabilityEntries.flatMap((entry) => entry.catalogueIds || [entry.catalogueId]),
+  availabilityEntries
+    .filter(({ passage }) => passage === 1)
+    .flatMap((entry) => entry.catalogueIds || [entry.catalogueId]),
 );
 assert.equal(availableCatalogueIds.size, 160, "160 of 164 Passage 1 catalogue entries should be available");
 const missingCatalogueIds = Array.from(index.passages[1], ({ id }) => id)

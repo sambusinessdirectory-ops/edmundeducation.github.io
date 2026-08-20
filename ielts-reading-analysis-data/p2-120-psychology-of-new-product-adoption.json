@@ -1,0 +1,2236 @@
+{
+  "id": "p2-120-psychology-of-new-product-adoption",
+  "catalogueId": "p2-120",
+  "catalogueIds": [
+    "p2-120"
+  ],
+  "passage": 2,
+  "title": "Psychology of new product adoption",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "C",
+    "A",
+    "C",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "C",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B — Everett Rogers",
+      "answerKey": "B — Everett Rogers",
+      "type": "Matching Features",
+      "prompt": "“proposed a theory with a potential flaw in its application”",
+      "translation": "提出一個理論，而這個理論在應用上有潛在缺陷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。題目要找「誰」和一個「有缺陷的理論」有關。最有定位力的字是 theory、flaw、application。這些字很可能不會全部原字重現，但原文若出現 concept、argument、major flaw，就要停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies have long assumed that people will adopt new products that deliver more value or utility than existing ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司長期以來一直假設，只要新產品比現有產品提供更多價值或效用，人們就會採用新產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although compelling, the theory has one major flaw: It fails to capture the psychological biases that affect decision making.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個理論很有說服力，但它有一個重大缺陷：它沒有捕捉到會影響決策的心理偏誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 在講一個傳統 adoption theory：公司認為客觀上更優越的產品自然會被採用；段尾則指出這個理論忽略心理偏誤。題目提到 potential flaw，正好對應這段末句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flaw”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proposed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, communications scholar Everett Rogers called the concept ‘relative advantage’ and identified it as the most critical driver of new-product adoption.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含人物 Everett Rogers，也包含 concept “relative advantage”。段尾再用 “the theory has one major flaw” 指回前面這套觀點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, communications scholar Everett Rogers called the concept ‘relative advantage’ and identified it as the most critical driver of new-product adoption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1960 年代，傳播學者 Everett Rogers 把這個概念稱為 “relative advantage”，並把它視為新產品採用中最關鍵的推動因素。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although compelling, the theory has one major flaw: It fails to capture the psychological biases that affect decision making.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個理論很有說服力，但它有一個重大缺陷：它沒有捕捉到影響決策的心理偏誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要把兩句連起來。Everett Rogers 和 “relative advantage” 連在一起；後文的 “the theory” 指向前面這套相對優勢理論。題目說 “a potential flaw in its application”，原文說 “one major flaw”，內容是忽略 psychological biases。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "proposed a theory = called the concept “relative advantage” and identified it as a driver potential flaw = one major flaw application / adoption context = new-product adoption fails to capture psychological biases = 理論應用時忽略心理偏誤答案判斷： B 對應 Everett Rogers。Richard Thaler 主要與 endowment effect 有關；Kahneman and Tversky主要解釋 loss aversion 和選擇行為特徵。這題控制答案的是 “relative advantage” 和 “major flaw”，因此答案為 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C — Kahneman and Tversky",
+      "answerKey": "C — Kahneman and Tversky",
+      "type": "Matching Features",
+      "prompt": "“identified several features of consumer behaviour when people face alternatives”",
+      "translation": "指出人們面對不同選項時，消費者行為有幾個特徵。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找一組人物，以及他們對 “alternatives” 下的人類反應作出的分析。題目中的 several features 很可能對應原文的 “four distinct characteristics”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F and Paragraph G Paragraph F 第一讀："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2002, psychologist Daniel Kahneman won the Nobel Prize in economics for a body of work that explores why and when individuals deviate from rational economic behavior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2002 年，心理學家 Daniel Kahneman 因一系列研究獲得諾貝爾經濟學獎；這些研究探討個人在何時和為何偏離理性經濟行為。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kahneman and Tversky showed, and others have confirmed, that human beings’ responses to the alternatives before them have four distinct characteristics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kahneman 和 Tversky 證明，後來其他研究者也確認，人類面對眼前選項時的反應有四個明顯特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一讀："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, people evaluate the attractiveness of an alternative based not on its objective, or actual, value but on its subjective, or perceived value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，人們評估一個選項是否吸引時，依據的並非其客觀或實際價值，重點在主觀或感知價值。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Kahneman and Tversky wrote, ‘losses loom larger than gains.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Kahneman 和 Tversky 所寫：「損失比收益顯得更大。」Paragraph F 給出人物和 “four distinct characteristics”；Paragraph G 逐一列出這些特徵。因此這題需要跨 F 和 G 兩段完成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“several features”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consumer behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“alternatives”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“human beings’ responses to the alternatives before them have four distinct characteristics”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kahneman and Tversky showed, and others have confirmed, that human beings’ responses to the alternatives before them have four distinct characteristics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kahneman 和 Tversky 證明，後來其他研究者也確認，人類面對眼前選項時的反應有四個明顯特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 接著列出四點：第一，按 subjective value 評估選項；第二，相對於 reference point 評估新產品或投資；第三，把改善看作 gains，把不足看作 losses；第四，losses 的影響遠大於同等大小的 gains，也就是 loss aversion。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "identified = showed several features = four distinct characteristics consumer behaviour = human beings’ responses in the marketplace when people face alternatives = responses to the alternatives before them答案判斷： C 對應 Kahneman and Tversky。這題最容易被 Daniel Kahneman 單獨出現誤導，但題目選項是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Kahneman and Tversky”，原文的關鍵句也清楚使用這對名字。答案為 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — Richard Thaler",
+      "answerKey": "A — Richard Thaler",
+      "type": "Matching Features",
+      "prompt": "“argued that customers value possessions they may give up more highly than alternatives they may obtain”",
+      "translation": "指出顧客會把自己可能要放棄的 possessions 估得比可以取得的 alternatives 更高。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞很清楚：possessions、give up、obtain。這些詞都和 ownership 有關，應該定位到endowment effect。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Loss aversion leads people to value products that they already possess – those that are part of their endowment – more than those they don’t have.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "損失規避會使人們更重視自己已經擁有的產品，也就是屬於自己 endowment 的東西，高於他們尚未擁有的產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thaler called that bias the ‘endowment effect.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thaler 把這種偏誤稱為 “endowment effect”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 的功能是介紹 endowment effect，並把這個 bias 歸於 Thaler。題目中的 possessions 和 give up 正好對應這段的 ownership logic。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“possessions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“give up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“obtain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“consumers value what they own—and might have to give up—much more than what they do not own but could obtain.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to behavioral economist Richard Thaler, consumers value what they own—and might have to give up—much more than what they do not own but could obtain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據行為經濟學家 Richard Thaler 的說法，消費者對自己已擁有、並可能要放棄的東西，估值遠高於他們尚未擁有但可以取得的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 consumers；核心動詞是 value；比較關係是 “much more than”。題目說 “customers value possessions they may give up more highly than alternatives they may obtain”，幾乎就是原文句子的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "customers = consumers possessions = what they own may give up = might have to give up alternatives they may obtain = what they do not own but could obtain more highly = much more答案判斷：這句直接由 “According to Richard Thaler” 引出，所以答案是 A。這題不用找 experiment，因為Question 16 問的是人物觀點；mug experiment 在 Paragraph I，是 Thaler 和 colleagues 用來測量 endowment effect 的例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — Kahneman and Tversky",
+      "answerKey": "C — Kahneman and Tversky",
+      "type": "Matching Features",
+      "prompt": "“explained why people do not replace existing products”",
+      "translation": "解釋人們為何不替換現有產品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「為何人們保留現有東西，不轉向更好選擇」的理論來源。題目中的 do not replace existing products 對應原文的 stick with what they have。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kahneman and Tversky’s research also explains why people tend to stick with what they have even if a better alternative exists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kahneman 和 Tversky 的研究也解釋了，為何即使有更好的替代選項，人們仍傾向保留自己已有的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To approximately 90 per cent of the students, giving up what they already had seemed like a painful loss and shrank their desire to trade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大約 90% 的學生來說，放棄自己已經擁有的東西似乎是一種痛苦的損失，因而削弱了他們交換的意願。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段直接處理 status quo bias：人們傾向保留現有產品，不願交換，即使替代品也有吸引力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“do not replace”"
+            },
+            {
+              "kind": "quote",
+              "text": "“existing products”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“stick with what they have”"
+            },
+            {
+              "kind": "quote",
+              "text": "“even if a better alternative exists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only 11 per cent … and 10 per cent … wanted to exchange”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kahneman and Tversky’s research also explains why people tend to stick with what they have even if a better alternative exists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kahneman 和 Tversky 的研究也解釋了，為何即使存在更好的替代選項，人們仍傾向保留已有東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接把 explanation 歸到 Kahneman and Tversky’s research。後文提到 Jack Knetsch 的experiment，以及 William Samuelson and Richard Zeckhauser 對 “status quo bias” 的命名，但題目選項只有 A Richard Thaler、B Everett Rogers、C Kahneman and Tversky。就三個選項而言，原文最直接支持 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "explained why = research also explains why do not replace existing products = stick with what they have existing products = what they have better alternative = replaceable new option答案判斷：答案為 C。中伏位是 Paragraph J 也出現 Knetsch、Samuelson、Zeckhauser；但他們沒有在選項A–C 中。題目配對要回到可選人物，Paragraph J 第一字組已經指出 Kahneman and Tversky’s research explains 這種現象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Innovative products that outperform existing alternatives are guaranteed to gain market share.”",
+      "translation": "表現優於現有替代品的創新產品，一定能取得市場份額。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考 guaranteed 這個程度詞。題目說只要 outperform existing alternatives，就保證 gain market share。要判斷原文是否支持「客觀優勢必然成功」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the fact, experts and novices alike tend to dismiss unsuccessful innovations as bad ideas that were destined to fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事後，專家和新手往往都會把失敗的創新 dismiss 為本來就注定失敗的壞主意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand why new products fail to live up to companies’ expectations, we must delve into the psychology of behavior change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解新產品為何未能達到公司期望，我們必須深入研究行為改變的心理學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能是反思常見的失敗解釋，並把真正原因導向心理學。題目中的outperform existing alternatives 對應本段中 “distinct improvements over existing ones”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovative products”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outperform existing alternatives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“guaranteed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why do consumers fail to buy innovative products even when they offer distinct improvements over existing ones?”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few would question the objective advantages of many innovations over existing alternatives, but that’s often not enough for them to succeed.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few would question the objective advantages of many innovations over existing alternatives, but that’s often not enough for them to succeed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少人會質疑許多創新相對於現有替代品的客觀優勢，但這往往仍不足以令它們成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的轉折 but 很重要。前半承認 innovations 可能有 objective advantages；後半指出這些優勢often not enough for them to succeed。題目用了 guaranteed，表示必然成功；原文說 often not enough，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "outperform existing alternatives = have objective advantages over existing alternatives gain market share / succeed = succeed in the marketplace guaranteed = certain / 必然often not enough = 經常不足以成功答案判斷：題目說「有優勢就必然取得市場」，原文說「有優勢仍常常不足以成功」。兩者核心方向相衝，所以答案為 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “objective advantages” 時很容易以為題目成立。真正定案的是後半句 “but that’s often not enough for them to succeed”。IELTS 這類題要特別看 but 後面的信息。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Companies’ recognition of the benefits of switching to new products guarantees that an innovation will succeed.”",
+      "translation": "公司認識到轉用新產品的好處，就能保證創新成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題同樣考 guarantees。它把 company recognition 和 innovation success 連成必然因果。要檢查文章是否說企業只要知道新產品好處，就能成功。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D and Paragraph E Paragraph D 第一讀："
+            },
+            {
+              "kind": "quote",
+              "text": "“What businesses don’t take into account, however, are the psychological costs associated with behavior change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，企業沒有納入考量的是與行為改變相關的心理成本。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also leads executives to value the benefits of innovations they’ve developed over the advantages of incumbent products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種偏誤也令管理層過分重視自己開發的創新產品的好處，勝過現有產品的優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一讀："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies have long assumed that people will adopt new products that deliver more value or utility than existing ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司長期假設，只要新產品比現有產品提供更多價值或效用，人們便會採用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although compelling, the theory has one major flaw: It fails to capture the psychological biases that affect decision making.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個理論很有說服力，但它有一個重大缺陷：它沒有捕捉影響決策的心理偏誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段共同指出：公司確實會看見甚至高估 innovation benefits，但這種理解本身並不能保證成功，因為心理成本和心理偏誤被忽略。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“guarantees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“innovation will succeed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“executives … value the benefits of innovations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies have long assumed…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the theory has one major flaw”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also leads executives to value the benefits of innovations they’ve developed over the advantages of incumbent products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種偏誤也令管理層把自己開發的新產品好處估得比現有產品的優勢更高。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although compelling, the theory has one major flaw: It fails to capture the psychological biases that affect decision making.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個理論很有吸引力，但它有一個重大缺陷：它未能捕捉影響決策的心理偏誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 companies’ recognition of benefits 寫成成功保證。但原文指出 executives 甚至會因偏誤高估自己 innovations 的 benefits；傳統 theory 也因未能捕捉心理偏誤而有 major flaw。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "recognition of benefits = executives value the benefits guarantees success = sufficient for adoption / success major flaw = 無法保證，因為忽略心理偏誤psychological biases affect decision making = 消費者未必按公司預期採用產品答案判斷：原文沒有支持「認識好處即可保證成功」，並且明確指出這種理論有缺陷。因此答案為 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Companies 確實重視 innovation benefits，所以題目前半有原文背景。問題出在 “guarantees”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章主旨正好是：客觀好處和公司信心都不足以解釋或保證 adoption。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Gender affects perceptions of losses and gains in the marketplace.”",
+      "translation": "性別會影響人在市場中如何感知損失和收益。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 gender 和 losses / gains 的關係。題目不是單純問 loss aversion 是否存在，而是問gender 是否影響對 losses and gains 的 perceptions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, people evaluate the attractiveness of an alternative based not on its objective, or actual, value but on its subjective, or perceived value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，人們評估一個選項是否吸引時，依據的並非客觀或實際價值，重點在主觀或感知價值。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Kahneman and Tversky wrote, ‘losses loom larger than gains.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Kahneman 和 Tversky 所寫：「損失比收益顯得更大。」只看首尾句，Paragraph G 明顯討論 gains、losses 和 perceived value。因此它是最可能包含相關資訊的段落。但要判斷 gender，就要細讀是否出現 male、female、men、women、gender 等資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gender”"
+            },
+            {
+              "kind": "quote",
+              "text": "“losses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marketplace”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文找到 losses / gains，但沒有找到 gender-related terms。相關句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“losses have a far greater impact on people than similarly sized gains”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“losses loom larger than gains.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fourth, and most important, losses have a far greater impact on people than similarly sized gains, a phenomenon that Kahneman and Tversky called ‘loss aversion.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四，也是最重要的一點，損失對人的影響遠大於同等大小的收益；Kahneman 和 Tversky 把這種現象稱為 “loss aversion”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 people，範圍是一般人。它沒有把 people 分成男性和女性，也沒有比較不同gender 對 losses 和 gains 的感知差異。後面的賭局例子和電力中斷補償例子，也只說 most people 或 consumers，沒有 gender 分類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料清單：原文有：losses、gains、loss aversion、people、consumers原文缺少：gender、male/female comparison、男女對損失收益反應差異答案判斷：文章沒有足夠資料判斷 gender 是否影響 losses and gains perception。因此答案為 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "很多學生看到 “people” 會把它理解成所有人口因素都可能被研究過，例如年齡、性別、收入等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 IELTS 只接受文本證據。原文只建立普遍 loss aversion，沒有建立 gender effect。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The endowment-effect experiment showed a large gap between sellers’ asking prices and choosers’ offers.”",
+      "translation": "endowment-effect 實驗顯示，sellers 的叫價和 choosers 願意付出的價格之間有很大差距。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 endowment-effect experiment 的數據結果。定位詞是 endowment-effect experiment、Sellers、Choosers、price。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a 1990 paper, Thaler and his colleagues describe a series of experiments they conducted to measure the magnitude of the endowment effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一篇 1990 年的論文中，Thaler 和他的同事描述了一系列實驗，用來衡量 endowment effect 的大小。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, the Sellers always demanded at least twice as much to give up the mugs as the Choosers would pay to obtain them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，Sellers 為了放棄杯子所要求的價格，總是至少是 Choosers 願意付出以取得杯子的兩倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 清楚是 endowment effect 的實驗段，且最後一句直接提到 Sellers 和Choosers 的價格差距。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sellers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Choosers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“asking prices”"
+            },
+            {
+              "kind": "quote",
+              "text": "“offers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sellers priced the mug at $7.12 … Choosers were willing to pay only $3.12”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Sellers … $7.00 and $3.50”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at least twice as much”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one trial of this experiment, the Sellers priced the mug at $7.12, on average, but the Choosers were willing to pay only $3.12.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個實驗的一次試驗中，Sellers 對杯子的平均定價是 7.12 美元，但 Choosers 只願意支付3.12 美元。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another trial, the Sellers and the Choosers valued the mug at $7.00 and $3.50, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在另一次試驗中，Sellers 和 Choosers 對杯子的估值分別是 7.00 美元和 3.50 美元。"
+            },
+            {
+              "kind": "label",
+              "text": "總結句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overall, the Sellers always demanded at least twice as much to give up the mugs as the Choosers would pay to obtain them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體來說，Sellers 為放棄杯子要求的價錢，至少總是 Choosers 願意付出取得杯子價錢的兩倍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "asking prices = priced the mug / demanded choosers’ offers = Choosers were willing to pay large gap = at least twice as much / $7.12 vs $3.12 endowment-effect experiment = experiments to measure the endowment effect答案判斷：原文用兩組數字和 “at least twice as much” 明確顯示 sellers 和 choosers 之間有大差距。因此答案為 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Customers calmly accept evidence that they exhibit status quo bias.”",
+      "translation": "顧客會平靜地接受證據，承認自己表現出 status quo bias。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 people / customers 對自己偏誤證據的反應。控制詞是 calmly accept。若原文描述的反應是震驚、懷疑、防衛，便與 calmly accept 相衝。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, most people seem oblivious to the existence of the behaviors implicit in the endowment effect and the status quo bias.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，大多數人似乎沒有察覺 endowment effect 和 status quo bias 所隱含的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These behavioral tendencies are universal, but awareness of them is not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些行為傾向是普遍的，但對它們的 awareness 並不普遍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph K 講的是人們對自身心理偏誤缺乏自覺。題目說 calmly accept evidence，應該在本段中間找人們看見證據時的反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“status quo bias”"
+            },
+            {
+              "kind": "quote",
+              "text": "“calmly accept”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“when researchers presented people with evidence…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“they were shocked, skeptical, and more than a bit defensive.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In study after study, when researchers presented people with evidence that they had irrationally overvalued the status quo, they were shocked, skeptical, and more than a bit defensive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項又一項研究中，當研究者向人們展示證據，指出他們曾不理性地高估 status quo 時，他們感到震驚、懷疑，並且相當防衛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接描述反應：shocked、skeptical、defensive。這些反應和 calmly accept 的方向相反。題目把 people 概括成 customers，語境上可以接受，因為本文談 consumer behavior；真正衝突在態度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "calmly accept = 平靜接受shocked = 震驚skeptical = 懷疑defensive = 防衛evidence = evidence that they had irrationally overvalued the status quo答案判斷：原文明確描述人們的反應並不平靜，也不算接受。因此答案為 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph K 說這些 behavioral tendencies are universal，可能令人以為人們知道並接受這件事。可是段尾也說 awareness is not universal；中間更直接說人們 shocked、skeptical、defensive。判斷要落在反應詞上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "C — Roughly half of new-product ventures fail.",
+      "answerKey": "C — Roughly half of new-product ventures fail.",
+      "type": "Multiple Choice",
+      "prompt": "“What does paragraph A illustrate about innovative business ventures?”",
+      "translation": "Paragraph A 說明創新商業項目有甚麼情況？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 MCQ。題目問 Paragraph A 的主要說明，不是問單一數字本身。要看整段如何用 failure rates、new product introductions 和 first movers 建立「創新項目失敗率很高」這個訊息。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In today’s hypercompetitive marketplace, companies that successfully introduce new products are more likely to flourish than those that don’t.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在今天高度競爭的市場中，能成功推出新產品的公司，比不能做到這點的公司更可能興盛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to one study, 47 per cent of first movers have failed, meaning that approximately half the companies that pioneered new product categories later pulled out of those businesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一項研究，47% 的 first movers 失敗了，這表示約有一半開創新產品類別的公司後來退出了那些業務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說成功推出新產品很重要；最後一句說接近一半 first movers 失敗並退出。這段用大量數據顯示創新產品和創新業務並不容易成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“innovative business ventures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paragraph A”"
+            },
+            {
+              "kind": "quote",
+              "text": "“illustrate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies show that new products fail at the stunning rate of between 40 per cent and 90 per cent…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“47 per cent of first movers have failed…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“approximately half the companies that pioneered new product categories later pulled out…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to one study, 47 per cent of first movers have failed, meaning that approximately half the companies that pioneered new product categories later pulled out of those businesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一項研究，47% 的 first movers 失敗了，也就是說大約一半率先開創新產品類別的公司，後來退出那些業務。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roughly half of new-product ventures fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約一半新產品相關業務會失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項對應 47 per cent / approximately half。雖然原文精確說的是 first movers 和 pioneering companies，C 用 “new-product ventures” 作概括，是四個選項中最符合段落意義的一項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “More than 70 per cent of products remain in warehouses.”原文說的是 70% to 90% don’t stay on store shelves for more than 12 months，即不能留在貨架上，不是留在 warehouses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Only the US packaged-goods industry is affected.”原文用 U.S. packaged goods industry as an example: “for instance”。它是例子，沒有說 only this industry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “New products have a long lifespan.”原文方向相反：很多產品不能在 shelves 留超過 12 個月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： C 最能概括 Paragraph A 對 innovative business ventures 的說明：失敗率高，約半數 first movers 會失敗或退出。答案為 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B — being sufficiently creative and innovative.",
+      "answerKey": "B — being sufficiently creative and innovative.",
+      "type": "Multiple Choice",
+      "prompt": "“What do experts and novices tend to believe makes a product sell well?”",
+      "translation": "專家和新手通常相信，甚麼會令產品賣得好？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 experts and novices 的常見看法。定位詞是 experts and novices，這組詞只在Paragraph B 首句出現。要注意題目問的是他們傾向相信的原因，而文章接著會質疑這種想法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the fact, experts and novices alike tend to dismiss unsuccessful innovations as bad ideas that were destined to fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事後，專家和新手往往都會把失敗的創新 dismiss 為壞主意，並認為它們注定失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand why new products fail to live up to companies’ expectations, we must delve into the psychology of behavior change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解新產品為何未能達到公司期望，我們必須深入研究行為改變的心理學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出段落先提出常見直覺：失敗產品是 bad ideas；接著作者轉向 deeper psychology。題目問 experts and novices 的看法，答案要從這種常見直覺中推回：他們以為產品idea 本身夠好、夠創新就會賣得好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“experts and novices”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sell well”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“dismiss unsuccessful innovations as bad ideas…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Why do consumers fail to buy innovative products even when they offer distinct improvements over existing ones?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Few would question the objective advantages of many innovations over existing alternatives…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the fact, experts and novices alike tend to dismiss unsuccessful innovations as bad ideas that were destined to fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事後，專家和新手都傾向把失敗的創新說成壞主意，認為它們本來就注定失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有直接說 “a product sells well because…”，但反向邏輯很清楚：如果失敗是因為 idea bad，那成功就被理解成 idea good / innovative enough / superior enough。後文 “distinct improvements” 和 “objective advantages” 也顯示，人們常以產品自身優勢解釋 adoption。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“being sufficiently creative and innovative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "足夠有創意和創新。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 是四個選項中最貼近 “successful innovation = good idea / superior innovation” 這種常見看法的一項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “placing more products on store shelves.” Paragraph A 確實有 store shelves，但那裡談產品存活時間，不是 experts and novices 對產品成功原因的信念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “having more chain stores.”文章沒有 chain stores。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “learning from a famous company such as Webvan.”本篇原文沒有 Webvan，也沒有把 famous company learning 當成成功因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： B 最符合 Paragraph B 的邏輯。Experts and novices 事後把失敗歸因於 bad ideas，因此他們傾向相信產品本身足夠創新、足夠好，就應該賣得好。答案為 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — Companies ignore the fact that people tend to overvalue products they own.",
+      "answerKey": "A — Companies ignore the fact that people tend to overvalue products they own.",
+      "type": "Multiple Choice",
+      "prompt": "“According to the passage, why do many products fail?”",
+      "translation": "根據文章，很多產品為何失敗？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問文章主因。定位詞是 many products fail，這會把我們帶到 Paragraph D，因為該段直接說"
+            },
+            {
+              "kind": "quote",
+              "text": "“Many products fail because…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What businesses don’t take into account, however, are the psychological costs associated with behavior change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，企業沒有納入考量的是與行為改變相關的心理成本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also leads executives to value the benefits of innovations they’ve developed over the advantages of incumbent products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種偏誤也令管理層把自己開發的新產品好處估得比現有產品的優勢更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 的功能是指出企業忽略心理成本，並說明消費者和管理層都會有價值判斷偏誤。題目問 why many products fail，最可能在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“many products fail”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many products fail because of a universal, but largely ignored, psychological bias…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many products fail because of a universal, but largely ignored, psychological bias: People irrationally overvalue benefits they currently possess relative to those they don’t.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多產品失敗，是因為一種普遍但大多被忽視的心理偏誤：人們會不理性地高估自己目前已擁有的好處，相對低估自己尚未擁有的好處。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies ignore the fact that people tend to overvalue products they own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司忽略了一個事實：人們傾向高估自己已擁有的產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應原文 “largely ignored” 和 “People irrationally overvalue benefits they currently possess”。題目選項把 benefits they currently possess 具體化為 products they own，符合文章後文 endowment effect 的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： B “Companies lack confidence in their products.”原文方向相反。Paragraph B 說 companies often have more faith in new products than warranted。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Companies are familiar with consumers’ psychological states.”原文說 businesses don’t take psychological costs into account，並未說熟悉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Companies fail to mention the advantages of their products.”文章沒有說失敗源於宣傳不足或沒有提及 advantages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： A 直接對應 Paragraph D 的核心原因。答案為 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "D — Only 10 per cent of the chocolate-bar owners were willing to exchange.",
+      "answerKey": "D — Only 10 per cent of the chocolate-bar owners were willing to exchange.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the status quo bias experiment described in the passage suggest?”",
+      "translation": "文章描述的 status quo bias 實驗顯示甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Paragraph J 的 experiment result。定位詞是 status quo bias experiment、chocolate-bar owners、exchange。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kahneman and Tversky’s research also explains why people tend to stick with what they have even if a better alternative exists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kahneman 和 Tversky 的研究也解釋了，為何即使有更好的替代選項，人們仍傾向保留自己已有的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To approximately 90 per cent of the students, giving up what they already had seemed like a painful loss and shrank their desire to trade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大約 90% 的學生來說，放棄自己已經擁有的東西似乎是一種痛苦的損失，因而削弱了他們交換的意願。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段實驗重點是 people stick with what they have。題目問 experiment suggests what，答案應該是某個交換比例或保留現狀的結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“status quo bias”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chocolate-bar owners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exchange”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“only 11 per cent of the students who had been given the mugs and 10 per cent of those who had been given the chocolate bars wanted to exchange their products.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only 11 per cent of the students who had been given the mugs and 10 per cent of those who had been given the chocolate bars wanted to exchange their products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那些獲得 mugs 的學生中，只有 11% 想交換；在那些獲得 chocolate bars 的學生中，只有 10%想交換。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only 10 per cent of the chocolate-bar owners were willing to exchange.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 10% 的 chocolate-bar owners 願意交換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文完全一致：those who had been given the chocolate bars = chocolate-bar owners； wanted to exchange = were willing to exchange。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “About half the participants were willing to exchange their products.”原文說一開始自由選擇時 56% 選 mug、44% 選 chocolate，這表示偏好接近平均。可是實際被給予某物後，只有 11% 和 10% 願意交換。A 把 logical expectation 當成實驗結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Students always welcome new items.”原文顯示學生大多保留已有物品，沒有 always welcome new items。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “About 90 per cent of both groups had no preference.”原文說約 90% 覺得 giving up what they had seemed like a painful loss，重點是保留現狀，不是no preference。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Only 10 per cent of the chocolate-bar owners were willing to exchange.”這一項直接對應原文，所以正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：答案為 D。這題最重要的技巧是分清「一開始自由選擇的偏好比例」和「擁有某物後的交換比例」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 status quo bias experiment 的結果，真正定案的是 only 10 per cent wanted to exchange。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Psychology of new product adoption.pdf",
+    "sha256": "823c68060bd3e225b8cc0de8ba794d199f8d6df75e04fe85ee05b01336dff3cf",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 先從 hypercompetitive marketplace 入手，指出能成功推出 new products 的公司較容易 prosper。段落後半立刻轉向失敗率：new products fail rate 可高達 40% 至 90%，美國packaged goods 每年推出 30,000 件產品，但大多不能留在 shelves 超過 12 個月。最後一句再補充 innovative products 和 first movers 也常失敗。只看首尾句，這段功能是用數字建立問題：創新產品失敗並罕見例外，反而是商業常態。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 第一點是人們事後常把失敗 innovation 說成 bad ideas，好像它們本來就注定失敗。段尾提出真正分析方向：要明白 new products 為何達不到公司期望，必須研究 psychology of behavior change。只看首尾句，這段由「事後合理化」轉入「心理學原因」。中間幾個問題很重要：產品即使比舊選擇有 distinct improvements，消費者仍可能不買；客觀優勢往往仍不足以帶來成功。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句直接說 new products often require consumers to change their behavior。段落最後說這些都是 companies routinely anticipate 的 economic switching costs。只看首尾句，這段重點在「轉換成本」，而且是企業通常看得見的一類成本。中間例子包括 transaction costs、learning costs 和 obsolescence costs：換手機服務要付費，從手動轉自動波要學習，從 VCR 轉DVD 會令舊錄影帶失效。這段建立外在、經濟層面的障礙。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句用 however 轉折，指出 businesses 忽略了 behavior change 的 psychological costs。段尾說這種 bias 也令 executives 高估自己開發的 innovations，相對低估 incumbent products 的優勢。只看首尾句，這段開始進入文章核心：新產品失敗不只牽涉價格、學習或舊設備報廢，也牽涉心理偏誤。消費者會 irrationally overvalue 已擁有的 benefits；公司高層也會過分重視自己新產品的好處。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說 companies 長期假設，只要 new products 比 existing ones 提供更大 value或 utility，人們便會採用。段尾指出這個理論有 major flaw：它未能捕捉影響 decision making 的psychological biases。只看首尾句，這段主力介紹 relative advantage 這個傳統觀點，並指出其不足。Everett Rogers 把 relative advantage 視為 new-product adoption 的 critical driver，但文章認為只看客觀優勢會忽略心理因素。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句介紹 Daniel Kahneman 於 2002 年獲 Nobel Prize in economics，原因是他的研究探討人何時和為何偏離 rational economic behavior。段尾說 Kahneman and Tversky 證明，人面對 marketplace alternatives 時有 four distinct characteristics。只看首尾句，這段是理論轉接段：由企業假設轉向行為經濟學。它把後文的 loss aversion、endowment effect 和 status quo bias 放入 Kahneman and Tversky 的研究框架。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 開始逐一列出人們評估 alternatives 的四個特徵：主觀價值、reference point、gains/ losses，以及最重要的 loss aversion。段尾用 Kahneman and Tversky 的名句 “losses loom larger than gains” 收束。只看首尾句，這段功能是解釋 loss aversion 的心理邏輯：人面對同樣大小的 gain 和 loss 時，loss 的心理重量更大。中間的 betting example 和 power outage survey 都支持這個不對稱反應。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說 loss aversion 會令人更重視已擁有的 products，因為這些東西是endowment 的一部分。段尾說 Richard Thaler 把這種 bias 稱為 endowment effect。只看首尾句，這段把 loss aversion 應用到 ownership：消費者對可能要放棄的東西估值更高，對尚未擁有但可取得的東西估值較低。題目若問 Thaler、possessions、give up、obtain，定位很直接。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 首句指出 Thaler and his colleagues 在 1990 paper 中用一系列 experiments 衡量endowment effect 的 magnitude。段尾總結結果：Sellers 要求放棄 mugs 的價格，總是至少是Choosers 願意付出的兩倍。只看首尾句，這段功能是用 coffee mug 實驗量化 endowment effect。中間細節顯示，客觀上 Sellers 和 Choosers 都是在 mug 和 money 之間作選擇，但擁有 mug的一方估值大幅提高。"
+      },
+      {
+        "number": "J",
+        "summary": "Paragraph J 首句說 Kahneman and Tversky’s research 也解釋了為何即使有 better alternative，人仍傾向 stick with what they have。段尾說約 90% 學生覺得放棄手上物品像 painful loss，因而降低交換意願。只看首尾句，這段重點是 status quo bias：人偏向保留現有選項。Knetsch 的 mug/ chocolate 實驗顯示，原本偏好接近一半一半，但一旦學生先擁有某物，只有約 10% 願意交換。"
+      },
+      {
+        "number": "K",
+        "summary": "Paragraph K 首句說大多數人似乎沒有意識到 endowment effect 和 status quo bias 隱含的行為。段尾總結：這些 behavioral tendencies 很普遍，但 awareness 並不普遍。只看首尾句，這段是全文收束，強調人們對自身偏誤缺乏自覺。中間說研究者向人展示他們 irrationally overvalued the status quo 的證據時，人們反應 shocked、skeptical、defensive。這正好處理對偏誤證據的接受態度。"
+      }
+    ]
+  }
+}

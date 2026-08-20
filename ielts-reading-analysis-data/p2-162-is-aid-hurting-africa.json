@@ -1,0 +1,1532 @@
+{
+  "id": "p2-162-is-aid-hurting-africa",
+  "catalogueId": "p2-162",
+  "catalogueIds": [
+    "p2-162"
+  ],
+  "passage": 2,
+  "title": "IS AID HURTING AFRICA?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "land",
+    "poor",
+    "aid",
+    "business",
+    "communities",
+    "China",
+    "geography",
+    "investment",
+    "education",
+    "34",
+    "suffering",
+    "C",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "land",
+      "answerKey": "land",
+      "type": "Question Analysis",
+      "prompt": "Question 15",
+      "translation": "非洲有很多人口、__________，以及自然資源。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Africa has a lot of people, 15 __________, and natural resources."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 chart completion，而且指示是 “ONE WORD OR A NUMBER”。答案必須從原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "抄一個字或一個數字，不能自行改寫成多字答案。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its population of more than one billion and its rich land and natural resources, the continent of Africa remains poor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：儘管非洲人口超過十億，並擁有豐富土地和自然資源，非洲大陸仍然貧窮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The combined economy of its 54 states equals that of one European country: the Netherlands.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：非洲 54 個國家的合計經濟規模，只相當於一個歐洲國家：荷蘭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 是 overview。它把 Africa 的人口、土地、自然資源和貧窮放在一起，正好對應 chart 的 Overview 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “people” 和 “natural resources”。原文中相鄰出現的是 “population of more"
+            },
+            {
+              "kind": "paragraph",
+              "text": "than one billion” 和 “rich land and natural resources”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句子 “a lot of people, 15 ___, and natural resources” 對應原文 “population of more"
+            },
+            {
+              "kind": "paragraph",
+              "text": "than one billion and its rich land and natural resources”。因此空格要填 “land”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a lot of people = population of more than one billion natural resources = natural resources land = land"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “rich”。雖然原文說 “rich land”，但題目空格放在 people 和 natural resources 之間"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，需要名詞。填 “rich” 會令句子變成 “people, rich, and natural resources”，文法不成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "poor",
+      "answerKey": "poor",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "可是它仍然 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Yet it is still 16 __________."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍然是 Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite its population of more than one billion and its rich land and natural resources, the continent of Africa remains poor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：儘管非洲人口超過十億，並擁有豐富土地和自然資源，非洲大陸仍然貧窮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The combined economy of its 54 states equals that of one European country: the Netherlands.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：非洲 54 個國家的合計經濟規模，只相當於一個歐洲國家：荷蘭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “still” 對應原文 “remains”。空格前的 “Yet” 對應原文 “Despite”，兩者都帶出「有資"
+            },
+            {
+              "kind": "paragraph",
+              "text": "源但結果相反」的讓步關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 “Africa remains poor”。題目句 “Yet it is still ___” 把 remains 改成 is still，所以"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 poor。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "remains poor = is still poor Despite = Yet"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Netherlands”。Netherlands 只是用來比較非洲經濟規模的參照物，空格需要形容"
+            },
+            {
+              "kind": "paragraph",
+              "text": "詞描述 Africa 的狀態，所以應填 poor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "aid",
+      "answerKey": "aid",
+      "type": "Question Analysis",
+      "prompt": "Question 17",
+      "translation": "國際 __________ 在很大程度上要負責。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：International 17 __________ is largely responsible."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One theory says Africa is unlucky.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有一種理論認為非洲是不幸的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If aid were cut, she believes Africans would utilise their resources more creatively.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：她相信，如果削減援助，非洲人會更有創意地利用自己的資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會比較不同解釋：先有 “Africa is unlucky” 的地理／結構性理論，再引入 Moyo 認為 aid 是核心問題的理論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Moyo’s theory” 和 “International ___ is largely responsible”。原文中直接出"
+            },
+            {
+              "kind": "paragraph",
+              "text": "現 “international aid is largely to blame for African poverty”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In her 2009 book, Dead Aid, she proposes that international aid is largely to blame for African poverty because it has encouraged dependence and corruption, and has diverted talented people from business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在她 2009 年的著作 Dead Aid 中，她提出國際援助在很大程度上要為非洲貧窮負責，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為它鼓勵依賴和腐敗，並使有才能的人離開商業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “is largely responsible” 對應原文 “is largely to blame”。答案是 aid。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "International aid = International aid largely responsible = largely to blame Moyo’s theory = she proposes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "business",
+      "answerKey": "business",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "有才能的人因在 NGOs 工作，被從 __________ 吸引走。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Talented people have been drawn away from 18 __________ by working for NGOs."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One theory says Africa is unlucky.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有一種理論認為非洲是不幸的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If aid were cut, she believes Africans would utilise their resources more creatively.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：她相信，如果削減援助，非洲人會更有創意地利用自己的資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的中後部分集中介紹 Moyo 的理論，所以和 chart 中 “Moyo’s theory” 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Talented people” 和 “drawn away”。原文沒有用 drawn away，而用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“diverted talented people from business”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句仍然是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...it has encouraged dependence and corruption, and has diverted talented people from business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它鼓勵依賴和腐敗，並使有才能的人離開商業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “diverted talented people from business” 改成 “Talented people have been drawn away from business”。兩者意思一致，所以答案是 business。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "diverted = drawn away talented people = talented people from business = from business"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 NGOs。NGOs 在下一段出現，屬於援助運作機構；但題目問 talented people 被"
+            },
+            {
+              "kind": "paragraph",
+              "text": "draw away from 甚麼。原文清楚說 from business。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "communities",
+      "answerKey": "communities",
+      "type": "Question Analysis",
+      "prompt": "Question 19",
+      "translation": "如果外國人提供幫助，他們應該更多讓本地 __________ 參與。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：If foreigners help, they ought to involve local 19 __________ more."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moyo provides another example: a Hollywood star may donate American-made mosquito nets.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Moyo 又提供另一個例子：一位荷里活明星可能捐出美國製造的蚊帳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More consultation is needed between do-gooder foreigners and local communities.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：善心外國人和本地社群之間需要更多協商。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段講外國好心援助的副作用，以及外國人應該更尊重本地需要和本地市場。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “foreigners”, “involve local ___ more”。原文對應 “consultation” 和 “local"
+            },
+            {
+              "kind": "paragraph",
+              "text": "communities”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句是答案句。"
+            },
+            {
+              "kind": "quote",
+              "text": "“More consultation is needed between do-gooder foreigners and local communities.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：善心外國人和本地社群之間需要更多協商。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “involve local communities more” 是對 “more consultation … with local communities”的概括。答案是 communities。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "foreigners = do-gooder foreigners involve more = more consultation local communities = local communities"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “traders”。同段確實提到 local African traders，但題目說的是外國人幫忙時應該"
+            },
+            {
+              "kind": "paragraph",
+              "text": "讓誰更多參與。最後一句概括成 local communities，比 traders 更符合題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "China",
+      "answerKey": "China",
+      "type": "Question Analysis",
+      "prompt": "Question 20",
+      "translation": "非洲國家應投資債券市場，並與 __________ 建立更緊密關係。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：African states should buy into bond markets and have a closer relationship with 20__________."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句，也是全段核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moyo also suggests that African nations increase their wealth through investment in bonds or increased co-operation with China.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Moyo 也建議非洲國家透過投資債券，或加強與中國合作來增加財富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段很短，功能清楚：列出 Moyo 對非洲增加財富的替代方案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “bond markets” 和 “closer relationship”。原文用 “investment in bonds” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“increased co-operation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 “increased co-operation with China” 對應題目 “have a closer relationship with"
+            },
+            {
+              "kind": "paragraph",
+              "text": "China”。答案是 China。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "buy into bond markets = investment in bonds closer relationship = increased co-operation with China = with China答案形式：China 是專有名詞，考試中建議首字母大寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "geography",
+      "answerKey": "geography",
+      "type": "Question Analysis",
+      "prompt": "Question 21",
+      "translation": "非洲不幸，是因為它的 __________，以及它與國際市場距離遙遠。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Africa is unfortunate because of its 21 __________ and its distance from international markets."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph 7，也可回看 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The presidents of Rwanda and Senegal are strong supporters of Moyo, but critics say her theories are simplistic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：盧旺達和塞內加爾總統強烈支持 Moyo，但批評者認為她的理論過於簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 中間句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The international aid community is not responsible for geography, nor has it anything to do with military takeovers, corruption, or legislation that hampers trade.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：國際援助社群並不對地理因素負責，也與軍事政變、腐敗或阻礙貿易的法律無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 7 首句，可知本段進入對 Moyo 的批評；中間直接提到 geography，是 chart 中other scholars’ theories 的重要來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “unfortunate”, “distance from international markets”。Paragraph 3 已有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Africa is sparsely populated, has diverse languages and cultures, contains numerous landlocked countries, and is far from international markets.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：非洲人口稀疏，語言和文化多樣，有很多內陸國，而且遠離國際市場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "chart 把這些因素概括成 “geography”。Paragraph 7 也明確用 “geography” 這個字。因此"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 geography。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Africa is unfortunate = Africa is unlucky far from international markets = distance from international markets sparse population / landlocked countries / distance = geography"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “languages” 或 “cultures”。題目下一句已說 “It is also culturally and politically"
+            },
+            {
+              "kind": "paragraph",
+              "text": "diverse”，所以 21 更適合填概括地理因素的 geography。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "investment",
+      "answerKey": "investment",
+      "type": "Question Analysis",
+      "prompt": "Question 22",
+      "translation": "腐敗的軍事和政府精英控制大部分經濟，國際 __________ 很少。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Corrupt military and government elites control most of the economy, and there is little international 22 __________."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other scholars point out that Africa is dominated by tribal societies with military and government elites.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：其他學者指出，非洲由部族社會以及軍事和政府精英支配。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, business separate from the military government is rare, and international investment is limited.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：結果，與軍事政府分離的商業很少，國際投資也有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段處理 military / government elites 如何限制 business 和 international investment。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “military and government elites”, “little international ___”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“international investment is limited”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句清楚說 “international investment is limited”。題目改寫成 “there is little"
+            },
+            {
+              "kind": "paragraph",
+              "text": "international investment”。答案是 investment。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "little = limited international investment = international investment control most of the economy = business separate from military government is rare"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “business”。business 在同一句出現，但題目空格在 “international” 後面，需要能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 international 搭配的名詞。原文搭配是 international investment。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "education",
+      "answerKey": "education",
+      "type": "Question Analysis",
+      "prompt": "Question 23",
+      "translation": "__________、通訊和交通仍然發展不足。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：23 __________, communications and transportation remain underdeveloped."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 11。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Post-secondary education rates are low in Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：非洲的專上教育比例很低。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All these problems are the result of poor state planning.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所有這些問題都是國家規劃不善的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講教育、基建和國家規劃問題。題目中的 communications and transportation 也在這段直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “communications and transportation”。原文第二句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Communications and transportation remain basic, although mobile phones are having an impact.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：通訊和交通仍然很基礎，雖然流動電話正在產生影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把第一句 “Post-secondary education rates are low” 和第二句 “Communications and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "transportation remain basic” 合併成一個列表：education, communications and transportation remain underdeveloped。答案填 education。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Post-secondary education rates are low = education remains underdeveloped remain basic = remain underdeveloped communications and transportation = communications and transportation答案形式：原文有 “Post-secondary education”，但題目限制 ONE WORD，所以填 education。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "34",
+      "answerKey": "34",
+      "type": "Question Analysis",
+      "prompt": "Question 24",
+      "translation": "從 1940 到 2000 年，有 __________ 場這類衝突。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：from 1940 to 2000 there were 24 __________ such conflicts."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 12。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Great ethnic and linguistic diversity within African countries has led to tribal favouritism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：非洲國家內部巨大的族群和語言多樣性導致部族偏袒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, a number of bloody conflicts continue.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：直到今天，仍有一些血腥衝突持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段講 ethnic / linguistic diversity、tribal favouritism 和 civil wars。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “1940 to 2000” 和 “such conflicts”。數字非常有定位力，直接帶到原文句子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Southern Africa had 34 such conflicts from 1940 to 2000 while South Asia, the next most affected region, had only 24 in the same period.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：1940 至 2000 年間，南部非洲有 34 場這類衝突；同期受影響第二大的南亞則只有 24"
+            },
+            {
+              "kind": "paragraph",
+              "text": "場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Africa / Southern Africa 在 1940 to 2000 的 such conflicts，所以答案是 34。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句也有 24，但 24 屬於 South Asia。題目問非洲相關的 such conflicts，所以不能被"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相鄰數字誤導。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "suffering",
+      "answerKey": "suffering",
+      "type": "Question Analysis",
+      "prompt": "Question 25",
+      "translation": "非洲人會經歷巨大的 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Africans would experience enormous 25 __________."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The economist Paul Collier has speculated that if aid were cut, African governments would not find alternative sources of income, nor would they reduce corruption.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：經濟學家 Paul Collier 推測，如果削減援助，非洲政府找不到替代收入來源，也不會減"
+            },
+            {
+              "kind": "paragraph",
+              "text": "少腐敗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another economist, Jeffrey Sachs, has calculated that twice the amount of aid currently given is needed to prevent suffering on a grand scale.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另一位經濟學家 Jeffrey Sachs 計算指出，目前援助額需要加倍，才能防止大規模痛"
+            },
+            {
+              "kind": "paragraph",
+              "text": "苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段處理 “Without international aid—other scholars’ theories”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Without international aid” 和 “enormous”。原文用 “if aid were cut” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“suffering on a grand scale”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 “prevent suffering on a grand scale” 表示若沒有足夠援助，便會出現大規模 suffering"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。題目把 “on a grand scale” 改成 “enormous”，所以答案是 suffering。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "if aid were cut = without international aid on a grand scale = enormous suffering = suffering"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “corruption”。Paul Collier 提到 corruption，但題目問 Africans would experience"
+            },
+            {
+              "kind": "paragraph",
+              "text": "enormous 甚麼。Jeffrey Sachs 的句子直接提供 suffering。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C 和 E",
+      "answerKey": "C 和 E",
+      "type": "Question Analysis",
+      "prompt": "Which TWO statements does the writer support?",
+      "translation": "作者支持以下哪兩個說法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 multiple-answer question。手冊提醒，Choose TWO 題每個正確選項都要獨立證明，不能用一段模糊證據一次包辦兩個答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Dead Aid, Moyo presents her case through a fictitious country called ‘Dongo’, but nowhere does she provide examples of real aid organisations causing actual problems.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Dead Aid 中，Moyo 透過一個名叫 Dongo 的虛構國家來呈現她的論點，但她沒有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在任何地方提供真實援助組織造成實際問題的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Her approach may be entertaining, but it is hardly academic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：她的方法可能有娛樂性，但很難算得上學術嚴謹。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “convincing evidence” 和 “lacking”。原文沒有用 evidence 這個字，但 “nowhere"
+            },
+            {
+              "kind": "paragraph",
+              "text": "does she provide examples” 直接表示例證缺失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 的第一句和最後一句合起來，清楚顯示作者認為 Moyo 的論證方法缺乏真實"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例子，也缺乏學術嚴謹性。因此 C 是作者支持的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "convincing evidence is lacking = nowhere does she provide examples Moyo’s theory = her case / her approach hardly academic = lacks academic strength"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 不是說 Moyo 的所有觀點必然錯；它只說她的理論缺乏有說服力的證據。這和原文評價"
+            },
+            {
+              "kind": "paragraph",
+              "text": "吻合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E — Moyo’s book has generated useful discussion about Africa."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Moyo 的書引發了關於非洲的有用討論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 15。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Has aid caused problems for Africa, or is Africa’s strife of its own making, or is it due to geography?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：援助是否為非洲造成問題？非洲的衝突是否由自身造成？又或是否因地理因素所"
+            },
+            {
+              "kind": "paragraph",
+              "text": "致？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever you think, Dambisa Moyo’s book has generated lively discussion, which is beneficial to Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：無論你怎樣想，Dambisa Moyo 的書已經引發熱烈討論，這對非洲有益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “book”, “generated”, “useful discussion”。原文直接有 “book has generated lively"
+            },
+            {
+              "kind": "paragraph",
+              "text": "discussion” 和 “beneficial to Africa”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E 的 “useful discussion” 對應原文 “lively discussion, which is beneficial to Africa”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "beneficial 表示有益，所以 useful 是合理改寫。E 是作者明確支持的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "generated useful discussion = generated lively discussion, which is beneficial about Africa = beneficial to Africa為甚麼其他選項不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Moyo is right that international aid is causing Africa’s problems.不選。文章介紹 Moyo 的理論，但後文多次提出批評，包括她的理論 simplistic、缺乏真實例子、忽略衝突、政府低效和基建不足等問題。作者沒有全盤支持「aid 正在造成非洲問題」這個強說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Moyo has ignored the role of geography in Africa.這個選項有相關性，但不是最佳兩項之一。文章確實說 critics 提到 geography，也說 distance、diversity 和 low population density contribute to poverty。不過選項 B 的 “ignored” 是對 Moyo 心態或做法的直接判斷，原文沒有像 C 和 E 那樣清楚、直接地把它定為作者支持的結論。C 和 E的證據更明確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Most political leaders in Africa agree with Moyo’s analysis.不選。原文只說 “The presidents of Rwanda and Senegal are strong supporters of Moyo”。這只提供兩位總統的例子，不能推出 most political leaders in Africa。這是典型的數量範圍擴大：two presidents 被改成 most political leaders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final answer for Questions 26–27：C, E"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        26,
+        27
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - IS AID HURTING AFRICA_.pdf",
+    "sha256": "67d4284695ae9208186f35eb20bb74fe15c9f27b31687f02cad4df998825ac49",
+    "pageCount": 14
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句指出非洲人口超過十億，而且有豐富土地和自然資源；尾句用 Netherlands 作比較，強調整個非洲經濟規模仍然很小。只看首尾句，可以先估計本段是總覽問題：非洲資源豐富、人口龐大，卻仍然貧窮。題目若問 overview、people、land、natural resources、poor，很可能直接回到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句提醒讀者很難把非洲當成單一整體，因為各國文化、氣候、大小和政治制度不同；尾句提出核心問題：為何沒有國家真正克服貧窮？只看首尾句，可見本段在設定文章大問題。它提醒學生後文會提出不同解釋，包括政策、政治、文化、地理和外援等方向。"
+      },
+      {
+        "number": "3",
+        "summary": "首句提出第一種解釋：非洲「不幸」；尾句轉到 Moyo 的觀點，說若削減援助，非洲人會更有創意地利用資源。只看首尾句，可以判斷本段先交代地理、人口、語言、內陸國和市場距離等背景，再引入 Dambisa Moyo 的核心論點：international aid 導致 dependence、corruption，並使人才離開business。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說當國家無力照顧人民時，NGOs 會承擔這個角色；尾句指出 Transparency International 給多數非洲國家腐敗評分很差。只看首尾句，可估計本段講 Moyo 對 NGOs 和援助流向的批評： NGOs 雖提供食物和醫療，但可能削弱國家提供基本服務的能力，也讓政府和軍方人員從援助中取利。"
+      },
+      {
+        "number": "5",
+        "summary": "首句用 Hollywood star 捐 mosquito nets 作例子；尾句說外國善心人士和 local communities 需要更多商量。只看首尾句，可判斷本段繼續支持 Moyo 的批評：外國援助表面上能幫助malaria-prone areas，但可能傷害本地商人。題目若問 foreigners should involve whom，答案多半在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "這段很短，首句也是全段核心：Moyo 建議非洲國家透過 bonds 投資，或加強與 China 合作來增加財富。只看這一句，可以知道本段處理 Moyo 的替代方案，而非批評援助造成的問題。題目若問bond markets 或 closer relationship，很可能直接定位到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Rwanda 和 Senegal 的總統支持 Moyo，但 critics 認為她的理論過於簡單；尾句比較Malaysia 和 Vietnam，指出它們投資教育、醫療、基建、降低貿易稅，也受惠於鄰近成功國家的環境。只看首尾句，可判斷本段進入反方觀點：非洲問題不能只歸因於援助，還牽涉 geography、governance、trade 和 development strategy。"
+      },
+      {
+        "number": "8",
+        "summary": "首句引用 Paul Collier，推測削減援助後，非洲政府未必能找到替代收入，也未必會減少腐敗；尾句引用 Jeffrey Sachs，說目前援助額需要加倍才能防止大規模 suffering。只看首尾句，可估計本段直接反駁 Moyo 的「cut aid」假設。題目若問 without aid 的 other scholars’ theories，答案多半在這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Moyo 在 Dead Aid 中用虛構國家 Dongo 表達觀點；尾句評價她的方法 entertaining，但hardly academic。只看首尾句，可判斷本段是作者對 Moyo 證據質素的批評：她沒有提供真實援助組織造成具體問題的例子。題目若問 writer 是否認為 evidence convincing，這段非常關鍵。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說其他學者指出非洲被 tribal societies、military elites 和 government elites 支配；尾句說獨立於軍政府的商業很少，國際投資也有限。只看首尾句，可估計本段講政治和軍事權力如何扭曲經濟：軍隊比做生意更容易帶來財富與權力，人才外流，強人政治和軍事政權削弱 business 和investment。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說非洲 post-secondary education rates 低；尾句說這些問題都是 poor state planning 的結果。只看首尾句，可判斷本段講教育、通訊、交通、道路、水供應、互聯網使用和運輸成本等基建問題。題目若問 education、communications、transportation、internet、water、container cost，很可能在這段。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說非洲國家內部 ethnic and linguistic diversity 導致 tribal favouritism；尾句說直到今天仍有多場 bloody conflicts。只看首尾句，可估計本段講部族政治和 civil wars 的成本。題目若問 tribal wars、conflicts、1940 to 2000 或 34 such conflicts，答案就在這段。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說其他 Moyo 反對者認為她重視 market investment 和 China business 的方向short-sighted；尾句說中國正在購買非洲農地並取得廉價石油供應。只看首尾句，可判斷本段反駁Moyo 的解方：市場投資受金融危機影響，中國在非洲的真正意圖也令人不安。"
+      },
+      {
+        "number": "14",
+        "summary": "首句承認非洲仍有 untapped resources，但 distance、diversity 和 low population density 都加劇貧窮；尾句說責怪西方援助無法處理 continuous conflict、ineffective government 和 little infrastructure，也無法阻止 suffering。只看首尾句，可判斷本段是作者較明顯的總結立場：非洲困境來源複雜，單怪 aid 太簡化。"
+      },
+      {
+        "number": "15",
+        "summary": "首句提出三個可能原因：aid、Africa’s own strife、geography；尾句說無論讀者如何看，Moyo 的書已引發 lively discussion，這對非洲有益。只看首尾句，可判斷結尾採取平衡收束：作者未完全支持 Moyo 的結論，但承認她的書有討論價值。Questions 26–27 很可能用這段判斷作者支持的說法。"
+      }
+    ]
+  }
+}

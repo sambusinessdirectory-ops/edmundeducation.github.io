@@ -1,0 +1,1890 @@
+{
+  "id": "p2-146-when-the-tulip-bubble-burst",
+  "catalogueId": "p2-146",
+  "catalogueIds": [
+    "p2-146"
+  ],
+  "passage": 2,
+  "title": "When the Tulip Bubble Burst",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "I",
+    "D",
+    "B",
+    "G",
+    "F",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "fighting",
+    "commerce",
+    "estates",
+    "flower lovers"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“A difference between the effects of the tulip bubble’s collapse and those of a high-tech share bubble.”",
+      "translation": "tulip bubble 崩潰的影響，和 high-tech share bubble 崩潰影響之間的一項差異。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tulip mania differed in one crucial aspect from the dot-com craze that grips our attention today: Even at its height, the Amsterdam Stock Exchange, well-established in 1630, wouldn’t touch tulips.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tulip mania 和今日吸引我們注意的 dot-com craze 有一個關鍵差異：即使在 tulip mania 最高峰時，早在 1630 年已相當成熟的 Amsterdam Stock Exchange 也不碰 tulips。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Will we say the same when Wall Street’s current obsession finally runs its course?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Wall Street 今日的迷戀最終走到盡頭時，我們還能說同樣的話嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph I 是全文的現代比較段。它不是單純講 tulip crash 本身，重點轉向 tulip mania 和 dot-com / Wall Street 泡沫的不同後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “effects”、“collapse”、“high-tech share bubble”。原文對應 “dot-com craze”、“After the market crashed”、“overall fallout”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the market crashed, a compromise was brokered that let most traders settle their debts for a fraction of their liability. The overall fallout on the Dutch economy was negligible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "市場崩潰後，雙方達成一項妥協，讓大多數交易者只需用債務責任的一小部分清償債務。這場事件對荷蘭整體經濟的後果微不足道。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the effects of the tulip bubble’s collapse= the overall fallout on the Dutch economy high-tech share bubble= dot-com craze / Wall Street’s current obsession a difference= tulip crash had negligible economic fallout, while the writer questions whether the modern Wall Street / dot-com craze will end as mildly"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 講 tulip market crashed，表面上和 collapse 最接近。不過 Question 14 問的是 tulip collapse 和 high-tech share bubble collapse 的差異。真正有現代比較和 economic fallout 的位置是 Paragraph I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The spread of tulips before the seventeenth century.”",
+      "translation": "十七世紀以前 tulips 的傳播情況。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch were not the first to go gaga over the tulip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人並非最早對 tulip 著迷的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in Holland, however, that the passion for tulips found its most fertile ground, for reasons that had little to do with horticulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對 tulip 的熱情是在 Holland 找到最適合滋長的土壤，而原因和園藝關係不大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會先講 Holland 以前哪些地方已經迷戀 tulip，再轉入Holland 如何成為 mania 的中心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “before the seventeenth century”。原文出現 “Long before”、“1559”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Persians”、“Ottoman Empire”、“Bavaria”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Long before the first tulip bloomed in Europe—in Bavaria, it turns out, in 1559—the flower had enchanted the Persians and bewitched the rulers of the Ottoman Empire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早在第一朵 tulip 於 1559 年在歐洲 Bavaria 綻放之前，這種花已經迷倒 Persians，也令 Ottoman Empire 的統治者著迷。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spread of tulips before the seventeenth century= enchanted the Persians, bewitched Ottoman rulers, then bloomed in Europe in Bavaria in 1559"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 才進入 early 17th century Holland。Question 15 明確問 before the seventeenth century，因此要回到 Paragraph D 的 Persia、Ottoman Empire 和 Bavaria。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The amount of money offered for a rare bulb in the seventeenth century.”",
+      "translation": "十七世紀有人為一個 rare bulb 出價多少錢。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around 1624, the Amsterdam man who owned the only dozen specimens was offered 3,000 guilders for one bulb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約 1624 年，一名阿姆斯特丹男子擁有僅有的十二個樣本；有人出價 3,000 guilders 買其中一個球根。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet the bulb’s owner, whose name is now lost to history, nixed the offer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這位球根主人拒絕了這個出價；他的名字如今已被歷史遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯是 rare bulb price example。題目問 amount of money，B 的第一句已經直接給出 3,000 guilders。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “offered”、“rare bulb”、“seventeenth century”。原文有 “Around 1624”、“offered 3,000 guilders”、“one bulb”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Around 1624, the Amsterdam man who owned the only dozen specimens was offered 3,000 guilders for one bulb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約 1624 年，那位擁有僅有十二個樣本的阿姆斯特丹男子，被人出價 3,000 guilders 買一個球根。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "amount of money offered= was offered 3,000 guilders rare bulb= one bulb of the only dozen specimens"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也有 5,200 guilders 和 53,000 guilders。可是 Question 16 問 “offered for a rare bulb in the seventeenth century”，而 Paragraph B 的 “offered 3,000 guilders for one bulb” 是最直接答案段。Paragraph G 的 5,200 guilders 是 auction record，不是 Question 16 這個 “offered”例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Tulips were treated as currency in Holland.”",
+      "translation": "Tulips 在 Holland 被當作貨幣或交換媒介使用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bulb prices rose steadily throughout the 1630s, as ever more speculators entered the market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個 1630 年代，隨著越來越多投機者進入市場，球根價格穩步上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All told, the flowers brought in nearly 53,000 guilders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "總計來說，這些花帶來接近 53,000 guilders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph G 描寫 tulip market 的高峰。中間很可能有交易例子、價格例子、投機例子。題目說 treated as currency，應尋找 tulips 被用來換取財物的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有原文詞 “currency”，所以要找相關概念：changed hands、sold off、futures market、trading、farmhouse exchanged for bulbs。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1633, a farmhouse in Hoorn changed hands for three rare bulbs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1633 年，Hoorn 的一所 farmhouse 以三個稀有球根作價轉手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的意思是，tulip bulbs 不只是被買賣，還可以作為交換 property 的媒介。題目的 “treated as currency” 是概括說法，對應 “a farmhouse changed hands for three rare bulbs”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "treated as currency= a farmhouse changed hands for three rare bulbs currency= something used as a medium of exchange"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 “guilders”。有 guilders 只是說 tulips 有價格；Question 17 的重點是 tulips 可以換farmhouse。這比單純價格更接近 “currency”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“A comparison between tulips and other flowers.”",
+      "translation": "tulips 和其他花之間的比較。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Enter the tulip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這時 tulip 登場了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And while bulbs can produce two or three clones, or ‘offsets,’ annually, the mother bulb only lasts a few years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然球根每年可以產生兩三個克隆球，也就是 offsets，但母球只能維持幾年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會解釋 tulip 為何在這個市場背景下特別容易被炒作。第一句把 tulip 推上舞台，最後一句則指出供應慢、繁殖有限。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “comparison” 和 “other flowers”。原文有 “different tulips were from every other flower”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“It is impossible to comprehend the tulip mania without understanding just how different tulips were from every other flower known to horticulturists in the 17th century,” says Dash."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dash 說，若不理解 tulips 和十七世紀園藝家所知的其他所有花朵有多不同，就無法理解 tulip mania。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "comparison between tulips and other flowers= how different tulips were from every other flower"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Opening Description 也描述 tulip 的外形，但題目要求 Paragraph A–I，而且 “comparison with other flowers” 的真正對應句在 Paragraph F。Opening 只是植物學背景，F 才把 tulip 和其他flowers 直接比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In 1624, the entire collection of tulips belonged to a man in Amsterdam.”",
+      "translation": "1624 年，整批 tulips 都屬於阿姆斯特丹一名男子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題，要判斷題目所說的 “in 1624”、“entire collection”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“belonged to a man in Amsterdam” 是否和原文一致。這裡的 “tulips” 要放回 Paragraph A–B 的語境理解，即 Semper Augustus 這種 rare tulip 的 specimen。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“Around 1624, the Amsterdam man who owned the only dozen specimens was offered 3,000 guilders for one bulb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約 1624 年，那位阿姆斯特丹男子擁有僅有的十二個樣本；有人出價 3,000 guilders 買其中一個球根。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet the bulb’s owner, whose name is now lost to history, nixed the offer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這位球根主人拒絕了這個出價；他的名字如今已被歷史遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph B 交代 rare bulb 的 ownership 和出價。題目有 1624、Amsterdam、belonged，這些詞都集中在 B 的第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “1624”、“entire collection”、“Amsterdam”。原文對應 “Around 1624”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the Amsterdam man”、“owned the only dozen specimens”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Around 1624, the Amsterdam man who owned the only dozen specimens was offered 3,000 guilders for one bulb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約 1624 年，那位阿姆斯特丹男子擁有僅有的十二個樣本；有人出價 3,000 guilders 買其中一個球根。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：the entire collection of tulips動作：belonged to a man時間：In 1624地點 / 身份：in Amsterdam原文命題：主體：the only dozen specimens動作：owned by the Amsterdam man時間：Around 1624地點 / 身份：Amsterdam man判斷："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the only dozen specimens” 表示當時已知的全部樣本。題目把它概括成 “the entire collection”。“owned” 對應 “belonged to”。“Around 1624” 和 “In 1624” 在這類閱讀題中方向一致，沒有造成衝突。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the entire collection= the only dozen specimens belonged to a man in Amsterdam= the Amsterdam man who owned"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心語境。文章不是說全世界所有 tulips 都屬於一個人；它在 Paragraph A–B 談的是Semper Augustus 這種 rare tulip 的 only dozen specimens。題目合理地把這批 specimens 概括成 entire collection。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tulips were first planted in Holland according to this passage.”",
+      "translation": "根據文章，tulips 最早是在 Holland 種植的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 “first planted in Holland” 是否符合原文。控制詞是 “first”，只要原文把 first occurrence 放在其他地方，答案便會是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch were not the first to go gaga over the tulip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人並非最早對 tulip 著迷的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in Holland, however, that the passion for tulips found its most fertile ground, for reasons that had little to do with horticulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對 tulip 的熱情是在 Holland 找到最適合滋長的土壤，而原因和園藝關係不大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經可以初步懷疑題目不成立。第一句明確說 Dutch 不是最早迷戀 tulip 的人；中間句子會交代 Holland 之前的地區。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的詞是 “first” 和 “Holland”。原文對應 “first tulip bloomed in Europe—in Bavaria, it turns out, in 1559”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long before the first tulip bloomed in Europe—in Bavaria, it turns out, in 1559—the flower had enchanted the Persians and bewitched the rulers of the Ottoman Empire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早在第一朵 tulip 於 1559 年在歐洲 Bavaria 綻放之前，這種花已經迷倒 Persians，也令 Ottoman Empire 的統治者著迷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Tulips were first planted in Holland.原文命題： Tulips had already enchanted Persians and Ottoman rulers before the first European bloom; the first European bloom mentioned was in Bavaria in 1559.判斷：題目把 first location 放在 Holland。原文把 Holland 前的歷史講得很清楚：Persia、Ottoman Empire、Bavaria 都早於 Holland mania。尤其 “the first tulip bloomed in Europe—in Bavaria” 直接排除了 Holland 作為 first place 的說法。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first planted in Holland和原文的 first tulip bloomed in Europe—in Bavaria 方向衝突"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 最後一句說 passion 在 Holland 找到 most fertile ground。這代表 Holland 是 tulip mania 最適合發展的地方，並不等於 tulip 最早出現在 Holland。最終要比較的是 first planted，不是 later popularity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The popularity of tulips in Holland was much higher than in any other country in the seventeenth century.”",
+      "translation": "十七世紀時，tulips 在 Holland 的受歡迎程度遠高於其他國家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 “popularity in Holland much higher” 是否由原文支持。定位上要看 Holland passion和 tulip mania 的形成背景。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D and Paragraph E Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch were not the first to go gaga over the tulip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人並非最早對 tulip 著迷的人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in Holland, however, that the passion for tulips found its most fertile ground, for reasons that had little to do with horticulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對 tulip 的熱情是在 Holland 找到最適合滋長的土壤，而原因和園藝關係不大。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Holland in the early 17th century was embarking on its Golden Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七世紀初的 Holland 正開始進入它的 Golden Age。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以看出文章把 tulip passion 的真正爆發地放在 Holland，並把時間放到 early 17th century。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Holland”、“popularity”、“seventeenth century”。原文的同義概念包括 “passion for tulips”、“found its most fertile ground”、“Golden Age”、“love of a long shot”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in Holland, however, that the passion for tulips found its most fertile ground, for reasons that had little to do with horticulture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對 tulip 的熱情是在 Holland 找到最適合滋長的土壤，而原因和園藝關係不大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “most fertile ground” 是比喻，意思是最有利於發展、最容易旺盛生長的地方。放在 tulip passion 的語境中，它表示 Holland 是 tulip 熱情最強烈、最容易形成 mania 的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Holland in the early 17th century was embarking on its Golden Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七世紀初的 Holland 正進入它的黃金時代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 Holland 的 tulip passion 放回 seventeenth-century 背景。後面又補充 Amsterdam merchants 利潤豐厚、花園展示成功、荷蘭人愛冒險機會，這些都解釋為何 tulips 在 Holland 特別受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目的 “much higher than in any other country” 是對 “found its most fertile ground” 的概括。文章先承認 Persians 和 Ottoman rulers 早已迷戀 tulips，再說真正最適合 tulip passion 發展的是Holland。這足以支持 Holland 的 popular passion 高於其他地方，因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "popularity was much higher= passion found its most fertile ground in the seventeenth century= Holland in the early 17th century"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Dutch were not the first，容易令學生以為荷蘭沒有最高 popularity。其實 “not first” 只處理時間先後；“most fertile ground” 才處理熱情發展程度。這題問受歡迎程度，不是最早出現地。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Holland was the wealthiest country in the world in the seventeenth century.”",
+      "translation": "十七世紀時，Holland 是世界上最富有的國家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查原文有沒有提供 “wealthiest country in the world” 這種全球比較。題目控制詞是最高級 “wealthiest” 和範圍 “in the world”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Holland in the early 17th century was embarking on its Golden Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七世紀初的 Holland 正開始進入它的 Golden Age。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch population seemed torn between two contradictory impulses: a horror of living beyond one’s means and the love of a long shot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人似乎被兩種互相矛盾的衝動拉扯：一方面害怕入不敷支，另一方面又喜歡冒險搏一鋪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 確實講 Holland 的繁榮和心理背景。不過，首尾句暫時只說Golden Age 和商業投機心理，未必支援 “wealthiest in the world”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “wealthiest”、“in the world”、“seventeenth century”。原文有 “Golden Age”、“lucrative East Indies trade”、“profits of 400%”、“displayed their success”，但沒有wealthiest 或全球排名。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amsterdam merchants were at the center of the lucrative East Indies trade, where a single voyage could yield profits of 400%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amsterdam merchants 位於利潤豐厚的 East Indies trade 中心，一次航程便可能帶來 400% 利潤。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They displayed their success by erecting grand estates surrounded by flower gardens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們透過興建四周有花園的大宅來展示成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子能證明 Holland / Amsterdam merchants 很富有、商業很興旺、貿易利潤高。可是題目需要的是 “wealthiest country in the world”，即全球最高排名。原文沒有把 Holland 和其他國家作財富比較，也沒有說它是世界第一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供 Holland 富裕和繁榮背景，但缺少 “in the world” 的比較資料。沒有明確反向證據，所以答案不是 FALSE；因為文章沒有足夠資料判斷它是否世界最富有，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： Golden Age lucrative trade profits of 400%grand estates原文缺少： wealthiest country ranking compared with all other countries in the world"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Golden Age” 很容易令人聯想到世界最富有。不過 IELTS Reading 不能用常識或歷史印象補出最高級比較。題目只要有 “the wealthiest” 或 “in the world”，就必須找到明確比較證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“From 1630 onwards, the Amsterdam Stock Exchange began regulating the tulip market.”",
+      "translation": "從 1630 年起，Amsterdam Stock Exchange 開始監管 tulip market。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Amsterdam Stock Exchange 和 tulip market 的關係。控制詞是 “began regulating”，表示交易所主動管理或監管 tulip market。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tulip mania differed in one crucial aspect from the dot-com craze that grips our attention today: Even at its height, the Amsterdam Stock Exchange, well-established in 1630, wouldn’t touch tulips.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tulip mania 和今日 dot-com craze 有一個關鍵差異：即使在最高峰時，早在 1630 年已相當成熟的 Amsterdam Stock Exchange 也不碰 tulips。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Will we say the same when Wall Street’s current obsession finally runs its course?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Wall Street 今日的迷戀最終走到盡頭時，我們還能說同樣的話嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已經可以看到題目方向和原文方向衝突。題目說交易所開始監管；原文說交易所不碰tulips。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “Amsterdam Stock Exchange” 和 “1630”。原文直接出現 “well-established in 1630” 和 “wouldn’t touch tulips”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even at its height, the Amsterdam Stock Exchange, well-established in 1630, wouldn’t touch tulips.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使在 tulip mania 最高峰時，早在 1630 年已相當成熟的 Amsterdam Stock Exchange 也不碰tulips。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The speculation in tulip bulbs always existed at the margins of Dutch economic life,” Dash writes."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dash 寫道，tulip bulbs 的投機活動一直存在於荷蘭經濟生活的邊緣。題目命題： Amsterdam Stock Exchange began regulating the tulip market from 1630 onwards.原文命題： Amsterdam Stock Exchange was well-established in 1630 but would not touch tulips; tulip speculation stayed at the margins.判斷：“wouldn’t touch tulips” 直接排除 “began regulating the tulip market”。如果交易所不碰 tulips，就不可能開始監管 tulip market。答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "began regulating和 “wouldn’t touch tulips” 方向相反from 1630 onwards和 “well-established in 1630” 只共享年份，不共享動作"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 1630 和 Amsterdam Stock Exchange 兩個原文字眼放進選項，表面很像原文。真正控制答案的是動詞：原文是 “wouldn’t touch”，題目是 “began regulating”。動詞方向完全不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "fighting",
+      "answerKey": "fighting",
+      "type": "Summary Completion",
+      "prompt": "“In the early seventeenth century, the Dutch focused on gaining independence by 24 ______Spain…”",
+      "translation": "十七世紀初，荷蘭人透過 ______ Spain 來爭取獨立。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Holland in the early 17th century was embarking on its Golden Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七世紀初的 Holland 正開始進入它的 Golden Age。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch population seemed torn between two contradictory impulses: a horror of living beyond one’s means and the love of a long shot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人似乎被兩種互相矛盾的衝動拉扯：一方面害怕入不敷支，另一方面又喜歡冒險機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 是早期十七世紀 Holland 的社會經濟背景段。題目中的 early seventeenth century、independence、Spain 都應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “independence” 和 “Spain”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Resources that had just a few years earlier gone toward fighting for independence from Spain now flowed into commerce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就在幾年前，資源原本用於爭取脫離 Spain 的獨立戰爭；如今則流入商業活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "題目寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“gaining independence by ______ Spain”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 by，後面有 Spain，所以空格需要一個 -ing 動詞。原文是 “fighting for independence from Spain”。因為題目已經保留 Spain，所以答案只需填 fighting。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gaining independence= fighting for independence by fighting Spain= resources went toward fighting for independence from Spain字數檢查： fighting 是一個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "commerce",
+      "answerKey": "commerce",
+      "type": "Summary Completion",
+      "prompt": "“consequently, spare resources flowed into 25 ______.”",
+      "translation": "因此，多出的資源流入 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Holland in the early 17th century was embarking on its Golden Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七世紀初的 Holland 正開始進入它的 Golden Age。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch population seemed torn between two contradictory impulses: a horror of living beyond one’s means and the love of a long shot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人似乎被兩種互相矛盾的衝動拉扯：一方面害怕入不敷支，另一方面又喜歡冒險機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談 Holland 的 Golden Age 和資源流向，正好對應 summary 的 “resources flowed into”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “resources flowed into”。原文幾乎直接重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Resources that had just a few years earlier gone toward fighting for independence from Spain now flowed into commerce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就在幾年前，資源原本用於爭取脫離 Spain 的獨立；如今則流入 commerce。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “flowed into”，所以答案需要名詞。原文直接提供 “commerce”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spare resources flowed into= resources now flowed into commerce= commercial activity / trade and business字數檢查： commerce 是一個詞，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “East Indies trade”。這是 commerce 的具體例子；summary 問的是資源流入的大方向，原文直接用 commerce。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "estates",
+      "answerKey": "estates",
+      "type": "Summary Completion",
+      "prompt": "“Prosperous merchants demonstrated their status by building grand 26 ______ surrounded by gardens.”",
+      "translation": "富裕商人透過興建四周有花園的 grand ______ 來展示身份和成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Holland in the early 17th century was embarking on its Golden Age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七世紀初的 Holland 正開始進入它的 Golden Age。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch population seemed torn between two contradictory impulses: a horror of living beyond one’s means and the love of a long shot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "荷蘭人似乎被兩種互相矛盾的衝動拉扯：一方面害怕入不敷支，另一方面又喜歡冒險機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間講 Amsterdam merchants 的富裕和 status display，所以 26 應在 Paragraph E 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “demonstrated their status”、“building grand”、“surrounded by gardens”。原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They displayed their success by erecting grand estates surrounded by flower gardens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們透過興建四周有花園的大宅來展示自己的成功。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “displayed their success” 改寫成 “demonstrated their status”，把 “erecting” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“building”。空格前是 grand，後面是 surrounded by gardens，所以答案需要複數名詞。原文“grand estates” 中，grand 已在題目出現，所以只填 estates。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "demonstrated their status= displayed their success building= erecting surrounded by gardens= surrounded by flower gardens字數檢查： estates 是一個詞，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “grand estates”。題目已經有 grand；填 grand estates 會變成 “grand grand estates”，文法錯誤。完成題要先檢查空格前後文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "flower lovers",
+      "answerKey": "flower lovers",
+      "type": "Summary Completion",
+      "prompt": "“Attracted by the profits available from tulips, traders continued looking for 27 ______ and speculators to whom they could sell.”",
+      "translation": "被 tulip 利潤吸引的 traders 繼續尋找 ______ 和 speculators，作為可出售對象。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Enter the tulip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這時 tulip 登場了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And while bulbs can produce two or three clones, or ‘offsets,’ annually, the mother bulb only lasts a few years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然球根每年可以產生兩三個克隆球，但母球只能維持幾年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 解釋 tulip 進入投機市場的條件，包括買家增加和供應不足。題目有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Attracted by profits”、“traders”、“speculators”，所以應掃描 F 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “traders”、“profits”、“speculators”。原文有：“Around 1630, however, a new type of tulip fancier appeared, lured by tales of fat profits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，約 1630 年，一種新型 tulip 愛好者出現，他們被巨大利潤的故事吸引。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“These ‘florists,’ or professional tulip traders, sought out flower lovers and speculators alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 “florists”，也就是 professional tulip traders，尋找 flower lovers 和 speculators。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "題目寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“looking for ______ and speculators”"
+            },
+            {
+              "kind": "label",
+              "text": "原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“sought out flower lovers and speculators alike”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“looking for” 對應 “sought out”。空格要填和 speculators 並列的人群，因此答案是 flower lovers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "traders continued looking for= professional tulip traders sought out profits available from tulips= lured by tales of fat profits flower lovers= the non-speculator buyers whom traders also targeted字數檢查： flower lovers 是兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “florists”。原文說 florists 是 professional tulip traders，也就是尋找買家的那群人。題目空格要填 traders 尋找的對象，所以應填 flower lovers。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - When the Tulip Bubble Burst.pdf",
+    "sha256": "887139d5d15dda1761ac34f528c589f23197697bebb921294845022e92a69ff1",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Opening + Paragraph A–I Opening Description",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 tulip mania 和現代高科技股票熱潮並列，暗示文章會用舊泡沫對照新泡沫。末句說在十七世紀荷蘭人眼中，Semper Augustus 幾乎無物可比。只看首尾句，可以先判斷本段功能是引入一種極珍貴的 tulip，並把它塑造成像股票或債券般令人追逐的投機對象。這段主要建立主題，不太像直接答案段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說約 1624 年，阿姆斯特丹一名男子擁有僅有的十二株樣本，並有人出價 3,000 guilders 買一個球根。末句說球根主人拒絕了出價。只看首尾句，這段功能非常清楚：用一個具體金額展示rare bulb 的驚人價值。題目若問 money offered、1624、Amsterdam man、rare bulb，應優先定位到 Paragraph B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句提出一個問題：拒絕高價賣 bulb 的人較瘋狂，還是願意花大錢買的人較瘋狂？末句說 Mike Dash 的書既講真實歷史，也為當代提供警示。只看首尾句，這段功能是介紹書評角度和cautionary tale。它把 tulip mania 連到 dot-com 投機風潮，為後文的歷史敘述和現代比較鋪路。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說最早迷戀 tulip 的並非荷蘭人。末句說真正讓 tulip 熱情找到最肥沃土壤的是 Holland，而且原因和 horticulture 關係不大。只看首尾句，可判斷本段功能是追溯 tulip 傳入 Holland 前的流傳歷史，同時轉入荷蘭社會背景。題目若問 spread before seventeenth century、Persians、Ottoman、Bavaria，目標段落就是 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說十七世紀初的 Holland 正進入 Golden Age。末句說荷蘭人同時害怕超支，也喜歡高風險機會。只看首尾句，可以先估計本段處理 tulip mania 的經濟與心理背景：獨立戰爭後資源流向商業，Amsterdam merchants 從 East Indies trade 得利，並以 estates 和 flower gardens 展示成功。這段直接支援 24–26。"
+      },
+      {
+        "number": "F",
+        "summary": "首句用 “Enter the tulip” 把 tulip 放入前段的荷蘭繁榮和投機心理之中。末句說 tulip 從種子長成要七年，球根雖能產生 offsets，母球卻只能維持幾年。只看首尾句，這段功能是解釋 tulip 本身為何適合成為投機商品：花色特別、價格懸殊、買家急增、供應緩慢。題目若問 comparison with other flowers 或 traders 尋找買家，應看 F。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說整個 1630 年代，隨著更多投機者入場，球根價格穩步上升。末句說一次孤兒拍賣中，70個 tulips 總共賣得近 53,000 guilders。只看首尾句，可以判斷本段是 bubble peak 段：價格暴漲、農民和織工抵押財產、球根可換 farmhouse，還出現 futures market。題目若問 tulips treated as currency 或市場高峰，答案多半在 G。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說不久之後，tulip market 以徹底而壯觀的方式崩潰。末句評價 Dash 的書雖有缺點，但成功呈現了驚人的金融愚行。只看首尾句，可以先判斷本段功能是描述 bubble burst：Haarlem 拍賣失敗、恐慌蔓延、需求消失、價格跌至原來一百分之一。題目若問 crash itself、panic、market evaporated，目標段落會是 H。"
+      },
+      {
+        "number": "I",
+        "summary": "首句直接比較 tulip mania 和今日 dot-com craze 的一個關鍵差異。末句反問，當 Wall Street 當前迷戀結束時，結果是否同樣溫和。只看首尾句，這段功能是總結比較：tulip speculation 處於Dutch economic life 的邊緣，Amsterdam Stock Exchange 不碰 tulips，崩潰後整體經濟影響negligible。題目若問 collapse effects 或 Stock Exchange，應定位到 I。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "開首未標字母段介紹 tulip 的基本植物特徵：它是春季開花的多年生球根植物，高度因品種不同而變化，花朵通常大而顯眼。末句說 tulip 有很多顏色，純藍除外。只看這段，讀者可以知道文章先用植物學角度建立 tulip 的外形和吸引力。不過，題目指定 Paragraph A–I，因此這段主要提供背景，通常不會成為 14–18 的段落答案。"
+  ]
+}

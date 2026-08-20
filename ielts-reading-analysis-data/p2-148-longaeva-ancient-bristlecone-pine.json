@@ -1,0 +1,1676 @@
+{
+  "id": "p2-148-longaeva-ancient-bristlecone-pine",
+  "catalogueId": "p2-148",
+  "catalogueIds": [
+    "p2-148"
+  ],
+  "passage": 2,
+  "title": "Longaeva: Ancient Bristlecone Pine",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "I",
+    "C",
+    "D",
+    "A",
+    "B",
+    "A",
+    "D",
+    "energy",
+    "stratification",
+    "bands of bark",
+    "slow growth",
+    "ground cover",
+    "distance"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“Human activity threatens bristlecone-pine habitat.”",
+      "translation": "人類活動威脅 bristlecone pine 的棲息地。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historically the bristlecone’s remote location and gnarled wood have deterred commercial extraction, but nothing on earth will go unaffected by global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史上，bristlecone 的偏遠位置和扭曲木材阻止了商業開採；但地球上沒有任何東西能完全避開global warming 的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As global climate change slowly alters their environment, we as humans must do our part to raise awareness and lower our impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著全球氣候變化慢慢改變它們的環境，人類必須盡力提高意識，並降低自身影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 I 段會處理 bristlecone habitat 面對的威脅，尤其是 global warming 和human impact。題目中的 “Human activity threatens” 和段末 “lower our impact” 明顯相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Human activity” 和 “habitat”。原文未必逐字重複 “human activity”，因此要找 visitors、roads、campsites、trails、human impact、global warming 等相關概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If temperatures rise by only 6°F, which many experts say is likely this century, about two-thirds of the bristlecones’ ideal habitat in the White Mountains effectively will be gone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果氣溫只上升 6°F，而許多專家認為這在本世紀很可能發生，White Mountains 中約三分之二的 bristlecone 理想棲息地實際上將會消失。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost 30,000 acres of National Forest now preserve the ancient bristlecone, but paved roads, campsites, and self-guided trails have led only to more human impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在有接近 30,000 acres 的 National Forest 保護古老的 bristlecone，但鋪設道路、營地和自助導覽徑只帶來更多人類影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Human activity= paved roads, campsites, self-guided trails, visitors, human impact threatens habitat= ideal habitat will be gone / more human impact所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“An explanation of bristlecone-pine growth rings.”",
+      "translation": "解釋 bristlecone pine 的 growth rings。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps most interested in the bristlecone pine are dendrochronologists or tree-ring daters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最關注 bristlecone pine 的，可能是 dendrochronologists，也就是 tree-ring daters。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among other linked accomplishments, this record has enhanced the dating process, helping to double-check and correct the radiocarbon-14 method to more accurately estimate the age of organic material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了其他相關成就外，這項紀錄也改進了 dating process，幫助檢查和修正 radiocarbon-14 method，使有機物年齡估算更準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 C 段會講 tree rings 如何被研究，以及它們如何支援年代測定。題目中的 “growth rings” 和首句 “tree-ring daters” 直接相連。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “growth rings” 是強定位詞。掃描 C 段時，應找 grows、new outer layer、cambium、annual growth rings、recording 等字。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“With every strenuous year that passes in the White Mountains, each bristlecone grows and forms a new outer layer of cambium that reflects a season’s particular ease or hardship.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "White Mountains 每過一個艱難年份，每棵 bristlecone 都會生長，並形成一層新的 cambium 外層，反映該生長季節是較容易還是較艱難。"
+            },
+            {
+              "kind": "quote",
+              "text": "“So while growing seasons may expand or shrink, the trees carry on, their growth rings faithfully recording the bad years alongside the good ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，雖然生長季節可能變長或縮短，這些樹仍繼續生長；它們的 growth rings 忠實記錄好年份和壞年份。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "explanation of growth rings= grows and forms a new outer layer of cambium= growth rings recording good and bad years所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A reliable record extending from the past to the present.”",
+      "translation": "一項由過去延伸到現在的可靠紀錄。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now more than ever the importance of monitoring the bristlecone is being realized.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，人們比以往任何時候都更意識到監測 bristlecone 的重要性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the rings of wood formed each year reveal the trees’ response to climatic conditions during a particular growing season, in their persistence they have left us natural recordings of the past, markers of the present, and clues to the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於每年形成的木質年輪揭示了樹木在某個生長季節對氣候條件的反應，這些樹憑著長久存在，為我們留下了過去的自然紀錄、現在的標記，以及未來的線索。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 D 段把 bristlecone 視為時間紀錄。題目說 “from the past to the present”，原文直接有 “recordings of the past” 和 “markers of the present”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “record” 對應原文 “natural recordings”。“past to the present” 對應 “past” 和 “present”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reliable” 沒有原字出現，但 “rings of wood formed each year reveal” 顯示年輪有穩定的記錄功能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the rings of wood formed each year reveal the trees’ response to climatic conditions during a particular growing season…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於每年形成的木質年輪會揭示樹木在特定生長季節對氣候條件的反應……這句說明紀錄可靠的原因：每一年形成的 ring 都對應該年的 climatic conditions。"
+            },
+            {
+              "kind": "quote",
+              "text": "“…they have left us natural recordings of the past, markers of the present, and clues to the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們為我們留下過去的自然紀錄、現在的標記，以及未來的線索。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reliable record= rings reveal climatic response / natural recordings extending from the past to the present= recordings of the past + markers of the present所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Survival in a hostile environment.”",
+      "translation": "在惡劣環境中生存。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand more about Earth’s history, humans have often looked to the natural environment for insight into the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了更了解地球歷史，人類常常從自然環境尋找過去的線索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Results of extensive studies on bristlecone pine stands have shown, in fact, that such environmental limitations are positively associated with the attainment of great age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 bristlecone pine stands 的大量研究結果顯示，這些環境限制其實與達到極高年齡有正面關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 A 段會講 bristlecone pine 和地球歷史、惡劣環境、長壽之間的關係。題目中的 “hostile environment” 對應段中 brutal、harsh、barren slopes 等描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hostile environment” 不一定原字出現。掃描時要找 brutal、scant precipitation、low average temperatures、ferocious winds、nutrient-poor rocky soil、harsh environment。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Conditions here are brutal: scant precipitation and low average temperatures mean a short growing season, only intensified by ferocious winds and nutrient-poor rocky soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡條件非常嚴酷：降雨稀少、平均氣溫低，代表生長季節很短，再加上猛烈的風和貧瘠的岩石土壤，環境更加艱難。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, bristlecone pines have claimed these barren slopes as their permanent home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，bristlecone pines 已經把這些荒瘠山坡變成永久家園。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hostile environment= brutal conditions / harsh environment / barren slopes survival= claimed these barren slopes as their permanent home所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B — Their remarkable longevity.",
+      "answerKey": "B — Their remarkable longevity.",
+      "type": "Multiple Choice",
+      "prompt": "“According to paragraph A, which aspect of bristlecone pines attracts the author’s attention?”",
+      "translation": "根據 A 段，bristlecone pines 哪一方面吸引作者注意？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand more about Earth’s history, humans have often looked to the natural environment for insight into the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了更了解地球歷史，人類常常從自然環境尋找過去的線索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Results of extensive studies on bristlecone pine stands have shown, in fact, that such environmental limitations are positively associated with the attainment of great age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 bristlecone pine stands 的大量研究結果顯示，這些環境限制其實與達到極高年齡有正面關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段的焦點不是單純介紹一種樹，也不是只介紹地點。段首說它能幫助人類了解過去，段末把焦點推到 great age。題目問作者注意哪個 aspect，因此要找段中最被強調的特徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “aspect” 很寬，不能只找原字。要掃描作者評價性字眼，例如 “served this purpose better than any other species”、“longevity throne”、“oldest living trees”、“attainment of great age”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Evolving here in this harsh environment, super-adapted and without much competition, bristlecones have earned their seat on the longevity throne by becoming the oldest living trees on the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristlecones 在這種嚴酷環境中演化，適應力極強，又缺少競爭，因此憑著成為地球上最古老的活樹，登上長壽王座。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The brutal environment in which they live. A 有吸引力，因為 A 段確實詳細描述 brutal conditions。不過作者真正想突出的，是它們在 brutal environment 中仍達到極高壽命。環境是背景，longevity 才是核心特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Their remarkable longevity.正確。原文的 “longevity throne”、“oldest living trees”、“attainment of great age” 都指向remarkable longevity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They only live in California.錯。原文 A 段只說 White Mountains in California，沒有說它們 only live in California。G 段還說它們分布於 southwestern United States。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Outstanding height.錯。A 段沒有強調 height；F 段甚至說它們多數 under ten meters tall。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "A — Because the oldest researched specimens are found in this region.",
+      "answerKey": "A — Because the oldest researched specimens are found in this region.",
+      "type": "Multiple Choice",
+      "prompt": "“Why are bristlecone pines at higher elevations in California’s White Mountains investigated?”",
+      "translation": "為甚麼 California’s White Mountains 高海拔地區的 bristlecone pines 受到研究？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bristlecone pines are restricted to numerous, rather isolated stands at higher altitudes in the southwestern United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristlecone pines 只分布於美國西南部許多相當孤立的高海拔 stands。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, to reach pure bristlecone stands is an arduous journey in itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，要到達純 bristlecone stands，本身已經是一段艱難旅程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 G 段會講 bristlecone 的地理分布和高海拔環境。題目出現 “higher elevations”、“California’s White Mountains”，很明顯要回到 G 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “California’s White Mountains” 和 “investigated”。原文對應 “oldest and most widely researched stands”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Within this natural range, the oldest and most widely researched stands of bristlecones occur in California’s White Mountains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個自然分布範圍內，最古老和最廣泛被研究的 bristlecone stands 位於 California’s White Mountains。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Because the oldest researched specimens are found in this region.正確。原文直接說 “the oldest and most widely researched stands … occur in California’s White Mountains”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Because the most unusual specimens are in this region.錯。原文沒有說 most unusual specimens。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Because precipitation is abundant in this region.錯。原文說此區 “receives only 12.54 inches of precipitation per year”，即降雨很少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Because the area lies comparatively high above sea level.這是背景，但不是題目問的研究原因。原文真正解釋研究價值的是 “oldest and most widely researched stands”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D — Because year-to-year climatic variations are never exactly the same.",
+      "answerKey": "D — Because year-to-year climatic variations are never exactly the same.",
+      "type": "Multiple Choice",
+      "prompt": "“Why are there no repeated long-term patterns of wide and narrow rings?”",
+      "translation": "為甚麼寬窄年輪的長期模式不會重複？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With seemingly endless areas of wonder and interest, the bristlecone pines have become subject to much research over the past half-century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristlecone pines 似乎有無窮的奇妙和研究價值，因此過去半世紀成為大量研究對象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What makes this record so special to dendrochronologists is that, nowhere, throughout time, is precisely the same long-term sequence of wide and narrow rings repeated, because year-to-year variations in climate are never exactly the same.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項紀錄對 dendrochronologists 來說特別珍貴，原因是無論何時何地，都沒有完全相同的長期寬窄年輪序列重複，因為每年的氣候變化永遠不會完全一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經直接看到題目中的 “no repeated long-term patterns of wide and narrow rings”。這題定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “repeated long-term patterns”、“wide and narrow rings”。原文幾乎逐字重現："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“long-term sequence of wide and narrow rings repeated”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“...nowhere, throughout time, is precisely the same long-term sequence of wide and narrow rings repeated, because year-to-year variations in climate are never exactly the same.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在任何地方、任何時候，都沒有完全相同的長期寬窄年輪序列重複，因為每年與每年的氣候變化永遠不會完全一樣。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Because rising sea levels affect tree rings.錯。原文沒有 sea levels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Because tree-ring patterns are completely random.錯。原文沒有說 completely random。年輪受 climate variations 影響，有原因可循。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Because ancient organisms affect their growth.錯。ancient organisms 指 bristlecones 本身，但原文原因是 climate variation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Because year-to-year climatic variations are never exactly the same.正確，和原文 “because year-to-year variations in climate are never exactly the same” 幾乎完全一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "energy",
+      "answerKey": "energy",
+      "type": "Summary Completion",
+      "prompt": "“The bristlecone’s special adaptations aid photosynthesis, conserve the 21 ______ required for leaf replacement and provide a stable supply of chlorophyll.”",
+      "translation": "Bristlecone 的特殊適應能幫助光合作用，保存更換葉子所需的 ______，並提供穩定的葉綠素供應。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The species’ name originates from the appearance of its unusual cones and needles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個物種的名字來自它不尋常的 cones and needles 外觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This condition occurs as a result of cambium dieback, which erodes and thereby exposes certain areas of the bole, leaving only narrow bands of bark intact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況由 cambium dieback 造成；它會侵蝕並露出樹幹某些部分，只留下狹窄的 bark bands完好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段講 physical adaptations。題目中的 photosynthesis、leaf replacement、chlorophyll 都和 needles 的功能有關，所以定位 E 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “photosynthesis”、“leaf replacement”、“chlorophyll”。原文直接出現photosynthesize、needle replacement、chlorophyll。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This adaptation helps the bristlecone photosynthesize during particularly brutal months, saving the energy of constant needle replacement and providing a stable supply of chlorophyll.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種適應幫助 bristlecone 在特別嚴酷的月份進行光合作用，節省不斷更換 needles 所需的能量，並提供穩定的葉綠素供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “conserve the”，後面是 “required for leaf replacement”。需要一個名詞。原文是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“saving the energy of constant needle replacement”，所以答案是 energy。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "conserve= saving required for leaf replacement= of constant needle replacement答案是 energy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "stratification",
+      "answerKey": "stratification",
+      "type": "Summary Completion",
+      "prompt": "“Germination rates are high, probably because the seeds require little or no initial 22 ______.”",
+      "translation": "發芽率很高，可能因為種子幾乎不需要或完全不需要初始 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The species’ name originates from the appearance of its unusual cones and needles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個物種的名字來自它不尋常的 cones and needles 外觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This condition occurs as a result of cambium dieback, which erodes and thereby exposes certain areas of the bole, leaving only narrow bands of bark intact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況由 cambium dieback 造成；它會侵蝕並露出樹幹某些部分，只留下狹窄的 bark bands完好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段中段由 needles 轉到 seeds 和 germination，因此 summary 中的 germination rates 可把答案定位到同一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “Germination rates are high” 幾乎原字重現。掃描 E 段時可找到 “Germination rates are generally high”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Germination rates are generally high, in part because seeds require little to no initial stratification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "發芽率通常很高，部分原因是種子幾乎不需要或完全不需要初始 stratification。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前有 “initial”，需要名詞。原文是 “initial stratification”。答案一字即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "probably because= in part because little or no= little to no答案是 stratification。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "bands of bark",
+      "answerKey": "bands of bark",
+      "type": "Summary Completion",
+      "prompt": "“Cambium dieback leaves only narrow 23 ______ intact.”",
+      "translation": "Cambium dieback 只留下狹窄的 ______ 完好。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The species’ name originates from the appearance of its unusual cones and needles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個物種的名字來自它不尋常的 cones and needles 外觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This condition occurs as a result of cambium dieback, which erodes and thereby exposes certain areas of the bole, leaving only narrow bands of bark intact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況由 cambium dieback 造成；它會侵蝕並露出樹幹某些部分，只留下狹窄的 bark bands完好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎直接取自 E 段最後一句。題目中的 “Cambium dieback” 是極強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Cambium dieback” 和 “intact”。原文最後一句同時出現這兩個訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This condition occurs as a result of cambium dieback, which erodes and thereby exposes certain areas of the bole, leaving only narrow bands of bark intact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況由 cambium dieback 造成；它會侵蝕並因此露出樹幹某些部分，只留下狹窄的樹皮帶完好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “leaves only narrow ______ intact”。原文是 “leaving only narrow bands of bark intact”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格應填 bands of bark，三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 bands of bark。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "slow growth",
+      "answerKey": "slow growth",
+      "type": "Summary Completion",
+      "prompt": "“Because of factors such as dry, windy and freezing conditions and 24 ______, bristlecone rings have a tight, strong structure rich in resin.”",
+      "translation": "由於乾燥、多風、寒冷條件以及 ______ 等因素，bristlecone 的年輪具有緊密、強韌且 resin-rich的結構。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technique of cambial edge retreat has helped promote old age in bristlecone pine, but that certainly is not the only reason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cambial edge retreat 這項技術有助 bristlecone pine 達到高齡，但它當然不是唯一原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This lack of vegetation also means a lack of competition for the bristlecones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種缺少植被的情況也代表 bristlecones 缺少競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段會解釋 bristlecone 長壽和結構強韌的原因。題目中的 dry、windy、freezing 和 resin-rich rings 都屬於 F 段內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “dry, windy and freezing” 幾乎對應原文 “dry, windy, and often freezing mountain air”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tight, strong structure rich in resin” 對應 “tight, fibrous rings with a high resin content and structural strength”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Combined with the dry, windy, and often freezing mountain air, slow growth ensures that bristlecones develop tight, fibrous rings with a high resin content and structural strength.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加上乾燥、多風且經常冰冷的山區空氣，緩慢生長確保 bristlecones 形成緊密、纖維狀、resin 含量高且結構強韌的年輪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格和 “dry, windy and freezing conditions” 並列，所以需要一個名詞或名詞短語。原文的原因是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“slow growth”，兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dry, windy and freezing conditions= dry, windy, and often freezing mountain air tight, strong structure rich in resin= tight, fibrous rings with a high resin content and structural strength答案是 slow growth。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "ground cover",
+      "answerKey": "ground cover",
+      "type": "Summary Completion",
+      "prompt": "“Bristlecone stands are also protected from fire because few 25 ______ plants grow there.”",
+      "translation": "Bristlecone stands 也受到防火保護，因為那裡很少有 ______ plants 生長。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The technique of cambial edge retreat has helped promote old age in bristlecone pine, but that certainly is not the only reason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cambial edge retreat 有助 bristlecone pine 達到高齡，但這當然不是唯一原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This lack of vegetation also means a lack of competition for the bristlecones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種缺少植被的情況也代表 bristlecones 缺少競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段後半講 fire protection 和 lack of vegetation。題目中的 “protected from fire” 可以直接帶到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “protected from fire” 和 “plants grow there”。原文有 “unaffected by fire” 和 “lack of ground cover vegetation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Due to a lack of ground cover vegetation and an evenly spaced layout, bristlecone stands on the White Mountain peaks have been practically unaffected by fire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於缺少 ground cover vegetation，而且排列間距均勻，White Mountain peaks 上的 bristlecone stands 幾乎沒有受到火災影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “few ______ plants grow there”。如果填 “ground cover”，句子變成 “few ground cover plants grow there”，文法自然。若填 “ground cover vegetation”，就會變成 “few ground cover vegetation plants”，不自然，也超出題目想要的結構。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "protected from fire= practically unaffected by fire few ground cover plants= a lack of ground cover vegetation答案是 ground cover。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "distance",
+      "answerKey": "distance",
+      "type": "Summary Completion",
+      "prompt": "“The peaks south of Owens Valley are higher than they appear when viewed from a 26______.”",
+      "translation": "從 ______ 觀看時，Owens Valley 南面的山峰比看起來更高。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bristlecone pines are restricted to numerous, rather isolated stands at higher altitudes in the southwestern United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristlecone pines 只分布於美國西南部許多相當孤立的高海拔 stands。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, to reach pure bristlecone stands is an arduous journey in itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，要到達純 bristlecone stands，本身已經是一段艱難旅程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 G 段會講位置、高度、地理難度。題目中的 Owens Valley 是強地名定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Owens Valley” 和 “higher than they appear”。原文直接出現 “higher up than they might appear from a distance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The peaks south of the Owens Valley are higher up than they might appear from a distance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Owens Valley 南面的山峰，比從遠處看起來更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “when viewed from a ______”。原文是 “from a distance”。空格需要單數名詞，答案是distance。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "when viewed from a distance= from a distance higher than they appear= higher up than they might appear答案是 distance。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Longaeva_ Ancient Bristlecone Pine.pdf",
+    "sha256": "a4c69dba465521c235f41d8874ccfbd69b44ff2ea1fc1251844d526e1d15f598",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說人類常從自然環境尋找地球歷史線索，bristlecone pine 在這方面比任何樹種都更有價值。最後一句說，惡劣環境限制和樹木達到高齡之間有正面關係，後文會再討論。只看首尾句，可以先估計 A 段功能是介紹核心矛盾：環境極端惡劣，bristlecone pine 卻能成為地球上最長壽的活樹。題目若問 hostile environment、survival、longevity，A 段很值得回看。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用問題 “how old is old?” 引入年齡概念。最後一句說，正因這些樹能在如此艱難的環境中達到高齡，過去半世紀成為大量科學研究焦點。只看首尾句，可以看到 B 段主要提供年齡數字和研究動機。中間很可能會提到 Methuselah、4,700 years、3,000 years、4,000 years 等數字，因此若題目問 exact age、oldest specimen、scientific examination，B 段是定位段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說最關注 bristlecone pine 的人可能是 dendrochronologists，即 tree-ring daters。最後一句說 tree-ring record 幫助校正 radiocarbon-14 dating method，更準確估算有機物年齡。只看首尾句，可以判斷 C 段功能是解釋年輪如何被科學家用作年代記錄。中間會講 annual growth rings、living and dead specimens、core samples、cross-dating 和 continuous record。題目問 growth rings 或 dating method，先看 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說現在比以往更能意識到 monitoring bristlecone 的重要性。最後一句說，每年形成的木質年輪留下 natural recordings of the past、markers of the present 和 clues to the future。只看首尾句，可以看出 D 段把 bristlecone 當成跨時間的自然紀錄系統。它不只回望過去，也能反映現在和提示未來。題目若問 record from past to present、climate monitoring、future clues，D 段很貼近。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 species’ name 來自它不尋常的 cones and needles 外觀。最後一句說 cambium dieback會侵蝕並露出樹幹某些部分，只留下 narrow bands of bark intact。只看首尾句，可以估計 E 段集中講 physical characteristics 和 special adaptations。中間會有 needles、stomata、moisture loss、photosynthesis、energy、chlorophyll、seeds、germination、stratification、strip-bark trait 等資訊。Summary completion 裡若問 photosynthesis、seed germination、bark，答案多半在 E 段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 cambial edge retreat 有助 bristlecone pine 達到高齡，但這不是唯一原因。最後一句說lack of vegetation 也代表 lack of competition。只看首尾句，可以判斷 F 段會解釋 longevity 的其他成因：compact size、slow growth、dry windy freezing air、resin-rich rings、fire protection、lack of ground cover vegetation 和 lack of competition。題目若問 old age mechanisms、tight rings、fire protection、vegetation，F 段是主要段落。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 bristlecone pines 只分布在美國西南部高海拔、分散而孤立的 stands。最後一句說，要到達 pure bristlecone stands 本身已經是 arduous journey。只看首尾句，可以估計 G 段主要交代geographical range、White Mountains、high-elevation desert、precipitation、temperature、altitude 和 difficult access。題目若問 White Mountains、oldest researched stands、Owens Valley、distance、high elevation，G 段最有價值。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 bristlecone pines 因具有無盡的 wonder and interest，過去半世紀成為大量研究對象。最後一句說，長期寬窄年輪序列不會精確重複，因為每年氣候變化都不完全相同。只看首尾句，可以判斷 H 段再次聚焦 dendrochronology，但更強調年輪紀錄的特殊性和不可重複性。題目若問tree-ring specialists、carbon-14 correction、past climate change、no repeated patterns，H 段是定位段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 bristlecone 的偏遠位置和扭曲木材過去阻止了商業砍伐，但 global warming 會影響地球上一切。最後一句呼籲人類提高意識並降低影響。只看首尾句，可以先估計 I 段是 threats and conservation 段。中間會講 rising temperatures、loss of ideal habitat、National Forest protection、paved roads、campsites、visitors 和 human impact。題目若問 human activity、habitat threat、global warming，應先看 I 段。"
+      }
+    ]
+  }
+}

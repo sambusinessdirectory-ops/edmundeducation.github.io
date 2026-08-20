@@ -1,0 +1,1889 @@
+{
+  "id": "p2-116-neanderthals-and-modern-humans",
+  "catalogueId": "p2-116",
+  "catalogueIds": [
+    "p2-116"
+  ],
+  "passage": 2,
+  "title": "Neanderthals and modern humans",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A — Homo neanderthalensis",
+    "B — Homo sapiens",
+    "A — Homo neanderthalensis",
+    "C — both Homo neanderthalensis and Homo sapiens",
+    "A — Homo neanderthalensis",
+    "D",
+    "B",
+    "G",
+    "A",
+    "E",
+    "interbreeding",
+    "growth",
+    "little-finger bone"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A — Homo neanderthalensis",
+      "answerKey": "A — Homo neanderthalensis",
+      "type": "Matching Species",
+      "prompt": "“Once lived in Europe and Asia.”",
+      "translation": "曾經生活在歐洲和亞洲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目要把一項 characteristic 配到正確 species。控制詞是 “Europe and Asia”，所以要找哪個物種被明確描述為曾在這兩個地區生活。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homo neanderthalensis, to give its proper name, lived in Europe and parts of Asia from 400,000 years ago to 30,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用正式名稱來說，Homo neanderthalensis 在 400,000 年前至 30,000 年前生活於歐洲和亞洲部分地區。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因至今未知，但 Homo sapiens 到達某個地區後，Neanderthals 總是很快消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 是兩個物種的歷史背景段。第一句直接交代 Neanderthals的地理分布，最後一句交代 Homo sapiens 到來與 Neanderthals 消失的關係。因此 Question 14的 Europe and Asia 很自然定位到本段第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “Europe and Asia”。原文直接出現 “Europe and parts of Asia”。這是原字加輕微改寫：題目省略 parts of，保留 Europe and Asia 這個地理框架。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homo neanderthalensis … lived in Europe and parts of Asia from 400,000 years ago to 30,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Homo neanderthalensis 在 400,000 年前至 30,000 年前生活於歐洲和亞洲部分地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主語是 Homo neanderthalensis；核心動詞是 lived；地點是 Europe and parts of Asia。題目 “Once lived” 對應原文的 lived 和過去年代。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Once lived = lived from 400,000 years ago to 30,000 years ago Europe and Asia = Europe and parts of Asia species = Homo neanderthalensis所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段也提到 Homo sapiens “were spreading out from Africa”，但那是來源和擴散方向，沒有說Homo sapiens “once lived in Europe and Asia” 作為本題特徵。Q14 的地點短語直接跟 Homo neanderthalensis 連在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B — Homo sapiens",
+      "answerKey": "B — Homo sapiens",
+      "type": "Matching Species",
+      "prompt": "“Originated in Africa.”",
+      "translation": "起源於非洲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪個 species 從 Africa 出來。控制詞是 originated，原文未必用 originate，可能用spreading out from Africa。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homo neanderthalensis, to give its proper name, lived in Europe and parts of Asia from 400,000 years ago to 30,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Homo neanderthalensis 在 400,000 年前至 30,000 年前生活於歐洲和亞洲部分地區。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因至今未知，但 Homo sapiens 到達某個地區後，Neanderthals 總是很快消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示這段在比較 Neanderthals 和 Homo sapiens 的地理與歷史關係。Question 15 的Africa 應在段落中間尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Africa”。掃描 Paragraph B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“who were spreading out from Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 who 指前面的 Homo sapiens。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Towards the end of this period it shared its range with interlopers in the form of Homo sapiens, who were spreading out from Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這段時期的後期，Neanderthals 的活動範圍與入侵者 Homo sapiens 重疊；Homo sapiens 正從非洲向外擴散。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “who” 指 Homo sapiens。 “spreading out from Africa” 表示從非洲向外擴展，所以題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Originated in Africa” 概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Originated in Africa = spreading out from Africa species = Homo sapiens interlopers = newly arriving Homo sapiens所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 後面提到 Africans，但那是現代非洲人群在基因比較中的角色，並非本題問的物種起源。Q15 要回到 Paragraph B 的 Homo sapiens spreading out from Africa。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — Homo neanderthalensis",
+      "answerKey": "A — Homo neanderthalensis",
+      "type": "Matching Species",
+      "prompt": "“Did not survive long after the arrival of immigrants.”",
+      "translation": "在外來者到達後，沒有存活很久。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 immigrants 是改寫字，不一定會在原文出現。要找 “arrival” 和 “disappearance” 之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homo neanderthalensis, to give its proper name, lived in Europe and parts of Asia from 400,000 years ago to 30,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Homo neanderthalensis 在 400,000 年前至 30,000 年前生活於歐洲和亞洲部分地區。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因至今未知，但 Homo sapiens 到達某個地區後，Neanderthals 總是很快消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以看到 arrival 和 disappearance 的連接。本題的 “did not survive long” 對應 “quickly followed by the disappearance”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “arrival” 和 “immigrants”。原文用 “interlopers” 形容 Homo sapiens，又用 “arrival of Homo sapiens”。interlopers 在此指外來者、闖入者，與 immigrants 意思接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因至今未知，但 Homo sapiens 到達某個地區後，Neanderthals 總是很快消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子主幹是：arrival of Homo sapiens was followed by disappearance of Neanderthals。也就是Homo sapiens 到來後，Neanderthals 消失。題目 “did not survive long” 是對 “quickly followed by disappearance” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "immigrants = interlopers / Homo sapiens arriving in a region did not survive long = quickly followed by disappearance species that disappeared = Neanderthals / Homo neanderthalensis所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 immigrants，容易令人以為答案是 Homo sapiens，因為他們是到達者。可是題目問的是「誰在外來者到達後沒有存活很久」，真正承受 disappearance 的是 Neanderthals。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — both Homo neanderthalensis and Homo sapiens",
+      "answerKey": "C — both Homo neanderthalensis and Homo sapiens",
+      "type": "Matching Species",
+      "prompt": "“Interbred with another species.”",
+      "translation": "曾與另一個物種通婚或交配繁衍。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 interbreeding 是單向特徵還是雙向關係。若兩個物種互相繁衍，特徵就應配 both。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Pääbo and his colleagues compared their Neanderthal genome (painstakingly reconstructed from three bone samples collected from a cave in Croatia) with that of five living humans from various parts of Africa and Eurasia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pääbo 博士和同事把 Neanderthal genome 與五位來自非洲及 Eurasia 不同地區的現代人基因組作比較；Neanderthal genome 是從克羅地亞洞穴中三件骨樣本仔細重建出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By comparing the DNA in the cell nucleus of Africans (whose ancestors could not have crossbred with Neanderthals, since they did not overlap with them) and various Eurasians (whose ancestors could have crossbred with Neanderthals), Dr Pääbo has shown that Eurasians are between one per cent and four per cent Neanderthal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過比較非洲人和不同 Eurasian 人群的細胞核 DNA，Pääbo 博士顯示，Eurasians 有 1% 至4% Neanderthal 成分；非洲人的祖先沒有與 Neanderthals 重疊，Eurasians 的祖先則可能有交配繁衍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯是基因比較段，並直接涉及 crossbred with Neanderthals。題目中的interbred 很可能在這裡找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Interbred”。原文有 “interbreeding” 和 “crossbred”。這是同一語義場：interbreed =crossbreed。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Previous genetic analysis … had suggested no interbreeding between Neanderthals and modern humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早前的基因分析曾暗示 Neanderthals 和 modern humans 之間沒有交配繁衍。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new, more extensive examination … shows this conclusion is wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的、更廣泛的檢查顯示這個結論是錯的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後又說 Eurasians are between one per cent and four per cent Neanderthal。這代表某些modern humans 的祖先曾與 Neanderthals 交配繁衍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Interbred = interbreeding / crossbred another species = Neanderthals with modern humans both species involved = Homo neanderthalensis and Homo sapiens Interbreeding 是兩個物種之間的關係，不是只屬其中一方的動作。因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “with another species” 容易令人只選其中一個 species。可是只要原文說 “between Neanderthals and modern humans”，雙方都參與同一繁衍關係。這題要看 relationship，不可只看哪個物種名字先出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — Homo neanderthalensis",
+      "answerKey": "A — Homo neanderthalensis",
+      "type": "Matching Species",
+      "prompt": "“Appears not to have passed mitochondrial DNA to another species.”",
+      "translation": "看起來沒有把 mitochondrial DNA 傳給另一個物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 mitochondrial DNA，不是 nuclear DNA。要找哪個物種的 mitochondrial DNA 沒有在另一物種中出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is intriguing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點很有趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By comparing modern humans, Neanderthals, and chimpanzees, it is possible to distinguish genetic changes which are shared by several species of human in their evolution away from the great-ape lineage, from those which are unique to Homo sapiens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過比較 modern humans、Neanderthals 和 chimpanzees，可以分辨哪些基因變化是多種人類在遠離類人猿譜系的演化中共有，哪些是 Homo sapiens 獨有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承接上一段 interbreeding 發現；末句轉向比較物種差異。這段中間很可能包含與interbreeding 相關的特殊發現。題目中的 mitochondrial DNA 正好在本段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “mitochondrial DNA”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“no Neanderthal mitochondrial DNA has turned up in modern humans.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is strange, though, that no Neanderthal mitochondrial DNA has turned up in modern humans…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，奇怪的是，現代人類身上沒有出現 Neanderthal mitochondrial DNA。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主語是 no Neanderthal mitochondrial DNA；位置是 modern humans。這表示目前沒有找到Neanderthals 把 mitochondrial DNA 傳到 modern humans 身上的證據。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "appears not to have passed = no … has turned up in mitochondrial DNA = mitochondrial DNA another species = modern humans / Homo sapiens source species = Neanderthals / Homo neanderthalensis所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 說 Eurasians 有 1% 至 4% Neanderthal，這是 nuclear DNA 層面的結果。Question 18 指定 mitochondrial DNA，範圍不同。看到有 Neanderthal genetic material 不可直接推成mitochondrial DNA 也存在。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“an account of the rejection of a theory”",
+      "translation": "一段關於某個理論或結論被推翻的描述。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找哪一段包含 “rejection of a theory”。Scan 時要找conclusion、suggested、wrong、show 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Pääbo and his colleagues compared their Neanderthal genome … with that of five living humans from various parts of Africa and Eurasia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pääbo 博士和同事把 Neanderthal genome 與五位來自非洲和 Eurasia 的現代人基因組比較。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Pääbo has shown that Eurasians are between one per cent and four per cent Neanderthal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pääbo 博士顯示，Eurasians 有 1% 至 4% Neanderthal 成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段是基因比較和新結論段。題目問 theory rejection，應看本段中間關於 previous genetic analysis 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rejection” 可對應 “shows this conclusion is wrong”。 “theory” 可對應 earlier conclusion：no interbreeding between Neanderthals and modern humans。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Previous genetic analysis … had suggested no interbreeding between Neanderthals and modern humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早前的基因分析曾暗示 Neanderthals 和 modern humans 之間沒有交配繁衍。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The new, more extensive examination … shows this conclusion is wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的、更廣泛的檢查顯示這個結論是錯的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句形成一個完整 rejection chain：先有舊結論 no interbreeding，後有新 evidence 顯示 that conclusion is wrong。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "account = explanation / description rejection = shows this conclusion is wrong theory = previous genetic conclusion of no interbreeding所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也說歷史比以前相信的更交織，但那只是概括提示。真正清楚寫出舊結論被新研究推翻的是 Paragraph D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“a reference to an unexplained link between two events”",
+      "translation": "提到兩件事之間有關聯，但原因未明。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找兩個 events，並且其中關係 unexplained。定位詞是 unexplained link，原文可能寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“For reasons which are as yet unknown”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“Homo neanderthalensis … lived in Europe and parts of Asia from 400,000 years ago to 30,000 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Homo neanderthalensis 在 400,000 年前至 30,000 年前生活於歐洲和亞洲部分地區。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因至今未知，但 Homo sapiens 到達某個地區後，Neanderthals 總是很快消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經同時提供 unknown reasons 和 two events，所以這段非常精準。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 unexplained 對應 “For reasons which are as yet unknown”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "two events 對應： 1. arrival of Homo sapiens 2. disappearance of Neanderthals"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因至今未知，但 Homo sapiens 到達某個地區後，Neanderthals 總是很快消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說：事件 A 發生後，事件 B 總是很快發生，但原因未知。這完全符合 “unexplained link between two events”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unexplained = reasons as yet unknown link = was always quickly followed by two events = arrival of Homo sapiens + disappearance of Neanderthals所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 this period、range、cohabitation 當成答案核心。真正控制答案的是 “For reasons …unknown” 這個原因缺失訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“the identification of a skill-related gene common to both Neanderthals and modern humans”",
+      "translation": "指出一個與技能相關、Neanderthals 和 modern humans 共同擁有的基因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 skill-related gene 是高度定位詞。要找某個 gene，並確認它 common to both species。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The newly evolved regions of DNA also include a gene called RUNX2, which controls bone growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新演化的 DNA 區域也包括一個名為 RUNX2 的基因，它控制骨骼生長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that species, too, could have its full genome read, humanity’s ability to know itself would be enhanced even further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果那個物種的完整基因組也能被讀取，人類自我認識能力將進一步提升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句顯示本段會談具名 gene。題目問 skill-related gene，掃描本段可找到 FOXP2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “skill-related gene” 和 “common to both”。原文相關詞是 “FOXP2”, “involved in the ability to speak”, “Neanderthals and moderns share the same version”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neanderthals and moderns share the same version of a gene called FOXP2, which is involved in the ability to speak, and which differs in chimpanzees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Neanderthals 和 modern humans 共享同一版本的 FOXP2 基因；這個基因涉及說話能力，並且與 chimpanzees 的版本不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含題目所需所有元素： species = Neanderthals and moderns common = share the same version gene = FOXP2 skill-related = involved in the ability to speak"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "skill-related = involved in the ability to speak common to both = share the same version modern humans = moderns gene = FOXP2所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "RUNX2 也在 Paragraph G，而且也是 gene，但它控制 bone growth。Question 21 問 skill-related，尤其是 speak，所以答案必須落在 FOXP2。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“the announcement of a scientific breakthrough”",
+      "translation": "公布一項科學突破。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 announcement，也要找 breakthrough。原文可能用 “made public” 表示公布，用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“scientific masterpiece” 表示突破性研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“The evolutionary processes that have made modern humans so different from other animals are hard to determine without an ability to examine human species that have not achieved similar things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果不能研究那些沒有達到現代人類成就的人類物種，就很難判斷哪些演化過程令現代人類如此有別於其他動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2009, at a meeting of the American Association for the Advancement of Science, they made public an analysis of the genome of Neanderthal man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2009 年，在 American Association for the Advancement of Science 的一場會議上，他們公開了Neanderthal man 基因組的分析。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段是研究突破的開場：先提出長期困難，再說 Pääbo 團隊公開 genome analysis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 announcement 對應 “made public”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "scientific breakthrough 對應 “scientific masterpiece” 以及使比較成為可能的 genome analysis。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in a scientific masterpiece, Svante Pääbo and his colleagues … have made such a comparison possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Svante Pääbo 和同事透過一項科學傑作，使這種比較成為可能。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2009 … they made public an analysis of the genome of Neanderthal man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2009 年，他們公開了 Neanderthal man 基因組的分析。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來說：Pääbo 團隊完成一項重要科學成果，並在 2009 年公開。題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“announcement of a scientific breakthrough” 概括這件事。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "announcement = made public scientific breakthrough = scientific masterpiece / made comparison possible Neanderthal genome analysis = analysis of the genome of Neanderthal man所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也提到另一個團隊發現未知人類物種，那也是重大發現。不過 Q22 的“announcement” 最貼近 A 段的 “made public”，而且 A 段是全文開首公布研究成果的位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“an interesting gap in existing knowledge”",
+      "translation": "現有認識中一個有趣的缺口或奇怪空白。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 gap，即某項應該可能存在、但目前沒有找到的資料。interesting 對應原文的 “strange”或 “intriguing”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is intriguing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點很有趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By comparing modern humans, Neanderthals, and chimpanzees, it is possible to distinguish genetic changes which are shared by several species of human in their evolution away from the great-ape lineage, from those which are unique to Homo sapiens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過比較 modern humans、Neanderthals 和 chimpanzees，可以分辨哪些基因變化是多種人類共有，哪些是 Homo sapiens 獨有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已有 intriguing，段中也有 strange，說明本段包含某個令人意外的基因發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “interesting” 可對應 “intriguing” 或 “strange”。掃描 Paragraph E，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is strange, though, that no Neanderthal mitochondrial DNA has turned up in modern humans…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is strange, though, that no Neanderthal mitochondrial DNA has turned up in modern humans, since the usual pattern of invasion in historical times was for male invaders to mate with women from the population they had invaded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，奇怪的是，現代人類中沒有出現 Neanderthal mitochondrial DNA；因為在歷史時期，入侵的一般模式是男性入侵者與被入侵群體中的女性交配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 gap 是：如果有 interbreeding，而且按照歷史入侵模式推想，某些 mitochondrial DNA 可能應被看到；但目前沒有 Neanderthal mitochondrial DNA 在 modern humans 中出現。原文用 “It is strange” 明確標示這是一個有趣、反常的缺口。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "interesting = intriguing / strange gap in existing knowledge = no Neanderthal mitochondrial DNA has turned up existing knowledge = current genetic findings about modern humans所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也說 genome science still primitive，代表科學知識仍有一般限制。不過 Q23 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“interesting gap” 更貼近 Paragraph E 的 “It is strange … no Neanderthal mitochondrial DNA…”。 F 段是 broadly unclear；E 段是具體、奇怪、可定位的 absence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "interbreeding",
+      "answerKey": "interbreeding",
+      "type": "Summary Completion",
+      "prompt": "“First, despite the length of time for which Homo sapiens and Homo neanderthalensis had developed separately, 24 __________ did take place.”",
+      "translation": "首先，儘管 Homo sapiens 和 Homo neanderthalensis 已分開演化很長時間，__________ 的確發生過。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前後文法要求一個名詞，並且後面有 “did take place”，所以答案應是某個事件或過程。題目核心是兩個物種 despite long separation still had something happen。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Pääbo and his colleagues compared their Neanderthal genome … with that of five living humans from various parts of Africa and Eurasia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pääbo 博士和同事把 Neanderthal genome 與五位來自非洲和 Eurasia 的現代人基因組比較。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Pääbo has shown that Eurasians are between one per cent and four per cent Neanderthal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pääbo 博士顯示，Eurasians 有 1% 至 4% Neanderthal 成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段是基因比較後得出的 interbreeding 證據。題目 summary 的 “did take place” 就是對先前 no interbreeding 結論的反轉。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “developed separately” 和 “did take place”。原文最強對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“no interbreeding between Neanderthals and modern humans”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及"
+            },
+            {
+              "kind": "quote",
+              "text": "“shows this conclusion is wrong.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Previous genetic analysis … had suggested no interbreeding between Neanderthals and modern humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早前的基因分析曾暗示 Neanderthals 和 modern humans 之間沒有交配繁衍。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new, more extensive examination … shows this conclusion is wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的、更廣泛的檢查顯示這個結論是錯的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，先前 no interbreeding 的看法被推翻，所以 interbreeding did take place。Paragraph E再確認："
+            },
+            {
+              "kind": "quote",
+              "text": "“It shows that even after several hundred thousand years of separation, the two species were interfertile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顯示即使分離了數十萬年，兩個物種仍可交配繁衍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "developed separately for a long time = several hundred thousand years of separation did take place = conclusion of no interbreeding was wrong answer = interbreeding答案形式檢查： interbreeding 是一個字，來自原文，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "growth",
+      "answerKey": "growth",
+      "type": "Summary Completion",
+      "prompt": "“Secondly, genes that evolved after modern humans split from Neanderthals are connected with cognitive ability and skeletal 25 __________.”",
+      "translation": "第二，modern humans 與 Neanderthals 分化後演化出的基因，與 cognitive ability 和骨骼__________ 有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 skeletal，答案需要一個名詞，形成自然搭配。原文相關內容跨 Paragraph F 和 G：cognitive ability 在 F，bone growth 在 G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F + Paragraph G Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 90 per cent of the ‘human accelerated regions’ that have been identified in modern people are found in Neanderthals too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代人類中已識別出的 human accelerated regions，有超過 90% 也存在於 Neanderthals。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These genes therefore look like good places to start the search for modern humanity’s essence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這些基因看來是尋找現代人類本質的好起點。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The newly evolved regions of DNA also include a gene called RUNX2, which controls bone growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新演化的 DNA 區域還包括一個名為 RUNX2 的基因，它控制骨骼生長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 第一 句已經把答案帶出：bone growth。題目已給 skeletal，所以空格只需填 growth。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “cognitive ability” 和 “skeletal”。原文先在 Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“several genes which are associated with cognitive ability”"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Paragraph G 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“RUNX2, which controls bone growth.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The newly evolved regions of DNA also include a gene called RUNX2, which controls bone growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新演化的 DNA 區域還包括 RUNX2 這個基因，它控制骨骼生長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 bone 改寫成 skeletal。因為 skeletal 已經出現在題目空格前，答案只填 growth 即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "skeletal = bone growth = growth connected with cognitive ability = associated with cognitive ability genes that evolved after split = parts of the genome that underwent significant evolution since the species split答案形式檢查：如果填 “bone growth”，句子會變成 “skeletal bone growth”，不自然，並且題目已經提供 skeletal。最穩答案是 growth。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "little-finger bone",
+      "answerKey": "little-finger bone",
+      "type": "Summary Completion",
+      "prompt": "“The potential for this research to shed light on modern humans was strengthened further when analysis of a 26 __________ led to the discovery of a new human species.”",
+      "translation": "當對一個 __________ 的分析導致發現新的人類物種時，這項研究幫助我們理解 modern humans 的潛力進一步增強。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “a”，所以答案應是單數名詞短語。題目問新 species 發現的材料來源。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The newly evolved regions of DNA also include a gene called RUNX2, which controls bone growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新演化的 DNA 區域也包括 RUNX2，這個基因控制骨骼生長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that species, too, could have its full genome read, humanity’s ability to know itself would be enhanced even further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果那個物種的完整基因組也能被讀取，人類認識自身的能力將會進一步提升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 不只談 RUNX2，也談另一個 human species 的發現，以及 humanity’s ability to know itself。Question 26 的 “shed light on modern humans” 對應最後一句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“humanity’s ability to know itself”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “new human species”。原文有：“revealed the existence of a hitherto unsuspected species of human”"
+            },
+            {
+              "kind": "label",
+              "text": "再往後看，可找到材料來源："
+            },
+            {
+              "kind": "quote",
+              "text": "“using mitochondrial DNA found in a little-finger bone.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another of his teams has revealed the existence of a hitherto unsuspected species of human, using mitochondrial DNA found in a little-finger bone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的另一個團隊使用在一塊小指骨中發現的 mitochondrial DNA，揭示了一個先前未被懷疑存在的人類物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 analysis of a ______ led to discovery。原文說 using mitochondrial DNA found in a little-finger bone。由於題目空格前是 “a”，最自然答案是 little-finger bone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "discovery of a new human species = revealed the existence of a hitherto unsuspected species of human analysis of a little-finger bone = using mitochondrial DNA found in a little-finger bone shed light on modern humans = humanity’s ability to know itself would be enhanced答案形式檢查： little-finger bone 符合 NO MORE THAN THREE WORDS，並可自然接在 “a” 後面： analysis of a little-finger bone."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Neanderthals and modern humans.pdf",
+    "sha256": "8737a5ff7e6e2029f63fda7884287d1fc045310ff7ae34881ef0ff6d6c2d3260",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說，如果不能研究那些沒有達到現代人類成就的人類物種，就很難判斷現代人類與其他動物差異的演化過程。末句說，2009 年 Pääbo 團隊公開了 Neanderthal genome 的分析。只看首尾句，可估計本段是研究突破的引入：科學家終於可以用基因組比較 Neanderthals 和 modern humans，後文會解釋這項比較帶來甚麼新認識。"
+      },
+      {
+        "number": "B",
+        "summary": "首句交代 Homo neanderthalensis 曾在歐洲和亞洲部分地區生活，時間由 400,000 年前至30,000 年前。末句說，Homo sapiens 到達某地後，Neanderthals 總是很快消失，但原因仍未知。只看首尾句，本段功能是背景介紹：Neanderthals 的地理範圍、Homo sapiens 從非洲擴散，以及兩個事件之間未解釋的關聯。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 2009 年前，Pääbo 團隊只做過 Neanderthal 和 modern human DNA 的表面比較。末句說，兩個物種的歷史比很多人先前相信的更交織。只看首尾句，可估計本段是轉折段：研究由superficial comparison 進入 more thorough study，並指出新研究改變了人們對兩個物種關係的理解，尤其是 interwoven history。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Pääbo 團隊把從克羅地亞洞穴骨樣本重建的 Neanderthal genome，與五位來自非洲和Eurasia 的現代人基因組比較。末句說，Eurasians 有 1% 至 4% Neanderthal 成分。只看首尾句，本段明顯是核心證據段：它解釋 nuclear DNA 如何推翻早前 mitochondrial DNA 研究所支持的no interbreeding 結論。"
+      },
+      {
+        "number": "E",
+        "summary": "首句 “That is intriguing” 承接上一段 Eurasians 含有 Neanderthal DNA 的發現。末句說，透過比較 modern humans、Neanderthals 和 chimpanzees，可以分辨哪些基因變化是多種人類共有，哪些是 Homo sapiens 獨有。只看首尾句，本段會由 interbreeding 的有趣結果，轉向 species differences，並提出 no Neanderthal mitochondrial DNA 這個奇怪缺口。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說，現代人類中已辨認出的 human accelerated regions 有超過 90% 也存在於 Neanderthals。末句說，某些與 cognitive ability 有關的基因，可能是尋找 modern humanity’s essence 的好起點。只看首尾句，本段重點是基因差異：大部分快速演化區域兩者共有，但仍有 212 個區域在分化後顯著演化，其中部分涉及認知能力。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說，新演化的 DNA 區域還包括 RUNX2，這個基因控制 bone growth。末句說，如果另一個新發現人類物種的完整基因組也能被讀取，人類自我認識將進一步提升。只看首尾句，本段處理兩個延伸發現：RUNX2 解釋骨骼差異，FOXP2 顯示兩者共享語言相關基因，最後再提小指骨 DNA發現未知人類物種。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

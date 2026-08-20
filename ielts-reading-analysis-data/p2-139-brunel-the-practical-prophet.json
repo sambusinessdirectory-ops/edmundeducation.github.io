@@ -1,0 +1,1828 @@
+{
+  "id": "p2-139-brunel-the-practical-prophet",
+  "catalogueId": "p2-139",
+  "catalogueIds": [
+    "p2-139"
+  ],
+  "passage": 2,
+  "title": "Brunel: ‘The Practical Prophet’",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A — River Thames Tunnel",
+    "C — Atmospheric Railway",
+    "B — Clifton Suspension Bridge",
+    "G — The Great Eastern",
+    "G — The Great Eastern",
+    "D — Great Britain",
+    "F",
+    "G",
+    "C",
+    "larger",
+    "Australia",
+    "4,000 passengers",
+    "telegraphic cable"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A — River Thames Tunnel",
+      "answerKey": "A — River Thames Tunnel",
+      "type": "Question Analysis",
+      "prompt": "“A construction project for which I. K. Brunel was not responsible.”",
+      "translation": "一個並非由 I. K. Brunel 負責的建設項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 project matching。題目不是問 Brunel 有沒有接觸過該項目，而是問哪個 construction project 並非由 I. K. Brunel 負責。要特別留意人物：Isambard Kingdom Brunel 和他的父親 Sir Marc Isambard Brunel。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the frontispiece of his book on Brunel, Peter Hay quotes from Nicholson’s British Encyclopaedia of 1909 as follows: ‘Engineers are extremely necessary for these purposes; wherefore it is requisite that, besides being ingenious, they should be brave in proportion.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Hay 在其關於 Brunel 的書的卷首，引述 1909 年 Nicholson’s British Encyclopaedia 的說法：工程師對這些目的極為必要；因此，他們除了要有才智，也要有相稱的勇氣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isambard was recuperating near Bristol from injuries received in a tunnel cave-in when he became involved with his own first major project.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Isambard 因隧道塌陷受傷，正在 Bristol 附近休養時，開始參與他自己的第一個大型項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 是 Brunel 的早年背景段。它提到工程師品格、父親、教育、Thames Tunnel，以及 Isambard 如何走向自己的第一個大型項目。因此，題目問「哪個工程並非由 I. K. Brunel 負責」時，這段最值得先看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “not responsible” 和 “construction project”。掃描 Paragraph A 時，要找誰在 building 哪個 project。原文出現 “His father, Sir Marc Isambard Brunel” 和 “Sir Marc was then building his famous tunnel under the River Thames.” 這一句把負責人清楚指向父親。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sir Marc was then building his famous tunnel under the River Thames.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sir Marc 當時正在建造他著名的 River Thames 下方隧道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Sir Marc”，即 Isambard 的父親；動詞是 “was then building”；項目是 “his famous tunnel under the River Thames”。所以 River Thames Tunnel 屬於父親正在建造的 project。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Isambard 可能曾在父親身邊工作，也因 tunnel cave-in 受傷，但題目問的是哪個 project 不是由 I. K. Brunel 負責。答案因此是 A — River Thames Tunnel。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“for which I. K. Brunel was not responsible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sir Marc was then building his famous tunnel under the River Thames”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Sir Marc was building it= responsibility belongs to Brunel’s father= not I. K. Brunel’s own project"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最後一句有 “injuries received in a tunnel cave-in”，容易令人以為 Isambard 對 Thames Tunnel完全負責。細讀時要分清：受傷和負責建設是兩件事。真正控制答案的是 “Sir Marc was then building”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C — Atmospheric Railway",
+      "answerKey": "C — Atmospheric Railway",
+      "type": "Question Analysis",
+      "prompt": "“A project that was abandoned because of inconvenience and high maintenance costs.”",
+      "translation": "一個因操作麻煩和維修成本高而被放棄的項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 abandoned 的原因。題目中的 “inconvenience” 對應原文可能不是原字，而是troublesome；“high maintenance costs” 可能對應 expensive to keep in repair。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brunel’s ready acceptance of new ideas overpowered good engineering judgment (at least in hindsight) when he advocated the installation of an atmospheric railway in South Devon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brunel 很快接受新構想；事後看來，當他主張在 South Devon 安裝 atmospheric railway 時，這種接受新意念的傾向壓過了良好的工程判斷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also took no fee for his work, setting a good professional example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也沒有收取這項工作的費用，樹立了良好的專業榜樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會講一個創新但失敗的 project。首句已點名 atmospheric railway，並暗示工程判斷出現問題；末句則說 Brunel 承擔後果。題目提到 abandoned 和maintenance costs，最可能在這段中間找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “abandoned”、“inconvenience” 和 “maintenance costs”。原文中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“this arrangement was troublesome and expensive to keep in repair. After a year of frustration, the system was abandoned.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時含有 troublesome、expensive、repair、abandoned，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Materials were not up to it, and this arrangement was troublesome and expensive to keep in repair. After a year of frustration, the system was abandoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時的材料無法勝任這套安排；這種設計很麻煩，並且維修成本高昂。經過一年挫折後，這套系統被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “this arrangement” 指 atmospheric railway 的技術設計：pipe、slit、flap、piston 等部件要協調運作，還要保持 airtight。材料達不到要求，系統變得麻煩又昂貴。題目用 “inconvenience” 概括 troublesome，用 “high maintenance costs” 概括 expensive to keep in repair。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "inconvenience= troublesome high maintenance costs= expensive to keep in repair abandoned= the system was abandoned答案字母 C 對應 Atmospheric Railway，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不能只看到 “new ideas” 就以為答案是某個成功創新。Paragraph D 的語氣是回顧性批評： Brunel 接受新想法太快，結果系統因材料、操作和維修問題被放棄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — Clifton Suspension Bridge",
+      "answerKey": "B — Clifton Suspension Bridge",
+      "type": "Question Analysis",
+      "prompt": "“A project completed in Brunel’s honour after his death.”",
+      "translation": "一個在 Brunel 死後為紀念他而完成的項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個控制點：completed 和 in Brunel’s honour after his death。要找哪個 project 在他生前未完成，後來由他人完成作為紀念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The span of Brunel’s bridge was over 700 ft, longer than any existing when it was designed, and the height above water about 245 ft.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brunel 的橋跨度超過 700 英尺，比設計時任何現有橋都長，離水面高度約 245 英尺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Clifton Suspension Bridge was completed in his honour by his engineering friends in 1864 and is still in use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clifton Suspension Bridge 於 1864 年由他的工程師朋友為紀念他而完成，並且至今仍在使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 明顯是 Clifton Suspension Bridge 段。末句已直接提供 completed in his honour，與題目幾乎完全重合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “completed”、“honour” 和 “after his death”。原文直接出現 “completed in his honour”。雖然句子沒有明寫 “after his death”，但 1864 年在 Brunel 去世後，並且前一句說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Unfortunately, he only got so far as to put up the end piers in his lifetime”，已補足時間關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“Unfortunately, he only got so far as to put up the end piers in his lifetime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，在他有生之年，他只來得及建起兩端橋墩。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Clifton Suspension Bridge was completed in his honour by his engineering friends in 1864 and is still in use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clifton Suspension Bridge 於 1864 年由他的工程師朋友為紀念他而完成，並且至今仍在使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來，證據很完整：生前只完成 end piers；後來由工程師朋友完成；完成目的是 in his honour。題目中的 “after his death” 是從 “in his lifetime” 的限制反推而來，再加上 1864 年完工這個時間資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "completed after his death= only got as far as end piers in his lifetime + completed in 1864 in Brunel’s honour= in his honour答案字母 B 對應 Clifton Suspension Bridge，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "G — The Great Eastern",
+      "answerKey": "G — The Great Eastern",
+      "type": "Question Analysis",
+      "prompt": "“A project that encountered budget problems despite being built by a famous engineer.”",
+      "translation": "一個雖由著名工程師建造，仍遇到預算／資金問題的項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要同時找兩件事：第一，建造者是 famous / well-established engineer；第二，project 出現budget / money problems。兩部分都要在同一 project 中成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 講的是 Great Eastern：原本是 Brunel 解決遠洋蒸汽船燃料問題的巨型構想，後來轉為鋪設電纜。題目提到 budget problems 和 famous engineer，這種細節很可能在此段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “budget problems”、“famous engineer” 和 “built”。原文沒有 budget 這個字，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“money was soon a problem”。“famous engineer” 對應 “well-established engineer and naval architect”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Brunel had chosen John Scott Russell to build the ship. He was a well-established engineer and naval architect, but the contract did not go well. Among other things, Scott Russell was very low in his estimates and money was soon a problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brunel 選擇 John Scott Russell 建造這艘船。他是一位資歷深厚的工程師和造船設計師，但合約進展不順。其中一個問題是 Scott Russell 的估算過低，很快資金便成為問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “the ship” 指 Great Eastern。John Scott Russell 是 “well-established engineer and naval architect”，對應題目 “famous engineer”。“money was soon a problem” 對應 budget problems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Great Eastern 是這段唯一被如此描述的 project，答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "famous engineer= well-established engineer and naval architect budget problems= money was soon a problem encountered= the contract did not go well"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被 Brunel 本人吸走注意力。題目說 “despite being built by a famous engineer”，該engineer 在證據句中其實是 John Scott Russell，不是 Brunel。Brunel chose him to build the ship；後來問題出在 estimate 太低，資金很快成為困難。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "G — The Great Eastern",
+      "answerKey": "G — The Great Eastern",
+      "type": "Question Analysis",
+      "prompt": "“A serious problem occurred after repeated delays.”",
+      "translation": "多次延誤後發生嚴重問題的項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 delay 和 serious problem 的先後關係。題目沒有明說船名，但 “serious problem” 會對應 accident / explosion，repeated delays 會對應 delayed and problem-ridden launch。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 是 Great Eastern 的完整故事段：從設計理念，到建造問題，到後來用途。題目問 “delays” 和 “serious problem”，通常會出現在這種 project narrative 的中後段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “serious problem” 和 “repeated delays”。掃描 Paragraph G，可以找到 “delayed and problem-ridden launch” 和 “there was an explosion in the engine room”。explosion 是嚴重問題；delayed / problem-ridden 對應 repeated delays。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Brunel was nothing if not determined and by September 1859, after a delayed and problem-ridden launch, the Great Eastern was ready for its maiden voyage. Brunel was too sick to go, but it was just as well because only a few hours out there was an explosion in the engine room which would have destroyed a lesser ship.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Brunel 極其堅定；到 1859 年 9 月，在一次延誤且問題重重的下水後，Great Eastern 已準備好首次航行。Brunel 因病無法同行，不過這也算幸運，因為船出發僅幾小時，engine room 發生爆炸；如果是較弱的船，可能已被摧毀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡清楚呈現時間順序：先有 “delayed and problem-ridden launch”，之後 Great Eastern ready for maiden voyage，再發生 “explosion in the engine room”。題目把 explosion 概括成 serious problem，把 delayed and problem-ridden launch 概括成 repeated delays。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "repeated delays= delayed and problem-ridden launch serious problem occurred= there was an explosion in the engine room答案字母 G 對應 The Great Eastern。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 17 和 18 都是 Great Eastern。這是 matching project 常見情況：同一 project 可用多次。題目指示沒有說每個字母只能使用一次，所以 G 可以連續用於兩題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — Great Britain",
+      "answerKey": "D — Great Britain",
+      "type": "Question Analysis",
+      "prompt": "“The first project of its kind to cross the Atlantic Ocean.”",
+      "translation": "第一個同類型並橫渡大西洋的項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要特別留意 “of its kind” 和 “cross the Atlantic Ocean”。文章有兩艘船都與 transatlantic 有關：Great Western 和 Great Britain。需要看原文哪一句和 “to cross the Atlantic” 最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having done so well with the Great Western, Brunel immediately got to work on an even bigger ship.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Great Western 取得成功後，Brunel 立即開始設計一艘更大的船。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1970s, the old ship was rescued from the Falklands and is now under restoration in Bristol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1970 年代初，這艘老船從 Falklands 被救回，現在正在 Bristol 修復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 是 Great Britain 的段落。它承接 Great Western 的成功，轉到更大型、更新技術的船，並講其後續命運。題目提到 first of its kind crossing the Atlantic，這段中間有非常直接的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first”、“of its kind” 和 “cross the Atlantic Ocean”。Paragraph F 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first screw-driven iron ship to cross the Atlantic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾乎是原文直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship was launched in 1843 and was the first screw-driven iron ship to cross the Atlantic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船於 1843 年下水，並成為第一艘橫渡大西洋的螺旋槳驅動鐵船。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The ship”，指前文的 Great Britain。它的 “kind” 不是普通 steamship，而是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“screw-driven iron ship”。題目說 “first project of its kind to cross the Atlantic Ocean”，正好對應這句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "of its kind= screw-driven iron ship to cross the Atlantic Ocean= to cross the Atlantic答案字母 D 對應 Great Britain。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的 Great Western 也很吸引，因為它是 “the first steamship to engage in transatlantic service”。但題目用 “to cross the Atlantic Ocean”，原文最直接對應是 Paragraph F的 “first screw-driven iron ship to cross the Atlantic”。因此答案選 D，不選 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "“A great ship that set a standard for ocean travel.”",
+      "translation": "一艘為海洋旅行設立標準的大船。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問哪段包含這項資訊，不是問 project 字母。要找 “set a standard for ocean travel” 的原文重現或近義表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having done so well with the Great Western, Brunel immediately got to work on an even bigger ship.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Great Western 成功後，Brunel 立即開始設計一艘更大的船。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1970s, the old ship was rescued from the Falklands and is now under restoration in Bristol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1970 年代初，這艘老船從 Falklands 被救回，現在正在 Bristol 修復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 講 Great Britain，一艘比 Great Western 更大的船。它的技術突破和歷史地位會在中間說明，因此題目中的 “set a standard for ocean travel” 很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “standard” 和 “ocean travel”。Paragraph F 中有完全對應的短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“setting the standard for ocean travel.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Great Britain ran aground early in its career but was repaired, sold, and sailed for years to Australia, and other parts of the world, setting the standard for ocean travel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Great Britain 早年曾擱淺，但後來被修復、出售，並多年航行至 Australia 及世界其他地方，為海洋旅行設立了標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Great Britain。雖然它早年有 run aground 的問題，但後續經歷證明它長期用於遠洋旅行，並 “setting the standard for ocean travel”。題目與原文幾乎直接重合，所以答案是Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "great ship= Great Britain, an even bigger ship / iron ship set a standard for ocean travel= setting the standard for ocean travel"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "“An ambitious project later used for an unplanned purpose.”",
+      "translation": "一個雄心很大的項目，後來被用於原先沒有計劃的用途。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目有兩個重點：ambitious project 和 unplanned purpose。要找原本設計目的與後來用途之間的轉變。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 先講遠洋蒸汽船的巨大挑戰，最後講 Great Eastern 後來用於 laying cables。首尾句之間已形成「原本設計目的」和「後來用途」的轉變，很適合 Question 21。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ambitious project”、“later used” 和 “unplanned purpose”。原文中 “the biggest ship ever, five times larger than any ship built up to that time” 對應 ambitious；“Although Brunel did not have it in mind” 對應 unplanned；“laying cables” 對應 later use。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“He set out to design the biggest ship ever, five times larger than any ship built up to that time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他開始設計有史以來最大的船，比當時已建成的任何船都大五倍。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Brunel did not have it in mind, the Great Eastern was an excellent vessel for this work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Brunel 原先沒有想到這個用途，但 Great Eastern 非常適合這項工作。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 27 July 1866, it successfully completed the connection and a hundred years of transatlantic communication by cable began.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1866 年 7 月 27 日，它成功完成連接，開啟了跨大西洋電纜通訊的一百年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“biggest ship ever” 和 “five times larger” 充分支援 ambitious project。後來的 “this work” 指前一句提到的 carrying 5,000 tons of telegraphic cable and laying it on the ocean floor。原文清楚說Brunel did not have it in mind，因此這是未預先計劃的用途。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ambitious project= biggest ship ever / five times larger unplanned purpose= Brunel did not have it in mind later used for= used for laying cables"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "“Brunel used his interpersonal skills with landowners to secure approval for a project.”",
+      "translation": "Brunel 利用與地主和相關人士溝通的能力，為一個項目取得批准。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目重點不是工程技術，而是 interpersonal skills：說服 landowners、committees 和 individuals。要找 railway location、landowners、won them over 這組訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While Brunel was still in Bristol, and with the Avon Bridge project stopped or going slowly, he became aware that the civic authorities saw the need for a railway link to London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brunel 仍在 Bristol 時，Avon Bridge 項目停頓或進展緩慢，他注意到市政當局認為需要一條通往London 的鐵路連接。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After much argument, the government settled the matter in 1846 by requiring all new lines to use standard gauge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過大量爭論後，政府於 1846 年解決此事，要求所有新鐵路使用 standard gauge。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 是 Great Western Railway 段，涵蓋 railway link、爭議和政府決策。題目提到 landowners 和 approval，這與 railway location 爭議很相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “landowners”、“interpersonal skills” 和 “secure approval”。原文有 “private landowners and towns had to be dealt with”，以及 “Brunel showed great skill in presenting his arguments … and won them over.” 這就是題目的同義支援。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Railway location was controversial since private landowners and towns had to be dealt with. Mainly, the landed gentry did not want a messy, noisy railway anywhere near them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "鐵路選址很具爭議，因為必須處理私人地主和城鎮的意見。主要原因是地主階層不希望又亂又吵的鐵路靠近他們。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Again Brunel showed great skill in presenting his arguments to the various committees and individuals, and won them over.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brunel 再次展現出向不同委員會和個人陳述論點的高超技巧，並成功說服他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“showed great skill in presenting his arguments” 對應題目的 interpersonal skills；“private landowners” 對應 landowners；“won them over” 對應 secure approval。Paragraph C 因此是答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "interpersonal skills= great skill in presenting his arguments landowners= private landowners / landed gentry secure approval= won them over"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "larger",
+      "answerKey": "larger",
+      "type": "Question Analysis",
+      "prompt": "“The Great Eastern was designed on a 23 _________________ scale so that it could carry more fuel and make a long voyage to 24 _________________.”",
+      "translation": "Great Eastern 被設計成較 ______ 的規模，以便能攜帶更多燃料，並完成前往 ______ 的長途航行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格前後是 “on a ___scale”，所以答案應是形容詞或形容詞短語。答案必須來自文章。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的開頭提出問題：steamships 長途航行煤炭不足。接著 Brunel 的解法是 size mattered，設計巨型船。題目 summary 正在改寫這一段的設計邏輯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Great Eastern”、“scale”、“carry more fuel” 和 “long voyage”。原文中對應位置是："
+            },
+            {
+              "kind": "quote",
+              "text": "“size mattered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the biggest ship ever”"
+            },
+            {
+              "kind": "quote",
+              "text": "“five times larger than any ship built up to that time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“big enough to carry enough fuel”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He set out to design the biggest ship ever, five times larger than any ship built up to that time. It would be big enough to carry enough fuel to reach Australia without refuelling…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他開始設計有史以來最大的船，比當時已建成的任何船都大五倍。它會大到足以攜帶足夠燃料，在不重新加燃料的情況下到達 Australia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “five times larger” 和 “big enough to carry enough fuel” 濃縮成 “designed on a ___ scale”。在文法上，“on a larger scale” 最自然；答案詞 “larger” 來自原文 “five times larger”。所以填"
+            },
+            {
+              "kind": "quote",
+              "text": "“larger”。答案形式檢查larger = 1 word，符合 NO MORE THAN TWO WORDS。句子變成：“The Great Eastern was designed on a larger scale…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法自然，意思也對應 Great Eastern 比之前任何船都大得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：larger"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "Australia",
+      "answerKey": "Australia",
+      "type": "Question Analysis",
+      "prompt": "“The Great Eastern was designed on a 23 _________________ scale so that it could carry more fuel and make a long voyage to 24 _________________.”",
+      "translation": "Great Eastern 被設計成較大的規模，以便能攜帶更多燃料，並完成前往 ______ 的長途航行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格前是 “to”，需要填目的地。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一開始講 long ocean voyages 和 fuel 問題。題目中的 “long voyage to” 必然對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reach Australia without refuelling”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “long voyage” 和 “carry more fuel”。原文有 “carry enough fuel to reach Australia without refuelling”。目的地直接是 Australia。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It would be big enough to carry enough fuel to reach Australia without refuelling…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會大到足以攜帶足夠燃料，在不重新加燃料的情況下到達 Australia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “make a long voyage to” 改寫原文 “reach Australia without refuelling”。空格需要一個地名，原文唯一目的地是 Australia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查Australia = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Australia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "4,000 passengers",
+      "answerKey": "4,000 passengers",
+      "type": "Question Analysis",
+      "prompt": "“The ship was unprofitable and never carried 25 _________________.”",
+      "translation": "這艘船沒有盈利，並且從未載運 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格前是 “carried”，答案應是可被船載運的人或物。題目說 “never carried”，要找原文中 Great Eastern 沒有達成的載運目標。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 先講 Great Eastern 的宏大設計，再講它作為 passenger ship 的失敗，最後轉向cable-laying。題目中的 unprofitable 和 never carried 一定在該失敗段落中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “unprofitable” 和 “never carried”。原文用 “not a financial success” 對應unprofitable；用 “never carried 4,000 passengers” 直接回答空格。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The great ship never carried 4,000 passengers … and although it made several transatlantic crossings, it was not a financial success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘巨船從未載運 4,000 名乘客；雖然它完成了數次跨大西洋航行，但財務上並不成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “was not a financial success” 改寫成 “was unprofitable”，並保留 “never carried”。空格應填 “4,000 passengers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查4,000 passengers = 2 words / units，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "label",
+              "text": "句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship was unprofitable and never carried 4,000 passengers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：4,000 passengers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "telegraphic cable",
+      "answerKey": "telegraphic cable",
+      "type": "Question Analysis",
+      "prompt": "“Soon afterwards, an unexpected opportunity arose: the Great Eastern was used to carry and lay a vast quantity of 26 _________________ on the Atlantic Ocean floor.”",
+      "translation": "不久後，一個意外機會出現：Great Eastern 被用來攜帶並鋪設大量 ______ 在大西洋海床上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格前是 “a vast quantity of”，答案應是不可數或集合性名詞短語。題目中的 “carry and lay” 對應原文 “carry 5,000 tons of telegraphic cable” 和 “laid on the ocean floor”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conventional wisdom in Brunel’s day was that steamships could not carry enough coal to make long ocean voyages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Brunel 的時代，一般看法認為 steamships 無法攜帶足夠煤炭完成長途遠洋航行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ship continued this career for several years, used for laying cables in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘船之後多年繼續這項工作，用於世界多地鋪設電纜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示這段從 fuel / ocean voyages 轉到 cable-laying。題目中的 “unexpected opportunity” 對應 Great Eastern 財務失敗後被 Cyrus Field 用於海底電纜項目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “unexpected opportunity”、“carry”、“lay”、“Atlantic Ocean floor”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“looking for a ship big enough to carry 5,000 tons of telegraphic cable, which was to be laid on the ocean floor from Ireland to Newfoundland.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shortly after the Great Eastern began working life, the American entrepreneur Cyrus Field and his backers were looking for a ship big enough to carry 5,000 tons of telegraphic cable, which was to be laid on the ocean floor from Ireland to Newfoundland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Great Eastern 開始服役不久後，美國企業家 Cyrus Field 和他的支持者正在尋找一艘足夠大的船，以運載 5,000 噸 telegraphic cable；這些電纜要鋪設在 Ireland 到 Newfoundland 之間的海床上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “5,000 tons of” 改寫成 “a vast quantity of”，把 “from Ireland to Newfoundland” 概括成 “on the Atlantic Ocean floor”。空格答案是原文名詞短語 “telegraphic cable”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查telegraphic cable = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：telegraphic cable"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Brunel_ ‘The Practical Prophet’.pdf",
+    "sha256": "94893b4c29ed03387046e8375ac3a9aaaa96b6bf0a8dd9121f8c517efdd44c4b",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首句和末句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 Nicholson’s British Encyclopaedia 的引文帶出 engineers 需要 ingenuity 和 bravery；末句說 Isambard Brunel 在 Bristol 附近養傷時，開始接觸自己的第一個大型項目。只看首尾句，可以估計本段是人物背景段：交代 Brunel 的工程家族、教育、早年與父親共事，以及他從 River Thames Tunnel 轉向個人代表作的起點。題目若問父親、早期經歷、River Thames Tunnel，應先看這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接說 Brunel 的橋跨距超過 700 ft，設計時比任何現有橋都長；末句說 Clifton Suspension Bridge 在 1864 年由他的工程師朋友為紀念他而完成，至今仍在使用。首尾句顯示這段集中講Clifton Suspension Bridge 的技術難度、設計競賽和完工情況。若題目問「死後完成」、「in honour」、「bridge」、「competition」，目標很可能是這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Brunel 在 Bristol 時注意到當地 civic authorities 需要一條通往 London 的 railway link；末句說政府在 1846 年要求所有新鐵路使用 standard gauge。只看首尾句，可以估計本段講 Great Western Railway 的建設背景、路線爭議、土地業主阻力、Brunel 的說服技巧，以及 broad gauge與 standard gauge 的技術標準之爭。題目若問 landowners、approval、gauge，應定位到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Brunel 對新構想的快速接受，在 atmospheric railway 上壓過了良好的工程判斷；末句說他承認失敗、承擔責任，並沒有收取工作費，樹立專業榜樣。首尾句可以看出這段講一次失敗的創新嘗試：atmospheric railway 的吸引力、操作方式、材料限制、維修困難、成本高昂，最後被放棄。題目若問 abandoned、troublesome、expensive repair，答案很可能在這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Brunel 對以 steam 驅動船隻橫渡大洋的想法感興趣；末句說 Great Western 是第一艘投入跨大西洋服務的 steamship，並完成 74 次前往 New York 的航行。只看首尾句，這段應處理Great Western 這艘船：從 Great Western Railway 的玩笑構想延伸到 transatlantic steamship，並以速度和航次證明成功。題目若問 Great Western 或 transatlantic service，要看這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Great Western 成功後，Brunel 立即著手設計更大的船；末句說 Great Britain 從Falklands 被救回，現在於 Bristol 修復中。首尾句顯示這段講 Great Britain 的設計突破和後續命運。中間會提及 iron construction、propeller-driven design、first screw-driven iron ship to cross the Atlantic，以及它如何為 ocean travel 設定標準。題目若問 first of its kind to cross the Atlantic或 standard for ocean travel，多半看這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說當時一般看法認為 steamships 無法攜帶足夠煤炭作長途遠洋航行；末句說 Great Eastern後來繼續用於世界多地鋪設電纜。首尾句形成強烈轉折：Brunel 以巨型船隻解決燃料問題，原本想載客遠航，後來財務失敗，卻意外成為鋪設 transatlantic telegraphic cable 的理想船隻。題目若問 Great Eastern、budget、delay、explosion、unplanned purpose、cable，核心位置是這段。"
+      }
+    ]
+  }
+}

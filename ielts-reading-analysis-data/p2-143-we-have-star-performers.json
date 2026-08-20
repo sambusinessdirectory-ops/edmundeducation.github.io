@@ -1,0 +1,1598 @@
+{
+  "id": "p2-143-we-have-star-performers",
+  "catalogueId": "p2-143",
+  "catalogueIds": [
+    "p2-143"
+  ],
+  "passage": 2,
+  "title": "We have Star performers!",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "F",
+    "B",
+    "G",
+    "C",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "YES",
+    "star-stock analysts",
+    "star performer",
+    "working environment",
+    "salary",
+    "rivals"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“An example outside business in which a better system outperforms bigger stars.”",
+      "translation": "一個商業以外的例子，說明較好的系統勝過更大牌的明星。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Football is another illustration of the star-versus-system strategic choice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "足球是另一個說明星星與系統之間策略選擇的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In football, too, stars are trumped by systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在足球中，明星也被系統勝過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經非常明確。第一句把 football 標示為 business 以外的例子；最後一句直接總結 systems 勝過 stars。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “outside business”、“system”、“stars”。掃描時要找非商業領域例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的 “Football” 立刻符合 “outside business”；“star-versus-system” 和 “stars are trumped by systems” 也直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文提到 Arsenal 和 Manchester United 比 Chelsea 和 Real Madrid 更成功，原因是前者更重視建立一個讓 stars-in-the-making 成長的 setting。Chelsea 和 Real Madrid 有錢收集大牌球星，但整體效果較差。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a better system outperforms bigger stars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“stars are trumped by systems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“trumped by” 即被勝過；“football” 提供商業以外例子。因此答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也談系統勝過個人，但它仍然是 investment banking / fund managers 的商業例子。題目要求 outside business，所以要找 Paragraph F 的 football。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“A failed company that believed in stars rather than systems.”",
+      "translation": "一間失敗公司相信明星人才多於系統。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet while the diagnosis – people are important – is evident to the point of platitude, the apparently logical prescription – hire the best – like so much in management is not only not obvious: it is in fact profoundly wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然「人很重要」這個診斷已經近乎老生常談，但「聘請最好的人」這個看似合理的處方，在管理上其實大錯特錯。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a study of the careers of 1,000 star-stock analysts in the 1990s, the researchers found that when a company recruited a star performer, three things happened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員研究了 1990 年代 1,000 名明星股票分析員的職業生涯，發現當公司聘請一名明星員工時，會發生三件事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph B 會反駁 hire the best，並引入研究證據。中間自然會用例子說明為何 “stars first” 的管理思維有問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “failed company”、“believed in stars”、“systems”。掃描 Paragraph B 可以找到Enron。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Enron believed in stars, noted author Malcolm Gladwell, because they didn’t believe in systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malcolm Gladwell 指出，Enron 相信明星，是因為他們不相信系統。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是一間 failed company。Paragraph B 前文提到 “the crash to earth of the dotcom meteors”，接着用 Enron 作為最清晰例子。Enron 的問題在於領導層太相信自己的聰明，忽略collective intelligence 和 system。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“believed in stars rather than systems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“believed in stars … didn’t believe in systems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者幾乎直接對應。所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也再次提到 Enron，但題目問的是「哪一段包含這項資訊」。Paragraph B 第一次完整說出 Enron 相信 stars、忽略 systems，所以 B 最精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“The author’s suggestion for acquiring employees in order to compete today.”",
+      "translation": "作者對今天企業如何取得員工、參與人才競爭的建議。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So if not by hiring stars, how do you compete in the war for talent?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，如果不靠聘請明星，企業應如何在人才戰中競爭？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because they had a much more sophisticated view of the interdependent relationship between star and system, they kept them longer without resorting to the exorbitant salaries that were so destructive to rivals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為它們對明星與系統之間互相依賴的關係有更成熟的理解，所以能更長久留住人才，而且不用訴諸那些會破壞競爭對手的高昂薪酬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 明顯是全文建議段。它先問如何競爭，最後說明成功公司如何留住自己培養出的明星。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “suggestion”、“acquiring employees”、“compete today”。Paragraph G 的第一句直接問 “how do you compete in the war for talent?”，下一句給出答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You grow your own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你要自己培養人才。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是作者最直接的建議。它的意思是：企業不應主要靠從外面高薪挖走明星員工，而應建立能培養、支持和留住人才的系統。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“acquiring employees in order to compete today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“how do you compete in the war for talent?” + “You grow your own.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“grow your own” 對應自己培養人才。答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 講過去十年的 recruitment strategy，即 poach and pamper stars。那是作者批評的舊策略，並非作者最後建議。真正建議在 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A medical-anatomy metaphor illustrating the problems of hiring stars.”",
+      "translation": "一個醫學或人體比喻，用來說明聘請明星員工的問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, stardom doesn’t easily transfer from one organisation to another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，明星地位並不容易從一個組織轉移到另一個組織。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shareholders evidently believe that the company is overpaying, the hiree is cashing in on a glorious past rather than preparing for a glowing present, and a spending spree is in the offing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "股東顯然相信公司付得過高，新聘者只是利用過去的輝煌套現，並且公司很可能快要展開大手花錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 在列出聘請明星員工的問題。它先談表現轉移困難，最後談投資者反應。中間便很可能有團隊內部問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最強定位詞是 “medical-anatomy metaphor”。掃描 Paragraph C，可以找到 “organ transplant”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One respondent likened hiring a star to an organ transplant. The new organ can damage others by hogging the blood supply; other organs can start aching or threaten to stop working or the body can reject the transplant altogether…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名受訪者把聘請明星比作器官移植。新器官可能霸佔血液供應，傷害其他器官；其他器官可能開始疼痛，或威脅停止運作；整個身體也可能完全排斥移植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個比喻清楚屬於 medical-anatomy metaphor。它用身體和器官說明團隊內部會出現怨氣、排斥和協作問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“problems of hiring stars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“likened hiring a star to an organ transplant”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只找 “problem” 這個字。這題真正的定位訊號是比喻類型：organ、blood supply、body、transplant，全都指向 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“McKinsey, which produced The War for Talent, did not expect the reports to have such a great influence.”",
+      "translation": "製作 The War for Talent 的 McKinsey 沒有預料到這些報告會有這麼大影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The difference between companies is people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司之間的差異在於人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the intensity of the warfare subsequently subsided along with the air in the internet bubble, it has been warming up again as the labour market tightens…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這場戰爭的強度後來隨着互聯網泡沫消退而下降，但隨着勞工市場收緊，它又再次升溫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 是介紹 talent mindset 的背景：企業相信人才能帶來差異，人才戰因勞工市場而再次升溫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “McKinsey”、“The War for Talent”、“did not expect”、“great influence”。Paragraph A 確實有 McKinsey 和 The War for Talent。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘talent mindset’ was given definitive form in two reports by the consultancy McKinsey famously entitled The War for Talent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「人才思維」在 McKinsey 這間顧問公司兩份著名報告 The War for Talent 中得到明確定型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 McKinsey 報告很有名，也對 talent mindset 有影響。可是題目問 McKinsey 的預期：它是否沒有預料到報告會影響很大。原文沒有提到 McKinsey 當初的 expectation、surprise、intention 或 prediction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有 “famous reports” 和 “definitive form”，但沒有 McKinsey 是否預期影響力這項資料。沒有明確相反證據，也沒有足夠資料支持題目，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “famously entitled” 容易以為 McKinsey 的報告影響很大，這一點可以成立；但題目控制詞是 “did not expect”。文章沒有講 McKinsey 心態。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Economic conditions help determine whether a country chooses to hire foreign workers.”",
+      "translation": "經濟狀況會幫助決定一個國家是否選擇聘用外地勞工。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The difference between companies is people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司之間的差異在於人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the intensity of the warfare subsequently subsided along with the air in the internet bubble, it has been warming up again as the labour market tightens: labour shortages, for example, are the reason the government has laid out the welcome mat for immigrants from the new Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這場戰爭的強度後來隨着互聯網泡沫消退而下降，但隨着勞工市場收緊，它又再次升溫；例如，勞工短缺就是政府歡迎來自新歐洲移民的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “economic conditions”、“country”、“foreign workers”。原文沒有逐字寫 economic conditions，但有 “labour market tightens” 和 “labour shortages”。這些都是經濟和勞動市場條件。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“labour shortages … are the reason the government has laid out the welcome mat for immigrants from the new Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "勞工短缺是政府歡迎來自新歐洲移民的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說經濟狀況會影響一個國家是否聘用外地勞工。原文說 labour shortages 令政府歡迎immigrants。這是從 labour market condition 到 immigration / foreign labour policy 的因果關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Economic conditions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “labour market tightens” / “labour shortages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a country chooses to hire foreign workers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “the government has laid out the welcome mat for immigrants”判斷：題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“hire foreign workers” 比原文 “welcome immigrants” 更概括。原文沒有寫個別公司招聘外勞，而是政府因勞工短缺歡迎移民。因為題目用 “a country chooses”，這個概括仍然合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Enron’s collapse was caused entirely by an unfortunate incident rather than by management mistakes.”",
+      "translation": "Enron 的倒下完全由一件不幸事件造成，管理錯誤沒有責任。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet while the diagnosis – people are important – is evident to the point of platitude, the apparently logical prescription – hire the best – like so much in management is not only not obvious: it is in fact profoundly wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然「人很重要」這個診斷近乎老生常談，但「聘請最好的人」這個看似合理的處方，其實大錯特錯。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a study of the careers of 1,000 star-stock analysts in the 1990s, the researchers found that when a company recruited a star performer, three things happened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員研究了 1990 年代 1,000 名明星股票分析員的職業生涯，發現公司聘請明星員工後會出現三件事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能是反駁 star hiring。Enron 會作為例子展示這種管理思維的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Enron’s collapse”、“unfortunate incident”、“management mistakes”。Paragraph B直接出現 Enron，並說其領導者過分相信自己的聰明。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The point was illuminated in brilliant relief by Enron, whose leaders … were so convinced of their own cleverness that they never twigged that collective intelligence is not the sum of a lot of individual intelligence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Enron 把這一點非常清楚地照亮出來；它的領導者太相信自己的聰明，以致沒有意識到集體智慧不等於一堆個人智慧的總和。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Enron believed in stars … because they didn’t believe in systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Enron 相信明星，原因在於他們不相信系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Enron 倒下完全由 unfortunate incident 造成，管理錯誤沒有責任。原文方向相反：作者用Enron 說明 management thinking 出錯，尤其是過分迷信明星、不重視系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相反立場，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “entirely” 這個很強的詞。原文不但沒有說完全是意外，還把 Enron 放進錯誤管理哲學的例子中，因此不能選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Football clubs that develop stars within a strong system perform better than clubs that simply collect stars.”",
+      "translation": "在強大系統中培養明星的足球會，比單純收集明星的球會表現更好。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Football is another illustration of the star-versus-system strategic choice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "足球是另一個說明星星與系統之間策略選擇的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In football, too, stars are trumped by systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在足球中，明星也被系統勝過。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Football clubs”、“develop stars”、“strong system”、“collect stars”。Paragraph F 直接比較 Arsenal / Manchester United 和 Chelsea / Real Madrid。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While Chelsea and Real have the funds to be compulsive star collectors … they are less successful than Arsenal and United which … have put much more emphasis on developing a setting within which stars-in-the-making can flourish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chelsea 和 Real 有資金成為不斷收集明星的球會，但它們沒有 Arsenal 和 United 成功；後兩者更重視建立一個讓準明星球員成長的環境。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thierry Henry, Patrick Vieira and Robert Pires are much bigger stars than when Arsenal bought them, their value … enhanced by the Arsenal system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thierry Henry、Patrick Vieira 和 Robert Pires 比 Arsenal 買入他們時已成為更大的明星，他們的價值由 Arsenal 系統提升。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“develop stars within a strong system”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “developing a setting within which stars-in-the-making can flourish”"
+            },
+            {
+              "kind": "quote",
+              "text": "“simply collect stars”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “compulsive star collectors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perform better”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “less successful than Arsenal and United” / “stars are trumped by systems”判斷：題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Chelsea 和 Real 都有資金和大牌球星，表面上似乎應該成功；但 Paragraph F 的結論剛好指出，缺少 settled system 會令整體低於昂貴球員加總。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "star-stock analysts",
+      "answerKey": "star-stock analysts",
+      "type": "Summary Completion",
+      "prompt": "Question 22",
+      "translation": "一項調查研究了 1,000 名 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“An investigation examined 1,000 22 ________________.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “1,000”，後面需要一個複數名詞短語，表示研究對象。原文 Paragraph B 末句有明確數字 1,000。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a study of the careers of 1,000 star-stock analysts in the 1990s…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項研究 1990 年代 1,000 名明星股票分析員職業生涯的研究中……答案直接來自原文：“star-stock analysts”。它符合 NO MORE THAN TWO WORDS，因為hyphenated “star-stock” 通常視為一個複合詞，整個答案是兩個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “analysts”。Summary 要保留研究對象的關鍵身份：他們是 star-stock analysts，不是一般分析員。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "star performer",
+      "answerKey": "star performer",
+      "type": "Summary Completion",
+      "prompt": "Question 23",
+      "translation": "Harvard Business Review 報導的一項研究發現，公司決定聘請一名 ______ 會帶來負面影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study reported in Harvard Business Review found that a company’s decision to hire a 23_________________ has negative effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “hire a”，需要單數可數名詞短語。題目中的 “decision to hire” 對應原文 “recruited”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the researchers found that when a company recruited a star performer, three things happened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員發現，當一間公司招聘一名明星員工時，會發生三件事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 “star performer”。它剛好兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“hire”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “recruited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decision to hire a star performer”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “when a company recruited a star performer”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “star” 一個字。原文完整答案是 “star performer”，summary 也需要一個表示人的名詞短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "working environment",
+      "answerKey": "working environment",
+      "type": "Summary Completion",
+      "prompt": "Question 24",
+      "translation": "例如，新聘者在新團隊中的表現，會比在他們習慣的 ______ 中差很多。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, recruits perform considerably worse in a new team than in the 24_________________ to which they were accustomed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一句說明星表現不容易從一間公司轉移到另一間公司，這正好對應 summary 中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“perform worse in a new team”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “perform considerably worse”、“new team”、“accustomed”。原文有 “performance dropped sharply” 和 “working environment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“More of their success than is commonly supposed is due to the working environment—systems, processes, leadership and accumulated embedded learning—which is absent from and cannot be transported to the new firm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們成功中有比一般人想像更多的部分，來自工作環境——系統、流程、領導和累積下來的內嵌學習；這些在新公司中不存在，也無法帶走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “in the”，後面 “to which they were accustomed” 表示他們熟悉的環境。答案是 “working environment”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“in a new team”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “new firm”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perform considerably worse”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “performance dropped sharply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the … to which they were accustomed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “working environment” of the previous organisation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “systems, processes”。這些是 working environment 的具體成分；summary 要的是上位概念。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "salary",
+      "answerKey": "salary",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "即使以華爾街標準來看，他們也很快離開，同時提高自己的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“They move on quickly, even by Wall Street standards, while increasing their 25________________.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “move on quickly”、“Wall Street”、“increasing”。Paragraph C 有 “36 per cent moved on within three years” 和 “upping their salary”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So they moved, upping their salary as they did – 36 per cent moved on within three years, fast even for Wall Street.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以他們離開時，也提高了自己的薪金；36% 在三年內離開，即使以華爾街標準來看也算很快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 “salary”。一個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“move on quickly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “moved on within three years, fast even for Wall Street”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “upping”答案是 salary。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “36 per cent”。那是離職比例，不是他們提高的東西。空格前 “increasing their” 需要一個可被提高的名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "rivals",
+      "answerKey": "rivals",
+      "type": "Summary Completion",
+      "prompt": "Question 26",
+      "translation": "第二，他們會面對團隊內部 ______ 的怨氣和排斥。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子:"
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, they face resentment and rejection from 26 _________________ within the team.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “resentment”、“rejection”、“within the team”。Paragraph C 第二個後果正是 group performance suffered。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, group performance suffered as a result of tensions and resentment by rivals within the team.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，由於團隊內競爭者之間的緊張和怨氣，團隊表現受損。"
+            },
+            {
+              "kind": "label",
+              "text": "再看器官移植比喻："
+            },
+            {
+              "kind": "quote",
+              "text": "“…other organs can start aching or threaten to stop working or the body can reject the transplant altogether…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他器官可能開始疼痛，或威脅停止運作；整個身體也可能完全排斥移植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “resentment by rivals within the team” 和 “body can reject the transplant” 合併成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“resentment and rejection from ___ within the team”。答案是 “rivals”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“from rivals within the team”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “by rivals within the team”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rejection”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= organ transplant metaphor 中 “body can reject the transplant”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “team”。空格後已經有 “within the team”，所以答案應是團隊內哪一類人。原文說的是rivals。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - We have Star performers!.pdf",
+    "sha256": "79ce531cf2126d7ab0878e650e19241b41ebe9d7aa8dfb462d940fa22a9f22ba",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說公司之間的差異在於人，末句提到隨着勞工市場收緊，人才戰又開始升溫，甚至影響政府對新歐洲移民的態度。只看首尾句，可以先估計這段是在介紹一種流行管理觀念：企業相信人才是關鍵資源，所以要爭奪最優秀的人。段落功能偏向背景鋪墊，說明 “talent mindset” 為何在商業世界有吸引力。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用強烈轉折質疑 “hire the best” 這個看似合理的處方，末句引入 Harvard Business Review對 1,000 名明星股票分析員的研究。只看首尾句，可以看到作者準備推翻「聘請明星員工就會成功」的觀念。這段會從 dotcom、Enron 和研究資料出發，指出個人聰明不等於組織成功，真正焦點開始轉向 systems。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 stardom 很難從一個組織轉移到另一個組織，末句說投資者會用賣出公司股票來懲罰聘請明星員工的公司。只看首尾句，可以估計這段會列出聘請明星的後果。中間內容大概會解釋三個問題：明星到新公司後表現下跌、團隊內部產生怨氣、外部投資者也不看好這種做法。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說大量聘請明星和個別聘請明星的結果似乎都確認了前文的疑慮，末句用研究數據指出，基金表現差異只有 30% 來自個人，70% 來自公司特定環境。只看首尾句，可以先估計這段在用更大規模例子支持同一結論：組織環境對人的表現影響極大，明星員工本身無法脫離系統單獨發光。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說熟悉 systems thinking 的人對前文結論不會驚訝，末句引用網上回應，批評 Enron 之後企業界留下了一批高薪、傲慢、表現不足的人才。只看首尾句，可以看到這段把問題提升到管理理論層面：個人表現多數受系統支配，組織學習比單純提高個人智力更重要。段落語氣明顯批判star system。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說足球也能展示 star-versus-system 的策略選擇，末句總結在足球中 systems 也勝過 stars。只看首尾句，可以估計這段會轉到商業以外的例子。中間很可能比較有錢買大牌球員的球會，和重視培養環境的球會。段落功能是用足球證明同一觀點：擁有更多巨星，不一定比擁有更成熟系統更有效。"
+      },
+      {
+        "number": "G",
+        "summary": "首句直接提出問題：如果不靠聘請明星，企業應如何在人才戰中競爭？末句說某些公司能更長久留住人才，而且不用支付破壞性高薪，因為它們更理解 star 和 system 的相互關係。只看首尾句，可以看到這段是全文收結和建議：作者的方案是自己培養人才，建立能讓人才成長並留下的系統。"
+      }
+    ]
+  }
+}

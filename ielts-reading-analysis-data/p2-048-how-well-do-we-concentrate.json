@@ -1,0 +1,1902 @@
+{
+  "id": "p2-048-how-well-do-we-concentrate",
+  "catalogueId": "p2-048",
+  "catalogueIds": [
+    "p2-048"
+  ],
+  "passage": 2,
+  "title": "How Well Do We Concentrate?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "E",
+    "F",
+    "C",
+    "D",
+    "B",
+    "D",
+    "A",
+    "E",
+    "E",
+    "email voice",
+    "prefrontal cortex",
+    "group meetings"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“A domestic situation that does not require multitasking”",
+      "translation": "一個不需要 multitasking 的家庭情境。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找某一段包含「家庭情境」和「不用同時做多件事」這兩個元素。定位詞是 domestic situation、does not require multitasking。原文未必直接說 domestic，所以要留意 housewife、telephone、laundry、sweeping、door 等家庭生活字眼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Computers and their spin-offs, such as smartphones and mobile phones, have changed the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電腦及其衍生產品，例如智能手機和流動電話，已經改變了世界。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern technology, by contrast, allows us to continue our daily tasks while communicating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，現代科技讓我們在溝通的同時繼續日常任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會處理科技如何令 multitasking 更普遍。第一句提出新科技，最後一句說科技讓人一邊溝通一邊做 daily tasks。題目問 domestic situation that does not require multitasking，應該在本段找一個和 modern technology 形成對照的舊式家庭例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 domestic。掃描 Paragraph B 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past, when a wall-mounted telephone rang, a housewife had to stop what she was doing to answer it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去，當掛牆電話響起時，一位家庭主婦必須停下正在做的事去接電話。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 housewife，是家庭情境；had to stop what she was doing，表示不能繼續同時做家務。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“She would sit down and chat without doing the laundry, sweeping or answering the door.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她會坐下聊天，不會同時洗衣、掃地或應門。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句完整支持題目。domestic situation 對應 housewife、laundry、sweeping、answering the door；does not require multitasking 對應 without doing those other tasks。原文用過去的wall-mounted telephone 例子說明，從前接電話會迫使人停下手上的家庭工作。這和現代cordless phone、mobile phone 形成對比。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "domestic situation= housewife answering a wall-mounted telephone does not require multitasking= had to stop what she was doing / sit down and chat without doing laundry or sweeping答案判斷： Paragraph B 同時包含家庭場景和不需 multitasking 的情況，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也大量談 workplace 和 professional meetings。若只看到工作場景，可能會忽略段落後半的 housewife 例子。這題的真正定位詞是 domestic，不是 technology。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“A possible explanation for why people multitask”",
+      "translation": "一個解釋人們為何 multitask 的可能原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 explanation，不只是找 multitasking 這個字。題目中的 possible 很重要，表示原文可能用 may、suggested、argue 這些帶有推測語氣的詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People sacrifice efficiency when they multitask.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們 multitask 時會犧牲效率。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Media formats—including advertisements, music, news articles and television programmes—are also becoming shorter, so people are accustomed to attending to information only briefly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "媒體形式，包括廣告、音樂、新聞文章和電視節目，也變得越來越短，所以人們習慣只短暫注意資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 會講 multitasking 對效率和注意力的影響。段尾更明確指向原因：現代媒體變短，令注意力變短。這正好和題目中的 possible explanation 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 why people multitask。掃描 Paragraph E，可以找到兩組可能原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“She suggested that the average person may have a short attention span.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她提出，普通人可能注意力持續時間較短。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This may be natural, but others argue that new technology is responsible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是自然情況，但也有人認為新科技需要負上責任。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文繼續說："
+            },
+            {
+              "kind": "quote",
+              "text": "“With mobile phones and computers always at hand, people never run out of distractions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於流動電話和電腦總是在手邊，人們永遠不缺分心來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句合起來提供 possible explanations：第一，人的 attention span 可能本來較短；第二，新科技總在身邊，提供源源不絕的 distractions；第三，媒體形式變短，令人習慣只短時間處理資訊。題目只要求找哪一段含有一個 possible explanation，因此 Paragraph E 是最佳答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "why people multitask= why people keep switching / interrupt themselves / fail to concentrate possible explanation= may have a short attention span / may be natural / new technology is responsible答案判斷： Paragraph E 明確出現 suggested、may、argue，並提出 short attention span 和 technology distractions 這些原因，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也說 technology increases the prevalence of multitasking。那是背景描述，說科技令 multitasking 更常見。Question 15 問 possible explanation，Paragraph E 的 may have a short attention span 和 new technology is responsible 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“A practical method for managing multitasking at work”",
+      "translation": "一個在工作中管理 multitasking 的實用方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 practical method，不只是找 multitasking 問題。定位詞是 practical、managing、at work。文章後段通常會由問題轉向 solutions，所以應優先看最後一段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although focusing on a single task is the most efficient way for the brain to work, this approach is not always practical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然專注於單一任務是大腦最有效的工作方式，但這種做法不一定總是實際。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Timing oneself is a useful way to reduce distraction and complete tasks efficiently one by one, instead of slowing down through multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為自己計時是一種有用方法，可以減少分心，並逐一有效完成任務，避免因 multitasking 拖慢速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 很明顯是 solutions 段。第一句承認 single-tasking 未必完全 practical，最後一句提出 timing oneself 這種方法。題目問 practical method，目標段落自然是 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 practical method 和 work。Paragraph F 有多個工作方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“group meetings would be more efficient if mobile phones, a frequent distraction, were prohibited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果禁止 mobile phones 這種常見分心來源，小組會議會更有效率。"
+            },
+            {
+              "kind": "label",
+              "text": "另有："
+            },
+            {
+              "kind": "quote",
+              "text": "“they could dedicate the first hour of the day to one job.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可以把一天的第一小時專門用於一項工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 提供三個實用方法：會議禁用 mobile phones、第一小時只做一件事、用計時方法控制自己。題目沒有問具體是哪一個，只問哪一段含有 practical method，所以 F 完全符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "practical method= prohibit mobile phones / dedicate the first hour to one job / timing oneself managing multitasking at work= reduce distraction / complete tasks one by one / workplace efficiency答案判斷： Paragraph F 是全文唯一集中提出 workplace solutions 的段落，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也講 office workers，但主要是描述問題：interruption、self-distraction 和 short attention span。Paragraph F 才真正提出處理方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A connection between prefrontal-cortex size and multitasking”",
+      "translation": "prefrontal cortex 的大小和 multitasking 之間的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞非常強：prefrontal-cortex size。這是專門科學名詞，通常可以直接帶到一段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earl Miller, an expert at the Massachusetts Institute of Technology, studied the prefrontal cortex, which controls the brain while a person multitasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Massachusetts Institute of Technology 的專家 Earl Miller 研究 prefrontal cortex；人在 multitask時，這個腦區控制大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miller found that neurons became active in only one area at a time, never simultaneously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miller 發現 neurons 每次只在一個區域活躍，從不會同時活躍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 是 brain experiment 段。它先講 prefrontal cortex，再用神經活動證明大腦不真正同步處理任務。題目問 cortex size，也一定落在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 prefrontal-cortex size。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size of this cortex varies between species: it constitutes about one-third of the human brain, compared with only 4–5 per cent in dogs and around 15 per cent in monkeys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 cortex 的大小在不同物種之間有所不同：在人腦中約佔三分之一，相比之下，狗只有 4–5%，猴子約 15%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its greater size in humans may enable more flexible and accurate multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在人類身上較大的體積，可能使人類能夠更靈活、更準確地 multitask。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句就是題目要求的 connection。prefrontal-cortex size 對應 its greater size in humans； multitasking 對應 more flexible and accurate multitasking；connection 由 may enable 建立，語氣是可能，不是絕對結論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "connection between size and multitasking= greater size may enable more flexible and accurate multitasking答案判斷： Paragraph C 明確描述 cortex size 在不同物種間的比例，並指出它在人類較大可能有助multitasking，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 後半的 Miller experiment 說 neurons 不能真正同時處理兩項任務。這和前面的size connection 沒衝突：size may enable better task handling，但實驗仍顯示同步處理沒有發生。題目只問 size connection，不問最終實驗結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Evidence that doing two tasks together takes longer than doing them separately”",
+      "translation": "證據顯示，同時做兩件事比逐件做花更長時間。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 evidence，而且是比較時間：two tasks together vs one task at a time。定位詞是 takes longer、two tasks、separately。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“David Meyer, a professor at the University of Michigan, studied young adults in a similar experiment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Michigan 的教授 David Meyer 在一項類似實驗中研究 young adults。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the participants attempted both tasks simultaneously and eventually completed both, the work took longer overall than it would have if they had focused on one task at a time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然參與者嘗試同時做兩項任務，最後也完成了兩者，但整體所需時間比他們一次專注做一件事更長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接顯示這是實驗證據段。最後一句幾乎完整重現題目意思，所以 Paragraph D 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 doing two tasks together takes longer。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“attempted both tasks simultaneously”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和"
+            },
+            {
+              "kind": "quote",
+              "text": "“took longer overall”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語同時出現，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He instructed them to solve mathematics problems while classifying simple words into categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他要求他們一邊解數學題，一邊把簡單單字分類。"
+            },
+            {
+              "kind": "label",
+              "text": "這句說明 two tasks 是甚麼。接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meyer found that when people think they are doing several jobs at once, they are actually switching between them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Meyer 發現，當人們以為自己同時做幾項工作時，他們其實是在不同工作之間切換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句給出時間結果：doing both took longer overall than focusing on one task at a time。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "doing two tasks together= attempted both tasks simultaneously doing them separately= focused on one task at a time takes longer= took longer overall答案判斷： Paragraph D 完整包含實驗設計、task switching 解釋和時間比較，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有實驗，但它證明的是 neurons 一次只在一個區域活躍。Question 18 的核心是takes longer，這個時間比較只在 Paragraph D 出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B — Earl Miller",
+      "answerKey": "B — Earl Miller",
+      "type": "Matching Scientists",
+      "prompt": "“When faced with several visual stimuli, a person can concentrate on only one at a time.”",
+      "translation": "面對幾個 visual stimuli 時，一個人一次只能集中處理其中一個。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 scientist 與 visual stimuli 和 one at a time 的關係。visual stimuli 是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earl Miller, an expert at the Massachusetts Institute of Technology, studied the prefrontal cortex, which controls the brain while a person multitasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MIT 專家 Earl Miller 研究 prefrontal cortex；人在 multitask 時，這個腦區控制大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miller found that neurons became active in only one area at a time, never simultaneously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miller 發現 neurons 一次只在一個區域活躍，從未同時活躍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的人物和結論都很清楚：Earl Miller 研究大腦在 multitasking 中是否真正同時處理資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： visual stimuli one at a time原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He presented participants with visual stimuli in a way that mimicked multitasking…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他向參與者呈現 visual stimuli，以模擬 multitasking。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miller found that neurons became active in only one area at a time, never simultaneously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miller 發現 neurons 每次只在一個區域活躍，從不會同時活躍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 neurons active in only one area at a time 改寫成 a person can concentrate on only one at a time。雖然原文說的是 neurons，題目用 person 的 concentration 作概括，意思仍貼近：大腦沒有同時處理多個 visual stimuli。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "visual stimuli = visual stimuli only one at a time = only one area at a time can concentrate = neurons became active答案判斷：這是 Earl Miller 的實驗結論，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D — Gloria Mark",
+      "answerKey": "D — Gloria Mark",
+      "type": "Matching Scientists",
+      "prompt": "“Doing two things together may be faster but less effective.”",
+      "translation": "同時做兩件事可能較快，但效果較差。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 faster 和 less effective 的對比。題目中的 effective 對應原文的 efficient，屬於常見同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People sacrifice efficiency when they multitask.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人 multitask 時會犧牲效率。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Media formats—including advertisements, music, news articles and television programmes—are also becoming shorter, so people are accustomed to attending to information only briefly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "媒體形式，包括廣告、音樂、新聞文章和電視節目，也變得更短，所以人們習慣只短暫注意資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的第一句已經指出 multitasking 的效率問題，並且本段主要圍繞 Gloria Mark 的office worker study 展開。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： faster less effective原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doing different jobs at once may save time, but being faster does not necessarily make people more efficient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時做不同工作可能節省時間，但速度較快並不一定令人更有效率。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句前面有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gloria Mark used office workers as her research subjects and found that they were constantly multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gloria Mark 使用辦公室員工作為研究對象，發現他們經常 multitask。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這段的觀點歸入 Gloria Mark 的研究框架。題目中的 doing two things together 對應 doing different jobs at once；faster 對應 may save time / being faster；less effective 對應 does not necessarily make people more efficient。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "doing two things together= doing different jobs at once may be faster= may save time / being faster less effective= does not necessarily make people more efficient答案判斷：這句出現在 Gloria Mark 的研究段落，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "David Meyer 也研究 two tasks，但他的重點是 took longer overall。Question 20 的 faster but less efficient 對比，最直接出現在 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "A — Thomas Lehman",
+      "answerKey": "A — Thomas Lehman",
+      "type": "Matching Scientists",
+      "prompt": "“People never truly perform two tasks simultaneously, even when they think they do.”",
+      "translation": "即使人們以為自己同時做兩件事，他們其實從來沒有真正同步完成兩項任務。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞是 never truly、simultaneously、think they do。這些詞和 Paragraph A 中 Thomas Lehman 的觀點高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Do you read while listening to music?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你會一邊聽音樂一邊閱讀嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lehman calls this phenomenon ‘email voice’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lehman 把這種現象稱為 “email voice”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 從日常 multitasking 問題開場，最後落在 Lehman 對分心現象的命名。中間就是他的核心理論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： never truly simultaneously think they do原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thomas Lehman, a psychology researcher, argues that people never truly do several things simultaneously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學研究者 Thomas Lehman 主張，人們從未真正同時做幾件事。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When people think they are completing two tasks efficiently, they are really dividing their attention.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們以為自己正有效率地完成兩項任務時，他們其實是在分割注意力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將兩句合併：never truly perform two tasks simultaneously 來自第一句；even when they think they do 來自第二句。兩者都屬於 Thomas Lehman 的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "perform two tasks simultaneously= do several things simultaneously when they think they do= when people think they are completing two tasks efficiently really dividing attention= not truly doing both at once答案判斷：答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "E — Edward Hallowell",
+      "answerKey": "E — Edward Hallowell",
+      "type": "Matching Scientists",
+      "prompt": "“The causes of multitasking lie in the environment.”",
+      "translation": "multitasking 的成因來自環境。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪位 scientist 把 multitasking 放在 external environment / work environment 中理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 environment 是定位詞，原文可能以 environments、external interruptions、workplace這些形式出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although focusing on a single task is the most efficient way for the brain to work, this approach is not always practical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然專注於單一任務是大腦最有效的工作方式，但這種方法並不總是實際。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Timing oneself is a useful way to reduce distraction and complete tasks efficiently one by one, instead of slowing down through multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為自己計時是一種有用方法，可以減少分心，並逐一有效完成任務，避免因 multitasking 拖慢速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 處理 workplace multitasking 的環境和改善方法。Hallowell 在本段提出 external interruptions 和 self-distraction 對 workplace efficiency 的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 environment / causes。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“People naturally feel more comfortable and efficient in environments that offer a variety of tasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們在提供多種任務的環境中，自然會感到較舒服和較有效率。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Edward Hallowell says that multitasking, external interruptions and self-distraction cause substantial losses of workplace efficiency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Edward Hallowell 說，multitasking、外部打斷和自我分心會造成工作場所效率的大量損失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把環境因素概括成 causes of multitasking lie in the environment。Paragraph F 的語境是：人覺得多任務環境更舒服；工作場所又充滿 external interruptions；因此 multitasking 不只來自個人選擇，也和 surrounding work environment 有關。Hallowell 的觀點正放在這個 workplace environment 的討論中。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "environment= environments that offer a variety of tasks / external interruptions / workplace causes of multitasking= task variety, interruptions, self-distraction in the work setting答案判斷：這題最適合配 Edward Hallowell，因此答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也提到 new technology is responsible，和環境因素有關。不過 Question 22 要在scientist list 中配人物，Hallowell 所在段落直接談 environments、external interruptions 和workplace efficiency，配合度更高。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "E — Edward Hallowell",
+      "answerKey": "E — Edward Hallowell",
+      "type": "Matching Scientists",
+      "prompt": "“Even small workplace changes can improve efficiency.”",
+      "translation": "即使只是小型工作場所改變，也可以提升效率。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 workplace changes 和 improve efficiency。small 對應原文的 improvements need not involve dramatic changes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although focusing on a single task is the most efficient way for the brain to work, this approach is not always practical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然專注做單一任務是大腦最有效的方式，但這種做法並非總是實際。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Timing oneself is a useful way to reduce distraction and complete tasks efficiently one by one, instead of slowing down through multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為自己計時是一種有用方法，可以減少分心，並逐一有效完成任務，避免因 multitasking 拖慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段的主題是 workplace efficiency 和可實行的小調整。Edward Hallowell 的名字出現在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： small workplace changes improve efficiency原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortunately, improvements need not involve dramatic changes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幸好，改善並不需要涉及劇烈改變。"
+            },
+            {
+              "kind": "label",
+              "text": "另外："
+            },
+            {
+              "kind": "quote",
+              "text": "“common activities such as group meetings would be more efficient if mobile phones, a frequent distraction, were prohibited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果禁止 mobile phones 這種常見分心來源，小組會議這類常見活動會更有效率。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段先引用 Hallowell 指出 workplace efficiency losses，再提出不必大改革也能改善：不用禁止email，也不用只准員工做單一任務。較小的管理方式，例如 group meetings 禁用手機、第一小時只做一件事、為自己計時，都可以減少分心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "small changes= improvements need not involve dramatic changes workplace changes= group meetings mobile-phone ban / dedicate first hour to one job / timing oneself improve efficiency= would be more efficient / complete tasks efficiently答案判斷：這個觀點屬於 Hallowell 所在段落的 workplace solution，因此答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "email voice",
+      "answerKey": "email voice",
+      "type": "Sentence Completion",
+      "prompt": "“The term for a situation in which someone reading a text cannot focus on their surroundings is 24 _________.”",
+      "translation": "一個人讀文字訊息時無法專注於周圍環境，這種情況的術語是 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN TWO WORDS。空格要填一個 term，即術語或名稱。題目中的 reading a text 和 surroundings 指向 Paragraph A 的手機文字例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Do you read while listening to music?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你會一邊聽音樂一邊閱讀嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lehman calls this phenomenon ‘email voice’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lehman 把這種現象稱為 “email voice”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已經很清楚：它介紹 multitasking，並最後命名某個分心現象。題目問term，所以最後一句非常關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： reading a text surroundings term原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Listening to music also makes people less aware of their surroundings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聽音樂也會讓人較少察覺周圍環境。"
+            },
+            {
+              "kind": "quote",
+              "text": "“We have all spoken to friends who do not respond properly, perhaps because they are listening to someone else or reading a text on a smartphone and do not hear us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們都曾和朋友說話時遇過對方沒有好好回應，可能因為他們正在聽別人說話，或正在智能手機上讀文字訊息，所以沒有聽到我們。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lehman calls this phenomenon ‘email voice’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lehman 把這種現象稱為 “email voice”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 situation 指的就是上文那種人因閱讀 smartphone text 或聽其他聲音，未能注意周圍並回應他人的情況。空格要求 term，所以應填引號內名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： email voice 是兩個詞，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：email voice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "prefrontal cortex",
+      "answerKey": "prefrontal cortex",
+      "type": "Sentence Completion",
+      "prompt": "“The 25 _________ part of the brain controls multitasking.”",
+      "translation": "大腦中 _________ 這個部分控制 multitasking。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格要填腦部區域名稱，限制是 NO MORE THAN TWO WORDS。題目中的 controls multitasking 對應原文 controls the brain while a person multitasks。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earl Miller, an expert at the Massachusetts Institute of Technology, studied the prefrontal cortex, which controls the brain while a person multitasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "MIT 專家 Earl Miller 研究 prefrontal cortex；人在 multitask 時，這個腦區控制大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miller found that neurons became active in only one area at a time, never simultaneously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miller 發現 neurons 每次只在一個區域活躍，從未同時活躍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，答案已經很明顯。Paragraph C 是唯一討論 brain part 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： part of the brain controls multitasking原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the prefrontal cortex, which controls the brain while a person multitasks”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earl Miller, an expert at the Massachusetts Institute of Technology, studied the prefrontal cortex, which controls the brain while a person multitasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Earl Miller 研究 prefrontal cortex；當一個人 multitask 時，這個區域控制大腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “which controls the brain while a person multitasks” 改寫成 “part of the brain controls multitasking”。原文的名稱是 prefrontal cortex。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "part of the brain= cortex / brain region controls multitasking= controls the brain while a person multitasks答案形式： prefrontal cortex 是兩個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：prefrontal cortex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "group meetings",
+      "answerKey": "group meetings",
+      "type": "Sentence Completion",
+      "prompt": "“One practical way to reduce multitasking at work is to prohibit mobile phones during 26_________.”",
+      "translation": "在工作中減少 multitasking 的一個實用方法，是在 _________ 期間禁止 mobile phones。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN TWO WORDS。空格前有 during，所以答案應是某種活動或時間場合。題目中的 prohibit mobile phones 是強定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although focusing on a single task is the most efficient way for the brain to work, this approach is not always practical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然專注於單一任務是大腦最有效的工作方式，但這種方法未必總是實際。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Timing oneself is a useful way to reduce distraction and complete tasks efficiently one by one, instead of slowing down through multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為自己計時是一種有用方式，可以減少分心，並逐一有效完成任務，避免因 multitasking 拖慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 是方法段，正好對應 practical way to reduce multitasking at work。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： prohibit mobile phones at work during原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, common activities such as group meetings would be more efficient if mobile phones, a frequent distraction, were prohibited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，如果禁止 mobile phones 這種常見分心來源，小組會議這類常見活動會更有效率。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句型是："
+            },
+            {
+              "kind": "quote",
+              "text": "“prohibit mobile phones during ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句型是："
+            },
+            {
+              "kind": "quote",
+              "text": "“group meetings would be more efficient if mobile phones … were prohibited”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，mobile phones 應在 group meetings 這個場合被禁止。題目把原文的條件句改成during phrase。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "practical way= common activities … would be more efficient if …prohibit mobile phones= mobile phones … were prohibited during group meetings= group meetings would be more efficient答案形式： group meetings 是兩個詞，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：group meetings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - How Well Do We Concentrate_.pdf",
+    "sha256": "2ef1f290a77ebcfd4d51b64307f7f793a0eaf5f19e345f921dd00b90a7733b0c",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 用讀書聽歌、看電視做功課這類日常例子開場，介紹 multitaskers。段落後半引用Thomas Lehman 的觀點：人其實不能真正同時處理多項任務，大腦一次只能集中在一件事上。只看首尾句，可以先估計這段在定義 multitasking，並指出它的表面效果和真實心理過程有落差。最後的 “email voice” 也很重要，代表人因手機文字或其他輸入而忽略周圍聲音。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句說 computers、smartphones、mobile phones 改變了世界。段尾用 modern technology 作對比，說現代科技讓人一邊溝通，一邊繼續 daily tasks。只看首尾句，可見這段主題是科技如何增加 multitasking 的日常普遍性。中間由 workplace、professional meetings，轉到以前家中 wall-mounted telephone 的情況：從前電話響時，housewife 要停下家務坐下聊天；這正好提供一個不需要 multitasking 的 domestic situation。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句介紹 MIT 專家 Earl Miller 研究 prefrontal cortex，這個腦區在人 multitasks 時控制大腦。段尾說 Miller 發現 neurons 一次只在一個區域活躍，從未同時處理兩件任務。只看首尾句，可以看出這段是神經科學實驗段：先講 prefrontal cortex 的大小和不同物種比較，再用visual stimuli 和 sensors 檢查大腦是否真正同步處理兩項資訊。題目若問 cortex size 或 visual stimuli，應看此段。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 以 David Meyer 的 similar experiment 開始，受試者要一邊解數學題，一邊把simple words 分類。段尾指出雖然 participants 嘗試同時做兩項任務，並且最終完成兩者，整體所需時間比一次專注做一件事更長。只看首尾句，這段的功能十分清楚：用實驗證明 multitasking 其實是 task switching，而且會拖慢總時間。題目若問 two tasks together takes longer，答案就在這裡。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句直接下結論：人 multitask 時會犧牲效率。段尾說 media formats 變得更短，所以人習慣只短暫注意資訊。只看首尾句，這段重點是 office workers 的 multitasking 和注意力問題。Gloria Mark 發現 workers 經常被打斷，也會自己打斷自己；他們若集中超過 20 分鐘會distress。段尾提供一個 possible explanation：可能是短注意力，也可能是新科技和短媒體形式令人習慣分心。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句承認 single-tasking 對大腦最有效，但現實中未必 practical。段尾說 timing oneself 可幫助人逐一完成任務，減少 multitasking 導致的拖慢。只看首尾句，這段由效率原則轉到 practical workplace solutions。Edward Hallowell 提到 multitasking、external interruptions 和self-distraction 造成 workplace efficiency losses；後文提出小改變，例如會議禁止 mobile phones、上班第一小時只做一項工作、用計時方法減少分心。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1978 @@
+{
+  "id": "p2-141-language-strategy-in-multinational-company",
+  "catalogueId": "p2-141",
+  "catalogueIds": [
+    "p2-141"
+  ],
+  "passage": 2,
+  "title": "Language Strategy in Multinational Company",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B — clients",
+    "F — documents",
+    "A — gestures",
+    "C — transactions",
+    "L — costly",
+    "D — assumption",
+    "personnel development",
+    "luxuries",
+    "professional language management",
+    "a strategic solution",
+    "six language stages",
+    "90 hours",
+    "three years",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B — clients",
+      "answerKey": "B — clients",
+      "type": "Summary Completion",
+      "prompt": "“First, relying on a native language may be practical, but problems arise when companies deal with overseas 14 __________.”",
+      "translation": "首先，依賴母語可能實用，但當公司面對海外 __________ 時，問題便會出現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 overseas，後面需要一個複數名詞，表示公司在海外市場接觸的對象。選項中 clients 最自然，意思也最貼近原文的 foreign customers 和 buyers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lingua Franca: The simplest answer—though realistic only for English-speaking companies—is to rely on one’s native tongue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lingua Franca：最簡單的答案是依賴自己的母語，雖然這只對英語公司較現實。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contracts, rules and legislation are invariably written in the local language, leaving any company unable to operate in that language vulnerable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "合約、規則和法律通常以當地語言書寫，令任何不能使用該語言運作的公司處於脆弱位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 明顯在評估只用一種語言的策略。題目說 “relying on a native language”，正好對應本段首句 “rely on one’s native tongue”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “native language”、“overseas” 和 “deal with”。原文對應是 “foreign customers” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“buyers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“As recently as 1991, a survey of British exporting companies found that more than one-third used English exclusively in dealings with foreign customers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1991 年，一項針對英國出口公司的調查發現，超過三分之一公司在與外國客戶打交道時只使用英語。"
+            },
+            {
+              "kind": "label",
+              "text": "原文再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“buyers—particularly in Asia, South America and the Middle East—assert their right to ‘work in the language of the customer’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "買家，尤其是在亞洲、南美和中東的買家，主張自己有權「以客戶的語言工作」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "overseas clients = foreign customers / buyers deal with = dealings with relying on a native language = used English exclusively / rely on one’s native tongue答案形式檢查： clients 是複數名詞，可接在 overseas 後面，形成 overseas clients。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "rivals 也可以是海外市場中的一類對象，但原文重點是 foreign customers 和 buyers，即公司服務和談判的對象。managers 則沒有原文支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F — documents",
+      "answerKey": "F — documents",
+      "type": "Summary Completion",
+      "prompt": "“For example, translating key 15 __________ inevitably creates differences because national rules vary.”",
+      "translation": "例如，翻譯重要 __________ 時，由於各地規則不同，難免會出現差異。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題同樣是 Summary Completion。空格前是 key，後面需要一個複數名詞。題目中的 “national rules” 提示我們找 contracts、rules、legislation 這類法律或正式文件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lingua Franca: The simplest answer—though realistic only for English-speaking companies—is to rely on one’s native tongue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lingua Franca：最簡單的答案是依賴自己的母語，雖然這只對英語公司較現實。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contracts, rules and legislation are invariably written in the local language, leaving any company unable to operate in that language vulnerable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "合約、規則和法律通常以當地語言書寫，令任何不能使用該語言運作的公司處於脆弱位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經把方向縮窄到 single-language strategy 的風險。最後一句直接出現 contracts、rules、legislation，這些都屬於 formal documents。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “key”、“national rules” 和 “translating”。原文沒有逐字出現 translating key documents，但有 “Contracts, rules and legislation are invariably written in the local language”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contracts, rules and legislation are invariably written in the local language…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "合約、規則和法律通常以當地語言書寫……這裡的 contracts、rules、legislation 都是正式商務或法律文件。Summary 把這三個例子概括成key documents，即重要文件。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "key documents = contracts, rules and legislation national rules vary = local rules / legislation are written in the local language language risk = unable to operate in that language答案形式檢查： documents 是複數名詞，可以自然接在 key 後面。答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "transactions 會在下一段出現，但它指商業交易，不適合接 “translating key”。這題要看空格前後文法，key documents 是最自然組合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — gestures",
+      "answerKey": "A — gestures",
+      "type": "Summary Completion",
+      "prompt": "“Another method relies on spoken language and 16 __________;”",
+      "translation": "另一種方法依靠口語和 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格和 spoken language 並列，因此要找一種非正式溝通方式。題目中的 another method 指 Paragraph C 的 functional multilingualism。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional Multilingualism: Another improvised approach is what has been called ‘functional multilingualism’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Functional Multilingualism：另一種臨時應付式方法被稱為「功能性多語制」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional multilingualism shares the defects of relying on a lingua franca and increases the probability of cognitive divergence between the parties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能性多語制承襲依賴通用語的缺點，並增加雙方認知分歧的可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段會介紹一種混合、臨時、風險較高的溝通方式。題目說 “Another method” 正好指本段開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “spoken language” 和 “relies on”。原文對應句有 “relying on a mixture of languages, pidgins and gestures”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Essentially, this means muddling through by relying on a mixture of languages, pidgins and gestures—whatever means the parties have at their disposal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "本質上，這指的是雙方用手上所有方法硬撐過去，包括混合語言、pidgin 語和手勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “spoken language” 概括了 mixture of languages 和 pidgins。空格需要補上另一種溝通方式，原文直接給出 gestures。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spoken language = mixture of languages / pidgins and gestures = and gestures relies on = relying on答案形式檢查： gestures 是複數名詞，可與 spoken language 並列。答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "body language 和 gestures 意思接近，但原文直接使用 gestures，而且選項 A 是原文精確詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IELTS 有原文字可選時，通常優先選原文詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — transactions",
+      "answerKey": "C — transactions",
+      "type": "Summary Completion",
+      "prompt": "“one report found that more than one-tenth of business 17 __________ are conducted using a mixture of languages.”",
+      "translation": "一份報告發現，超過十分之一的商業 __________ 是用混合語言進行的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題空格前有 business，後面有 are conducted，因此需要一個複數名詞，表示可以被conducted 的商業活動。題目中的 “more than one-tenth” 是數字改寫，要找原文中的百分比。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional Multilingualism: Another improvised approach is what has been called ‘functional multilingualism’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Functional Multilingualism：另一種臨時應付式方法被稱為「功能性多語制」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Functional multilingualism shares the defects of relying on a lingua franca and increases the probability of cognitive divergence between the parties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "功能性多語制承襲依賴通用語的缺點，並增加雙方認知分歧的可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段集中講 mixed-language communication，所以題目中 “mixture of languages” 指向Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more than one-tenth”、“business” 和 “mixture of languages”。原文對應是 “16 per cent of international business transactions” 和 “cocktail of languages”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, Hagen’s recent study suggests that 16 per cent of international business transactions are conducted using a ‘cocktail of languages’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，Hagen 最近的研究指出，16% 的國際商業交易使用「語言雞尾酒」進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "16 per cent 即超過十分之一。business transactions 是完整搭配，正好填入空格。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more than one-tenth = 16 per cent business transactions = business transactions mixture of languages = cocktail of languages答案形式檢查： transactions 是複數名詞，能接 are conducted。答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "clients 也能和 business 連用，但 “business clients are conducted” 文法不成立。這題空格後的are conducted 是重要文法提示。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "L — costly",
+      "answerKey": "L — costly",
+      "type": "Summary Completion",
+      "prompt": "“A third method is to hire translators. This can be 18 __________;”",
+      "translation": "第三種方法是聘請翻譯員。這可能很 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 be，因此需要形容詞。題目講 hire translators，目標段落是 Paragraph D 的 external translators and interpreters。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“External Language Resources: A more rational and obvious response to the language barrier is to employ external translators and interpreters; many excellent companies specialise in these fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "External Language Resources：面對語言障礙，較理性且明顯的回應是聘用外部翻譯員和傳譯員；許多優秀公司專門從事這些領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In situations requiring negotiation, persuasion or humour, an interpreter is therefore a poor substitute for direct communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在需要談判、說服或幽默的情境中，傳譯員始終難以取代直接溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會先提出外聘翻譯作為方法，再指出它的不足。題目問 “This can be…”，應看段落中列出的限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “hire translators” 和 “This can be”。原文對應是 “employ external translators and interpreters” 以及 “these services can be very expensive”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, these services can be very expensive, with a leading simultaneous interpreter commanding daily rates as high as those of a partner in an international consulting firm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，這些服務可能非常昂貴；一位頂尖同聲傳譯員的每日收費可高達國際顧問公司合夥人的水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “This can be” 對應原文 “these services can be”。very expensive 對應 costly。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hire translators = employ external translators and interpreters costly = very expensive this = these services答案形式檢查： costly 是形容詞，可放在 be 後面。答案是 L。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "effective 也在本段出現，因為原文說 translator 要 fully effective 必須理解語境。但題目此處先講費用問題，所以 costly 最貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — assumption",
+      "answerKey": "D — assumption",
+      "type": "Summary Completion",
+      "prompt": "“furthermore, if interpreters are not well prepared, they must rely on 19 __________.”",
+      "translation": "此外，如果傳譯員準備不足，他們就必須依靠 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前是 rely on，需要名詞。題目中的 “not well prepared” 對應原文 “Unless the interpreter and the clients have been extensively briefed”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“External Language Resources: A more rational and obvious response to the language barrier is to employ external translators and interpreters; many excellent companies specialise in these fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "External Language Resources：面對語言障礙，較理性且明顯的回應是聘用外部翻譯員和傳譯員；許多優秀公司專門從事這些領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In situations requiring negotiation, persuasion or humour, an interpreter is therefore a poor substitute for direct communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在需要談判、說服或幽默的情境中，傳譯員始終難以取代直接溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段不只談費用，也談背景不足會造成誤解。題目中的 “not well prepared” 正是這個部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “not well prepared” 和 “rely on”。原文對應 “Unless … extensively briefed” 以及 “must use initiative and guesswork”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unless the interpreter and the clients have been extensively briefed, ambiguity and cultural overtones may remain in the source messages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果傳譯員和客戶沒有得到充分簡介，原始訊息中可能仍會有模糊之處和文化含義。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The interpreter will, of course, endeavour to provide a high-fidelity translation, but in such circumstances must use initiative and guesswork, introducing a potential source of misunderstanding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳譯員當然會努力提供高保真翻譯，但在這種情況下，必須靠主動判斷和猜測，這會引入潛在誤解來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中沒有 guesswork，所以最接近的是 assumption。它表示在資訊不足時作出的假設或推斷。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not well prepared = not extensively briefed rely on assumption = use initiative and guesswork misunderstanding risk = potential source of misunderstanding答案形式檢查： assumption 是名詞，能接在 rely on 後面。答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "accurate 看似對應 high-fidelity translation，但該句重點在資訊不足時需要 guesswork。題目問rely on 的內容，所以答案要選 assumption。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "personnel development",
+      "answerKey": "personnel development",
+      "type": "Short-answer Questions",
+      "prompt": "“What does the author describe as an understandable first response to a skills shortage?”",
+      "translation": "作者把甚麼描述為面對技能短缺時一個可以理解的第一反應？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 What，答案應是名詞短語。定位詞是 “understandable first response” 和 “skills shortage”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Training: An understandable first response to a skills shortage is personnel development, and the language-training industry is well established, offering programmes at almost every level and in numerous languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Training：面對技能短缺，一個可以理解的第一反應是人員發展；語言培訓行業已相當成熟，提供幾乎各級和多種語言的課程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unless a company is fully committed to sustaining the strategy through difficult times, it will fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除非公司完全承諾在困難時期仍持續這項策略，否則它會失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接包含題目大部分字眼。答案在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “understandable first response” 幾乎原字重現。掃描 Paragraph E 第一行即可找到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“personnel development”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“An understandable first response to a skills shortage is personnel development…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對技能短缺，一個可以理解的第一反應是人員發展。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "author describe as = is understandable first response = understandable first response skills shortage = skills shortage personnel development = personnel development答案形式檢查： personnel development 兩個字，符合 NO MORE THAN THREE WORDS。答案是 personnel development。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "training 是段落標題，也是大方向，但題目問原文中 “an understandable first response” 的精確答案。原句給出的名詞短語是 personnel development。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "luxuries",
+      "answerKey": "luxuries",
+      "type": "Short-answer Questions",
+      "prompt": "“What term does the writer use to describe training during an economic downturn?”",
+      "translation": "作者用甚麼詞形容經濟低迷時期的培訓？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。問題問 “What term”，所以答案應是原文用來形容 training 的詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “economic downturn”，原文可能寫成 “when belts tighten”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Training: An understandable first response to a skills shortage is personnel development, and the language-training industry is well established, offering programmes at almost every level and in numerous languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Training：面對技能短缺，一個可以理解的第一反應是人員發展；語言培訓行業已相當成熟，提供幾乎各級和多種語言的課程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unless a company is fully committed to sustaining the strategy through difficult times, it will fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除非公司完全承諾在困難時期仍持續這項策略，否則它會失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段評估 training 的價值和脆弱性。題目問 economic downturn，應看段落中關於經濟周期的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “economic downturn” 對應原文 “when belts tighten”。這是常見同義改寫：belts tighten表示公司收緊開支。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Training in most companies follows the economic cycle: when times are good, money is invested; when belts tighten, training is one of the first ‘luxuries’ to be cut.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數公司的培訓跟隨經濟周期：景氣時會投資；當開支收緊時，培訓是最早被削減的「奢侈品」之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 term，即作者用了哪個詞。原文把 training 稱為 “luxuries”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "economic downturn = when belts tighten term used to describe training = ‘luxuries’ during downturn = to be cut when belts tighten答案形式檢查： luxuries 一個字，符合字數限制。答案是 luxuries。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “economic cycle”。它只是背景框架；題目問描述 training 的 term，真正詞語是 luxuries。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "professional language management",
+      "answerKey": "professional language management",
+      "type": "Short-answer Questions",
+      "prompt": "“What model does the Volkswagen Group provide?”",
+      "translation": "Volkswagen Group 提供了甚麼模式？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目直接給出 Volkswagen Group，是強定位詞。答案要從Paragraph F 找。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One notable and committed leader in language training is the Volkswagen Group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言培訓方面，一個值得注意且投入度高的領導者是 Volkswagen Group。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Except for ‘brush-up’ courses for people who were previously fluent, training is not a quick fix, so other methods must also be considered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了為曾經流利的人提供複習課程外，培訓並非快速解法，因此也必須考慮其他方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句明確指出 Volkswagen 是 language training 的 committed leader。題目問它提供甚麼 model，答案應在首句後面不遠處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Volkswagen Group” 和 “model”。原文直接出現 “provides a model of professional language management”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has developed a language strategy over many years and, in many respects, provides a model of professional language management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它多年來發展出一套語言策略，並在很多方面提供了專業語言管理的模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What model”，所以要填 model 後面的核心內容：professional language management。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Volkswagen Group = It provide a model = provides a model professional language management = professional language management答案形式檢查： professional language management 三個字，剛好符合字數限制。答案是 professional language management。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "language strategy 也出現在同一句，但題目問 model of what。原文的完整搭配是 “a model of professional language management”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "a strategic solution",
+      "answerKey": "a strategic solution",
+      "type": "Short-answer Questions",
+      "prompt": "“How does Volkswagen Group regard language training in its company?”",
+      "translation": "Volkswagen Group 如何看待公司內的語言培訓？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 How，答案通常是方式或身份定位。定位詞是 Volkswagen Group、regard、language training。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One notable and committed leader in language training is the Volkswagen Group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言培訓方面，一個值得注意且投入度高的領導者是 Volkswagen Group。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Except for ‘brush-up’ courses for people who were previously fluent, training is not a quick fix, so other methods must also be considered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了為曾經流利的人提供複習課程外，培訓並非快速解法，因此也必須考慮其他方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Volkswagen 的做法是長期、認真、非 quick fix。題目問 how it regards training，應看它對 training 的定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “language training” 和 “Volkswagen approach”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Volkswagen approach emphasises that language training must be considered a strategic rather than a tactical solution.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Volkswagen approach emphasises that language training must be considered a strategic rather than a tactical solution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Volkswagen 的做法強調，語言培訓必須被視為策略性解決方案，而非短期戰術安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 strategic solution。tactical solution 是被排除的對照。題目問 Volkswagen 如何看待 language training，所以答案是 a strategic solution。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "regard = must be considered language training = language training a strategic solution = a strategic solution答案形式檢查： a strategic solution 三個字，符合 NO MORE THAN THREE WORDS。答案是 a strategic solution。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "training 不是 quick fix 也在同段出現，但那是作者對 training 的後續提醒。Question 23 問Volkswagen approach 的定位，最精確答案是 strategic solution。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "six language stages",
+      "answerKey": "six language stages",
+      "type": "Short-answer Questions",
+      "prompt": "“How many stages are needed to progress from a basic to an advanced level?”",
+      "translation": "從基礎程度進步到較高溝通能力，需要多少個階段？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 How many，答案一定涉及數字。定位詞是 stages、basic、advanced level。原文對應 basics 和 communication competence。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One notable and committed leader in language training is the Volkswagen Group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言培訓方面，一個值得注意且投入度高的領導者是 Volkswagen Group。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Except for ‘brush-up’ courses for people who were previously fluent, training is not a quick fix, so other methods must also be considered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了為曾經流利的人提供複習課程外，培訓並非快速解法，因此也必須考慮其他方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段介紹 Volkswagen 的 training system。題目問 stages，應看描述 system requirements 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “stages”、“basic” 和 “advanced”。原文出現 “six language stages”、“basics” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“communication competence”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“Its system requires completion of six language stages to progress from ‘basics’ to‘communication competence’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的系統要求完成六個語言階段，才能從「基礎」進展到「溝通能力」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “basic to an advanced level” 改寫了原文 “from ‘basics’ to ‘communication competence’”。題目問 how many stages，所以答案是 six language stages，也可簡寫為 six。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "basic level = basics advanced level = communication competence are needed = requires completion of six language stages = six language stages答案形式檢查： six language stages 三個字，符合限制。答案是 six language stages。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “six to nine months”。那是每一個 stage 的自學與課程支援時間，並非階段數量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "90 hours",
+      "answerKey": "90 hours",
+      "type": "Short-answer Questions",
+      "prompt": "“Approximately how many hours does each stage require?”",
+      "translation": "每個階段大約需要多少小時？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 how many hours，答案要包含數字和單位。定位詞是 each stage 和 require。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One notable and committed leader in language training is the Volkswagen Group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言培訓方面，一個值得注意且投入度高的領導者是 Volkswagen Group。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Except for ‘brush-up’ courses for people who were previously fluent, training is not a quick fix, so other methods must also be considered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了為曾經流利的人提供複習課程外，培訓並非快速解法，因此也必須考慮其他方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段列出 Volkswagen training system 的具體安排，題目問 hours，應掃描數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “each stage” 和 “hours”。原文直接出現 “Each stage demands approximately 90 hours”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each stage demands approximately 90 hours of refresher instruction, supported by many more hours of self-study over six to nine months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每個階段需要約 90 小時的複習式教學，並由六至九個月期間更多小時的自學支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 each stage require how many hours，原文的核心答案是 90 hours。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "requires = demands approximately = approximately each stage = each stage 90 hours = 90 hours答案形式檢查： 90 hours 包含數字和單位，兩個元素，符合限制。答案是 90 hours。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "six to nine months 是時間跨度，不是題目問的 hours。many more hours of self-study 也不是每階段正式 instruction 的數字答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "three years",
+      "answerKey": "three years",
+      "type": "Short-answer Questions",
+      "prompt": "“What is the minimum time a professional needs to become proficient in a foreign language?”",
+      "translation": "一名專業人員要能熟練使用外語，最少需要多久？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 minimum time，需要找原文中的 minimum 和專業職位例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One notable and committed leader in language training is the Volkswagen Group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言培訓方面，一個值得注意且投入度高的領導者是 Volkswagen Group。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Except for ‘brush-up’ courses for people who were previously fluent, training is not a quick fix, so other methods must also be considered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了為曾經流利的人提供複習課程外，培訓並非快速解法，因此也必須考慮其他方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都暗示語言培訓是長期安排。題目問 minimum time，應看段落後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “minimum time”、“professional” 和 “foreign language”。原文對應 “minimum of three years”、“accountant, engineer, buyer or salesperson” 和 “working effectively in a foreign language”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even this professionally managed programme expects a minimum of three years of fairly intensive study to produce an accountant, engineer, buyer or salesperson capable of working effectively in a foreign language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使是這個專業管理的課程，也預期最少需要三年相當密集的學習，才能培養出能有效使用外語工作的會計師、工程師、採購員或銷售人員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a professional” 概括了 accountant、engineer、buyer、salesperson。 “become proficient” 對應 “capable of working effectively”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "minimum time = minimum of professional = accountant / engineer / buyer / salesperson become proficient = capable of working effectively foreign language = foreign language答案形式檢查： three years 兩個字，符合限制。答案是 three years。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "six to nine months 是每一個 stage 的時間安排；整個專業能力形成至少需要 three years。題目問 minimum time for a professional，所以要看後半句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "C — To evaluate various ways in which multinational companies can overcome language",
+      "answerKey": "C — To evaluate various ways in which multinational companies can overcome language",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main purpose of the passage?”",
+      "translation": "這篇文章的主要目的，是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "barriers."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是主旨題。不能只看某一段或某一個例子，要把 Paragraph A 的引言和 Paragraph B–F 的策略評估連起來。正確選項要能概括整篇文章。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of language management in multinational companies has never been greater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跨國公司語言管理的重要性從未如此重大。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies must then decide how best to manage language, choosing from a range of options when formulating their strategy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司接著必須在制定策略時，從一系列選項中決定如何最好地管理語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph A，已經可見全文方向：先提出 multinational companies 的 language barrier，再引出不同 language-management options。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看各段策略"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B：Lingua Franca，批評只依賴單一語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C：Functional Multilingualism，批評混合語言硬撐的風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D：External Language Resources，評估 translators and interpreters 的費用與限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E：Training，指出培訓有價值，但公司常難以持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F：Volkswagen Group，提供長期 language training 案例，也提醒 training 不是 quick fix。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整篇文章並沒有只介紹一種方法。它逐一評估不同方法的優點、缺點、成本、風險和可行性。最貼近的是選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“To evaluate various ways in which multinational companies can overcome language barriers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估跨國公司可以用來克服語言障礙的多種方法。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “To identify every type of language problem a company may encounter.”錯在 every type。文章開頭提到 language diversity、penetration、sophistication，但後文重點不是列出所有語言問題，而是評估處理策略。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “To present several well-known cases involving language difficulties.”文章只有 Volkswagen Group 是較具體案例。其他段落主要是策略類型，不是多個著名個案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它同時覆蓋 language barriers、multinational companies、various ways 和 evaluation。這正是Paragraph A 到 Paragraph F 的整體結構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “To demonstrate that training is the only feasible way to solve language problems.”錯在 only feasible way。Paragraph F 最後明確說 training is not a quick fix, so other methods must also be considered。全文沒有把 training 說成唯一可行方案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "language barriers = language remains the ultimate barrier / language barrier various ways = range of options / Lingua Franca / Functional Multilingualism / External Resources / Training evaluate = 指出每種方法的限制和條件overcome = manage language / formulate strategy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很吸引，因為最後兩段集中講 training 和 Volkswagen。但主旨題不能只看結尾案例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的結尾反而提醒讀者，training 需要很多年，也要考慮其他方法。所以 C 的範圍最完整。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Language Strategy in Multinational Company.pdf",
+    "sha256": "75d7082712774c5af78d1dfabcd28d54488233197dfef724d5203e78ce333e74",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 multinational companies 的 language management 從未如此重要，因為全球協調已成為競爭優勢。末句說公司要在制定策略時，從多種選項中決定如何管理語言。只看首尾句，可以先估計這段是全文引言：先說語言障礙的重要性，再提出公司應評估 barrier 的大小，最後引出後文幾種 language-management strategies。題目若問文章主旨或整體目的，本段很有參考價值。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提出 Lingua Franca：最簡單的答案是依賴自己的母語，但這只對英語公司較現實。末句說合約、規則和法律通常以當地語言書寫，不能操作當地語言的公司會變得脆弱。首尾句顯示本段集中評估 single-language strategy，尤其是只用 English 的風險。題目若問 native language、foreign customers、contracts、rules、legislation、local language，應定位這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句介紹 Functional Multilingualism，稱它是另一種臨時應付式方法。末句說這種方法承襲lingua franca 的缺點，並提高雙方 cognitive divergence 的可能性。只看首尾句，可以估計本段會批評混合語言溝通：用多種語言、pidgins、gestures 等方式硬撐。題目若問 mixture of languages、gestures、cocktail of languages、business transactions，答案多半在本段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句提出 External Language Resources：較理性、明顯的回應是聘用外部 translators 和interpreters。末句說在談判、說服或幽默等情境中，interpreter 只是 direct communication 的poor substitute。首尾句顯示本段評估外聘翻譯和傳譯服務的限制：費用、背景理解、準備時間、保密顧慮、誤解風險和修辭力量流失。題目若問 costly、well prepared、guesswork、third party，應看這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說面對 skills shortage，最容易理解的第一反應是 personnel development。末句警告：如果公司無法在困難時期持續支持 training strategy，它會失敗。首尾句顯示本段開始評估 language training：它有價值，但公司常在經濟好時投資，困難時削減。題目若問 first response、economic downturn、training as luxury、good intentions vs actual delivery，應定位這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Volkswagen Group 是 language training 方面一個 notable and committed leader。末句說除 brush-up courses 外，training 不是 quick fix，所以其他方法也要考慮。首尾句顯示本段用Volkswagen 作為專業語言管理案例：語言訓練要視為長期策略，要經過六個階段、每階段大量課時，最少三年才能令專業員工有效使用外語。題目若問 Volkswagen、stages、hours、three years，答案集中在這段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

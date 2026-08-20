@@ -1,0 +1,1494 @@
+{
+  "id": "p2-173-bovids",
+  "catalogueId": "p2-173",
+  "catalogueIds": [
+    "p2-173"
+  ],
+  "passage": 2,
+  "title": "Bovids",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "D",
+    "C",
+    "C",
+    "B",
+    "D",
+    "A",
+    "B",
+    "royal antelope",
+    "auroch",
+    "long, splayed hooves",
+    "arid deserts",
+    "pronghorn"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A — Africa",
+      "answerKey": "A — Africa",
+      "type": "Question Analysis",
+      "prompt": "Question 14",
+      "translation": "哪一個地區有最多種類的 bovids？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：In which region is the greatest variety of bovids found?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目控制詞是 “greatest variety”，所以不能只找 bovids 出現"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在哪些地區，還要找「種類最多」的地區。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bovids are well represented in most parts of Eurasia and the islands of Southeast Asia, but they are by far the most numerous and diverse in Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Bovids 在 Eurasia 大部分地區和 Southeast Asia 的島嶼都有相當代表性，但牠們在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Africa 明顯數量最多、種類最多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This diversity of habitat is also matched by great diversity in size and form...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種棲息地多樣性，也對應到體型和形態上的巨大差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 B 段處理 bovids 的分布和多樣性，正好對應 region 和 greatest variety。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “greatest variety”。原文沒有直接寫 variety，但有 “most numerous and diverse”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中 diverse 就是種類多樣，和 variety 高度同義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...they are by far the most numerous and diverse in Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：牠們在 Africa 明顯數量最多、種類最多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "greatest variety = most diverse region = Africa錯項分析：B Eurasia 和 D Southeast Asia 都在原文出現，但原文只說 well represented，沒有說種類最多。C North America 只在 bison 的例子中出現，沒有支援 greatest variety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "D — in wide-open spaces",
+      "answerKey": "D — in wide-open spaces",
+      "type": "Question Analysis",
+      "prompt": "Question 15",
+      "translation": "大部分 bovids 較喜歡住在哪裡？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Most bovids prefer to live ______."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。控制詞是 “Most bovids”，所以要找 majority / most / generally"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類範圍詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bovids are well represented in most parts of Eurasia and the islands of Southeast Asia, but they are by far the most numerous and diverse in Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Bovids 在 Eurasia 大部分地區和 Southeast Asia 的島嶼都有相當代表性，但在 Africa"
+            },
+            {
+              "kind": "paragraph",
+              "text": "數量和種類最豐富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This diversity of habitat is also matched by great diversity in size and form...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種棲息地多樣性，也對應到體型和形態上的巨大差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段首尾句顯示本段會談分布、棲息地和多樣性，所以題目問 habitat 時應回到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Most bovids” 和 “prefer to live”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the majority of species favour open grassland, scrub or desert.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：大多數物種偏好開闊草地、灌木地或沙漠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "majority of species = most bovids。favour = prefer。open grassland, scrub or desert 可以"
+            },
+            {
+              "kind": "paragraph",
+              "text": "概括成 wide-open spaces，因為它們都屬於較開闊、非密林的環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A in isolation：原文只說 some species are solitary，some 不能推出 most。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B in small groups：原文說 others live in large groups，沒有說 most live in small groups。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C in tropical forests：原文說 bovids 能適應 deep tropical forests，但 majority 偏好 open grassland, scrub or desert。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最貼近 majority favour open grassland, scrub or desert。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C — They store undigested food in their bodies.",
+      "answerKey": "C — They store undigested food in their bodies.",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "所有 bovids 共有哪一項特徵？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Which feature do all bovids have in common?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。控制詞是 “all bovids” 和 “in common”，所以要找 all species /"
+            },
+            {
+              "kind": "paragraph",
+              "text": "common features，而不能用部分物種的特徵答題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite differences in size and appearance, bovids are united by the possession of certain common features.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雖然 bovids 在體型和外表上有差異，但牠們因擁有某些共同特徵而被連在一起。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bovids are almost exclusively herbivorous.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Bovids 幾乎全是草食性動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 common features，所以 C 段是本題核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “all bovids” 和 “common”。原文答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“All species are ruminants, which means that they retain undigested food in their stomachs, and regurgitate it as necessary.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所有物種都是反芻動物，意思是牠們會把未消化的食物保留在胃中，並在需要時反芻"
+            },
+            {
+              "kind": "paragraph",
+              "text": "出來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “store undigested food in their bodies” 對應原文 “retain undigested food in their"
+            },
+            {
+              "kind": "paragraph",
+              "text": "stomachs”。store = retain；in their bodies 是較概括的說法，原文更精確地說在 stomachs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A Their horns are short：原文說 horns vary in shape and size，有些甚至很長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B They have upper incisors：D 段說 upper incisors are usually absent。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Their hooves are undivided：D 段說 bovids have cloven, or split, hooves，split 意思是分開的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — Caprinae",
+      "answerKey": "C — Caprinae",
+      "type": "Question Analysis",
+      "prompt": "Question 17",
+      "translation": "能忍受非常惡劣的環境。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目特徵：Can endure very harsh environments"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。要把特徵配到正確 subfamily。定位詞是 “harsh"
+            },
+            {
+              "kind": "paragraph",
+              "text": "environments”，預期原文可能用 extreme conditions、deserts、mountains、arctic tundra。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subfamily Caprinae includes sheep and goats, together with various relatives such as the goral and the tahr.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Caprinae 亞科包括綿羊和山羊，以及 goral 和 tahr 等親緣動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tolerance of extreme conditions is most marked in this group: Barbary and bighorn sheep have adapted to arid deserts, while Rocky Mountain sheep survive high up in mountains and musk oxen in arctic tundra.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這一組對極端環境的忍耐最明顯：Barbary sheep 和 bighorn sheep 適應乾旱沙漠，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rocky Mountain sheep 可在高山生存，musk oxen 則在北極苔原生存。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "harsh environments 對應 extreme conditions。endure 對應 tolerance / survive / adapted"
+            },
+            {
+              "kind": "paragraph",
+              "text": "to。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “Tolerance of extreme conditions is most marked in this group”，this group 指"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 第一句的 Caprinae。後面列出 arid deserts、mountains、arctic tundra，全部都是harsh environments 的具體例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B — Bovinae",
+      "answerKey": "B — Bovinae",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "包括牛類，例如 oxen 和 cattle。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目特徵：Includes oxen and cattle"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。定位詞是 cattle / oxen。原文未必寫 oxen，但 cattle 是直"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five groups, or subfamilies, may be distinguished: Bovinae, Antilopinae, Caprinae, Cephalophinae and Antilocapridae.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可以分出五個群組或亞科：Bovinae、Antilopinae、Caprinae、Cephalophinae 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antilocapridae。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ancestors of the various species of domestic cattle—banteng, gaur, yak and water buffalo—are generally rare and endangered in the wild, while the auroch (the ancestor of the domestic cattle of Europe) is extinct.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：各種家牛祖先，如 banteng、gaur、yak 和 water buffalo，在野外通常罕見且瀕危；而"
+            },
+            {
+              "kind": "paragraph",
+              "text": "auroch，即歐洲家牛祖先，已經滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中 “cattle” 直接出現在 E 段。答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subfamily Bovinae comprises most of the larger bovids, including the African bongo, nilgai, eland, bison and cattle.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Bovinae 亞科包含大部分較大型 bovids，包括 African bongo、nilgai、eland、bison 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cattle。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cattle 直接屬於 Bovinae。oxen 是 cattle 的一類，所以選 Bovinae 合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — Cephalophinae",
+      "answerKey": "D — Cephalophinae",
+      "type": "Question Analysis",
+      "prompt": "Question 19",
+      "translation": "可能會用肉類補充飲食。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目特徵：May supplement its diet with meat"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。定位詞是 diet / meat，預期原文可能用 eat insects、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "carcasses、kill small animals。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“African duikers belong to the Cephalophinae subfamily.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：非洲 duikers 屬於 Cephalophinae 亞科。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although they feed mainly on grass and leaves, some duikers—unlike most other bovids—are believed to eat insects and feed on dead animal carcasses, and may even kill small animals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：雖然牠們主要吃草和葉，但有些 duikers 被認為會吃昆蟲、吃動物屍體，甚至可能殺死"
+            },
+            {
+              "kind": "paragraph",
+              "text": "小動物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “meat” 對應原文的 “dead animal carcasses” 和 “kill small animals”。supplement its"
+            },
+            {
+              "kind": "paragraph",
+              "text": "diet 對應 “Although they feed mainly on grass and leaves, some...” 這個讓步結構。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段第一句已標明 duikers 屬於 Cephalophinae。末句說一些 duikers 除了草和葉，還可能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "吃昆蟲、屍體，甚至殺小動物。這就是 “May supplement its diet with meat”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — Antilopinae",
+      "answerKey": "A — Antilopinae",
+      "type": "Question Analysis",
+      "prompt": "Question 20",
+      "translation": "通常可以高速移動。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目特徵：Can usually move at high speed"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。定位詞是 high speed，預期原文可能寫 fast-running、in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "full flight、gallop 等。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘antelope’ is not a very precise zoological name—it is used loosely to describe a number of bovids that have followed different lines of development.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：“antelope” 這個詞並不是非常精確的動物學名稱，它被鬆散地用來描述一些走上不同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發展路線的 bovids。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...while the sitatunga has long, splayed hooves that enable it to walk freely on swampy ground.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：而 sitatunga 有長而張開的蹄，使牠能在沼澤地自由行走。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 “high speed” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antelopes are typically long-legged, fast-running species...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Antelopes 通常是長腿、跑得快的物種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目選項中沒有 Hippotraginae，只有 Antilopinae。Paragraph F 介紹 antelope 類群，並說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antilopinae generally contains slighter and more graceful animals such as gazelles and springboks。高速奔跑這個特徵最貼近 antelope / Antilopinae 這一組。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 的 pronghorn 也能 over 60 km/h，但 Antilocapridae 不在 17–21 的選項中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項限制我們在 A–D 之中配對，因此根據 Paragraph F，答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — Bovinae",
+      "answerKey": "B — Bovinae",
+      "type": "Question Analysis",
+      "prompt": "Question 21",
+      "translation": "不保衛特定領地。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目特徵：Does not defend a particular territory"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。定位詞是 defend territory，預期原文可能用 territorial /"
+            },
+            {
+              "kind": "paragraph",
+              "text": "non-territorial。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five groups, or subfamilies, may be distinguished: Bovinae, Antilopinae, Caprinae, Cephalophinae and Antilocapridae.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可以分出五個群組或亞科：Bovinae、Antilopinae、Caprinae、Cephalophinae 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antilocapridae。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ancestors of the various species of domestic cattle—banteng, gaur, yak and water buffalo—are generally rare and endangered in the wild, while the auroch ... is extinct.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：各種家牛祖先在野外通常罕見且瀕危，而 auroch 已經滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “does not defend a particular territory” 對應原文 “non-territorial”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subfamily Bovinae comprises most of the larger bovids, including the African bongo, nilgai, eland, bison and cattle. Unlike most other bovids, they are all non-territorial.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Bovinae 亞科包含大部分較大型 bovids，包括 African bongo、nilgai、eland、bison 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cattle。與大多數其他 bovids 相比，牠們全都沒有領地性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“they” 指前一句的 Bovinae 成員。non-territorial 就是 does not defend a particular territory。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "royal antelope",
+      "answerKey": "royal antelope",
+      "type": "Question Analysis",
+      "prompt": "Question 22",
+      "translation": "最小的 bovid 物種叫甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What is the smallest species of bovid called?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，答案要從文章取詞，限制是 NO MORE THAN THREE"
+            },
+            {
+              "kind": "paragraph",
+              "text": "WORDS。定位詞是 smallest species，原文可能用 at one extreme、mere 25 cm。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bovids are well represented in most parts of Eurasia and the islands of Southeast Asia, but they are by far the most numerous and diverse in Africa.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Bovids 在 Eurasia 大部分地區和 Southeast Asia 的島嶼都有相當代表性，但在 Africa"
+            },
+            {
+              "kind": "paragraph",
+              "text": "數量和種類最豐富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...at one extreme is the royal antelope of West Africa, which stands a mere 25 cm at the shoulder; at the other, the massively built bison...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一個極端是 West Africa 的 royal antelope，肩高只有 25 cm；另一個極端是體型巨大"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的 bison。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "smallest 對應 “at one extreme” 和 “a mere 25 cm”。species called 要找名稱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句中 “royal antelope” 是最小端的物種名稱。答案不需要加 of West Africa，因為題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問名稱，且字數限制三字以內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：royal antelope"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "auroch",
+      "answerKey": "auroch",
+      "type": "Question Analysis",
+      "prompt": "Question 23",
+      "translation": "哪一種 Bovinae 物種現在已經滅絕？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Which species of Bovinae is now extinct?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。定位詞是 Bovinae 和 extinct。答案應是一個物種名稱"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，並且要直接取自原文。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five groups, or subfamilies, may be distinguished: Bovinae, Antilopinae, Caprinae, Cephalophinae and Antilocapridae.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可以分出五個群組或亞科：Bovinae、Antilopinae、Caprinae、Cephalophinae 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antilocapridae。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...while the auroch (the ancestor of the domestic cattle of Europe) is extinct.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：而 auroch，即歐洲家牛的祖先，已經滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 extinct 在原文直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句清楚說 “the auroch ... is extinct”。題目問 which species，所以答案只需寫 auroch。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意 auroch 前有 the，但短答通常寫核心名詞即可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：auroch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "long, splayed hooves",
+      "answerKey": "long, splayed hooves",
+      "type": "Question Analysis",
+      "prompt": "Question 24",
+      "translation": "甚麼使 sitatunga 能在濕地上移動？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What enables the sitatunga to move over wetland?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。定位詞是 sitatunga 和 wetland。原文可能用 swampy"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ground 代替 wetland。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘antelope’ is not a very precise zoological name...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：“antelope” 並不是非常精確的動物學名稱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...while the sitatunga has long, splayed hooves that enable it to walk freely on swampy ground.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：而 sitatunga 有長而張開的蹄，使牠能在沼澤地自由行走。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sitatunga 是強定位詞。wetland 對應 swampy ground。move over 對應 walk freely。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句中 “long, splayed hooves” 直接回答 what enables。這是名詞短語，符合 NO MORE"
+            },
+            {
+              "kind": "paragraph",
+              "text": "THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：long, splayed hooves"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "arid deserts",
+      "answerKey": "arid deserts",
+      "type": "Question Analysis",
+      "prompt": "Question 25",
+      "translation": "Barbary sheep 棲息於哪種地形或環境？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What kind of terrain do Barbary sheep inhabit?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。定位詞是 Barbary sheep。答案應是地形 / 環境名詞短"
+            },
+            {
+              "kind": "paragraph",
+              "text": "語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subfamily Caprinae includes sheep and goats, together with various relatives such as the goral and the tahr.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Caprinae 亞科包括綿羊和山羊，以及 goral 和 tahr 等親緣動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tolerance of extreme conditions is most marked in this group: Barbary and bighorn sheep have adapted to arid deserts...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這一組對極端環境的忍耐最明顯：Barbary sheep 和 bighorn sheep 已適應乾旱沙漠。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Barbary sheep 在最後一句直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “Barbary and bighorn sheep have adapted to arid deserts”。題目問 terrain，答案是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "arid deserts。不要只寫 deserts，因為 arid 是原文提供的精確形容詞，也沒有超過字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：arid deserts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "pronghorn",
+      "answerKey": "pronghorn",
+      "type": "Question Analysis",
+      "prompt": "Question 26",
+      "translation": "Antilocapridae 亞科唯一仍存活的成員是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What is the only surviving member of the Antilocapridae subfamily?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。定位詞是 only surviving member 和 Antilocapridae。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案應是一個動物名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pronghorn is the sole surviving member of Antilocapridae, a New World subfamily of herbivorous ruminants found in North America.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：pronghorn 是 Antilocapridae 唯一仍存活的成員；Antilocapridae 是在 North America"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發現的新世界草食性反芻動物亞科。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At this warning signal, the whole herd gallops off at a speed of over 60 km per hour.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：看到這個警戒訊號後，整個群體會以每小時超過 60 公里的速度奔跑離開。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “only surviving member” 對應原文 “sole surviving member”。sole = only。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句開頭直接給出 “The pronghorn is...” 所以答案是 pronghorn。這題最重要的是不要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 Antilocapridae 當成答案，因為題目問的是這個 subfamily 的唯一成員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：pronghorn"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Bovids.pdf",
+    "sha256": "14d0413eb86d4492828279c26bc9676a22291e7630d4be5f5c03f8161e133574",
+    "pageCount": 13
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 bovids 放入 Artiodactyl class，並說這一類也包括 giraffes；末句指出 bovids 有 137 species，其中一些是人類最重要的 domestic animals。只看首尾句，可以先知道本文開頭功能是「定義主題」。A 段不會提供細節答案，主要建立分類位置、物種數量和人類重要性，方便之後理解bovids 是一個龐大而多樣的哺乳動物家族。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 bovids 在 Eurasia 和 Southeast Asia islands 也常見，但在 Africa 數量和種類最豐富；末句用 royal antelope 和 bison 對比大小。首尾句已顯示本段功能是介紹分布、棲息地、群居情況和體型差異。題目若問 region、habitat、largest / smallest、diverse、open grassland 等，最可能到 B段定位。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說雖然 bovids 大小和外表不同，但牠們有共同特徵；末句說 bovids 幾乎全是 herbivorous。首尾句顯示本段功能是從「多樣性」轉到「共同特徵」。本段很短，答案密度很高，特別適合處理 all species、common feature、ruminants、undigested food、herbivorous 這類題目。若題目問所有bovids 都有甚麼，C 段是首要目標。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 bovids 的牙齒通常高度改造，適合 browsing and grazing；末句說 gazelles 的 horns 有各種優雅曲線。首尾句顯示 D 段繼續講共同身體特徵，但焦點從消化轉到牙齒、蹄和角。若題目問upper incisors、cloven hooves、horns、shed / never shed、shape and size，應掃描 D 段。它也能幫助排除一些錯項。"
+      },
+      {
+        "number": "E",
+        "summary": "首句列出五個 subfamilies：Bovinae、Antilopinae、Caprinae、Cephalophinae、Antilocapridae；末句說 auroch 已 extinct。首尾句顯示 E 段開始進入分類細節，尤其介紹 Bovinae。這段會處理larger bovids、cattle、bison、domestic cattle、non-territorial、rare、endangered、extinct 等資訊。因此 matching 題若問 cattle、oxen、territory、extinct species，E 段很重要。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 antelope 不是精確的 zoological name，只是鬆散地描述一些不同發展路線的 bovids；末句說 sitatunga 有 long, splayed hooves，可在 swampy ground 行走。首尾句顯示 F 段介紹antelope 類群、速度、草原生活和水域適應。題目若問 fast-running、Antilopinae、grassland、swimming、sitatunga、wetland movement，就應定位 F 段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Caprinae 包括 sheep、goats 及 goral、tahr 等親緣動物；末句說這一組對 extreme conditions 的忍耐最明顯，例如 desert、mountains 和 arctic tundra。首尾句顯示 G 段功能是介紹Caprinae 的成員、毛髮特徵、山地活動能力和惡劣環境適應。題目若問 harsh environments、Barbary sheep、bighorn sheep、Rocky Mountain sheep、musk oxen，答案多半在這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 African duikers 屬於 Cephalophinae；末句說有些 duikers 會吃 insects、dead animal carcasses，甚至 kill small animals。首尾句顯示 H 段重點是 duikers 的分類、體型、獨居性、森林棲息地和特殊飲食。這段非常適合處理 Cephalophinae、solitary、thick forest、meat、insects、carcasses、kill small animals 這些定位詞。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 pronghorn 是 Antilocapridae 唯一仍存活的成員，屬於 North America 的 New World herbivorous ruminants；末句說整群會以超過 60 km/h 的速度逃跑。首尾句顯示本段集中介紹pronghorn：分類地位、分布、數量下降、警戒訊號和高速逃跑。若題目問 sole surviving member、Antilocapridae、North America、warning signal、white patch、speed，應定位 I 段。"
+      }
+    ]
+  }
+}

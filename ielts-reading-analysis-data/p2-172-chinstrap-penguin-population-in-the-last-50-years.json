@@ -1,0 +1,1358 @@
+{
+  "id": "p2-172-chinstrap-penguin-population-in-the-last-50-years",
+  "catalogueId": "p2-172",
+  "catalogueIds": [
+    "p2-172"
+  ],
+  "passage": 2,
+  "title": "Chinstrap Penguin Population In The Last 50 Years",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "C",
+    "G",
+    "A",
+    "H",
+    "E",
+    "A",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "threat",
+    "scientists",
+    "sanctuaries"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "The highest temperatures ever recorded",
+      "translation": "有史以來錄得的最高氣溫。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latest study was published just days after an all-time Antarctic high of 18.3°C (64.94°F) was recorded on 6 February.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最新研究發表前幾天，南極在 2 月 6 日剛錄得 18.3°C 的歷史最高氣溫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists recorded the temperature at Argentina’s Esperanza research station, according to the country’s meteorological agency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據阿根廷氣象機構，科學家在阿根廷 Esperanza 研究站記錄到這個溫度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的是 “highest temperatures ever recorded”。原文對應 “an all-time Antarctic high” 和 “previous high”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The previous high of 17.5°C (63.5°F) was recorded in March 2015.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之前的最高紀錄是 17.5°C，於 2015 年 3 月錄得。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The highest temperatures ever recorded= an all-time Antarctic high= the previous high所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "A comparison between current and past records of penguin populations",
+      "translation": "現時和過去企鵝數量紀錄的比較。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every colony on Elephant Island, a crucial penguin habitat northeast of the Antarctic Peninsula, experienced a population decline…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Elephant Island 上每一個 colony 都出現了數量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the most significant decline was recorded at a colony known as Chinstrap Camp, where the population fell by 77%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大跌幅出現在 Chinstrap Camp，該處數量下降 77%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “current and past records” 對應原文的 “last surveyed in 1971” 和 “recent count”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Elephant Island was last surveyed in 1971, and there were 122,550 pairs of penguins across all colonies. However, the recent count revealed just 52,786 pairs—a drop of almost 60%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Elephant Island 上一次調查是在 1971 年，當時所有 colonies 共有 122,550 對企鵝。然而，最近一次點算只錄得 52,786 對，下降接近 60%。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "past records = last surveyed in 1971 / 122,550 pairs current records = recent count / 52,786 pairs comparison = a drop of almost 60%所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "Places that people are prohibited from entering",
+      "translation": "人類被禁止進入的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greenpeace ship Esperanza has been documenting the threat to the oceans worldwide and transporting scientists on overseas expeditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenpeace ship Esperanza 一直記錄全球海洋面對的威脅，並運送科學家參與海外考察。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These would be off-limits to humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些地方將會禁止人類進入。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “prohibited from entering” 不一定原字出現。應掃描 avoid / ban / off-limits / no entry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “off-limits to humans” 是直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Greenpeace has been campaigning for the establishment of three Antarctic sanctuaries to protect many of the colonies surveyed. These would be off-limits to humans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenpeace 一直爭取建立三個 Antarctic sanctuaries，以保護許多已調查的 colonies。這些sanctuary 將會禁止人類進入。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "places = Antarctic sanctuaries people are prohibited from entering = off-limits to humans所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "Places where chinstrap penguins live",
+      "translation": "chinstrap penguins 的棲息地。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chinstrap penguin has a cap of black plumage, a white face, and a continuous band of black feathers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chinstrap penguin 有黑色羽冠、白色臉部，以及一條連續的黑色羽毛帶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The northern part of the Antarctic Peninsula, several Antarctic and subantarctic islands, and the uninhabited Balleny Islands between Antarctica and New Zealand are habitats of the species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Antarctic Peninsula 北部、幾個 Antarctic 和 subantarctic islands，以及 Antarctica 與 New Zealand 之間無人居住的 Balleny Islands，都是這個物種的棲息地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “places where … live” 對應原文 “habitats of the species”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The northern part of the Antarctic Peninsula… are habitats of the species.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "places where chinstrap penguins live= habitats of the species所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "Measures intended to protect marine species",
+      "translation": "旨在保護海洋物種的措施。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Louisa Casson, Greenpeace Oceans Campaigner, said… the climate emergency is decimating their numbers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenpeace Oceans Campaigner Louisa Casson 表示，氣候緊急狀態正在大幅削減企鵝數量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments must respond to the science and agree on a strong Global Ocean Treaty… that can create a network of ocean sanctuaries to protect marine life…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各國政府必須回應科學證據，並同意一項強而有力的 Global Ocean Treaty，以建立 ocean sanctuaries 網絡來保護 marine life。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“protect marine species” 可對應 “protect marine life”。“measures” 可對應 Global Ocean Treaty和 network of ocean sanctuaries。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Governments must respond to the science and agree on a strong Global Ocean Treaty… that can create a network of ocean sanctuaries to protect marine life…”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "measures = Global Ocean Treaty / network of ocean sanctuaries marine species = marine life intended to protect = to protect所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Factors contributing to a decline in the penguins’ food supply",
+      "translation": "導致企鵝食物供應下降的因素。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reduced sea ice and warmer oceans caused by climate change have reduced the amount of krill…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣候變化引起的海冰減少和海洋變暖，已經令 krill 的數量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…all the evidence we have points to climate change as being responsible for the changes we are seeing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們擁有的所有證據都指向 climate change，顯示它要為目前的變化負上責任。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “food supply” 對應原文 “krill, the main component of the penguins’ diet”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The reduced sea ice and warmer oceans caused by climate change have reduced the amount of krill, the main component of the penguins’ diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由氣候變化造成的海冰減少和海洋變暖，減少了 krill 的數量；krill 是企鵝飲食的主要成分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "food supply = krill factors contributing to decline = reduced sea ice and warmer oceans caused by climate change decline = reduced the amount所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "A description of a particular species",
+      "translation": "對某一物種的描述。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chinstrap penguin has a cap of black plumage, a white face, and a continuous band of black feathers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chinstrap penguin 有黑色羽冠、白色臉部，以及一條連續的黑色羽毛帶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…are habitats of the species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些地方是該物種的棲息地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“description” 通常找外貌、特徵、身體部位、顏色。A 段有 “black plumage”、“white face”、“band of black feathers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The chinstrap penguin has a cap of black plumage, a white face, and a continuous band of black feathers extending from one side of the head to the other, the ‘chinstrap’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chinstrap penguin 有黑色羽冠、白色臉部，以及一條從頭部一側延伸到另一側的黑色羽毛帶，這就是牠名字中的 “chinstrap”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a particular species = the chinstrap penguin description = physical appearance所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The IUCN showed little concern about the decline in chinstrap-penguin numbers.”",
+      "translation": "IUCN 對 chinstrap penguin 數量下降顯示出較低關注。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antarctic penguin colonies in some parts of Antarctica have declined during the past 50 years, mostly because of climate change, researchers say.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員表示，Antarctica 某些地區的 Antarctic penguin colonies 在過去 50 年下降，主要原因是氣候變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s a little bit worrying as it means that something is shifting in the ecosystem and the fall in penguin numbers is reflecting that shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有點令人擔憂，因為它代表 ecosystem 正在改變，而企鵝數量下降正反映這種變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“IUCN” 是強定位詞，原文只在 B 段出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The findings were surprising because, until now, the chinstraps have been deemed of ‘least concern’ by the International Union for Conservation of Nature (IUCN).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現令人意外，因為直到現在，chinstrap penguins 一直被 International Union for Conservation of Nature 評為 “least concern”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目中的 “showed little concern” 對應原文的 “deemed of ‘least concern’”。這裡的 concern 是IUCN conservation status 的語言，不是單純情緒。原文表示：在這次巨大下降被發現之前，IUCN對 chinstrap penguin 的風險評級仍屬 least concern。題目方向和原文一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "showed little concern= deemed of “least concern”所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Climate change is one reason for changes in the chinstrap penguin’s food chain.”",
+      "translation": "氣候變化是 chinstrap penguin 食物鏈變化的原因之一。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reduced sea ice and warmer oceans caused by climate change have reduced the amount of krill…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣候變化造成海冰減少和海洋變暖，令 krill 數量下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…all the evidence we have points to climate change as being responsible for the changes we are seeing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有證據都指向 climate change，顯示它要為目前看到的變化負責。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Climate change”、“food chain” 都在 E 段密集出現。題目中的 “one reason” 要留意，原文不需要說 climate change 是唯一因素，只要支援它是原因即可。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Climate change is probably the underlying factor, and the effects are rippling through the food chain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣候變化很可能是根本因素，而它的影響正在沿著食物鏈擴散。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Penguins, seals, and whales all depend on krill, which depends on ice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企鵝、海豹和鯨魚都依賴 krill，而 krill 依賴 ice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 climate change 是食物鏈變化的 one reason。原文說它 probably 是 underlying factor，而且 effects rippling through the food chain。方向一致，答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "one reason = probably the underlying factor changes in food chain = effects are rippling through the food chain所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Gentoo penguins are not affected by climate change.”",
+      "translation": "Gentoo penguins 不受氣候變化影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there was also some good news, as the researchers reported an increase in gentoo-penguin populations in neighbouring colonies, beyond Elephant Island.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，也有一些好消息：研究人員報告 Elephant Island 以外鄰近 colonies 的 gentoo penguin 數量增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gentoo is a species from further north and they appear to be colonising the area and are actually increasing in numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "gentoo 是來自更北方的物種，牠們似乎正在 colonising 這個地區，而且數量確實正在增加。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Gentoo penguins” 直接定位 F 段。題目中的 “not affected by climate change” 需要找unaffected / no effect / climate change has no impact 等意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說：“the researchers reported an increase in gentoo-penguin populations…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“they appear to be colonising the area and are actually increasing in numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員報告 gentoo penguin 數量增加；牠們似乎正在殖民這一地區，而且數量確實正在上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有說 gentoo 數量增加，但沒有說牠們是否受 climate change 影響。數量增加不等於完全不受影響；文章也沒有明確說 climate change 對 gentoo 沒有 impact。題目加入了 “not affected by climate change” 這個額外命題，原文資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "threat",
+      "answerKey": "threat",
+      "type": "Note Completion",
+      "prompt": "“The ship has been used to record the 24 ______ to marine life around the world;”",
+      "translation": "這艘船曾被用來記錄全球 marine life 面對的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greenpeace Ship Esperanza” 直接定位 G 段。題目中的 “record” 對應原文 “documenting”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greenpeace ship Esperanza has been documenting the threat to the oceans worldwide…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenpeace ship Esperanza 一直記錄全球海洋面對的威脅。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "record = documenting marine life around the world = oceans worldwide the ______ = the threat答案是 threat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "scientists",
+      "answerKey": "scientists",
+      "type": "Note Completion",
+      "prompt": "“transport 25 ______ on overseas expeditions;”",
+      "translation": "運送 ______ 參與海外考察。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greenpeace ship Esperanza has been documenting the threat to the oceans worldwide and transporting scientists on overseas expeditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenpeace ship Esperanza 一直記錄全球海洋面對的威脅，並運送科學家參與海外考察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格在 “transport” 後面，需要名詞作受詞。原文是 “transporting scientists”，所以答案必須填scientists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 scientists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "sanctuaries",
+      "answerKey": "sanctuaries",
+      "type": "Note Completion",
+      "prompt": "“support the creation of 26 ______ to protect surveyed colonies.”",
+      "translation": "支持建立 ______，以保護已調查的 colonies。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“protect surveyed colonies” 對應原文 “to protect many of the colonies surveyed”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Greenpeace has been campaigning for the establishment of three Antarctic sanctuaries to protect many of the colonies surveyed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenpeace 一直爭取建立三個 Antarctic sanctuaries，以保護許多已調查的 colonies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "support the creation of= campaigning for the establishment of surveyed colonies= colonies surveyed sanctuaries= sanctuaries答案是 sanctuaries。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Chinstrap Penguin Population In The Last 50 Years.pdf",
+    "sha256": "b3c3f9222c0233ba7a5574888b641e1fc7ee776062b01ad4e4f7ed523a764535",
+    "pageCount": 15
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先描述 chinstrap penguin 的外觀：黑色頭頂、白臉、像「下巴帶」一樣的黑色羽毛帶。最後一句轉到 habitat，列出 Antarctic Peninsula 北部、Antarctic / subantarctic islands，以及 Balleny Islands。只看首尾句，可以先判斷這段功能是「介紹物種身份 + 分布地點」。所以若題目問species description、physical features、where they live，很大機會回到 A 段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接說 Antarctic penguin colonies 在過去 50 年下降，主要原因是 climate change。最後一句引用 Noah Strycker，說 penguin numbers 的下降反映 ecosystem 正在 shifting。只看首尾句，可見這段功能是「引入整篇主題：過去 50 年 chinstrap penguin 數量急跌，以及這件事的生態意義」。IUCN、decline、climate change、ecosystem shift 都可能在這段定位。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出 Elephant Island 每一個 colony 都 experienced a population decline。最後一句說不同colony 的下降幅度不同，其中 Chinstrap Camp 下降 77%。只看首尾句，這段明顯是「用數據證明下降」。中間很可能有 past survey 和 recent count 的比較，因此若題目問 current and past records、percentage decline、population comparison，C 段最值得掃描。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 latest study 發表前不久，Antarctica 剛錄得 all-time high temperature 18.3°C。最後一句交代這個溫度由 Argentina’s Esperanza research station 記錄，來源是該國 meteorological agency。只看首尾句，這段功能很集中：提供 Antarctic temperature record 的背景資料。所以凡是highest temperature、recorded temperature、18.3°C、previous high，都應定位 D 段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句把 reduced sea ice、warmer oceans、climate change、reduced krill 連成因果鏈，並說 krill是 penguins’ diet 的 main component。最後一句由 Heather Lynch 補充，所有證據都指向climate change。只看首尾句，這段功能是「解釋食物鏈變化」。若題目問 food supply、krill、food chain、underlying factor、climate change effects，答案大多藏在 E 段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句用 however 帶出好消息：neighbouring colonies 的 gentoo-penguin populations 增加。最後一句說 gentoo 來自更北方，似乎正在 colonising the area，數量也正在 increasing。只看首尾句，可以判斷這段是對比段：chinstrap 下降，但 gentoo 增加。題目若問 gentoo penguins、comparison between penguin species、increase in neighbouring colonies，就應看 F 段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句介紹 Greenpeace ship Esperanza 的兩個用途：documenting the threat to the oceans worldwide，以及 transporting scientists on overseas expeditions。最後一句說 Greenpeace 爭取建立 Antarctic sanctuaries，這些地方 would be off-limits to humans。只看首尾句，這段同時處理research support、Low Island survey、proposed sanctuaries、human prohibition。Completion 題和 “off-limits” 題會集中在這裡。"
+      },
+      {
+        "number": "H",
+        "summary": "首句引用 Louisa Casson，說 climate emergency 正在 decimating penguin numbers，並影響偏遠地區 wildlife。最後一句呼籲 governments 回應 science，在 United Nations 同意 strong Global Ocean Treaty，建立 ocean sanctuaries 以保護 marine life。只看首尾句，這段是 campaigning /policy appeal 段。若題目問 measures to protect marine species、Global Ocean Treaty、marine life protection，H 段最有價值。"
+      }
+    ]
+  }
+}

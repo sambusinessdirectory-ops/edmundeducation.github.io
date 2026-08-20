@@ -1,0 +1,1460 @@
+{
+  "id": "p2-049-are-artists-liars",
+  "catalogueId": "p2-049",
+  "catalogueIds": [
+    "p2-049"
+  ],
+  "passage": 2,
+  "title": "Are Artists Liars?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "iii",
+    "vi",
+    "iv",
+    "viii",
+    "i",
+    "v",
+    "B",
+    "E",
+    "A",
+    "E",
+    "national",
+    "arms dealers",
+    "Paris trip"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "iii — How to lie artistically",
+      "answerKey": "iii — How to lie artistically",
+      "type": "Matching Headings",
+      "prompt": "Paragraph A 的最佳 heading。",
+      "translation": "如何以藝術方式說謊；更準確地說，是把 acting 描寫成一種專業化、表演化的 lying。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shortly before his death, Marlon Brando was working on a series of instructional videos about acting that he called Lying for a Living.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marlon Brando 去世前不久，正在製作一系列關於演戲的教學影片，他把它稱為 Lying for a Living。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Jesus,’ Brando replied, ‘I’m fabulous at it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brando 回答：「天啊，我非常擅長這件事。」只看首尾句，可以先猜這段會用 Brando 的演戲教學影片，把 acting 和 lying 連在一起。第一句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“instructional videos about acting” 表示這不是普通說謊，而是和演員訓練、表演技藝有關。最後一句則把 Brando 自己定位成很會說謊的人，形成一個很有力的開場。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 的關鍵是 “lie artistically”。原文沒有逐字寫 artistically，但有 acting、Hollywood stars、improvise、Lying for a Living、If you can lie, you can act。這些詞都把 lying 放進表演藝術語境。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“‘If you can lie, you can act,’ Brando told Jod Kaftan…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brando 對 Jod Kaftan 說：「如果你會說謊，你就會演戲。」這句直接建立 lying 和 acting 的等號。Paragraph A 的功能不是討論普通生活中的欺騙，而是用actor Brando 的教學影片帶出「演戲是一種被訓練、被觀賞、被藝術化的 lying」。所以 iii 最貼合全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vi “The fine line between liars and artists” 也和本段有關，因為 Brando 是 actor。但 Paragraph A的焦點更落在 “instructional videos about acting” 和 “If you can lie, you can act”。它像一個「演戲即說謊」的導入例子；真正系統比較 liars 和 artists 的段落是 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "vi — The fine line between liars and artists",
+      "answerKey": "vi — The fine line between liars and artists",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B 的最佳 heading。",
+      "translation": "說謊者和藝術家之間的界線很細。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brando was not the first person to observe that the line between an artist and a liar is a fine one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brando 並非第一個觀察到藝術家和說謊者之間界線很細的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such parallels are hardly coincidental, as I discovered while researching my book on lying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些相似之處絕非巧合，這是我研究關於說謊的書時發現的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚估計本段會講 liars 和 artists 的相似關係。第一句直接提出 fine line，最後一句用 parallels 作總結，表示段內會列出兩者平行之處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的定位詞是 “liars and artists”。Paragraph B 中這兩個詞反覆出現：artist、liar、lying、artistic storytelling、liars and artists、stories、writers and performers。這些重複概念顯示本段不是單一例子，而是在建立整體比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both liars and artists refuse to accept the tyranny of reality. Both carefully craft stories worthy of belief—a skill requiring intellectual sophistication, emotional sensitivity and physical self-control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說謊者和藝術家都拒絕接受現實的支配。兩者都精心塑造值得相信的故事，而這種能力需要智力上的成熟、情感敏感度和身體自我控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 liars 和 artists 放在同一結構中比較：“Both… Both…”。它說明兩者都會從 reality 中抽離，並製作 believable stories。因此 vi 能覆蓋整段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “The shared neurological basis of lying and art” 很有吸引力，因為原文確實有 “common neurological root”。但它只是段中的一個理據。全段更大的功能是說明 artist 和 liar 之間的細微界線，以及兩者如何在創作可信故事方面相似。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "iv — Confabulation and examples of it",
+      "answerKey": "iv — Confabulation and examples of it",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C 的最佳 heading。",
+      "translation": "Confabulation 的說明，以及相關例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A case study published in 1985 by neurologist Antonio Damasio tells the story of a middle-aged woman whose brain was damaged by a series of strokes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家 Antonio Damasio 於 1985 年發表的一項病例研究，講述一名中年女性因多次中風而腦部受損的故事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike writers, however, they have little or no control over their material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，與作家相比，他們對自己的材料幾乎沒有控制力，甚至完全沒有控制力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測本段會從一個 brain damage case 出發，討論一類病人如何產生不受控制的敘事。最後一句把這些病人和 writers 比較，暗示本段會把 confabulation 和 storytelling 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 的核心字是 confabulation 和 examples。Paragraph C 直接有 “confabulating”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Chronic confabulation”、“Confabulators”，而且大量列出例子：Falklands War、surgical scar、Second World War、family deaths、Moon、Alexander、Jesus 等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵定義：“The literature defines it as ‘the production of fabricated, distorted or misinterpreted memories about oneself or the world, without the conscious intention to deceive’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文獻把它定義為：對自己或世界產生虛構、扭曲或誤解的記憶，而且沒有有意欺騙的意圖。"
+            },
+            {
+              "kind": "label",
+              "text": "原文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“One patient, asked about his surgical scar, explained that during the Second World War he had surprised a teenage girl who shot him three times in the head, killing him, before surgery brought him back to life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名病人被問到自己的手術疤痕時，解釋說在第二次世界大戰期間，他撞見一名少女，那少女朝他的頭開了三槍，把他殺死，後來手術又把他救回來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 不只給 definition，還提供多個荒誕例子，並說 confabulators do not intend to deceive。Heading vii “A definition of confabulation” 只覆蓋其中一部分；iv 更能概括整段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "viii — Creativity in lying",
+      "answerKey": "viii — Creativity in lying",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D 的最佳 heading。",
+      "translation": "說謊中的創造力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wider significance of this condition lies in what it reveals about us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種病症更廣泛的意義，在於它揭示了我們自身的某些東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People nevertheless lie for many reasons, including the fact that confabulation can be dangerously enjoyable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍然會因許多原因說謊，其中包括 confabulation 可能帶來危險的愉悅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph D 從臨床病症轉到普通人。第一句說 this condition reveals something about us；最後一句說人們說謊有很多原因。段落功能是把 confabulation 的創造性擴展到人類普遍的 storytelling impulse。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的重點是 creativity。Paragraph D 出現 “verbal creativity”、“born storytellers”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“spinning narratives”、“experience and imagination”、“alternative futures and different worlds”。這些詞都和創造性敘事有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“A gushing river of verbal creativity evidently flows through the normal human mind, and both artistic invention and lying draw from it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一股奔湧的語言創造力顯然流經正常人的心智，而藝術發明和說謊都從中汲取力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “a gushing river of verbal creativity”，核心關係是 art 和 lying 都從同一股創造力中取材。Paragraph D 不再只是講病人，重點轉到正常人也有創造故事的衝動。因此 viii 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “The shared neurological basis of lying and art” 看似有關，但 Paragraph D 更關心 creativity如何在人類心智中流動，並如何同時支援藝術創造和說謊。它的焦點偏向創造力，不偏向神經學基礎。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "i — A failed deception",
+      "answerKey": "i — A failed deception",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E 的最佳 heading。",
+      "translation": "一次失敗的欺騙。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During a now-famous libel case in 1996, former cabinet minister Jonathan Aitken recounted a story to illustrate the horrors he had endured after a national newspaper tainted his name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1996 年一宗如今著名的誹謗案中，前內閣大臣 Jonathan Aitken 講述了一個故事，用來說明一家全國性報章玷污他名聲後，他所承受的痛苦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The evidence revealed not only that Aitken’s daughter had not been with him that day, but also that the minister had simply got into his car and driven away, with no vehicle pursuing him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "證據顯示，Aitken 的女兒當天並沒有和他一起；同時，這位大臣只是上車開走，並沒有任何車輛追逐他。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測這段會講 Aitken 如何在法庭或公眾面前講故事，最後被證據拆穿。第一句有 libel case，最後一句有 evidence revealed，這是 deception 被揭穿的典型結構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 的關鍵是 failed deception。原文中可以掃描到 lies、testimony、case collapsed、indisputable evidence。這些詞共同顯示 Aitken 的欺騙計劃失敗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His case collapsed in June 1997 when the defence found indisputable evidence about his Paris trip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的案件在 1997 年 6 月崩潰，因為辯方找到了關於他巴黎之行的無可爭辯的證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 “failed deception”：Aitken 的謊言一度靠 charm、fluency 和 theatrical sincerity 顯得可信，但 Paris trip 的證據令案件崩潰。Paragraph E 的功能是提供普通說謊者在現實世界中失敗的例子，為 Paragraph F 區分藝術家與普通 liar 鋪路。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "v — The distinction between artists and ordinary liars",
+      "answerKey": "v — The distinction between artists and ordinary liars",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F 的最佳 heading。",
+      "translation": "藝術家和普通說謊者之間的區別。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike Aitken, of course, actors, playwrights and novelists are not literally trying to deceive us, because the rules are stated in advance: come to the theatre or open this book, and we will lie to you.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，與 Aitken 不同，演員、劇作家和小說家並沒有真正試圖欺騙我們，因為規則一開始已經說明：來到劇院，或打開這本書，我們就會向你說謊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art is a lie whose secret ingredient is truth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術是一個含有真理作為秘密成分的謊言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚看到 Paragraph F 是總結和區分段。它先把 artists 和 Aitken 這類 ordinary liar 分開，最後用 truth 概括藝術謊言的特殊性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的定位詞是 artists、ordinary liars、distinction。原文用 Unlike Aitken 開頭，這已經是明確比較。之後又有 ordinary lies、honest lying、A liar lies on his own behalf、an artist tells lies on behalf of everyone。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A liar lies on his own behalf; an artist tells lies on behalf of everyone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說謊者為自己說謊；藝術家則代表所有人說出「謊言」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是全段最核心的 distinction。Aitken 之類的 liar 是為自己利益建構虛假故事；藝術家則在觀眾知情的前提下，使用虛構去表達更廣泛的人類經驗。最後一句 “Art is a lie whose secret ingredient is truth” 進一步說明藝術中的虛構仍包含真理。因此 v 最合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B, E",
+      "answerKey": "B, E",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Which TWO of the following statements about people suffering from confabulation are true?”",
+      "translation": "以下哪兩項關於 confabulation 患者的說法正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple-answer 題要逐項檢查選項是否被文章支持、限制或否定；每個正確答案都要有獨立證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option B — They do not deliberately lie."
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們並非有意說謊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A case study published in 1985 by neurologist Antonio Damasio tells the story of a middle-aged woman whose brain was damaged by a series of strokes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家 Antonio Damasio 於 1985 年發表的病例研究，講述一名中年女性因多次中風而腦部受損的故事。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike writers, however, they have little or no control over their material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與作家相比，他們對自己的材料幾乎沒有控制力，甚至完全沒有控制力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的定位詞是 deliberately lie。原文會用 intention、deceive、intend 等詞表達。Paragraph C中可以找到 “without the conscious intention to deceive” 和 “do not intend to deceive”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The literature defines it as ‘the production of fabricated, distorted or misinterpreted memories about oneself or the world, without the conscious intention to deceive’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文獻把它定義為：對自己或世界產生虛構、扭曲或誤解的記憶，而且沒有有意欺騙的意圖。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Confabulators do not intend to deceive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Confabulators 沒有意圖欺騙他人。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "do not deliberately lie= do not intend to deceive= without conscious intention to deceive所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E — They make up stories."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們會編造故事。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同樣定位到 Paragraph C。這段不只定義 confabulation，也列出多個病人如何製造荒誕敘"
+            },
+            {
+              "kind": "paragraph",
+              "text": "事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E 的定位詞是 make up stories。原文用 “they make things up”、“they invent”、“compulsion to narrate” 表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas amnesiacs make errors of omission—gaps in their recollections that they cannot fill—confabulators make errors of commission: they make things up. Rather than forgetting, they invent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "失憶症患者犯的是遺漏錯誤，即記憶中有空白而無法填補；confabulators 犯的是添加錯誤：他們會編造東西。與遺忘相比，他們會發明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "make up stories= make things up= invent= compulsion to narrate所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 A、C、D 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “They have lost cognitive abilities.”原文說那名中年女性 “retained cognitive abilities, including coherent speech”。她保留了認知能力，包括連貫說話能力。A 與原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “They are normally aware of their condition.”原文說 “Confabulating patients are almost always unaware of their condition.” 即他們幾乎總是不知道自己有這種狀況。C 與原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They do not have the impetus to explain what they do not understand.”原文說他們被 “a compulsion to narrate” 抓住，即有強烈敘事衝動，想 shape、order、explain 不明白的東西。D 把原文方向倒轉，所以不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        20,
+        21
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A, E",
+      "answerKey": "A, E",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Which TWO of the following statements about playwrights and novelists are true?”",
+      "translation": "以下哪兩項關於 playwrights 和 novelists 的說法正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Option A — Their stories convey broader meaning."
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的故事傳達更廣泛的意義。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike Aitken, of course, actors, playwrights and novelists are not literally trying to deceive us…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，與 Aitken 不同，演員、劇作家和小說家並沒有真正試圖欺騙我們……最後句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art is a lie whose secret ingredient is truth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術是一個含有真理作為秘密成分的謊言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 broader meaning 可對應原文 “meaning and resonance beyond their creator”。掃描Paragraph F 中段即可找到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Artistic ‘lies’ differ from ordinary lies and from the ‘honest lying’ of chronic confabulators because they have meaning and resonance beyond their creator.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術性的「謊言」不同於普通謊言，也不同於 chronic confabulators 的「誠實說謊」，因為它們具有超越創作者本人的意義和共鳴。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "broader meaning= meaning and resonance beyond their creator所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E — Their audience knows that the stories contain lies."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的觀眾知道這些故事包含虛構或「謊言」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然定位到 Paragraph F，因為這段開頭直接講 actors、playwrights、novelists 和 audience"
+            },
+            {
+              "kind": "paragraph",
+              "text": "之間的規則。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E 的 audience knows 對應原文 “the rules are stated in advance”。這裡要找「觀眾事前知道」的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike Aitken, of course, actors, playwrights and novelists are not literally trying to deceive us, because the rules are stated in advance: come to the theatre or open this book, and we will lie to you.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 Aitken 不同，演員、劇作家和小說家並沒有真正試圖欺騙我們，因為規則一開始已經說明：來到劇院，或打開這本書，我們就會向你說出虛構內容。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "audience knows= the rules are stated in advance stories contain lies= we will lie to you所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 B、C、D 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “They tell lies for their own benefit.”原文把這點留給普通 liar：“A liar lies on his own behalf; an artist tells lies on behalf of everyone.” Playwrights and novelists 的藝術虛構具有共享意義，不限於個人利益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Their work has nothing to do with truth.”原文最後一句說 “Art is a lie whose secret ingredient is truth.” 即藝術雖然用虛構形式，內裡仍包含 truth。C 與原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They can mislead us if we are not careful.”原文說他們 “are not literally trying to deceive us”，而且規則已預先說明。D 加入了「不小心就會被誤導」的警告，文章沒有這樣說。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "national newspaper",
+      "answerKey": "national newspaper",
+      "type": "Summary Completion",
+      "prompt": "“A 24 ______ accused former cabinet minister Jonathan Aitken of improper dealings with 25______.”",
+      "translation": "一間 ______ 指控前內閣大臣 Jonathan Aitken 與 ______ 有不當往來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 24 前面有 “A”，所以答案需要是一個單數名詞短語。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During a now-famous libel case in 1996, former cabinet minister Jonathan Aitken recounted a story to illustrate the horrors he had endured after a national newspaper tainted his name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1996 年一宗如今著名的誹謗案中，前內閣大臣 Jonathan Aitken 講述了一個故事，用來說明一家全國性報章玷污他名聲後，他所承受的痛苦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The evidence revealed not only that Aitken’s daughter had not been with him that day, but also that the minister had simply got into his car and driven away, with no vehicle pursuing him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "證據顯示，Aitken 的女兒當天沒有和他一起；這位大臣只是上車開走，並沒有車輛追逐他。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Jonathan Aitken、former cabinet minister、accused、improper dealings 都指向Paragraph E。原文用 “a national newspaper tainted his name” 和 “claims by The Guardian about…” 交代指控來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The case, which lasted more than two years, concerned claims by The Guardian about Aitken’s relationships with Saudi arms dealers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這宗持續超過兩年的案件，涉及 The Guardian 對 Aitken 與沙特軍火商關係的指稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “A”，所以若填 “The Guardian”，句子會變成 “A The Guardian accused…”，語法不自然。原文第一句提供更合適答案：“a national newspaper”。填入後成為 “A national newspaper accused…” 文法完整，亦符合原文指向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "accused= tainted his name / made claims about national newspaper= the newspaper involved in the libel case, later identified as The Guardian答案是 national newspaper。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "arms dealers",
+      "answerKey": "arms dealers",
+      "type": "Summary Completion",
+      "prompt": "“A national newspaper accused former cabinet minister Jonathan Aitken of improper dealings with 25 ______.”",
+      "translation": "一間全國性報章指控前內閣大臣 Jonathan Aitken 與 ______ 有不當往來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “with”，後面需要人物或群體名詞。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然定位到 Paragraph E。這段專門講 Aitken 誹謗案和他被指控的對象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 improper dealings。原文沒有這個字面短語，但有 “relationships with Saudi arms dealers” 和 “meetings he allegedly held with them”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The case, which lasted more than two years, concerned claims by The Guardian about Aitken’s relationships with Saudi arms dealers, including meetings he allegedly held with them during a trip to Paris while serving as a government minister.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這宗持續超過兩年的案件，涉及 The Guardian 對 Aitken 與沙特軍火商關係的指稱，包括他在擔任政府大臣期間，據稱在巴黎之行中與他們會面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “relationships with” 和 “meetings” 概括成 “improper dealings with”。原文完整短語是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Saudi arms dealers”，但字數限制只允許最多兩個詞，因此可填 arms dealers。這保留了被指控交往對象的核心身份。答案是 arms dealers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Saudi arms dealers” 意思更完整，但有三個詞，超出 NO MORE THAN TWO WORDS 的限制。遇到字數限制時，要保留不可缺少的核心名詞；這裡 “arms dealers” 已足夠對應指控對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "Paris trip",
+      "answerKey": "Paris trip",
+      "type": "Summary Completion",
+      "prompt": "“Aitken’s case collapsed in June 1997 when the defence found indisputable evidence about his 26 ______.”",
+      "translation": "Aitken 的案件在 1997 年 6 月崩潰，因為辯方找到關於他 ______ 的無可爭辯證據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “his”，後面需要名詞短語。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During a now-famous libel case in 1996, former cabinet minister Jonathan Aitken recounted a story…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1996 年一宗著名誹謗案中，前內閣大臣 Jonathan Aitken 講述了一個故事……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The evidence revealed not only that Aitken’s daughter had not been with him that day…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "證據顯示，Aitken 的女兒當天沒有和他一起……Paragraph E 的開頭和結尾都指向一宗案件如何被證據推翻，因此非常適合定位 Question 26。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “case collapsed”、“June 1997”、“defence”、“indisputable evidence” 幾乎原字重現。掃描 Paragraph E 中段，可直接找到答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His case collapsed in June 1997 when the defence found indisputable evidence about his Paris trip.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的案件在 1997 年 6 月崩潰，因為辯方找到了關於他巴黎之行的無可爭辯證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子和原文幾乎完全一致，只把空格留在 “Paris trip”。答案 Paris trip 是兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "case collapsed= case collapsed indisputable evidence= indisputable evidence his Paris trip= his Paris trip這是直接原文填空題，答案形式和文法都很穩定。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Are Artists Liars_.pdf",
+    "sha256": "4e9e14fe48ff89d1cfa129759be077f4103d3ba07dcb997adabfb427af4df08c",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–F",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Marlon Brando 生前正在製作一系列關於演戲的教學影片，題名為 Lying for a Living；末句以 Brando 自稱非常擅長說謊作結。只看首尾句，可以先估計本段用 Brando 作開場例子，把acting 和 lying 直接連起來。段中有 Hollywood stars、improvise、If you can lie, you can act，功能是引出「藝術表演像一種精緻說謊」的主題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出 Brando 並非第一個觀察到 artist 和 liar 之間界線很細的人；末句說作者研究 lying 時發現這些相似處絕非巧合。只看首尾句，可以判斷本段是在建立藝術家和說謊者的共同點。中間提到 common neurological root、refuse reality、craft stories、intellectual sophistication、emotional sensitivity 和 physical self-control，說明兩者都需要創造可信故事的能力。"
+      },
+      {
+        "number": "C",
+        "summary": "首句引入 Antonio Damasio 於 1985 年發表的病例研究，病人因中風而腦部受損；末句指出confabulators 和作家相似，但他們幾乎無法控制自己的材料。只看首尾句，可以先判斷本段主題是 confabulation，即虛構記憶障礙。段中有 definition、examples、honest lying、compulsion to narrate，並列出荒誕故事，用來說明病人如何無意識地編造敘事。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說這種病症的更廣泛意義，在於它揭示了我們自身；末句說人們說謊有很多原因，其中包括confabulation 可能帶來危險的愉悅。只看首尾句，可以推測本段由病症轉向一般人類心理：正常人腦中也有強大的 verbal creativity。文章把藝術創作、說謊和人類天生的 storytelling impulse 連接起來，同時提醒這種創造力可能令人越界。"
+      },
+      {
+        "number": "E",
+        "summary": "首句引入 1996 年一宗著名誹謗案，Jonathan Aitken 在庭上講述自己受害的故事；末句說證據顯示，他的女兒當天沒有和他一起，他也只是開車離開，沒有車輛追逐他。只看首尾句，可以判斷本段是現實說謊失敗的案例。Aitken 的 charm、fluency、theatrical sincerity 一度令勝訴看似可能，但 Paris trip 的證據令案件崩潰。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說與 Aitken 不同，actors、playwrights 和 novelists 並沒有真正試圖欺騙我們，因為規則一開始已經說明。末句以 “Art is a lie whose secret ingredient is truth” 作結。只看首尾句，可以判斷本段是全文結論：藝術中的「謊言」和普通謊言不同。藝術提供安全空間，把人類敘事衝動轉化成具有 shared meaning、truth 和 social usefulness 的東西。"
+      }
+    ]
+  }
+}

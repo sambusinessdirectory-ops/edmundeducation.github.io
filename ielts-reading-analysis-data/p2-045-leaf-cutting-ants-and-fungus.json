@@ -1,0 +1,1379 @@
+{
+  "id": "p2-045-leaf-cutting-ants-and-fungus",
+  "catalogueId": "p2-045",
+  "catalogueIds": [
+    "p2-045"
+  ],
+  "passage": 2,
+  "title": "Leaf-Cutting Ants and Fungus",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "B",
+    "B",
+    "A",
+    "C",
+    "C",
+    "F",
+    "D",
+    "C",
+    "J",
+    "G",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Ant Groups",
+      "prompt": "“can use toxic leaves to feed their fungus”",
+      "translation": "可以利用有毒葉子餵養牠們的 fungus。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是分類題，要判斷這個 feature 屬於 leaf-cutting ants、lower attines，還是兩者都有。題目中最重要的是 “toxic leaves”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leaf-cutting ants and their fungus farms are a marvel of nature and perhaps the best known example of symbiosis, the mutual dependence of two species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "切葉蟻和牠們的 fungus farms 是自然界奇觀，也可能是 symbiosis，即兩個物種互相依賴，最著名的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ants’ achievement is remarkable—the biologist Edward O. Wilson has called it ‘one of the major breakthroughs in animal evolution’—because it allows them to eat, courtesy of their mushroom’s digestive powers, the otherwise poisoned harvest of tropical forests whose leaves are laden with terpenoids, alkaloids and other chemicals designed to sicken browsers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 ants 的成就非常 remarkable；生物學家 Edward O. Wilson 稱之為 animal evolution 的重大突破之一，因為 fungus 的消化能力讓牠們可以利用本來有毒的熱帶森林葉子，這些葉子含有terpenoids、alkaloids 和其他會令食葉動物生病的化學物質。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “toxic leaves”。原文沒有直接用 toxic leaves，但有 “otherwise poisoned harvest” 和 “leaves are laden with … chemicals designed to sicken browsers”。這些就是有毒葉子的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句已限定主體是 “Leaf-cutting ants and their fungus farms”。後面的 “allows them to eat” 中，them 指 leaf-cutting ants。牠們能利用 tropical forest leaves，是因為 mushroom / fungus的 digestive powers 幫助處理葉子中的有害化學物質。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "toxic leaves = poisoned harvest / leaves laden with terpenoids, alkaloids and chemicals use leaves to feed fungus = fungus farms process the leaf material and allow ants to use it Leaf-cutting ants = Paragraph B 明確主體所以 Question 14 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Ant Groups",
+      "prompt": "“build small nests and cultivate different fungus varieties”",
+      "translation": "建造較小的巢，並培養不同種類的 fungus。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C 和 Paragraph D Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fungus growing seems to have originated only once in evolution, because all gardening ants belong to a single tribe, the descendants of the first fungus farmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fungus growing 似乎在演化中只出現過一次，因為所有 gardening ants 都屬於同一 tribe，是第一批 fungus farmer 的後代。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaf-cutters use fresh vegetation; the other groups, known as the lower attines because their nests are smaller and their techniques more primitive, feed their gardens with detritus like dead leaves, insects and faeces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaf-cutters 使用新鮮植物；其他 groups 稱為 lower attines，因為牠們的巢較小、技術較原始，牠們用 dead leaves、insects 和 faeces 之類的 detritus 餵養 gardens。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個定位點： small nests different fungus varieties第一點直接在 Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“their nests are smaller”"
+            },
+            {
+              "kind": "label",
+              "text": "第二點在 Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the lower attine ants were found by the four biologists to use different varieties of the fungus and, in one case, a quite separate species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但四位生物學家發現，lower attine ants 使用不同 varieties of the fungus，其中一個情況甚至是完全不同的 species。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要跨兩段連接。Paragraph C 給出 small nests；Paragraph D 給出 different varieties of fungus。兩個特徵都明確指向 lower attines。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "build small nests = their nests are smaller cultivate different fungus varieties = use different varieties of the fungus lower attines = the other groups known as lower attines所以答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 leaf-cutters 也 cultivate fungus，但題目同時要求 small nests 和 different varieties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個條件合起來時，目標群體只能是 lower attines。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Ant Groups",
+      "prompt": "“use dead vegetation to feed their fungus”",
+      "translation": "使用枯死植物餵養 fungus。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fungus growing seems to have originated only once in evolution, because all gardening ants belong to a single tribe, the descendants of the first fungus farmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fungus growing 似乎在演化中只出現過一次，因為所有 gardening ants 都屬於同一 tribe，是第一批 fungus farmer 的後代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaf-cutters use fresh vegetation; the other groups, known as the lower attines because their nests are smaller and their techniques more primitive, feed their gardens with detritus like dead leaves, insects and faeces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaf-cutters 使用新鮮植物；其他 groups 稱為 lower attines，因為牠們的巢較小、技術較原始，牠們用 dead leaves、insects 和 faeces 之類的 detritus 餵養 gardens。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞 “dead vegetation” 對應原文中的 “detritus like dead leaves”。dead leaves 就是 dead vegetation 的一種直接例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子分成兩邊： Leaf-cutters use fresh vegetation. Lower attines feed their gardens with detritus like dead leaves, insects and faeces.題目問 “dead vegetation”，所以不能選 leaf-cutters，因為 leaf-cutters 的材料是 fresh vegetation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lower attines 的材料包含 dead leaves，因此對應 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dead vegetation = dead leaves / detritus feed their fungus = feed their gardens lower attines = the other groups known as the lower attines所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Ant Groups",
+      "prompt": "“cultivate a single fungus strain rather than several varieties”",
+      "translation": "培養單一 fungus strain，而非幾種不同 varieties。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaf-cutters’ fungus was indeed descended from a single strain, propagated clonally, or just by budding, for at least 23 million years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaf-cutters 的 fungus 確實源自 single strain，並以 clonal 方式，也就是 budding，繁殖了至少2300 萬年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People kept telling me, “You know the ants keep their gardens free of parasites, don’t you?”’ Mr Currie said of his efforts to find a hidden interloper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Currie 談到他尋找隱藏入侵者的努力時說：「人們一直告訴我：你知道 ants 會讓 gardens 沒有parasites，對吧？」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “single fungus strain”。原文第一句有 “single strain”，幾乎直接重現。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rather than several varieties” 則要和後面 lower attines 作比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 leaf-cutters’ fungus descended from a single strain。接著又說 lower attine ants use different varieties of the fungus。因此題目中的 contrast 很清楚： single strain = leaf-cutters different varieties = lower attines"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cultivate a single fungus strain = fungus descended from a single strain rather than several varieties = contrasted with lower attines using different varieties Leaf-cutting ants = leaf-cutters所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Ant Groups",
+      "prompt": "“normally keep a highly dangerous parasite under control”",
+      "translation": "通常能把一種非常危險的 parasite 控制住。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidently the ants usually manage to keep Escovopsis and other parasites under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，這些 ants 通常能夠把 Escovopsis 和其他 parasites 控制住。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is now a possible reason to explain why the lower attine species keep changing the variety of fungus in their mushroom gardens, and occasionally domesticating new ones—to stay one step ahead of the relentless Escovopsis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在有一個可能原因，可以解釋為何 lower attine species 不斷改變 mushroom gardens 裡的fungus variety，並偶爾 domesticating new ones：這是為了比 relentless Escovopsis 走快一步。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “highly dangerous parasite” 對應 Escovopsis。Paragraph F 已說它 “highly virulent”， Paragraph G 說 ants usually manage to keep it under control。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 第一個句子沒有只限定 leaf-cutters，也沒有只限定 lower attines，而用較廣的 “the ants”。這些 ants 指前文的 attine ants，包括 leaf-cutters 和 lower attines。後文也分別提到leaf-cutter gardens 和 lower attine species，說明 Escovopsis 對整個 ant-fungus system 都有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "normally = usually keep under control = keep under control highly dangerous parasite = Escovopsis / highly virulent pathogen the ants = both leaf-cutting ants and lower attine ants所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Ant Groups",
+      "prompt": "“use a special strategy to combat Escovopsis”",
+      "translation": "使用特殊策略對抗 Escovopsis。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I 和 Paragraph J Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovery of a third partner in the ant-fungus symbiosis raises the question of how the attine ants, especially the leaf-cutters, keep this dangerous interloper under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 ant-fungus symbiosis 中發現第三個 partner 後，問題變成：attine ants，尤其是 leaf-cutters，如何控制這個 dangerous interloper。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because both the leaf-cutters and the lower attines use Streptomyces, the bacterium may have been part of their symbiosis for almost as long as the Escovopsis mould.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 leaf-cutters 和 lower attines 都使用 Streptomyces，這種 bacterium 可能幾乎與Escovopsis mould 一樣長久地存在於牠們的 symbiosis 中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “special strategy” 不一定原字出現，要找「如何 combat Escovopsis」。Paragraph I 提到 bacterium Streptomyces，Paragraph J 直接說 both groups use Streptomyces。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Streptomyces 是 Escovopsis 的 “potent poisoner”，能 “inhibiting its growth and suppressing spore formation”。這就是 ants 用來 combat Escovopsis 的策略。Paragraph J 明確補上範圍：“both the leaf-cutters and the lower attines use Streptomyces”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "special strategy = use Streptomyces bacterium combat Escovopsis = inhibit its growth and suppress spore formation both groups = both the leaf-cutters and the lower attines所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The dangerous consequences of Escovopsis”",
+      "translation": "Escovopsis 造成的危險後果。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Escovopsis turns out to be a highly virulent pathogen that can devastate a fungus garden in a couple of days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Escovopsis 原來是一種 highly virulent pathogen，可以在幾天內摧毀 fungus garden。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The deadly mould then turns greenish-brown as it enters its spore-forming stage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 deadly mould 進入 spore-forming stage 時，會變成 greenish-brown。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “dangerous consequences” 對應 “devastate”、“starve to death”、“deadly mould”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 一整段都在描述 Escovopsis 的破壞力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 說 Escovopsis 會像白雲一樣 bloom，包圍整個 fungus garden。其他 ants 不敢接近，與 garden 相關的 ants 會 starve to death。這些全部都是 dangerous consequences。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dangerous consequences = devastate a fungus garden / ants starve to death / deadly mould Escovopsis = Escovopsis所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The risk of cultivating a single fungus strain”",
+      "translation": "培養單一 fungus strain 的風險。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaf-cutters’ fungus was indeed descended from a single strain, propagated clonally, or just by budding, for at least 23 million years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaf-cutters 的 fungus 確實源自 single strain，並以 clonal 方式繁殖至少 2300 萬年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People kept telling me, “You know the ants keep their gardens free of parasites, don’t you?”’ Mr Currie said of his efforts to find a hidden interloper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Currie 說，在他尋找 hidden interloper 的過程中，人們一直告訴他：ants 會讓 gardens 沒有parasites。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “single fungus strain” 和 “risk”。原文第一句直接有 “single strain”。接著原文用monocultures 說明風險："
+            },
+            {
+              "kind": "quote",
+              "text": "“Monocultures, which lack the genetic diversity to respond to changing environmental threats, are sitting ducks for parasites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Monocultures 缺乏 genetic diversity，難以應對 changing environmental threats，因此非常容易成為 parasites 的攻擊目標。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的核心鏈條是： leaf-cutters’ fungus = single strain single strain resembles human crop monocultures monocultures lack genetic diversity therefore they are sitting ducks for parasites這正是 “risk of cultivating a single fungus strain”。Paragraph H 後面會補充 leaf-cutters 真的有more Escovopsis infections，但 Paragraph D 先完整建立了「single strain → monoculture →parasite risk」的理論風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "single fungus strain = single strain / monoculture risk = sitting ducks for parasites / succumb to disastrous pathogen cultivating = grown / propagated clonally所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A comparison of nests and the materials used to feed fungus gardens”",
+      "translation": "比較不同 ants 的 nests，以及牠們餵養 fungus gardens 的材料。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fungus growing seems to have originated only once in evolution, because all gardening ants belong to a single tribe, the descendants of the first fungus farmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fungus growing 似乎在演化中只出現過一次，因為所有 gardening ants 都屬於同一 tribe，是最早 fungus farmer 的後代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaf-cutters use fresh vegetation; the other groups, known as the lower attines because their nests are smaller and their techniques more primitive, feed their gardens with detritus like dead leaves, insects and faeces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaf-cutters 用 fresh vegetation；其他 groups 稱為 lower attines，因為牠們的 nests 較小、技術較原始，牠們用 dead leaves、insects、faeces 等 detritus 餵養 gardens。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中有兩組資訊： nests materials used to feed fungus gardens Paragraph C 最後一句同時包含 “nests are smaller” 和 “feed their gardens with detritus”。它也比較 leaf-cutters 的 fresh vegetation 和 lower attines 的 detritus。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一段的比較很完整： Leaf-cutters：use fresh vegetation Lower attines：nests smaller, techniques more primitive, feed gardens with detritus題目的 “materials used to feed fungus gardens” 對應 “fresh vegetation” 和 “detritus like dead leaves, insects and faeces”。題目的 “comparison of nests” 對應 “their nests are smaller”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "Matching Information",
+      "prompt": "“Ant achievements that preceded comparable human discoveries”",
+      "translation": "Ants 比人類更早完成、與人類發現相類似的成就。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because both the leaf-cutters and the lower attines use Streptomyces, the bacterium may have been part of their symbiosis for almost as long as the Escovopsis mould.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 leaf-cutters 和 lower attines 都使用 Streptomyces，這種 bacterium 可能幾乎與Escovopsis mould 一樣長久地屬於牠們的 symbiosis。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaf-cutters are growing a monocultural crop year after year without disaster, and they are using an antibiotic apparently so wisely and prudently that, unlike people, they are not provoking antibiotic resistance in the target pathogen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaf-cutters 年復一年種植 monocultural crop 卻沒有災難性崩潰，而且牠們似乎非常明智、謹慎地使用 antibiotic；與人類相比，牠們沒有在 target pathogen 中引發 antibiotic resistance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞 “preceded comparable human discoveries” 對應 Paragraph J 的："
+            },
+            {
+              "kind": "quote",
+              "text": "“an ant equivalent of Alexander Fleming discovered antibiotics millions of years before people did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相當於 ant version of Alexander Fleming 的發現者，在人類之前幾百萬年就發現了 antibiotics。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alexander Fleming 是人類抗生素發現的重要代表。原文用他作比較，是為了說 ants 使用Streptomyces 抗 Escovopsis 的策略，早於人類 antibiotic discovery。後文又說 ants 有兩項超越human technology 的成就。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ant achievements = discovered antibiotics / grow monocultural crop without disaster / use antibiotic prudently preceded human discoveries = millions of years before people did comparable human discoveries = Alexander Fleming / antibiotics所以答案是 J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“An advantage of cultivating new fungus varieties”",
+      "translation": "培養新 fungus varieties 的一項好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidently the ants usually manage to keep Escovopsis and other parasites under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，ants 通常能把 Escovopsis 和其他 parasites 控制住。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is now a possible reason to explain why the lower attine species keep changing the variety of fungus in their mushroom gardens, and occasionally domesticating new ones—to stay one step ahead of the relentless Escovopsis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在有一個可能原因，可以解釋為何 lower attine species 不斷改變 mushroom gardens 裡的fungus variety，並偶爾馴化新的 fungus：這是為了比 relentless Escovopsis 走快一步。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “new fungus varieties”。原文有 “keep changing the variety of fungus” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“occasionally domesticating new ones”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段指出，lower attines 改變 fungus variety 的好處，是可以 “stay one step ahead of Escovopsis”。意思是：當 parasite 持續施壓，ants 透過更換或馴化新 fungus，減少被 Escovopsis完全適應和攻破的風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cultivating new fungus varieties = changing the variety of fungus / domesticating new ones advantage = stay one step ahead of Escovopsis Escovopsis = relentless parasite / pathogen所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — His view was later confirmed.",
+      "answerKey": "A — His view was later confirmed.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the passage indicate about Currie’s rejection of the claim that ants keep their gardens free of parasites?”",
+      "translation": "文章如何呈現 Currie 對「ants 會讓 gardens 沒有 parasites」這個說法的拒絕？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D 和 Paragraph E Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People kept telling me, “You know the ants keep their gardens free of parasites, don’t you?”’ Mr Currie said of his efforts to find a hidden interloper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Currie 說，在尋找 hidden interloper 時，人們一直告訴他：ants 會讓 gardens 沒有 parasites。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But after three years of examining attine-ant gardens, Mr Currie discovered that they were far from free of infection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但經過三年檢查 attine-ant gardens 後，Currie 發現它們遠非沒有 infection。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Currie”、“free of parasites”。Paragraph D 有 “free of parasites”； Paragraph E 有 “far from free of infection”。這兩句剛好形成觀點與結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 呈現的是主流說法：people kept telling Currie that ants keep their gardens free of parasites。Paragraph E 用 “But” 轉折，說他三年後發現 gardens far from free of infection，並分離出 parasitic moulds Escovopsis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A：His view was later confirmed.正確。Currie 懷疑有 hidden interloper，後來研究證實 gardens 有 infection 和 Escovopsis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B：His initial study immediately provided sufficient evidence.錯在 “immediately”。原文說 after three years，並非一開始立即有足夠證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C：The passage provides no details.不對。文章有交代三年研究、infection、alien organisms 和 Escovopsis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D：His view was later disproved.方向相反。後來資料支持 Currie 的懷疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "D — a substance that suppresses fungal growth",
+      "answerKey": "D — a substance that suppresses fungal growth",
+      "type": "Multiple Choice",
+      "prompt": "“What did scientists find on the ants’ cuticles under a microscope?”",
+      "translation": "科學家在顯微鏡下看 ants’ cuticles 時，發現了甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovery of a third partner in the ant-fungus symbiosis raises the question of how the attine ants, especially the leaf-cutters, keep this dangerous interloper under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 ant-fungus symbiosis 中發現第三個 partner 後，問題變成 attine ants，尤其是 leaf-cutters，如何控制這個 dangerous interloper。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The bacterium is carried by virgin queens when they leave to establish new nests, but is not found on male ants, playboys who take no responsibility in nest-making or gardening.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 bacterium 由 virgin queens 在離開建立新巢時攜帶，但 male ants 身上沒有，因為牠們不負責 nest-making 或 gardening。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “cuticles” 和 “microscope”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cameron was the first one in a hundred years to put these things under a microscope. He saw it was not inert wax. It is alive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cameron 是一百年來第一位把這些東西放到顯微鏡下觀察的人。他看到那不是 inert wax；它是活的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr. Currie discovered a specialized patch on the ants’ cuticle that harbours a particular kind of bacterium…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Currie 在 ants’ cuticle 上發現一個 specialized patch，裡面有一種特定 bacterium。"
+            },
+            {
+              "kind": "label",
+              "text": "再看功能句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it is a potent poisoner of Escovopsis, inhibiting its growth and suppressing spore formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它是 Escovopsis 的強力抑制者，會 inhibit its growth 並 suppress spore formation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “a substance that suppresses fungal growth” 最貼近這個功能。它指 cuticle 上的bacterium Streptomyces 能抑制 Escovopsis 的 growth 和 spores。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “a substance useful to humans” 有一點相關，因為 Streptomyces 是醫藥界熟悉的bacterium，也是很多 antibiotics 的來源。不過題目問 ants’ cuticles under microscope 的發現，文章在這裡的核心功能是它如何 suppress Escovopsis。D 比 C 更精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Leaf-Cutting Ants and Fungus.pdf",
+    "sha256": "0ccf5c173f81548a41863837926f0b98ada59f834a2ccdf19e0213c7bfc74dfa",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 ants and their agriculture 已被長期研究，但近期研究揭示了關於牠們培養的 fungus、domestication、cultivation 和 protection from pathogens 的新發現。末句說 ants 很久以前已有一項媲美 pharmaceutical laboratory 的發現，用來控制 mould。只看首尾句，可以估計本段是全文導入：先說舊研究很多，再引出新發現，尤其是 fungus farms 並非完全無病原，還有 ants 對抗mould 的特殊方法。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 leaf-cutting ants and their fungus farms 是自然界奇觀，也是 symbiosis 的著名例子。末句說 fungus 的消化能力使 ants 能吃本來有毒的 tropical forest leaves。只看首尾句，可以估計本段主要介紹 leaf-cutting ants 和 fungus 的互利關係。重點在於 ants 依靠 fungus 處理有毒植物，使牠們能利用其他動物難以食用的葉子。Question 14 很可能定位到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 fungus growing 似乎在演化中只出現過一次，因為所有 gardening ants 都屬於同一 tribe。末句比較 leaf-cutters 和 lower attines：leaf-cutters 用 fresh vegetation，lower attines 的 nests較小、技術較原始，並以 detritus 如 dead leaves、insects、faeces 餵養 gardens。只看首尾句，可以估計本段是分類比較段，解釋 attine ants 的種類、巢穴大小和餵養 fungus 的材料。Questions 15、16、22 都與此段高度相關。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 leaf-cutters’ fungus 確實 descended from a single strain，並以 clonal 方式繁殖至少2300 萬年。末句引用 Currie 的話，說別人一直告訴他 ants 會讓 gardens 保持無寄生物。只看首尾句，可以估計本段先講 leaf-cutters 的單一 fungus strain，再提出 Currie 對 parasite 風險的懷疑。中間用 human crop monocultures 作類比，說單一基因系統因缺乏 diversity，容易受 parasite或 pathogen 攻擊。"
+      },
+      {
+        "number": "E",
+        "summary": "首句用 “But” 轉折，說 Currie 研究三年後發現 attine-ant gardens 遠非沒有 infection。末句說他和同事報告分離出 several alien organisms，尤其是 parasitic moulds Escovopsis。只看首尾句，可以估計本段是研究發現段，重點是推翻 gardens free of parasites 的傳統看法。它不像Paragraph F 那樣細講災害後果，主要功能是確認 infection 和 Escovopsis 的存在。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Escovopsis 是 highly virulent pathogen，可以在幾天內摧毀 fungus garden。末句說deadly mould 進入 spore-forming stage 時會變成 greenish-brown。只看首尾句，可以估計本段是 Escovopsis 後果段，描述它如何快速蔓延、包圍 garden，令 ants 不再接近，甚至導致 ants starve to death。Question 20 的 dangerous consequences of Escovopsis 明顯定位在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 ants 通常能把 Escovopsis 和其他 parasites 控制住。末句提出可能原因：lower attine species 不斷改變 fungus variety，偶爾 domesticating new ones，是為了 stay one step ahead of Escovopsis。只看首尾句，可以估計本段解釋 parasite 在演化中的作用，以及 lower attines 為何更換 fungus varieties。Question 18 的 normally keep parasite under control 和 Question 24 的advantage of new varieties 都在這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Currie 發現 leaf-cutters 的 gardens 一般有較少 alien moulds，但 Escovopsis infections反而更多。末句說 leaf-cutters 可能沒有太多選擇，因為牠們培養的 special fungus 會產生nutritious swollen tips 供 ants 食用。只看首尾句，可以估計本段比較 leaf-cutters 和 lower attines的感染風險，也說明 leaf-cutters 堅持 pure fungus variety 的原因。它補充 Paragraph D 的single-strain risk，但更偏向實際感染結果和代價。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 ant-fungus symbiosis 中發現第三個 partner 後，問題變成 ants 如何控制 dangerous interloper。末句說 bacterium 由 virgin queens 帶到新巢，但 male ants 身上沒有，因為牠們不負責 nest-making 或 gardening。只看首尾句，可以估計本段是解釋 ants 對抗 Escovopsis 的機制： cuticle 上有活的 bacterium Streptomyces，能抑制 Escovopsis，也能促進 fungus growth。 Questions 19 和 26 主要依靠這段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說由於 leaf-cutters 和 lower attines 都使用 Streptomyces，這種 bacterium 可能已長期屬於牠們的 symbiosis。末句說 ants 正完成兩項超越人類技術的事：多年種植 monocultural crop 而不災難性崩潰，並且精明使用 antibiotic，沒有引發 antibiotic resistance。只看首尾句，可以估計本段是總結段，強調 ants 很早已「發現」抗生素，甚至在人類前幾百萬年完成類似 Alexander Fleming 的成就。Question 23 就在這段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Question 21 的 Paragraph H 也有相關資訊，因為它說 leaf-cutters 種植 pure variety 的代價是 Escovopsis 風險較高。不過題目用 “single fungus strain”，Paragraph D 直接講 “single strain”、“monocultures”、“sitting ducks for parasites”，所以 D 是更精準的段落。"
+  ]
+}

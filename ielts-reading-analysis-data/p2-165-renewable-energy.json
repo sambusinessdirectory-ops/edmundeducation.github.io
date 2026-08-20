@@ -1,0 +1,1587 @@
+{
+  "id": "p2-165-renewable-energy",
+  "catalogueId": "p2-165",
+  "catalogueIds": [
+    "p2-165"
+  ],
+  "passage": 2,
+  "title": "Renewable Energy",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "B",
+    "D",
+    "A",
+    "C",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In Australia, alternative energy is less expensive than conventional electricity.”",
+      "translation": "在澳洲，替代能源比傳統電力便宜。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。要判斷文章是否支持「alternative energy 較便宜」這個事實。控制詞是 less expensive than，因為這題真正考的是價格比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Electricity can be produced from coal at around 4 cents per kilowatt-hour, but only if the environmental costs are ignored.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "煤電可以每千瓦時約 4 cents 的成本生產，但前提是不計算環境成本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, the AEA reports: ‘The production cost of a kilowatt-hour of wind power is one-fifth of what it was 20 years ago,’ or around 7 cents per kilowatt-hour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，AEA 報告指出，風力發電每千瓦時的生產成本只有二十年前的五分之一，約為 7 cents。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph C 的功能是成本比較：coal electricity 是 4 cents，wind power是 7 cents。題目問 alternative energy 是否較便宜，所以本段是最直接的定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 less expensive、alternative energy、conventional electricity。原文中 conventional electricity 對應 coal，alternative energy 在這裡主要對應 wind power。掃描 Paragraph C 時，最值得停下的是兩組數字：coal = 4 cents；wind = 7 cents。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說煤電可達 “around 4 cents per kilowatt-hour”，風電則是 “around 7 cents per kilowatt-hour”。如果只看市場生產成本，7 cents 高於 4 cents，所以風電較貴。文章還說 Australia has the second cheapest electricity in the world，這令 renewable energy 更難競爭。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "conventional electricity = electricity produced from coal alternative energy = wind power / renewable energy less expensive = lower cost per kilowatt-hour判斷：題目說 alternative energy 較便宜；原文數字顯示 wind power 成本高於 coal electricity。文章提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“but only if the environmental costs are ignored” 很容易令人想：若計算污染，煤電可能不便宜。這是合理推想，但題目問的是文章所給出的比較。原文在 Paragraph C 的實際數字仍是 coal 4 cents、wind 7 cents，所以不能選 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Geoenergy needs to adapt its system to make it less harmful to the environment.”",
+      "translation": "Geoenergy 需要調整其系統，使它對環境較少傷害。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No greenhouse gases are produced, but the system needs some additional features if it is to be environmentally friendly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統不會產生溫室氣體，但如果要做到環保，仍需要一些額外裝置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the Australian source is so large it could supply the entire country’s needs for thousands of years at current rates of consumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，澳洲的這種能源來源非常龐大，按目前消耗速度，足以供應全國數千年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接提示 environmental friendliness，並說系統需要 additional features。題目說Geoenergy needs to adapt its system，所以 Paragraph G 是核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Geoenergy、adapt its system、less harmful、environment。原文沒有用 adapt 或 less harmful，但有 “additional features” 和 “environmentally friendly”。這就是同義定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“No greenhouse gases are produced, but the system needs some additional features if it is to be environmentally friendly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 the system，核心意思是「不排放溫室氣體」仍未足夠；若要環保，還需額外功能。下一句解釋原因：steam will bring with it radon gas，蒸汽會帶出 radon gas。之後蒸汽會經過 heat exchanger，再被送回地下循環。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "needs to adapt its system = needs some additional features less harmful to the environment = environmentally friendly Geoenergy’s system = hot, dry rocks system proposed by Geoenergy判斷：題目意思和原文一致。Geoenergy 的系統需要額外設計，才可更環保。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“No greenhouse gases are produced” 會令人以為系統已完全環保。細讀時要看 but 後面，真正控制答案的是 “needs some additional features”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Dr Prue Chopra has studied the effects of radon gas on the environment.”",
+      "translation": "Dr Prue Chopra 曾研究 radon gas 對環境的影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No greenhouse gases are produced, but the system needs some additional features if it is to be environmentally friendly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統不會產生溫室氣體，但如果要做到環保，仍需要一些額外裝置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the Australian source is so large it could supply the entire country’s needs for thousands of years at current rates of consumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，澳洲的資源非常龐大，按目前消耗速度，足以供應全國數千年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會提到環境問題、radon gas 和 Dr Prue Chopra，因此它與題目高度相關。不過 Skim 只能幫我們定位，不能直接判斷她是否「研究過 radon gas 的影響」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Dr Prue Chopra、radon gas、studied、effects。掃描 Paragraph G，可找到 Dr Prue Chopra，也可找到 radon gas。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Prue Chopra, a geophysicist at the Australian National University and one of the founders of Geoenergy, notes that the steam will bring with it radon gas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲國立大學地球物理學家、Geoenergy 創辦人之一 Dr Prue Chopra 指出，蒸汽會帶出 radon gas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供三項資料： Dr Chopra 是 geophysicist；她是 Geoenergy founders 之一；她指出蒸汽會帶出 radon gas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目要求的是：她 has studied the effects of radon gas on the environment。原文沒有說她研究過 radon gas 的環境影響，也沒有提到 study、research、effects on the environment 等內容。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫檢查",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "notes that radon gas will be brought out = 指出 radon gas 會被帶出has studied the effects = 曾研究影響兩者不能等同。指出一項風險，不足以證明她做過相關研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有相關人物和相關氣體，但缺少「她研究過 radon gas 對環境的影響」這個核心資料。沒有明確相反證據，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "geophysicist 會令人聯想到研究工作；radon gas 也確實和環境風險有關。可是 IELTS Reading要求文章證據，不接受用職業背景自行補出研究內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hot, dry rocks could provide enough power for the whole of Australia.”",
+      "translation": "Hot, dry rocks 能夠為整個澳洲提供足夠能源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No greenhouse gases are produced, but the system needs some additional features if it is to be environmentally friendly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統不會產生溫室氣體，但如果要做到環保，仍需要一些額外裝置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the Australian source is so large it could supply the entire country’s needs for thousands of years at current rates of consumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，澳洲的這種能源來源非常龐大，按目前消耗速度，足以供應全國數千年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看末句，已經可估計本段會支援「供應全澳需求」這類題目。題目中的 whole of Australia 對應原文 entire country’s needs。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Hot, dry rocks、enough power、whole of Australia。原文對應是 “the Australian source is so large” 和 “supply the entire country’s needs”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the Australian source is so large it could supply the entire country’s needs for thousands of years at current rates of consumption.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 the Australian source，即澳洲 hot, dry rocks 資源。核心動詞是 could supply，表示有能力供應。對象是 the entire country’s needs，即全國需求。時間範圍是 for thousands of years，還加上條件 at current rates of consumption，即按目前消耗速度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "whole of Australia = the entire country could provide enough power = could supply the country’s needs hot, dry rocks = the Australian source in this paragraph判斷：題目和原文方向一致。原文甚至比題目更強，說可供應數千年。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前一句說 “Technically speaking, hot, dry rocks are not a renewable source of energy.” 這句談的是分類問題，即它技術上不算 renewable。這不影響它能否供應全國需求。題目問供應能力，所以要看最後一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The new EnviroPower facility will discourage tourists.”",
+      "translation": "新的 EnviroPower 設施會令遊客卻步。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year, EnviroPower recognised that the quality of sunlight in the Mildura district will require a substantially larger collecting area than was previously thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年 EnviroPower 發現，Mildura 地區的陽光質素表示 collecting area 需要比先前估計大得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind speeds closer to the tower will be too high for farming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "靠近高塔的風速會太高，不適合耕作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 revised collecting area，末句講 farming limitation。中間很可能交代新地點帶來的成本與收益，所以題目中的 tourists 應在本段中間掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 EnviroPower、new facility、tourists。原文沒有 discourage tourists，但有 tourism。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides saving in transmission costs, the new site will mean increased revenue from tourism and use of power for telecommunications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了節省輸電成本，新地點也會帶來旅遊收入增加，以及把電力用於電訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 will discourage tourists，即會令遊客卻步。原文說 increased revenue from tourism，即旅遊收入增加。這兩個方向相反。若旅遊收入增加，代表新地點預期會吸引或至少有利於 tourism。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "discourage tourists = make tourists less willing to come increased revenue from tourism = more tourism-related income判斷：原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段提到 increased costs 和 wind speeds too high for farming，可能讓人覺得新項目有負面影響。但題目問 tourists，真正證據是 tourism revenue，方向是增加。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Wavetech was established after another company rejected its founder’s proposal.”",
+      "translation": "Wavetech 是在另一家公司拒絕其創辦人的提案後成立的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another Australian company, Wavetech, is achieving success with a method of harvesting the energy in waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一間澳洲公司 Wavetech 正以一種收集海浪能量的方法取得成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wavetech claims that, at appropriate sites, ‘the cost of electricity produced with our technology should be below 4 cents per kilowatt-hour.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 聲稱，在合適地點，其技術生產的電力成本應低於每千瓦時 4 cents。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段介紹 Wavetech 的技術與成本。題目問公司成立背景，因此要掃描段落中間關於Dr Tim Devine 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Wavetech、established、rejected、proposal。原文直接出現 “rejected the idea” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“establishing Wavetech”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句是：“Wavetech was created when Dr Tim Devine offered the idea to a world-leading wave-generator manufacturer, which rather surprisingly rejected the idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 是在 Dr Tim Devine 把這個想法提交給一家世界領先的 wave-generator manufacturer，而該公司相當令人意外地拒絕這個想法時創立的。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Devine responded by establishing Wavetech and making a number of other improvements to generator design.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Devine 的回應是成立 Wavetech，並對 generator design 作出多項其他改良。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "another company = a world-leading wave-generator manufacturer rejected its founder’s proposal = rejected Dr Devine’s idea was established after = Dr Devine responded by establishing Wavetech判斷：題目和原文意思一致。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 proposal，原文用 idea。這是名詞改寫，不影響意思。另一個要留意的地方是 founder 沒有直接寫成 founder，但 “Dr Devine responded by establishing Wavetech” 足以說明他是成立者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“According to the AEA, Australia is a world leader in developing renewable energy.”",
+      "translation": "根據 AEA，澳洲是發展可再生能源的世界領先者。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The diversity of forms of greenhouse-friendly energy under development in Australia is remarkable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲正在開發的溫室友善能源形式非常多樣，令人注目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Richard Hunter of the AEA, ‘Australia has huge potential for wind, sun and wave technology. We should really be at the forefront, but the reality is we are a long way behind.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AEA 的 Richard Hunter 表示，澳洲在風能、太陽能和波浪技術方面有巨大潛力，本應走在前沿，但現實是遠遠落後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說形式多樣，看似正面；末句轉向 national support disappointing 和 long way behind。題目明確說 according to the AEA，所以最後一句是最強證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 According to the AEA、Australia、world leader、developing renewable energy。原文直接有 Richard Hunter of the AEA，以及 “should really be at the forefront” 和 “long way behind”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“We should really be at the forefront, but the reality is we are a long way behind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們本應走在前沿，但現實是我們遠遠落後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "at the forefront 接近 world leader，但原文加了 should really be，表示理想或應然狀態。真正現實是 “a long way behind”。題目把理想狀態改成現實狀態，方向和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "world leader = at the forefront Australia is = the reality is原文真正說法 = Australia should be at the forefront, but is behind判斷：題目說 AEA 認為澳洲是世界領先者；原文說 AEA 認為澳洲有潛力，但現實是落後。所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 曾說 “In several cases, Australia is at the forefront of global research”，容易令人想選 TRUE。但 Question 21 指定 according to the AEA，最相關證據在 Paragraph K 的 AEA 引文。指名來源時，要優先使用該來源的話。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B — Geoenergy",
+      "answerKey": "B — Geoenergy",
+      "type": "Matching Companies",
+      "prompt": "“During the process, harmful substances are prevented from escaping.”",
+      "translation": "在過程中，有害物質被防止外洩。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No greenhouse gases are produced, but the system needs some additional features if it is to be environmentally friendly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統不會產生溫室氣體，但如果要做到環保，仍需要一些額外裝置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the Australian source is so large it could supply the entire country’s needs for thousands of years at current rates of consumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，澳洲這種資源非常龐大，按目前消耗速度，足以供應全國數千年。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 harmful substances、prevented from escaping、process。Paragraph G 中的 harmful substance 對應 radon gas。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the steam will bring with it radon gas; the steam will pass through a heat exchanger and then be sent back underground for another cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蒸汽會帶出 radon gas；蒸汽會經過 heat exchanger，之後被送回地下進行另一個循環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "radon gas 是需要處理的有害氣體。蒸汽被送回地下，表示該過程設計了處理方法，避免有害物質排放到外面。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "harmful substances = radon gas prevented from escaping = sent back underground during the process = hot, dry rocks steam cycle答案是 B Geoenergy。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 也有 process，並有 water、air、turbine，但沒有有害物質。題目真正定位詞是 harmful substances，不是 process。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — Wavetech",
+      "answerKey": "D — Wavetech",
+      "type": "Matching Companies",
+      "prompt": "“Water is used to force air through a special device.”",
+      "translation": "水被用來推動空氣通過一個特殊裝置。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another Australian company, Wavetech, is achieving success with a method of harvesting the energy in waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一間澳洲公司 Wavetech 正以一種收集海浪能量的方法取得成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wavetech claims that, at appropriate sites, ‘the cost of electricity produced with our technology should be below 4 cents per kilowatt-hour.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 聲稱，在合適地點，其技術生產的電力成本應低於每千瓦時 4 cents。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Water、force air、special device。原文對應是 “flowing water column pushes air back and forth through a turbine”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wavetech’s invention uses a curved surface to push waves into a chamber, where the flowing water column pushes air back and forth through a turbine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 的發明使用一個曲面把海浪推入 chamber，在那裡，流動的水柱把空氣來回推過turbine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 special device 對應 turbine。Water is used to force air 對應 flowing water column pushes air。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "water = flowing water column force air = pushes air back and forth special device = turbine答案是 D Wavetech。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Geoenergy 也使用 water，但它是把水泵入地下加熱成蒸汽；沒有把空氣推過 turbine。題目中的air through a special device 精準指向 Wavetech。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — Australian Hydro",
+      "answerKey": "A — Australian Hydro",
+      "type": "Matching Companies",
+      "prompt": "“Techniques used in other countries are being copied.”",
+      "translation": "正在複製其他國家使用的技術。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australian Hydro has dozens of wind monitoring stations across Australia as part of its aim to become Australia’s pre-eminent renewable energy company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Australian Hydro 在澳洲各地有數十個 wind monitoring stations，作為成為澳洲主要可再生能源公司的目標之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite all these developments, wind power remains one of the few areas of alternative energy in which Australia is nowhere near the global cutting edge, mostly just replicating European designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有這些發展，風能仍是澳洲在替代能源中少數遠未達全球前沿的領域之一，大多只是複製歐洲設計。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 techniques、other countries、copied。原文沒有 copied，但有 “replicating European designs”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“replicating” 就是 copying。European designs 指歐洲設計，也就是其他國家的技術或設計。該句所在段落談 Australian Hydro 和 wind power，所以對應公司是 Australian Hydro。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "techniques used in other countries = European designs being copied = replicating company context = Australian Hydro答案是 A Australian Hydro。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 Europe 和 wind technology，但 Paragraph D 最明確有 “replicating European designs”。遇到配對題，要找最直接的動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "C — EnviroPower",
+      "answerKey": "C — EnviroPower",
+      "type": "Matching Companies",
+      "prompt": "“The system can provide services other than energy production.”",
+      "translation": "這個系統除了生產能源，還可以提供其他服務或用途。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year, EnviroPower recognised that the quality of sunlight in the Mildura district will require a substantially larger collecting area than was previously thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年 EnviroPower 發現，Mildura 地區的陽光質素表示 collecting area 需要比先前估計大得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind speeds closer to the tower will be too high for farming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "靠近高塔的風速會太高，不適合耕作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 services other than energy production。原文可對應 tourism、telecommunications、agribusiness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides saving in transmission costs, the new site will mean increased revenue from tourism and use of power for telecommunications. We’ll also be able to use the outer 500 metres for agribusiness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了節省輸電成本，新地點會增加旅遊收入，並可把電力用於電訊。他們也能把外圍 500 米用於農業商業活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡列出能源生產以外的用途或收益：tourism、telecommunications、agribusiness。這些都屬於其他服務或附加功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "services other than energy production = tourism / telecommunications / agribusiness the system = EnviroPower’s solar chimney project答案是 C EnviroPower。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 談的是低成本發電，Geoenergy 談的是供應全國能源，Australian Hydro 談風能設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 EnviroPower 明確提到旅遊、電訊和農業商業用途。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — Geoenergy",
+      "answerKey": "B — Geoenergy",
+      "type": "Matching Companies",
+      "prompt": "“It is planned to force water deep underground.”",
+      "translation": "計劃把水壓入地底深處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such development uses hot, dry rocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一項發展使用 hot, dry rocks。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An Australian firm, Geoenergy, is proposing to pump water 3.5 kilometres into the earth, where it will travel through tiny fissures in the granite, heating up as it goes until it escapes as steam through another drilled hole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲公司 Geoenergy 提議把水泵入地下 3.5 公里，水會穿過花崗岩中的細小裂縫，途中被加熱，最後以蒸汽形式從另一個鑽孔逸出。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 planned、force water、deep underground。原文對應 “proposing to pump water 3.5 kilometres into the earth”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“proposing” 對應 planned；“pump water” 對應 force water；“3.5 kilometres into the earth” 對應deep underground。公司名字 Geoenergy 直接出現在同一句，所以答案明確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "planned = proposing force water = pump water deep underground = 3.5 kilometres into the earth答案是 B Geoenergy。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Wavetech 也有 water，但水是在 chamber 中推動 air through turbine。題目說 deep underground，這只對應 Geoenergy 的 hot, dry rocks 系統。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "C — EnviroPower",
+      "answerKey": "C — EnviroPower",
+      "type": "Matching Companies",
+      "prompt": "“Original estimates for part of the project have been revised.”",
+      "translation": "項目某部分的原本估計已經被修訂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year, EnviroPower recognised that the quality of sunlight in the Mildura district will require a substantially larger collecting area than was previously thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年 EnviroPower 發現，Mildura 地區的陽光質素表示 collecting area 需要比先前估計大得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind speeds closer to the tower will be too high for farming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "靠近高塔的風速會太高，不適合耕作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 original estimates、part of the project、revised。原文沒有 estimates 和 revised，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“previously thought” 和 “substantially larger collecting area”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句是：“EnviroPower recognised that the quality of sunlight in the Mildura district will require a substantially larger collecting area than was previously thought.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 collecting area 需要比 previously thought 大很多。previously thought 就是原先估計； substantially larger 表示估計已修改。part of the project 對應 collecting area。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "original estimates = previously thought have been revised = will require a substantially larger collecting area part of the project = collecting area company = EnviroPower答案是 C EnviroPower。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 同時提到 new location、tourism、telecommunications、agribusiness。這些是後續補救或收益安排。Question 27 問 revised estimates，真正證據在第一句的 “larger collecting area than was previously thought”。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Renewable Energy.pdf",
+    "sha256": "2059e216ea449897c781f7a3a441a9723c40deb0054c1f7284833bdaa895357c",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句提出 renewable energy 的終極目標：以可和 coal-fired power stations 競爭的價格發電，同時避開煤的污染。末句說一些新技術想把煤從澳洲主要電力來源的位置推下來。只看首尾句，可先估計本段是全文引言，交代研究競賽、成本目標與澳洲煤電背景，後文應比較多種可再生能源技術。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出目前 renewable energy 的領先者是 wind technology。末句引用 Peter Bergin，說澳洲可享受歐洲三十年研究成果，毋須重犯歐洲錯誤。只看首尾句，可估計本段介紹風能的現時優勢，焦點在成本下降、設計改良和澳洲借用歐洲經驗。這段很可能回答關於 wind technology、Australian Hydro、European research 的題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用數字提出煤電成本：每千瓦時約 4 cents，但這是假設不計環境成本。末句說風電成本已大幅下降，但仍約 7 cents per kilowatt-hour。首尾句都在比較 cost，所以本段功能明顯是成本對比。題目若問 renewable energy 是否較便宜、是否能和 conventional electricity 競爭，這段會是核心定位段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Australian Hydro 在澳洲設有多個 wind monitoring stations，目標是成為重要的renewable energy company。末句卻指出，在 wind power 方面，澳洲遠未達全球前沿，大多只是複製歐洲設計。首尾句形成「公司積極發展」與「技術仍落後」的對照。本段很可能回答 Australian Hydro、wind monitoring、European designs、copying techniques 類題目。"
+      },
+      {
+        "number": "E",
+        "summary": "首句用 While wind may currently lead the way 引出轉折：雖然風能目前領先，但一些 developing technologies 可能更有潛力。末句指出這些新技術可提供更可靠電力，避開風車在無風日需要後備電源的批評。首尾句顯示本段是過渡段，把文章由 wind energy 轉到 hot dry rocks、solar chimney、wave power 等新技術。"
+      },
+      {
+        "number": "F",
+        "summary": "首句介紹 one such development uses hot, dry rocks，開始講其中一項新技術。末句說Geoenergy 計劃把水泵到地下 3.5 公里，水在花崗岩裂縫中加熱，再以蒸汽形式從另一個鑽孔逃出。首尾句顯示本段主要解釋 hot dry rocks 的基本原理。題目若有 pump water、deep underground、Geoenergy，答案很可能在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說此系統不產生 greenhouse gases，但若要 environmentally friendly，仍需 additional features。末句說雖然 hot dry rocks 技術上不算 renewable source，但澳洲資源龐大，足以供全國使用數千年。首尾句顯示本段處理兩個評估角度：環境風險與能源潛力。題目若問 radon gas、environmentally friendly、whole country’s needs，應定位此段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句引出另外兩個利用 sun and wind energy 的方案。末句引用 EnviroPower CEO，說這項技術肯定可行。中間講 solar chimney：溫室收集熱空氣，高塔抽升熱空氣，推動 turbine 發電。首尾句顯示本段介紹 EnviroPower 的 solar chimney，強調它把三種古老技術組合成新方案。題目若問tower、greenhouse、turbine、proven engineering，會在此段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 EnviroPower 發現 Mildura 陽光質素令 collecting area 必須比原先估計大很多。末句說靠近高塔的風速太高，不適合 farming。首尾句顯示本段談 solar chimney 項目的修訂與新地點安排：面積要加大，但新地點可帶來 tourism、telecommunications、agribusiness 等額外收益。題目若問 revised estimates 或 extra services，應定位此段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句介紹 Wavetech 正以一種方式收集 wave energy 並取得成功。末句說 Wavetech 聲稱在合適地點，其技術發電成本應低於每千瓦時 4 cents。首尾句顯示本段介紹 wave power 技術、公司成立背景和成本優勢。題目若問 waves、water column、air through turbine、idea rejected、Wavetech established，基本都在這段解答。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說澳洲正在發展的 greenhouse-friendly energy forms 十分多樣。末句引用 AEA 的 Richard Hunter，指出澳洲本應走在 wind、sun、wave technology 前沿，但現實是遠遠落後。首尾句顯示本段是全文結論：澳洲技術潛力大，形式多元，但 national support 不足，整體發展未達領先地位。題目若問 AEA 對澳洲地位的評價，應定位此段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據首句和末句作初步導航，不直接定答案。"
+  ]
+}

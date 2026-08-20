@@ -149,6 +149,12 @@ export function validateArticlePayload(payload, availability) {
   if (!Number.isInteger(article.questionCount) || article.questionCount < 1) {
     fail("questionCount must be a positive integer");
   }
+  const questionNumberStart = article.questionNumberStart === undefined
+    ? 1
+    : article.questionNumberStart;
+  if (!Number.isInteger(questionNumberStart) || questionNumberStart < 1) {
+    fail("questionNumberStart must be a positive integer");
+  }
   if (!Array.isArray(article.answerKey) || article.answerKey.length !== article.questionCount) {
     fail("answerKey length does not match questionCount");
   }
@@ -165,7 +171,10 @@ export function validateArticlePayload(payload, availability) {
       !asObject(question)
       || !numbers.length
       || numbers.length !== rawNumbers.length
-      || numbers.some((number) => number < 1 || number > article.questionCount)
+      || numbers.some(
+        (number) => number < questionNumberStart
+          || number >= questionNumberStart + article.questionCount,
+      )
       || new Set(numbers).size !== numbers.length
       || numbers.some((number, index) => index > 0 && number <= numbers[index - 1])
     ) {
@@ -215,7 +224,7 @@ export function validateArticlePayload(payload, availability) {
   });
   const expectedQuestionNumbers = Array.from(
     { length: article.questionCount },
-    (_, questionIndex) => questionIndex + 1,
+    (_, questionIndex) => questionNumberStart + questionIndex,
   );
   const sortedCoveredNumbers = [...coveredQuestionNumbers].sort((left, right) => left - right);
   if (

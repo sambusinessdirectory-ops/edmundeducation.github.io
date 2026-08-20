@@ -1,0 +1,1872 @@
+{
+  "id": "p2-108-inside-the-mind-of-the-consumer",
+  "catalogueId": "p2-108",
+  "catalogueIds": [
+    "p2-108"
+  ],
+  "passage": 2,
+  "title": "Inside the mind of the consumer",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "v",
+    "i",
+    "ix",
+    "viii",
+    "iii",
+    "vi",
+    "F",
+    "D",
+    "A",
+    "brands",
+    "untruthful",
+    "subconscious",
+    "children"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "v — A misleading name",
+      "answerKey": "v — A misleading name",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first person to apply brain-imaging technology in this way was Gerry Zaltman of Harvard University in the late 1990s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一位以這種方式應用 brain-imaging technology 的人，是 Harvard University 的 Gerry Zaltman，時間在 1990 年代後期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“BrightHouse does not scan people while showing them specific products or campaign ideas, but bases its work on the results of more general fMRI-based research into consumer preferences and decision-making carried out at Emory University in Atlanta.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BrightHouse 並沒有在向人展示特定產品或宣傳構思時掃描他們的大腦；它的工作建基於 Emory University in Atlanta 進行的較一般性 fMRI-based research，研究 consumer preferences 和decision-making。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會處理 neuromarketing 的早期發展，以及某間公司BrightHouse 的真實做法。第一句講歷史起點，最後一句指出公司實際操作和名稱帶出的印象有落差。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 的關鍵是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A misleading name”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B 時，最重要句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the company’s name may itself simply be an example of clever marketing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這間公司的名稱本身，可能只是 clever marketing 的一個例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說 BrightHouse 設立了 “BrightHouse Neurostrategies Group”，這個名稱聽起來像正式做brain-scanning-based neuromarketing。可是後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“BrightHouse does not scan people while showing them specific products or campaign ideas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BrightHouse 並沒有在展示特定產品或宣傳構思時掃描人腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 misleading name 的原因。名字聽起來像它直接替產品或 campaign 做掃描測試，實際上它只是使用更一般的 fMRI research results。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A misleading name= the company’s name may itself simply be an example of clever marketing= 名稱營造出某種 impression，但實際服務內容較間接答案判斷： v 最能概括整段。Paragraph B 並非只講第一位研究者，也不只是介紹一間公司；段落焦點在BrightHouse 這個名稱和真實做法之間的落差。iv “Marketing an alternative name” 較像處理名稱改稱或重新命名，但本段重點是 name 可能令人誤解，所以 v 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "i — A description of the procedure",
+      "answerKey": "i — A description of the procedure",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Can brain scanning really be applied to marketing?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "brain scanning 真的可以應用於 marketing 嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A flow of blood to that area while the subject is looking at a particular logo suggests that he or she identifies with that brand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當受試者看著某個特定 logo 時，若血液流向該腦區，這暗示他或她認同該 brand。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出應用問題，段尾用 logo、brain area 和 brand identification 作例子。只看首尾句，可以估計這段會說明 neuromarketing 如何實際運作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落反覆談甚麼"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的程序詞很密集："
+            },
+            {
+              "kind": "quote",
+              "text": "“A volunteer lies in an fMRI machine and is shown images or video clips.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名志願者躺在 fMRI machine 裡，並觀看 images 或 video clips。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In place of an interview or questionnaire, the subject’s response is evaluated by monitoring brain activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者不用 interview 或 questionnaire，而是透過監測 brain activity 評估受試者反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 配合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 是 “A description of the procedure”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Procedure 指過程、步驟。Paragraph C 正好按步驟說明：受試者躺進 fMRI machine；觀看 images 或 video clips；研究者監測 brain activity；不同腦區因 blood flow 而 “light up”；研究者由此推測 subconscious thought patterns 或 brand identification。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "description of the procedure= volunteer lies in fMRI machine= shown images or video clips= response evaluated by monitoring brain activity答案判斷： i 覆蓋整段。這段不是單純定義 neuromarketing；A 段才是概念定義。Paragraph C 的核心是procedure，所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "ix — Broadening applications",
+      "answerKey": "ix — Broadening applications",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, it seemed that only companies in Europe were prepared to admit that they used neuromarketing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，似乎只有歐洲公司願意承認它們使用 neuromarketing。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More controversially, the New York Times recently reported that a political consultancy, FKF Research, has been studying the effectiveness of campaign commercials using neuromarketing techniques.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更具爭議的是，New York Times 最近報導，一間 political consultancy FKF Research 一直使用neuromarketing techniques 研究 campaign commercials 的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句由 Europe 開始，尾句去到 political campaign commercials。這個跨度已經顯示應用範圍正在擴展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落主線"
+            },
+            {
+              "kind": "label",
+              "text": "段中例子包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two carmakers, DaimlerChrysler in Germany and Ford’s European arm, ran pilot studies in 2003.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩間汽車製造商，德國 DaimlerChrysler 和 Ford 的歐洲分部，在 2003 年進行 pilot studies。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Lieberman Research Worldwide ... is collaborating with the California Institute of Technology (Caltech) to enable movie studios to market-test film trailers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lieberman Research Worldwide 正與 Caltech 合作，讓 movie studios 可以 market-test film trailers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 配合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 是 “Broadening applications”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的發展順序是： Europe carmakers→ American companies→ movie trailers→ political campaign commercials這正是 application areas 的擴大。段落不是在描述單一研究項目，而是在列出 neuromarketing 被不同地區、不同行業採用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Broadening applications= only companies in Europe at first= more recently, American companies= carmakers, movie studios, political consultancy答案判斷： ix 最能概括 Paragraph D。ii “An international research project” 只捕捉 Europe / America 這種地域表面，但段落重點其實是應用範圍擴大，不是某一個跨國研究項目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "viii — Drawbacks to marketing tools",
+      "answerKey": "viii — Drawbacks to marketing tools",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether all this is any more than a modern-day version of phrenology, the Victorian obsession with linking lumps and bumps in the skull to personality traits, is unclear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切是否只不過是現代版 phrenology，仍然不清楚；phrenology 是 Victorian 時代一種迷戀，試圖把頭骨上的凹凸與 personality traits 聯繫起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And even honest people cannot always explain their preferences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使誠實的人，也不能總是解釋自己的偏好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句質疑 neuromarketing 的科學可靠性，段尾再指出傳統訪問方法也有盲點。只看首尾句，可以猜這段主題是 marketing research tools 的限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找段落反覆概念"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 包含多組 flaws："
+            },
+            {
+              "kind": "quote",
+              "text": "“There have been no large-scale studies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前沒有 large-scale studies。"
+            },
+            {
+              "kind": "quote",
+              "text": "“scans of a handful of subjects may not be a reliable guide to consumer behaviour in general.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只掃描少數受試者，未必能可靠指引一般 consumer behaviour。"
+            },
+            {
+              "kind": "quote",
+              "text": "“focus groups and surveys are flawed too…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "focus groups 和 surveys 也有缺陷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 配合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 是 “Drawbacks to marketing tools”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Drawbacks 指缺點、局限。本段既提 neuromarketing 的 limitation，也提 focus groups 和 surveys的 flaws。它不是只批評 brain scan，也把傳統 marketing tools 的問題放在一起比較。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "drawbacks= no large-scale studies= may not be reliable= focus groups and surveys are flawed= people do not always tell the truth= honest people cannot always explain preferences答案判斷： viii 是最完整概括。vii “Medical dangers of the technique” 不合適，因為本段沒有說 brain scan 對身體造成醫療危險；它討論的是研究可靠性和方法限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "iii — An experiment to investigate consumer responses",
+      "answerKey": "iii — An experiment to investigate consumer responses",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is perhaps where neuromarketing has the most potential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那也許正是 neuromarketing 最有潛力的地方。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But when told which drink was which, most subjects said they preferred Brand A, which suggests that its stronger brand image outweighs the more pleasant taste of the other drink.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當受試者被告知哪杯是哪個品牌時，大多數人說自己較喜歡 Brand A，這暗示 Brand A 較強的brand image 壓過了另一種飲品較佳的 taste。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承接上一段「人不能總是說清 preferences」，段尾用 cola brand image 和 taste 的衝突作結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段很明顯會以 experiment 展示 neuromarketing 的潛力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找實驗訊號"
+            },
+            {
+              "kind": "label",
+              "text": "段中有明確實驗詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“An unpublished study of attitudes towards two well-known cola drinks, Brand A and Brand B…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項未出版研究探討人們對兩種知名 cola drinks，即 Brand A 和 Brand B 的態度。"
+            },
+            {
+              "kind": "quote",
+              "text": "“fMRI scanning showed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fMRI scanning 顯示……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 配合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 是 “An experiment to investigate consumer responses”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段實驗有完整設計： blind tasting 中多數人較喜歡 Brand B； fMRI 顯示 Brand B 更強烈啟動 ventral putamen，這是 reward centres 之一；可是揭示品牌後，多數人改稱較喜歡 Brand A；結論是 brand image 可超越 taste。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "experiment= unpublished study consumer responses= attitudes towards two well-known cola drinks= subjects preferred / fMRI scanning showed / brand image outweighs taste答案判斷： iii 最貼合整段。這段雖然也有 brand image，但主體不是品牌理論，而是用一個實驗展示neuromarketing 如何揭示消費者反應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "vi — A potentially profitable line of research",
+      "answerKey": "vi — A potentially profitable line of research",
+      "type": "Matching Headings",
+      "prompt": "Paragraph G",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People form many unconscious attitudes that are obviously beyond traditional methods that utilise introspection,’ says Steven Quartz, a neuroscientist at Caltech who is collaborating with Lieberman Research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Caltech neuroscientist Steven Quartz 說，人會形成許多 unconscious attitudes，而這些顯然超出依靠 introspection 的傳統方法所能處理的範圍；他正與 Lieberman Research 合作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With over $100 billion spent each year on marketing in America alone, any firm that can more accurately analyse how customers respond to products, brands and advertising could make a fortune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單在美國，每年 marketing 開支就超過 100 billion dollars；任何公司若能更準確分析 customers對 products、brands 和 advertising 的反應，都可能賺大錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句指出 neuromarketing 有能力處理 unconscious attitudes，段尾把這種能力連到巨大的marketing spending 和 commercial fortune。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 heading 關鍵概念"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“potentially profitable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“could make a fortune”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能賺大錢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 配合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的邏輯很清楚：傳統方法依賴 introspection，即人自己說出想法；但很多 attitudes是 unconscious 的。若某公司能透過 neuromarketing 更準確分析 consumer responses，它就能在巨大 marketing market 中取得商業利益。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "potentially profitable= could make a fortune line of research= more accurately analyse how customers respond= neuromarketing research into products, brands and advertising答案判斷： vi 是最準確 heading。Paragraph G 並非只講 unconscious attitudes，也不是單純說研究方法；尾句把這項研究的商業價值推到全段焦點，所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "F — Neuromarketing could be used to prevent the exploitation of consumers.",
+      "answerKey": "F — Neuromarketing could be used to prevent the exploitation of consumers.",
+      "type": "Matching People with",
+      "prompt": "Question 20",
+      "translation": "Steven Quartz 的觀點是：neuromarketing 可用來避免消費者被利用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Steven Quartz"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。人名是最強定位詞。Steven Quartz 在 Paragraph G 出現，後面Paragraph I 的 “Dr Quartz” 指同一位人物。要把兩段都掃描，因為 G 講他的研究背景，I 才是對consumer concern 的回應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Quartz counters that neuromarketing techniques could equally be used for benign purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Quartz 回應說，neuromarketing techniques 同樣可以用於 benign purposes，即良性、無害或有益的目的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain-scanning could, for example, be used to determine when people are capable of making free choices, to ensure that advertising falls within those bounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，brain-scanning 可用來判斷人們甚麼時候有能力作出 free choices，從而確保 advertising落在那些界限之內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 明顯是 Quartz 的正面辯護：這項技術可以幫助設定 responsible advertising 的界線。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名和概念定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目人名： Steven Quartz選項 F 的定位概念： prevent exploitation consumers free choices responsible advertising原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are ways to utilise these technologies to create more responsible advertising…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There are ways to utilise these technologies to create more responsible advertising,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "他說：「有一些方法可以利用這些技術來創造更負責任的廣告。」另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain-scanning could, for example, be used to determine when people are capable of making free choices, to ensure that advertising falls within those bounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，brain-scanning 可用來判斷人們甚麼時候能作出自由選擇，以確保廣告落在這些界限之內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 說 “prevent the exploitation of consumers”。原文沒有逐字用 exploitation，但 “free choices” 和 “responsible advertising” 指向同一方向：避免廣告在消費者無法自由選擇時施加影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prevent exploitation of consumers= create more responsible advertising= determine when people are capable of making free choices= ensure advertising falls within those bounds答案判斷： F 最符合 Steven Quartz 的正面回應。B 說 neuromarketing could use introspection，方向不合； Paragraph G 說 unconscious attitudes are beyond traditional methods that utilise introspection，意思是 introspection 的傳統方法不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D — Neuromarketing could make an existing problem worse.",
+      "answerKey": "D — Neuromarketing could make an existing problem worse.",
+      "type": "Matching People with",
+      "prompt": "Question 21",
+      "translation": "Gary Ruskin 認為 neuromarketing 可能令既有問題惡化。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Gary Ruskin"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Gary Ruskin 的 opinion。人名直接定位到 Paragraph H。選項 D 的關鍵是 existing problem worse，因此要找 amplify、pathologies、marketing-related diseases 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumer advocates are wary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消費者權益倡議者對此保持警惕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neuromarketing is a tool to amplify these trends.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Neuromarketing 是一種會放大這些趨勢的工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經呈現負面態度。首句是 wary，尾句是 amplify these trends。它應該對應某個批評性選項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目人名： Gary Ruskin原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gary Ruskin of Commercial Alert, a lobby group, thinks existing marketing techniques are powerful enough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Commercial Alert 這個 lobby group 的 Gary Ruskin 認為，現有 marketing techniques 已經夠強大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Already, marketing is deeply implicated in many serious pathologies,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「marketing 已經深深牽涉到許多嚴重病態之中。」"
+            },
+            {
+              "kind": "quote",
+              "text": "“That is especially true of children, who are suffering from an epidemic of marketing-related diseases, including obesity and type-2 diabetes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這在 children 身上尤其如此；他們正受到 marketing-related diseases 的流行影響，包括 obesity和 type-2 diabetes。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Neuromarketing is a tool to amplify these trends.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Neuromarketing 是一種會放大這些趨勢的工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “make an existing problem worse” 對應原文 “Already…” 和 “amplify these trends”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Already 表示問題已存在；amplify 表示加強、放大，使情況更嚴重。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "existing problem= Already, marketing is implicated in serious pathologies make worse= amplify these trends problem= marketing-related diseases, including obesity and type-2 diabetes答案判斷： D 是 Gary Ruskin 的觀點。E “misuse of medical equipment” 是另一種 criticism，但不是 Ruskin的引文內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — Neuromarketing could be used to contribute towards the cost of medical technology.",
+      "answerKey": "A — Neuromarketing could be used to contribute towards the cost of medical technology.",
+      "type": "Matching People with",
+      "prompt": "Question 22",
+      "translation": "Tim Ambler 認為 neuromarketing 可以為 medical technology 的成本提供補貼。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Tim Ambler"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人名 Tim Ambler 出現在 Paragraph J。選項 A 的核心是 cost of medical technology，所以要找medical equipment、rent、subsidises the cost 這一組詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another worry is that brain-scanning is an invasion of privacy and that information on the preferences of specific individuals will be misused.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個擔憂是，brain-scanning 侵犯 privacy，而且關於特定個人 preferences 的資訊可能被misused。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps more brain-scanning will someday explain why some people like the idea of neuromarketing, but others do not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許有一天，更多 brain-scanning 能解釋為何有些人喜歡 neuromarketing 這個想法，而有些人不喜歡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理兩類 objection：privacy / misuse，以及 medical equipment 被用於 frivolous purposes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tim Ambler 的觀點在後半段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目人名： Tim Ambler原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“But as Tim Ambler, a neuromarketing researcher at the London Business School, says…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘A tool is a tool, and if the owner of the tool gets a decent rent for hiring it out, then that subsidises the cost of the equipment, and everybody wins.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「工具就是工具；如果工具的擁有者把它出租並得到一筆不錯的租金，那就可以補貼設備成本，大家都受益。」這句中： tool = medical equipment / brain-scanning equipment rent for hiring it out = 出租設備得到租金subsidises the cost of the equipment = 補貼設備成本選項 A 說 neuromarketing could contribute towards the cost of medical technology。這正是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“subsidises the cost of the equipment” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "contribute towards the cost= subsidises the cost medical technology= medical equipment / brain-scanning equipment could be used= owner gets rent for hiring it out答案判斷： A 是 Tim Ambler 的觀點。E 說 lead to the misuse of medical equipment，這是 critics 的objection，不是 Ambler 的回應；Ambler 其實在反駁這項擔心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "brands",
+      "answerKey": "brands",
+      "type": "Summary Completion",
+      "prompt": "“Neuromarketing can provide valuable information on attitudes to particular 23 _________.”",
+      "translation": "Neuromarketing 可以提供有價值的資訊，了解人們對特定 _________ 的態度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，要求 ONE WORD ONLY。空格前有 particular，空格應是 plural noun，因為 “particular brands” 或 “particular products” 都是文法上可行的名詞短語。要回到原文找最精準支援。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C and Paragraph G Paragraph C 第一讀："
+            },
+            {
+              "kind": "quote",
+              "text": "“Can brain scanning really be applied to marketing?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "brain scanning 真的可以應用於 marketing 嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A flow of blood to that area while the subject is looking at a particular logo suggests that he or she identifies with that brand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受試者看著某個特定 logo 時，若血液流向該腦區，這暗示他或她認同該 brand。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With over $100 billion spent each year on marketing in America alone, any firm that can more accurately analyse how customers respond to products, brands and advertising could make a fortune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單在美國，每年 marketing 開支超過 100 billion dollars；任何能更準確分析 customers 對products、brands 和 advertising 反應的公司都可能賺大錢。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： attitudes particular neuromarketing brand / logo原文中最貼近 “particular” 的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a particular logo”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和"
+            },
+            {
+              "kind": "quote",
+              "text": "“that brand”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A flow of blood to that area while the subject is looking at a particular logo suggests that he or she identifies with that brand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當受試者看著某個特定 logo 時，若血液流向該腦區，便暗示他或她認同該品牌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 neuromarketing 可以讀取消費者對特定 logo / brand 的認同。Paragraph G 又把研究價值概括為分析 customers respond to “products, brands and advertising”。在 summary 句型"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“attitudes to particular ___” 中，最自然也是最貼近 cola / logo 例子的答案是 brands。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "attitudes to particular brands= identifies with that brand= attitudes towards two well-known cola drinks, Brand A and Brand B= respond to products, brands and advertising答案判斷：答案是 brands。它是一個詞，符合 ONE WORD ONLY。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "untruthful",
+      "answerKey": "untruthful",
+      "type": "Summary Completion",
+      "prompt": "“It may be more reliable than surveys, in which people can be 24 _________, or focus groups, where they may be influenced by others.”",
+      "translation": "它可能比 surveys 更可靠，因為在 surveys 中，人們可能會 _________；在 focus groups 中，人們可能會受其他人影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “people can be” 後面，需要 adjective。題目要求 ONE WORD ONLY，而且指示說要用passage 中的 words。不過你貼出的 passage 對這一點有文本問題：原文說的是 “people do not always tell opinion pollsters the truth”，沒有直接出現 adjective “untruthful”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether all this is any more than a modern-day version of phrenology, the Victorian obsession with linking lumps and bumps in the skull to personality traits, is unclear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切是否只是現代版 phrenology，仍不清楚；phrenology 是 Victorian 時代把頭骨凹凸與人格特徵連在一起的迷戀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And even honest people cannot always explain their preferences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使誠實的人，也不能總是解釋自己的偏好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的功能是比較 neuromarketing、focus groups 和 surveys 的局限。題目中的 surveys和 focus groups 都直接指向本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： surveys focus groups truth influenced by others原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, focus groups and surveys are flawed too: strong personalities can steer the outcomes of focus groups, and people do not always tell opinion pollsters the truth.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, focus groups and surveys are flawed too: strong personalities can steer the outcomes of focus groups, and people do not always tell opinion pollsters the truth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，focus groups 和 surveys 也有缺陷：強勢性格的人可以左右 focus groups 的結果，而人們不一定總是對 opinion pollsters 說真話。"
+            },
+            {
+              "kind": "label",
+              "text": "題目後半句："
+            },
+            {
+              "kind": "quote",
+              "text": "“focus groups, where they may be influenced by others”"
+            },
+            {
+              "kind": "label",
+              "text": "對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“strong personalities can steer the outcomes of focus groups”"
+            },
+            {
+              "kind": "label",
+              "text": "題目前半句："
+            },
+            {
+              "kind": "quote",
+              "text": "“surveys, in which people can be ______”"
+            },
+            {
+              "kind": "label",
+              "text": "對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“people do not always tell opinion pollsters the truth”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果把 “do not always tell the truth” 改成一個形容詞，意思就是 untruthful。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people can be untruthful= people do not always tell opinion pollsters the truth focus groups influenced by others= strong personalities can steer the outcomes答案判斷：答案應是 untruthful。這個答案語法正確，也符合原文意思。可是 supplied passage 沒有逐字出現 “untruthful”，所以這題若被嚴格要求 “words from the passage”，文本本身有一點不一致。做題時可記住：答案概念來自 “do not always tell … the truth”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "subconscious",
+      "answerKey": "subconscious",
+      "type": "Summary Completion",
+      "prompt": "“It also allows researchers to identify the subject’s 25 _________ thought patterns.”",
+      "translation": "它也讓研究者識別受試者的 _________ thought patterns。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 subject’s 和 thought patterns 中間，需要 adjective。要求 ONE WORD ONLY。題目詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“thought patterns” 非常有定位力，原文很可能直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“Can brain scanning really be applied to marketing?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "brain scanning 真的可以應用於 marketing 嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A flow of blood to that area while the subject is looking at a particular logo suggests that he or she identifies with that brand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當受試者看著特定 logo 時，若血液流向該腦區，便暗示他或她認同該 brand。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 介紹 brain-scanning procedure，以及研究者如何由 brain activity 推測受試者內在反應。題目中的 thought patterns 正好屬於本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： subject thought patterns identify / clues原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This provides clues to the subject’s subconscious thought patterns.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This provides clues to the subject’s subconscious thought patterns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這提供了有關受試者 subconscious thought patterns 的線索。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This” 指前面的 fMRI real-time images of brain activity。也就是說，研究者透過 brain activity images，看到不同 areas “light up”，從而得到受試者潛意識思考模式的線索。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "allows researchers to identify= provides clues to the subject’s ______ thought patterns= the subject’s subconscious thought patterns答案判斷：答案是 subconscious。它是一個詞，詞性是 adjective，放在 thought patterns 前面完全自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "children",
+      "answerKey": "children",
+      "type": "Summary Completion",
+      "prompt": "“However, some people are concerned that it could lead to problems such as an increase in disease among 26 _________.”",
+      "translation": "然而，有些人擔心它可能帶來問題，例如令 _________ 之中的疾病增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 among 後面，需要 plural noun 或 group noun。要求 ONE WORD ONLY。題目中的disease 是定位詞，原文可能出現 diseases、obesity、type-2 diabetes。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumer advocates are wary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消費者權益倡議者對此保持警惕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neuromarketing is a tool to amplify these trends.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Neuromarketing 是一種會放大這些趨勢的工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段是 negative concern 段。題目開頭 “However, some people are concerned…”也提示要找批評者或 consumer advocates。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： disease concerned increase children原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is especially true of children, who are suffering from an epidemic of marketing-related diseases, including obesity and type-2 diabetes.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is especially true of children, who are suffering from an epidemic of marketing-related diseases, including obesity and type-2 diabetes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這在 children 身上尤其如此；他們正受到 marketing-related diseases 的流行影響，包括 obesity和 type-2 diabetes。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already, marketing is deeply implicated in many serious pathologies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "marketing 已經深深牽涉到許多嚴重病態之中。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neuromarketing is a tool to amplify these trends.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Neuromarketing 會放大這些趨勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三句合起來表示：Gary Ruskin 擔心 neuromarketing 會加強已有的 marketing-related disease trends，尤其是在 children 身上。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "increase in disease= epidemic of marketing-related diseases= amplify these trends among children= especially true of children答案判斷：答案是 children。一個詞，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 v 15 i 16 ix 17 viii 18 iii 19 vi 20 F 21 D 22 A 23 brands 24 untruthful 25 subconscious 26 children"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Inside the mind of the consumer.pdf",
+    "sha256": "feb3f90cca01949601304c53cc63e46641615b8b52b098389d8f2541a48109e3",
+    "pageCount": 24
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 由一個很直接的 marketing scene 開始：marketers 不再只相信消費者口頭說自己喜歡哪個產品，還想透過 brain scan 看出真正偏好。段尾把 neuroscience 和 marketing 的融合命名為 “neuromarketing”。只看首尾句，這段功能是定義 neuromarketing：它用 EEG、fMRI 等neuroscience tools 去研究 purchasing decisions 背後的 mental processes。這段是概念介紹，若題目問 “What is neuromarketing?”，會很適合定位到 A。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句介紹 Gerry Zaltman 是最早把 brain-imaging technology 用於 marketing 的人。段尾指出 BrightHouse 雖然有一個聽起來很 neuromarketing 的部門名稱，但它沒有在展示特定產品或宣傳構思時掃描人腦，只是引用 Emory University 的一般 fMRI research。只看首尾句，這段會處理 neuromarketing 的早期發展，以及 BrightHouse 名稱可能造成的誤導。題目若問misleading name 或 company name，應看這段。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 開頭提出問題：brain scanning 真的能用於 marketing 嗎？段尾用 brand identification 作例子：若受試者看某 logo 時，medial prefrontal cortex 血流增加，便可能代表他或她認同該品牌。只看首尾句，這段功能是說明操作程序和基本原理：受試者躺在 fMRI machine 裡看 images 或 video clips，研究者不用 interview 或 questionnaire，而是直接監測 brain activity。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句說起初似乎只有 European companies 願意承認使用 neuromarketing。段尾提到更具爭議的政治用途：FKF Research 用 neuromarketing techniques 研究 campaign commercials 的效果。只看首尾句，這段功能是展示 neuromarketing 的應用範圍正在擴大：由歐洲 carmakers，發展到美國 movie trailers market-testing，再到 political advertising。題目若問broadening applications，Paragraph D 是主段落。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句質疑 neuromarketing 是否只是現代版 phrenology，即把頭骨形狀和人格聯繫起來的 Victorian obsession。段尾說即使誠實的人，也不能總是解釋自己的 preferences。只看首尾句，這段主要處理 research tools 的限制。它既指出 neuromarketing 沒有 large-scale studies，少量掃描未必能代表一般消費者，也指出 focus groups 和 surveys 各有問題。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說 neuromarketing 也許在解釋人們無法說清的偏好上最有潛力。段尾說當受試者知道哪杯飲品是哪個 brand 後，多數人改稱較喜歡 Brand A，顯示強大的 brand image 可以壓過另一種飲品較佳的 taste。只看首尾句，這段功能是用 cola drinks 實驗展示 neuromarketing如何研究 consumer responses，尤其是 taste、reward centres 和 brand image 之間的衝突。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句引用 Steven Quartz，指出人形成許多 unconscious attitudes，而這些態度超出依靠 introspection 的傳統研究方法。段尾說美國每年 marketing spending 超過 100 billion dollars，任何能更精準分析 customers 對 products、brands 和 advertising 反應的公司，都可能賺大錢。只看首尾句，這段由 psychological insight 轉向 commercial value，重點是 neuromarketing作為 research line 的盈利潛力。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說 consumer advocates 對 neuromarketing 保持警惕。段尾引用 Gary Ruskin，指 neuromarketing 會 amplify these trends，即放大既有 marketing-related problems。只看首尾句，這段明顯呈現反對者擔憂：現有 marketing 已與不少嚴重 pathologies 有關，尤其影響children，包括 obesity 和 type-2 diabetes。題目若問 make an existing problem worse 或 disease among children，應定位到這段。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 首句說 Dr Quartz 回應批評，認為 neuromarketing techniques 同樣可用於 benign purposes。段尾舉例，brain-scanning 可用來判斷人甚麼時候能作出 free choices，確保advertising 落在合理界限內。只看首尾句，這段是 Quartz 的正面辯護：技術未必只會強化操控，也可用來設計 more responsible advertising，甚至防止消費者在缺乏自由選擇時被廣告影響。"
+      },
+      {
+        "number": "J",
+        "summary": "Paragraph J 首句提出另一個 worry：brain-scanning 可能侵犯 privacy，特定個人的 preference information 可能被 misused。段尾用半開放方式收束，說也許更多 brain-scanning 有一天能解釋為何有人喜歡 neuromarketing，有人不喜歡。只看首尾句，這段功能是補充其他 ethical objections，並加入 Tim Ambler 對 medical equipment rental 的回應：工具出租可補貼設備成本，讓多方受益。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1506 @@
+{
+  "id": "p2-155-seed-hunting",
+  "catalogueId": "p2-155",
+  "catalogueIds": [
+    "p2-155"
+  ],
+  "passage": 2,
+  "title": "Seed Hunting",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "extinction",
+    "drugs or crops",
+    "pioneers",
+    "Sir Joseph Banks",
+    "underground vaults",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The purpose of collecting seeds today differs from that in the past.”",
+      "translation": "今天收集種子的目的和過去不同。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B + Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the pioneers of this botanical treasure hunt was John Tradescant, an English royal gardener who brought back plants and seeds from his journeys abroad in the early 1600s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場植物尋寶的先驅之一是 John Tradescant；他是英國皇家園丁，在十七世紀初從海外旅程帶回植物和種子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later, the English botanist Sir Joseph Banks… was so driven to expand his collections that he sent botanists around the world at his own expense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，英國植物學家 Sir Joseph Banks 非常渴望擴大自己的收藏，以致自費派植物學家到世界各地。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those heady days of exploration and discovery may be over, but they have been replaced by a pressing need to preserve our natural history for the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些令人興奮的探索與發現年代也許已經結束，取代它們的是一種迫切需要：為未來保存我們的自然歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph B 和 C 的首尾句，可以看到文章正在做時間對比：過去是探索、發現和擴充收藏；今天則因植物滅絕壓力，轉向保存自然歷史。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “today”、“differs”、“past”、“purpose”。原文沒有逐字使用 purpose differs，但Paragraph C 的 “have been replaced by” 是很強的對比訊號，表示一個時代的重點已被另一個時代的重點取代。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those heady days of exploration and discovery may be over, but they have been replaced by a pressing need to preserve our natural history for the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些探索與發現的興奮年代也許已經結束，取代它們的是為未來保存自然歷史的迫切需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 today 的 collecting seeds 目的和 past 不同。原文的 past 對應 “exploration and discovery”；today 對應 “a pressing need to preserve our natural history for the future”。兩邊方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“purpose today differs from that in the past”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “exploration and discovery may be over” + “replaced by a pressing need to preserve”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到現代有人為 profit 收集種子，所以今天不只一個目的。不過題目只問今天和過去是否有差異。Paragraph C 已清楚建立「過去探索」和「現代保存」的對比，因此 TRUE 成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Millennium Seed Bank is the earliest seed bank.”",
+      "translation": "Millennium Seed Bank 是最早的種子庫。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E + Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overseen by the Royal Botanic Gardens, the Millennium Seed Bank is the world’s largest wild-plant depository.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Millennium Seed Bank 由 Royal Botanic Gardens 管理，是世界最大的野生植物儲存庫。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are about 1,470 seed banks scattered around the globe, with a combined total of 5.4 million samples…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球約有 1,470 個種子庫，合共有 540 萬個樣本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩處，可以估計文章會談 Millennium Seed Bank 的規模，以及全球 seed banks 的數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過首尾句沒有提供「最早」這種時間排名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Millennium Seed Bank” 和 “earliest”。文章多次出現 Millennium Seed Bank，也有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“world’s largest wild-plant depository”。但 “earliest”、“first”、“oldest”、“founded before others” 等時間比較詞沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文最接近的一句是：“Overseen by the Royal Botanic Gardens, the Millennium Seed Bank is the world’s largest wild-plant depository.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Millennium Seed Bank 由 Royal Botanic Gardens 管理，是世界最大的野生植物儲存庫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“largest” 只表示規模最大，不表示成立時間最早。文章還說全球有約 1,470 個 seed banks，但沒有比較哪一個最早成立，也沒有說 Millennium Seed Bank 早於其他 seed banks。判斷：題目需要的是時間排名：earliest seed bank。原文提供的是規模排名：largest wild-plant depository。這兩種資訊不同。文章沒有提供足夠資料判斷它是否最早，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是把 “largest” 誤讀成 “earliest”。IELTS Reading 很常把「最大」、「最早」、「最完整」、「最重要」分開考。看到最高級不代表所有最高級都成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“One major threat to plant species is the expansion of farmland into wilderness.”",
+      "translation": "植物物種面對的一個主要威脅，是農地擴張到荒野地區。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Overseen by the Royal Botanic Gardens, the Millennium Seed Bank is the world’s largest wild-plant depository.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Millennium Seed Bank 由 Royal Botanic Gardens 管理，是世界最大的野生植物儲存庫。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts predict that during the next 50 years, a further one billion hectares of wilderness will be converted to farmland in developing countries alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家預測，在未來 50 年，單是在發展中國家，就會再有 10 億公頃 wilderness 被轉變成農地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 一方面介紹 Millennium Seed Bank 的保育目標，另一方面解釋植物受威脅的原因，其中包括 wilderness 被轉為 farmland。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “threat”、“plant species”、“farmland”、“wilderness”。Paragraph E 有 “on the verge of extinction”、“habitat destruction”、“wilderness will be converted to farmland”，全部和題目高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’re currently responsible for habitat destruction on an unprecedented scale…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們目前正以前所未有的規模造成棲息地破壞。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts predict that during the next 50 years, a further one billion hectares of wilderness will be converted to farmland in developing countries alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家預測，未來 50 年，僅發展中國家就會再有 10 億公頃 wilderness 被轉變成農地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 farmland expansion into wilderness 是植物物種的一個 major threat。原文說人類活動造成大規模棲息地破壞，並具體指出 wilderness 會被 converted to farmland。這正好支援題目。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“expansion of farmland into wilderness”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “wilderness will be converted to farmland”"
+            },
+            {
+              "kind": "quote",
+              "text": "“major threat”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “habitat destruction on an unprecedented scale” + plants “on the verge of extinction”答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求所有威脅都來自 farmland，也沒有說唯一威脅。原文還提到 human activity、habitat destruction、extinction rates，但 farmland conversion 是其中一個具體例子，所以 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Scientists store seeds in a way similar to the method used by farmers.”",
+      "translation": "科學家儲存種子的方式和農民使用的方法相似。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph H 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seed banks are an insurance policy to protect the world’s plant heritage for the future, explains Dr Paul Smith, another Kew seed hunter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一位 Kew 種子獵人 Dr Paul Smith 解釋，種子庫是一份保險，用來為未來保護世界植物遺產。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The key is to know the flora from a particular area, and that knowledge takes years to acquire.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵是要了解某一特定地區的植物群，而這種知識需要多年才能獲得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 會談 seed banks 的功能，也會談實際保存工作面對的知識挑戰。中間句子很可能解釋 seed conservation 的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “store seeds”、“similar”、“farmers”。Paragraph H 出現 “Seed conservation techniques were originally developed by farmers” 和 “just as in farming”，所以定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Seed conservation techniques were originally developed by farmers,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "他說：「種子保存技術原本是由農民發展出來的。」再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Storage is the basis of what we do: conserving seeds until they can be used, just as in farming.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「儲存是我們工作的基礎：保存種子，直到它們可以被使用，正如農業中的做法一樣。」題目說 scientists 的儲存方式和 farmers 的方法相似。原文清楚說保存技術原本由 farmers developed，而且現代 seed bank 的 storage 做法 “just as in farming”。兩者方向完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“in a way similar to the method used by farmers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “just as in farming”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists store seeds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “Storage is the basis of what we do: conserving seeds…”所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 scientists，原文用 Dr Paul Smith 和 “what we do”。這裡的 “we” 指 seed bank workers /seed hunters，不是一般農民。題目把這類科學保存工作者概括成 scientists，可以接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Technological development is the only hope for saving plant species.”",
+      "translation": "科技發展是拯救植物物種的唯一希望。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph H 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seed banks are an insurance policy to protect the world’s plant heritage for the future…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "種子庫是一份保險，用來為未來保護世界植物遺產。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The key is to know the flora from a particular area, and that knowledge takes years to acquire.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵是要了解某一特定地區的植物群，而這種知識需要多年才能獲得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示：本段不只談技術，也談人的知識、經驗和採集能力。題目中的 “only hope” 範圍非常強，要特別小心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Technological development”、“only hope”、“saving plant species”。Paragraph H出現 “given today’s technology”，所以先停在這一段。不過要繼續看後面的轉折和補充，因為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only” 很容易出現陷阱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "相關原文：“Smith says there’s no reason why any plant species should become extinct, given today’s technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smith 說，以今天的技術來看，沒有理由讓任何植物物種滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句承認 today’s technology 很重要，但題目說的是 “technological development is the only hope”。原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But he admits that the biggest challenge is finding, naming and categorising all the world’s plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他承認，最大的挑戰是尋找、命名和分類世界上所有植物。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“And someone has to gather these seeds before it’s too late.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且必須有人在太遲之前收集這些種子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的真正意思是：現有科技已使保存植物成為可能，可是最大困難在尋找、命名、分類和採集。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把焦點推到 “only hope”，範圍過強，也忽略了文章明確提出的知識與採集挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Technological development is the only hope”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“given today’s technology” + “the biggest challenge is finding, naming and categorising…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有把希望全部放在科技發展上，還把最大挑戰放在人類知識和採集工作上。因此答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被 “given today’s technology” 吸引。這句確實提到 technology，但 “only hope” 是題目加上的絕對化說法。IELTS 遇到 only、all、always 這類詞，要檢查原文有沒有同等強度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Seed-conservation work is often restricted by financial problems.”",
+      "translation": "種子保存工作經常受到財政問題限制。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph J"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph J 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many seed banks are themselves under threat due to a lack of funds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多種子庫本身也因缺乏資金而受到威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The UN’s Food and Agriculture Organization and the Consultative Group on International Agricultural Research have since set up the Global Conservation Trust, which aims to raise US$260 million to protect seed banks in perpetuity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯合國糧農組織和國際農業研究諮詢小組其後成立 Global Conservation Trust，目標籌集 2.6 億美元，永久保護種子庫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯處理 seed banks 的資金困難和籌款保護方案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “restricted”、“financial problems”。原文沒有 restricted，但有 “under threat due to a lack of funds”、“budget had been cut”、“remained static”、“raise US$260 million”。這些都屬於financial problems 的同義語義場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many seed banks are themselves under threat due to a lack of funds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多種子庫本身也因缺乏資金而受到威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the budget had been cut in a quarter and remained static in another 35 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在四分之一的國家中，預算被削減；另有 35% 的國家預算維持不變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 seed-conservation work often restricted by financial problems。原文說 many seed banks under threat due to lack of funds，而且具體提到預算削減和停滯。這些證據支援 “often restricted”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“financial problems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “lack of funds” / “budget had been cut” / “remained static”"
+            },
+            {
+              "kind": "quote",
+              "text": "“restricted”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “under threat” / not enough money to maintain protection答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 說的是 seed banks 本身受威脅，不只是植物受威脅。題目問 seed-conservation work 是否受財政問題限制，正好對應這段的機構資金問題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "extinction",
+      "answerKey": "extinction",
+      "type": "Summary Completion",
+      "prompt": "Question 21",
+      "translation": "有些人收集種子，是為了保護某些物種免於 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people collect seeds for the purpose of protecting certain species from 21__________…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 首句說全球四分之一植物可能在未來 50 年消失。末句說有些人收集種子是為了保育，阻止許多植物物種走向滅絕。因此這段很可能提供 21 的答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “protecting certain species from”，需要一個名詞，表示「免於甚麼」。原文要找conserve、halt、extinction 這組保育語義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others collect to conserve, working to halt the sad slide into extinction facing so many plant species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人為了保育而收集種子，努力阻止那麼多植物物種走向令人悲傷的滅絕。"
+            },
+            {
+              "kind": "quote",
+              "text": "“protecting certain species from extinction”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “halt the sad slide into extinction”答案是 extinction。它是一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要寫 “sad slide into extinction”。這超過題目所需，而且空格前已有 from，只需要名詞extinction。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "drugs or crops",
+      "answerKey": "drugs or crops",
+      "type": "Summary Completion",
+      "prompt": "Question 22",
+      "translation": "另一些人收集種子，是因為它們有能力產生 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…others collect seeds for their ability to produce 22 __________.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 中段談兩類現代 seed hunters：一類為 profit，一類為 conserve。題目中的 “others collect seeds for their ability to produce…” 明顯對應為 profit 收集種子的群體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前 “produce” 對應原文中的 “yield”。題目要找種子或物種能產生甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“These hunters work for biotechnology firms, pharmaceutical companies and private corporations on the lookout for species that will yield the drugs or crops of the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些獵人為生物科技公司、製藥公司和私人企業工作，尋找能產生未來藥物或農作物的物種。"
+            },
+            {
+              "kind": "quote",
+              "text": "“produce”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “yield”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“drugs or crops” 正好填入 summary：produce drugs or crops。答案三個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要寫 “the drugs or crops of the future”，因為超過三個字。答案只需填 “drugs or crops”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "pioneers",
+      "answerKey": "pioneers",
+      "type": "Summary Completion",
+      "prompt": "Question 23",
+      "translation": "早期的 ______ 包括園丁和植物學家。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early 23 __________ included both gardeners and botanists…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph B 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the pioneers of this botanical treasure hunt was John Tradescant, an English royal gardener…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場植物尋寶的先驅之一是 John Tradescant，他是英國皇家園丁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句提到 Sir Joseph Banks 是 English botanist，並派植物學家到世界各地。首尾句剛好對應summary 中的 gardeners and botanists。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前 “Early” 提示要找早期人物的總稱。原文 “Among the pioneers…” 正是答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the pioneers of this botanical treasure hunt was John Tradescant…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場植物尋寶的先驅之一是 John Tradescant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pioneers” 可以包括 John Tradescant 這位 gardener，也包括後文的 botanist Sir Joseph Banks。因此答案是 pioneers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “seed hunters”。Paragraph B 的原文字是 “pioneers”，而 summary 句子的 “Early ___included…” 需要一個表示早期人物群體的名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "Sir Joseph Banks",
+      "answerKey": "Sir Joseph Banks",
+      "type": "Summary Completion",
+      "prompt": "Question 24",
+      "translation": "例如 ______，他自掏腰包資助採集者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…such as 24 __________, who financially supported collectors out of his own pocket.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 末句提到 Sir Joseph Banks 自費派 botanists around the world。這正好對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“financially supported collectors out of his own pocket”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “financially supported”、“out of his own pocket”。原文同義短語是 “at his own expense”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文：“Later, the English botanist Sir Joseph Banks… was so driven to expand his collections that he sent botanists around the world at his own expense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，英國植物學家 Sir Joseph Banks 非常渴望擴大自己的收藏，以致自費派植物學家到世界各地。"
+            },
+            {
+              "kind": "quote",
+              "text": "“at his own expense”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= financially supported … out of his own pocket答案是 Sir Joseph Banks，三個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "John Tradescant 也是早期人物，但題目後半 “financially supported collectors out of his own pocket” 明確對應 Sir Joseph Banks。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "underground vaults",
+      "answerKey": "underground vaults",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "收集到的種子通常儲存在種子庫，其中著名的 Millennium Seed Bank 把種子全部低溫儲存在______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The seeds collected are usually stored in seed banks, one of which is the famous Millennium Seed Bank, where seeds are all stored in the 25 __________ at a low temperature.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句交代 Millennium Seed Bank 的總部位置。中間句說地下庫房內有 260 million dried seeds，全部以 −20°C 保存。這段明顯提供儲存位置和溫度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “stored”、“low temperature”。原文有 “Within its underground vaults…” 和 “all stored at −20°C”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within its underground vaults are 260 million dried seeds from 122 countries, all stored at−20°C to survive for centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在它的地下庫房內，有來自 122 個國家的 2.6 億粒乾燥種子，全部以攝氏零下 20 度儲存，以便存活數百年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “stored in the”，所以答案需要一個地點名詞短語。原文的 “underground vaults” 完整符合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “−20°C”，因為題目空格後已有 “at a low temperature”。它問的是儲存地點，不是溫度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose TWO letters",
+      "prompt": "“Which TWO of the following are provided by plants to humans?”",
+      "translation": "以下哪兩項是植物提供給人類的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The implications of this loss are enormous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種流失的影響非常巨大。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, across the globe, plant species are being driven to extinction before their potential benefits are discovered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在全球各地，植物物種在其潛在好處被發現之前，已被推向滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測本段會解釋植物對人類的重要性，以及植物消失會帶來巨大損失。題目問植物提供甚麼，Paragraph F 是最直接目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項是： A food B fuels C clothes D energy E commercial products要在 Paragraph F 找 plants provide / are a source of / supply 這類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides providing staple food crops, plants are a source of many medicines and the principal supply of fuel and building materials in many parts of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了提供主糧作物外，在世界許多地方，植物也是許多藥物的來源，以及燃料和建築材料的主要供應來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "逐項檢查： A food正確。原文 “staple food crops” 直接對應 food。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B fuels正確。原文 “the principal supply of fuel” 直接對應 fuels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C clothes原文沒有提到衣服或 clothing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D energy fuel 可用來產生能量，但原文選字是 fuel，不是 energy。IELTS 選項要跟文章支援的名詞對齊，所以不選 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E commercial products原文提到 medicines、fuel、building materials，沒有用 commercial products 作概括。這個選項範圍太闊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A 和 B。順序通常不重要。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        26,
+        27
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Seed Hunting.pdf",
+    "sha256": "bfd5c8075e557e0b23ed5365c3dff4bc371ec4f367395ab8c2597af731b1ff38",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說未來 50 年內，全球四分之一植物可能消失，科學家正趕時間保存地球植物遺產。末句說有些人收集種子是為了保育，阻止許多植物物種走向滅絕。只看首尾句，可以先估計本段是全文引入：seed hunting 表面像探險，實際關乎植物滅絕、商業利益和保育使命。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提到早期植物「尋寶」先驅 John Tradescant，他在十七世紀初從海外旅程帶回植物和種子。末句說 Sir Joseph Banks 非常渴望擴大收藏，甚至自費派植物學家到世界各地。這段大概處理seed hunting 的歷史源頭：早期收集偏向探索、收藏、擴充植物材料，為後文現代保育使命作對比。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說那些探索與發現的興奮年代已過去，取代它們的是為未來保存自然歷史的迫切需要。末句介紹 Millennium Seed Bank，這個國際保育項目旨在保護全球最瀕危的野生植物物種。這段功能很清楚：由過去探索轉到現代保育，並正式引出現代 seed hunters 和 Millennium Seed Bank。"
+      },
+      {
+        "number": "D",
+        "summary": "首句交代 Millennium Seed Bank 的總部位置：West Sussex 鄉郊 Wakehurst Place 一座現代玻璃與混凝土建築。末句指出其中包括英國幾乎全部 1,400 種本土有種子植物，是任何國家植物群中最完整的同類收藏。這段主要描述種子庫的地點、儲存方式、規模和收藏完整度，特別強調地下庫房、低溫保存和大量國際樣本。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Millennium Seed Bank 由 Royal Botanic Gardens 管理，是世界最大的野生植物儲存庫。末句預測未來 50 年，僅在發展中國家就會有額外 10 億公頃 wilderness 變成農地。這段功能是說明保育迫切性：人類活動、棲息地破壞、植物滅絕率上升和農地擴張，都推動種子保存工作。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說這種植物流失的影響非常巨大。末句指出全球各地的植物物種在其潛在益處被發現前，已被推向滅絕。只看首尾句，可以估計本段解釋「為甚麼植物消失很嚴重」：植物不只提供糧食，也與藥物、燃料、建材、土壤保護和氣候調節相關，失去植物等於失去未來可能的社會資源。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 World Conservation Union 列出 5,714 種受威脅物種，但真實數字肯定更高。末句說已保存的種子可用於修復受損環境，或用於科學研究，尋找醫藥、農業、地方工業方面的新利益。這段大概會處理受威脅植物數量，以及 seed banks 的實際用途：即使野外滅絕，物種仍可保留後路。"
+      },
+      {
+        "number": "H",
+        "summary": "首句用 Dr Paul Smith 的說法，把 seed banks 比作保護世界植物遺產的 insurance policy。末句說關鍵在於熟悉特定地區植物群，而這種知識需要多年累積。這段功能偏向方法與挑戰：保存技術源自農民，現代技術已有能力保種，真正困難在於尋找、命名、分類和及時採集世界植物。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說全球約有 1,470 個 seed banks，總共有 540 萬個樣本，其中約 200 萬是不同且非重複樣本。末句說大多數保存農業用遺傳材料，只有 15% 已入庫植物是野生植物。這段提供全球 seed bank 概況：數量很多，樣本龐大，但收藏重點主要偏農業，多數野生植物仍未充分保存。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說許多 seed banks 本身也因缺乏資金而受到威脅。末句說 UN’s Food and Agriculture Organization 和 Consultative Group on International Agricultural Research 已成立 Global Conservation Trust，目標籌集 2.6 億美元永久保護種子庫。這段收結到資金問題：種子保存不只面對植物滅絕，也面對機構預算不足和長期維護挑戰。"
+      }
+    ]
+  }
+}

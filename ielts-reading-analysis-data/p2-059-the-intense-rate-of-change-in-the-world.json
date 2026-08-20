@@ -1,0 +1,1150 @@
+{
+  "id": "p2-059-the-intense-rate-of-change-in-the-world",
+  "catalogueId": "p2-059",
+  "catalogueIds": [
+    "p2-059"
+  ],
+  "passage": 2,
+  "title": "The intense rate of change in the world",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "vii",
+    "ix",
+    "ii",
+    "iv",
+    "i",
+    "v",
+    "viii",
+    "D",
+    "B",
+    "C",
+    "D",
+    "是 Choose THREE",
+    "答案次序通常不影響得分。",
+    "原 PDF 未提供第 3 個答案"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "vii — Electronic changes bring waste",
+      "answerKey": "vii — Electronic changes bring waste",
+      "type": "Matching Headings",
+      "prompt": "Paragraph A 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The intense rate of change in the world gives rise to numerous new products – many of them electronic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界變化速度非常快，產生了大量新產品，其中很多都是電子產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old, outdated keyboards, monitors and hard drives all combine to produce what is now widely known as ‘e-waste’ and how to dispose of them appropriately is proving to be a challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "舊式、過時的鍵盤、螢幕和硬碟共同形成現在廣泛稱為 e-waste 的東西，而如何妥善處理它們正成為一項挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vii 的核心詞是 “Electronic changes” 和 “waste”。Paragraph A 中有 “new products"
+            },
+            {
+              "kind": "paragraph",
+              "text": "– many of them electronic”、“frenetic pace of change”、“outdated”、“obsolete computers”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“e-waste”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段的邏輯很清楚：電子產品更新速度快 → 電腦很快變 obsolete → 大量舊電腦變成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "e-waste → disposal 成為問題。Heading vii “Electronic changes bring waste” 能概括全段。為何不選其他 headings： Paragraph A 有 landfills、incinerators 和 hazardous-waste exports，但這些只是舊電腦的可能去向。全段真正起點是 electronic change，結果是 e-waste，所以 vii 最貼近。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "ix — The dangerous substances found in computers",
+      "answerKey": "ix — The dangerous substances found in computers",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most computers are a complicated assembly of hundreds of different materials, many of which are highly toxic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數電腦由數百種不同材料複雜組合而成，其中很多材料高度有毒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Environmentalist Kieran Shaw estimates there is hardly any other product for which the sum of the environmental impacts of raw-material extraction, industrial refining and production, use and disposal is so extensive as for printed circuit boards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "環保人士 Kieran Shaw 估計，幾乎沒有其他產品像 printed circuit boards 一樣，在原料開採、工業精煉、生產、使用和棄置各方面累積出如此廣泛的環境影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ix 的定位詞是 “dangerous substances” 和 “computers”。原文有 “highly toxic”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“toxic metals, acids, plastics and other substances”、“blood diseases and cancers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段先講 computers 內有很多有毒物質，再說這些物質和 blood diseases、cancers 有關，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著以 printed circuit boards 中的 heavy metals 作例子。Heading ix 覆蓋整段。為何不選 vi： vi “The dangers of computer circuit boards” 只抓住本段後半的例子。Paragraph B 的開頭已經把主題放在 whole computers 和 dangerous substances，所以 ix 更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "ii — The hazards of burning computer junk",
+      "answerKey": "ii — The hazards of burning computer junk",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Workers involved in the disposal of computers via incineration are themselves being exposed to significantly high levels of toxicity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與以焚化方式處理電腦的工人，自己也暴露於顯著高水平的毒性之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Concerns have been expressed that the Noranda Smelter in Quebec, Canada is producing atmospheric pollutants from the residual presence of plastics in the e-scrap.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人擔心加拿大 Quebec 的 Noranda Smelter 正因 e-scrap 中殘留塑膠而產生大氣污染物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的定位詞是 “burning” 和 “hazards”。原文中直接出現 “incineration”、“high"
+            },
+            {
+              "kind": "paragraph",
+              "text": "temperatures”、“harmful chemicals”、“heavy metal contamination”、“smelting”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 集中講用高溫處理 e-waste 的危害。Incineration 是焚化；smelting 也涉及高"
+            },
+            {
+              "kind": "paragraph",
+              "text": "溫處理，文中說它可能帶來 similar dangers。Heading ii “The hazards of burning computer junk”最能概括本段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 Noranda 相關 heading：選項中沒有單獨的 Noranda heading。Noranda Smelter 只是最後一個例子，用來支持 burning /smelting 會造成空氣污染這個主題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "iv — Landfills are not satisfactory",
+      "answerKey": "iv — Landfills are not satisfactory",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an effort to explore other alternatives, landfills have been tried.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了探索其他替代方法，人們嘗試過 landfills。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If uncontrolled fires are allowed to burn through these landfill areas, other toxic chemicals such as lead and cadmium are released.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果任由不受控制的火在這些堆填區燃燒，lead 和 cadmium 等其他有毒化學物會被釋放。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位詞是 “Landfills” 和 “not satisfactory”。原文有 “not completely safe”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shortcomings”、“landfills leak”、“not completely tight”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段先說 landfills 曾被嘗試，接著立即用 studies 和 CleanCo 的說法指出即使最好的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "landfill 也不完全安全。Mercury leaching 是重點之一，但段落後面還談 chemical and metal leaching、older dump sites、uncontrolled fires、lead 和 cadmium。為何不選 x： x “Landfills and mercury leaching” 確實命中一個重要細節，但範圍偏窄。Paragraph D 的主旨是landfills 這種處理方式整體不可靠，所以 iv 更能概括全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "i — Exporting e-waste",
+      "answerKey": "i — Exporting e-waste",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An overwhelming majority of the world’s hazardous e-waste is generated by the industrialised market economies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球絕大多數 hazardous e-waste 由工業化市場經濟體產生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1989, the world community established the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal to stop the industrialised nations of the OECD from dumping their waste in less-developed countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1989 年，國際社會建立 Basel Convention，控制危險廢物跨境轉移及處置，以阻止 OECD 工業國把廢物倒到較落後國家。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i 的定位詞是 “Exporting e-waste”。原文有 “export of e-waste”、“ship old computer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "monitors to China”、“final destination”、“Transboundary Movements”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的核心是：發達經濟體產生大量 hazardous e-waste，因外地 labour cost 低、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "regulations lax，所以出口成為另一種 disposal method。Datatek 的 China 例子和 Basel Convention 都支援 “Exporting e-waste” 這個 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 iii： iii “Blame developed countries for e-waste” 有部分相關，因為本段確實提到 industrialised market economies 和 OECD countries。不過全段的動作焦點是 export / dumping /transboundary movements。i 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "v — Producers’ legal responsibility",
+      "answerKey": "v — Producers’ legal responsibility",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Europe has taken the lead on e-waste management by requiring governments to implement laws controlling the production and disposal of electrical products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Europe 在 e-waste management 方面走在前面，要求政府制定法律，控制電器產品的生產和棄置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“European leadership has been necessary because WEEE is growing about three times faster than any other municipal waste stream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲的領導是必要的，因為 WEEE 的增長速度約為其他 municipal waste stream 的三倍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading v 的定位詞是 “Producers’ legal responsibility”。原文有 “Extended Producer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Responsibility”、“places the responsibility ... on the shoulders of the producers”、“requires that producers consider carefully”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 介紹 EU WEEE Directive，但中間大量篇幅都在解釋 EPR，即把產品生產和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "棄置責任放到 producers 身上。它要求 producers 考慮產品進入市場後的 environmental impact，並鼓勵他們在 product life cycle 各階段減少污染和資源消耗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 viii： viii “European e-waste laws” 也有關，但 Paragraph F 的最突出概念是 EPR，也就是 producers的法律責任。Paragraph G 才更像一段逐項列出 WEEE 法例內容的段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "viii — European e-waste laws",
+      "answerKey": "viii — European e-waste laws",
+      "type": "Matching Headings",
+      "prompt": "Paragraph G 的最佳 heading。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“WEEE legislation will phase out the use of toxic substances such as mercury, cadmium and lead in electronic and electrical goods by the year 2008.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "WEEE legislation 會在 2008 年前逐步淘汰電子和電器產品中的 mercury、cadmium 和 lead 等有毒物質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These directives will go a long way toward improving the e-waste problem in Europe and other governments should seriously consider implementing some or all of the legislation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 directives 會大大改善歐洲的 e-waste 問題，其他政府也應認真考慮實施部分或全部法例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的定位詞是 “European e-waste laws”。原文有 “WEEE legislation”、“will"
+            },
+            {
+              "kind": "paragraph",
+              "text": "require”、“The legislation stipulates”、“These directives”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 詳細列出法律內容：淘汰有毒物質、要求 producers 為 collection / recycling /"
+            },
+            {
+              "kind": "paragraph",
+              "text": "disposal 負財政責任、禁止含有毒物質產品被焚化、鼓勵新產品加入 recycled material、要求70% 至 90% collected equipment 被 recycled or reused。這正是 European e-waste laws 的內容清單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不選 xi： xi “New products must contain recycled products” 只對應本段其中一句 “integrate an increasing quantity of recycled material”。本段範圍更廣，包括毒物淘汰、禁焚和回收比例，所以 viii 更好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D — CleanCo",
+      "answerKey": "D — CleanCo",
+      "type": "Matching Companies",
+      "prompt": "“waste sites without strict dumping rules lead to big problems”",
+      "translation": "缺乏嚴格棄置規則的 waste sites 會造成嚴重問題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。第一句說 landfills have been tried；最後一句說 uncontrolled"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fires 會令 lead 和 cadmium 被釋放。這段集中在 landfills 的危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “waste sites”、“without strict dumping rules”、“big problems”。原文對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The situation is far worse for older or less stringent dump sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對較舊或較不嚴格的 dump sites 來說，情況更加糟糕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句出現在 CleanCo managing director Phil Stevenson 的 quotation 後面。CleanCo 的核"
+            },
+            {
+              "kind": "paragraph",
+              "text": "心觀點是 landfill 會 leak，即使最先進的 landfill 也不能一直完全密封。題目把 “older or less stringent dump sites” 改寫成 “waste sites without strict dumping rules”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B — Datatek",
+      "answerKey": "B — Datatek",
+      "type": "Matching Companies",
+      "prompt": "“sending e-waste abroad is cheaper than recycling it domestically”",
+      "translation": "把 e-waste 運到海外，比在本地回收更便宜。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。第一句說 hazardous e-waste 主要由工業化市場經濟體產生；最"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後一句說 Basel Convention 旨在阻止工業國把 waste 倒到較落後國家。這段主要講 e-waste export。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sending abroad”、“cheaper”、“recycling domestically”。原文直接提到 Datatek："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the USA, for example, Datatek, a research company, estimated that it was 12 times cheaper to ship old computer monitors to China than it was to recycle them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如在美國，研究公司 Datatek 估計，把舊電腦螢幕運到中國，比回收它們便宜 12 倍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“ship old computer monitors to China” = sending e-waste abroad。“12 times cheaper ... than ... recycle them” = cheaper than recycling domestically。因此答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "C — Keystone",
+      "answerKey": "C — Keystone",
+      "type": "Matching Companies",
+      "prompt": "“most old computers will be buried or burned”",
+      "translation": "大多數舊電腦會被掩埋或焚燒。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。第一句說電子產品更新很快；最後一句說舊電子設備形成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "e-waste，處理方式成為挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “old computers”、“buried or burned”。Paragraph A 的公司名是 Keystone："
+            },
+            {
+              "kind": "quote",
+              "text": "“Keystone, a US-based research company, reported that in 2005, one computer became obsolete for every new one introduced on the market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國研究公司 Keystone 報告說，2005 年市場每推出一部新電腦，就有一部電腦變得過時。"
+            },
+            {
+              "kind": "label",
+              "text": "後文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of these computers will be destined for landfills, incinerators or hazardous-waste exports.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些電腦大多會被送往堆填區、焚化爐或作為危險廢物出口。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "buried = landfills。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "burned = incinerators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “landfills, incinerators” 改寫成 “buried or burned”。雖然 “Most of these computers...” 不是 Keystone 的直接引號，但它緊接 Keystone 的 obsolete computer 數據，這一段的公司定位點就是 Keystone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "D — CleanCo",
+      "answerKey": "D — CleanCo",
+      "type": "Matching Companies",
+      "prompt": "“it is impossible to contain metal waste in soil”",
+      "translation": "要把金屬廢物完全困在土壤或堆填區內是不可能的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。第一句說 landfills 被嘗試作為 alternative；最後一句說 landfill"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fires 會釋放更多 toxic chemicals。這段反覆講 landfill leakage。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “contain metal waste”、“soil”。原文 CleanCo quotation："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone knows that landfills leak – it has become common knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大家都知道堆填區會洩漏，這已經成為常識。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even the best, state-of-the-art landfills are not completely tight throughout their lifetimes; to one degree or another, a certain amount of chemical and metal leaching occurs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使最好的、最先進的堆填區，也不可能在整個使用壽命中完全密封；不同程度上，一定會有一些化學物和金屬滲漏。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “impossible to contain metal waste in soil” 對應原文 “not completely tight” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“metal leaching occurs”。原文主體是 Phil Stevenson, managing director of CleanCo，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, B, G",
+      "answerKey": "A, B, G",
+      "type": "Choose THREE",
+      "prompt": "Questions 25–27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple-answer 題每個正確選項都要獨立證明，不能用一段模糊證據一次包辦所有答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A — Manufacturers will have to pay for the disposal of their products."
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Manufacturers”、“pay”、“disposal”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will require producers of electrical equipment to be financially responsible for the collection, recycling and disposal of their products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法例會要求電器設備生產者在產品的收集、回收和棄置方面負財政責任。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "manufacturers = producers of electrical equipment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pay for disposal = financially responsible for ... disposal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接改寫，所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — Manufacturers must dispose of the electronic goods they produce."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F / G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Manufacturers”、“must dispose”、“goods they produce”。Paragraph F 先建立"
+            },
+            {
+              "kind": "label",
+              "text": "EPR："
+            },
+            {
+              "kind": "quote",
+              "text": "“Essentially, EPR places the responsibility for the production and disposal squarely on the shoulders of the producers of electronic products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "基本上，EPR 把電子產品的生產和棄置責任直接放在生產者身上。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It will require producers of electrical equipment to be financially responsible for the collection, recycling and disposal of their products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法例會要求電器設備生產者為其產品的收集、回收和棄置負財政責任。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的 “must dispose” 概括了 producers 對 disposal 的責任。嚴格來說，原文強調 financial"
+            },
+            {
+              "kind": "paragraph",
+              "text": "responsibility 和 legal responsibility，不一定表示 manufacturer 要親手處理每件貨品；但在四個錯項中，B 和 EPR / WEEE 的方向相符，是正確項之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G — A large percentage of old products must be included in new products."
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：正確，但 wording 有壓縮"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “old products”、“new products”、“large percentage”。原文有兩句相關："
+            },
+            {
+              "kind": "quote",
+              "text": "“It encourages producers to integrate an increasing quantity of recycled material into any new products they produce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它鼓勵生產者在任何新產品中加入越來越多的回收材料。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, between 70 per cent and 90 per cent by weight of all collected equipment must be recycled or reused.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，所有被收集設備按重量計，有 70% 至 90% 必須被回收或重用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 G 把兩個資訊合併：新產品應加入 recycled material；大量 collected equipment 必須"
+            },
+            {
+              "kind": "paragraph",
+              "text": "recycled or reused。它不是逐字重現，因為原文較精準地說 “recycled material” 和 “recycled or reused”，並沒有說每一件 old product 都直接放入新產品。不過在這組選項中，G 是唯一對應recycled material / 70–90% recycling requirement 的選項，所以選 G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除C “Products made in Europe must be completely recyclable.”原文說 70% 至 90% by weight must be recycled or reused，沒有說 completely recyclable。完全可回收是過度概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Consumers are responsible for disposing of the products they purchase.”原文方向相反，責任放在 producers 身上。Paragraph F 說 “on the shoulders of the producers”， Paragraph G 也說 producers financially responsible。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “Products containing mercury should be incinerated.”原文清楚說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The legislation stipulates that products containing any lead, mercury, cadmium and other toxic substances must not be incinerated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法例規定含有 lead、mercury、cadmium 和其他有毒物質的產品不得焚化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 E 和原文衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F “Other governments around the world will implement EU laws.”原文最後只說 other governments “should seriously consider implementing”，即應該認真考慮採用。should consider 不等於 will implement。題目把建議語氣改成確定未來行動，所以 F 不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The intense rate of change in the world.pdf",
+    "sha256": "78afa1188bfa35791ce1af9f756df5dfff3462be5bce028265a06e30f9245709",
+    "pageCount": 13
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句段 Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句說世界變化速度很快，帶來大量新產品，尤其是電子產品。尾句說舊鍵盤、螢幕和硬碟共同形成 e-waste，如何妥善處理已成挑戰。只看首尾句可見，本段由快速電子更新帶出廢棄電腦問題，重點在 obsolete computers、landfills、incinerators、hazardous-waste exports 和 e-waste。 B 首句說電腦由數百種材料組成，其中很多高度有毒。尾句引用 Kieran Shaw，指出 printed circuit boards 在原料開採、精煉、生產、使用和棄置方面造成廣泛環境影響。首尾句顯示，本段集中於電腦內的有毒物質，以及這些物質對人體和環境造成的危害。 C 首句說焚化電腦的處理工人會暴露於顯著高水平毒性之中。尾句提到 Noranda Smelter可能因 e-scrap 中殘留塑膠而產生大氣污染物。只看首尾句可見，本段主要講 burning /incineration / smelting 的危害，尤其是重金屬污染和有害化學物質釋放。 D 首句說為探索其他處理方法，人們嘗試使用 landfills。尾句說若 uncontrolled fires 在landfill areas 中燃燒，lead 和 cadmium 等其他有毒化學物會被釋放。首尾句顯示，本段討論 landfill 方案的不足：即使現代堆填區也會洩漏，mercury 和其他金屬會滲入土壤。 E 首句說全球絕大多數 hazardous e-waste 由工業化市場經濟體產生。尾句說 Basel Convention 的建立，是為了阻止 OECD 工業國把廢物倒到較落後國家。首尾句顯示，本段集中在 e-waste export：發達國家因成本和規管差異，把廢物運往較貧窮國家處理。 F 首句說 Europe 在 e-waste management 方面領先，要求政府制定法律控制電器產品的生產和棄置。尾句說 WEEE 增長速度約為其他 municipal waste stream 的三倍。首尾句顯示，本段介紹 EU WEEE Directive 和 EPR，核心在 producers 對產品生命週期負起法律和環境責任。 G 首句說 WEEE legislation 會在 2008 年前逐步淘汰 mercury、cadmium 和 lead 等有毒物質。尾句說這些 directives 會大大改善歐洲 e-waste 問題，其他政府也應認真考慮採用部分或全部法例。首尾句顯示，本段詳細列出歐洲 e-waste 法例內容，包括禁焚、回收、重用和生產者付費。",
+        "label": "落"
+      },
+      {
+        "number": "2",
+        "summary": "25–27 是 Choose THREE，答案次序通常不影響得分。",
+        "label": "25–27 A, B, G"
+      }
+    ]
+  }
+}

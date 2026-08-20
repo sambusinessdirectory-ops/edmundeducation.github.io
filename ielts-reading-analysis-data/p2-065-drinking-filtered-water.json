@@ -1,0 +1,1440 @@
+{
+  "id": "p2-065-drinking-filtered-water",
+  "catalogueId": "p2-065",
+  "catalogueIds": [
+    "p2-065"
+  ],
+  "passage": 2,
+  "title": "DRINKING FILTERED WATER",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "F",
+    "E",
+    "G",
+    "C",
+    "D",
+    "B",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“a short summary of the main points of the text”",
+      "translation": "文章主要重點的簡短總結。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找哪一段有全文大意，不只是某一種金屬、某一種 filter，或某一項身體好處。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The body is made up mainly of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人體主要由水組成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is also free of poisonous metals and chemicals that are common in tap water and even in some bottled water brands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 也不含 tap water 以及某些 bottled water 品牌中常見的有毒金屬和化學物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 的功能是 opening overview。它先說水與健康的關係，再把 filtered water 的優點概括出來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “short summary” 和 “main points”。原文沒有 summary 這個字，所以要找能同時覆蓋多個後文主題的段落。Paragraph A 同時提到 health、contaminants、bacteria、poisonous metals、chemicals，正好是全文主軸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is healthier than tap water and some bottled water. This is because it is free of contaminants…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 比 tap water 和某些 bottled water 更健康，原因是它沒有 contaminants，即令水變髒或有害的物質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句概括了全文基本立場：filtered water 較健康，因為去除了有害物質。後文 B–G 只是分別展開contaminants、化學物、金屬、身體排毒和 filter 選擇。因此 A 是短 summary。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 是結尾段，但它主要講如何用 CCR 決定 filter 類型，沒有總結全文所有好"
+            },
+            {
+              "kind": "paragraph",
+              "text": "處，所以不選 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“a variety of methods used for water filtration”",
+      "translation": "多種用來過濾水的方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many different ways to filter water and each type of filter targets different contaminants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過濾水有很多不同方法，而且每種 filter 針對不同 contaminants。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ozone water filters, on the other hand, are particularly effective at removing germs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，ozone water filters 對去除 germs 特別有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 的功能十分清楚：介紹不同 filter 方法和它們針對的 contaminants。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “variety of methods” 和 “water filtration”。原文對應 “many different ways to filter water”。題目用 variety，原文用 many different ways。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“activated carbon water filters are very good at taking chlorine out. Ozone water filters, on the other hand, are particularly effective at removing germs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "activated carbon water filters 很擅長去除 chlorine。另一方面，ozone water filters 對去除 germs特別有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡列出兩種 filtration methods：activated carbon filters 和 ozone filters。因此答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也提到 decide what type of water filter to use，但它處理的是如何選 filter，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不是列舉 filtering methods。Question 15 要找「方法種類」，所以 F 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“making it easier for the body to get rid of dangerous chemicals”",
+      "translation": "令身體更容易排走危險化學物或毒素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The benefits of water are well known.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水的好處眾所周知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is because the body can perform all of its functions much more easily and this results in improved metabolism, better weight management, improved joint lubrication as well as efficient skin hydration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是因為身體可以更容易執行所有功能，結果包括新陳代謝改善、體重管理更好、關節潤滑改善，以及皮膚補水更有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 講水對身體功能的好處。題目中的 get rid of dangerous chemicals 對應中間的 detoxify / toxins。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “body”、“get rid of” 和 “dangerous chemicals”。原文對應 “detoxify the body”、“rid itself of toxins”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, the purer the water we drink, the easier it is for the body to rid itself of toxins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，我們喝的水越純，身體就越容易排走 toxins。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 dangerous chemicals 是對 toxins 的概括；get rid of 對應 rid itself of。這段明確講 filtered water 如何幫助身體 detoxification，因此答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也有 contaminants 和 harmful substances，但它只說 filtered water 沒有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "contaminants；Question 16 的重點是身體如何排走 toxins，這個動作在 E 才出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“finding out which contaminants your water filter should target”",
+      "translation": "找出你的 water filter 應該針對哪些 contaminants。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For this reason, it is very important to know exactly what is in the water that we drink so that we can decide what type of water filter to use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們很重要要準確知道自己喝的水裏有甚麼，才能決定使用哪一種 water filter。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you know what these contaminants are, then it is easier to decide which type of water filter to get.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你知道這些 contaminants 是甚麼，就更容易決定要買哪一種 water filter。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 的功能是「先查水裏有甚麼，再決定 filter 類型」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “finding out”、“contaminants”、“target”。原文沒有 target 這個字，但有 “know exactly what is in the water” 和 “listing the contaminants”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Consumer Confidence Report (CCR) should be useful for this purpose. This is a report that is issued by public water suppliers every year, listing the contaminants present in the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Consumer Confidence Report 應該對這個目的有用。這是一份由公共供水商每年發出的報告，列出水中存在的 contaminants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “finding out which contaminants” 對應 CCR listing contaminants。題目的 “your water filter should target” 對應 “decide what type of water filter to use / get”。所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 說每種 filter targets different contaminants，很容易吸引人。但 F 沒有說如"
+            },
+            {
+              "kind": "paragraph",
+              "text": "何找出自己水中有哪些 contaminants；G 才提到 CCR 和查出 contaminants 的方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“allergies caused by dangerous metals”",
+      "translation": "由危險金屬引起或相關的 allergies。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is also free of metals, such as mercury and lead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 也不含 mercury 和 lead 等金屬。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists believe there is a connection between mercury in the water and many allergies and cancers as well as disorders, such as ADD, OCD, autism and depression.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家相信水中的 mercury 和許多 allergies、cancers，以及 ADD、OCD、autism、depression 等disorders 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 C 專門講 dangerous metals，尤其 mercury，並列出健康問題，包括allergies。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “allergies” 和 “dangerous metals”。原文直接出現 “metals, such as mercury and lead”以及 “many allergies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists believe there is a connection between mercury in the water and many allergies and cancers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家相信水中的 mercury 和許多 allergies 及 cancers 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要留意：題目用 “caused by”，原文較保守地寫 “there is a connection”。在 Matching Information 題中，任務是找哪段包含相關資訊；Paragraph C 明確把 mercury 這種金屬和allergies 放在同一句，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“a dangerous metal found in the plumbing of old buildings”",
+      "translation": "在舊建築物水管中找到的危險金屬。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lead, on the other hand, typically finds its way into our drinking water due to pipe leaks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，lead 通常因水管滲漏進入我們的飲用水。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is another reason why children and pregnant women must drink filtered water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是兒童和孕婦必須飲用 filtered water 的另一原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 講的是 lead 這種金屬如何由 pipe leaks 進入水中，並解釋它為何危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “dangerous metal”、“plumbing”、“old buildings”。原文對應 “Lead”、“pipes in old houses”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, modern pipes are not made of lead but pipes in old houses usually are.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，現代水管不是用 lead 製成，但 old houses 的水管通常是。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lead is a well-known carcinogen and is associated with pregnancy problems and birth defects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lead 是已知 carcinogen，並與懷孕問題和出生缺陷有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “plumbing of old buildings” 對應 “pipes in old houses”。dangerous metal 對應 lead。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“chemicals used to clean water by destroying bacteria”",
+      "translation": "用來透過殺菌清潔水的化學物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The authorities know that normal tap water is full of contaminants and they use chemicals, such as chlorine and bromine, in order to disinfect it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當局知道普通 tap water 充滿 contaminants，所以使用 chlorine 和 bromine 等化學物來 disinfect它。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is typically free of such water-disinfectant chemicals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 通常沒有這類 water-disinfectant chemicals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 B 講清潔 tap water 所用的 disinfectant chemicals。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “chemicals”、“clean water”、“destroying bacteria”。原文用 “disinfect”。disinfect 的意思是消毒，即殺死或去除 germs / bacteria。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“they use chemicals, such as chlorine and bromine, in order to disinfect it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們使用 chlorine 和 bromine 等化學物來消毒水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “disinfect” 解釋成 “clean water by destroying bacteria”。原文直接列出 chlorine and bromine，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The type of water you consume on a regular basis has a great impact on your overall health and well-being.”",
+      "translation": "你日常飲用的水類型，對整體健康和身心狀態有重大影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph A，並可用 Paragraph E 補強。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The body is made up mainly of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人體主要由水組成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第二句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that the quality of water that we drink every day has an important effect on our health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示我們每天飲用的水質，對健康有重要影響。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is because the body can perform all of its functions much more easily and this results in improved metabolism, better weight management, improved joint lubrication as well as efficient skin hydration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是因為身體可以更容易執行所有功能，結果包括新陳代謝改善、體重管理更好、關節潤滑改善，以及皮膚補水更有效。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “regular basis”、“great impact”、“overall health”。原文沒有 regular basis，但 “drink every day” 就是日常飲用。great impact 對應 “important effect”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 明確說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the quality of water that we drink every day has an important effect on our health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們每天飲用的水質對健康有重要影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也說 filtered water is good for our health in general，並列出 metabolism、weight management、joint lubrication、skin hydration 等整體身體功能。題目中的 “overall health and well-being” 是對 “health in general” 和多項身體功能改善的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目命題和原文方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "regular basis = every day great impact = important effect overall health = health in general / body functions所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Filtered water typically contains water disinfectant chemicals.”",
+      "translation": "Filtered water 通常含有 water disinfectant chemicals。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The authorities know that normal tap water is full of contaminants and they use chemicals, such as chlorine and bromine, in order to disinfect it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當局知道普通 tap water 充滿 contaminants，所以使用 chlorine 和 bromine 等化學物來消毒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is typically free of such water-disinfectant chemicals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 通常沒有這類 water-disinfectant chemicals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 明顯對比 tap water 的消毒化學物和 filtered water 的特點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Filtered water”、“typically”、“water disinfectant chemicals”。原文最後一句幾乎原字重現，但核心在 “free of”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is typically free of such water-disinfectant chemicals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 通常沒有這類水消毒化學物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 contains，即含有。原文說 free of，即不含。這是直接相反資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目主體是 filtered water，原文主體也是 filtered water；題目動作是 contains，原文關鍵短語是free of。兩者衝突，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Exposure to disinfectant chemicals is linked with poisoning of the vital organs.”",
+      "translation": "接觸或攝入消毒化學物，和重要器官中毒有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The authorities know that normal tap water is full of contaminants and they use chemicals, such as chlorine and bromine, in order to disinfect it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當局知道普通 tap water 充滿 contaminants，所以使用 chlorine 和 bromine 等化學物消毒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is typically free of such water-disinfectant chemicals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 通常沒有這類 water-disinfectant chemicals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 B 會處理 disinfectant chemicals 的使用與風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “disinfectant chemicals”、“poisoning”、“vital organs”。原文對應 “bromine”、“may poison the brain, heart, kidneys and liver”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, long-term consumption of bromine may result in low blood pressure and may poison the brain, heart, kidneys and liver.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，長期攝入 bromine 可能導致低血壓，並可能毒害腦、心、腎和肝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bromine 在同段第一句已被列為用來 disinfect tap water 的 chemical。brain、heart、kidneys、liver都是重要器官。題目用 “Exposure to disinfectant chemicals” 概括原文的 “long-term consumption of bromine”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 disinfectant chemicals linked with poisoning vital organs；原文說 bromine 這種disinfectant chemical may poison brain, heart, kidneys and liver。意思一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Drinking tap water helps minimise your exposure to harmful elements.”",
+      "translation": "飲用 tap water 有助減少你接觸 harmful elements。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落可看 Paragraph A、B、C、D。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The body is made up mainly of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人體主要由水組成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is also free of poisonous metals and chemicals that are common in tap water and even in some bottled water brands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 也不含 tap water 和某些 bottled water 品牌中常見的有毒金屬和化學物。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“normal tap water is full of contaminants”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通 tap water 充滿 contaminants。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “tap water”、“minimise exposure”、“harmful elements”。原文中 tap water 和contaminants / poisonous metals / chemicals 多次同段出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“normal tap water is full of contaminants”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通 tap water 充滿 contaminants。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“poisonous metals and chemicals that are common in tap water”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tap water 中常見有毒金屬和化學物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 drinking tap water helps minimise exposure，表示 tap water 可以減少接觸 harmful elements。原文方向剛好相反：tap water 被描述為 full of contaminants，且常見 poisonous metals and chemicals。文章中能減少這些接觸的是 filtered water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目把 tap water 描述成有保護作用；原文把 tap water 描述成 contaminants 和有毒物的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這構成明確衝突，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People who wear dentures are more likely to be exposed to contaminants.”",
+      "translation": "戴 dentures 的人較容易接觸 contaminants。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C，因為這題有 dentures，容易聯想到 dental。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Filtered water is also free of metals, such as mercury and lead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Filtered water 也沒有 mercury 和 lead 等金屬。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists believe there is a connection between mercury in the water and many allergies and cancers as well as disorders, such as ADD, OCD, autism and depression.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家相信水中的 mercury 和 allergies、cancers，以及 ADD、OCD、autism、depression 等disorders 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “dentures” 和 “contaminants”。原文沒有 dentures。最接近的是 “dental amalgam waste produced by dentists”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mercury has ended up in our drinking water mainly because the dental amalgam waste produced by dentists has not been disposed of safely for a long time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mercury 進入我們的飲用水，主要是因為 dentists 產生的 dental amalgam waste 長期沒有被安全處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文講的是 dentists 產生的 dental amalgam waste 如何污染飲用水。它沒有提到戴 dentures 的人，也沒有比較他們是否更容易接觸 contaminants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章提供了 dental waste 和 mercury 污染的背景，但缺少以下兩項資料： people who wear dentures； more likely to be exposed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有明確衝突，也沒有足夠支持，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dental 和 dentures 都和牙齒有關，但 IELTS Reading 要看原文具體主體。原文主體是 dentists和 dental amalgam waste，題目主體是 people who wear dentures。主體已經換了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People who are depressed often suffer from dehydration.”",
+      "translation": "患 depression 的人經常有 dehydration。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落是 Paragraph C 和 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 最後一句提到 depression。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 最後一句提到 efficient skin hydration。兩個字面上都與題目有部分關聯，所以要細讀，不能只因兩個概念都出現就作答。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists believe there is a connection between mercury in the water and many allergies and cancers as well as disorders, such as ADD, OCD, autism and depression.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家相信水中的 mercury 和 allergies、cancers，以及 ADD、OCD、autism、depression 等disorders 有關。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…improved metabolism, better weight management, improved joint lubrication as well as efficient skin hydration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……新陳代謝改善、體重管理更好、關節潤滑改善，以及皮膚補水更有效。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “depressed”、“dehydration”。原文有 depression，但沒有 dehydration。原文有hydration，但語境是 filtered water 對皮膚補水的好處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 只說 mercury in water 和 depression 有 connection。這不等於 depressed people often suffer from dehydration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 只說 filtered water 可帶來 efficient skin hydration。這也沒有連到 depression。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目需要一條關係：depression → often suffer from dehydration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是：mercury in water → connection with depression；filtered water → efficient skin hydration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩組資訊沒有建立 depression 和 dehydration 之間的關係。文章沒有足夠資料判斷題目真假，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "depression 和 hydration 分別出現在不同段落，學生可能想把兩者拼起來。但原文沒有說depressed people 容易 dehydration，也沒有說 dehydration 造成 depression。缺少核心因果或共現關係。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - DRINKING FILTERED WATER.pdf",
+    "sha256": "ec404b30bd23100b57aedc87bb0479f716fd7c92f8aa2bbf4dc56160599bd3a7",
+    "pageCount": 16
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說人體主要由水組成，因此每天飲用水的質素會影響健康；尾句說 filtered water 不含 tap water 和部分 bottled water 常見的有毒金屬與化學物。只看首尾句，可以先估計本段是全文總覽：說明為何水質重要，並概括 filtered water 的主要好處，包括較健康、較少 contaminants、細菌、沉澱物、有毒金屬和化學物。題目若問 main points 或 regular water consumption，會先看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說當局知道普通 tap water 有 contaminants，所以會用 chlorine 和 bromine 等化學物消毒；尾句說 filtered water 通常沒有這些 water-disinfectant chemicals。只看首尾句，可以估計本段集中講 disinfectant chemicals。中間會解釋這些化學物並不安全，尤其對兒童和孕婦危險；bromine長期攝入可能導致低血壓，並傷害腦、心、腎和肝。題目若問 disinfect、bacteria、filtered water 是否含消毒化學物，目標多半在 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 filtered water 也沒有 mercury 和 lead 等金屬；尾句說科學家相信水中的 mercury 和allergies、cancers，以及 ADD、OCD、autism、depression 等 disorders 有關。只看首尾句，可以估計本段專門講 mercury 這種 dangerous metal。中間解釋 mercury 進入飲用水，主要和dentists 產生的 dental amalgam waste 長期處理不當有關。題目若問 allergies、metal、dentists或 depression，應看 C，但要小心不要自行補資料。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 lead 通常因 pipe leaks 進入飲用水；尾句說這也是兒童和孕婦必須飲用 filtered water 的另一原因。只看首尾句，可以估計本段講 lead 的來源和危險。中間指出現代水管通常不用鉛，但old houses 的管道常見 lead；lead 是已知 carcinogen，並與 pregnancy problems 和 birth defects有關。題目若問 old buildings、plumbing、dangerous metal，很可能是 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說水的好處眾所周知，例如幫助身體 detoxify；尾句列出 improved metabolism、better weight management、improved joint lubrication 和 efficient skin hydration。只看首尾句，可以估計本段講 filtered water 對身體功能的整體好處。中間關鍵是：水越純，身體越容易排走 toxins；喝filtered water 時，身體不用花太多能量處理 detoxification。題目若問 rid itself of toxins 或 overall health，E 很重要。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說有很多不同方式過濾水，而且每種 filter 針對不同 contaminants；尾句說 ozone water filters 對 removing germs 特別有效。只看首尾句，可以估計本段功能是列舉 water filtration methods。中間有兩個例子：activated carbon water filters 擅長去除 chlorine；ozone water filters擅長去除 germs。題目若問 filtration methods、filter types、target contaminants，F 是核心段落。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說正因如此，我們很重要要知道自己喝的水裏到底有甚麼，才能決定使用哪類 filter；尾句說如果知道 contaminants 是甚麼，就更容易決定買哪種 water filter。只看首尾句，可以估計本段講「如何選 filter」。中間介紹 Consumer Confidence Report，這是 public water suppliers 每年發出的報告，列出水中 contaminants。題目若問 finding out contaminants 或 decide which filter，G 是答案段。"
+      }
+    ]
+  }
+}

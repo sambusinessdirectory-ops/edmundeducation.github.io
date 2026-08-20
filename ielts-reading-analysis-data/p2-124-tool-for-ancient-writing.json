@@ -1,0 +1,1452 @@
+{
+  "id": "p2-124-tool-for-ancient-writing",
+  "catalogueId": "p2-124",
+  "catalogueIds": [
+    "p2-124"
+  ],
+  "passage": 2,
+  "title": "Tool for ancient writing",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "E",
+    "C",
+    "D",
+    "F",
+    "C",
+    "A",
+    "B",
+    "D",
+    "B",
+    "lengthy preparation time",
+    "1436",
+    "modern fountain pen"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B — Large volume；E — Repetition",
+      "answerKey": "B — Large volume；E — Repetition",
+      "type": "Question Analysis",
+      "prompt": "Questions 14–15",
+      "translation": "哪兩個特徵是記錄工作本身固有的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Which TWO features are inherent in record keeping?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Choose TWO。題目要求選兩個 features，所以每個正確選項都要有獨立原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "支援。控制詞是 “inherent in record keeping”，意思是「記錄工作本身自然包含的特點」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With time, the record-keepers developed systematized symbols from their drawings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：隨著時間過去，記錄者從圖畫中發展出系統化符號。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When writing instruments became refined enough to produce detailed letter forms, lowercase letters were also introduced (around 600 A.D.).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當書寫工具變得足夠精細，可以寫出細緻字形時，小寫字母也被引入，大約在 600"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A.D.。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 A 段在講早期記錄和書寫系統如何演變。題目提到 record keeping，所以 A 段第一句的 record-keepers 是最直接入口。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “record keeping” 和 “inherent”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the high volume and the repetition inherent in record keeping, pictographs evolved and slowly lost their picture detail.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由於記錄工作本身包含大量資料和重複性，象形圖逐漸演變，慢慢失去圖畫細節。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這句把兩個特徵直接列出："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“high volume” = large volume，即大量資料或大量記錄。“repetition” = repetition，即重複性。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Ease and speed” 有迷惑性，因為原文前面說 symbols “were easier and faster to draw”。可是那句說的是 symbols 的優點，沒有說 ease and speed 是 record keeping 本身 inherent 的特徵。 B “Large volume” 正確，對應 “high volume”。 C “Portability” 也有原文根據，因為 “clay made portable records possible”，但 portability 是 clay帶來的特點，沒有被說成 record keeping 固有特徵。 D “Convenience” 太籠統，文章沒有把它列為 inherent feature。 E “Repetition” 正確，原文逐字出現。所以 14–15 答案是 B 和 E。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        14,
+        15
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C — Secrecy among its inventors.",
+      "answerKey": "C — Secrecy among its inventors.",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "甚麼原因令木纖維造紙技術長時間未能廣泛傳播？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What delayed the spread of wood-fibre papermaking for so long?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。題目核心是 delayed the spread，即「拖慢傳播」。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wood-fibre papermaking、delayed、spread。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 400 A.D., a stable ink made from iron salts, nutgalls and gum had been developed.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到 400 A.D.，一種由鐵鹽、五倍子和樹膠製成的穩定墨水已被發展出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paper was not widely used throughout Europe until paper mills were built in the late 14th century.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：直到 14 世紀末造紙廠建成後，紙才在整個歐洲廣泛使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 E 段一邊講 ink formula，一邊講 paper 在歐洲的傳播時間。題目問wood-fibre papermaking 的傳播延遲，所以要在這段找原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “wood-fibre paper” 在原文直接出現。答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wood-fibre paper was invented in China in 105 A.D. but, because the Chinese kept the process secret, knowledge of it reached Japan only around 700 A.D. and was brought to Spain by the Arabs in 711 A.D.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：木纖維紙於 105 A.D. 在中國發明，但由於中國人把製程保密，所以相關知識到大約"
+            },
+            {
+              "kind": "paragraph",
+              "text": "700 A.D. 才傳到日本，並在 711 A.D. 由阿拉伯人帶到西班牙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “because the Chinese kept the process secret”。這就是 delayed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "spread 的原因。題目選項 C “Secrecy among its inventors” 把這句改寫成名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A Scarcity：原文沒有說材料稀少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Complexity：原文沒有說技術太複雜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D High cost：原文沒有提到成本高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 直接對應 “kept the process secret”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "the operating principle of primitive pens made from plant stems",
+      "translation": "由植物莖製成的原始筆，其操作原理。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。這類題不是找整段主旨，而是找哪一段包含指定資訊功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 primitive pens、plant stems、operating principle。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention of inks paralleled the introduction of paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：墨水的發明與紙的引入同步發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Squeezing the reed forced the fluid to the nib.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：擠壓蘆葦管會把液體推到筆尖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段已經顯示會講 writing materials 和某種筆的工作方式。最後一句尤其像operating principle，因為它說明「如何把墨水送到筆尖」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “plant stems” 對應原文 “hollow stems of marsh grasses, especially jointed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bamboo”。“primitive pens” 對應 “a primitive form of a fountain pen”。“operating principle” 對應 “A writing fluid or ink filled the stem. Squeezing the reed forced the fluid to the nib.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Romans made reed pens suited to parchment and ink from the hollow stems of marsh grasses, especially jointed bamboo.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：羅馬人用沼澤草類的空心莖，特別是有節竹，製成適合羊皮紙和墨水的蘆葦筆。"
+            },
+            {
+              "kind": "quote",
+              "text": "“They converted bamboo stems into a primitive form of a fountain pen.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們把竹莖改造成一種原始形式的鋼筆。"
+            },
+            {
+              "kind": "quote",
+              "text": "“A writing fluid or ink filled the stem. Squeezing the reed forced the fluid to the nib.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：書寫液或墨水裝滿莖管；擠壓蘆葦管會把液體推到筆尖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句合起來完整回答題目：材料是 plant stems，工具是 primitive pen，操作原理是墨水在空心莖內，經擠壓流向 nib。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "the writing tool used for the longest period",
+      "translation": "使用時間最長的書寫工具。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 “longest period”，這類比較詞很有定位力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The writing instrument that dominated for the longest period in history (over one thousand years) was the quill pen.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：歷史上支配時間最長的書寫工具，超過一千年，是羽毛筆。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For making fine lines, crow feathers were the best, and then came the feathers of the eagle, owl, hawk, and turkey.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：若要寫細線，烏鴉羽毛最好，其後是鷹、貓頭鷹、隼和火雞的羽毛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接對應題目。F 段整段都在講 quill pen，包括它的來源、使用、羽毛種類和品質。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “writing tool” 對應原文 “writing instrument”；“used for the longest period” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dominated for the longest period in history”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The writing instrument that dominated for the longest period in history (over one thousand years) was the quill pen.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：歷史上支配時間最長的書寫工具，超過一千年，是羽毛筆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句不需要跨段推論，題目資訊在 Paragraph F 明確出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "a writing fluid first developed by the Chinese",
+      "translation": "一種最初由中國人發展出的書寫液。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 writing fluid、Chinese、developed。題目沒有直接說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ink，但 writing fluid 在書寫工具語境中很可能指 ink。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Writing was advancing beyond chiselling pictures into stone or wedging pictographs into wet clay.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：書寫正超越在石頭上鑿圖，或把象形圖壓入濕泥的階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In early writings, different coloured inks had ritual meanings attached to each colour.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在早期書寫中，不同顏色的墨水各自帶有儀式意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 C 段會講書寫材料進步，尤其是 ink。題目問 writing fluid first developed by Chinese，這段最可能有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Chinese 在 C 段直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Chinese invented and perfected ‘Indian ink’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：中國人發明並完善了「印度墨」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "完整證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Chinese invented and perfected ‘Indian ink’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：中國人發明並完善了「印度墨」。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ink invented by the Chinese philosopher Tien-Lcheu (2697 B.C.) became common by the year 1200 B.C.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由中國哲學家 Tien-Lcheu 於 2697 B.C. 發明的墨，到 1200 B.C. 已變得普遍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “writing fluid” 是對 ink 的概括說法；“first developed by the Chinese” 對應 “The Chinese invented and perfected”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "uppercase letters as the only original letter form",
+      "translation": "大寫字母是最初唯一的字母形式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 uppercase letters、only、original letter form。only"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是控制詞，要找是否所有早期書寫系統一開始只用大寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With time, the record-keepers developed systematized symbols from their drawings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：隨著時間過去，記錄者從圖畫中發展出系統化符號。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When writing instruments became refined enough to produce detailed letter forms, lowercase letters were also introduced (around 600 A.D.).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當書寫工具變得足夠精細，可以寫出細緻字形時，小寫字母也被引入，大約在 600"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A.D.。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句已經看到 lowercase letters 是後來才 introduced。若小寫是後來引入，前面很可能會說最初只有 uppercase。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 “uppercase letters” 在 A 段直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initially, all writing systems used only uppercase letters.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：起初，所有書寫系統只使用大寫字母。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句的主語是 “all writing systems”，程度詞是 “only”，時間詞是 “Initially”。這三個詞共同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "支援題目：最初的字母形式只有 uppercase letters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “as the only original letter form”，原文說 “Initially ... only uppercase letters”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "original = initially only original letter form = used only uppercase letters所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "the origin of written correspondence",
+      "translation": "書面通信的起源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 written correspondence。這是引號式概念，非常容"
+            },
+            {
+              "kind": "paragraph",
+              "text": "易定位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The earliest means of writing that approached pen and paper as we know them today was developed by the Greeks.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最早接近今日我們所知的紙筆書寫方式，是由希臘人發展出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greek scholar Cadmus is credited with inventing written correspondence—messages on paper sent from one person to another.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：希臘學者 Cadmus 被認為發明了書面通信，也就是一人寄給另一人的紙上訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 B 段講 Greek 的書寫工具與 written correspondence。最後一句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “written correspondence” 原文逐字出現，直接定位到 B 段最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greek scholar Cadmus is credited with inventing written correspondence—messages on paper sent from one person to another.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：希臘學者 Cadmus 被認為發明了書面通信，也就是一人寄給另一人的紙上訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 origin，即這種 written correspondence 從何而來。原文說 Cadmus is credited with inventing，已經回答其起源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "the parallel development of two basic writing materials",
+      "translation": "兩種基本書寫材料的同步發展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 parallel development、two basic writing materials。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的是找 “parallel” 或同義概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention of inks paralleled the introduction of paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：墨水的發明與紙的引入同步發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Squeezing the reed forced the fluid to the nib.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：擠壓蘆葦管會把液體推到筆尖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段首句已直接提供題目資訊。two basic writing materials 指 inks 和 paper。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “parallel development” 對應原文 “paralleled”。“two basic writing materials” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“inks” 和 “paper”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention of inks paralleled the introduction of paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：墨水的發明與紙的引入同步發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明兩種材料在歷史發展上同時推進。題目把 “invention of inks” 和 “introduction of paper”概括成 “two basic writing materials”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "a design that protected written content",
+      "translation": "一種可以保護書寫內容的設計。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information。定位詞是 design、protected、written content。原文未必用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "written content，但可能用 notes、messages、tablets 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The earliest means of writing that approached pen and paper as we know them today was developed by the Greeks.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最早接近今日紙筆形式的書寫方式，是由希臘人發展出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greek scholar Cadmus is credited with inventing written correspondence—messages on paper sent from one person to another.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：希臘學者 Cadmus 被認為發明了書面通信，也就是一人寄給另一人的紙上訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 B 段涉及 early writing means、messages 和 Greek innovations。中間句很可能有工具設計細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “protected written content” 對應原文 “closed to protect the scribe’s notes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "notes 就是 written content。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tablets were made in hinged pairs, closed to protect the scribe’s notes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些 tablets 製成有鉸鏈的一對，可以合上來保護抄寫者的筆記。"
+            },
+            {
+              "kind": "label",
+              "text": "這句有三個要點："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hinged pairs” 是設計；“closed” 是保護方式；“protect the scribe’s notes” 是功能。題目把 “scribe’s notes” 概括成 “written content”，完全合理。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "lengthy preparation time",
+      "answerKey": "lengthy preparation time",
+      "type": "Question Analysis",
+      "prompt": "Question 24",
+      "translation": "甚麼令羽毛筆使用起來不方便？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What made quill pens inconvenient to use?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer Question。字數限制是 NO MORE THAN THREE WORDS AND/OR"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A NUMBER。題目問 What made，所以答案應是名詞短語，表示造成不便的原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were also disadvantages associated with the use of quill pens, including a lengthy preparation time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：使用羽毛筆也有一些缺點，包括漫長的準備時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beneath the writer’s high-top desk was a coal stove, used to dry the ink as fast as possible.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：書寫者的高桌下方有一個煤爐，用來盡快弄乾墨水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 disadvantages 和 quill pens，因此 G 段是本題核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “quill pens” 和 “inconvenient”。原文沒有 inconvenient 這個字，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“disadvantages associated with the use of quill pens”。這就是同義範圍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were also disadvantages associated with the use of quill pens, including a lengthy preparation time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：使用羽毛筆也有一些缺點，包括漫長的準備時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問「甚麼令它不方便」，原文列出的直接原因是 “a lengthy preparation time”。填答案時不需要冠詞 a，因為 IELTS short answer 通常填核心名詞短語。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lengthy preparation time” 三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：lengthy preparation time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "1436",
+      "answerKey": "1436",
+      "type": "Question Analysis",
+      "prompt": "Question 25",
+      "translation": "植物纖維紙成為主要書寫媒介後，另一項突破在甚麼時候出現？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：When did another breakthrough occur after plant-fibre paper became the main writing medium?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer Question。題目問 When，所以答案應是時間或年份。字數限制容許"
+            },
+            {
+              "kind": "paragraph",
+              "text": "number。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plant-fibre paper became the primary medium for writing after Johannes Gutenberg’s dramatic invention of the printing press with replaceable wooden or metal letters in 1436.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Johannes Gutenberg 於 1436 年重大發明具有可替換木字或金屬字的印刷機後，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "植物纖維紙成為主要書寫媒介。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over subsequent centuries, many printing technologies, including offset printing, were developed from Gutenberg’s machine.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在其後數個世紀，包括柯式印刷在內的多種印刷技術，都由 Gutenberg 的機器發展出"
+            },
+            {
+              "kind": "paragraph",
+              "text": "來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句同時包含 plant-fibre paper、breakthrough invention 和年份。題目中的 “another breakthrough” 指 Gutenberg 的 printing press。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “plant-fibre paper”、“primary medium” 和 “breakthrough”。原文的對應是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dramatic invention of the printing press”。年份 “1436” 直接在同一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plant-fibre paper became the primary medium for writing after Johannes Gutenberg’s dramatic invention of the printing press with replaceable wooden or metal letters in 1436.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Gutenberg 於 1436 年發明具有可替換木字或金屬字的印刷機後，植物纖維紙成為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要書寫媒介。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 When，所以只需填年份。不要填 “printing press”，因為那是發明本身，不是時間。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“1436” 是 number，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：1436"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "modern fountain pen",
+      "answerKey": "modern fountain pen",
+      "type": "Question Analysis",
+      "prompt": "Question 26",
+      "translation": "人類改良書寫工具的創新精神，最後帶來哪一種筆？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：What type of pen resulted from humanity’s ingenuity in improving writing tools?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Short-answer Question。題目問 What type of pen，所以答案應是一個 pen 的名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 humanity’s ingenuity / improving writing tools，原文可能用 humanity’s inventive nature/ improving the writing instrument。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Articles written by hand had resembled printed letters until scholars began to change the form of writing, using capitals and small letters, writing with more of a slant and connecting letters.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：手寫文章曾經像印刷字母，直到學者開始改變書寫形式，例如使用大寫和小寫、寫得"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更傾斜、並連接字母。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When writers had both better inks and paper, and handwriting had developed into both an art form and an everyday occurrence, humanity’s inventive nature once again turned to improving the writing instrument, leading to the development of the modern fountain pen.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當書寫者同時有了更好的墨水和紙，手寫也發展成藝術形式及日常活動後，人類的創"
+            },
+            {
+              "kind": "paragraph",
+              "text": "新天性再次轉向改良書寫工具，最終促成現代鋼筆的發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句幾乎直接重現題目概念，所以 I 段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “humanity’s ingenuity” 對應原文 “humanity’s inventive nature”。“improving"
+            },
+            {
+              "kind": "paragraph",
+              "text": "writing tools” 對應 “improving the writing instrument”。“resulted from” 對應 “leading to the development of”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“...humanity’s inventive nature once again turned to improving the writing instrument, leading to the development of the modern fountain pen.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人類的創新天性再次轉向改良書寫工具，最終促成現代鋼筆的發展。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "humanity’s ingenuity = humanity’s inventive nature improving writing tools = improving the writing instrument resulted in = leading to the development of答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“modern fountain pen” 三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：modern fountain pen"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Tool for ancient writing.pdf",
+    "sha256": "eaa9df24b2ed9130338303f6308dd492c2a194c5c64e18ce4c5aab0b65488b45",
+    "pageCount": 14
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說記錄者逐漸把圖畫發展成系統化符號，末句說早期書寫系統只用 uppercase letters，到工具更精細後才出現 lowercase letters。只看首尾句，可以先估計本段功能是交代書寫由圖像到字母的演變。中間很可能有 clay tokens、pictographs、alphabet、Hebrew、Greek、Latin scripts等時間線，也會藏有 record keeping、volume、repetition 和 uppercase 的答案。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說最早接近現代 pen and paper 的書寫方式由 Greeks 發展；末句說 Cadmus 被認為發明 written correspondence，即一人寄給另一人的紙上訊息。首尾句顯示本段集中講希臘人在書寫工具和書面訊息方面的貢獻。中間會處理 stylus、wax-coated tablets、hinged pairs、protect notes、handwriting 和 correspondence，題目若問 written correspondence 或保護筆記的設計，應定位到 B 段。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說書寫正從在石上鑿圖、在濕泥上壓圖，進一步發展；末句說早期書寫中，不同顏色的ink 有 ritual meanings。只看首尾句，可以先判斷本段主題是 ink 的出現和用途。中間應會講Chinese invented and perfected Indian ink、Tien-Lcheu、soot、lamp oil、natural dyes、berries、plants 和 minerals。題目若問 Chinese writing fluid，C 段最可疑。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說 ink 的發明與 paper 的引入同步發展；末句說擠壓 reed 會把 fluid 推到 nib。首尾句顯示本段重點有兩部分：基本書寫材料 paper / parchment / papyrus，以及早期 reed pen 的操作方式。中間會提 Egyptians、Romans、Greeks、Hebrews、Prisse Papyrus、hollow stems、bamboo、primitive fountain pen。題目若問 parallel development 或 primitive pens made from plant stems，應看 D 段。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說到 400 A.D.，由 iron salts、nutgalls 和 gum 製成的穩定 ink 已被發展出來；末句說paper 直到 14 世紀末 paper mills 建成後才在歐洲廣泛使用。首尾句顯示本段處理 ink formula和 wood-fibre paper 的傳播。中間會講中國 105 A.D. 發明木纖維紙、保密製程、傳到日本、西班牙和歐洲。題目問 papermaking spread delayed，答案很可能在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句直接說歷史上支配時間最長的 writing instrument 是 quill pen；末句說若要寫 fine lines， crow feathers 最好，其後是 eagle、owl、hawk 和 turkey feathers。首尾句已清楚顯示本段主題是quill pen。中間會提 introduced around 700 A.D.、bird feather、left wings、right-handed writer、goose feathers、swan feathers。題目若問 longest period 或 quill 種類，F 段很重要。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說 quill pens 有缺點，包括 lengthy preparation time；末句說書桌下有 coal stove，用來盡快弄乾墨水。首尾句顯示本段專門講 quill pens 使用上的麻煩。中間應會列出 parchment 要刮洗、margins 要用 lead 和 ruler 畫、quill 要用 special knife sharpen、ink 要乾。題目若問 quill pens inconvenient 或 disadvantages，G 段是核心段落。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說 plant-fibre paper 在 Gutenberg 於 1436 年發明 printing press 後，成為主要書寫媒介；末句說之後多種 printing technologies，包括 offset printing，都由 Gutenberg’s machine 發展出來。只看首尾句，本段功能是講 printing press 這個重大突破，以及它如何推動 paper 成為主要媒介。題目若問 breakthrough、printing press 或 1436，應優先定位 H 段。"
+      },
+      {
+        "number": "I",
+        "summary": "I 段首句說手寫文章曾經像 printed letters，直到學者改變 writing form，例如用 capitals and small letters、傾斜書寫和連接字母；末句說人類創新精神再次轉向改良 writing instrument，最後發展出modern fountain pen。首尾句顯示本段從 handwriting style 的變化講到書寫工具再度改進。中間會提 Aldus Manutius、Italian running hand、cursive handwriting、26 letters 和 modern fountain pen。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1922 @@
+{
+  "id": "p2-111-an-assessment-of-micro-wind-turbines",
+  "catalogueId": "p2-111",
+  "catalogueIds": [
+    "p2-111"
+  ],
+  "passage": 2,
+  "title": "An assessment of micro-wind turbines",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "v",
+    "ii",
+    "iv",
+    "ix",
+    "i",
+    "vi",
+    "viii",
+    "B",
+    "E",
+    "offshore wind farms",
+    "developing technology",
+    "negative",
+    "cars"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "v — The size and output of the largest type of micro-turbine",
+      "answerKey": "v — The size and output of the largest type of micro-turbine",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "最大型 micro-turbine 的大小和產電量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph A 要配一個最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In terms of micro-renewable energy sources suitable for private use, a 15-kilowatt (kW) turbine is at the biggest end of the spectrum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就適合私人使用的微型可再生能源來說，15-kW turbine 已經屬於最大型的一端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to one estimate, a 15-kW micro-turbine … is capable of delivering 25,000 kilowatt-hours (kWh) of electricity each year if placed on a suitably windy site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一項估算，一部 15-kW micro-turbine 若放在風力合適的地點，每年可提供 25,000 kWh 電力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段已經同時出現 biggest end、15-kW、diameter、pole height、electricity output。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不是在討論政策，也不是在討論碳排放計算，而是在介紹這類 turbine 的基本規格與產出。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading v 的定位詞是 “size”、“output”、“largest type”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a 15-kilowatt (kW) turbine is at the biggest end of the spectrum”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "15-kW turbine 位於最大型的一端。"
+            },
+            {
+              "kind": "quote",
+              "text": "“With a nine metre diameter and a pole as high as a four-storey house…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它直徑九米，支柱高度相當於四層樓高。"
+            },
+            {
+              "kind": "quote",
+              "text": "“delivering 25,000 kilowatt-hours (kWh) of electricity each year…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年提供 25,000 kWh 電力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段由 size 開始：15-kW、nine metre diameter、pole as high as a four-storey house。之後轉到條件：需要 plenty of space and money。最後落在 output：25,000 kWh per year。Heading v 能覆蓋這三層資訊，尤其是 “largest type” 和 “output”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "largest type= biggest end of the spectrum / 15-kW turbine size= nine metre diameter / pole as high as a four-storey house output= maximum output / 25,000 kWh each year其他 heading 為何不適合ix financial benefits 看似可能，因為 A 段提到 cost，但成本只用來介紹設備要求，不是全段主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv environmental benefits 也不合，因為 A 段未談 carbon saving。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vii recent improvements 完全沒有出現 design improvement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "ii — The environmental costs of manufacture and installation",
+      "answerKey": "ii — The environmental costs of manufacture and installation",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "製造和安裝造成的環境成本。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph B 要找最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t know of any credible studies of the greenhouse gas emissions involved in producing and installing turbines, so my estimates here are going to be even broader than usual.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者說他不知道有可信研究計算製造和安裝 turbines 所涉及的 greenhouse gas emissions，因此這裡的估算會比平常更粗略。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That makes the carbon footprint … 30 tonnes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣計算下來，carbon footprint 是 30 tonnes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段功能非常清楚：它要估算一部 turbine 在製造和安裝階段已經造成多少碳排放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 carbon footprint 是後文計算 carbon payback 的基礎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的定位詞是 “environmental costs”、“manufacture”、“installation”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“greenhouse gas emissions involved in producing and installing turbines”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造和安裝 turbines 所涉及的 greenhouse gas emissions。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the carbon intensity of manufacture will be around 640 kilograms…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製造的 carbon intensity 約為每 £1,000 價值 640 kg。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Installation is probably about as carbon intensive as typical construction…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "安裝的碳強度大概與一般建築工程相近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 段不是在講 turbine 發電時有多環保，而是在講它未開始發電之前，製造和安裝本身已經造成emissions。這就是 “environmental costs”。段末 “30 tonnes” 是這些成本的總結數字。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "environmental costs= greenhouse gas emissions / carbon footprint manufacture= producing turbines / carbon intensity of manufacture installation= installing turbines / installation is carbon intensive其他 heading 為何不適合iv environmental benefits 指運行後的 carbon savings，應到 C 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ix financial benefits 指個人回本和收入，應到 D 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii number of micro-turbines in use 沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "iv — The environmental benefits of running a micro-turbine",
+      "answerKey": "iv — The environmental benefits of running a micro-turbine",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "運行 micro-turbine 所帶來的環境好處。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph C 要配最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbon savings from wind-powered electricity generation depend on the carbon intensity of the electricity that you’re replacing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風力發電能節省多少碳，取決於它取代的電力本身有多高碳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case the carbon saving is roughly one kilogram per kWh, so you save 25 tonnes per year and pay back the embodied carbon in just 14 months – a great start.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種情況下，每 kWh 約節省一公斤碳，所以每年節省 25 tonnes，並在 14 個月內抵消embodied carbon，是很好的開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段明顯是 carbon saving 計算段。它討論 turbine 運行、發電、取代 coal-fired power stations 後的環境收益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位詞是 “environmental benefits” 和 “running”。原文沒有直接說 benefit，但大量使用 carbon savings："
+            },
+            {
+              "kind": "quote",
+              "text": "“The carbon savings from wind-powered electricity generation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風力發電帶來的碳節省。"
+            },
+            {
+              "kind": "quote",
+              "text": "“your turbine is to reduce the use of coal-fired power stations”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 turbine 的效果是減少 coal-fired power stations 的使用。"
+            },
+            {
+              "kind": "quote",
+              "text": "“you save 25 tonnes per year”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年節省 25 tonnes carbon。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不是講 turbine 本身多大，也不是講買 turbine 賺多少錢。它的核心在 carbon savings。作者假設 turbine 取代 coal-fuelled electricity，因為 coal 是 electricity mix 中最不理想的來源；因此micro-turbine 每年可帶來明顯碳減排。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "environmental benefits= carbon savings / reduce the use of coal-fired power stations running a micro-turbine= wind-powered electricity generation / your generation replaces coal-fuelled electricity benefit size= save 25 tonnes per year / pay back embodied carbon in 14 months其他 heading 為何不適合ii environmental costs 屬於 B 段，講製造和安裝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ix financial benefits 屬於 D 段，講補貼和回本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "i better use for large sums of money 屬於 E 段，講政府投資選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "ix — The financial benefits of running a micro-turbine",
+      "answerKey": "ix — The financial benefits of running a micro-turbine",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "運行 micro-turbine 的財務好處。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph D 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The UK government has recently introduced a subsidy for renewable energy that pays individual producers 24p per energy unit…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國政府最近引入 renewable energy subsidy，向個人生產者每個 energy unit 支付 24p。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“(It’s important to remember that all these sums rely on a wind turbine having a favourable location.)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要記住，所有這些計算都依賴 wind turbine 位於有利地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段首句已經是 money：subsidy、24p、fuel bills、surplus electricity。段中又講每年回收 £7,250，六年回本。這是財務收益段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ix 的定位詞是 “financial benefits”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“in addition to the money they save on their own fuel bills”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，他們還能節省自己的燃料費。"
+            },
+            {
+              "kind": "quote",
+              "text": "“earn by selling surplus electricity back to the grid”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把剩餘電力賣回電網而賺錢。"
+            },
+            {
+              "kind": "quote",
+              "text": "“individuals would get back £7,250 per year on their investment”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人每年可從投資中取回 £7,250。"
+            },
+            {
+              "kind": "quote",
+              "text": "“That pays back the costs in about six years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約六年便能收回成本。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段的 carbon saving 也有出現，但它放在財務討論後，用來補充這項投資對重視減碳的人也吸引。段落真正重心是 subsidy + saving on bills + selling surplus + payback period。Heading ix 最完整覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "financial benefits= subsidy / save money / earn money / get back £7,250 per year / pay back costs running a micro-turbine= individual producers generate energy / selling surplus electricity back to grid其他 heading 為何不適合iv environmental benefits 只符合後半 carbon investment pays back，不足以概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vi limited case for subsidising micro-turbines 屬於 F 段，語氣較平衡和政策化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "i better use for large sums of money 是 E 段的政府投資批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "i — A better use for large sums of money",
+      "answerKey": "i — A better use for large sums of money",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "大筆資金更好的用途。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph E 要配最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, at face value, the turbine looks like a great idea environmentally, and a fairly good long-term investment economically for the person installing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表面看來，turbine 在環境上像是好主意，對安裝者個人來說也是相當好的長期經濟投資。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Carbon savings are far lower too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "碳減排也低得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 E 段開始推翻或重新評估前面樂觀結論。它把視角從個人轉到政府：政府花這筆補貼是否值得？段中明確說 offshore wind farms 可能是更好的投資目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i 的定位詞是 “better use”、“large sums of money”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Has the government spent its money wisely?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府是否明智地花了這筆錢？"
+            },
+            {
+              "kind": "quote",
+              "text": "“had the government invested its money in offshore wind farms, instead of subsidising smaller domestic turbines…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果政府把錢投資在 offshore wind farms，而非補貼較小型 domestic turbines……"
+            },
+            {
+              "kind": "quote",
+              "text": "“the government spends, and arguably wastes, so much money subsidising it”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府花了，甚至可說浪費了，大量金錢補貼它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段表面延續前面個人投資好處，但真正重點已轉向政府成本效益。作者計算政府每 tonne carbon saved 要花 £250，並指出若投資 offshore wind farms，八年後可 break even。這正好對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“A better use for large sums of money”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "large sums of money= government spends so much money / subsidy / 24p per unit better use= invested its money in offshore wind farms instead less effective current use= subsidising smaller domestic turbines / carbon savings far lower其他 heading 為何不適合vi limited case for subsidising micro-turbines 屬於下一段 F，因為 F 承認補貼仍有少量合理性。 ix financial benefits 對個人來說成立，但 E 段主要檢查 government perspective。 iv environmental benefits 和 E 段方向相反，因為這段指出 carbon savings lower。所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "vi — A limited case for subsidising micro-turbines",
+      "answerKey": "vi — A limited case for subsidising micro-turbines",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "支持補貼 micro-turbines 的有限理由。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph F 要配最合適 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, although the micro-wind turbine subsidy doesn’t look like the very best way of spending government resources on climate change mitigation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，雖然 micro-wind turbine subsidy 看起來不像政府用資源處理 climate change mitigation的最佳方式……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, such investment helps to promote and sustain developing technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，這種投資有助推廣和維持 developing technology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承認它不是最佳政府開支方式，後面仍說它可帶來一個值得保留的好處。這種語氣就是limited case：有限度地為 subsidy 辯護。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vi 的定位詞是 “limited case” 和 “subsidising”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“doesn’t look like the very best way”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看起來不是最佳方式。"
+            },
+            {
+              "kind": "quote",
+              "text": "“which is a worthwhile benefit”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個值得的好處。"
+            },
+            {
+              "kind": "quote",
+              "text": "“it could be much better, but it could be worse”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它可以好很多，但也可以更差。"
+            },
+            {
+              "kind": "quote",
+              "text": "“helps to promote and sustain developing technology”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有助推廣和維持 developing technology。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段的寫法很平衡：先說 subsidy 不是最好選擇，再說以 0.075% GDP 換取 1% carbon emissions reduction 仍值得，並且支援 developing technology。這個 heading 的 “limited” 很精準，因為作者沒有大力讚成，只是說它仍有某程度的政策理由。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "limited case= not the very best / could be much better / could be worse for subsidising= micro-wind turbine subsidy / investing government resources reason in favour= worthwhile benefit / promote and sustain developing technology其他 heading 為何不適合i better use for large sums of money 屬於 E 段的 offshore wind farms 比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viii indirect method 屬於 G 段，因為那裡講轉移消費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv environmental benefits 只符合 “one per cent reduction”，未能概括 F 段的讓步和有限支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "viii — An indirect method of reducing carbon emissions",
+      "answerKey": "viii — An indirect method of reducing carbon emissions",
+      "type": "Matching Headings",
+      "prompt": "Question 20",
+      "translation": "一種間接減少碳排放的方法。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph G 要配最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is one extra favourable way of looking at the micro-wind turbine, even if it is not the single best way of investing money in cutting carbon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使 micro-wind turbine 不是削減碳排放的單一最佳投資方式，仍有另一個有利角度可以看待它。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So if the subsidy encourages people to spend their money on a carbon-reducing technology such as a wind turbine, rather than on carbon-producing goods like cars, and services such as overseas holidays, then the reductions in emissions will be greater than my simple sums above have suggested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以如果補貼鼓勵人們把錢花在 wind turbine 這類減碳技術上，少買 cars 這類產碳商品，少花在 overseas holidays 這類服務上，排放減幅會比作者前面簡單計算更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 G 段不是重新計算 turbine 自身的直接減排，而是從消費替代角度看間接減排。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的定位詞是 “indirect method” 和 “reducing carbon emissions”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult to spend money without having a negative carbon impact”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "花錢時很難完全沒有負面碳影響。"
+            },
+            {
+              "kind": "quote",
+              "text": "“spend their money on a carbon-reducing technology”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把錢花在減碳技術上。"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than on carbon-producing goods like cars, and services such as overseas holidays”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而少花在 cars 這類產碳商品，以及 overseas holidays 這類服務上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 段的邏輯是：一般消費多數會產生碳影響；如果補貼讓人把錢從高碳消費轉移到 wind turbine，實際減排會更大。這不是 turbine 直接發電取代 coal 的那種減排，而是透過改變花錢方向產生的間接效應。Heading viii 最貼切。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "indirect method= subsidy changes what people spend money on reducing carbon emissions= reductions in emissions will be greater carbon-producing goods / services= cars / overseas holidays其他 heading 為何不適合vi limited case for subsidising micro-turbines 可部分沾邊，但 F 段已集中處理有限支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv environmental benefits 指 turbine 運行的直接 carbon saving，G 段談的是消費替代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ix financial benefits 完全不是 G 段焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B、E",
+      "answerKey": "B、E",
+      "type": "Choose TWO letters",
+      "prompt": "“Which TWO statements about micro-wind turbines are made by the writer?”",
+      "translation": "作者提出了哪兩項關於 micro-wind turbines 的說法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這類題要逐項檢查。Golden Manual 對 multiple-answer 題的要求是：每個正確選項要獨立證明，不能用模糊證據一次包辦兩個答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 21 / 22 — 選項 B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的實際產電量取決於位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 第一段介紹 15-kW micro-turbine 的規格與產電量。第一句說它是最大型私人micro-renewable source；最後一句說它每年可產生 25,000 kWh，但條件是 “if placed on a suitably windy site”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句也提醒："
+            },
+            {
+              "kind": "quote",
+              "text": "“(It’s important to remember that all these sums rely on a wind turbine having a favourable location.)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要記住，所有這些計算都依賴 wind turbine 位於有利地點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的定位詞是 “energy output” 和 “position”。原文未必用 position，但會用 “placed”、“site”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“location”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A：“...is capable of delivering 25,000 kilowatt-hours (kWh) of electricity each year if placed on a suitably windy site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果放在風力合適的地點，它每年可提供 25,000 kWh 電力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“all these sums rely on a wind turbine having a favourable location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些計算都依賴 wind turbine 有一個有利位置。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "exact energy output= delivering 25,000 kWh / all these sums depends on= if placed / rely on position= suitably windy site / favourable location判斷原文清楚指出產電估算受地點影響。選項 B 成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 21 / 22 — 選項 E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E — They can produce more energy than a household needs."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們可產生超過家庭所需的電力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句講政府補貼、個人省下燃料費，以及把 surplus electricity 賣回電網。最後一句提醒這些金額都依賴 favourable location。這段既談 financial benefits，也透露了 turbine 可能產出家庭用不完的電。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E 的定位詞是 “more energy than a household needs”。原文不會這樣寫，常見改寫會是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“surplus electricity”、“selling electricity back to the grid”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The UK government has recently introduced a subsidy for renewable energy that pays individual producers 24p per energy unit, in addition to the money they save on their own fuel bills and earn by selling surplus electricity back to the grid at approximately 5p per unit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國政府最近引入可再生能源補貼，向個人生產者每個 energy unit 支付 24p；此外，他們還可節省自己的燃料費，並以每 unit 約 5p 把剩餘電力賣回電網賺錢。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“surplus electricity”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "剩餘電力；即自己用不完的電。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "produce more energy than a household needs= selling surplus electricity back to the grid household needs= their own fuel bills / own use判斷原文說個人可以把 surplus electricity 賣回 grid。若有 surplus，就表示 turbine 可以產生超過住戶自己需要的電力。因此 E 成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其餘選項排除A In certain areas, permission is required to install them."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：某些地區安裝需要許可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提到 permission、planning approval、legal requirement 或 local authority。因此缺少原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They probably take less energy to make than other engines."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它們製造時大概比其他引擎耗能較少。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If turbine manufacture is about as carbon intensive per pound sterling of product as other generators and electrical motors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 turbine 製造在每英鎊產品價值的碳強度上大約與其他 generators 和 electrical motors 相近……原文是 “about as carbon intensive”，即大約相近，沒有說 less energy。選項 C 改變了比較方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The UK government contributes towards their purchase cost."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：英國政府為購買成本提供資助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 提到 subsidy pays individual producers 24p per energy unit。這是按發電單位支付的補貼，並非直接說政府支付 purchase cost。雖然補貼可幫助回本，但選項 D 的 “towards their purchase cost” 太具體，原文沒有這樣說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Questions 21–22 答案是 B 和 E。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "offshore wind farms",
+      "answerKey": "offshore wind farms",
+      "type": "Sentence Completion",
+      "prompt": "“23 ______ would be a more effective target for government investment than micro-turbines.”",
+      "translation": "______ 會比 micro-turbines 更適合作為政府投資目標。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, at face value, the turbine looks like a great idea environmentally, and a fairly good long-term investment economically for the person installing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "表面看來，turbine 在環境上像是好主意，對安裝者個人來說也是相當好的長期經濟投資。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Carbon savings are far lower too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "碳減排也低得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 E 段是在重新評估前文的樂觀結論。段中核心問題是政府是否應把錢花在 domestic micro-turbines 上，還是有更有效的投資目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “government investment”、“more effective target”、“than micro-turbines”。原文對應 “had the government invested its money in…” 和 “instead of subsidising smaller domestic turbines”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“My calculations tell me that had the government invested its money in offshore wind farms, instead of subsidising smaller domestic turbines, it would have broken even after eight years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者的計算告訴他，如果政府把錢投資在 offshore wind farms，而非補貼較小型 domestic turbines，八年後便可收支平衡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目句子開頭需要一個名詞短語作主語。原文中的 “offshore wind farms” 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more effective target for government investment= had the government invested its money in offshore wind farms micro-turbines= smaller domestic turbines答案是 offshore wind farms。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "developing technology",
+      "answerKey": "developing technology",
+      "type": "Sentence Completion",
+      "prompt": "“An indirect benefit of subsidising micro-turbines is the support it provides for 24 ______.”",
+      "translation": "補貼 micro-turbines 的一項間接好處，是它為 ______ 提供支持。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, although the micro-wind turbine subsidy doesn’t look like the very best way of spending government resources on climate change mitigation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，雖然 micro-wind turbine subsidy 看來不是政府用資源處理 climate change mitigation 的最佳方式……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, such investment helps to promote and sustain developing technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，這類投資有助推廣和維持 developing technology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎直接取自 F 段最後一句。題目中的 “indirect benefit” 對應段中的 “In addition”，即除了直接減排外，還有另一個好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “support” 和 “subsidising micro-turbines”。原文對應 “such investment helps to promote and sustain”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, such investment helps to promote and sustain developing technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，這類投資有助推廣和維持發展中的技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “support it provides for”，需要名詞短語。原文 “developing technology” 兩個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "support it provides for= helps to promote and sustain subsidising micro-turbines= such investment答案是 developing technology。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "negative",
+      "answerKey": "negative",
+      "type": "Sentence Completion",
+      "prompt": "“Most spending has a 25 ______ effect on the environment.”",
+      "translation": "大部分消費對環境有 ______ 影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is one extra favourable way of looking at the micro-wind turbine, even if it is not the single best way of investing money in cutting carbon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使 micro-wind turbine 並非削減碳排放的單一最佳投資方式，仍有另一個有利角度可以看待它。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So if the subsidy encourages people to spend their money on a carbon-reducing technology such as a wind turbine, rather than on carbon-producing goods like cars, and services such as overseas holidays, then the reductions in emissions will be greater than my simple sums above have suggested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果補貼鼓勵人們把錢花在 wind turbine 這類減碳技術上，少花在 cars 或 overseas holidays 這類產碳消費上，排放減幅會比簡單計算更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 段主題是消費選擇如何間接影響碳排放。題目說 “Most spending” 對應原文 “it is actually quite difficult to spend money without…”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Most spending” 和 “effect on the environment”。原文對應 “spend money” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“negative carbon impact”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Input-output modelling has told us that it is actually quite difficult to spend money without having a negative carbon impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Input-output modelling 告訴我們，花錢時其實很難避免產生負面碳影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “has a ______ effect on the environment”。空格前有冠詞 “a”，後面有名詞 “effect”，所以空格最自然需要形容詞。原文有 “negative carbon impact”；若填整個短語，句子會變成 “a negative carbon impact effect”，語法不自然。填 “negative” 剛好形成 “a negative effect”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Most spending= difficult to spend money without…effect on the environment= carbon impact答案是 negative。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "cars",
+      "answerKey": "cars",
+      "type": "Sentence Completion",
+      "prompt": "“If people buy a micro-turbine, they have less money to spend on things such as foreign holidays and 26 ______.”",
+      "translation": "如果人們購買 micro-turbine，他們就較少錢花在 foreign holidays 和 ______ 這類東西上。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is one extra favourable way of looking at the micro-wind turbine…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍有另一個有利角度可以看待 micro-wind turbine。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So if the subsidy encourages people to spend their money on a carbon-reducing technology such as a wind turbine, rather than on carbon-producing goods like cars, and services such as overseas holidays…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果補貼鼓勵人們把錢花在 wind turbine 這類減碳技術上，而少花在 cars 這類產碳商品，以及overseas holidays 這類服務上……題目中的 “foreign holidays” 是 “overseas holidays” 的改寫，因此答案應在同一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “foreign holidays”。原文對應 “overseas holidays”。同一句還有另一個例子 “cars”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“So if the subsidy encourages people to spend their money on a carbon-reducing technology such as a wind turbine, rather than on carbon-producing goods like cars, and services such as overseas holidays…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，如果補貼鼓勵人們把錢花在 wind turbine 這類減碳技術上，而少花在 cars 這類產碳商品，以及 overseas holidays 這類服務上……文法檢查：題目是 “foreign holidays and ______”。空格需要與 holidays 並列的名詞。原文列出的另一個例子是 cars，一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "foreign holidays= overseas holidays things such as= goods like / services such as答案是 cars。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - An assessment of micro-wind turbines.pdf",
+    "sha256": "235f20c47f0ff4de4dcbccdde8bd1fd0ca89f3bafe6ee3b8e1aabd71f0547f5c",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說，在適合私人使用的微型可再生能源中，15-kW turbine 已經屬於最大型的一端。最後一句則給出購買、安裝成本，以及在有利風力地點每年可產生 25,000 kWh 電力的估算。只看首尾句，可以先判斷 A 段主要介紹最大型 micro-turbine 的規模、成本、安裝條件和產電能力。題目若問size、output、largest type、space、money、windy site，A 段會是最直接目標。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說作者不知道任何可信研究計算製造和安裝 turbines 涉及的 greenhouse gas emissions，所以他的估算會比平常更粗略。最後一句總結，安裝一部 turbine 造成的 carbon footprint 是 30 tonnes。只看首尾句，可以推測 B 段主要估計 manufacture 和 installation 本身造成的環境成本。段中會有 carbon intensive、manufacture、installation、kg per £1,000、carbon footprint 等訊號，對應 environmental costs。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出，wind-powered electricity generation 帶來的 carbon savings 取決於被取代電力的carbon intensity。最後一句說，若取代 coal-fired power，每年可節省 25 tonnes carbon，並在 14個月內抵消 embodied carbon，是好開始。只看首尾句，可以先判斷 C 段討論運行 micro-turbine後的環境收益，特別是發電取代高碳電力所帶來的 carbon saving。題目若問 environmental benefits of running，應看 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 UK government 最近引入 renewable energy subsidy，個人生產者每度電可獲 24p，另有節省燃料費和售電收入。最後一句提醒，所有計算都依賴 wind turbine 位於有利地點。只看首尾句，可以估計 D 段重點是財務回報：每年回本金額、投資成本何時收回、政府補貼如何改善個人回報。若題目問 financial benefits、pay back、investment、subsidy、location，D 段最值得掃描。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說表面看來 turbine 對環境很好，對個人而言也是相當好的長期經濟投資，但分析中缺少一個重要角度。最後一句指出 micro-turbine 對個人算好投資，只因政府花了大量補貼，而且 carbon savings 也低得多。只看首尾句，可以判斷 E 段轉向政府資源是否用得明智；段中會比較 offshore wind farms 和 domestic turbines，主旨是大額公帑可有更好用途。"
+      },
+      {
+        "number": "F",
+        "summary": "首句承認 micro-wind turbine subsidy 看來未必是政府處理 climate change mitigation 的最佳花費方法。最後一句補充，這類投資有助推廣和維持 developing technology。只看首尾句，可以看到 F 段採取較平衡角度：補貼不是最優解，但仍有一定合理性，包括以很小 GDP 比例換取carbon emissions reduction，以及支援新興技術。若 heading 提到 limited case、subsidising、developing technology，應看 F。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說，即使 micro-wind turbine 並非削減 carbon 的單一最佳投資方式，仍可從另一個有利角度理解。最後一句說，若補貼鼓勵人們把錢花在 wind turbine 這種減碳技術，而少買 cars 或少花在overseas holidays 等高碳消費，排放減幅會比簡單計算更大。只看首尾句，可以判斷 G 段討論indirect carbon reduction：補貼改變消費流向，間接減少其他高碳支出。"
+      }
+    ]
+  }
+}

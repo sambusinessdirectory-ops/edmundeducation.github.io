@@ -1,0 +1,1623 @@
+{
+  "id": "p2-046-the-development-of-plastics",
+  "catalogueId": "p2-046",
+  "catalogueIds": [
+    "p2-046"
+  ],
+  "passage": 2,
+  "title": "The Development of Plastics",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "photographic film",
+    "Bakelite",
+    "switches",
+    "Britain",
+    "hard, fireproof plastic",
+    "clear, glass-like material",
+    "rigid",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "photographic film",
+      "answerKey": "photographic film",
+      "type": "Table Completion",
+      "prompt": "Question 14",
+      "translation": "Celluloid 其中一個常見用途是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： Celluloid — 1860s — United States — Common use: 14 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first plastic was developed as a result of a competition in the USA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種塑膠是美國一場比賽的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without celluloid, the film industry could never have got off the ground at the end of the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有 celluloid，十九世紀末的電影工業根本不可能起步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 明顯介紹第一種塑膠 celluloid 的來源和用途。最後一句特別強調 film industry，所以如果表格問 common use，答案很可能和 photographic film 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Celluloid”、“1860s”、“United States” 和 “Common use”。Paragraph 2 直接出現celluloid，並列出它的產品用途："
+            },
+            {
+              "kind": "quote",
+              "text": "“This new material rapidly found uses in the manufacture of products such as knife handles, detachable collars and cuffs, spectacle frames and photographic film.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This new material rapidly found uses in the manufacture of products such as knife handles, detachable collars and cuffs, spectacle frames and photographic film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新材料很快被用於製造各種產品，例如刀柄、可拆式衣領和袖口、眼鏡框，以及攝影膠片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句列出多個 celluloid 用途。由於後一句特別補充 “Without celluloid, the film industry…”，文章最突出的用途是 photographic film。它有兩個字，符合 no more than three words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於原文列出多個 possible uses，例如 knife handles、spectacle frames。若原卷表格只是要求一個 common use 而沒有其他提示，可能存在多答案空間；不過配合後一句強調電影工業， photographic film 是最穩定答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "Bakelite",
+      "answerKey": "Bakelite",
+      "type": "Table Completion",
+      "prompt": "Question 15",
+      "translation": "哪種塑膠於 1907 年在美國發明，熱時可鑄造和塑形，但定型後不能再被熱軟化？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： 15 ______ — 1907 — United States — Can be cast and moulded but cannot be softened again by heat"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Celluloid can be repeatedly softened and reshaped by heat, and is known as a thermoplastic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Celluloid 可以被熱反覆軟化和重塑，因此被稱為 thermoplastic。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With these properties it was soon being used in the manufacture of switches, household items such as knife handles, and electrical components for cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憑著這些性質，它很快被用於製造開關、刀柄等家庭用品，以及汽車電氣零件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句先交代 celluloid 對熱的反應，接着介紹另一種塑膠 Bakelite。表格中的 1907 和不能再軟化，直接指向這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “1907”、“cannot be softened again by heat”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1907, Leo Baekeland, a Belgian chemist working in the USA, invented a different kind of plastic…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baekeland called the material Bakelite…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1907, Leo Baekeland, a Belgian chemist working in the USA, invented a different kind of plastic, by causing phenol and formaldehyde to react together. Baekeland called the material Bakelite…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1907 年，在美國工作的比利時化學家 Leo Baekeland 讓 phenol 和 formaldehyde 發生反應，發明了一種不同類型的塑膠。他把這種材料稱為 Bakelite。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問塑膠名稱，答案就是 Bakelite。它是一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是人名 Leo Baekeland。表格問的是 Name of plastic，不是 inventor，所以不能填Baekeland。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "switches",
+      "answerKey": "switches",
+      "type": "Table Completion",
+      "prompt": "Question 16",
+      "translation": "Bakelite 的其中一個用途是 ______、家庭用品和汽車零件。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： Bakelite — Common use: 16 ______; household items; car components"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Celluloid can be repeatedly softened and reshaped by heat, and is known as a thermoplastic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Celluloid 可以被熱反覆軟化和重塑，因此被稱為 thermoplastic。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With these properties it was soon being used in the manufacture of switches, household items such as knife handles, and electrical components for cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憑著這些性質，它很快被用於製造開關、刀柄等家庭用品，以及汽車電氣零件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經列出 Bakelite 的 common uses，表格的 “household items; car components” 正是它的壓縮版本。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “household items” 和 “car components”。掃描 Paragraph 3 可找到同一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“switches, household items such as knife handles, and electrical components for cars”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With these properties it was soon being used in the manufacture of switches, household items such as knife handles, and electrical components for cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憑著這些性質，它很快被用於製造開關、刀柄等家庭用品，以及汽車電氣零件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格把 “electrical components for cars” 改成 “car components”，把 “household items such as knife handles” 簡化成 “household items”。空格前的第一項就是 switches。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 switches，一個字，符合 no more than three words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "Britain",
+      "answerKey": "Britain",
+      "type": "Table Completion",
+      "prompt": "Question 17",
+      "translation": "Polythene 在哪個國家被發現或發明？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： Polythene — 1930s — Country of origin: 17 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon chemists began looking for other small molecules that could be strung together to make polymers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久，化學家開始尋找其他可以串連成 polymers 的小分子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are all produced from chemicals derived from crude oil, which contains exactly the same elements—carbon and hydrogen—as many plastics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們全都由 crude oil 衍生的化學物製成，而 crude oil 含有和許多塑膠完全相同的元素，即carbon 和 hydrogen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 是大量塑膠種類的總覽。Polythene 位於本段開頭，所以答案應在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Polythene” 和 “1930s”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1930s British chemists discovered that the gas ethylene would polymerise under heat and pressure to form a thermoplastic they called polythene.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1930s British chemists discovered that the gas ethylene would polymerise under heat and pressure to form a thermoplastic they called polythene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1930 年代，英國化學家發現 ethylene 氣體在熱力和壓力下會聚合，形成一種他們稱為polythene 的 thermoplastic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用 “British chemists”，表格欄位是 Country of origin，所以答案應寫 Britain。如果要嚴格對應原文字眼，定位詞是 “British”；填表時用國家名 Britain 更自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “British chemists” 的詞性。British 是形容詞；表格問 country，所以轉成 Britain 是合理表格化答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "hard, fireproof plastic",
+      "answerKey": "hard, fireproof plastic",
+      "type": "Table Completion",
+      "prompt": "Question 18",
+      "translation": "Rigid PVC 有甚麼性質，使它適合 drains and gutters？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： Rigid PVC — Property: 18 ______ — Common use: Drains and gutters"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon chemists began looking for other small molecules that could be strung together to make polymers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久，化學家開始尋找其他可以串連成 polymers 的小分子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are all produced from chemicals derived from crude oil, which contains exactly the same elements—carbon and hydrogen—as many plastics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們全都由 crude oil 衍生的化學物製成，而 crude oil 含有和許多塑膠完全相同的元素，即carbon 和 hydrogen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段逐一介紹多種塑膠。題目中的 Rigid PVC 和 drains and gutters 直接指向 PVC 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “PVC”、“drains and gutters”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“produced PVC (polyvinyl chloride), a hard, fireproof plastic suitable for drains and gutters.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A small change in the starting material—replacing a hydrogen atom in ethylene with a chlorine atom—produced PVC (polyvinyl chloride), a hard, fireproof plastic suitable for drains and gutters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在起始材料上作一個小改變，即用 chlorine atom 取代 ethylene 中的一個 hydrogen atom，便產生了 PVC；它是一種堅硬、防火的塑膠，適合用於排水管和雨水槽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 property，答案是 hard, fireproof plastic。如果表格已經標明塑膠名稱，簡短填 hard, fireproof 也合理；不過 hard, fireproof plastic 是原文連續三詞，最安全。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "clear, glass-like material",
+      "answerKey": "clear, glass-like material",
+      "type": "Table Completion",
+      "prompt": "Question 19",
+      "translation": "Polystyrene 的性質是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： Polystyrene — 1930s — Germany — Property: 19 ______ — Common use: Food containers"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon chemists began looking for other small molecules that could be strung together to make polymers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久，化學家開始尋找其他可以串連成 polymers 的小分子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are all produced from chemicals derived from crude oil, which contains exactly the same elements—carbon and hydrogen—as many plastics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們全都由 crude oil 衍生的化學物製成，而 crude oil 含有和許多塑膠完全相同的元素，即carbon 和 hydrogen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 後半介紹 polystyrene 和 polyurethanes。表格有 Germany、1930s、food containers，定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Polystyrene”、“Germany”、“food containers”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polystyrene, developed during the 1930s in Germany, was a clear, glass-like material, used in food containers…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polystyrene, developed during the 1930s in Germany, was a clear, glass-like material, used in food containers, domestic appliances and toys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Polystyrene 於 1930 年代在德國發展出來，是一種透明、像玻璃的材料，用於食物容器、家用電器和玩具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格問 property，所以答案是 clear, glass-like material。它剛好三個詞，符合 no more than three words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "rigid",
+      "answerKey": "rigid",
+      "type": "Table Completion",
+      "prompt": "Question 20",
+      "translation": "Polyurethanes 以 ______ foams 的形式用作 insulation。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格位置： Polyurethanes — Germany — Property: 20 ______ foams — Common use: Adhesives, coatings and insulation"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soon chemists began looking for other small molecules that could be strung together to make polymers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久，化學家開始尋找其他可以串連成 polymers 的小分子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are all produced from chemicals derived from crude oil, which contains exactly the same elements—carbon and hydrogen—as many plastics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們全都由 crude oil 衍生的化學物製成，而 crude oil 含有和許多塑膠完全相同的元素，即carbon 和 hydrogen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Polyurethanes 位於 Paragraph 4 最後部分，答案應在 polystyrene 後面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Polyurethanes”、“foams”、“adhesives”、“coatings”、“insulation”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polyurethanes, also developed in Germany, found uses as adhesives, coatings, and—in the form of rigid foams—as insulation materials.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Polyurethanes, also developed in Germany, found uses as adhesives, coatings, and—in the form of rigid foams—as insulation materials.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Polyurethanes 也在德國發展出來，用作黏合劑、塗層，並以 rigid foams 的形式作 insulation materials。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格已給 “foams”，所以空格只需要填 foams 前的形容詞 rigid。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 rigid，一個字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The chemical structure of plastic is very different from that of rubber.”",
+      "translation": "塑膠的化學結構和橡膠非常不同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When rubber was first commercially produced in Europe during the nineteenth century, it rapidly became a very important commodity, particularly in the fields of transportation and electricity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀橡膠首次在歐洲商業生產時，它很快成為一種非常重要的商品，尤其用於交通和電力領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same bonding principle—polymerisation—underlies the creation of a huge range of plastics by the chemical industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一種 bonding principle，即 polymerisation，支撐著化學工業創造大量不同塑膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 會比較 rubber 和 plastics 的材料背景。最後一句直接說 plastics 和前文 rubber 有相同 bonding principle。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “chemical structure”、“plastic”、“rubber”、“very different”。原文沒有用 chemical structure，但有 “polymer”、“bonding principle”、“polymerisation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rubber is a polymer—a compound containing large molecules that are formed by the bonding of many smaller, simpler units, repeated over and over again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "橡膠是一種 polymer，即一種由許多較小、較簡單單位反覆結合而形成大型分子的化合物。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same bonding principle—polymerisation—underlies the creation of a huge range of plastics by the chemical industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一種 bonding principle，即 polymerisation，支撐著化學工業創造大量不同塑膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 plastic 和 rubber 的 chemical structure “very different”。原文說 rubber 是 polymer， plastic 的創造也建基於同一 bonding principle。方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：very different"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：same bonding principle所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是第一段開頭說 plastics later superseded natural rubber。superseded 指用途上取代，不代表化學結構非常不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“John Wesley Hyatt was a famous chemist.”",
+      "translation": "John Wesley Hyatt 是一位著名化學家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first plastic was developed as a result of a competition in the USA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種塑膠是美國一場比賽的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without celluloid, the film industry could never have got off the ground at the end of the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有 celluloid，十九世紀末的電影工業根本不可能起步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 介紹第一種塑膠 celluloid 的發明背景和用途。題目點名 John Wesley Hyatt，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “John Wesley Hyatt”、“famous”、“chemist”。原文中直接出現 John Wesley Hyatt："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prize was won by John Wesley Hyatt with a material called celluloid.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prize was won by John Wesley Hyatt with a material called celluloid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Wesley Hyatt 憑一種稱為 celluloid 的材料贏得了這項獎金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩項資料：他贏得比賽；他的材料叫 celluloid。原文沒有說他是 chemist，也沒有說他famous。文章確實提到其他人是 chemist，例如 Leo Baekeland 和 Wallace Carothers，但 Hyatt的職業身份和名氣沒有交代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要： John Wesley Hyatt = famous chemist原文只有： John Wesley Hyatt won the prize with celluloid核心資料 “famous” 和 “chemist” 都缺失，所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是他發明了重要材料，學生可能自然推斷他很有名或是化學家。不過 IELTS Reading 不能用合理想像補足身份資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Celluloid and Bakelite react to heat in the same way.”",
+      "translation": "Celluloid 和 Bakelite 對熱的反應相同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Celluloid can be repeatedly softened and reshaped by heat, and is known as a thermoplastic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Celluloid 可以被熱反覆軟化和重塑，因此被稱為 thermoplastic。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With these properties it was soon being used in the manufacture of switches, household items such as knife handles, and electrical components for cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憑著這些性質，它很快被用於製造開關、刀柄等家庭用品，以及汽車電氣零件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 開頭直接講 celluloid 如何受熱，接着介紹 Bakelite 這種不同塑膠。題目比較兩者對熱的反應，所以一定要在這段細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Celluloid”、“Bakelite”、“heat”、“same way”。原文相關短語包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“softened and reshaped by heat”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be softened by heat and reshaped once they have set”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Celluloid can be repeatedly softened and reshaped by heat, and is known as a thermoplastic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Celluloid 可以被熱反覆軟化和重塑，因此被稱為 thermoplastic。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baekeland called the material Bakelite, and it was the first of the thermosets—plastics that can be cast and moulded while hot, but cannot be softened by heat and reshaped once they have set.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baekeland 把這種材料稱為 Bakelite，它是第一種 thermoset；這類塑膠可在熱時鑄造和塑形，但一旦定型，就不能再被熱軟化和重塑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Celluloid 可反覆被熱軟化和重塑；Bakelite 定型後不能再被熱軟化和重塑。兩者反應不同。題目說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in the same way”，和原文衝突。所以答案是 FALSE。中伏位是兩者都和 heat 有關。Celluloid 和 Bakelite 都可在熱處理中成形，但真正控制答案的是“repeatedly” 和 “cannot once set”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Combining different types of plastic can make recycling more difficult.”",
+      "translation": "把不同種類的塑膠用在同一物品中，會令回收更困難。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The great strength of plastic is its indestructibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "塑膠最大的優點是它難以被破壞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other materials can be incorporated that gradually decay in sunlight—although bottles made of such materials have to be stored in the dark, to ensure that they do not disintegrate before they have been used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也可以加入其他會在陽光下逐漸分解的材料；不過用這些材料製成的瓶子必須存放在黑暗處，以確保它們在使用前不會分解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 由塑膠難分解講到回收困難和可降解材料。題目問 recycling difficult，目標很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “different types of plastic”、“recycling”、“difficult”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nor is it very easy to recycle plastics, as different types of plastic are often used in the same items and call for different treatments.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nor is it very easy to recycle plastics, as different types of plastic are often used in the same items and call for different treatments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "回收塑膠也不容易，因為不同種類的塑膠經常被用在同一物品中，而且需要不同處理方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 combining different types of plastic can make recycling more difficult。原文說 different types of plastic are often used in same items，導致 recycling not very easy，因為它們 call for different treatments。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Combining different types” = “different types … used in the same items”"
+            },
+            {
+              "kind": "quote",
+              "text": "“make recycling more difficult” = “Nor is it very easy to recycle”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Adding starch to plastic can make it more durable.”",
+      "translation": "在塑膠中加入 starch 可以令它更耐用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The great strength of plastic is its indestructibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "塑膠最大的優點是它難以被破壞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other materials can be incorporated that gradually decay in sunlight—although bottles made of such materials have to be stored in the dark, to ensure that they do not disintegrate before they have been used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也可以加入其他會在陽光下逐漸分解的材料；不過用這些材料製成的瓶子必須存放在黑暗處，以確保它們在使用前不會分解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 講塑膠難以破壞造成問題，並提出讓塑膠分解的方法。題目提到 starch，因此應找biodegradable plastics 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “starch”、“durable”。原文有 starch，但沒有 durable；相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plastics can be made biodegradable by incorporating into their structure a material such as starch…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plastics can be made biodegradable by incorporating into their structure a material such as starch, which is attacked by bacteria and causes the plastic to fall apart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以把 starch 這類材料加入塑膠結構中，使塑膠變成 biodegradable；starch 會受到細菌攻擊，令塑膠分裂瓦解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 starch 令 plastic more durable。原文說 starch 令 plastic biodegradable，並 causes the plastic to fall apart。這和「更耐用」方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：more durable = 更能持久、不易壞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：fall apart = 分裂、瓦解所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph 6 開頭的 indestructibility。那是一般塑膠的強項；加入 starch 的目的剛好是降低難分解性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some plastic containers have to be stored under special conditions.”",
+      "translation": "有些塑膠容器必須在特殊條件下存放。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The great strength of plastic is its indestructibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "塑膠最大的優點是它難以被破壞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other materials can be incorporated that gradually decay in sunlight—although bottles made of such materials have to be stored in the dark, to ensure that they do not disintegrate before they have been used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也可以加入其他會在陽光下逐漸分解的材料；不過用這些材料製成的瓶子必須存放在黑暗處，以確保它們在使用前不會分解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接提到 bottles、stored in the dark，所以這題定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “plastic containers”、“stored”、“special conditions”。原文用 “bottles” 代表containers，用 “stored in the dark” 表示特殊存放條件。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other materials can be incorporated that gradually decay in sunlight—although bottles made of such materials have to be stored in the dark, to ensure that they do not disintegrate before they have been used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也可以加入其他會在陽光下逐漸分解的材料；不過用這些材料製成的瓶子必須存放在黑暗處，以確保它們在使用前不會分解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Some plastic containers” 對應原文 “bottles made of such materials”。“stored under special conditions” 對應 “stored in the dark”。黑暗環境是一種特定儲存條件，因為這些材料會在sunlight 下 decay。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是題目沒有寫 “bottles”。Containers 是上位詞，bottles 是其中一種容器。這種下位例子轉上位類別，在 IELTS 中常見，只要範圍沒有被過度擴大，就可以成立。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Development of Plastics.pdf",
+    "sha256": "8d3945809dcbdf13e29f436eab62abb6877064444822c054eb15a8a9f8f0b72b",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說橡膠在十九世紀於歐洲首次商業生產後，很快成為重要商品，尤其用於交通和電力。末句說塑膠的創造也建基於 polymerisation 這種 bonding principle。只看首尾句，可以估計本段是全文科學背景：先由天然橡膠引入，再說明橡膠和塑膠在化學結構上同屬 polymer 相關材料，為後文介紹不同 plastics 作鋪墊。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說第一種塑膠源於美國一場比賽。末句說如果沒有 celluloid，十九世紀末的電影工業不可能起步。只看首尾句，可以估計本段集中介紹 celluloid 的誕生、用途和歷史重要性。中間會講 John Wesley Hyatt、ivory 替代品、cellulose、camphor、ethanol，以及 celluloid 如何用於刀柄、衣領、眼鏡框和 photographic film。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 celluloid 可被熱反覆軟化和重塑，是一種 thermoplastic。末句說 Bakelite 很快被用於switches、household items 和汽車電氣零件。只看首尾句，可以估計本段比較兩種塑膠對熱的反應：celluloid 可再軟化；Bakelite 屬 thermoset，一旦定型後不能再被熱軟化。這段是 Bakelite、heat reaction 和 common uses 的核心段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說化學家很快開始尋找其他可串連成 polymers 的小分子。末句說這些塑膠都來自 crude oil衍生的化學物，而 crude oil 含有許多塑膠也具有的 carbon 和 hydrogen。只看首尾句，可以估計本段是不同塑膠種類的總覽：polythene、polypropylene、PVC、Teflon、polystyrene、polyurethanes 等，並交代它們的性質、用途和石油來源。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說第一種人造纖維 nylon 也在 1930s 被創造。末句說今天大多數衣物由天然纖維和人造纖維混合製成，使布料更容易打理。只看首尾句，可以估計本段處理 synthetic fibres：nylon 的發明人 Wallace Carothers、DuPont、最初軍事用途、戰後取代 silk stockings，以及後來 Orlon、Acrilan、Terylene 等人造纖維加入市場。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說塑膠最大優點是 indestructibility，即難以破壞。末句說某些會在陽光下逐漸分解的瓶子必須存放在黑暗處，以免使用前已分解。只看首尾句，可以估計本段由優點轉向環境問題：塑膠難分解造成海灘垃圾，回收也困難；後文提出 biodegradable plastics、starch、bacteria、sunlight-decay materials 等解決方向和限制。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "**Q14 小提醒：**你貼出的表格純文字版本有少少排版走位。我按目前位置把 Q14 解讀為Celluloid 的 Common use，所以答案是 photographic film。如果原卷表格中 Q14 實際位於Property 欄，答案應是 thermoplastic。",
+    "**Q17 小提醒：**原文寫的是 “British chemists”，表格欄位是 Country of origin，所以答案寫Britain 最自然。",
+    "Skim 的標準做法，是看段落第一句和最後一句，暫時跳過中間細節，再推測段落功能；這一步只建立方向，答案仍要靠 Scan 和 Read 驗證。"
+  ]
+}

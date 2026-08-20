@@ -1,0 +1,2119 @@
+{
+  "id": "p2-066-salvador-dali",
+  "catalogueId": "p2-066",
+  "catalogueIds": [
+    "p2-066"
+  ],
+  "passage": 2,
+  "title": "Salvador Dali",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 16,
+  "questionNumberStart": 11,
+  "answerKey": [
+    "C",
+    "E",
+    "D",
+    "D",
+    "B",
+    "B",
+    "C",
+    "D",
+    "C",
+    "C",
+    "D",
+    "worldwide fame",
+    "self-belief",
+    "turning point",
+    "psychoanalytic",
+    "be forgotten"
+  ],
+  "questions": [
+    {
+      "number": 11,
+      "answer": "C — his artistic studies needed to be supplemented by going to Paris to meet the",
+      "answerKey": "C — his artistic studies needed to be supplemented by going to Paris to meet the",
+      "type": "Question Analysis",
+      "prompt": "“Dalí displayed a precocious talent from an early age; however, he was aware ______”",
+      "translation": "Dalí 從小展現早熟才華；然而，他意識到 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Surrealist artists."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。題幹重點是 “precocious talent” 和 “however”。答案要同時接得上文法，也要和 Dalí 早期學習經歷有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To a degree, his undeniably impressive and precocious talent excused his conceit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某程度上，他那無可否認地令人印象深刻、早熟的才華，為他的自負提供了一點解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He soon made the acquaintance of the French Surrealists Jean Arp, René Magritte and Max Ernst and this would prove a turning point in Dalí’s artistic life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他很快認識了 French Surrealists Jean Arp、René Magritte 和 Max Ernst，而這後來證明是他藝術人生的轉捩點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 明顯處理 Dalí 的早熟才華、藝術教育，以及去 Paris 後遇上 Surrealists的轉變。Question 11 的 “precocious talent” 直接來自這段首句，所以目標段落很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “precocious talent”、“aware” 和 “artistic studies”。原文未必用 aware，但會出現 believe、hoped、knowledge、tutors 等概念。掃描 Paragraph 3，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Believing himself far superior to the Academy tutors, who nevertheless refused to grant him a degree, the rebellious artist left for Paris. There he hoped to acquire knowledge that he believed his tutors were not adequate to impart.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句同時有 tutors、Paris、knowledge，和選項 C 的 studies / Paris / Surrealist artists 形成連接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There he hoped to acquire knowledge that he believed his tutors were not adequate to impart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，他希望獲得一些他認為自己的導師無法充分傳授的知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Dalí；核心動詞是 hoped to acquire knowledge；原因是他 believed his tutors were not adequate。這說明他覺得 Madrid Academy 的學習未能滿足自己，所以需要到 Paris 尋找補充。下一句又說他在 Paris 認識了 French Surrealists，並成為 artistic life 的 turning point。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目／選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“his artistic studies needed to be supplemented”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hoped to acquire knowledge that he believed his tutors were not adequate to impart”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Academy tutors not adequate= 原有藝術學習不足go to Paris and meet Surrealists= 透過 Paris 的藝術圈補充學習A 的問題是原文沒有說 Dalí 意識到自己藝術能力有限。相反，他覺得 tutors 不夠好。C 雖然把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hoped to acquire knowledge” 概括成 “studies needed to be supplemented”，仍是五個句尾中最能接上原文證據的一項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "E — inspired Dalí to focus on the psychoanalytic content of his artwork.",
+      "answerKey": "E — inspired Dalí to focus on the psychoanalytic content of his artwork.",
+      "type": "Question Analysis",
+      "prompt": "“Encountering the French Surrealist painters in Paris ______”",
+      "translation": "在巴黎遇上 French Surrealist painters 之後，Dalí ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題也是 Sentence Endings。題幹的 strongest locator 是 “French Surrealist painters in Paris”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要說明這次 encounter 對 Dalí 藝術方向的影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already familiar with the psychoanalytic theories of Sigmund Freud, Dalí was to witness how the French Surrealists were attempting to capture Freud’s ideas in paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 已經熟悉 Sigmund Freud 的 psychoanalytic theories，並將看到 French Surrealists 如何嘗試把 Freud 的思想轉化為繪畫。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Praise continued to be heaped on Dalí as French poet and critic, André Breton, the leader of the Surrealist movement, gave the artist his blessing to continue carrying the torch for the artistic movement, writing that Dalí’s name was ‘synonymous with revelation in the most resplendent sense of the word’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讚譽繼續落在 Dalí 身上；Surrealist movement 的領袖、法國詩人兼評論家 André Breton 也給予他認可，讓他繼續為這場藝術運動扛旗，並寫道 Dalí 的名字與最燦爛意義上的 revelation 同義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 psychoanalytic theories 和 French Surrealists；這就是 Question 12 的答案區。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “French Surrealist painters”、“Paris” 和 “psychoanalytic”。Paragraph 4 開頭已出現French Surrealists 和 Freud。要特別留意：原文說 Dalí was “already familiar” with Freud，所以 B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“opened Dalí’s eyes to the psychoanalytic movement” 不太準確。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The realm of the unconscious as expressed through dreams was to become the content of these artists’ work and later that of Dalí’s, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過夢境表達出來的無意識領域，成為這些藝術家的作品內容，後來也成為 Dalí 作品的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 Surrealists 如何影響 Dalí：他跟隨他們把 unconscious、dreams 和 Freudian ideas 放進繪畫。選項 E 的 “focus on the psychoanalytic content of his artwork” 正是這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "French Surrealists attempting to capture Freud’s ideas in paint= Surrealist painters using psychoanalytic ideas in artwork the unconscious expressed through dreams became content of Dalí’s work= Dalí focused on psychoanalytic content B 有吸引力，因為也提到 psychoanalytic movement；但原文第一個詞組 “Already familiar” 已說明他之前已認識 Freud 的理論。真正改變的地方在藝術內容和表達方法，所以 E 最準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "D — some art critics are less impressed with his work than the general public.",
+      "answerKey": "D — some art critics are less impressed with his work than the general public.",
+      "type": "Question Analysis",
+      "prompt": "“Dalí’s artistic legacy is secure although ______”",
+      "translation": "Dalí 的藝術遺產已經穩固，雖然 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings。題幹問 legacy is secure，並用 although 引出讓步，所以要找「雖然有負面評價，但最終仍不會被遺忘」的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite a lukewarm reception from critics, Dalí’s public popularity never declined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管評論界反應冷淡，Dalí 的大眾人氣從未下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你對他有甚麼看法，至少 Dalí 不太可能被人遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句剛好形成題幹邏輯：critics lukewarm，但 public popularity 和 legacy 仍然強。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “legacy secure”、“although”、“critics” 和 “public”。Paragraph 8 的 first sentence 同時出現 critics 和 public popularity，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite a lukewarm reception from critics, Dalí’s public popularity never declined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管評論界反應冷淡，Dalí 的大眾人氣從未下降。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你怎樣看他，Dalí 至少不太可能被遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來說明：評論家態度一般，但大眾人氣持續，最終名聲穩固。選項 D “some art critics are less impressed with his work than the general public” 正好把 critics 和 public 的反應對比起來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "artistic legacy is secure= unlikely ever to be forgotten some art critics are less impressed= lukewarm reception from critics general public= public popularity never declined因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "D — a quest for self-improvement.",
+      "answerKey": "D — a quest for self-improvement.",
+      "type": "Question Analysis",
+      "prompt": "“Dalí’s departure for Paris was…”",
+      "translation": "Dalí 離開前往 Paris 是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 departure for Paris 的原因，不可以只看到 Paris 後發生了甚麼；要看他為何離開 Academy 去 Paris。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To a degree, his undeniably impressive and precocious talent excused his conceit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某程度上，他無可否認地出色和早熟的才華，為他的自負提供了一點解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He soon made the acquaintance of the French Surrealists Jean Arp, René Magritte and Max Ernst and this would prove a turning point in Dalí’s artistic life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他很快認識了 French Surrealists Jean Arp、René Magritte 和 Max Ernst，這後來證明是他藝術人生的轉捩點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講早期才華、Academy、Paris 和 Surrealists。題目中的 departure for Paris 正在中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “departure for Paris”。原文對應 “left for Paris”。這句附近必須細讀，因為原因通常出現在前後句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Believing himself far superior to the Academy tutors, who nevertheless refused to grant him a degree, the rebellious artist left for Paris. There he hoped to acquire knowledge that he believed his tutors were not adequate to impart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為自己遠比 Academy 的導師優秀；然而那些導師拒絕授予他學位，這位叛逆藝術家於是前往 Paris。在那裡，他希望獲得他認為導師無法充分傳授的知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “a quest for self-improvement” 概括了 “hoped to acquire knowledge”。這裡的self-improvement 不是謙遜地承認自己不足，較準確地說，是他認為 Madrid 的 teachers 無法滿足他的學習需要，所以到 Paris 尋找更高層次的知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 說為了學 psychoanalysis。原文說他之後才在 Surrealists 那裡看到 Freud’s ideas in paint，而且 Paragraph 4 說他 already familiar with Freud。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說因在 Academy 被 disgraced。原文有 refused to grant him a degree，但重點不是 public disgrace。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 Paris departure 導致他未完成 degree，因果放反；原文先說 tutors refused degree，之後他left for Paris。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最貼近 “hoped to acquire knowledge”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B — because he depicted the most memorable images of Surrealism.",
+      "answerKey": "B — because he depicted the most memorable images of Surrealism.",
+      "type": "Question Analysis",
+      "prompt": "“Dalí came to represent the Surrealist movement…”",
+      "translation": "Dalí 後來能代表 Surrealist movement，是因為……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 “came to represent”，要找 Dalí 為何和 Surrealism 幾乎畫上等號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以從文章開頭的整體評價入手，再用 Paragraph 4 的運動內部認可作補充。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost everyone with even a passing knowledge of the art world has heard of Salvador Dalí, the eccentric and avant-garde exponent of the Surrealist movement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只是略懂藝術世界的人，也幾乎都聽過 Salvador Dalí；他是 Surrealist movement 中古怪且前衛的代表人物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist’s melting-clock image is surely one of the most iconic images of the art world, whilst Dalí’s antics have become the stuff of anecdotes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位藝術家的 melting-clock image 肯定是藝術界最具標誌性的圖像之一，而 Dalí 的古怪行為也成為許多軼事的素材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句把 Dalí 直接放在 Surrealism 的代表位置，又點出 melting-clock image 的 iconic status。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “represent the Surrealist movement”。原文中的對應說法是 “virtually synonymous with Surrealism itself”。再向後看，Paragraph 4 也有 “Surrealism’s most exotic and prominent figure”，可作補充。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Love him or loathe him, Dalí’s work has achieved enduring worldwide fame as his name and work have become virtually synonymous with Surrealism itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你愛他或討厭他，Dalí 的作品都取得了持久的世界名聲，因為他的名字和作品幾乎已經與Surrealism 本身同義。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist’s melting-clock image is surely one of the most iconic images of the art world…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 melting-clock image 肯定是藝術界最具標誌性的圖像之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明 Dalí 代表 Surrealism 的原因主要來自作品本身和那些強烈、難忘、具標誌性的圖像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 “most memorable images” 正好概括 iconic images。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 很吸引，因為 Breton 的確 “gave the artist his blessing”。不過 Paragraph 4 中 Dalí 在 Breton讚揚前已經有 Paris 和 New York solo exhibitions，並被 curator 稱為 “Surrealism’s most exotic and prominent figure”。Breton 的 endorsement 強化了地位，未必是主要原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說他比同輩更懂 psychoanalysis，原文沒有比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說他和 peers 一樣不特別有才，與全文對 precocious talent 和 prominence 的描述不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 最能連接 synonymous with Surrealism 和 iconic image。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — loaded with secret symbolism.",
+      "answerKey": "B — loaded with secret symbolism.",
+      "type": "Question Analysis",
+      "prompt": "“Dalí’s work was…”",
+      "translation": "Dalí 的作品是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題幹很短，要看四個選項哪一個得到最完整支援。定位方向是 Dalí’s work的內容和特徵。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5–6 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dalí’s surrealist paintings were packed with Freudian imagery: staircases, keys, dripping candles, in addition to a host of personally significant symbols such as grasshoppers and ants that captured his phobias on canvas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 的 surrealist paintings 充滿 Freudian imagery，例如 staircases、keys、dripping candles，還有大量對他個人有特殊意義的 symbols，例如 grasshoppers 和 ants，用來把他的 phobias 捕捉在畫布上。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work was, if nothing else, provocative and powerful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何，他的作品至少是挑釁性強且有力量的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段顯示作品充滿心理分析符號，也經常令人困惑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的定位詞是 “symbolism”。原文直接有 “personally significant symbols”，也有 “Freudian imagery”。這是最強對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dalí’s surrealist paintings were packed with Freudian imagery…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 的 surrealist paintings 充滿 Freudian imagery。"
+            },
+            {
+              "kind": "label",
+              "text": "同一句後半："
+            },
+            {
+              "kind": "quote",
+              "text": "“a host of personally significant symbols such as grasshoppers and ants that captured his phobias on canvas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量對他個人有特殊意義的 symbols，例如 grasshoppers 和 ants，把他的恐懼症呈現在畫布上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“packed with” 表示大量充滿；Freudian imagery 和 personally significant symbols 支持 “loaded with symbolism”。“secret” 雖然不是原文用字，但這些符號與 unconscious、dreams、phobias 有關，一般觀眾未必能直接解碼，所以 “secret symbolism” 是合理概括。選項排除A 說懂 psychoanalysis 的人便能理解作品。原文只是說有 critic jokingly urged readers to “page Dr. Freud”，並沒有說懂 Freud 就能清楚理解。 C 說作品較偏 personal expression，多於 financial undertaking；Paragraph 7 反而說他後來increasingly infatuated with money。 D 說年紀越大越受歡迎。原文說 public popularity never declined，沒有說越老越受歡迎。 B 最有直接證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C 和 D",
+      "answerKey": "C 和 D",
+      "type": "Question Analysis",
+      "prompt": "“What is Dalí most likely to be remembered for?”",
+      "translation": "Dalí 最可能因甚麼被後人記住？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer 題，要選兩項。題目問 most likely to be remembered for，所以要看作者在文章開頭和結尾反覆突出的 legacy 元素。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 8 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost everyone with even a passing knowledge of the art world has heard of Salvador Dalí, the eccentric and avant-garde exponent of the Surrealist movement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只略懂藝術世界的人，也幾乎都聽過 Salvador Dalí；他是 Surrealist movement 中古怪且前衛的代表人物。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist’s melting-clock image is surely one of the most iconic images of the art world, whilst Dalí’s antics have become the stuff of anecdotes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 melting-clock image 肯定是藝術界最具標誌性的圖像之一，而他的古怪行為也成為軼事素材。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你怎樣看他，Dalí 至少不太可能被遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首段和尾段形成框架：他不會被遺忘，主要因為 iconic paintings 和 eccentric antics。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的定位詞是 inappropriate behaviour / eccentricity；原文有 eccentric、antics、exhibitionist behaviour、Rolls Royce stuffed with cauliflowers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的定位詞是 striking and unusual paintings；原文有 melting-clock image、The Persistence of Memory、provocative and powerful。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "支持 C 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also never failed to promote himself and displayed increasingly exhibitionist behaviour as time went on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也從不錯過宣傳自己的機會，並且隨時間展現越來越愛公開表演的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "再看例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most notably, he once turned up for a lecture in Paris in a Rolls Royce stuffed with cauliflowers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最著名的是，他曾坐著一輛塞滿椰菜花的 Rolls Royce 出席巴黎一場講座。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子支援 C：his inappropriate behaviour and eccentricity。"
+            },
+            {
+              "kind": "label",
+              "text": "支持 D 的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist’s melting-clock image is surely one of the most iconic images of the art world…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 melting-clock image 肯定是藝術界最具標誌性的圖像之一。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph 6："
+            },
+            {
+              "kind": "quote",
+              "text": "“Featuring melting clocks, swarming ants and a mollusc that was the deflated head of Dalí in disguise…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作品中有融化的時鐘、成群螞蟻，以及一個其實是 Dalí 放氣頭部偽裝成的軟體動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些畫面 unusual、striking，並且已成為藝術記憶的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷A 不合，Dalí 不是 psychoanalysis 領域的貢獻者；他借用 Freud。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有一定相關，因為他做過 set design、clothing、jewellery，但文章把 “most likely remembered”放在 iconic paintings 和 antics 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 缺乏支援；文章沒有說他試圖創作 popular accessible works。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C 和 D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        17,
+        18
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C — his supreme confidence in his own abilities.",
+      "answerKey": "C — his supreme confidence in his own abilities.",
+      "type": "Question Analysis",
+      "prompt": "“What does the writer convey about Dalí’s childhood and student days?”",
+      "translation": "作者如何描寫 Dalí 的童年和學生時期？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目限定 childhood and student days，所以定位在早年背景、ambition、Academy 相關段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born into a middle-class family in the Catalonian town of Figueres in north-eastern Spain, Dalí(or Salvador Felipe Jacinto Dalí Domenech, to give him his full name) aimed high from the beginning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 出生於西班牙東北部 Catalonia 地區 Figueres 的中產家庭；他從一開始便志向很高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was amply demonstrated when the artist felt the examiners of the Madrid Academy he was attending were well below par.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他認為自己就讀的 Madrid Academy 考官水平遠低於標準時，這種態度便充分表現出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 ambition 和 self-belief。題目問 childhood and student days，Paragraph 2 正是核心段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “childhood”、“student days”、“confidence”。原文中 “aimed high”、“ambition”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“self-belief”、“arrogance”、“well below par” 都是相關訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“At the age of six I wanted to be a cook. At seven I wanted to be Napoleon. And my ambition has been growing steadily ever since.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "六歲時我想成為廚師。七歲時我想成為拿破崙。從那以後，我的野心一直穩定增長。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such ambition and self-belief matured into full-blown arrogance in later years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種野心和自信在後來成熟為徹底的傲慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句很清楚地展示：Dalí 從小有極高志向和強烈自信；到了學生時代，他甚至覺得考官水平不及格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 說他無法完成目標。文章沒有把他描寫成半途而廢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說童年野心顯示 mental instability。作者用 eccentric、arrogance，但沒有把童年志向診斷為精神不穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確，對應 ambition and self-belief。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 obviously superior intelligence。原文沒有客觀證明智力優越，只說他自己高度自信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "C — His work no longer did justice to his talent.",
+      "answerKey": "C — His work no longer did justice to his talent.",
+      "type": "Question Analysis",
+      "prompt": "“Why did critics turn against Dalí?”",
+      "translation": "為甚麼 critics 後來反對或批評 Dalí？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。定位詞是 critics 和 turn against。文章後段談金錢、商業活動和批評，應直接找 critic / critics。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the passing years, Dalí became ever more infatuated with money, admitting to a ‘pure, vertical, mystical, gothic love of cash’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨年月過去，Dalí 越來越迷戀金錢，並承認自己對現金有一種 “pure, vertical, mystical, gothic love”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His critics, however, believed that early on in his career his love for money exceeded his dedication to producing great art, resulting in Dalí producing ‘awful junk’ after 1939, according to one art critic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，他的批評者認為，在他職業生涯早期，他對金錢的愛已超過了創作偉大藝術的投入；一位藝術評論家說，這導致 Dalí 在 1939 年後製作出 “awful junk”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已把 money obsession 和 critics 的負面評價連接起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “critics”。Paragraph 7 直接有 “His critics, however, believed…”；這句就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His critics, however, believed that early on in his career his love for money exceeded his dedication to producing great art…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的批評者認為，在職業生涯早期，他對金錢的愛已經超過了他對創作偉大藝術的投入。"
+            },
+            {
+              "kind": "label",
+              "text": "後半句："
+            },
+            {
+              "kind": "quote",
+              "text": "“resulting in Dalí producing ‘awful junk’ after 1939…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是 Dalí 在 1939 年後製作出 “awful junk”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的邏輯是：金錢慾望壓過藝術投入 → 後期作品變差 → critics turn against him。選項 C “His work no longer did justice to his talent” 用較概括的方式表達：他的作品質素不再配得上他的才華。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 說因作品越來越 obscure。Paragraph 6 說作品 puzzling，但 critics turn against 的原因在Paragraph 7 的 money 和 awful junk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說他花更多時間做 TV commercials than painting。原文提到 commercials，但沒有比較時間分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 Surrealism obsession overshadowed his work。原文批評的是 money obsession，不是Surrealism。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "D — He believes that despite his failings, Dalí has left an enduring legacy.",
+      "answerKey": "D — He believes that despite his failings, Dalí has left an enduring legacy.",
+      "type": "Question Analysis",
+      "prompt": "“What does the writer convey about his own attitude towards Dalí’s life and work?”",
+      "translation": "作者對 Dalí 的人生和作品整體態度是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice，問 writer’s attitude。要看全文語氣，特別是開頭和結尾的總評。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 8 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost everyone with even a passing knowledge of the art world has heard of Salvador Dalí…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只是略懂藝術世界的人，也幾乎都聽過 Salvador Dalí。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你對他有甚麼看法，Dalí 至少不太可能被遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章首尾都強調 Dalí 的知名度和持久影響；中間也承認 arrogance、money obsession、eccentricity、critical decline。這種結構很適合答案 D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “writer’s attitude”、“legacy”、“failings”。原文沒有直接寫 “failings”，但 Paragraph 2 的arrogance、Paragraph 7 的 love of cash、Paragraph 8 的 lukewarm reception 都提供負面面向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正面面向則有 “enduring worldwide fame” 和 “unlikely ever to be forgotten”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dalí’s work has achieved enduring worldwide fame…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 的作品取得了持久的世界名聲。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你怎樣看他，Dalí 至少不太可能被遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者沒有把 Dalí 寫成純粹正面人物。文章承認他的 arrogance、commercialism、exhibitionist behaviour，也引用批評者說後期有 “awful junk”。然而整體收束在 enduring fame 和 unlikely forgotten。D “despite his failings, Dalí has left an enduring legacy” 最準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 說 Dalí wasted his talents。這只反映部分 critics 的看法，不是作者總態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說很少藝術家在生前有如此 impact。原文有大影響，但選項重點在 during his lifetime，文章沒有這樣比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說人們更關注行為多於才華。文章同時強調作品和行為，沒有說行為蓋過才華。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最能涵蓋全文讓步式語氣。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "worldwide fame",
+      "answerKey": "worldwide fame",
+      "type": "Question Analysis",
+      "prompt": "“Dalí has managed to achieve 22 ______, becoming the figurehead of the Surrealist movement.”",
+      "translation": "Dalí 成功取得 ______，並成為 Surrealist movement 的代表人物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格需要名詞短語，表示Dalí achieved 的成就。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost everyone with even a passing knowledge of the art world has heard of Salvador Dalí, the eccentric and avant-garde exponent of the Surrealist movement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使略懂藝術世界的人，也幾乎都聽過 Salvador Dalí；他是 Surrealist movement 中古怪且前衛的代表人物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist’s melting-clock image is surely one of the most iconic images of the art world, whilst Dalí’s antics have become the stuff of anecdotes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 melting-clock image 是藝術界最具標誌性的圖像之一，而他的古怪行為也成為軼事素材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段介紹 Dalí 的整體名聲和 Surrealist 代表地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “achieve” 和 “figurehead of Surrealist movement”。原文有 “achieved enduring worldwide fame” 和 “synonymous with Surrealism itself”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dalí’s work has achieved enduring worldwide fame as his name and work have become virtually synonymous with Surrealism itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 的作品取得了持久的世界名聲，因為他的名字和作品幾乎已經與 Surrealism 本身同義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “his name and work have become virtually synonymous with Surrealism itself” 概括成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“becoming the figurehead of the Surrealist movement”。空格前 “achieve” 對應原文 “achieved”。答案形式檢查原文完整短語是 “enduring worldwide fame”，三個字，超過 NO MORE THAN TWO WORDS。可填的最佳兩字答案是： worldwide fame這保留了 fame 的核心和 worldwide 的範圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "self-belief",
+      "answerKey": "self-belief",
+      "type": "Question Analysis",
+      "prompt": "“His sheer 23 ______, which for some might have been interpreted as arrogance, led him to believe he was capable of achieving anything.”",
+      "translation": "他強烈的 ______，有些人可能會把它理解成傲慢，使他相信自己能做到任何事。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制 NO MORE THAN TWO WORDS。空格前有 sheer，後面又提到 arrogance，所以要找和自信、傲慢相關的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born into a middle-class family in the Catalonian town of Figueres in north-eastern Spain, Dalí… aimed high from the beginning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 出生於西班牙東北部 Figueres 的中產家庭，從一開始便志向很高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was amply demonstrated when the artist felt the examiners of the Madrid Academy he was attending were well below par.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他認為 Madrid Academy 的考官水平遠低於標準時，這一點表現得十分充分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的功能正是展示 ambition、self-belief 和 arrogance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “arrogance”、“capable of achieving anything”。原文有 “Such ambition and self-belief matured into full-blown arrogance in later years.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such ambition and self-belief matured into full-blown arrogance in later years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種野心和自信在後來成熟為徹底的傲慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “for some might have been interpreted as arrogance”，所以答案要填一個較中性的心理特質，與 arrogance 有關。原文中的 “self-belief” 最貼合。Ambition 也有關，但 “led him to believe he was capable” 與 self-belief 更直接。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查self-belief 是一個 hyphenated word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：self-belief"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "turning point",
+      "answerKey": "turning point",
+      "type": "Question Analysis",
+      "prompt": "“Moving to France, where he encountered Surrealist artists, was a 24 ______ in his life.”",
+      "translation": "移居法國並遇上 Surrealist artists，是他人生中的一個 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制 NO MORE THAN TWO WORDS。空格前有 “a”，答案應是一個單數名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To a degree, his undeniably impressive and precocious talent excused his conceit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某程度上，他令人印象深刻的早熟才華，為他的自負提供了一點解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He soon made the acquaintance of the French Surrealists Jean Arp, René Magritte and Max Ernst and this would prove a turning point in Dalí’s artistic life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他很快認識了 French Surrealists Jean Arp、René Magritte 和 Max Ernst，這後來證明是他藝術人生的轉捩點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示本段會講早期才華到 Paris 轉向；最後一句直接給出答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “encountered Surrealist artists”。原文對應 “made the acquaintance of the French Surrealists”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He soon made the acquaintance of the French Surrealists Jean Arp, René Magritte and Max Ernst and this would prove a turning point in Dalí’s artistic life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他很快認識了 French Surrealists Jean Arp、René Magritte 和 Max Ernst，這後來證明是他藝術人生的轉捩點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “made the acquaintance of” 改成 “encountered”，把 “artistic life” 簡化成 “his life”。答案直接是 turning point。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查turning point = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：turning point"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "psychoanalytic",
+      "answerKey": "psychoanalytic",
+      "type": "Question Analysis",
+      "prompt": "“Dalí’s work was chiefly inspired by Freud’s 25 ______ theories.”",
+      "translation": "Dalí 的作品主要受到 Freud 的 ______ theories 啟發。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制 NO MORE THAN TWO WORDS。空格修飾 theories，需要形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already familiar with the psychoanalytic theories of Sigmund Freud, Dalí was to witness how the French Surrealists were attempting to capture Freud’s ideas in paint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dalí 已經熟悉 Sigmund Freud 的 psychoanalytic theories，並看到 French Surrealists 如何嘗試把 Freud 的 ideas 用繪畫呈現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Praise continued to be heaped on Dalí as French poet and critic, André Breton, the leader of the Surrealist movement, gave the artist his blessing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨後讚譽繼續落在 Dalí 身上；Surrealist movement 的領袖 André Breton 也給予他認可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段首句直接出現 Freud’s theories。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Freud’s theories”。原文直接是 “the psychoanalytic theories of Sigmund Freud”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already familiar with the psychoanalytic theories of Sigmund Freud…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他已經熟悉 Sigmund Freud 的心理分析理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把詞序改成 “Freud’s ______ theories”。答案就是 psychoanalytic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查psychoanalytic = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：psychoanalytic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "be forgotten",
+      "answerKey": "be forgotten",
+      "type": "Question Analysis",
+      "prompt": "“Despite the fact that his work is of varying quality, Dalí will never 26 ______.”",
+      "translation": "儘管他的作品質素不一，Dalí 永遠不會 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，限制 NO MORE THAN TWO WORDS。空格位於 will never 後面，需要動詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite a lukewarm reception from critics, Dalí’s public popularity never declined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管評論界反應冷淡，Dalí 的大眾人氣從未下降。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你對他有甚麼看法，至少 Dalí 不太可能被人遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段總結他在 critics 和 public 之間的不同反應，最後明確說他不會被忘記。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “will never” 和 “forgotten”。原文對應 “unlikely ever to be forgotten”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever your opinion of him, at least Dalí is unlikely ever to be forgotten.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論你怎樣看他，Dalí 至少不太可能被遺忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “will never” 改寫 “unlikely ever to”。兩者方向相同，都是說 Dalí 的 legacy 會留下來。空格要接在 “will never” 後面，所以要填動詞短語 “be forgotten”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查be forgotten = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：be forgotten"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Salvador Dali.pdf",
+    "sha256": "b17dd614e908aeb0532e19815f4090ea7243fded16148f073eb6d0bdbb517eca",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說即使只略懂藝術世界的人，也大多聽過 Salvador Dalí；末句說他的 melting-clock image 是藝術界最 iconic 的圖像之一，他的 antics 也成為軼事素材。只看首尾句，可以估計本段是總介紹：Dalí 與 Surrealism 幾乎綁在一起，文章會同時處理他的藝術成就和古怪行為。"
+      },
+      {
+        "number": "2",
+        "summary": "首句交代 Dalí 出生於西班牙 Figueres 的中產家庭；末句說他認為 Madrid Academy 的考官水平遠低於自己。首尾合看，本段重點是早年背景、野心和自我評價。中間的自傳引文會展示他從小已抱有誇張志向，並慢慢發展成強烈自信甚至傲慢。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Dalí 的早熟才華在某程度上可為他的自負作辯解；末句說他在巴黎認識 French Surrealists，這成為他藝術人生的 turning point。只看首尾句，可以估計本段講他的早期藝術能力、Madrid Academy 經歷、離開西班牙去巴黎，以及與 Surrealist artists 相遇後方向改變。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Dalí 已熟悉 Freud 的 psychoanalytic theories，並看到 French Surrealists 如何把 Freud的想法轉化為繪畫；末句說 André Breton 讚揚 Dalí，並讓他繼續為 Surrealism 扛旗。首尾句顯示本段講 Freud、dreams、unconscious、國際聲譽和 Surrealist movement 內部認可。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Dalí 的 surrealist paintings 充滿 Freudian imagery；末句說 Freud 曾低聲向旁人說 Dalí像 fanatic。只看首尾句，本段會集中於 Dalí 作品中的心理分析符號，以及他對 Freud 的崇拜。中間應會列出 staircases、keys、dripping candles、grasshoppers、ants 等個人和心理象徵。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Dalí 有時看來不但像瘋狂，也令人難以理解，尤其是他的畫作；末句說他的作品無論如何都具 provocative 和 powerful 特質。首尾句顯示本段聚焦作品理解難度，特別是 The Persistence of Memory。中間會解釋 melting clocks、ants、mollusc 等圖像如何令觀眾困惑。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說隨年月過去，Dalí 越來越迷戀金錢；末句說批評者認為他對金錢的愛早早超過了創作偉大藝術的投入，導致 1939 年後出現 awful junk。只看首尾句，本段主軸是金錢、商業代言、自我宣傳、古怪公開行為、多元設計項目，以及評論界對後期作品質素下降的批評。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說即使評論界反應冷淡，Dalí 的大眾人氣從未下降；末句說無論讀者怎樣看他，Dalí 至少不太可能被遺忘。只看首尾句，可以估計本段是總結：評論界和大眾反應形成對比，Figueres 的 DalíTheatre Museum 也成為他持久人氣和 enduring legacy 的證據。"
+      }
+    ]
+  }
+}

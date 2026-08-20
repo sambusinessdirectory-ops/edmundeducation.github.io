@@ -1,0 +1,2020 @@
+{
+  "id": "p2-117-the-dinosaurs-footprints-and-extinction",
+  "catalogueId": "p2-117",
+  "catalogueIds": [
+    "p2-117"
+  ],
+  "passage": 2,
+  "title": "The Dinosaurs Footprints and Extinction",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "NO",
+    "NO",
+    "ecological release",
+    "competitors",
+    "dragons",
+    "overlooked",
+    "vanished",
+    "swallowed up",
+    "misdated"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dr Paul Olsen and his colleagues believe that an asteroid impact may also have led to the rise of the dinosaurs.”",
+      "translation": "Dr Paul Olsen 和他的同事認為，小行星撞擊也可能導致恐龍崛起。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“EVERYBODY knows that the dinosaurs were killed by an asteroid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人人都知道，恐龍是被一顆小行星殺死的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is the thesis proposed by Paul Olsen, of Columbia University, and his colleagues in this week’s Science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是哥倫比亞大學 Paul Olsen 和他的同事在本週 Science 期刊中提出的論點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 會把「恐龍被小行星滅絕」這個普遍觀點，轉向 Olsen 團隊的新論點。題目提到 Dr Paul Olsen、asteroid impact、rise of dinosaurs，正好對應本段的主論點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Olsen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“asteroid impact”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rise of the dinosaurs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最接近 “rise” 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is thus a nice, if ironic, symmetry in the idea that a similar impact brought about the dinosaurs’ rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，若說一次類似的撞擊促成恐龍的崛起，這個想法就帶有一種漂亮、雖然有點諷刺的對稱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a similar impact brought about the dinosaurs’ rise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brought about” 意思是導致、促成。題目中的 “led to” 就是它的同義改寫。“a similar impact” 指與恐龍滅絕時類似的小行星撞擊。“the dinosaurs’ rise” 對應題目中的 “the rise of the dinosaurs”。原文再補一句：“That is the thesis proposed by Paul Olsen…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把前面的想法明確歸給 Paul Olsen 和他的 colleagues。因此題目說 “Dr Paul Olsen and his colleagues believe…” 有文章支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "led to = brought about asteroid impact = similar impact rise of the dinosaurs = dinosaurs’ rise believe / propose = thesis proposed by題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Books and films such as Jurassic Park often exaggerate the size of dinosaurs.”",
+      "translation": "像 Jurassic Park 這類書籍和電影經常誇大恐龍的體型。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dinosaurs first appeared in the fossil record 230 million years ago, during the Triassic period.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "恐龍在 2.3 億年前的 Triassic period 首次出現在化石紀錄中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they are the first to show that the takeover did, indeed, happen in a geological eyeblink.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他們是第一批顯示這次接管確實在地質時間中的一瞬間發生的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 的功能是交代恐龍由 Triassic 初現，到 Jurassic 迅速接管地球的時間線。Jurassic Park 出現在本段中間，所以要小心：這個例子可能只是用來幫讀者想像恐龍形象，未必涉及電影是否誇張。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Books and films”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Jurassic Park”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exaggerate the size”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in the subsequent Jurassic, which began 202 million years ago, that they overran the planet and turned into the monsters depicted in the book and movie ‘Jurassic Park’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在隨後開始於 2.02 億年前的 Jurassic period，恐龍席捲地球，變成了書籍和電影 Jurassic Park中所描繪的巨獸。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Actually, though, the dinosaurs that appeared on screen were from the still more recent Cretaceous period.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，實際上，電影畫面中出現的恐龍來自更晚近的 Cretaceous period。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 Jurassic Park，也說 movie 中的 dinosaurs 來自 Cretaceous period。這是「年代分類」的修正：電影中出現的恐龍不屬於 Jurassic，而屬於更晚的 Cretaceous。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目問的是 “exaggerate the size”。要判 YES，需要文章說書籍或電影把恐龍體型描寫得過大，或說牠們沒有那麼巨大。原文沒有這個內容。它只說恐龍在 Jurassic 變成 monsters depicted in Jurassic Park；“monsters” 在這裡是形容牠們巨大、可怕或壯觀，並沒有說電影誇大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目需要： Jurassic Park 類作品經常誇大恐龍大小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供： Jurassic Park 裡的恐龍在地質時代歸屬上應屬 Cretaceous。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "恐龍在 Jurassic 後開始接管地球並變成大型動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分：沒有 “often”；沒有 “exaggerate”；沒有 size comparison；沒有說電影中的大小不準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易被 “monsters depicted in Jurassic Park” 吸引，覺得 monsters 有誇張意味。細讀時要記住，IELTS 要看文章是否明確支援題目命題。這裡文章只糾正地質年代，沒有評論書和電影是否誇大體型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dinosaur footprints provide more useful evidence than dinosaur skeletons.”",
+      "translation": "恐龍足跡比恐龍骨骼提供更有用的證據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dinosaur skeletons are rare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "恐龍骨骼很少見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Olsen and his colleagues, therefore, concentrated on prints, not bones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，Olsen 博士和他的同事集中研究足跡，而非骨骼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 是研究材料選擇段。第一句指出 skeletons 的問題：rare。最後一句說研究者實際選擇 prints。這已經暗示，對這項研究而言，足跡比骨骼更有研究價值。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“footprints”"
+            },
+            {
+              "kind": "quote",
+              "text": "“skeletons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more useful evidence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dinosaur footprints are, however, surprisingly abundant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，恐龍足跡卻出乎意料地豐富。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the sizes of the prints are as good an indication of the sizes of the beasts as are the skeletons themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且，足跡的大小和骨骼本身一樣，都能很好地顯示這些動物的體型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段建立了三層證據。"
+            },
+            {
+              "kind": "label",
+              "text": "第一層："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dinosaur skeletons are rare.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "骨骼稀少，代表可用樣本有限。"
+            },
+            {
+              "kind": "label",
+              "text": "第二層："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dinosaur footprints are, however, surprisingly abundant.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "足跡大量存在，代表樣本更容易取得。"
+            },
+            {
+              "kind": "label",
+              "text": "第三層："
+            },
+            {
+              "kind": "quote",
+              "text": "“the sizes of the prints are as good an indication … as are the skeletons themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "足跡在判斷體型方面，證據價值不低於骨骼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，當文章說 Olsen 團隊 “therefore, concentrated on prints, not bones”，這個 therefore 很重要。它表明研究選擇的邏輯：足跡既豐富，又能有效反映體型，因此在這項研究中比稀少的骨骼更有用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "skeletons are rare = skeleton evidence is limited footprints are abundant = footprints provide more available evidence as good an indication = equally reliable for size therefore concentrated on prints = prints were more useful for this study題目說 “provide more useful evidence” 是對整段研究選擇的合理概括，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的 “more useful” 並非單靠一句 “as good an indication” 得出。單看這句，只能說足跡和骨骼一樣能反映體型。還要把前一句 “skeletons are rare” 和 “footprints are abundant” 一起讀，才看見為何足跡在實際研究上更有用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Dr Olsen chose footprints because they are more detectable than evidence from the Earth’s magnetic field when dating geological events to within a few thousand years.”",
+      "translation": "Olsen 博士選擇足跡，是因為在把地質事件定年到幾千年範圍內時，足跡比地球磁場證據更容易偵測。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prints in question were made in eastern North America, a part of the world then full of rift valleys similar to those in East Africa today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些足跡形成於北美東部；當時那裡充滿裂谷，類似今天的東非裂谷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By dividing the labour between themselves, the ten authors of the paper were able to study such tracks at 80 sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這篇論文的十位作者分工合作，得以在 80 個地點研究這類足跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會講研究地點、地質條件和研究範圍。題目提到 magnetic field、dating geological events 和 footprints，所以要在本段細讀地質定年和足跡保存的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earth’s magnetic field”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dated to within a few thousand years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“footprints”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That regularity, combined with reversals in the earth’s magnetic field, which are detectable in the tiny fields of certain magnetic minerals, means that rocks from this place and period can be dated to within a few thousand years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種規律性，加上地球磁場逆轉；這些逆轉可在某些磁性礦物的微小磁場中偵測到。兩者結合起來，表示這個地點和時期的岩石可被定年到幾千年內的精度。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a bonus, squishy lake-edge sediments are just the things for recording the tracks of passing animals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "額外的好處是，濕軟的湖邊沉積物正適合記錄經過動物的足跡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩種功能混在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種功能：dating原文說 rocks can be dated because of climatic regularity plus magnetic field reversals. 也就是說，精準定年依靠的是湖泊週期變化和地球磁場逆轉證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二種功能：recording tracks原文說 squishy lake-edge sediments record animal tracks. 足跡幫助研究動物活動和動物群變化，但原文沒有說足跡用來定年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Dr Olsen chose footprints because they are more detectable than evidence from the Earth’s magnetic field”。這和原文不配。原文清楚說磁場逆轉是 detectable 的，並且正是定年工具之一。足跡的優勢來自 Paragraph C：skeletons rare, footprints abundant，以及足跡大小能反映動物大小。題目卻把足跡拿來和 magnetic field evidence 比較，而且把這個比較說成 Olsen 選擇足跡的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "命題比較："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "足跡比磁場證據更容易偵測，所以 Olsen 選擇足跡來定年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：磁場逆轉可以被偵測，並幫助 rocks 精準定年；足跡由湖邊沉積物保存，用來研究動物蹤跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡不只是缺少比較，還把定年工具和動物證據的功能放錯。因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Ichnotaxa allow dinosaur footprints to be matched to the exact species that made them.”",
+      "translation": "Ichnotaxa 可以讓恐龍足跡和留下足跡的精確物種配對。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers looked at 18 so-called ichnotaxa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者觀察了 18 種所謂的 ichnotaxa。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Six, however, vanish at the boundary, or only just splutter across it; and three appear from nowhere, almost as soon as the Jurassic begins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，有六種在邊界處消失，或只是勉強跨過邊界；另外三種幾乎在 Jurassic 一開始就突然出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 是用 ichnotaxa 追蹤足跡類型在 Triassic / Jurassic 邊界前後的消失和出現。題目提到 exact species，必須細讀 ichnotaxa 的定義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ichnotaxa”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exact species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“matched”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接解釋："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are recognisable types of footprint that cannot be matched precisely with the species of animal that left them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些是可辨認的足跡類型，但不能和留下它們的動物物種精確配對。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they can be matched with a general sort of animal…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它們可以和某一大類動物配對。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的是 “cannot be matched precisely”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說： matched to the exact species原文說： cannot be matched precisely with the species兩者方向直接相反。原文補充，它們只能 matched with a general sort of animal。也就是說， ichnotaxa 可以告訴研究者大概是哪類動物留下足跡，例如某類恐龍或爬行類，但不能精準到species level。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "exact species = precisely with the species allow to be matched = can be matched cannot be matched precisely = 明確否定 exact matching general sort of animal = 大致類型，不是精確物種所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “recognisable types of footprint” 和 “can be matched” 就選 YES。細讀時要看清楚matched 的範圍。原文承認可以配到 general sort of animal，但明確排除 exact species。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“More iridium is found at the Earth’s surface than in meteorites.”",
+      "translation": "地球表面的 iridium 比隕石中的更多。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That boundary itself is suggestive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那個邊界本身就很有啟示性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One that turned up was a surprising abundance of fern spores in rocks just above the boundary layer—a phenomenon known as a ‘fern spike’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個被發現的異常，是邊界層上方岩石中出現大量蕨類孢子，這種現象稱為 “fern spike”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 是解釋 boundary anomalies 如何支持撞擊理論。題目提到iridium，所以要找本段中間關於 iridium 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “iridium” 和 “meteorites”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Iridium is normally rare at the earth’s surface, but it is more abundant in meteorites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Iridium 通常在地球表面很稀少，但在隕石中較豐富。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說： More iridium is found at the Earth’s surface than in meteorites.原文說： iridium is rare at the earth’s surface, but more abundant in meteorites.這是明確反向。原文的比較是： Earth’s surface：rare meteorites：more abundant題目把比較方向倒轉成： Earth’s surface：more meteorites：less所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不難，但要留意 “more” 比較方向。原文提到 Cretaceous 末期岩石中有 unusually high level of iridium，這可能令學生以為地表很多 iridium。實際上，那個 high level 是異常現象；一般情況下，iridium 在地表 rare，在 meteorites 中 more abundant。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "ecological release",
+      "answerKey": "ecological release",
+      "type": "Summary Completion",
+      "prompt": "“Dr Olsen and his colleagues used a phenomenon called 21 __________ to explain the large size of Eubrontes.”",
+      "translation": "Olsen 博士和同事用一種叫做 ______ 的現象，解釋 Eubrontes 的巨大體型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Olsen and his colleagues suggest that the explanation for this rapid increase in size may be a phenomenon called ecological release.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Olsen 博士和他的同事提出，這種體型快速增加的解釋，可能是一種叫 ecological release 的現象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The dinosaurs, in other words, could flourish only when the competition had been knocked out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，恐龍只有在競爭者被清除後，才能繁盛起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以立即定位。Question 21 問 phenomenon called 甚麼，Paragraph I 第一句幾乎直接給出答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“phenomenon called”"
+            },
+            {
+              "kind": "quote",
+              "text": "“large size of Eubrontes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the explanation for this rapid increase in size may be a phenomenon called ecological release.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “called”，所以答案應該是一個名稱。原文名稱是 “ecological release”，剛好兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "large size of Eubrontes = this rapid increase in size used to explain = explanation may be phenomenon called = phenomenon called"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ecological release"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "competitors",
+      "answerKey": "competitors",
+      "type": "Summary Completion",
+      "prompt": "“This is similar to what happens when reptiles reach a place where there are no 22__________.”",
+      "translation": "這類似於爬行類到達一個沒有 ______ 的地方時所發生的情況。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Olsen and his colleagues suggest that the explanation for this rapid increase in size may be a phenomenon called ecological release.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Olsen 博士和同事提出，這種體型快速增加可能由 ecological release 解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The dinosaurs, in other words, could flourish only when the competition had been knocked out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，恐龍只有在競爭被清除後才能繁盛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段解釋大型化和競爭消失的關係。Question 22 問 reptiles 到達某地方時沒有甚麼，應在本段中間找現代例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reptiles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is seen today when reptiles (which, in modern times, tend to be small creatures) reach islands where they face no competitors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天也可以看到這種現象：爬行類在現代通常體型較小，但當牠們到達沒有競爭者的島嶼時，就會出現這種情況。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “there are no”，所以答案需要名詞複數。原文是 “face no competitors”。summary 把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“face no competitors” 改寫成 “there are no competitors”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reach islands = reach a place where they face no competitors = where there are no competitors competitors = 競爭者"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：competitors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "dragons",
+      "answerKey": "dragons",
+      "type": "Summary Completion",
+      "prompt": "“For example, on the island of Komodo, native lizards grow so large that people refer to them as 23 __________.”",
+      "translation": "例如在 Komodo 島，本地蜥蜴長得很大，以致人們稱牠們為 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Olsen and his colleagues suggest that the explanation for this rapid increase in size may be a phenomenon called ecological release.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Olsen 博士和同事提出，這種體型快速增加可能由 ecological release 解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The dinosaurs, in other words, could flourish only when the competition had been knocked out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，恐龍只有在競爭被清除後才能繁盛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段用現代爬行類例子解釋恐龍大型化。Question 23 的 Komodo 是非常強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Komodo”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lizards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“referred to as”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most spectacular example is on the Indonesian island of Komodo, where local lizards have grown so large that they are often referred to as dragons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最壯觀的例子在印尼 Komodo 島；當地蜥蜴長得非常大，以致常被稱為 dragons。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “refer to them as”，答案就是原文 “referred to as” 後面的名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dragons” 一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "native lizards = local lizards people refer to them as = they are often referred to as dragons = dragons"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：dragons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "overlooked",
+      "answerKey": "overlooked",
+      "type": "Summary Completion",
+      "prompt": "“One possibility is that we have 24 __________ the evidence.”",
+      "translation": "一個可能性是，我們已經 ______ 了證據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That leaves the question of where the impact happened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就留下了一個問題：撞擊到底發生在哪裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no ocean floor left that is more than 200 million years old, so a crater that formed in the ocean would have been swallowed up by now.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已經沒有超過 2 億年的海洋地殼留下，因此若撞擊坑形成於海洋，現在已被吞沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph J 是解釋為何找不到古老撞擊坑。Question 24 問 “one possibility”，應該對應本段列出的第一種可能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“One possibility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“have”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may, of course, have been overlooked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，它可能被忽略了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “it” 指前一句的 “No large crater in the Earth’s crust seems to be 202 million years old.”也就是符合年代的大撞擊坑。summary 把 “it may have been overlooked” 改寫成主動語態 “we have overlooked the evidence”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “we have”，所以要填過去分詞 “overlooked”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overlooked” 意思是忽略、漏看。答案一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "It may have been overlooked = we may have overlooked the evidence crater = evidence of ancient impact overlooked = missed / failed to notice"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：overlooked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "vanished",
+      "answerKey": "vanished",
+      "type": "Summary Completion",
+      "prompt": "“Old craters are difficult to spot, or the crater may have 25 __________ because of movements in the Earth’s crust.”",
+      "translation": "古老撞擊坑很難發現，或者撞擊坑可能因地殼運動而 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That leaves the question of where the impact happened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就留下了一個問題：撞擊到底發生在哪裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no ocean floor left that is more than 200 million years old, so a crater that formed in the ocean would have been swallowed up by now.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已經沒有超過 2 億年的海洋地殼留下，因此若撞擊坑形成於海洋，現在已被吞沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是提出找不到撞擊坑的解釋。Question 25 的 “Old craters are difficult to spot” 對應本段中 “Old craters are eroded and buried”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old craters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult to spot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may have”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old craters are eroded and buried, and not always easy to find.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古老撞擊坑會被侵蝕和掩埋，因此不一定容易找到。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternatively, it may have vanished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種可能是，它可能已經消失了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the crater may have”，需要一個過去分詞。原文直接是 “may have vanished”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 後半加上 “because of movements in the Earth’s crust”，是把後面 tectonic processes的解釋提前整合。原文說 ocean floor is constantly recycled by tectonic processes，這些板塊過程會令古老海洋撞擊坑不再保留。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "may have vanished = may have disappeared movements in the Earth’s crust = tectonic processes / continental drift old craters difficult to spot = eroded and buried, not always easy to find"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vanished"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "swallowed up",
+      "answerKey": "swallowed up",
+      "type": "Summary Completion",
+      "prompt": "“Even a crater formed in the ocean would have been 26 __________ by crustal movement.”",
+      "translation": "即使撞擊坑形成於海洋，也會因地殼運動而被 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That leaves the question of where the impact happened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就留下了一個問題：撞擊到底發生在哪裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no ocean floor left that is more than 200 million years old, so a crater that formed in the ocean would have been swallowed up by now.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已經沒有超過 2 億年的海洋地殼留下，因此若撞擊坑形成於海洋，現在已被吞沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 26 幾乎直接改寫 Paragraph J 最後一句，所以定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“crater formed in the ocean”"
+            },
+            {
+              "kind": "quote",
+              "text": "“would have been”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crustal movement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no ocean floor left that is more than 200 million years old, so a crater that formed in the ocean would have been swallowed up by now.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已經沒有超過 2 億年的海洋地殼留下，因此若撞擊坑形成於海洋，現在已被吞沒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案短語是 “swallowed up”。意思是被吞沒、被吸收或被地質過程消除。"
+            },
+            {
+              "kind": "label",
+              "text": "題目後面的 “by crustal movement” 對應原文前一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the ocean floor is constantly recycled by the tectonic processes that bring about continental drift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋地殼會被造成大陸漂移的板塊過程不斷回收。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文的邏輯是：海洋地殼會被回收 → 沒有 2 億年以上的海洋地殼保留下來 → 海洋撞擊坑也會被吞沒。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "crustal movement = tectonic processes / continental drift crater formed in the ocean = crater that formed in the ocean swallowed up = swallowed up"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：swallowed up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "misdated",
+      "answerKey": "misdated",
+      "type": "Summary Completion",
+      "prompt": "“A third possibility is that the potential evidence—one or more craters—has been 27__________.”",
+      "translation": "第三種可能是，潛在證據，即一個或多個撞擊坑，已被 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a third possibility, however.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，還有第三種可能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is huge – some 100 km across – and seems to be the largest of between three and five craters that formed within a few hours of each other as the lumps of a disintegrated comet hit the earth one by one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它非常巨大，直徑約 100 公里，而且似乎是三至五個撞擊坑中最大的一個；這些撞擊坑是在一顆分裂彗星的碎塊一個接一個撞向地球時，在數小時內形成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph K 提出第三種找不到正確撞擊證據的可能：某個已知撞擊坑可能年代判錯，並以 Manicouagan structure 作例子。Question 27 的 “third possibility” 直接指向這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third possibility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“potential evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“has been”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is that the crater is known, but has been misdated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是：撞擊坑其實已被知道，只是年代被判錯了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “has been”，所以答案應該是過去分詞。原文直接給出 “has been misdated”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“misdated” 意思是年代判定錯誤。summary 把 “the crater is known” 概括成 “potential evidence—one or more craters”，因為 Paragraph K 接着講 Manicouagan structure 以及三至五個幾乎同時形成的 craters。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the crater is known = potential evidence exists / one or more craters are known has been misdated = age has been wrongly assigned third possibility = There is a third possibility"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：misdated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Dinosaurs Footprints and Extinction.pdf",
+    "sha256": "ba7cbd1bbae3fe713390907a5ea7e64cbe25806222dc53f17bbc8a81b238217d",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 everybody knows 開場，指出普遍認知是恐龍在 6500 萬年前被小行星撞擊消滅。末句說Paul Olsen 和同事在 Science 提出一個對稱又帶諷刺感的 thesis：類似撞擊也可能促成恐龍興起。只看首尾句，可以先估計本段功能是引出文章主論點：小行星撞擊不只和恐龍滅絕有關，也可能和恐龍崛起有關。Question 15 很可能定位在這裡。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說恐龍在 2.3 億年前 Triassic period 首次出現在化石紀錄中。末句說 Olsen 團隊首次顯示恐龍接管地球是在 geological eyeblink 之內發生。只看首尾句，可以估計本段會交代恐龍由小型、與其他爬行類共存，到 Jurassic period 迅速擴張的歷史。中間提到 Jurassic Park，但重點是時間線：Triassic 出現，Jurassic 接管，並且這個轉變非常快速。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 dinosaur skeletons 很少見。末句說 Olsen 和同事因此集中研究 prints，而非 bones。只看首尾句，可以估計本段功能是解釋研究材料選擇：因為骨骼稀少，腳印卻大量存在，所以腳印成為更可操作的證據。中間補充 prints 的大小也能像 skeletons 一樣反映動物大小。Question 17 需要在這段判斷 footprints 和 skeletons 的證據價值。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說這些腳印來自 eastern North America，當時那裡有許多類似現代東非大裂谷的 rift valleys。末句說十位作者分工，在 80 個地點研究這些 tracks。只看首尾句，可以推測本段介紹研究地點與地質條件。中間會說 lakes、orbital shifts、magnetic field reversals 如何幫助精準定年，也會說湖邊柔軟沉積物適合保存動物足跡。Question 18 的 magnetic field 和 dating 會定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說研究者觀察 18 種 ichnotaxa，即可辨認的足跡類型。末句說有三種足跡類型在 Jurassic剛開始後幾乎立即出現。只看首尾句，可以估計本段功能是用足跡類型追蹤動物群在 Triassic /Jurassic 邊界前後的消失與出現。中間會解釋 ichnotaxa 不能精準配到物種，只能配到大致動物類型。Question 19 明顯在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Triassic / Jurassic boundary 本身很有啟示性。末句說 Cretaceous-end boundary 上方的岩石中，曾發現大量 fern spores，稱為 fern spike。只看首尾句，可以估計本段功能是介紹撞擊證據的類比：科學家如何從 Cretaceous 末期的 iridium anomaly 和 fern spike 推出小行星撞擊理論。Question 20 的 iridium 會定位在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 fern spike 和小行星撞擊理論吻合得很好。末句說岩石中的 fern spike 是某件可怕事情發生過的好指標。只看首尾句，可以估計本段功能是解釋為甚麼 fern spike 可作災變證據。中間會說現代蕨類是 opportunists，當土地被火山爆發或撞擊清空植被後，牠們會率先佔據空地。這段幫Paragraph H 解釋 Triassic 末期災變證據。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說在 Triassic 末期岩石中，也同時出現 iridium anomaly 和 fern spike。末句說 Eubrontes 足跡已比 Triassic 記錄中任何 theropod track 大 20%。只看首尾句，可以估計本段功能是把「災變證據」連到「足跡資料」：有些 ichnotaxa 消失，新的大型 theropod 足跡很快出現。這段為Question 21 的 Eubrontes 大型化鋪路。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Olsen 團隊用 ecological release 解釋這種體型快速增加。末句總結，恐龍只有在競爭者被清除後才得以繁盛。只看首尾句，可以估計本段功能是提出核心生態解釋：當競爭者消失，原本受限制的動物可以擴張、變大和繁盛。中間用 Komodo island 的大蜥蜴作現代例子。Questions 21–23 全部集中在這段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句提出剩下的問題：撞擊到底發生在哪裡。末句說如果撞擊坑形成於海洋，現在已經被吞沒。只看首尾句，可以估計本段功能是解釋為何找不到 2.02 億年前的大撞擊坑。中間給出兩個可能性：撞擊坑被忽略；或已經消失，尤其因為 ocean floor 會被板塊過程不斷回收。Questions 24–26主要來自這段。"
+      },
+      {
+        "number": "K",
+        "summary": "首句提出第三個可能性：撞擊坑其實已被知道，只是年代判錯。末句說 Quebec 的 Manicouagan structure 可能是多個由分裂彗星碎塊造成的撞擊坑中最大的一個。只看首尾句，可以估計本段功能是提出候選撞擊坑和 misdating 的可能。這段和 Question 27 直接相關，因為 summary 提到potential evidence has been misdated。"
+      }
+    ]
+  }
+}

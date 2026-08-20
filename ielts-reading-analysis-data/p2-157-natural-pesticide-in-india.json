@@ -1,0 +1,2172 @@
+{
+  "id": "p2-157-natural-pesticide-in-india",
+  "catalogueId": "p2-157",
+  "catalogueIds": [
+    "p2-157"
+  ],
+  "passage": 2,
+  "title": "Natural pesticide in India",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "evergreen",
+    "multitude",
+    "a powder",
+    "overnight",
+    "neem cake",
+    "diseases",
+    "nitrogen",
+    "2000",
+    "neem seeds"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cotton in Andhra Pradesh could bring local farmers more income than traditional crops.”",
+      "translation": "Andhra Pradesh 的棉花能為當地農民帶來比傳統作物更多的收入。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目要判斷 cotton 和 traditional crops 的 income comparison。控制詞是 more income than traditional crops，不是問棉花是否容易種，也不是問pesticides 成本。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story began about 30 years ago, when a handful of families migrated from the Guntur district of Andhra Pradesh, southeast India, into Punukala, a community of around 900 people farming plots of between two and 10 acres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "故事開始於約 30 年前；當時有少數家庭從印度東南部 Andhra Pradesh 的 Guntur district 遷入Punukala，這是一個約 900 人的社區，村民耕種二至十英畝不等的田地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They merely passed on promotional information from multinational chemical companies that supplied their products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們只是轉述供應產品的跨國化學公司所提供的宣傳資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 會講棉花如何被帶入 Punukala，以及農民如何進入chemical agriculture 的資訊鏈。題目問 cotton 是否比原來 mixed crops 賺錢，正好屬於棉花被引入和吸引農民的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cotton”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more income”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional crops”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 income，但用了："
+            },
+            {
+              "kind": "quote",
+              "text": "“more hard cash”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mixed crops they were already growing”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cotton wooed farmers by promising to bring in more hard cash than the mixed crops they were already growing to eat and sell: millet, sorghum, groundnuts, pigeon peas, mung beans, chili and rice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "棉花吸引農民，是因為它承諾能比他們原本種來自用和出售的混合作物帶來更多現金；那些作物包括 millet、sorghum、groundnuts、pigeon peas、mung beans、chili 和 rice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Cotton，核心動詞是 wooed，即吸引。吸引農民的原因是 promising to bring in more hard cash。題目中的 local farmers 對應 farmers；traditional crops 對應 mixed crops they were already growing；more income 對應 more hard cash。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "more income = more hard cash traditional crops = mixed crops they were already growing could bring = promised to bring in local farmers = farmers in Punukala / Andhra Pradesh context答案判斷：原文明確說 cotton 承諾帶來比原本 mixed crops 更多的現金收入。題目與原文意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被後文 pesticides 成本和農民債務吸引。後來棉花確實造成成本和健康問題，但Question 14 問的是棉花當初為何吸引農民，以及它相對傳統作物的收入潛力。判斷要回到Paragraph B 的引入背景。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most farmers had used agricultural pesticides before cotton cultivation was introduced 30 years ago.”",
+      "translation": "在 30 年前棉花種植被引入之前，大多數農民已經使用過農業殺蟲劑。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 before cotton cultivation was introduced 這個時間點之前，farmers 是否已有pesticide experience。控制詞是 had used before，不是問他們後來有沒有使用 pesticides。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story began about 30 years ago, when a handful of families migrated from the Guntur district of Andhra Pradesh, southeast India, into Punukala, a community of around 900 people farming plots of between two and 10 acres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "故事開始於約 30 年前；當時有少數家庭從印度東南部 Andhra Pradesh 的 Guntur district 遷入Punukala，這是一個約 900 人的社區，村民耕種二至十英畝不等的田地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They merely passed on promotional information from multinational chemical companies that supplied their products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們只是轉述供應產品的跨國化學公司所提供的宣傳資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段在講棉花進入村落，以及農民從本地小型 agricultural dealers 接收種子、化肥和農藥資訊。題目中的 before cotton cultivation was introduced 直接對應這段開頭的歷史背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“pesticides”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cotton cultivation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“30 years ago”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可定位到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cotton production started spreading…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without previous experience using agricultural chemicals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“until then a mystery”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“But raising cotton meant using pesticides and fertilisers—until then a mystery to the mostly illiterate farmers of the community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是種植棉花意味著要使用殺蟲劑和化肥；在那之前，這些東西對社區中多數不識字的農民來說仍是陌生事物。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“As most of the farmers were poor, illiterate, and without previous experience using agricultural chemicals, they were forced to rely on local, small-scale agricultural dealers for advice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於大多數農民貧窮、不識字，而且以前沒有使用農業化學品的經驗，他們被迫依賴本地小型農業經銷商提供建議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 most farmers had used agricultural pesticides before cotton cultivation。原文說 most farmers were without previous experience using agricultural chemicals。agricultural chemicals包括 pesticides and fertilisers。這是直接衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "had used before = had previous experience agricultural pesticides = agricultural chemicals / pesticides before cotton cultivation = until then / before raising cotton原文：without previous experience"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：had used before"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文清楚說大多數農民沒有使用 agricultural chemicals 的經驗。題目說他們之前已使用過pesticides，方向相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後文多次說 farmers sprayed pesticides，容易令人忘記時間限制。Question 15 問 before cotton cultivation was introduced；後文的 repeated spraying 是棉花種植開始後的情況，不能倒推到 30年前之前。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Cotton yields are relatively lower than those of other agricultural crops.”",
+      "translation": "棉花的產量相對低於其他農作物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 yield comparison：cotton yields 是否 lower than other crops。控制詞是 relatively lower than。若文章只說棉花收入較高、價值較高、初期產量高，仍未必能回答「比其他作物產量低」這個比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, cotton yields were high, and expenses for pesticides were low because cotton pests had not yet moved in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，棉花產量很高，殺蟲劑開支也很低，因為棉花害蟲尚未入侵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were really hooked!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們真的被套住了；也就是說，他們已經深深依賴 pesticides。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會講棉花初期表現很好，後來因 pests、resistance 和repeated spraying 形成 pesticide dependency。題目用 yields 定位到本段第一句，但題目還加入了 other agricultural crops 這個比較對象，必須細讀是否有比較數據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cotton yields”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other agricultural crops”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“cotton yields were high”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 mixed crops，但那裡比較的是 cash income / value，不是 yield。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, cotton yields were high, and expenses for pesticides were low because cotton pests had not yet moved in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，棉花產量很高，殺蟲劑開支也很低，因為棉花害蟲尚未入侵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供 cotton yields 本身的情況：high。它沒有說 cotton yields compared with millet、rice、chili 或其他作物是高還是低。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 的相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cotton wooed farmers by promising to bring in more hard cash than the mixed crops they were already growing to eat and sell…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "棉花吸引農民，是因為它承諾比他們原本種植、自用及出售的混合作物帶來更多現金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句比較的是 hard cash，不是 yield。收入較高可能來自市場價值、售價或需求，不能自動推出棉花每畝產量較高或較低。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： cotton yields● other agricultural crop yields● direct comparison: cotton lower原文提供： cotton yields were high cotton brought more hard cash than mixed crops缺失部分：其他 crops 的產量數據cotton yields lower than those crops 的比較答案判斷：原文沒有足夠資料判斷 cotton yields 是否低於其他農作物。它只說初期棉花產量高，並說棉花收入潛力較大。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“more hard cash” 容易被誤當成 yield comparison。IELTS Reading 常把 money / value / yield 分開考。收入高不等於產量高；產量高也不等於比其他作物更高。這題缺少真正比較，所以不能選TRUE 或 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The farmers did not realise how quickly the pests would spread.”",
+      "translation": "農民沒有意識到害蟲會多快擴散。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 farmers 對 pest speed 的事前認知。題目中的 would spread 指的是在害蟲快速發生或繁殖之前，農民並未預計事情會這麼快。要檢查 Paragraph C 中事件順序：初期沒有害蟲，幾年後害蟲成災，農民才看見 insect evolution 的速度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, cotton yields were high, and expenses for pesticides were low because cotton pests had not yet moved in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，棉花產量很高，殺蟲劑開支也很低，因為棉花害蟲尚未入侵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were really hooked!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們真的被套住了；也就是說，他們已經深深依賴 pesticides。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會由 early success 走向 pesticide trap。第一句的 at first 和最後一句hooked 形成強烈轉變，暗示中間會解釋農民如何由高收益、低成本走到無法停止用 pesticide。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“pests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quickly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spread”"
+            },
+            {
+              "kind": "quote",
+              "text": "“did not realise”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接寫 did not realise，但找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“cotton pests had not yet moved in”"
+            },
+            {
+              "kind": "quote",
+              "text": "“within a few years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pests … plagued the fields”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers saw how rapid insect evolution can be”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, cotton yields were high, and expenses for pesticides were low because cotton pests had not yet moved in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，棉花產量很高，殺蟲劑開支也很低，因為棉花害蟲尚未入侵。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But within a few years, cotton pests like bollworms and aphids plagued the fields, and the farmers saw how rapid insect evolution can be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是幾年之內，棉花害蟲如 bollworms 和 aphids 便使田地深受其害，農民也看見昆蟲演化可以有多快。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Repeated spraying killed off the weaker pests, but left the ones most resistant to pesticides to multiply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反覆噴灑殺死了較弱的害蟲，卻留下最能抵抗殺蟲劑的害蟲繼續繁殖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的邏輯是：一開始 pests had not yet moved in，所以農民看到的是高產量和低成本；within a few years，害蟲開始 plague the fields；反覆噴灑後，resistant pests multiply。farmers saw how rapid insect evolution can be 表示他們是在過程發生後才看見這種速度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "how quickly the pests would spread = how rapid insect evolution can be / pests plagued the fields / resistant pests multiply did not realise = at first pests had not yet moved in, then farmers saw the rapid change spread = moved in / plagued the fields / multiply答案判斷：題目把原文的事件順序概括成「農民事前沒有意識到害蟲會這麼快擴散」。原文先說初期害蟲尚未出現，之後幾年內害蟲成災，農民才看見 insect evolution 的速度。因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易卡在 “farmers saw” 這個動詞。有些學生會以為 saw 表示他們已經知道，所以答案應該是 FALSE。其實 saw 在這裡指「經歷後看見、意識到」。題目用 would spread，是回看事前預期；原文的 at first 和 within a few years 形成時間對比，支持他們事前未預料速度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "evergreen",
+      "answerKey": "evergreen",
+      "type": "Summary Completion",
+      "prompt": "“It is a fast-growing, 18 ______ tree…”",
+      "translation": "它是一種生長快速的 ______ 樹。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Summary Completion，限制是 NO MORE THAN TWO WORDS。空格前有 a fast-growing，空格後有 tree，所以空格需要形容詞，描述 neem tree 的種類或特徵。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most important resource in the NPM toolkit was the neem tree (Azadirachta indica), which is common throughout much of India.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NPM 工具包中最重要的資源是 neem tree（Azadirachta indica），它在印度許多地方都很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It protects itself against insects by producing a multitude of natural pesticides that work in a variety of ways: they repel egg-laying, interfere with insect growth, and most important, disrupt the ability of crop-eating insects to sense their food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它透過產生多種天然殺蟲物質來保護自己免受昆蟲侵害；這些物質以多種方式發揮作用：驅避昆蟲產卵、干擾昆蟲生長，最重要的是破壞食害昆蟲感知食物的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 是介紹 neem tree 的植物特徵和防蟲機制。題目提到 broad-leaved neem tree 和 natural pesticides，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“neem tree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“broad-leaved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The neem tree is a broad-leaved evergreen tree related to mahogany.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The neem tree is a broad-leaved evergreen tree related to mahogany.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "neem tree 是一種闊葉常綠樹，與 mahogany 有親緣關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給出 broad-leaved neem tree，空格要填的就是原文中 broad-leaved 後面的 evergreen。題目中的 fast-growing 在本篇原文沒有出現；不影響空格判斷，因為答案位置由 “broad-leaved evergreen tree” 決定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 形式對應",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "tree = tree broad-leaved = broad-leaved 18 ______ = evergreen答案判斷：答案是 evergreen。這是一個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 broad-leaved，因為題目開頭已經給出 “The broad-leaved neem tree was chosen”。也不要填 mahogany，因為 mahogany 是 related to 的對象，不是 neem tree 本身的類型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "multitude",
+      "answerKey": "multitude",
+      "type": "Summary Completion",
+      "prompt": "“…and produces a 19 ______ of natural pesticides that act as insect repellents.”",
+      "translation": "它會產生一 ______ 天然殺蟲物質，這些物質有驅蟲作用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 a，後面有 of natural pesticides，所以答案需要一個單數名詞，形成 “a ___ of natural pesticides”。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most important resource in the NPM toolkit was the neem tree (Azadirachta indica), which is common throughout much of India.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NPM 工具包中最重要的資源是 neem tree（Azadirachta indica），它在印度許多地方都很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It protects itself against insects by producing a multitude of natural pesticides that work in a variety of ways: they repel egg-laying, interfere with insect growth, and most important, disrupt the ability of crop-eating insects to sense their food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它透過產生多種天然殺蟲物質來保護自己免受昆蟲侵害；這些物質以多種方式發揮作用：驅避昆蟲產卵、干擾昆蟲生長，最重要的是破壞食害昆蟲感知食物的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可見，本段最後一句直接講 natural pesticides 的數量和作用方式，因此 Question 19 的答案就在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“produces”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural pesticides”"
+            },
+            {
+              "kind": "quote",
+              "text": "“repellents”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“producing a multitude of natural pesticides”"
+            },
+            {
+              "kind": "quote",
+              "text": "“they repel egg-laying”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“producing a multitude of natural pesticides”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "產生多種天然殺蟲物質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a multitude of” 表示大量、多種。題目已保留 “a ___ of natural pesticides”，所以空格要填multitude。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "produces = producing act as insect repellents = they repel egg-laying / protect itself against insects a 19 ______ of natural pesticides = a multitude of natural pesticides答案判斷：答案是 multitude。它是一個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “variety”，雖然原文有 “work in a variety of ways”，但題目空格後是 “of natural pesticides”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。原文說 “a multitude of natural pesticides”，不是 “a variety of natural pesticides”。要跟空格前後文法配合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "a powder",
+      "answerKey": "a powder",
+      "type": "Summary Completion",
+      "prompt": "“First, neem seeds are crushed into 20 ______, which is then soaked in water…”",
+      "translation": "首先，neem seeds 被壓碎成 ______，然後把它浸在水中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 into 後面，需要名詞或名詞短語。後面的 which is then soaked 表示這個東西是單數名詞短語。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, neem has been used traditionally in India to protect stored grains from insects and to produce soaps, skin lotions, and other health products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，neem 在印度傳統上一直被用來保護儲存的穀物免受昆蟲侵害，也用來製作肥皂、護膚乳液和其他健康產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neem trees grow locally, so the only ‘cost’ is the labour to prepare neem for application to fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "neem trees 在本地生長，所以唯一的「成本」是準備 neem 並把它用於田地的勞力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可見，Paragraph F 會講 neem 的傳統用途、製備方法和成本。題目標題是 Making a Natural Pesticide，所以最應看本段的製作步驟。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“neem seeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crushed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soaked in water”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“neem seeds are simply ground into a powder that is soaked overnight in water.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To protect crops from insects, neem seeds are simply ground into a powder that is soaked overnight in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了保護作物免受昆蟲侵害，neem seeds 只需被磨成粉末，然後把這種粉末在水中浸泡一夜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 crushed 對應原文 ground。crushed 和 ground 都是把種子弄碎，只是 ground 更強調磨成粉末。空格前是 into，所以最自然答案是 a powder。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "crushed = ground into 20 ______ = into a powder which is then soaked = that is soaked neem seeds = neem seeds答案判斷：答案是 a powder。它是兩個詞，符合 NO MORE THAN TWO WORDS。若只寫 powder，意思也可理解，但最貼原文和語法的是 a powder。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 seeds，因為 seeds 是被處理的原材料；空格要填處理後形成的東西。也不要填 solution， solution 是泡水後得到的液體，順序上晚於 powder。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "overnight",
+      "answerKey": "overnight",
+      "type": "Summary Completion",
+      "prompt": "“…which is then soaked in water 21 ______.”",
+      "translation": "然後把它在水中浸泡 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 soaked in water 後面，需要時間副詞或時間短語，說明浸泡多久。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, neem has been used traditionally in India to protect stored grains from insects and to produce soaps, skin lotions, and other health products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，neem 在印度傳統上一直被用來保護儲存的穀物免受昆蟲侵害，也用來製作肥皂、護膚乳液和其他健康產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neem trees grow locally, so the only ‘cost’ is the labour to prepare neem for application to fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "neem trees 在本地生長，所以唯一的「成本」是準備 neem 並把它用於田地的勞力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段首尾句提示它會說明 neem 的用途與使用成本，中間自然會出現 preparation steps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 21 問浸泡時間，應回到製作步驟那一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“soaked”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“neem seeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“soaked overnight in water”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To protect crops from insects, neem seeds are simply ground into a powder that is soaked overnight in water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了保護作物免受昆蟲侵害，neem seeds 只需被磨成粉末，然後把這種粉末在水中浸泡一夜。"
+            },
+            {
+              "kind": "label",
+              "text": "題目把原文語序改成："
+            },
+            {
+              "kind": "quote",
+              "text": "“soaked in water 21 ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“soaked overnight in water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者只是語序不同。答案是 overnight，意思是「過夜、一整晚」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 語序轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "soaked overnight in water= soaked in water overnight答案判斷：答案是 overnight。一個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 water，因為 water 已在題目中出現。這類 completion 題要看空格前後是否已包含原文詞，不能重複填入已給出的單字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "neem cake",
+      "answerKey": "neem cake",
+      "type": "Summary Completion",
+      "prompt": "“A preparation called 22 ______ is mixed with soil…”",
+      "translation": "一種叫做 ______ 的製劑會與土壤混合。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 called，表示答案應是某種 preparation 的名稱。字數限制是 NO MORE THAN TWO WORDS，所以要找原文中的名稱短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句:"
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, neem has been used traditionally in India to protect stored grains from insects and to produce soaps, skin lotions, and other health products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，neem 在印度傳統上一直被用來保護儲存的穀物免受昆蟲侵害，也用來製作肥皂、護膚乳液和其他健康產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neem trees grow locally, so the only ‘cost’ is the labour to prepare neem for application to fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "neem trees 在本地生長，所以唯一的「成本」是準備 neem 並把它用於田地的勞力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落功能是介紹 neem 的製備和應用。題目說 preparation called，很可能在本段後半找另一種neem preparation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“preparation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mixed with soil”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another preparation, neem cake, can be mixed into the soil…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another preparation, neem cake, can be mixed into the soil to kill soil-borne pests and diseases, and it doubles as an organic fertilizer high in nitrogen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種製劑 neem cake 可以混入土壤，以殺死土壤中的害蟲和疾病；它還兼作一種 nitrogen 含量高的有機肥料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "called 22 ______ 對應原文插入語 “neem cake”。這是 preparation 的名稱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A preparation called = Another preparation, is mixed with soil = can be mixed into the soil 22 ______ = neem cake答案判斷：答案是 neem cake。兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “organic fertilizer”，因為這是 neem cake 的另一個功能，不是 preparation 的名稱。空格由 called 控制，應填名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "diseases",
+      "answerKey": "diseases",
+      "type": "Summary Completion",
+      "prompt": "“…is mixed with soil to eliminate pests and 23 ______…”",
+      "translation": "它與土壤混合，用來消除害蟲和 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格和 pests 並列，所以需要 plural noun。題目中的 eliminate 對應原文 kill。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, neem has been used traditionally in India to protect stored grains from insects and to produce soaps, skin lotions, and other health products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，neem 在印度傳統上一直被用來保護儲存的穀物免受昆蟲侵害，也用來製作肥皂、護膚乳液和其他健康產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neem trees grow locally, so the only ‘cost’ is the labour to prepare neem for application to fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "neem trees 在本地生長，所以唯一的「成本」是準備 neem 並把它用於田地的勞力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示這段解釋 neem 的應用方法。題目提到 mixed with soil，應定位到 neem cake 那一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“soil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eliminate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“mixed into the soil to kill soil-borne pests and diseases”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another preparation, neem cake, can be mixed into the soil to kill soil-borne pests and diseases, and it doubles as an organic fertilizer high in nitrogen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種製劑 neem cake 可以混入土壤，以殺死土壤中的害蟲和疾病；它還兼作一種 nitrogen 含量高的有機肥料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 kill 改寫成 eliminate，把 mixed into the soil 改寫成 mixed with soil。空格和 pests 並列，因此填 diseases。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "eliminate = kill mixed with soil = mixed into the soil pests and 23 ______ = pests and diseases答案判斷：答案是 diseases。一個詞，plural noun，符合題目語法和字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 soil-borne。soil-borne 是形容 pests and diseases 的修飾語，意思是「土壤傳播／土壤中的」。空格要填與 pests 並列的名詞，所以應填 diseases。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "nitrogen",
+      "answerKey": "nitrogen",
+      "type": "Summary Completion",
+      "prompt": "“…while also increasing the level of 24 ______ in this organic fertiliser.”",
+      "translation": "同時也提高這種有機肥料中的 ______ 含量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 level of 後面，需要物質名詞。題目中的 organic fertiliser 對應原文 organic fertilizer。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, neem has been used traditionally in India to protect stored grains from insects and to produce soaps, skin lotions, and other health products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，neem 在印度傳統上一直被用來保護儲存的穀物免受昆蟲侵害，也用來製作肥皂、護膚乳液和其他健康產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neem trees grow locally, so the only ‘cost’ is the labour to prepare neem for application to fields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "neem trees 在本地生長，所以唯一的「成本」是準備 neem 並把它用於田地的勞力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落功能是實際製備與應用。Question 24 接在 neem cake 句子後面，問 organic fertiliser 的成分，因此仍在同一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“organic fertiliser”"
+            },
+            {
+              "kind": "quote",
+              "text": "“level of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“it doubles as an organic fertilizer high in nitrogen.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another preparation, neem cake, can be mixed into the soil to kill soil-borne pests and diseases, and it doubles as an organic fertilizer high in nitrogen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種製劑 neem cake 可以混入土壤，以殺死土壤中的害蟲和疾病；它還兼作一種 nitrogen 含量高的有機肥料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 increasing the level of 是對 high in 的改寫。原文沒有動詞 increase，但 high in nitrogen 表示此有機肥料 nitrogen 含量高。空格應填 nitrogen。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "organic fertiliser = organic fertilizer increasing the level of = high in 24 ______ = nitrogen答案判斷：答案是 nitrogen。一個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 fertilizer / fertiliser，因為題目已經有 organic fertiliser。空格問的是這種肥料中哪一種成分含量高。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "2000",
+      "answerKey": "2000",
+      "type": "Short-answer Questions",
+      "prompt": "“In which year did all the farmers in Punukala use NPM on their crops?”",
+      "translation": "Punukala 所有農民在哪一年開始在作物上使用 NPM？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，限制是 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 In which year，所以答案應是年份數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first farmer’s trial with NPM was a complete success!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一位農民的 NPM 試驗完全成功。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2000, all the farmers in Punukala were using NPM, not only for cotton but for their other crops as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2000 年，Punukala 所有農民都在使用 NPM，不只用於棉花，也用於其他作物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 的功能很清楚：它講 NPM 由第一個成功 trial 擴展到全村使用。題目問all the farmers in Punukala，最後一句已直接出現同一組詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“all the farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Punukala”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use NPM”"
+            },
+            {
+              "kind": "quote",
+              "text": "“year”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2000, all the farmers in Punukala were using NPM…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2000, all the farmers in Punukala were using NPM, not only for cotton but for their other crops as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2000 年，Punukala 所有農民都在使用 NPM，不只用於棉花，也用於其他作物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “In which year”。原文的 “By 2000” 表示到了 2000 年時，這個情況已經成立。答案只需要填年份，不需要寫 by。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "all the farmers in Punukala = all the farmers in Punukala use NPM on their crops = were using NPM, not only for cotton but for their other crops as well In which year = By 2000答案判斷：答案是 2000。它是一個 number，符合題目限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “the next year” 或 “20 farmers”。those refer to the second stage after the first farmer’s success，還未達到 all the farmers。題目問全村所有農民，必須等到最後一句的 By 2000。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "neem seeds",
+      "answerKey": "neem seeds",
+      "type": "Short-answer Questions",
+      "prompt": "“What gave the women of Punukala an NPM-related business opportunity?”",
+      "translation": "什麼東西為 Punukala 的女性帶來與 NPM 相關的商業機會？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question，限制是 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 What，所以答案應是名詞或名詞短語。NPM-related business opportunity 提示要找women 和 income / business projects。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The suicide epidemic came to an end.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自殺潮結束了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The villagers rescued their indentured children and gave them special six-month ‘catch-up’ courses to return to school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "村民救回了被契約束縛的孩子，並給他們安排特別的六個月補習課程，好讓他們重返學校。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 已經轉向 NPM 帶來的社會恢復，包括健康、收入、社區項目和教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 women of Punukala 的商業機會，應在段中找 women、income、collecting、selling 這些訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“women of Punukala”"
+            },
+            {
+              "kind": "quote",
+              "text": "“business opportunity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“NPM-related”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The women of Punukala created a new source of income by collecting, grinding, and selling neem seeds for NPM in other villages.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The women of Punukala created a new source of income by collecting, grinding, and selling neem seeds for NPM in other villages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Punukala 的女性透過收集、研磨和出售 neem seeds，為其他村落的 NPM 使用提供材料，從而創造了一個新的收入來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 What gave them an NPM-related business opportunity。原文說 new source of income 來自 collecting, grinding, and selling neem seeds for NPM。由於答案限制最多兩個詞，最合適答案是 neem seeds。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "business opportunity = a new source of income women of Punukala = The women of Punukala NPM-related = for NPM in other villages what gave the opportunity = neem seeds答案判斷：答案是 neem seeds。兩個詞，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “other villages”。其他村落是銷售對象，不是商業機會本身。也不要填 “collecting, grinding, and selling”，因為這是她們做的動作，並且超過字數限制。题目問 What，答案應是被收集、研磨、出售的物品：neem seeds。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Natural pesticide in India.pdf",
+    "sha256": "9ea15eb7e7985f4af9931bc7ff101be871be73745c18882755dbff1e7c260f1d",
+    "pageCount": 25
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 是全文總覽。第一句說印度棉農的故事展示 chemical pesticides 對人和環境的破壞，也說明現代農業為何高度依賴 pesticides。最後一句轉向文章主旨：不用化學農藥也可以避免昆蟲毀掉收成，而且文章會解釋方法。只看首尾句，讀者可先預測全文會由 pesticide problem 走向natural solution，核心不是單純講印度農業，而是講化學依賴如何形成，以及 NPM 如何提供替代道路。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 建立故事背景。第一句把時間推回約 30 年前，說 Guntur families 遷入 Punukala，並帶來 cotton cultivation。最後一句指出 local dealers 只是轉述 multinational chemical companies 的 promotional information。首尾句合起來顯示，這段會講棉花如何進入村落、為何吸引農民、為何要用 fertilisers and pesticides，以及農民因貧窮、文盲、缺乏經驗而依賴 dealers。題目若問 cotton income、traditional crops、previous pesticide experience，重點在這段。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 描述 chemical-pesticide trap 的形成。第一句說初期 cotton yields 很高，pesticide expenses 很低，因為 pests 尚未進入棉田。最後一句 “They were really hooked!” 說農民已被pesticides 綁住。只看首尾句，便能看出段落功能是由 early success 走向 dependency。中間會解釋 pests、resistance、natural predators 被殺死，以及 pesticide use 越來越頻繁。題目若問pest spread、resistance、spraying frequency、自然控制消失，答案多半在此段。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 轉入解決方案的起點。第一句說 villagers 起初猶豫，但一位 village elder 決定冒險嘗試 natural methods，因為他的兒子曾急性 pesticide poisoning。最後一句說這套工具叫Non-Pesticide Management，簡稱 NPM。首尾句顯示段落功能是從危機走向實驗：個人中毒經驗成為改變契機，外部組織 SECURE 和 Center for Sustainable Agriculture 提供技術支援。題目若問 NPM 起源、誰先試、為何願意冒險，應定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 介紹 NPM 工具中最重要的自然資源：neem tree。第一句直接說 NPM toolkit 中最重要的 resource 是 neem tree，並指出它在印度許多地方很常見。最後一句說 neem 會產生多種natural pesticides，能阻止產卵、干擾昆蟲生長，最重要的是打亂食害昆蟲感知食物的能力。這段主要提供 neem 的植物特徵和防蟲原理。Summary 題中若出現 broad-leaved、evergreen、multitude、natural pesticides，答案在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 解釋 neem 的傳統用途和實際製作方法。第一句說 neem 在印度傳統上用於保護stored grains，也用來製作 soaps、skin lotions 和 health products。最後一句說 neem trees 在本地生長，所以唯一成本是準備 neem 供田間使用的 labour。首尾句顯示段落重點是 practical application：neem seeds 如何磨粉、浸水、噴灑；neem cake 如何混入土壤，殺 pests and diseases，同時作為 nitrogen-rich organic fertiliser。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 交代 NPM 的成功擴散。第一句說第一位農民的 NPM trial 完全成功，收成不差，因不用買 pesticides 而賺更多。最後一句說到 2000 年，Punukala 所有農民都採用 NPM，不只用於cotton，也用於其他 crops。首尾句顯示段落功能是由 single trial 擴展到 village-wide adoption。中間還有 SECURE staff、village women pressure、income、health、well-being 改善，這些都支持NPM 被全村接受。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 描述 NPM 帶來的社會改善。第一句說 suicide epidemic 結束，並且村民在停止毒害自己後，有了 cash、health 和 energy，開始更多 community and business projects。最後一句說村民救回 indentured children，並安排六個月 catch-up courses 讓孩子回校。首尾句顯示這段已超出農業技術本身，轉向 social recovery。題目若問 women’s income、neem seeds business、children returning to school，目標就是這段。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 是全文收束，重點放在 collective empowerment。第一句說戰勝 pesticides 增強了village solidarity、self-confidence 和 optimism。最後一句指出 NPM struggle 培養出的 leadership and collaboration skills，幫助村民處理 water purification、cotton gin、state government support等挑戰。首尾句顯示 NPM 的意義不只在減少化學農藥，也在建立村民合作、談判和自我組織能力。題目若問 cooperative、dealer punishment、future community challenges，可看這段。"
+      }
+    ]
+  }
+}

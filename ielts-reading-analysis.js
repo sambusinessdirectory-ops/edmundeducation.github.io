@@ -2,7 +2,7 @@ import {
   createArticleRepository,
   questionNumberLabel,
   questionNumbers,
-} from "./ielts-reading-analysis-loader.mjs?v=20260808-5";
+} from "./ielts-reading-analysis-loader.mjs?v=20260820-1";
 
 (function () {
   "use strict";
@@ -217,7 +217,7 @@ import {
           tr.append(emptyHeading, emptyAnswer);
           return;
         }
-        const questionNumber = answerIndex + 1;
+        const questionNumber = (article.questionNumberStart || 1) + answerIndex;
         const th = make("th", "", `Q${questionNumber}`);
         th.scope = "row";
         const td = document.createElement("td");

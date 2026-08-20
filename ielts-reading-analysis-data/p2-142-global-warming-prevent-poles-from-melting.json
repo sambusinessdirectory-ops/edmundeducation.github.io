@@ -1,0 +1,2212 @@
+{
+  "id": "p2-142-global-warming-prevent-poles-from-melting",
+  "catalogueId": "p2-142",
+  "catalogueIds": [
+    "p2-142"
+  ],
+  "passage": 2,
+  "title": "Global warming: Prevent poles from melting",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "E",
+    "B",
+    "E",
+    "F",
+    "A",
+    "birch trees",
+    "Russian rivers",
+    "pumps",
+    "reinforced cables",
+    "volcanic eruptions",
+    "C",
+    "D",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“The existence of geoengineering projects distracts from the real task of changing the way we live.”",
+      "translation": "geoengineering projects 的存在會令人分心，避開真正要做的事，也就是改變我們的生活方式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information"
+            },
+            {
+              "kind": "paragraph",
+              "text": "任務：找出哪一段包含這項資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But will such ideas ever be implemented?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這些想法真的會被實行嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You may bring global temperatures back to pre-industrial levels, but the poles could still be warmer than they should be and the tropics cooler than before industrialisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你也許可以把全球溫度拉回工業化前水平，但兩極仍可能比應有水平更暖，熱帶地區則可能比工業化前更冷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph E 的功能是討論 geoengineering 的可行性和風險。第一句把文章從「方案介紹」轉到「會否實行」；最後一句指出即使有正面結果，也可能造成地區性失衡。這個段落功能和題目中的 “distracts from the real task” 很相關，因為它屬於反對 geoengineering 的理由。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“distracts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“real task”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changing the way we live”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必會用 distracts，所以掃描時要留意相近概念，例如： allows us to continue living as we do reducing carbon emissions cop-out在 Paragraph E 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main counterarguments are, first, that geoengineering is a ‘cop-out’ that allows us to continue living as we do rather than reducing carbon emissions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要反對理由首先是：geoengineering 是一種「逃避責任」的做法，讓我們可以繼續按現有方式生活，而不用減少碳排放。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “cop-out”。它指逃避本來應負的責任，或用一個看似方便的方法避開真正困難的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “distracts from the real task of changing the way we live”。原文說 geoengineering “allows us to continue living as we do rather than reducing carbon emissions”。兩者的邏輯非常接近："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：geoengineering 令人避開真正任務"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：geoengineering 讓人繼續原有生活方式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：changing the way we live"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：reducing carbon emissions / 不再 continue living as we do這裡的 “real task” 在原文中具體化為 reducing carbon emissions。題目把 “reduce carbon emissions” 概括成 “changing the way we live”，因為減排通常涉及能源、交通、消費和經濟模式的改變。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會選 Paragraph F，因為 F 也談 politics 和 carbon cuts。不過 Question 14 的重點是「geoengineering 使人逃避生活方式改變」，這個批評由 Paragraph E 的 “cop-out” 直接說出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的焦點偏向科學界為何仍願意考慮 geoengineering。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Circumstances in which geoengineering has demonstrated success.”",
+      "translation": "geoengineering 曾經展示成功的情況。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geoengineering has been shown to work, at least on a small and localised scale, for decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數十年來，geoengineering 已被證明可行，至少在小規模和局部範圍內是這樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Artillery, high-flying aircraft or balloons could deliver the aerosols.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火炮、高空飛機或氣球可以運送這些氣溶膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 會先說 geoengineering 曾經在哪些情況下有效，再介紹一個 aerosol 方案。第一句直接出現 “shown to work”，和題目的 “demonstrated success” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstrated success”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“has been shown to work”"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文給出具體 circumstances："
+            },
+            {
+              "kind": "quote",
+              "text": "“May Day parades in Moscow have taken place under clear blue skies after aircraft deposited dry ice, silver iodide and cement powder to disperse clouds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在莫斯科，飛機投放乾冰、碘化銀和水泥粉以驅散雲層後，May Day 遊行曾在晴朗藍天下舉行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “circumstances”，所以不能只找到 “shown to work” 就停下；要看原文提供的成功情境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文給出的情境包括：地點：Moscow場合：May Day parades方法：aircraft deposited dry ice, silver iodide and cement powder目的：disperse clouds結果：clear blue skies這就是 geoengineering 小規模成功的例子。題目沒有問哪一種技術，只問哪段含有「已成功的情況」，所以 Paragraph B 完整符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "demonstrated success= has been shown to work circumstances= May Day parades in Moscow under clear blue skies after cloud dispersal"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 後半也有 Mount Pinatubo 和 aerosol scheme，學生可能只記得火山例子。不過Question 15 問的是 geoengineering 已經展示成功的情況，而真正的成功實例是 Moscow 的局部雲層驅散。火山爆發是用來啟發 aerosol scheme 的自然先例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Frustrating maintenance problems associated with geoengineering projects.”",
+      "translation": "geoengineering projects 所涉及的棘手維修問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But will such ideas ever be implemented?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這些想法真的會被實行嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You may bring global temperatures back to pre-industrial levels, but the poles could still be warmer than they should be and the tropics cooler than before industrialisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你也許可以把全球溫度拉回工業化前水平，但兩極仍可能比應有水平更暖，熱帶地區則可能比工業化前更冷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph E 集中處理 geoengineering 的實施問題和後果。題目提到maintenance problems，屬於方案實行後的長期管理風險，因此很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“maintenance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 frustrating，但有一個程度更強的形容詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“daunting”"
+            },
+            {
+              "kind": "label",
+              "text": "定位句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also the daunting prospect of maintaining and repairing any scheme, as well as the consequences of technical failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另外，任何方案都面臨令人卻步的維持和修理前景，也要面對技術失敗的後果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句有三個控制點："
+            },
+            {
+              "kind": "quote",
+              "text": "“daunting prospect”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示令人畏懼、困難重重的前景。"
+            },
+            {
+              "kind": "quote",
+              "text": "“maintaining and repairing any scheme”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "直接對應題目的 maintenance problems。"
+            },
+            {
+              "kind": "quote",
+              "text": "“technical failure”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充說，如果系統出錯，後果也可能嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “daunting prospect of maintaining and repairing” 改寫成 “frustrating maintenance problems”。兩者都指工程方案一旦實行，之後要長期維護、修理和防止故障，這些問題相當棘手。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "maintenance problems= maintaining and repairing any scheme frustrating= daunting associated with geoengineering projects= any scheme"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 和 D 有很多工程細節，例如 cables、vessels、rivers，容易讓人聯想到 maintenance。不過那兩段主要介紹方案本身，Paragraph E 才明確討論 maintaining and repairing 的困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Support for geoengineering arising from a lack of confidence in governments.”",
+      "translation": "由於對政府缺乏信心，因此出現對 geoengineering 的支持。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principal reason the mainstream scientific community countenances geoengineering is that most researchers have little faith in politicians’ ability to agree on—and then introduce—the necessary carbon cuts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主流科學界願意考慮 geoengineering 的主要原因，是多數研究者不太相信政治人物有能力就必要減碳達成協議並實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If, over the coming years, science tells us that the planet’s climate sensitivity is even greater—and that is not unrealistic—then we may be best served by not having to start our thinking from scratch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果未來幾年科學告訴我們，地球氣候敏感度比目前所知更高，而這並非不現實，那麼最好不要到時才從零開始思考。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 的功能是解釋為何即使 geoengineering 有風險，科學界仍覺得值得研究。第一句已直接出現 little faith in politicians，和題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的強定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lack of confidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“governments”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“little faith”"
+            },
+            {
+              "kind": "quote",
+              "text": "“politicians’ ability”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principal reason the mainstream scientific community countenances geoengineering is that most researchers have little faith in politicians’ ability to agree on—and then introduce—the necessary carbon cuts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主流科學界願意考慮 geoengineering 的主要原因，是多數研究者不太相信政治人物有能力就必要減碳達成協議並實行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “support for geoengineering”。原文的 “countenances geoengineering” 意思是願意接受、考慮或容許討論 geoengineering。這不等於熱情支持，但在 Matching Information 中，它足以對應 support 的較寬泛意思：科學界願意認真考慮它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “lack of confidence in governments”。原文具體說 “little faith in politicians’ ability”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "politicians 代表政府決策層；little faith 就是 lack of confidence。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "support for geoengineering= countenances geoengineering lack of confidence= little faith governments= politicians governments’ ability to act= ability to agree on and introduce carbon cuts"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也說多數國家減排困難，和 governments 有關。不過 Question 17 的完整概念是「因為不信任政府，所以支持 / 考慮 geoengineering」。這個因果關係由 Paragraph F 第一個句子直接表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Greater success in fighting climate change in some parts of the world than in others.”",
+      "translation": "世界某些地方在對抗氣候變化方面比其他地方更成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Information"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such is our dependence on fossil fuels, and such is the volume of carbon dioxide we have already released into the atmosphere, that most climate scientists agree significant global warming is now inevitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們如此依賴化石燃料，而且已向大氣排放如此大量二氧化碳，以致多數氣候科學家都同意，顯著的全球暖化現在已不可避免。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These all fall under the banner of geoengineering—generally defined as the intentional, large-scale manipulation of the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些方案全部歸入 geoengineering 之下；geoengineering 通常定義為有意識地、大規模地操控環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 是從氣候問題和減排困難引出 geoengineering。題目談不同地方成效不同，應找國家或地區在 climate action 上的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“some parts of the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“than in others”"
+            },
+            {
+              "kind": "quote",
+              "text": "“success in fighting climate change”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 “fighting climate change”，但有 carbon emissions 和 countries："
+            },
+            {
+              "kind": "quote",
+              "text": "“While a few countries are making major strides, most are having great difficulty even stemming the rate of increase, let alone reversing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然少數國家正取得重大進展，但大多數國家連遏止增長速度都十分困難，更不用說扭轉增長。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句有清楚的比較結構："
+            },
+            {
+              "kind": "quote",
+              "text": "“a few countries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "少數國家"
+            },
+            {
+              "kind": "quote",
+              "text": "“making major strides”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "取得重大進展"
+            },
+            {
+              "kind": "quote",
+              "text": "“most”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數國家"
+            },
+            {
+              "kind": "quote",
+              "text": "“having great difficulty”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對巨大困難題目說 “greater success in some parts of the world than in others”。原文說少數國家在減排方面取得重大進展，大多數國家連控制增長也困難。這正是地區 / 國家之間成效不均。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "some parts of the world= a few countries greater success= making major strides others= most countries fighting climate change= cutting back carbon emissions / stemming emissions increase所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "birch trees",
+      "answerKey": "birch trees",
+      "type": "Summary Completion",
+      "prompt": "“One scheme to discourage the melting of ice and snow involves introducing 19 __________ to the Arctic because of their colour.”",
+      "translation": "其中一個阻止冰雪融化的方案，是因為某物的顏色而把它們引入北極。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several geoengineering ideas are being examined in the Russian Arctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數個 geoengineering 構想正在俄羅斯北極地區被研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘You would need the wind to blow the right way,’ Kallio says, ‘but in the right conditions, letting ice float free and head north would enhance ice growth.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kallio 說：「你需要風向正確；但在合適條件下，讓冰自由漂浮並向北移動會促進冰的增長。」只看首尾句，可以估計 Paragraph D 會介紹 Russian Arctic 的多個方案。題目提到 Arctic、ice and snow、colour，因此要找和顏色、反射 sunlight 有關的方案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“introducing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Arctic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because of their colour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These include planting millions of birch trees: according to Kallio, their white bark would increase the amount of reflected sunlight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些方案包括種植數百萬棵白樺樹；根據 Kallio 的說法，它們的白色樹皮會增加反射陽光的量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “introducing”，後面是 “because of their colour”。所以答案應該是一種可被引入北極的東西，而且顏色有助反射陽光。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “planting millions of birch trees” 對應題目的 “introducing”。“their white bark” 解釋because of their colour。白色樹皮可以增加 reflected sunlight，減少吸收熱量，從而 discouraging melting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要從原文取詞，不超過兩個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“millions of birch trees” 太長；核心名詞短語是 “birch trees”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "introducing= planting because of their colour= their white bark discourage melting= increase reflected sunlight"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：birch trees"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "Russian rivers",
+      "answerKey": "Russian rivers",
+      "type": "Summary Completion",
+      "prompt": "“Ice could be encouraged to build up by dispersing it along the coasts with special ships and changing the direction of some 20 __________, although this scheme depends on particular weather conditions.”",
+      "translation": "可以用特殊船隻沿海岸分散海冰，並改變某些東西的方向，以促進冰的形成；不過這個方案取決於特定天氣條件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several geoengineering ideas are being examined in the Russian Arctic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數個 geoengineering 構想正在俄羅斯北極地區被研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘You would need the wind to blow the right way,’ Kallio says, ‘but in the right conditions, letting ice float free and head north would enhance ice growth.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kallio 說：「你需要風向正確；但在合適條件下，讓冰自由漂浮並向北移動會促進冰的增長。」首尾句已經提示，本段有多個促進冰增長的北極方案，且其中一個受 wind 和 right conditions 限制。題目中的 “particular weather conditions” 對應末句的 wind。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“special ships”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changing the direction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weather conditions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ice-breaking vessels could deliberately break up and scatter coastal sea ice in Arctic and Antarctic waters during their respective autumns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "破冰船可以在北極和南極各自的秋季，刻意打碎並分散沿岸海冰。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Diverting Russian rivers could also increase cold-water flow into ice-forming areas and slow warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改變俄羅斯河流流向也可以增加流入成冰區域的冷水，並減慢暖化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “special ships” 對應 “Ice-breaking vessels”。“dispersing it along the coasts” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“break up and scatter coastal sea ice”。空格前是 “changing the direction of some ___”，所以要找可以被 divert 的東西。原文說“Diverting Russian rivers”，因此答案是 Russian rivers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "changing the direction of= diverting special ships= ice-breaking vessels dispersing= break up and scatter particular weather conditions= the wind to blow the right way / in the right conditions"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Russian rivers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "pumps",
+      "answerKey": "pumps",
+      "type": "Summary Completion",
+      "prompt": "“Another way of increasing the amount of ice involves using 21 __________ to bring water to the surface.”",
+      "translation": "另一個增加冰量的方法，是使用某種工具把水帶到表面。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of concentrating on global cooling, other schemes focus on reversing polar melting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他方案沒有集中於全球降溫，焦點轉向逆轉極地融冰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kallio believes, however, that cables like those used in suspension bridges might divert, rather than halt, the southward movement of ice from Spitsbergen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，Kallio 認為，像吊橋所用那類纜索也許能改變 Spitsbergen 冰向南移動的方向，而非完全阻止它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 介紹反轉 polar melting 的方案，包括增加海冰和處理冰流移動。題目說 bring water to the surface，應該在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“bring water to the surface”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing the amount of ice”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pumps would carry water from beneath the sea ice; the spray would emerge as snow or ice particles, producing thicker sea ice with a higher albedo…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水泵會從海冰下方抽水；噴出的水會變成雪或冰粒，形成較厚、反照率較高的海冰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “using”，後面是 “to bring water to the surface”。答案需要是一種工具或設備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “Pumps would carry water from beneath the sea ice”。“carry water from beneath” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bring water to the surface”。水被噴出後會變成 snow or ice particles，producing thicker sea ice，所以符合 “increasing the amount of ice”。答案要從原文取詞。pumps 一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "using pumps= Pumps would carry water bring water to the surface= carry water from beneath the sea ice; the spray would emerge increasing the amount of ice= producing thicker sea ice"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：pumps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "reinforced cables",
+      "answerKey": "reinforced cables",
+      "type": "Summary Completion",
+      "prompt": "“A scheme to stop ice moving would use 22 __________, but this method is more likely to prevent the ice from travelling in one direction than to stop it altogether.”",
+      "translation": "一個阻止冰移動的方案會使用某種東西；但這個方法較可能阻止冰向某個方向移動，而非完全停止冰的移動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of concentrating on global cooling, other schemes focus on reversing polar melting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他方案沒有集中於全球降溫，焦點轉向逆轉極地融冰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kallio believes, however, that cables like those used in suspension bridges might divert, rather than halt, the southward movement of ice from Spitsbergen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，Kallio 認為，像吊橋所用那類纜索也許能改變 Spitsbergen 冰向南移動的方向，而非完全阻止它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會講阻止極地冰流失的方案，而且最後一句已出現 cables、divert、halt，和題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“stop ice moving”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevent the ice from travelling in one direction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stop it altogether”"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have also considered blocking the flow of Greenland’s ice with reinforced cables to prevent icebergs from moving into the sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家也曾考慮用加固纜索阻擋格陵蘭冰的流動，以防止冰山移入海中。"
+            },
+            {
+              "kind": "label",
+              "text": "接着 Kallio 反駁："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kallio believes, however, that cables like those used in suspension bridges might divert, rather than halt, the southward movement of ice from Spitsbergen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，Kallio 認為，像吊橋所用那類纜索也許能改變 Spitsbergen 冰向南移動的方向，而非完全阻止它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “would use”，所以答案應該是工具。原文完整工具名是 “reinforced cables”，剛好兩個字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目後半 “more likely to prevent the ice from travelling in one direction than to stop it altogether”對應 “divert, rather than halt, the southward movement of ice”。divert 表示改變方向；halt 表示完全停止。題目把 “southward movement” 改寫成 “travelling in one direction”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "stop ice moving= blocking the flow of ice / prevent icebergs from moving reinforced cables= reinforced cables more likely to prevent travelling in one direction= might divert the southward movement than stop it altogether= rather than halt"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：reinforced cables"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "只填 cables 也可能有機會被接受，但原文的完整名詞短語是 reinforced cables。題目限制容許兩個字，所以填 reinforced cables 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "volcanic eruptions",
+      "answerKey": "volcanic eruptions",
+      "type": "Summary Completion",
+      "prompt": "“A proposal for cooling global temperatures is based on what happened after 23 __________ in the past and involves creating clouds of gas.”",
+      "translation": "一個降低全球溫度的提案，基於過去某事件之後發生的情況，並涉及製造氣體雲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geoengineering has been shown to work, at least on a small and localised scale, for decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數十年來，geoengineering 已被證明可行，至少在小規模和局部範圍內是這樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Artillery, high-flying aircraft or balloons could deliver the aerosols.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火炮、高空飛機或氣球可以運送這些氣溶膠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 會介紹 geoengineering 的成功先例和可執行方案。題目中的 cooling global temperatures、clouds of gas，應定位到本段關於 aerosol sprays 和 sulphur dioxide 的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cooling global temperatures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“based on what happened after”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clouds of gas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is modelled on historical volcanic eruptions such as Mount Pinatubo in the Philippines in 1991, which produced a short-term drop of 0.5°C in global temperatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個構想以歷史上的火山爆發為模型，例如 1991 年菲律賓的 Mount Pinatubo；該次爆發使全球氣溫短期下降 0.5°C。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One scheme aims to cool the Earth generally by releasing aerosol sprays into the stratosphere above the Arctic, creating clouds of sulphur dioxide that would cause global dimming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個方案旨在透過向北極上空的平流層釋放氣溶膠噴霧，製造會造成全球變暗的二氧化硫雲，從而使地球整體降溫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “creating clouds of gas” 對應 “creating clouds of sulphur dioxide”。“based on what happened after ___ in the past” 對應 “modelled on historical volcanic eruptions”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案應填使全球溫度短期下降的過去事件類型。原文提到 “historical volcanic eruptions such as Mount Pinatubo”。由於題目說 “in the past”，概括答案應是 volcanic eruptions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "proposal for cooling global temperatures= scheme aims to cool the Earth generally based on= modelled on what happened after volcanic eruptions= produced a short-term drop of 0.5°C clouds of gas= clouds of sulphur dioxide"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：volcanic eruptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — Geoengineering offers only short-term relief.",
+      "answerKey": "C — Geoengineering offers only short-term relief.",
+      "type": "Matching Features",
+      "prompt": "Question 24",
+      "translation": "把 Phil Rasch 配對到最符合他的意見。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Phil Rasch"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features / People and Opinions"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But will such ideas ever be implemented?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這些想法真的會被實行嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You may bring global temperatures back to pre-industrial levels, but the poles could still be warmer than they should be and the tropics cooler than before industrialisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你也許可以把全球溫度拉回工業化前水平，但兩極仍可能比應有水平更暖，熱帶地區則可能比工業化前更冷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph E 會討論 geoengineering 的實行風險和科學家憂慮。Phil Rasch 的名字出現在這段中部，所以要在這段建立人物觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phil Rasch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I think all of us agree that if we were to end geoengineering on a given day, the planet would return to its pre-engineered condition very rapidly, probably within 10 to 20 years,’ says Dr Phil Rasch, chief scientist for climate change at the US-based Pacific Northwest National Laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國 Pacific Northwest National Laboratory 的氣候變化首席科學家 Phil Rasch 博士說：「我想我們都同意，如果我們在某一天停止 geoengineering，地球很快就會回到工程干預前的狀態，大概在 10 至 20 年內。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀人物觀點"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Phil Rasch 的核心觀點有兩層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一層：如果停止 geoengineering，地球會 very rapidly 回到 pre-engineered condition，時間大約是 10 to 20 years。這表示 geoengineering 的效果不會永久存在，需要持續維持。"
+            },
+            {
+              "kind": "label",
+              "text": "第二層："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would consider geoengineering only as a strategy to employ while we manage the transition to a non-fossil-fuel economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我只會把 geoengineering 視為一種在我們過渡到非化石燃料經濟期間使用的策略。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “only as a strategy” 和 “while we manage the transition” 表示：他不把 geoengineering當作終局解決方案，只把它視為過渡期工具。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geoengineering offers only short-term relief.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "geoengineering 只提供短期緩解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最符合 Phil Rasch 的觀點。原文不是逐字說 short-term relief，但 “return … very rapidly” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only … while we manage the transition” 合起來，正好表示它只能暫時爭取時間。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "only short-term relief= return rapidly within 10 to 20 years if ended temporary strategy= strategy to employ while transitioning to a non-fossil-fuel economy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A 也有 “problems should not prevent serious consideration”，但那是 Martin Sommerkorn的觀點。Phil Rasch 主要談的是 geoengineering 效果的持續時間和過渡性。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "D — A positive outcome of geoengineering may have a negative consequence elsewhere.",
+      "answerKey": "D — A positive outcome of geoengineering may have a negative consequence elsewhere.",
+      "type": "Matching Features",
+      "prompt": "Question 25",
+      "translation": "把 Dan Lunt 配對到最符合他的意見。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Dan Lunt"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features / People and Opinions"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But will such ideas ever be implemented?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這些想法真的會被實行嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You may bring global temperatures back to pre-industrial levels, but the poles could still be warmer than they should be and the tropics cooler than before industrialisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你也許可以把全球溫度拉回工業化前水平，但兩極仍可能比應有水平更暖，熱帶地區則可能比工業化前更冷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 的後半已經很可能和 Dan Lunt 有關，因為最後一句直接是他所說的geoengineering 風險例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dan Lunt”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The risk with geoengineering projects is that you can overshoot,’ says Dr Dan Lunt of the University of Bristol.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristol 大學的 Dan Lunt 博士說：「geoengineering projects 的風險在於你可能會做過頭。」接着："
+            },
+            {
+              "kind": "quote",
+              "text": "“You may bring global temperatures back to pre-industrial levels, but the poles could still be warmer than they should be and the tropics cooler than before industrialisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你也許可以把全球溫度拉回工業化前水平，但兩極仍可能比應有水平更暖，熱帶地區則可能比工業化前更冷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀人物觀點"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dan Lunt 的核心詞是 “overshoot”，意思是做過頭、超出目標。後一句解釋了這種 overshoot 的具體後果：正面結果：global temperatures back to pre-industrial levels負面後果：poles still warmer than they should be；tropics cooler than before industrialisation也就是說，一個全球平均值看起來改善的結果，可能伴隨地區氣候失衡。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“A positive outcome of geoengineering may have a negative consequence elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "geoengineering 的一個正面結果，可能在其他地方造成負面後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 Dan Lunt 的意思： positive outcome= bring global temperatures back to pre-industrial levels negative consequence elsewhere= poles too warm / tropics too cool"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive outcome= global temperatures back to pre-industrial levels negative consequence elsewhere= poles warmer than they should be; tropics cooler than before industrialisation elsewhere= different regions of the planet"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “overshoot” 就選 C，覺得 geoengineering 只是短期方案。不過 Dan Lunt 的重點偏向「局部副作用」和「不均衡後果」；短期性由 Phil Rasch 更直接提出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — The problems associated with geoengineering should not prevent serious",
+      "answerKey": "A — The problems associated with geoengineering should not prevent serious",
+      "type": "Matching Features",
+      "prompt": "Question 26",
+      "translation": "把 Martin Sommerkorn 配對到最符合他的意見。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "consideration of the ideas.題目人物： Martin Sommerkorn"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features / People and Opinions"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principal reason the mainstream scientific community countenances geoengineering is that most researchers have little faith in politicians’ ability to agree on—and then introduce—the necessary carbon cuts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主流科學界願意考慮 geoengineering 的主要原因，是多數研究者不太相信政治人物有能力就必要減碳達成協議並實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If, over the coming years, science tells us that the planet’s climate sensitivity is even greater—and that is not unrealistic—then we may be best served by not having to start our thinking from scratch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果未來幾年科學告訴我們，地球氣候敏感度比目前所知更高，而這並非不現實，那麼最好不要到時才從零開始思考。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 的功能是解釋為何科學界和保育組織認為 geoengineering值得研究，即使它有風險。Martin Sommerkorn 的引用位於本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martin Sommerkorn”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“As climate-change adviser Dr Martin Sommerkorn says: ‘Human-induced climate change has brought humanity to a point where it is important not to exclude careful consideration of this topic and its possibilities, despite the potential drawbacks.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣候變化顧問 Martin Sommerkorn 博士說：「人為氣候變化已把人類帶到一個地步：儘管存在潛在缺點，我們也不應排除對這個議題及其可能性的謹慎考慮。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀人物觀點"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“important not to exclude careful consideration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要的是不要排除謹慎考慮"
+            },
+            {
+              "kind": "quote",
+              "text": "“despite the potential drawbacks”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管存在潛在缺點所以 Martin Sommerkorn 並非說 geoengineering 一定安全，也沒有說它必須立即推行。他的態度是：有缺點，仍應認真、謹慎地研究。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problems associated with geoengineering should not prevent serious consideration of the ideas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "geoengineering 相關問題不應阻止人們認真考慮這些構想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文完全吻合： problems associated with geoengineering= potential drawbacks should not prevent= not to exclude serious consideration= careful consideration ideas= this topic and its possibilities"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B “Some geoengineering projects are more likely to succeed than others” 聽起來也合理，因為文章前面列出很多方案。不過 Martin Sommerkorn 沒有比較不同方案成敗。他只主張在有potential drawbacks 的情況下，仍然要 careful consideration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Global warming_ Prevent poles from melting.pdf",
+    "sha256": "5c773827ee289c70a7bc049b46bad0edb759f2da769e141e38273ed5db319cba",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句指出人類高度依賴 fossil fuels，已排放大量 carbon dioxide，因此多數 climate scientists 認為 significant global warming 已經 inevitable。末句把科學家正在探索的 alternative options 歸入geoengineering，即大規模、刻意操控環境。只看首尾句，可先估計本段功能是交代問題背景和引出 geoengineering。中間提到減排困難：少數國家有進展，多數國家連控制增長速度也困難。 Questions 18 很可能在這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 geoengineering 已在 small and localised scale 證明可行。末句說 aerosol 可以由artillery、high-flying aircraft 或 balloons 送到高空。只看首尾句，可見本段先用 Moscow May Day parades 作小規模成功例子，再介紹用 stratospheric aerosols 減少陽光的全球降溫方案。段落核心是「已有局部成功先例」加「模仿火山爆發的全球降溫構想」。Questions 15 和 23 很可能定位在這裡。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說另一些方案不集中於 global cooling，而集中於 reversing polar melting。末句引用 Kallio，說 suspension-bridge-like cables 可能 divert ice，而非完全 halt ice movement。只看首尾句，可估計本段功能是介紹防止極地融冰的工程方案，特別是加厚海冰、阻止或改變冰流方向。中間有pumps、spraying water、higher albedo、reinforced cables 等具體方案。Questions 21 和 22 主要來自這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 several geoengineering ideas 正在 Russian Arctic 被研究。末句說在合適風向下，讓冰自由漂浮並向北移動可 enhance ice growth。只看首尾句，可見本段繼續介紹北極地區方案，重點在提高反射率和促進海冰形成。中間有 birch trees、white bark、winter snow reflection、ice-breaking vessels、Russian rivers、wind conditions 等細節。Questions 19 和 20 很可能定位在這裡。"
+      },
+      {
+        "number": "E",
+        "summary": "首句用問題 “But will such ideas ever be implemented?” 轉入可行性和風險。末句由 Dan Lunt指出，全球平均溫度可能回到工業化前水平，但 poles 仍然偏暖，tropics 又可能偏冷。只看首尾句，可見本段功能是提出反對理由和風險：geoengineering 可能令人逃避減排、side effects 可能大於好處、維修困難、技術失敗後果嚴重，並引入 Phil Rasch 和 Dan Lunt 的保留意見。 Questions 14、16、24、25 集中在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說主流科學界考慮 geoengineering 的 principal reason，是多數研究者對 politicians 能否同意和推行必要 carbon cuts 缺乏信心。末句說若未來科學顯示地球氣候敏感度更高，人類最好不要到時才從零開始思考。只看首尾句，可見本段功能是解釋支持研究 geoengineering 的原因。它沒有把 geoengineering 描寫成理想方案，重點是：面對政治減排失敗風險，科學界和保育組織認為值得小心研究。Questions 17 和 26 在這段。"
+      }
+    ]
+  }
+}

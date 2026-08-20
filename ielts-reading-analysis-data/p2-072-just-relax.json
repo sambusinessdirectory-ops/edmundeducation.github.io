@@ -1,0 +1,2420 @@
+{
+  "id": "p2-072-just-relax",
+  "catalogueId": "p2-072",
+  "catalogueIds": [
+    "p2-072"
+  ],
+  "passage": 2,
+  "title": "Just relax …",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 15,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "iii",
+    "ii",
+    "vi",
+    "vii",
+    "ix",
+    "Bible",
+    "magnets and water",
+    "physiological",
+    "mental concentration",
+    "fully aware",
+    "A",
+    "D",
+    "B",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "iii — Early medical experiments with hypnotism",
+      "answerKey": "iii — Early medical experiments with hypnotism",
+      "type": "Matching Headings",
+      "prompt": "Section B",
+      "translation": "B 段最適合哪一個 heading？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。重點在於找出整段主題，不能只被單一句子吸引。Section B 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“James Braid first used the term hypnotism”，但整段後半大量講 medical use：Esdaile 用催眠作麻醉、Charcot 在診所實驗。因此 heading 要能概括整段主要功能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section B第一句：“The term hypnotism was first used by James Braid, a British physician who studied suggestion and hypnosis in the mid-1800s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“hypnotism” 這個詞最早由 British physician James Braid 使用；他在十九世紀中期研究suggestion 和 hypnosis。最後一句：“Later that century, a French neurologist, Jean Charcot, successfully experimented with hypnosis in his clinic for nervous disorders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一世紀較後期，法國神經學家 Jean Charcot 在他的神經疾病診所中成功用 hypnosis 做實驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段在講 hypnosis 從術語、科學解釋，到醫學實驗的早期發展。第一句是命名，最後一句是 clinical experiment，中間還有手術麻醉例子，所以 Section B 的主線偏向醫學化和早期醫療應用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iii 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early medical experiments with hypnotism”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Section B 時，最強證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the same period, James Esdaile, a Scottish doctor working in India, used hypnotism as an anaesthetic in over 200 major surgical operations, including leg amputations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一時期，在印度工作的蘇格蘭醫生 James Esdaile 用 hypnotism 作為 anaesthetic，應用於二百多宗大型外科手術，包括截肢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 有三個人物： James Braid：把 hypnotism 命名，並說它是 physiological response。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Esdaile：用 hypnotism 作 anaesthetic，完成大型手術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jean Charcot：在 nervous disorders clinic 成功實驗 hypnosis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容加起來，heading iii “Early medical experiments with hypnotism” 最能概括。Braid 是British physician，Esdaile 和 Charcot 都直接連到 medical practice / clinic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項比較： viii “Difference between mesmerism and hypnotism” 看似有吸引力，因為 Section B 說 hypnosis differed from sleep and secret powers。可是整段沒有主要比較 mesmerism 和 hypnotism；A 段才講 mesmerism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv “Early association of hypnosis with psychology” 也有一點接近，因為 Braid 研究 suggestion，但 Section B 的後半明顯走向 medical experiments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 iii 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "ii — The normality of hypnotised subjects’ behaviour",
+      "answerKey": "ii — The normality of hypnotised subjects’ behaviour",
+      "type": "Matching Headings",
+      "prompt": "Section C",
+      "translation": "C 段最適合哪一個 heading？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 C 段的整體主題。C 段重點在澄清 hypnosis 的性質：它是 natural human behaviour，也不等同 sleep；被催眠者仍可說話、寫字、走動，並通常知道發生甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since then, scientists have shown that the state of hypnosis is a natural human behaviour that can affect psychological, social and/or physical experiences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自那時起，科學家已經指出 hypnosis 的狀態是一種 natural human behaviour，可影響心理、社會及／或身體經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnotised people can talk, write and walk about and they are usually fully aware of what is being said and done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被催眠的人可以說話、寫字和四處走動，而且他們通常完全知道正在說甚麼和做甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 hypnosis 是 natural human behaviour，最後一句說被催眠者行為仍很正常、意識仍在。兩句合起來，段落主題明顯是「被催眠狀態沒有想像中那麼異常」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“normality”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hypnotised subjects’ behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應有："
+            },
+            {
+              "kind": "quote",
+              "text": "“natural human behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not actually related to sleep”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can talk, write and walk about”"
+            },
+            {
+              "kind": "quote",
+              "text": "“usually fully aware”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "label",
+              "text": "C 段中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although hypnosis has been compared to dreaming and sleepwalking, it is not actually related to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 hypnosis 曾被拿來和 dreaming 及 sleepwalking 比較，但它其實和 sleep 沒有直接關係。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It involves a more active and intense mental concentration on the part of the person being hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它涉及被催眠者更主動、更強烈的 mental concentration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子把 hypnosis 從「睡著、失控、無意識」的誤解中拉回正常心理行為。最後一句的 talk、write、walk about、fully aware 更直接顯示被催眠者仍能正常活動和理解周圍情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項比較： vi “How to hypnotise” 屬於 D 段，因為 D 段才講 repeated suggestions、focus on object、relax、breathe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “Dangers of hypnotism” 不合適，C 段沒有講危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii 能覆蓋 C 段從 natural behaviour 到 fully aware 的整體方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "vi — How to hypnotise",
+      "answerKey": "vi — How to hypnotise",
+      "type": "Matching Headings",
+      "prompt": "Section D",
+      "translation": "D 段最適合哪一個 heading？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的 heading 很直接：How to hypnotise。要找段落是否主要描述催眠的技巧、步驟或過程，而非只講催眠效果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are various techniques used to induce hypnosis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有多種技巧可用來引發 hypnosis。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This explains why hypnosis takes only a few seconds for some, whilst others cannot be easily hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這解釋了為何某些人只需幾秒便可被催眠，另一些人則不容易被催眠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 techniques used to induce hypnosis，這已經高度符合 “How to hypnotise”。最後一句補充不同人對催眠技巧反應不同。只看首尾句，可先判斷這段主題是催眠誘導方法及個體反應差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“How to hypnotise”"
+            },
+            {
+              "kind": "label",
+              "text": "原文出現一組過程詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“simple suggestions repeated continuously”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same tone of voice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“focus their attention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relax”"
+            },
+            {
+              "kind": "quote",
+              "text": "“breathe deeply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eyelids to grow heavy and close”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best-known is a series of simple suggestions repeated continuously in the same tone of voice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最廣為人知的方法，是用同一聲調連續重複一系列簡單 suggestion。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The subject is instructed to focus their attention on an object or fixed point, while being told to relax, breathe deeply, and allow the eyelids to grow heavy and close.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受試者被指示把注意力集中在某個物件或固定點上，同時被告知要放鬆、深呼吸，並讓眼皮變沉、閉上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句就是催眠誘導程序。段落後半講 altered state 後可能出現的現象，例如 awareness、consciousness、memory、blushing、sweating、paralysis、anaesthesia 等，這些是誘導後的反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全段由技巧開始，再講反應和個人差異，因此 vi 最合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項比較： ii “normality of behaviour” 比較適合 C 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ix “Therapeutic uses” 比較適合 F 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 段核心是 induction techniques，所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "vii — Hypnosis and free will",
+      "answerKey": "vii — Hypnosis and free will",
+      "type": "Matching Headings",
+      "prompt": "Section E",
+      "translation": "E 段最適合哪一個 heading？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 E 段是否處理「催眠者能否控制受試者意志」。heading 的核心是 free will，即自由意志、能否抵抗命令、能否被迫做不願做的事。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a common misunderstanding that hypnotists are able to force people to perform criminal acts or any other acts against their will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一個常見誤解，認為 hypnotists 能迫使人做犯罪行為，或其他違反個人意願的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The point to remember, however, is that these individuals chose to participate, and the success of hypnotism depends on the willingness of a person to be hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，要記住的重點是，這些人選擇參與，而且 hypnotism 的成功取決於一個人是否願意被催眠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經把 against their will 放出來，最後一句則用 chose to participate 和 willingness 收束。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾都圍繞意願和自由選擇，因此 heading vii 非常貼合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vii："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnosis and free will”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“against their will”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subjects can resist suggestions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“retain their ability to distinguish right from wrong”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chose to participate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“willingness”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, subjects can resist suggestions, and they retain their ability to distinguish right from wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，受試者可以抵抗 suggestion，而且仍保留分辨 right from wrong 的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是全段的核心。它直接推翻 “hypnotists can force people” 的誤解。被催眠者即使在 stage performance 中做出 ridiculous or embarrassing actions，也因為他們 chose to participate，加上成功催眠需要 willingness。換言之，催眠不等於取消人的道德判斷和意願。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項比較： v “Dangers of hypnotism” 容易令人想選，因為段落提到 criminal acts 和 embarrassing actions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但作者重點不在危險本身，真正焦點是「能否違反意願」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 vii 最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "ix — Therapeutic uses of hypnosis",
+      "answerKey": "ix — Therapeutic uses of hypnosis",
+      "type": "Matching Headings",
+      "prompt": "Section F",
+      "translation": "F 段最適合哪一個 heading？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Section F 講不同 levels of hypnosis，並大量列出醫療和心理治療用途。heading 要能概括anaesthesia、mental health problems、trauma memory、age regression 等內容。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, there are different levels of hypnosis that can be achieved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，hypnosis 可以達到不同程度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this way patients may remember events and feelings from that time, which may affect their current well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這種方式，病人可能記起當時的事件和感受，而這些可能影響他們目前的健康狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說不同 levels，最後一句說透過 age regression 回憶過去並改善 current well-being。全段功能偏向應用，尤其是治療用途。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ix："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic uses of hypnosis”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“provide anaesthesia for surgery, childbirth or dentistry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“treat mental health problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“help recovery from psychological conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“anxiety, depression or phobias”"
+            },
+            {
+              "kind": "quote",
+              "text": "“repressed memories can be retrieved and treated”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀 heading 是否覆蓋全段"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩類 therapeutic uses：第一類是身體醫療："
+            },
+            {
+              "kind": "quote",
+              "text": "“deep hypnosis can be induced to provide anaesthesia for surgery, childbirth or dentistry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "深層 hypnosis 可被引發，用來為 surgery、childbirth 或 dentistry 提供 anaesthesia。"
+            },
+            {
+              "kind": "label",
+              "text": "第二類是心理治療："
+            },
+            {
+              "kind": "quote",
+              "text": "“This latter state may be used to treat mental health problems…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種較輕的 hypnosis 狀態可用來治療 mental health problems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文再列出 anxiety、depression、phobias、traumatic incidents、amnesia、repressed memories、age regression。這些全部屬於 therapeutic uses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項比較： i “Use of hypnotism in criminal cases” 是 H 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii “Early medical experiments” 是 B 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段涵蓋現代治療用途，答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "Bible",
+      "answerKey": "Bible",
+      "type": "Note Completion",
+      "prompt": "“References to hypnosis can be found in both the Talmud and the 19 _________.”",
+      "translation": "在 Talmud 和 _________ 中都可以找到與 hypnosis 相關的提及。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 notes completion，限制是 NO MORE THAN THREE WORDS。空格和 “the Talmud” 並列，所以需要一個宗教文本名稱。題目中的 Talmud 是極強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnosis is an intriguing and fascinating process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hypnosis 是一個令人好奇且引人入勝的過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people continued to believe in this process of ‘mesmerism’ and it was soon realised that successful results could be achieved without the need for magnets and water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍繼續相信這個 “mesmerism” 過程，而且很快有人發現，即使不需要 magnets and water，也可以取得成功結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段介紹 hypnosis 的起源和 mesmerism 的早期歷史。題目問 Talmud 和另一文本，明顯屬於本段開頭的 historical references。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Talmud”"
+            },
+            {
+              "kind": "quote",
+              "text": "“References”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hypnosis”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnotic experiences were described by the ancient Egyptians and Greeks, whilst references to deep sleep and anaesthesia have been found in the Bible and in the Jewish Talmud.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnotic experiences were described by the ancient Egyptians and Greeks, whilst references to deep sleep and anaesthesia have been found in the Bible and in the Jewish Talmud.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古埃及人和古希臘人描述過 hypnotic experiences；同時，在 Bible 和 Jewish Talmud 中也發現了deep sleep 和 anaesthesia 的相關記載。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “both the Talmud and the 19 _________”。原文順序是 “the Bible and in the Jewish Talmud”。題目把順序倒轉，所以空格要填 Bible。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： Bible 是一個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Bible"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "magnets and water",
+      "answerKey": "magnets and water",
+      "type": "Note Completion",
+      "prompt": "“Even when Mesmer’s 20 _________ were not used, successful results occurred without them.”",
+      "translation": "即使沒有使用 Mesmer 的 _________，仍然可以取得成功結果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “Mesmer’s” 後面，需要名詞或名詞短語。限制是 NO MORE THAN THREE WORDS。題目中的 Mesmer 是人名定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnosis is an intriguing and fascinating process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hypnosis 是一個令人好奇且引人入勝的過程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people continued to believe in this process of ‘mesmerism’ and it was soon realised that successful results could be achieved without the need for magnets and water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍繼續相信 “mesmerism” 這個過程，而且很快有人發現，不需要 magnets and water也可以取得成功結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段後半由 Mesmer 的 animal magnetism 轉向 mesmerism 是否真的需要外在工具。題目正好問這個轉折。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mesmer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“successful results”"
+            },
+            {
+              "kind": "quote",
+              "text": "“were not used”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mesmer used water tubs and magnetic wands to direct these supposed fluids to his patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mesmer 使用 water tubs 和 magnetic wands，把這些所謂 fluid 引導到病人身上。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“successful results could be achieved without the need for magnets and water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使不需要 magnets and water，也可以取得成功結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mesmer’s 20 _________ were not used”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“without the need for magnets and water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目後面有 “without them”，空格要填一組 plural things。雖然 Mesmer 具體使用的是 “water tubs and magnetic wands”，但字數超過三個詞；原文最後一句用較短的 “magnets and water” 總結這些工具，所以這是考試可接受答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "were not used = without the need for Mesmer’s tools = magnets and water successful results occurred = successful results could be achieved答案形式： magnets and water 是三個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：magnets and water"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "physiological",
+      "answerKey": "physiological",
+      "type": "Note Completion",
+      "prompt": "“Braid identified hypnosis as a natural 21 _________ response, rather than magical or mystical.”",
+      "translation": "Braid 把 hypnosis 確認為一種自然的 _________ response，而非魔法或神秘力量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “natural” 和 “response” 中間，需要形容詞。題目中的 Braid 是強定位詞，應定位到Section B。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term hypnotism was first used by James Braid, a British physician who studied suggestion and hypnosis in the mid-1800s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“hypnotism” 這個詞最早由 James Braid 使用；他是英國醫生，在十九世紀中期研究 suggestion和 hypnosis。最後一句：“Later that century, a French neurologist, Jean Charcot, successfully experimented with hypnosis in his clinic for nervous disorders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一世紀較後期，法國神經學家 Jean Charcot 在他的神經疾病診所成功用 hypnosis 做實驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段是 hypnosis 的科學化和早期醫學實驗。Braid 位於首句，所以這題應在本段前半尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Braid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“response”"
+            },
+            {
+              "kind": "quote",
+              "text": "“magical or mystical”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“He demonstrated that hypnosis differed from sleep, that it was a physiological response and not the result of secret powers.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He demonstrated that hypnosis differed from sleep, that it was a physiological response and not the result of secret powers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他證明 hypnosis 不同於 sleep，而且它是一種 physiological response，並非 secret powers 的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “magical or mystical” 對應原文的 “secret powers”。題目中的 “natural” 是對這種非神秘、身體反應的概括。空格要放在 response 前，所以應填 physiological。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "magical or mystical = secret powers identified = demonstrated natural physiological response = physiological response rather than = not the result of答案形式： physiological 是一個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：physiological"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "mental concentration",
+      "answerKey": "mental concentration",
+      "type": "Note Completion",
+      "prompt": "“Successful hypnosis requires the subject’s active 22 _________.”",
+      "translation": "成功的 hypnosis 需要受試者主動的 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “active”，後面需要名詞或名詞短語。限制是 NO MORE THAN THREE WORDS。題目中的 active 是重要定位詞，因為原文有完整搭配 “active and intense mental concentration”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since then, scientists have shown that the state of hypnosis is a natural human behaviour that can affect psychological, social and/or physical experiences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自那時起，科學家已指出 hypnosis 的狀態是一種自然的人類行為，可影響心理、社會及／或身體經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnotised people can talk, write and walk about and they are usually fully aware of what is being said and done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被催眠的人可以說話、寫字和四處走動，而且通常完全知道正在說甚麼和做甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段說明 hypnosis 是正常行為，並且受試者並非無意識。題目說 successful hypnosis requires the subject’s active…，正好對應 C 段中間對受試者心理參與的描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“active”"
+            },
+            {
+              "kind": "quote",
+              "text": "“requires”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subject”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The effects of hypnotism depend on the ability, willingness and motivation of the person being hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "催眠效果取決於被催眠者的 ability、willingness 和 motivation。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“It involves a more active and intense mental concentration on the part of the person being hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它涉及被催眠者更主動、更強烈的 mental concentration。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前已有 “active”，但原文 phrase 是 “active and intense mental concentration”。若直接填 “mental concentration”，題目句子變成 “active mental concentration”，文法自然，意思也正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “on the part of the person being hypnotised” 對應題目 “the subject’s”。這說明被催眠者本身要有心理集中，並非完全被外力操控。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the subject’s = on the part of the person being hypnotised requires = involves / depends on active mental concentration = active and intense mental concentration答案形式： mental concentration 是兩個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：mental concentration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "fully aware",
+      "answerKey": "fully aware",
+      "type": "Note Completion",
+      "prompt": "“Consequently subjects can speak or move around and are 23 _________ of their surroundings.”",
+      "translation": "因此，受試者可以說話或走動，並且對周圍情況 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “are” 和 “of” 中間，需要形容詞短語。題目中的 speak、move around 和 surroundings 對應原文 talk、walk about 和 aware of what is being said and done。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since then, scientists have shown that the state of hypnosis is a natural human behaviour that can affect psychological, social and/or physical experiences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自那時起，科學家已指出 hypnosis 是一種自然的人類行為，可影響心理、社會及／或身體經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnotised people can talk, write and walk about and they are usually fully aware of what is being said and done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被催眠的人可以說話、寫字和四處走動，而且通常完全知道正在說甚麼和做甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已直接包含題目所需資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“speak”"
+            },
+            {
+              "kind": "quote",
+              "text": "“move around”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aware”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surroundings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應： talk = speak walk about = move around fully aware = fully aware what is being said and done = surroundings / what is happening around them"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnotised people can talk, write and walk about and they are usually fully aware of what is being said and done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被催眠的人可以說話、寫字和四處走動，而且通常完全知道正在說甚麼和做甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "題目改寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“subjects can speak or move around”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “Hypnotised people can talk, write and walk about”"
+            },
+            {
+              "kind": "quote",
+              "text": "“are ______ of their surroundings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “are usually fully aware of what is being said and done”空格要填 fully aware，因為題目已經有 of，填入後成為 “are fully aware of their surroundings”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： fully aware 是兩個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：fully aware"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — encourage the person to relax using a steady, repetitive tone of voice.",
+      "answerKey": "A — encourage the person to relax using a steady, repetitive tone of voice.",
+      "type": "Multiple Choice",
+      "prompt": "“In order to induce hypnosis, the hypnotist will …”",
+      "translation": "為了引發 hypnosis，催眠者會……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 MCQ。題目問的是 induction procedure，即如何令一個人進入催眠狀態。定位詞是 induce hypnosis。目標段落明顯是 Section D，因為該段第一句就說 “techniques used to induce hypnosis”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are various techniques used to induce hypnosis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有多種技巧可用來引發 hypnosis。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This explains why hypnosis takes only a few seconds for some, whilst others cannot be easily hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這解釋了為何某些人幾秒內便可被催眠，另一些人則不容易被催眠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Section D 會描述催眠技巧，以及個人反應差異。題目問 “In order to induce hypnosis”，所以 D 段是直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“induce hypnosis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relax”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tone of voice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“object”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best-known is a series of simple suggestions repeated continuously in the same tone of voice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最廣為人知的方法，是用同一聲調連續重複一系列簡單 suggestion。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subject is instructed to focus their attention on an object or fixed point, while being told to relax, breathe deeply, and allow the eyelids to grow heavy and close.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受試者被指示把注意力集中在某個物件或固定點上，同時被告知要放鬆、深呼吸，並讓眼皮變沉、閉上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “encourage the person to relax using a steady, repetitive tone of voice.”這一項結合了兩個原文資訊：repeated continuously in the same tone of voice，以及 being told to relax。 “steady, repetitive tone” 概括 “same tone of voice” 和 repeated continuously。雖然原文說的是 suggestions repeated continuously，不是只靠聲調本身，但四個選項中 A 最貼近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “say a specific set of words in a special tone of voice.”原文說 simple suggestions，不是 specific set of words；same tone of voice 也不等於 special tone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “say any words but in a particular tone of voice.”原文沒有說 any words；suggestions 的內容與 relax、breathe、eyelids 等有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “encourage the person to relax while focussing on a slowly moving object.”原文說 object or fixed point。fixed point 是固定點，和 slowly moving object 不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： A 獲得最完整支持。這題最容易被 D 吸引，因為它有 relax 和 focus on object，但 moving 和原文 fixed point 衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "D — do something that they would not normally be opposed to doing.",
+      "answerKey": "D — do something that they would not normally be opposed to doing.",
+      "type": "Multiple Choice",
+      "prompt": "“Hypnotised subjects can be instructed to …”",
+      "translation": "被催眠的受試者可以被指示去……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問催眠指令的界限。定位詞是 instructed、against their will、confidential information 等概念。目標段落主要是 Section E，另有 Section H 支援 “secret information” 這個錯項判斷。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a common misunderstanding that hypnotists are able to force people to perform criminal acts or any other acts against their will.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一個常見誤解，認為 hypnotists 能迫使人做犯罪行為，或其他違反個人意願的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The point to remember, however, is that these individuals chose to participate, and the success of hypnotism depends on the willingness of a person to be hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，要記住的重點是，這些人選擇參與，而且 hypnotism 的成功取決於一個人是否願意被催眠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和尾句都圍繞 will / willingness。題目問被指示能做甚麼，答案必須尊重這個界限。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“against their will”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resist suggestions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“willingness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“secret information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, subjects can resist suggestions, and they retain their ability to distinguish right from wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，受試者可以抵抗 suggestion，而且仍保留分辨 right from wrong 的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“these individuals chose to participate, and the success of hypnotism depends on the willingness of a person to be hypnotised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些人選擇參與，而且催眠是否成功取決於當事人願不願意被催眠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “do something they have previously said is against their wishes.”原文方向相反。subjects can resist suggestions，且成功取決於 willingness。against their wishes無支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “demonstrate physical strength they would normally not have.”原文沒有說 hypnosis 能創造平常沒有的 physical strength。D 段有 paralysis、muscle tension 等現象，但沒有 supernatural strength。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “reveal confidential information against their will.” Section H 明確說：“hypnosis cannot make a person divulge secret information if they don’t want to.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果一個人不願意，hypnosis 不能迫使他透露秘密資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 和原文相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “do something that they would not normally be opposed to doing.”這和 Section E 的核心一致：受試者可以在願意和配合的前提下回應 suggestions。Stage performance 中那些人 chose to participate，因此做出的 ridiculous or embarrassing actions 仍建立在 willingness 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： D 最準確。這題的控制詞是 will / willingness；只要選項包含 against their will，就會與原文主要立場衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — to allow subjects to reassess them without distress.",
+      "answerKey": "B — to allow subjects to reassess them without distress.",
+      "type": "Multiple Choice",
+      "prompt": "“Past events are recalled under hypnosis …”",
+      "translation": "在 hypnosis 下回憶過去事件，是為了……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問回憶 past events 的治療目的。定位詞是 past events、recalled、painful memories、age regression、repressed memories。目標段落是 Section F。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, there are different levels of hypnosis that can be achieved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，hypnosis 可以達到不同程度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this way patients may remember events and feelings from that time, which may affect their current well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過這種方式，病人可能記起當時的 events and feelings，而這些可能影響他們目前的健康狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說不同 levels，最後一句講 age regression 讓病人記起過往事件和感受。題目問 past events recalled，直接連到本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“past events”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recalled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“distress”"
+            },
+            {
+              "kind": "quote",
+              "text": "“painful memories”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This latter state may be used to treat mental health problems, as it allows patients to feel calm while simultaneously thinking about distressing feelings or painful memories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種較輕的 hypnosis 狀態可用於治療 mental health problems，因為它讓患者在思考distressing feelings 或 painful memories 的同時保持平靜。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Through hypnosis these repressed memories can be retrieved and treated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 hypnosis，這些被壓抑的記憶可以被找回並治療。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “to entertain the hypnotist.”原文沒有娛樂催眠師的概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to allow subjects to reassess them without distress.”原文說 patients feel calm while thinking about distressing feelings or painful memories。這正好表示病人能在較平靜的狀態下重新面對或處理過去痛苦記憶。 “reassess” 是對 “learn new responses / come up with solutions / retrieved and treated” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to help the subjects improve their memories.”原文重點是 retrieved and treated，目標是治療心理問題，不是一般 memory improvement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to make the subject feel younger.” age regression 是把病人帶回 specific age 以記起當時 events and feelings，不是為了令他們感到年輕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： B 最貼合原文。它抓住 “feel calm while… distressing feelings or painful memories” 的核心治療功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "D — to minimise the patient’s discomfort while immobile.",
+      "answerKey": "D — to minimise the patient’s discomfort while immobile.",
+      "type": "Multiple Choice",
+      "prompt": "“After surgery, hypnosis may be used …”",
+      "translation": "手術後，hypnosis 可能被用來……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問手術後或醫療處理過程中 hypnosis 的用途。定位詞是 surgery、patient、position、uncomfortable。目標段落是 Section G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physicians have also made use of the ability of a hypnotised person to remain in a given position for long periods of time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫生也利用被催眠者能長時間保持某個姿勢的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even though these positions were unusual, the patient at no time felt uncomfortable!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使這些姿勢很不尋常，病人在任何時候都沒有感到不舒服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段非常清楚：hypnosis 可幫助病人長時間保持不尋常姿勢，同時不感到不適。題目說 after surgery，雖然原文案例涉及 grafting process，但答案重點是 immobility and discomfort。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“surgery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“position”"
+            },
+            {
+              "kind": "quote",
+              "text": "“uncomfortable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long periods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, skin from the person’s abdomen was grafted onto his arm; then the graft was transferred to his foot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，病人 abdomen 的皮膚被移植到手臂上；接著，這片移植皮膚再被轉移到腳上。"
+            },
+            {
+              "kind": "quote",
+              "text": "“With hypnosis, the patient held his arm tightly in position over his abdomen for three weeks, then over his foot for four weeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 hypnosis 幫助下，病人把手臂緊緊固定在 abdomen 上三週，之後又固定在 foot 上四週。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “to make drugs unnecessary.” F 段提到 anaesthesia，但 G 段案例沒有說藥物完全不需要。題目 “After surgery” 更接近 G 段固定姿勢的案例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to keep the patient mobile.”原文方向相反：remain in a given position / held his arm tightly in position，重點是保持不動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to make the patient forget to move.”原文沒有說讓病人忘記移動，只說他能保持姿勢且不不適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to minimise the patient’s discomfort while immobile.”這完整對應 G 段：長時間維持姿勢，且 “at no time felt uncomfortable”。immobile 對應 held his arm tightly in position / remain in a given position。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： D 最準確。這題最重要的不是 “surgery” 一字本身，而是 surgery 後醫療處置所需的長時間固定姿勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — evidence given under hypnosis may be unreliable.",
+      "answerKey": "C — evidence given under hypnosis may be unreliable.",
+      "type": "Multiple Choice",
+      "prompt": "“The American Medical Association reported that …”",
+      "translation": "American Medical Association 報告指出……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 American Medical Association 的報告內容。定位詞是 American Medical Association，目標段落是 Section H。要小心：H 段前面說 people can both lie and make mistakes，但題目問AMA reported，要用 AMA 那一句作最終證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Section H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hypnosis has occasionally been used with witnesses and victims of crime to enable people to remember important clues, such as a criminal’s physical appearance or other significant details that might help to solve a crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hypnosis 偶爾被用於 witnesses 和 victims of crime，幫助他們記起重要線索，例如罪犯外貌或其他可能協助破案的重要細節。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was confirmed by the Council on Scientific Affairs of the American Medical Association, which reported in 1985 that memories refreshed through hypnosis may include inaccurate information, false memories, and confabulation (fact and fantasy combined).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "American Medical Association 的 Council on Scientific Affairs 在 1985 年確認這一點，報告指出透過 hypnosis 喚起的記憶可能包含 inaccurate information、false memories 和 confabulation，即事實與幻想混合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講法律用途，最後一句講 AMA 對記憶可靠性的保留。題目直接問 AMA reported，答案應在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“American Medical Association”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reported”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1985”"
+            },
+            {
+              "kind": "quote",
+              "text": "“memories refreshed through hypnosis”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“reported in 1985 that memories refreshed through hypnosis may include inaccurate information, false memories, and confabulation…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “people lie when giving evidence under hypnosis.”原文前面說 “people can both lie and make mistakes while hypnotised”，但 AMA 報告的焦點是memories refreshed through hypnosis may include inaccurate information, false memories, and confabulation。A 只抓到前面一般問題，而且把 AMA report 縮窄成 lie。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “people should be hypnotised before giving evidence.”原文沒有建議應該先催眠；整段態度偏向警惕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “evidence given under hypnosis may be unreliable.”這正好概括 AMA 報告：inaccurate information、false memories、confabulation 都會令證據不可靠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “secret evidence can be obtained through hypnosis.”原文方向相反：“hypnosis cannot make a person divulge secret information if they don’t want to.”答案判斷： C 最完整概括 AMA 的 reported finding。控制答案的是 “may include inaccurate information, false memories, and confabulation”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 iii 15 ii 16 vi 17 vii 18 ix 19 Bible 20 magnets and water 21 physiological 22 mental concentration 23 fully aware 24 A 25 D 26 B 27 D 28 C"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Just relax ….pdf",
+    "sha256": "32fdc47a25d3fa2aa96e3987123070eedcfdd530baa2dc09b5cdf484f8b85125",
+    "pageCount": 27
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Section A 由 hypnosis 的神秘感開場：一個人似乎能令另一個人進入 trance-like mental state，並服從指令。段落後半追溯古埃及、古希臘、Bible、Jewish Talmud，到 Franz Mesmer 的 animal magnetism。只看首尾句，可以先估計本段功能是介紹 hypnosis 的歷史起源和早期誤解。 Mesmer 的磁流體理論後來被法國委員會否定，但 mesmerism 仍被相信，並逐漸發現成功效果不需要 magnets and water。",
+        "label": "Section A"
+      },
+      {
+        "number": "2",
+        "summary": "Section B 首句說 James Braid 首次使用 hypnotism 一詞，並研究 suggestion and hypnosis。段尾說 Jean Charcot 在 nervous disorders clinic 成功用 hypnosis 做實驗。只看首尾句，可以先判斷本段由命名與科學化開始，發展到醫療實驗。中間有兩個重要人物：Braid 說 hypnosis 不同於sleep，是 physiological response；Esdaile 在印度用 hypnotism 作 anaesthetic，完成二百多宗大手術。這段很適合對應 early medical experiments。",
+        "label": "Section B"
+      },
+      {
+        "number": "3",
+        "summary": "Section C 首句說科學家已指出 hypnosis 是 natural human behaviour，可影響心理、社會和身體經驗。段尾說被催眠者可以說話、寫字、走動，通常 fully aware of what is being said and done。只看首尾句，這段主題是澄清 hypnosis 的正常性：它不等同睡眠，也不代表失去意識。中間強調效果取決於 ability、willingness、motivation，以及 active and intense mental concentration。",
+        "label": "Section C"
+      },
+      {
+        "number": "4",
+        "summary": "Section D 首句直接指出有多種 techniques 可用來 induce hypnosis。段尾說有些人幾秒內可被催眠，其他人則不易被催眠。只看首尾句，這段功能非常明顯：解釋催眠如何進行，以及為何不同人反應不同。中間細節包括 repeated suggestions、same tone of voice、focus on object or fixed point、relax、breathe deeply、eyelids grow heavy。後半再列出 altered awareness、memory、reasoning、sweating、paralysis、anaesthesia 等現象。",
+        "label": "Section D"
+      },
+      {
+        "number": "5",
+        "summary": "Section E 首句指出一個常見誤解：hypnotists 可以迫使人犯罪或違背意願行事。段尾重申hypnotism 的成功取決於 person’s willingness to be hypnotised。只看首尾句，可以知道本段核心是 hypnosis and free will。中間用 stage performance 解釋誤解來源：受試者做出荒謬或尷尬行為，之後被指示不要記得，於是看似 powerless。實際上，subjects can resist suggestions，仍能區分right from wrong。",
+        "label": "Section E"
+      },
+      {
+        "number": "6",
+        "summary": "Section F 首句說 hypnosis 可以達到不同 levels。段尾說 hypnotist 可進行 age regression，把病人帶回某個年齡，使他們記起當時 events and feelings，並理解它們如何影響 current well-being。只看首尾句，本段主題是 therapeutic uses：深層催眠可作 surgery、childbirth、dentistry anaesthesia；較輕催眠可讓患者平靜地面對 distressing feelings 或 painful memories，幫助anxiety、depression、phobias 或 traumatic memory recovery。",
+        "label": "Section F"
+      },
+      {
+        "number": "7",
+        "summary": "Section G 首句說 physicians 也利用 hypnotised person 能長時間維持某個姿勢的能力。段尾說即使這些姿勢很不尋常，病人從未感到不舒服。只看首尾句，可以推測本段是一個 medical case study。中間描述 skin graft：先把 abdomen 的皮膚移植到 arm，再轉移到 foot；病人靠 hypnosis固定手臂三週及四週。這段說明 hypnosis 可在術後或治療過程中減少長時間不動帶來的不適。",
+        "label": "Section G"
+      },
+      {
+        "number": "8",
+        "summary": "Section H 首句說 hypnosis 偶爾被用於 witnesses and victims of crime，幫助回憶 criminal appearance 或其他 clues。段尾引用 American Medical Association 的 Council on Scientific Affairs，指出 hypnosis refreshed memories 可能包含 inaccurate information、false memories 和confabulation。只看首尾句，本段重點是 legal use 的風險：雖然催眠可幫助回憶線索，但被催眠者仍可能說謊或犯錯，也不能被迫透露秘密資訊。",
+        "label": "Section H"
+      }
+    ]
+  }
+}

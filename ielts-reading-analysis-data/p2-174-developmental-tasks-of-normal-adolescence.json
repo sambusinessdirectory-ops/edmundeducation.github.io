@@ -1,0 +1,1008 @@
+{
+  "id": "p2-174-developmental-tasks-of-normal-adolescence",
+  "catalogueId": "p2-174",
+  "catalogueIds": [
+    "p2-174"
+  ],
+  "passage": 2,
+  "title": "Developmental Tasks of Normal Adolescence",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "B",
+    "B",
+    "A",
+    "A",
+    "C",
+    "B",
+    "A",
+    "C",
+    "E",
+    "D",
+    "FALSE",
+    "TRUE",
+    "TRUE A = early adolescence B = middle adolescence"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "Becoming interested in people of the other gender",
+      "translation": "開始對另一性別的人感興趣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是分類題，要判斷這個發展屬於 early、middle 還是 late adolescence。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must adjust to a new physical sense of self.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須適應新的身體自我感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“The effect of this rapid change is that mid-adolescents are body-conscious, and their concerns are directed towards their opposite-sex peers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種快速變化的結果是，中期青少年會變得在意身體，並把關注轉向異性同儕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “other gender”。原文沒有用 other gender，而用 “opposite-sex peers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "真正定案的是 “mid-adolescents”。原文清楚說 mid-adolescents 的 concerns are directed"
+            },
+            {
+              "kind": "paragraph",
+              "text": "towards their opposite-sex peers，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落中間提到 early adolescence 的 puberty，但題目問的是對另一性別的人產生興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點由尾句的 mid-adolescents 控制，所以不能只靠 puberty 所在位置選 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "Beginning to choose a future career",
+      "translation": "開始選擇未來職業。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must establish adult vocational goals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須建立成人職業目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“Mid-adolescents must identify, at least at a preliminary level, what their adult vocational goals are and how they intend to achieve them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：中期青少年至少要初步確認自己的成人職業目標，以及打算如何達成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “future career”，對應原文 “adult vocational goals”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 “Mid-adolescents must identify…”；identify at a preliminary level 就是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "beginning to choose。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "future career = adult vocational goals beginning to choose = identify, at least at a preliminary level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "Needing to feel the same as one’s friends",
+      "translation": "需要覺得自己和朋友一樣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must develop stable and productive peer relationships.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須建立穩定而有成效的同儕關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“The worst possibility, from the perspective of the young teen, is to be seen by peers as different.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：從年輕青少年的角度看，最糟的可能性就是被同儕視為不同。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “same as one’s friends”，原文對應 “fitting in”, “not being different”, “being"
+            },
+            {
+              "kind": "paragraph",
+              "text": "accepted”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “Early adolescence is also a period of intense conformity to peers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：早期青少年也是對同儕高度服從和追求一致的時期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “needing to feel the same” 對應原文的 “fitting in” 和 “not being different”。時間詞是Early adolescence，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "Beginning to form a self-image separate from the family context",
+      "translation": "開始形成一個和家庭背景分開的自我形象。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must develop a personal sense of identity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須發展個人身份感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“As such, one must reconsider the answer to the question, ‘What does it mean to be me?’ or ‘Who am I?’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，一個人必須重新思考「做我自己是甚麼意思？」或「我是誰？」這些問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “self-image separate from the family context”。原文用 “identity”, “separate from"
+            },
+            {
+              "kind": "paragraph",
+              "text": "their parents”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“During the early adolescent years a young person begins to recognise"
+            },
+            {
+              "kind": "paragraph",
+              "text": "their uniqueness and to establish themselves as an individual separate from their parents.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在早期青少年階段，年輕人開始認識自己的獨特性，並把自己建立成一個和父母分開"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的個體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間詞是 “early adolescent years”，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "Having less need for friends’ approval",
+      "translation": "較少需要朋友認同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must develop stable and productive peer relationships.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須建立穩定而有成效的同儕關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“The worst possibility, from the perspective of the young teen, is to be seen by peers as different.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：從年輕青少年的角度看，最糟的可能性就是被同儕視為不同。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “less need” 和 “friends’ approval”。原文用 “the need for peer approval has"
+            },
+            {
+              "kind": "paragraph",
+              "text": "diminished”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“Certainly by late adolescence or early adulthood the need for peer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "approval has diminished.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到了晚期青少年或成年早期，對同儕認同的需要已經減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "late adolescence 對應 C。題目中的 friends’ approval 是 peer approval 的改寫，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "Exposing oneself to danger",
+      "translation": "讓自己暴露在危險之中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 11。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must develop increased impulse control and behavioural maturity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須發展更高的衝動控制和行為成熟度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“Gradually adolescents develop a set of behavioural self-controls through which they assess which behaviours are acceptable and adult-like.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年會逐漸建立一套行為自控能力，用來判斷哪些行為可接受、哪些行為較像成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “danger”，原文用 “risk”, “risky behaviours”, “physical, social, or educational risk”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵句是：“Risky behaviours are sufficiently pervasive among adolescents to suggest that"
+            },
+            {
+              "kind": "paragraph",
+              "text": "risk-taking may be a normal developmental process of middle adolescence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：冒險行為在青少年中十分普遍，這顯示冒險可能是中期青少年的正常發展過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "exposing oneself to danger 對應 risk-taking；middle adolescence 對應 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "A — reflects an adolescent’s emerging self-perception.",
+      "answerKey": "A — reflects an adolescent’s emerging self-perception.",
+      "type": "Question Analysis",
+      "prompt": "Havighurst proposed a set of tasks which ______",
+      "translation": "Havighurst 提出了一組任務，這些任務 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句介紹 Havighurst 用 developmental tasks 解釋人類發展階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說青少年不會逐項分開完成任務，同一時間可能處理多項任務。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Havighurst”, “tasks”。這兩個詞直接帶到 Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“Each of the Havighurst tasks can also be seen as elements of the overall"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sense of self that adolescents carry with them as they move towards and into young adulthood.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Havighurst 的每一項任務，也可被視為青少年邁向成年時整體自我感的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 “emerging self-perception” 對應原文 “overall sense of self”。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — is designed to become more challenging.",
+      "answerKey": "C — is designed to become more challenging.",
+      "type": "Question Analysis",
+      "prompt": "A course of study at high school ______",
+      "translation": "高中課程 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must adjust to increased cognitive demands at school.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須適應學校中增加的認知要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說若學生未有足夠抽象思考能力，抽象思考要求可能令人挫敗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “course of study at high school”。原文用 “School curricula”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“School curricula frequently include more abstract, demanding material,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "regardless of whether the adolescents have achieved formal thought.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：學校課程經常包含更抽象、更高要求的材料，不論青少年是否已經具備形式思考能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "more abstract, demanding material 對應 designed to become more challenging。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "E — varies according to the individual.",
+      "answerKey": "E — varies according to the individual.",
+      "type": "Question Analysis",
+      "prompt": "The speed at which thinking ability develops during adolescence ______",
+      "translation": "青少年期思考能力發展的速度 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說青少年要適應學校中增加的認知要求；最後一句說青少年的智力轉變速度並不一致。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “speed”, “thinking ability develops”。原文用 “not all adolescents make the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "intellectual transition at the same rate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“Since not all adolescents make the intellectual transition at the same rate,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "demands for abstract thinking prior to the achievement of that ability may be frustrating.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由於不是所有青少年都以相同速度完成智力轉變，在能力尚未達到前便被要求抽象思"
+            },
+            {
+              "kind": "paragraph",
+              "text": "考，可能令人感到挫敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "not all… at the same rate = varies according to the individual。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "D — formulates a personal set of moral beliefs and values.",
+      "answerKey": "D — formulates a personal set of moral beliefs and values.",
+      "type": "Question Analysis",
+      "prompt": "Adolescence is a time when the young person ______",
+      "translation": "青少年期是一個年輕人 ______ 的時期。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must adopt a personal value system.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須採納個人價值系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“To reconcile differences, the adolescent restructures those beliefs into a personal ideology.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為了調和差異，青少年會把這些信念重新整理成個人思想體系。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Adolescence”, “young person”, “moral beliefs and values”。原文用 “values and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "morals”, “personal ideology”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說青少年會在父母、同儕和社會價值衝突中，整理出自己的 personal ideology。這正"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是選項 D 的 “formulates a personal set of moral beliefs and values”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "Most pre-adolescent children are capable of abstract thought.",
+      "translation": "大部分青春期前兒童都能夠抽象思考。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must adjust to new intellectual abilities.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須適應新的智力能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“The growth in the ability to deal with abstractions accelerates during the middle stages of adolescence.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：處理抽象概念的能力在青少年中期加速成長。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “pre-adolescent children” 和 “abstract thought”。原文對應 “Before adolescence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “abstractions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“Before adolescence, children’s thinking is dominated by the need for a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "concrete example when solving a problem; their thinking is confined to what is real and physical.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在青少年期之前，兒童解決問題時主要需要具體例子；他們的思考局限於真實和物質"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的事物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 pre-adolescent children are capable of abstract thought；原文說 before adolescence 的兒童思考依賴 concrete example，並局限於 real and physical。方向相反，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Adolescents’ limited verbal skills may give a false impression of their ability.",
+      "translation": "青少年有限的語言能力，可能令人對他們的能力產生錯誤印象。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must develop expanded verbal skills to accommodate more complex concepts and tasks.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須發展更廣闊的語言能力，以配合更複雜的概念和任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“As their conceptual development may outstrip their verbal development, adolescents may appear less competent than they really are.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由於他們的概念發展可能超前於語言發展，青少年可能看起來比實際能力低。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “limited verbal skills”, “false impression”, “ability”。原文用 “conceptual"
+            },
+            {
+              "kind": "paragraph",
+              "text": "development may outstrip their verbal development” 和 “appear less competent than they really are”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 false impression 對應原文 “appear less competent than they really are”。這表示表"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面能力印象低於真實能力。原文完全支持題目，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "Whether an adolescent is accepted by their age group is an important indicator of other aspects of social adjustment.",
+      "translation": "青少年是否被同齡群體接納，是其他社交適應方面的重要指標。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“The adolescent must develop stable and productive peer relationships.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年必須建立穩定而有成效的同儕關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句：“The worst possibility, from the perspective of the young teen, is to be seen by peers as different.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：從年輕青少年的角度看，最糟糕的可能性就是被同儕視為不同。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “accepted by their age group”, “important indicator”, “social adjustment”。原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“accepting peer group” 和 “major indicator”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句是：“The degree to which an adolescent is able to make friends and have an"
+            },
+            {
+              "kind": "paragraph",
+              "text": "accepting peer group, though, is a major indicator of how well the adolescent will adjust in other areas of social and psychological development.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：青少年能夠交朋友和擁有接納自己的同儕群體的程度，是判斷他在其他社交和心理發"
+            },
+            {
+              "kind": "paragraph",
+              "text": "展方面適應得多好的主要指標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 important indicator 對應原文 major indicator；age group 對應 peer group；other aspects of social adjustment 對應 other areas of social and psychological development。所以答案是TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Developmental Tasks of Normal Adolescence.pdf",
+    "sha256": "dc14d8eafaa09043d93b4c21210a29125c31e39c3fba27a82c02c9172058469d",
+    "pageCount": 10
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句把 Professor Robert Havighurst 和 developmental tasks 放到文章中心；尾句提醒讀者，青少年同時處理多項任務。只看首尾句，可先判斷本段是理論框架：Havighurst 用「發展任務」解釋青少年過渡，後文大概會逐一列出這些任務，並把它們連到青少年逐步形成的自我感。"
+      },
+      {
+        "number": "2",
+        "summary": "首句提出青少年要適應新的身體自我；尾句說快速身體變化令 mid-adolescents 變得在意身體，注意力轉向 opposite-sex peers。只看首尾句，可先估計本段處理 puberty、身體成熟、性別特徵和異性同儕興趣。題目若問 physical change、body-conscious 或 other gender，很可能來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句指出青少年要適應新的智力能力；尾句說處理抽象概念的能力在 middle stages of adolescence 加速。只看首尾句，可先判斷本段講 cognitive development：青少年由依靠具體例子，逐漸走向 abstract thinking。題目若問 pre-adolescent thinking、abstract thought 或 thinking ability，很可能定位在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說青少年要適應學校中增加的認知要求；尾句指出每個人智力轉變速度不同，若未具備抽象思考能力便被要求抽象思考，可能感到挫敗。只看首尾句，可先判斷本段講 high school curriculum、abstract material 和 individual rate。題目若問 school course 或 thinking speed，這段很重要。"
+      },
+      {
+        "number": "5",
+        "summary": "首句提出青少年要建立個人價值系統；尾句說青少年會把不同價值重新整理成 personal ideology。只看首尾句，可先判斷本段講 moral development：孩子早期依靠父母規則，青少年期要面對同儕和社會價值，最後形成自己的道德信念。題目若問 morals、values 或 personal beliefs，答案多半在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說青少年要擴展語言能力，以處理更複雜的概念和任務；尾句說概念發展可能快過語言發展，令青少年看起來比實際能力低。只看首尾句，可先判斷本段講 verbal skills 和 false impression。題目若問 limited language、appear less competent 或 ability impression，這段就是核心。"
+      },
+      {
+        "number": "7",
+        "summary": "首句提出青少年要建立成人職業目標；尾句明確說 mid-adolescents 至少要初步確認成人職業目標和達成方法。只看首尾句，可先判斷本段講 vocational goals、career planning 和 identity。題目若問 future career、adult work goals 或 choosing a job stage，答案幾乎可直接定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說青少年要發展個人身份感；尾句用 “What does it mean to be me?” 和 “Who am I?” 收結。只看首尾句，可先判斷本段講 identity formation：青少年開始從父母身份延伸中分離，重新理解自己作為獨立個體的意思。題目若問 self-image separate from family，很可能來自這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說青少年要建立對父母的情感和心理獨立；尾句說他們為了表達獨立和個體性，行為可能看似 hostile 或 lack of cooperation。只看首尾句，可先判斷本段講 autonomy、dependence 和parent-child tension。這段未必直接回答本組題目，但可作為 independence from parents 的背景段。"
+      },
+      {
+        "number": "10",
+        "summary": "首句提出青少年要建立穩定和有生產力的同儕關係；尾句說從年輕青少年角度看，被同儕視為different 是最糟情況。只看首尾句，可先判斷本段講 peer approval、fitting in、conformity 和social adjustment。題目若問 friends’ approval、same as friends、accepted peer group，這段是主要答案區。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說青少年要提升 impulse control 和 behavioural maturity；尾句說青少年逐漸建立行為自控，用來判斷哪些行為可接受、像成人。只看首尾句，可先判斷本段講 risky behaviour、risk-taking和 self-control。題目若問 danger、risk 或 middle adolescence 的冒險行為，這段最可能提供答案。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1999 @@
+{
+  "id": "p2-153-british-architecture",
+  "catalogueId": "p2-153",
+  "catalogueIds": [
+    "p2-153"
+  ],
+  "passage": 2,
+  "title": "British Architecture",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "wood",
+    "status and wealth",
+    "statement of wealth",
+    "detail and proportion",
+    "furniture and textiles",
+    "Edwin Lutyens",
+    "local authorities",
+    "B",
+    "A",
+    "D",
+    "A",
+    "C",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "wood",
+      "answerKey": "wood",
+      "type": "Sentence Completion",
+      "prompt": "“Anglo-Saxon architecture failed to survive because the buildings were constructed from__________.”",
+      "translation": "Anglo-Saxon 建築未能保存下來，因為那些建築由 __________ 建成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。答案必須來自原文，而且不超過三個字。題目核心不是問Anglo-Saxon 建築有沒有發展，而是問為何 little survives。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Architecture is about evolution, not revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建築關乎逐步演變，並非突然革命式的轉變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And although the Anglo-Saxons had a sophisticated building style of their own, little survives to bear witness to their achievements as the vast majority of Anglo-Saxon buildings were made of wood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Anglo-Saxons 有自己成熟的建築風格，但幾乎沒有建築保存下來見證他們的成就，因為絕大多數 Anglo-Saxon 建築都是用木材建造的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 會修正一種過度簡化的歷史觀：Roman withdrawal 之後，英國文化並沒有完全斷裂；Anglo-Saxon 建築也有成就，只是保存證據很少。題目中的 “failed to survive” 直接對應 “little survives”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Anglo-Saxon architecture”、“failed to survive”、“constructed from”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Anglo-Saxon buildings”、“little survives”、“made of wood”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句是：“the vast majority of Anglo-Saxon buildings were made of wood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "絕大多數 Anglo-Saxon 建築都是用木材建造的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “constructed from”，所以答案需要一個材料名詞。原文 “made of wood” 中真正可填入空格的是 wood。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "failed to survive = little survives constructed from = made of buildings = Anglo-Saxon buildings wood = wood答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“wood” 是一個字，符合 NO MORE THAN THREE WORDS。填入後句子是： buildings were constructed from wood.語法完整，意思清楚。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些同學會被 “sophisticated building style” 吸引，以為題目問建築風格。但空格前的“constructed from” 明確要求材料，所以只需填 wood。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "status and wealth",
+      "answerKey": "status and wealth",
+      "type": "Sentence Completion",
+      "prompt": "“Unlike medieval architecture, sixteenth-century buildings were intended to represent__________.”",
+      "translation": "和中世紀建築相比，十六世紀建築旨在代表或展示 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。題目用 “Unlike” 製造對比：medieval architecture 的目的和sixteenth-century buildings 的目的不同。空格要填十六世紀建築所展示的東西。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, the period between the Norman landing at Pevensey in 1066 and the day in 1485 when Richard III lost his horse and his head at Bosworth, ushering in the Tudors and the Early Modern period, marks a rare flowering of British building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，從 1066 年諾曼人在 Pevensey 登陸，到 1485 年 Richard III 在 Bosworth 失去戰馬和性命、迎來 Tudor 與 Early Modern period 之間的時期，標誌著英國建築一次罕見的繁榮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In domestic architecture, in particular, buildings were used to display status and wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尤其在住宅建築中，建築被用來展示地位和財富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph B 先講 medieval building 的繁榮，再轉向 16th-century domestic architecture 的新目的。題目直接問 medieval architecture 和 sixteenth-century buildings 的不同，所以本段就是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “medieval architecture”、“sixteenth-century buildings”、“represent”。原文中 “represent”沒有重現，但 “display” 是最接近的動詞。掃描到最後一句 “display status and wealth” 就可停下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In domestic architecture, in particular, buildings were used to display status and wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尤其在住宅建築中，建築被用來展示地位和財富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文前面說 medieval architecture 的 underlying ethos 是 “fitness for purpose”，即合乎用途、功能導向。後面說 16th-century buildings 也可說有 purpose，但 purpose 已經 changed：住宅建築用來 display status and wealth。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "intended to represent = used to display sixteenth-century buildings = buildings of the 16th century / domestic architecture status and wealth = status and wealth答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“status and wealth” 三個字，符合字數限制。填入後語法自然： buildings were intended to represent status and wealth."
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“fitness for purpose” 是 medieval architecture 的核心，不應填入這題。題目問 unlike medieval architecture 後面的十六世紀建築目的，所以答案要看最後一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "statement of wealth",
+      "answerKey": "statement of wealth",
+      "type": "Sentence Completion",
+      "prompt": "“Costly glass was used extensively as a __________ in those years.”",
+      "translation": "在那些年代，昂貴的玻璃被大量使用，作為一種 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 “as a”，所以答案大多是單數名詞短語。題目關鍵是 costly glass，原文可能用 expensive commodity 或 great expanses of glass 改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This stately and curious workmanship showed itself in various ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種莊重而奇特的工藝以多種方式呈現出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was also a general move towards balanced and symmetrical exteriors with central entrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建築也普遍走向平衡、對稱的外部設計，並設有中央入口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會列出十六世紀建築展示 status and wealth 的具體方式，包括外觀、裝飾、房間、玻璃和對稱。題目中的 glass 應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Costly glass”、“used extensively”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rooms themselves tended to be bigger and lighter—as an expensive commodity, the use of great expanses of glass was in itself a statement of wealth.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時有 expensive commodity、great expanses of glass 和 statement of wealth，值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rooms themselves tended to be bigger and lighter—as an expensive commodity, the use of great expanses of glass was in itself a statement of wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "房間本身往往更大、更明亮；由於玻璃是一種昂貴商品，大面積使用玻璃本身就是一種財富宣示。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Costly glass” 對應 “as an expensive commodity”。“used extensively” 對應 “the use of great expanses of glass”。真正填入空格的是 “statement of wealth”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "costly = expensive used extensively = use of great expanses as a = was in itself a statement of wealth = statement of wealth答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“statement of wealth” 三個字，符合 NO MORE THAN THREE WORDS。填入後： Costly glass was used extensively as a statement of wealth.語法完整。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “expensive commodity”。它解釋玻璃為何能展示財富，但題目空格前是 “as a”，問它被用作甚麼。真正答案是 statement of wealth。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "detail and proportion",
+      "answerKey": "detail and proportion",
+      "type": "Sentence Completion",
+      "prompt": "“Inigo Jones was skilled at handling __________.”",
+      "translation": "Inigo Jones 擅長處理 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。答案必須不超過三個字。題目中的人名 Inigo Jones 是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the exception of Inigo Jones (1573–1652), whose confident handling of classical detail and proportion set him apart from all other architects of the period, most early seventeenth-century buildings tended to take the innocent exuberance of late Tudor work one step further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 Inigo Jones（1573–1652）之外，大多數十七世紀早期建築傾向把晚期 Tudor 作品那種天真奔放再推進一步；Inigo Jones 對古典細節和比例的自信掌握，使他有別於同時期其他建築師。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The politics which underpin it are questionable, but its products are breathtaking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支撐這種風格的政治理念值得質疑，但其作品令人驚歎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接提到 Inigo Jones 和 handling，所以答案幾乎一定在 Paragraph D 第一處。這段後面才轉去 Civil War、European trends 和 British Baroque。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Inigo Jones” 和 “handling”。掃描後找到原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“whose confident handling of classical detail and proportion…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“confident handling of classical detail and proportion”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對古典細節和比例的自信掌握。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “was skilled at handling”，原文說 “confident handling”。兩者意思相近。空格要填 handling的對象。完整對象是 “classical detail and proportion”，但這是四個字，超過 NO MORE THAN THREE WORDS 的限制。因此答案要取可合法填入的核心部分：detail and proportion。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "skilled at handling = confident handling detail and proportion = detail and proportion Inigo Jones = Inigo Jones答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“detail and proportion” 三個字，符合限制。填入後： Inigo Jones was skilled at handling detail and proportion.語法可接受，且保留原文核心。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“classical detail and proportion” 意思最完整，但有四個字，考試答案不能超過三個字。這題要同時處理意思和字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "furniture and textiles",
+      "answerKey": "furniture and textiles",
+      "type": "Sentence Completion",
+      "prompt": "“William Morris favoured the production of __________ made using pre-industrial manufacturing techniques.”",
+      "translation": "William Morris 支持生產使用前工業化製造技術製成的 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。題目核心是 William Morris 和 pre-industrial manufacturing techniques。人名 William Morris 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The huge glass-and-iron Crystal Palace, designed by Joseph Paxton to house the Great Exhibition of 1851, shows another strand to nineteenth-century architecture—one which embraced new industrial processes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joseph Paxton 設計的巨大玻璃與鐵製 Crystal Palace，用來容納 1851 年 Great Exhibition，展現十九世紀建築另一條路線：擁抱新的工業流程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morris’s influence grew from the production of furniture and textiles, until by the 1880s a generation of principled young architects was following his call for good, honest construction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morris 的影響力從家具和紡織品的生產開始擴大，到 1880 年代，一代有原則的年輕建築師開始響應他對良好、誠實建造的呼籲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段先講工業化建築，再講 Ruskin 和 Morris 反對 industrialisation 的 dehumanising effects。題目問 William Morris，所以答案靠近段落後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “William Morris”、“pre-industrial manufacturing techniques”、“production”。掃描後找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“reformers like John Ruskin and William Morris made a concerted effort to return to hand-crafted, pre-industrial manufacturing techniques.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及最後一句的 “production of furniture and textiles”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“reformers like John Ruskin and William Morris made a concerted effort to return to hand-crafted, pre-industrial manufacturing techniques.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Ruskin 和 William Morris 等改革者共同努力，回到手工製作、前工業化的製造技術。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morris’s influence grew from the production of furniture and textiles…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morris 的影響力從家具和紡織品的生產開始擴大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句合併：William Morris favoured production using pre-industrial techniques；他影響力起點是 furniture and textiles 的 production。因此空格填 furniture and textiles。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "favoured = made a concerted effort to return to made using pre-industrial techniques = hand-crafted, pre-industrial manufacturing techniques production of = production of furniture and textiles = furniture and textiles答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“furniture and textiles” 三個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “hand-crafted”。這是製作方式，不是空格要求的物件。題目空格前是 “production of”，所以要填可被生產的東西。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "Edwin Lutyens",
+      "answerKey": "Edwin Lutyens",
+      "type": "Sentence Completion",
+      "prompt": "“Architects such as __________ provided landowners with conservative houses.”",
+      "translation": "像 __________ 這樣的建築師，為地主階層提供保守風格的房屋。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。題目中的 “landowners” 很可能改寫原文 “landed class”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conservative houses” 可能對應 Neo-Georgian and Renaissance country houses。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“The most important trends in early twentieth-century architecture simply passed Britain by.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀初建築中最重要的趨勢完全與英國擦身而過。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only a handful of Modern Movement buildings of any real merit were produced here during the 1920s and 1930s, and most of these were the work of foreign architects such as Serge Chermayeff, Berthold Lubetkin and Ernő Goldfinger who had settled in this country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1920s 和 1930s，英國本土只產生少數真正有價值的 Modern Movement 建築，而其中大多數出自 Serge Chermayeff、Berthold Lubetkin 和 Ernő Goldfinger 等定居英國的外國建築師之手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 批評英國錯過現代主義潮流。題目問 conservative houses for landowners，應定位到中間描述 establishment architects 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “landowners”、“conservative houses”。原文沒有 landowners，但有 “landed class”。原文沒有 conservative houses，但有 “Neo-Georgian and Renaissance country houses”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“we had staid establishment architects like Edwin Lutyens producing Neo-Georgian and Renaissance country houses for an outmoded landed class.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國卻有 Edwin Lutyens 這類沉穩守舊的主流建築師，為過時的地主階層建造 Neo-Georgian 和Renaissance 風格的鄉村宅邸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Architects such as ______” 對應原文 “architects like Edwin Lutyens”。所以空格填人名Edwin Lutyens。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "architects such as = architects like landowners = landed class conservative houses = Neo-Georgian and Renaissance country houses provided = producing for答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Edwin Lutyens” 兩個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段最後有多位外國建築師名字，但他們與 Modern Movement buildings 有關。題目問conservative houses for landowners，所以要選 Edwin Lutyens。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "local authorities",
+      "answerKey": "local authorities",
+      "type": "Sentence Completion",
+      "prompt": "“After the Second World War, architectural commissions shifted from private individuals to__________.”",
+      "translation": "第二次世界大戰後，建築委託從私人個體轉向 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。題目中的 shifted from private individuals 幾乎直接對應原文 “shift away from the private individuals”。要找轉向哪一類 patron。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the Second World War the situation began to change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二次世界大戰後，情況開始改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This represented a shift away from the private individuals who had dominated the architectural scene for centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表一種轉變：建築界從幾個世紀以來一直佔主導地位的私人個體手中轉移出去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接對應題目：After the Second World War、shift away from private individuals。答案應在最後一句前一兩句，找新的 patron 是誰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “After the Second World War”、“shifted from private individuals”。掃描 Paragraph G 末尾，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local authorities, charged with the task of rebuilding city centres, became important patrons of architecture.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Local authorities, charged with the task of rebuilding city centres, became important patrons of architecture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地方政府負責重建市中心，因而成為建築的重要贊助者或委託者。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This represented a shift away from the private individuals…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表建築贊助從私人個體手中轉移出去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This” 指上一句 local authorities became important patrons of architecture。因此題目中的空格應填 local authorities。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "architectural commissions shifted to = became important patrons of architecture private individuals = private individuals after the Second World War = After the Second World War local authorities = local authorities答案形式檢查：“local authorities” 兩個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 的 “corporate bodies” 也在講戰後主導者，但 Question 20 直接改寫 Paragraph G最後兩句。最精準答案是 local authorities。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — functional",
+      "answerKey": "B — functional",
+      "type": "Multiple Choice",
+      "prompt": "“The defining feature of medieval architecture was that it was…”",
+      "translation": "中世紀建築的決定性特徵是它具有甚麼性質？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A immense 巨大B functional 功能性C decorative 裝飾性D bizarre 奇異古怪"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, the period between the Norman landing at Pevensey in 1066 and the day in 1485 when Richard III lost his horse and his head at Bosworth, ushering in the Tudors and the Early Modern period, marks a rare flowering of British building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 1066 年諾曼人登陸到 1485 年 Tudor 和 Early Modern period 到來之前，英國建築出現一次罕見繁榮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In domestic architecture, in particular, buildings were used to display status and wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尤其在住宅建築中，建築被用來展示地位和財富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會比較中世紀建築和十六世紀建築的目的。題目問 medieval architecture 的defining feature，應看本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “medieval architecture” 和 “defining feature”。原文沒有 defining feature，但有"
+            },
+            {
+              "kind": "quote",
+              "text": "“underlying ethos”，意思是背後的核心精神。掃描後找到：“the underlying ethos of medieval architecture was ‘fitness for purpose’.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the underlying ethos of medieval architecture was ‘fitness for purpose’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中世紀建築背後的核心精神是「合乎用途」。"
+            },
+            {
+              "kind": "label",
+              "text": "後面還補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The great cathedrals and parish churches… were not only acts of devotion in stone; they were also fiercely functional buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大教堂和堂區教堂不只是石頭建成的虔誠行動，它們也是非常功能性的建築。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Castles served their particular purpose and their battlements and turrets were for use rather than ornament.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城堡服務於其特定目的，其城垛和塔樓是為了使用，並非為了裝飾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： B functional 正確，因為 “fitness for purpose”、“fiercely functional”、“served their particular purpose” 都指向功能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A immense 只可能讓人想到 cathedrals 很大，但原文核心不是大小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C decorative 與 “for use rather than ornament” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D bizarre 沒有原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "defining feature = underlying ethos functional = fitness for purpose / fiercely functional medieval architecture = medieval architecture"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “great cathedrals” 選 A immense，但 great 在這裡不是判斷核心。真正控制答案的是 “fitness for purpose”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A — greater security",
+      "answerKey": "A — greater security",
+      "type": "Multiple Choice",
+      "prompt": "“What contributed to the development of outward-looking buildings in the sixteenth century?”",
+      "translation": "甚麼因素促成十六世紀向外展示的建築發展？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A greater security 更高安全感B beauty 美感C quality 品質D technology 技術"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This stately and curious workmanship showed itself in various ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種莊重而奇特的工藝以多種方式呈現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was also a general move towards balanced and symmetrical exteriors with central entrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建築也普遍走向平衡、對稱的外部設計，並設有中央入口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以預測本段會列出十六世紀建築外觀和空間安排的變化。題目中的outward-looking buildings 正好屬於外觀和佈局變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “outward-looking buildings”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A greater sense of security led to more outward-looking buildings…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句原字重現 outward-looking buildings，答案通常就在前面原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A greater sense of security led to more outward-looking buildings, as opposed to the medieval arrangement where the need for defence created houses that faced inward onto a courtyard or series of courtyards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更強的安全感促成了更向外展示的建築；相對地，中世紀因防禦需要，房屋面向內部庭院或一系列庭院。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是典型因果句。主語 “A greater sense of security” 是原因；動詞 “led to” 表示促成；結果是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“more outward-looking buildings”。選項判斷： A greater security 正確。它直接對應 “A greater sense of security”。 B beauty 可能和 ornament 有關，但它不是 outward-looking 的原因。 C quality 沒有支援。 D technology 可讓人聯想到 glass，但本句原因是 security。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "contributed to the development of = led to greater security = a greater sense of security outward-looking buildings = more outward-looking buildings"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段後面有 exterior ornament、glass、symmetrical exteriors，這些是結果或特徵。題目問contributed to，即原因，所以要看 led to 前面的主語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — Because the monarch returned from the Continent.",
+      "answerKey": "D — Because the monarch returned from the Continent.",
+      "type": "Multiple Choice",
+      "prompt": "“Why were buildings in the 1660s influenced by the latest European trends?”",
+      "translation": "為甚麼 1660 年代的建築受到最新歐洲潮流影響？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A Because the war had been lost.因為戰爭已經失敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Because craftspeople came from all over Europe.因為工匠來自歐洲各地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Because the properties belonged to gentlemen and nobles.因為物業屬於紳士和貴族。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Because the monarch returned from the Continent.因為君主從歐洲大陸返回。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the exception of Inigo Jones (1573–1652), whose confident handling of classical detail and proportion set him apart from all other architects of the period, most early seventeenth-century buildings tended to take the innocent exuberance of late Tudor work one step further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 Inigo Jones 之外，大多數十七世紀早期建築傾向把晚期 Tudor 作品的天真奔放再推前一步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The politics which underpin it are questionable, but its products are breathtaking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支撐這種風格的政治理念值得質疑，但其作品令人驚歎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段由十七世紀早期建築講到 British Baroque 的政治與風格。題目問 1660s 和European trends，應看 Civil War、Continent、Charles II restoration 那幾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1660s”、“European trends”。原文中出現 “with Charles’s restoration in 1660” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reflecting the latest European trends”。這兩處高度吻合題幹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵證據：“There they came into contact with French, Dutch and Italian architecture and, with Charles’s restoration in 1660, there was a flurry of building activity as royalists reclaimed their property and built themselves houses reflecting the latest European trends.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，他們接觸到法國、荷蘭和意大利建築；隨著 Charles 在 1660 年復辟，保王派收回財產並為自己建造房屋，反映最新歐洲潮流，於是出現一陣建築熱潮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“There” 指前一句的 “the Continent”，即歐洲大陸。Royalists 之前跟隨 Charles II exile 到歐洲大陸，接觸歐洲建築。1660 年 Charles restoration 後，他們回到英國，重建和收回物業時採用了歐洲潮流。選項判斷： D 正確。 “the monarch returned from the Continent” 對應 “Charles’s restoration in 1660” 和他此前 exile on the Continent 的背景。 A 只說 war lost，這是部分背景，但不能完整解釋 1660s building activity 和 European trends。 B 原文說 gentlemen and nobles / royalists 接觸 European architecture，沒有說 craftspeople from all over Europe。 C property reclaim 是建築活動的背景之一，但歐洲風格來源來自 exile 和 restoration。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "monarch returned = Charles’s restoration in 1660 from the Continent = follow Charles II into exile / came into contact with European architecture latest European trends = French, Dutch and Italian architecture"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 有迷惑性，因為原文確實說 “when the war was lost”。但題目問 1660s 建築為何有 European trends，真正鏈條要包含 Continent exposure + Charles’s restoration。D 最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A — toughness",
+      "answerKey": "A — toughness",
+      "type": "Multiple Choice",
+      "prompt": "“What kind of impression did the British Baroque convey?”",
+      "translation": "British Baroque 傳達出甚麼樣的印象？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A toughness 強硬感B steadiness 穩定感C mildness 溫和感D conservatism 保守感"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the exception of Inigo Jones (1573–1652), whose confident handling of classical detail and proportion set him apart from all other architects of the period, most early seventeenth-century buildings tended to take the innocent exuberance of late Tudor work one step further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 Inigo Jones 之外，大多數十七世紀早期建築傾向把晚期 Tudor 作品的天真奔放再推前一步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The politics which underpin it are questionable, but its products are breathtaking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支撐它的政治理念值得質疑，但其作品令人驚歎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段最後幾句講 British Baroque 的政治訊息和風格感覺。題目問 impression，應看描述 Baroque的形容詞和抽象名詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “British Baroque” 和 “conveyed impression”。原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The British Baroque was a reassertion of authority, an expression of absolutist ideology…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The style is heavy and rich, sometimes overblown and melodramatic.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The British Baroque was a reassertion of authority, an expression of absolutist ideology by men who remembered a world turned upside down during the Civil War.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Baroque 是權威的重新宣示，是一種絕對主義意識形態的表達，由那些記得 Civil War 期間世界被顛倒的人所推動。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The style is heavy and rich, sometimes overblown and melodramatic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種風格厚重而華麗，有時顯得過分誇張和戲劇化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reassertion of authority” 表示重新強調權威；“absolutist ideology” 帶有強權政治味道；“heavy” 也加強壓迫感與重量感。四個選項中，A toughness 最接近這種強硬、權威、厚重的印象。選項判斷： A toughness 正確。它概括 authority、absolutist ideology 和 heavy style。 B steadiness 太平穩，無法對應 overblown and melodramatic。 C mildness 和 heavy、authority 完全不合。 D conservatism 可能被 politics 誘導，但原文重點是 authority 和 absolutism，不是單純保守。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "impression conveyed = reassertion / expression / style toughness = authority + absolutist + heavy British Baroque = British Baroque"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D conservatism 容易吸引學生，因為同一篇後面提到 conservative houses。不過 Q24 的目標段是 British Baroque，原文語氣更接近權威重申和強硬感。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "C — industrial-scale production",
+      "answerKey": "C — industrial-scale production",
+      "type": "Multiple Choice",
+      "prompt": "“The individual craftsperson ceased to play a major role in creation following the emergence of…”",
+      "translation": "在甚麼出現之後，個別工匠在創作中不再扮演重要角色？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A the Crystal Palace B a return to pre-industrial manufacturing C industrial-scale production D ornamentation"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The huge glass-and-iron Crystal Palace, designed by Joseph Paxton to house the Great Exhibition of 1851, shows another strand to nineteenth-century architecture—one which embraced new industrial processes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crystal Palace 展示十九世紀建築的另一條路線：擁抱新的工業流程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morris’s influence grew from the production of furniture and textiles, until by the 1880s a generation of principled young architects was following his call for good, honest construction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morris 的影響力從家具和紡織品生產開始擴大，到 1880 年代，一代年輕建築師響應他對良好、誠實建造的呼籲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段先講 industrial processes，再講 Morris 回到手工與 pre-industrial techniques。題目問 individual craftsperson 不再重要，應定位到 mass production 那句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “individual craftsperson” 和 “ceased to play a major role”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the individual craftsman no longer had a major role…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mass production resulted in buildings and furnishings that were too perfect, as the individual craftsman no longer had a major role in their creation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大規模生產導致建築和家具變得過於完美，因為個別工匠在其創造過程中不再扮演主要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說明原因是 mass production。選項 C “industrial-scale production” 是 mass production的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： C 正確。industrial-scale production = mass production。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Crystal Palace 是本段例子，但不是直接令 individual craftsman no longer had a major role 的概括原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B return to pre-industrial manufacturing 是 Ruskin 和 Morris 的回應，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D ornamentation 與此句無關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "individual craftsperson = individual craftsman ceased to play a major role = no longer had a major role industrial-scale production = mass production creation = creation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很吸引，因為 Crystal Palace 出現在段首，又是 glass-and-iron 工業建築代表。不過題目問的是工匠角色消失的原因，原文直接用 Mass production 作主語，所以 C 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C — a shortage of cheap housing",
+      "answerKey": "C — a shortage of cheap housing",
+      "type": "Multiple Choice",
+      "prompt": "“Building styles changed after the Second World War as a result of…”",
+      "translation": "第二次世界大戰後，建築風格因甚麼原因而改變？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A abundant materials材料充足B local authorities地方政府C a shortage of cheap housing廉價房屋短缺D conservative views保守觀點"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the Second World War the situation began to change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二次世界大戰後，情況開始改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This represented a shift away from the private individuals who had dominated the architectural scene for centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表建築界從幾個世紀以來一直主導建築場景的私人個體手中轉移出去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接對應題目 after the Second World War 和 changed。題目問 change 的原因，所以要看段落中間的因果句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “After the Second World War”、“changed”、“as a result of”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“there was a desperate need for cheap housing which could be produced quickly.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Modern Movement’s belief in progress and the future struck a chord with the mood of post-war Britain and, as reconstruction began under Attlee’s Labour government in 1945, there was a desperate need for cheap housing which could be produced quickly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Modern Movement 對進步和未來的信念呼應了戰後英國的情緒；1945 年 Attlee 工黨政府開始重建時，英國迫切需要能快速建造的廉價住房。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The use of prefabricated elements, metal frames, concrete cladding and the absence of decoration… were adopted to varying degrees for housing developments and schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "預製構件、金屬框架、混凝土覆層和無裝飾風格，在不同程度上被用於住宅發展和學校建築。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因果鏈很清楚：戰後重建 + 迫切需要 cheap housing produced quickly → 採用 Modernist abroad已接受的材料和風格 → building styles changed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： C 正確。a shortage of cheap housing 對應 “a desperate need for cheap housing”。雖然原文說need，不直接說 shortage，但 desperate need 表示供應不足或需求極高，C 是最佳概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A abundant materials 與原文不合；原文強調需要便宜快速，不是材料充裕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B local authorities 是後來重要 patrons，不是風格改變的最直接原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D conservative views 屬於戰前英國建築師的傾向，戰後變化反而走向 Modern Movement。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "changed after the Second World War = After the Second World War the situation began to change as a result of = there was a desperate need for a shortage of cheap housing = desperate need for cheap housing building styles changed = prefabricated elements / metal frames / concrete cladding / absence of decoration were adopted"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B local authorities 很容易令人誤選，因為本段最後說地方政府成為重要 patron。不過題目問building styles 為何改變，最直接原因是戰後急需廉價、快速建成的住房，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - British Architecture.pdf",
+    "sha256": "76020ea9dd1e18e3fcb6232fafb05102d358e7a08a14cfaa9ab4cc9def77ad32",
+    "pageCount": 23
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 architecture is about evolution, not revolution，直接提醒讀者：英國建築史不應被理解成突然斷裂。最後一句說 Anglo-Saxon buildings 大多用 wood 建造，所以很少保存下來。只看首尾句，可先估計本段是在推翻簡化歷史觀：羅馬撤離後，文化並沒有完全消失；Anglo-Saxon 建築也有自身成就，只是材料令證據難以留存。題目若問 Anglo-Saxon 建築為何沒有保存，這段很可能是答案位置。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把時間推到 Norman landing 1066 至 1485 Tudors 前，說這時期是 British building 的 rare flowering。最後一句說 16th-century domestic architecture 的目的變成 display status and wealth。首尾句形成一個清楚對照：中世紀建築雖然繁盛，但核心精神是 fitness for purpose；到十六世紀，建築目的轉向展示身份與財富。題目若問 medieval architecture 或 sixteenth-century buildings 的功能，應優先定位本段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 “This stately and curious workmanship” 以多種方式呈現，承接上一段十六世紀建築展示地位與財富的主題。最後一句說建築外觀逐漸走向 balanced and symmetrical exteriors with central entrances。只看首尾句，可估計本段在列出十六世紀建築外觀的新特徵：更安全、更向外展示、更多裝飾、更大更明亮的房間、更大量玻璃，以及更對稱的外立面。題目若問 glass、security、outward-looking buildings，答案多半在此。"
+      },
+      {
+        "number": "D",
+        "summary": "首句先突出 Inigo Jones，說他對 classical detail and proportion 的掌握使他與同時期建築師不同。最後一句評價 British Baroque：其政治基礎 questionable，但作品 breathtaking。首尾句顯示本段由十七世紀早期建築談到 Civil War 後的 Baroque 發展。中間很可能解釋為何 1660 年後英國建築受歐洲影響，也會處理 Charles II、Continent、authority、absolutist ideology 等關鍵內容。"
+      },
+      {
+        "number": "E",
+        "summary": "首句介紹 Crystal Palace，說它代表 nineteenth-century architecture 的另一條路線：embraced new industrial processes。最後一句說到 1880s，一代年輕建築師跟隨 Morris 對 good, honest construction 的呼籲。首尾句顯示本段核心是工業化與反工業化的拉扯：一邊是 glass-and-iron、mass production、new industrial processes；另一邊是 Ruskin 和 Morris 主張回到 hand-crafted、pre-industrial techniques。題目若問 craftsperson、mass production、Morris，應定位本段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 early twentieth-century architecture 的重要趨勢 simply passed Britain by，暗示英國錯過現代主義浪潮。最後一句說 1920s 和 1930s 少數有價值的 Modern Movement buildings 多由定居英國的外國建築師完成。首尾句顯示本段批評英國二十世紀初建築保守落後：歐洲有 Gropius和 Le Corbusier 的新材料實驗，英國仍有 Lutyens 為 landed class 建造 Neo-Georgian 和Renaissance country houses。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 After the Second World War the situation began to change，直接表示戰後英國建築風格出現轉變。最後一句說這代表建築委託從 private individuals 轉向其他 patron。只看首尾句，可估計本段講戰後重建如何推動 Modern Movement：廉價、快速住房需求促使 prefabricated elements、metal frames、concrete cladding 和 absence of decoration 被採用。題目若問post-war change、cheap housing、local authorities，這段是核心位置。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 since the war，local authorities、companies、large educational institutions 等 corporate bodies 主導 British architecture。最後一句用 Post-post-modernism? 作結，暗示當代風格仍在變化。首尾句顯示本段是戰後至新千年的總結：建築主導者由私人贊助人轉向大型機構；Modern Movement 後來被 high-rise housing 的社會問題連累，post-modernism 興起，但新千年後也顯出老態。這段偏向總結建築潮流與主導力量變遷。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

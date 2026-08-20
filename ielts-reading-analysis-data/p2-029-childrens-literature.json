@@ -1,0 +1,1596 @@
+{
+  "id": "p2-029-childrens-literature",
+  "catalogueId": "p2-029",
+  "catalogueIds": [
+    "p2-029"
+  ],
+  "passage": 2,
+  "title": "Children’s Literature",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "rhymes, stories",
+    "America",
+    "folklore",
+    "fairy stories",
+    "adventures",
+    "C",
+    "A",
+    "E",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "rhymes, stories",
+      "answerKey": "rhymes, stories",
+      "type": "Table Completion",
+      "prompt": "Question 14",
+      "translation": "18 世紀中期：一本包含 __________ 和 games 的合集。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mid-18th century — A collection of 14 __________ and games”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 table completion，要求 NO MORE THAN TWO WORDS。空格後面已有 “and games”，所以答案要能自然接成 “a collection of ___ and games”。題目所在行還有例子 A Little Pretty Pocket-Book，所以要找這本書的 contents。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the middle of the 18th century there were enough eager child readers, and enough parents glad to cater to this interest, for publishers to specialize in children’s books whose first aim was pleasure rather than education or morality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 18 世紀中期，已有足夠熱心的兒童讀者，也有足夠願意迎合這種興趣的父母，使出版商可以專門出版以樂趣為首要目的，而非以教育或道德為首要目的的兒童書。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a tribute to Newbery’s flair that he hit upon a winning formula so quickly and that it was pirated almost immediately in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newbery 這麼快就找到成功 formula，而且這本書幾乎立刻在美國被盜版，足以證明他的才華。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 會講 18 世紀中期兒童書出版和 Newbery 的成功模式。題目出現 Mid-18th century 和 A Little Pretty Pocket-Book，這段就是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “A Little Pretty Pocket-Book”、“collection” 和 “games”。原文中直接出現 “Its contents – rhymes, stories, children’s games, plus a free gift…”。這句同時有 contents 和 games，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its contents – rhymes, stories, children’s games, plus a free gift (‘A ball and a pincushion’)—in many ways anticipated the similar lucky-dip contents of children’s annuals this century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的內容包括押韻詩、故事、兒童遊戲，還有一份免費禮物——「一個球和一個針墊」；在很多方面，它預示了本世紀兒童年刊那種類似 lucky-dip 的混合內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “Its contents” 改成 “A collection of…”。原文列出 rhymes, stories, children’s games；題目已經給出 “and games”，所以空格要填 games 前面的兩項：rhymes, stories。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： rhymes, stories 是兩個字，符合 NO MORE THAN TWO WORDS。注意不應填 children’s games，因為題目已經有 games；填了會變成 “children’s games and games”，語意重複。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "America",
+      "answerKey": "America",
+      "type": "Table Completion",
+      "prompt": "Question 15",
+      "translation": "A Little Pretty Pocket-Book 被帶到或傳到 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Little Pretty Pocket-Book (exported to 15 __________)”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the middle of the 18th century there were enough eager child readers, and enough parents glad to cater to this interest, for publishers to specialize in children’s books whose first aim was pleasure rather than education or morality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 18 世紀中期，已有足夠熱心的兒童讀者和願意迎合這種興趣的父母，使出版商能專門出版以樂趣為主要目的的兒童書。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a tribute to Newbery’s flair that he hit upon a winning formula so quickly and that it was pirated almost immediately in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newbery 很快找到成功 formula，而且這本書幾乎立即在美國被盜版，這正好顯示他的才華。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以定位到 America。題目用 exported to，原文用 pirated in America，兩者不完全等同，但都指這本書的 formula / version 很快傳到美國。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “A Little Pretty Pocket-Book”。掃描 Paragraph 2 時，它出現在 John Newbery 之後。接著最後一句有 America，正好對應空格位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a tribute to Newbery’s flair that he hit upon a winning formula so quickly and that it was pirated almost immediately in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newbery 很快找到成功模式，而且它幾乎立即在美國被盜版，這證明他的出版眼光很敏銳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目括號中的 “exported to” 是較寬鬆的概括。原文精確說法是 pirated almost immediately in America，即它在美國很快被翻印或盜版。表格想問這本書的影響或版本到達哪裡，所以答案是America。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Britain 或 London。Paragraph 2 確實說 Newbery 是英國出版商，並在 London 出版；但題目括號問的是 A Little Pretty Pocket-Book 後來去到哪裡，原文最後一句給出的地點是America。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "folklore",
+      "answerKey": "folklore",
+      "type": "Table Completion",
+      "prompt": "Question 16",
+      "translation": "19 世紀初：對 __________ 的興趣增加。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early 19th century — Growing interest in 16 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the moral story for children was always threatened from within, given the way children have of drawing out entertainment from the sternest moralist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，兒童道德故事一直受到內部威脅，因為孩子總能從最嚴肅的道德主義者作品中抽出娛樂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From now on younger children could expect stories written for their particular interest and with the needs of their own limited experience of life kept well to the fore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從此以後，年幼兒童可以期待一些專為他們的興趣而寫，並把他們有限人生經驗的需要放在重要位置的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講兒童文學由 moral / improving story 轉向更 child-centred 的方向。題目問 Early 19th century 的 growing interest，這段中間正好有 early-19th-century interest。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Early 19th century” 和 “interest”。原文直接出現："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“early-19th-century interest in folklore”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“But the greatest blow to the improving children’s book was to come from an unlikely source indeed: early-19th-century interest in folklore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對那種改良式、教化式兒童書造成最大打擊的，竟然來自一個意想不到的來源：19 世紀初對民俗的興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Growing interest in…” 直接改寫原文 “interest in folklore”。答案是 folklore。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Growing interest = interest Early 19th century = early-19th-century folklore = folklore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "fairy stories",
+      "answerKey": "fairy stories",
+      "type": "Table Completion",
+      "prompt": "Question 17",
+      "translation": "nursery rhymes 和 __________。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nursery rhymes and 17 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the moral story for children was always threatened from within, given the way children have of drawing out entertainment from the sternest moralist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童道德故事一直受到內部威脅，因為孩子可以從最嚴肅的道德故事中找出娛樂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From now on younger children could expect stories written for their particular interest and with the needs of their own limited experience of life kept well to the fore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從此以後，年幼兒童可以期待專為他們興趣和有限人生經驗需要而寫的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 會講某種新材料如何推動更 child-centred 的 writing。題目給出 nursery rhymes，所以要在段中找與 nursery rhymes 並列的另一類材料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Nursery rhymes”。原文句子中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both nursery rhymes … and a collection of fairy stories…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both nursery rhymes, selected by James Orchard Halliwell for a folklore society in 1842, and a collection of fairy stories by the scholarly Grimm brothers, swiftly translated into English in 1823, soon rocketed to popularity with the young…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Orchard Halliwell 於 1842 年為一個民俗學會選編的 nursery rhymes，以及學者型的Grimm brothers 所收集、並於 1823 年迅速譯成英文的一本 fairy stories 集，很快在年輕讀者中大受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已給 “Nursery rhymes and…”，原文中與 nursery rhymes 並列的是 “a collection of fairy stories”。因為字數限制是 NO MORE THAN TWO WORDS，最合適答案是 fairy stories。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "adventures",
+      "answerKey": "adventures",
+      "type": "Table Completion",
+      "prompt": "Question 18",
+      "translation": "1930 年代後期：關於沒有真正危險的 __________ 的故事。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Late 1930s — Stories of risk-free 18 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final apotheosis of literary childhood as something to be protected from unpleasant reality came with the arrival in the late 1930s of child-centred bestsellers intent on entertainment at its most escapist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把文學中的童年視為需要遠離不愉快現實保護的觀念，在 1930 年代後期達到最終高峰，當時出現了一些以兒童為中心、追求最逃避現實娛樂效果的暢銷書。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urged on by committed publishers and progressive librarians, writers slowly began to explore new areas of interest while also shifting the settings of their plots from the middle-class world to which their chiefly adult patrons had always previously belonged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在投入的出版商和進步圖書館員推動下，作家逐漸開始探索新的興趣領域，同時把故事情節設定從過去主要成人贊助者所屬的中產階級世界轉移出去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，Late 1930s 和 child-centred bestsellers 已直接定位。題目中的 risk-free 是對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“nothing bad could ever happen to them in the end” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Late 1930s”、“risk-free” 和 “Enid Blyton / Richmal Crompton”。原文中有 “most unlikely adventures” 和 “nothing bad could ever happen”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“In Britain, novelists such as Enid Blyton and Richmal Crompton described children who were always free to have the most unlikely adventures, secure in the knowledge that nothing bad could ever happen to them in the end.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英國，Enid Blyton 和 Richmal Crompton 等小說家描寫的孩子總是自由地經歷最不可能發生的冒險，而且可以確信最後不會有壞事發生在他們身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “nothing bad could ever happen” 概括成 “risk-free”。原文中的核心名詞是 adventures，所以答案是 adventures。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C — Was originally a merchant rather than a writer",
+      "answerKey": "C — Was originally a merchant rather than a writer",
+      "type": "Matching Features",
+      "prompt": "Question 19",
+      "translation": "Thomas Boreham 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Thomas Boreham"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the middle of the 18th century there were enough eager child readers, and enough parents glad to cater to this interest, for publishers to specialize in children’s books whose first aim was pleasure rather than education or morality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 18 世紀中期，已有足夠熱心的兒童讀者和願意迎合這種興趣的父母，使出版商可以專門出版以樂趣為首要目的的兒童書。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a tribute to Newbery’s flair that he hit upon a winning formula so quickly and that it was pirated almost immediately in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Newbery 很快找到成功 formula，而且它幾乎立即在美國被盜版，這顯示他的才華。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段介紹 18 世紀兒童書出版和早期出版人物。Thomas Boreham 是人名，非常容易掃描定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Thomas Boreham”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Britain, a London merchant named Thomas Boreham produced Cajanus, The Swedish Giant in 1742…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Britain, a London merchant named Thomas Boreham produced Cajanus, The Swedish Giant in 1742…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在英國，一位名叫 Thomas Boreham 的倫敦商人於 1742 年出版了 Cajanus, The Swedish Giant。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 “Was originally a merchant rather than a writer”。原文直接稱他為 “a London merchant”。雖然原文沒有用 “originally”，但在這組選項中，C 最精準對應他的身份。題目想測的是人物身份，不是作品內容。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Boreham 確實 produced Cajanus，但 produced 在出版語境中不等於他是 writer。原文給出的身份是 merchant，所以 C 比任何「作者」相關選項更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — Wrote criticism of children’s literature",
+      "answerKey": "A — Wrote criticism of children’s literature",
+      "type": "Matching Features",
+      "prompt": "Question 20",
+      "translation": "Mrs Sarah Trimmer 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：Mrs Sarah Trimmer"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such pleasing levity was not to last.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種令人愉快的輕鬆風格並沒有維持下去。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…her own stories, Fabulous Histories (1786), described talking animals who were always models of sense and decorum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她自己的故事 Fabulous Histories 描寫會說話的動物，而這些動物總是理智和得體舉止的典範。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 從 pleasure 轉向 instructive / uplifting 的批評氣氛。Sarah Trimmer 出現在這個批評者脈絡中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Mrs Sarah Trimmer”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prominent among such voices was Mrs. Sarah Trimmer, whose magazine The Guardian of Education (1802) carried the first regular reviews of children’s books.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prominent among such voices was Mrs. Sarah Trimmer, whose magazine The Guardian of Education (1802) carried the first regular reviews of children’s books.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些聲音中，Mrs Sarah Trimmer 是突出的代表；她的雜誌 The Guardian of Education 於1802 年刊載了最早定期出現的兒童書評論。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was she who condemned fairy-tales for their violence and general absurdity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是她譴責 fairy-tales 暴力且整體荒謬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “Wrote criticism of children’s literature” 對應 “reviews of children’s books” 和 “condemned fairy-tales”。reviews 在這裡不是單純介紹，更包含批評和評價。A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 B 不選： B 說 “Used animals to exemplify the absurdity of fairy tales”。原文說她的 talking animals 是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“models of sense and decorum”，即理智和得體的榜樣。她使用動物角色來寫有秩序、有教化意味的故事，沒有用動物去示範 fairy tales 的荒謬。B 把她批評 fairy-tales 的 “absurdity” 和她自己作品中的 animals 混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "E — Did not write in English",
+      "answerKey": "E — Did not write in English",
+      "type": "Matching Features",
+      "prompt": "Question 21",
+      "translation": "The Brothers Grimm 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物：The Brothers Grimm"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the moral story for children was always threatened from within, given the way children have of drawing out entertainment from the sternest moralist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童道德故事一直受到內部威脅，因為孩子總能從最嚴肅的道德主義者作品中找出娛樂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From now on younger children could expect stories written for their particular interest and with the needs of their own limited experience of life kept well to the fore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從此以後，年幼兒童可以期待專為他們興趣和有限人生經驗需要而寫的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 folklore 如何推動兒童文學走向 child-centred。Brothers Grimm 出現在 fairy stories 例子中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “The Brothers Grimm”。原文句子說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a collection of fairy stories by the scholarly Grimm brothers, swiftly translated into English in 1823…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both nursery rhymes, selected by James Orchard Halliwell for a folklore society in 1842, and a collection of fairy stories by the scholarly Grimm brothers, swiftly translated into English in 1823, soon rocketed to popularity with the young…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Orchard Halliwell 為一個民俗學會選編的 nursery rhymes，以及學者型的 Grimm brothers 所收集的一本 fairy stories 集，於 1823 年迅速譯成英文後，很快在年輕讀者中大受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 “a collection of fairy stories by the scholarly Grimm brothers” was “translated into English”。如果一本由 Grimm brothers 編寫或收集的作品需要翻譯成英文，合理文本內推論是：它原本並非英文作品。選項 E “Did not write in English” 最符合這個資訊。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D “Translated a book into English” 很吸引，因為原文有 translated into English。但原文的主語是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a collection of fairy stories”，意思是作品被譯成英文，沒有說 Grimm brothers 親自翻譯。題目要配人物動作，所以不能把被動翻譯誤讀成他們做翻譯工作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Children did not begin reading books until 1700.”",
+      "translation": "兒童直到 1700 年才開始讀書。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stories and poems aimed at children have an exceedingly long history: lullabies, for example, were sung in Roman times, and a few nursery games and rhymes are almost as ancient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以兒童為對象的故事和詩歌有極長歷史，例如搖籃曲在羅馬時代已有人唱，一些 nursery games和 rhymes 也幾乎同樣古老。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This still occurs today, especially with adult thrillers or romances that include more exciting, graphic detail than is normally found in the literature for younger readers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況今天仍然發生，尤其是一些成人驚悚小說或愛情小說，當中包含比年輕讀者文學通常更多刺激、具體的細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段在說：兒童文化材料歷史悠久，而孩子閱讀成人文學的情況古今都有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把時間界線放在 1700，必須檢查 before 1700 的內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “until 1700”。原文有 “before 1700” 和 “children often seized on”。這是直接相反方向的定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…while there were stories in print before 1700 that children often seized on when they had the chance, such as translations of Aesop’s fables, fairy-stories and popular ballads and romances, these were not aimed at young people in particular.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 1700 年以前已有一些印刷故事，孩子有機會時常會抓來閱讀，例如 Aesop’s fables 的譯本、fairy-stories、流行 ballads 和 romances，但這些作品並非特別以年輕人為對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 children did not begin reading books until 1700。原文說 before 1700 已有 stories in print，而且 children often seized on them。這是明確衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "begin reading books until 1700 = 1700 前未開始讀before 1700 children often seized on printed stories = 1700 前孩子已會讀到並主動抓來看兩者不相容，答案為 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sarah Trimmer believed that children’s books should set good examples.”",
+      "translation": "Sarah Trimmer 認為兒童書應該樹立良好榜樣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such pleasing levity was not to last.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種令人愉快的輕鬆風格沒有維持下去。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…her own stories, Fabulous Histories (1786), described talking animals who were always models of sense and decorum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她自己的故事 Fabulous Histories 描寫會說話的動物，而牠們總是理智和得體舉止的榜樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段的重點由 pleasure 轉向教化和端正行為。最後一句的 “models of sense and decorum” 對題目 “set good examples” 很重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sarah Trimmer” 和 “good examples”。原文未用 good examples，但 “models of sense and decorum” 就是良好行為榜樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prominent among such voices was Mrs. Sarah Trimmer…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些聲音中，Mrs Sarah Trimmer 是突出的代表。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句交代 “such voices” 的內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“…contemporary critics saw to it that children’s literature should be instructive and uplifting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時的批評者確保兒童文學應該具有教育性和提升道德的作用。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…her own stories, Fabulous Histories (1786), described talking animals who were always models of sense and decorum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她自己的故事 Fabulous Histories 描寫會說話的動物，而牠們總是理智和得體舉止的榜樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Sarah Trimmer believed children’s books should set good examples。原文把她放入instructive and uplifting 的批評者群體，又說她自己的故事塑造 “models of sense and decorum”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這完整支持題目，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Parents were concerned about violence in children’s books.”",
+      "translation": "父母擔心兒童書中的暴力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3，也要回看 Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such pleasing levity was not to last.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種令人愉快的輕鬆風格沒有維持下去。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…her own stories, Fabulous Histories (1786), described talking animals who were always models of sense and decorum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她自己的故事 Fabulous Histories 描寫會說話的動物，而牠們總是理智和得體舉止的榜樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 講 critics 對兒童文學的批評，當中可能包括 violence。可是題目主體是 parents，所以必須確認是否真的提到 parents 對 violence 的擔心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Parents” 和 “violence”。Paragraph 2 有 parents，但語境是 “parents glad to cater to this interest”。Paragraph 3 有 violence，但主體是 Sarah Trimmer，而不是 parents。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "與 parents 相關的原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the middle of the 18th century there were enough eager child readers, and enough parents glad to cater to this interest…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 18 世紀中期，已有足夠熱心的兒童讀者，也有足夠願意迎合這種興趣的父母……這裡說父母支持孩子閱讀興趣，沒有提到 violence。"
+            },
+            {
+              "kind": "label",
+              "text": "與 violence 相關的原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was she who condemned fairy-tales for their violence and general absurdity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是她譴責 fairy-tales 的暴力和整體荒謬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 she 指 Sarah Trimmer。原文沒有說 parents 因暴力而擔心，也沒有說父母不擔心。文章提供了兩塊相鄰背景：父母支持閱讀興趣、Trimmer 批評暴力；但沒有把 “parents” 和 “violence concern” 連成同一句或同一命題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：要選 TRUE，原文需要支援 parents were concerned about violence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要選 FALSE，原文需要表示 parents were not concerned 或支持相反方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前只有相關背景，缺少題目核心關係，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Interest in folklore changed the direction of children’s literature.”",
+      "translation": "對 folklore 的興趣改變了兒童文學的方向。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the moral story for children was always threatened from within, given the way children have of drawing out entertainment from the sternest moralist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童道德故事一直受到內部威脅，因為孩子總能從最嚴肅的道德主義者作品中找出娛樂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From now on younger children could expect stories written for their particular interest and with the needs of their own limited experience of life kept well to the fore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從此以後，年幼兒童可以期待專為他們特定興趣而寫，並把他們有限人生經驗需要放在重要位置的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講兒童文學由 moral story 轉向 child-centred writing。題目中的changed the direction，應該對應 “From now on…” 這種轉折結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “folklore” 和 “changed direction”。原文直接有 “early-19th-century interest in folklore”，後文又有 “leading to new editions, each one more child-centred than the last”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the greatest blow to the improving children’s book was to come from an unlikely source indeed: early-19th-century interest in folklore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對那種教化式兒童書造成最大打擊的，竟然來自一個意想不到的來源：19 世紀初對 folklore 的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“…soon rocketed to popularity with the young, quickly leading to new editions, each one more child-centred than the last.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們很快在年輕讀者中大受歡迎，並迅速帶來新版，而且每一版都比上一版更以兒童為中心。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“From now on younger children could expect stories written for their particular interest…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從此以後，年幼兒童可以期待專為他們興趣而寫的故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條證據鏈非常完整：interest in folklore → nursery rhymes / Grimm fairy stories popular with the young → new editions more child-centred → younger children could expect stories written for their interest。這正是題目 “changed the direction of children’s literature” 的意思，所以答案是TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Today, writers of children’s books believe their work should appeal to both children and adults.”",
+      "translation": "今天，兒童書作家相信自己的作品應該同時吸引兒童和成人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Critical emphasis, during this development, has been divided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個發展過程中，批評界的重點一直有所分歧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That writers of these works are now often recommended to the attention of adult as well as child readers echoes the 19th-century belief that children’s literature can be shared by the generations, rather than being a defensive barrier between childhood and the necessary growth towards adult understanding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些作品的作家如今常被推薦給成人讀者以及兒童讀者注意，這呼應了 19 世紀的一種信念：兒童文學可以由不同世代共享，而不應成為童年與通向成人理解之必要成長之間的防護牆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，表面上它和 “children and adults” 很接近。不過題目說的是 writers believe；原文說的是 writers are recommended to adult as well as child readers。要細讀主體和動作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Today”、“writers”、“children and adults”、“believe”。原文有 “now”、“writers”、“adult as well as child readers” 和 “belief”。這些字非常接近，所以要小心比較誰持有這個 belief。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That writers of these works are now often recommended to the attention of adult as well as child readers echoes the 19th-century belief that children’s literature can be shared by the generations…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些作品的作家如今常被推薦給成人讀者以及兒童讀者注意，這呼應了 19 世紀那種兒童文學可以跨世代共享的信念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了兩個資訊：第一，這些 writers / works 現在常被推薦給 adult 以及 child readers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，這種現象呼應 19 世紀的 belief，即兒童文學可以跨世代共享。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求的是：today, writers believe their work should appeal to both children and adults。這多了一個心理態度和主體歸屬：現代作家本人是否相信自己的作品應該吸引兩類讀者。原文沒有說writers 自己怎樣想，也沒有說他們寫作時的目標是 appeal to both groups。它只說他們現在被推薦給兩類讀者，並把這個現象連到 19 世紀 belief。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文支援 “children’s literature can be shared by generations” 這個觀念，也支援作品被推薦給成人和兒童。可是 “today’s writers believe…” 這個主體和態度沒有被明確提供。題目加入 writers’ own belief，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“adult as well as child readers” 幾乎和題目的 “children and adults” 一樣，容易令人想選 TRUE。真正要檢查的是動詞：原文是 “are now often recommended”，題目是 “writers believe”。推薦對象和作者信念不是同一件事。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Children’s Literature.pdf",
+    "sha256": "3960886cac25cace98402fb20450a98ae7dfc698126e271676d070daf59dc95c",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說兒童故事和詩歌有極長歷史，例如 Roman times 已有 lullabies；尾句說即使今天，孩子仍可能閱讀含更多刺激細節的成人 thrillers 或 romances。只看首尾句，可以估計本段在講 1700 年前「有孩子會讀的文字作品」，但真正為兒童而設的 written literature 很少。這段也交代教育、道德和成人文學之間的早期關係。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說到 18 世紀中期，已有足夠熱心的 child readers 和願意支持的 parents，使出版商開始專門出版兒童書；尾句說 Newbery 的成功 formula 很快在 America 被盜版。只看首尾句，可以估計本段講兒童書由教育道德轉向 pleasure 的早期市場化。中間會提到 Thomas Boreham、John Newbery、A Little Pretty Pocket Book、rhymes、stories、games 和 free gift。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說這種令人愉快的輕鬆風格沒有維持很久；尾句說 Sarah Trimmer 自己的故事 Fabulous Histories 描寫會說話的動物，並讓牠們成為 sense and decorum 的榜樣。只看首尾句，可以估計本段講教育和道德主義重新壓過娛樂性。Rousseau、critics、instructive and uplifting、The Guardian of Education 和 fairy-tales 的 violence / absurdity 都是本段重要訊號。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 moral story for children 一直受到孩子從嚴肅道德故事中抽出娛樂的方式所威脅；尾句說從此 younger children 可以期待專為他們興趣和有限人生經驗而寫的故事。只看首尾句，可以估計本段講 early 19th-century folklore 如何改變兒童文學。中間有 nursery rhymes、James Orchard Halliwell、Grimm brothers、fairy stories、translated into English、new editions 和 more child-centred。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 older children 的閱讀最終常由能否接觸到某些書決定，這些書含有他們容易共鳴的characters 或容易理解的 action。這段只有一句，所以整句就是段落功能。可以估計本段補充較年長兒童的閱讀偏好：他們不一定只靠專門兒童文學，也會被 young people、animals、exploring、fighting 等元素吸引，因為這些內容對成人成熟度要求較低。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 1930 年代後期，literary childhood 被保護、不接觸 unpleasant reality 的想法達到高峰；尾句說戰後作家開始探索新興趣，並把 plot settings 從中產階級世界轉移出去。只看首尾句，可以估計本段講 escapist entertainment 到戰後社會關懷的轉變。中間重點包括 Enid Blyton、Richmal Crompton、unlikely adventures、nothing bad could happen、World War II、paperbacks、children’s libraries 和 progressive librarians。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說在這個發展中，critical emphasis 一直有分歧；尾句說現代兒童文學作家被推薦給成人和兒童讀者，呼應 19 世紀那種跨世代共享兒童文學的信念。只看首尾句，可以估計本段是總結與評論：一方面有人重視去除 social prejudice 和 exclusiveness，另一方面有人肯定 contemporary children’s literature 的成就，並重新連接 adult readers 和 child readers。"
+      }
+    ]
+  }
+}

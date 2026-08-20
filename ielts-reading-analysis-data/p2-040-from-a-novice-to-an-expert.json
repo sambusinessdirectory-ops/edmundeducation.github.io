@@ -1,0 +1,1748 @@
+{
+  "id": "p2-040-from-a-novice-to-an-expert",
+  "catalogueId": "p2-040",
+  "catalogueIds": [
+    "p2-040"
+  ],
+  "passage": 2,
+  "title": "From A Novice to An Expert",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "principles and rules",
+    "mentor",
+    "patterns",
+    "increasingly complex",
+    "knowledge",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "accurate",
+    "human biases",
+    "consensus"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "principles and rules",
+      "answerKey": "principles and rules",
+      "type": "Question Analysis",
+      "prompt": "Question 14",
+      "translation": "Novice 需要甚麼，才能執行某個指定任務？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Novice — “Needs 14 _________________ to perform a given task…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow-chart Completion。題目限制是 NO MORE THAN THREE WORDS，所以答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要直接取自文章，並且最多三個字。空格後面是 “to perform a given task”，所以我們要找 novice在 perform task 前需要學會的內容。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An individual enters a field of study as a novice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人進入某個研究或技能領域時，會以 novice 的身份開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The novice chess player seeks a mentor to teach her the object of the game, the number of spaces, the names of the pieces, the function of each piece, how each piece is moved, and the necessary conditions for winning, or losing the game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "初學棋手會找一位 mentor，教她遊戲目的、棋盤格數、棋子名稱、每隻棋子的功能、每隻棋如何移動，以及勝負所需條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 2 是 novice 階段，並且會描述 novice 需要學甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Novice”、“perform a given task”。原文有幾乎相同的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The novice needs to learn the guiding principles and rules of a given task in order to perform that task.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "novice 需要學習某個任務的指導原則和規則，才能執行該任務。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案短語在 “guiding principles and rules” 之中。不過題目限制是 NO MORE THAN"
+            },
+            {
+              "kind": "paragraph",
+              "text": "THREE WORDS；“guiding principles and rules” 是四個字，所以不能完整照抄。刪去形容詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“guiding” 後，核心名詞短語是 “principles and rules”，三個字，意思仍然完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Needs ___ to perform a given task”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “needs to learn the guiding principles and rules … in order to perform that task”答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“principles and rules” = 3 words，符合限制。所以答案是 principles and rules。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "mentor",
+      "answerKey": "mentor",
+      "type": "Question Analysis",
+      "prompt": "Question 15",
+      "translation": "novice 在學習過程中由誰指導？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Novice — “…and is guided through learning by a 15 _________________.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow-chart Completion。空格前有 “by a”，所以答案需要單數名詞，表示一個人或角"
+            },
+            {
+              "kind": "paragraph",
+              "text": "色。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An individual enters a field of study as a novice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人進入某個研究或技能領域時，會以 novice 的身份開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The novice chess player seeks a mentor to teach her the object of the game…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "初學棋手會尋找一位 mentor，教她遊戲目的……"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “guided through learning” 對應原文 “guide her through the process of acquiring"
+            },
+            {
+              "kind": "paragraph",
+              "text": "new knowledge”。最有定位力的字是 “guide”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Generally, a novice will find a mentor to guide her through the process of acquiring new knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，novice 會找一位 mentor，指導她完成獲取新知識的過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “find a mentor to guide her” 改成 “is guided … by a ___”。這是主動句轉被動句。原文中執行指導的人是 mentor。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mentor” 一個字，符合 NO MORE THAN THREE WORDS。所以答案是 mentor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "patterns",
+      "answerKey": "patterns",
+      "type": "Question Analysis",
+      "prompt": "Question 16",
+      "translation": "journeyman 開始在 cases 之內和 cases 之間辨認甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Journeyman — “Begins to identify 16 _________________ within and between cases…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow-chart Completion。空格前是 identify，後面是 “within and between cases”，所"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以答案需要名詞，表示被辨認的東西。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In time, and with much practice, the novice begins to recognise patterns of behaviour within cases and, thus, becomes a journeyman.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過一段時間和大量練習後，novice 開始在 cases 之內辨認行為模式，於是成為 journeyman。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Returning to the example of the chess player, the individual begins to learn patterns of opening moves, offensive and defensive game-playing, strategies, and patterns of victory and defeat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "回到棋手的例子，這個人開始學習開局走法模式、攻防策略，以及勝負模式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “within and between cases” 幾乎直接對應原文 “not only within cases but also"
+            },
+            {
+              "kind": "paragraph",
+              "text": "between cases”。定位詞是 “patterns”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With more practice and exposure to increasingly complex cases, the journeyman finds patterns not only within cases but also between cases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過更多練習，並接觸越來越複雜的 cases 後，journeyman 不只在 cases 之內找到 patterns，也在 cases 之間找到 patterns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “identify” 對應原文的 “finds”。原文真正要填的名詞是 “patterns”。雖然第一句有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“patterns of behaviour”，但題目後面已經有 “within and between cases”，最自然、最精準的填法是 patterns。答案形式檢查：“patterns” 一個字，符合字數限制。所以答案是 patterns。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "increasingly complex",
+      "answerKey": "increasingly complex",
+      "type": "Question Analysis",
+      "prompt": "Question 17",
+      "translation": "journeyman 經常接觸怎樣的 cases？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Journeyman — “…is often exposed to 17 _________________ cases…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow-chart Completion。空格在 “___ cases” 前面，所以答案需要形容詞或形容詞短"
+            },
+            {
+              "kind": "paragraph",
+              "text": "語，用來修飾 cases。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In time, and with much practice, the novice begins to recognise patterns of behaviour within cases and, thus, becomes a journeyman.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過時間和大量練習後，novice 開始在 cases 之內辨認行為模式，於是成為 journeyman。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Returning to the example of the chess player, the individual begins to learn patterns of opening moves, offensive and defensive game-playing, strategies, and patterns of victory and defeat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以棋手為例，這個人開始學習開局走法、攻防策略，以及勝負模式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “exposed to ___ cases” 對應原文 “exposure to increasingly complex cases”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With more practice and exposure to increasingly complex cases, the journeyman finds patterns not only within cases but also between cases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過更多練習，以及接觸越來越複雜的 cases，journeyman 開始在 cases 之內和之間找到patterns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“increasingly complex” 是完整形容詞短語，意思是「越來越複雜的」。題目已經提供 cases，所以答案只需填修飾語。答案形式檢查：“increasingly complex” 兩個字，符合 NO MORE THAN THREE WORDS。所以答案是 increasingly complex。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "knowledge",
+      "answerKey": "knowledge",
+      "type": "Question Analysis",
+      "prompt": "Question 18",
+      "translation": "expert 會創造 predictions 和新的甚麼，並且不再依靠 mentor 獨立完成任務？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Expert — “Creates predictions and new 18 _________________; performs tasks independently without a mentor.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Flow-chart Completion。空格前是 “new”，所以答案要是名詞。題目把 expert 階段的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個核心能力放在一起：predictions 和 new knowledge。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a journeyman starts to make and test hypotheses about future behaviour based on past experiences, she begins the next transition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 journeyman 開始根據過去經驗，建立並測試關於未來行為的 hypotheses 時，她便開始下一個轉變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She is creating her own case, rather than relying on the cases of others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她正在創造自己的 case，而非依賴別人的 cases。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “predictions”、“new”和 “without a mentor”。原文同段有 “makes predictions”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“generating new knowledge” 和 “no longer needs a mentor”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once she creatively generates knowledge, rather than simply matching superficial patterns, she becomes an expert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦她能創造性地產生 knowledge，不再只配對表層 patterns，她便成為 expert。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“At this point, she is confident in her knowledge and no longer needs a mentor as a guide…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了這個階段，她對自己的知識有信心，也不再需要 mentor 作為指導者。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 chess 例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…makes predictions based on patterns, and tests those predictions against actual behaviour, she is generating new knowledge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她根據 patterns 作出 predictions，並用實際行為測試那些 predictions；這樣她就在產生新的knowledge。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Creates predictions and new ___” 把 “makes predictions” 和 “generating new knowledge”合併。答案是 knowledge。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“knowledge” 一個字，符合限制。所以答案是 knowledge。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Novices and experts use the same system to classify objects.”",
+      "translation": "novices 和 experts 使用相同系統來分類物件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要判斷 novice 和 expert 的 classification"
+            },
+            {
+              "kind": "paragraph",
+              "text": "system 是否一致。控制詞是 “same system”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts have a deeper understanding of their domains than novices do, and utilise higher-order principles to solve problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 對自己的 domains 有比 novices 更深的理解，並使用較高層次的原則解決問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts recognise variables that have the largest influence on a particular problem and focus their attention on those variables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 能辨認對特定問題影響最大的 variables，並把注意力集中在那些 variables 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 明顯在比較 experts 和 novices 的理解方式及問題處理方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “classify objects”。原文用 “group objects together” 表達分類。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A novice, for example, might group objects together by colour or size, whereas an expert would group the same objects according to their function or utility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，novice 可能會按顏色或大小把物件分組；expert 則會按照同一批物件的功能或用途來分類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： novice 的分類依據 = colour or size。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "expert 的分類依據 = function or utility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： novices and experts use the same system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向相反。原文清楚說兩者用不同分類標準，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有 “same objects”，文章也有 “the same objects”。學生可能看到 same 就急於選 TRUE。真正控制答案的是分類依據：by colour or size vs according to function or utility。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A novice’s training is focused on memory skills.”",
+      "translation": "novice 的訓練重點是記憶技巧。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要找 “novice training” 和 “memory skills” 之間是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "否有明確關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph 2；輔助檢查 Paragraph 7"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An individual enters a field of study as a novice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人進入某個研究或技能領域時，會以 novice 身份開始。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The novice chess player seeks a mentor to teach her the object of the game…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "初學棋手會找 mentor 教她遊戲目的等基本內容。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts have better domain-specific short-term and long-term memory than novices do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 在自己 domain 中有比 novices 更好的短期和長期記憶。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “novice’s training” 和 “memory skills”。Paragraph 2 有 novice 的學習內容；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 有 memory，但它是在比較 experts 和 novices 的記憶能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說 novice 需要學："
+            },
+            {
+              "kind": "quote",
+              "text": "“The novice needs to learn the guiding principles and rules of a given task…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "novice 需要學習某項任務的指導原則和規則。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Generally, a novice will find a mentor to guide her through the process of acquiring new knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，novice 會找 mentor 指導她獲取新知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子支援 novice 需要學 principles、rules、specific cases，並由 mentor 指導。Paragraph 7提到 memory，但重點是 experts have better memory，沒有說 novice training 以 memory skills為中心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入 “focused on memory skills”。文章沒有這個訓練焦點，也沒有說 novice training 不可能涉及記憶。所以沒有明確衝突，也沒有足夠支援。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Experts solve problems in their own fields more efficiently than novices.”",
+      "translation": "experts 在自己的領域中比 novices 更有效率地解決問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 “solve problems”、“own fields”和 “more"
+            },
+            {
+              "kind": "paragraph",
+              "text": "efficiently”。原文可能不直接用 efficiently，而會用 faster、fewer errors 來表達效率。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts have better domain-specific short-term and long-term memory than novices do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 在自己領域中有比 novices 更好的短期和長期記憶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts use their knowledge of previous cases as context for creating mental models to solve given problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 會使用過去 cases 的知識作背景，建立 mental models 來解決指定問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講 experts 在 domain-specific tasks 中的記憶和問題解決能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “their own fields” 對應原文 “in their domains”。“more efficiently” 對應 “faster” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fewer errors”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, experts perform tasks in their domains faster than novices and commit fewer errors while problem solving.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，experts 在自己的 domains 中執行任務比 novices 更快，而且在解決問題時犯更少錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "faster + fewer errors = more efficiently。題目用概括詞 “more efficiently”，原文用兩個具體指標支援：速度更快、錯誤更少。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "in their own fields = in their domains solve problems more efficiently = perform tasks faster and commit fewer errors while problem solving題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“When faced with a problem, a novice always tries to solve it immediately.”",
+      "translation": "面對問題時，novice 會立即嘗試找解決方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要看 novices 面對問題時的起始策略。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“novice”、“immediately”和 “solution”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“Experts have better domain-specific short-term and long-term memory than novices do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 在自己領域中有比 novices 更好的短期和長期記憶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts use their knowledge of previous cases as context for creating mental models to solve given problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 會用 previous cases 的知識作背景，建立 mental models 來解決指定問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 比較 experts 和 novices 的問題解決方式，因此很適合處理本題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 “immediately” 在原文直接出現。掃描時可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts spend more time thinking about a problem to fully understand it at the beginning of a task than do novices, who immediately seek to find a solution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 在任務開始時會花比 novices 更多時間思考問題，以完全理解它；novices 則會立即尋找解決方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這句的比較關係很清楚："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts → spend more time thinking to understand the problem。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "novices → immediately seek to find a solution。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “tries to solve it immediately”，原文說 “immediately seek to find a solution”。兩者意思一致。題目用了 “always”，語氣較強；原文用的是一般性描述 “novices, who immediately seek…”，沒有加入例外或限制。在這篇文章的理論框架下，它是在概括 novices 的典型行為，因此判為TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “always” 時要小心。如果原文只說 “sometimes” 或 “often”，答案可能會出問題。不過這裡原文用的是直接的類型描述，沒有弱化語氣，所以仍能支援題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Experts are better at recognising their own mistakes and limits.”",
+      "translation": "experts 更善於辨認自己的錯誤和限制。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 “mistakes” 和 “limits”。原文可能用 errors、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "failed to understand、limits of domain knowledge。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Better at self-monitoring than novices, experts are more aware of instances where they have committed errors or failed to understand a problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 比 novices 更善於 self-monitoring，也更能察覺自己何時犯錯，或何時未能理解問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts are aware of the limits of their domain knowledge and apply their domain’s heuristics to solve problems that fall outside of their experience base.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 知道自己 domain knowledge 的限制，並會把該領域的 heuristics 應用到超出經驗基礎的問題上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經直接對應題目：第一句講 mistakes / errors，最後一句講 limits。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “recognising their own mistakes” 對應 “aware of instances where they have"
+            },
+            {
+              "kind": "paragraph",
+              "text": "committed errors”。“limits” 在原文最後一句直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "證據有兩句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Better at self-monitoring than novices, experts are more aware of instances where they have committed errors or failed to understand a problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 比 novices 更善於自我監察，也更能察覺自己犯錯或未理解問題的情況。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts are aware of the limits of their domain knowledge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experts 知道自己領域知識的限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這兩個能力合併成 “recognising their own mistakes and limits”。原文完整支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mistakes = committed errors recognising = are more aware of limits = limits of their domain knowledge所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "accurate",
+      "answerKey": "accurate",
+      "type": "Summary Completion",
+      "prompt": "“Studies show that experts are less 24 _________________ at forecasting than statistical models.”",
+      "translation": "研究顯示，experts 在 forecasting 方面比 statistical models 較不怎樣？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 NO MORE THAN TWO WORDS。空格前是 “less”，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後是 “at forecasting”，所以答案需要形容詞，形成 “less accurate at forecasting”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The strengths of expertise can also be weaknesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "expertise 的強項也可能成為弱點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if an expert is given more specific case information than is available to the statistical model, the expert does not tend to outperform the actuarial table.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使 expert 得到比 statistical model 更多的 specific case information，expert 通常也不會比actuarial table 表現更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 是 “Paradox of Expertise” 的核心段落，正好處理 experts 與 statistical models 在forecasting 上的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “forecasting”、“statistical models”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theorists and researchers differ when trying to explain why experts are less accurate forecasters than statistical models.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這句在 Paragraph 10 開首，但它總結的是 Paragraph 9 的研究結果，並直接提供答案語言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although one would expect experts to be good forecasters, they are not particularly good at making predictions about the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然人們可能預期 experts 是好的 forecasters，但他們並不特別擅長預測未來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看總結句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theorists and researchers differ when trying to explain why experts are less accurate forecasters than statistical models.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "theorists 和 researchers 在解釋為何 experts 比 statistical models 較不準確時有不同看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 句式是 “less ___ at forecasting”，所以要把 “less accurate forecasters” 轉成 “less accurate at forecasting”。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“accurate” 一個字，符合 NO MORE THAN TWO WORDS。所以答案是 accurate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "human biases",
+      "answerKey": "human biases",
+      "type": "Summary Completion",
+      "prompt": "“Some researchers suggest that experts, like everyone else, are inconsistent; others attribute the problem to 25 _________________.”",
+      "translation": "一些 researchers 認為 experts 像所有人一樣不一致；另一些則把問題歸因於甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 NO MORE THAN TWO WORDS。空格前是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“attribute the problem to”，所以答案要是名詞或名詞短語，表示原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 11"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“A number of researchers point to human biases to explain unreliable expert predictions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不少 researchers 指向 human biases，用來解釋 expert predictions 的不可靠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite such efforts, the literature shows little consensus regarding the causes or manifestations of human bias.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有這些努力，文獻對 human bias 的原因或表現形式仍然幾乎沒有共識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 11 明顯在處理 “human biases” 這個解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “others attribute the problem to” 對應原文 “A number of researchers point to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "human biases to explain…”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "attribute to = point to … to explain。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of researchers point to human biases to explain unreliable expert predictions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不少 researchers 用 human biases 解釋 expert predictions 不可靠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將 “unreliable expert predictions” 概括為 “the problem”。原文把原因說成 human biases。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“human biases” 兩個字，符合 NO MORE THAN TWO WORDS。所以答案是 human biases。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "consensus",
+      "answerKey": "consensus",
+      "type": "Summary Completion",
+      "prompt": "“However, there is little 26 _________________ about the causes or manifestations of this problem.”",
+      "translation": "然而，關於這個問題的原因或表現形式，幾乎沒有甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 NO MORE THAN TWO WORDS。空格前是 “there is"
+            },
+            {
+              "kind": "paragraph",
+              "text": "little”，後面是 “about the causes or manifestations”，所以答案需要不可數名詞或抽象名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 11"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of researchers point to human biases to explain unreliable expert predictions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不少 researchers 用 human biases 解釋 expert predictions 不可靠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite such efforts, the literature shows little consensus regarding the causes or manifestations of human bias.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有這些努力，文獻對 human bias 的原因或表現形式仍然幾乎沒有 consensus。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “little” 和 “causes or manifestations” 在原文最後一句直接重現。這是原字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite such efforts, the literature shows little consensus regarding the causes or manifestations of human bias.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管研究者作出這些努力，相關文獻對 human bias 的原因或表現形式仍缺乏共識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “human bias” 改寫成 “this problem”，因為 summary 前一句已經提到 human biases。真正答案詞是 consensus，意思是「共識」。"
+            },
+            {
+              "kind": "label",
+              "text": "答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consensus” 一個字，符合 NO MORE THAN TWO WORDS。所以答案是 consensus。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - From A Novice to An Expert.pdf",
+    "sha256": "84e18420d42f34db536b8e705d76f8eb7aa04785e781886db745d29bc3d19f1a",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 1 首句直接定義 expertise：expertise 是 commitment 加 creativity。末句說，成為expert 需要大量時間，以及長期接觸大量 cases。只看首尾句，可以先判斷這段是全文總引入：它說明 expertise 不是短時間取得，也不只是知道很多資料；它同時需要持續投入、專注於狹窄領域，以及能創造新知識的能力。後面 novice、journeyman、expert 的階段會圍繞這個定義展開。"
+      },
+      {
+        "number": "2",
+        "summary": "Paragraph 2 首句說，一個人進入某個研究或技能領域時，身份是 novice。末句用 chess 例子，列出 novice chess player 要學棋局目的、棋盤格數、棋子名稱、功能、走法和勝負條件。只看首尾句，可以知道這段專門描述 novice 階段。中間重點包括 guiding principles and rules、specific cases，以及 mentor。Questions 14–15 明顯會定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "Paragraph 3 首句說，經過時間和大量練習後，novice 開始在 cases 之內辨認 behaviour patterns，於是成為 journeyman。末句用 chess 例子說，這個人開始學 opening moves、攻防策略，以及勝負模式。只看首尾句，可以知道這段講 novice 到 journeyman 的過渡。核心訊號是 patterns、practice、increasingly complex cases 和 continued mentor contact。Questions 16–17 應看這段。"
+      },
+      {
+        "number": "4",
+        "summary": "Paragraph 4 首句說，當 journeyman 根據過去經驗開始建立並測試關於 future behaviour 的hypotheses 時，就進入下一個轉變。末句說她正在創造自己的 case，而非依賴別人的 cases。只看首尾句，可以判斷這段是 journeyman 到 expert 的轉折。真正分界在於 generating knowledge、testing predictions、independence from mentor。Question 18 會用這段定案。"
+      },
+      {
+        "number": "5",
+        "summary": "Paragraph 5 首句說，expert 比 non-expert 更能在自己的 domain 中看見 meaningful patterns。末句說這種辨認模式的能力不是天生感知技巧，重點在於接觸和經歷成千上萬 cases 後形成的knowledge organisation。只看首尾句，可以知道這段開啟 “The Power of Expertise”，焦點是expert 的 pattern recognition。它也呼應前文 pattern 從 novice 到 expert 的累積。"
+      },
+      {
+        "number": "6",
+        "summary": "Paragraph 6 首句說，experts 對自己的 domains 有比 novices 更深的理解，並使用 higher-order principles 解決問題。末句說，experts 會辨認對特定問題影響最大的 variables，並把注意力集中在那些 variables 上。只看首尾句，可以知道這段比較 experts 和 novices 的理解深度、分類方式和問題處理標準。Question 19 關於 classify objects 會定位到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "Paragraph 7 首句說，experts 在自己 domain 中有比 novices 更好的 short-term and long-term memory。末句說，experts 用 previous cases 作背景，建立 mental models 以解決問題。只看首尾句，可以估計這段講 expert 的記憶、速度、錯誤率和問題解決方式。中間尤其提到 experts perform faster、commit fewer errors，以及 novices immediately seek a solution。Questions 21–22 會看這段。"
+      },
+      {
+        "number": "8",
+        "summary": "Paragraph 8 首句說，experts 比 novices 更善於 self-monitoring。末句說，experts 知道自己domain knowledge 的 limits，並會把 domain heuristics 應用到經驗之外的問題。只看首尾句，可以知道這段補充 expert 的自我檢查能力：知道自己何時犯錯、何時不理解、何時缺資料，以及知識邊界在哪裡。Question 23 會定位到這段。"
+      },
+      {
+        "number": "9",
+        "summary": "Paragraph 9 首句說，expertise 的 strengths 也可能成為 weaknesses。末句說，即使 expert 得到比 statistical model 更多的 specific case information，expert 也通常不能 outperform actuarial table。只看首尾句，可以判斷這段進入 “The Paradox of Expertise”：expert 在 domain 內很強，但forecasting 未必比統計模型準確。Question 24 會用這段答案。"
+      },
+      {
+        "number": "10",
+        "summary": "Paragraph 10 首句說，theorists and researchers 對於為何 experts 比 statistical models 較不準確有不同解釋。末句說，即使同一 case 和同一 data set 被使用，expert 一個月用的 predictive model 可能和下個月不同。只看首尾句，可以知道這段講第一種解釋：experts 像一般人一樣，在mental models 使用上可能不一致。這是 summary 中 “inconsistent” 的來源。"
+      },
+      {
+        "number": "11",
+        "summary": "Paragraph 11 首句說，不少 researchers 用 human biases 解釋 expert predictions 不可靠。末句說，文獻對 human bias 的 causes 或 manifestations 幾乎沒有 consensus。只看首尾句，可以判斷最後一段提供第二種解釋和保留結論：有人指向 human biases，但學界對原因和表現形式仍缺乏一致看法。Questions 25–26 會直接定位到這段。"
+      }
+    ]
+  }
+}
