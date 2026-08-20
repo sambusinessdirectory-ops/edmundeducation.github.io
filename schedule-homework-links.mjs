@@ -135,7 +135,7 @@ const DOWNLOAD_CATALOG_KEY_SET = new Set(DOWNLOAD_CATALOG_KEYS);
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
-  "/writing-submission.html": Object.freeze(["exercise"]),
+  "/writing-submission.html": Object.freeze(["exercise", "manualTopic"]),
   "/idiom-system.html": Object.freeze(["lesson"]),
   "/proverb-system.html": Object.freeze(["lesson"]),
   "/phrasal-verb-system.html": Object.freeze(["lesson"]),
@@ -241,15 +241,20 @@ export function normalizeHomeworkHref(value) {
   if (parsed.pathname === "/writing-submission.html" && actualParameters.length === 0) {
     return "writing-submission.html";
   }
+  if (parsed.pathname === "/writing-submission.html") {
+    if (actualParameters.length !== 1 || !["exercise", "manualTopic"].includes(actualParameters[0])) return null;
+    const exercise = parsed.searchParams.get("exercise") || "";
+    const manualTopic = parsed.searchParams.get("manualTopic") || "";
+    if (exercise && !/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(exercise)) return null;
+    if (manualTopic && !/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(manualTopic)) return null;
+    return `writing-submission.html?${parsed.searchParams.toString()}`;
+  }
   if (actualParameters.length !== expectedParameters.length) return null;
   if (expectedParameters.some((key) => !parsed.searchParams.get(key))) return null;
   if (actualParameters.some((key) => !expectedParameters.includes(key))) return null;
   if (parsed.pathname === "/model-essay-downloads.html") {
     if (!DOWNLOAD_CATALOG_KEY_SET.has(parsed.searchParams.get("catalog") || "")) return null;
     if (!/^[a-f0-9]{16}$/i.test(parsed.searchParams.get("item") || "")) return null;
-  }
-  if (parsed.pathname === "/writing-submission.html") {
-    if (!/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(parsed.searchParams.get("exercise") || "")) return null;
   }
   if (parsed.pathname.startsWith("/common-expression-")) {
     if (!/^common-expression-\d+$/i.test(parsed.searchParams.get("lesson") || "")) return null;

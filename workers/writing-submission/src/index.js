@@ -163,6 +163,9 @@ async function route(request, env) {
   if (url.pathname === "/v1/grammar-check" && request.method === "POST") {
     return grammarCheck(request, env);
   }
+  if (url.pathname === "/v1/manual-topics" && request.method === "GET") {
+    return listManualTopics(request, env);
+  }
 
   if (url.pathname === "/v1/submissions" && request.method === "GET") {
     return listSubmissions(request, env, url);
@@ -261,6 +264,19 @@ async function route(request, env) {
   }
   if (url.pathname === "/v1/admin/explanation-review" && request.method === "GET") {
     return listAdminExplanationReview(request, env, url);
+  }
+  if (url.pathname === "/v1/admin/manual-topics" && request.method === "GET") {
+    return listAdminManualTopics(request, env);
+  }
+  if (url.pathname === "/v1/admin/manual-topics" && request.method === "POST") {
+    return createAdminManualTopics(request, env);
+  }
+  const adminManualTopicMatch = url.pathname.match(/^\/v1\/admin\/manual-topics\/([0-9a-f-]{36})$/i);
+  if (adminManualTopicMatch && request.method === "PUT") {
+    return updateAdminManualTopic(request, env, adminManualTopicMatch[1]);
+  }
+  if (adminManualTopicMatch && request.method === "DELETE") {
+    return deleteAdminManualTopic(request, env, adminManualTopicMatch[1]);
   }
   const adminSubmissionMatch = url.pathname.match(/^\/v1\/admin\/submissions\/([0-9a-f-]{36})$/i);
   if (adminSubmissionMatch && request.method === "GET") {
@@ -805,6 +821,80 @@ async function studentMe(request, env) {
     request,
     env
   );
+}
+
+function manualTopicResponse(row, includeDetails = false) {
+  const base = {
+    id: String(row.id || ""),
+    title: String(row.title || ""),
+    prompt: String(row.prompt || ""),
+    createdAt: row.created_at ? String(row.created_at) : null,
+    updatedAt: row.updated_at ? String(row.updated_at) : null
+  };
+  if (!includeDetails) return base;
+  return {
+    ...base,
+    flashcardUrl: row.flashcard_url ? String(row.flashcard_url) : "",
+    writingPracticeUrl: row.writing_practice_url ? String(row.writing_practice_url) : "",
+    modelEssayUrl: row.model_essay_url ? String(row.model_essay_url) : "",
+    wordList: String(row.word_list || "")
+  };
+}
+
+async function listManualTopics(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const rows = await rpc(env, "writing_submission_student_list_manual_topics", { p_token: student.token });
+  if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Manual topics returned an invalid response");
+  return json({ topics: rows.map(row => manualTopicResponse(row, true)) }, 200, request, env);
+}
+
+async function listAdminManualTopics(request, env) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const rows = await rpc(env, "writing_submission_admin_list_manual_topics", { p_admin_token: admin.token });
+  if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Manual topics returned an invalid response");
+  return json({ topics: rows.map(row => manualTopicResponse(row, true)) }, 200, request, env);
+}
+
+async function createAdminManualTopics(request, env) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const body = await readLimitedJson(request, 16000);
+  if (!hasExactKeys(body, ["titles"]) || !Array.isArray(body.titles) || body.titles.length < 1 || body.titles.length > 10) {
+    throw new HttpError(400, "INVALID_MANUAL_TOPICS", "Provide 1 to 10 titles");
+  }
+  const titles = body.titles.map(value => String(value || "").trim());
+  if (titles.some(value => !value || value.length > 300 || /[\u0000-\u001f\u007f]/u.test(value))) {
+    throw new HttpError(400, "INVALID_MANUAL_TOPICS", "A title is invalid");
+  }
+  const rows = await rpc(env, "writing_submission_admin_create_manual_topics", { p_admin_token: admin.token, p_titles: titles });
+  return json({ topics: (Array.isArray(rows) ? rows : []).map(row => manualTopicResponse(row, true)) }, 201, request, env);
+}
+
+async function updateAdminManualTopic(request, env, id) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const body = await readLimitedJson(request, 30000);
+  const keys = ["title", "prompt", "flashcardUrl", "writingPracticeUrl", "modelEssayUrl", "wordList"];
+  if (!hasExactKeys(body, keys)) throw new HttpError(400, "INVALID_MANUAL_TOPIC", "Manual topic payload is invalid");
+  const rows = await rpc(env, "writing_submission_admin_update_manual_topic", {
+    p_admin_token: admin.token, p_id: id, p_title: String(body.title || ""), p_prompt: String(body.prompt || ""),
+    p_flashcard_url: String(body.flashcardUrl || ""), p_writing_practice_url: String(body.writingPracticeUrl || ""),
+    p_model_essay_url: String(body.modelEssayUrl || ""), p_word_list: String(body.wordList || "")
+  });
+  const row = singleRow(rows);
+  if (!row) throw new HttpError(404, "MANUAL_TOPIC_NOT_FOUND", "Manual topic not found");
+  return json({ topic: manualTopicResponse(row, true) }, 200, request, env);
+}
+
+async function deleteAdminManualTopic(request, env, id) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const rows = await rpc(env, "writing_submission_admin_delete_manual_topic", { p_admin_token: admin.token, p_id: id });
+  const deleted = Array.isArray(rows) ? rows[0] : rows;
+  if (deleted !== true) throw new HttpError(404, "MANUAL_TOPIC_NOT_FOUND", "Manual topic not found");
+  return emptyResponse(204, request, env);
 }
 
 async function getPreferences(request, env) {

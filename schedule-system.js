@@ -78,6 +78,15 @@ import {
   shouldLimitHomeworkSlots,
   wellbeingRatingsByMetricAndDate
 } from "./schedule-wellbeing.mjs?v=20260820-gradient-labels1";
+import {
+  DEFAULT_POMODORO_SETTINGS,
+  formatPomodoroRemaining,
+  learningDaySummary,
+  nextPomodoroPhase,
+  normalizePomodoroSettings,
+  normalizePurposeFontSize,
+  pomodoroPhaseDurationMs
+} from "./schedule-learning-experience.mjs?v=20260820-1";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
@@ -88,6 +97,7 @@ const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const COUNTDOWN_COLLAPSED_KEY = "edmund-schedule-countdown-collapsed-v1";
 const SCHEDULE_CLIPBOARD_SESSION_KEY = "edmund-schedule-clipboard-v1";
 const SCHEDULE_CLIPBOARD_MIME = "application/x-edmund-schedule-slots+json";
+const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
 const MAX_SLOTS_PER_DAY = 100;
 const MIN_COUNTDOWNS = COUNTDOWN_INITIAL_CAPACITY;
 const MAX_COUNTDOWNS = COUNTDOWN_MAX_CAPACITY;
@@ -98,6 +108,7 @@ const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
 const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260820-1";
 const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
+const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
 const STUDENT_AUDIT_PAGE_SIZE = 10;
 const STUDENT_ACCESS_SECTIONS = [
@@ -246,6 +257,9 @@ const elements = {
   closePermanentDelete: document.querySelector("[data-close-permanent-delete]"),
   viewingLabel: document.querySelector("[data-viewing-label]"),
   viewingStudent: document.querySelector("[data-viewing-student]"),
+  learningDayCounters: document.querySelector("[data-learning-day-counters]"),
+  dayStreak: document.querySelector("[data-day-streak]"),
+  learningDays: document.querySelector("[data-learning-days]"),
   weekRange: document.querySelector("[data-week-range]"),
   previousWeek: document.querySelector("[data-previous-week]"),
   nextWeek: document.querySelector("[data-next-week]"),
@@ -310,6 +324,11 @@ const elements = {
   learningPurposePosition: document.querySelector("[data-learning-purpose-position]"),
   learningPurposeUpdated: document.querySelector("[data-learning-purpose-updated]"),
   learningPurposeStatus: document.querySelector("[data-learning-purpose-status]"),
+  purposeFontButtons: [...document.querySelectorAll("[data-purpose-font-size]")],
+  languageOpportunities: document.querySelector("[data-language-opportunities]"),
+  languageOpportunitiesMessage: document.querySelector("[data-language-opportunities-message]"),
+  languageOpportunitiesSave: document.querySelector("[data-save-language-opportunities]"),
+  languageOpportunitiesStatus: document.querySelector("[data-language-opportunities-status]"),
   calendarScroll: document.querySelector("[data-calendar-scroll]"),
   weekGrid: document.querySelector("[data-week-grid]"),
   calendarStatus: document.querySelector("[data-calendar-status]"),
@@ -369,6 +388,23 @@ const elements = {
   printGrid: document.querySelector("[data-print-grid]")
 };
 
+elements.pomodoroHeader = document.querySelector("[data-pomodoro-header]");
+elements.pomodoroHeaderTime = elements.pomodoroHeader?.querySelector("[data-pomodoro-header-time]");
+elements.pomodoroDialog = document.querySelector("[data-pomodoro-dialog]");
+elements.pomodoroForm = document.querySelector("[data-pomodoro-form]");
+elements.pomodoroEnabled = document.querySelector("[data-pomodoro-enabled]");
+elements.pomodoroWork = document.querySelector("[data-pomodoro-work]");
+elements.pomodoroShortBreak = document.querySelector("[data-pomodoro-short-break]");
+elements.pomodoroLongBreak = document.querySelector("[data-pomodoro-long-break]");
+elements.pomodoroCycles = document.querySelector("[data-pomodoro-cycles]");
+elements.pomodoroTask = document.querySelector("[data-pomodoro-task]");
+elements.pomodoroStatus = document.querySelector("[data-pomodoro-status]");
+elements.pomodoroClose = document.querySelector("[data-close-pomodoro]");
+elements.pomodoroReset = document.querySelector("[data-reset-pomodoro]");
+elements.pomodoroBreakLock = document.querySelector("[data-pomodoro-break-lock]");
+elements.pomodoroBreakCountdown = document.querySelector("[data-pomodoro-break-countdown]");
+elements.pomodoroBreakKicker = document.querySelector("[data-pomodoro-break-kicker]");
+
 const state = {
   currentUser: null,
   selectedStudent: null,
@@ -379,6 +415,8 @@ const state = {
   studentOrder: [],
   studentStatusFilter: "active",
   draggingStudentId: null,
+  adminTeacherAssignmentStudentIds: new Set(),
+  homeworkResourceUsage: new Map(),
   selectedStudentProfileId: null,
   studentAuditRows: [],
   studentAuditPage: 1,
@@ -403,6 +441,10 @@ const state = {
   learningPurpose: normalizeLearningPurposePayload(null),
   learningPurposeBusy: false,
   learningPurposeRequestId: 0,
+  purposeFontSize: 2,
+  languageOpportunitiesMessage: "",
+  languageOpportunitiesBusy: false,
+  learningDaySummary: { streak: 0, total: 0 },
   encouragementBusy: false,
   encouragementRequestId: 0,
   showUnusedTemporarily: false,
@@ -450,6 +492,9 @@ const state = {
   announcementMutationInFlight: false
 };
 
+let pomodoroState = null;
+let pomodoroTimerId = null;
+
 let homeworkResourceCatalog = null;
 let homeworkCatalogPromise = null;
 let videoClassHomeworkCatalogError = null;
@@ -486,19 +531,35 @@ async function loadVideoClassHomeworkResources() {
   }
 }
 
-function mergeHomeworkCatalog(baseCatalog, videoClassResources) {
+async function loadManualWritingHomeworkResources() {
+  if (state.currentUser?.role !== "admin" || !state.currentUser.adminToken) return [];
+  const rows = await callRpc("schedule_admin_list_manual_writing_resources", {
+    p_admin_token: state.currentUser.adminToken
+  });
+  return (Array.isArray(rows) ? rows : []).map((resource) => {
+    const normalized = normalizeHomeworkResource(resource);
+    return normalized ? Object.freeze({ ...resource, ...normalized }) : null;
+  }).filter(Boolean);
+}
+
+function mergeHomeworkCatalog(baseCatalog, { videoClassResources = null, manualWritingResources = null } = {}) {
   const byId = new Map((Array.isArray(baseCatalog) ? baseCatalog : [])
-    .filter((resource) => !String(resource?.type || "").startsWith("video-class-"))
+    .filter((resource) => videoClassResources === null || !String(resource?.type || "").startsWith("video-class-"))
+    .filter((resource) => manualWritingResources === null || !String(resource?.id || "").startsWith("writing-submission:manual:"))
     .map((resource) => [resource.id, resource]));
-  videoClassResources.forEach((resource) => byId.set(resource.id, resource));
+  (videoClassResources || []).forEach((resource) => byId.set(resource.id, resource));
+  (manualWritingResources || []).forEach((resource) => byId.set(resource.id, resource));
   return Object.freeze([...byId.values()]);
 }
 
-function ensureHomeworkCatalog({ retryVideoClass = false } = {}) {
+function ensureHomeworkCatalog({ retryVideoClass = false, refreshManualWriting = false } = {}) {
   if (homeworkResourceCatalog) {
-    if (retryVideoClass) {
-      return loadVideoClassHomeworkResources().then((resources) => {
-        homeworkResourceCatalog = mergeHomeworkCatalog(homeworkResourceCatalog, resources);
+    if (retryVideoClass || refreshManualWriting) {
+      return Promise.all([
+        retryVideoClass ? loadVideoClassHomeworkResources() : Promise.resolve(null),
+        refreshManualWriting ? loadManualWritingHomeworkResources() : Promise.resolve(null)
+      ]).then(([videoClassResources, manualWritingResources]) => {
+        homeworkResourceCatalog = mergeHomeworkCatalog(homeworkResourceCatalog, { videoClassResources, manualWritingResources });
         return homeworkResourceCatalog;
       });
     }
@@ -507,10 +568,11 @@ function ensureHomeworkCatalog({ retryVideoClass = false } = {}) {
   if (!homeworkCatalogPromise) {
     homeworkCatalogPromise = Promise.all([
       import(HOMEWORK_CATALOG_URL),
-      loadVideoClassHomeworkResources()
+      loadVideoClassHomeworkResources(),
+      loadManualWritingHomeworkResources()
     ])
-      .then(([module, videoClassResources]) => {
-        homeworkResourceCatalog = mergeHomeworkCatalog(module.HOMEWORK_RESOURCE_CATALOG, videoClassResources);
+      .then(([module, videoClassResources, manualWritingResources]) => {
+        homeworkResourceCatalog = mergeHomeworkCatalog(module.HOMEWORK_RESOURCE_CATALOG, { videoClassResources, manualWritingResources });
         return homeworkResourceCatalog;
       })
       .catch((error) => {
@@ -699,6 +761,10 @@ function renderHomeworkPickerResults() {
     button.type = "button";
     button.className = "homework-picker-result";
     button.dataset.homeworkResourceId = resource.id;
+    const history = state.homeworkResourceUsage.get(resource.id) || state.homeworkResourceUsage.get(resource.url);
+    if (history) button.dataset.history = history.status;
+    const selected = Array.isArray(state.editing?.resources) && state.editing.resources.some((item) => item.id === resource.id);
+    if (selected) button.dataset.selected = "true";
     button.setAttribute("role", "option");
     const title = document.createElement("strong");
     title.textContent = resource.label;
@@ -722,7 +788,35 @@ async function openHomeworkPicker(type, { focusSearch = false, replacement = nul
   renderHomeworkPickerResults();
   if (focusSearch) window.setTimeout(() => elements.homeworkPickerSearch.focus(), 0);
   try {
-    await ensureHomeworkCatalog({ retryVideoClass: type.startsWith("video-class-") });
+    const student = activeStudent();
+    const [, usageRows] = await Promise.all([
+      ensureHomeworkCatalog({
+        retryVideoClass: type.startsWith("video-class-"),
+        refreshManualWriting: type === "writing-submission"
+      }),
+      state.currentUser?.role === "admin" && student
+        ? callRpc("schedule_admin_resource_usage", {
+            p_admin_token: state.currentUser.adminToken,
+            p_student_id: student.id
+          }).catch(() => [])
+        : Promise.resolve([])
+    ]);
+    state.homeworkResourceUsage = new Map();
+    const usageRank = Object.freeze({ unengaged: 1, partial: 2, completed: 3 });
+    (Array.isArray(usageRows) ? usageRows : []).forEach((row) => {
+      const status = ["unengaged", "partial", "completed"].includes(String(row.usage_status))
+        ? String(row.usage_status)
+        : "unengaged";
+      const value = { status, date: row.last_schedule_date || null };
+      for (const rawKey of [row.resource_id, row.resource_url]) {
+        if (!rawKey) continue;
+        const key = String(rawKey);
+        const previous = state.homeworkResourceUsage.get(key);
+        if (!previous || usageRank[value.status] > usageRank[previous.status]) {
+          state.homeworkResourceUsage.set(key, value);
+        }
+      }
+    });
     if (state.homeworkPickerType === type && !elements.homeworkPicker.hidden) {
       renderHomeworkPickerResults();
     }
@@ -771,8 +865,6 @@ function addHomeworkResource(resourceId) {
   if (!resource) return;
   const resources = Array.isArray(state.editing.resources) ? state.editing.resources : [];
   if (resources.some((item) => item.id === resource.id)) {
-    closeHomeworkPicker();
-    elements.entryMessage.focus();
     showToast("這個功課連結已經加入。", "success");
     return;
   }
@@ -798,9 +890,9 @@ function addHomeworkResource(resourceId) {
   state.editing.resources = nextResources;
   elements.entryMessage.value = visibleMessage.value;
   renderHomeworkAttachments();
-  closeHomeworkPicker();
-  elements.entryMessage.focus();
-  elements.entryMessage.setSelectionRange(visibleMessage.cursor, visibleMessage.cursor);
+  state.homeworkPickerReplacement = null;
+  renderHomeworkPickerResults();
+  elements.homeworkPickerSearch.focus();
   setStatus(elements.entryStatus, "");
   showToast("功課連結已加入；儲存本格後學生即可開啟。", "success");
 }
@@ -1621,7 +1713,8 @@ function normalizeDisplayPreferences(value) {
     hideDailyQuote: value?.hideDailyQuote === true,
     hideEncouragement: value?.hideEncouragement === true,
     hideReminderEmail: value?.hideReminderEmail === true,
-    ratingCollapsed: normalizeRatingCollapsePreferences(value)
+    ratingCollapsed: normalizeRatingCollapsePreferences(value),
+    purposeFontSize: normalizePurposeFontSize(value?.purposeFontSize)
   };
 }
 
@@ -1632,6 +1725,7 @@ function restoreDisplayPreferences(preferences) {
   state.hideEncouragement = preferences.hideEncouragement;
   state.hideReminderEmail = preferences.hideReminderEmail;
   state.ratingCollapsed = { ...preferences.ratingCollapsed };
+  state.purposeFontSize = preferences.purposeFontSize;
 }
 
 function displayPreferenceOwner() {
@@ -1646,6 +1740,33 @@ function applySavedDisplayPreferences(value) {
   const preferences = normalizeDisplayPreferences(value);
   restoreDisplayPreferences(preferences);
   applyDisplayPreferences();
+}
+
+function applyPurposeFontSize() {
+  if (!elements.learningPurposeMessage) return;
+  const sizes = { 1: 19, 2: 24, 3: 30 };
+  const size = normalizePurposeFontSize(state.purposeFontSize);
+  elements.learningPurposeMessage.style.setProperty("--purpose-font-size", `${sizes[size]}px`);
+  elements.purposeFontButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(Number(button.dataset.purposeFontSize) === size));
+  });
+}
+
+async function setPurposeFontSize(rawSize) {
+  if (!activeStudent() || state.mutationInFlight) return;
+  const previous = state.purposeFontSize;
+  state.purposeFontSize = normalizePurposeFontSize(rawSize);
+  applyPurposeFontSize();
+  try {
+    const saved = await saveDisplayPreferences({ purposeFontSize: state.purposeFontSize });
+    state.purposeFontSize = normalizePurposeFontSize(saved?.purposeFontSize);
+    applyPurposeFontSize();
+    showToast("已儲存初心文字大小。", "success");
+  } catch (error) {
+    state.purposeFontSize = previous;
+    applyPurposeFontSize();
+    setStatus(elements.learningPurposeStatus, error.message || "未能儲存文字大小。", "error");
+  }
 }
 
 function selectedEntries() {
@@ -2177,7 +2298,190 @@ function renderLearningPurpose(statusText = "", status = "") {
     ? `最後更新：${formatAdminDateTime(purpose.updatedAt)}`
     : "最後更新：—";
   setStatus(elements.learningPurposeStatus, statusText, status);
+  applyPurposeFontSize();
   updateLearningPurposeControls();
+}
+
+function normalizeLanguageOpportunities(value) {
+  const row = Array.isArray(value) ? value[0] : value;
+  return {
+    message: String(row?.message || ""),
+    updatedAt: row?.updated_at || row?.updatedAt || null
+  };
+}
+
+function renderLanguageOpportunities(statusText = "", status = "") {
+  if (!elements.languageOpportunitiesMessage) return;
+  elements.languageOpportunitiesMessage.value = state.languageOpportunitiesMessage;
+  const isStudent = state.currentUser?.role === "student";
+  elements.languageOpportunitiesMessage.readOnly = !isStudent;
+  elements.languageOpportunitiesSave.hidden = !isStudent;
+  elements.languageOpportunitiesSave.disabled = state.languageOpportunitiesBusy;
+  setStatus(elements.languageOpportunitiesStatus, statusText, status);
+}
+
+async function saveLanguageOpportunities() {
+  if (state.currentUser?.role !== "student" || state.languageOpportunitiesBusy) return;
+  const message = String(elements.languageOpportunitiesMessage.value || "").trim();
+  if (message.length > 1000) return setStatus(elements.languageOpportunitiesStatus, "內容最多 1,000 個字元。", "error");
+  state.languageOpportunitiesBusy = true;
+  renderLanguageOpportunities("正在儲存…");
+  try {
+    const result = await callRpc("schedule_student_save_language_opportunities", {
+      p_token: state.currentUser.studentToken,
+      p_message: message
+    });
+    state.languageOpportunitiesMessage = normalizeLanguageOpportunities(result).message;
+    renderLanguageOpportunities(message ? "已儲存語言與機遇。" : "已清除語言與機遇。", "success");
+  } catch (error) {
+    renderLanguageOpportunities(error.message || "未能儲存語言與機遇。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    state.languageOpportunitiesBusy = false;
+    renderLanguageOpportunities(elements.languageOpportunitiesStatus.textContent, elements.languageOpportunitiesStatus.dataset.state || "");
+  }
+}
+
+function renderLearningDayCounters() {
+  const show = state.currentUser?.role === "student";
+  elements.learningDayCounters.hidden = !show;
+  if (!show) return;
+  elements.dayStreak.textContent = String(state.learningDaySummary.streak || 0);
+  elements.learningDays.textContent = String(state.learningDaySummary.total || 0);
+}
+
+async function loadLearningDayCounters() {
+  if (state.currentUser?.role !== "student") return;
+  try {
+    const response = await fetch(`${STUDENT_PROGRESS_WORKER_URL}/v1/progress`, {
+      method: "GET",
+      headers: { Authorization: `Bearer ${state.currentUser.studentToken}`, Accept: "application/json" },
+      credentials: "omit",
+      cache: "no-store"
+    });
+    if (!response.ok) throw new Error(`Student Progress returned ${response.status}`);
+    const payload = await response.json();
+    state.learningDaySummary = learningDaySummary(payload?.snapshot, hongKongDayKey(new Date()));
+  } catch (error) {
+    console.warn("Cross-system learning-day summary failed", error);
+    state.learningDaySummary = { streak: 0, total: 0 };
+  }
+  renderLearningDayCounters();
+}
+
+function pomodoroStorageKey() {
+  const identity = state.currentUser?.role === "student"
+    ? `student:${state.currentUser.id || state.currentUser.name || "account"}`
+    : state.currentUser?.role === "admin" ? `admin:${state.currentUser.name || "account"}` : "guest";
+  return `${POMODORO_STORAGE_PREFIX}:${identity}`;
+}
+
+function readPomodoroState() {
+  try {
+    const value = JSON.parse(localStorage.getItem(pomodoroStorageKey()) || "null");
+    if (!value || typeof value !== "object") return null;
+    const settings = normalizePomodoroSettings(value.settings);
+    return {
+      settings,
+      phase: ["work", "short-break", "long-break"].includes(value.phase) ? value.phase : "work",
+      completedSessions: Math.max(0, Number(value.completedSessions) || 0),
+      endsAt: Number(value.endsAt) || 0
+    };
+  } catch { return null; }
+}
+
+function writePomodoroState() {
+  try {
+    if (pomodoroState) localStorage.setItem(pomodoroStorageKey(), JSON.stringify(pomodoroState));
+    else localStorage.removeItem(pomodoroStorageKey());
+  } catch { /* Timer can continue in memory when storage is unavailable. */ }
+}
+
+function currentPomodoroSettingsFromForm() {
+  return normalizePomodoroSettings({
+    enabled: elements.pomodoroEnabled.checked,
+    workMinutes: Number(elements.pomodoroWork.value),
+    shortBreakMinutes: Number(elements.pomodoroShortBreak.value),
+    longBreakMinutes: Number(elements.pomodoroLongBreak.value),
+    sessionsBeforeLongBreak: Number(elements.pomodoroCycles.value),
+    taskLabel: elements.pomodoroTask.value
+  });
+}
+
+function populatePomodoroForm() {
+  const settings = normalizePomodoroSettings(pomodoroState?.settings || DEFAULT_POMODORO_SETTINGS);
+  elements.pomodoroEnabled.checked = settings.enabled;
+  elements.pomodoroWork.value = settings.workMinutes;
+  elements.pomodoroShortBreak.value = settings.shortBreakMinutes;
+  elements.pomodoroLongBreak.value = settings.longBreakMinutes;
+  elements.pomodoroCycles.value = settings.sessionsBeforeLongBreak;
+  elements.pomodoroTask.value = settings.taskLabel;
+  setStatus(elements.pomodoroStatus, pomodoroState?.endsAt ? "目前倒數會在儲存後重新開始。" : "");
+}
+
+function beginPomodoroPhase(phase, completedSessions = 0) {
+  const settings = normalizePomodoroSettings(pomodoroState?.settings || DEFAULT_POMODORO_SETTINGS);
+  pomodoroState = { settings, phase, completedSessions, endsAt: Date.now() + pomodoroPhaseDurationMs(settings, phase) };
+  writePomodoroState();
+  tickPomodoro();
+}
+
+function setPomodoroPageLocked(locked) {
+  document.documentElement.classList.toggle("pomodoro-page-locked", locked);
+  const header = document.querySelector(".site-header");
+  const main = document.querySelector("main");
+  if (header) header.inert = locked;
+  if (main) main.inert = locked;
+}
+
+function stopPomodoro() {
+  pomodoroState = null;
+  writePomodoroState();
+  elements.pomodoroBreakLock.hidden = true;
+  setPomodoroPageLocked(false);
+  renderPomodoroHeader();
+}
+
+function renderPomodoroHeader() {
+  const running = Boolean(pomodoroState?.settings?.enabled && pomodoroState?.endsAt);
+  elements.pomodoroHeader.dataset.running = String(running);
+  if (!running) return void (elements.pomodoroHeaderTime.textContent = "設定計時");
+  const labels = { work: "專注", "short-break": "短休", "long-break": "長休" };
+  elements.pomodoroHeaderTime.textContent = `${labels[pomodoroState.phase]} ${formatPomodoroRemaining(pomodoroState.endsAt - Date.now())}`;
+}
+
+function tickPomodoro() {
+  if (!pomodoroState?.settings?.enabled || !pomodoroState.endsAt) {
+    elements.pomodoroBreakLock.hidden = true;
+    setPomodoroPageLocked(false);
+    return renderPomodoroHeader();
+  }
+  let guard = 0;
+  while (Date.now() >= pomodoroState.endsAt && guard < 6) {
+    const next = nextPomodoroPhase(pomodoroState);
+    pomodoroState.phase = next.phase;
+    pomodoroState.completedSessions = next.completedSessions;
+    pomodoroState.endsAt += pomodoroPhaseDurationMs(pomodoroState.settings, next.phase);
+    guard += 1;
+  }
+  const onBreak = pomodoroState.phase !== "work";
+  elements.pomodoroBreakLock.hidden = !onBreak;
+  setPomodoroPageLocked(onBreak);
+  if (onBreak) {
+    elements.pomodoroBreakKicker.textContent = pomodoroState.phase === "long-break"
+      ? `完成 ${pomodoroState.settings.sessionsBeforeLongBreak} 輪 · 長休時間`
+      : "專注完成 · 短休時間";
+    elements.pomodoroBreakCountdown.textContent = formatPomodoroRemaining(pomodoroState.endsAt - Date.now());
+  }
+  writePomodoroState();
+  renderPomodoroHeader();
+}
+
+function restorePomodoro() {
+  window.clearInterval(pomodoroTimerId);
+  pomodoroState = readPomodoroState();
+  tickPomodoro();
+  pomodoroTimerId = window.setInterval(tickPomodoro, 250);
 }
 
 async function loadLearningPurposeVersion(versionId = null) {
@@ -3237,6 +3541,7 @@ async function restoreSession() {
         adminToken: saved.adminToken,
         expiresAt: saved.expiresAt || null
       };
+      restorePomodoro();
       await openAdminPanel();
       return state.currentUser?.role === "admin";
     }
@@ -3249,6 +3554,7 @@ async function restoreSession() {
         studentToken: saved.studentToken
       };
       state.selectedStudent = { id: saved.id, name: saved.name };
+      restorePomodoro();
       showView("calendar");
       await loadWeek();
       return state.currentUser?.role === "student";
@@ -3293,6 +3599,7 @@ async function login(event) {
         adminToken: result.admin.admin_token,
         expiresAt: result.admin.expires_at
       };
+      restorePomodoro();
       saveSession();
       elements.loginForm.reset();
       await openAdminPanel();
@@ -3313,6 +3620,7 @@ async function login(event) {
       name: student.name,
       studentToken: student.session_token
     };
+    restorePomodoro();
     window.EdmundSystemNav?.rememberStudentSession({
       token: student.session_token,
       id: student.id,
@@ -3346,6 +3654,7 @@ async function logout() {
   clearStoredScheduleClipboard();
   if (user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
   state.currentUser = null;
+  restorePomodoro();
   state.selectedStudent = null;
   state.adminStudents = [];
   state.adminParents = [];
@@ -3513,14 +3822,18 @@ async function openAdminPanel() {
   setStatus(elements.adminStatus, "正在載入學生帳戶…");
   setStatus(elements.parentAdminStatus, "正在載入家長帳戶…");
   try {
-    const [studentRows, preferenceRows, parentRows] = await Promise.all([
+    const [studentRows, preferenceRows, parentRows, teacherWeekRows] = await Promise.all([
       loadAllStudentAccounts(),
       callRpc("schedule_admin_get_student_list_preferences", {
         p_admin_token: state.currentUser.adminToken
       }),
       callRpc("schedule_admin_list_parents", {
         p_admin_token: state.currentUser.adminToken
-      })
+      }),
+      callRpc("schedule_admin_teacher_assignment_students", {
+        p_admin_token: state.currentUser.adminToken,
+        p_week_start: state.weekStart
+      }).catch(() => [])
     ]);
     state.adminStudents = Array.isArray(studentRows) ? studentRows : [];
     const preferences = Array.isArray(preferenceRows) ? preferenceRows[0] : preferenceRows;
@@ -3529,6 +3842,7 @@ async function openAdminPanel() {
       : "asc";
     state.studentOrder = Array.isArray(preferences?.student_order) ? preferences.student_order : [];
     state.adminParents = Array.isArray(parentRows) ? parentRows : [];
+    state.adminTeacherAssignmentStudentIds = new Set((Array.isArray(teacherWeekRows) ? teacherWeekRows : []).map((row) => String(row.student_id || "")));
     state.parentAssignmentDrafts.clear();
     renderStudentList();
     renderParentList();
@@ -3571,7 +3885,7 @@ function renderStudentList() {
   for (const student of students) {
     const active = isStudentActive(student);
     const card = document.createElement("article");
-    card.className = `student-card${active ? "" : " is-inactive"}`;
+    card.className = `student-card${active ? "" : " is-inactive"}${state.adminTeacherAssignmentStudentIds.has(String(student.id)) ? " has-teacher-assignment" : ""}`;
     card.dataset.studentOrderId = student.id;
     card.draggable = active && state.studentSortMode === "custom" && !query;
     const copy = document.createElement("div");
@@ -4316,7 +4630,7 @@ async function loadWeek(focusTarget = null) {
   updateCalendarHeading();
 
   try {
-    const [payload, encouragementPayload, motivationPayload, wellbeingPayload, learningPurposePayload, reminderEmailPayload] = state.currentUser.role === "admin"
+    const [payload, encouragementPayload, motivationPayload, wellbeingPayload, learningPurposePayload, reminderEmailPayload, opportunitiesPayload] = state.currentUser.role === "admin"
       ? await Promise.all([
           callRpc("schedule_admin_get_week", {
             p_admin_token: state.currentUser.adminToken,
@@ -4343,7 +4657,11 @@ async function loadWeek(focusTarget = null) {
             p_student_id: student.id,
             p_version_id: null
           }),
-          Promise.resolve(null)
+          Promise.resolve(null),
+          callRpc("schedule_admin_get_language_opportunities", {
+            p_admin_token: state.currentUser.adminToken,
+            p_student_id: student.id
+          }).catch(() => null)
         ])
       : await Promise.all([
           callRpc("schedule_student_get_week", {
@@ -4366,7 +4684,10 @@ async function loadWeek(focusTarget = null) {
             p_token: state.currentUser.studentToken,
             p_version_id: null
           }),
-          safelyLoadReminderEmail()
+          safelyLoadReminderEmail(),
+          callRpc("schedule_student_get_language_opportunities", {
+            p_token: state.currentUser.studentToken
+          }).catch(() => null)
         ]);
 
     if (requestId !== state.weekRequestId || requestedWeek !== state.weekStart) return;
@@ -4410,6 +4731,7 @@ async function loadWeek(focusTarget = null) {
       wellbeingRatings: wellbeingRatingsByMetricAndDate(wellbeingPayload)
     };
     state.learningPurpose = normalizeLearningPurposePayload(learningPurposePayload);
+    state.languageOpportunitiesMessage = normalizeLanguageOpportunities(opportunitiesPayload).message;
     state.reminderEmail = normalizeReminderEmail(reminderEmailPayload);
     if (state.massEditMode) {
       state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
@@ -4422,6 +4744,8 @@ async function loadWeek(focusTarget = null) {
     renderEncouragementFromPayload();
     renderReminderEmail();
     renderLearningPurpose();
+    renderLanguageOpportunities();
+    loadLearningDayCounters();
     renderMetrics();
     renderCountdowns();
     restoreCalendarFocus(focusTarget);
@@ -4464,6 +4788,7 @@ function updateCalendarHeading() {
   const student = activeStudent();
   elements.viewingLabel.textContent = state.currentUser?.role === "admin" ? "正在查看學生" : "我的安排";
   elements.viewingStudent.textContent = student?.name || "學生";
+  renderLearningDayCounters();
   elements.weekRange.textContent = formatWeekRange(state.weekStart);
   const first = toISODate(firstWeekStart());
   const last = toISODate(lastWeekStart());
@@ -7233,6 +7558,28 @@ elements.learningPurposeNewer?.addEventListener("click", () => {
   if (purpose.newerId) loadLearningPurposeVersion(purpose.newerId);
 });
 elements.learningPurposeLatest?.addEventListener("click", () => loadLearningPurposeVersion(null));
+elements.purposeFontButtons.forEach((button) => button.addEventListener("click", () => setPurposeFontSize(button.dataset.purposeFontSize)));
+elements.languageOpportunitiesSave?.addEventListener("click", saveLanguageOpportunities);
+elements.pomodoroHeader?.addEventListener("click", () => {
+  populatePomodoroForm();
+  elements.pomodoroDialog.showModal();
+});
+elements.pomodoroClose?.addEventListener("click", () => elements.pomodoroDialog.close());
+elements.pomodoroReset?.addEventListener("click", () => {
+  stopPomodoro();
+  populatePomodoroForm();
+  setStatus(elements.pomodoroStatus, "番茄鐘已停止及重設。", "success");
+});
+elements.pomodoroForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const settings = currentPomodoroSettingsFromForm();
+  if (!settings.enabled) stopPomodoro();
+  else {
+    pomodoroState = { settings, phase: "work", completedSessions: 0, endsAt: 0 };
+    beginPomodoroPhase("work", 0);
+  }
+  elements.pomodoroDialog.close();
+});
 elements.toggleSelection?.addEventListener("click", () => {
   if (state.massEditMode) toggleClipboardSelectionMode();
   else toggleSelectionMode();
@@ -7352,6 +7699,8 @@ elements.entryDialog.addEventListener("click", (event) => {
 
 async function initialize() {
   renderEntryTagOptions();
+  restorePomodoro();
+  applyPurposeFontSize();
   showView("login");
   setConnection("正在連接", "connecting");
   try {

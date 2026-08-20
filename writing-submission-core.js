@@ -17,7 +17,7 @@ export function normalizeWritingSubmissionEntryLink(value) {
   }
 
   const entries = [...parameters.entries()];
-  if (entries.length !== 1 || !["submission", "exercise"].includes(entries[0][0])) return null;
+  if (entries.length !== 1 || !["submission", "exercise", "manualTopic"].includes(entries[0][0])) return null;
 
   const submissionId = String(parameters.get("submission") || "").trim();
   if (submissionId && WRITING_SUBMISSION_UUID_RE.test(submissionId)) {
@@ -27,6 +27,11 @@ export function normalizeWritingSubmissionEntryLink(value) {
   const exerciseId = String(parameters.get("exercise") || "").trim();
   if (exerciseId && WRITING_EXERCISE_ID_RE.test(exerciseId)) {
     return Object.freeze({ type: "exercise", exerciseId });
+  }
+
+  const manualTopicId = String(parameters.get("manualTopic") || "").trim();
+  if (manualTopicId && WRITING_SUBMISSION_UUID_RE.test(manualTopicId)) {
+    return Object.freeze({ type: "manual-topic", manualTopicId: manualTopicId.toLowerCase() });
   }
 
   return null;

@@ -12,7 +12,7 @@ import {
   vocabularyEntryUsed,
   writingSubmissionNotificationMessage,
   writingTopicResourceForTransport
-} from "./writing-submission-core.js?v=20260812-topic-transport1";
+} from "./writing-submission-core.js?v=20260820-manual-topics1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -297,6 +297,11 @@ const elements = {
   adminStudentList: document.querySelector("[data-admin-student-list]"),
   adminGrammarCount: document.querySelector("[data-admin-grammar-count]"),
   adminGrammarList: document.querySelector("[data-admin-grammar-list]"),
+  adminManualTopicSlots: document.querySelector("[data-admin-manual-topic-slots]"),
+  adminManualTopicCreate: document.querySelector("[data-admin-manual-topic-create]"),
+  adminManualTopicStatus: document.querySelector("[data-admin-manual-topic-status]"),
+  adminManualTopicCount: document.querySelector("[data-admin-manual-topic-count]"),
+  adminManualTopicList: document.querySelector("[data-admin-manual-topic-list]"),
   refreshAdminReview: document.querySelector("[data-refresh-admin-review]"),
   adminReviewCount: document.querySelector("[data-admin-review-count]"),
   adminReviewList: document.querySelector("[data-admin-review-list]"),
@@ -397,6 +402,8 @@ const state = {
   selectedAdminStudentId: "",
   adminStudentSort: "asc",
   adminGrammarProblems: [],
+  adminManualTopics: [],
+  adminManualTopicsBusy: false,
   selectedAdminSubmissionId: "",
   adminSubmissionRequestGeneration: 0,
   selectedAdminFeedback: null,
@@ -1585,6 +1592,8 @@ function clearSession() {
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   state.adminGrammarProblems = [];
+  state.adminManualTopics = [];
+  state.adminManualTopicsBusy = false;
   state.selectedAdminSubmissionId = "";
   state.adminSubmissionRequestGeneration += 1;
   state.selectedAdminFeedback = null;
@@ -1593,6 +1602,8 @@ function clearSession() {
   state.adminExplanationReviewPage = 0;
   state.adminExplanationReviewHasMore = false;
   state.entryLinkHandled = false;
+  state.topicCatalog = [];
+  state.topicCatalogPromise = null;
   state.selectedTopicResource = null;
   state.randomTopicGeneration += 1;
   state.writingTimer = emptyWritingTimer();
@@ -1788,6 +1799,9 @@ function writingTopicSearchTokens(value) {
 }
 
 function canAccessWritingTopic(resource) {
+  if (resource?.type === "manual-writing-topic") {
+    return state.user?.role === "student" && UUID_RE.test(String(resource.manualTopicId || ""));
+  }
   return writingTopicAccessAllows(
     resource,
     state.studentAccess,
@@ -1796,6 +1810,11 @@ function canAccessWritingTopic(resource) {
 }
 
 function canonicalWritingTopicResource(resource = state.selectedTopicResource) {
+  const manualId = typeof resource === "string" ? resource : resource?.id;
+  if (String(manualId || "").startsWith("manual:")) {
+    const match = state.topicCatalog.find((item) => item.id === manualId && item.type === "manual-writing-topic");
+    return canAccessWritingTopic(match) ? match : null;
+  }
   return canonicalAccessibleWritingTopic(
     state.topicCatalog,
     resource,
@@ -1805,7 +1824,8 @@ function canonicalWritingTopicResource(resource = state.selectedTopicResource) {
 }
 
 function canonicalWritingTopicResourceForTransport(resource = state.selectedTopicResource) {
-  return writingTopicResourceForTransport(canonicalWritingTopicResource(resource));
+  const canonical = canonicalWritingTopicResource(resource);
+  return canonical?.type === "manual-writing-topic" ? null : writingTopicResourceForTransport(canonical);
 }
 
 async function resolvePersistedWritingTopicResource(resource) {
@@ -1866,9 +1886,14 @@ function topicReferenceLinkRow(label, href, kind) {
   const link = createElement("a", "topic-reference-clip", "📎");
   link.href = href;
   link.dataset.topicReferenceLink = kind;
-  link.setAttribute("aria-label", kind === "flashcards"
-    ? "前往相關 Flash Card"
-    : "前往相關 Fill In The Blanks 練習");
+  const ariaLabels = {
+    flashcards: "前往相關 Flash Card",
+    writing: "前往相關 Fill In The Blanks 練習",
+    "manual-flashcards": "前往管理員提供的 Flash Card",
+    "manual-writing": "前往管理員提供的 Writing Practice",
+    "manual-model-essay": "前往管理員提供的 Model Essay"
+  };
+  link.setAttribute("aria-label", ariaLabels[kind] || "開啟相關學習資源");
   link.title = link.getAttribute("aria-label");
   row.append(link);
   return row;
@@ -1893,9 +1918,34 @@ function topicReferenceDetails(kind, label, exerciseId) {
 
 function renderSelectedTopicReferences() {
   if (!elements.topicReferenceArea) return;
-  const route = selectedTopicReferenceRoute();
+  const resource = canonicalWritingTopicResource();
+  const route = selectedTopicReferenceRoute(resource);
   elements.topicReferenceArea.replaceChildren();
   elements.topicReferenceArea.hidden = true;
+  if (resource?.type === "manual-writing-topic") {
+    const references = createElement("div", "topic-reference-links manual-topic-reference-links");
+    const links = [
+      ["重溫 Flash Card 請按這裡：", resource.flashcardUrl, "manual-flashcards"],
+      ["前往 Writing Practice 請按這裡：", resource.writingPracticeUrl, "manual-writing"],
+      ["參考 Edmund 範文 Model Essay 請按這裡：", resource.modelEssayUrl, "manual-model-essay"]
+    ];
+    for (const [label, href, kind] of links) {
+      if (href) references.append(topicReferenceLinkRow(label, href, kind));
+    }
+    if (resource.wordList) {
+      const words = createElement("section", "manual-topic-word-list");
+      words.append(
+        createElement("strong", "", "題目詞彙及提示 · Words & Notes"),
+        createElement("p", "", resource.wordList)
+      );
+      references.append(words);
+    }
+    if (references.childElementCount) {
+      elements.topicReferenceArea.append(references);
+      elements.topicReferenceArea.hidden = false;
+    }
+    return;
+  }
   if (!route) return;
 
   const links = createElement("div", "topic-reference-links");
@@ -2244,15 +2294,58 @@ async function loadHomeworkResourceCatalog() {
   return state.homeworkResourceCatalogPromise;
 }
 
+function manualWritingTopicResource(value) {
+  const id = String(value?.id || "").trim().toLowerCase();
+  const title = String(value?.title || "").trim().slice(0, 300);
+  const prompt = String(value?.prompt || "").trim().slice(0, 4000);
+  const referenceUrl = (candidate, allowedPaths) => {
+    try {
+      const parsed = new URL(String(candidate || ""));
+      return parsed.protocol === "https:"
+        && parsed.hostname === "edmundeducation.com"
+        && allowedPaths.includes(parsed.pathname)
+        ? parsed.href
+        : "";
+    } catch {
+      return "";
+    }
+  };
+  if (!UUID_RE.test(id) || !title || !prompt) return null;
+  return Object.freeze({
+    id: `manual:${id}`,
+    manualTopicId: id,
+    type: "manual-writing-topic",
+    label: title,
+    detail: "手動創作題目",
+    url: `writing-submission.html?manualTopic=${encodeURIComponent(id)}`,
+    sectionKey: "manual-writing-topic",
+    questionPrompt: [prompt],
+    questionImages: [],
+    flashcardUrl: referenceUrl(value?.flashcardUrl, ["/flashcards.html"]),
+    writingPracticeUrl: referenceUrl(value?.writingPracticeUrl, ["/writing-practice.html"]),
+    modelEssayUrl: referenceUrl(value?.modelEssayUrl, ["/model-essay-downloads.html", "/writing-practice.html"]),
+    wordList: String(value?.wordList || "").trim().slice(0, 4000)
+  });
+}
+
+async function loadStudentManualWritingTopics() {
+  if (state.user?.role !== "student" || !state.authToken) return [];
+  const payload = await apiJson("/v1/manual-topics");
+  return (Array.isArray(payload?.topics) ? payload.topics : [])
+    .map(manualWritingTopicResource)
+    .filter(Boolean);
+}
+
 async function loadWritingTopicCatalog() {
   if (state.topicCatalog.length) return state.topicCatalog;
   if (!state.topicCatalogPromise) {
-    state.topicCatalogPromise = loadHomeworkResourceCatalog()
-      .then((source) => {
+    state.topicCatalogPromise = Promise.all([loadHomeworkResourceCatalog(), loadStudentManualWritingTopics()])
+      .then(([source, manualTopics]) => {
         const catalog = source
           .filter(resource => resource?.type === "fill-blanks")
           .map(normalizeWritingTopicResource)
           .filter(Boolean);
+        catalog.push(...manualTopics);
         const ids = new Set();
         for (const resource of catalog) {
           if (ids.has(resource.id)) throw new Error(`Duplicate writing topic resource: ${resource.id}`);
@@ -6886,6 +6979,31 @@ async function openStudentEntryLink() {
     return true;
   }
 
+  if (entryLink.type === "manual-topic") {
+    try {
+      await loadWritingTopicCatalog();
+      const resource = canonicalWritingTopicResource(`manual:${entryLink.manualTopicId}`);
+      if (!resource) throw new Error("這項手動創作題目不存在，或已被管理員移除。");
+      const storedDraft = readDraft();
+      const archivedPreviousDraft = await archiveStoredDraftBeforeEntryLink(storedDraft);
+      startNewDraft({ preserveView: true });
+      selectWritingTopic(resource.id, { persist: true, close: false, toast: false });
+      showView("workspace");
+      showToast(
+        archivedPreviousDraft
+          ? "舊草稿已儲存至「我的文章」；現已載入指定創作題目。"
+          : "已載入功課指定的創作題目。",
+        "success"
+      );
+    } catch (error) {
+      state.entryLinkHandled = false;
+      await restoreDraft();
+      showView("workspace");
+      showToast(error.message || "暫時未能載入指定創作題目。", "error");
+    }
+    return true;
+  }
+
   try {
     await loadWritingTopicCatalog();
     const resource = canonicalWritingTopicResource(`fill:${entryLink.exerciseId}`);
@@ -7585,10 +7703,192 @@ async function deleteAdminGrammarCategory(index) {
   showToast("整個文法問題分類已刪除。", "success");
 }
 
+function initializeAdminManualTopicSlots() {
+  if (!elements.adminManualTopicSlots || elements.adminManualTopicSlots.children.length) return;
+  const fragment = document.createDocumentFragment();
+  for (let index = 0; index < 10; index += 1) {
+    const label = createElement("label", "admin-manual-topic-slot");
+    const input = document.createElement("input");
+    input.type = "text";
+    input.maxLength = 300;
+    input.autocomplete = "off";
+    input.dataset.adminManualTopicTitle = String(index + 1);
+    input.placeholder = `題目 ${index + 1} 名稱`;
+    input.setAttribute("aria-label", `手動創作題目 ${index + 1} 名稱`);
+    label.append(input);
+    fragment.append(label);
+  }
+  elements.adminManualTopicSlots.append(fragment);
+}
+
+function normalizeAdminManualTopic(value) {
+  const resource = manualWritingTopicResource(value);
+  if (!resource) return null;
+  return {
+    id: resource.manualTopicId,
+    title: resource.label,
+    prompt: resource.questionPrompt[0],
+    flashcardUrl: String(value?.flashcardUrl || ""),
+    writingPracticeUrl: String(value?.writingPracticeUrl || ""),
+    modelEssayUrl: String(value?.modelEssayUrl || ""),
+    wordList: String(value?.wordList || ""),
+    createdAt: value?.createdAt ? String(value.createdAt) : "",
+    updatedAt: value?.updatedAt ? String(value.updatedAt) : ""
+  };
+}
+
+function adminManualTopicField(labelText, value, key, { textarea = false, placeholder = "" } = {}) {
+  const label = document.createElement("label");
+  label.append(createElement("span", "", labelText));
+  const input = textarea ? document.createElement("textarea") : document.createElement("input");
+  if (!textarea) input.type = "text";
+  input.value = value;
+  input.placeholder = placeholder;
+  input.dataset.adminManualTopicField = key;
+  input.maxLength = key === "title" ? 300 : 4000;
+  label.append(input);
+  return label;
+}
+
+function renderAdminManualTopics() {
+  if (!elements.adminManualTopicList) return;
+  elements.adminManualTopicCount.textContent = String(state.adminManualTopics.length);
+  elements.adminManualTopicList.replaceChildren();
+  if (!state.adminManualTopics.length) {
+    elements.adminManualTopicList.append(emptyState("尚未建立手動創作題目。"));
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  for (const topic of state.adminManualTopics) {
+    const details = createElement("details", "admin-manual-topic-card");
+    details.dataset.adminManualTopicId = topic.id;
+    const summary = document.createElement("summary");
+    summary.append(
+      createElement("strong", "", topic.title),
+      createElement("small", "", topic.updatedAt ? `最後更新：${formatSubmissionDate(topic.updatedAt)}` : "手動創作題目"),
+      createElement("span", "", "Details 詳情")
+    );
+    const form = createElement("div", "admin-manual-topic-detail");
+    form.append(
+      adminManualTopicField("題目標題", topic.title, "title"),
+      adminManualTopicField("完整寫作題目", topic.prompt, "prompt", { textarea: true })
+    );
+    const grid = createElement("div", "admin-manual-topic-detail-grid");
+    grid.append(
+      adminManualTopicField("Flash Card Link", topic.flashcardUrl, "flashcardUrl", { placeholder: "https://edmundeducation.com/flashcards.html?deck=…" }),
+      adminManualTopicField("Writing Practice Link", topic.writingPracticeUrl, "writingPracticeUrl", { placeholder: "https://edmundeducation.com/writing-practice.html?exercise=…" }),
+      adminManualTopicField("Model Essay Link", topic.modelEssayUrl, "modelEssayUrl", { placeholder: "https://edmundeducation.com/model-essay-downloads.html?…" }),
+      adminManualTopicField("Vocabulary / List of Words", topic.wordList, "wordList", { textarea: true })
+    );
+    const actions = createElement("div", "admin-manual-topic-detail-actions");
+    const remove = createElement("button", "secondary-button admin-manual-topic-delete", "永久刪除");
+    remove.type = "button";
+    remove.dataset.adminManualTopicDelete = topic.id;
+    const save = createElement("button", "primary-button", "儲存修改");
+    save.type = "button";
+    save.dataset.adminManualTopicSave = topic.id;
+    actions.append(remove, save);
+    form.append(grid, actions);
+    details.append(summary, form);
+    fragment.append(details);
+  }
+  elements.adminManualTopicList.append(fragment);
+}
+
+async function loadAdminManualTopics() {
+  initializeAdminManualTopicSlots();
+  if (!elements.adminManualTopicList) return;
+  elements.adminManualTopicList.replaceChildren(loadingState("正在載入手動創作題目……"));
+  try {
+    const payload = await apiJson("/v1/admin/manual-topics");
+    state.adminManualTopics = (Array.isArray(payload?.topics) ? payload.topics : [])
+      .map(normalizeAdminManualTopic)
+      .filter(Boolean);
+    renderAdminManualTopics();
+  } catch (error) {
+    elements.adminManualTopicList.replaceChildren(emptyState(error.message || "未能載入手動創作題目。"));
+    throw error;
+  }
+}
+
+function setAdminManualTopicBusy(busy) {
+  state.adminManualTopicsBusy = busy;
+  if (elements.adminManualTopicCreate) elements.adminManualTopicCreate.disabled = busy;
+  elements.adminManualTopicList?.querySelectorAll("button,input,textarea").forEach((element) => { element.disabled = busy; });
+}
+
+async function createAdminManualTopics() {
+  if (state.adminManualTopicsBusy) return;
+  const inputs = [...elements.adminManualTopicSlots.querySelectorAll("[data-admin-manual-topic-title]")];
+  const titles = inputs.map((input) => input.value.trim()).filter(Boolean);
+  if (!titles.length) {
+    setStatus(elements.adminManualTopicStatus, "請先輸入至少一個題目名稱。", "error");
+    return;
+  }
+  setAdminManualTopicBusy(true);
+  setStatus(elements.adminManualTopicStatus, "正在建立題目及安全連結……");
+  try {
+    await apiJson("/v1/admin/manual-topics", { method: "POST", body: JSON.stringify({ titles }) });
+    inputs.forEach((input) => { input.value = ""; });
+    setStatus(elements.adminManualTopicStatus, `已建立 ${titles.length} 個題目及 Homework Hyperlink。`, "success");
+    await loadAdminManualTopics();
+    showToast("手動創作題目已加入學生題目目錄。", "success");
+  } catch (error) {
+    setStatus(elements.adminManualTopicStatus, error.message || "未能建立手動創作題目。", "error");
+  } finally {
+    setAdminManualTopicBusy(false);
+  }
+}
+
+function adminManualTopicPayload(details) {
+  const value = (key) => String(details.querySelector(`[data-admin-manual-topic-field="${key}"]`)?.value || "").trim();
+  return {
+    title: value("title"), prompt: value("prompt"), flashcardUrl: value("flashcardUrl"),
+    writingPracticeUrl: value("writingPracticeUrl"), modelEssayUrl: value("modelEssayUrl"), wordList: value("wordList")
+  };
+}
+
+async function saveAdminManualTopic(id) {
+  if (state.adminManualTopicsBusy || !UUID_RE.test(id)) return;
+  const details = elements.adminManualTopicList.querySelector(`[data-admin-manual-topic-id="${id}"]`);
+  if (!details) return;
+  const payload = adminManualTopicPayload(details);
+  if (!payload.title || !payload.prompt) {
+    showToast("題目標題及完整寫作題目不可留空。", "error");
+    return;
+  }
+  setAdminManualTopicBusy(true);
+  try {
+    await apiJson(`/v1/admin/manual-topics/${encodeURIComponent(id)}`, { method: "PUT", body: JSON.stringify(payload) });
+    await loadAdminManualTopics();
+    showToast("題目詳情及參考連結已更新。", "success");
+  } catch (error) {
+    showToast(error.message || "未能更新手動創作題目。", "error");
+  } finally {
+    setAdminManualTopicBusy(false);
+  }
+}
+
+async function deleteAdminManualTopic(id) {
+  if (state.adminManualTopicsBusy || !UUID_RE.test(id)) return;
+  const topic = state.adminManualTopics.find((item) => item.id === id);
+  if (!window.confirm(`確定要永久刪除「${topic?.title || "這個題目"}」嗎？Homework 舊連結會變成不可使用。`)) return;
+  setAdminManualTopicBusy(true);
+  try {
+    await apiJson(`/v1/admin/manual-topics/${encodeURIComponent(id)}`, { method: "DELETE" });
+    await loadAdminManualTopics();
+    showToast("手動創作題目已永久刪除。", "success");
+  } catch (error) {
+    showToast(error.message || "未能刪除手動創作題目。", "error");
+  } finally {
+    setAdminManualTopicBusy(false);
+  }
+}
+
 async function openAdminDashboard() {
   showView("admin");
   elements.adminStudentList.replaceChildren(loadingState("正在載入學生帳戶……"));
-  const payload = await apiJson("/v1/admin/students");
+  const [payload] = await Promise.all([apiJson("/v1/admin/students"), loadAdminManualTopics()]);
   state.adminStudents = Array.isArray(payload?.students)
     ? payload.students.map(student => ({
       id: String(student.id || ""),
@@ -7739,6 +8039,7 @@ async function logout() {
 
 function bindEvents() {
   elements.loginForm.addEventListener("submit", handleLogin);
+  elements.adminManualTopicCreate?.addEventListener("click", () => createAdminManualTopics().catch(handleViewError));
   elements.passwordToggle.addEventListener("click", () => {
     const showing = elements.password.type === "text";
     elements.password.type = showing ? "password" : "text";
@@ -8230,6 +8531,10 @@ function bindEvents() {
     if (exportSubmission) return exportStudentSubmissions([exportSubmission.dataset.exportSubmission]);
     const writingTopic = event.target.closest("[data-select-writing-topic]");
     if (writingTopic) return selectWritingTopic(writingTopic.dataset.selectWritingTopic);
+    const saveManualTopic = event.target.closest("[data-admin-manual-topic-save]");
+    if (saveManualTopic) return saveAdminManualTopic(saveManualTopic.dataset.adminManualTopicSave).catch(handleViewError);
+    const deleteManualTopic = event.target.closest("[data-admin-manual-topic-delete]");
+    if (deleteManualTopic) return deleteAdminManualTopic(deleteManualTopic.dataset.adminManualTopicDelete).catch(handleViewError);
     const randomTopic = event.target.closest("[data-random-topic-category]");
     if (randomTopic) return assignRandomWritingTopic(randomTopic.dataset.randomTopicCategory).catch(handleViewError);
     if (event.target.closest("[data-remove-topic-preview]")) {
@@ -8361,6 +8666,7 @@ async function checkHealth() {
 
 async function initialise() {
   bindEvents();
+  initializeAdminManualTopicSlots();
   initializeFeedbackStickyOffset();
   startWritingClock();
   startWritingTimerClock();

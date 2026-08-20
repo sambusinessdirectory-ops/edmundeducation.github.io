@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
-  <link rel="stylesheet" href="writing-submission.css?v=20260820-floating-topic1">
+  <link rel="stylesheet" href="writing-submission.css?v=20260820-manual-topics1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260820-2">
 </head>
 <body>
@@ -382,6 +382,24 @@
             <div class="section-heading"><div><p class="eyebrow">GRAMMAR HISTORY</p><h2>文法問題</h2></div><span class="count-badge" data-admin-grammar-count>0</span></div>
             <div class="admin-grammar-list" data-admin-grammar-list></div>
           </section>
+          <section class="admin-manual-topic-panel glass-panel">
+            <div class="section-heading">
+              <div><p class="eyebrow">MANUAL WRITING TOPIC LINKS</p><h2>手動創作題目 Hyperlink</h2></div>
+            </div>
+            <p class="admin-manual-topic-intro">可一次輸入最多 10 個題目名稱。建立後會立即加入學生的「選擇寫作練習題目」及 Homework Hyperlink 清單。</p>
+            <div class="admin-manual-topic-slots" data-admin-manual-topic-slots></div>
+            <div class="admin-manual-topic-actions">
+              <button class="primary-button" type="button" data-admin-manual-topic-create>創作題目及 Hyperlink</button>
+              <p class="form-status" data-admin-manual-topic-status role="status" aria-live="polite"></p>
+            </div>
+          </section>
+          <section class="admin-manual-topic-panel glass-panel">
+            <div class="section-heading">
+              <div><p class="eyebrow">MANUAL TOPIC LIBRARY</p><h2>手動創作題目 List</h2></div>
+              <span class="count-badge" data-admin-manual-topic-count>0</span>
+            </div>
+            <div class="admin-manual-topic-list" data-admin-manual-topic-list></div>
+          </section>
         </section>
         <article class="submission-detail glass-panel" data-admin-detail>
           <div class="utility-empty"><span aria-hidden="true">→</span><h2>選擇學生</h2><p>學生文章和文法問題會在這裡顯示。</p></div>
@@ -535,6 +553,6 @@
   <script src="writing-submission-config.js"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="shared-system-nav.js?v=20260820-2"></script>
-  <script type="module" src="writing-submission.js?v=20260820-floating-topic1"></script>
+  <script type="module" src="writing-submission.js?v=20260820-manual-topics1"></script>
 </body>
 </html>

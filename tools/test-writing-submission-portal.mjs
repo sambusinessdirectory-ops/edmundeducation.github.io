@@ -55,6 +55,14 @@ const topicAccessMigration = fs.readFileSync(
   "utf8"
 );
 const workerSource = fs.readFileSync(path.join(root, "workers/writing-submission/src/index.js"), "utf8");
+const manualTopicsMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-manual-topics-20260820.sql"),
+  "utf8"
+);
+const manualTopicStudentReferencesMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-manual-topic-student-references-20260820.sql"),
+  "utf8"
+);
 const enhancementMigration = fs.readFileSync(path.join(root, "supabase-writing-submission-enhancements.sql"), "utf8");
 const feedbackRevisionMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-feedback-revision.sql"),
@@ -99,10 +107,33 @@ test("article notifications use strict owner-scoped deep links", () => {
     normalizeWritingSubmissionEntryLink("?exercise=model-essay-2-ielts-advantage-disadvantage"),
     { type: "exercise", exerciseId: "model-essay-2-ielts-advantage-disadvantage" }
   );
+  assert.deepEqual(
+    normalizeWritingSubmissionEntryLink(`?manualTopic=${id}`),
+    { type: "manual-topic", manualTopicId: id }
+  );
   assert.equal(normalizeWritingSubmissionEntryLink("?submission=bad"), null);
   assert.equal(normalizeWritingSubmissionEntryLink("?exercise=good&student=someone"), null);
   assert.match(workerSource, /writing_submission_get_v3[\s\S]*?p_student_id:\s*student\.id/);
   assert.match(enhancementMigration, /where submission\.student_id = p_student_id[\s\S]*?and submission\.id = p_id[\s\S]*?and submission\.deleted_at is null/i);
+});
+
+test("admin manual topics use authenticated storage, safe deep links and an editable catalogue", () => {
+  assert.match(html, /手動創作題目 Hyperlink/);
+  assert.match(html, /data-admin-manual-topic-slots/);
+  assert.match(html, /手動創作題目 List/);
+  assert.match(script, /for \(let index = 0; index < 10; index \+= 1\)/);
+  assert.match(script, /apiJson\("\/v1\/admin\/manual-topics"/);
+  assert.match(script, /manualTopic=\$\{encodeURIComponent\(id\)\}/);
+  assert.match(workerSource, /writing_submission_student_list_manual_topics/);
+  assert.match(workerSource, /rows\.map\(row => manualTopicResponse\(row, true\)\)/);
+  assert.match(workerSource, /writing_submission_admin_create_manual_topics/);
+  assert.match(manualTopicsMigration, /alter table public\.writing_submission_manual_topics enable row level security/i);
+  assert.match(manualTopicsMigration, /revoke all on table public\.writing_submission_manual_topics from public,anon,authenticated/i);
+  assert.match(manualTopicsMigration, /public\._schedule_admin_id\(p_admin_token\) is not null/i);
+  assert.match(manualTopicsMigration, /writing-submission\.html\?manualTopic=/i);
+  assert.match(manualTopicStudentReferencesMigration, /writing_submission_student_list_manual_topics[\s\S]*?flashcard_url[\s\S]*?writing_practice_url[\s\S]*?model_essay_url[\s\S]*?word_list/i);
+  assert.match(script, /manual-topic-word-list/);
+  assert.match(script, /resource\.flashcardUrl[\s\S]*?resource\.writingPracticeUrl[\s\S]*?resource\.modelEssayUrl/);
 });
 
 test("writing grammar checks begin only after newly completed full stops or semicolons", () => {
@@ -354,8 +385,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260820-floating-topic1/);
-  assert.match(html, /writing-submission\.js\?v=20260820-floating-topic1/);
+  assert.match(html, /writing-submission\.css\?v=20260820-manual-topics1/);
+  assert.match(html, /writing-submission\.js\?v=20260820-manual-topics1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -612,7 +643,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /dataset\.topicReferenceVocabulary/);
   assert.match(script, /dataset\.topicReferenceVocabularyScale/);
   assert.match(script, /dataset\.topicReferenceVocabularyUsageStatus/);
-  assert.match(script, /writing-submission-core\.js\?v=20260812-topic-transport1/);
+  assert.match(script, /writing-submission-core\.js\?v=20260820-manual-topics1/);
   assert.doesNotMatch(script, /row\.setAttribute\("aria-label", used/);
   assert.match(script, /refreshVocabularyUsage\(content\)/);
   assert.match(script, /refreshVocabularyUsage\(\)/);

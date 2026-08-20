@@ -878,9 +878,9 @@ assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save 
 assert.match(scheduleJs, /resources\.length >= MAX_HOMEWORK_RESOURCES/, "attachment selection must enforce the resource-count cap without silent truncation");
 assert.match(scheduleJs, /\/v1\/homework-resources/, "the Homework picker must load the current official Video Class catalogue");
 assert.match(scheduleJs, /cache: "no-store"/, "the dynamic Video Class catalogue must not be served from a stale browser cache");
-assert.match(scheduleJs, /filter\(\(resource\) => !String\(resource\?\.type \|\| ""\)\.startsWith\("video-class-"\)\)/,
+assert.match(scheduleJs, /videoClassResources === null \|\| !String\(resource\?\.type \|\| ""\)\.startsWith\("video-class-"\)/,
   "each Video Class refresh must remove deleted or unpublished catalogue rows before adding the current response");
-assert.match(scheduleJs, /ensureHomeworkCatalog\(\{ retryVideoClass: type\.startsWith\("video-class-"\) \}\)/,
+assert.match(scheduleJs, /retryVideoClass: type\.startsWith\("video-class-"\)/,
   "opening either Video Class picker must refresh created, renamed, unpublished, and deleted resources");
 assert.match(scheduleJs, /queueMassEditUpsert\(message, estimatedMinutes\)/, "resource markers must flow through Mass Edit");
 assert.match(scheduleJs, /parseScheduleMessage\(entry\.message\)/, "saved markers must be hidden when rendered");

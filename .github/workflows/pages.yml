@@ -194,6 +194,7 @@ jobs:
           node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-announcement-edit.mjs
           node tools/test-schedule-system.mjs
+          node tools/test-schedule-learning-experience.mjs
           node tools/test-schedule-worker.mjs
           node tools/test-parent-communication-system.mjs
           node tools/test-schedule-account-admin-parity.mjs
