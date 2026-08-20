@@ -569,10 +569,17 @@
     .weekly-reflection-panels {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      align-items: start;
+      align-items: stretch;
       width: min(100%, 1280px);
       gap: 14px;
       margin: 0 auto 14px;
+    }
+
+    .weekly-reflection-side {
+      display: grid;
+      min-width: 0;
+      align-content: start;
+      gap: 14px;
     }
 
     .daily-quote-panel,
@@ -588,6 +595,7 @@
     .daily-quote-panel {
       position: relative;
       overflow: hidden;
+      height: 100%;
       font-family: "Times New Roman", Times, serif;
     }
 
@@ -752,8 +760,8 @@
       position: relative;
       isolation: isolate;
       overflow: hidden;
-      width: min(100%, 1280px);
-      margin: 0 auto 14px;
+      width: 100%;
+      margin: 0;
       border: 1px solid rgba(193, 224, 129, .32);
       border-radius: 20px;
       padding: clamp(17px, 1.7vw, 22px);
@@ -2172,33 +2180,35 @@
           </div>
         </section>
 
-        <section class="weekly-encouragement-panel" id="schedule-weekly-encouragement" data-weekly-encouragement aria-labelledby="weekly-encouragement-title">
-          <h2 id="weekly-encouragement-title">給自己的打氣說話</h2>
-          <textarea data-encouragement-message maxlength="600" placeholder="寫一句給本星期的自己…" aria-label="給自己的打氣說話"></textarea>
-          <div class="encouragement-actions">
-            <button class="encouragement-save-button" type="button" data-save-encouragement>儲存本週打氣說話</button>
-            <button class="secondary-button" type="button" data-use-last-encouragement hidden>沿用上週</button>
-          </div>
-          <p class="encouragement-status" data-encouragement-status role="status" aria-live="polite"></p>
-        </section>
-      </div>
+        <div class="weekly-reflection-side">
+          <section class="weekly-encouragement-panel" id="schedule-weekly-encouragement" data-weekly-encouragement aria-labelledby="weekly-encouragement-title">
+            <h2 id="weekly-encouragement-title">給自己的打氣說話</h2>
+            <textarea data-encouragement-message maxlength="600" placeholder="寫一句給本星期的自己…" aria-label="給自己的打氣說話"></textarea>
+            <div class="encouragement-actions">
+              <button class="encouragement-save-button" type="button" data-save-encouragement>儲存本週打氣說話</button>
+              <button class="secondary-button" type="button" data-use-last-encouragement hidden>沿用上週</button>
+            </div>
+            <p class="encouragement-status" data-encouragement-status role="status" aria-live="polite"></p>
+          </section>
 
-      <section class="reminder-email-panel" id="schedule-reminder-email" data-reminder-email aria-labelledby="reminder-email-title">
-        <div class="reminder-email-heading">
-          <div>
-            <h2 id="reminder-email-title">每日學習提醒</h2>
-            <p>讓馬仔 Eddy 把每天的學習提醒送到您的收件箱。</p>
-          </div>
-          <p class="reminder-email-privacy">請放心，您的電子郵件 會被秘密儲存，而且不會用作市場推廣用途</p>
+          <section class="reminder-email-panel" id="schedule-reminder-email" data-reminder-email aria-labelledby="reminder-email-title">
+            <div class="reminder-email-heading">
+              <div>
+                <h2 id="reminder-email-title">每日學習提醒</h2>
+                <p>讓馬仔 Eddy 把每天的學習提醒送到您的收件箱。</p>
+              </div>
+              <p class="reminder-email-privacy">請放心，您的電子郵件 會被秘密儲存，而且不會用作市場推廣用途</p>
+            </div>
+            <div class="reminder-email-row">
+              <label class="sr-only" for="schedule-reminder-email-input">每日學習提醒電子郵件</label>
+              <input class="reminder-email-input" id="schedule-reminder-email-input" type="email" maxlength="254" autocomplete="email" data-reminder-email-input placeholder="電子郵件 - 輸入以接收馬仔 Eddy 每日給您的學習提醒">
+              <button class="reminder-email-button" type="button" data-update-reminder-email>更新</button>
+              <button class="reminder-email-button remove" type="button" data-remove-reminder-email>移除電郵</button>
+            </div>
+            <p class="reminder-email-status" data-reminder-email-status role="status" aria-live="polite"></p>
+          </section>
         </div>
-        <div class="reminder-email-row">
-          <label class="sr-only" for="schedule-reminder-email-input">每日學習提醒電子郵件</label>
-          <input class="reminder-email-input" id="schedule-reminder-email-input" type="email" maxlength="254" autocomplete="email" data-reminder-email-input placeholder="電子郵件 - 輸入以接收馬仔 Eddy 每日給您的學習提醒">
-          <button class="reminder-email-button" type="button" data-update-reminder-email>更新</button>
-          <button class="reminder-email-button remove" type="button" data-remove-reminder-email>移除電郵</button>
-        </div>
-        <p class="reminder-email-status" data-reminder-email-status role="status" aria-live="polite"></p>
-      </section>
+      </div>
 
       <div id="schedule-table-region" data-table-region>
         <div class="legend">

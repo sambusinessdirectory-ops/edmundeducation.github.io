@@ -80,7 +80,9 @@ assert.match(html, /\.daily-quote-language\[lang="en"\] \.daily-quote-text\s*\{[
 assert.match(html, /\.daily-quote-language\[lang="zh-Hant"\] \.daily-quote-text\s*\{[^}]*font-size:\s*clamp\(17px,[^}]*21px\)/s);
 assert.match(html, /\.daily-quote-attribution\s*\{[^}]*text-align:\s*right/s);
 assert.match(html, /\.daily-quote-attribution\s*\{[^}]*white-space:\s*pre-line/s);
-assert.match(html, /\.weekly-reflection-panels\s*\{[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)[^}]*align-items:\s*start[^}]*width:\s*min\(100%,\s*1280px\)/s);
+assert.match(html, /\.weekly-reflection-panels\s*\{[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)[^}]*align-items:\s*stretch[^}]*width:\s*min\(100%,\s*1280px\)/s);
+assert.match(html, /\.weekly-reflection-side\s*\{[^}]*display:\s*grid[^}]*gap:\s*14px/s);
+assert.match(html, /<div class="weekly-reflection-side">[\s\S]*data-weekly-encouragement[\s\S]*data-reminder-email[\s\S]*<\/div>\s*<\/div>/s);
 assert.match(html, /\.daily-quote-panel,\s*\.weekly-encouragement-panel\s*\{[^}]*background:\s*#4a5568/s);
 assert.match(html, /\.daily-quote-text\s*\{[^}]*color:\s*#ffc04c/s);
 assert.match(html, /\.weekly-encouragement-panel h2\s*\{[^}]*color:\s*#ffc04c/s);
