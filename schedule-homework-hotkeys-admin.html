@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 功課系統 Hot Keys 管理員參考表">
+  <meta name="theme-color" content="#293b5f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="robots" content="noindex,nofollow">
+  <title>功課 Hot Keys | EdmundEducation</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="schedule-homework-hotkeys-admin.css?v=20260820-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <header class="header"><div class="header-inner">
+    <a class="brand" href="schedule-system.html"><img src="Company Logo for Cover Page.png" alt=""><span>EdmundEducation<br><small>Homework System Admin</small></span></a>
+    <a class="back" href="schedule-system.html">返回功課系統</a>
+  </div></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">HOMEWORK LINK COMMAND REFERENCE</p>
+      <h1>功課 Hot Keys</h1>
+      <p>在功課格輸入下列識別字，系統便會開啟對應的安全選擇器。此頁直接讀取系統的正式 Hot Key 設定，避免參考表與實際功能不同步。</p>
+    </section>
+    <section class="panel gate" data-auth-gate><p data-gate-message>正在驗證管理員登入…</p></section>
+    <section class="panel" data-reference hidden>
+      <label class="search-label">搜尋 Hot Key、系統或頁面<input type="search" maxlength="120" autocomplete="off" data-search placeholder="例如：Flash Cards、Video Class、writing"></label>
+      <p class="count" data-count></p>
+      <div class="hotkey-grid" data-hotkey-grid></div>
+      <p class="empty" data-empty hidden>沒有符合的 Hot Key。</p>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script type="module" src="schedule-homework-hotkeys-admin.js?v=20260820-1"></script>
+</body>
+</html>

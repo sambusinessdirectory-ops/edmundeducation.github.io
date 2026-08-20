@@ -110,6 +110,17 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
     "/english-joke-collection.html"
   ])
 });
+
+export const HOMEWORK_HOT_KEY_REFERENCE = Object.freeze(
+  HOMEWORK_RESOURCE_TYPES.map((definition) => Object.freeze({
+    type: definition.type,
+    trigger: definition.trigger,
+    aliases: Object.freeze([...(definition.aliases || [])]),
+    label: definition.label,
+    color: definition.color,
+    pages: Object.freeze([...(ALLOWED_PAGES_BY_TYPE[definition.type] || [])])
+  }))
+);
 const DOWNLOAD_CATALOG_KEYS = Object.freeze([
   "dse-writing-part-a",
   "task1",

@@ -2,7 +2,7 @@ import {
   SELF_EVALUATION_DEFINITIONS,
   selfEvaluationDefinition,
   selfEvaluationRatingsCsv
-} from "./schedule-wellbeing.mjs?v=20260820-1";
+} from "./schedule-wellbeing.mjs?v=20260820-gradient-labels1";
 
 const SESSION_KEY = "edmund-schedule-session-v1";
 const PAGE_SIZE = 100;

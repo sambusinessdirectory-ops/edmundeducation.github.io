@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 每日自評管理員報表">
-  <meta name="theme-color" content="#397863">
+  <meta name="description" content="EdmundEducation 學生每日提醒電郵管理員目錄">
+  <meta name="theme-color" content="#35530a">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="robots" content="noindex,nofollow">
-  <title>每日自評結果 | EdmundEducation</title>
+  <title>學生提醒電郵 | EdmundEducation</title>
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
@@ -18,45 +18,40 @@
   <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="schedule-motivation-admin.css?v=20260820-1">
+  <link rel="stylesheet" href="schedule-reminder-email-admin.css?v=20260820-1">
   <script defer src="/pwa-register.js"></script>
 </head>
-<body data-self-evaluation-metric="motivation">
+<body>
   <header class="header"><div class="header-inner">
     <a class="brand" href="schedule-system.html"><img src="Company Logo for Cover Page.png" alt=""><span>EdmundEducation<br><small>Homework System Admin</small></span></a>
     <a class="back" href="schedule-system.html">返回功課系統</a>
   </div></header>
   <main>
     <section class="hero">
-      <p class="eyebrow" data-report-eyebrow>DAILY MOTIVATION RECORDS</p>
-      <h1 data-report-title>每日動力指數結果</h1>
-      <p data-report-description>按學生名稱及日期範圍搜尋每天的動力自評紀錄，並可匯出目前篩選結果。</p>
+      <p class="eyebrow">PRIVATE REMINDER DIRECTORY</p>
+      <h1>學生提醒電郵</h1>
+      <p>僅供管理員查看。電郵地址不會出現在學生搜尋、公開頁面或瀏覽器快取資料內。</p>
     </section>
     <section class="panel gate" data-auth-gate><p data-gate-message>正在驗證管理員登入…</p></section>
-    <section class="panel" data-report hidden>
+    <section class="panel" data-directory hidden>
       <form class="filters" data-filter-form>
-        <label>自評項目
-          <select name="metric" data-metric-selector title="切換項目後會自動更新報表">
-            <option value="motivation">今天的動力指數</option>
-            <option value="confidence">今天的自信評分</option>
-            <option value="concentration">集中精神程度</option>
-            <option value="attention-span">專注力持續時間評分</option>
-            <option value="stress">壓力評分</option>
-            <option value="homework-difficulty">功課難度評分</option>
-          </select>
-        </label>
         <label>搜尋學生名稱<input type="search" name="studentQuery" maxlength="100" autocomplete="off" placeholder="輸入學生名稱"></label>
-        <label>開始日期<input type="date" name="dateFrom" min="2026-01-01" max="2050-12-31" required></label>
-        <label>結束日期<input type="date" name="dateTo" min="2026-01-01" max="2050-12-31" required></label>
         <button type="submit">搜尋</button>
       </form>
-      <div class="actions"><p class="status" data-status role="status" aria-live="polite"></p><button class="secondary" type="button" data-export-csv>匯出 CSV</button></div>
-      <div class="table-wrap"><table><thead><tr><th>學生</th><th>日期</th><th data-rating-heading>動力指數</th><th>最後更新</th></tr></thead><tbody data-results></tbody></table><p class="empty" data-empty hidden>此篩選範圍未有動力紀錄。</p></div>
+      <p class="privacy-note">🔒 本目錄為私人資料。請勿把畫面、地址或複製內容分享給未獲授權人士。</p>
+      <p class="status" data-status role="status" aria-live="polite"></p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>學生</th><th>提醒電郵</th><th>最後更新</th></tr></thead>
+          <tbody data-results></tbody>
+        </table>
+        <p class="empty" data-empty hidden>未有符合的學生帳戶。</p>
+      </div>
       <div class="pagination"><button type="button" data-previous>上一頁</button><span data-page-label>第 1 頁</span><button type="button" data-next>下一頁</button></div>
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script type="module" src="schedule-motivation-admin.js?v=20260820-gradient-labels1"></script>
+  <script type="module" src="schedule-reminder-email-admin.js?v=20260820-1"></script>
 </body>
 </html>

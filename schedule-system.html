@@ -748,6 +748,81 @@
       outline: none;
     }
 
+    .reminder-email-panel {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      width: min(100%, 1280px);
+      margin: 0 auto 14px;
+      border: 1px solid rgba(193, 224, 129, .32);
+      border-radius: 20px;
+      padding: clamp(17px, 1.7vw, 22px);
+      color: #f5ffe2;
+      background:
+        radial-gradient(circle at 9% 12%, rgba(185, 224, 111, .24), transparent 30%),
+        radial-gradient(circle at 92% 88%, rgba(108, 153, 35, .3), transparent 34%),
+        linear-gradient(135deg, #35530a 0%, #1f3d09 52%, #496e16 100%);
+      box-shadow: 0 14px 32px rgba(25, 53, 5, .22), inset 0 1px 0 rgba(255, 255, 255, .13);
+    }
+    .reminder-email-panel::after {
+      content: "@";
+      position: absolute;
+      z-index: -1;
+      right: 22px;
+      bottom: -48px;
+      color: rgba(241, 255, 211, .08);
+      font: 900 150px/1 Georgia, serif;
+      pointer-events: none;
+    }
+    .reminder-email-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    .reminder-email-heading h2 { margin: 0; color: #f5ffe2; font-size: clamp(20px, 1.65vw, 26px); }
+    .reminder-email-heading p,
+    .reminder-email-privacy { margin: 5px 0 0; color: rgba(244, 255, 225, .78); font-size: 12px; line-height: 1.55; }
+    .reminder-email-row {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto auto;
+      align-items: center;
+      gap: 9px;
+      margin-top: 14px;
+    }
+    .reminder-email-input {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid rgba(225, 244, 187, .48);
+      border-radius: 13px;
+      padding: 10px 13px;
+      color: #203405;
+      background: rgba(251, 255, 243, .96);
+      box-shadow: inset 0 1px 2px rgba(21, 51, 3, .08);
+      font: inherit;
+      font-size: 14px;
+    }
+    .reminder-email-input:focus { border-color: #d7f19d; box-shadow: 0 0 0 4px rgba(205, 238, 138, .22); outline: none; }
+    .reminder-email-button {
+      min-height: 44px;
+      border: 1px solid rgba(225, 244, 187, .44);
+      border-radius: 12px;
+      padding: 9px 15px;
+      color: #263d07;
+      background: linear-gradient(145deg, #e5f6bd, #b8d86d);
+      box-shadow: 0 7px 16px rgba(18, 43, 2, .2);
+      cursor: pointer;
+      font: inherit;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .reminder-email-button.remove { color: #f6ffe8; background: rgba(20, 43, 4, .48); }
+    .reminder-email-button:disabled { opacity: .52; cursor: not-allowed; box-shadow: none; }
+    .reminder-email-status { min-height: 19px; margin: 8px 0 0; color: #e4f7ba; font-size: 12px; font-weight: 800; }
+    .reminder-email-status[data-state="error"] { color: #ffd2cb; }
+
     .encouragement-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
     .encouragement-actions .secondary-button { min-height: 35px; }
     .encouragement-save-button {
@@ -1078,54 +1153,86 @@
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
-      gap: 6px;
+      gap: 7px;
       border-bottom: 1px solid var(--line);
-      padding: 8px;
-      background: rgba(248, 251, 255, .66);
+      padding: 9px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, .88), rgba(241, 246, 252, .74)),
+        repeating-linear-gradient(135deg, rgba(74, 92, 120, .025) 0 1px, transparent 1px 7px);
+    }
+    .daily-self-rating-list::before {
+      content: "DAILY CHECK-IN · 每日狀態";
+      width: 100%;
+      margin: 1px 2px 2px;
+      color: #52657b;
+      font-size: 9px;
+      font-weight: 950;
+      letter-spacing: .11em;
+      text-align: center;
     }
     .daily-motivation-rating {
-      --rating-gradient: linear-gradient(135deg, #bfe0ff, #a9ebc7);
+      --rating-from: #bfe0ff;
+      --rating-to: #7ed9b3;
       --rating-border: #3f9f8a;
       --rating-ink: #143e4e;
+      --rating-surface: linear-gradient(135deg, rgba(221, 239, 255, .92), rgba(212, 247, 232, .88));
       width: 100%;
       flex: 1 0 100%;
-      border: 1px solid rgba(66, 102, 142, .14);
-      border-radius: 14px;
-      padding: 12px 10px 10px;
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      border: 1px solid color-mix(in srgb, var(--rating-border) 27%, white);
+      border-radius: 13px;
+      padding: 8px 8px 7px;
       display: grid;
       justify-items: center;
-      gap: 7px;
-      background: rgba(248, 251, 255, .76);
+      gap: 6px;
+      background: var(--rating-surface);
+      box-shadow: 0 5px 13px rgba(30, 49, 73, .065), inset 0 1px 0 rgba(255, 255, 255, .75);
+    }
+    .daily-motivation-rating::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0 auto 0 0;
+      width: 4px;
+      background: linear-gradient(180deg, var(--rating-from), var(--rating-to));
+      box-shadow: 2px 0 12px color-mix(in srgb, var(--rating-to) 38%, transparent);
     }
     .daily-self-rating.rating-confidence {
-      --rating-gradient: linear-gradient(145deg, #d9edb8, #ffe17a);
+      --rating-from: #d9edb8;
+      --rating-to: #ffe17a;
       --rating-border: #a8b955;
       --rating-ink: #455114;
-      background: linear-gradient(145deg, #f7fbe9, #fff9dc);
+      --rating-surface: linear-gradient(145deg, rgba(229, 243, 204, .9), rgba(255, 235, 145, .72));
     }
     .daily-self-rating.rating-concentration {
-      --rating-gradient: linear-gradient(145deg, #e4e9f3, #6482b8);
+      --rating-from: #e4e9f3;
+      --rating-to: #6482b8;
       --rating-border: #667fae;
       --rating-ink: #183257;
-      background: linear-gradient(145deg, #fafbfd, #eef3fb);
+      --rating-surface: linear-gradient(145deg, rgba(238, 241, 247, .94), rgba(143, 164, 202, .7));
     }
     .daily-self-rating.rating-attention-span {
-      --rating-gradient: linear-gradient(145deg, #cb4770, #6f2b3d);
+      --rating-from: #cb4770;
+      --rating-to: #6f2b3d;
       --rating-border: #8c304d;
       --rating-ink: #fff;
-      background: linear-gradient(145deg, #fff5f8, #f7e8ed);
+      --rating-surface: linear-gradient(145deg, rgba(239, 178, 197, .9), rgba(127, 52, 73, .74));
     }
     .daily-self-rating.rating-stress {
-      --rating-gradient: linear-gradient(145deg, #f0e4dd, #cc7764);
+      --rating-from: #f0e4dd;
+      --rating-to: #cc7764;
       --rating-border: #b87162;
       --rating-ink: #54271f;
-      background: linear-gradient(145deg, #fffaf6, #faeee7);
+      --rating-surface: linear-gradient(145deg, rgba(242, 231, 224, .94), rgba(214, 137, 119, .72));
     }
     .daily-self-rating.rating-homework-difficulty {
-      --rating-gradient: linear-gradient(145deg, #eadcff, #8d5bc4);
+      --rating-from: #eadcff;
+      --rating-to: #8d5bc4;
       --rating-border: #8553b8;
       --rating-ink: #351353;
-      background: linear-gradient(145deg, #fcf9ff, #f2eaff);
+      --rating-surface: linear-gradient(145deg, rgba(239, 225, 255, .94), rgba(170, 117, 212, .7));
     }
     .daily-self-rating-heading {
       width: 100%;
@@ -1144,7 +1251,8 @@
       display: grid;
       place-items: center;
       color: #334155;
-      background: rgba(255, 255, 255, .82);
+      background: linear-gradient(145deg, rgba(255, 255, 255, .96), rgba(255, 255, 255, .68));
+      box-shadow: 0 3px 9px rgba(31, 50, 75, .1);
       cursor: pointer;
       font-size: 17px;
       font-weight: 900;
@@ -1157,7 +1265,7 @@
       max-width: 100%;
       flex: 0 0 auto;
       border-radius: 999px;
-      padding: 5px 7px 5px 10px;
+      padding: 6px 7px 6px 12px;
       display: block;
     }
     .daily-self-rating.is-collapsed .daily-self-rating-heading {
@@ -1171,59 +1279,60 @@
     .daily-motivation-title {
       margin: 0;
       color: #334155;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 900;
-      letter-spacing: .02em;
+      letter-spacing: .025em;
       text-align: center;
     }
     .daily-motivation-scale {
-      width: min(100%, 146px);
+      width: 100%;
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 6px 3px;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 4px;
       justify-items: center;
     }
     .daily-motivation-circle {
-      width: 34px;
-      height: 34px;
-      border: 1px solid rgba(66, 102, 142, .25);
+      --rating-strength: 42%;
+      width: clamp(26px, 2.8vw, 31px);
+      height: clamp(26px, 2.8vw, 31px);
+      border: 1px solid color-mix(in srgb, var(--rating-border) 43%, white);
       border-radius: 50%;
       display: grid;
       place-items: center;
-      color: #38526f;
-      background: rgba(255, 255, 255, .9);
-      box-shadow: 0 4px 10px rgba(50, 82, 114, .08);
+      color: color-mix(in srgb, var(--rating-ink) 78%, #263649);
+      background: linear-gradient(145deg,
+        color-mix(in srgb, var(--rating-from) var(--rating-strength), white),
+        color-mix(in srgb, var(--rating-to) var(--rating-strength), white));
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .72), 0 4px 10px rgba(50, 82, 114, .11);
       cursor: pointer;
       font: inherit;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 900;
       transition: transform .16s ease, border-color .16s ease, background .16s ease, box-shadow .16s ease;
     }
-    .daily-motivation-circle:nth-child(1) { grid-column: 1 / span 2; }
-    .daily-motivation-circle:nth-child(2) { grid-column: 3 / span 2; }
-    .daily-motivation-circle:nth-child(3) { grid-column: 5 / span 2; }
-    .daily-motivation-circle:nth-child(4) { grid-column: 2 / span 2; }
-    .daily-motivation-circle:nth-child(5) { grid-column: 4 / span 2; }
     .daily-motivation-circle:hover,
     .daily-motivation-circle:focus-visible {
       border-color: var(--rating-border);
       color: var(--rating-ink);
-      background: var(--rating-gradient);
-      box-shadow: 0 7px 15px rgba(45, 117, 111, .18);
-      transform: translateY(-1px);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--rating-from) 28%, transparent), 0 8px 18px rgba(31, 50, 75, .18);
+      transform: translateY(-2px) scale(1.035);
       outline: none;
     }
     .daily-motivation-circle[aria-pressed="true"] {
       border-color: var(--rating-border);
       color: var(--rating-ink);
-      background: var(--rating-gradient);
-      box-shadow: 0 0 0 3px rgba(105, 188, 177, .2), 0 7px 15px rgba(45, 117, 111, .18);
+      background: linear-gradient(145deg, var(--rating-from), var(--rating-to));
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--rating-from) 34%, transparent), 0 9px 20px rgba(31, 50, 75, .2);
+      transform: translateY(-1px) scale(1.06);
     }
+    .rating-attention-span .daily-motivation-circle:nth-child(n + 3),
+    .rating-concentration .daily-motivation-circle:nth-child(5),
+    .rating-homework-difficulty .daily-motivation-circle:nth-child(5) { color: #fff; text-shadow: 0 1px 2px rgba(21, 21, 34, .35); }
     .daily-motivation-status {
-      min-height: 16px;
+      min-height: 14px;
       margin: 0;
       color: #607080;
-      font-size: 10px;
+      font-size: 9.5px;
       font-weight: 750;
       line-height: 1.35;
       text-align: center;
@@ -1748,6 +1857,7 @@
       .planner-motif { width: 88px; top: 34px; right: 34px; }
       .calendar-toolbar { grid-template-columns: 1fr; }
       .weekly-reflection-panels { grid-template-columns: 1fr; }
+      .reminder-email-row { grid-template-columns: 1fr auto auto; }
       .account-admin-layout { grid-template-columns: 1fr; }
       .announcement-admin-form, .announcement-admin-row { grid-template-columns: 1fr; }
       .announcement-admin-actions { display: flex; width: auto; }
@@ -1768,6 +1878,9 @@
       .header-actions { width: 100%; justify-content: flex-start; gap: 6px; }
       .connection-pill, .user-pill, .header-button { min-height: 34px; padding: 7px 10px; font-size: 11px; }
       .shell { width: min(100% - 20px, 1540px); padding-top: 24px; }
+      .reminder-email-heading { display: block; }
+      .reminder-email-row { grid-template-columns: 1fr 1fr; }
+      .reminder-email-input { grid-column: 1 / -1; }
       .login-intro, .login-panel, .admin-hero, .student-list-panel, .calendar-toolbar { padding: 24px; }
       .login-intro { min-height: 540px; }
       .login-intro h1 { font-size: 44px; }
@@ -1864,6 +1977,8 @@
         <button class="header-button" type="button" data-change-password hidden>更改用戶系統 Password</button>
         <button class="header-button" type="button" data-admin-students hidden>學生清單</button>
         <a class="header-button" href="schedule-motivation-admin.html" data-admin-motivation-results hidden>學生自評結果</a>
+        <a class="header-button" href="schedule-reminder-email-admin.html" data-admin-reminder-emails hidden>學生提醒電郵</a>
+        <a class="header-button" href="schedule-homework-hotkeys-admin.html" data-admin-homework-hotkeys hidden>功課 Hot Keys</a>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
     </div>
@@ -2029,6 +2144,7 @@
           <button class="subtle-toggle" type="button" data-toggle-motivation aria-controls="schedule-week-grid" aria-pressed="false" hidden>隱藏動力指數</button>
           <button class="subtle-toggle" type="button" data-toggle-daily-quote aria-controls="schedule-daily-quote" aria-pressed="false">隱藏名人語錄</button>
           <button class="subtle-toggle" type="button" data-toggle-encouragement aria-controls="schedule-weekly-encouragement" aria-pressed="false">隱藏打氣說話</button>
+          <button class="subtle-toggle" type="button" data-toggle-reminder-email aria-controls="schedule-reminder-email" aria-pressed="false">隱藏電郵列</button>
           <button class="subtle-toggle" type="button" data-toggle-table aria-controls="schedule-table-region" aria-expanded="true">隱藏日程表</button>
         </div>
       </div>
@@ -2066,6 +2182,23 @@
           <p class="encouragement-status" data-encouragement-status role="status" aria-live="polite"></p>
         </section>
       </div>
+
+      <section class="reminder-email-panel" id="schedule-reminder-email" data-reminder-email aria-labelledby="reminder-email-title">
+        <div class="reminder-email-heading">
+          <div>
+            <h2 id="reminder-email-title">每日學習提醒</h2>
+            <p>讓馬仔 Eddy 把每天的學習提醒送到您的收件箱。</p>
+          </div>
+          <p class="reminder-email-privacy">請放心，您的電子郵件 會被秘密儲存，而且不會用作市場推廣用途</p>
+        </div>
+        <div class="reminder-email-row">
+          <label class="sr-only" for="schedule-reminder-email-input">每日學習提醒電子郵件</label>
+          <input class="reminder-email-input" id="schedule-reminder-email-input" type="email" maxlength="254" autocomplete="email" data-reminder-email-input placeholder="電子郵件 - 輸入以接收馬仔 Eddy 每日給您的學習提醒">
+          <button class="reminder-email-button" type="button" data-update-reminder-email>更新</button>
+          <button class="reminder-email-button remove" type="button" data-remove-reminder-email>移除電郵</button>
+        </div>
+        <p class="reminder-email-status" data-reminder-email-status role="status" aria-live="polite"></p>
+      </section>
 
       <div id="schedule-table-region" data-table-region>
         <div class="legend">
@@ -2376,6 +2509,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260820-2"></script>
-  <script type="module" src="schedule-system.js?v=20260820-2"></script>
+  <script type="module" src="schedule-system.js?v=20260820-reminder-hotkeys1"></script>
 </body>
 </html>

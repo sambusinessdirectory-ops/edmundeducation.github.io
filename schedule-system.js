@@ -50,7 +50,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260820-wellbeing1";
+} from "./schedule-homework-links.mjs?v=20260820-email-hotkey1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -77,7 +77,7 @@ import {
   selfEvaluationDefinition,
   shouldLimitHomeworkSlots,
   wellbeingRatingsByMetricAndDate
-} from "./schedule-wellbeing.mjs?v=20260820-1";
+} from "./schedule-wellbeing.mjs?v=20260820-gradient-labels1";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
@@ -193,6 +193,8 @@ const elements = {
   logout: document.querySelector("[data-logout]"),
   adminStudentsButton: document.querySelector("[data-admin-students]"),
   adminMotivationResults: document.querySelector("[data-admin-motivation-results]"),
+  adminReminderEmails: document.querySelector("[data-admin-reminder-emails]"),
+  adminHomeworkHotkeys: document.querySelector("[data-admin-homework-hotkeys]"),
   announcementForm: document.querySelector("[data-announcement-form]"),
   announcementMessage: document.querySelector("[data-announcement-message]"),
   announcementImage: document.querySelector("[data-announcement-image]"),
@@ -256,6 +258,7 @@ const elements = {
   toggleMotivation: document.querySelector("[data-toggle-motivation]"),
   toggleDailyQuote: document.querySelector("[data-toggle-daily-quote]"),
   toggleEncouragement: document.querySelector("[data-toggle-encouragement]"),
+  toggleReminderEmail: document.querySelector("[data-toggle-reminder-email]"),
   dailyQuote: document.querySelector("[data-daily-quote]"),
   quotePrevious: document.querySelector("[data-quote-previous]"),
   quoteNext: document.querySelector("[data-quote-next]"),
@@ -270,6 +273,11 @@ const elements = {
   saveEncouragement: document.querySelector("[data-save-encouragement]"),
   useLastEncouragement: document.querySelector("[data-use-last-encouragement]"),
   encouragementStatus: document.querySelector("[data-encouragement-status]"),
+  reminderEmailPanel: document.querySelector("[data-reminder-email]"),
+  reminderEmailInput: document.querySelector("[data-reminder-email-input]"),
+  updateReminderEmail: document.querySelector("[data-update-reminder-email]"),
+  removeReminderEmail: document.querySelector("[data-remove-reminder-email]"),
+  reminderEmailStatus: document.querySelector("[data-reminder-email-status]"),
   toggleSelection: document.querySelector("[data-toggle-selection]"),
   selectionActions: document.querySelector("[data-selection-actions]"),
   selectionCount: document.querySelector("[data-selection-count]"),
@@ -388,6 +396,9 @@ const state = {
   motivationVisibilityOwner: "",
   hideDailyQuote: false,
   hideEncouragement: false,
+  hideReminderEmail: false,
+  reminderEmail: { email: "", updatedAt: null },
+  reminderEmailBusy: false,
   ratingCollapsed: normalizeRatingCollapsePreferences(null),
   learningPurpose: normalizeLearningPurposePayload(null),
   learningPurposeBusy: false,
@@ -530,6 +541,7 @@ function emptyWeekPayload() {
       previousMessage: "",
       canUsePrevious: false
     },
+    reminderEmail: { email: "", updatedAt: null },
     motivationRatings: {},
     wellbeingRatings: wellbeingRatingsByMetricAndDate([])
   };
@@ -828,6 +840,12 @@ function showView(name) {
   );
   if (elements.adminMotivationResults) {
     elements.adminMotivationResults.hidden = state.currentUser?.role !== "admin";
+  }
+  if (elements.adminReminderEmails) {
+    elements.adminReminderEmails.hidden = state.currentUser?.role !== "admin";
+  }
+  if (elements.adminHomeworkHotkeys) {
+    elements.adminHomeworkHotkeys.hidden = state.currentUser?.role !== "admin";
   }
   if (loggedIn) {
     elements.userPill.textContent = state.currentUser.role === "admin"
@@ -1492,6 +1510,9 @@ function clearRenderedSchedule() {
   state.motivationVisibilityOwner = "";
   state.hideDailyQuote = false;
   state.hideEncouragement = false;
+  state.hideReminderEmail = false;
+  state.reminderEmail = { email: "", updatedAt: null };
+  state.reminderEmailBusy = false;
   state.ratingCollapsed = normalizeRatingCollapsePreferences(null);
   state.learningPurpose = normalizeLearningPurposePayload(null);
   state.learningPurposeBusy = false;
@@ -1543,6 +1564,7 @@ function clearRenderedSchedule() {
   elements.countdownGrid?.replaceChildren();
   setStatus(elements.countdownStatus, "");
   renderEncouragementFromPayload();
+  renderReminderEmail();
   renderLearningPurpose();
   setMetricsUnavailable();
   applyDisplayPreferences();
@@ -1576,7 +1598,14 @@ function applyDisplayPreferences() {
   elements.weeklyEncouragement.hidden = state.hideEncouragement;
   elements.toggleEncouragement.textContent = state.hideEncouragement ? "顯示打氣說話" : "隱藏打氣說話";
   elements.toggleEncouragement.setAttribute("aria-pressed", String(state.hideEncouragement));
+  const reminderEmailAvailable = state.currentUser?.role === "student";
+  elements.toggleReminderEmail.hidden = !reminderEmailAvailable;
+  elements.toggleReminderEmail.disabled = state.mutationInFlight || !reminderEmailAvailable;
+  elements.reminderEmailPanel.hidden = !reminderEmailAvailable || state.hideReminderEmail;
+  elements.toggleReminderEmail.textContent = state.hideReminderEmail ? "顯示電郵列" : "隱藏電郵列";
+  elements.toggleReminderEmail.setAttribute("aria-pressed", String(state.hideReminderEmail));
   updateEncouragementControls();
+  updateReminderEmailControls();
   updateSelectionControls();
   updateMassEditControls();
 }
@@ -1591,6 +1620,7 @@ function normalizeDisplayPreferences(value) {
     hideMascots: value?.hideMascots === true,
     hideDailyQuote: value?.hideDailyQuote === true,
     hideEncouragement: value?.hideEncouragement === true,
+    hideReminderEmail: value?.hideReminderEmail === true,
     ratingCollapsed: normalizeRatingCollapsePreferences(value)
   };
 }
@@ -1600,6 +1630,7 @@ function restoreDisplayPreferences(preferences) {
   state.hideMascots = preferences.hideMascots;
   state.hideDailyQuote = preferences.hideDailyQuote;
   state.hideEncouragement = preferences.hideEncouragement;
+  state.hideReminderEmail = preferences.hideReminderEmail;
   state.ratingCollapsed = { ...preferences.ratingCollapsed };
 }
 
@@ -1728,6 +1759,7 @@ function setMutationInFlight(busy) {
   elements.toggleMotivation.disabled = busy || !state.currentUser || !activeStudent();
   elements.toggleDailyQuote.disabled = busy;
   elements.toggleEncouragement.disabled = busy;
+  elements.toggleReminderEmail.disabled = busy || state.currentUser?.role !== "student";
   elements.toggleSelection.disabled = busy;
   updateSelectionControls();
   updateMassEditControls();
@@ -1907,6 +1939,15 @@ function toggleEncouragementVisibility() {
   });
 }
 
+function toggleReminderEmailVisibility() {
+  return toggleStoredPanelPreference({
+    stateKey: "hideReminderEmail",
+    patchKey: "hideReminderEmail",
+    hiddenLabel: "已隱藏電郵列。",
+    visibleLabel: "已顯示電郵列。"
+  });
+}
+
 function normalizeEncouragement(value) {
   return {
     message: typeof value?.message === "string" ? value.message : "",
@@ -1999,6 +2040,106 @@ function saveWeeklyEncouragement() {
 
 function usePreviousWeekEncouragement() {
   return mutateEncouragement("carry");
+}
+
+function normalizeReminderEmail(value) {
+  return {
+    email: typeof value?.email === "string" ? value.email.trim() : "",
+    updatedAt: value?.updatedAt || value?.updated_at || null
+  };
+}
+
+function reminderEmailIsValid(value) {
+  const email = String(value || "").trim();
+  if (!email || email.length > 254 || /[\s\u0000-\u001f\u007f]/u.test(email)) return false;
+  elements.reminderEmailInput.value = email;
+  return elements.reminderEmailInput.validity.valid;
+}
+
+function updateReminderEmailControls() {
+  if (!elements.reminderEmailInput) return;
+  const unavailable = state.currentUser?.role !== "student" || state.reminderEmailBusy;
+  const saved = normalizeReminderEmail(state.reminderEmail);
+  elements.reminderEmailInput.disabled = unavailable;
+  elements.updateReminderEmail.disabled = unavailable;
+  elements.removeReminderEmail.disabled = unavailable || !saved.email;
+}
+
+function renderReminderEmail(statusText = "", status = "") {
+  if (!elements.reminderEmailInput) return;
+  const saved = normalizeReminderEmail(state.reminderEmail);
+  elements.reminderEmailInput.value = saved.email;
+  const defaultStatus = saved.email
+    ? `已秘密儲存 · 最後更新 ${formatAdminDateTime(saved.updatedAt)}`
+    : "尚未儲存提醒電郵。";
+  setStatus(elements.reminderEmailStatus, statusText || defaultStatus, status);
+  updateReminderEmailControls();
+}
+
+function validateReminderEmailInput({ announce = true } = {}) {
+  const email = String(elements.reminderEmailInput?.value || "").trim();
+  const valid = reminderEmailIsValid(email);
+  if (announce) {
+    setStatus(
+      elements.reminderEmailStatus,
+      valid ? "電郵格式正確，可以更新。" : "電郵格式不正確，請檢查後再試。",
+      valid ? "success" : "error"
+    );
+  }
+  return valid ? email : "";
+}
+
+async function saveReminderEmail() {
+  if (state.currentUser?.role !== "student" || state.reminderEmailBusy) return;
+  const email = validateReminderEmailInput();
+  if (!email) {
+    elements.reminderEmailInput.focus();
+    return;
+  }
+  state.reminderEmailBusy = true;
+  updateReminderEmailControls();
+  setStatus(elements.reminderEmailStatus, "正在以私人方式儲存…");
+  try {
+    const result = await callRpc("schedule_student_set_reminder_email", {
+      p_token: state.currentUser.studentToken,
+      p_email: email
+    });
+    const saved = normalizeReminderEmail(result);
+    if (!saved.email) throw new Error("未能確認電郵已儲存。");
+    state.reminderEmail = saved;
+    renderReminderEmail("電郵格式正確，並已秘密儲存。", "success");
+    showToast("每日提醒電郵已更新。", "success");
+  } catch (error) {
+    setStatus(elements.reminderEmailStatus, error.message || "未能儲存提醒電郵。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    state.reminderEmailBusy = false;
+    updateReminderEmailControls();
+  }
+}
+
+async function deleteReminderEmail() {
+  if (state.currentUser?.role !== "student" || state.reminderEmailBusy) return;
+  if (!normalizeReminderEmail(state.reminderEmail).email) return;
+  if (!window.confirm("確定要永久移除已儲存的提醒電郵嗎？")) return;
+  state.reminderEmailBusy = true;
+  updateReminderEmailControls();
+  setStatus(elements.reminderEmailStatus, "正在移除…");
+  try {
+    const removed = await callRpc("schedule_student_delete_reminder_email", {
+      p_token: state.currentUser.studentToken
+    });
+    if (removed !== true) throw new Error("未能確認電郵已移除。");
+    state.reminderEmail = { email: "", updatedAt: null };
+    renderReminderEmail("已永久移除提醒電郵。", "success");
+    showToast("提醒電郵已移除。", "success");
+  } catch (error) {
+    setStatus(elements.reminderEmailStatus, error.message || "未能移除提醒電郵。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    state.reminderEmailBusy = false;
+    updateReminderEmailControls();
+  }
 }
 
 function updateLearningPurposeControls() {
@@ -4175,7 +4316,7 @@ async function loadWeek(focusTarget = null) {
   updateCalendarHeading();
 
   try {
-    const [payload, encouragementPayload, motivationPayload, wellbeingPayload, learningPurposePayload] = state.currentUser.role === "admin"
+    const [payload, encouragementPayload, motivationPayload, wellbeingPayload, learningPurposePayload, reminderEmailPayload] = state.currentUser.role === "admin"
       ? await Promise.all([
           callRpc("schedule_admin_get_week", {
             p_admin_token: state.currentUser.adminToken,
@@ -4201,7 +4342,8 @@ async function loadWeek(focusTarget = null) {
             p_admin_token: state.currentUser.adminToken,
             p_student_id: student.id,
             p_version_id: null
-          })
+          }),
+          Promise.resolve(null)
         ])
       : await Promise.all([
           callRpc("schedule_student_get_week", {
@@ -4223,7 +4365,8 @@ async function loadWeek(focusTarget = null) {
           safelyLoadLearningPurpose("schedule_student_get_learning_purpose", {
             p_token: state.currentUser.studentToken,
             p_version_id: null
-          })
+          }),
+          safelyLoadReminderEmail()
         ]);
 
     if (requestId !== state.weekRequestId || requestedWeek !== state.weekStart) return;
@@ -4262,10 +4405,12 @@ async function loadWeek(focusTarget = null) {
       countdownCapacity: Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || MIN_COUNTDOWNS)),
       countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : [],
       encouragement: normalizeEncouragement(encouragementPayload),
+      reminderEmail: normalizeReminderEmail(reminderEmailPayload),
       motivationRatings: motivationRatingsByDate(motivationPayload),
       wellbeingRatings: wellbeingRatingsByMetricAndDate(wellbeingPayload)
     };
     state.learningPurpose = normalizeLearningPurposePayload(learningPurposePayload);
+    state.reminderEmail = normalizeReminderEmail(reminderEmailPayload);
     if (state.massEditMode) {
       state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
       state.massEditChanges.clear();
@@ -4275,6 +4420,7 @@ async function loadWeek(focusTarget = null) {
     }
     renderWeek();
     renderEncouragementFromPayload();
+    renderReminderEmail();
     renderLearningPurpose();
     renderMetrics();
     renderCountdowns();
@@ -4528,6 +4674,17 @@ async function safelyLoadLearningPurpose(rpcName, args) {
   }
 }
 
+async function safelyLoadReminderEmail() {
+  try {
+    return await callRpc("schedule_student_get_reminder_email", {
+      p_token: state.currentUser.studentToken
+    });
+  } catch (error) {
+    console.warn("Schedule reminder email load failed", error);
+    return null;
+  }
+}
+
 function motivationSaveContextIsCurrent(context) {
   const student = activeStudent();
   return Boolean(
@@ -4716,6 +4873,7 @@ function createDailySelfEvaluationPanel(definition, scheduleDate, dayIndex, acti
       button.dataset.wellbeingRating = String(rating);
     }
     button.textContent = String(rating);
+    button.style.setProperty("--rating-strength", `${28 + (rating * 12)}%`);
     button.setAttribute("aria-label", `${definition.label} ${rating}`);
     button.setAttribute("aria-pressed", String(selectedRating === rating));
     scale.append(button);
@@ -7045,8 +7203,25 @@ elements.quotePrevious?.addEventListener("click", () => changeDailyQuoteDay(-1))
 elements.quoteNext?.addEventListener("click", () => changeDailyQuoteDay(1));
 elements.quoteToday?.addEventListener("click", showTodayDailyQuote);
 elements.toggleEncouragement.addEventListener("click", toggleEncouragementVisibility);
+elements.toggleReminderEmail.addEventListener("click", toggleReminderEmailVisibility);
 elements.saveEncouragement.addEventListener("click", saveWeeklyEncouragement);
 elements.useLastEncouragement.addEventListener("click", usePreviousWeekEncouragement);
+elements.reminderEmailInput.addEventListener("input", () => {
+  const value = String(elements.reminderEmailInput.value || "").trim();
+  if (!value) {
+    setStatus(elements.reminderEmailStatus, "尚未輸入提醒電郵。");
+    return;
+  }
+  validateReminderEmailInput();
+});
+elements.reminderEmailInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" && !event.isComposing) {
+    event.preventDefault();
+    saveReminderEmail();
+  }
+});
+elements.updateReminderEmail.addEventListener("click", saveReminderEmail);
+elements.removeReminderEmail.addEventListener("click", deleteReminderEmail);
 elements.learningPurposeSave?.addEventListener("click", saveLearningPurpose);
 elements.learningPurposeDelete?.addEventListener("click", deleteLearningPurpose);
 elements.learningPurposeOlder?.addEventListener("click", () => {
@@ -7168,6 +7343,11 @@ elements.entryDialog.addEventListener("close", () => {
   closeHomeworkPicker();
   elements.homeworkAttachments.replaceChildren();
   elements.homeworkAttachments.hidden = true;
+});
+elements.entryDialog.addEventListener("click", (event) => {
+  if (event.target === elements.entryDialog && !elements.deleteDialog.open) {
+    elements.entryDialog.close();
+  }
 });
 
 async function initialize() {

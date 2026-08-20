@@ -25,8 +25,8 @@ assert.deepEqual(
   [
     ["motivation", "今天的動力指數"],
     ["confidence", "今天的自信評分"],
-    ["concentration", "專注力評分"],
-    ["attention-span", "持續時間評分"],
+    ["concentration", "集中精神程度"],
+    ["attention-span", "專注力持續時間評分"],
     ["stress", "壓力評分"],
     ["homework-difficulty", "功課難度評分"]
   ]
@@ -84,7 +84,7 @@ const csv = selfEvaluationRatingsCsv([{
 }]);
 assert.ok(csv.startsWith("\uFEFF"));
 assert.match(csv, /"'\=HYPERLINK\(""bad""\)"/);
-assert.match(csv, /"持續時間評分"/);
+assert.match(csv, /"專注力持續時間評分"/);
 
 assert.deepEqual(normalizeLearningPurposePayload({
   id: "11111111-1111-4111-8111-111111111111",

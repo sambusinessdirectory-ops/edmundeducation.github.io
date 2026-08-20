@@ -17,15 +17,15 @@ export const SELF_EVALUATION_DEFINITIONS = Object.freeze([
   }),
   Object.freeze({
     key: "concentration",
-    label: "專注力評分",
-    shortLabel: "專注力",
+    label: "集中精神程度",
+    shortLabel: "集中程度",
     preferenceKey: "collapseConcentration",
     lowIsChallenging: true
   }),
   Object.freeze({
     key: "attention-span",
-    label: "持續時間評分",
-    shortLabel: "持續時間",
+    label: "專注力持續時間評分",
+    shortLabel: "專注持續",
     preferenceKey: "collapseAttentionSpan",
     lowIsChallenging: true
   }),
