@@ -726,8 +726,13 @@ async function studentLogin(username, password) {
   if (!row?.session_token) return false;
   state.token = String(row.session_token);
   state.user = { id: String(row.id || ""), name: String(row.name || username), role: "student" };
+  // Authentication is complete before the older cloud record is downloaded.
+  // Seed the main page from the device copy so students leave the login screen
+  // immediately, while loadSnapshot() reconciles the canonical record next.
+  loadProgressPreferences();
+  applySnapshot({});
+  saveSession();
   window.EdmundSystemNav?.rememberStudentSession({ token: state.token, id: state.user.id, name: state.user.name, role: "student" });
-  await loadSnapshot(state.token);
   return true;
 }
 
@@ -743,9 +748,27 @@ async function handleLogin(event) {
     if (!await studentLogin(username, password)) throw new Error("用戶名稱或密碼不正確。");
     elements.loginForm.reset();
     setFormStatus("");
-    setConnection("已安全連接", "online");
-    if (!openRequestedLesson()) openDashboard();
-    showToast(`您好，${state.user.name}！`);
+    setConnection("已登入 · 正在載入紀錄", "checking");
+    openDashboard();
+    const dashboard = elements.views.find(view => view.dataset.view === "dashboard");
+    dashboard?.setAttribute("aria-busy", "true");
+    if (dashboard) dashboard.inert = true;
+    let recordsLoaded = true;
+    try {
+      await loadSnapshot(state.token);
+      renderDashboard();
+      setConnection("已安全連接", "online");
+      openRequestedLesson();
+    } catch (snapshotError) {
+      recordsLoaded = false;
+      console.warn("Common Expression record restore failed", snapshotError);
+      setConnection("已登入 · 正使用裝置紀錄", "warning");
+      showToast("已進入學習首頁；舊有雲端紀錄暫時未能載入，請稍後重試。");
+    } finally {
+      dashboard?.removeAttribute("aria-busy");
+      if (dashboard) dashboard.inert = false;
+    }
+    if (recordsLoaded) showToast(`您好，${state.user.name}！`);
   } catch (error) {
     console.warn("Common Expression login failed", error);
     setFormStatus(error.message || "登入失敗，請稍後再試。", "error");
@@ -760,16 +783,42 @@ async function restoreSession() {
   const stored = readSession();
   const candidate = universal?.role === "student" ? universal : stored?.role === "student" ? stored : null;
   if (!candidate?.token) return false;
+  state.token = String(candidate.token);
+  state.user = {
+    id: String(candidate.id || ""),
+    name: String(candidate.name || "Student"),
+    role: "student"
+  };
+  loadProgressPreferences();
+  applySnapshot({});
+  openDashboard();
+  setConnection("已登入 · 正在載入紀錄", "checking");
+  const dashboard = elements.views.find(view => view.dataset.view === "dashboard");
+  dashboard?.setAttribute("aria-busy", "true");
+  if (dashboard) dashboard.inert = true;
   try {
-    await loadSnapshot(String(candidate.token));
+    await loadSnapshot(state.token);
     window.EdmundSystemNav?.rememberStudentSession({ token: state.token, id: state.user.id, name: state.user.name, role: "student" });
     setConnection("已安全連接", "online");
-    if (!openRequestedLesson()) openDashboard();
+    openRequestedLesson();
     return true;
   } catch (error) {
     console.warn("Common Expression session restore failed", error);
-    clearSession();
-    return false;
+    const invalidSession = /登入時段已失效|invalid[^\n]*session|session[^\n]*expired|jwt[^\n]*expired/i
+      .test(String(error?.message || error || ""));
+    if (invalidSession) {
+      clearSession();
+      return false;
+    }
+    // A temporary record-service failure must not send an already signed-in
+    // student back to the login screen. Keep the local snapshot read-only and
+    // let the next reload/retry reconcile it with the cloud record.
+    setConnection("已登入 · 正使用裝置紀錄", "warning");
+    showToast("已進入學習首頁；舊有雲端紀錄暫時未能載入，請稍後重試。");
+    return true;
+  } finally {
+    dashboard?.removeAttribute("aria-busy");
+    if (dashboard) dashboard.inert = false;
   }
 }
 

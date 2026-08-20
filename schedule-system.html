@@ -614,6 +614,54 @@
       text-align: center;
     }
 
+    .daily-quote-navigation {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 10px;
+      margin: 0 auto 14px;
+    }
+
+    .daily-quote-navigation button {
+      min-height: 38px;
+      border: 1px solid rgba(255, 192, 76, .55);
+      border-radius: 999px;
+      padding: 7px 13px;
+      color: #ffc878;
+      background: rgba(29, 36, 49, .48);
+      font: 800 12px/1.15 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      cursor: pointer;
+    }
+
+    .daily-quote-navigation button:hover:not(:disabled),
+    .daily-quote-navigation button:focus-visible {
+      color: #293142;
+      background: #ffc04c;
+      outline: none;
+    }
+
+    .daily-quote-navigation button:disabled {
+      opacity: .42;
+      cursor: not-allowed;
+    }
+
+    .daily-quote-date {
+      min-width: 0;
+      color: #fff3da;
+      font: 750 13px/1.25 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .02em;
+      text-align: center;
+    }
+
+    .daily-quote-today {
+      display: block;
+      width: max-content;
+      max-width: 100%;
+      margin: 7px auto 0;
+    }
+
     .daily-quote-copy {
       position: relative;
       z-index: 1;
@@ -1826,6 +1874,14 @@
       <div class="weekly-reflection-panels">
         <section class="daily-quote-panel" id="schedule-daily-quote" data-daily-quote aria-labelledby="daily-quote-title">
           <p class="reflection-kicker" id="daily-quote-title">QUOTE OF THE DAY · 每日名人語錄</p>
+          <nav class="daily-quote-navigation" aria-label="每日名人語錄日期瀏覽">
+            <button type="button" data-quote-previous aria-label="查看上一日名人語錄">← 上一日</button>
+            <div>
+              <time class="daily-quote-date" data-quote-date aria-live="polite"></time>
+              <button class="daily-quote-today" type="button" data-quote-today>返回今日</button>
+            </div>
+            <button type="button" data-quote-next aria-label="查看下一日名人語錄">下一日 →</button>
+          </nav>
           <div class="daily-quote-copy">
             <div class="daily-quote-language" lang="en">
               <blockquote class="daily-quote-text" data-quote-english>正在載入今日語錄…</blockquote>
@@ -2134,6 +2190,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260814-1"></script>
-  <script type="module" src="schedule-system.js?v=20260818-1"></script>
+  <script type="module" src="schedule-system.js?v=20260820-1"></script>
 </body>
 </html>

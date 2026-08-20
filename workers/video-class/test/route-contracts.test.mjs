@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { fileURLToPath } from "node:url";
 
 import worker, { __test } from "../src/index.js";
 
@@ -12,6 +14,7 @@ const LESSON_A = "55555555-5555-4555-8555-555555555555";
 const LESSON_B = "66666666-6666-4666-8666-666666666666";
 const PLAYBACK_ID = "77777777-7777-4777-8777-777777777777";
 const DELETE_JOB_ID = "88888888-8888-4888-8888-888888888888";
+const OFFICIAL_SERIES_ID = "99999999-9999-4999-8999-999999999999";
 
 function makeBucket(overrides = {}) {
   return {
@@ -164,6 +167,160 @@ test("multi-course private-video publish forwards the complete course selection"
     assert.deepEqual(publish.body.p_course_codes, ["dse", "ielts"]);
     assert.equal(publish.body.p_service_secret, "s".repeat(48));
   });
+});
+
+test("homework catalogue exposes only normalized official series and videos as exact deep links", async () => {
+  await withRpcStub((name, body) => {
+    if (name !== "video_class_homework_resource_catalog") throw new Error(`Unexpected RPC ${name}`);
+    assert.equal(body.p_service_secret, "s".repeat(48));
+    return {
+      series: [{
+        id: OFFICIAL_SERIES_ID,
+        title: " IELTS Official Series ",
+        lesson_count: 3,
+        course_codes: ["ielts"]
+      }, {
+        id: "not-a-uuid",
+        title: "Malformed series must stay out"
+      }],
+      videos: [{
+        id: LESSON_A,
+        title: "Lesson A",
+        duration_seconds: 125,
+        course_codes: ["ielts", "invalid course code"]
+      }, {
+        id: LESSON_B,
+        title: "   "
+      }]
+    };
+  }, async calls => {
+    const response = await worker.fetch(request("/v1/homework-resources", "GET", "", null), makeEnv(), {});
+    assert.equal(response.status, 200);
+    assert.deepEqual(await response.json(), {
+      resources: [{
+        id: `video-class-series:${OFFICIAL_SERIES_ID}`,
+        type: "video-class-series",
+        label: "IELTS Official Series",
+        detail: "官方影片系列 · 3 部影片 · IELTS",
+        url: `video-class.html?series=${OFFICIAL_SERIES_ID}`
+      }, {
+        id: `video-class-video:${LESSON_A}`,
+        type: "video-class-video",
+        label: "Lesson A",
+        detail: "官方課堂影片 · 2:05 · IELTS",
+        url: `video-class.html?video=${LESSON_A}`
+      }]
+    });
+    assert.deepEqual(calls.map(call => call.name), ["video_class_homework_resource_catalog"]);
+  });
+});
+
+test("student homework target is resolved server-side and unavailable targets remain inaccessible", async () => {
+  for (const target of [
+    { type: "series", id: OFFICIAL_SERIES_ID },
+    { type: "video", id: LESSON_A }
+  ]) {
+    await withRpcStub((name, body) => {
+      if (name === "video_class_student_me") return [{ student_id: STUDENT_ID }];
+      if (name === "video_class_student_resolve_homework_target") {
+        assert.equal(body.p_student_token, STUDENT_TOKEN);
+        assert.equal(body.p_target_type, target.type);
+        assert.equal(body.p_target_id, target.id);
+        return { type: target.type, id: target.id };
+      }
+      throw new Error(`Unexpected RPC ${name}`);
+    }, async () => {
+      const response = await worker.fetch(request(
+        `/v1/student/homework-target?type=${target.type}&id=${target.id}`,
+        "GET",
+        STUDENT_TOKEN
+      ), makeEnv(), {});
+      assert.equal(response.status, 200);
+      assert.deepEqual(await response.json(), { target: { type: target.type, id: target.id } });
+    });
+  }
+
+  await withRpcStub((name) => {
+    if (name === "video_class_student_me") return [{ student_id: STUDENT_ID }];
+    if (name === "video_class_student_resolve_homework_target") return null;
+    throw new Error(`Unexpected RPC ${name}`);
+  }, async () => {
+    const response = await worker.fetch(request(
+      `/v1/student/homework-target?type=series&id=${OFFICIAL_SERIES_ID}`,
+      "GET",
+      STUDENT_TOKEN
+    ), makeEnv(), {});
+    assert.equal(response.status, 404);
+    const payload = await response.json();
+    assert.equal(payload.error.code, "HOMEWORK_TARGET_UNAVAILABLE");
+  });
+});
+
+test("student homework target cannot be resolved without a valid student session", async () => {
+  await withRpcStub((name) => {
+    if (name === "video_class_student_me") return [];
+    throw new Error(`Unexpected RPC ${name}`);
+  }, async calls => {
+    const response = await worker.fetch(request(
+      `/v1/student/homework-target?type=video&id=${LESSON_A}`,
+      "GET",
+      STUDENT_TOKEN
+    ), makeEnv(), {});
+    assert.equal(response.status, 401);
+    assert.deepEqual(calls.map(call => call.name), ["video_class_student_me"]);
+  });
+});
+
+test("administrator can permanently remove an official series", async () => {
+  await withRpcStub((name, body) => {
+    if (name === "video_class_admin_me") return [{ admin_id: ADMIN_ID }];
+    if (name === "video_class_admin_delete_official_playlist") {
+      assert.equal(body.p_admin_token, ADMIN_TOKEN);
+      assert.equal(body.p_playlist_id, OFFICIAL_SERIES_ID);
+      return true;
+    }
+    throw new Error(`Unexpected RPC ${name}`);
+  }, async () => {
+    const response = await worker.fetch(request(
+      `/v1/admin/official-playlists/${OFFICIAL_SERIES_ID}`,
+      "DELETE",
+      ADMIN_TOKEN
+    ), makeEnv(), {});
+    assert.equal(response.status, 204);
+  });
+});
+
+test("Video Class homework SQL keeps service-only RPCs and permits the deletion audit action", async () => {
+  const sqlPath = fileURLToPath(new URL("../../../supabase-video-class-homework-links-20260820.sql", import.meta.url));
+  const resetSqlPath = fileURLToPath(new URL("../../../supabase-video-class-dashboard-reset.sql", import.meta.url));
+  const [sql, resetSql] = await Promise.all([
+    readFile(sqlPath, "utf8"),
+    readFile(resetSqlPath, "utf8")
+  ]);
+  assert.match(sql, /video_class_homework_resource_catalog\s*\(\s*p_service_secret text\s*\)/);
+  assert.match(sql, /video_class_student_resolve_homework_target[\s\S]*?_video_class_student_can_view_official_playlist/);
+  assert.match(sql, /video_class_student_resolve_homework_target[\s\S]*?_video_class_student_can_view_lesson/);
+  assert.match(sql, /video_class_student_resolve_homework_target[\s\S]*?lesson\.published = true/);
+  assert.match(sql, /video_class_student_resolve_homework_target[\s\S]*?playlist\.published = true/);
+  assert.match(
+    sql,
+    /from public\.video_class_official_playlists playlist\s+where playlist\.published = true\s+and exists \(\s+select 1\s+from public\.video_class_official_playlist_courses membership[\s\S]*?course\.published = true/,
+    "the public Homework catalogue must exclude series with no published course membership"
+  );
+  assert.match(sql, /video_class_admin_audit_events_action_check[\s\S]*?'delete_official_playlist'/);
+  assert.match(resetSql, /video_class_admin_audit_events_action_check[\s\S]*?'delete_official_playlist'/,
+    "reapplying the dashboard-reset migration must preserve official-series deletion auditing");
+  assert.match(sql, /video_class_admin_audit_events_action_check[\s\S]*?'reset_student_progress'/,
+    "the homework migration must preserve full dashboard-reset auditing");
+  assert.match(sql, /video_class_admin_audit_events_action_check[\s\S]*?'reset_student_daily_progress'/,
+    "the homework migration must preserve date-scoped dashboard-reset auditing");
+  for (const signature of [
+    "video_class_homework_resource_catalog(text)",
+    "video_class_student_resolve_homework_target(text, uuid, text, uuid)",
+    "video_class_admin_delete_official_playlist(text, uuid, uuid)"
+  ]) {
+    assert.match(sql, new RegExp(`revoke all on function public\\.${signature.replace(/[()]/g, "\\$&")}\\s+from public, anon, authenticated`));
+  }
 });
 
 test("administrator can reset all progress or one valid Hong Kong activity date", async () => {

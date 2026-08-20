@@ -22,7 +22,7 @@
   <style>.frame-guard body{display:none!important}</style>
   <script src="video-class-frame-guard.js?v=20260810-1"></script>
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="video-class.css?v=20260813-2">
+  <link rel="stylesheet" href="video-class.css?v=20260820-homework-links1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260814-1">
   <script defer src="/pwa-register.js"></script>
 </head>
@@ -168,6 +168,16 @@
           <span class="spinner" aria-hidden="true"></span><p>正在載入你的課程⋯</p>
         </div>
         <div class="course-grid" data-course-list hidden></div>
+      </section>
+
+      <section class="student-page homework-unavailable-page" data-student-page="unavailable" hidden>
+        <div class="homework-unavailable-card" role="status" aria-live="polite">
+          <p class="section-kicker">VIDEO CLASS HOMEWORK</p>
+          <span class="homework-unavailable-card__icon" aria-hidden="true">⌁</span>
+          <h1>此功課連結目前不可使用</h1>
+          <p data-homework-unavailable-message>影片或官方系列可能已被移除、停止發布，或你的帳戶尚未獲得觀看權限。</p>
+          <button class="primary-button primary-button--compact" type="button" data-student-route="courses">返回我的課程</button>
+        </div>
       </section>
 
       <section class="student-page" data-student-page="library" hidden>
@@ -777,7 +787,7 @@
             <fieldset><legend>顯示於課程（可多選）</legend><div class="admin-course-checkboxes" data-admin-series-courses></div></fieldset>
             <p data-admin-series-selection-summary></p>
             <p class="form-status" data-admin-series-status role="status" aria-live="polite"></p>
-            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-series>取消</button><button class="primary-button primary-button--compact" type="submit">儲存系列</button></div>
+            <div class="playlist-dialog__actions"><button class="danger-button" type="button" data-delete-admin-series hidden>永久刪除系列</button><button class="quiet-button" type="button" data-close-admin-series>取消</button><button class="primary-button primary-button--compact" type="submit">儲存系列</button></div>
           </form>
         </dialog>
 
@@ -950,6 +960,6 @@
   <script defer src="video-class-config.js?v=20260811-2"></script>
   <script defer src="shared-system-nav.js?v=20260814-1"></script>
   <script defer src="video-class-zip.js?v=20260812-1"></script>
-  <script defer src="video-class.js?v=20260814-1"></script>
+  <script defer src="video-class.js?v=20260820-homework-links1"></script>
 </body>
 </html>

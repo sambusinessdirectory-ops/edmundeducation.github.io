@@ -14,7 +14,10 @@ import {
   toISODate,
   weekDates
 } from "./schedule-calendar.mjs";
-import { quoteForHongKongDay } from "./schedule-quotes.mjs?v=20260811-1";
+import {
+  moveQuoteHistoryDay,
+  quoteHistoryState
+} from "./schedule-quotes.mjs?v=20260820-1";
 import {
   COUNTDOWN_BATCH_SIZE,
   COUNTDOWN_INITIAL_CAPACITY,
@@ -47,7 +50,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20260814-1";
+} from "./schedule-homework-links.mjs?v=20260820-video-class1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -82,6 +85,7 @@ const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
 const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20260820-1";
+const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
 const STUDENT_AUDIT_PAGE_SIZE = 10;
 const STUDENT_ACCESS_SECTIONS = [
@@ -241,6 +245,10 @@ const elements = {
   toggleDailyQuote: document.querySelector("[data-toggle-daily-quote]"),
   toggleEncouragement: document.querySelector("[data-toggle-encouragement]"),
   dailyQuote: document.querySelector("[data-daily-quote]"),
+  quotePrevious: document.querySelector("[data-quote-previous]"),
+  quoteNext: document.querySelector("[data-quote-next]"),
+  quoteToday: document.querySelector("[data-quote-today]"),
+  quoteDate: document.querySelector("[data-quote-date]"),
   quoteEnglish: document.querySelector("[data-quote-english]"),
   quoteEnglishAttribution: document.querySelector("[data-quote-english-attribution]"),
   quoteChinese: document.querySelector("[data-quote-chinese]"),
@@ -402,15 +410,65 @@ const state = {
 
 let homeworkResourceCatalog = null;
 let homeworkCatalogPromise = null;
+let videoClassHomeworkCatalogError = null;
 let supabaseAuthPromise = null;
 let dailyQuoteRefreshTimer = null;
+let dailyQuoteSelectedDayKey = "";
+let dailyQuoteTodayDayKey = "";
 
-function ensureHomeworkCatalog() {
-  if (homeworkResourceCatalog) return Promise.resolve(homeworkResourceCatalog);
+async function loadVideoClassHomeworkResources() {
+  const controller = new AbortController();
+  const timer = window.setTimeout(() => controller.abort(), 12000);
+  try {
+    const response = await fetch(VIDEO_CLASS_HOMEWORK_CATALOG_URL, {
+      method: "GET",
+      headers: { Accept: "application/json" },
+      signal: controller.signal,
+      credentials: "omit",
+      cache: "no-store"
+    });
+    if (!response.ok) throw new Error(`Video Class catalogue returned ${response.status}`);
+    const payload = await response.json();
+    const rows = Array.isArray(payload?.resources) ? payload.resources : [];
+    videoClassHomeworkCatalogError = null;
+    return rows.map((resource) => {
+      const normalized = normalizeHomeworkResource(resource);
+      return normalized ? Object.freeze({ ...resource, ...normalized }) : null;
+    }).filter(Boolean);
+  } catch (error) {
+    videoClassHomeworkCatalogError = error;
+    console.warn("Video Class homework catalogue failed to load", error);
+    return [];
+  } finally {
+    window.clearTimeout(timer);
+  }
+}
+
+function mergeHomeworkCatalog(baseCatalog, videoClassResources) {
+  const byId = new Map((Array.isArray(baseCatalog) ? baseCatalog : [])
+    .filter((resource) => !String(resource?.type || "").startsWith("video-class-"))
+    .map((resource) => [resource.id, resource]));
+  videoClassResources.forEach((resource) => byId.set(resource.id, resource));
+  return Object.freeze([...byId.values()]);
+}
+
+function ensureHomeworkCatalog({ retryVideoClass = false } = {}) {
+  if (homeworkResourceCatalog) {
+    if (retryVideoClass) {
+      return loadVideoClassHomeworkResources().then((resources) => {
+        homeworkResourceCatalog = mergeHomeworkCatalog(homeworkResourceCatalog, resources);
+        return homeworkResourceCatalog;
+      });
+    }
+    return Promise.resolve(homeworkResourceCatalog);
+  }
   if (!homeworkCatalogPromise) {
-    homeworkCatalogPromise = import(HOMEWORK_CATALOG_URL)
-      .then((module) => {
-        homeworkResourceCatalog = module.HOMEWORK_RESOURCE_CATALOG;
+    homeworkCatalogPromise = Promise.all([
+      import(HOMEWORK_CATALOG_URL),
+      loadVideoClassHomeworkResources()
+    ])
+      .then(([module, videoClassResources]) => {
+        homeworkResourceCatalog = mergeHomeworkCatalog(module.HOMEWORK_RESOURCE_CATALOG, videoClassResources);
         return homeworkResourceCatalog;
       })
       .catch((error) => {
@@ -568,6 +626,11 @@ function renderHomeworkPickerResults() {
     elements.homeworkPickerResults.replaceChildren(loading);
     return;
   }
+  if (type.startsWith("video-class-") && videoClassHomeworkCatalogError) {
+    elements.homeworkPickerCount.textContent = "未能載入 Video Class 清單，請稍後重新開啟選擇器再試。";
+    elements.homeworkPickerResults.replaceChildren();
+    return;
+  }
   const result = filterHomeworkResources(
     homeworkResourceCatalog,
     type,
@@ -615,7 +678,7 @@ async function openHomeworkPicker(type, { focusSearch = false, replacement = nul
   renderHomeworkPickerResults();
   if (focusSearch) window.setTimeout(() => elements.homeworkPickerSearch.focus(), 0);
   try {
-    await ensureHomeworkCatalog();
+    await ensureHomeworkCatalog({ retryVideoClass: type.startsWith("video-class-") });
     if (state.homeworkPickerType === type && !elements.homeworkPicker.hidden) {
       renderHomeworkPickerResults();
     }
@@ -758,7 +821,13 @@ function scheduleDailyQuoteRefresh() {
   window.clearTimeout(dailyQuoteRefreshTimer);
   const now = new Date();
   const delay = Math.max(1000, nextHongKongMidnightTimestamp(now) - now.getTime() + 250);
-  dailyQuoteRefreshTimer = window.setTimeout(() => renderDailyQuote(), delay);
+  dailyQuoteRefreshTimer = window.setTimeout(() => {
+    const nextTodayDayKey = hongKongDayKey();
+    if (!dailyQuoteSelectedDayKey || dailyQuoteSelectedDayKey === dailyQuoteTodayDayKey) {
+      dailyQuoteSelectedDayKey = nextTodayDayKey;
+    }
+    renderDailyQuote();
+  }, delay);
 }
 
 function quoteAttributionWithTitleBreak(prefix, rawAttribution) {
@@ -774,9 +843,36 @@ function quoteAttributionWithTitleBreak(prefix, rawAttribution) {
 
 function renderDailyQuote() {
   if (!elements.dailyQuote) return;
-  const dayKey = hongKongDayKey();
-  const quote = quoteForHongKongDay(dayKey);
-  elements.dailyQuote.dataset.quoteDay = dayKey;
+  const todayDayKey = hongKongDayKey();
+  const history = quoteHistoryState(dailyQuoteSelectedDayKey || todayDayKey, todayDayKey);
+  dailyQuoteTodayDayKey = todayDayKey;
+  dailyQuoteSelectedDayKey = history.dayKey;
+  const quote = history.quote;
+  elements.dailyQuote.dataset.quoteDay = history.dayKey;
+  if (elements.quoteDate) {
+    const date = new Date(`${history.dayKey}T00:00:00Z`);
+    const formatted = new Intl.DateTimeFormat("zh-HK", {
+      timeZone: "UTC",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      weekday: "short"
+    }).format(date);
+    elements.quoteDate.dateTime = history.dayKey;
+    elements.quoteDate.textContent = `${formatted}${history.isToday ? " · 今日" : ""}`;
+  }
+  if (elements.quotePrevious) {
+    elements.quotePrevious.disabled = !history.canPrevious;
+    elements.quotePrevious.title = history.canPrevious ? "查看上一日已發布的名人語錄" : "已到第一篇已發布的名人語錄";
+  }
+  if (elements.quoteNext) {
+    elements.quoteNext.disabled = !history.canNext;
+    elements.quoteNext.title = history.canNext ? "查看下一日已發布的名人語錄" : "未來語錄尚未公開";
+  }
+  if (elements.quoteToday) {
+    elements.quoteToday.disabled = history.isToday;
+    elements.quoteToday.hidden = history.isToday;
+  }
   elements.quoteEnglish.textContent = quote?.englishQuote || "今日語錄暫時未能載入。";
   elements.quoteEnglishAttribution.textContent = quote
     ? quoteAttributionWithTitleBreak("—", quote.englishAttribution)
@@ -786,6 +882,25 @@ function renderDailyQuote() {
     ? quoteAttributionWithTitleBreak("——", quote.chineseAttribution)
     : "";
   scheduleDailyQuoteRefresh();
+}
+
+function changeDailyQuoteDay(delta) {
+  const todayDayKey = hongKongDayKey();
+  const history = moveQuoteHistoryDay(
+    dailyQuoteSelectedDayKey || todayDayKey,
+    delta,
+    todayDayKey
+  );
+  if (history.dayKey === dailyQuoteSelectedDayKey) return;
+  dailyQuoteSelectedDayKey = history.dayKey;
+  renderDailyQuote();
+}
+
+function showTodayDailyQuote() {
+  const todayDayKey = hongKongDayKey();
+  if (dailyQuoteSelectedDayKey === todayDayKey) return;
+  dailyQuoteSelectedDayKey = todayDayKey;
+  renderDailyQuote();
 }
 
 function cloneScheduleEntries(entries = []) {
@@ -6381,6 +6496,9 @@ elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
 elements.toggleMascots.addEventListener("click", toggleMascots);
 elements.toggleMotivation.addEventListener("click", toggleMotivationVisibility);
 elements.toggleDailyQuote.addEventListener("click", toggleDailyQuoteVisibility);
+elements.quotePrevious?.addEventListener("click", () => changeDailyQuoteDay(-1));
+elements.quoteNext?.addEventListener("click", () => changeDailyQuoteDay(1));
+elements.quoteToday?.addEventListener("click", showTodayDailyQuote);
 elements.toggleEncouragement.addEventListener("click", toggleEncouragementVisibility);
 elements.saveEncouragement.addEventListener("click", saveWeeklyEncouragement);
 elements.useLastEncouragement.addEventListener("click", usePreviousWeekEncouragement);

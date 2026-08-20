@@ -68,6 +68,10 @@ const feedbackStructuredPartsMigration = fs.readFileSync(
   path.join(root, "supabase-writing-submission-feedback-structured-parts.sql"),
   "utf8"
 );
+const feedbackAdditionalEnhancementsMigration = fs.readFileSync(
+  path.join(root, "supabase-writing-submission-feedback-additional-enhancements.sql"),
+  "utf8"
+);
 const feedbackTools = fs.readFileSync(
   path.join(root, "writing-submission-feedback-tools.mjs"),
   "utf8"
@@ -350,8 +354,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260816-feedback-structure-export1/);
-  assert.match(html, /writing-submission\.js\?v=20260818-hkfsd-ir3/);
+  assert.match(html, /writing-submission\.css\?v=20260820-writing-upgrades1/);
+  assert.match(html, /writing-submission\.js\?v=20260820-writing-upgrades1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -380,11 +384,15 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(html, /data-writing-timer-toggle/);
   assert.match(html, /data-writing-timer-force/);
   assert.match(html, /時間到自動提交/);
+  assert.match(html, /倒數完結後先進入五分鐘校對/);
   assert.match(html, /data-export-selected-submissions/);
   assert.match(html, /data-export-all-submissions/);
   assert.match(script, /writingTimer:\s*normalizeWritingTimer\(value\.writingTimer\)/);
   assert.match(script, /submissionPromise/);
   assert.match(script, /submitCurrentWriting\(\{ source: "timer" \}\)/);
+  assert.match(script, /if \(!isWritingProofreadingReady\(state\.proofreadingGate\)\) \{/);
+  assert.match(script, /beginWritingProofreading\(\)/);
+  assert.match(script, /校對完成後才會自動提交/);
   assert.match(script, /method:\s*"PUT"/);
   assert.match(script, /function fetchSubmissionExportBundle\(id, role\)/);
   assert.match(script, /`\/v1\/submissions\/\$\{encodedId\}`/);
@@ -401,6 +409,9 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /@page\{size:A4;margin:10mm 9mm\}/);
   assert.match(script, /print-color-adjust:exact/);
   assert.match(script, /列印／儲存為 PDF/);
+  assert.match(script, /href="https:\/\/edmundeducation\.com\/index\.html"/);
+  assert.match(script, /new URL\(link\.url, "https:\/\/edmundeducation\.com\/"\)\.href/);
+  assert.match(script, /<a href="\$\{escapePrintHtml\(absoluteUrl\)\}"/);
   assert.match(css, /\.writing-timer-panel/);
   assert.match(css, /\.submission-export-toolbar/);
 });
@@ -429,6 +440,10 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(script, /dataset\.selectWritingTopic/);
   assert.match(script, /submissionDurationSeconds:\s*state\.submissionDurationSeconds/);
   assert.match(script, /durationSeconds:\s*submittedDurationSeconds/);
+  assert.match(script, /state\.writingAreaFocused/);
+  assert.match(script, /elements\.writingInput\.addEventListener\("focus", resumeWritingClockForEditor\)/);
+  assert.match(script, /elements\.writingInput\.addEventListener\("blur", \(\) => pauseWritingClockOutsideEditor\(\)\)/);
+  assert.doesNotMatch(script, /elements\.topicInput\.addEventListener\("focus", markWritingActivity\)/);
   assert.match(script, /source\.startsWith\("\/\/"\)/, "topic preview images must reject protocol-relative external URLs");
   assert.match(script, /apiJson\("\/v1\/progress"\)/);
   assert.match(script, /method:\s*"DELETE"/);
@@ -437,6 +452,13 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(css, /\.submission-progress-grid/);
   assert.match(css, /\.grammar-toggle input:checked/);
   assert.match(css, /\.topic-picker-dialog/);
+});
+
+test("the writing-area prompt lives on the grammar card and cannot cover model-essay text", () => {
+  assert.match(html, /class="grammar-intro"><strong>請在文章內容欄開始寫作。<\/strong>/);
+  const writingInput = html.match(/<textarea data-writing-input[^>]*><\/textarea>/)?.[0] || "";
+  assert.ok(writingInput, "the writing textarea should remain available");
+  assert.doesNotMatch(writingInput, /placeholder=/);
 });
 
 test("Writing Practice topics strip display-only fields from draft and submission transport", () => {
@@ -796,8 +818,9 @@ test("feedback learning tools, bookmarks and admin sorting are fully wired to th
   assert.match(script, /姓名 Z → A/);
 
   assert.match(adminFeedbackReaderSource, /const grammarPoints = normalizeGrammarFeedbackPoints\(/);
-  assert.match(adminFeedbackReaderSource, /const sentenceStructureParts = normalizeFeedbackEnhancementParts\(/);
-  assert.match(adminFeedbackReaderSource, /const rhetoricalParts = normalizeFeedbackEnhancementParts\(/);
+  assert.match(adminFeedbackReaderSource, /const readEnhancementParts = kind => normalizeFeedbackEnhancementParts\(/);
+  assert.match(adminFeedbackReaderSource, /const sentenceStructureParts = readEnhancementParts\("sentence"\)/);
+  assert.match(adminFeedbackReaderSource, /const rhetoricalParts = readEnhancementParts\("rhetorical"\)/);
   assert.match(script, /const MAX_FEEDBACK_BODY_BYTES = 512 \* 1024/);
   assert.match(script, /new TextEncoder\(\)\.encode\(requestBody\)\.byteLength > MAX_FEEDBACK_BODY_BYTES/);
   assert.match(script, /整份評語內容超出安全儲存上限/);
@@ -934,10 +957,10 @@ test("published feedback is optional by section, unread-aware, and supports save
   assert.match(css, /\.submission-list-item\.has-feedback/);
   assert.match(css, /\.submission-feedback-bell/);
   assert.match(css, /\.teacher-feedback-transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_student_open_v3/);
+  assert.match(workerSource, /writing_submission_feedback_student_open_v4/);
   assert.match(workerSource, /writing_submission_feedback_student_save_transcriptions/);
-  assert.match(workerSource, /writing_submission_feedback_admin_get_v4/);
-  assert.match(workerSource, /writing_submission_feedback_admin_save_v3/);
+  assert.match(workerSource, /writing_submission_feedback_admin_get_v5/);
+  assert.match(workerSource, /writing_submission_feedback_admin_save_v4/);
   assert.match(workerSource, /p_improved_version:\s*payload\.improvedVersion/);
   assert.match(workerSource, /!overallComment\.trim\(\)[\s\S]*?!finalComment\.trim\(\)[\s\S]*?!improvedVersion\.trim\(\)[\s\S]*?fragments\.length === 0[\s\S]*?grammarPoints/);
   assert.match(feedbackRevisionMigration, /add column if not exists improved_version text/);
@@ -963,6 +986,61 @@ test("structured sentence and rhetorical feedback persistence remains additive a
   assert.match(feedbackStructuredPartsMigration, /grant execute on function public\.writing_submission_feedback_student_open_v3\([\s\S]*?to service_role/i);
   assert.match(workerSource, /p_sentence_structure_parts:\s*payload\.sentenceStructureParts/);
   assert.match(workerSource, /p_rhetorical_parts:\s*payload\.rhetoricalParts/);
+});
+
+test("additional feedback sections, ordered transcription and per-item copy practice stay private", () => {
+  for (const [dataKey, label] of [
+    ["phrasalVerbParts", "動詞片語 (Phrasal Verb) 提升區"],
+    ["writingCommonExpressionParts", "Writing - Common Expression 提升區"],
+    ["rhetoricalCommonExpressionParts", "修辭 Common Expression 提升區"]
+  ]) {
+    assert.match(script, new RegExp(dataKey));
+    assert.match(script, new RegExp(label.replace(/[()]/g, "\\$&")));
+  }
+  for (const title of [
+    "句子結構提升 - 抄寫",
+    "修辭技巧提升 - 抄寫",
+    "動詞片語 (Phrasal Verb) 提升 - 抄寫",
+    "Writing - Common Expression 提升 - 抄寫",
+    "修辭 Common Expression 提升 - 抄寫"
+  ]) {
+    assert.match(script, new RegExp(title.replace(/[()]/g, "\\$&")));
+  }
+  assert.match(script, /feedback\/enhancements\/\$\{encodeURIComponent\(sectionKey\)\}\/\$\{itemPosition\}\/copy/);
+  assert.match(script, /expectedVersion:\s*current\.version/);
+  assert.match(workerSource, /writing_submission_feedback_student_save_enhancement_copy/);
+  assert.match(workerSource, /ENHANCEMENT_COPY_VERSION_CONFLICT/);
+  assert.match(workerSource, /p_phrasal_verb_parts:\s*payload\.phrasalVerbParts/);
+  assert.match(workerSource, /p_writing_common_expression_parts:\s*payload\.writingCommonExpressionParts/);
+  assert.match(workerSource, /p_rhetorical_common_expression_parts:\s*payload\.rhetoricalCommonExpressionParts/);
+
+  const studentFeedbackSource = script.match(
+    /function renderStudentFeedback\(feedback, container\) \{[\s\S]*?^\}/m
+  )?.[0] || "";
+  const grammarIndex = studentFeedbackSource.indexOf("grammarArea");
+  const transcriptionIndex = studentFeedbackSource.indexOf("renderStudentTranscriptions");
+  const sentenceIndex = studentFeedbackSource.indexOf("sentenceArea");
+  const rhetoricalIndex = studentFeedbackSource.indexOf("rhetoricalArea");
+  const additionalIndex = studentFeedbackSource.indexOf('for (const kind of ["phrasal"');
+  assert.ok(
+    grammarIndex >= 0
+      && grammarIndex < transcriptionIndex
+      && transcriptionIndex < sentenceIndex
+      && sentenceIndex < rhetoricalIndex
+      && rhetoricalIndex < additionalIndex,
+    "feedback must show grammar, transcription/improved copy, sentence, rhetoric, then extra sections"
+  );
+
+  assert.match(feedbackAdditionalEnhancementsMigration, /add column if not exists phrasal_verb_parts jsonb not null default '\[\]'::jsonb/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /add column if not exists writing_common_expression_parts jsonb not null default '\[\]'::jsonb/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /add column if not exists rhetorical_common_expression_parts jsonb not null default '\[\]'::jsonb/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /create table if not exists public\.writing_submission_feedback_enhancement_copies/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /alter table public\.writing_submission_feedback_enhancement_copies enable row level security/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /revoke all on table public\.writing_submission_feedback_enhancement_copies[\s\S]*?from public, anon, authenticated, service_role/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /set search_path = ''/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /revoke all on function public\.writing_submission_feedback_student_save_enhancement_copy[\s\S]*?from public, anon, authenticated, service_role/i);
+  assert.match(feedbackAdditionalEnhancementsMigration, /grant execute on function public\.writing_submission_feedback_student_save_enhancement_copy[\s\S]*?to service_role/i);
+  assert.doesNotMatch(feedbackAdditionalEnhancementsMigration, /grant (?:select|insert|update|delete) on table/i);
 });
 
 test("submission topic linkage is canonicalized and authorized by the Worker", () => {

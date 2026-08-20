@@ -1009,6 +1009,7 @@ button { color: inherit; }
 .teacher-feedback-suggestion-copy textarea:focus { outline: 0; border-color: #2d8c62; box-shadow: 0 0 0 4px rgba(45,140,98,.11); }
 .teacher-feedback-suggestion-copy-actions { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 14px; }
 .teacher-feedback-suggestion-copy-actions .form-status { flex: 1 1 220px; }
+.teacher-feedback-enhancement-copy { margin: 0; border-top: 1px dashed rgba(34,113,76,.24); padding: 14px; background: #f6fcf8; }
 .feedback-structured-flow { display: grid; gap: 12px; white-space: normal !important; }
 .feedback-structured-paragraph { margin: 0; white-space: pre-wrap; }
 .feedback-numbered-card { display: grid; grid-template-columns: auto minmax(0,1fr); align-items: start; gap: 11px; }
@@ -1068,10 +1069,16 @@ button { color: inherit; }
 .teacher-feedback-learning-editor { border-top: 1px solid rgba(39,39,87,.13); background: #eaf7ff; }
 .teacher-feedback-learning-editor.is-sentence-structure { background: #f1efff; }
 .teacher-feedback-learning-editor.is-rhetorical { background: #fff2ed; }
+.teacher-feedback-learning-editor.is-phrasal-verb { background: #edf8f2; }
+.teacher-feedback-learning-editor.is-writing-common-expression { background: #eef7fb; }
+.teacher-feedback-learning-editor.is-rhetorical-common-expression { background: #fff5e7; }
 .teacher-feedback-learning-head { padding: 22px 20px 15px; }
 .teacher-feedback-learning-head h3 { margin: 0; color: #1b5f85; font-size: 24px; }
 .teacher-feedback-learning-editor.is-sentence-structure .teacher-feedback-learning-head h3 { color: #51449b; }
 .teacher-feedback-learning-editor.is-rhetorical .teacher-feedback-learning-head h3 { color: #9a483c; }
+.teacher-feedback-learning-editor.is-phrasal-verb .teacher-feedback-learning-head h3 { color: #276848; }
+.teacher-feedback-learning-editor.is-writing-common-expression .teacher-feedback-learning-head h3 { color: #28617d; }
+.teacher-feedback-learning-editor.is-rhetorical-common-expression .teacher-feedback-learning-head h3 { color: #98631d; }
 .teacher-feedback-learning-head p { margin: 7px 0 0; color: #596d7d; font: 12px/1.6 ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-learning-list { padding: 0 20px; display: grid; gap: 12px; }
 .teacher-feedback-learning-row { border: 1px solid rgba(37,107,143,.18); border-radius: 15px; padding: 14px; background: rgba(255,255,255,.82); }
@@ -1079,10 +1086,16 @@ button { color: inherit; }
 .teacher-feedback-learning-row-head strong { color: #1b5f85; font: 850 13px ui-sans-serif,system-ui,sans-serif; }
 .is-sentence-structure .teacher-feedback-learning-row-head strong { color: #51449b; }
 .is-rhetorical .teacher-feedback-learning-row-head strong { color: #9a483c; }
+.is-phrasal-verb .teacher-feedback-learning-row-head strong { color: #276848; }
+.is-writing-common-expression .teacher-feedback-learning-row-head strong { color: #28617d; }
+.is-rhetorical-common-expression .teacher-feedback-learning-row-head strong { color: #98631d; }
 .teacher-feedback-learning-row .teacher-feedback-rich-editor { min-height: 110px; }
 .teacher-feedback-enhancement-row { padding: 0; overflow: hidden; background: rgba(255,255,255,.92); }
 .teacher-feedback-enhancement-row > .teacher-feedback-learning-row-head { margin: 0; padding: 13px 15px; background: rgba(81,68,155,.07); }
 .teacher-feedback-enhancement-row.is-rhetorical > .teacher-feedback-learning-row-head { background: rgba(154,72,60,.07); }
+.teacher-feedback-enhancement-row.is-phrasal-verb > .teacher-feedback-learning-row-head { background: rgba(39,104,72,.08); }
+.teacher-feedback-enhancement-row.is-writing-common-expression > .teacher-feedback-learning-row-head { background: rgba(40,97,125,.08); }
+.teacher-feedback-enhancement-row.is-rhetorical-common-expression > .teacher-feedback-learning-row-head { background: rgba(152,99,29,.08); }
 .teacher-feedback-enhancement-fields { display: grid; }
 .teacher-feedback-enhancement-field { padding: 15px; display: grid; gap: 9px; background: #fff; }
 .teacher-feedback-enhancement-field + .teacher-feedback-enhancement-field { border-top: 1px solid rgba(39,39,87,.1); }
@@ -1090,6 +1103,9 @@ button { color: inherit; }
 .teacher-feedback-enhancement-field.is-original { background: #f8f8fa; }
 .teacher-feedback-enhancement-field.is-enhancement { background: #f6f3ff; }
 .teacher-feedback-enhancement-row.is-rhetorical .teacher-feedback-enhancement-field.is-enhancement { background: #fff5f1; }
+.teacher-feedback-enhancement-row.is-phrasal-verb .teacher-feedback-enhancement-field.is-enhancement { background: #f0faf4; }
+.teacher-feedback-enhancement-row.is-writing-common-expression .teacher-feedback-enhancement-field.is-enhancement { background: #f0f8fc; }
+.teacher-feedback-enhancement-row.is-rhetorical-common-expression .teacher-feedback-enhancement-field.is-enhancement { background: #fff8ec; }
 .teacher-feedback-enhancement-field.is-benefit { background: #f1faf5; }
 .teacher-feedback-enhancement-field .teacher-feedback-rich-editor { min-height: 128px; background: #fff; resize: vertical; }
 .teacher-feedback-enhancement-field .teacher-feedback-live-preview { margin-top: 2px; }
@@ -1141,18 +1157,33 @@ button { color: inherit; }
 .teacher-feedback-learning-links a:focus-visible { border-color: #51449b; background: #ebe8ff; }
 .teacher-feedback-enhancement-read { border-top: 1px solid rgba(39,39,87,.12); padding: 22px; background: #f1efff; }
 .teacher-feedback-enhancement-read.is-rhetorical { background: #fff2ed; }
+.teacher-feedback-enhancement-read.is-phrasal-verb { background: #edf8f2; }
+.teacher-feedback-enhancement-read.is-writing-common-expression { background: #eef7fb; }
+.teacher-feedback-enhancement-read.is-rhetorical-common-expression { background: #fff5e7; }
 .teacher-feedback-enhancement-read > h3 { margin: 0 0 15px; color: #51449b; font-size: calc(22px * var(--submission-text-scale)); }
 .teacher-feedback-enhancement-read.is-rhetorical > h3 { color: #9a483c; }
+.teacher-feedback-enhancement-read.is-phrasal-verb > h3 { color: #276848; }
+.teacher-feedback-enhancement-read.is-writing-common-expression > h3 { color: #28617d; }
+.teacher-feedback-enhancement-read.is-rhetorical-common-expression > h3 { color: #98631d; }
 .teacher-feedback-enhancement-read-list { display: grid; gap: 15px; }
 .teacher-feedback-enhancement-card { overflow: hidden; border: 1px solid rgba(81,68,155,.18); border-radius: 16px; background: #fff; box-shadow: 0 8px 22px rgba(39,39,87,.06); }
 .is-rhetorical .teacher-feedback-enhancement-card { border-color: rgba(154,72,60,.2); }
+.is-phrasal-verb .teacher-feedback-enhancement-card { border-color: rgba(39,104,72,.2); }
+.is-writing-common-expression .teacher-feedback-enhancement-card { border-color: rgba(40,97,125,.2); }
+.is-rhetorical-common-expression .teacher-feedback-enhancement-card { border-color: rgba(152,99,29,.2); }
 .teacher-feedback-enhancement-card-title { display: block; padding: 11px 14px; color: #51449b; background: #e8e4ff; font: 850 12px ui-sans-serif,system-ui,sans-serif; }
 .is-rhetorical .teacher-feedback-enhancement-card-title { color: #8d4035; background: #ffe2da; }
+.is-phrasal-verb .teacher-feedback-enhancement-card-title { color: #276848; background: #ddf3e6; }
+.is-writing-common-expression .teacher-feedback-enhancement-card-title { color: #28617d; background: #deeff7; }
+.is-rhetorical-common-expression .teacher-feedback-enhancement-card-title { color: #8b5815; background: #ffebc8; }
 .teacher-feedback-enhancement-band { padding: 14px; display: grid; grid-template-columns: minmax(135px,.28fr) minmax(0,1fr); align-items: start; gap: 12px; }
 .teacher-feedback-enhancement-band + .teacher-feedback-enhancement-band { border-top: 1px solid rgba(39,39,87,.09); }
 .teacher-feedback-enhancement-band.is-original { background: #f8f8fa; }
 .teacher-feedback-enhancement-band.is-enhancement { background: #f7f4ff; }
 .is-rhetorical .teacher-feedback-enhancement-band.is-enhancement { background: #fff6f2; }
+.is-phrasal-verb .teacher-feedback-enhancement-band.is-enhancement { background: #f0faf4; }
+.is-writing-common-expression .teacher-feedback-enhancement-band.is-enhancement { background: #f0f8fc; }
+.is-rhetorical-common-expression .teacher-feedback-enhancement-band.is-enhancement { background: #fff8ec; }
 .teacher-feedback-enhancement-band.is-benefit { background: #f1faf5; }
 .teacher-feedback-enhancement-band > span { color: #615c70; font: 850 11px/1.45 ui-sans-serif,system-ui,sans-serif; }
 .teacher-feedback-enhancement-band .teacher-feedback-rich-content { min-width: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: calc(16px * var(--submission-text-scale)); line-height: 1.72; }

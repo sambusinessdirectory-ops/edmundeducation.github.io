@@ -982,8 +982,16 @@ assert.ok(
   "Raw legacy browser state must be quarantined before session restoration can clear it"
 );
 assert.ok(
-  boot.indexOf("await initSupabaseState()") < boot.indexOf("showAppPanel("),
-  "A restored dashboard must not become interactive before state hydration finishes"
+  boot.indexOf('showAppPanel("dashboard", false)') < boot.indexOf("await initSupabaseState()"),
+  "An authenticated student must leave the login screen before state hydration finishes"
+);
+assert.ok(
+  boot.indexOf("restoredDashboardPanel.inert = true") < boot.indexOf("await initSupabaseState()"),
+  "The early restored dashboard must remain non-interactive until hydration finishes"
+);
+assert.ok(
+  boot.indexOf("await initSupabaseState()") < boot.indexOf("restoredDashboardPanel.inert = false"),
+  "The restored dashboard can become interactive only after hydration finishes"
 );
 assert.match(boot, /isSupabaseStateHydrated\(context\)/);
 assert.match(boot, /await verifyFlashcardOutboxAvailable\(\)/);

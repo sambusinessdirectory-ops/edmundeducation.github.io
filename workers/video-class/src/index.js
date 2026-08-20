@@ -110,6 +110,13 @@ async function route(request, env, ctx) {
     return json(request, env, { error: "Origin not allowed" }, 403);
   }
 
+  if (url.pathname === "/v1/homework-resources" && request.method === "GET") {
+    return listHomeworkResources(request, env);
+  }
+  if (url.pathname === "/v1/student/homework-target" && request.method === "GET") {
+    return resolveStudentHomeworkTarget(request, env, url);
+  }
+
   if (url.pathname === "/v1/student/login" && request.method === "POST") {
     return studentLogin(request, env);
   }
@@ -164,6 +171,15 @@ async function route(request, env, ctx) {
   }
   if (url.pathname === "/v1/admin/official-playlists/order" && request.method === "PATCH") {
     return adminSetOfficialPlaylistOrder(request, env);
+  }
+
+  const adminOfficialPlaylistMatch = url.pathname.match(/^\/v1\/admin\/official-playlists\/([^/]+)$/);
+  if (adminOfficialPlaylistMatch && request.method === "DELETE") {
+    return adminDeleteOfficialPlaylist(
+      request,
+      env,
+      decodePathSegment(adminOfficialPlaylistMatch[1])
+    );
   }
 
   const adminLessonMatch = url.pathname.match(/^\/v1\/admin\/lessons\/([^/]+)$/);
@@ -972,6 +988,18 @@ async function adminSetOfficialPlaylistOrder(request, env) {
   }, 200);
 }
 
+async function adminDeleteOfficialPlaylist(request, env, playlistId) {
+  if (!UUID_RE.test(playlistId)) throw new HttpError(400, "Invalid series ID");
+  const token = requireBearerToken(request);
+  await assertAdminSession(env, token);
+  const deleted = await serviceRpc(env, "video_class_admin_delete_official_playlist", {
+    p_admin_token: token,
+    p_playlist_id: playlistId
+  });
+  if (deleted !== true) throw new HttpError(404, "Official series was not found");
+  return new Response(null, { status: 204, headers: responseHeaders(request, env) });
+}
+
 async function adminCreateAttachment(request, env, lessonId) {
   if (!UUID_RE.test(lessonId)) throw new HttpError(400, "Invalid lesson ID");
   const token = requireBearerToken(request);
@@ -1653,6 +1681,82 @@ async function assertStudentSession(env, token) {
     p_student_token: token
   });
   if (!firstRow(rows)) throw new HttpError(401, "Student session is invalid or expired");
+}
+
+async function listHomeworkResources(request, env) {
+  const result = await serviceRpc(env, "video_class_homework_resource_catalog", {});
+  const value = Array.isArray(result) ? (firstRow(result) || {}) : (result || {});
+  const resources = [];
+
+  for (const row of Array.isArray(value.series) ? value.series : []) {
+    const id = String(row?.id || "");
+    const title = String(row?.title || row?.name || "").normalize("NFKC").trim().slice(0, 160);
+    if (!UUID_RE.test(id) || !title) continue;
+    const lessonCount = finiteNonNegative(row?.lesson_count ?? row?.lessonCount, 0);
+    const courseCodes = Array.isArray(row?.course_codes || row?.courseCodes)
+      ? (row.course_codes || row.courseCodes).map(String).filter(code => COURSE_CODE_RE.test(code)).slice(0, 20)
+      : [];
+    resources.push({
+      id: `video-class-series:${id}`,
+      type: "video-class-series",
+      label: title,
+      detail: `官方影片系列 · ${lessonCount} 部影片${courseCodes.length ? ` · ${courseCodes.map(code => code.toUpperCase()).join(" / ")}` : ""}`,
+      url: `video-class.html?series=${id}`
+    });
+  }
+
+  for (const row of Array.isArray(value.videos) ? value.videos : []) {
+    const id = String(row?.id || "");
+    const title = String(row?.title || row?.name || "").normalize("NFKC").trim().slice(0, 160);
+    if (!UUID_RE.test(id) || !title) continue;
+    const durationSeconds = finiteNonNegative(row?.duration_seconds ?? row?.durationSeconds, 0);
+    const courseCodes = Array.isArray(row?.course_codes || row?.courseCodes)
+      ? (row.course_codes || row.courseCodes).map(String).filter(code => COURSE_CODE_RE.test(code)).slice(0, 20)
+      : [];
+    resources.push({
+      id: `video-class-video:${id}`,
+      type: "video-class-video",
+      label: title,
+      detail: `官方課堂影片${durationSeconds ? ` · ${formatDurationLabel(durationSeconds)}` : ""}${courseCodes.length ? ` · ${courseCodes.map(code => code.toUpperCase()).join(" / ")}` : ""}`,
+      url: `video-class.html?video=${id}`
+    });
+  }
+
+  resources.sort((left, right) => left.type.localeCompare(right.type)
+    || left.label.localeCompare(right.label, "zh-Hant", { numeric: true }));
+  return json(request, env, { resources }, 200);
+}
+
+async function resolveStudentHomeworkTarget(request, env, url) {
+  const token = requireBearerToken(request);
+  await assertStudentSession(env, token);
+  const type = String(url.searchParams.get("type") || "").trim().toLowerCase();
+  const id = String(url.searchParams.get("id") || "").trim();
+  if (!['series', 'video'].includes(type) || !UUID_RE.test(id)) {
+    throw new HttpError(400, "Invalid homework Video Class link");
+  }
+  const result = await serviceRpc(env, "video_class_student_resolve_homework_target", {
+    p_student_token: token,
+    p_target_type: type,
+    p_target_id: id
+  });
+  const target = Array.isArray(result) ? firstRow(result) : result;
+  if (!target || typeof target !== "object") {
+    throw new HttpError(404, "This Video Class homework item is no longer available", {
+      code: "HOMEWORK_TARGET_UNAVAILABLE"
+    });
+  }
+  return json(request, env, { target }, 200);
+}
+
+function formatDurationLabel(seconds) {
+  const total = Math.max(0, Math.floor(Number(seconds) || 0));
+  const hours = Math.floor(total / 3600);
+  const minutes = Math.floor((total % 3600) / 60);
+  const remainder = total % 60;
+  return hours
+    ? `${hours}:${String(minutes).padStart(2, "0")}:${String(remainder).padStart(2, "0")}`
+    : `${minutes}:${String(remainder).padStart(2, "0")}`;
 }
 
 async function listCourses(request, env) {

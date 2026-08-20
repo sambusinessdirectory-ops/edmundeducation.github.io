@@ -60,6 +60,15 @@ six-key shape adds boolean `italic` and `strikethrough` fields and permits the
 `red` highlight. Apply the database migration first so the Worker never calls
 an RPC version that PostgREST has not exposed yet.
 
+### Existing-installation additional enhancement upgrade (required)
+
+Apply `../../supabase-writing-submission-feedback-additional-enhancements.sql`
+after the structured-parts migration and before deploying the matching Worker
+or browser assets. It adds the phrasal-verb, Writing Common Expression, and
+rhetorical Common Expression sections, plus owner-scoped, versioned copy
+practice for every structured enhancement card. Older feedback RPC versions
+remain installed for rollback compatibility.
+
 ### Existing-installation topic-access upgrade (required)
 
 An existing Writing Submission installation must use the incremental
@@ -119,7 +128,8 @@ it, then apply `../../supabase-writing-submission-grammar-history.sql` and
 `../../supabase-writing-submission-feedback-revision.sql` and
 `../../supabase-writing-submission-feedback-fragment-enhancements.sql`, then
 `../../supabase-writing-submission-feedback-learning-tools.sql`, then
-`../../supabase-writing-submission-feedback-structured-parts.sql`. Apply
+`../../supabase-writing-submission-feedback-structured-parts.sql`, then
+`../../supabase-writing-submission-feedback-additional-enhancements.sql`. Apply
 `../../supabase-writing-grammar-corpus.sql` after that, followed by the generated
 `../../grammar-corpus/seed-corpus-v1.sql` release seed.
 
@@ -143,6 +153,8 @@ The migration creates:
   and internal links into the Sentence Structure system;
 - ordered sentence-structure and rhetorical feedback cards with separate
   original-sentence, enhancement, and benefit rich-text areas;
+- ordered phrasal-verb, Writing Common Expression, and rhetorical Common
+  Expression cards with private per-item student copy practice;
 - published-feedback visibility limited to the student who owns the active
   submission, with all draft/edit/delete operations limited to the dedicated
   Writing Submission administrator; and
@@ -259,6 +271,8 @@ both receive the same generic `401` response.
   published teacher feedback, or `{ "feedback": null }` before publication.
 - `PUT /v1/submissions/<submission-uuid>/feedback/fragments/<fragment-uuid>/suggestion-copy`
   with the exact body `{ "text": "Copied suggestion", "expectedVersion": 2 }`.
+- `PUT /v1/submissions/<submission-uuid>/feedback/enhancements/<section-key>/<item-position>/copy`
+  with the exact body `{ "text": "Copied enhancement", "expectedVersion": 2 }`.
 - `GET /v1/feedback-bookmarks?page=1&pageSize=20`
 - `PUT /v1/feedback-bookmarks/<fragment-uuid>` with the exact body
   `{ "bookmarked": true, "expectedVersion": 0 }`.
@@ -302,6 +316,14 @@ The feedback response returns these fields on every fragment:
   "bookmarkVersion": 0
 }
 ```
+
+Its top-level `enhancementCopies` array returns the authenticated student's
+current `{ "sectionKey", "itemPosition", "text", "version", "updatedAt" }`
+rows only. Allowed section keys are `sentence-structure`,
+`rhetorical-technique`, `phrasal-verb`, `writing-common-expression`, and
+`rhetorical-common-expression`. A changed/reordered source card invalidates its
+old copy by content fingerprint, preventing a saved response from silently
+attaching to unrelated teacher feedback.
 
 ### Teacher feedback
 

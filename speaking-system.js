@@ -692,15 +692,31 @@
           access: result.sharedAccess
         });
         await validateRestoredSession();
-        await loadBookmarks({ quiet: true });
         if (!state.user) return;
+        saveSession();
+        form.reset();
+        showPortal();
+        setConnection("已登入 · 正在載入紀錄", "connecting");
+        navigate({ view: "exams" }, { reset: true });
+        try {
+          await loadBookmarks({ quiet: true });
+        } catch (bookmarkError) {
+          if (!state.user) return;
+          console.warn("Speaking bookmark restore failed after login:", bookmarkError);
+          setConnection("已登入 · 書簽稍後同步", "warning");
+          toast("已進入 Speaking 首頁；舊有書簽暫時未能載入。", "error");
+          return;
+        }
+        if (!state.user) return;
+        setConnection("已安全連接", "live");
+        openRequestedHomeworkExercise();
+        return;
       }
       saveSession();
       form.reset();
       showPortal();
-      setConnection(isAdmin ? "Admin 已連接" : "已安全連接", "live");
-      navigate({ view: isAdmin ? "admin" : "exams" }, { reset: true });
-      if (!isAdmin) openRequestedHomeworkExercise();
+      setConnection("Admin 已連接", "live");
+      navigate({ view: "admin" }, { reset: true });
     } catch (error) {
       console.warn("Speaking System login failed:", error);
       const message = /Failed to fetch|NetworkError/i.test(String(error?.message))
@@ -7172,18 +7188,29 @@
     setupEvents();
     const restored = restoreSession();
     if (restored) {
-      showLogin();
-      setLoginStatus("正在驗證已儲存的登入時段…", true);
       setConnection("驗證登入時段", "connecting");
       try {
         await validateRestoredSession();
         if (!state.user) return;
-        if (state.user.role === "student") await loadBookmarks({ quiet: true });
-        if (!state.user) return;
         showPortal();
-        setConnection(state.user.role === "admin" ? "Admin 已連接" : "已安全連接", "live");
         navigate({ view: state.user.role === "admin" ? "admin" : "exams" }, { reset: true, skipGuard: true });
-        if (state.user.role === "student") openRequestedHomeworkExercise();
+        if (state.user.role === "student") {
+          setConnection("已登入 · 正在載入紀錄", "connecting");
+          try {
+            await loadBookmarks({ quiet: true });
+          } catch (bookmarkError) {
+            if (!state.user) return;
+            console.warn("Speaking bookmark restore failed after session validation:", bookmarkError);
+            setConnection("已登入 · 書簽稍後同步", "warning");
+            toast("已進入 Speaking 首頁；舊有書簽暫時未能載入。", "error");
+            return;
+          }
+          if (!state.user) return;
+          setConnection("已安全連接", "live");
+          openRequestedHomeworkExercise();
+        } else {
+          setConnection("Admin 已連接", "live");
+        }
       } catch (error) {
         if (state.user) resetAuthenticatedState("未能驗證登入時段，請重新登入。");
         console.warn("Speaking session restoration failed:", error);

@@ -83,7 +83,11 @@ assert.match(renderRecoveryPanel, /data-flashcard-recovery-panel/);
 assert.match(renderRecoveryPanel, /data-flashcard-recovery-code/);
 assert.match(renderRecoveryPanel, /outboxErrorClass|flashcardOutboxRecordRequiresResolution/);
 assert.match(renderRecoveryPanel, /focusFlashcardRecoveryAction\(panel\)/);
-assert.match(focusRecoveryAction, /currentView !== "login"/);
+assert.doesNotMatch(
+  focusRecoveryAction,
+  /currentView !== "login"/,
+  "Recovery remains available after accepted credentials reveal the dashboard"
+);
 assert.match(focusRecoveryAction, /requestAnimationFrame/);
 assert.match(focusRecoveryAction, /prefers-reduced-motion: reduce/);
 assert.match(focusRecoveryAction, /scrollIntoView/);
@@ -551,11 +555,16 @@ assert.match(
 assert.match(readiness, /(?:請勿|不要)清除瀏覽器資料/);
 
 const login = extractFunction("performFlashcardLogin");
-assert.match(login, /const stateLoaded = await loadStudentStateFromSupabase\(\)/);
+assert.match(login, /let stateLoaded = false/);
+assert.match(login, /stateLoaded = await loadStudentStateFromSupabase\(\)/);
 assert.match(login, /stateLoaded && stateContext && isSupabaseStateHydrated\(stateContext\)/);
 assert.ok(
-  login.indexOf("isSupabaseStateHydrated(stateContext)") < login.indexOf('showAppPanel("dashboard", false)'),
-  "Login must not open the dashboard before canonical hydration reaches READY"
+  login.indexOf('showAppPanel("dashboard", false)') < login.indexOf("await loadStudentStateFromSupabase()"),
+  "Accepted credentials must reveal the dashboard before older records finish loading"
+);
+assert.ok(
+  login.indexOf("dashboardPanel.inert = true") < login.indexOf("await loadStudentStateFromSupabase()"),
+  "The early dashboard must remain non-interactive until canonical hydration finishes"
 );
 assert.match(login, /outboxErrorClass === "terminal"/);
 assert.match(login, /scheduleFlashcardAutomaticTerminalRecovery\(\)/);

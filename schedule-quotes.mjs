@@ -3621,3 +3621,55 @@ export function quoteForHongKongDay(dayKey, rotationStart = SCHEDULE_QUOTE_ROTAT
   const index = quoteIndexForHongKongDay(dayKey, rotationStart);
   return index < 0 ? null : SCHEDULE_QUOTES[index];
 }
+
+function dayKeyFromNumber(value) {
+  return new Date(value * 86_400_000).toISOString().slice(0, 10);
+}
+
+export function quoteHistoryState(
+  requestedDayKey,
+  todayDayKey,
+  rotationStart = SCHEDULE_QUOTE_ROTATION_START
+) {
+  const firstDayNumber = dayNumber(rotationStart);
+  const todayDayNumber = dayNumber(todayDayKey);
+  if (todayDayNumber < firstDayNumber) {
+    return Object.freeze({
+      dayKey: todayDayKey,
+      firstDayKey: rotationStart,
+      todayDayKey,
+      quote: null,
+      isPublished: false,
+      isToday: true,
+      canPrevious: false,
+      canNext: false
+    });
+  }
+
+  const requestedDayNumber = dayNumber(requestedDayKey || todayDayKey);
+  const selectedDayNumber = Math.min(todayDayNumber, Math.max(firstDayNumber, requestedDayNumber));
+  const dayKey = dayKeyFromNumber(selectedDayNumber);
+  return Object.freeze({
+    dayKey,
+    firstDayKey: rotationStart,
+    todayDayKey,
+    quote: quoteForHongKongDay(dayKey, rotationStart),
+    isPublished: true,
+    isToday: selectedDayNumber === todayDayNumber,
+    canPrevious: selectedDayNumber > firstDayNumber,
+    canNext: selectedDayNumber < todayDayNumber
+  });
+}
+
+export function moveQuoteHistoryDay(
+  requestedDayKey,
+  delta,
+  todayDayKey,
+  rotationStart = SCHEDULE_QUOTE_ROTATION_START
+) {
+  const current = quoteHistoryState(requestedDayKey, todayDayKey, rotationStart);
+  if (!current.isPublished) return current;
+  const step = Math.sign(Number(delta) || 0);
+  if (!step || (step < 0 && !current.canPrevious) || (step > 0 && !current.canNext)) return current;
+  return quoteHistoryState(dayKeyFromNumber(dayNumber(current.dayKey) + step), todayDayKey, rotationStart);
+}

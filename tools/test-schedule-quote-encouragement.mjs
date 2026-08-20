@@ -3,7 +3,9 @@ import { readFile } from "node:fs/promises";
 import {
   SCHEDULE_QUOTES,
   SCHEDULE_QUOTE_ROTATION_START,
+  moveQuoteHistoryDay,
   quoteForHongKongDay,
+  quoteHistoryState,
   quoteIndexForHongKongDay
 } from "../schedule-quotes.mjs";
 
@@ -42,6 +44,21 @@ assert.equal(quoteIndexForHongKongDay("2026-08-12"), 1);
 assert.equal(quoteIndexForHongKongDay("2026-08-10"), 512);
 assert.equal(quoteIndexForHongKongDay("2028-01-06"), 513 % 513);
 assert.equal(quoteForHongKongDay("2026-08-11"), SCHEDULE_QUOTES[0]);
+assert.deepEqual(quoteHistoryState("2026-08-11", "2026-08-20"), {
+  dayKey: "2026-08-11",
+  firstDayKey: "2026-08-11",
+  todayDayKey: "2026-08-20",
+  quote: SCHEDULE_QUOTES[0],
+  isPublished: true,
+  isToday: false,
+  canPrevious: false,
+  canNext: true
+});
+assert.equal(quoteHistoryState("2026-08-01", "2026-08-20").dayKey, "2026-08-11", "history must stop at the first published quote");
+assert.equal(quoteHistoryState("2026-08-21", "2026-08-20").dayKey, "2026-08-20", "future scheduled quotes must never be exposed");
+assert.equal(moveQuoteHistoryDay("2026-08-20", 1, "2026-08-20").dayKey, "2026-08-20", "next must stay disabled on today");
+assert.equal(moveQuoteHistoryDay("2026-08-20", -1, "2026-08-20").dayKey, "2026-08-19");
+assert.equal(moveQuoteHistoryDay("2026-08-11", -1, "2026-08-20").dayKey, "2026-08-11");
 assert.throws(() => quoteIndexForHongKongDay("2026-02-30"), RangeError);
 assert.throws(() => quoteIndexForHongKongDay("11/08/2026"), TypeError);
 
@@ -51,6 +68,10 @@ const encouragementAt = html.indexOf("data-weekly-encouragement");
 const tableAt = html.indexOf("data-table-region");
 assert.ok(toolbarAt >= 0 && toolbarAt < quoteAt && quoteAt < encouragementAt && encouragementAt < tableAt);
 assert.match(html, /data-toggle-daily-quote[^>]*aria-pressed="false"[^>]*>隱藏名人語錄</);
+assert.match(html, /data-quote-previous[^>]*aria-label="查看上一日名人語錄"/);
+assert.match(html, /data-quote-date[^>]*aria-live="polite"/);
+assert.match(html, /data-quote-today>返回今日</);
+assert.match(html, /data-quote-next[^>]*aria-label="查看下一日名人語錄"/);
 assert.match(html, /data-toggle-encouragement[^>]*aria-pressed="false"[^>]*>隱藏打氣說話</);
 assert.match(html, /\.daily-quote-panel\s*\{[^}]*font-family:\s*"Times New Roman"/s);
 assert.match(html, /\.daily-quote-language\s*\{[^}]*grid-template-columns:/s);
@@ -72,10 +93,12 @@ assert.match(html, /\.schedule-slot\.has-entry\.is-more-than-half-completed\s*\{
 assert.match(html, /\.more-than-half-completed-badge\s*\{[^}]*#ffe05a/i);
 assert.match(html, /\.print-entry-more-than-half-completed\s*\{[^}]*#ffe36f/i);
 
-assert.match(js, /import \{ quoteForHongKongDay \} from "\.\/schedule-quotes\.mjs\?v=20260811-1"/);
+assert.match(js, /moveQuoteHistoryDay,[\s\S]*?quoteHistoryState[\s\S]*?from "\.\/schedule-quotes\.mjs\?v=20260820-1"/);
 assert.match(js, /function nextHongKongMidnightTimestamp\(/);
 assert.match(js, /Date\.UTC\(year, month - 1, day \+ 1\) - \(8 \* 60 \* 60 \* 1000\)/);
-assert.match(js, /const dayKey = hongKongDayKey\(\)/);
+assert.match(js, /const history = quoteHistoryState\(dailyQuoteSelectedDayKey \|\| todayDayKey, todayDayKey\)/);
+assert.match(js, /elements\.quoteNext\.disabled = !history\.canNext/);
+assert.match(js, /elements\.quoteToday\.hidden = history\.isToday/);
 assert.match(js, /function quoteAttributionWithTitleBreak\(/);
 assert.match(js, /attribution\.search\(\/\[,，\]\//);
 assert.match(js, /`\$\{prefix\} \$\{author\}\$\{separator\}\\n\$\{title\}`/);

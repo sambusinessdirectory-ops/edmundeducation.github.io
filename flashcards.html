@@ -187350,14 +187350,13 @@ window.EDMUND_FLASHCARD_SEED = {
     function focusFlashcardRecoveryAction(panel) {
       if (
         flashcardRecoveryAttentionScheduled
-        || currentView !== "login"
         || !panel
         || panel.classList.contains("hidden")
       ) return;
       flashcardRecoveryAttentionScheduled = true;
       window.requestAnimationFrame(() => {
         flashcardRecoveryAttentionScheduled = false;
-        if (currentView !== "login" || panel.classList.contains("hidden")) return;
+        if (panel.classList.contains("hidden")) return;
         const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
         panel.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
         const action = panel.querySelector("[data-flashcard-recovery-action]:not(.hidden):not(:disabled)");
@@ -190973,25 +190972,43 @@ window.EDMUND_FLASHCARD_SEED = {
               loginFailureMessage = "舊有學習紀錄未能建立安全備份，登入已停止。";
               return false;
             }
-            const stateLoaded = await loadStudentStateFromSupabase();
+            // Authentication has succeeded. Open the learning home immediately;
+            // the sync phase remains read-only until the older cloud record has
+            // been reconciled below, so students never wait on the login screen.
+            showAppPanel("dashboard", false);
+            updateSupabaseStatus("已登入 · 正在載入完整學習紀錄", "warning");
+            const dashboardPanel = document.querySelector("[data-dashboard]");
+            dashboardPanel?.setAttribute("aria-busy", "true");
+            if (dashboardPanel) dashboardPanel.inert = true;
+            let stateLoaded = false;
+            try {
+              stateLoaded = await loadStudentStateFromSupabase();
+            } catch (stateRestoreError) {
+              // The credentials have already been accepted. A history service
+              // outage must not turn that successful login back into a failed
+              // login or return the student to the login screen.
+              console.warn("Flashcard record restore failed after login:", stateRestoreError);
+            } finally {
+              dashboardPanel?.removeAttribute("aria-busy");
+              if (dashboardPanel) dashboardPanel.inert = false;
+            }
             const stateContext = captureSupabaseStateSaveContext();
             if (stateLoaded && stateContext && isSupabaseStateHydrated(stateContext)) {
               hydrateFlashcardDisplayPreferences();
               updateSupabaseStatus("已安全連接", "live");
-              showAppPanel("dashboard", false);
+              refreshCurrentView();
               return true;
             }
             if (supabaseState.outboxErrorClass === "terminal") {
-              loginFailureMessage = "同步衝突不會靠等待自行解除。請勿清除瀏覽器資料；系統會帶你到「安全復原」按鈕，核實完成後才開啟學習頁。";
-              showLogin();
+              loginFailureMessage = "您已登入；舊有同步衝突需要安全復原。請勿清除瀏覽器資料。";
               renderFlashcardRecoveryPanel();
               scheduleFlashcardAutomaticTerminalRecovery();
-              return false;
+              return true;
             }
-            loginFailureMessage = "登入成功，但暫時未能安全載入完整學習紀錄。請稍後再試。";
-            clearSession();
-            showLogin();
-            return false;
+            loginFailureMessage = "您已登入；完整學習紀錄暫時未能載入，系統已保持唯讀，稍後會再同步。";
+            updateSupabaseStatus("已登入 · 完整紀錄稍後同步（唯讀）", "error");
+            refreshCurrentView();
+            return true;
           }
         } catch (error) {
           console.warn("Account login failed:", error);
@@ -196459,7 +196476,10 @@ window.EDMUND_FLASHCARD_SEED = {
           const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
           if (!ok && status) status.textContent = loginFailureMessage || "Wrong user name or password.";
           if (ok && status) status.textContent = "";
-          if (ok) window.setTimeout(openRequestedFlashcardTarget, 0);
+          const context = captureSupabaseStateSaveContext();
+          if (ok && context && isSupabaseStateHydrated(context)) {
+            window.setTimeout(openRequestedFlashcardTarget, 0);
+          }
         } finally {
           form.removeAttribute("aria-busy");
           delete form.dataset.flashcardLoginBusy;
@@ -197565,7 +197585,16 @@ window.EDMUND_FLASHCARD_SEED = {
       const shared = window.EdmundSystemNav?.getStudentSession?.();
       discardRestoredStudentForUniversalSession(shared);
       if (!currentUser) await restoreUniversalFlashcardSession(shared);
-      showLogin();
+      let restoredDashboardPanel = null;
+      if (currentUser && !isAdmin()) {
+        showAppPanel("dashboard", false);
+        updateSupabaseStatus("已登入 · 正在載入完整學習紀錄", "warning");
+        restoredDashboardPanel = document.querySelector("[data-dashboard]");
+        restoredDashboardPanel?.setAttribute("aria-busy", "true");
+        if (restoredDashboardPanel) restoredDashboardPanel.inert = true;
+      } else {
+        showLogin();
+      }
       const loginControls = [...document.querySelectorAll("[data-login-form] input, [data-login-form] button")];
       if (currentUser) {
         loginControls.forEach(control => { control.disabled = true; });
@@ -197573,6 +197602,8 @@ window.EDMUND_FLASHCARD_SEED = {
         if (status) status.textContent = "正在載入完整學習紀錄…";
       }
       const stateReady = await initSupabaseState();
+      restoredDashboardPanel?.removeAttribute("aria-busy");
+      if (restoredDashboardPanel) restoredDashboardPanel.inert = false;
       loginControls.forEach(control => { control.disabled = false; });
       const context = captureSupabaseStateSaveContext();
       if (currentUser && stateReady && (!context || isSupabaseStateHydrated(context))) {
@@ -197592,8 +197623,10 @@ window.EDMUND_FLASHCARD_SEED = {
           }
           renderFlashcardRecoveryPanel();
           scheduleFlashcardAutomaticTerminalRecovery();
-        } else if (status) {
-          status.textContent = "未能安全載入完整學習紀錄。請重新登入；系統不會以空白紀錄覆蓋原有資料。";
+        } else {
+          updateSupabaseStatus("已登入 · 完整紀錄稍後同步（唯讀）", "error");
+          refreshCurrentView();
+          if (status) status.textContent = "您已登入；完整學習紀錄暫時未能載入，系統已保持唯讀。";
         }
       }
     }

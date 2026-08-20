@@ -28,6 +28,18 @@
     admin: "edmund-video-class-admin-session-v1",
     lastRole: "edmund-video-class-last-role-v1"
   });
+  const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
+  function homeworkTargetFromLocation() {
+    const parameters = new URLSearchParams(window.location.search);
+    const series = String(parameters.get("series") || "").trim();
+    const video = String(parameters.get("video") || "").trim();
+    if (!series && !video) return null;
+    if ((series && video) || !UUID_PATTERN.test(series || video)) return { invalid: true, type: "", id: "" };
+    return { invalid: false, type: series ? "series" : "video", id: series || video };
+  }
+
+  const requestedHomeworkTarget = homeworkTargetFromLocation();
 
   const elements = {
     views: Array.from(document.querySelectorAll("[data-view]")),
@@ -50,6 +62,7 @@
     studentPages: Array.from(document.querySelectorAll("[data-student-page]")),
     studentGreeting: document.querySelector("[data-student-greeting]"),
     studentKey: document.querySelector("[data-student-key]"),
+    homeworkUnavailableMessage: document.querySelector("[data-homework-unavailable-message]"),
     coursesState: document.querySelector("[data-courses-state]"),
     courseList: document.querySelector("[data-course-list]"),
     selectedCourseTitle: document.querySelector("[data-selected-course-title]"),
@@ -228,6 +241,7 @@
     adminSeriesCourses: document.querySelector("[data-admin-series-courses]"),
     adminSeriesSelectionSummary: document.querySelector("[data-admin-series-selection-summary]"),
     adminSeriesStatus: document.querySelector("[data-admin-series-status]"),
+    adminDeleteSeries: document.querySelector("[data-delete-admin-series]"),
     adminCourseDialog: document.querySelector("[data-admin-course-dialog]"),
     adminCourseForm: document.querySelector("[data-admin-course-form]"),
     adminCourseLessonTitle: document.querySelector("[data-admin-course-lesson-title]"),
@@ -1120,6 +1134,12 @@
   async function restoreSession() {
     const storedStudent = readStorage(STORAGE_KEYS.student);
     const storedAdmin = readStorage(STORAGE_KEYS.admin);
+    if (requestedHomeworkTarget) {
+      const studentSession = await validateStoredSession("student", storedStudent);
+      if (!studentSession) return false;
+      await enterStudentPortal(studentSession);
+      return true;
+    }
     const lastRole = readStorage(STORAGE_KEYS.lastRole);
     const order = lastRole === "admin" ? [["admin", storedAdmin], ["student", storedStudent]] : [["student", storedStudent], ["admin", storedAdmin]];
     for (const [role, stored] of order) {
@@ -1166,8 +1186,60 @@
     resetStudentInactivity();
     await loadLessons();
     void loadAnalytics();
-    showStudentPage("courses");
+    const openedHomeworkTarget = await openRequestedHomeworkTarget();
+    if (!openedHomeworkTarget) showStudentPage("courses");
     resetStudentInactivity();
+  }
+
+  function showHomeworkUnavailable(message = "") {
+    if (elements.homeworkUnavailableMessage) {
+      elements.homeworkUnavailableMessage.textContent = message
+        || "影片或官方系列可能已被移除、停止發布，或你的帳戶尚未獲得觀看權限。";
+    }
+    showStudentPage("unavailable");
+  }
+
+  async function openRequestedHomeworkTarget() {
+    if (!requestedHomeworkTarget) return false;
+    if (requestedHomeworkTarget.invalid) {
+      showHomeworkUnavailable("這個 Video Class 功課連結格式不正確，請向老師索取新的連結。");
+      return true;
+    }
+    try {
+      const parameters = new URLSearchParams({
+        type: requestedHomeworkTarget.type,
+        id: requestedHomeworkTarget.id
+      });
+      const payload = await apiRequest(`/v1/student/homework-target?${parameters}`, {
+        token: state.studentSession.token
+      });
+      const target = unwrap(payload)?.target || unwrap(payload);
+      if (!target || String(target.id || "") !== requestedHomeworkTarget.id) {
+        throw new ApiError("此功課連結目前不可使用。", 404, "HOMEWORK_TARGET_UNAVAILABLE");
+      }
+
+      if (requestedHomeworkTarget.type === "series") {
+        const playlist = normalizeOfficialPlaylist(target);
+        if (!playlist.id) throw new ApiError("此官方系列目前不可使用。", 404, "HOMEWORK_TARGET_UNAVAILABLE");
+        state.officialPlaylists = state.officialPlaylists.filter(item => item.id !== playlist.id).concat(playlist);
+        state.selectedPlaylistId = playlist.id;
+        showStudentPage("playlists");
+        return true;
+      }
+
+      const lesson = normalizeLesson(target, state.lessons.length);
+      if (!lesson.id || !lesson.slug) throw new ApiError("此影片目前不可使用。", 404, "HOMEWORK_TARGET_UNAVAILABLE");
+      state.lessons = state.lessons.filter(item => item.id !== lesson.id).concat(lesson).sort(compareLessons);
+      await openLesson(lesson, { type: "course" });
+      return true;
+    } catch (error) {
+      if (error.status === 401) {
+        handleExpiredSession("student");
+        return true;
+      }
+      showHomeworkUnavailable();
+      return true;
+    }
   }
 
   async function enterAdminPortal(session) {
@@ -5960,6 +6032,7 @@
     renderCourseCheckboxes(elements.adminSeriesCourses, courseCodes, "series-course");
     elements.adminSeriesSelectionSummary.textContent = `將加入 ${lessonIds.length} 部已選影片。`;
     elements.adminSeriesStatus.textContent = "";
+    if (elements.adminDeleteSeries) elements.adminDeleteSeries.hidden = true;
     if (typeof elements.adminSeriesDialog.showModal === "function") elements.adminSeriesDialog.showModal();
     else elements.adminSeriesDialog.setAttribute("open", "");
   }
@@ -5967,6 +6040,7 @@
   function applyExistingAdminSeries() {
     const playlist = state.adminOfficialPlaylists.find(item => item.id === elements.adminSeriesExisting.value) || null;
     state.adminSeriesEditing = playlist;
+    if (elements.adminDeleteSeries) elements.adminDeleteSeries.hidden = !playlist;
     if (!playlist) return;
     elements.adminSeriesName.value = playlist.name;
     elements.adminSeriesDescription.value = playlist.description;
@@ -5975,6 +6049,7 @@
 
   function closeAdminSeriesDialog() {
     state.adminSeriesEditing = null;
+    if (elements.adminDeleteSeries) elements.adminDeleteSeries.hidden = true;
     if (elements.adminSeriesDialog?.open && typeof elements.adminSeriesDialog.close === "function") elements.adminSeriesDialog.close();
     else elements.adminSeriesDialog?.removeAttribute("open");
   }
@@ -6007,6 +6082,33 @@
       if (error.status === 401) return handleExpiredSession("admin");
       elements.adminSeriesStatus.textContent = error.message;
       elements.adminSeriesStatus.dataset.state = "error";
+    } finally {
+      elements.adminSeriesForm?.querySelectorAll("button, input, select, textarea").forEach(control => { control.disabled = false; });
+    }
+  }
+
+  async function deleteAdminSeries() {
+    const playlist = state.adminSeriesEditing;
+    if (!playlist?.id || !state.adminSession?.token) return;
+    if (!window.confirm(`確定永久刪除官方系列「${playlist.name}」？舊功課連結將立即顯示為不可使用。系列內的影片不會被刪除。`)) return;
+    elements.adminSeriesForm.querySelectorAll("button, input, select, textarea").forEach(control => { control.disabled = true; });
+    elements.adminSeriesStatus.dataset.state = "";
+    elements.adminSeriesStatus.textContent = "正在永久刪除官方系列⋯";
+    try {
+      await apiRequest(`/v1/admin/official-playlists/${encodeURIComponent(playlist.id)}`, {
+        method: "DELETE",
+        token: state.adminSession.token
+      });
+      state.adminOfficialPlaylists = state.adminOfficialPlaylists.filter(item => item.id !== playlist.id);
+      state.adminLessons.forEach(lesson => {
+        lesson.officialPlaylistIds = lesson.officialPlaylistIds.filter(id => id !== playlist.id);
+      });
+      closeAdminSeriesDialog();
+      showToast(`官方系列「${playlist.name}」已永久刪除；舊功課連結已失效。`, "success");
+    } catch (error) {
+      if (error.status === 401) return handleExpiredSession("admin");
+      elements.adminSeriesStatus.dataset.state = "error";
+      elements.adminSeriesStatus.textContent = error.message;
     } finally {
       elements.adminSeriesForm?.querySelectorAll("button, input, select, textarea").forEach(control => { control.disabled = false; });
     }
@@ -7120,6 +7222,7 @@
     document.querySelectorAll("[data-close-admin-series-order]").forEach(button => button.addEventListener("click", closeAdminSeriesOrderDialog));
     elements.adminSeriesExisting?.addEventListener("change", applyExistingAdminSeries);
     elements.adminSeriesForm?.addEventListener("submit", event => { event.preventDefault(); void saveAdminSeries(); });
+    elements.adminDeleteSeries?.addEventListener("click", () => void deleteAdminSeries());
     document.querySelectorAll("[data-close-admin-series]").forEach(button => button.addEventListener("click", closeAdminSeriesDialog));
     elements.adminCourseForm?.addEventListener("submit", event => { event.preventDefault(); void saveAdminLessonCourses(); });
     document.querySelectorAll("[data-close-admin-course]").forEach(button => button.addEventListener("click", closeAdminCourseDialog));

@@ -11204,10 +11204,29 @@ Device: concession 讓步
               sessionToken: studentSessionToken
             };
             setSession(currentUser);
-            await rememberUniversalStudentLogin(trimmedName, password);
-            await loadWritingStudentState();
+            // The account has been authenticated. Reveal the learning home
+            // before downloading older progress so login never appears stuck.
             showAppPanel("dashboard");
-            updateSupabaseStatus("已安全連接", "live");
+            updateSupabaseStatus("已登入 · 正在載入舊有紀錄", "warning");
+            const dashboard = document.querySelector("[data-dashboard]");
+            dashboard?.setAttribute("aria-busy", "true");
+            if (dashboard) dashboard.inert = true;
+            let recordsLoaded = true;
+            try {
+              await Promise.all([
+                rememberUniversalStudentLogin(trimmedName, password),
+                loadWritingStudentState()
+              ]);
+              showAppPanel("dashboard");
+            } catch (stateError) {
+              recordsLoaded = false;
+              console.warn("Writing Practice record restore failed after login:", stateError);
+              updateSupabaseStatus("已登入 · 正使用裝置紀錄", "warning");
+            } finally {
+              dashboard?.removeAttribute("aria-busy");
+              if (dashboard) dashboard.inert = false;
+            }
+            if (recordsLoaded) updateSupabaseStatus("已安全連接", "live");
             return true;
           }
         } catch (error) {
@@ -11219,6 +11238,7 @@ Device: concession 讓步
       const student = getStudents().find(item => item.name === trimmedName && item.password === password);
       if (student) {
         setSession({ name: student.name, role: "student", access: student.access, createdAt: student.createdAt });
+        showAppPanel("dashboard");
         await loadWritingStudentState();
         showAppPanel("dashboard");
         return true;
@@ -12751,8 +12771,24 @@ Device: concession 讓步
         }
       }
       if (restored && currentUser) {
-        if (currentUser.role === "student") await loadWritingStudentState();
         showAppPanel(currentUser.role === "admin" ? "admin-panel" : "dashboard");
+        if (currentUser.role === "student") {
+          updateSupabaseStatus("已登入 · 正在載入舊有紀錄", "warning");
+          const dashboard = document.querySelector("[data-dashboard]");
+          dashboard?.setAttribute("aria-busy", "true");
+          if (dashboard) dashboard.inert = true;
+          try {
+            await loadWritingStudentState();
+            showAppPanel("dashboard");
+            updateSupabaseStatus("已安全連接", "live");
+          } catch (stateError) {
+            console.warn("Writing Practice restored record load failed:", stateError);
+            updateSupabaseStatus("已登入 · 正使用裝置紀錄", "warning");
+          } finally {
+            dashboard?.removeAttribute("aria-busy");
+            if (dashboard) dashboard.inert = false;
+          }
+        }
         window.setTimeout(openRequestedWritingTarget, 0);
       } else {
         showLogin();

@@ -32,6 +32,22 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "speaking", trigger: "Speaking", label: "Speaking", color: "#2b9caf" }),
   Object.freeze({ type: "sentence-structure", trigger: "Sentence Structure", label: "Sentence Structure", color: "#6e62c9" }),
   Object.freeze({ type: "reading-analysis", trigger: "Answer Analysis - IELTS Reading", label: "Answer Analysis - IELTS Reading", color: "#8b5fbf" }),
+  Object.freeze({
+    type: "video-class-series",
+    trigger: "Series Video Class",
+    label: "Series Video Class",
+    pickerTitle: "選擇官方 Video Class 系列",
+    pickerNoun: "官方影片系列",
+    color: "#ef4f78"
+  }),
+  Object.freeze({
+    type: "video-class-video",
+    trigger: "Video Video Class",
+    label: "Video Video Class",
+    pickerTitle: "選擇官方 Video Class 影片",
+    pickerNoun: "官方課堂影片",
+    color: "#c84167"
+  }),
   Object.freeze({ type: "model-essay-download", trigger: "DSE Writing Part A Download", label: "DSE Writing Part A Download", color: "#d08b3e" }),
   Object.freeze({
     type: "download-material",
@@ -58,6 +74,8 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   speaking: Object.freeze(["/speaking-system.html"]),
   "sentence-structure": Object.freeze(["/sentence-structure.html"]),
   "reading-analysis": Object.freeze(["/ielts-reading-analysis.html"]),
+  "video-class-series": Object.freeze(["/video-class.html"]),
+  "video-class-video": Object.freeze(["/video-class.html"]),
   "model-essay-download": Object.freeze(["/model-essay-downloads.html"]),
   "download-material": Object.freeze(["/model-essay-downloads.html"]),
   "common-expression": Object.freeze([
@@ -111,6 +129,7 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/speaking-system.html": Object.freeze(["exercise"]),
   "/sentence-structure.html": Object.freeze(["lesson"]),
   "/ielts-reading-analysis.html": Object.freeze(["article"]),
+  "/video-class.html": Object.freeze([]),
   "/model-essay-downloads.html": Object.freeze(["catalog", "item"]),
   "/common-expression-speaking.html": Object.freeze(["lesson"]),
   "/common-expression-written.html": Object.freeze(["lesson"]),
@@ -175,6 +194,10 @@ export function normalizeHomeworkResource(value) {
   const parsed = new URL(url, "https://edmundeducation.com/");
   if (!ALLOWED_PAGES_BY_TYPE[type]?.includes(parsed.pathname)) return null;
   if (
+    (type === "video-class-series" && !parsed.searchParams.get("series"))
+    || (type === "video-class-video" && !parsed.searchParams.get("video"))
+  ) return null;
+  if (
     type === "model-essay-download"
     && parsed.searchParams.get("catalog") !== "dse-writing-part-a"
   ) return null;
@@ -190,6 +213,12 @@ export function normalizeHomeworkHref(value) {
   }
   if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password || parsed.hash) return null;
   if (!Object.hasOwn(EXPECTED_PARAMETERS_BY_PAGE, parsed.pathname)) return null;
+  if (parsed.pathname === "/video-class.html") {
+    const actualParameters = [...parsed.searchParams.keys()];
+    if (actualParameters.length !== 1 || !["series", "video"].includes(actualParameters[0])) return null;
+    if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(parsed.searchParams.get(actualParameters[0]) || "")) return null;
+    return `video-class.html?${parsed.searchParams.toString()}`;
+  }
   const expectedParameters = EXPECTED_PARAMETERS_BY_PAGE[parsed.pathname];
   const actualParameters = [...parsed.searchParams.keys()];
   // Older Schedule entries linked to the Writing Submission landing page

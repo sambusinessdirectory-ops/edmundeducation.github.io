@@ -84,7 +84,52 @@ const TOPIC_CATALOG_VERSION = "20260818-hkfsd-ir3";
 const TOPIC_REFERENCE_VERSION = "20260818-hkfsd-ir3";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
-const WRITING_IDLE_LIMIT_MS = 3 * 60 * 1000;
+const FEEDBACK_ENHANCEMENT_KINDS = Object.freeze({
+  sentence: Object.freeze({
+    sectionKey: "sentence-structure",
+    dataKey: "sentenceStructureParts",
+    singular: "句子結構",
+    title: "句子結構提升區",
+    copyTitle: "句子結構提升 - 抄寫",
+    className: "is-sentence-structure"
+  }),
+  rhetorical: Object.freeze({
+    sectionKey: "rhetorical-technique",
+    dataKey: "rhetoricalParts",
+    singular: "修辭技巧",
+    title: "修辭技巧提升區",
+    copyTitle: "修辭技巧提升 - 抄寫",
+    className: "is-rhetorical"
+  }),
+  phrasal: Object.freeze({
+    sectionKey: "phrasal-verb",
+    dataKey: "phrasalVerbParts",
+    singular: "動詞片語",
+    title: "動詞片語 (Phrasal Verb) 提升區",
+    copyTitle: "動詞片語 (Phrasal Verb) 提升 - 抄寫",
+    className: "is-phrasal-verb"
+  }),
+  writingExpression: Object.freeze({
+    sectionKey: "writing-common-expression",
+    dataKey: "writingCommonExpressionParts",
+    singular: "Writing - Common Expression",
+    title: "Writing - Common Expression 提升區",
+    copyTitle: "Writing - Common Expression 提升 - 抄寫",
+    className: "is-writing-common-expression"
+  }),
+  rhetoricalExpression: Object.freeze({
+    sectionKey: "rhetorical-common-expression",
+    dataKey: "rhetoricalCommonExpressionParts",
+    singular: "修辭 Common Expression",
+    title: "修辭 Common Expression 提升區",
+    copyTitle: "修辭 Common Expression 提升 - 抄寫",
+    className: "is-rhetorical-common-expression"
+  })
+});
+const FEEDBACK_ENHANCEMENT_BY_SECTION_KEY = Object.freeze(Object.fromEntries(
+  Object.entries(FEEDBACK_ENHANCEMENT_KINDS)
+    .map(([kind, value]) => [value.sectionKey, Object.freeze({ ...value, kind })])
+));
 const WRITING_PROOFREADING_SECONDS = 5 * 60;
 const DIRECT_PASTE_WORD_THRESHOLD = 50;
 const HARPER_VERSION = "2.7.0";
@@ -291,7 +336,7 @@ const state = {
   draftDurationSeconds: 0,
   submissionDurationSeconds: null,
   writingClockLastAt: 0,
-  lastWritingActivityAt: 0,
+  writingAreaFocused: false,
   writingClockTimer: null,
   selectedTopicResource: null,
   modelEssayReference: null,
@@ -1218,24 +1263,29 @@ function idleBreakIsPaused() {
   return window.EdmundIdleBreak?.isPaused?.() === true;
 }
 
-function writingClockEligible(now = Date.now(), { ignoreIdleBreak = false } = {}) {
+function writingClockEligible({ ignoreIdleBreak = false, allowHiddenTransition = false } = {}) {
   return Boolean(
     state.user?.role === "student"
     && state.currentView === "workspace"
-    && document.visibilityState !== "hidden"
+    && (allowHiddenTransition || document.visibilityState !== "hidden")
     && state.documentId
+    && state.writingAreaFocused
     && (ignoreIdleBreak || !idleBreakIsPaused())
-    && now - state.lastWritingActivityAt <= WRITING_IDLE_LIMIT_MS
   );
 }
 
-function accrueWritingTime(now = Date.now(), { ignoreIdleBreak = false } = {}) {
+function accrueWritingTime(now = Date.now(), {
+  ignoreIdleBreak = false,
+  allowHiddenTransition = false
+} = {}) {
   if (!state.writingClockLastAt) {
     state.writingClockLastAt = now;
     return;
   }
   const elapsedMs = Math.max(0, Math.min(15000, now - state.writingClockLastAt));
-  if (writingClockEligible(now, { ignoreIdleBreak })) state.draftDurationSeconds += elapsedMs / 1000;
+  if (writingClockEligible({ ignoreIdleBreak, allowHiddenTransition })) {
+    state.draftDurationSeconds += elapsedMs / 1000;
+  }
   state.writingClockLastAt = now;
 }
 
@@ -1246,7 +1296,23 @@ function markWritingActivity() {
     return;
   }
   accrueWritingTime(now);
-  state.lastWritingActivityAt = now;
+  state.writingClockLastAt = now;
+}
+
+function resumeWritingClockForEditor() {
+  const now = Date.now();
+  if (state.writingAreaFocused) {
+    accrueWritingTime(now);
+    return;
+  }
+  state.writingAreaFocused = true;
+  state.writingClockLastAt = now;
+}
+
+function pauseWritingClockOutsideEditor({ allowHiddenTransition = false } = {}) {
+  const now = Date.now();
+  accrueWritingTime(now, { allowHiddenTransition });
+  state.writingAreaFocused = false;
   state.writingClockLastAt = now;
 }
 
@@ -1270,10 +1336,10 @@ function formatCompactDuration(secondsValue) {
 
 function showView(name) {
   accrueWritingTime();
+  if (name !== "workspace") state.writingAreaFocused = false;
   clearFeedbackSelectionRanges();
   state.currentView = name;
   state.writingClockLastAt = Date.now();
-  if (name === "workspace" && state.user?.role === "student") markWritingActivity();
   for (const view of elements.views) view.hidden = view.dataset.view !== name;
   const loggedIn = Boolean(state.user && state.authToken);
   const admin = state.user?.role === "admin";
@@ -1466,7 +1532,7 @@ function clearSession() {
   state.draftDurationSeconds = 0;
   state.submissionDurationSeconds = null;
   state.writingClockLastAt = 0;
-  state.lastWritingActivityAt = 0;
+  state.writingAreaFocused = false;
   syncWritingTimerUi();
   syncWritingStopwatchUi();
   syncWritingProofreadingUi();
@@ -2562,7 +2628,7 @@ function setWritingTimerInputs(durationSeconds) {
 function writingTimerStatusText(timer) {
   if (timer.status === "running") {
     return timer.forceSubmit
-      ? "倒數進行中；時間到後會自動提交目前文章。"
+      ? "倒數進行中；時間到後先進入五分鐘校對，完成後才會自動提交。"
       : "倒數進行中；時間到後只會提示，不會自動提交。";
   }
   if (timer.status === "paused") return "倒數已暫停；按「繼續倒數」即可恢復。";
@@ -2673,7 +2739,6 @@ function resumeWritingTimersAfterIdleBreak(event) {
   if (resumeStopwatch && state.writingStopwatch.status === "paused") {
     state.writingStopwatch = startWritingStopwatch(state.writingStopwatch, resumedAt);
   }
-  state.lastWritingActivityAt = resumedAt;
   state.writingClockLastAt = resumedAt;
   persistDraft();
   syncWritingTimerUi();
@@ -2790,8 +2855,20 @@ async function attemptTimerForceSubmission({ retry = false } = {}) {
     || state.timerAutoSubmitLock
     || state.submissionPromise
   ) return false;
-  if (isWritingProofreadingActive(state.proofreadingGate)) {
-    state.writingTimer.autoSubmitError = "寫作時間已到；系統會在目前五分鐘校對時間結束後自動提交。";
+  state.proofreadingGate = normalizeWritingProofreadingGate(state.proofreadingGate);
+  if (!isWritingProofreadingReady(state.proofreadingGate)) {
+    state.writingTimer.autoSubmitAttemptedAt = 0;
+    if (!isWritingProofreadingActive(state.proofreadingGate)) {
+      try {
+        beginWritingProofreading();
+      } catch (error) {
+        state.writingTimer.autoSubmitError = `時間已到，但未能開始校對：${error.message || "請先補充文章內容。"}`;
+        persistDraft();
+        syncWritingTimerUi();
+        return false;
+      }
+    }
+    state.writingTimer.autoSubmitError = "寫作時間已到；文章已進入五分鐘校對，校對完成後才會自動提交。";
     persistDraft();
     syncWritingTimerUi();
     return false;
@@ -2851,7 +2928,7 @@ function startNewDraft({ preserveView = false } = {}) {
   state.writingImageZoom = 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
-  state.lastWritingActivityAt = Date.now();
+  state.writingAreaFocused = false;
   state.previousWriting = "";
   state.activeIssues = [];
   state.appliedCorrections = [];
@@ -2901,7 +2978,7 @@ async function restoreDraft() {
   state.writingImageZoom = draft?.writingImageZoom || 1;
   state.timerAutoSubmitLock = false;
   state.writingClockLastAt = Date.now();
-  state.lastWritingActivityAt = Date.now();
+  state.writingAreaFocused = false;
   state.appliedCorrections = [];
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
@@ -4426,13 +4503,14 @@ function feedbackPrintLearningCards(title, values) {
 function feedbackPrintEnhancementCards(title, values, kind) {
   const items = normalizeFeedbackEnhancementParts(values);
   if (!items.length) return "";
-  const prefix = kind === "rhetorical" ? "修辭技巧" : "句子結構";
+  const kindCopy = feedbackEnhancementKindCopy(kind);
+  const prefix = kindCopy.singular;
   const fields = [
     ["originalSentence", "Original Sentence 原句", "is-original"],
     ["enhancement", "Enhancement 改良寫法", "is-enhancement"],
     ["benefit", "Benefit 好處／作用", "is-benefit"]
   ];
-  return `<section class="print-feedback-section print-enhancement-section is-${kind}">
+  return `<section class="print-feedback-section print-enhancement-section ${escapePrintHtml(kindCopy.className)}">
     <h3>${escapePrintHtml(title)}</h3>
     <div class="print-enhancement-list">${items.map((item, index) => `
       <article class="print-enhancement-card">
@@ -4451,9 +4529,10 @@ function feedbackPrintEnhancementCards(title, values, kind) {
 
 function feedbackPrintSentenceLinks(values) {
   const links = normalizeFeedbackSentencePickerLinks(values).map((link, index) => {
+    const absoluteUrl = new URL(link.url, "https://edmundeducation.com/").href;
     return `<div class="print-sentence-link-row">
       <span aria-hidden="true">${index + 1}</span>
-      <a href="${escapePrintHtml(link.url)}">${escapePrintHtml(link.label || `句子結構練習 ${index + 1}`)}</a>
+      <a href="${escapePrintHtml(absoluteUrl)}" aria-label="前往 ${escapePrintHtml(link.label || `句子結構練習 ${index + 1}`)}">${escapePrintHtml(link.label || `句子結構練習 ${index + 1}`)}</a>
     </div>`;
   });
   if (!links.length) return "";
@@ -4507,11 +4586,14 @@ function feedbackPrintHtml(feedback) {
     ${fragments ? `<div class="print-feedback-pairs">${fragments}</div>` : ""}
     ${feedbackPrintTextSection("最後評語", feedback.finalComment, "print-final-comment")}
     ${feedbackPrintLearningCards("文法評語站", feedback.grammarPoints)}
-    ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence-structure")}
-    ${feedbackPrintSentenceLinks(feedback.sentenceStructureLinks)}
-    ${feedbackPrintEnhancementCards("修辭技巧提升區", feedback.rhetoricalParts, "rhetorical")}
     ${improvedVersion}
     ${feedbackPrintTranscriptions(feedback)}
+    ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence")}
+    ${feedbackPrintSentenceLinks(feedback.sentenceStructureLinks)}
+    ${feedbackPrintEnhancementCards("修辭技巧提升區", feedback.rhetoricalParts, "rhetorical")}
+    ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal")}
+    ${feedbackPrintEnhancementCards("Writing - Common Expression 提升區", feedback.writingCommonExpressionParts, "writingExpression")}
+    ${feedbackPrintEnhancementCards("修辭 Common Expression 提升區", feedback.rhetoricalCommonExpressionParts, "rhetoricalExpression")}
   </section>`;
 }
 
@@ -4525,6 +4607,10 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student" } = {}) 
   const baseHref = new URL(".", window.location.href).href;
   const articles = bundles.map(({ submission, feedback }, index) => `
     <article class="composition">
+      <a class="export-header" href="https://edmundeducation.com/index.html" aria-label="返回 EdmundEducation 網站首頁">
+        <span class="brand">EdmundEducation</span>
+        <img class="elearning" src="https://edmundeducation.com/E-Learning.png" alt="E-Learning">
+      </a>
       <header class="article-head">
         <p class="sequence">WRITING SUBMISSION ${index + 1} / ${bundles.length}</p>
         <h1>${escapePrintHtml(admin && submission.studentName ? `${submission.studentName}－寫作文章` : `我的文章 ${index + 1}`)}</h1>
@@ -4550,6 +4636,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student" } = {}) 
   .print-toolbar{position:sticky;top:0;z-index:5;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff;background:#272757;font-family:system-ui,sans-serif}
   .print-toolbar p{margin:0;font-size:13px}.print-toolbar button{border:0;border-radius:999px;padding:10px 16px;color:#272757;background:#fff;cursor:pointer;font-weight:800}
   main{width:min(940px,calc(100% - 28px));margin:26px auto}.composition{margin:0 0 28px;padding:38px 42px;background:#fff;box-shadow:0 12px 38px rgba(20,20,50,.12);break-after:page;page-break-after:always}
+  .export-header{margin:0 0 24px;padding:15px 18px;border:1px solid rgba(47,128,237,.14);border-radius:18px;display:flex;align-items:center;justify-content:center;gap:34px;color:#050505;background:#f7faff;text-decoration:none;break-inside:avoid;page-break-inside:avoid}.export-header .brand{font-size:27px;letter-spacing:.1em;font-weight:500}.export-header .elearning{width:auto;height:36px;object-fit:contain}
   .composition:last-child{break-after:auto;page-break-after:auto}.article-head{padding-bottom:14px;border-bottom:2px solid #e6e5ef}.sequence{margin:0 0 8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.13em}
   h1{margin:0 0 14px;font-size:27px;line-height:1.35}h2,h3,.print-card-title{break-after:avoid;page-break-after:avoid}.meta{display:flex;flex-wrap:wrap;gap:7px 14px;color:#66637c;font:12px system-ui,sans-serif}
   .topic,.answer{margin-top:22px}.topic{border-left:5px solid #e87b2c;padding:14px 18px;background:#fff6e8;break-inside:avoid;page-break-inside:avoid}.topic strong,.answer>strong{display:block;margin-bottom:8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.08em}
@@ -4560,11 +4647,11 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student" } = {}) 
   .print-feedback-pairs,.print-learning-list,.print-enhancement-list{display:grid;gap:14px;margin-top:18px}.print-feedback-pair{overflow:hidden;border:1px solid #deddea;border-radius:15px;break-inside:avoid;page-break-inside:avoid}.print-feedback-band{margin:0;padding:13px 16px}.print-feedback-band>span,.print-enhancement-band>span{display:block;margin-bottom:6px;font:850 11px system-ui,sans-serif;letter-spacing:.03em}.print-feedback-band.is-original{background:#f5f6fa}.print-feedback-band.is-original>span{color:#52516d}.print-feedback-band.is-comment{border-top:1px solid #e8d3bb;background:#fff6e8}.print-feedback-band.is-comment>span{color:#a95416}.print-feedback-band.is-suggestion{border-top:1px solid #d4e7d6;background:#f1fbf3}.print-feedback-band.is-suggestion>span{color:#21703a}
   .print-rich-content{font-size:15px;line-height:1.68;white-space:pre-wrap;overflow-wrap:anywhere}.print-rich-content.is-empty{color:#827f94;font-style:italic}.print-rich-content p{margin:0}.print-rich-content p+p{margin-top:8px}.feedback-numbered-card{display:grid;grid-template-columns:32px 1fr;gap:9px;align-items:start;margin-top:8px;break-inside:avoid;page-break-inside:avoid}.feedback-number-badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#fff;background:#184d78;font:850 12px system-ui,sans-serif}.feedback-numbered-body{min-height:30px;border-left:3px solid #dc7a18;padding:5px 9px;background:#fff1d2}
   .print-learning-card{border:1px solid #d8e1f1;border-radius:13px;padding:14px 16px;background:#f5f8ff;break-inside:avoid;page-break-inside:avoid}.print-learning-card>strong{display:block;margin-bottom:7px;color:#304794;font:850 12px system-ui,sans-serif}
-  .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}
-  .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-row a{color:#263957;text-decoration:none;font:750 12px/1.45 system-ui,sans-serif}
+  .print-enhancement-card{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-card-title{display:block;padding:11px 15px;color:#fff;background:#304794;font:850 13px system-ui,sans-serif}.is-rhetorical .print-card-title{background:#7a3c78}.is-phrasal-verb .print-card-title{background:#276848}.is-writing-common-expression .print-card-title{background:#28617d}.is-rhetorical-common-expression .print-card-title{background:#98631d}.print-enhancement-band{margin:0;padding:12px 15px}.print-enhancement-band.is-original{background:#f7f7fa}.print-enhancement-band.is-original>span{color:#55536d}.print-enhancement-band.is-enhancement{border-top:1px solid #d7e7da;background:#f1fbf3}.print-enhancement-band.is-enhancement>span{color:#21703a}.print-enhancement-band.is-benefit{border-top:1px solid #eadbbc;background:#fff8e8}.print-enhancement-band.is-benefit>span{color:#9d5b16}
+  .print-sentence-panel{overflow:hidden;border:1px solid #d9dceb;border-radius:15px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-sentence-panel>header{padding:13px 15px;display:flex;justify-content:space-between;gap:12px;color:#272757;background:#e9edff;font:12px system-ui,sans-serif}.print-sentence-panel>header strong{font-weight:850}.print-sentence-link-list{display:grid;gap:7px;padding:12px}.print-sentence-link-row{display:grid;grid-template-columns:28px 1fr;gap:9px;align-items:center;border:1px solid #e0e2ed;border-radius:10px;padding:8px 10px;background:#fff;break-inside:avoid;page-break-inside:avoid}.print-sentence-link-row>span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#304794;font:800 11px system-ui,sans-serif}.print-sentence-link-row a{color:#145c91;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;font:750 12px/1.45 system-ui,sans-serif}
   .print-transcriptions article{margin-top:10px;border:1px solid #dfe0ea;border-radius:13px;padding:14px 16px;break-inside:avoid;page-break-inside:avoid}.print-transcriptions article>strong{display:block;margin-bottom:8px;color:#304794;font:850 12px system-ui,sans-serif}.print-transcriptions article>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}.print-improved-version{border-color:#cfe4d3;background:#f2fbf3}
   mark{border-radius:.2em;padding:.03em .08em;color:inherit;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}mark[data-highlight="yellow"]{background:#fff1a8}mark[data-highlight="orange"]{background:#ffd3a1}mark[data-highlight="blue"]{background:#cfe6ff}mark[data-highlight="green"]{background:#d5f2d5}mark[data-highlight="red"]{background:#ffc7c7}em{font-style:italic}s{text-decoration:line-through}strong{font-weight:800}
-  @media(max-width:600px){.composition{padding:27px 22px}h1{font-size:22px}.print-sentence-panel>header{display:grid}}
+  @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}}
   @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}}
 </style></head><body>
 <div class="print-toolbar"><p>已準備 ${bundles.length} 篇文章及評語${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><button type="button" id="print-compositions">列印／儲存為 PDF</button></div>
@@ -4957,6 +5044,32 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   applyFeedbackFontScale();
 }
 
+function normalizeFeedbackEnhancementCopies(value) {
+  const output = [];
+  const seen = new Set();
+  for (const item of Array.isArray(value) ? value : []) {
+    const sectionKey = String(item?.sectionKey || item?.section_key || "");
+    const itemPosition = Number(item?.itemPosition ?? item?.item_position ?? 0);
+    if (
+      !FEEDBACK_ENHANCEMENT_BY_SECTION_KEY[sectionKey]
+      || !Number.isSafeInteger(itemPosition)
+      || itemPosition < 1
+      || itemPosition > 100
+    ) continue;
+    const identity = `${sectionKey}:${itemPosition}`;
+    if (seen.has(identity)) continue;
+    seen.add(identity);
+    output.push({
+      sectionKey,
+      itemPosition,
+      text: String(item?.text || item?.copyText || item?.copy_text || ""),
+      version: Math.max(0, Number(item?.version || 0)),
+      updatedAt: String(item?.updatedAt || item?.updated_at || "")
+    });
+  }
+  return output;
+}
+
 function normalizeTeacherFeedback(value) {
   if (!value || typeof value !== "object") return null;
   const fragments = Array.isArray(value.fragments)
@@ -5027,6 +5140,18 @@ function normalizeTeacherFeedback(value) {
       : normalizeFeedbackEnhancementParts(sentenceStructureMethods),
     rhetoricalParts: normalizeFeedbackEnhancementParts(
       value.rhetoricalParts || value.rhetorical_parts
+    ),
+    phrasalVerbParts: normalizeFeedbackEnhancementParts(
+      value.phrasalVerbParts || value.phrasal_verb_parts
+    ),
+    writingCommonExpressionParts: normalizeFeedbackEnhancementParts(
+      value.writingCommonExpressionParts || value.writing_common_expression_parts
+    ),
+    rhetoricalCommonExpressionParts: normalizeFeedbackEnhancementParts(
+      value.rhetoricalCommonExpressionParts || value.rhetorical_common_expression_parts
+    ),
+    enhancementCopies: normalizeFeedbackEnhancementCopies(
+      value.enhancementCopies || value.enhancement_copies
     ),
     sentenceStructureLinks,
     fragments
@@ -5245,14 +5370,56 @@ function renderStudentSentenceExercisePanel(value) {
   return panel;
 }
 
-function renderStudentFeedbackEnhancementArea(title, itemsValue, { kind = "sentence", links = [] } = {}) {
+function feedbackEnhancementCopy(feedback, kind, itemPosition) {
+  const sectionKey = feedbackEnhancementKindCopy(kind).sectionKey;
+  return feedback?.enhancementCopies?.find(item => (
+    item.sectionKey === sectionKey && item.itemPosition === itemPosition
+  )) || { sectionKey, itemPosition, text: "", version: 0, updatedAt: "" };
+}
+
+function renderEnhancementCopyArea(feedback, kind, itemPosition) {
+  if (!feedback?.submissionId) return null;
+  const copy = feedbackEnhancementKindCopy(kind);
+  const saved = feedbackEnhancementCopy(feedback, kind, itemPosition);
+  const section = createElement(
+    "div",
+    "teacher-feedback-suggestion-copy teacher-feedback-enhancement-copy"
+  );
+  section.dataset.enhancementCopyKind = copy.sectionKey;
+  section.dataset.enhancementCopyPosition = String(itemPosition);
+  const field = createElement("label");
+  field.append(createElement("span", "", copy.copyTitle));
+  const textarea = document.createElement("textarea");
+  textarea.rows = 5;
+  textarea.maxLength = 20000;
+  textarea.value = saved.text;
+  textarea.dataset.enhancementCopyText = "true";
+  textarea.placeholder = `在這裡抄寫${copy.singular}的改良內容，完成後按儲存。`;
+  field.append(textarea);
+  const actions = createElement("div", "teacher-feedback-suggestion-copy-actions");
+  const status = createElement("p", "form-status", "");
+  status.dataset.enhancementCopyStatus = "true";
+  status.setAttribute("role", "status");
+  const save = createElement("button", "small-button", "儲存抄寫");
+  save.type = "button";
+  save.dataset.enhancementCopySave = "true";
+  actions.append(status, save);
+  section.append(field, actions);
+  return section;
+}
+
+function renderStudentFeedbackEnhancementArea(
+  title,
+  itemsValue,
+  { kind = "sentence", links = [], feedback = null } = {}
+) {
   const parts = normalizeFeedbackEnhancementParts(itemsValue);
   const sentenceLinks = kind === "sentence" ? normalizeFeedbackSentencePickerLinks(links) : [];
   if (!parts.length && !sentenceLinks.length) return null;
-  const sentence = kind === "sentence";
+  const kindCopy = feedbackEnhancementKindCopy(kind);
   const section = createElement(
     "section",
-    `teacher-feedback-enhancement-read is-${sentence ? "sentence-structure" : "rhetorical"}`
+    `teacher-feedback-enhancement-read ${kindCopy.className}`
   );
   section.append(createElement("h3", "", title));
   if (parts.length) {
@@ -5267,7 +5434,7 @@ function renderStudentFeedbackEnhancementArea(title, itemsValue, { kind = "sente
       card.append(createElement(
         "strong",
         "teacher-feedback-enhancement-card-title",
-        `${sentence ? "句子結構" : "修辭技巧"} ${index + 1}`
+        `${kindCopy.singular} ${index + 1}`
       ));
       fields.forEach(([field, label, className]) => {
         const band = createElement("section", `teacher-feedback-enhancement-band ${className}`);
@@ -5283,6 +5450,8 @@ function renderStudentFeedbackEnhancementArea(title, itemsValue, { kind = "sente
         band.append(content);
         card.append(band);
       });
+      const copyArea = renderEnhancementCopyArea(feedback, kind, index + 1);
+      if (copyArea) card.append(copyArea);
       list.append(card);
     });
     section.append(list);
@@ -5374,19 +5543,30 @@ function renderStudentFeedback(feedback, container) {
   if (finalComment) panel.append(finalComment);
   const grammarArea = renderStudentFeedbackLearningArea("文法評語站", feedback.grammarPoints);
   if (grammarArea) panel.append(grammarArea);
+  // Students copy the improved/model versions before moving into the more
+  // detailed sentence, rhetoric and expression enhancement sections.
+  panel.append(renderStudentTranscriptions(feedback));
   const sentenceArea = renderStudentFeedbackEnhancementArea(
     "句子結構提升區",
     feedback.sentenceStructureParts,
-    { kind: "sentence", links: feedback.sentenceStructureLinks }
+    { kind: "sentence", links: feedback.sentenceStructureLinks, feedback }
   );
   if (sentenceArea) panel.append(sentenceArea);
   const rhetoricalArea = renderStudentFeedbackEnhancementArea(
     "修辭技巧提升區",
     feedback.rhetoricalParts,
-    { kind: "rhetorical" }
+    { kind: "rhetorical", feedback }
   );
   if (rhetoricalArea) panel.append(rhetoricalArea);
-  panel.append(renderStudentTranscriptions(feedback));
+  for (const kind of ["phrasal", "writingExpression", "rhetoricalExpression"]) {
+    const copy = feedbackEnhancementKindCopy(kind);
+    const area = renderStudentFeedbackEnhancementArea(
+      copy.title,
+      feedback[copy.dataKey],
+      { kind, feedback }
+    );
+    if (area) panel.append(area);
+  }
   container.append(panel);
 }
 
@@ -5523,9 +5703,7 @@ function createFeedbackLearningRow(kind, index, value = {}) {
 }
 
 function feedbackEnhancementKindCopy(kind) {
-  return kind === "rhetorical"
-    ? { singular: "修辭技巧", className: "is-rhetorical" }
-    : { singular: "句子結構", className: "is-sentence-structure" };
+  return FEEDBACK_ENHANCEMENT_KINDS[kind] || FEEDBACK_ENHANCEMENT_KINDS.sentence;
 }
 
 function createFeedbackEnhancementRow(kind, index, value = {}) {
@@ -5884,7 +6062,7 @@ function addFeedbackSentencePickerLink(picker, resourceId) {
 
 function renderFeedbackLearningEditor({ kind, title, description, values = [], links = [] }) {
   const grammar = kind === "grammar";
-  const kindClass = grammar ? "" : kind === "rhetorical" ? " is-rhetorical" : " is-sentence-structure";
+  const kindClass = grammar ? "" : ` ${feedbackEnhancementKindCopy(kind).className}`;
   const section = createElement(
     "section",
     `teacher-feedback-learning-editor${kindClass}`
@@ -5938,18 +6116,18 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   add.dataset.feedbackAddTen = "true";
   panel.append(add);
   panel.append(feedbackTextarea("最後評語", feedback?.finalComment || "", "feedbackFinal"));
-  panel.append(feedbackTextarea(
-    "保留原意改良版",
-    feedback?.improvedVersion || "",
-    "feedbackImproved",
-    { rows: 12, maxLength: 100000 }
-  ));
   panel.append(renderFeedbackLearningEditor({
     kind: "grammar",
     title: "文法評語站",
     description: "每個欄位是一個獨立文法重點；最少預留 10 個，可逐次增加 10 個。數字清單可用 Shift + Enter 留空行後退出編號格式。",
     values: feedback?.grammarPoints || []
   }));
+  panel.append(feedbackTextarea(
+    "保留原意改良版",
+    feedback?.improvedVersion || "",
+    "feedbackImproved",
+    { rows: 12, maxLength: 100000 }
+  ));
   panel.append(renderFeedbackLearningEditor({
     kind: "sentence",
     title: "句子結構提升區",
@@ -5963,6 +6141,15 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
     description: "在文法與句子結構之後，分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用。",
     values: feedback?.rhetoricalParts || []
   }));
+  for (const kind of ["phrasal", "writingExpression", "rhetoricalExpression"]) {
+    const kindCopy = feedbackEnhancementKindCopy(kind);
+    panel.append(renderFeedbackLearningEditor({
+      kind,
+      title: kindCopy.title,
+      description: "每項分開記錄 Original Sentence 原句、Enhancement 改良寫法及 Benefit 好處／作用。",
+      values: feedback?.[kindCopy.dataKey] || []
+    }));
+  }
   const status = createElement("p", "form-status teacher-feedback-save-status", "");
   status.dataset.feedbackSaveStatus = "true";
   status.setAttribute("role", "status");
@@ -6009,34 +6196,25 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     [...editor.querySelectorAll('[data-feedback-learning-row="grammar"]')]
       .map(row => readFeedbackRichEditor(row.querySelector('[data-feedback-rich-editor="grammar-point"]')))
   );
-  const sentenceStructureParts = normalizeFeedbackEnhancementParts(
-    [...editor.querySelectorAll('[data-feedback-learning-row="sentence"]')]
+  const readEnhancementParts = kind => normalizeFeedbackEnhancementParts(
+    [...editor.querySelectorAll(`[data-feedback-learning-row="${kind}"]`)]
       .map(row => ({
         originalSentence: readFeedbackRichEditor(
-          row.querySelector('[data-feedback-rich-editor="sentence-original"]')
+          row.querySelector(`[data-feedback-rich-editor="${kind}-original"]`)
         ),
         enhancement: readFeedbackRichEditor(
-          row.querySelector('[data-feedback-rich-editor="sentence-enhancement"]')
+          row.querySelector(`[data-feedback-rich-editor="${kind}-enhancement"]`)
         ),
         benefit: readFeedbackRichEditor(
-          row.querySelector('[data-feedback-rich-editor="sentence-benefit"]')
+          row.querySelector(`[data-feedback-rich-editor="${kind}-benefit"]`)
         )
       }))
   );
-  const rhetoricalParts = normalizeFeedbackEnhancementParts(
-    [...editor.querySelectorAll('[data-feedback-learning-row="rhetorical"]')]
-      .map(row => ({
-        originalSentence: readFeedbackRichEditor(
-          row.querySelector('[data-feedback-rich-editor="rhetorical-original"]')
-        ),
-        enhancement: readFeedbackRichEditor(
-          row.querySelector('[data-feedback-rich-editor="rhetorical-enhancement"]')
-        ),
-        benefit: readFeedbackRichEditor(
-          row.querySelector('[data-feedback-rich-editor="rhetorical-benefit"]')
-        )
-      }))
-  );
+  const sentenceStructureParts = readEnhancementParts("sentence");
+  const rhetoricalParts = readEnhancementParts("rhetorical");
+  const phrasalVerbParts = readEnhancementParts("phrasal");
+  const writingCommonExpressionParts = readEnhancementParts("writingExpression");
+  const rhetoricalCommonExpressionParts = readEnhancementParts("rhetoricalExpression");
   const sentenceStructureMethods = normalizeSentenceStructureMethods(
     sentenceStructureParts.map(part => part.enhancement)
   );
@@ -6048,6 +6226,8 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     &&
     !overallComment && !finalComment && !improvedVersion && !fragments.length
     && !grammarPoints.length && !sentenceStructureParts.length && !rhetoricalParts.length
+    && !phrasalVerbParts.length && !writingCommonExpressionParts.length
+    && !rhetoricalCommonExpressionParts.length
     && !sentenceStructureLinks.length
   ) {
     throw new Error("請先填寫至少一項評語內容。");
@@ -6060,6 +6240,9 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     sentenceStructureMethods,
     sentenceStructureParts,
     rhetoricalParts,
+    phrasalVerbParts,
+    writingCommonExpressionParts,
+    rhetoricalCommonExpressionParts,
     sentenceStructureLinks,
     fragments
   };
@@ -6146,6 +6329,68 @@ async function saveSuggestionCopy(fragmentId) {
       status,
       error?.code === "SUGGESTION_COPY_VERSION_CONFLICT"
         ? "內容已在另一個視窗更新；請重新開啟文章後再儲存。"
+        : error?.message || "暫時未能儲存抄寫內容。",
+      "error"
+    );
+  } finally {
+    if (button?.isConnected) button.disabled = false;
+  }
+}
+
+async function saveEnhancementCopy(section) {
+  if (!section || state.user?.role !== "student") return;
+  const feedback = state.selectedStudentFeedback;
+  const sectionKey = String(section.dataset.enhancementCopyKind || "");
+  const itemPosition = Number(section.dataset.enhancementCopyPosition || 0);
+  const kind = FEEDBACK_ENHANCEMENT_BY_SECTION_KEY[sectionKey];
+  if (
+    !feedback
+    || !UUID_RE.test(feedback.submissionId)
+    || !kind
+    || !Number.isSafeInteger(itemPosition)
+    || itemPosition < 1
+    || itemPosition > 100
+  ) return;
+  const current = feedbackEnhancementCopy(feedback, kind.kind, itemPosition);
+  const textarea = section.querySelector("[data-enhancement-copy-text]");
+  const button = section.querySelector("[data-enhancement-copy-save]");
+  const status = section.querySelector("[data-enhancement-copy-status]");
+  if (button) button.disabled = true;
+  setStatus(status, "正在儲存抄寫內容……");
+  try {
+    const payload = await apiJson(
+      `/v1/submissions/${encodeURIComponent(feedback.submissionId)}/feedback/enhancements/${encodeURIComponent(sectionKey)}/${itemPosition}/copy`,
+      {
+        method: "PUT",
+        body: JSON.stringify({
+          text: textarea?.value || "",
+          expectedVersion: current.version
+        })
+      }
+    );
+    const saved = payload?.enhancementCopy || payload?.enhancement_copy;
+    const version = Number(saved?.version || 0);
+    if (!Number.isSafeInteger(version) || version < 1) throw new Error("抄寫服務回應無效。");
+    const normalized = {
+      sectionKey,
+      itemPosition,
+      text: String(saved?.text || ""),
+      version,
+      updatedAt: String(saved?.updatedAt || saved?.updated_at || "")
+    };
+    feedback.enhancementCopies = [
+      ...feedback.enhancementCopies.filter(item => !(
+        item.sectionKey === sectionKey && item.itemPosition === itemPosition
+      )),
+      normalized
+    ];
+    setStatus(status, "抄寫內容已儲存。", "success");
+    showToast(`${kind.copyTitle}已儲存。`, "success");
+  } catch (error) {
+    setStatus(
+      status,
+      error?.code === "ENHANCEMENT_COPY_VERSION_CONFLICT"
+        ? "內容已在另一個視窗更新，或老師已修改這一項；請重新開啟文章後再儲存。"
         : error?.message || "暫時未能儲存抄寫內容。",
       "error"
     );
@@ -6621,7 +6866,7 @@ async function deleteStudentSubmission(id) {
 
 async function submitCurrentWriting({ source = "manual" } = {}) {
   if (state.submissionPromise) return state.submissionPromise;
-  if (source === "manual" && !isWritingProofreadingReady(state.proofreadingGate)) {
+  if (!isWritingProofreadingReady(state.proofreadingGate)) {
     throw new Error("請先完成五分鐘校對時間，再正式提交文章。");
   }
   const topic = elements.topicInput.value.trim();
@@ -7625,8 +7870,9 @@ function bindEvents() {
   elements.writingInput.addEventListener("input", handleWritingInput);
   elements.writingInput.addEventListener("paste", handleWritingPaste);
   elements.writingInput.addEventListener("scroll", syncModelEssayOverlayScroll);
-  elements.writingInput.addEventListener("focus", markWritingActivity);
-  elements.topicInput.addEventListener("focus", markWritingActivity);
+  elements.writingInput.addEventListener("focus", resumeWritingClockForEditor);
+  elements.writingInput.addEventListener("pointerdown", resumeWritingClockForEditor);
+  elements.writingInput.addEventListener("blur", () => pauseWritingClockOutsideEditor());
   elements.adminSearch.addEventListener("input", () => {
     renderAdminStudents();
     renderAdminSubmissions();
@@ -7740,6 +7986,12 @@ function bindEvents() {
     const suggestionCopySave = event.target.closest("[data-suggestion-copy-save]");
     if (suggestionCopySave) {
       return saveSuggestionCopy(suggestionCopySave.dataset.suggestionCopySave).catch(handleViewError);
+    }
+    const enhancementCopySave = event.target.closest("[data-enhancement-copy-save]");
+    if (enhancementCopySave) {
+      return saveEnhancementCopy(
+        enhancementCopySave.closest("[data-enhancement-copy-kind]")
+      ).catch(handleViewError);
     }
     const bookmarkToggle = event.target.closest("[data-feedback-bookmark-fragment]");
     if (bookmarkToggle) {
@@ -7970,21 +8222,24 @@ function bindEvents() {
     if (feedbackTextarea) autosizeTextarea(feedbackTextarea, feedbackTextarea.hasAttribute("data-feedback-comment") ? 130 : 72);
   });
   window.addEventListener("pagehide", () => {
-    accrueWritingTime();
+    pauseWritingClockOutsideEditor({ allowHiddenTransition: true });
     persistDraft();
     if (state.pendingOccurrences.size) {
       flushGrammarOccurrences({ keepalive: true }).catch(() => {});
     }
   });
   document.addEventListener("visibilitychange", () => {
-    accrueWritingTime();
+    if (document.visibilityState === "hidden") {
+      pauseWritingClockOutsideEditor({ allowHiddenTransition: true });
+    } else {
+      accrueWritingTime();
+    }
     state.writingClockLastAt = Date.now();
     if (document.visibilityState === "visible") {
       tickWritingTimer();
       syncWritingStopwatchUi();
       syncWritingProofreadingUi();
     }
-    if (document.visibilityState === "visible" && state.currentView === "workspace") markWritingActivity();
   });
   window.addEventListener("online", () => {
     if (state.writingTimer.status === "expired" && state.writingTimer.forceSubmit && state.writingTimer.autoSubmitError) {

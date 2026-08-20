@@ -92,7 +92,10 @@ Before deployment:
 
 1. Apply `supabase-video-class.sql`. For an existing deployment, create the new
    four-argument login overloads before updating the Worker; remove the legacy
-   three-argument overloads only after the Worker is live.
+   three-argument overloads only after the Worker is live. Apply
+   `supabase-video-class-homework-links-20260820.sql` after the base Video Class
+   schema and dashboard-reset migration. It adds the live Homework catalogue,
+   student deep-link resolver, and administrator series-deletion RPC.
 2. Provision the administrator password as a bcrypt hash in
    `video_class_admin_accounts`; type the password through a private prompt or
    parameterized command, not in a committed SQL file or shell history.
@@ -120,9 +123,11 @@ All routes except health and preflight require the exact
 | Method | Route | Purpose |
 | --- | --- | --- |
 | `GET` | `/v1/health` | Liveness response; no credentials or configuration details |
+| `GET` | `/v1/homework-resources` | Public metadata-only catalogue of currently published official series and videos for Homework search; no private object keys |
 | `POST` | `/v1/student/login` | Existing student login; `{ "username", "password", "turnstileToken"? }` (also accepts `name`) |
 | `POST` | `/v1/student/exchange` | Exchange an existing Flashcard session; `{ "token" }` |
 | `GET` | `/v1/student/session` | Validate the current video-class session and live entitlement |
+| `GET` | `/v1/student/homework-target?type=series|video&id=<uuid>` | Resolve a Homework deep link only when the signed-in student still has live access |
 | `DELETE` | `/v1/student/session` | Revoke the current session (`POST` is accepted as a logout fallback) |
 | `POST` | `/v1/admin/login` | Administrator login; `{ "username", "password", "turnstileToken"? }` |
 | `GET` | `/v1/admin/session` | Validate an administrator session |
@@ -150,6 +155,7 @@ All routes except health and preflight require the exact
 | `POST` | `/v1/admin/r2/objects/download` | Stream one authenticated private video download for backup |
 | `GET` | `/v1/admin/feedback` | Per-student lesson ratings for the administrator |
 | `PATCH` | `/v1/admin/official-playlists/order` | Set `{ "mode": "manual"|"random", "playlistIds": [...] }` |
+| `DELETE` | `/v1/admin/official-playlists/:id` | Permanently delete an official series registration; its videos remain independent catalogue items |
 | `POST` | `/v1/admin/students/:id/key` | Issue/retain a key; `{ "rotate": false }`, or rotate with `true` |
 | `DELETE` | `/v1/admin/students/:id/key` | Clear the key and entitlement |
 | `PATCH` | `/v1/admin/students/:id/access` | Enable/disable an issued key; `{ "enabled": true }` |

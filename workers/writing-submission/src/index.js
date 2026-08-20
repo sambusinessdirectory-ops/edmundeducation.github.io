@@ -48,6 +48,13 @@ const MAX_SENTENCE_STRUCTURE_LINKS = 100;
 const MAX_SENTENCE_STRUCTURE_LINK_LABEL_CHARACTERS = 200;
 const MAX_SENTENCE_STRUCTURE_LINK_URL_CHARACTERS = 2048;
 const FEEDBACK_HIGHLIGHTS = new Set(["", "yellow", "orange", "blue", "green", "red"]);
+const FEEDBACK_ENHANCEMENT_SECTION_KEYS = new Set([
+  "sentence-structure",
+  "rhetorical-technique",
+  "phrasal-verb",
+  "writing-common-expression",
+  "rhetorical-common-expression"
+]);
 const WRITING_IMAGE_ZOOM_TENTHS = new Set([5, 10, 20, 30, 40, 50, 70]);
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
@@ -194,6 +201,18 @@ async function route(request, env) {
   );
   if (suggestionCopyMatch && request.method === "PUT") {
     return putSuggestionCopy(request, env, suggestionCopyMatch[1], suggestionCopyMatch[2]);
+  }
+  const enhancementCopyMatch = url.pathname.match(
+    /^\/v1\/submissions\/([0-9a-f-]{36})\/feedback\/enhancements\/(sentence-structure|rhetorical-technique|phrasal-verb|writing-common-expression|rhetorical-common-expression)\/([1-9][0-9]{0,2})\/copy$/i
+  );
+  if (enhancementCopyMatch && request.method === "PUT") {
+    return putEnhancementCopy(
+      request,
+      env,
+      enhancementCopyMatch[1],
+      enhancementCopyMatch[2].toLowerCase(),
+      Number(enhancementCopyMatch[3])
+    );
   }
   const submissionTranscriptionMatch = url.pathname.match(
     /^\/v1\/submissions\/([0-9a-f-]{36})\/transcriptions$/i
@@ -1235,6 +1254,10 @@ function feedbackResponse(row) {
     sentenceStructureLinks: sentenceStructureLinksResponse(row.sentence_structure_links),
     sentenceStructureParts: feedbackStructuredPartsResponse(row.sentence_structure_parts),
     rhetoricalParts: feedbackStructuredPartsResponse(row.rhetorical_parts),
+    phrasalVerbParts: feedbackStructuredPartsResponse(row.phrasal_verb_parts),
+    writingCommonExpressionParts: feedbackStructuredPartsResponse(row.writing_common_expression_parts),
+    rhetoricalCommonExpressionParts: feedbackStructuredPartsResponse(row.rhetorical_common_expression_parts),
+    enhancementCopies: enhancementCopiesResponse(row.enhancement_copies),
     fragments: fragments.map((fragment, index) => {
       const originalFragment = String(
         fragment?.originalFragment ?? fragment?.original_fragment ?? ""
@@ -1324,6 +1347,34 @@ function feedbackStructuredPartsResponse(value) {
       benefit: feedbackRichTextValueResponse(item.benefit)
     }];
   });
+}
+
+function enhancementCopiesResponse(value) {
+  if (!Array.isArray(value)) return [];
+  const seen = new Set();
+  return value.slice(0, MAX_FEEDBACK_RICH_TEXT_ITEMS * FEEDBACK_ENHANCEMENT_SECTION_KEYS.size)
+    .flatMap((item) => {
+      if (!isPlainObject(item)) return [];
+      const sectionKey = String(item.sectionKey ?? item.section_key ?? "").toLowerCase();
+      const itemPosition = Number(item.itemPosition ?? item.item_position ?? 0);
+      if (
+        !FEEDBACK_ENHANCEMENT_SECTION_KEYS.has(sectionKey)
+        || !Number.isInteger(itemPosition)
+        || itemPosition < 1
+        || itemPosition > MAX_FEEDBACK_RICH_TEXT_ITEMS
+      ) return [];
+      const key = `${sectionKey}:${itemPosition}`;
+      if (seen.has(key)) return [];
+      seen.add(key);
+      const updatedAt = item.updatedAt ?? item.updated_at;
+      return [{
+        sectionKey,
+        itemPosition,
+        text: String(item.text ?? item.copy_text ?? ""),
+        version: Math.max(0, Number(item.version || 0)),
+        updatedAt: updatedAt ? String(updatedAt) : null
+      }];
+    });
 }
 
 function validFeedbackFormattingRun(run, textLength) {
@@ -1539,17 +1590,34 @@ function normalizeFeedbackPayload(payload) {
     "sentenceStructureMethods",
     "sentenceStructureLinks"
   ]);
-  const structuredKeys = new Set([
+  const legacyStructuredKeys = new Set([
     ...extendedKeys,
     "sentenceStructureParts",
     "rhetoricalParts"
   ]);
+  const structuredKeys = new Set([
+    ...legacyStructuredKeys,
+    "phrasalVerbParts",
+    "writingCommonExpressionParts",
+    "rhetoricalCommonExpressionParts"
+  ]);
   const hasExtendedFields = [
     "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
   ].some((key) => Object.prototype.hasOwnProperty.call(payload, key));
-  const hasStructuredFields = ["sentenceStructureParts", "rhetoricalParts"]
+  const legacyStructuredFieldNames = ["sentenceStructureParts", "rhetoricalParts"];
+  const additionalStructuredFieldNames = [
+    "phrasalVerbParts",
+    "writingCommonExpressionParts",
+    "rhetoricalCommonExpressionParts"
+  ];
+  const hasLegacyStructuredFields = legacyStructuredFieldNames
     .some((key) => Object.prototype.hasOwnProperty.call(payload, key));
-  const allowedKeys = hasStructuredFields ? structuredKeys : (hasExtendedFields ? extendedKeys : baseKeys);
+  const hasAdditionalStructuredFields = additionalStructuredFieldNames
+    .some((key) => Object.prototype.hasOwnProperty.call(payload, key));
+  const hasStructuredFields = hasLegacyStructuredFields || hasAdditionalStructuredFields;
+  const allowedKeys = hasAdditionalStructuredFields
+    ? structuredKeys
+    : (hasStructuredFields ? legacyStructuredKeys : (hasExtendedFields ? extendedKeys : baseKeys));
   if (!hasOnlyKeys(payload, allowedKeys) || ![
     "overallComment", "fragments", "finalComment", "status", "expectedVersion", "expectedFeedbackId"
   ].every((key) => Object.prototype.hasOwnProperty.call(payload, key)) || (
@@ -1557,9 +1625,11 @@ function normalizeFeedbackPayload(payload) {
       "grammarPoints", "sentenceStructureMethods", "sentenceStructureLinks"
     ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))
   ) || (
-    hasStructuredFields && ![
-      "sentenceStructureParts", "rhetoricalParts"
-    ].every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+    hasStructuredFields && !legacyStructuredFieldNames
+      .every((key) => Object.prototype.hasOwnProperty.call(payload, key))
+  ) || (
+    hasAdditionalStructuredFields && !additionalStructuredFieldNames
+      .every((key) => Object.prototype.hasOwnProperty.call(payload, key))
   )) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback payload has an invalid shape");
   }
@@ -1697,6 +1767,21 @@ function normalizeFeedbackPayload(payload) {
   const rhetoricalParts = hasStructuredFields
     ? normalizeFeedbackStructuredParts(payload.rhetoricalParts, "rhetoricalParts")
     : null;
+  const phrasalVerbParts = hasAdditionalStructuredFields
+    ? normalizeFeedbackStructuredParts(payload.phrasalVerbParts, "phrasalVerbParts")
+    : null;
+  const writingCommonExpressionParts = hasAdditionalStructuredFields
+    ? normalizeFeedbackStructuredParts(
+      payload.writingCommonExpressionParts,
+      "writingCommonExpressionParts"
+    )
+    : null;
+  const rhetoricalCommonExpressionParts = hasAdditionalStructuredFields
+    ? normalizeFeedbackStructuredParts(
+      payload.rhetoricalCommonExpressionParts,
+      "rhetoricalCommonExpressionParts"
+    )
+    : null;
   if (
     !overallComment.trim()
     && !finalComment.trim()
@@ -1707,6 +1792,9 @@ function normalizeFeedbackPayload(payload) {
     && (!sentenceStructureLinks || sentenceStructureLinks.length === 0)
     && (!sentenceStructureParts || sentenceStructureParts.length === 0)
     && (!rhetoricalParts || rhetoricalParts.length === 0)
+    && (!phrasalVerbParts || phrasalVerbParts.length === 0)
+    && (!writingCommonExpressionParts || writingCommonExpressionParts.length === 0)
+    && (!rhetoricalCommonExpressionParts || rhetoricalCommonExpressionParts.length === 0)
   ) {
     throw new HttpError(400, "INVALID_FEEDBACK", "Feedback cannot be empty");
   }
@@ -1720,6 +1808,9 @@ function normalizeFeedbackPayload(payload) {
     sentenceStructureLinks,
     sentenceStructureParts,
     rhetoricalParts,
+    phrasalVerbParts,
+    writingCommonExpressionParts,
+    rhetoricalCommonExpressionParts,
     status,
     expectedVersion,
     expectedFeedbackId: expectedFeedbackId === null ? null : expectedFeedbackId.toLowerCase()
@@ -1962,7 +2053,7 @@ async function getSubmissionFeedback(request, env, submissionId) {
   }
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v3", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_student_open_v4", {
     p_student_id: student.id,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2030,6 +2121,61 @@ async function putSuggestionCopy(request, env, submissionId, fragmentId) {
   return json({
     suggestionCopy: {
       fragmentId: String(row.fragment_id || normalizedFragmentId),
+      text: String(row.copy_text || ""),
+      version: Math.max(0, Number(row.version || 0)),
+      updatedAt: String(row.updated_at || "")
+    }
+  }, 200, request, env);
+}
+
+async function putEnhancementCopy(request, env, submissionId, sectionKey, itemPosition) {
+  if (
+    !UUID_RE.test(submissionId)
+    || !FEEDBACK_ENHANCEMENT_SECTION_KEYS.has(sectionKey)
+    || !Number.isInteger(itemPosition)
+    || itemPosition < 1
+    || itemPosition > MAX_FEEDBACK_RICH_TEXT_ITEMS
+  ) {
+    throw new HttpError(404, "FEEDBACK_ENHANCEMENT_NOT_FOUND", "Feedback enhancement not found");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceRateLimit(
+    env.SUBMISSION_WRITE_RATE_LIMITER,
+    `writing-submission-enhancement-copy:${student.id}`,
+    "Enhancement-copy saving is temporarily unavailable",
+    "TOO_MANY_SUBMISSION_WRITES",
+    "Too many enhancement-copy updates; please wait and try again"
+  );
+  const payload = normalizeSuggestionCopyPayload(
+    await readLimitedJson(request, MAX_FRAGMENT_COPY_BODY_BYTES)
+  );
+  const row = singleRow(await rpc(
+    env,
+    "writing_submission_feedback_student_save_enhancement_copy",
+    {
+      p_student_id: student.id,
+      p_submission_id: submissionId.toLowerCase(),
+      p_section_key: sectionKey,
+      p_item_position: itemPosition,
+      p_copy_text: payload.text,
+      p_expected_version: payload.expectedVersion
+    },
+    {
+      P4093: {
+        status: 409,
+        code: "ENHANCEMENT_COPY_VERSION_CONFLICT",
+        message: "This enhancement copy changed in another session; reload before saving again"
+      }
+    }
+  ));
+  if (!row) {
+    throw new HttpError(404, "FEEDBACK_ENHANCEMENT_NOT_FOUND", "Feedback enhancement not found");
+  }
+  return json({
+    enhancementCopy: {
+      sectionKey: String(row.section_key || sectionKey),
+      itemPosition: Math.max(1, Number(row.item_position || itemPosition)),
       text: String(row.copy_text || ""),
       version: Math.max(0, Number(row.version || 0)),
       updatedAt: String(row.updated_at || "")
@@ -2682,7 +2828,7 @@ async function getAdminSubmissionFeedback(request, env, submissionId) {
   }
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v4", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_get_v5", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase()
   }));
@@ -2705,7 +2851,7 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
   const payload = normalizeFeedbackPayload(
     await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES)
   );
-  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v3", {
+  const row = singleRow(await rpc(env, "writing_submission_feedback_admin_save_v4", {
     p_admin_token: admin.token,
     p_submission_id: submissionId.toLowerCase(),
     p_overall_comment: payload.overallComment,
@@ -2717,6 +2863,9 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
     p_sentence_structure_links: payload.sentenceStructureLinks,
     p_sentence_structure_parts: payload.sentenceStructureParts,
     p_rhetorical_parts: payload.rhetoricalParts,
+    p_phrasal_verb_parts: payload.phrasalVerbParts,
+    p_writing_common_expression_parts: payload.writingCommonExpressionParts,
+    p_rhetorical_common_expression_parts: payload.rhetoricalCommonExpressionParts,
     p_status: payload.status,
     p_expected_version: payload.expectedVersion,
     p_expected_feedback_id: payload.expectedFeedbackId

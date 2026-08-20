@@ -447,6 +447,35 @@ assert.equal(normalizeHomeworkResource({
   label: "Answer Analysis - IELTS Reading - GRAFFITI",
   url: "ielts-reading-analysis.html?article=p1-082-graffiti"
 })?.url, "ielts-reading-analysis.html?article=p1-082-graffiti");
+const videoClassSeriesId = "11111111-1111-4111-8111-111111111111";
+const videoClassVideoId = "22222222-2222-4222-8222-222222222222";
+assert.equal(normalizeHomeworkResource({
+  id: `video-class-series:${videoClassSeriesId}`,
+  type: "video-class-series",
+  label: "Official IELTS Series",
+  url: `video-class.html?series=${videoClassSeriesId}`
+})?.url, `video-class.html?series=${videoClassSeriesId}`);
+assert.equal(normalizeHomeworkResource({
+  id: `video-class-video:${videoClassVideoId}`,
+  type: "video-class-video",
+  label: "Official IELTS Lesson",
+  url: `video-class.html?video=${videoClassVideoId}`
+})?.url, `video-class.html?video=${videoClassVideoId}`);
+for (const [type, unsafeUrl] of [
+  ["video-class-series", `video-class.html?video=${videoClassSeriesId}`],
+  ["video-class-video", `video-class.html?series=${videoClassVideoId}`],
+  ["video-class-series", "video-class.html?series=not-a-uuid"],
+  ["video-class-series", `video-class.html?series=${videoClassSeriesId}&student=someone`],
+  ["video-class-video", `video-class.html?video=${videoClassVideoId}#player`],
+  ["video-class-video", `https://evil.example/video-class.html?video=${videoClassVideoId}`]
+]) {
+  assert.equal(normalizeHomeworkResource({
+    id: `${type}:${type === "video-class-series" ? videoClassSeriesId : videoClassVideoId}`,
+    type,
+    label: "Unsafe Video Class target",
+    url: unsafeUrl
+  }), null, `unsafe Video Class URL must be rejected: ${unsafeUrl}`);
+}
 assert.equal(normalizeHomeworkResource({
   id: "common-expression:speaking:common-expression-01",
   type: "common-expression",
@@ -528,6 +557,10 @@ assert.equal(homeworkAutocomplete("Add An", 6).trigger, "Answer Analysis - IELTS
 assert.equal(homeworkAutocomplete("Add Co", 6).trigger, "Common Expression");
 assert.equal(homeworkAutocomplete("Add IELTS L", 11).trigger, "IELTS Listening");
 assert.equal(homeworkAutocomplete("Add Dow", 7).trigger, "Download materials");
+assert.equal(homeworkAutocomplete("Add Series V", 12).trigger, "Series Video Class");
+assert.equal(homeworkAutocomplete("Add Video V", 11).trigger, "Video Video Class");
+assert.equal(fullHomeworkTriggerAtCursor("Series Video Class", 18).type, "video-class-series");
+assert.equal(fullHomeworkTriggerAtCursor("Video Video Class", 17).type, "video-class-video");
 assert.equal(fullHomeworkTriggerAtCursor("Download materials", 18).type, "download-material");
 const accepted = acceptHomeworkAutocomplete("Please finish Fi", 16, 16, homeworkAutocomplete("Please finish Fi", 16));
 assert.equal(accepted.value, "Please finish Fill in the blanks");
@@ -653,6 +686,16 @@ for (const unsafeLegacyWritingUrl of [
 ]) {
   assert.equal(normalizeHomeworkResource({ ...legacyWritingSubmission, url: unsafeLegacyWritingUrl }), null);
 }
+const videoClassMarkerResource = {
+  id: `video-class-series:${videoClassSeriesId}`,
+  type: "video-class-series",
+  label: "Official IELTS Series",
+  url: `video-class.html?series=${videoClassSeriesId}`
+};
+const videoClassStored = serializeScheduleMessage("Series Video Class - Official IELTS Series", [videoClassMarkerResource]);
+assert.deepEqual(parseScheduleMessage(videoClassStored).resources[0], videoClassMarkerResource,
+  "a saved Video Class assignment must remain a routable marker even after it disappears from the live picker catalogue");
+assert.equal(homeworkResourceDisplayTitle(videoClassMarkerResource), "Series Video Class - Official IELTS Series");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "speaking", "Part 2 Book 1 Advertisements").total >= 1, true);
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "Mungo Man").items[0]?.id, "reading-analysis:mungo-man");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysis", "ielts reading graffiti").items[0]?.id, "reading-analysis:p1-082-graffiti");
@@ -778,7 +821,7 @@ try {
   await rm(tempDirectory, { recursive: true, force: true });
 }
 
-const [scheduleHtml, scheduleJs, studentTagsSql, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, workflow] = await Promise.all([
+const [scheduleHtml, scheduleJs, studentTagsSql, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, videoClass, videoClassHtml, workflow] = await Promise.all([
   read("schedule-system.html"),
   read("schedule-system.js"),
   read("supabase-schedule-student-entry-tags.sql"),
@@ -789,6 +832,8 @@ const [scheduleHtml, scheduleJs, studentTagsSql, flashcards, writing, speaking, 
   read("idiom-system.js"),
   read("proverb-system.js"),
   read("phrasal-verb-system.js"),
+  read("video-class.js"),
+  read("video-class.html"),
   read(".github/workflows/pages.yml")
 ]);
 assert.match(scheduleHtml, /data-homework-autocomplete/);
@@ -816,12 +861,18 @@ assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260820-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260814-1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-video-class1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");
 assert.match(scheduleJs, /resources\.length >= MAX_HOMEWORK_RESOURCES/, "attachment selection must enforce the resource-count cap without silent truncation");
+assert.match(scheduleJs, /\/v1\/homework-resources/, "the Homework picker must load the current official Video Class catalogue");
+assert.match(scheduleJs, /cache: "no-store"/, "the dynamic Video Class catalogue must not be served from a stale browser cache");
+assert.match(scheduleJs, /filter\(\(resource\) => !String\(resource\?\.type \|\| ""\)\.startsWith\("video-class-"\)\)/,
+  "each Video Class refresh must remove deleted or unpublished catalogue rows before adding the current response");
+assert.match(scheduleJs, /ensureHomeworkCatalog\(\{ retryVideoClass: type\.startsWith\("video-class-"\) \}\)/,
+  "opening either Video Class picker must refresh created, renamed, unpublished, and deleted resources");
 assert.match(scheduleJs, /queueMassEditUpsert\(message, estimatedMinutes\)/, "resource markers must flow through Mass Edit");
 assert.match(scheduleJs, /parseScheduleMessage\(entry\.message\)/, "saved markers must be hidden when rendered");
 assert.match(scheduleJs, /const link = document\.createElement\("a"\)/, "saved calendar homework links must be native keyboard-focusable anchors");
@@ -850,6 +901,19 @@ assert.match(sentence, /URLSearchParams\(window\.location\.search\)\.get\("lesso
 assert.match(idiom, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
 assert.match(proverb, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
 assert.match(phrasalVerb, /URLSearchParams\(window\.location\.search\)\.get\("lesson"\)/);
+assert.match(videoClass, /parameters\.get\("series"\)/);
+assert.match(videoClass, /parameters\.get\("video"\)/);
+assert.match(videoClass, /\/v1\/student\/homework-target\?\$\{parameters\}/,
+  "Video Class deep links must be resolved by the authorized Worker rather than trusted from the URL");
+assert.match(videoClass, /HOMEWORK_TARGET_UNAVAILABLE/);
+assert.match(videoClass, /if \(requestedHomeworkTarget\) \{[\s\S]*?validateStoredSession\("student", storedStudent\)[\s\S]*?return false;[\s\S]*?\}\s*const lastRole/,
+  "a remembered admin role must not swallow a student Video Class homework deep link");
+assert.match(videoClass, /\/v1\/admin\/official-playlists\/\$\{encodeURIComponent\(playlist\.id\)\}/,
+  "permanent official-series deletion must call the authenticated Worker endpoint");
+assert.match(videoClassHtml, /data-student-page="unavailable"/,
+  "removed, unpublished, and unauthorized historical links need an explicit unavailable page");
+assert.match(videoClassHtml, /video-class\.css\?v=20260820-homework-links1/,
+  "the unavailable-page stylesheet must use the current cache key");
 assert.ok(
   workflow.indexOf("node tools/generate-homework-resource-catalog.mjs") < workflow.indexOf("rsync -av"),
   "Pages must refresh the catalog before copying deployment files"
