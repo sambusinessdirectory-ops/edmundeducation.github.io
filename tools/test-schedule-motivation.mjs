@@ -40,11 +40,12 @@ const csv = motivationRatingsCsv([{ student_name: "=CMD()", schedule_date: "2026
 assert.ok(csv.startsWith("\uFEFF"));
 assert.match(csv, /"'=CMD\(\)"/);
 
-assert.match(html, /data-admin-motivation-results[^>]*hidden>動力指數結果/);
+assert.match(html, /data-admin-motivation-results[^>]*hidden>學生自評結果/);
 assert.match(html, /data-toggle-motivation[^>]*hidden>隱藏動力指數/);
 assert.match(html, /\.daily-motivation-scale\s*\{[^}]*grid-template-columns:\s*repeat\(6,\s*1fr\)/s);
 assert.match(html, /\.daily-motivation-circle:nth-child\(4\)\s*\{\s*grid-column:\s*2 \/ span 2/);
-assert.match(html, /\.daily-motivation-circle:hover,[\s\S]*linear-gradient\(135deg,\s*#dbeafe,\s*#d1fae5\)/);
+assert.match(html, /--rating-gradient:\s*linear-gradient\(135deg,\s*#bfe0ff,\s*#a9ebc7\)/);
+assert.match(html, /\.daily-motivation-circle:hover,[\s\S]*background:\s*var\(--rating-gradient\)/);
 assert.match(js, /createDailyMotivationPanel\(date, dayIndex, active\)/);
 assert.match(js, /MOTIVATION_HIDDEN_STORAGE_PREFIX/);
 assert.match(js, /motivationHiddenStorageKey\(studentId\)/);
@@ -55,7 +56,7 @@ assert.match(js, /localStorage\.setItem\(motivationHiddenStorageKey\(owner\), St
 assert.match(js, /const canHideMotivation = Boolean\(state\.currentUser && activeStudent\(\)\)/);
 assert.match(js, /panel\.hidden = state\.hideMotivation/);
 assert.match(js, /elements\.toggleMotivation\.addEventListener\("click", toggleMotivationVisibility\)/);
-assert.match(js, /column\.append\(header, motivation, slots\)/);
+assert.match(js, /column\.append\(header, selfRatingList, slots\)/);
 assert.match(js, /schedule_student_get_motivation_week/);
 assert.match(js, /schedule_admin_get_motivation_week/);
 assert.match(js, /schedule_student_save_motivation_rating/);
@@ -86,9 +87,9 @@ assert.match(adminHtml, /data-auth-gate/);
 assert.match(adminHtml, /data-filter-form/);
 assert.match(adminHtml, /data-export-csv/);
 assert.match(adminJs, /schedule_admin_me/);
-assert.match(adminJs, /schedule_admin_list_motivation_ratings/);
+assert.match(adminJs, /schedule_admin_list_self_evaluation_ratings/);
 assert.match(adminJs, /p_student_query/);
-assert.match(adminJs, /motivationRatingsCsv/);
+assert.match(adminJs, /selfEvaluationRatingsCsv/);
 assert.match(adminJs, /committedFilters:\s*null/);
 assert.match(adminJs, /state\.committedFilters\s*=\s*readFilters\(\)/);
 assert.match(adminJs, /\.\.\.committedRpcFilters\(\),\s*p_limit:\s*1000/);

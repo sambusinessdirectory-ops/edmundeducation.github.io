@@ -188,6 +188,8 @@ jobs:
         run: |
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-motivation.mjs
+          node tools/test-schedule-wellbeing.mjs
+          node tools/test-schedule-self-evaluation-admin.mjs
           node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-announcement-edit.mjs
           node tools/test-schedule-system.mjs

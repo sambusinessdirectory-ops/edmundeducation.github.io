@@ -472,6 +472,70 @@ button { color: inherit; }
 }
 
 .prompt-panel textarea { min-height: 108px; font-size: 18px; }
+.floating-writing-topic {
+  position: fixed;
+  top: calc(var(--writing-feedback-sticky-top, 76px) + 10px);
+  left: 50%;
+  z-index: 480;
+  width: min(1444px, calc(100% - 36px));
+  overflow: hidden;
+  border: 1px solid rgba(39,39,87,.2);
+  border-radius: 17px;
+  color: var(--ink);
+  background: rgba(255,253,248,.97);
+  box-shadow: 0 16px 42px rgba(9,10,40,.22);
+  transform: translateX(-50%);
+  backdrop-filter: blur(18px) saturate(1.12);
+  -webkit-backdrop-filter: blur(18px) saturate(1.12);
+  animation: floating-topic-in .18s ease both;
+}
+.floating-writing-topic-toggle {
+  width: 100%;
+  min-height: 56px;
+  border: 0;
+  padding: 9px 15px;
+  display: grid;
+  grid-template-columns: auto minmax(0,1fr) auto;
+  align-items: center;
+  gap: 13px;
+  color: inherit;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.floating-writing-topic-toggle:hover,
+.floating-writing-topic-toggle:focus-visible { background: #fff6e8; }
+.floating-writing-topic-toggle:focus-visible { outline: 3px solid rgba(232,123,44,.28); outline-offset: -3px; }
+.floating-writing-topic-label { display: grid; gap: 1px; white-space: nowrap; }
+.floating-writing-topic-label small { color: var(--orange-deep); font: 850 8px/1.2 ui-sans-serif,system-ui,sans-serif; letter-spacing: .12em; }
+.floating-writing-topic-label strong { font-size: 13px; }
+.floating-writing-topic-preview {
+  min-width: 0;
+  overflow: hidden;
+  color: #4f4c62;
+  font-size: 14px;
+  line-height: 1.45;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.floating-writing-topic-chevron { color: var(--orange-deep); font: 900 22px/1 ui-sans-serif,system-ui,sans-serif; transition: transform .18s ease; }
+.floating-writing-topic[data-expanded="true"] .floating-writing-topic-chevron { transform: rotate(180deg); }
+.floating-writing-topic-content {
+  max-height: min(44vh, 430px);
+  overflow: auto;
+  border-top: 1px solid rgba(39,39,87,.12);
+  padding: 15px 18px 18px;
+  background: rgba(255,253,248,.99);
+  overscroll-behavior: contain;
+}
+.floating-writing-topic-content > p { margin: 0; color: #292745; font-size: clamp(15px,1.4vw,18px); line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+.floating-writing-topic-images { margin-top: 14px; display: grid; gap: 11px; }
+.floating-writing-topic-image-viewport { max-width: 100%; overflow: auto; border: 1px solid rgba(39,39,87,.12); border-radius: 13px; background: #f8f7fb; overscroll-behavior: contain; }
+.floating-writing-topic-images img { width: min(680px,100%); height: auto; max-height: 34vh; margin: 0 auto; display: block; object-fit: contain; background: #fff; }
+@keyframes floating-topic-in {
+  from { opacity: 0; transform: translate(-50%,-7px); }
+  to { opacity: 1; transform: translate(-50%,0); }
+}
 .selected-topic-preview { margin-top: 14px; border: 1px solid rgba(39,39,87,.13); border-radius: 16px; padding: 14px; background: #fffdf9; }
 .selected-topic-preview-head { margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .selected-topic-preview-head strong { font-size: 14px; }
@@ -1370,6 +1434,12 @@ button { color: inherit; }
   .grammar-summary-panel,
   .admin-review-panel { padding: 20px 16px; }
   .submission-progress-dashboard { padding: 20px 16px; }
+  .floating-writing-topic { top: calc(var(--writing-feedback-sticky-top, 76px) + 7px); width: calc(100% - 22px); border-radius: 15px; }
+  .floating-writing-topic-toggle { min-height: 52px; padding: 8px 12px; gap: 9px; }
+  .floating-writing-topic-label small { display: none; }
+  .floating-writing-topic-label strong { font-size: 12px; }
+  .floating-writing-topic-preview { font-size: 12px; }
+  .floating-writing-topic-content { max-height: min(48vh,410px); padding: 13px 14px 15px; }
   .section-heading-actions { align-items: flex-end; flex-direction: column-reverse; }
   .topic-picker-actions { justify-content: flex-end; }
   .editor-heading { align-items: flex-start; }

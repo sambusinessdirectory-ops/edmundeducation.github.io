@@ -336,6 +336,17 @@ export const STUDENT_PROGRESS_SOURCES = Object.freeze([
     activityUnit: "道題目",
     primaryMetric: "questions",
     activitySeries: [{ key: "questions", label: "完成題目", color: "#b72f78" }]
+  },
+  {
+    id: "falseFriends",
+    labelZh: "同形異義詞",
+    labelEn: "False Friends",
+    href: "false-friends-system.html",
+    color: "#16856d",
+    activityTitle: "完成同形異義詞題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#16856d" }]
   }
 ]);
 

@@ -88,7 +88,8 @@ test("source order matches the requested portal priority", () => {
     "businessSchool",
     "complexQuestions",
     "englishHumourSpeaking",
-    "englishHumourWriting"
+    "englishHumourWriting",
+    "falseFriends"
   ]);
 });
 

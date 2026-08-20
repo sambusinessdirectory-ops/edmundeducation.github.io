@@ -11,7 +11,9 @@ export const HOMEWORK_ENTRY_TAGS = Object.freeze([
   Object.freeze({ key: "teacher-added", label: "老師新加", color: "#920909", textColor: "#ffffff" }),
   Object.freeze({ key: "well-done", label: "Well done!", color: "#ffd591", textColor: "#25182b" }),
   Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80", textColor: "#25182b" }),
-  Object.freeze({ key: "prepare-materials", label: "準備材料", color: "#32cd32", textColor: "#143714" })
+  Object.freeze({ key: "prepare-materials", label: "準備材料", color: "#32cd32", textColor: "#143714" }),
+  Object.freeze({ key: "hardest-today", label: "本日最難", color: "#7f1734", textColor: "#ffffff" }),
+  Object.freeze({ key: "easiest-today", label: "本日最簡單", color: "#74c9f1", textColor: "#173b51" })
 ]);
 
 const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.key, tag]));

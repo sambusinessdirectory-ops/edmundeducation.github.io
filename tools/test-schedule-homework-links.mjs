@@ -621,7 +621,9 @@ assert.deepEqual(
     ["老師新加", "#920909"],
     ["Well done!", "#ffd591"],
     ["每15分鐘休息一次", "#a1ff80"],
-    ["準備材料", "#32cd32"]
+    ["準備材料", "#32cd32"],
+    ["本日最難", "#7f1734"],
+    ["本日最簡單", "#74c9f1"]
   ],
   "Homework tags must keep the requested labels and exact colours"
 );
@@ -633,7 +635,9 @@ assert.deepEqual(
     ["teacher-added", "#ffffff"],
     ["well-done", "#25182b"],
     ["break-15", "#25182b"],
-    ["prepare-materials", "#143714"]
+    ["prepare-materials", "#143714"],
+    ["hardest-today", "#ffffff"],
+    ["easiest-today", "#173b51"]
   ],
   "dark tag colours must use accessible white label text"
 );
@@ -655,6 +659,11 @@ assert.deepEqual(
   parseScheduleMessage(serializeScheduleMessage("", [], ["prepare-materials"])).tags.map(({ label, color }) => [label, color]),
   [["準備材料", "#32cd32"]],
   "the lime-green 準備材料 tag must round-trip on a new content-free slot"
+);
+assert.deepEqual(
+  parseScheduleMessage(serializeScheduleMessage("", [], ["hardest-today", "easiest-today"])).tags.map(({ label, color }) => [label, color]),
+  [["本日最難", "#7f1734"], ["本日最簡單", "#74c9f1"]],
+  "daily hardest/easiest edge tags must round-trip in selection order"
 );
 assert.equal(taggedParsed.resources[0]?.id, selected.id, "tag markers must not disrupt homework resources");
 assert.deepEqual(
@@ -843,7 +852,7 @@ assert.ok(
   scheduleHtml.indexOf("data-entry-tags") < scheduleHtml.indexOf('id="schedule-message"'),
   "multi-select homework tags must be available before a new slot has content"
 );
-assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.has-entry-tag-wraps::after\s*\{[\s\S]*?--entry-tag-wrap-6/s);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.has-entry-tag-wraps::after\s*\{[\s\S]*?--entry-tag-wrap-8/s);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources, selectedTags\)/);
 assert.match(scheduleJs, /input\.type = "checkbox"/);
 assert.match(scheduleJs, /input\.id = `schedule-homework-tag-\$\{tag\.key\}`/, "every tag checkbox needs an explicit unique id");
@@ -861,7 +870,7 @@ assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260820-1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-video-class1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-wellbeing1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");

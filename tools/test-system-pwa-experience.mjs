@@ -8,7 +8,7 @@ const read = (path) => readFile(new URL(path, root), "utf8");
 const nav = await read("shared-system-nav.js");
 const systems = Array.from(nav.matchAll(/\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)"(?:, homepageCard: \d+)? \}/g),
   ([, id, href, zh, en]) => ({ id, href, zh, en }));
-assert.equal(systems.length, 44, "all 44 genuine learning/account systems must remain catalogued");
+assert.equal(systems.length, 48, "all 48 genuine learning/account systems must remain catalogued");
 
 const customApps = Object.freeze({
   schedule: { name: "Edmund 每週功課安排系統", page: "schedule-system.html" },

@@ -395,5 +395,41 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "精準措詞系統｜EdmundEducation",
     "shortName": "精準措詞",
     "manifest": "/pwa-manifests/precise-language.webmanifest"
+  },
+  {
+    "id": "false-friends",
+    "href": "false-friends-system.html",
+    "zh": "同形異義詞學習系統",
+    "en": "False Friends",
+    "name": "同形異義詞學習系統｜EdmundEducation",
+    "shortName": "同形異義詞",
+    "manifest": "/pwa-manifests/false-friends.webmanifest"
+  },
+  {
+    "id": "english-in-shows",
+    "href": "english-in-shows-system.html",
+    "zh": "影視英文學習系統",
+    "en": "English in Shows",
+    "name": "影視英文學習系統｜EdmundEducation",
+    "shortName": "影視英文",
+    "manifest": "/pwa-manifests/english-in-shows.webmanifest"
+  },
+  {
+    "id": "ted-talk-english",
+    "href": "ted-talk-english-system.html",
+    "zh": "Ted Talk 英文學習系統",
+    "en": "Ted Talk English",
+    "name": "Ted Talk 英文學習系統｜EdmundEducation",
+    "shortName": "Ted Talk 英文",
+    "manifest": "/pwa-manifests/ted-talk-english.webmanifest"
+  },
+  {
+    "id": "poem-english",
+    "href": "poem-english-system.html",
+    "zh": "詩句賞識系統",
+    "en": "Poem English",
+    "name": "詩句賞識系統｜EdmundEducation",
+    "shortName": "詩句賞識",
+    "manifest": "/pwa-manifests/poem-english.webmanifest"
   }
 ].map(Object.freeze));

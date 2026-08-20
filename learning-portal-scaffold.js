@@ -56,17 +56,28 @@
   function progressMarkup() {
     if (!portal.dashboard) return "";
     const panelId = `${portal.id}-progress-panel`;
+    const activityHeading = portal.id === "false-friends" ? "完成題目（按日期）" : "學習活動（按日期）";
+    const activityEyebrow = portal.id === "false-friends" ? "QUESTIONS DONE BY DATE" : "ACTIVITY BY DATE";
+    const disclosureDescription = portal.id === "false-friends"
+      ? "完成題目日期、每日詳情及學習時間紀錄"
+      : "活動日期、每日詳情及學習時間紀錄";
+    const activityDescription = portal.id === "false-friends"
+      ? "按日期查看已完成的同形異義詞題目及每日詳情。"
+      : "按日期查看完成的學習活動及每日詳情。";
+    const emptyActivityLabel = portal.id === "false-friends"
+      ? "這個時段暫時未有完成題目"
+      : "這個時段暫時未有學習活動";
     return `<button class="learning-portal-disclosure panel" type="button" data-progress-toggle aria-expanded="false" aria-controls="${panelId}">
-      <span><strong>查看學習進展</strong><small>活動日期、每日詳情及學習時間紀錄</small></span>
+      <span><strong>查看學習進展</strong><small>${disclosureDescription}</small></span>
       <span data-progress-toggle-label>展開 ＋</span>
     </button>
     <section class="learning-portal-progress panel" id="${panelId}" data-progress-panel hidden>
       <section class="learning-portal-progress__section" aria-labelledby="${portal.id}-activity-heading">
         <div class="learning-portal-progress__toolbar">
-          <div><p class="eyebrow">ACTIVITY BY DATE</p><h2 id="${portal.id}-activity-heading">學習活動（按日期）</h2><p>按日期查看完成的學習活動及每日詳情。</p></div>
+          <div><p class="eyebrow">${activityEyebrow}</p><h2 id="${portal.id}-activity-heading">${activityHeading}</h2><p>${activityDescription}</p></div>
           <div class="learning-portal-ranges" data-activity-ranges aria-label="選擇學習活動統計時段">${rangeButtons("activity")}</div>
         </div>
-        <div class="learning-portal-chart-shell">${emptyChart("這個時段暫時未有學習活動")}</div>
+        <div class="learning-portal-chart-shell">${emptyChart(emptyActivityLabel)}</div>
         <div class="learning-portal-stats" aria-label="學習活動統計">
           <div><strong>0</strong><span>所選時段活動</span></div>
           <div><strong>0</strong><span>累計活動</span></div>
@@ -121,10 +132,10 @@
         <span class="learning-portal-dashboard__ordinal" aria-hidden="true">${portal.ordinal}</span>
       </section>
       ${progressMarkup()}
-      <section class="learning-portal-empty panel" aria-labelledby="${portal.id}-content-heading">
+      ${portal.hideEmptyContent ? "" : `<section class="learning-portal-empty panel" aria-labelledby="${portal.id}-content-heading">
         <span aria-hidden="true">00</span>
         <div><p class="eyebrow">LEARNING CONTENT</p><h2 id="${portal.id}-content-heading">學習內容</h2><p>這裡暫時未有學習內容。新增的課題會按次序顯示在這裡。</p></div>
-      </section>
+      </section>`}
     </section>`;
     if (portal.blankAfterLogin) {
       const dashboard = root.querySelector('[data-view="dashboard"]');

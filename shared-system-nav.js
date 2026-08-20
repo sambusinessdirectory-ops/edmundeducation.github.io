@@ -46,7 +46,11 @@
     { id: "argument-learning", href: "argument-learning-system.html", zh: "論證 / 論據 / 論點 學習系統", en: "Argument learning" },
     { id: "fragmented-reading", href: "fragmented-reading-system.html", zh: "閱讀理解 / 碎片訓練系統", en: "Fragmented Reading" },
     { id: "song-appreciation", href: "song-appreciation.html", zh: "英文歌聆聽練習", en: "Song Appreciation" },
-    { id: "precise-language", href: "precise-language-system.html", zh: "精準措詞系統", en: "Precise Language" }
+    { id: "precise-language", href: "precise-language-system.html", zh: "精準措詞系統", en: "Precise Language" },
+    { id: "false-friends", href: "false-friends-system.html", zh: "同形異義詞學習系統", en: "False Friends" },
+    { id: "english-in-shows", href: "english-in-shows-system.html", zh: "影視英文學習系統", en: "English in Shows" },
+    { id: "ted-talk-english", href: "ted-talk-english-system.html", zh: "Ted Talk 英文學習系統", en: "Ted Talk English" },
+    { id: "poem-english", href: "poem-english-system.html", zh: "詩句賞識系統", en: "Poem English" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -88,6 +92,10 @@
     "fragmented-reading": "edmund-learning-portal-fragmented-reading-session-v1",
     "song-appreciation": "edmund-song-appreciation-session-v1",
     "precise-language": "edmund-learning-portal-precise-language-session-v1",
+    "false-friends": "edmund-learning-portal-false-friends-session-v1",
+    "english-in-shows": "edmund-learning-portal-english-in-shows-session-v1",
+    "ted-talk-english": "edmund-learning-portal-ted-talk-english-session-v1",
+    "poem-english": "edmund-learning-portal-poem-english-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -97,7 +105,7 @@
     "synonyms", "error-identifier", "learning-roadmap", "spelling", "reading-logic", "translation-skills",
     "business-school", "complex-questions", "leisurely-reading", "english-humour-speaking",
     "english-humour-writing", "english-joke-collection", "argument-learning", "fragmented-reading",
-    "precise-language"
+    "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english"
   ]);
 
   function storageJson(storage, key) {

@@ -1,0 +1,45 @@
+{
+  "id": "/apps/ted-talk-english",
+  "name": "Ted Talk 英文學習系統｜EdmundEducation",
+  "short_name": "Ted Talk 英文",
+  "description": "Ted Talk 英文學習系統（Ted Talk English）EdmundEducation 學習系統。",
+  "lang": "zh-Hant-HK",
+  "dir": "ltr",
+  "start_url": "/ted-talk-english-system.html?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fb",
+  "theme_color": "#20283d",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/edmundeducation-logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

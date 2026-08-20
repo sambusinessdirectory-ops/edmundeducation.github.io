@@ -353,6 +353,50 @@
       outline-offset: 4px;
     }
 
+    .homepage-mascot-card {
+      position: relative;
+      min-height: clamp(92px, 7vw, 126px);
+      overflow: hidden;
+      padding: clamp(18px, 2vw, 28px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 4px solid rgba(255,255,255,0.92);
+      border-radius: 24px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 88% 14%, rgba(255,255,255,.23), transparent 30%),
+        linear-gradient(135deg, #6f1630 0%, #a62c4f 54%, #d87b91 100%);
+      box-shadow: 0 12px 34px rgba(111,22,48,.2);
+      text-decoration: none;
+      transition: transform 0.28s ease, box-shadow 0.28s ease;
+    }
+
+    .homepage-mascot-card strong {
+      font-family: Georgia, "Noto Serif TC", serif;
+      font-size: clamp(22px, 2vw, 31px);
+      line-height: 1.12;
+    }
+
+    .homepage-mascot-card span {
+      margin-top: 7px;
+      color: rgba(255,255,255,.8);
+      font-size: clamp(12px, .9vw, 15px);
+      font-weight: 800;
+      letter-spacing: .04em;
+    }
+
+    .homepage-mascot-card:hover,
+    .homepage-mascot-card:focus-visible {
+      transform: translateY(-4px) scale(1.015);
+      box-shadow: 0 20px 50px rgba(111,22,48,.28);
+    }
+
+    .homepage-mascot-card:focus-visible {
+      outline: 4px solid #a62c4f;
+      outline-offset: 4px;
+    }
+
     .social-links {
       position: relative;
       z-index: 3;
@@ -2742,6 +2786,10 @@
             <img id="homepageGameCover" data-src="assets/eddy-game/game-cover.png" alt="Eddie's Farm game cover" decoding="async" fetchpriority="low">
             <span aria-hidden="true">Play now · 立即遊玩</span>
           </a>
+          <a class="homepage-mascot-card" href="mascot-introduction.html" aria-label="吉祥物介紹 Mascot Introduction">
+            <strong>吉祥物介紹</strong>
+            <span>Mascot Introduction</span>
+          </a>
         </div>
         <div class="social-links" aria-label="EdmundEducation social links">
           <a class="social-link carousell" href="https://carousell.app.link/g2jaZvmwM2b" target="_blank" rel="noopener" aria-label="Carousell">
@@ -2999,6 +3047,22 @@
 
         <a class="category learning-portal-card" href="precise-language-system.html" aria-label="Precise Language 精準措詞系統" style="--portal-card-hue:12">
           <span class="category-name">Precise Language<br>精準措詞系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="false-friends-system.html" aria-label="False Friends 同形異義詞 學習系統" style="--portal-card-hue:154">
+          <span class="category-name">False Friends<br>同形異義詞<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="english-in-shows-system.html" aria-label="English in Shows 影視英文 學習系統" style="--portal-card-hue:224">
+          <span class="category-name">English in Shows<br>影視英文<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="ted-talk-english-system.html" aria-label="Ted Talk English Ted Talk 英文 學習系統" style="--portal-card-hue:8">
+          <span class="category-name">Ted Talk English<br>Ted Talk 英文<br>學習系統</span>
+        </a>
+
+        <a class="category learning-portal-card" href="poem-english-system.html" aria-label="Poem English 詩句賞識系統" style="--portal-card-hue:286">
+          <span class="category-name">Poem English<br>詩句賞識系統</span>
         </a>
 
       </div>
@@ -3753,7 +3817,7 @@
       }, { once: true });
     })();
   </script>
-  <script src="shared-system-nav.js?v=20260814-1"></script>
+  <script src="shared-system-nav.js?v=20260820-2"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="site-announcements.js?v=20260812-1"></script>

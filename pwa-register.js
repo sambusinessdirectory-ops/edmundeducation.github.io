@@ -46,7 +46,9 @@
 
   async function configurePageIdentity() {
     try {
-      const { EDMUND_PWA_APPS } = await import("/pwa-app-catalog.mjs");
+      const { EDMUND_PWA_APPS } = await import(
+        `/pwa-app-catalog.mjs?v=${encodeURIComponent(CLIENT_RELEASE_ID)}`
+      );
       const app = EDMUND_PWA_APPS.find(({ href }) => href.toLowerCase() === currentPageName());
       if (app) appIdentity = app;
     } catch (error) {

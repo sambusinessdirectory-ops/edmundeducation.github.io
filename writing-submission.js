@@ -188,6 +188,12 @@ const elements = {
   harperStatus: document.querySelector("[data-harper-status]"),
   writingForm: document.querySelector("[data-writing-form]"),
   topicInput: document.querySelector("[data-topic-input]"),
+  floatingTopic: document.querySelector("[data-floating-writing-topic]"),
+  floatingTopicToggle: document.querySelector("[data-floating-writing-topic-toggle]"),
+  floatingTopicPreview: document.querySelector("[data-floating-writing-topic-preview]"),
+  floatingTopicContent: document.querySelector("[data-floating-writing-topic-content]"),
+  floatingTopicText: document.querySelector("[data-floating-writing-topic-text]"),
+  floatingTopicImages: document.querySelector("[data-floating-writing-topic-images]"),
   randomTopicOpen: document.querySelector("[data-random-topic-open]"),
   randomTopicDialog: document.querySelector("[data-random-topic-dialog]"),
   randomTopicClose: document.querySelector("[data-random-topic-close]"),
@@ -371,6 +377,8 @@ const state = {
   topicReferenceCatalog: null,
   topicReferencePromise: null,
   topicReferenceImportAttempt: 0,
+  floatingTopicSignature: "",
+  floatingTopicFrame: 0,
   manualRecheckTimer: null,
   toastTimer: null,
   submissions: [],
@@ -499,10 +507,76 @@ function initializeFeedbackStickyOffset() {
   const sync = () => {
     const height = Math.max(0, Math.ceil(header.getBoundingClientRect().height));
     document.documentElement.style.setProperty("--writing-feedback-sticky-top", `${height}px`);
+    scheduleFloatingWritingTopicSync();
   };
   sync();
   window.addEventListener("resize", sync, { passive: true });
   if (typeof ResizeObserver === "function") new ResizeObserver(sync).observe(header);
+}
+
+function floatingWritingTopicImages() {
+  const resource = canonicalWritingTopicResource(state.selectedTopicResource);
+  return Array.isArray(resource?.questionImages) ? resource.questionImages : [];
+}
+
+function syncFloatingWritingTopicContent() {
+  if (!elements.floatingTopic) return;
+  const topic = String(elements.topicInput?.value || "").trim();
+  const images = floatingWritingTopicImages();
+  const signature = JSON.stringify([topic, ...images.map(image => [image.src, image.alt])]);
+  if (state.floatingTopicSignature === signature) return;
+  state.floatingTopicSignature = signature;
+  elements.floatingTopicPreview.textContent = topic.replace(/\s+/gu, " ");
+  elements.floatingTopicText.textContent = topic;
+  elements.floatingTopicImages.replaceChildren();
+  for (const image of images) {
+    const viewport = createElement("div", "floating-writing-topic-image-viewport");
+    const node = document.createElement("img");
+    node.src = image.src;
+    node.alt = image.alt;
+    node.loading = "lazy";
+    node.decoding = "async";
+    viewport.append(node);
+    elements.floatingTopicImages.append(viewport);
+  }
+  elements.floatingTopicImages.hidden = images.length === 0;
+}
+
+function setFloatingWritingTopicExpanded(expanded) {
+  if (!elements.floatingTopic || !elements.floatingTopicContent || !elements.floatingTopicToggle) return;
+  const next = Boolean(expanded && !elements.floatingTopic.hidden);
+  elements.floatingTopic.dataset.expanded = String(next);
+  elements.floatingTopicToggle.setAttribute("aria-expanded", String(next));
+  elements.floatingTopicToggle.setAttribute(
+    "aria-label",
+    next ? "收合浮動寫作題目" : "展開完整寫作題目"
+  );
+  elements.floatingTopicContent.hidden = !next;
+}
+
+function syncFloatingWritingTopicVisibility() {
+  state.floatingTopicFrame = 0;
+  if (!elements.floatingTopic || !elements.topicInput || !elements.writingForm) return;
+  syncFloatingWritingTopicContent();
+  const topic = elements.topicInput.value.trim();
+  const header = document.querySelector(".edmund-system-header");
+  const headerBottom = Math.max(0, header?.getBoundingClientRect().bottom || 0);
+  const topicBottom = elements.topicInput.getBoundingClientRect().bottom;
+  const formBottom = elements.writingForm.getBoundingClientRect().bottom;
+  const visible = Boolean(
+    state.currentView === "workspace"
+    && state.user?.role !== "admin"
+    && topic
+    && topicBottom <= headerBottom + 8
+    && formBottom > headerBottom + 62
+  );
+  elements.floatingTopic.hidden = !visible;
+  if (!visible) setFloatingWritingTopicExpanded(false);
+}
+
+function scheduleFloatingWritingTopicSync() {
+  if (state.floatingTopicFrame) return;
+  state.floatingTopicFrame = window.requestAnimationFrame(syncFloatingWritingTopicVisibility);
 }
 
 function safeDialogOpen(dialog) {
@@ -1357,6 +1431,7 @@ function showView(name) {
       : state.user.name;
   }
   window.scrollTo({ top: 0, behavior: "smooth" });
+  scheduleFloatingWritingTopicSync();
 }
 
 function workerBaseUrl() {
@@ -2194,6 +2269,8 @@ async function loadWritingTopicCatalog() {
 function renderSelectedTopicPreview() {
   const resource = canonicalWritingTopicResource(state.selectedTopicResource);
   state.selectedTopicResource = resource;
+  state.floatingTopicSignature = "";
+  syncFloatingWritingTopicContent();
   clearModelEssayState();
   if (!elements.selectedTopicPreview) return;
   if (!resource?.questionImages.length) {
@@ -2562,6 +2639,8 @@ function updateEditorMetrics() {
   autosizeTextarea(elements.writingInput, 480);
   syncProofreadStatus();
   syncModelEssayOverlayScroll();
+  syncFloatingWritingTopicContent();
+  scheduleFloatingWritingTopicSync();
 }
 
 function syncWritingProofreadingUi(now = Date.now()) {
@@ -7851,6 +7930,11 @@ function bindEvents() {
     updateEditorMetrics();
     scheduleDraftSave();
   });
+  elements.floatingTopicToggle?.addEventListener("click", () => {
+    setFloatingWritingTopicExpanded(
+      elements.floatingTopicToggle.getAttribute("aria-expanded") !== "true"
+    );
+  });
   elements.randomTopicOpen?.addEventListener("click", () => openRandomWritingTopicPicker());
   elements.randomTopicClose?.addEventListener("click", closeRandomWritingTopicPicker);
   elements.randomTopicDialog?.addEventListener("cancel", (event) => {
@@ -7928,6 +8012,18 @@ function bindEvents() {
   });
   document.addEventListener("scroll", scheduleFeedbackMultiSelectionHighlight, { capture: true, passive: true });
   window.addEventListener("resize", scheduleFeedbackMultiSelectionHighlight, { passive: true });
+  window.addEventListener("resize", scheduleFloatingWritingTopicSync, { passive: true });
+  window.addEventListener("scroll", scheduleFloatingWritingTopicSync, { passive: true });
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.key === "Escape"
+      && !document.querySelector("dialog[open]")
+      && elements.floatingTopicToggle?.getAttribute("aria-expanded") === "true"
+    ) {
+      setFloatingWritingTopicExpanded(false);
+      elements.floatingTopicToggle.focus({ preventScroll: true });
+    }
+  });
   document.addEventListener("toggle", (event) => {
     const feedbackModelReference = event.target.closest?.("[data-feedback-model-reference]");
     if (feedbackModelReference?.open) {

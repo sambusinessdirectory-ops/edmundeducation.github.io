@@ -30,3 +30,30 @@ For credential rotation, replace the database digest and encrypted Worker
 secret together. Replacing the administrator bcrypt should also be followed by
 deleting that administrator's rows from `public.schedule_admin_sessions` so
 all earlier sessions are revoked immediately.
+
+## Wellbeing ratings and Learning Purpose rollout
+
+The additional daily self-evaluations and the versioned `我的學習初心` panel do
+not add a new public Worker route. They follow the Schedule System's existing
+authenticated Supabase RPC boundary: the browser must hold a Supabase Auth JWT
+and must also present the existing short-lived student or administrator
+Schedule token. The two backing tables keep RLS enabled and grant no direct
+table privileges to `anon` or `authenticated`; only the narrowly-scoped RPCs
+are executable.
+
+Deploy this feature in this order:
+
+1. Confirm `supabase-schedule-daily-motivation.sql`,
+   `supabase-schedule-quote-encouragement.sql`, and
+   `supabase-schedule-student-entry-tags.sql` have already been applied.
+2. Apply `supabase-schedule-wellbeing-and-learning-purpose.sql` in Supabase.
+3. Run `node tools/test-schedule-wellbeing.mjs`,
+   `node tools/test-schedule-self-evaluation-admin.mjs`, and the existing
+   Schedule regression tests.
+4. Publish the static site only after the migration succeeds. Publishing the
+   browser files first would leave the optional panels in fallback mode and
+   would prevent new ratings and Learning Purpose versions from saving.
+5. Verify one student save for each of the six ratings, the administrator CSV
+   report, focus-mode restoration, Learning Purpose history navigation, and an
+   owner-scoped version deletion. No Worker secret rotation or Worker redeploy
+   is required for this migration.

@@ -235,7 +235,7 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 51, "homepage must contain all 51 linked category cards after adding Song Appreciation");
+assert.equal(homepageCards.length, 55, "homepage must contain all 55 linked category cards");
 const homepageCardHrefs = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?" href="([^"]+)"/g)].map(([, href]) => href);
 assert.equal(homepageCardHrefs[9], "schedule-system.html", "Schedule must be numbered card 10");
 assert.equal(homepageCardHrefs[12], "flashcards.html", "Flashcards must be numbered card 13");
@@ -403,7 +403,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260820-1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260820-2/);
 assert.match(scheduleHtml, /data-copy-week-link/);
 assert.match(scheduleHtml, /\[data-student-list\]\s*\{[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
 assert.match(scheduleHtml, /@media\s*\(max-width:\s*980px\)[\s\S]*?\[data-student-list\]\s*\{[^}]*repeat\(2,/s);
@@ -449,7 +449,7 @@ assert.match(scheduleJs, /schedule_admin_set_display_preferences/);
 assert.match(scheduleJs, /payload\.displayPreferences/);
 assert.match(scheduleJs, /function renderMetrics\(/);
 assert.match(scheduleJs, /capacityVersions/);
-assert.match(scheduleJs, /if\s*\(hideUnusedNow\s*&&\s*!entry\)\s*continue/);
+assert.match(scheduleJs, /if\s*\(hideUnusedNow\s*&&\s*!focusLimited\s*&&\s*!entry\)\s*continue/);
 assert.doesNotMatch(scheduleJs, /UNUSED_HIDDEN_KEY|edmund-schedule-unused-hidden-v1/);
 assert.doesNotMatch(scheduleJs, /saveDisplayPreference\([^\n]*hideUnused/);
 assert.match(scheduleJs, /unused-day-note/);
@@ -565,7 +565,7 @@ assert.match(scheduleJs, /homeworkCatalogPromise = Promise\.all\(\[\s*import\(HO
 assert.match(scheduleJs, /function mergeHomeworkCatalog\([\s\S]*?startsWith\("video-class-"\)[\s\S]*?videoClassResources\.forEach/);
 assert.match(scheduleJs, /if \(retryVideoClass\) \{[\s\S]*?loadVideoClassHomeworkResources\(\)[\s\S]*?mergeHomeworkCatalog/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-video-class1/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-wellbeing1/);
 assert.match(scheduleJs, /schedule-mass-edit\.mjs\?v=20260803-1/);
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
 assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);

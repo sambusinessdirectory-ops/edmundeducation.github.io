@@ -7,7 +7,7 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
-const sharedNavRelease = "20260814-1";
+const sharedNavRelease = "20260820-2";
 
 class MemoryStorage {
   constructor() { this.values = new Map(); }
@@ -78,6 +78,10 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
   assert.equal(read(sessionStorage, "edmund-learning-portal-fragmented-reading-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-song-appreciation-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-learning-portal-precise-language-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-false-friends-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-english-in-shows-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-ted-talk-english-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-learning-portal-poem-english-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-schedule-session-v1").studentToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundModelEssayDownloadSession").sessionToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(sessionStorage.getItem("edmundFlashcardSession"), null);
@@ -143,6 +147,10 @@ test("student logout removes the universal and app-specific browser sessions", (
     "edmund-phrasal-verb-system-session-v1",
     "edmund-dse-paper3-analysis-session-v1",
     "edmund-song-appreciation-session-v1",
+    "edmund-learning-portal-false-friends-session-v1",
+    "edmund-learning-portal-english-in-shows-session-v1",
+    "edmund-learning-portal-ted-talk-english-session-v1",
+    "edmund-learning-portal-poem-english-session-v1",
     "edmund-common-expression-speaking-session-v1",
     "edmund-common-expression-written-session-v1",
     "edmund-common-expression-rhetorical-speaking-session-v1",
@@ -227,7 +235,7 @@ test("every system portal loads one consistent shared navigation CSS and JS rele
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
     assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation CSS ${sharedNavRelease}`);
     assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation JS ${sharedNavRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260814-1)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260820-2)/, `${system.href} must not retain a stale shared navigation release`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`));
@@ -288,7 +296,11 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "argument-learning-system.html",
     "fragmented-reading-system.html",
     "song-appreciation.html",
-    "precise-language-system.html"
+    "precise-language-system.html",
+    "false-friends-system.html",
+    "english-in-shows-system.html",
+    "ted-talk-english-system.html",
+    "poem-english-system.html"
   ]);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");

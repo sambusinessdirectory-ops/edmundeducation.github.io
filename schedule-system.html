@@ -921,6 +921,69 @@
       backdrop-filter: none;
       -webkit-backdrop-filter: none;
     }
+    .learning-purpose-panel {
+      margin: 0 3px 16px;
+      border: 1px solid rgba(255, 255, 255, .25);
+      border-radius: 22px;
+      padding: clamp(20px, 3vw, 32px);
+      color: #fff;
+      background:
+        radial-gradient(circle at 12% 0%, rgba(255, 255, 255, .12), transparent 38%),
+        linear-gradient(135deg, #7c1735, #4f1025);
+      box-shadow: 0 16px 34px rgba(79, 16, 37, .28);
+    }
+    .learning-purpose-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 14px;
+    }
+    .learning-purpose-heading h2 { margin: 0; color: #fff; font-size: clamp(24px, 3vw, 36px); }
+    .learning-purpose-heading p { margin: 6px 0 0; color: rgba(255, 255, 255, .9); font-weight: 700; }
+    .learning-purpose-updated { flex: 0 0 auto; color: rgba(255, 255, 255, .72); font-size: 11px; font-weight: 800; }
+    .learning-purpose-message {
+      width: 100%;
+      min-height: 112px;
+      resize: vertical;
+      border: 1px solid rgba(255, 255, 255, .34);
+      border-radius: 16px;
+      padding: 14px 16px;
+      color: #33101d;
+      background: rgba(255, 255, 255, .94);
+      box-shadow: inset 0 1px 6px rgba(79, 16, 37, .1);
+      outline: none;
+    }
+    .learning-purpose-message:focus { border-color: #fff; box-shadow: 0 0 0 4px rgba(255, 255, 255, .18); }
+    .learning-purpose-message:read-only { color: #4d2b37; background: rgba(255, 255, 255, .82); }
+    .learning-purpose-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 13px;
+      flex-wrap: wrap;
+    }
+    .learning-purpose-actions,
+    .learning-purpose-history { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .learning-purpose-panel button {
+      min-height: 38px;
+      border: 1px solid rgba(255, 255, 255, .34);
+      border-radius: 999px;
+      padding: 8px 13px;
+      color: #fff;
+      background: rgba(255, 255, 255, .12);
+      cursor: pointer;
+      font-weight: 850;
+    }
+    .learning-purpose-panel button:hover,
+    .learning-purpose-panel button:focus-visible { background: rgba(255, 255, 255, .24); outline: 3px solid rgba(255, 255, 255, .2); }
+    .learning-purpose-panel button:disabled { opacity: .46; cursor: not-allowed; }
+    .learning-purpose-panel [data-save-learning-purpose] { color: #64132d; background: #fff; }
+    .learning-purpose-panel [data-delete-learning-purpose] { color: #fff; border-color: rgba(255, 198, 205, .46); background: rgba(133, 13, 42, .56); }
+    .learning-purpose-position { color: rgba(255, 255, 255, .86); font-size: 12px; font-weight: 850; }
+    .learning-purpose-status { min-height: 19px; margin: 10px 0 0; color: rgba(255, 255, 255, .88); font-size: 12px; font-weight: 800; }
+    .learning-purpose-status[data-state="error"] { color: #ffd4da; }
     .calendar-scroll {
       position: relative;
       overflow-x: auto;
@@ -1011,14 +1074,99 @@
     .day-column.is-today .day-header { color: #fff; background: linear-gradient(135deg, var(--amber-dark), #a66739); }
     .day-column.is-today .day-header span { color: rgba(255, 255, 255, .78); }
 
-    .daily-motivation-rating {
+    .daily-self-rating-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 6px;
       border-bottom: 1px solid var(--line);
+      padding: 8px;
+      background: rgba(248, 251, 255, .66);
+    }
+    .daily-motivation-rating {
+      --rating-gradient: linear-gradient(135deg, #bfe0ff, #a9ebc7);
+      --rating-border: #3f9f8a;
+      --rating-ink: #143e4e;
+      width: 100%;
+      flex: 1 0 100%;
+      border: 1px solid rgba(66, 102, 142, .14);
+      border-radius: 14px;
       padding: 12px 10px 10px;
       display: grid;
       justify-items: center;
       gap: 7px;
       background: rgba(248, 251, 255, .76);
     }
+    .daily-self-rating.rating-confidence {
+      --rating-gradient: linear-gradient(145deg, #d9edb8, #ffe17a);
+      --rating-border: #a8b955;
+      --rating-ink: #455114;
+      background: linear-gradient(145deg, #f7fbe9, #fff9dc);
+    }
+    .daily-self-rating.rating-concentration {
+      --rating-gradient: linear-gradient(145deg, #e4e9f3, #6482b8);
+      --rating-border: #667fae;
+      --rating-ink: #183257;
+      background: linear-gradient(145deg, #fafbfd, #eef3fb);
+    }
+    .daily-self-rating.rating-attention-span {
+      --rating-gradient: linear-gradient(145deg, #cb4770, #6f2b3d);
+      --rating-border: #8c304d;
+      --rating-ink: #fff;
+      background: linear-gradient(145deg, #fff5f8, #f7e8ed);
+    }
+    .daily-self-rating.rating-stress {
+      --rating-gradient: linear-gradient(145deg, #f0e4dd, #cc7764);
+      --rating-border: #b87162;
+      --rating-ink: #54271f;
+      background: linear-gradient(145deg, #fffaf6, #faeee7);
+    }
+    .daily-self-rating.rating-homework-difficulty {
+      --rating-gradient: linear-gradient(145deg, #eadcff, #8d5bc4);
+      --rating-border: #8553b8;
+      --rating-ink: #351353;
+      background: linear-gradient(145deg, #fcf9ff, #f2eaff);
+    }
+    .daily-self-rating-heading {
+      width: 100%;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 26px;
+      align-items: center;
+      gap: 4px;
+    }
+    .daily-self-rating-heading .daily-motivation-title { padding-left: 26px; }
+    .daily-self-rating-collapse {
+      width: 26px;
+      height: 26px;
+      border: 1px solid rgba(52, 65, 85, .18);
+      border-radius: 50%;
+      padding: 0;
+      display: grid;
+      place-items: center;
+      color: #334155;
+      background: rgba(255, 255, 255, .82);
+      cursor: pointer;
+      font-size: 17px;
+      font-weight: 900;
+      line-height: 1;
+    }
+    .daily-self-rating-collapse:hover,
+    .daily-self-rating-collapse:focus-visible { border-color: var(--rating-border); outline: 3px solid rgba(72, 96, 133, .14); }
+    .daily-self-rating.is-collapsed {
+      width: max-content;
+      max-width: 100%;
+      flex: 0 0 auto;
+      border-radius: 999px;
+      padding: 5px 7px 5px 10px;
+      display: block;
+    }
+    .daily-self-rating.is-collapsed .daily-self-rating-heading {
+      width: auto;
+      display: flex;
+      gap: 7px;
+    }
+    .daily-self-rating.is-collapsed .daily-motivation-title { padding-left: 0; white-space: nowrap; font-size: 11px; }
+    .daily-self-rating.is-collapsed .daily-self-rating-collapse { width: 23px; height: 23px; font-size: 15px; }
     .daily-motivation-rating.is-disabled { opacity: .58; }
     .daily-motivation-title {
       margin: 0;
@@ -1058,16 +1206,17 @@
     .daily-motivation-circle:nth-child(5) { grid-column: 4 / span 2; }
     .daily-motivation-circle:hover,
     .daily-motivation-circle:focus-visible {
-      border-color: #70b9a8;
-      background: linear-gradient(135deg, #dbeafe, #d1fae5);
+      border-color: var(--rating-border);
+      color: var(--rating-ink);
+      background: var(--rating-gradient);
       box-shadow: 0 7px 15px rgba(45, 117, 111, .18);
       transform: translateY(-1px);
       outline: none;
     }
     .daily-motivation-circle[aria-pressed="true"] {
-      border-color: #3f9f8a;
-      color: #143e4e;
-      background: linear-gradient(135deg, #bfe0ff, #a9ebc7);
+      border-color: var(--rating-border);
+      color: var(--rating-ink);
+      background: var(--rating-gradient);
       box-shadow: 0 0 0 3px rgba(105, 188, 177, .2), 0 7px 15px rgba(45, 117, 111, .18);
     }
     .daily-motivation-status {
@@ -1080,6 +1229,17 @@
       text-align: center;
     }
     .daily-motivation-status[data-state="error"] { color: var(--danger); }
+    .self-rating-focus-note {
+      margin: 0 0 8px;
+      border: 1px solid rgba(127, 23, 52, .2);
+      border-radius: 12px;
+      padding: 9px 10px;
+      color: #6d1730;
+      background: #fff0f4;
+      font-size: 11px;
+      font-weight: 850;
+      line-height: 1.45;
+    }
 
     .day-slots { flex: 1; display: flex; flex-direction: column; padding: 10px; }
     .ordinary-slot-list,
@@ -1139,7 +1299,9 @@
         inset 0 0 0 6px var(--entry-tag-wrap-3, transparent),
         inset 0 0 0 8px var(--entry-tag-wrap-4, transparent),
         inset 0 0 0 10px var(--entry-tag-wrap-5, transparent),
-        inset 0 0 0 12px var(--entry-tag-wrap-6, transparent);
+        inset 0 0 0 12px var(--entry-tag-wrap-6, transparent),
+        inset 0 0 0 14px var(--entry-tag-wrap-7, transparent),
+        inset 0 0 0 16px var(--entry-tag-wrap-8, transparent);
     }
 
     .schedule-slot.has-entry.is-admin-entry {
@@ -1679,7 +1841,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260814-1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260820-2">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -1701,7 +1863,7 @@
         <span class="user-pill" data-user-pill hidden></span>
         <button class="header-button" type="button" data-change-password hidden>更改用戶系統 Password</button>
         <button class="header-button" type="button" data-admin-students hidden>學生清單</button>
-        <a class="header-button" href="schedule-motivation-admin.html" data-admin-motivation-results hidden>動力指數結果</a>
+        <a class="header-button" href="schedule-motivation-admin.html" data-admin-motivation-results hidden>學生自評結果</a>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
     </div>
@@ -1951,6 +2113,30 @@
         <p class="mass-edit-status" data-mass-edit-status role="status" aria-live="polite"></p>
 
         <div class="calendar-panel glass-card">
+          <section class="learning-purpose-panel" data-learning-purpose aria-labelledby="learning-purpose-heading">
+            <div class="learning-purpose-heading">
+              <div>
+                <h2 id="learning-purpose-heading">我的學習初心</h2>
+                <p>學習英文，艱免感到疲倦。可以休息，但不要放棄！回歸當初，請寫下您學習英文的初心</p>
+              </div>
+              <span class="learning-purpose-updated" data-learning-purpose-updated>最後更新：—</span>
+            </div>
+            <label class="sr-only" for="schedule-learning-purpose">我的學習初心</label>
+            <textarea class="learning-purpose-message" id="schedule-learning-purpose" maxlength="1000" data-learning-purpose-message placeholder="請寫下您最初為何想學好英文……"></textarea>
+            <div class="learning-purpose-footer">
+              <div class="learning-purpose-actions">
+                <button type="button" data-save-learning-purpose>儲存為新版本</button>
+                <button type="button" data-delete-learning-purpose hidden>永久刪除此版本</button>
+              </div>
+              <div class="learning-purpose-history" aria-label="學習初心版本記錄">
+                <button type="button" data-learning-purpose-older aria-label="查看較舊版本">← 較舊</button>
+                <span class="learning-purpose-position" data-learning-purpose-position>尚未儲存初心</span>
+                <button type="button" data-learning-purpose-newer aria-label="查看較新版本">較新 →</button>
+                <button type="button" data-learning-purpose-latest>回到最新</button>
+              </div>
+            </div>
+            <p class="learning-purpose-status" data-learning-purpose-status role="status" aria-live="polite"></p>
+          </section>
           <div class="calendar-scroll" data-calendar-scroll tabindex="0" aria-label="每週功課及溫習安排表，可左右捲動">
             <div class="week-grid" id="schedule-week-grid" data-week-grid></div>
           </div>
@@ -2189,7 +2375,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260814-1"></script>
-  <script type="module" src="schedule-system.js?v=20260820-1"></script>
+  <script src="shared-system-nav.js?v=20260820-2"></script>
+  <script type="module" src="schedule-system.js?v=20260820-2"></script>
 </body>
 </html>

@@ -29,7 +29,11 @@ const expected = [
   [47, "english-joke-collection", "english-joke-collection.html", ["English Joke", "Collection", "英文笑話收集站"], false],
   [48, "argument-learning", "argument-learning-system.html", ["Argument learning", "論證 / 論據 / 論點 學習系統"], false],
   [49, "fragmented-reading", "fragmented-reading-system.html", ["Fragmented Reading", "閱讀理解", "碎片訓練系統"], false],
-  [51, "precise-language", "precise-language-system.html", ["Precise Language", "精準措詞系統"], false]
+  [51, "precise-language", "precise-language-system.html", ["Precise Language", "精準措詞系統"], false],
+  [52, "false-friends", "false-friends-system.html", ["False Friends", "同形異義詞", "學習系統"], true],
+  [53, "english-in-shows", "english-in-shows-system.html", ["English in Shows", "影視英文", "學習系統"], false],
+  [54, "ted-talk-english", "ted-talk-english-system.html", ["Ted Talk English", "Ted Talk 英文", "學習系統"], false],
+  [55, "poem-english", "poem-english-system.html", ["Poem English", "詩句賞識系統"], false]
 ];
 
 const configSource = await read("learning-portal-config.js");
@@ -44,24 +48,33 @@ const portals = Array.from(context.window.EDMUND_LEARNING_PORTALS, (portal) => (
   dashboard: portal.dashboard,
   sessionKey: portal.sessionKey,
   blankAfterLogin: portal.blankAfterLogin === true,
+  hideEmptyContent: portal.hideEmptyContent === true,
   homework: portal.homework !== false
 }));
 
 assert.deepEqual(portals.map(({ ordinal, id, href, lines, dashboard }) => [ordinal, id, href, lines, dashboard]), expected);
-assert.deepEqual(portals.filter(({ dashboard }) => !dashboard).map(({ ordinal }) => ordinal), [38, 44, 47, 48, 49, 51]);
-assert.deepEqual(portals.filter(({ blankAfterLogin }) => blankAfterLogin).map(({ ordinal }) => ordinal), [48, 49, 51]);
-assert.deepEqual(portals.filter(({ homework }) => !homework).map(({ ordinal }) => ordinal), [48, 49, 51]);
-assert.equal(new Set(portals.map(({ href }) => href)).size, 21, "every portal URL must be stable and unique");
+assert.deepEqual(portals.filter(({ dashboard }) => !dashboard).map(({ ordinal }) => ordinal), [38, 44, 47, 48, 49, 51, 53, 54, 55]);
+assert.deepEqual(portals.filter(({ blankAfterLogin }) => blankAfterLogin).map(({ ordinal }) => ordinal), [48, 49, 51, 53, 54, 55]);
+assert.deepEqual(portals.filter(({ hideEmptyContent }) => hideEmptyContent).map(({ ordinal }) => ordinal), [52]);
+assert.deepEqual(portals.filter(({ homework }) => !homework).map(({ ordinal }) => ordinal), [48, 49, 51, 52, 53, 54, 55]);
+assert.equal(new Set(portals.map(({ href }) => href)).size, 25, "every portal URL must be stable and unique");
+const requestedNewPortals = portals.filter(({ ordinal }) => ordinal >= 52);
+assert.deepEqual(
+  requestedNewPortals.map(({ ordinal, dashboard, blankAfterLogin }) => [ordinal, dashboard, blankAfterLogin]),
+  [[52, true, false], [53, false, true], [54, false, true], [55, false, true]],
+  "False Friends alone keeps dashboard surfaces; cards 53–55 must be empty after login"
+);
 
 const home = await read("index.html");
 const homepageCards = [...home.matchAll(/<a class="category learning-portal-card"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<span class="category-name">([\s\S]*?)<\/span>\s*<\/a>/g)];
-assert.equal(homepageCards.length, 21, "homepage should append exactly 21 learning portal cards");
+assert.equal(homepageCards.length, 25, "homepage should append exactly 25 learning portal cards");
 assert.deepEqual(homepageCards.map((match) => match[1]), expected.map(([, , href]) => href));
 assert.deepEqual(homepageCards.map((match) => match[2].trim()), expected.map(([, , , lines]) => lines.join("<br>")));
 const allCardStarts = [...home.matchAll(/<a class="category(?:\s|\")/g)].map((match) => match.index);
-assert.equal(allCardStarts.length, 51, "homepage must contain 51 linked category cards");
-homepageCards.forEach((match, index) => assert.equal(allCardStarts.indexOf(match.index) + 1, index < 20 ? index + 30 : 51));
+assert.equal(allCardStarts.length, 55, "homepage must contain 55 linked category cards");
+homepageCards.forEach((match, index) => assert.equal(allCardStarts.indexOf(match.index) + 1, index < 20 ? index + 30 : index + 31));
 assert.match(home, /href="song-appreciation\.html"[^>]*>[\s\S]*?Song Appreciation<br>英文歌<br>聆聽練習/);
+assert.match(home, /homepage-game-card[\s\S]*?href="eddy-carrot-patch\/"[\s\S]*?homepage-mascot-card[\s\S]*?href="mascot-introduction\.html"/, "Mascot Introduction must sit directly below Eddie's Farm");
 
 const videoSetsSource = home.match(/const videoSets = (\{[\s\S]*?\n    \});/)?.[1] || "";
 assert.ok(videoSetsSource, "homepage videoSets configuration should remain readable by the regression test");
@@ -99,6 +112,7 @@ assert.match(runtime, /EdmundSystemNav\?\.rememberStudentSession/);
 assert.match(runtime, /EdmundSystemNav\?\.getStudentSession/);
 assert.match(runtime, /if \(!portal\.dashboard\) return ""/);
 assert.match(runtime, /if \(portal\.blankAfterLogin\)/);
+assert.match(runtime, /portal\.hideEmptyContent/);
 assert.match(runtime, /ACTIVITY BY DATE/);
 assert.match(runtime, /TIME SPENT BY DATE/);
 assert.match(runtime, /data-progress-toggle/);
@@ -107,14 +121,18 @@ assert.doesNotMatch(runtime, /student-progress|Student Progress/i, "new scaffold
 
 const studentProgressHtml = await read("student-progress.html");
 assert.doesNotMatch(studentProgressHtml, /learning-portal-config\.js|learning-portal-scaffold\.js/);
-const aggregateProgressSource = `${await read("student-progress-config.js")}\n${await read("student-progress.js")}`;
+const aggregateProgressSource = `${await read("student-progress-config.js")}\n${await read("student-progress.js")}\n${await read("student-progress-core.js")}`;
 for (const { id } of portals.filter(({ blankAfterLogin }) => blankAfterLogin)) {
   assert.equal(aggregateProgressSource.includes(id), false, `${id} must stay out of the aggregate Student Progress dashboard`);
 }
+assert.match(aggregateProgressSource, /id: "falseFriends"[\s\S]*?href: "false-friends-system\.html"/, "False Friends must have a zero-safe aggregate Student Progress source");
+const aggregateProgressSql = `${await read("supabase-student-progress.sql")}\n${await read("supabase-student-progress-false-friends.sql")}`;
+assert.match(aggregateProgressSql, /'falseFriends', public\._student_progress_learning_portal_source\(p_student_id, 'false-friends'\)/);
+assert.match(aggregateProgressSql, /jsonb_set\([\s\S]*?'\{sources,falseFriends\}'[\s\S]*?_student_progress_learning_portal_source\(student\.id, 'false-friends'\)/);
 
 const homework = HOMEWORK_RESOURCE_CATALOG.filter(({ type }) => type === "learning-portal");
 assert.equal(homework.length, 18);
-const hiddenFromHomework = new Set(["argument-learning", "fragmented-reading", "precise-language"]);
+const hiddenFromHomework = new Set(["argument-learning", "fragmented-reading", "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english"]);
 for (const [ordinal, id, href, lines] of expected.filter(([, id]) => !hiddenFromHomework.has(id))) {
   const resource = homework.find((item) => item.id === `learning-portal:${id}`);
   assert.equal(resource?.ordinal, ordinal);
@@ -134,4 +152,4 @@ for (const id of hiddenFromHomework) {
 const sitemap = await read("sitemap.xml");
 for (const portal of portals) assert.ok(sitemap.includes(`https://edmundeducation.com/${portal.href}`));
 
-console.log("Learning portal scaffold checks passed (21 portals, homepage positions 30–49 and 51, shared login, dashboards, PWA, sitemap and Homework catalogue).");
+console.log("Learning portal scaffold checks passed (25 portals, homepage positions 30–49 and 51–55, shared login, dashboards, PWA, sitemap and Homework catalogue).");

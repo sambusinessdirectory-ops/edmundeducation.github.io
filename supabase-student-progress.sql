@@ -69,7 +69,8 @@ create table if not exists public.learning_portal_progress_events (
     'thematic-vocabulary', 'part-of-speech', 'synonyms',
     'error-identifier', 'spelling', 'reading-logic',
     'translation-skills', 'business-school', 'complex-questions',
-    'english-humour-speaking', 'english-humour-writing'
+    'english-humour-speaking', 'english-humour-writing',
+    'false-friends'
   )),
   check (event_key = pg_catalog.btrim(event_key)),
   check (pg_catalog.char_length(event_key) between 1 and 240),
@@ -918,7 +919,8 @@ sources_json as (
     'businessSchool', public._student_progress_learning_portal_source(p_student_id, 'business-school'),
     'complexQuestions', public._student_progress_learning_portal_source(p_student_id, 'complex-questions'),
     'englishHumourSpeaking', public._student_progress_learning_portal_source(p_student_id, 'english-humour-speaking'),
-    'englishHumourWriting', public._student_progress_learning_portal_source(p_student_id, 'english-humour-writing')
+    'englishHumourWriting', public._student_progress_learning_portal_source(p_student_id, 'english-humour-writing'),
+    'falseFriends', public._student_progress_learning_portal_source(p_student_id, 'false-friends')
   ) as value
 )
 select pg_catalog.jsonb_build_object(

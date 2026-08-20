@@ -89,7 +89,7 @@ test("core declares every dashboard source system in portal order", async () => 
     "irregularVerb", "thematicVocabulary", "partOfSpeech", "synonyms",
     "errorIdentifier", "spelling", "readingLogic", "translationSkills",
     "businessSchool", "complexQuestions", "englishHumourSpeaking",
-    "englishHumourWriting"
+    "englishHumourWriting", "falseFriends"
   ];
   let previous = -1;
   for (const id of expected) {
@@ -163,6 +163,19 @@ test("database snapshot keeps all six Common Expression dashboards separate", as
     assert.match(sql, new RegExp(`'${sourceId}', pg_catalog\\.jsonb_build_object\\(`));
     assert.match(sql, new RegExp(`day\\.system_key = '${systemKey}'`));
   }
+});
+
+test("False Friends is owner-scoped, zero-safe and ready for future canonical events", async () => {
+  const [sql, forward] = await Promise.all([
+    read("supabase-student-progress.sql"),
+    read("supabase-student-progress-false-friends.sql")
+  ]);
+  assert.match(sql, /'falseFriends', public\._student_progress_learning_portal_source\(p_student_id, 'false-friends'\)/);
+  assert.match(forward, /check \(system_key in \([\s\S]*?'false-friends'/);
+  assert.match(forward, /where session_row\.token = p_token[\s\S]*?student\.deleted_at is null/);
+  assert.match(forward, /public\._student_progress_learning_portal_source\(student\.id, 'false-friends'\)/);
+  assert.match(forward, /revoke all on function public\.student_progress_student_snapshot\(uuid\)[\s\S]*?from public, anon, authenticated/);
+  assert.doesNotMatch(forward, /grant execute[\s\S]*?to (?:public|anon|authenticated)/);
 });
 
 test("progress administrator is provisioned only with a private cost-12 hash", async () => {

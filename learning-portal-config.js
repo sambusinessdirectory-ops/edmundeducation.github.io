@@ -22,7 +22,11 @@
     { ordinal: 47, id: "english-joke-collection", href: "english-joke-collection.html", lines: ["English Joke", "Collection", "英文笑話收集站"], dashboard: false, hue: 202 },
     { ordinal: 48, id: "argument-learning", href: "argument-learning-system.html", lines: ["Argument learning", "論證 / 論據 / 論點 學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 268 },
     { ordinal: 49, id: "fragmented-reading", href: "fragmented-reading-system.html", lines: ["Fragmented Reading", "閱讀理解", "碎片訓練系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 176 },
-    { ordinal: 51, id: "precise-language", href: "precise-language-system.html", lines: ["Precise Language", "精準措詞系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 12 }
+    { ordinal: 51, id: "precise-language", href: "precise-language-system.html", lines: ["Precise Language", "精準措詞系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 12 },
+    { ordinal: 52, id: "false-friends", href: "false-friends-system.html", lines: ["False Friends", "同形異義詞", "學習系統"], dashboard: true, hideEmptyContent: true, homework: false, hue: 154 },
+    { ordinal: 53, id: "english-in-shows", href: "english-in-shows-system.html", lines: ["English in Shows", "影視英文", "學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 224 },
+    { ordinal: 54, id: "ted-talk-english", href: "ted-talk-english-system.html", lines: ["Ted Talk English", "Ted Talk 英文", "學習系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 8 },
+    { ordinal: 55, id: "poem-english", href: "poem-english-system.html", lines: ["Poem English", "詩句賞識系統"], dashboard: false, blankAfterLogin: true, homework: false, hue: 286 }
   ].map((portal) => Object.freeze({
     ...portal,
     titleEn: portal.lines[0],

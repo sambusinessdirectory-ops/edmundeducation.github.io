@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
-  <meta name="description" content="EdmundEducation 每日動力指數管理員報表">
+  <meta name="description" content="EdmundEducation 每日自評管理員報表">
   <meta name="theme-color" content="#397863">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="robots" content="noindex,nofollow">
-  <title>每日動力指數結果 | EdmundEducation</title>
+  <title>每日自評結果 | EdmundEducation</title>
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
@@ -18,70 +18,45 @@
   <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="schedule-motivation-admin.css?v=20260820-1">
   <script defer src="/pwa-register.js"></script>
-  <style>
-    :root { --ink:#2c211b; --muted:#705f56; --paper:#fffdf9; --line:#e4d8cf; --brown:#75401f; --blue:#dbeafe; --green:#d1fae5; --danger:#a52b24; }
-    * { box-sizing:border-box; }
-    [hidden] { display:none !important; }
-    body { margin:0; min-height:100vh; color:var(--ink); background:linear-gradient(140deg,#edf5ff,#faf2e8 52%,#e8f7ee); font-family:Georgia,"PingFang TC","Noto Serif TC",serif; }
-    button,input { font:inherit; }
-    a { color:inherit; }
-    .header { position:sticky; top:0; z-index:10; border-bottom:1px solid rgba(90,55,34,.14); background:rgba(255,253,249,.9); backdrop-filter:blur(18px); }
-    .header-inner { width:min(1220px,calc(100% - 28px)); min-height:72px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:16px; }
-    .brand { display:flex; align-items:center; gap:11px; text-decoration:none; font-weight:900; }
-    .brand img { width:44px; height:44px; border-radius:13px; object-fit:cover; }
-    .back { border:1px solid var(--line); border-radius:999px; padding:9px 14px; background:#fff; text-decoration:none; font-size:13px; font-weight:800; }
-    main { width:min(1220px,calc(100% - 28px)); margin:0 auto; padding:42px 0 78px; }
-    .hero,.panel { border:1px solid rgba(255,255,255,.75); border-radius:24px; background:rgba(255,253,249,.94); box-shadow:0 18px 45px rgba(50,35,25,.1); }
-    .hero { padding:30px; margin-bottom:18px; }
-    .eyebrow { margin:0 0 8px; color:#397863; font-size:12px; font-weight:900; letter-spacing:.16em; }
-    h1 { margin:0; font-size:clamp(28px,4vw,46px); }
-    .hero p:last-child { margin:10px 0 0; color:var(--muted); line-height:1.65; }
-    .panel { padding:24px; }
-    .filters { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)) auto; align-items:end; gap:12px; }
-    label { display:grid; gap:6px; color:#59483f; font-size:12px; font-weight:850; }
-    input { min-height:44px; border:1px solid var(--line); border-radius:12px; padding:9px 12px; background:#fff; }
-    button { min-height:44px; border:0; border-radius:12px; padding:9px 16px; color:#fff; background:var(--brown); cursor:pointer; font-weight:850; }
-    button.secondary { color:#315f67; border:1px solid #aedbd0; background:linear-gradient(135deg,var(--blue),var(--green)); }
-    button:disabled { opacity:.5; cursor:not-allowed; }
-    .actions { margin:14px 0; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
-    .status { min-height:20px; margin:0; color:var(--muted); font-size:13px; }
-    .status[data-state="error"] { color:var(--danger); }
-    .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:16px; background:#fff; }
-    table { width:100%; border-collapse:collapse; min-width:700px; }
-    th,td { padding:13px 15px; border-bottom:1px solid #eee5de; text-align:left; }
-    th { color:#57443a; background:#f8f3ed; font-size:12px; letter-spacing:.04em; }
-    tbody tr:last-child td { border-bottom:0; }
-    .rating { width:36px; height:36px; border-radius:50%; display:grid; place-items:center; color:#174c4b; background:linear-gradient(135deg,var(--blue),var(--green)); font-weight:900; }
-    .empty { padding:38px; color:var(--muted); text-align:center; }
-    .pagination { margin-top:16px; display:flex; justify-content:center; align-items:center; gap:12px; }
-    .gate { padding:40px; text-align:center; }
-    @media(max-width:800px){ .filters{grid-template-columns:1fr 1fr}.filters label:first-child{grid-column:1/-1}.filters button{grid-column:1/-1}.header-inner{align-items:flex-start;padding:10px 0;flex-wrap:wrap} }
-    @media(max-width:520px){ .filters{grid-template-columns:1fr}.filters label:first-child{grid-column:auto}.panel,.hero{padding:19px} }
-  </style>
 </head>
-<body>
+<body data-self-evaluation-metric="motivation">
   <header class="header"><div class="header-inner">
     <a class="brand" href="schedule-system.html"><img src="Company Logo for Cover Page.png" alt=""><span>EdmundEducation<br><small>Homework System Admin</small></span></a>
     <a class="back" href="schedule-system.html">返回功課系統</a>
   </div></header>
   <main>
-    <section class="hero"><p class="eyebrow">DAILY MOTIVATION RECORDS</p><h1>每日動力指數結果</h1><p>按學生名稱及日期範圍搜尋每天的自評紀錄，並可匯出目前篩選結果。</p></section>
+    <section class="hero">
+      <p class="eyebrow" data-report-eyebrow>DAILY MOTIVATION RECORDS</p>
+      <h1 data-report-title>每日動力指數結果</h1>
+      <p data-report-description>按學生名稱及日期範圍搜尋每天的動力自評紀錄，並可匯出目前篩選結果。</p>
+    </section>
     <section class="panel gate" data-auth-gate><p data-gate-message>正在驗證管理員登入…</p></section>
     <section class="panel" data-report hidden>
       <form class="filters" data-filter-form>
+        <label>自評項目
+          <select name="metric" data-metric-selector title="切換項目後會自動更新報表">
+            <option value="motivation">今天的動力指數</option>
+            <option value="confidence">今天的自信評分</option>
+            <option value="concentration">專注力評分</option>
+            <option value="attention-span">持續時間評分</option>
+            <option value="stress">壓力評分</option>
+            <option value="homework-difficulty">功課難度評分</option>
+          </select>
+        </label>
         <label>搜尋學生名稱<input type="search" name="studentQuery" maxlength="100" autocomplete="off" placeholder="輸入學生名稱"></label>
         <label>開始日期<input type="date" name="dateFrom" min="2026-01-01" max="2050-12-31" required></label>
         <label>結束日期<input type="date" name="dateTo" min="2026-01-01" max="2050-12-31" required></label>
         <button type="submit">搜尋</button>
       </form>
       <div class="actions"><p class="status" data-status role="status" aria-live="polite"></p><button class="secondary" type="button" data-export-csv>匯出 CSV</button></div>
-      <div class="table-wrap"><table><thead><tr><th>學生</th><th>日期</th><th>動力指數</th><th>最後更新</th></tr></thead><tbody data-results></tbody></table><p class="empty" data-empty hidden>此篩選範圍未有紀錄。</p></div>
+      <div class="table-wrap"><table><thead><tr><th>學生</th><th>日期</th><th data-rating-heading>動力指數</th><th>最後更新</th></tr></thead><tbody data-results></tbody></table><p class="empty" data-empty hidden>此篩選範圍未有動力紀錄。</p></div>
       <div class="pagination"><button type="button" data-previous>上一頁</button><span data-page-label>第 1 頁</span><button type="button" data-next>下一頁</button></div>
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script type="module" src="schedule-motivation-admin.js?v=20260812-1"></script>
+  <script type="module" src="schedule-motivation-admin.js?v=20260820-1"></script>
 </body>
 </html>
