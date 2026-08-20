@@ -11,7 +11,8 @@ const bundlePath = "eddy-carrot-patch";
 const bundleDir = path.join(siteDir, bundlePath);
 const publicOrigin = "https://edmundeducation.com";
 const gameUrl = `${publicOrigin}/eddy-carrot-patch/`;
-const requiredScripts = [
+const startGateScript = "start-gate.js";
+const runtimeScripts = [
   "loader.js",
   "asset-registry.js",
   "production-runtime.js",
@@ -46,7 +47,7 @@ function escapeRegExp(value) {
 }
 
 function attribute(tag, name) {
-  const match = tag.match(new RegExp(`\\b${escapeRegExp(name)}\\s*=\\s*(["'])(.*?)\\1`, "i"));
+  const match = tag.match(new RegExp(`(?:^|\\s)${escapeRegExp(name)}\\s*=\\s*(["'])(.*?)\\1`, "i"));
   return match?.[2] ?? null;
 }
 
@@ -97,6 +98,60 @@ function evaluateRegistry(source) {
   const registry = context.__publicationRegistry;
   assert.ok(registry && typeof registry === "object", "asset-registry.js must expose EddyProductionAssets");
   return registry;
+}
+
+function evaluateStartGateClassifier(source, {
+  connection = null,
+  userAgent = "Mozilla/5.0 (X11; Linux x86_64)",
+  userAgentDataMobile = false,
+  maxTouchPoints = 0,
+  coarsePointer = false
+} = {}) {
+  const listeners = new Map();
+  const cover = {
+    dataset: { src: "assets/game-cover.png" },
+    getAttribute() { return null; },
+    set src(_value) {}
+  };
+  const stub = {
+    hidden: false,
+    open: false,
+    disabled: false,
+    textContent: "",
+    dataset: {},
+    classList: { add() {}, remove() {} },
+    setAttribute() {},
+    removeAttribute() {},
+    querySelector() { return cover; },
+    addEventListener(type, callback) { listeners.set(type, callback); },
+    showModal() { this.open = true; },
+    close() { this.open = false; }
+  };
+  const windowObject = {
+    matchMedia() { return { matches: coarsePointer }; }
+  };
+  const context = {
+    window: windowObject,
+    navigator: {
+      connection,
+      userAgent,
+      userAgentData: { mobile: userAgentDataMobile },
+      maxTouchPoints
+    },
+    document: {
+      getElementById() { return stub; },
+      createElement() { return { dataset: {}, addEventListener() {} }; },
+      head: { appendChild() {} },
+      body: { appendChild() {} },
+      documentElement: { classList: { add() {} } }
+    },
+    console
+  };
+  vm.runInNewContext(source, context, {
+    filename: "eddy-carrot-patch/start-gate.js",
+    timeout: 1_000
+  });
+  return windowObject.EddyGameLaunchGate.requiresMobileDataWarning();
 }
 
 function evaluatePlacedAnimalBindings(registrySource, runtimeSource, gameSource) {
@@ -193,7 +248,7 @@ function findUnapprovedEddyReferences(value) {
   return [...new Set(problems)];
 }
 
-test("homepage exposes one Eddy game card with a real cover and public link", async () => {
+test("homepage defers the original Eddy cover until the page has loaded", async () => {
   const homepage = await read("index.html");
   const cards = Array.from(homepage.matchAll(/<a\b[^>]*>/gi))
     .filter(({ 0: tag }) => (attribute(tag, "class") || "").split(/\s+/).includes("homepage-game-card"));
@@ -205,19 +260,31 @@ test("homepage exposes one Eddy game card with a real cover and public link", as
     "/eddy-carrot-patch/",
     "the homepage game card must link to the public game directory"
   );
+  assert.ok(attribute(cardTag, "aria-label")?.trim(), "the homepage game card needs an accessible name");
 
   const cardStart = cards[0].index;
   const cardEnd = homepage.indexOf("</a>", cardStart);
   assert.ok(cardEnd > cardStart, "the homepage game card must have a closing tag");
   const cardMarkup = homepage.slice(cardStart, cardEnd + 4);
-  const coverTag = cardMarkup.match(/<img\b[^>]*>/i)?.[0];
-  assert.ok(coverTag, "the homepage game card must contain a cover image");
-  assert.equal(
-    normalisedPathname(attribute(coverTag, "src"), `${publicOrigin}/`),
-    "/assets/eddy-game/game-cover.png"
+  const covers = Array.from(cardMarkup.matchAll(/<img\b[^>]*>/gi));
+  assert.equal(covers.length, 1, "the homepage card must keep the original Game cover image");
+  const coverTag = covers[0][0];
+  assert.equal(attribute(coverTag, "id"), "homepageGameCover");
+  assert.equal(attribute(coverTag, "src"), null, "the cover must not have an eager src attribute");
+  assert.equal(attribute(coverTag, "data-src"), "assets/eddy-game/game-cover.png");
+  assert.equal(attribute(coverTag, "fetchpriority"), "low");
+  assert.equal((homepage.match(/assets\/eddy-game\/game-cover\.png/gi) || []).length, 1);
+  assert.doesNotMatch(homepage, /assets\/eddy-game\/(?!game-cover\.png)/i, "no other game media may appear on the homepage");
+  assert.match(homepage, /window\.addEventListener\("load"[\s\S]*requestIdleCallback\(loadCoverLast/);
+  assert.match(homepage, /cover\.src\s*=\s*cover\.dataset\.src/);
+  assert.doesNotMatch(
+    homepage,
+    /<link\b[^>]*\brel\s*=\s*(["'])(?:preload|prefetch|prerender)\1[^>]*eddy-carrot-patch/i,
+    "the homepage must never preload, prefetch or prerender the game"
   );
-  assert.ok(attribute(coverTag, "alt")?.trim(), "the homepage game cover needs alt text");
-  await assertPng("assets/eddy-game/game-cover.png");
+
+  const serviceWorker = await read("service-worker.js");
+  assert.doesNotMatch(serviceWorker, /eddy-carrot-patch|assets\/eddy-game/i, "the PWA shell must not precache game files");
 });
 
 test("sitemap contains the canonical Eddy game URL exactly once", async () => {
@@ -226,33 +293,44 @@ test("sitemap contains the canonical Eddy game URL exactly once", async () => {
   assert.equal(urls.filter((url) => url === gameUrl).length, 1);
 });
 
-test("public game bundle contains the required files and deferred script order", async () => {
+test("public game bundle begins with a lightweight start gate and no eager game payload", async () => {
   for (const relativePath of [
     `${bundlePath}/index.html`,
     `${bundlePath}/styles.css`,
-    ...requiredScripts.map((file) => `${bundlePath}/${file}`),
+    `${bundlePath}/${startGateScript}`,
+    ...runtimeScripts.map((file) => `${bundlePath}/${file}`),
     `${bundlePath}/assets/game-cover.png`
   ]) await assertNonEmptyFile(relativePath);
 
-  const html = await read(`${bundlePath}/index.html`);
+  const [html, gate] = await Promise.all([
+    read(`${bundlePath}/index.html`),
+    read(`${bundlePath}/${startGateScript}`)
+  ]);
   const stylesheetTags = Array.from(html.matchAll(/<link\b[^>]*>/gi), (match) => match[0])
     .filter((tag) => (attribute(tag, "rel") || "").toLowerCase().split(/\s+/).includes("stylesheet"));
-  assert.ok(
-    stylesheetTags.some((tag) => normalisedPathname(attribute(tag, "href"), gameUrl) === "/eddy-carrot-patch/styles.css"),
-    "game index must load styles.css"
-  );
+  assert.equal(stylesheetTags.length, 0, "the initial game page must not request the game stylesheet");
 
   const scriptTags = Array.from(html.matchAll(/<script\b[^>]*\bsrc\s*=\s*(["']).*?\1[^>]*>/gi), (match) => match[0]);
   const localScriptTags = scriptTags.filter((tag) =>
     normalisedPathname(attribute(tag, "src"), gameUrl).startsWith("/eddy-carrot-patch/"));
   assert.deepEqual(
     localScriptTags.map((tag) => path.posix.basename(normalisedPathname(attribute(tag, "src"), gameUrl))),
-    requiredScripts,
-    "game scripts must be loaded once in loader/registry/runtime/game order"
+    [startGateScript],
+    "only the lightweight start gate may load before the user starts the game"
   );
   for (const tag of localScriptTags) {
     assert.match(tag, /\sdefer(?:\s|=|>)/i, `${attribute(tag, "src")} must be deferred`);
   }
+
+  assert.match(gate, /loadStylesheet\("styles\.css"\)/, "the game stylesheet must be requested only inside the explicit start path");
+  let previousRuntimeIndex = -1;
+  for (const filename of runtimeScripts) {
+    const runtimeIndex = gate.indexOf(`"${filename}"`);
+    assert.ok(runtimeIndex > previousRuntimeIndex, `${filename} must be declared in runtime order`);
+    previousRuntimeIndex = runtimeIndex;
+  }
+  assert.match(html, /\bid\s*=\s*(["'])gameShell\1[^>]*\shidden(?:\s|>|=)/i, "the game shell must remain hidden before start");
+  assert.match(html, /\bid\s*=\s*(["'])gameLoadingScreen\1[^>]*\shidden(?:\s|>|=)/i, "the loading screen must remain hidden before start");
 
   const homeTag = Array.from(html.matchAll(/<a\b[^>]*>/gi), (match) => match[0])
     .find((tag) => attribute(tag, "id") === "backToHome");
@@ -262,17 +340,21 @@ test("public game bundle contains the required files and deferred script order",
   assert.notEqual(attribute(homeTag, "aria-hidden"), "true", "the home link must remain accessible");
 });
 
-test("game cover loader stays visible until the public ready handshake", async () => {
-  const [html, css, loader, game] = await Promise.all([
+test("game cover is demand-loaded and stays visible until the public ready handshake", async () => {
+  const [html, css, gate, loader, game] = await Promise.all([
     read(`${bundlePath}/index.html`),
     read(`${bundlePath}/styles.css`),
+    read(`${bundlePath}/${startGateScript}`),
     read(`${bundlePath}/loader.js`),
     read(`${bundlePath}/game.js`)
   ]);
   const loadingTag = html.match(/<[^>]+\bid\s*=\s*(["'])gameLoadingScreen\1[^>]*>/i)?.[0];
   assert.ok(loadingTag, "game index must contain #gameLoadingScreen");
-  assert.match(html, /<img\b[^>]*\bsrc\s*=\s*(["'])assets\/game-cover\.png\1/i);
+  const coverTag = html.match(/<img\b[^>]*\bdata-src\s*=\s*(["'])assets\/game-cover\.png\1[^>]*>/i)?.[0];
+  assert.ok(coverTag, "the loading cover must be held in data-src before consent");
+  assert.equal(attribute(coverTag, "src"), null, "the browser must not receive a cover src before start");
   await assertPng(`${bundlePath}/assets/game-cover.png`);
+  assert.match(gate, /cover\.src\s*=\s*cover\.dataset\.src/, "the start gate must attach the cover only after explicit start");
 
   assert.match(css, /\.eddy-game-ready\s+\.game-loading-screen\s*\{[^}]*visibility:\s*hidden/i);
   assert.match(game, /__EDDY_PUBLIC_LOADER__\.markReady\(\)/, "the game must release the cover after rendering starts");
@@ -301,6 +383,36 @@ test("game cover loader stays visible until the public ready handshake", async (
   assert.ok(htmlClasses.has("eddy-game-ready"));
   assert.ok(bodyClasses.has("game-ready"));
   assert.deepEqual(dispatchedEvents, ["eddy:game-ready"]);
+});
+
+test("mobile and data-saving users must confirm before any runtime request", async () => {
+  const [html, gate] = await Promise.all([
+    read(`${bundlePath}/index.html`),
+    read(`${bundlePath}/${startGateScript}`)
+  ]);
+  for (const id of ["gameStartButton", "mobileDataWarning", "mobileDataContinue", "mobileDataCancel"]) {
+    assert.match(html, new RegExp(`\\bid\\s*=\\s*(["'])${id}\\1`), `${id} is required`);
+  }
+  assert.match(gate, /connection\.saveData\s*===\s*true/, "Save-Data users must be warned");
+  assert.match(gate, /type\s*===\s*["']cellular["']/, "known cellular connections must be warned");
+  assert.match(gate, /likelyMobileDevice\(\)/, "mobile browsers without reliable connection type must fail safely to the warning");
+  assert.match(gate, /if\s*\(!mobileDataConfirmed\s*&&\s*requiresMobileDataWarning\(\)\)/, "the warning must precede runtime start");
+  assert.match(gate, /warningContinue\.addEventListener\(["']click["'][\s\S]*?mobileDataConfirmed\s*=\s*true[\s\S]*?beginRuntime\(\)/, "only Continue may approve mobile-data loading");
+  assert.match(gate, /warningCancel\.addEventListener\(["']click["'],\s*closeWarning\)/, "Not now must close without starting");
+
+  const cases = [
+    ["known cellular desktop", { connection: { type: "cellular", saveData: false } }, true],
+    ["Save-Data on Wi-Fi", { connection: { type: "wifi", saveData: true } }, true],
+    ["known Wi-Fi mobile", { connection: { type: "wifi", saveData: false }, userAgentDataMobile: true }, false],
+    ["known Ethernet mobile", { connection: { type: "ethernet", saveData: false }, userAgentDataMobile: true }, false],
+    ["missing API on mobile", { connection: null, userAgentDataMobile: true }, true],
+    ["4G effective type without transport on mobile", { connection: { effectiveType: "4g", saveData: false }, userAgentDataMobile: true }, true],
+    ["unknown transport on mobile", { connection: { type: "unknown", saveData: false }, userAgentDataMobile: true }, true],
+    ["missing API on desktop", { connection: null }, false]
+  ];
+  for (const [label, signals, expected] of cases) {
+    assert.equal(evaluateStartGateClassifier(gate, signals), expected, label);
+  }
 });
 
 test("player-facing bundle exposes no local QA library, workshop, or Eddy rig", async () => {

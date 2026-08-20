@@ -2739,7 +2739,7 @@
         <div class="hero-feature-stack">
           <img class="company-logo" src="Company Logo for Cover Page.png" alt="EdmundEducation company logo">
           <a class="homepage-game-card" href="eddy-carrot-patch/" aria-label="Play Eddie's Farm">
-            <img src="assets/eddy-game/game-cover.png" alt="Eddie's Farm game cover">
+            <img id="homepageGameCover" data-src="assets/eddy-game/game-cover.png" alt="Eddie's Farm game cover" decoding="async" fetchpriority="low">
             <span aria-hidden="true">Play now · 立即遊玩</span>
           </a>
         </div>
@@ -3733,6 +3733,26 @@
       <nav class="system-directory-dialog__list" data-system-directory-list aria-label="所有 EdmundEducation 學習系統"></nav>
     </section>
   </dialog>
+  <script>
+    (() => {
+      const cover = document.getElementById("homepageGameCover");
+      if (!cover) return;
+
+      const loadCoverLast = () => {
+        if (!cover.getAttribute("src") && cover.dataset.src) {
+          cover.src = cover.dataset.src;
+        }
+      };
+
+      window.addEventListener("load", () => {
+        if ("requestIdleCallback" in window) {
+          window.requestIdleCallback(loadCoverLast, { timeout: 2400 });
+        } else {
+          window.setTimeout(loadCoverLast, 0);
+        }
+      }, { once: true });
+    })();
+  </script>
   <script src="shared-system-nav.js?v=20260814-1"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
