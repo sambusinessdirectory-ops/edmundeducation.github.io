@@ -14,6 +14,7 @@ begin
     or pg_catalog.to_regclass('public.writing_submission_feedback_fragment_bookmarks') is null
     or pg_catalog.to_regclass('public.writing_student_accounts') is null
     or pg_catalog.to_regclass('public.writing_student_state') is null
+    or pg_catalog.to_regclass('public.learning_portal_bookmarks') is null
   then
     raise exception 'Apply all bookmark-producing system migrations first';
   end if;
@@ -154,6 +155,17 @@ begin
       from public.writing_submission_feedback_fragment_bookmarks bookmark
       join public.writing_submission_feedback_fragments fragment on fragment.id = bookmark.fragment_id
       where bookmark.student_id = v_student_id and bookmark.bookmarked
+
+      union all
+      select 'portal:' || bookmark.system_key || ':' || bookmark.item_key,
+        bookmark.system_key,
+        case bookmark.system_key when 'grammar' then 'Grammar 英文語法' else 'IELTS Listening 英語聽力' end,
+        bookmark.title,
+        bookmark.detail,
+        bookmark.href,
+        bookmark.created_at
+      from public.learning_portal_bookmarks bookmark
+      where bookmark.student_id = v_student_id
     )
     select jsonb_build_object(
       'total', count(*),

@@ -848,7 +848,7 @@
 
   function ensureNightReturnPrompt() {
     if (document.querySelector("[data-edmund-night-return]")) return;
-    document.body.insertAdjacentHTML("beforeend", `<dialog class="edmund-night-return" data-edmund-night-return aria-labelledby="edmund-night-return-title"><section><div class="edmund-night-return__art" aria-hidden="true">🌙<span>🐴</span></div><p>EDDY IS WAITING FOR YOU</p><h2 id="edmund-night-return-title">明天您還會過來網站探望 Eddy 和他的朋友嗎？</h2><div><button type="button" data-night-return-answer>會的! 今天我會過來探望 Eddy 和他的朋友!</button><button type="button" data-night-return-answer>明天休息一下先, 之後再來~</button></div></section></dialog>`);
+    document.body.insertAdjacentHTML("beforeend", `<dialog class="edmund-night-return" data-edmund-night-return aria-labelledby="edmund-night-return-title"><section><img class="edmund-night-return__art" src="assets/eddy-night-invitation.webp" alt="Eddy 期待您明天再來"><p>EDDY IS WAITING FOR YOU</p><h2 id="edmund-night-return-title">明天您還會過來網站探望 Eddy 和他的朋友嗎？</h2><div><button type="button" data-night-return-answer>會的! 明天我會過來<br>探望 Eddy 和他的朋友!</button><button type="button" data-night-return-answer>明天休息一下先, 後天之後再來~</button></div></section></dialog>`);
     const dialog = document.querySelector("[data-edmund-night-return]");
     let pendingLogout = null;
     let bypassLogout = false;

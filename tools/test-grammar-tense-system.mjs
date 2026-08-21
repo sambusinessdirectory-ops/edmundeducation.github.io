@@ -29,20 +29,23 @@ assert.equal(questions[99].answer, "Have ... ridden");
 assert.equal(questions[104].tense, "Future Perfect Continuous");
 assert.equal(questions[149].answer, "will have been waiting");
 
-for (const asset of ["grammar-system.css?v=20260821-tense1", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20260821-tense1"]) {
+for (const asset of ["grammar-system.css?v=20260822-tense2", "grammar-tense-data.js?v=20260821-tense1", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20260822-tense2"]) {
   assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
 }
 assert.match(runtime, /normaliseAnswer/);
 assert.match(runtime, /dataset\.state = "correct"/);
 assert.match(runtime, /dataset\.state = "wrong"/);
-assert.match(runtime, /showModal\(\)/);
+assert.match(runtime, /data-inline-explanation/);
+assert.doesNotMatch(runtime, /showModal\(\)/);
+assert.match(runtime, /data-reveal-step/);
+assert.match(runtime, /learning_portal_set_bookmark/);
 assert.match(runtime, /grammar_tense_list_progress/);
 assert.match(runtime, /grammar_tense_record_completion/);
 assert.match(runtime, /start \+= 25/);
-assert.match(runtime, /提交答案及查看解析/);
+assert.match(runtime, /提交答案/);
 assert.match(css, /\.grammar-feedback\[data-state="correct"\]/);
 assert.match(css, /\.grammar-feedback\[data-state="wrong"\]/);
-assert.match(css, /\.grammar-dialog::backdrop/);
+assert.match(css, /\.grammar-explanation/);
 
 assert.match(sql, /auth\.uid\(\) is null/);
 assert.match(sql, /flashcard_student_sessions/);

@@ -1,8 +1,15 @@
 (function () {
   "use strict";
 
+  function replaceMiaWithTom(value) {
+    if (typeof value === "string") return value.replace(/\bMia\b/g, "Tom").replaceAll("米婭", "湯姆");
+    if (Array.isArray(value)) return value.map(replaceMiaWithTom);
+    if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, replaceMiaWithTom(item)]));
+    return value;
+  }
+
   const questions = Array.isArray(window.EDMUND_GRAMMAR_TENSE_QUESTIONS)
-    ? window.EDMUND_GRAMMAR_TENSE_QUESTIONS
+    ? replaceMiaWithTom(window.EDMUND_GRAMMAR_TENSE_QUESTIONS)
     : [];
   const portalRoot = document.querySelector('[data-learning-portal-root]');
   if (!portalRoot || questions.length !== 150 || questions.some((item, index) => item.number !== index + 1)) {
@@ -17,7 +24,8 @@
     userId: "",
     token: "",
     questionStartedAt: performance.now(),
-    loadingProgress: false
+    loadingProgress: false,
+    bookmarks: new Set()
   };
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"]/g, (character) => ({
@@ -37,7 +45,19 @@
 
   function isCorrect(question, answer) {
     const response = normaliseAnswer(answer);
-    return Boolean(response) && question.acceptedAnswers.some((candidate) => normaliseAnswer(candidate) === response);
+    if (!response) return false;
+    if (question.acceptedAnswers.some((candidate) => normaliseAnswer(candidate) === response)) return true;
+    const blanks = question.prompt.match(/_+/g) || [];
+    if (!blanks.length) return false;
+    return question.acceptedAnswers.some((candidate) => {
+      const parts = String(candidate).split(/\s*(?:\.{2,}|\/)\s*|\s+/).filter(Boolean);
+      if (blanks.length > 1 && parts.length !== blanks.length) return false;
+      let partIndex = 0;
+      const completed = question.prompt
+        .replace(/_+(?:\s*\([^)]*\))?/g, () => blanks.length === 1 ? candidate : parts[partIndex++] || "")
+        .replace(/\s+([,.!?;:])/g, "$1");
+      return normaliseAnswer(completed) === response;
+    });
   }
 
   function localKey() {
@@ -93,23 +113,24 @@
         <div class="grammar-number-grid" data-question-grid aria-label="選擇題目"></div>
       </div>
       <article class="grammar-question">
-        <div class="grammar-question__meta"><span class="grammar-question__number" data-question-number></span><span class="grammar-question__tense" data-question-tense></span></div>
+        <div class="grammar-question__meta"><span class="grammar-question__number" data-question-number></span><span class="grammar-question__tense" data-question-tense></span><button class="grammar-bookmark" type="button" data-question-bookmark aria-pressed="false">☆ 收藏這題</button></div>
         <p class="grammar-question__prompt" data-question-prompt></p>
         <p class="grammar-question__translation" data-question-translation></p>
         <form class="grammar-answer" data-answer-form novalidate>
           <label>您的答案<input name="answer" autocomplete="off" autocapitalize="none" spellcheck="false" required aria-describedby="grammar-answer-hint grammar-feedback"></label>
-          <p class="grammar-answer__hint" id="grammar-answer-hint">如題目有兩個空格，請依次輸入答案，以空格分隔。</p>
-          <div class="grammar-answer__actions"><button class="grammar-button grammar-button--primary" type="submit">提交答案及查看解析</button></div>
+          <p class="grammar-answer__hint" id="grammar-answer-hint">可輸入單獨答案或完整句子；如有兩個空格，請依次輸入答案。</p>
+          <div class="grammar-answer__actions"><button class="grammar-button grammar-button--primary" type="submit">提交答案</button></div>
           <div class="grammar-feedback" id="grammar-feedback" data-feedback hidden aria-live="polite"></div>
         </form>
+        <section class="grammar-explanation" data-inline-explanation hidden aria-labelledby="grammar-explanation-title">
+          <div class="grammar-explanation__head"><div><p class="eyebrow">STEP-BY-STEP</p><h3 id="grammar-explanation-title" data-explanation-title>逐步解析</h3></div><p data-explanation-answer></p></div>
+          <p class="grammar-explanation__instruction">請讀完每一步，再勾選「我已讀懂」，下一步才會顯示。</p>
+          <div class="grammar-steps" data-inline-steps></div>
+        </section>
       </article>
       <nav class="grammar-nav" aria-label="題目導覽"><button type="button" data-previous-question>← 上一題</button><button type="button" data-next-question>下一題 →</button></nav>
       <p class="grammar-save-status" data-save-status aria-live="polite"></p>
-    </section>
-    <dialog class="grammar-dialog" data-explanation-dialog aria-labelledby="grammar-dialog-title">
-      <div class="grammar-dialog__head"><div><h2 id="grammar-dialog-title" data-dialog-title>逐步解析</h2><p data-dialog-subtitle></p></div><button class="grammar-dialog__close" type="button" data-close-dialog aria-label="關閉解析">×</button></div>
-      <div class="grammar-dialog__body"><p class="grammar-dialog__answer" data-dialog-answer></p><div class="grammar-steps" data-dialog-steps></div></div>
-    </dialog>`;
+    </section>`;
 
   const elements = {
     library: dashboard.querySelector("[data-grammar-library]"), practice: dashboard.querySelector("[data-grammar-practice]"),
@@ -120,7 +141,7 @@
     number: dashboard.querySelector("[data-question-number]"), tense: dashboard.querySelector("[data-question-tense]"), prompt: dashboard.querySelector("[data-question-prompt]"), translation: dashboard.querySelector("[data-question-translation]"),
     form: dashboard.querySelector("[data-answer-form]"), input: dashboard.querySelector('[name="answer"]'), feedback: dashboard.querySelector("[data-feedback]"),
     previous: dashboard.querySelector("[data-previous-question]"), next: dashboard.querySelector("[data-next-question]"), saveStatus: dashboard.querySelector("[data-save-status]"),
-    dialog: dashboard.querySelector("[data-explanation-dialog]"), dialogTitle: dashboard.querySelector("[data-dialog-title]"), dialogSubtitle: dashboard.querySelector("[data-dialog-subtitle]"), dialogAnswer: dashboard.querySelector("[data-dialog-answer]"), dialogSteps: dashboard.querySelector("[data-dialog-steps]"), dialogClose: dashboard.querySelector("[data-close-dialog]")
+    questionBookmark: dashboard.querySelector("[data-question-bookmark]"), explanation: dashboard.querySelector("[data-inline-explanation]"), explanationTitle: dashboard.querySelector("[data-explanation-title]"), explanationAnswer: dashboard.querySelector("[data-explanation-answer]"), explanationSteps: dashboard.querySelector("[data-inline-steps]")
   };
 
   for (let start = 1; start <= 150; start += 25) {
@@ -178,12 +199,24 @@
     elements.feedback.hidden = true;
     elements.feedback.textContent = "";
     delete elements.feedback.dataset.state;
+    elements.explanation.hidden = true;
+    elements.explanationSteps.replaceChildren();
+    updateQuestionBookmark();
     elements.previous.disabled = state.current === 1;
     elements.next.disabled = state.current === 150;
     elements.saveStatus.textContent = "";
     delete elements.saveStatus.dataset.state;
     renderGrid();
+    const route = new URL(window.location.href);
+    route.searchParams.set("lesson", "tense");
+    route.searchParams.set("question", String(state.current));
+    window.history.replaceState(null, "", `${route.pathname}${route.search}${route.hash}`);
     if (focus) elements.input.focus({ preventScroll: true });
+  }
+
+  function requestedQuestion() {
+    const number = Number(new URLSearchParams(window.location.search).get("question"));
+    return Number.isInteger(number) && number >= 1 && number <= 150 ? number : 0;
   }
 
   function explanationSteps(question) {
@@ -197,14 +230,53 @@
     return steps;
   }
 
-  function openExplanation(question, correct) {
-    elements.dialog.dataset.result = correct ? "correct" : "wrong";
-    elements.dialogTitle.textContent = correct ? "答對了！逐步解析" : "再想一想：逐步解析";
-    elements.dialogSubtitle.textContent = `第 ${question.number} 題 · ${question.tense}`;
-    elements.dialogAnswer.textContent = `正確答案：${question.answer}`;
-    elements.dialogSteps.innerHTML = explanationSteps(question).map((step) => `<article class="grammar-step"><h3>${escapeHtml(step.title)}</h3>${step.paragraphs.map((text) => `<p>${escapeHtml(text)}</p>`).join("")}</article>`).join("");
-    if (typeof elements.dialog.showModal === "function") elements.dialog.showModal();
-    else elements.dialog.setAttribute("open", "");
+  function bookmarkKey(number, step = 0) {
+    return step ? `tense:q${String(number).padStart(3, "0")}:step${String(step).padStart(2, "0")}` : `tense:q${String(number).padStart(3, "0")}`;
+  }
+
+  function updateQuestionBookmark() {
+    const active = state.bookmarks.has(bookmarkKey(state.current));
+    elements.questionBookmark.setAttribute("aria-pressed", String(active));
+    elements.questionBookmark.textContent = active ? "★ 已收藏這題" : "☆ 收藏這題";
+  }
+
+  async function setBookmark(itemKey, title, detail, bookmarked, button) {
+    if (!state.token || !window.EDMUND_LEARNING_PORTAL_CONTEXT?.rpc) {
+      elements.saveStatus.textContent = "請先登入學生帳戶才可收藏。";
+      elements.saveStatus.dataset.state = "error";
+      return;
+    }
+    button.disabled = true;
+    try {
+      await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("learning_portal_set_bookmark", {
+        p_token: state.token, p_system_key: "grammar", p_item_key: itemKey,
+        p_title: title, p_detail: detail, p_href: `grammar-system.html?lesson=tense&question=${state.current}`,
+        p_bookmarked: bookmarked
+      });
+      if (bookmarked) state.bookmarks.add(itemKey); else state.bookmarks.delete(itemKey);
+      elements.saveStatus.textContent = bookmarked ? "已加入書簽總目錄。" : "已從書簽移除。";
+      updateQuestionBookmark();
+      button.setAttribute("aria-pressed", String(bookmarked));
+      if (button.matches("[data-step-bookmark]")) button.textContent = bookmarked ? "★ 已收藏這一步" : "☆ 收藏這一步";
+    } catch (error) {
+      console.warn("Grammar bookmark save failed", error);
+      elements.saveStatus.textContent = "書簽暫時未能儲存，請稍後再試。";
+      elements.saveStatus.dataset.state = "error";
+    } finally { button.disabled = false; }
+  }
+
+  function showExplanation(question, correct) {
+    elements.explanation.dataset.result = correct ? "correct" : "wrong";
+    elements.explanationTitle.textContent = correct ? "答對了！逐步解析" : "再想一想：逐步解析";
+    elements.explanationAnswer.textContent = `正確答案：${question.answer}`;
+    elements.explanationSteps.innerHTML = explanationSteps(question).map((step, index) => {
+      const number = index + 1;
+      const key = bookmarkKey(question.number, number);
+      const active = state.bookmarks.has(key);
+      return `<article class="grammar-step" data-step-number="${number}"${index ? " hidden" : ""}><div class="grammar-step__head"><h4>${escapeHtml(step.title)}</h4><button type="button" class="grammar-step__bookmark" data-step-bookmark="${number}" aria-pressed="${active}">${active ? "★ 已收藏這一步" : "☆ 收藏這一步"}</button></div>${step.paragraphs.map((text) => `<p>${escapeHtml(text)}</p>`).join("")}<label class="grammar-step__confirm"><input type="checkbox" data-reveal-step="${number}"><span>我已讀懂這一步${number < explanationSteps(question).length ? "，顯示下一步" : "，完成解析"}</span></label></article>`;
+    }).join("");
+    elements.explanation.hidden = false;
+    elements.explanation.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
 
   async function recordCompletion(number) {
@@ -249,7 +321,7 @@
     elements.feedback.hidden = false;
     updateTotals();
     renderGrid();
-    openExplanation(question, correct);
+    showExplanation(question, correct);
     if (correct) void recordCompletion(question.number);
   }
 
@@ -268,6 +340,15 @@
     } finally { state.loadingProgress = false; }
   }
 
+  async function loadBookmarks() {
+    if (!state.token || !window.EDMUND_LEARNING_PORTAL_CONTEXT?.rpc) return;
+    try {
+      const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc("learning_portal_list_bookmarks", { p_token: state.token, p_system_key: "grammar" });
+      state.bookmarks = new Set((Array.isArray(rows) ? rows : []).map((row) => String(row.item_key)));
+      updateQuestionBookmark();
+    } catch (error) { console.warn("Grammar bookmarks load failed", error); }
+  }
+
   function adoptSession() {
     const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
     if (!session?.user?.id || !session.token) return;
@@ -279,9 +360,10 @@
       state.attempts = {};
       state.remoteCorrect.clear();
       readLocal();
-      showQuestion(state.current);
+      showQuestion(requestedQuestion() || state.current);
     }
     void loadRemoteProgress();
+    void loadBookmarks();
   }
 
   elements.start.addEventListener("click", () => { elements.library.hidden = true; elements.practice.hidden = false; showQuestion(state.current, true); });
@@ -290,14 +372,44 @@
   elements.form.addEventListener("submit", submitAnswer);
   elements.previous.addEventListener("click", () => showQuestion(state.current - 1, true));
   elements.next.addEventListener("click", () => showQuestion(state.current + 1, true));
-  elements.dialogClose.addEventListener("click", () => elements.dialog.close());
+  elements.questionBookmark.addEventListener("click", () => {
+    const question = questions[state.current - 1];
+    const key = bookmarkKey(question.number);
+    void setBookmark(key, `Tense 時態 · 第 ${question.number} 題`, `${question.prompt}\n${question.translation}`, !state.bookmarks.has(key), elements.questionBookmark);
+  });
+  elements.explanationSteps.addEventListener("change", (event) => {
+    const input = event.target.closest("[data-reveal-step]");
+    if (!input) return;
+    const currentNumber = Number(input.dataset.revealStep);
+    const later = [...elements.explanationSteps.querySelectorAll("[data-step-number]")].filter((step) => Number(step.dataset.stepNumber) > currentNumber);
+    if (!input.checked) {
+      later.forEach((step) => {
+        step.hidden = true;
+        const checkbox = step.querySelector("[data-reveal-step]");
+        if (checkbox) checkbox.checked = false;
+      });
+      return;
+    }
+    const next = elements.explanationSteps.querySelector(`[data-step-number="${currentNumber + 1}"]`);
+    if (next) { next.hidden = false; next.scrollIntoView({ behavior: "smooth", block: "nearest" }); }
+  });
+  elements.explanationSteps.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-step-bookmark]");
+    if (!button) return;
+    const question = questions[state.current - 1];
+    const stepNumber = Number(button.dataset.stepBookmark);
+    const step = explanationSteps(question)[stepNumber - 1];
+    const key = bookmarkKey(question.number, stepNumber);
+    const detail = `${step.title} ${step.paragraphs.join(" ")}`;
+    void setBookmark(key, `Tense 時態 · 第 ${question.number} 題 · ${step.title.replace("：", "")}`, detail, !state.bookmarks.has(key), button);
+  });
   window.addEventListener("edmund:learning-portal-session", (event) => {
     if (event.detail?.portalId !== "grammar") return;
-    if (!event.detail.user) { state.userId = ""; state.token = ""; state.remoteCorrect.clear(); return; }
+    if (!event.detail.user) { state.userId = ""; state.token = ""; state.remoteCorrect.clear(); state.bookmarks.clear(); return; }
     adoptSession();
   });
 
-  showQuestion(1);
+  showQuestion(requestedQuestion() || 1);
   updateTotals();
   queueMicrotask(adoptSession);
 })();
