@@ -363,9 +363,17 @@ function answerInput(number, compact = false) {
 }
 
 function renderPartOneTable(part) {
-  const replaceTokens = (text) => wordButtons(text, `p1:table:${text.slice(0, 20)}`, text).replace(/\{\{(\d+)\}\}/g, (_, number) => answerInput(number, true));
+  const replaceTokens = (text, rowIndex, cellIndex) => {
+    const rawText = String(text ?? "");
+    const bookmarkContext = rawText.replace(/\{\{\d+\}\}/g, "____");
+    return rawText.split(/(\{\{\d+\}\})/g).map((segment, segmentIndex) => {
+      const token = segment.match(/^\{\{(\d+)\}\}$/);
+      if (token) return answerInput(token[1], true);
+      return wordButtons(segment, `p1:table:r${rowIndex}:c${cellIndex}:s${segmentIndex}`, bookmarkContext);
+    }).join("");
+  };
   const translateTokens = (text) => escapeHtml(text).replace(/\{\{(\d+)\}\}/g, (_, number) => `<span class="listening-translated-blank">第 ${number} 題</span>`);
-  return `<div class="listening-table-wrap"><table class="listening-question-table"><caption>${escapeHtml(part.table.caption)}</caption><thead><tr>${part.table.headers.map((header, index) => `<th>${wordButtons(header, `p1:header:${index}`, header)}<small data-zh hidden>${escapeHtml(part.table.headersZh[index])}</small></th>`).join("")}</tr></thead><tbody>${part.table.rows.map((row, rowIndex) => `<tr>${row.map((cell, cellIndex) => `<td>${replaceTokens(cell)}<small data-zh hidden>${translateTokens(part.table.rowsZh[rowIndex][cellIndex])}</small></td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  return `<div class="listening-table-wrap"><table class="listening-question-table"><caption>${escapeHtml(part.table.caption)}</caption><thead><tr>${part.table.headers.map((header, index) => `<th>${wordButtons(header, `p1:header:${index}`, header)}<small data-zh hidden>${escapeHtml(part.table.headersZh[index])}</small></th>`).join("")}</tr></thead><tbody>${part.table.rows.map((row, rowIndex) => `<tr>${row.map((cell, cellIndex) => `<td>${replaceTokens(cell, rowIndex, cellIndex)}<small data-zh hidden>${translateTokens(part.table.rowsZh[rowIndex][cellIndex])}</small></td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 }
 
 function renderQuestion(question) {

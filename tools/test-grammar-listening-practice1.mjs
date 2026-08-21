@@ -73,6 +73,9 @@ assert.match(listeningSystem, /bindTranscriptSync/);
 assert.match(listeningSystem, /data-toggle-translation/);
 assert.match(listeningSystem, /learning_portal_set_bookmark/);
 assert.match(listeningSystem, /listening-translated-blank/);
+assert.match(listeningSystem, /rawText\.split\(\/\(\\\{\\\{\\d\+\\\}\\\}\)\//, "Part 1 must split answer tokens before adding word-bookmark HTML");
+assert.match(listeningSystem, /segment\.match\(\/\^\\\{\\\{\(\\d\+\)\\\}\\\}\$\//, "Part 1 answer tokens must be recognized only as complete text segments");
+assert.doesNotMatch(listeningSystem, /wordButtons\([^\n]+\)\.replace\(\/\\\{\\\{/, "Part 1 must never replace answer tokens inside generated bookmark attributes");
 
 const nightNav = read("shared-system-nav.js");
 assert.match(nightNav, /assets\/eddy-night-invitation\.webp/);
