@@ -221,6 +221,7 @@ jobs:
           node tools/test-system-pwa-experience.mjs
           node tools/test-shared-system-nav.mjs
           node tools/test-learning-portal-scaffolds.mjs
+          node tools/test-grammar-tense-system.mjs
           node --test tools/test-apostrophe-normalizer.mjs
           node tools/test-pwa-and-brand-metadata.mjs
           node tools/test-idle-break-timer-integrations.mjs

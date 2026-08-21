@@ -182,6 +182,7 @@
       elements.user.textContent = `${state.user.name} · 學生`;
       if (elements.welcome) elements.welcome.textContent = `${state.user.name}，歡迎回來。`;
     }
+    queueMicrotask(announceSession);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -219,6 +220,25 @@
     const { data, error } = await client.rpc(name, args);
     if (error) throw error;
     return data;
+  }
+
+  function sessionSnapshot() {
+    return state.user && state.token
+      ? { portalId, user: { ...state.user }, token: state.token }
+      : { portalId, user: null, token: "" };
+  }
+
+  window.EDMUND_LEARNING_PORTAL_CONTEXT = Object.freeze({
+    portalId,
+    getSession: sessionSnapshot,
+    rpc
+  });
+
+  function announceSession() {
+    const snapshot = sessionSnapshot();
+    window.dispatchEvent(new CustomEvent("edmund:learning-portal-session", {
+      detail: { portalId, user: snapshot.user }
+    }));
   }
 
   function saveSession() {
