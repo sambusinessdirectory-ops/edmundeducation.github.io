@@ -248,7 +248,7 @@ function findUnapprovedEddyReferences(value) {
   return [...new Set(problems)];
 }
 
-test("homepage defers the original Eddy cover until the page has loaded", async () => {
+test("homepage defers the lightweight Eddy cover until the page has loaded", async () => {
   const homepage = await read("index.html");
   const cards = Array.from(homepage.matchAll(/<a\b[^>]*>/gi))
     .filter(({ 0: tag }) => (attribute(tag, "class") || "").split(/\s+/).includes("homepage-game-card"));
@@ -267,14 +267,14 @@ test("homepage defers the original Eddy cover until the page has loaded", async 
   assert.ok(cardEnd > cardStart, "the homepage game card must have a closing tag");
   const cardMarkup = homepage.slice(cardStart, cardEnd + 4);
   const covers = Array.from(cardMarkup.matchAll(/<img\b[^>]*>/gi));
-  assert.equal(covers.length, 1, "the homepage card must keep the original Game cover image");
+  assert.equal(covers.length, 1, "the homepage card must keep one lightweight Game cover image");
   const coverTag = covers[0][0];
   assert.equal(attribute(coverTag, "id"), "homepageGameCover");
   assert.equal(attribute(coverTag, "src"), null, "the cover must not have an eager src attribute");
-  assert.equal(attribute(coverTag, "data-src"), "assets/eddy-game/game-cover.png");
+  assert.equal(attribute(coverTag, "data-src"), "assets/homepage-optimized/game-cover.webp");
   assert.equal(attribute(coverTag, "fetchpriority"), "low");
-  assert.equal((homepage.match(/assets\/eddy-game\/game-cover\.png/gi) || []).length, 1);
-  assert.doesNotMatch(homepage, /assets\/eddy-game\/(?!game-cover\.png)/i, "no other game media may appear on the homepage");
+  assert.equal((homepage.match(/assets\/homepage-optimized\/game-cover\.webp/gi) || []).length, 1);
+  assert.doesNotMatch(homepage, /assets\/eddy-game\//i, "no full-size game media may appear on the homepage");
   assert.match(homepage, /window\.addEventListener\("load"[\s\S]*requestIdleCallback\(loadCoverLast/);
   assert.match(homepage, /cover\.src\s*=\s*cover\.dataset\.src/);
   assert.doesNotMatch(
