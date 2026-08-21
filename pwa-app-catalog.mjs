@@ -431,5 +431,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "詩句賞識系統｜EdmundEducation",
     "shortName": "詩句賞識",
     "manifest": "/pwa-manifests/poem-english.webmanifest"
+  },
+  {
+    "id": "bookmark-directory",
+    "href": "bookmark-directory.html",
+    "zh": "學生書簽總目錄",
+    "en": "Bookmark Directory",
+    "name": "學生書簽總目錄｜EdmundEducation",
+    "shortName": "學生書簽總目錄",
+    "manifest": "/pwa-manifests/bookmark-directory.webmanifest"
   }
 ].map(Object.freeze));

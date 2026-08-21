@@ -3,6 +3,7 @@
 
   const UNIVERSAL_SESSION_KEY = "edmund-universal-student-session-v1";
   const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
+  const NIGHT_RETURN_STORAGE_PREFIX = "edmund-night-return-v1";
   const DEFAULT_POMODORO_SETTINGS = Object.freeze({
     enabled: false,
     allowSkipBreak: false,
@@ -60,7 +61,8 @@
     { id: "false-friends", href: "false-friends-system.html", zh: "同形異義詞學習系統", en: "False Friends" },
     { id: "english-in-shows", href: "english-in-shows-system.html", zh: "影視英文學習系統", en: "English in Shows" },
     { id: "ted-talk-english", href: "ted-talk-english-system.html", zh: "Ted Talk 英文學習系統", en: "Ted Talk English" },
-    { id: "poem-english", href: "poem-english-system.html", zh: "詩句賞識系統", en: "Poem English" }
+    { id: "poem-english", href: "poem-english-system.html", zh: "詩句賞識系統", en: "Poem English" },
+    { id: "bookmark-directory", href: "bookmark-directory.html", zh: "學生書簽總目錄", en: "Bookmark Directory" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -106,6 +108,7 @@
     "english-in-shows": "edmund-learning-portal-english-in-shows-session-v1",
     "ted-talk-english": "edmund-learning-portal-ted-talk-english-session-v1",
     "poem-english": "edmund-learning-portal-poem-english-session-v1",
+    "bookmark-directory": "edmund-bookmark-directory-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -625,14 +628,16 @@
   function renderPomodoroHeader() {
     if (!pomodoroNodes) return;
     const running = Boolean(pomodoroState?.settings?.enabled && pomodoroState?.endsAt);
-    pomodoroNodes.header.dataset.running = String(running);
-    pomodoroNodes.header.setAttribute("aria-label", running ? "開啟番茄鐘設定；目前正在倒數" : "開啟番茄鐘工作法設定");
+    pomodoroNodes.launchers.forEach((launcher) => {
+      launcher.dataset.running = String(running);
+      launcher.setAttribute("aria-label", running ? "開啟番茄鐘設定；目前正在倒數" : "開啟番茄鐘工作法設定");
+    });
     if (!running) {
-      pomodoroNodes.headerTime.textContent = "設定計時";
+      pomodoroNodes.headerTimes.forEach((node) => { node.textContent = "設定計時"; });
       return;
     }
     const labels = { work: "專注", "short-break": "短休", "long-break": "長休" };
-    pomodoroNodes.headerTime.textContent = `${labels[pomodoroState.phase]} ${formatPomodoroRemaining(pomodoroState.endsAt - Date.now())}`;
+    pomodoroNodes.headerTimes.forEach((node) => { node.textContent = `${labels[pomodoroState.phase]} ${formatPomodoroRemaining(pomodoroState.endsAt - Date.now())}`; });
   }
 
   function tickPomodoro() {
@@ -697,18 +702,22 @@
 
   function ensurePomodoro() {
     const headerInner = document.querySelector(".edmund-system-header__inner");
-    if (!headerInner || document.querySelector("[data-edmund-pomodoro-header]")) return;
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "edmund-pomodoro-header-button";
-    button.dataset.edmundPomodoroHeader = "";
-    button.innerHTML = `<img src="assets/schedule/pomodoro-method.png" alt=""><span><small>番茄鐘工作法</small><strong data-edmund-pomodoro-header-time>設定計時</strong></span>`;
-    const actions = headerInner.querySelector(".edmund-system-header__actions");
-    headerInner.insertBefore(button, actions || null);
+    let button = document.querySelector("[data-edmund-pomodoro-header]");
+    if (headerInner && !button) {
+      button = document.createElement("button");
+      button.type = "button";
+      button.className = "edmund-pomodoro-header-button";
+      button.dataset.edmundPomodoroHeader = "";
+      button.innerHTML = `<img src="assets/schedule/pomodoro-method.png" alt=""><span><small>番茄鐘工作法</small><strong data-edmund-pomodoro-header-time>設定計時</strong></span>`;
+      const actions = headerInner.querySelector(".edmund-system-header__actions");
+      headerInner.insertBefore(button, actions || null);
+    }
+    const launchers = [...document.querySelectorAll("[data-edmund-pomodoro-header], [data-edmund-pomodoro-launcher]")];
+    if (!launchers.length || document.querySelector("[data-edmund-pomodoro-dialog]")) return;
     document.body.insertAdjacentHTML("beforeend", pomodoroMarkup());
     pomodoroNodes = {
-      header: button,
-      headerTime: button.querySelector("[data-edmund-pomodoro-header-time]"),
+      launchers,
+      headerTimes: launchers.map((launcher) => launcher.querySelector("[data-edmund-pomodoro-header-time]")).filter(Boolean),
       dialog: document.querySelector("[data-edmund-pomodoro-dialog]"),
       form: document.querySelector("[data-edmund-pomodoro-form]"),
       enabled: document.querySelector("[data-edmund-pomodoro-enabled]"),
@@ -724,11 +733,13 @@
       breakCountdown: document.querySelector("[data-edmund-pomodoro-break-countdown]"),
       skipBreak: document.querySelector("[data-edmund-pomodoro-skip-break]")
     };
-    button.addEventListener("click", () => {
+    const openPomodoro = () => {
       syncPomodoroOwner();
       populatePomodoroForm();
       pomodoroNodes.dialog.showModal();
-    });
+    };
+    launchers.forEach((launcher) => launcher.addEventListener("click", openPomodoro));
+    pomodoroNodes.open = openPomodoro;
     pomodoroNodes.form.addEventListener("submit", event => {
       event.preventDefault();
       const settings = normalizePomodoroSettings({
@@ -766,6 +777,72 @@
         tickPomodoro();
       }
     });
+  }
+
+  function localDateKey(date) {
+    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+  }
+
+  function nightReturnWindowKey(now = new Date()) {
+    const hour = now.getHours();
+    if (hour >= 21) return localDateKey(now);
+    if (hour < 2) {
+      const previous = new Date(now);
+      previous.setDate(previous.getDate() - 1);
+      return localDateKey(previous);
+    }
+    return "";
+  }
+
+  function ensureNightReturnPrompt() {
+    if (document.querySelector("[data-edmund-night-return]")) return;
+    document.body.insertAdjacentHTML("beforeend", `<dialog class="edmund-night-return" data-edmund-night-return aria-labelledby="edmund-night-return-title"><section><div class="edmund-night-return__art" aria-hidden="true">🌙<span>🐴</span></div><p>EDDY IS WAITING FOR YOU</p><h2 id="edmund-night-return-title">明天您還會過來網站探望 Eddy 和他的朋友嗎？</h2><div><button type="button" data-night-return-answer>會的! 今天我會過來探望 Eddy 和他的朋友!</button><button type="button" data-night-return-answer>明天休息一下先, 之後再來~</button></div></section></dialog>`);
+    const dialog = document.querySelector("[data-edmund-night-return]");
+    let pendingLogout = null;
+    let bypassLogout = false;
+    const seenKey = (windowKey) => `${NIGHT_RETURN_STORAGE_PREFIX}:seen:${pomodoroIdentity()}:${windowKey}`;
+    const pendingKey = `${NIGHT_RETURN_STORAGE_PREFIX}:pending:${pomodoroIdentity()}`;
+    const show = (logoutTarget = null) => {
+      const windowKey = nightReturnWindowKey();
+      if (!windowKey || !studentSessionCandidate() || window.localStorage.getItem(seenKey(windowKey))) return false;
+      pendingLogout = logoutTarget;
+      dialog.dataset.windowKey = windowKey;
+      window.localStorage.setItem(seenKey(windowKey), "1");
+      window.localStorage.removeItem(pendingKey);
+      dialog.showModal();
+      return true;
+    };
+    dialog.querySelectorAll("[data-night-return-answer]").forEach((answer) => answer.addEventListener("click", () => {
+      const windowKey = dialog.dataset.windowKey;
+      window.localStorage.removeItem(pendingKey);
+      dialog.close();
+      const target = pendingLogout;
+      pendingLogout = null;
+      if (target) {
+        bypassLogout = true;
+        target.click();
+        window.setTimeout(() => { bypassLogout = false; }, 0);
+      }
+    }));
+    dialog.addEventListener("cancel", (event) => event.preventDefault());
+    document.addEventListener("click", (event) => {
+      const logout = event.target.closest?.("[data-logout], [data-action='logout']");
+      if (!logout || bypassLogout || !show(logout)) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+    }, true);
+    let internalNavigation = false;
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest?.("a[href]");
+      if (!link) return;
+      try { internalNavigation = new URL(link.href, location.href).origin === location.origin; } catch { internalNavigation = false; }
+    }, true);
+    window.addEventListener("pagehide", () => {
+      const windowKey = nightReturnWindowKey();
+      if (windowKey && !internalNavigation && !window.localStorage.getItem(seenKey(windowKey))) window.localStorage.setItem(pendingKey, windowKey);
+    });
+    const pending = window.localStorage.getItem(pendingKey);
+    if (pending && pending === nightReturnWindowKey()) window.setTimeout(() => show(), 450);
   }
 
   function systemsMatching(query) {
@@ -1034,6 +1111,7 @@
     const switchers = [...document.querySelectorAll("[data-edmund-system-switcher]")];
     switchers.forEach(enhanceSwitcher);
     ensurePomodoro();
+    ensureNightReturnPrompt();
 
     document.addEventListener("pointerdown", event => {
       switchers.forEach(switcher => {
@@ -1066,7 +1144,8 @@
       refreshOwner: () => {
         syncPomodoroOwner();
         tickPomodoro();
-      }
+      },
+      open: () => pomodoroNodes?.open?.()
     }),
     searchSystems: systemsMatching,
     rememberStudentSession,

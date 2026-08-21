@@ -385,8 +385,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260820-overlay-flow1/);
-  assert.match(html, /writing-submission\.js\?v=20260820-overlay-flow1/);
+  assert.match(html, /writing-submission\.css\?v=20260821-chinese-vocab1/);
+  assert.match(html, /writing-submission\.js\?v=20260821-chinese-vocab1/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -516,6 +516,15 @@ test("model-essay guide text flows after real typing and offers an inline paragr
   assert.match(script, /addChip\(`P\$\{index \+ 1\}`/);
   assert.match(css, /\.writing-essay-overlay-prefix\s*\{\s*color:\s*transparent/);
   assert.match(css, /\.model-essay-mini-panel\[hidden\]\s*\{\s*display:\s*none/);
+});
+
+test("model-essay guide can add Chinese for only the selected paragraphs", () => {
+  assert.match(html, /data-model-essay-chinese-toggle/);
+  assert.match(html, /同時顯示中文翻譯/);
+  assert.match(script, /modelEssayChineseVisible:\s*false/);
+  assert.match(script, /state\.modelEssayChineseVisible \? String\(paragraph\?\.chinese \|\| ""\) : ""/);
+  assert.match(script, /selectedModelEssayParagraphs\(\)/);
+  assert.match(script, /modelEssayChineseToggle\?\.addEventListener\("change"/);
 });
 
 test("students can remove a selected topic and every attached reference", () => {
@@ -650,7 +659,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /重溫 Flash Card 請按這裡：/);
   assert.match(script, /重溫 Fill In The Blanks 請按這裡：/);
   assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
-  assert.match(script, /展開以 Open Book 參考 Edmund 主題性生字 Thematic Vocabulary/);
+  assert.match(script, /Vocab 生字 Mini Card · Edmund 主題性生字/);
   assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
   assert.match(script, /TOPIC_CATALOG_VERSION\s*=\s*"20260818-hkfsd-ir3"/);
   assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260818-hkfsd-ir3"/);

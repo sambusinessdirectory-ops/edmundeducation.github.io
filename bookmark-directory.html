@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes,viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 學生書簽總目錄，把不同英文學習系統的私人書簽集中顯示。">
+  <meta name="theme-color" content="#3b245f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>學生書簽總目錄｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/bookmark-directory.html">
+  <link rel="manifest" href="/pwa-manifests/bookmark-directory.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-night-pomodoro2">
+  <link rel="stylesheet" href="bookmark-directory.css?v=20260821-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="bookmark-directory">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Bookmark Directory</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+      </div>
+      <div class="edmund-system-header__actions"><span class="connection-pill" data-connection data-state="checking">正在連接</span><span class="user-pill" data-user hidden></span><button class="header-button" type="button" data-logout hidden>登出</button></div>
+    </div>
+  </header>
+  <main id="main" class="bookmark-shell">
+    <section class="bookmark-login" data-view="login">
+      <article class="bookmark-hero"><p>STUDENT BOOKMARK LIBRARY</p><h1>學生使用<br>書簽總目錄</h1><span>把分散在各個 Edmund 英文學習系統的私人書簽集中整理。</span></article>
+      <form class="bookmark-login-card" data-login-form novalidate><h2>學生登入</h2><label>用戶名稱<input name="username" autocomplete="username" maxlength="100" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label><button type="submit">登入並查看書簽</button><p data-login-status role="status" aria-live="polite"></p></form>
+    </section>
+    <section data-view="directory" hidden>
+      <div class="bookmark-title"><div><p>ALL SYSTEMS · ONE DIRECTORY</p><h1>我的書簽總目錄</h1><span data-summary></span></div><div class="bookmark-tools"><label>搜尋書簽<input type="search" data-search placeholder="搜尋系統、標題或內容"></label><label>系統篩選<select data-filter><option value="all">全部系統</option></select></label></div></div>
+      <div class="bookmark-grid" data-list><p class="bookmark-empty">正在載入書簽…</p></div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260821-night-pomodoro2"></script>
+  <script src="bookmark-directory.js?v=20260821-1"></script>
+</body>
+</html>

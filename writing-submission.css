@@ -570,6 +570,9 @@ button { color: inherit; }
 .topic-reference-content .loading-state { min-height: 130px; }
 .topic-reference-toolbar,
 .topic-reference-vocabulary-head { margin-bottom: 13px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.topic-reference-vocabulary-mini-card { border:1px solid rgba(74,102,185,.28); background:linear-gradient(135deg,#edf3ff,#fff 54%,#f4ecff); box-shadow:0 10px 22px rgba(52,70,126,.1); }
+.model-essay-chinese-toggle { display:inline-flex; align-items:center; gap:8px; padding:8px 11px; border:1px solid rgba(196,102,45,.2); border-radius:999px; color:#7a3d21; background:#fff7ef; font-size:12px; font-weight:850; }
+.model-essay-chinese-toggle input { width:17px; height:17px; accent-color:var(--orange-deep); }
 .topic-reference-toolbar > strong,
 .topic-reference-vocabulary-head strong { font-size: 17px; }
 .topic-reference-vocabulary-head > span,

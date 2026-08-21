@@ -57,3 +57,25 @@ Deploy this feature in this order:
    report, focus-mode restoration, Learning Purpose history navigation, and an
    owner-scoped version deletion. No Worker secret rotation or Worker redeploy
    is required for this migration.
+
+## Email designer and linked-homework rollout
+
+The email designer currently stores four private administrator templates,
+cadence choices and recipient selections only. It deliberately does not hold
+Google credentials and does not send mail until a later Gmail Worker is
+connected. Linked homework mirrors teacher-authored Schedule entries between
+explicitly linked accounts while leaving each student's progress fields
+independent.
+
+Deploy this feature in this order:
+
+1. Confirm `supabase-schedule-reminder-email.sql` and the Schedule base schema
+   are already applied.
+2. Apply `supabase-schedule-email-designer-and-linked-homework-20260821.sql`.
+3. Run `node tools/test-schedule-email-linked-homework.mjs` and the complete
+   Schedule regression suite.
+4. Publish the static site. No Worker secret or Worker deployment changes are
+   required for this storage-only stage.
+5. Smoke-test one disabled template save, recipient all/none controls, linking
+   and unlinking two test accounts, and confirm that completion/progress on the
+   paired copies remains independent.

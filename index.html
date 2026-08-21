@@ -612,6 +612,10 @@
     }
 
     .system-switch-card::before { display: none; }
+    .homepage-pomodoro-card { counter-increment:none; --category-gradient:linear-gradient(135deg,#b92a1e,#ef6142 54%,#ffbd74); --category-gradient-hover:linear-gradient(135deg,#992018,#dc4a34 54%,#ffa85d); --category-key-lip:#8d211a; --category-key-shadow:rgba(150,40,28,.3); }
+    .homepage-pomodoro-card::before { display:none; }
+    .homepage-pomodoro-card img { width:58px; height:58px; margin-bottom:auto; object-fit:contain; filter:drop-shadow(0 6px 8px rgba(77,18,12,.25)); }
+    .homepage-pomodoro-card small { display:block; margin-top:6px; font-size:12px; font-weight:850; opacity:.82; }
 
     .resources-card {
       --category-gradient: linear-gradient(135deg, #5f102a 0%, #9e173f 48%, #ef4444 100%);
@@ -2820,6 +2824,10 @@
         <button class="category system-switch-card" type="button" data-open-system-directory aria-haspopup="dialog" aria-controls="system-directory-dialog">
           <span class="category-name">學習系統<br>快速切換</span>
         </button>
+        <button class="category homepage-pomodoro-card" type="button" data-edmund-pomodoro-launcher>
+          <img src="assets/schedule/pomodoro-method.png" alt="">
+          <span class="category-name">番茄鐘工作法<small data-edmund-pomodoro-header-time>設定計時</small></span>
+        </button>
 
         <span class="category-row-break" aria-hidden="true"></span>
 
@@ -3063,6 +3071,10 @@
 
         <a class="category learning-portal-card" href="poem-english-system.html" aria-label="Poem English 詩句賞識系統" style="--portal-card-hue:286">
           <span class="category-name">Poem English<br>詩句賞識系統</span>
+        </a>
+
+        <a class="category bookmark-directory-card" href="bookmark-directory.html" aria-label="學生使用 書簽總目錄" style="--portal-card-hue:267">
+          <span class="category-name">學生使用<br>書簽總目錄</span>
         </a>
 
       </div>
@@ -3817,7 +3829,8 @@
       }, { once: true });
     })();
   </script>
-  <script src="shared-system-nav.js?v=20260821-pomodoro1"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-night-pomodoro2">
+  <script src="shared-system-nav.js?v=20260821-night-pomodoro2"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="site-announcements.js?v=20260812-1"></script>

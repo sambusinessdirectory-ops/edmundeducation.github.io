@@ -199,6 +199,8 @@ const elements = {
   adminStudentsButton: document.querySelector("[data-admin-students]"),
   adminMotivationResults: document.querySelector("[data-admin-motivation-results]"),
   adminReminderEmails: document.querySelector("[data-admin-reminder-emails]"),
+  adminEmailContent: document.querySelector("[data-admin-email-content]"),
+  adminEmailLog: document.querySelector("[data-admin-email-log]"),
   adminHomeworkHotkeys: document.querySelector("[data-admin-homework-hotkeys]"),
   announcementForm: document.querySelector("[data-announcement-form]"),
   announcementMessage: document.querySelector("[data-announcement-message]"),
@@ -221,6 +223,11 @@ const elements = {
   studentList: document.querySelector("[data-student-list]"),
   studentCount: document.querySelector("[data-student-count]"),
   adminStatus: document.querySelector("[data-admin-status]"),
+  homeworkLinkForm: document.querySelector("[data-homework-link-form]"),
+  homeworkLinkStudentA: document.querySelector("[data-homework-link-student-a]"),
+  homeworkLinkStudentB: document.querySelector("[data-homework-link-student-b]"),
+  homeworkLinkStatus: document.querySelector("[data-homework-link-status]"),
+  homeworkLinkList: document.querySelector("[data-homework-link-list]"),
   createStudentForm: document.querySelector("[data-create-student-form]"),
   createStudentStatus: document.querySelector("[data-create-student-status]"),
   createParentForm: document.querySelector("[data-create-parent-form]"),
@@ -306,6 +313,12 @@ const elements = {
   clipboardSelectionCount: document.querySelector("[data-clipboard-selection-count]"),
   copyClipboardSelection: document.querySelector("[data-copy-clipboard-selection]"),
   pasteClipboardSelection: document.querySelector("[data-paste-clipboard-selection]"),
+  pasteAnchorDialog: document.querySelector("[data-paste-anchor-dialog]"),
+  pasteAnchorForm: document.querySelector("[data-paste-anchor-form]"),
+  pasteAnchorDay: document.querySelector("[data-paste-anchor-day]"),
+  pasteAnchorSlot: document.querySelector("[data-paste-anchor-slot]"),
+  pasteAnchorStatus: document.querySelector("[data-paste-anchor-status]"),
+  pasteAnchorCancel: document.querySelector("[data-paste-anchor-cancel]"),
   clearClipboardSelection: document.querySelector("[data-clear-clipboard-selection]"),
   tableRegion: document.querySelector("[data-table-region]"),
   learningPurpose: document.querySelector("[data-learning-purpose]"),
@@ -394,6 +407,7 @@ const state = {
   studentStatusFilter: "active",
   draggingStudentId: null,
   adminTeacherAssignmentStudentIds: new Set(),
+  adminHomeworkLinks: [],
   homeworkResourceUsage: new Map(),
   selectedStudentProfileId: null,
   studentAuditRows: [],
@@ -911,6 +925,12 @@ function showView(name) {
   if (elements.adminReminderEmails) {
     elements.adminReminderEmails.hidden = state.currentUser?.role !== "admin";
   }
+  if (elements.adminEmailContent) {
+    elements.adminEmailContent.hidden = state.currentUser?.role !== "admin";
+  }
+  if (elements.adminEmailLog) {
+    elements.adminEmailLog.hidden = state.currentUser?.role !== "admin";
+  }
   if (elements.adminHomeworkHotkeys) {
     elements.adminHomeworkHotkeys.hidden = state.currentUser?.role !== "admin";
   }
@@ -1214,7 +1234,7 @@ function pasteConflictSummary(plan) {
   return [...counts.entries()].map(([reason, count]) => `${reasonLabels[reason] || "不可貼上"} ${count} 項`).join("、");
 }
 
-function stageScheduleClipboardPaste(payload) {
+function stageScheduleClipboardPaste(payload, anchor = {}) {
   if (!state.massEditMode || state.mutationInFlight) {
     showToast("請先開啟 Mass Edit 才可貼上安排。", "error");
     return false;
@@ -1224,6 +1244,8 @@ function stageScheduleClipboardPaste(payload) {
     plan = planScheduleClipboardPaste({
       payload,
       targetWeekStart: state.weekStart,
+      targetDayOffset: anchor.dayOffset,
+      targetSlotIndex: anchor.slotIndex,
       entries: pasteCollisionEntries(),
       capacities: state.weekPayload.capacities,
       currentRole: state.currentUser?.role
@@ -1279,6 +1301,18 @@ function stageScheduleClipboardPaste(payload) {
   return true;
 }
 
+function openPasteAnchorDialog(payload) {
+  if (!payload || !elements.pasteAnchorDialog) return false;
+  storeScheduleClipboardPayload(payload);
+  const sourceDay = Math.min(...payload.items.map((item) => item.dayOffset));
+  const sourceSlot = Math.min(...payload.items.map((item) => item.slotIndex));
+  elements.pasteAnchorDay.value = String(sourceDay);
+  elements.pasteAnchorSlot.value = String(sourceSlot);
+  elements.pasteAnchorStatus.textContent = `${payload.items.length} 項將以所選位置作為整組起點。`;
+  elements.pasteAnchorDialog.showModal();
+  return true;
+}
+
 async function pasteScheduleClipboardFromButton() {
   if (!state.massEditMode || state.mutationInFlight) return;
   let payload = readStoredScheduleClipboardPayload();
@@ -1294,9 +1328,20 @@ async function pasteScheduleClipboardFromButton() {
     showToast("找不到已複製的日程安排；請先在 Mass Edit 選取並複製。", "error");
     return;
   }
-  storeScheduleClipboardPayload(payload);
-  stageScheduleClipboardPaste(payload);
+  openPasteAnchorDialog(payload);
 }
+
+elements.pasteAnchorForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const payload = readStoredScheduleClipboardPayload();
+  if (!payload) return;
+  const accepted = stageScheduleClipboardPaste(payload, {
+    dayOffset: Number(elements.pasteAnchorDay.value),
+    slotIndex: Number(elements.pasteAnchorSlot.value)
+  });
+  if (accepted) elements.pasteAnchorDialog.close();
+});
+elements.pasteAnchorCancel?.addEventListener("click", () => elements.pasteAnchorDialog.close());
 
 function clearMassEditGroupDropClasses() {
   elements.weekGrid?.querySelectorAll(".is-group-drop-target, .is-group-drop-blocked, .is-group-dragging")
@@ -3677,7 +3722,7 @@ async function openAdminPanel() {
   setStatus(elements.adminStatus, "正在載入學生帳戶…");
   setStatus(elements.parentAdminStatus, "正在載入家長帳戶…");
   try {
-    const [studentRows, preferenceRows, parentRows, teacherWeekRows] = await Promise.all([
+    const [studentRows, preferenceRows, parentRows, teacherWeekRows, homeworkLinks] = await Promise.all([
       loadAllStudentAccounts(),
       callRpc("schedule_admin_get_student_list_preferences", {
         p_admin_token: state.currentUser.adminToken
@@ -3688,6 +3733,9 @@ async function openAdminPanel() {
       callRpc("schedule_admin_teacher_assignment_students", {
         p_admin_token: state.currentUser.adminToken,
         p_week_start: state.weekStart
+      }).catch(() => []),
+      callRpc("schedule_admin_list_homework_links", {
+        p_admin_token: state.currentUser.adminToken
       }).catch(() => [])
     ]);
     state.adminStudents = Array.isArray(studentRows) ? studentRows : [];
@@ -3698,8 +3746,10 @@ async function openAdminPanel() {
     state.studentOrder = Array.isArray(preferences?.student_order) ? preferences.student_order : [];
     state.adminParents = Array.isArray(parentRows) ? parentRows : [];
     state.adminTeacherAssignmentStudentIds = new Set((Array.isArray(teacherWeekRows) ? teacherWeekRows : []).map((row) => String(row.student_id || "")));
+    state.adminHomeworkLinks = Array.isArray(homeworkLinks) ? homeworkLinks : [];
     state.parentAssignmentDrafts.clear();
     renderStudentList();
+    renderHomeworkLinks();
     renderParentList();
     const activeCount = state.adminStudents.filter(isStudentActive).length;
     setStatus(elements.adminStatus, `已載入 ${activeCount} 個使用中及 ${state.adminStudents.length - activeCount} 個已停用學生帳戶。`);
@@ -3751,6 +3801,19 @@ function renderStudentList() {
     badge.className = `student-status-badge${active ? "" : " inactive"}`;
     badge.textContent = active ? "使用中" : "已停用";
     copy.append(name, badge);
+    const linkedGroup = state.adminHomeworkLinks.find((group) => (
+      Array.isArray(group?.members) && group.members.some((member) => String(member.studentId) === String(student.id))
+    ));
+    if (linkedGroup) {
+      const partners = linkedGroup.members
+        .filter((member) => String(member.studentId) !== String(student.id))
+        .map((member) => member.studentName)
+        .filter(Boolean);
+      const linkedNote = document.createElement("span");
+      linkedNote.className = "student-linked-homework-note";
+      linkedNote.textContent = `功課同步：${partners.join("、")}`;
+      copy.append(linkedNote);
+    }
     if (!active) {
       const note = document.createElement("span");
       note.textContent = `已停用：${formatAdminDateTime(student.deleted_at)}`;
@@ -3834,6 +3897,90 @@ function renderStudentList() {
     actions.append(permanentDelete);
     card.append(copy, actions);
     elements.studentList.append(card);
+  }
+}
+
+function linkedHomeworkStudentIds() {
+  return new Set(state.adminHomeworkLinks.flatMap((group) => (
+    Array.isArray(group?.members) ? group.members.map((member) => String(member.studentId || "")) : []
+  )));
+}
+
+function renderHomeworkLinks() {
+  if (!elements.homeworkLinkList) return;
+  const linkedIds = linkedHomeworkStudentIds();
+  const available = state.adminStudents.filter((student) => isStudentActive(student) && !linkedIds.has(String(student.id)));
+  const fill = (select, exclude = "") => {
+    if (!select) return;
+    const previous = select.value;
+    select.replaceChildren(new Option("請選擇學生", ""));
+    available.filter((student) => String(student.id) !== exclude).forEach((student) => {
+      select.add(new Option(student.name, student.id));
+    });
+    if ([...select.options].some((option) => option.value === previous)) select.value = previous;
+  };
+  fill(elements.homeworkLinkStudentA, elements.homeworkLinkStudentB?.value || "");
+  fill(elements.homeworkLinkStudentB, elements.homeworkLinkStudentA?.value || "");
+  elements.homeworkLinkList.replaceChildren();
+  if (!state.adminHomeworkLinks.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "目前沒有已連結的學生帳戶。";
+    elements.homeworkLinkList.append(empty);
+    return;
+  }
+  state.adminHomeworkLinks.forEach((group) => {
+    const row = document.createElement("article");
+    row.className = "homework-link-admin-group";
+    const names = (Array.isArray(group.members) ? group.members : []).map((member) => member.studentName).filter(Boolean);
+    const label = document.createElement("strong");
+    label.textContent = names.join(" ⇄ ");
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.dataset.unlinkHomeworkGroup = group.groupId;
+    remove.textContent = "取消連結";
+    row.append(label, remove);
+    elements.homeworkLinkList.append(row);
+  });
+}
+
+async function linkHomeworkAccounts(event) {
+  event.preventDefault();
+  const ids = [elements.homeworkLinkStudentA?.value, elements.homeworkLinkStudentB?.value].filter(Boolean);
+  if (new Set(ids).size !== 2) {
+    setStatus(elements.homeworkLinkStatus, "請選擇兩個不同的學生帳戶。", "error");
+    return;
+  }
+  setStatus(elements.homeworkLinkStatus, "正在連結學生功課安排…");
+  try {
+    await callRpc("schedule_admin_link_homework_accounts", {
+      p_admin_token: state.currentUser.adminToken,
+      p_student_ids: ids
+    });
+    state.adminHomeworkLinks = await callRpc("schedule_admin_list_homework_links", {
+      p_admin_token: state.currentUser.adminToken
+    });
+    renderHomeworkLinks();
+    setStatus(elements.homeworkLinkStatus, "帳戶已連結；之後由老師建立的功課會自動同步。", "success");
+  } catch (error) {
+    setStatus(elements.homeworkLinkStatus, error.message || "未能連結帳戶。", "error");
+  }
+}
+
+async function unlinkHomeworkAccounts(groupId) {
+  if (!groupId || !window.confirm("取消連結後，兩個帳戶之後的老師功課不再同步。現有功課不會被刪除。確定繼續？")) return;
+  setStatus(elements.homeworkLinkStatus, "正在取消連結…");
+  try {
+    const removed = await callRpc("schedule_admin_unlink_homework_accounts", {
+      p_admin_token: state.currentUser.adminToken,
+      p_group_id: groupId
+    });
+    if (!removed) throw new Error("找不到這組帳戶連結。");
+    state.adminHomeworkLinks = state.adminHomeworkLinks.filter((group) => group.groupId !== groupId);
+    renderHomeworkLinks();
+    setStatus(elements.homeworkLinkStatus, "已取消帳戶連結。", "success");
+  } catch (error) {
+    setStatus(elements.homeworkLinkStatus, error.message || "未能取消連結。", "error");
   }
 }
 
@@ -6781,8 +6928,7 @@ function handleSchedulePaste(event) {
   }
   if (!payload) return;
   event.preventDefault();
-  storeScheduleClipboardPayload(payload);
-  stageScheduleClipboardPaste(payload);
+  openPasteAnchorDialog(payload);
 }
 
 elements.loginForm.addEventListener("submit", login);
@@ -6804,6 +6950,13 @@ elements.studentSortButtons.forEach((button) => {
 elements.studentStatusFilter?.addEventListener("change", () => {
   state.studentStatusFilter = elements.studentStatusFilter.value;
   renderStudentList();
+});
+elements.homeworkLinkForm?.addEventListener("submit", linkHomeworkAccounts);
+elements.homeworkLinkStudentA?.addEventListener("change", renderHomeworkLinks);
+elements.homeworkLinkStudentB?.addEventListener("change", renderHomeworkLinks);
+elements.homeworkLinkList?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-unlink-homework-group]");
+  if (button) unlinkHomeworkAccounts(button.dataset.unlinkHomeworkGroup);
 });
 elements.studentList.addEventListener("click", (event) => {
   const order = event.target.closest("[data-move-student-order]");

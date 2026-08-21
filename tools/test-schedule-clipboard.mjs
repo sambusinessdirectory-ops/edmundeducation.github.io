@@ -73,6 +73,21 @@ assert.deepEqual(exactPlan.ready.map(({ scheduleDate, slotIndex }) => ({ schedul
   { scheduleDate: "2026-08-07", slotIndex: 7 }
 ]);
 
+const shiftedPlan = planScheduleClipboardPaste({
+  payload,
+  targetWeekStart: "2026-08-03",
+  targetDayOffset: 1,
+  targetSlotIndex: 4,
+  capacities: { "2026-08-04": 10, "2026-08-08": 10 },
+  entries: [],
+  currentRole: "admin",
+  now
+});
+assert.deepEqual(shiftedPlan.ready.map(({ scheduleDate, slotIndex }) => ({ scheduleDate, slotIndex })), [
+  { scheduleDate: "2026-08-04", slotIndex: 4 },
+  { scheduleDate: "2026-08-08", slotIndex: 9 }
+]);
+
 const conflictPlan = planScheduleClipboardPaste({
   payload: {
     ...payload,

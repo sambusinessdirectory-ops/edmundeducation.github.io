@@ -215,6 +215,7 @@ const elements = {
   modelEssayToggleLabel: document.querySelector("[data-model-essay-toggle-label]"),
   modelEssayMiniPanel: document.querySelector("[data-model-essay-mini-panel]"),
   modelEssayMiniChips: document.querySelector("[data-model-essay-mini-chips]"),
+  modelEssayChineseToggle: document.querySelector("[data-model-essay-chinese-toggle]"),
   modelEssayParagraphDialogOpen: document.querySelector("[data-model-essay-paragraph-open]"),
   modelEssayDialog: document.querySelector("[data-model-essay-paragraph-dialog]"),
   modelEssayDialogClose: document.querySelector("[data-model-essay-paragraph-dialog-close]"),
@@ -358,6 +359,7 @@ const state = {
   modelEssayParagraphs: [],
   modelEssayParagraphSelection: [],
   modelEssayOverlayVisible: false,
+  modelEssayChineseVisible: false,
   modelEssayRouteKey: "",
   modelEssayRouteLoad: 0,
   directPaste: false,
@@ -652,7 +654,11 @@ function selectedModelEssayParagraphs(reference = state.modelEssayReference, val
 function modelEssayOverlayText() {
   const selected = selectedModelEssayParagraphs();
   return selected
-    .map((paragraph) => String(paragraph?.english || ""))
+    .map((paragraph) => {
+      const english = String(paragraph?.english || "");
+      const chinese = state.modelEssayChineseVisible ? String(paragraph?.chinese || "") : "";
+      return chinese ? `${english}\n${chinese}` : english;
+    })
     .filter(Boolean)
     .join("\n\n");
 }
@@ -731,6 +737,10 @@ function renderModelEssayMiniPanel() {
     });
   });
   elements.modelEssayMiniChips.replaceChildren(fragment);
+  if (elements.modelEssayChineseToggle) {
+    elements.modelEssayChineseToggle.checked = state.modelEssayChineseVisible;
+    elements.modelEssayChineseToggle.disabled = !paragraphs.some((paragraph) => paragraph.chinese);
+  }
 }
 
 function syncModelEssayControls() {
@@ -776,6 +786,7 @@ function clearModelEssayState() {
   state.modelEssayParagraphs = [];
   state.modelEssayParagraphSelection = [];
   state.modelEssayOverlayVisible = false;
+  state.modelEssayChineseVisible = false;
   state.modelEssayRouteKey = "";
   syncModelEssayOverlay();
   syncModelEssayControls();
@@ -2019,11 +2030,13 @@ function renderSelectedTopicReferences() {
     route.exerciseId
   ));
   if (route.hasFlashcards) {
-    disclosures.append(topicReferenceDetails(
+    const vocabularyCard = topicReferenceDetails(
       "vocabulary",
-      "展開以 Open Book 參考 Edmund 主題性生字 Thematic Vocabulary",
+      "Vocab 生字 Mini Card · Edmund 主題性生字",
       route.exerciseId
-    ));
+    );
+    vocabularyCard.classList.add("topic-reference-vocabulary-mini-card");
+    disclosures.append(vocabularyCard);
   }
   elements.topicReferenceArea.append(links, disclosures);
   elements.topicReferenceArea.hidden = false;
@@ -8138,6 +8151,11 @@ function bindEvents() {
       syncProofreadStatus();
     });
   }
+  elements.modelEssayChineseToggle?.addEventListener("change", () => {
+    state.modelEssayChineseVisible = elements.modelEssayChineseToggle.checked;
+    syncModelEssayOverlay();
+    persistDraft();
+  });
   elements.removeWritingTopic?.addEventListener("click", removeSelectedWritingTopic);
   if (elements.modelEssayParagraphDialogOpen) {
     elements.modelEssayParagraphDialogOpen.addEventListener("click", async () => {

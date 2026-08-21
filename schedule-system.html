@@ -429,6 +429,18 @@
     .announcement-admin-panel { margin-bottom: 22px; padding: 22px; }
     .announcement-admin-panel h2 { margin: 0 0 6px; }
     .announcement-admin-panel > p { margin: 0 0 16px; color: var(--muted); font-size: 13px; }
+    .homework-link-admin-panel { margin-bottom: 22px; padding: 22px; }
+    .homework-link-admin-panel h2 { margin: 2px 0 6px; }
+    .homework-link-admin-panel p { margin: 0; color: var(--muted); line-height: 1.65; }
+    .homework-link-admin-form { display: grid; grid-template-columns: minmax(180px, 1fr) auto minmax(180px, 1fr) auto; align-items: end; gap: 12px; margin-top: 18px; }
+    .homework-link-admin-form label { display: grid; gap: 7px; color: var(--ink); font-size: 13px; font-weight: 850; }
+    .homework-link-admin-form select { min-height: 44px; padding: 8px 12px; border: 1px solid rgba(30, 59, 96, .2); border-radius: 13px; background: rgba(255,255,255,.88); color: var(--ink); }
+    .homework-link-admin-form > span { align-self: center; color: #2f7661; font-size: 28px; font-weight: 900; }
+    .homework-link-admin-list { display: grid; gap: 10px; margin-top: 16px; }
+    .homework-link-admin-group { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 15px; border: 1px solid rgba(47, 118, 97, .2); border-radius: 15px; background: linear-gradient(135deg, rgba(231, 249, 240, .94), rgba(255,255,255,.9)); }
+    .homework-link-admin-group strong { color: #18513f; }
+    .homework-link-admin-group button { border: 1px solid rgba(123, 36, 55, .24); border-radius: 999px; padding: 8px 12px; background: #fff; color: #7b2437; font-weight: 850; cursor: pointer; }
+    .student-linked-homework-note { color: #1c6d55 !important; font-weight: 850; }
     .announcement-admin-form { display: grid; grid-template-columns: minmax(0, 1fr) minmax(210px, .38fr); gap: 12px 18px; align-items: end; }
     .announcement-admin-form label { display: grid; gap: 6px; color: #5f4b41; font-size: 12px; font-weight: 850; }
     .announcement-admin-form textarea { min-height: 112px; resize: vertical; }
@@ -980,6 +992,14 @@
     .mass-edit-cancel:disabled,
     .mass-edit-clipboard-button:disabled { opacity: .48; cursor: not-allowed; box-shadow: none; }
     .clipboard-selection-count { color: #315f98 !important; font-weight: 850; }
+    .schedule-paste-anchor-dialog { width:min(520px,calc(100vw - 28px)); padding:0; border:0; border-radius:24px; color:#132f53; background:#f8fbff; box-shadow:0 28px 90px rgba(20,43,75,.28); }
+    .schedule-paste-anchor-dialog::backdrop { background:rgba(18,32,50,.48); backdrop-filter:blur(5px); }
+    .schedule-paste-anchor-dialog form { padding:28px; }
+    .schedule-paste-anchor-dialog h3 { margin:0 0 8px; font-size:28px; }
+    .schedule-paste-anchor-dialog p { line-height:1.55; }
+    .paste-anchor-fields { margin:22px 0; display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    .paste-anchor-fields label { display:grid; gap:7px; font-weight:850; }
+    .paste-anchor-fields select,.paste-anchor-fields input { min-height:48px; padding:8px 12px; border:1px solid #bfd2e9; border-radius:12px; background:#fff; font:inherit; }
     .mass-edit-status { min-height: 20px; margin: 0 0 10px; color: #5d467d; font-size: 12px; font-weight: 800; }
     .mass-edit-status[data-state="error"] { color: var(--danger); }
 
@@ -1955,6 +1975,8 @@
       .student-access-grid, .student-profile-facts { grid-template-columns: 1fr; }
       .student-audit-row { grid-template-columns: 1fr; }
       .student-admin-toolbar, .student-profile-heading { align-items: stretch; flex-direction: column; }
+      .homework-link-admin-form { grid-template-columns: 1fr; }
+      .homework-link-admin-form > span { display: none; }
       [data-student-list] { grid-template-columns: minmax(0, 1fr); }
     }
 
@@ -1993,7 +2015,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-pomodoro1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-night-pomodoro2">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -2017,6 +2039,8 @@
         <button class="header-button" type="button" data-admin-students hidden>學生清單</button>
         <a class="header-button" href="schedule-motivation-admin.html" data-admin-motivation-results hidden>學生自評結果</a>
         <a class="header-button" href="schedule-reminder-email-admin.html" data-admin-reminder-emails hidden>學生提醒電郵</a>
+        <a class="header-button" href="schedule-email-content-admin.html" data-admin-email-content hidden>Email 內容設計</a>
+        <a class="header-button" href="schedule-email-log-admin.html" data-admin-email-log hidden>Email Log</a>
         <a class="header-button" href="schedule-homework-hotkeys-admin.html" data-admin-homework-hotkeys hidden>功課 Hot Keys</a>
         <button class="header-button" type="button" data-logout hidden>登出</button>
       </div>
@@ -2120,6 +2144,21 @@
         </form>
         <p class="form-status" data-announcement-status role="status" aria-live="polite"></p>
         <div class="announcement-admin-list" data-announcement-list><p class="empty-state">正在載入公告…</p></div>
+      </section>
+      <section class="homework-link-admin-panel glass-card" aria-labelledby="homework-link-admin-heading">
+        <div>
+          <p class="eyebrow">LINKED HOMEWORK ACCOUNTS</p>
+          <h2 id="homework-link-admin-heading">連結學生功課安排</h2>
+          <p>連結後，老師在任何一個成員帳戶新增或修改的功課會同步到整組；每位學生的完成狀態及學習進度仍然完全獨立。</p>
+        </div>
+        <form class="homework-link-admin-form" data-homework-link-form>
+          <label>學生一<select data-homework-link-student-a required></select></label>
+          <span aria-hidden="true">＋</span>
+          <label>學生二<select data-homework-link-student-b required></select></label>
+          <button class="primary-button" type="submit">連結帳戶</button>
+        </form>
+        <p class="form-status" data-homework-link-status role="status" aria-live="polite"></p>
+        <div class="homework-link-admin-list" data-homework-link-list><p class="empty-state">正在載入連結資料…</p></div>
       </section>
       <div class="student-list-panel glass-card">
         <div class="student-admin-toolbar">
@@ -2287,6 +2326,18 @@
             <button class="mass-edit-cancel" type="button" data-cancel-mass-edit>取消所有修改</button>
             <button class="mass-edit-save" type="button" data-save-mass-edit>一次儲存全部</button>
           </div>
+          <dialog class="schedule-paste-anchor-dialog" data-paste-anchor-dialog aria-labelledby="paste-anchor-title">
+            <form method="dialog" data-paste-anchor-form>
+              <h3 id="paste-anchor-title">選擇貼上起點</h3>
+              <p>複製項目的相對形狀會保留；第一個項目會由以下星期及格數開始。</p>
+              <div class="paste-anchor-fields">
+                <label>星期<select data-paste-anchor-day><option value="0">星期一</option><option value="1">星期二</option><option value="2">星期三</option><option value="3">星期四</option><option value="4">星期五</option><option value="5">星期六</option><option value="6">星期日</option></select></label>
+                <label>起始格數<input type="number" min="1" max="100" value="1" data-paste-anchor-slot></label>
+              </div>
+              <p class="calendar-status" data-paste-anchor-status role="status" aria-live="polite"></p>
+              <div class="dialog-actions"><button class="secondary-button" type="button" data-paste-anchor-cancel>取消</button><button class="primary-button" type="submit">預覽貼上</button></div>
+            </form>
+          </dialog>
         </div>
         <p class="mass-edit-status" data-mass-edit-status role="status" aria-live="polite"></p>
 
@@ -2563,7 +2614,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260821-pomodoro1"></script>
-  <script type="module" src="schedule-system.js?v=20260821-shared-pomodoro1"></script>
+  <script src="shared-system-nav.js?v=20260821-night-pomodoro2"></script>
+  <script type="module" src="schedule-system.js?v=20260821-clipboard-email-link1"></script>
 </body>
 </html>

@@ -330,6 +330,11 @@ html.edmund-pomodoro-page-locked, html.edmund-pomodoro-page-locked body { overfl
 .edmund-pomodoro-break-card strong { display: block; margin-top: 18px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(30px, 6vw, 64px); font-variant-numeric: tabular-nums; }
 .edmund-pomodoro-break-card img { width: 100%; max-height: 300px; object-fit: contain; }
 .edmund-pomodoro-break-skip { min-height: 43px; margin-top: 18px; padding: 9px 17px; border: 1px solid rgba(255, 255, 255, .7); border-radius: 999px; color: #9b332e; background: rgba(255, 255, 255, .94); font: inherit; font-weight: 900; cursor: pointer; }
+.edmund-night-return { width:min(760px,calc(100vw - 28px)); padding:0; border:0; border-radius:32px; color:#fff; background:transparent; }
+.edmund-night-return::backdrop { background:rgba(12,20,42,.66); backdrop-filter:blur(9px); }
+.edmund-night-return section { padding:clamp(28px,6vw,58px); border:1px solid rgba(255,255,255,.34); border-radius:32px; background:radial-gradient(circle at 86% 8%,rgba(255,218,132,.25),transparent 32%),linear-gradient(145deg,#152b57,#3b336e 58%,#8d4169); box-shadow:0 34px 100px rgba(6,12,30,.45); text-align:center; }
+.edmund-night-return__art { font-size:58px; letter-spacing:-10px; }.edmund-night-return__art span{font-size:48px}.edmund-night-return section>p{margin:10px 0;color:#ffdda1;font-size:11px;font-weight:900;letter-spacing:.16em}.edmund-night-return h2{max-width:620px;margin:12px auto 28px;font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(27px,5vw,45px);line-height:1.25}.edmund-night-return section>div:last-child{display:grid;grid-template-columns:1fr 1fr;gap:12px}.edmund-night-return button{min-height:56px;padding:12px 16px;border:1px solid rgba(255,255,255,.4);border-radius:18px;color:#fff;background:rgba(255,255,255,.12);font:inherit;font-weight:850;cursor:pointer}.edmund-night-return button:first-child{color:#24365e;background:#ffe0a3}
+@media(max-width:640px){.edmund-night-return section>div:last-child{grid-template-columns:1fr}}
 
 .edmund-system-switcher__menu {
   position: absolute;

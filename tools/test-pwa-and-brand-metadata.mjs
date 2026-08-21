@@ -20,6 +20,7 @@ const customAppleIconApps = Object.freeze({
 const htmlPages = [
   "about.html",
   "argument-learning-system.html",
+  "bookmark-directory.html",
   "business-school-system.html",
   "collocation-system.html",
   "common-expression-business-speaking.html",
@@ -68,6 +69,8 @@ const htmlPages = [
   "reading-logic-system.html",
   "recorded.html",
   "resources.html",
+  "schedule-email-content-admin.html",
+  "schedule-email-log-admin.html",
   "schedule-homework-hotkeys-admin.html",
   "schedule-motivation-admin.html",
   "schedule-reminder-email-admin.html",

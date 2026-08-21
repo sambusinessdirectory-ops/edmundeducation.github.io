@@ -191,6 +191,7 @@ jobs:
           node tools/test-schedule-wellbeing.mjs
           node tools/test-schedule-self-evaluation-admin.mjs
           node tools/test-schedule-reminder-email-and-hotkeys.mjs
+          node tools/test-schedule-email-linked-homework.mjs
           node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-announcement-edit.mjs
           node tools/test-schedule-system.mjs
@@ -223,6 +224,7 @@ jobs:
           node --test tools/test-apostrophe-normalizer.mjs
           node tools/test-pwa-and-brand-metadata.mjs
           node tools/test-idle-break-timer-integrations.mjs
+          node tools/test-unified-bookmark-directory.mjs
 
       - name: Validate Video Class portal, permissions, and protected range delivery
         run: |

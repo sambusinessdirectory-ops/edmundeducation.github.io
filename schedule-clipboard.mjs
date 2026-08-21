@@ -179,6 +179,8 @@ export function parseScheduleClipboard(value, options = {}) {
 export function planScheduleClipboardPaste({
   payload,
   targetWeekStart,
+  targetDayOffset = null,
+  targetSlotIndex = null,
   entries = [],
   capacities = {},
   currentRole = "student",
@@ -188,11 +190,30 @@ export function planScheduleClipboardPaste({
   const weekStart = normalizeWeekStart(targetWeekStart);
   const dates = weekDates(weekStart);
   const currentEntries = Array.isArray(entries) ? entries : [];
+  const sourceDayAnchor = Math.min(...normalized.items.map((item) => item.dayOffset));
+  const sourceSlotAnchor = Math.min(...normalized.items.map((item) => item.slotIndex));
+  const dayAnchor = targetDayOffset === null || targetDayOffset === undefined
+    ? sourceDayAnchor
+    : Number(targetDayOffset);
+  const slotAnchor = targetSlotIndex === null || targetSlotIndex === undefined
+    ? sourceSlotAnchor
+    : Number(targetSlotIndex);
+  if (!Number.isInteger(dayAnchor) || dayAnchor < 0 || dayAnchor > 6) {
+    clipboardError("invalid-target-day", "貼上起點的星期位置不正確。");
+  }
+  if (!Number.isInteger(slotAnchor) || slotAnchor < 1 || slotAnchor > 100) {
+    clipboardError("invalid-target-slot", "貼上起點的格數不正確。");
+  }
   const ready = [];
   const conflicts = [];
   const unchanged = [];
 
-  for (const item of normalized.items) {
+  for (const sourceItem of normalized.items) {
+    const item = {
+      ...sourceItem,
+      dayOffset: dayAnchor + (sourceItem.dayOffset - sourceDayAnchor),
+      slotIndex: slotAnchor + (sourceItem.slotIndex - sourceSlotAnchor)
+    };
     const scheduleDate = dates[item.dayOffset];
     const target = {
       ...item,
@@ -239,6 +260,8 @@ export function planScheduleClipboardPaste({
   return {
     payload: normalized,
     targetWeekStart: weekStart,
+    targetDayOffset: dayAnchor,
+    targetSlotIndex: slotAnchor,
     ready,
     conflicts,
     unchanged
