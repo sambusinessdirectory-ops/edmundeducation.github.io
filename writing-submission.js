@@ -515,6 +515,13 @@ function feedbackFontScaleControl() {
 }
 
 function initializeFeedbackStickyOffset() {
+  // Keep the floating prompt outside animated `.view` containers. A transformed
+  // ancestor turns `position: fixed` into container-relative positioning, which
+  // made the prompt scroll away on the real portal even though its visibility
+  // state was correct.
+  if (elements.floatingTopic && elements.floatingTopic.parentElement !== document.body) {
+    document.body.append(elements.floatingTopic);
+  }
   const header = document.querySelector(".edmund-system-header");
   if (!header) return;
   const sync = () => {

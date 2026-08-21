@@ -1109,7 +1109,7 @@
     .learning-day-counters { display:flex; align-items:center; flex-wrap:wrap; gap:10px 24px; margin-top:10px; }
     .learning-day-counter { display:flex; align-items:center; gap:8px; min-width:0; padding:0; }
     .learning-day-counter img { width:42px; height:42px; object-fit:contain; }
-    .learning-day-counter strong { display:block; color:#183b60; font-size:24px; line-height:1; }
+    .learning-day-counter strong { display:block; color:#183b60; font-size:31px; line-height:1; font-variant-numeric:tabular-nums; }
     .learning-day-counter span { display:block; margin-top:4px; color:#60758a; font-size:10px; font-weight:900; white-space:nowrap; }
     .calendar-scroll {
       position: relative;
@@ -1134,6 +1134,7 @@
     }
 
     .week-grid.is-clipboard-selection-mode .schedule-slot.has-entry:not(.span-continuation) { cursor: crosshair; }
+    .week-grid.is-selection-mode .schedule-slot.has-entry:not(.span-continuation) { cursor: crosshair; }
     .schedule-slot.is-clipboard-selected {
       border-color: #3b79c9 !important;
       outline: 4px solid rgba(74, 147, 232, .62) !important;
@@ -2015,7 +2016,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-night-pomodoro2">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-portable-pomodoro3">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -2614,7 +2615,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260821-night-pomodoro2"></script>
-  <script type="module" src="schedule-system.js?v=20260821-clipboard-email-link1"></script>
+  <script src="shared-system-nav.js?v=20260821-portable-pomodoro3"></script>
+  <script type="module" src="schedule-system.js?v=20260821-drag-streak2"></script>
 </body>
 </html>

@@ -3,6 +3,7 @@
 
   const UNIVERSAL_SESSION_KEY = "edmund-universal-student-session-v1";
   const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
+  const POMODORO_DEVICE_STORAGE_KEY = `${POMODORO_STORAGE_PREFIX}:device`;
   const NIGHT_RETURN_STORAGE_PREFIX = "edmund-night-return-v1";
   const DEFAULT_POMODORO_SETTINGS = Object.freeze({
     enabled: false,
@@ -539,7 +540,10 @@
   }
 
   function currentPomodoroStorageKey() {
-    return `${POMODORO_STORAGE_PREFIX}:${pomodoroIdentity()}`;
+    // A Pomodoro belongs to this browser tab/device, not to whichever account
+    // identity a destination page happens to restore first. Keeping one stable
+    // key lets an active timer survive homepage → system navigation and login.
+    return POMODORO_DEVICE_STORAGE_KEY;
   }
 
   function readPomodoroState(storageKey = currentPomodoroStorageKey()) {
@@ -552,6 +556,26 @@
         completedSessions: Math.max(0, Number(value.completedSessions) || 0),
         endsAt: Number(value.endsAt) || 0
       };
+    } catch {
+      return null;
+    }
+  }
+
+  function readPortablePomodoroState() {
+    const portable = readPomodoroState(POMODORO_DEVICE_STORAGE_KEY);
+    if (portable) return portable;
+    try {
+      const legacy = [];
+      for (let index = 0; index < window.localStorage.length; index += 1) {
+        const key = window.localStorage.key(index);
+        if (!key || key === POMODORO_DEVICE_STORAGE_KEY || !key.startsWith(`${POMODORO_STORAGE_PREFIX}:`)) continue;
+        const value = readPomodoroState(key);
+        if (value?.settings?.enabled && value.endsAt) legacy.push({ key, value });
+      }
+      legacy.sort((left, right) => right.value.endsAt - left.value.endsAt);
+      if (!legacy.length) return null;
+      window.localStorage.setItem(POMODORO_DEVICE_STORAGE_KEY, JSON.stringify(legacy[0].value));
+      return legacy[0].value;
     } catch {
       return null;
     }
@@ -572,7 +596,7 @@
     if (nextOwnerKey === pomodoroOwnerKey) return false;
     setPomodoroPageLocked(false);
     pomodoroOwnerKey = nextOwnerKey;
-    pomodoroState = readPomodoroState(nextOwnerKey);
+    pomodoroState = readPortablePomodoroState();
     return true;
   }
 
@@ -709,8 +733,8 @@
       button.className = "edmund-pomodoro-header-button";
       button.dataset.edmundPomodoroHeader = "";
       button.innerHTML = `<img src="assets/schedule/pomodoro-method.png" alt=""><span><small>番茄鐘工作法</small><strong data-edmund-pomodoro-header-time>設定計時</strong></span>`;
-      const actions = headerInner.querySelector(".edmund-system-header__actions");
-      headerInner.insertBefore(button, actions || null);
+      const switcher = headerInner.querySelector(".edmund-system-switcher");
+      headerInner.insertBefore(button, switcher || headerInner.firstChild);
     }
     const launchers = [...document.querySelectorAll("[data-edmund-pomodoro-header], [data-edmund-pomodoro-launcher]")];
     if (!launchers.length || document.querySelector("[data-edmund-pomodoro-dialog]")) return;

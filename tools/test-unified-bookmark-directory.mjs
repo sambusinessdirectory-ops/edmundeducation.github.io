@@ -26,6 +26,11 @@ assert.match(html, /data-system="bookmark-directory"/);
 assert.match(js, /student_unified_bookmark_directory/);
 assert.match(js, /flashcard_student_login/);
 assert.match(js, /bridgeStudentSession/);
+assert.match(js, /className = "bookmark-card-content"/);
+assert.match(js, /detail\.textContent = item\.detail \|\| item\.title/);
+assert.match(js, /在目錄中閱讀/);
+assert.match(js, /iframe\.src = href/);
+assert.match(js, /前往原系統位置/);
 assert.match(home, /href="bookmark-directory\.html"/);
 assert.match(nav, /id: "bookmark-directory"/);
 

@@ -1845,6 +1845,7 @@ function resetSelectionMode() {
 
 function updateSelectionControls() {
   if (!elements.toggleSelection) return;
+  elements.weekGrid.classList.toggle("is-selection-mode", state.selectionMode && !state.massEditMode);
   elements.toggleDailyQuote.disabled = state.mutationInFlight;
   elements.toggleEncouragement.disabled = state.mutationInFlight;
   if (state.massEditMode) {
@@ -6784,8 +6785,11 @@ function rectsIntersect(left, right) {
 }
 
 function beginClipboardMarquee(event) {
+  const marqueeMode = state.massEditMode
+    ? "clipboard"
+    : (state.selectionMode ? "selection" : "");
   if (
-    !state.massEditMode
+    !marqueeMode
     || state.mutationInFlight
     || event.pointerType !== "mouse"
     || event.button !== 0
@@ -6795,7 +6799,9 @@ function beginClipboardMarquee(event) {
   const selectedDragSlot = event.target.closest("[data-entry-id]");
   if (
     selectedDragSlot
-    && state.clipboardSelectedEntryIds.has(selectedDragSlot.dataset.entryId)
+    && (marqueeMode === "clipboard"
+      ? state.clipboardSelectedEntryIds
+      : state.selectedEntryIds).has(selectedDragSlot.dataset.entryId)
     && !event.metaKey
     && !event.ctrlKey
     && !event.shiftKey
@@ -6807,11 +6813,14 @@ function beginClipboardMarquee(event) {
     .map((slot) => ({ slot, entry: entryById.get(slot.dataset.entryId), rect: slot.getBoundingClientRect() }))
     .filter((item) => item.entry);
   state.clipboardMarquee = {
+    mode: marqueeMode,
     pointerId: event.pointerId,
     startX: event.clientX,
     startY: event.clientY,
     additive,
-    baseSelection: new Set(additive ? state.clipboardSelectedEntryIds : []),
+    baseSelection: new Set(additive
+      ? (marqueeMode === "clipboard" ? state.clipboardSelectedEntryIds : state.selectedEntryIds)
+      : []),
     started: false,
     skippedSpan: false,
     element: null,
@@ -6826,7 +6835,7 @@ function updateClipboardMarquee(event) {
   if (!marquee.started && distance < MARQUEE_START_DISTANCE) return;
   if (!marquee.started) {
     marquee.started = true;
-    state.clipboardSelectionMode = true;
+    if (marquee.mode === "clipboard") state.clipboardSelectionMode = true;
     marquee.element = document.createElement("div");
     marquee.element.className = "clipboard-selection-marquee";
     marquee.element.setAttribute("aria-hidden", "true");
@@ -6851,15 +6860,30 @@ function updateClipboardMarquee(event) {
   marquee.skippedSpan = false;
   marquee.selectableSlots.forEach(({ entry, rect }) => {
     if (!rectsIntersect(viewportRect, rect)) return;
-    if (entry?.spanGroupId) {
+    if (entry?.spanGroupId && marquee.mode === "clipboard") {
       marquee.skippedSpan = true;
       return;
     }
-    if (entry) nextSelection.add(entry.id);
+    if (!entry) return;
+    if (marquee.mode === "selection") {
+      spanMemberIds(entry).forEach((entryId) => nextSelection.add(entryId));
+    } else {
+      nextSelection.add(entry.id);
+    }
   });
-  state.clipboardSelectedEntryIds = nextSelection;
-  applyClipboardSelectionClasses();
-  updateClipboardControls();
+  if (marquee.mode === "selection") {
+    state.selectedEntryIds = nextSelection;
+    elements.weekGrid.querySelectorAll("[data-entry-id]").forEach((slot) => {
+      const selected = state.selectedEntryIds.has(slot.dataset.entryId);
+      slot.classList.toggle("is-selected", selected);
+      slot.setAttribute("aria-pressed", String(selected));
+    });
+    updateSelectionControls();
+  } else {
+    state.clipboardSelectedEntryIds = nextSelection;
+    applyClipboardSelectionClasses();
+    updateClipboardControls();
+  }
 }
 
 function finishClipboardMarquee(event) {
@@ -6878,7 +6902,8 @@ function finishClipboardMarquee(event) {
   if (!started) return;
   state.suppressClickUntil = Date.now() + 450;
   elements.calendarScroll.focus({ preventScroll: true });
-  updateClipboardControls();
+  if (marquee.mode === "selection") updateSelectionControls();
+  else updateClipboardControls();
   if (skippedSpan) showToast("已略過跨日項目；跨日項目暫不可複製。", "error");
 }
 

@@ -385,8 +385,8 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
   assert.match(html, /<h2 id="grammar-panel-title">文法偵測<\/h2>/);
-  assert.match(html, /writing-submission\.css\?v=20260821-chinese-vocab1/);
-  assert.match(html, /writing-submission\.js\?v=20260821-chinese-vocab1/);
+  assert.match(html, /writing-submission\.css\?v=20260821-floating-topic2/);
+  assert.match(html, /writing-submission\.js\?v=20260821-floating-topic2/);
   assert.match(script, /writing-submission-harper\.js\?v=20260803-grammar6/);
   assert.match(script, /writing-submission-ai\.js\?v=20260810-drafts-admin2/);
   assert.match(script, /ESL_RULESET_VERSION\s*=\s*"2\.0\.0"/);
@@ -419,6 +419,8 @@ test("writing topic becomes an accessible topic-only floating reminder after scr
   assert.match(css, /\.floating-writing-topic\s*\{[^}]*position:\s*fixed[^}]*top:\s*calc\(var\(--writing-feedback-sticky-top/s);
   assert.match(css, /\.floating-writing-topic-preview\s*\{[^}]*text-overflow:\s*ellipsis[^}]*white-space:\s*nowrap/s);
   assert.match(script, /topicBottom\s*<=\s*headerBottom\s*\+\s*8/);
+  assert.match(script, /document\.body\.append\(elements\.floatingTopic\)/,
+    "the fixed topic bar must escape animated view containers that otherwise make it scroll away");
   assert.match(script, /elements\.floatingTopicText\.textContent\s*=\s*topic/);
   assert.match(script, /elements\.floatingTopicImages\.replaceChildren\(\)/);
   assert.doesNotMatch(html, /floating-writing-topic[\s\S]{0,1600}data-topic-reference-area/);

@@ -615,7 +615,10 @@
     .homepage-pomodoro-card { counter-increment:none; --category-gradient:linear-gradient(135deg,#b92a1e,#ef6142 54%,#ffbd74); --category-gradient-hover:linear-gradient(135deg,#992018,#dc4a34 54%,#ffa85d); --category-key-lip:#8d211a; --category-key-shadow:rgba(150,40,28,.3); }
     .homepage-pomodoro-card::before { display:none; }
     .homepage-pomodoro-card img { width:58px; height:58px; margin-bottom:auto; object-fit:contain; filter:drop-shadow(0 6px 8px rgba(77,18,12,.25)); }
-    .homepage-pomodoro-card small { display:block; margin-top:6px; font-size:12px; font-weight:850; opacity:.82; }
+    .homepage-pomodoro-card strong { display:block; margin-top:6px; font-size:13px; font-weight:850; font-variant-numeric:tabular-nums; opacity:.88; }
+    .homepage-pomodoro-card[data-running="true"] .category-name { display:grid; gap:5px; }
+    .homepage-pomodoro-card[data-running="true"] strong { font-size:clamp(27px,2.15vw,38px); line-height:1; letter-spacing:.015em; opacity:1; }
+    .offer-section, .student-comments { content-visibility:auto; contain-intrinsic-size:auto 900px; }
 
     .resources-card {
       --category-gradient: linear-gradient(135deg, #5f102a 0%, #9e173f 48%, #ef4444 100%);
@@ -2753,9 +2756,9 @@
 
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
-    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+    <img src="assets/homepage-optimized/running-horse-loader.webp" alt="" aria-hidden="true" width="320" height="320" decoding="async">
   </div>
-  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+  <img class="custom-cursor" src="assets/homepage-optimized/cursor.webp" alt="" aria-hidden="true" width="96" height="96" decoding="async">
 
   <div class="video-background" aria-hidden="true">
     <video class="bg-video is-active" muted playsinline preload="none"></video>
@@ -2765,10 +2768,10 @@
   <header class="topbar">
     <div class="topbar-inner">
       <a class="brand brand-left" href="index.html" aria-label="EdmundEducation">
-        <img src="Font Transparent.png" alt="EdmundEducation">
+        <img src="assets/homepage-optimized/font-transparent.webp" alt="EdmundEducation" width="720" height="138" decoding="async" fetchpriority="high">
       </a>
 
-      <img class="header-title-image" src="Static Images/Header Title.jpg" alt="" aria-hidden="true">
+      <img class="header-title-image" src="assets/homepage-optimized/header-title.webp" alt="" aria-hidden="true" width="1600" height="236" decoding="async" fetchpriority="high">
 
       <nav class="topnav">
         <a href="cre.html">真人英文課程</a>
@@ -2785,9 +2788,9 @@
       <div class="hero-row">
         <h1>Edmund 英文學習平台</h1>
         <div class="hero-feature-stack">
-          <img class="company-logo" src="Company Logo for Cover Page.png" alt="EdmundEducation company logo">
+          <img class="company-logo" src="assets/homepage-optimized/company-logo.webp" alt="EdmundEducation company logo" width="512" height="512" decoding="async" fetchpriority="high">
           <a class="homepage-game-card" href="eddy-carrot-patch/" aria-label="Play Eddie's Farm">
-            <img id="homepageGameCover" data-src="assets/eddy-game/game-cover.png" alt="Eddie's Farm game cover" decoding="async" fetchpriority="low">
+            <img id="homepageGameCover" data-src="assets/homepage-optimized/game-cover.webp" alt="Eddie's Farm game cover" width="960" height="540" decoding="async" fetchpriority="low">
             <span aria-hidden="true">Play now · 立即遊玩</span>
           </a>
           <a class="homepage-mascot-card" href="mascot-introduction.html" aria-label="吉祥物介紹 Mascot Introduction">
@@ -2797,13 +2800,13 @@
         </div>
         <div class="social-links" aria-label="EdmundEducation social links">
           <a class="social-link carousell" href="https://carousell.app.link/g2jaZvmwM2b" target="_blank" rel="noopener" aria-label="Carousell">
-            <img src="Static Images/1. Carousell Link Logo.png" alt="Carousell">
+            <img src="assets/homepage-optimized/carousell-logo.webp" alt="Carousell" width="220" height="47" decoding="async">
           </a>
           <a class="social-link" href="https://www.instagram.com/edmundeducationedu?igsh=MXhlc3FqbjBxYzIw&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
-            <img src="Static Images/2. Instagram Link Logo.png" alt="Instagram">
+            <img src="assets/homepage-optimized/instagram-logo.webp" alt="Instagram" width="160" height="156" decoding="async">
           </a>
           <a class="social-link" href="https://www.youtube.com/@learnenglishforfreehongkong" target="_blank" rel="noopener" aria-label="YouTube">
-            <img src="Static Images/3. YouTube Link Logo.png" alt="YouTube">
+            <img src="assets/homepage-optimized/youtube-logo.webp" alt="YouTube" width="180" height="128" decoding="async">
           </a>
         </div>
       </div>
@@ -2826,7 +2829,7 @@
         </button>
         <button class="category homepage-pomodoro-card" type="button" data-edmund-pomodoro-launcher>
           <img src="assets/schedule/pomodoro-method.png" alt="">
-          <span class="category-name">番茄鐘工作法<small data-edmund-pomodoro-header-time>設定計時</small></span>
+          <span class="category-name">番茄鐘工作法<strong data-edmund-pomodoro-header-time>設定計時</strong></span>
         </button>
 
         <span class="category-row-break" aria-hidden="true"></span>
@@ -2841,7 +2844,7 @@
 
         <a class="category about-card" href="about.html">
           <span class="category-badge" aria-hidden="true">
-            <img src="Static Images/HKU Logo.png" alt="">
+            <img src="assets/homepage-optimized/hku-logo.webp" alt="" width="227" height="256" loading="lazy" decoding="async" fetchpriority="low">
           </span>
           <span class="category-name">關於 Edmund Sir<br>導師介紹及經驗</span>
         </a>
@@ -3328,7 +3331,7 @@
               </header>
               <div class="student-comment-body">
                 <div class="student-comment-image-wrap">
-                  <img src="${escapeHtml(file)}" alt="${escapeHtml(label)}">
+                  <img src="${escapeHtml(file)}" alt="${escapeHtml(label)}" loading="lazy" decoding="async" fetchpriority="low">
                 </div>
                 <div class="student-comment-emojis" aria-label="Student reaction emojis">
                   ${commentEmojiChips()}
@@ -3379,7 +3382,7 @@
       const videoAttribute = item.videoSet ? ` data-video-set="${item.videoSet}"` : "";
       const cardClass = item.id === "adult-english" ? "offer-card is-gold-chrome" : "offer-card";
       const art = item.image
-        ? `<div class="offer-art has-image"><img src="${courseImageUrl(item.image)}" alt="${item.title}"></div>`
+        ? `<div class="offer-art has-image"><img src="${courseImageUrl(item.image)}" alt="${item.title}" loading="lazy" decoding="async" fetchpriority="low"></div>`
         : `<div class="offer-art">${item.type}</div>`;
 
       return `
@@ -3829,8 +3832,8 @@
       }, { once: true });
     })();
   </script>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-night-pomodoro2">
-  <script src="shared-system-nav.js?v=20260821-night-pomodoro2"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-portable-pomodoro3">
+  <script src="shared-system-nav.js?v=20260821-portable-pomodoro3"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="site-announcements.js?v=20260812-1"></script>

@@ -38,6 +38,9 @@ assert.match(contentJs, /schedule_admin_email_designer_snapshot/);
 assert.match(contentJs, /schedule_admin_save_email_template/);
 assert.match(contentJs, />全選</);
 assert.match(contentJs, />取消全選</);
+assert.match(contentJs, /指定時間（24 小時制）/);
+assert.match(contentJs, /Array\.from\(\{ length: 24 \}/);
+assert.match(contentJs, /p_daily_time: cadence\.value === "daily" \? time\.value\(\) : null/);
 assert.match(logHtml, /Email Log/);
 assert.match(logJs, /schedule_admin_list_email_logs/);
 
