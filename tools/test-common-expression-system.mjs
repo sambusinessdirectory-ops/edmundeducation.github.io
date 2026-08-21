@@ -193,8 +193,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system-imported-data\.js\?v=20260811-1/,
       /shared-answer-comparison\.js\?v=20260812-1/,
       /common-expression-system\.js\?v=20260820-1/,
-      /shared-system-nav\.css\?v=20260821-portable-pomodoro3/,
-      /shared-system-nav\.js\?v=20260821-portable-pomodoro3/
+      /shared-system-nav\.css\?v=20260821-pomodoro-stop1/,
+      /shared-system-nav\.js\?v=20260821-pomodoro-stop1/
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
 
     const csp = html.match(/http-equiv=["']Content-Security-Policy["'] content="([^"]+)"/i)?.[1] || "";

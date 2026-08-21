@@ -591,6 +591,21 @@
     }
   }
 
+  function clearLegacyPomodoroStates() {
+    try {
+      const staleKeys = [];
+      for (let index = 0; index < window.localStorage.length; index += 1) {
+        const key = window.localStorage.key(index);
+        if (key && key !== POMODORO_DEVICE_STORAGE_KEY && key.startsWith(`${POMODORO_STORAGE_PREFIX}:`)) {
+          staleKeys.push(key);
+        }
+      }
+      staleKeys.forEach(key => window.localStorage.removeItem(key));
+    } catch {
+      // Stopping the in-memory timer still succeeds if storage is unavailable.
+    }
+  }
+
   function syncPomodoroOwner() {
     const nextOwnerKey = currentPomodoroStorageKey();
     if (nextOwnerKey === pomodoroOwnerKey) return false;
@@ -709,7 +724,16 @@
   }
 
   function stopPomodoro() {
-    pomodoroState = null;
+    clearLegacyPomodoroStates();
+    // Keep a disabled record at the stable device key.  Removing that key would
+    // allow a stale account-scoped key from an earlier release to be migrated
+    // back into an active timer after refresh.
+    pomodoroState = {
+      settings: normalizePomodoroSettings(DEFAULT_POMODORO_SETTINGS),
+      phase: "work",
+      completedSessions: 0,
+      endsAt: 0
+    };
     writePomodoroState();
     pomodoroNodes.breakLock.hidden = true;
     setPomodoroPageLocked(false);

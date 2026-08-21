@@ -352,6 +352,9 @@ const elements = {
   addCountdowns: document.querySelector("[data-add-countdowns]"),
   removeCountdowns: document.querySelector("[data-remove-countdowns]"),
   entryDialog: document.querySelector("[data-entry-dialog]"),
+  celebrationDialog: document.querySelector("[data-celebration-dialog]"),
+  celebrationName: document.querySelector("[data-celebration-name]"),
+  closeCelebration: document.querySelector("[data-close-celebration]"),
   entryForm: document.querySelector("[data-entry-form]"),
   entryTitle: document.querySelector("[data-entry-title]"),
   entryMeta: document.querySelector("[data-entry-meta]"),
@@ -693,6 +696,14 @@ function showToast(message, status = "success") {
   state.toastTimer = window.setTimeout(() => {
     elements.toast.hidden = true;
   }, 3200);
+}
+
+function showCompletionCelebration() {
+  if (state.currentUser?.role !== "student" || !elements.celebrationDialog) return;
+  if (elements.celebrationName) {
+    elements.celebrationName.textContent = activeStudent()?.name || state.currentUser.name || "同學";
+  }
+  if (!elements.celebrationDialog.open) elements.celebrationDialog.showModal();
 }
 
 function homeworkTypeDefinition(type) {
@@ -5812,6 +5823,7 @@ async function batchSetExclusiveStatus(targetStatus) {
       ? `已把 ${entries.length} 項安排標記為${label}。`
       : `已取消 ${entries.length} 項安排的${label}標記。`, "success");
     await loadWeek();
+    if (active && targetStatus === "completed") showCompletionCelebration();
   } catch (error) {
     console.warn("Schedule batch status update failed", error);
     if (isConcurrencyError(error)) {
@@ -6422,6 +6434,7 @@ async function toggleEntryCompletion() {
     elements.entryDialog.close();
     showToast(completed ? "這項安排已標記為完成。" : "已取消完成標記。");
     await loadWeek(focusTarget);
+    if (completed) showCompletionCelebration();
   } catch (error) {
     console.warn("Schedule completion update failed", error);
     if (isConcurrencyError(error)) {
@@ -7591,6 +7604,7 @@ elements.learningPurposeNewer?.addEventListener("click", () => {
   if (purpose.newerId) loadLearningPurposeVersion(purpose.newerId);
 });
 elements.learningPurposeLatest?.addEventListener("click", () => loadLearningPurposeVersion(null));
+elements.closeCelebration?.addEventListener("click", () => elements.celebrationDialog?.close());
 elements.purposeFontButtons.forEach((button) => button.addEventListener("click", () => setPurposeFontSize(button.dataset.purposeFontSize)));
 elements.languageOpportunitiesSave?.addEventListener("click", saveLanguageOpportunities);
 elements.toggleSelection?.addEventListener("click", () => {

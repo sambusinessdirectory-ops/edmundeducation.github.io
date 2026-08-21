@@ -7,7 +7,7 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
-const sharedNavRelease = "20260821-portable-pomodoro3";
+const sharedNavRelease = "20260821-pomodoro-stop1";
 
 class MemoryStorage {
   constructor() { this.values = new Map(); }
@@ -235,7 +235,7 @@ test("every system portal loads one consistent shared navigation CSS and JS rele
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
     assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation CSS ${sharedNavRelease}`);
     assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation JS ${sharedNavRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260821-portable-pomodoro3)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260821-pomodoro-stop1)/, `${system.href} must not retain a stale shared navigation release`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`));
@@ -274,6 +274,10 @@ test("every system header receives one shared account-aware Pomodoro controller"
   assert.match(scriptSource, /edmund-schedule-pomodoro-v1/);
   assert.match(scriptSource, /POMODORO_DEVICE_STORAGE_KEY/);
   assert.match(scriptSource, /function readPortablePomodoroState\(\)/);
+  assert.match(scriptSource, /function clearLegacyPomodoroStates\(\)/);
+  assert.match(scriptSource, /staleKeys\.forEach\(key => window\.localStorage\.removeItem\(key\)\)/);
+  assert.match(scriptSource, /function stopPomodoro\(\)[\s\S]*?endsAt:\s*0[\s\S]*?writePomodoroState\(\)/,
+    "stopping must persist a disabled device-level tombstone so refresh cannot revive a stale legacy timer");
   assert.match(scriptSource, /return POMODORO_DEVICE_STORAGE_KEY/,
     "the active Pomodoro must use one stable browser key across login and portal navigation");
   assert.match(scriptSource, /studentSessionCandidate\(\)/);

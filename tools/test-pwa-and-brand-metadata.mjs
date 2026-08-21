@@ -292,6 +292,8 @@ test("the home page gives Google a stable favicon and verified brand entity", as
   assert.match(html, /<meta name="description" content="[^"]+">/);
   assert.match(html, /property="og:site_name" content="EdmundEducation"/);
   assert.match(html, /property="og:image" content="https:\/\/edmundeducation\.com\/assets\/icons\/edmundeducation-logo-512\.png"/);
+  assert.match(html, /\.company-logo\s*\{[^}]*height:\s*auto;[^}]*aspect-ratio:\s*1\s*\/\s*1;[^}]*align-self:\s*start;[^}]*object-fit:\s*cover;[^}]*background:\s*#22283a;/s,
+    "the homepage logo must fill its square without exposing white top/bottom bands");
 
   const jsonLdSource = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
   assert.ok(jsonLdSource, "home page must expose Organization and WebSite JSON-LD");

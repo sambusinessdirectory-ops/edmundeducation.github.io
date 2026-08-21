@@ -1691,6 +1691,66 @@
     .dialog-card h2 { margin: 0 0 6px; font-size: 29px; }
     .dialog-meta { margin: 0 0 20px; color: var(--muted); }
     .dialog-card textarea { min-height: 180px; resize: vertical; }
+    dialog[data-celebration-dialog] {
+      width: min(920px, calc(100% - 28px));
+      overflow: hidden;
+      color: #4c2e21;
+      background: #fbecdc;
+      box-shadow: 0 34px 110px rgba(93, 55, 31, .34);
+    }
+    dialog[data-celebration-dialog]::backdrop {
+      background: rgba(49, 35, 28, .46);
+      backdrop-filter: blur(7px);
+    }
+    .celebration-dialog-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 42%);
+      align-items: center;
+      gap: clamp(20px, 4vw, 46px);
+      padding: clamp(28px, 5vw, 58px);
+    }
+    .celebration-dialog-copy { position: relative; z-index: 1; }
+    .celebration-dialog-eyebrow {
+      margin: 0 0 10px;
+      color: #b46532;
+      font-size: 11px;
+      font-weight: 950;
+      letter-spacing: .18em;
+    }
+    .celebration-dialog-card h2 {
+      margin: 0;
+      font-family: Georgia, "Noto Serif TC", serif;
+      font-size: clamp(34px, 5.5vw, 62px);
+      line-height: 1.12;
+    }
+    .celebration-dialog-message {
+      margin: 20px 0 0;
+      font-size: clamp(17px, 2vw, 22px);
+      font-weight: 780;
+      line-height: 1.75;
+    }
+    .celebration-dialog-message strong { color: #a34e24; }
+    .celebration-dialog-image {
+      width: 100%;
+      max-height: 430px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 22px rgba(112, 60, 31, .18));
+    }
+    .celebration-dialog-close {
+      min-height: 50px;
+      margin-top: 26px;
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 22px;
+      color: #fff;
+      background: linear-gradient(135deg, #b66332, #8f4428);
+      box-shadow: 0 10px 22px rgba(143, 68, 40, .24);
+      font: inherit;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .celebration-dialog-close:hover { transform: translateY(-1px); }
+    .celebration-dialog-close:focus-visible { outline: 3px solid #d78b59; outline-offset: 4px; }
     .homework-autocomplete-hint {
       display: flex;
       align-items: center;
@@ -1961,6 +2021,8 @@
       .mass-edit-actions { position: static; align-items: flex-start; flex-direction: column; }
       .mass-edit-buttons { width: 100%; justify-content: flex-start; }
       .dialog-card { padding: 22px; }
+      .celebration-dialog-card { grid-template-columns: 1fr; text-align: center; }
+      .celebration-dialog-image { grid-row: 1; max-height: 260px; }
       .homework-picker-results { max-height: 210px; }
       .purpose-meaning-row { grid-template-columns:1fr; }
       .homework-type-summary { align-items: flex-start; flex-direction: column; }
@@ -2016,7 +2078,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-portable-pomodoro3">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-pomodoro-stop1">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -2501,6 +2563,18 @@
     </div>
   </dialog>
 
+  <dialog data-celebration-dialog aria-labelledby="celebration-dialog-title">
+    <section class="celebration-dialog-card">
+      <div class="celebration-dialog-copy">
+        <p class="celebration-dialog-eyebrow">HOMEWORK COMPLETE · 完成功課</p>
+        <h2 id="celebration-dialog-title">恭喜您，距離成功又更近了!</h2>
+        <p class="celebration-dialog-message">一步一步，<strong data-celebration-name>同學</strong> 便會走到目標~<br>現在先做自己喜歡的事，慶祝一下! 休息夠才繼續~</p>
+        <button class="celebration-dialog-close" type="button" data-close-celebration>知道了，現在放鬆一下再回來 ~</button>
+      </div>
+      <img class="celebration-dialog-image" src="assets/schedule/celebration-message.webp" alt="Eddy 舉手慶祝完成功課">
+    </section>
+  </dialog>
+
   <dialog data-password-dialog aria-labelledby="password-dialog-title">
     <form class="dialog-card password-dialog-card" data-password-form>
       <h2 id="password-dialog-title">更改用戶系統 Password</h2>
@@ -2615,7 +2689,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260821-portable-pomodoro3"></script>
-  <script type="module" src="schedule-system.js?v=20260821-drag-streak2"></script>
+  <script src="shared-system-nav.js?v=20260821-pomodoro-stop1"></script>
+  <script type="module" src="schedule-system.js?v=20260821-celebration1"></script>
 </body>
 </html>
