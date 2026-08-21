@@ -758,7 +758,11 @@
       button.dataset.edmundPomodoroHeader = "";
       button.innerHTML = `<img src="assets/schedule/pomodoro-method.png" alt=""><span><small>番茄鐘工作法</small><strong data-edmund-pomodoro-header-time>設定計時</strong></span>`;
       const switcher = headerInner.querySelector(".edmund-system-switcher");
-      headerInner.insertBefore(button, switcher || headerInner.firstChild);
+      if (switcher) {
+        switcher.insertAdjacentElement("afterend", button);
+      } else {
+        headerInner.insertBefore(button, headerInner.firstChild);
+      }
     }
     const launchers = [...document.querySelectorAll("[data-edmund-pomodoro-header], [data-edmund-pomodoro-launcher]")];
     if (!launchers.length || document.querySelector("[data-edmund-pomodoro-dialog]")) return;

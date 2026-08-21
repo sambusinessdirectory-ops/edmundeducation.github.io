@@ -226,7 +226,6 @@
 }
 
 .edmund-pomodoro-header-button {
-  order: -1;
   flex: 0 0 auto;
   min-width: 142px;
   min-height: 48px;

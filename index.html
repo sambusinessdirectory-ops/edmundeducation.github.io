@@ -17,6 +17,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="preload" as="image" href="assets/homepage-optimized/company-logo.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/homepage-optimized/game-cover.webp" fetchpriority="auto">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/site-announcements.css?v=20260812-1">
   <link rel="stylesheet" href="/homepage-system-directory.css?v=20260813-1">
@@ -2792,7 +2794,7 @@
         <div class="hero-feature-stack">
           <img class="company-logo" src="assets/homepage-optimized/company-logo.webp" alt="EdmundEducation company logo" width="512" height="512" decoding="async" fetchpriority="high">
           <a class="homepage-game-card" href="eddy-carrot-patch/" aria-label="Play Eddie's Farm">
-            <img id="homepageGameCover" data-src="assets/homepage-optimized/game-cover.webp" alt="Eddie's Farm game cover" width="960" height="540" decoding="async" fetchpriority="low">
+            <img id="homepageGameCover" src="assets/homepage-optimized/game-cover.webp" alt="Eddie's Farm game cover" width="960" height="540" loading="eager" decoding="async" fetchpriority="auto">
             <span aria-hidden="true">Play now · 立即遊玩</span>
           </a>
           <a class="homepage-mascot-card" href="mascot-introduction.html" aria-label="吉祥物介紹 Mascot Introduction">
@@ -3814,28 +3816,8 @@
       <nav class="system-directory-dialog__list" data-system-directory-list aria-label="所有 EdmundEducation 學習系統"></nav>
     </section>
   </dialog>
-  <script>
-    (() => {
-      const cover = document.getElementById("homepageGameCover");
-      if (!cover) return;
-
-      const loadCoverLast = () => {
-        if (!cover.getAttribute("src") && cover.dataset.src) {
-          cover.src = cover.dataset.src;
-        }
-      };
-
-      window.addEventListener("load", () => {
-        if ("requestIdleCallback" in window) {
-          window.requestIdleCallback(loadCoverLast, { timeout: 2400 });
-        } else {
-          window.setTimeout(loadCoverLast, 0);
-        }
-      }, { once: true });
-    })();
-  </script>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-pomodoro-stop1">
-  <script src="shared-system-nav.js?v=20260821-pomodoro-stop1"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-header-order1">
+  <script src="shared-system-nav.js?v=20260821-header-order1"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="site-announcements.js?v=20260812-1"></script>

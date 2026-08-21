@@ -248,7 +248,7 @@ function findUnapprovedEddyReferences(value) {
   return [...new Set(problems)];
 }
 
-test("homepage defers the lightweight Eddy cover until the page has loaded", async () => {
+test("homepage prioritizes the lightweight Eddy cover immediately after the company logo", async () => {
   const homepage = await read("index.html");
   const cards = Array.from(homepage.matchAll(/<a\b[^>]*>/gi))
     .filter(({ 0: tag }) => (attribute(tag, "class") || "").split(/\s+/).includes("homepage-game-card"));
@@ -270,13 +270,21 @@ test("homepage defers the lightweight Eddy cover until the page has loaded", asy
   assert.equal(covers.length, 1, "the homepage card must keep one lightweight Game cover image");
   const coverTag = covers[0][0];
   assert.equal(attribute(coverTag, "id"), "homepageGameCover");
-  assert.equal(attribute(coverTag, "src"), null, "the cover must not have an eager src attribute");
-  assert.equal(attribute(coverTag, "data-src"), "assets/homepage-optimized/game-cover.webp");
-  assert.equal(attribute(coverTag, "fetchpriority"), "low");
-  assert.equal((homepage.match(/assets\/homepage-optimized\/game-cover\.webp/gi) || []).length, 1);
+  assert.equal(attribute(coverTag, "src"), "assets/homepage-optimized/game-cover.webp");
+  assert.equal(attribute(coverTag, "loading"), "eager");
+  assert.equal(attribute(coverTag, "fetchpriority"), "auto");
+  assert.equal((homepage.match(/assets\/homepage-optimized\/game-cover\.webp/gi) || []).length, 2,
+    "the optimized Eddy cover should appear once in preload and once in the visible card");
   assert.doesNotMatch(homepage, /assets\/eddy-game\//i, "no full-size game media may appear on the homepage");
-  assert.match(homepage, /window\.addEventListener\("load"[\s\S]*requestIdleCallback\(loadCoverLast/);
-  assert.match(homepage, /cover\.src\s*=\s*cover\.dataset\.src/);
+  const companyPreload = homepage.indexOf('<link rel="preload" as="image" href="assets/homepage-optimized/company-logo.webp" fetchpriority="high">');
+  const gamePreload = homepage.indexOf('<link rel="preload" as="image" href="assets/homepage-optimized/game-cover.webp" fetchpriority="auto">');
+  const backgroundVideoSchedule = homepage.indexOf("scheduleInitialBackgroundVideo();");
+  assert.ok(companyPreload >= 0 && gamePreload > companyPreload,
+    "the company logo must be discovered before the Eddie's Farm cover");
+  assert.ok(backgroundVideoSchedule > gamePreload,
+    "background video startup must remain after the two priority hero images");
+  assert.doesNotMatch(homepage, /loadCoverLast|cover\.dataset\.src/,
+    "Eddie's Farm must no longer wait until the page load event");
   assert.doesNotMatch(
     homepage,
     /<link\b[^>]*\brel\s*=\s*(["'])(?:preload|prefetch|prerender)\1[^>]*eddy-carrot-patch/i,
