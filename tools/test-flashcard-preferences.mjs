@@ -79,7 +79,9 @@ const normalLogin = sourceBetween("async function performFlashcardLogin(trimmedN
 const loginLoad = normalLogin.indexOf("await loadStudentStateFromSupabase()");
 const loginHydrate = normalLogin.indexOf("hydrateFlashcardDisplayPreferences()");
 const loginShow = normalLogin.indexOf('showAppPanel("dashboard", false)');
-assert.ok(loginLoad !== -1 && loginLoad < loginHydrate && loginHydrate < loginShow);
+assert.ok(loginShow !== -1 && loginShow < loginLoad && loginLoad < loginHydrate);
+assert.match(normalLogin, /dashboardPanel\?\.setAttribute\("aria-busy", "true"\)[\s\S]*dashboardPanel\.inert = true/);
+assert.match(normalLogin, /finally \{[\s\S]*dashboardPanel\?\.removeAttribute\("aria-busy"\)[\s\S]*dashboardPanel\.inert = false/);
 
 const restoredLoad = sourceBetween("async function initSupabaseState()", "async function callSupabaseRpc");
 assert.match(
