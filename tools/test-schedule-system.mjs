@@ -403,7 +403,7 @@ assert.match(scheduleHtml, /data-paste-clipboard-selection/);
 assert.match(scheduleHtml, /data-clear-clipboard-selection/);
 assert.match(scheduleHtml, /clipboard-selection-marquee/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-clipboard-selected/);
-assert.match(scheduleHtml, /schedule-system\.js\?v=20260820-pomodoro-polish1/);
+assert.match(scheduleHtml, /schedule-system\.js\?v=20260821-shared-pomodoro1/);
 assert.match(scheduleHtml, /data-copy-week-link/);
 assert.match(scheduleHtml, /\[data-student-list\]\s*\{[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s);
 assert.match(scheduleHtml, /@media\s*\(max-width:\s*980px\)[\s\S]*?\[data-student-list\]\s*\{[^}]*repeat\(2,/s);

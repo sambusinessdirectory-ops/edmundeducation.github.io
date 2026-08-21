@@ -2,6 +2,16 @@
   "use strict";
 
   const UNIVERSAL_SESSION_KEY = "edmund-universal-student-session-v1";
+  const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
+  const DEFAULT_POMODORO_SETTINGS = Object.freeze({
+    enabled: false,
+    allowSkipBreak: false,
+    workMinutes: 25,
+    shortBreakMinutes: 5,
+    longBreakMinutes: 25,
+    sessionsBeforeLongBreak: 4,
+    taskLabel: "英文學習"
+  });
   const SYSTEMS = Object.freeze([
     { id: "progress", href: "student-progress.html", zh: "全面英文能力發展進度表", en: "Student Progress", homepageCard: 24 },
     { id: "flashcards", href: "flashcards.html", zh: "Flashcard 學習卡", en: "Flashcard System", homepageCard: 14 },
@@ -107,6 +117,12 @@
     "english-humour-writing", "english-joke-collection", "argument-learning", "fragmented-reading",
     "precise-language", "false-friends", "english-in-shows", "ted-talk-english", "poem-english"
   ]);
+
+  let pomodoroState = null;
+  let pomodoroOwnerKey = "";
+  let pomodoroTimerId = null;
+  let pomodoroNodes = null;
+  let pomodoroPageLocked = false;
 
   function storageJson(storage, key) {
     try {
@@ -297,6 +313,8 @@
     writeStorageJson(storage, UNIVERSAL_SESSION_KEY, normalized, true);
     bridgeStudentSession(normalized, true);
     ensurePasswordButton();
+    syncPomodoroOwner();
+    tickPomodoro();
     return true;
   }
 
@@ -313,6 +331,8 @@
       // Writing Practice will also clear its own session during logout.
     }
     ensurePasswordButton();
+    syncPomodoroOwner();
+    tickPomodoro();
   }
 
   function bridgeStudentSession(candidate = studentSessionCandidate(), overwrite = false) {
@@ -453,6 +473,299 @@
     const key = normaliseSystemSearch(query);
     if (!key) return true;
     return normaliseSystemSearch(`${system.zh} ${system.en} ${system.id}`).includes(key);
+  }
+
+  function normalizePomodoroSettings(value) {
+    const source = value && typeof value === "object" ? value : {};
+    const bounded = (raw, fallback, min, max) => {
+      const parsed = Number(raw);
+      return Number.isInteger(parsed) && parsed >= min && parsed <= max ? parsed : fallback;
+    };
+    return {
+      enabled: source.enabled === true,
+      allowSkipBreak: source.allowSkipBreak === true,
+      workMinutes: bounded(source.workMinutes, 25, 1, 180),
+      shortBreakMinutes: bounded(source.shortBreakMinutes, 5, 1, 60),
+      longBreakMinutes: bounded(source.longBreakMinutes, 25, 1, 120),
+      sessionsBeforeLongBreak: bounded(source.sessionsBeforeLongBreak, 4, 1, 12),
+      taskLabel: String(source.taskLabel || "英文學習").trim().slice(0, 60) || "英文學習"
+    };
+  }
+
+  function pomodoroPhaseDurationMs(settings, phase) {
+    const normalized = normalizePomodoroSettings(settings);
+    const minutes = phase === "short-break"
+      ? normalized.shortBreakMinutes
+      : phase === "long-break"
+        ? normalized.longBreakMinutes
+        : normalized.workMinutes;
+    return minutes * 60000;
+  }
+
+  function nextPomodoroPhase(current) {
+    const settings = normalizePomodoroSettings(current?.settings);
+    const completed = Math.max(0, Number(current?.completedSessions) || 0);
+    if (current?.phase === "work") {
+      const nextCompleted = completed + 1;
+      return {
+        phase: nextCompleted % settings.sessionsBeforeLongBreak === 0 ? "long-break" : "short-break",
+        completedSessions: nextCompleted
+      };
+    }
+    return { phase: "work", completedSessions: completed };
+  }
+
+  function formatPomodoroRemaining(milliseconds) {
+    const seconds = Math.max(0, Math.ceil(Number(milliseconds || 0) / 1000));
+    const minutes = Math.floor(seconds / 60);
+    return `${String(minutes).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`;
+  }
+
+  function pomodoroIdentity() {
+    const student = studentSessionCandidate();
+    if (student?.role === "student") return `student:${student.id || student.name || "account"}`;
+    try {
+      const admin = [...new Set(Object.values(SESSION_KEYS))]
+        .map(key => storageJson(window.sessionStorage, key))
+        .find(value => value?.role === "admin" && value?.name);
+      if (admin) return `admin:${admin.name}`;
+    } catch {
+      // The guest timer remains available when session storage is blocked.
+    }
+    return "guest";
+  }
+
+  function currentPomodoroStorageKey() {
+    return `${POMODORO_STORAGE_PREFIX}:${pomodoroIdentity()}`;
+  }
+
+  function readPomodoroState(storageKey = currentPomodoroStorageKey()) {
+    try {
+      const value = JSON.parse(window.localStorage.getItem(storageKey) || "null");
+      if (!value || typeof value !== "object") return null;
+      return {
+        settings: normalizePomodoroSettings(value.settings),
+        phase: ["work", "short-break", "long-break"].includes(value.phase) ? value.phase : "work",
+        completedSessions: Math.max(0, Number(value.completedSessions) || 0),
+        endsAt: Number(value.endsAt) || 0
+      };
+    } catch {
+      return null;
+    }
+  }
+
+  function writePomodoroState() {
+    try {
+      const storageKey = pomodoroOwnerKey || currentPomodoroStorageKey();
+      if (pomodoroState) window.localStorage.setItem(storageKey, JSON.stringify(pomodoroState));
+      else window.localStorage.removeItem(storageKey);
+    } catch {
+      // The active timer continues in memory when persistent storage is unavailable.
+    }
+  }
+
+  function syncPomodoroOwner() {
+    const nextOwnerKey = currentPomodoroStorageKey();
+    if (nextOwnerKey === pomodoroOwnerKey) return false;
+    setPomodoroPageLocked(false);
+    pomodoroOwnerKey = nextOwnerKey;
+    pomodoroState = readPomodoroState(nextOwnerKey);
+    return true;
+  }
+
+  function pomodoroMarkup() {
+    return `<dialog class="edmund-pomodoro-dialog" data-edmund-pomodoro-dialog aria-labelledby="edmund-pomodoro-title">
+      <form class="edmund-pomodoro-dialog__card" data-edmund-pomodoro-form method="dialog">
+        <div class="edmund-pomodoro-dialog__heading">
+          <div><p>FOCUS · REST · REPEAT</p><h2 id="edmund-pomodoro-title">番茄鐘工作法</h2></div>
+          <img src="assets/schedule/pomodoro-method.png" alt="Pomodoro Method">
+        </div>
+        <p class="edmund-pomodoro-dialog__intro">把學習分成專注時段與固定休息：預設專注 25 分鐘、短休 5 分鐘；完成四輪後進入長休。設定會跟隨您前往所有 EdmundEducation 學習系統。</p>
+        <div class="edmund-pomodoro-dialog__grid">
+          <label class="edmund-pomodoro-toggle"><input type="checkbox" data-edmund-pomodoro-enabled><span>啟用番茄鐘</span></label>
+          <label class="edmund-pomodoro-toggle"><input type="checkbox" data-edmund-pomodoro-allow-skip><span>允許我在需要時手動略過休息</span></label>
+          <label><span>專注分鐘</span><input type="number" min="1" max="180" data-edmund-pomodoro-work></label>
+          <label><span>短休分鐘</span><input type="number" min="1" max="60" data-edmund-pomodoro-short-break></label>
+          <label><span>長休分鐘</span><input type="number" min="1" max="120" data-edmund-pomodoro-long-break></label>
+          <label><span>每幾輪長休</span><input type="number" min="1" max="12" data-edmund-pomodoro-cycles></label>
+          <label class="edmund-pomodoro-dialog__task"><span>本輪學習目標</span><input type="text" maxlength="60" data-edmund-pomodoro-task></label>
+        </div>
+        <p class="edmund-pomodoro-dialog__status" data-edmund-pomodoro-status role="status" aria-live="polite"></p>
+        <div class="edmund-pomodoro-dialog__actions"><button type="button" data-edmund-pomodoro-reset>停止並重設</button><button type="button" data-edmund-pomodoro-close>取消</button><button type="submit" data-edmund-pomodoro-save>儲存並開始</button></div>
+      </form>
+    </dialog>
+    <section class="edmund-pomodoro-break-lock" data-edmund-pomodoro-break-lock hidden aria-live="assertive" aria-modal="true" aria-labelledby="edmund-pomodoro-break-title" role="dialog" tabindex="-1">
+      <div class="edmund-pomodoro-break-card"><div><p data-edmund-pomodoro-break-kicker>番茄鐘休息時間</p><h2 id="edmund-pomodoro-break-title">Time to take a break!</h2><strong data-edmund-pomodoro-break-countdown>05:00</strong><p>休息倒數完成後，頁面會自動解鎖並開始下一個專注時段。</p><button class="edmund-pomodoro-break-skip" type="button" data-edmund-pomodoro-skip-break hidden>略過休息，繼續學習</button></div><img src="assets/schedule/pomodoro-method.png" alt="Pomodoro Method"></div>
+    </section>`;
+  }
+
+  function setPomodoroPageLocked(locked) {
+    const nextLocked = Boolean(locked && pomodoroNodes?.breakLock);
+    if (nextLocked === pomodoroPageLocked) return;
+    pomodoroPageLocked = nextLocked;
+    document.documentElement.classList.toggle("edmund-pomodoro-page-locked", nextLocked);
+    [...document.body.children].forEach(element => {
+      if (element === pomodoroNodes?.breakLock) return;
+      if (nextLocked) {
+        if (!element.inert) {
+          element.inert = true;
+          element.dataset.edmundPomodoroInert = "true";
+        }
+      } else if (element.dataset.edmundPomodoroInert === "true") {
+        element.inert = false;
+        delete element.dataset.edmundPomodoroInert;
+      }
+    });
+    if (nextLocked) {
+      if (pomodoroNodes.dialog.open) pomodoroNodes.dialog.close();
+      window.setTimeout(() => (pomodoroNodes.skipBreak.hidden ? pomodoroNodes.breakLock : pomodoroNodes.skipBreak).focus(), 0);
+    }
+  }
+
+  function renderPomodoroHeader() {
+    if (!pomodoroNodes) return;
+    const running = Boolean(pomodoroState?.settings?.enabled && pomodoroState?.endsAt);
+    pomodoroNodes.header.dataset.running = String(running);
+    pomodoroNodes.header.setAttribute("aria-label", running ? "開啟番茄鐘設定；目前正在倒數" : "開啟番茄鐘工作法設定");
+    if (!running) {
+      pomodoroNodes.headerTime.textContent = "設定計時";
+      return;
+    }
+    const labels = { work: "專注", "short-break": "短休", "long-break": "長休" };
+    pomodoroNodes.headerTime.textContent = `${labels[pomodoroState.phase]} ${formatPomodoroRemaining(pomodoroState.endsAt - Date.now())}`;
+  }
+
+  function tickPomodoro() {
+    if (!pomodoroNodes) return;
+    syncPomodoroOwner();
+    if (!pomodoroState?.settings?.enabled || !pomodoroState.endsAt) {
+      pomodoroNodes.breakLock.hidden = true;
+      setPomodoroPageLocked(false);
+      renderPomodoroHeader();
+      return;
+    }
+    let guard = 0;
+    while (Date.now() >= pomodoroState.endsAt && guard < 12) {
+      const next = nextPomodoroPhase(pomodoroState);
+      pomodoroState.phase = next.phase;
+      pomodoroState.completedSessions = next.completedSessions;
+      pomodoroState.endsAt += pomodoroPhaseDurationMs(pomodoroState.settings, next.phase);
+      guard += 1;
+    }
+    const onBreak = pomodoroState.phase !== "work";
+    pomodoroNodes.breakLock.hidden = !onBreak;
+    pomodoroNodes.skipBreak.hidden = !(onBreak && pomodoroState.settings.allowSkipBreak);
+    setPomodoroPageLocked(onBreak);
+    if (onBreak) {
+      pomodoroNodes.breakKicker.textContent = pomodoroState.phase === "long-break"
+        ? `完成 ${pomodoroState.settings.sessionsBeforeLongBreak} 輪 · 長休時間`
+        : `完成 ${pomodoroState.completedSessions} 輪 · 短休時間`;
+      pomodoroNodes.breakCountdown.textContent = formatPomodoroRemaining(pomodoroState.endsAt - Date.now());
+    }
+    if (guard > 0) writePomodoroState();
+    renderPomodoroHeader();
+  }
+
+  function populatePomodoroForm() {
+    const settings = normalizePomodoroSettings(pomodoroState?.settings || DEFAULT_POMODORO_SETTINGS);
+    pomodoroNodes.enabled.checked = settings.enabled;
+    pomodoroNodes.allowSkip.checked = settings.allowSkipBreak;
+    pomodoroNodes.work.value = settings.workMinutes;
+    pomodoroNodes.shortBreak.value = settings.shortBreakMinutes;
+    pomodoroNodes.longBreak.value = settings.longBreakMinutes;
+    pomodoroNodes.cycles.value = settings.sessionsBeforeLongBreak;
+    pomodoroNodes.task.value = settings.taskLabel;
+    pomodoroNodes.status.textContent = pomodoroState?.endsAt ? "儲存後會由新的專注時段重新開始。" : "";
+    pomodoroNodes.status.dataset.state = "";
+  }
+
+  function stopPomodoro() {
+    pomodoroState = null;
+    writePomodoroState();
+    pomodoroNodes.breakLock.hidden = true;
+    setPomodoroPageLocked(false);
+    renderPomodoroHeader();
+  }
+
+  function skipPomodoroBreak() {
+    if (!pomodoroState || pomodoroState.phase === "work" || !pomodoroState.settings.allowSkipBreak) return;
+    pomodoroState.phase = "work";
+    pomodoroState.endsAt = Date.now() + pomodoroPhaseDurationMs(pomodoroState.settings, "work");
+    writePomodoroState();
+    tickPomodoro();
+  }
+
+  function ensurePomodoro() {
+    const headerInner = document.querySelector(".edmund-system-header__inner");
+    if (!headerInner || document.querySelector("[data-edmund-pomodoro-header]")) return;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "edmund-pomodoro-header-button";
+    button.dataset.edmundPomodoroHeader = "";
+    button.innerHTML = `<img src="assets/schedule/pomodoro-method.png" alt=""><span><small>番茄鐘工作法</small><strong data-edmund-pomodoro-header-time>設定計時</strong></span>`;
+    const actions = headerInner.querySelector(".edmund-system-header__actions");
+    headerInner.insertBefore(button, actions || null);
+    document.body.insertAdjacentHTML("beforeend", pomodoroMarkup());
+    pomodoroNodes = {
+      header: button,
+      headerTime: button.querySelector("[data-edmund-pomodoro-header-time]"),
+      dialog: document.querySelector("[data-edmund-pomodoro-dialog]"),
+      form: document.querySelector("[data-edmund-pomodoro-form]"),
+      enabled: document.querySelector("[data-edmund-pomodoro-enabled]"),
+      allowSkip: document.querySelector("[data-edmund-pomodoro-allow-skip]"),
+      work: document.querySelector("[data-edmund-pomodoro-work]"),
+      shortBreak: document.querySelector("[data-edmund-pomodoro-short-break]"),
+      longBreak: document.querySelector("[data-edmund-pomodoro-long-break]"),
+      cycles: document.querySelector("[data-edmund-pomodoro-cycles]"),
+      task: document.querySelector("[data-edmund-pomodoro-task]"),
+      status: document.querySelector("[data-edmund-pomodoro-status]"),
+      breakLock: document.querySelector("[data-edmund-pomodoro-break-lock]"),
+      breakKicker: document.querySelector("[data-edmund-pomodoro-break-kicker]"),
+      breakCountdown: document.querySelector("[data-edmund-pomodoro-break-countdown]"),
+      skipBreak: document.querySelector("[data-edmund-pomodoro-skip-break]")
+    };
+    button.addEventListener("click", () => {
+      syncPomodoroOwner();
+      populatePomodoroForm();
+      pomodoroNodes.dialog.showModal();
+    });
+    pomodoroNodes.form.addEventListener("submit", event => {
+      event.preventDefault();
+      const settings = normalizePomodoroSettings({
+        enabled: pomodoroNodes.enabled.checked,
+        allowSkipBreak: pomodoroNodes.allowSkip.checked,
+        workMinutes: Number(pomodoroNodes.work.value),
+        shortBreakMinutes: Number(pomodoroNodes.shortBreak.value),
+        longBreakMinutes: Number(pomodoroNodes.longBreak.value),
+        sessionsBeforeLongBreak: Number(pomodoroNodes.cycles.value),
+        taskLabel: pomodoroNodes.task.value
+      });
+      if (!settings.enabled) stopPomodoro();
+      else {
+        pomodoroState = { settings, phase: "work", completedSessions: 0, endsAt: Date.now() + pomodoroPhaseDurationMs(settings, "work") };
+        writePomodoroState();
+        tickPomodoro();
+      }
+      pomodoroNodes.dialog.close();
+    });
+    document.querySelector("[data-edmund-pomodoro-close]").addEventListener("click", () => pomodoroNodes.dialog.close());
+    document.querySelector("[data-edmund-pomodoro-reset]").addEventListener("click", () => {
+      stopPomodoro();
+      populatePomodoroForm();
+      pomodoroNodes.status.textContent = "番茄鐘已停止及重設。";
+      pomodoroNodes.status.dataset.state = "success";
+    });
+    pomodoroNodes.skipBreak.addEventListener("click", skipPomodoroBreak);
+    syncPomodoroOwner();
+    tickPomodoro();
+    window.clearInterval(pomodoroTimerId);
+    pomodoroTimerId = window.setInterval(tickPomodoro, 250);
+    window.addEventListener("storage", event => {
+      if (event.key === pomodoroOwnerKey) {
+        pomodoroState = readPomodoroState(pomodoroOwnerKey);
+        tickPomodoro();
+      }
+    });
   }
 
   function systemsMatching(query) {
@@ -720,6 +1033,7 @@
     ensurePasswordButton();
     const switchers = [...document.querySelectorAll("[data-edmund-system-switcher]")];
     switchers.forEach(enhanceSwitcher);
+    ensurePomodoro();
 
     document.addEventListener("pointerdown", event => {
       switchers.forEach(switcher => {
@@ -745,6 +1059,15 @@
     bridgeStudentSession,
     forgetStudentSession,
     getStudentSession: studentSessionCandidate,
+    pomodoro: Object.freeze({
+      formatRemaining: formatPomodoroRemaining,
+      nextPhase: nextPomodoroPhase,
+      normalizeSettings: normalizePomodoroSettings,
+      refreshOwner: () => {
+        syncPomodoroOwner();
+        tickPomodoro();
+      }
+    }),
     searchSystems: systemsMatching,
     rememberStudentSession,
     systems: SYSTEMS

@@ -18,7 +18,7 @@ vm.runInNewContext(dataSource, context, { filename: "dse-paper3-analysis-data.js
 const data = context.window.EDMUND_DSE_PAPER3_DATA;
 
 assert.match(html, /data-edmund-system-switcher data-system="dse-paper3-analysis"/);
-assert.match(html, /shared-system-nav\.js\?v=20260820-2/);
+assert.match(html, /shared-system-nav\.js\?v=20260821-pomodoro1/);
 assert.match(html, /dse-paper3-analysis-data\.js\?v=20260809-2/);
 assert.match(html, /dse-paper3-analysis\.js\?v=20260812-1/);
 assert.match(html, /data-login-form/);

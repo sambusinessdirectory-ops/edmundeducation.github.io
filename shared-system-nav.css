@@ -225,6 +225,112 @@
   box-shadow: 0 7px 18px rgba(55, 87, 42, .22);
 }
 
+.edmund-pomodoro-header-button {
+  min-width: 142px;
+  min-height: 48px;
+  padding: 6px 12px 6px 8px;
+  border: 1px solid rgba(221, 75, 48, .32);
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  color: #7d281a;
+  background: linear-gradient(145deg, #fff3e8, #ffd6c2);
+  box-shadow: 0 7px 18px rgba(157, 48, 25, .12);
+  font: 900 13px/1.15 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+  cursor: pointer;
+  transition: border-color .16s ease, box-shadow .16s ease, transform .16s ease;
+}
+
+.edmund-pomodoro-header-button:hover,
+.edmund-pomodoro-header-button:focus-visible {
+  border-color: rgba(184, 50, 31, .55);
+  box-shadow: 0 9px 23px rgba(157, 48, 25, .2);
+  transform: translateY(-1px);
+}
+
+.edmund-pomodoro-header-button:focus-visible {
+  outline: 3px solid rgba(221, 75, 48, .3);
+  outline-offset: 2px;
+}
+
+.edmund-pomodoro-header-button img {
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  object-fit: contain;
+}
+
+.edmund-pomodoro-header-button span { min-width: 0; display: grid; gap: 2px; text-align: left; }
+.edmund-pomodoro-header-button small { color: #9d4b39; font-size: 9px; font-weight: 900; letter-spacing: .035em; }
+.edmund-pomodoro-header-button strong { white-space: nowrap; font-size: 13px; font-variant-numeric: tabular-nums; }
+.edmund-pomodoro-header-button[data-running="true"] { border-color: rgba(194, 50, 31, .5); background: linear-gradient(145deg, #fff0e3, #ffc3ad); }
+.edmund-pomodoro-header-button[data-running="true"] strong { font-size: 15px; }
+
+.edmund-pomodoro-dialog {
+  width: min(760px, calc(100vw - 24px));
+  max-width: none;
+  max-height: calc(100dvh - 24px);
+  margin: auto;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  color: inherit;
+  background: transparent;
+}
+
+.edmund-pomodoro-dialog::backdrop { background: rgba(41, 27, 23, .58); backdrop-filter: blur(7px); }
+
+.edmund-pomodoro-dialog__card {
+  width: 100%;
+  max-height: calc(100dvh - 24px);
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid rgba(255, 255, 255, .36);
+  border-radius: 29px;
+  overflow: auto;
+  color: #fff;
+  background: radial-gradient(circle at 85% 5%, rgba(255, 229, 190, .28), transparent 30%), linear-gradient(145deg, #ee3e24, #b71f1c 60%, #7d1118);
+  box-shadow: 0 32px 90px rgba(89, 12, 15, .5);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+}
+
+.edmund-pomodoro-dialog__heading { display: grid; grid-template-columns: 1fr 108px; align-items: center; gap: 20px; }
+.edmund-pomodoro-dialog__heading p { margin: 0 0 5px; color: rgba(255,255,255,.78); font-size: 10px; font-weight: 900; letter-spacing: .16em; }
+.edmund-pomodoro-dialog__heading h2 { margin: 0; font-family: Georgia, "Noto Serif TC", serif; font-size: clamp(30px, 5vw, 46px); }
+.edmund-pomodoro-dialog__heading img { width: 100%; max-height: 94px; object-fit: contain; }
+.edmund-pomodoro-dialog__intro { margin: 14px 0 20px; color: rgba(255, 255, 255, .9); font-size: 14px; line-height: 1.65; }
+.edmund-pomodoro-dialog__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+.edmund-pomodoro-dialog__grid label { min-width: 0; display: grid; gap: 6px; color: #fff; font-size: 13px; font-weight: 850; }
+.edmund-pomodoro-dialog__grid input:not([type="checkbox"]) { width: 100%; min-width: 0; min-height: 46px; padding: 8px 12px; border: 1px solid rgba(255, 255, 255, .42); border-radius: 12px; color: #5d1715; background: rgba(255, 255, 255, .95); font: inherit; }
+.edmund-pomodoro-toggle { grid-column: 1 / -1; grid-template-columns: auto 1fr !important; align-items: center; }
+.edmund-pomodoro-toggle input { width: 20px; height: 20px; margin: 0; accent-color: #ffe3bb; }
+.edmund-pomodoro-dialog__task { grid-column: 1 / -1; }
+.edmund-pomodoro-dialog__status { min-height: 20px; margin: 12px 0 0; color: rgba(255, 255, 255, .86); font-size: 12px; font-weight: 800; }
+.edmund-pomodoro-dialog__status[data-state="success"] { color: #fff5c7; }
+.edmund-pomodoro-dialog__actions { margin-top: 17px; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; }
+.edmund-pomodoro-dialog__actions button { min-height: 42px; padding: 9px 17px; border: 1px solid rgba(255, 255, 255, .48); border-radius: 999px; color: #fff; background: rgba(255, 255, 255, .12); font: inherit; font-size: 13px; font-weight: 900; cursor: pointer; }
+.edmund-pomodoro-dialog__actions [data-edmund-pomodoro-save] { color: #8b2019; background: #fff; }
+
+.edmund-pomodoro-break-lock {
+  position: fixed;
+  inset: 0;
+  z-index: 1000000;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  background: rgba(102, 48, 45, .7);
+  backdrop-filter: blur(9px) saturate(.86);
+}
+
+.edmund-pomodoro-break-lock[hidden] { display: none; }
+html.edmund-pomodoro-page-locked, html.edmund-pomodoro-page-locked body { overflow: hidden !important; }
+.edmund-pomodoro-break-card { width: min(760px, 100%); padding: clamp(28px, 5vw, 56px); border: 1px solid rgba(255, 255, 255, .48); border-radius: 32px; display: grid; grid-template-columns: 1fr minmax(180px, 34%); align-items: center; gap: 24px; color: #fff; background: linear-gradient(145deg, rgba(229, 105, 83, .96), rgba(180, 65, 69, .96)); box-shadow: 0 28px 80px rgba(75, 27, 28, .34); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; }
+.edmund-pomodoro-break-card h2 { margin: 0; font-family: Georgia, "Noto Serif TC", serif; font-size: clamp(36px, 7vw, 76px); line-height: 1; }
+.edmund-pomodoro-break-card strong { display: block; margin-top: 18px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(30px, 6vw, 64px); font-variant-numeric: tabular-nums; }
+.edmund-pomodoro-break-card img { width: 100%; max-height: 300px; object-fit: contain; }
+.edmund-pomodoro-break-skip { min-height: 43px; margin-top: 18px; padding: 9px 17px; border: 1px solid rgba(255, 255, 255, .7); border-radius: 999px; color: #9b332e; background: rgba(255, 255, 255, .94); font: inherit; font-weight: 900; cursor: pointer; }
+
 .edmund-system-switcher__menu {
   position: absolute;
   top: calc(100% + 9px);
@@ -763,6 +869,13 @@
     padding-inline: 7px;
     font-size: 10px;
   }
+
+  .edmund-pomodoro-header-button { min-width: 48px; width: 48px; padding: 6px; }
+  .edmund-pomodoro-header-button img { width: 32px; height: 32px; flex-basis: 32px; }
+  .edmund-pomodoro-header-button span { display: none; }
+  .edmund-pomodoro-dialog__heading { grid-template-columns: 1fr 76px; gap: 10px; }
+  .edmund-pomodoro-dialog__grid, .edmund-pomodoro-break-card { grid-template-columns: 1fr; }
+  .edmund-pomodoro-break-card img { max-height: 170px; grid-row: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -773,4 +886,6 @@
   .edmund-system-switcher__homebase {
     transition: none !important;
   }
+
+  .edmund-pomodoro-header-button { transition: none !important; }
 }

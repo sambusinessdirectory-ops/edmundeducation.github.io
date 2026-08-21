@@ -11,8 +11,9 @@ import {
 
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
-const [html, script, scheduleMigration, writingMigration, linkModule] = await Promise.all([
+const [html, script, sharedNav, sharedNavCss, scheduleMigration, writingMigration, linkModule] = await Promise.all([
   read("schedule-system.html"), read("schedule-system.js"),
+  read("shared-system-nav.js"), read("shared-system-nav.css"),
   read("supabase-schedule-learning-experience-20260820.sql"),
   read("supabase-writing-submission-manual-topics-20260820.sql"),
   read("schedule-homework-links.mjs")
@@ -41,24 +42,25 @@ assert.match(html, /連續學習日數/);
 assert.match(html, /總學習日數/);
 assert.match(html, /data-purpose-font-size="3"/);
 assert.match(html, /語言與機遇/);
-assert.match(html, /data-pomodoro-break-lock/);
-assert.match(html, /data-pomodoro-allow-skip/);
-assert.match(html, /data-pomodoro-skip-break/);
-assert.match(html, /class="pomodoro-header-button"[\s\S]*?data-pomodoro-header/);
-assert.match(html, /html\.pomodoro-page-locked[\s\S]*?overflow:hidden/);
-assert.match(html, /dialog\[data-pomodoro-dialog\][^{]*\{[^}]*width:min\(760px,calc\(100vw - 24px\)\)[^}]*overflow:visible/s);
+assert.match(sharedNav, /data-edmund-pomodoro-break-lock/);
+assert.match(sharedNav, /data-edmund-pomodoro-allow-skip/);
+assert.match(sharedNav, /data-edmund-pomodoro-skip-break/);
+assert.match(sharedNav, /className = "edmund-pomodoro-header-button"/);
+assert.match(sharedNavCss, /html\.edmund-pomodoro-page-locked[\s\S]*?overflow: hidden !important/);
+assert.match(sharedNavCss, /\.edmund-pomodoro-dialog\s*\{[^}]*width: min\(760px, calc\(100vw - 24px\)\)[^}]*overflow: visible/s);
+assert.doesNotMatch(html, /data-pomodoro-header|data-pomodoro-dialog|data-pomodoro-break-lock/);
 assert.match(html, /\.learning-day-counter\s*\{[^}]*padding:0[^}]*\}/s);
 assert.doesNotMatch(html, /\.learning-day-counter\s*\{[^}]*border:1px/s);
-assert.match(html, /\.pomodoro-break-lock\s*\{[^}]*background:rgba\(102,48,45,\.7\)/s);
-assert.match(script, /function skipPomodoroBreak\(\)/);
-assert.match(script, /pomodoroState\.settings\.allowSkipBreak/);
+assert.match(sharedNavCss, /\.edmund-pomodoro-break-lock\s*\{[^}]*background: rgba\(102, 48, 45, \.7\)/s);
+assert.match(sharedNav, /function skipPomodoroBreak\(\)/);
+assert.match(sharedNav, /pomodoroState\.settings\.allowSkipBreak/);
 assert.match(script, /edmund-student-progress\.edmundeducation\.workers\.dev/);
 assert.match(script, /STUDENT_PROGRESS_WORKER_URL\}\/v1\/progress/);
 assert.match(script, /schedule_admin_teacher_assignment_students/);
 assert.match(script, /schedule_admin_resource_usage/);
 assert.match(script, /refreshManualWriting: type === "writing-submission"/);
 assert.match(script, /elements\.homeworkPickerSearch\.focus\(\)/);
-assert.match(script, /header\.inert = locked[\s\S]*?main\.inert = locked/);
+assert.match(sharedNav, /element\.inert = true[\s\S]*?element\.inert = false/);
 assert.match(scheduleMigration, /alter table public\.schedule_language_opportunities enable row level security/i);
 assert.match(scheduleMigration, /public\._schedule_admin_id\(p_admin_token\) is null/i);
 assert.match(scheduleMigration, /schedule_admin_resource_usage/);

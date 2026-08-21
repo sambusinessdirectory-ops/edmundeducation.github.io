@@ -7,7 +7,7 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
-const sharedNavRelease = "20260820-2";
+const sharedNavRelease = "20260821-pomodoro1";
 
 class MemoryStorage {
   constructor() { this.values = new Map(); }
@@ -235,7 +235,7 @@ test("every system portal loads one consistent shared navigation CSS and JS rele
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
     assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation CSS ${sharedNavRelease}`);
     assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`), `${system.href} must load shared navigation JS ${sharedNavRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260820-2)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.doesNotMatch(html, /shared-system-nav\.(?:css|js)\?v=(?!20260821-pomodoro1)/, `${system.href} must not retain a stale shared navigation release`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavRelease}`));
@@ -248,6 +248,38 @@ test("every portal can create the shared password control before login and revea
   assert.doesNotMatch(scriptSource, /if \(!studentSessionCandidate\(\) \|\| document\.querySelector/);
   assert.match(scriptSource, /shared_student_change_password/);
   assert.match(scriptSource, /更改用戶系統 Password/);
+});
+
+test("every system header receives one shared account-aware Pomodoro controller", () => {
+  const { api } = navigationRuntime();
+  assert.equal(api.pomodoro.formatRemaining(61_000), "01:01");
+  assert.deepEqual({ ...api.pomodoro.normalizeSettings({ enabled: true, workMinutes: 30, shortBreakMinutes: 7 }) }, {
+    enabled: true,
+    allowSkipBreak: false,
+    workMinutes: 30,
+    shortBreakMinutes: 7,
+    longBreakMinutes: 25,
+    sessionsBeforeLongBreak: 4,
+    taskLabel: "英文學習"
+  });
+  assert.equal(api.pomodoro.nextPhase({
+    phase: "work",
+    completedSessions: 3,
+    settings: { sessionsBeforeLongBreak: 4 }
+  }).phase, "long-break");
+  assert.match(scriptSource, /function ensurePomodoro\(\)/);
+  assert.match(scriptSource, /data-edmund-pomodoro-header/);
+  assert.match(scriptSource, /data-edmund-pomodoro-dialog/);
+  assert.match(scriptSource, /data-edmund-pomodoro-break-lock/);
+  assert.match(scriptSource, /edmund-schedule-pomodoro-v1/);
+  assert.match(scriptSource, /studentSessionCandidate\(\)/);
+  assert.match(scriptSource, /window\.addEventListener\("storage"/);
+  assert.match(cssSource, /\.edmund-pomodoro-header-button/);
+  assert.match(cssSource, /html\.edmund-pomodoro-page-locked/);
+
+  const schedule = fs.readFileSync(path.join(root, "schedule-system.html"), "utf8");
+  assert.doesNotMatch(schedule, /data-pomodoro-header|data-pomodoro-dialog|data-pomodoro-break-lock/,
+    "Homework must use the shared Pomodoro instead of rendering a duplicate local controller");
 });
 
 test("menu behavior covers hover, focus, Escape and click-outside", () => {

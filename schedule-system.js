@@ -79,14 +79,9 @@ import {
   wellbeingRatingsByMetricAndDate
 } from "./schedule-wellbeing.mjs?v=20260820-gradient-labels1";
 import {
-  DEFAULT_POMODORO_SETTINGS,
-  formatPomodoroRemaining,
   learningDaySummary,
-  nextPomodoroPhase,
-  normalizePomodoroSettings,
-  normalizePurposeFontSize,
-  pomodoroPhaseDurationMs
-} from "./schedule-learning-experience.mjs?v=20260820-pomodoro-polish1";
+  normalizePurposeFontSize
+} from "./schedule-learning-experience.mjs?v=20260821-shared-pomodoro1";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
@@ -97,7 +92,6 @@ const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const COUNTDOWN_COLLAPSED_KEY = "edmund-schedule-countdown-collapsed-v1";
 const SCHEDULE_CLIPBOARD_SESSION_KEY = "edmund-schedule-clipboard-v1";
 const SCHEDULE_CLIPBOARD_MIME = "application/x-edmund-schedule-slots+json";
-const POMODORO_STORAGE_PREFIX = "edmund-schedule-pomodoro-v1";
 const MAX_SLOTS_PER_DAY = 100;
 const MIN_COUNTDOWNS = COUNTDOWN_INITIAL_CAPACITY;
 const MAX_COUNTDOWNS = COUNTDOWN_MAX_CAPACITY;
@@ -388,24 +382,6 @@ const elements = {
   printGrid: document.querySelector("[data-print-grid]")
 };
 
-elements.pomodoroHeader = document.querySelector("[data-pomodoro-header]");
-elements.pomodoroHeaderTime = elements.pomodoroHeader?.querySelector("[data-pomodoro-header-time]");
-elements.pomodoroDialog = document.querySelector("[data-pomodoro-dialog]");
-elements.pomodoroForm = document.querySelector("[data-pomodoro-form]");
-elements.pomodoroEnabled = document.querySelector("[data-pomodoro-enabled]");
-elements.pomodoroAllowSkip = document.querySelector("[data-pomodoro-allow-skip]");
-elements.pomodoroWork = document.querySelector("[data-pomodoro-work]");
-elements.pomodoroShortBreak = document.querySelector("[data-pomodoro-short-break]");
-elements.pomodoroLongBreak = document.querySelector("[data-pomodoro-long-break]");
-elements.pomodoroCycles = document.querySelector("[data-pomodoro-cycles]");
-elements.pomodoroTask = document.querySelector("[data-pomodoro-task]");
-elements.pomodoroStatus = document.querySelector("[data-pomodoro-status]");
-elements.pomodoroClose = document.querySelector("[data-close-pomodoro]");
-elements.pomodoroReset = document.querySelector("[data-reset-pomodoro]");
-elements.pomodoroBreakLock = document.querySelector("[data-pomodoro-break-lock]");
-elements.pomodoroBreakCountdown = document.querySelector("[data-pomodoro-break-countdown]");
-elements.pomodoroBreakKicker = document.querySelector("[data-pomodoro-break-kicker]");
-elements.pomodoroSkipBreak = document.querySelector("[data-pomodoro-skip-break]");
 
 const state = {
   currentUser: null,
@@ -493,9 +469,6 @@ const state = {
   editingAnnouncementVersion: null,
   announcementMutationInFlight: false
 };
-
-let pomodoroState = null;
-let pomodoroTimerId = null;
 
 let homeworkResourceCatalog = null;
 let homeworkCatalogPromise = null;
@@ -2371,135 +2344,6 @@ async function loadLearningDayCounters() {
   renderLearningDayCounters();
 }
 
-function pomodoroStorageKey() {
-  const identity = state.currentUser?.role === "student"
-    ? `student:${state.currentUser.id || state.currentUser.name || "account"}`
-    : state.currentUser?.role === "admin" ? `admin:${state.currentUser.name || "account"}` : "guest";
-  return `${POMODORO_STORAGE_PREFIX}:${identity}`;
-}
-
-function readPomodoroState() {
-  try {
-    const value = JSON.parse(localStorage.getItem(pomodoroStorageKey()) || "null");
-    if (!value || typeof value !== "object") return null;
-    const settings = normalizePomodoroSettings(value.settings);
-    return {
-      settings,
-      phase: ["work", "short-break", "long-break"].includes(value.phase) ? value.phase : "work",
-      completedSessions: Math.max(0, Number(value.completedSessions) || 0),
-      endsAt: Number(value.endsAt) || 0
-    };
-  } catch { return null; }
-}
-
-function writePomodoroState() {
-  try {
-    if (pomodoroState) localStorage.setItem(pomodoroStorageKey(), JSON.stringify(pomodoroState));
-    else localStorage.removeItem(pomodoroStorageKey());
-  } catch { /* Timer can continue in memory when storage is unavailable. */ }
-}
-
-function currentPomodoroSettingsFromForm() {
-  return normalizePomodoroSettings({
-    enabled: elements.pomodoroEnabled.checked,
-    allowSkipBreak: elements.pomodoroAllowSkip.checked,
-    workMinutes: Number(elements.pomodoroWork.value),
-    shortBreakMinutes: Number(elements.pomodoroShortBreak.value),
-    longBreakMinutes: Number(elements.pomodoroLongBreak.value),
-    sessionsBeforeLongBreak: Number(elements.pomodoroCycles.value),
-    taskLabel: elements.pomodoroTask.value
-  });
-}
-
-function populatePomodoroForm() {
-  const settings = normalizePomodoroSettings(pomodoroState?.settings || DEFAULT_POMODORO_SETTINGS);
-  elements.pomodoroEnabled.checked = settings.enabled;
-  elements.pomodoroAllowSkip.checked = settings.allowSkipBreak;
-  elements.pomodoroWork.value = settings.workMinutes;
-  elements.pomodoroShortBreak.value = settings.shortBreakMinutes;
-  elements.pomodoroLongBreak.value = settings.longBreakMinutes;
-  elements.pomodoroCycles.value = settings.sessionsBeforeLongBreak;
-  elements.pomodoroTask.value = settings.taskLabel;
-  setStatus(elements.pomodoroStatus, pomodoroState?.endsAt ? "目前倒數會在儲存後重新開始。" : "");
-}
-
-function beginPomodoroPhase(phase, completedSessions = 0) {
-  const settings = normalizePomodoroSettings(pomodoroState?.settings || DEFAULT_POMODORO_SETTINGS);
-  pomodoroState = { settings, phase, completedSessions, endsAt: Date.now() + pomodoroPhaseDurationMs(settings, phase) };
-  writePomodoroState();
-  tickPomodoro();
-}
-
-function setPomodoroPageLocked(locked) {
-  document.documentElement.classList.toggle("pomodoro-page-locked", locked);
-  const header = document.querySelector(".site-header");
-  const main = document.querySelector("main");
-  if (header) header.inert = locked;
-  if (main) main.inert = locked;
-}
-
-function stopPomodoro() {
-  pomodoroState = null;
-  writePomodoroState();
-  elements.pomodoroBreakLock.hidden = true;
-  setPomodoroPageLocked(false);
-  renderPomodoroHeader();
-}
-
-function skipPomodoroBreak() {
-  if (!pomodoroState || pomodoroState.phase === "work" || !pomodoroState.settings.allowSkipBreak) return;
-  pomodoroState.phase = "work";
-  pomodoroState.endsAt = Date.now() + pomodoroPhaseDurationMs(pomodoroState.settings, "work");
-  writePomodoroState();
-  tickPomodoro();
-  showToast("已略過休息，下一輪專注時間現在開始。", "success");
-}
-
-function renderPomodoroHeader() {
-  const running = Boolean(pomodoroState?.settings?.enabled && pomodoroState?.endsAt);
-  elements.pomodoroHeader.dataset.running = String(running);
-  if (!running) return void (elements.pomodoroHeaderTime.textContent = "設定計時");
-  const labels = { work: "專注", "short-break": "短休", "long-break": "長休" };
-  elements.pomodoroHeaderTime.textContent = `${labels[pomodoroState.phase]} ${formatPomodoroRemaining(pomodoroState.endsAt - Date.now())}`;
-}
-
-function tickPomodoro() {
-  if (!pomodoroState?.settings?.enabled || !pomodoroState.endsAt) {
-    elements.pomodoroBreakLock.hidden = true;
-    setPomodoroPageLocked(false);
-    return renderPomodoroHeader();
-  }
-  let guard = 0;
-  while (Date.now() >= pomodoroState.endsAt && guard < 6) {
-    const next = nextPomodoroPhase(pomodoroState);
-    pomodoroState.phase = next.phase;
-    pomodoroState.completedSessions = next.completedSessions;
-    pomodoroState.endsAt += pomodoroPhaseDurationMs(pomodoroState.settings, next.phase);
-    guard += 1;
-  }
-  const onBreak = pomodoroState.phase !== "work";
-  elements.pomodoroBreakLock.hidden = !onBreak;
-  if (elements.pomodoroSkipBreak) {
-    elements.pomodoroSkipBreak.hidden = !(onBreak && pomodoroState.settings.allowSkipBreak);
-  }
-  setPomodoroPageLocked(onBreak);
-  if (onBreak) {
-    elements.pomodoroBreakKicker.textContent = pomodoroState.phase === "long-break"
-      ? `完成 ${pomodoroState.settings.sessionsBeforeLongBreak} 輪 · 長休時間`
-      : "專注完成 · 短休時間";
-    elements.pomodoroBreakCountdown.textContent = formatPomodoroRemaining(pomodoroState.endsAt - Date.now());
-  }
-  writePomodoroState();
-  renderPomodoroHeader();
-}
-
-function restorePomodoro() {
-  window.clearInterval(pomodoroTimerId);
-  pomodoroState = readPomodoroState();
-  tickPomodoro();
-  pomodoroTimerId = window.setInterval(tickPomodoro, 250);
-}
-
 async function loadLearningPurposeVersion(versionId = null) {
   const student = activeStudent();
   if (!student || !state.currentUser || state.learningPurposeBusy) return;
@@ -3557,7 +3401,6 @@ async function restoreSession() {
         adminToken: saved.adminToken,
         expiresAt: saved.expiresAt || null
       };
-      restorePomodoro();
       await openAdminPanel();
       return state.currentUser?.role === "admin";
     }
@@ -3570,7 +3413,6 @@ async function restoreSession() {
         studentToken: saved.studentToken
       };
       state.selectedStudent = { id: saved.id, name: saved.name };
-      restorePomodoro();
       showView("calendar");
       await loadWeek();
       return state.currentUser?.role === "student";
@@ -3615,7 +3457,6 @@ async function login(event) {
         adminToken: result.admin.admin_token,
         expiresAt: result.admin.expires_at
       };
-      restorePomodoro();
       saveSession();
       elements.loginForm.reset();
       await openAdminPanel();
@@ -3636,7 +3477,6 @@ async function login(event) {
       name: student.name,
       studentToken: student.session_token
     };
-    restorePomodoro();
     window.EdmundSystemNav?.rememberStudentSession({
       token: student.session_token,
       id: student.id,
@@ -3670,7 +3510,6 @@ async function logout() {
   clearStoredScheduleClipboard();
   if (user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
   state.currentUser = null;
-  restorePomodoro();
   state.selectedStudent = null;
   state.adminStudents = [];
   state.adminParents = [];
@@ -7576,27 +7415,6 @@ elements.learningPurposeNewer?.addEventListener("click", () => {
 elements.learningPurposeLatest?.addEventListener("click", () => loadLearningPurposeVersion(null));
 elements.purposeFontButtons.forEach((button) => button.addEventListener("click", () => setPurposeFontSize(button.dataset.purposeFontSize)));
 elements.languageOpportunitiesSave?.addEventListener("click", saveLanguageOpportunities);
-elements.pomodoroHeader?.addEventListener("click", () => {
-  populatePomodoroForm();
-  elements.pomodoroDialog.showModal();
-});
-elements.pomodoroClose?.addEventListener("click", () => elements.pomodoroDialog.close());
-elements.pomodoroReset?.addEventListener("click", () => {
-  stopPomodoro();
-  populatePomodoroForm();
-  setStatus(elements.pomodoroStatus, "番茄鐘已停止及重設。", "success");
-});
-elements.pomodoroSkipBreak?.addEventListener("click", skipPomodoroBreak);
-elements.pomodoroForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const settings = currentPomodoroSettingsFromForm();
-  if (!settings.enabled) stopPomodoro();
-  else {
-    pomodoroState = { settings, phase: "work", completedSessions: 0, endsAt: 0 };
-    beginPomodoroPhase("work", 0);
-  }
-  elements.pomodoroDialog.close();
-});
 elements.toggleSelection?.addEventListener("click", () => {
   if (state.massEditMode) toggleClipboardSelectionMode();
   else toggleSelectionMode();
@@ -7716,7 +7534,6 @@ elements.entryDialog.addEventListener("click", (event) => {
 
 async function initialize() {
   renderEntryTagOptions();
-  restorePomodoro();
   applyPurposeFontSize();
   showView("login");
   setConnection("正在連接", "connecting");

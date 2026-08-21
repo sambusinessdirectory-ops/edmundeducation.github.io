@@ -1091,32 +1091,6 @@
     .learning-day-counter img { width:42px; height:42px; object-fit:contain; }
     .learning-day-counter strong { display:block; color:#183b60; font-size:24px; line-height:1; }
     .learning-day-counter span { display:block; margin-top:4px; color:#60758a; font-size:10px; font-weight:900; white-space:nowrap; }
-    .pomodoro-header-button { display:inline-flex; align-items:center; gap:9px; min-height:45px; border:1px solid rgba(221,75,48,.32); border-radius:14px; padding:6px 12px; color:#7d281a; background:linear-gradient(145deg,#fff3e8,#ffd6c2); box-shadow:0 7px 18px rgba(157,48,25,.12); cursor:pointer; font-weight:900; }
-    .pomodoro-header-button img { width:34px; height:34px; object-fit:contain; }
-    .pomodoro-header-button small { display:block; color:#9d4b39; font-size:10px; }
-    .pomodoro-header-button strong { display:block; font-size:13px; }
-    .pomodoro-header-button[data-running="true"] strong { font-variant-numeric:tabular-nums; font-size:17px; }
-    dialog[data-pomodoro-dialog] { width:min(760px,calc(100vw - 24px)); max-width:none; max-height:calc(100vh - 24px); margin:auto; border:0; padding:0; overflow:visible; color:inherit; background:transparent; }
-    dialog[data-pomodoro-dialog]::backdrop { background:rgba(41,27,23,.58); backdrop-filter:blur(7px); }
-    .pomodoro-dialog-card { box-sizing:border-box; width:100%; max-height:calc(100vh - 24px); overflow:auto; border:0; border-radius:28px; padding:28px; color:#fff; background:radial-gradient(circle at 85% 5%,rgba(255,229,190,.28),transparent 30%),linear-gradient(145deg,#ee3e24,#b71f1c 60%,#7d1118); box-shadow:0 32px 90px rgba(89,12,15,.5); }
-    .pomodoro-dialog-card h2 { margin:0; font-size:clamp(28px,4vw,43px); }
-    .pomodoro-dialog-card > p { color:rgba(255,255,255,.9); line-height:1.65; }
-    .pomodoro-dialog-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:13px; }
-    .pomodoro-dialog-grid label { min-width:0; display:grid; gap:6px; font-weight:850; }
-    .pomodoro-dialog-grid input { box-sizing:border-box; width:100%; min-width:0; min-height:44px; border:1px solid rgba(255,255,255,.42); border-radius:12px; padding:8px 11px; background:rgba(255,255,255,.94); color:#5d1715; }
-    .pomodoro-toggle { display:flex !important; grid-column:1/-1; grid-template-columns:auto 1fr !important; align-items:center; }
-    .pomodoro-toggle input { min-height:0; width:20px; height:20px; }
-    .pomodoro-dialog-actions { display:flex; justify-content:flex-end; flex-wrap:wrap; gap:10px; margin-top:18px; }
-    .pomodoro-dialog-actions button { min-height:42px; border:1px solid rgba(255,255,255,.48); border-radius:999px; padding:9px 17px; color:#fff; background:rgba(255,255,255,.12); font-weight:900; cursor:pointer; }
-    .pomodoro-dialog-actions [data-save-pomodoro] { color:#8b2019; background:#fff; }
-    .pomodoro-break-lock { position:fixed; inset:0; z-index:100000; display:grid; place-items:center; padding:24px; background:rgba(102,48,45,.7); backdrop-filter:blur(9px) saturate(.86); }
-    .pomodoro-break-lock[hidden] { display:none; }
-    html.pomodoro-page-locked,html.pomodoro-page-locked body { overflow:hidden; }
-    .pomodoro-break-card { width:min(760px,100%); display:grid; grid-template-columns:1fr minmax(180px,34%); align-items:center; gap:24px; border:1px solid rgba(255,255,255,.48); border-radius:32px; padding:clamp(28px,5vw,56px); color:#fff; background:linear-gradient(145deg,rgba(229,105,83,.96),rgba(180,65,69,.96)); box-shadow:0 28px 80px rgba(75,27,28,.34); }
-    .pomodoro-break-card h2 { margin:0; font-size:clamp(36px,7vw,76px); line-height:1; }
-    .pomodoro-break-card strong { display:block; margin-top:18px; font-size:clamp(30px,6vw,64px); font-variant-numeric:tabular-nums; }
-    .pomodoro-break-card img { width:100%; max-height:300px; object-fit:contain; }
-    .pomodoro-break-skip { margin-top:18px; min-height:43px; border:1px solid rgba(255,255,255,.7); border-radius:999px; padding:9px 17px; color:#9b332e; background:rgba(255,255,255,.94); font-weight:900; cursor:pointer; }
     .calendar-scroll {
       position: relative;
       overflow-x: auto;
@@ -1968,7 +1942,6 @@
       .dialog-card { padding: 22px; }
       .homework-picker-results { max-height: 210px; }
       .purpose-meaning-row { grid-template-columns:1fr; }
-      .pomodoro-dialog-grid,.pomodoro-break-card { grid-template-columns:1fr; }
       .homework-type-summary { align-items: flex-start; flex-direction: column; }
       .homework-type-total { text-align: left; }
       .homework-type-layout { grid-template-columns: 1fr; }
@@ -2020,7 +1993,7 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   </style>
-  <link rel="stylesheet" href="shared-system-nav.css?v=20260820-2">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260821-pomodoro1">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -2037,10 +2010,6 @@
           <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
         </button>
       </div>
-      <button class="pomodoro-header-button" type="button" data-pomodoro-header>
-        <img src="assets/schedule/pomodoro-method.png" alt="">
-        <span><small>番茄鐘工作法</small><strong data-pomodoro-header-time>設定計時</strong></span>
-      </button>
       <div class="header-actions edmund-system-header__actions">
         <span class="connection-pill" data-connection-status data-state="connecting">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
@@ -2468,26 +2437,6 @@
     </form>
   </dialog>
 
-  <dialog data-pomodoro-dialog aria-labelledby="pomodoro-dialog-title">
-    <form class="pomodoro-dialog-card" data-pomodoro-form method="dialog">
-      <h2 id="pomodoro-dialog-title">番茄鐘工作法</h2>
-      <p>把學習分成專注時段與固定休息：預設專注 25 分鐘、短休 5 分鐘；完成四輪後進入長休。設定後可關閉視窗，倒數會留在頁首；休息期間頁面會暫時鎖定，倒數完畢便自動開始下一輪。</p>
-      <div class="pomodoro-dialog-grid">
-        <label class="pomodoro-toggle"><input type="checkbox" data-pomodoro-enabled>啟用番茄鐘</label>
-        <label class="pomodoro-toggle"><input type="checkbox" data-pomodoro-allow-skip>允許我在需要時手動略過休息</label>
-        <label>專注分鐘<input type="number" min="1" max="180" data-pomodoro-work></label>
-        <label>短休分鐘<input type="number" min="1" max="60" data-pomodoro-short-break></label>
-        <label>長休分鐘<input type="number" min="1" max="120" data-pomodoro-long-break></label>
-        <label>每幾輪長休<input type="number" min="1" max="12" data-pomodoro-cycles></label>
-        <label style="grid-column:1/-1">本輪學習目標<input type="text" maxlength="60" data-pomodoro-task></label>
-      </div>
-      <p class="form-status" data-pomodoro-status role="status" aria-live="polite"></p>
-      <div class="pomodoro-dialog-actions"><button type="button" data-reset-pomodoro>停止並重設</button><button type="button" data-close-pomodoro>取消</button><button type="submit" data-save-pomodoro>儲存並開始</button></div>
-    </form>
-  </dialog>
-  <section class="pomodoro-break-lock" data-pomodoro-break-lock hidden aria-live="assertive" aria-modal="true" role="dialog">
-    <div class="pomodoro-break-card"><div><p data-pomodoro-break-kicker>番茄鐘休息時間</p><h2>Time to take a break!</h2><strong data-pomodoro-break-countdown>05:00</strong><p>休息倒數完成後，頁面會自動解鎖並開始下一個專注時段。</p><button class="pomodoro-break-skip" type="button" data-pomodoro-skip-break hidden>略過休息，繼續學習</button></div><img src="assets/schedule/pomodoro-method.png" alt="Pomodoro Method"></div>
-  </section>
 
   <dialog data-delete-dialog aria-labelledby="delete-dialog-title">
     <div class="dialog-card">
@@ -2614,7 +2563,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script src="shared-system-nav.js?v=20260820-2"></script>
-  <script type="module" src="schedule-system.js?v=20260820-pomodoro-polish1"></script>
+  <script src="shared-system-nav.js?v=20260821-pomodoro1"></script>
+  <script type="module" src="schedule-system.js?v=20260821-shared-pomodoro1"></script>
 </body>
 </html>
