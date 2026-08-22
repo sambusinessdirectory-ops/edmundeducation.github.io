@@ -7,6 +7,7 @@ const TEXT_SCALES = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 
 const PRACTICE_ONE = window.EDMUND_IELTS_LISTENING_PRACTICE_1 || null;
 const PRACTICE_ONE_TRANSCRIPT = window.EDMUND_IELTS_LISTENING_PRACTICE_1_TRANSCRIPT || {};
 const PRACTICE_ONE_ANALYSIS = window.EDMUND_IELTS_LISTENING_PRACTICE_1_ANALYSIS || {};
+const PRACTICE_ONE_TIMINGS = window.EDMUND_IELTS_LISTENING_PRACTICE_1_TIMINGS || { parts: {}, questions: {} };
 
 const state = {
   supabase: null,
@@ -23,8 +24,12 @@ const state = {
   practicePart: 1,
   listeningBookmarks: new Set(),
   visibleAnswerParts: new Set(),
+  visibleAnswerQuestions: new Set(),
+  syncHighlights: true,
   textScale: normalizeTextScale(restorePreference("edmund-listening-text-scale", "1"))
 };
+
+let analysisHideTimer = 0;
 
 const elements = {
   views: [...document.querySelectorAll("[data-view]")],
@@ -110,6 +115,7 @@ async function setListeningBookmark(button) {
     if (bookmarked) state.listeningBookmarks.add(itemKey); else state.listeningBookmarks.delete(itemKey);
     if (source) document.querySelectorAll(`[data-bookmark-source="${CSS.escape(source)}"]`).forEach((item) => item.dataset.bookmarked = String(bookmarked));
     document.querySelectorAll(`[data-bookmark-item="${CSS.escape(itemKey)}"]`).forEach((item) => item.dataset.bookmarked = String(bookmarked));
+    document.querySelectorAll(`[data-analysis-dialog-bookmark][data-bookmark-item="${CSS.escape(itemKey)}"]`).forEach((item) => { item.textContent = bookmarked ? "★ 已收藏解析" : "☆ 收藏解析"; });
     showToast(bookmarked ? `已收藏「${title}」` : `已移除「${title}」書簽`);
   } catch (error) {
     console.warn("Listening bookmark save failed", error);
@@ -386,7 +392,7 @@ function analysisFor(number) {
 
 function officialAnswer(number) {
   const analysis = analysisFor(number);
-  return `<button class="listening-official-answer" type="button" data-official-answer data-analysis-q="${number}" hidden aria-label="查看第 ${number} 題解析">正確答案：<strong>${escapeHtml(analysis.answer)}</strong><span>移至此處查看解析</span></button>`;
+  return `<span class="single-answer-tools"><button class="single-answer-reveal" type="button" data-reveal-answer-q="${number}" aria-pressed="false">看答案</button><button class="listening-official-answer" type="button" data-official-answer data-analysis-q="${number}" hidden aria-label="查看第 ${number} 題解析">正確答案：<strong>${escapeHtml(analysis.answer)}</strong><span>移至此處查看解析</span></button></span>`;
 }
 
 function answerInput(number, compact = false) {
@@ -416,7 +422,7 @@ function renderQuestion(question) {
 
 function renderTranscript(partNumber) {
   const rows = Array.isArray(PRACTICE_ONE_TRANSCRIPT[String(partNumber)]) ? PRACTICE_ONE_TRANSCRIPT[String(partNumber)] : [];
-  return `<section class="listening-transcript" aria-labelledby="transcript-title-${partNumber}"><div class="listening-transcript__head"><div><p class="eyebrow">SYNCHRONISED TRANSCRIPT</p><h3 id="transcript-title-${partNumber}">Part ${partNumber} 錄音稿</h3></div><p>播放錄音時，相應句子會自動高亮。點擊一行可跳至估算位置；畫面不會被強制捲動。</p></div><div class="transcript-lines" data-transcript-part="${partNumber}">${rows.map((row, index) => { const itemKey = `practice1:transcript:p${partNumber}:line:${index}`; const active = state.listeningBookmarks.has(itemKey); return `<div class="transcript-line" role="button" tabindex="0" data-transcript-line="${index}"><div class="transcript-line__top"><span>${wordButtons(row.en, `p${partNumber}:t${index}`, `Part ${partNumber} transcript: ${row.en}`)}</span><button class="bookmark-entry" type="button" data-bookmark-item="${itemKey}" data-bookmark-title="Part ${partNumber} 錄音稿第 ${index + 1} 行" data-bookmark-detail="${escapeHtml(`${row.en}\n${row.zh}`)}" data-bookmark-part="${partNumber}" data-bookmark-anchor="transcript-title-${partNumber}" data-bookmarked="${active}" aria-label="收藏此行">☆ 收藏此行</button></div><small data-zh hidden>${escapeHtml(row.zh)}</small></div>`; }).join("")}</div></section>`;
+  return `<section class="listening-transcript" aria-labelledby="transcript-title-${partNumber}"><div class="listening-transcript__head"><div><p class="eyebrow">AUTHORED-TIMESTAMP TRANSCRIPT</p><div class="transcript-title-row"><h3 id="transcript-title-${partNumber}">Part ${partNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>高亮位置由錄音逐字時間校準。點擊一行可跳到該句開頭；畫面不會被強制捲動。</p></div><div class="transcript-lines" data-transcript-part="${partNumber}">${rows.map((row, index) => { const itemKey = `practice1:transcript:p${partNumber}:line:${index}`; const active = state.listeningBookmarks.has(itemKey); return `<div class="transcript-line" role="button" tabindex="0" data-transcript-line="${index}"><div class="transcript-line__top"><span>${wordButtons(row.en, `p${partNumber}:t${index}`, `Part ${partNumber} transcript: ${row.en}`)}</span><button class="bookmark-entry" type="button" data-bookmark-item="${itemKey}" data-bookmark-title="Part ${partNumber} 錄音稿第 ${index + 1} 行" data-bookmark-detail="${escapeHtml(`${row.en}\n${row.zh}`)}" data-bookmark-part="${partNumber}" data-bookmark-anchor="transcript-title-${partNumber}" data-bookmarked="${active}" aria-label="收藏此行">☆ 收藏此行</button></div><small data-zh hidden>${escapeHtml(row.zh)}</small></div>`; }).join("")}</div></section>`;
 }
 
 function renderAnalysisSection(partNumber) {
@@ -432,7 +438,7 @@ function renderPracticePart(partNumber) {
   elements.workspace.querySelectorAll("[data-part-tab]").forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.partTab) === partNumber)));
   const host = elements.workspace.querySelector("[data-practice-part-host]");
   host.innerHTML = `<section class="listening-part"><div class="listening-part__head"><div><p class="eyebrow">QUESTIONS ${partNumber === 1 ? "1–10" : partNumber === 2 ? "11–20" : partNumber === 3 ? "21–30" : "31–40"}</p><h2>Part ${partNumber}</h2><p>${wordButtons(part.instruction, `p${partNumber}:instruction`, `Part ${partNumber}: ${part.instruction}`)}</p><p data-zh hidden>${escapeHtml(part.instructionZh)}</p></div><div class="listening-part__actions"><button class="secondary-button" type="button" data-toggle-translation aria-pressed="false">顯示中文翻譯</button><button class="secondary-button" type="button" data-show-part-answers aria-pressed="false">顯示答案</button><button class="primary-button" type="button" data-check-part>檢查答案</button></div></div>${part.table ? renderPartOneTable(part) : ""}<div class="listening-question-list">${part.table ? "" : part.questions.map(renderQuestion).join("")}</div><div class="listening-part-score" data-part-score hidden></div>${renderTranscript(partNumber)}${renderAnalysisSection(partNumber)}</section>`;
-  setPartAnswersVisibility(state.visibleAnswerParts.has(partNumber));
+  refreshAnswerVisibility();
   bindTranscriptSync(partNumber);
   bindAnswerAnalysisDialogs();
   setFloatingAudioPart(partNumber);
@@ -463,14 +469,43 @@ function questionCorrect(question) {
   return accepted.includes(normaliseAnswer(value));
 }
 
-function setPartAnswersVisibility(show) {
+function partQuestionNumbers(partNumber = state.practicePart) {
+  const part = PRACTICE_ONE.parts.find((item) => item.part === partNumber);
+  return part ? part.questions.flatMap((question) => question.type === "multi" ? question.numbers : [question.number]) : [];
+}
+
+function refreshAnswerVisibility() {
+  const showAll = state.visibleAnswerParts.has(state.practicePart);
   const button = elements.workspace.querySelector("[data-show-part-answers]");
-  if (show) state.visibleAnswerParts.add(state.practicePart); else state.visibleAnswerParts.delete(state.practicePart);
-  elements.workspace.querySelectorAll("[data-official-answer]").forEach((answer) => { answer.hidden = !show; });
+  elements.workspace.querySelectorAll("[data-official-answer]").forEach((answer) => {
+    const number = Number(answer.dataset.analysisQ);
+    answer.hidden = !(showAll || state.visibleAnswerQuestions.has(number));
+  });
+  elements.workspace.querySelectorAll("[data-reveal-answer-q]").forEach((reveal) => {
+    const number = Number(reveal.dataset.revealAnswerQ);
+    const showing = showAll || state.visibleAnswerQuestions.has(number);
+    reveal.setAttribute("aria-pressed", String(showing));
+    reveal.textContent = showing ? "收起答案" : "看答案";
+  });
   if (button) {
-    button.setAttribute("aria-pressed", String(show));
-    button.textContent = show ? "隱藏答案" : "顯示答案";
+    button.setAttribute("aria-pressed", String(showAll));
+    button.textContent = showAll ? "隱藏全部答案" : "顯示全部答案";
   }
+}
+
+function setPartAnswersVisibility(show) {
+  if (show) state.visibleAnswerParts.add(state.practicePart);
+  else {
+    state.visibleAnswerParts.delete(state.practicePart);
+    partQuestionNumbers().forEach((number) => state.visibleAnswerQuestions.delete(number));
+  }
+  refreshAnswerVisibility();
+}
+
+function toggleQuestionAnswer(number) {
+  if (state.visibleAnswerQuestions.has(number)) state.visibleAnswerQuestions.delete(number);
+  else state.visibleAnswerQuestions.add(number);
+  refreshAnswerVisibility();
 }
 
 function togglePartAnswers() {
@@ -505,10 +540,28 @@ function markPartAnswers() {
 function showAnswerAnalysis(number, anchor) {
   const dialog = document.querySelector("[data-answer-analysis-dialog]");
   if (!dialog) return;
+  window.clearTimeout(analysisHideTimer);
   const analysis = analysisFor(number);
+  const timing = PRACTICE_ONE_TIMINGS.questions[String(number)] || PRACTICE_ONE_TIMINGS.questions[number] || {};
   dialog.querySelector("[data-analysis-dialog-number]").textContent = `第 ${number} 題`;
   dialog.querySelector("[data-analysis-dialog-answer]").textContent = analysis.answer;
   dialog.querySelector("[data-analysis-dialog-copy]").textContent = analysis.explanation;
+  const audioButton = dialog.querySelector("[data-analysis-dialog-audio]");
+  if (audioButton) {
+    audioButton.dataset.analysisDialogAudio = String(number);
+    audioButton.disabled = !Number.isFinite(Number(timing.time));
+  }
+  const bookmarkButton = dialog.querySelector("[data-analysis-dialog-bookmark]");
+  if (bookmarkButton) {
+    const itemKey = `practice1:analysis:q${number}`;
+    bookmarkButton.dataset.bookmarkItem = itemKey;
+    bookmarkButton.dataset.bookmarkTitle = `IELTS Listening Practice 1 · 第 ${number} 題解析`;
+    bookmarkButton.dataset.bookmarkDetail = analysis.explanation;
+    bookmarkButton.dataset.bookmarkPart = String(timing.part || state.practicePart);
+    bookmarkButton.dataset.bookmarkAnchor = `analysis-q${number}`;
+    bookmarkButton.dataset.bookmarked = String(state.listeningBookmarks.has(itemKey));
+    bookmarkButton.textContent = state.listeningBookmarks.has(itemKey) ? "★ 已收藏解析" : "☆ 收藏解析";
+  }
   dialog.hidden = false;
   const rect = anchor.getBoundingClientRect();
   const width = Math.min(480, window.innerWidth - 24);
@@ -517,13 +570,29 @@ function showAnswerAnalysis(number, anchor) {
   dialog.style.top = `${Math.max(12, Math.min(window.innerHeight - dialog.offsetHeight - 12, rect.bottom + 8))}px`;
 }
 
+function hideAnswerAnalysis() {
+  window.clearTimeout(analysisHideTimer);
+  const dialog = document.querySelector("[data-answer-analysis-dialog]");
+  if (dialog) dialog.hidden = true;
+}
+
+function scheduleAnswerAnalysisHide() {
+  window.clearTimeout(analysisHideTimer);
+  analysisHideTimer = window.setTimeout(hideAnswerAnalysis, 140);
+}
+
 function bindAnswerAnalysisDialogs() {
   const dialog = document.querySelector("[data-answer-analysis-dialog]");
   elements.workspace.querySelectorAll("[data-official-answer]").forEach((button) => {
     button.addEventListener("mouseenter", () => showAnswerAnalysis(Number(button.dataset.analysisQ), button));
     button.addEventListener("focus", () => showAnswerAnalysis(Number(button.dataset.analysisQ), button));
+    button.addEventListener("mouseleave", scheduleAnswerAnalysisHide);
+    button.addEventListener("blur", scheduleAnswerAnalysisHide);
   });
-  dialog?.addEventListener("mouseleave", () => { dialog.hidden = true; });
+  if (dialog) {
+    dialog.onmouseenter = () => window.clearTimeout(analysisHideTimer);
+    dialog.onmouseleave = hideAnswerAnalysis;
+  }
 }
 
 function bindTranscriptSync(partNumber) {
@@ -531,20 +600,15 @@ function bindTranscriptSync(partNumber) {
   const host = elements.workspace.querySelector(`[data-transcript-part="${partNumber}"]`);
   if (!audio || !host) return;
   const lines = [...host.querySelectorAll("[data-transcript-line]")];
-  const weights = lines.map((line) => {
-    const text = line.querySelector(".transcript-line__top > span")?.textContent || "";
-    const words = (text.match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g) || []).length;
-    const punctuationPause = (text.match(/[.!?]/g) || []).length * 0.75 + (text.match(/[,;:–—]/g) || []).length * 0.25;
-    const readingPause = /time to (?:look at|check) questions/i.test(text) ? 22 : 0;
-    const sectionPause = /that is the end of part/i.test(text) ? 7 : 0;
-    return Math.max(1.8, words / 2.65 + punctuationPause + readingPause + sectionPause);
-  });
-  const cumulative = weights.reduce((list, weight) => [...list, (list.at(-1) || 0) + weight], []);
-  const total = cumulative.at(-1) || 1;
+  const timingPart = PRACTICE_ONE_TIMINGS.parts[String(partNumber)] || PRACTICE_ONE_TIMINGS.parts[partNumber] || {};
+  const authoredLines = Array.isArray(timingPart.lines) && timingPart.lines.length === lines.length ? timingPart.lines : [];
   const activate = () => {
-    if (!Number.isFinite(audio.duration) || audio.duration <= 0) return;
-    const progress = audio.currentTime / audio.duration * total;
-    const index = Math.max(0, cumulative.findIndex((end) => progress <= end));
+    if (!state.syncHighlights || !authoredLines.length) {
+      lines.forEach((line) => line.classList.remove("is-current"));
+      return;
+    }
+    const time = Number(audio.currentTime) || 0;
+    const index = authoredLines.findIndex((range) => time >= Number(range.start) && time <= Number(range.end));
     lines.forEach((line, lineIndex) => line.classList.toggle("is-current", lineIndex === index));
   };
   audio.addEventListener("timeupdate", activate);
@@ -552,8 +616,8 @@ function bindTranscriptSync(partNumber) {
     const line = event.target.closest("[data-transcript-line]");
     if (!line || event.target.closest("[data-bookmark-word], [data-bookmark-item]")) return;
     const index = Number(line.dataset.transcriptLine);
-    const startWeight = index ? cumulative[index - 1] : 0;
-    if (Number.isFinite(audio.duration)) audio.currentTime = startWeight / total * audio.duration;
+    const startTime = Number(authoredLines[index]?.start);
+    if (Number.isFinite(startTime)) audio.currentTime = startTime;
     audio.play().catch(() => {});
   });
   host.addEventListener("keydown", (event) => {
@@ -562,6 +626,27 @@ function bindTranscriptSync(partNumber) {
       event.target.click();
     }
   });
+}
+
+function updateTranscriptSyncControls() {
+  elements.workspace.querySelectorAll("[data-toggle-transcript-sync]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(state.syncHighlights));
+    button.textContent = `同步高亮：${state.syncHighlights ? "開" : "關"}`;
+  });
+  if (!state.syncHighlights) elements.workspace.querySelectorAll("[data-transcript-line]").forEach((line) => line.classList.remove("is-current"));
+}
+
+function playQuestionCue(number) {
+  const timing = PRACTICE_ONE_TIMINGS.questions[String(number)] || PRACTICE_ONE_TIMINGS.questions[number];
+  if (!timing) return showToast("這題的錄音時間仍在整理中。");
+  const partNumber = Number(timing.part);
+  if (partNumber !== state.practicePart) renderPracticePart(partNumber);
+  const audio = document.querySelector(`audio[data-audio-part="${partNumber}"]`);
+  if (!audio) return showToast("暫時未能載入這一段錄音。");
+  audio.currentTime = Math.max(0, Number(timing.time) - 15);
+  audio.playbackRate = state.speed;
+  audio.play().catch(() => showToast("請先在頁面中按一下，再開始播放。"));
+  updateFloatingAudio(audio);
 }
 
 function formatAudioTime(value) {
@@ -654,18 +739,26 @@ document.addEventListener("click", (event) => {
   }
   else if (button.matches("[data-check-part]")) markPartAnswers();
   else if (button.matches("[data-show-part-answers]")) togglePartAnswers();
-  else if (button.matches("[data-analysis-dialog-close]")) button.closest("[data-answer-analysis-dialog]").hidden = true;
+  else if (button.matches("[data-reveal-answer-q]")) toggleQuestionAnswer(Number(button.dataset.revealAnswerQ));
+  else if (button.matches("[data-toggle-transcript-sync]")) {
+    state.syncHighlights = !state.syncHighlights;
+    updateTranscriptSyncControls();
+    selectedAudio()?.dispatchEvent(new Event("timeupdate"));
+    showToast(`錄音稿同步高亮已${state.syncHighlights ? "開啟" : "關閉"}。`);
+  }
+  else if (button.matches("[data-analysis-dialog-close]")) hideAnswerAnalysis();
+  else if (button.matches("[data-analysis-dialog-audio]")) playQuestionCue(Number(button.dataset.analysisDialogAudio));
   else if (button.matches("[data-floating-toggle]")) {
     const audio = selectedAudio();
     if (audio?.paused) audio.play().catch(() => showToast("請先在頁面中按一下，再開始播放。")); else audio?.pause();
   }
   else if (button.matches("[data-floating-back]")) {
     const audio = selectedAudio();
-    if (audio) audio.currentTime = Math.max(0, audio.currentTime - 10);
+    if (audio) audio.currentTime = Math.max(0, audio.currentTime - 5);
   }
   else if (button.matches("[data-floating-forward]")) {
     const audio = selectedAudio();
-    if (audio) audio.currentTime = Math.min(Number.isFinite(audio.duration) ? audio.duration : audio.currentTime + 10, audio.currentTime + 10);
+    if (audio) audio.currentTime = Math.min(Number.isFinite(audio.duration) ? audio.duration : audio.currentTime + 5, audio.currentTime + 5);
   }
   else if (button.dataset.openSection) openSection(button.dataset.openSection);
   else if (button.dataset.openPractice) openPractice(Number(button.dataset.openPractice));

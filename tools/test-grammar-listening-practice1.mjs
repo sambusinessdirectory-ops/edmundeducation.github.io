@@ -54,6 +54,7 @@ assert.match(grammarSystem, /learning_portal_set_bookmark/);
 const listening = loadWindowData("listening-practice-1-data.js", "EDMUND_IELTS_LISTENING_PRACTICE_1");
 const transcript = loadWindowData("listening-practice-1-transcript.js", "EDMUND_IELTS_LISTENING_PRACTICE_1_TRANSCRIPT");
 const analysis = loadWindowData("listening-practice-1-analysis.js", "EDMUND_IELTS_LISTENING_PRACTICE_1_ANALYSIS");
+const timings = loadWindowData("listening-practice-1-timings.js", "EDMUND_IELTS_LISTENING_PRACTICE_1_TIMINGS");
 assert.equal(listening.parts.length, 4);
 const questionNumbers = listening.parts.flatMap((part) => part.questions.flatMap((question) => question.numbers || [question.number]));
 assert.deepEqual(Array.from(questionNumbers), Array.from({ length: 40 }, (_, index) => index + 1));
@@ -67,9 +68,14 @@ assert.deepEqual(Array.from(answers), [
 for (const part of [1, 2, 3, 4]) {
   assert(Array.isArray(transcript[String(part)]) && transcript[String(part)].length >= 30, `Part ${part} transcript is incomplete`);
   assert(transcript[String(part)].every((row) => row.en.trim() && row.zh.trim()), `Part ${part} transcript must be bilingual`);
+  assert.equal(timings.parts[String(part)].lines.length, transcript[String(part)].length, `Part ${part} needs one authored timing per transcript line`);
+  assert(timings.parts[String(part)].coverage >= 0.95, `Part ${part} authored alignment coverage must be at least 95%`);
+  assert(timings.parts[String(part)].lines.every((line) => Number.isFinite(line.start) && Number.isFinite(line.end) && line.end >= line.start), `Part ${part} timing ranges must be valid`);
 }
 assert.deepEqual(Object.keys(analysis).map(Number), Array.from({ length: 40 }, (_, index) => index + 1));
 assert(Object.values(analysis).every((item) => item.answer && item.explanation.length >= 45), "All 40 answers need substantive PDF-sourced analysis");
+assert.deepEqual(Object.keys(timings.questions).map(Number), Array.from({ length: 40 }, (_, index) => index + 1));
+assert(Object.values(timings.questions).every((item) => item.part >= 1 && item.part <= 4 && item.time > 15), "All 40 answers need playable 15-second lead-in timestamps");
 
 const listeningSystem = read("listening-system.js");
 assert.match(listeningSystem, /bindTranscriptSync/);
@@ -82,10 +88,24 @@ assert.match(listeningSystem, /data-bookmark-item=.*transcript/);
 assert.match(listeningSystem, /practice1:analysis:q/);
 assert.match(listeningSystem, /const TEXT_SCALES = Object\.freeze\(\[0\.5, 0\.75, 1, 1\.25, 1\.5, 1\.75, 2, 2\.25, 2\.5, 2\.75, 3\]\)/);
 assert.match(listeningSystem, /data-floating-seek/);
+assert.match(listeningSystem, /PRACTICE_ONE_TIMINGS/);
+assert.match(listeningSystem, /data-toggle-transcript-sync/);
+assert.match(listeningSystem, /data-reveal-answer-q/);
+assert.match(listeningSystem, /data-analysis-dialog-audio/);
+assert.match(listeningSystem, /data-analysis-dialog-bookmark/);
+assert.match(listeningSystem, /audio\.currentTime - 5/);
+assert.match(listeningSystem, /audio\.currentTime \+ 5/);
+assert.match(listeningSystem, /Number\(timing\.time\) - 15/);
 assert.match(listeningSystem, /listening-translated-blank/);
 assert.match(listeningSystem, /rawText\.split\(\/\(\\\{\\\{\\d\+\\\}\\\}\)\//, "Part 1 must split answer tokens before adding word-bookmark HTML");
 assert.match(listeningSystem, /segment\.match\(\/\^\\\{\\\{\(\\d\+\)\\\}\\\}\$\//, "Part 1 answer tokens must be recognized only as complete text segments");
 assert.doesNotMatch(listeningSystem, /wordButtons\([^\n]+\)\.replace\(\/\\\{\\\{/, "Part 1 must never replace answer tokens inside generated bookmark attributes");
+
+const listeningHtml = read("listening-system.html");
+assert.match(listeningHtml, /listening-practice-1-timings\.js/);
+assert.match(listeningHtml, /−5 秒/);
+assert.match(listeningHtml, /\+5 秒/);
+assert.match(listeningHtml, /由答案前 15 秒播放/);
 
 const nightNav = read("shared-system-nav.js");
 assert.match(nightNav, /assets\/eddy-night-invitation\.webp/);
