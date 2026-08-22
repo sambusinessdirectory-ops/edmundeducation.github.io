@@ -1,3 +1,5 @@
+const GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send";
+
 export default {
   async fetch(request, env) {
     try {
@@ -513,7 +515,7 @@ async function startGmailOAuth(request, env) {
     client_id: env.GOOGLE_OAUTH_CLIENT_ID,
     redirect_uri: env.GOOGLE_OAUTH_REDIRECT_URI,
     response_type: "code",
-    scope: "openid email https://www.googleapis.com/auth/gmail.send",
+    scope: `openid email ${GMAIL_SEND_SCOPE}`,
     access_type: "offline",
     prompt: "consent select_account",
     include_granted_scopes: "true",
@@ -558,6 +560,10 @@ async function finishGmailOAuth(request, env) {
     });
     const tokens = await tokenResponse.json();
     if (!tokenResponse.ok || !tokens.access_token || !tokens.refresh_token) throw new Error("TOKEN_EXCHANGE_FAILED");
+    const grantedScopes = new Set(String(tokens.scope || "").split(/\s+/).filter(Boolean));
+    if (tokens.scope && !grantedScopes.has(GMAIL_SEND_SCOPE)) {
+      return Response.redirect(siteUrl(env, { gmail: "error", reason: "missing_gmail_send" }), 302);
+    }
     const profileResponse = await fetch("https://openidconnect.googleapis.com/v1/userinfo", { headers: { Authorization: `Bearer ${tokens.access_token}` } });
     const profile = await profileResponse.json();
     const connectedEmail = String(profile?.email || "").toLowerCase();
@@ -751,7 +757,19 @@ async function sendGmailJob(env, job) {
   });
   const payload = await response.json();
   if (!response.ok || !payload.id) {
-    const error = new Error(`GMAIL_SEND_FAILED_${response.status}`);
+    const providerStatus = String(payload?.error?.status || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 80);
+    const providerReason = String(payload?.error?.errors?.[0]?.reason || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 80);
+    const providerMessage = String(payload?.error?.message || "")
+      .replace(/[\r\n\t]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 400);
+    const diagnostic = [
+      `GMAIL_SEND_FAILED_${response.status}`,
+      providerStatus,
+      providerReason
+    ].filter(Boolean).join("_");
+    const error = new Error(providerMessage ? `${diagnostic}: ${providerMessage}` : diagnostic);
     error.retry = response.status === 429 || response.status >= 500;
     throw error;
   }

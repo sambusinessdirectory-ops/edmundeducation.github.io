@@ -295,7 +295,13 @@ async function init() {
     const gmail = parameters.get("gmail");
     const reason = parameters.get("reason");
     if (gmail === "connected") setStatus("Gmail 授權完成，可以開始傳送。");
-    if (gmail === "error") setStatus(reason === "account_mismatch" ? "授權的 Google 帳戶與寄件地址不相同，請用正確帳戶重試。" : "Gmail 授權未完成，請重試。", true);
+    if (gmail === "error") {
+      const errorMessages = {
+        account_mismatch: "授權的 Google 帳戶與寄件地址不相同，請用正確帳戶重試。",
+        missing_gmail_send: "Google 未授予傳送電郵權限。請重新連接，並勾選「代您傳送電郵」權限。"
+      };
+      setStatus(errorMessages[reason] || "Gmail 授權未完成，請重試。", true);
+    }
     if (gmail) history.replaceState(null, "", location.pathname);
   } catch (error) { gate.textContent = error.message || "未能載入。"; }
 }

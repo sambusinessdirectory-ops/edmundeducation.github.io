@@ -52,6 +52,7 @@ assert.match(contentJs, /<option value="once">一次性發送<\/option>/);
 assert.match(contentJs, /data-signature/);
 assert.match(contentJs, /accept="application\/pdf,\.pdf"/);
 assert.match(contentJs, /\/v1\/admin\/gmail\/oauth\/start/);
+assert.match(contentJs, /missing_gmail_send/);
 assert.match(contentJs, /\/send-once/);
 assert.match(contentJs, /schedule_admin_email_designer_snapshot/);
 assert.match(contentJs, />全選</);
@@ -61,13 +62,16 @@ assert.doesNotMatch(contentJs, /GOOGLE_OAUTH_CLIENT_SECRET|GMAIL_TOKEN_ENCRYPTIO
 
 assert.match(worker, /async scheduled\(_event, env, ctx\)/);
 assert.match(worker, /https:\/\/accounts\.google\.com\/o\/oauth2\/v2\/auth/);
-assert.match(worker, /openid email https:\/\/www\.googleapis\.com\/auth\/gmail\.send/);
+assert.match(worker, /GMAIL_SEND_SCOPE = "https:\/\/www\.googleapis\.com\/auth\/gmail\.send"/);
+assert.match(worker, /grantedScopes\.has\(GMAIL_SEND_SCOPE\)/);
 assert.match(worker, /AES-GCM/);
 assert.match(worker, /https:\/\/gmail\.googleapis\.com\/gmail\/v1\/users\/me\/messages\/send/);
 assert.match(worker, /Content-Disposition: attachment/);
 assert.match(worker, /Content-ID:/);
 assert.match(worker, /PDF attachments must be valid/);
 assert.match(worker, /Authorization: `Bearer \$\{accessToken\}`/);
+assert.match(worker, /payload\?\.error\?\.errors\?\.\[0\]\?\.reason/);
+assert.match(worker, /GMAIL_SEND_FAILED_\$\{response\.status\}/);
 assert.match(wrangler, /"crons": \["\*\/5 \* \* \* \*"\]/);
 assert.match(workerReadme, /wrangler secret put GMAIL_TOKEN_ENCRYPTION_KEY/);
 assert.match(workerReadme, /In production/);
